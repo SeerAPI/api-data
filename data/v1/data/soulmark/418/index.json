@@ -1,0 +1,34 @@
+{
+  "id": 418,
+  "desc": "每回合随机吸取对手2项属性-1，并将该属性附加给自己(boss免疫",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3065,
+      "url": "https://api.seerapi.com/v1/pet/3065/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 738,
+      "url": "https://api.seerapi.com/v1/eid_effect/738/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3d352c1"
+}

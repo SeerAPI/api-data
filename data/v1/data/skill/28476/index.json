@@ -1,0 +1,50 @@
+{
+  "id": 28476,
+  "name": "冰结之气",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "对手的速度降低了很多；对手被寒意所包围",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手速度等级-2",
+      "args": [
+        4,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "80%令对手冻伤，若对手已处于冻伤状态则将此状态刷新至3回合",
+      "args": [
+        80,
+        5,
+        5,
+        3
+      ],
+      "effect": {
+        "id": 1586,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1586/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6aaeb12b"
+}

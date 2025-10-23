@@ -1,0 +1,45 @@
+{
+  "id": 1777,
+  "desc": "回合开始时若自身防御、特防能力提升达到12段则直到下场自身造成的攻击伤害提升50%，受到的攻击伤害减少25%|自身先出手时当回合对手无法恢复体力，后出手时吸取对手能力提升状态|自身被击败后消除双方所处的回合类效果、异常状态，每消除1项异常状态对手随机1项技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身防御、特防能力提升达到12段则直到下场自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%，受到的<b>攻击伤害<color=#64F9FA></b>减少</color>25% \r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时当回合对手<color=#64F9FA>无法恢复体力</color>，后出手时<color=#64F9FA>吸取</color>对手<b>能力提升状态</b> \r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后<color=#64F9FA>消除</color>双方所处的<b>回合类效果</b>、<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>每消除1项异常状态对手随机1项技能<b>PP值<color=#64F9FA></b>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4567,
+      "url": "https://api.seerapi.com/v1/pet/4567/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      12,
+      50,
+      25,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2170,
+      "url": "https://api.seerapi.com/v1/eid_effect/2170/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fe0885c9"
+}

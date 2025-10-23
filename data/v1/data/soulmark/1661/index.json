@@ -1,0 +1,39 @@
+{
+  "id": 1661,
+  "desc": "战斗阶段结束时随机附加1种弱化类异常状态；回合开始时若对手处于异常状态则当回合自身造成的攻击伤害随机提升25%~75%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时随机附加1种弱化类<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于异常状态则当回合自身造成的<b>攻击伤害</b>随机<color=#64F9FA>提升</color>25%~75%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4446,
+      "url": "https://api.seerapi.com/v1/pet/4446/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      25,
+      75,
+      1
+    ],
+    "effect": {
+      "id": 2046,
+      "url": "https://api.seerapi.com/v1/eid_effect/2046/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b49f6786"
+}

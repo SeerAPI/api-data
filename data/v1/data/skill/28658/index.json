@@ -1,0 +1,37 @@
+{
+  "id": 28658,
+  "name": "剑魄共鸣",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "被火焰所缠绕",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内若受到攻击则有100%概率令对手烧伤",
+      "args": [
+        4,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/164/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "acf4fd8c"
+}

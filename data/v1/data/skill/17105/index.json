@@ -1,0 +1,35 @@
+{
+  "id": 17105,
+  "name": "地裂山摇",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下回合若受到的伤害大于200，则恢复自身所有体力 ",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 507,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/507/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7e6a0536"
+}

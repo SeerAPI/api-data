@@ -1,0 +1,48 @@
+{
+  "id": 36291,
+  "name": "热忱凝铸",
+  "power": 90,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 42,
+    "url": "https://api.seerapi.com/v1/element_type_combination/42/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1700,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1700/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过200点，若对手不处于能力提升状态则3回合内对手所有体力恢复效果减少50%",
+      "args": [
+        3,
+        200,
+        3,
+        50
+      ],
+      "effect": {
+        "id": 1897,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1897/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d97a04c2"
+}

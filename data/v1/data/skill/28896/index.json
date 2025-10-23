@@ -1,0 +1,67 @@
+{
+  "id": 28896,
+  "name": "星光·防护罩",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；开始免疫能力下降状态了；免疫下次对手的非火系攻击；受到的固定伤害、百分比伤害减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "免疫下1次对手的攻击，对手使用3系攻击时此效果失效",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 2239,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2239/"
+      }
+    },
+    {
+      "info": "4回合内自身受到的固定伤害和百分比伤害减少60%",
+      "args": [
+        4,
+        60
+      ],
+      "effect": {
+        "id": 1475,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1475/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "60a47940"
+}

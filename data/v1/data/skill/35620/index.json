@@ -1,0 +1,64 @@
+{
+  "id": 35620,
+  "name": "圣怒·生杀予夺",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 115,
+    "url": "https://api.seerapi.com/v1/element_type_combination/115/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手当前被处决精灵体力高于最大体力的1/2则为己方场上附加1柄圣剑",
+      "args": [],
+      "effect": {
+        "id": 1763,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1763/"
+      }
+    },
+    {
+      "info": "对手当前不存在被处决精灵或被处决精灵体力低于最大体力的1/2则下回合重新发动处决",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1764,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1764/"
+      }
+    },
+    {
+      "info": "附加自身最大体力25%的百分比伤害并恢复等量体力值，若对手存在处决印记则转变为等量的真实伤害",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 1765,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1765/"
+      }
+    },
+    {
+      "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 897,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/897/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7e560ea9"
+}

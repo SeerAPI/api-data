@@ -1,0 +1,32 @@
+{
+  "id": 300045,
+  "name": "强效防御能量珠",
+  "desc": "对战时增加精灵防御30，使用次数20次。注意：赛尔间对战无效",
+  "idx": 1046,
+  "use_times": 20,
+  "item": {
+    "id": 300045,
+    "url": "https://api.seerapi.com/v1/item/300045/"
+  },
+  "effect": {
+    "effect_args": [
+      2,
+      30
+    ],
+    "effect": {
+      "id": 26,
+      "url": "https://api.seerapi.com/v1/eid_effect/26/"
+    }
+  },
+  "ability_buff": {
+    "atk": 0,
+    "def": 30,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 0,
+    "percent": false,
+    "total": 30
+  },
+  "hash": "d9e5a95b"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 35221,
+  "name": "百合之馨",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 112,
+    "url": "https://api.seerapi.com/v1/element_type_combination/112/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态，反转成功则使对手随机1个技能PP归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 907,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/907/"
+      }
+    },
+    {
+      "info": "2回合内免疫大于300的攻击伤害",
+      "args": [
+        2,
+        300
+      ],
+      "effect": {
+        "id": 741,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/741/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "948dabc7"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1890,
+  "desc": "回合开始时，若对手处于冻伤则令对手全属性-1，若对手处于能力下降状态则额外50%令对手冰封，触发成功则自身全属性+1，未触发则2回合内自身攻击技能必定打出致命一击|自身使用攻击技能后，若对手处于异常状态则随机1个技能PP值归0，若对手处于能力下降状态则吸取对手最大体力的30%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤则令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则额外50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>触发成功则自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则2回合内自身攻击技能<color=#64F9FA>必定打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则随机1个技能PP值归0\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则<color=#64F9FA>吸取</color>对手最大体力的30%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4688,
+      "url": "https://api.seerapi.com/v1/pet/4688/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      1,
+      2,
+      1,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 2290,
+      "url": "https://api.seerapi.com/v1/eid_effect/2290/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "aa5545ef"
+}

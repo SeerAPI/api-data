@@ -1,0 +1,45 @@
+{
+  "id": 1036,
+  "desc": "回合开始时若自身体力高于对手则100%令对手全属性-1，若自身体力低于对手则50%令对手全属性-1；自身死亡时，50%令对手进入害怕、麻痹、疲惫3种异常状态中的1种，未触发则消除对手回合类效果（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3754,
+      "url": "https://api.seerapi.com/v1/pet/3754/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      1,
+      50,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1330,
+      "url": "https://api.seerapi.com/v1/eid_effect/1330/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f9fe7c3e"
+}

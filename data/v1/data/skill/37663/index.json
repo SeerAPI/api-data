@@ -1,0 +1,47 @@
+{
+  "id": 37663,
+  "name": "山峦之覆",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/element_type_combination/7/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手疲惫",
+      "args": [
+        50,
+        7
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    },
+    {
+      "info": "100%令对手全属性-1",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c0b8ee1e"
+}

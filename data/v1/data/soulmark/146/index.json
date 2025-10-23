@@ -1,0 +1,28 @@
+{
+  "id": 146,
+  "desc": "每次使用攻击技能都有50%概率降低对手1/5最大HP（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2770,
+      "url": "https://api.seerapi.com/v1/pet/2770/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      500,
+      5
+    ],
+    "effect": {
+      "id": 351,
+      "url": "https://api.seerapi.com/v1/eid_effect/351/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9269ba8c"
+}

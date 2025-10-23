@@ -1,0 +1,56 @@
+{
+  "id": 37356,
+  "name": "调和式·进化律",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 122,
+    "url": "https://api.seerapi.com/v1/element_type_combination/122/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方能力提升状态，消除任意一方成功则自身免疫下1次异常状态且令对手随机2个技能PP值归零",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1419,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1419/"
+      }
+    },
+    {
+      "info": "附加自身攻击值与速度值总和10%的百分比伤害，每次使用增加15%，最高40%",
+      "args": [
+        10,
+        15,
+        40
+      ],
+      "effect": {
+        "id": 1574,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1574/"
+      }
+    },
+    {
+      "info": "令德莱赫默进行一次额外行动",
+      "args": [],
+      "effect": {
+        "id": 2154,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2154/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "59e3811b"
+}

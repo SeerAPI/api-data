@@ -1,0 +1,49 @@
+{
+  "id": 1045,
+  "desc": "自身攻击技能命中对手后50%的概率令对手害怕，未触发则{吸取}对手最大{体力}的1/4且下次害怕的概率提升10%；每次击败对手则有50%的概率令对手下只登场精灵进入害怕状态，未触发则令对手全属性-1且自身全属性+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中对手后50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手最大体力的1/4且下次害怕触发概率提升10%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时50%令对方下只出战精灵害怕，未触发则令对手全属性-1且自身全属性+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3766,
+      "url": "https://api.seerapi.com/v1/pet/3766/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      4,
+      10,
+      50,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1344,
+      "url": "https://api.seerapi.com/v1/eid_effect/1344/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1952,
+    "url": "https://api.seerapi.com/v1/soulmark/1952/"
+  },
+  "from": null,
+  "hash": "47d1920b"
+}

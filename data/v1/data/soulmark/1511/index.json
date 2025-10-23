@@ -1,0 +1,48 @@
+{
+  "id": 1511,
+  "desc": "当回合若自身后出手则战斗阶段结束时令自身攻击+1、速度+1；当回合若自身先出手则技能命中后附加对手最大体力1/3的百分比伤害，若自身连续2次出手均为先出手则攻击必定打出致命一击，若自身连续3次出手均为先出手则使用技能时额外令对手疲惫（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身后出手则战斗阶段结束时令自身攻击+1、速度+1\r\n<indent=16><sprite=3><indent=32>若自身先出手则技能命中后<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>若自身连续2次出手均为先出手则攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>若自身连续3次出手均为先出手则使用技能时额外<color=#64F9FA>令对手疲惫</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4290,
+      "url": "https://api.seerapi.com/v1/pet/4290/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      3,
+      2,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1873,
+      "url": "https://api.seerapi.com/v1/eid_effect/1873/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1691,
+    "url": "https://api.seerapi.com/v1/soulmark/1691/"
+  },
+  "from": null,
+  "hash": "aa1fab8e"
+}

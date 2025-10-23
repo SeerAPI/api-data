@@ -1,0 +1,38 @@
+{
+  "id": 481,
+  "desc": "每次使用属性技能后在战斗阶段结束时{吸取}对手最大{体力}的1/4；每次使用攻击技能时有25%的概率使对手石化（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3137,
+      "url": "https://api.seerapi.com/v1/pet/3137/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      4,
+      25,
+      1
+    ],
+    "effect": {
+      "id": 787,
+      "url": "https://api.seerapi.com/v1/eid_effect/787/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b4ab3fde"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 514,
+  "desc": "攻击技能命中后立即为自身恢复200点体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3189,
+      "url": "https://api.seerapi.com/v1/pet/3189/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      0
+    ],
+    "effect": {
+      "id": 818,
+      "url": "https://api.seerapi.com/v1/eid_effect/818/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "31970bfd"
+}

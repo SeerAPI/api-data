@@ -1,0 +1,36 @@
+{
+  "id": 32131,
+  "name": "蛛网修复",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 101,
+    "url": "https://api.seerapi.com/v1/element_type_combination/101/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "30%的概率恢复自身体力的1/3",
+      "args": [
+        30,
+        3
+      ],
+      "effect": {
+        "id": 438,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/438/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "306d131f"
+}

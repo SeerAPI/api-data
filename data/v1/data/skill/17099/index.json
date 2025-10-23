@@ -1,0 +1,46 @@
+{
+  "id": 17099,
+  "name": "邪灵波",
+  "power": 85,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手体力不足250则直接秒杀",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    },
+    {
+      "info": "当自身血量少于1/3时先制+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 454,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/454/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8c01d488"
+}

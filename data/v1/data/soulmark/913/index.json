@@ -1,0 +1,47 @@
+{
+  "id": 913,
+  "desc": "每回合有40%的概率闪避对手的攻击技能，自身体力低于对手时概率提升至70%，未触发闪避则自身下1次受到的攻击伤害减少40％；后出手时自身下1回合攻击技能先制+1且造成的伤害提升50%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3619,
+      "url": "https://api.seerapi.com/v1/pet/3619/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      70,
+      1,
+      40,
+      1,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1198,
+      "url": "https://api.seerapi.com/v1/eid_effect/1198/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "63bd7c92"
+}

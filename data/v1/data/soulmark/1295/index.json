@@ -1,0 +1,41 @@
+{
+  "id": 1295,
+  "desc": "自身使用技能50%不消耗PP值，若当前体力低于最大体力的1/3则概率提升至70%；每个战斗阶段结束时恢复自身已损失体力值50%的体力值，若当前体力低于最大体力的1/3则恢复比例提升至70%（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能50%<color=#64F9FA>不消耗PP值</color>，若当前体力低于最大体力的1/3则改为70%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>恢复</color>自身已损失体力值50%的<b>体力</b>，若当前体力低于最大体力的1/3则改为70%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4042,
+      "url": "https://api.seerapi.com/v1/pet/4042/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      70,
+      50,
+      3,
+      70
+    ],
+    "effect": {
+      "id": 1635,
+      "url": "https://api.seerapi.com/v1/eid_effect/1635/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7a393864"
+}

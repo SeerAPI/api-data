@@ -1,0 +1,47 @@
+{
+  "id": 849,
+  "desc": "[帝君之罚]：|首次登场时直接扣除对手所有不在场精灵1/3的最大体力，之后每次登场时触发效果削弱到1/9的最大体力（帝君之罚效果使对手精灵死亡时令其残留1点体力，boss无效）；|[帝君之赐]：|首次登场时恢复己方所有不在场精灵1/3的最大体力，之后每次登场时触发效果削弱到1/9的最大体力（boss有效）；|[帝君之援]：|天启帝君在出战背包时，己方精灵（包括天启帝君）登场时若为满体力则当回合所有技能先制+1（boss有效）；|[帝君之御]：|天生免疫所有固定伤害、百分比伤害以及异常状态，且自身在战斗中将固定伤害和百分比伤害抗性视为100%（boss无效）；|[帝君之阵]：|己方每有一只精灵死亡则自身受到的伤害降低10%，造成的伤害提高10%，天启帝君为最后一只存活精灵时自身回合类效果无法被消除；对手每有一只不在场存活精灵则自身使用技能后恢复1/10最大体力并造成等量百分比伤害，对手为最后一只存活精灵时使对手无法通过自身技能恢复体力（自身受到的伤害降低和造成的伤害提高效果boss有效，其他效果boss无效）；|[帝君之殒]：|天启帝君被击败时，30%概率使对手随机一只不在场精灵死亡（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>帝君之罚：\r\n<indent=16><sprite=3><indent=32>首次登场时直接<color=#64F9FA>扣除</color>对手所有<b>不在场精灵</b>1/3的最大体力，对手精灵死亡时令其<color=#64F9FA>保留</color>1点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>非首次登场时触发效果削弱到1/9的最大体力\r\n\r\n<indent=0><sprite=0><indent=16>帝君之赐：\r\n<indent=16><sprite=3><indent=32>首次登场时<color=#64F9FA>恢复</color>己方所有<b>不在场精灵</b>1/3的最大体力\r\n<indent=32><sprite=4><indent=48>非首次登场时触发效果削弱到1/9的最大体力\r\n\r\n<indent=0><sprite=0><indent=16>帝君之援（boss有效）：\r\n<indent=16><sprite=3><indent=32>天启帝君存在于出战背包时，己方精灵登场时若为满体力则当回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>帝君之御：\r\n<indent=16><sprite=3><indent=32>天生<color=#64F9FA>免疫</color>所有<b>固定伤害</b>、<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>天生<color=#64F9FA>免疫</color>所有<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>在战斗中将固定伤害和百分比伤害抗性始终视为100%\r\n\r\n<indent=0><sprite=0><indent=16>帝君之阵：\r\n<indent=16><sprite=3><indent=32>己方每有一只精灵死亡则自身受到的<b>攻击伤害</b><color=#64F9FA>降低</color>10%，造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%\r\n<indent=16><sprite=3><indent=32>天启帝君为最后一只存活精灵时自身<color=#64F9FA>回合类效果无法被消除</color>\r\n<indent=16><sprite=3><indent=32>对方每有一只不在场存活精灵则自身使用技能后<color=#64F9FA>恢复</color>1/10最大体力并造成等量<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>对手为最后一只存活精灵时使对手<color=#64F9FA>无法通过自身技能恢复体力</color>\r\n\r\n<indent=0><sprite=0><indent=16>帝君之殒：\r\n<indent=16><sprite=3><indent=32>天启帝君被击败时，30%概率使对手随机一只<b>不在场精灵</b><color=#64F9FA>死亡</color></b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3550,
+      "url": "https://api.seerapi.com/v1/pet/3550/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      3,
+      1,
+      10,
+      10,
+      10,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 1128,
+      "url": "https://api.seerapi.com/v1/eid_effect/1128/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bfb8387a"
+}

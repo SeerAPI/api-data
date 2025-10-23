@@ -1,0 +1,44 @@
+{
+  "id": 1599,
+  "args_num": 5,
+  "info": "{0}回合内受到攻击则{1}%令对手{2}，未触发则{3}%令对手{4}",
+  "info_formatting_adjustment": "{0}回合内<condition>受到攻击</condition>则{1}%令对手{2}\r\n--><condition>未触发</condition>则{3}%令对手{4}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 4,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 27244,
+      "url": "https://api.seerapi.com/v1/skill/27244/"
+    },
+    {
+      "id": 27270,
+      "url": "https://api.seerapi.com/v1/skill/27270/"
+    },
+    {
+      "id": 27444,
+      "url": "https://api.seerapi.com/v1/skill/27444/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "98eeead7"
+}

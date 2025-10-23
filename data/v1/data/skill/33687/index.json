@@ -1,0 +1,35 @@
+{
+  "id": 33687,
+  "name": "审判之刺",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于异常状态则恢复造成伤害的100%的体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 671,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/671/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4f5aedd1"
+}

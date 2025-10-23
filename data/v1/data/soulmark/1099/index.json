@@ -1,0 +1,40 @@
+{
+  "id": 1099,
+  "desc": "回合开始时，若自身体力低于最大体力的1/2则有50%的概率免疫并反弹当回合受到的攻击伤害；战斗阶段结束时随机恢复自身150-250点体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力低于最大体力的1/2则50%<color=#64F9FA>免疫并反弹</color>当回合受到的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时随机<color=#64F9FA>恢复</color>自身150-250点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3824,
+      "url": "https://api.seerapi.com/v1/pet/3824/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      150,
+      250,
+      1
+    ],
+    "effect": {
+      "id": 1410,
+      "url": "https://api.seerapi.com/v1/eid_effect/1410/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4d2c2010"
+}

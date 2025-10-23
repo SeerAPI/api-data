@@ -1,0 +1,43 @@
+{
+  "id": 33790,
+  "name": "石屹臂冲",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 96,
+    "url": "https://api.seerapi.com/v1/element_type_combination/96/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1220/"
+      }
+    },
+    {
+      "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+      "args": [],
+      "effect": {
+        "id": 811,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/811/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "820cf80d"
+}

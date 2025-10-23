@@ -1,0 +1,66 @@
+{
+  "id": 28886,
+  "name": "终梦·赫星黎明",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使自身下3次可翻倍的支援效果翻倍",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 2236,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2236/"
+      }
+    },
+    {
+      "info": "消除双方能力提升状态及能力下降状态，消除任意一方成功则为自身附加300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1211,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1211/"
+      }
+    },
+    {
+      "info": "消除双方回合类效果，消除任意一方成功则自身下1次攻击技能造成的伤害提升100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1850,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1850/"
+      }
+    },
+    {
+      "info": "对方每比己方多存活一只精灵，威力提升100点",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 2237,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2237/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "381272bd"
+}

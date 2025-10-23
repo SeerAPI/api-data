@@ -1,0 +1,56 @@
+{
+  "id": 33608,
+  "name": "寂·凛风残念",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 34,
+    "url": "https://api.seerapi.com/v1/element_type_combination/34/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则使自身下2回合必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1224,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1224/"
+      }
+    },
+    {
+      "info": "30%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+      "args": [
+        30,
+        2
+      ],
+      "effect": {
+        "id": 1129,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1129/"
+      }
+    },
+    {
+      "info": "当回合未击败对手则减少对方所有技能PP1点",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1285,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1285/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d29716d7"
+}

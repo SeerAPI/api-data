@@ -1,0 +1,67 @@
+{
+  "id": 27567,
+  "name": "万古图腾",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "将自身的能力下降状态双倍反馈给对手；开始免疫并反弹异常状态了；开始反弹对手的致命一击了；自身回合类效果被消除则令对手失明",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身能力下降状态双倍反馈给对手，反馈成功则4回合内免疫能力下降效果",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 1260,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1260/"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内免疫受到的致命一击伤害并直接扣除对手等量体力",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 692,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/692/"
+      }
+    },
+    {
+      "info": "3回合内若自身回合类效果被消除则100%令对手失明",
+      "args": [
+        3,
+        100,
+        20
+      ],
+      "effect": {
+        "id": 1400,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1400/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "16c6a55"
+}

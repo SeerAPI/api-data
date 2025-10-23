@@ -1,0 +1,59 @@
+{
+  "id": 25997,
+  "name": "兽魂觉醒",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；一定回合内受到攻击则使对手害怕且100%令对手随机1个技能PP归零",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内对手使用攻击技能后使对手害怕，未触发则自身恢复最大体力的1/3",
+      "args": [
+        3,
+        6,
+        3
+      ],
+      "effect": {
+        "id": 1053,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1053/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击则100%令对手随机1个技能PP值归零",
+      "args": [
+        3,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 780,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/780/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b45bfa1e"
+}

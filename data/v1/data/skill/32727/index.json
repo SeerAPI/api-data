@@ -1,0 +1,48 @@
+{
+  "id": 32727,
+  "name": "极速穿刺",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 100,
+    "url": "https://api.seerapi.com/v1/element_type_combination/100/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则50%令对手疲惫，未触发则100%令对手石化",
+      "args": [
+        50,
+        7,
+        100,
+        9
+      ],
+      "effect": {
+        "id": 1398,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1398/"
+      }
+    },
+    {
+      "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 101,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/101/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "760993c"
+}

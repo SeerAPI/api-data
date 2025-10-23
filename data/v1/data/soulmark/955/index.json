@@ -1,0 +1,50 @@
+{
+  "id": 955,
+  "desc": "受到的攻击伤害低于300则令对手所有PP值降低1点且自身下1次造成的攻击伤害提升100%，受到的攻击伤害高于300则令对手所有PP值降低2点且自身下1次受到的攻击伤害减少50%；自身所有技能30%令对手睡眠，每回合开始时概率增加10%，最高50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到的攻击伤害低于300则令对手所有技能<b>PP值</b><color=#64F9FA>降低</color>1点且下1次造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=16><sprite=3><indent=32>受到的攻击伤害高于300则令对手所有技能<b>PP值</b><color=#64F9FA>降低</color>2点且自身下1次受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身所有技能30%<color=#64F9FA>令对手睡眠</color>，每回合开始时概率增加10%，最高提升至50% \r\n",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3667,
+      "url": "https://api.seerapi.com/v1/pet/3667/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      1,
+      100,
+      2,
+      50,
+      30,
+      10,
+      50
+    ],
+    "effect": {
+      "id": 1242,
+      "url": "https://api.seerapi.com/v1/eid_effect/1242/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1935,
+    "url": "https://api.seerapi.com/v1/soulmark/1935/"
+  },
+  "from": null,
+  "hash": "1b33663c"
+}

@@ -1,0 +1,44 @@
+{
+  "id": 1610,
+  "desc": "自身使用攻击技能造成的伤害提升50%，若当回合造成的攻击伤害低于300点则战斗阶段结束时附加300点固定伤害且下回合伤害提升效果翻倍，若当回合造成的攻击伤害高于300点则下回合自身攻击技能额外先制+1（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害低于300点则战斗阶段结束时<color=#64F9FA>附加</color>300点<b>固定伤害</b>且下回合上述效果翻倍\r\n<indent=32><sprite=4><indent=48>若当回合造成的攻击伤害高于300点则下回合自身<b>攻击技能</b>额外<b>先制</b>+1",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4391,
+      "url": "https://api.seerapi.com/v1/pet/4391/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      300,
+      300,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1996,
+      "url": "https://api.seerapi.com/v1/eid_effect/1996/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ac3eb4ce"
+}

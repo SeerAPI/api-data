@@ -1,0 +1,43 @@
+{
+  "id": 28248,
+  "name": "皑雪加护",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "先出手时闪避对手当回合攻击技能；后出手闪避对手下回合攻击技能",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若先出手则当回合闪避对手的攻击技能",
+      "args": [],
+      "effect": {
+        "id": 720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/720/"
+      }
+    },
+    {
+      "info": "后出手时使对手下1回合攻击技能MISS",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 721,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/721/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d4421501"
+}

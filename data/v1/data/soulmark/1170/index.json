@@ -1,0 +1,39 @@
+{
+  "id": 1170,
+  "desc": "回合开始时，敌我双方任意一方处于防御和特防能力提升状态时自身当回合有50%的概率免疫异常状态，双方都处于防御和特防能力提升状态时触发概率翻倍；攻击命中后附加自身防御和特防能力总和25%的固定伤害，体力低于最大体力的1/2时效果翻倍（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，敌我双方任意一方处于防御和特防能力提升状态时自身当回合50%<color=#64F9FA>免疫</color>受到的<b>异常状态</b>，双方都处于防御和特防能力提升状态时概率翻倍\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击命中后<color=#64F9FA>附加</color>自身防御值和特防值总和25%的<b>百分比伤害</b>，体力低于最大体力的1/2时效果翻倍",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3902,
+      "url": "https://api.seerapi.com/v1/pet/3902/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      25,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1492,
+      "url": "https://api.seerapi.com/v1/eid_effect/1492/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c3e30c82"
+}

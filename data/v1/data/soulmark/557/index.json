@@ -1,0 +1,37 @@
+{
+  "id": 557,
+  "desc": "回合开始时若自身体力低于1/2，则当回合自身受到攻击时恢复自身最大体力的1/3并造成等量固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3235,
+      "url": "https://api.seerapi.com/v1/pet/3235/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      3
+    ],
+    "effect": {
+      "id": 850,
+      "url": "https://api.seerapi.com/v1/eid_effect/850/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a814e11"
+}

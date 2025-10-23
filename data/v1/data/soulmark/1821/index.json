@@ -1,0 +1,45 @@
+{
+  "id": 1821,
+  "desc": "对手先出手时当回合自身受到的攻击伤害减少20%，若对手为自身天敌则额外包括百分比伤害且效果翻倍；自身先出手时当回合自身造成的攻击伤害提升30%，若自身为对手天敌则额外包括固定伤害且效果翻倍；|每回合结束后自身恢复当前体力的30%，然后若自身体力为满则全属性+1，若自身体力不为满则下回合所有技能先制+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手先出手时当回合自身受到的<b>攻击伤害<color=#64F9FA></b>减少</color>20%，若对手为自身天敌则额外包括<b>百分比伤害</b>且效果翻倍\r\n<indent=16><sprite=3><indent=32>自身先出手时当回合自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>40%，若自身为对手天敌则额外包括<b>固定伤害</b>且效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后自身<color=#64F9FA>恢复</color>当前体力的50%，然后：\r\n<indent=32><sprite=4><indent=48>若自身体力为满则全属性+1\r\n<indent=32><sprite=4><indent=48>若自身体力不为满则所有技能<b>先制</b>+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4613,
+      "url": "https://api.seerapi.com/v1/pet/4613/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      40,
+      50,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2210,
+      "url": "https://api.seerapi.com/v1/eid_effect/2210/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e654a11d"
+}

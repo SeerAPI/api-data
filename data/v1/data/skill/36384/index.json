@@ -1,0 +1,33 @@
+{
+  "id": 36384,
+  "name": "挥剑决",
+  "power": 60,
+  "max_pp": 30,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "惩罚，对方能力等级越高，此技能威力越大",
+      "args": [],
+      "effect": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/35/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "32121eb7"
+}

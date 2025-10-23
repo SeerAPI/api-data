@@ -1,0 +1,53 @@
+{
+  "id": 33510,
+  "name": "青花凌风刃",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 931,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/931/"
+      }
+    },
+    {
+      "info": "未击败对手则自身能力提升状态翻倍",
+      "args": [],
+      "effect": {
+        "id": 964,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/964/"
+      }
+    },
+    {
+      "info": "若自身当前体力高于对手则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 774,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/774/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3f88c62f"
+}

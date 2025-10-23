@@ -1,0 +1,35 @@
+{
+  "id": 30508,
+  "name": "斩尽天下剑",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b66eed2f"
+}

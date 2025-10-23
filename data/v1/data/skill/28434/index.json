@@ -1,0 +1,33 @@
+{
+  "id": 28434,
+  "name": "绮光接天",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始反馈受到的伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "出手时本回合若受到伤害，则将伤害反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 818,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/818/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c46cd898"
+}

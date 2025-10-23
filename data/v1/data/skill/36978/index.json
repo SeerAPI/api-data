@@ -1,0 +1,46 @@
+{
+  "id": 36978,
+  "name": "噼啪火焰",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 963,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/963/"
+      }
+    },
+    {
+      "info": "后出手时使对手焚烬，未触发则附加自身当前体力1/3的百分比伤害",
+      "args": [
+        22,
+        3
+      ],
+      "effect": {
+        "id": 1092,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1092/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a434d0b7"
+}

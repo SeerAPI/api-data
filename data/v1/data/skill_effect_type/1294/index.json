@@ -1,0 +1,37 @@
+{
+  "id": 1294,
+  "args_num": 0,
+  "info": "消除双方能力提升、下降状态和护盾，消除成功随机附加两种异常状态，未触发则回合结束时吸取对手最大体力的1/3",
+  "info_formatting_adjustment": "消除双方能力提升、下降状态和护盾效果\r\n--><condition>消除任意一项成功</condition>则随机附加两种异常状态\r\n---><condition>未触发</condition>则回合结束时吸取对手最大体力的1/3",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 28906,
+      "url": "https://api.seerapi.com/v1/skill/28906/"
+    },
+    {
+      "id": 31614,
+      "url": "https://api.seerapi.com/v1/skill/31614/"
+    },
+    {
+      "id": 38064,
+      "url": "https://api.seerapi.com/v1/skill/38064/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 63508,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63508/"
+    },
+    {
+      "id": 63137,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63137/"
+    },
+    {
+      "id": 30780,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30780/"
+    }
+  ],
+  "hash": "168d9f48"
+}

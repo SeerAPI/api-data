@@ -1,0 +1,32 @@
+{
+  "id": 300030,
+  "name": "防御能量珠",
+  "desc": "增加精灵防御能力20点（赛尔间对战无效）",
+  "idx": 1001,
+  "use_times": 20,
+  "item": {
+    "id": 300030,
+    "url": "https://api.seerapi.com/v1/item/300030/"
+  },
+  "effect": {
+    "effect_args": [
+      1,
+      20
+    ],
+    "effect": {
+      "id": 26,
+      "url": "https://api.seerapi.com/v1/eid_effect/26/"
+    }
+  },
+  "ability_buff": {
+    "atk": 0,
+    "def": 20,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 0,
+    "percent": false,
+    "total": 20
+  },
+  "hash": "cd67b89b"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 38090,
+  "name": "缺缶溢夜光",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "后出手时使对手冰封，未触发则附加自身当前体力1/3的百分比伤害",
+      "args": [
+        15,
+        3
+      ],
+      "effect": {
+        "id": 1092,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1092/"
+      }
+    },
+    {
+      "info": "令己方下只出战精灵抵挡下1次对手的攻击，且出战时100%冻伤",
+      "args": [
+        1,
+        100,
+        5
+      ],
+      "effect": {
+        "id": 1882,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1882/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "940eb864"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1577,
+  "desc": "对手每次先出手则下回合选择使用攻击技能时所有先制效果失效；|自身每次先出手则当回合造成的攻击伤害提升100%；|自身每次先出手且技能命中前对手当前体力高于最大体力的1/2，则{吸取}对手最大{体力}的1/3；|战斗阶段结束时若自身当前体力低于对手则令自身全属性+1且下回合所有技能先制+1|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次先出手则令对手下回合<b>攻击技能</b><color=#64F9FA>先制效果失效</color>\r\n<indent=16><sprite=3><indent=32>自身每次先出手则<b>攻击技能</b>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>出手时若对手体力高于最大体力的1/2则额外<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=32><sprite=4><indent=48>战斗阶段结束时若自身体力低于对手则令自身全属性+1且下回合自身所有技能<b>先制</b>+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4353,
+      "url": "https://api.seerapi.com/v1/pet/4353/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      2,
+      3,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1937,
+      "url": "https://api.seerapi.com/v1/eid_effect/1937/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4e84b8b6"
+}

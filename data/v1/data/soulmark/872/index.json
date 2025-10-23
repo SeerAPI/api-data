@@ -1,0 +1,41 @@
+{
+  "id": 872,
+  "desc": "战斗阶段结束时自身体力低于对手则恢复250点体力，战斗阶段结束时自身体力高于对手则下回合攻击附加250点固定伤害（boss>有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3569,
+      "url": "https://api.seerapi.com/v1/pet/3569/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      250
+    ],
+    "effect": {
+      "id": 1156,
+      "url": "https://api.seerapi.com/v1/eid_effect/1156/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c107416e"
+}

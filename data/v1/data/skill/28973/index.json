@@ -1,0 +1,68 @@
+{
+  "id": 28973,
+  "name": "冰天花葬",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹受到的异常状态了；令对手冰封了；解除了自身的异常状态；开始吸取对手的体力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "100%令对手冰封，未触发则吸取对手能力提升状态",
+      "args": [
+        100,
+        15
+      ],
+      "effect": {
+        "id": 1482,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1482/"
+      }
+    },
+    {
+      "info": "解除自身所处的异常状态，解除成功令对手冻伤",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 2158,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2158/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "args": [
+        4,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 971,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/971/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3a6054e4"
+}

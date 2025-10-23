@@ -1,0 +1,44 @@
+{
+  "id": 1624,
+  "desc": "奇数回合登场3回合内对手恢复体力时恢复效果减少100%（该效果为回合类效果）；|回合开始时，若对手处于回合类效果则当回合双方造成的攻击伤害提升150%，若对手不处于回合类效果则当回合双方造成的攻击伤害减少75%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>奇数回合登场后对手以回合类效果形式3回合内<b>体力恢复效果<color=#64F9FA></b>减少</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于回合类效果则双方造成的<b>攻击伤害<color=#64F9FA></b>提升</color>150%\r\n<indent=32><sprite=4><indent=48>若对手不处于回合类效果则双方造成的<b>攻击伤害<color=#64F9FA></b>减少</color>75%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4405,
+      "url": "https://api.seerapi.com/v1/pet/4405/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      100,
+      150,
+      75,
+      1
+    ],
+    "effect": {
+      "id": 2009,
+      "url": "https://api.seerapi.com/v1/eid_effect/2009/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "273b3bea"
+}

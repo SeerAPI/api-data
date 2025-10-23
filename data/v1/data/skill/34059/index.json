@@ -1,0 +1,37 @@
+{
+  "id": 34059,
+  "name": "悠扬之韵",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 74,
+    "url": "https://api.seerapi.com/v1/element_type_combination/74/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若造成的伤害低于250，则下2回合每回合造成200点固定伤害",
+      "args": [
+        250,
+        2,
+        200
+      ],
+      "effect": {
+        "id": 793,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/793/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "aed909a9"
+}

@@ -1,0 +1,70 @@
+{
+  "id": 25995,
+  "name": "神威无双",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；一定回合内令对手害怕，未触发则减少对手最大体力的1/3；对手的PP消耗更快了；自身受到的攻击伤害减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能则80%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        4,
+        80,
+        6,
+        3
+      ],
+      "effect": {
+        "id": 1255,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1255/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为3倍",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    },
+    {
+      "info": "下1次受到的攻击伤害减少50%",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1265,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1265/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "49c4e210"
+}

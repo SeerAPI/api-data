@@ -1,0 +1,46 @@
+{
+  "id": 36225,
+  "name": "巡逻模式",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 37,
+    "url": "https://api.seerapi.com/v1/element_type_combination/37/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不会低于250",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 135,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/135/"
+      }
+    },
+    {
+      "info": "2回合内每回合被攻击所受到的伤害不超过300",
+      "args": [
+        2,
+        300
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f851f0e4"
+}

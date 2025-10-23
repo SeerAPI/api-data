@@ -1,0 +1,35 @@
+{
+  "id": 197,
+  "desc": "每次使用攻击技能都会使对手烧伤,若对手未烧伤则自身攻击+2",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2863,
+      "url": "https://api.seerapi.com/v1/pet/2863/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      0,
+      2
+    ],
+    "effect": {
+      "id": 616,
+      "url": "https://api.seerapi.com/v1/eid_effect/616/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c574bd56"
+}

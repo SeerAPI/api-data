@@ -1,0 +1,43 @@
+{
+  "id": 37436,
+  "name": "未抵的本相",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 226,
+    "url": "https://api.seerapi.com/v1/element_type_combination/226/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1192,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1192/"
+      }
+    },
+    {
+      "info": "对手处于能力下降状态则威力提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1953,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1953/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7f56244e"
+}

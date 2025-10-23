@@ -1,0 +1,35 @@
+{
+  "id": 16352,
+  "name": "激雷流火斩",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 33,
+    "url": "https://api.seerapi.com/v1/element_type_combination/33/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后50%令对方烧伤",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/12/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3c04c39b"
+}

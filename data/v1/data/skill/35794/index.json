@@ -1,0 +1,47 @@
+{
+  "id": 35794,
+  "name": "归途",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方护盾并附加护盾值50%的百分比伤害，若护盾值总和超过600点则转变为附加护盾值100%的百分比伤害",
+      "args": [
+        50,
+        600,
+        100
+      ],
+      "effect": {
+        "id": 1791,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1791/"
+      }
+    },
+    {
+      "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以50的固定伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1209,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1209/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "107dc5dc"
+}

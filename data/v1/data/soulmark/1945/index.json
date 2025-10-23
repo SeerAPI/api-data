@@ -1,0 +1,33 @@
+{
+  "id": 1945,
+  "desc": "战斗中自身增加100点体力上限|自身进入疲惫状态时恢复自身全部体力值，每场战斗限1次|自身进入烧伤状态每累计3次，重置上述效果|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>增加100点<b>体力上限</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身进入疲惫状态时<color=#64F9FA>恢复</color>自身全部体力值，每场战斗限1次\r\n<indent=16><sprite=3><indent=32>自身进入烧伤状态每累计3次，重置上述效果",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4742,
+      "url": "https://api.seerapi.com/v1/pet/4742/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2359,
+      "url": "https://api.seerapi.com/v1/eid_effect/2359/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7579d10f"
+}

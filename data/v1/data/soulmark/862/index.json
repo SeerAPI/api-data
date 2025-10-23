@@ -1,0 +1,45 @@
+{
+  "id": 862,
+  "desc": "自身攻击技能造成的伤害高于300则100%令对手害怕，自身攻击技能造成的伤害低于300则自身下次所有技能先制+3；每个战斗阶段结束时附加150点固定伤害，自身体力低于对手时固定伤害效果翻倍（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能造成的伤害高于300则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能造成的伤害低于300则自身下次所有技能<b>先制</b>+3\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>每个战斗阶段结束时<color=#64F9FA>附加</color>150点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于对手时固定伤害效果翻倍",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3561,
+      "url": "https://api.seerapi.com/v1/pet/3561/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      100,
+      300,
+      3,
+      150,
+      1
+    ],
+    "effect": {
+      "id": 1146,
+      "url": "https://api.seerapi.com/v1/eid_effect/1146/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "511b039f"
+}

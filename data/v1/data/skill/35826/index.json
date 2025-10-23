@@ -1,0 +1,57 @@
+{
+  "id": 35826,
+  "name": "黯域无界",
+  "power": 15,
+  "max_pp": 20,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 226,
+    "url": "https://api.seerapi.com/v1/element_type_combination/226/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1099,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1099/"
+      }
+    },
+    {
+      "info": "解除自身能力下降状态，解除成功则100%令对手沉默",
+      "args": [
+        100,
+        30
+      ],
+      "effect": {
+        "id": 1711,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1711/"
+      }
+    },
+    {
+      "info": "1回合做5次攻击，自身每存在1层堕恶神祇则攻击次数+1",
+      "args": [
+        5,
+        1
+      ],
+      "effect": {
+        "id": 1795,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1795/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "955312b4"
+}

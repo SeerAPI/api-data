@@ -1,0 +1,40 @@
+{
+  "id": 826,
+  "desc": "回合开始时若自身满体力则当回合受到的攻击伤害减少50%；战斗阶段结束时附加150点固定伤害，每回合增加100点，最高250点，对手处于能力提升状态时固伤效果翻倍（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3519,
+      "url": "https://api.seerapi.com/v1/pet/3519/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      150,
+      100,
+      250,
+      1
+    ],
+    "effect": {
+      "id": 1114,
+      "url": "https://api.seerapi.com/v1/eid_effect/1114/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dd2bcf7"
+}

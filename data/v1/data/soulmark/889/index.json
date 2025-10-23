@@ -1,0 +1,42 @@
+{
+  "id": 889,
+  "desc": "天生免疫害怕状态；自身使用技能时有50%-100%的概率令对手害怕，未触发害怕则消除对手回合类效果且下回合攻击必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3591,
+      "url": "https://api.seerapi.com/v1/pet/3591/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1176,
+      "url": "https://api.seerapi.com/v1/eid_effect/1176/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "910af5d5"
+}

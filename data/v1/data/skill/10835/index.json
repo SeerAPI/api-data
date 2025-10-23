@@ -1,0 +1,36 @@
+{
+  "id": 10835,
+  "name": "震慑风暴",
+  "power": 110,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "20%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "args": [
+        20,
+        1
+      ],
+      "effect": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/39/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4e189284"
+}

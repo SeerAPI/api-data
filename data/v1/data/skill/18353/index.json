@@ -1,0 +1,33 @@
+{
+  "id": 18353,
+  "name": "超远程打击",
+  "power": 80,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 46,
+    "url": "https://api.seerapi.com/v1/element_type_combination/46/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1a90c2fa"
+}

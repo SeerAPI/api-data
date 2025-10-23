@@ -1,0 +1,53 @@
+{
+  "id": 36633,
+  "name": "瓏灵·缃",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 88,
+    "url": "https://api.seerapi.com/v1/element_type_combination/88/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "5回合内免疫所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "随机附加2种异常状态，若自身持有黄色或白色龙鳞则改为附加控制类异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1988,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1988/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b4c19810"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 35417,
+  "name": "巫毒之弑",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果，消除成功则双方流血",
+      "args": [
+        16
+      ],
+      "effect": {
+        "id": 1414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1414/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手疲惫",
+      "args": [
+        0,
+        7
+      ],
+      "effect": {
+        "id": 636,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/636/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c2911cad"
+}

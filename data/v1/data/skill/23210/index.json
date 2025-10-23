@@ -1,0 +1,43 @@
+{
+  "id": 23210,
+  "name": "帝皇之谕",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "变得沉默了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/478/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b6ecc627"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 19895,
+  "name": "冥天妄念破",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 35,
+    "url": "https://api.seerapi.com/v1/element_type_combination/35/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时70%使对手麻痹，未触发则附加250点固定伤害",
+      "args": [
+        70,
+        0,
+        250
+      ],
+      "effect": {
+        "id": 909,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/909/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ff145e52"
+}

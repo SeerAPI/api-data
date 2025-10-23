@@ -1,0 +1,35 @@
+{
+  "id": 31537,
+  "name": "亡魂撕裂",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 30,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后使对手受到500点固定伤害，未命中则自身死亡",
+      "args": [
+        500
+      ],
+      "effect": {
+        "id": 1282,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1282/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "58a4bd76"
+}

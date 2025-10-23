@@ -1,0 +1,50 @@
+{
+  "id": 37142,
+  "name": "萌龙突袭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手为自身天敌时造成的伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 567,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/567/"
+      }
+    },
+    {
+      "info": "技能使用成功时，50%使对手睡眠，若没有触发，则对手攻击-1、防御-1、特攻-1、特防-1",
+      "args": [
+        50,
+        8,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 595,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/595/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ba4ffbbb"
+}

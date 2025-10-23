@@ -1,0 +1,36 @@
+{
+  "id": 15223,
+  "name": "幻影暴风诀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则50%概率令对手疲惫",
+      "args": [
+        50,
+        7
+      ],
+      "effect": {
+        "id": 434,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/434/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d4652b33"
+}

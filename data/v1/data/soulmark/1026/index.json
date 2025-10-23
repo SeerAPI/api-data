@@ -1,0 +1,41 @@
+{
+  "id": 1026,
+  "desc": "自身先出手时{吸取}对手最大{体力}的1/4，自身体力低于最大体力的1/2时转变为{吸取}对手最大{体力}的1/3；自身后出手40%的概率免疫当回合受到的攻击伤害，自身体力低于最大体力的1/2时额外恢复等量体力（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3749,
+      "url": "https://api.seerapi.com/v1/pet/3749/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      4,
+      2,
+      3,
+      40,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1324,
+      "url": "https://api.seerapi.com/v1/eid_effect/1324/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "63b0a40e"
+}

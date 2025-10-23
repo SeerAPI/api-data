@@ -1,0 +1,45 @@
+{
+  "id": 1830,
+  "desc": "对手先出手时当回合自身受到的攻击伤害与百分比伤害减少20%，且自身受到攻击伤害后将自身所处的异常状态转化为流血, 自身先出手时当回合自身造成的攻击伤害与固定伤害提升50%，且自身造成攻击伤害后获得伤害值等量的护盾，最高累计300点|回合结束后，若自身体力为满则全属性+1且恢复所有攻击技能1点PP值，若自身体力不为满则自身下次技能先制+1且若为攻击技能则必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手先出手时当回合：\r\n<indent=32><sprite=4><indent=48>自身受到的<b>攻击伤害</b>与<b>百分比伤害<color=#64F9FA></b>减少</color>20%\r\n<indent=32><sprite=4><indent=48>自身受到攻击伤害后将自身<b>所处的异常状态<color=#64F9FA></b>转化</color>为流血\r\n<indent=16><sprite=3><indent=32>自身先出手时当回合：\r\n<indent=32><sprite=4><indent=48>自身造成的<b>攻击伤害</b>与<b>固定伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=32><sprite=4><indent=48>自身造成攻击伤害后<color=#64F9FA>获得</color>伤害值等量的<b>护盾</b>，最高累计300点\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后：\r\n<indent=32><sprite=4><indent=48>若自身体力为满则全属性+1且<color=#64F9FA>恢复</color>所有攻击技能1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>若自身体力不为满则自身下次技能<b>先制</b>+1且若为<b>攻击技能</b>则必定<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4623,
+      "url": "https://api.seerapi.com/v1/pet/4623/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      50,
+      300,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2221,
+      "url": "https://api.seerapi.com/v1/eid_effect/2221/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7a032972"
+}

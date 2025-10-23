@@ -1,0 +1,49 @@
+{
+  "id": 159,
+  "args_num": 3,
+  "info": "自身体力小于最大值的1/{0}时，{1}%概率令对方{2}",
+  "info_formatting_adjustment": null,
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 12788,
+      "url": "https://api.seerapi.com/v1/skill/12788/"
+    },
+    {
+      "id": 14976,
+      "url": "https://api.seerapi.com/v1/skill/14976/"
+    },
+    {
+      "id": 15437,
+      "url": "https://api.seerapi.com/v1/skill/15437/"
+    },
+    {
+      "id": 36869,
+      "url": "https://api.seerapi.com/v1/skill/36869/"
+    },
+    {
+      "id": 37655,
+      "url": "https://api.seerapi.com/v1/skill/37655/"
+    },
+    {
+      "id": 37701,
+      "url": "https://api.seerapi.com/v1/skill/37701/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "557e7343"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 37490,
+  "name": "恐虐",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 73,
+    "url": "https://api.seerapi.com/v1/element_type_combination/73/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则附加300点固定伤害",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1261,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1261/"
+      }
+    },
+    {
+      "info": "自身处于护盾状态时造成的攻击伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 2100,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2100/"
+      }
+    },
+    {
+      "info": "击败对手后恢复自身最大体力的1/2并全属性+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 2166,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2166/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "277d5c75"
+}

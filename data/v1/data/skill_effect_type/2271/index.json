@@ -1,0 +1,37 @@
+{
+  "id": 2271,
+  "args_num": 4,
+  "info": "{0}回合内若自身能力提升状态被消除或吸取则{1}%令对手{2}，未触发则自身下{3}次攻击必定致命一击",
+  "info_formatting_adjustment": "{0}回合内<condition>若自身能力提升状态</condition>被消除或吸取则{1}%令对手{2}\r\n--><condition>未触发</condition>则自身下{3}次攻击必定致命一击",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28989,
+      "url": "https://api.seerapi.com/v1/skill/28989/"
+    },
+    {
+      "id": 29163,
+      "url": "https://api.seerapi.com/v1/skill/29163/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 8553,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/8553/"
+    }
+  ],
+  "hash": "b2497e98"
+}

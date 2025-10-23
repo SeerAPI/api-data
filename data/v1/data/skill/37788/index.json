@@ -1,0 +1,53 @@
+{
+  "id": 37788,
+  "name": "灯转福来",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取并反转对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 978,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/978/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态，则每次攻击恢复自身体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 489,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/489/"
+      }
+    },
+    {
+      "info": "若对手处于能力下降则使对手随机1个技能的PP归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 912,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/912/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2dd6e3d6"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1394,
+  "desc": "1、首次登场时，弑序神罗根据对方当前存活的精灵数量随机散布致命印记（对手存活精灵＞3个则散落15枚，对手存活精灵≤3个则散落5枚；每个精灵最多存在5枚致命印记，每个技能最多存在3枚致命印记，主动使用技能或对手死亡后移除当前技能致命印记，boss无效)|①技能拥有1枚致命印记时，使用后受到自身最大体力1/6的真实伤害|②技能拥有2枚致命印记时，使用后受到自身最大体力1/5的真实伤害且该技能PP值额外-1|③技能拥有3枚致命印记时，使用后受到自身最大体力1/4的真实伤害且所附加的效果失效|2、弑序神罗在出战背包时，对方每次击败我方一只精灵（不包括自己）则为对手当前精灵附加1层致命裂痕（最多3层），致命裂痕的层数越多，获得的效果越多，持续到对手死亡(boss无效)|1层：受到的伤害提升25%（包括固定伤害、百分比伤害）|2层：造成的伤害减少25%（包括固定伤害、百分比伤害）|3层：所有技能先制-1|3、每次登场首回合免疫异常状态和能力下降状态，若对手当前精灵存在1层致命裂痕则额外免疫致命一击伤害，若对手当前精灵存在2层致命裂痕则额外免疫受到的攻击伤害，若对手当前精灵存在3层致命裂痕则额外免疫受到的攻击技能（boss无效）|4、战斗阶段结束时，若自身体力高于回合开始时则下回合自身回合类效果无法被消除，若自身体力低于回合开始时则下回合所有技能先制+1，若自身体力低于最大体力的1/2则下回合免疫固定伤害和百分比伤害(boss无效)",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场时，弑序神罗根据对方当前存活的精灵数量随机散布<b>致命印记</b>，存活精灵＞3个则散落15枚，存活精灵≤3个则散落5枚\r\n<indent=32><sprite=4><indent=48>每个精灵最多存在5枚致命印记，每个技能最多存在3枚致命印记\r\n<indent=32><sprite=4><indent=48>精灵被击败后移除其附着的致命印记，使用致命印记附着的技能后移除致命印记并触发<b>对应</b>的效果\r\n<indent=32><sprite=4><sprite=4><indent=64>技能附着1枚致命印记时，使用后受到自身最大体力1/6的<b>真实伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>技能附着2枚致命印记时，使用后受到自身最大体力1/5的<b>真实伤害</b>且该技能<b>PP值</b>额外-1\r\n<indent=32><sprite=4><sprite=4><indent=64>技能附着3枚致命印记时，使用后受到自身最大体力1/4的<b>真实伤害</b>且<color=#64F9FA>命中效果失效</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>弑序神罗在出战背包时，对手每次击败我方一只弑序神罗以外的精灵都会被附加1层<b>致命裂痕</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场首回合<color=#64F9FA>免疫</color><b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>若对手存在1层致命裂痕则额外<color=#64F9FA>免疫</color><b>致命一击伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手存在2层致命裂痕则额外<color=#64F9FA>免疫</color>受到的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手存在3层致命裂痕则额外<color=#64F9FA>免疫</color>受到的<b>攻击技能</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=6><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于回合开始时则下回合自身<color=#64F9FA>回合类效果无法被消除</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于回合开始时则下回合所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则下回合<color=#64F9FA>免疫</color><b>固定伤害</b>和<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>致命裂痕（上限3层，下场保留）：\r\n<indent=16><sprite=6><indent=32>持有精灵被击败时清空\r\n<indent=16><sprite=6><indent=32>持有精灵依照层数受到<b>累计</b>的影响：\r\n<indent=32><sprite=4><indent=48>1层：受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>提升</color>25%\r\n<indent=32><sprite=4><indent=48>2层：造成的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=32><sprite=4><indent=48>3层：所有技能<b>先制</b>-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4169,
+      "url": "https://api.seerapi.com/v1/pet/4169/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2
+    ],
+    "effect": {
+      "id": 1746,
+      "url": "https://api.seerapi.com/v1/eid_effect/1746/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1f999c08"
+}

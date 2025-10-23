@@ -1,0 +1,34 @@
+{
+  "id": 649,
+  "desc": "自身每使用一次技能则自身本次战斗中造成的伤害提高15%，最高150%（下场后保留，BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3324,
+      "url": "https://api.seerapi.com/v1/pet/3324/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      15,
+      150,
+      1
+    ],
+    "effect": {
+      "id": 932,
+      "url": "https://api.seerapi.com/v1/eid_effect/932/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ac5eb1ce"
+}

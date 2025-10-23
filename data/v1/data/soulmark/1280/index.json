@@ -1,0 +1,43 @@
+{
+  "id": 1280,
+  "desc": "对手使用攻击技能则50%麻痹，任意1个技能PP值为零时概率提升至100%；对手使用属性技能则50%随机1个技能PP值归零，自身体力高于最大体力的1/2时概率提升至100%；回合开始时，若对手处于麻痹状态自身攻击命中后令对手随机1个技能PP值归零(boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时50%<color=#64F9FA>受到</color>麻痹，对手任意1个技能PP值为零时概率提升至100%\r\n<indent=16><sprite=3><indent=32>对手使用属性技能时50%随机1个技能<b>PP值</b><color=#64F9FA>归零</color>，自身体力高于最大体力的1/2时概率提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于麻痹状态自身攻击命中后令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4022,
+      "url": "https://api.seerapi.com/v1/pet/4022/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      50,
+      1,
+      2,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1616,
+      "url": "https://api.seerapi.com/v1/eid_effect/1616/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8feefa56"
+}

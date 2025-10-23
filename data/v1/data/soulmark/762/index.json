@@ -1,0 +1,45 @@
+{
+  "id": 762,
+  "desc": "回合开始时若双方不处于能力提升状态则自身免疫异常状态；所有攻击技能有50%的概率1回合做1~4次攻击，每多1次攻击则技能威力降低50%，未触发则下回合自身先制+1且攻击必定致命一击（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3448,
+      "url": "https://api.seerapi.com/v1/pet/3448/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      4,
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1048,
+      "url": "https://api.seerapi.com/v1/eid_effect/1048/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b8177965"
+}

@@ -1,0 +1,44 @@
+{
+  "id": 36306,
+  "name": "当当当",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 0,
+  "crit_rate": 0.125,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 494,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/494/"
+      }
+    },
+    {
+      "info": "随机附加200-400点固定伤害，技能无效时减少对手所有技能PP1点",
+      "args": [
+        200,
+        400
+      ],
+      "effect": {
+        "id": 1526,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1526/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7294d994"
+}

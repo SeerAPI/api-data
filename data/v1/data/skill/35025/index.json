@@ -1,0 +1,46 @@
+{
+  "id": 35025,
+  "name": "深海巨压",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 995,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/995/"
+      }
+    },
+    {
+      "info": "随机使自身3项能力值+1，先出手时提升效果翻倍",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 1467,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1467/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fcde7469"
+}

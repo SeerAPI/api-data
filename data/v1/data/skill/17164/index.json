@@ -1,0 +1,43 @@
+{
+  "id": 17164,
+  "name": "核子聚变",
+  "power": 75,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将能力下降状态反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 63,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/63/"
+      }
+    },
+    {
+      "info": "3回合内每回合自身的能力下降状态都会反馈到对手身上",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 740,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/740/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e63344f7"
+}

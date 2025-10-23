@@ -1,0 +1,38 @@
+{
+  "id": 824,
+  "desc": "攻击忽略对手防御值的20%；每回合{吸取}对手100点{体力}（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3513,
+      "url": "https://api.seerapi.com/v1/pet/3513/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1110,
+      "url": "https://api.seerapi.com/v1/eid_effect/1110/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bf704f6c"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 37517,
+  "name": "兰帕尔特光弹",
+  "power": 90,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少50%",
+      "args": [
+        2,
+        300,
+        2,
+        50
+      ],
+      "effect": {
+        "id": 1897,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1897/"
+      }
+    },
+    {
+      "info": "吸取对手150点体力，体力低于对手时吸取效果翻倍",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 894,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/894/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e7080be3"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 19647,
+  "name": "水镜之谕",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 51,
+    "url": "https://api.seerapi.com/v1/element_type_combination/51/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    },
+    {
+      "info": "先出手时无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 750,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/750/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b190dca8"
+}

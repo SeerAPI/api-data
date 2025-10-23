@@ -1,0 +1,45 @@
+{
+  "id": 1853,
+  "desc": "自身每次受到异常状态时，消耗自身PP值不为0的首位技能全部PP值，消耗成功则免疫本次异常状态|回合开始时，自身每有1个技能PP值为0随机1项能力等级+2，若自身能力等级高于对手，则额外消除对手能力提升状态与回合类效果，且当回合使用技能时吸取对手最大体力的1/3|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次受到异常状态时，<color=#64F9FA>消耗</color>自身首个PP值不为0的技能的全部<b>PP值</b>以<color=#64F9FA>免疫</color>本次<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>自身每有1个技能PP值为0随机1项<b>能力等级<color=#64F9FA></b>+2</color>\r\n<indent=32><sprite=4><indent=48>若自身能力等级高于对手，则<color=#64F9FA>消除</color>对手<b>能力提升状态</b>与<b>回合类效果</b>，且当回合使用技能时<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4651,
+      "url": "https://api.seerapi.com/v1/pet/4651/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0,
+      1,
+      2,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2249,
+      "url": "https://api.seerapi.com/v1/eid_effect/2249/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "94ab2bc6"
+}

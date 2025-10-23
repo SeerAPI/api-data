@@ -1,0 +1,41 @@
+{
+  "id": 621,
+  "args_num": 2,
+  "info": "消除对手能力上升状态，消除成功对手{0}{1}",
+  "info_formatting_adjustment": "消除对手能力上升状态\r\n--><condition>消除成功</condition>对手{0}{1}",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 16321,
+      "url": "https://api.seerapi.com/v1/skill/16321/"
+    },
+    {
+      "id": 16822,
+      "url": "https://api.seerapi.com/v1/skill/16822/"
+    },
+    {
+      "id": 18316,
+      "url": "https://api.seerapi.com/v1/skill/18316/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 63508,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63508/"
+    },
+    {
+      "id": 35733,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35733/"
+    }
+  ],
+  "hash": "bc783d4c"
+}

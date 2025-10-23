@@ -1,0 +1,70 @@
+{
+  "id": 23695,
+  "name": "雷霆护体",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗异常状态和能力下降的能力提升了；强化状态被消除则对手麻痹",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内若自身能力提升状态被消除或吸取则100%使对手麻痹2回合",
+      "args": [
+        3,
+        100,
+        0,
+        2
+      ],
+      "effect": {
+        "id": 573,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/573/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身命中等级+2",
+      "args": [
+        5,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "456b2c88"
+}

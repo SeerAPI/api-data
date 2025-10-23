@@ -1,0 +1,41 @@
+{
+  "id": 2006,
+  "desc": "回合开始时，若对手不为雌性精灵，自身受到的固定伤害、百分比伤害减少30%，对手处于能力提升状态时效果翻倍|自身微弱对手时，对手计算攻击伤害时的乘以克制倍数改为除以且回合结束后恢复自身最大体力的1/3；自身克制对手时，战斗阶段结束时自身恢复所有技能2点PP值且反转对手能力提升状态；若自身对对手克制系数为1，则使用技能时令对手流血，未触发则消除对手回合类效果|自身存活于出战阵容时，己方场下体力不为满的精灵体力不会下降|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手不为雌性精灵，自身受到的<b>固定伤害、百分比伤害</b><color=#64F9FA>减少</color>30%，对手处于能力提升状态时效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身微弱对手时：\r\n<indent=32><sprite=4><indent=48>对手计算攻击伤害时的乘以克制倍数改为除以\r\n<indent=32><sprite=4><indent=48>回合结束后<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n<indent=16><sprite=3><indent=32>自身克制对手时战斗阶段结束时自身<color=#64F9FA>恢复</color>所有技能2点<b>PP值</b>且<color=#64F9FA>反转</color>对手<b>能力提升状态</b>\r\n<indent=16><sprite=3><indent=32>若自身对对手克制系数为1，则使用技能时<color=#64F9FA>令对手流血</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身存活于出战背包时，己方场下体力不为满的精灵体力不会下降",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4814,
+      "url": "https://api.seerapi.com/v1/pet/4814/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2431,
+      "url": "https://api.seerapi.com/v1/eid_effect/2431/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "43cf17d6"
+}

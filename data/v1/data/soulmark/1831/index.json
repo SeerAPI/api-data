@@ -1,0 +1,43 @@
+{
+  "id": 1831,
+  "desc": "自身每次登场时，若自身体力低于对手则获得3回合的失命，为对手附加3回合的回命|回合开始时，若对手持有回命则当回合对手造成的攻击伤害减少双方体力值之差的50%，回合开始时，若自身持有失命则当回合使用攻击技能时附加双方体力值之差50%的百分比伤害|回合结束后，若本回合自身持有的失命消失则反转自身的当前体力值与已损失体力值，若本回合对手持有的回命消失则反转对手的当前体力值与已损失体力值，任意一方触发反转后，若体力为0则恢复1点体力|回命：体力恢复效果提升100%|失命：体力恢复效果减少100%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场时，若自身体力低于对手则<color=#64F9FA>获得</color>3回合的<b>失命</b>，为对手<color=#64F9FA>附加</color>3回合的<b>回命</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手持有回命则当回合对手造成的<b>攻击伤害<color=#64F9FA></b>减少</color>双方体力值之差的50%\r\n<indent=32><sprite=4><indent=48>若自身持有失命则当回合使用攻击技能时<color=#64F9FA>附加</color>双方体力值之差50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后：\r\n<indent=32><sprite=4><indent=48>若本回合自身持有的失命消失则<color=#64F9FA>反转</color>自身的<b>当前体力值</b>与<b>已损失体力值</b>\r\n<indent=32><sprite=4><indent=48>若本回合对手持有的回命消失则<color=#64F9FA>反转</color>对手的<b>当前体力值</b>与<b>已损失体力值</b>\r\n<indent=32><sprite=4><indent=48>任意一方触发反转后，若体力为0则<color=#64F9FA>恢复</color>1点<b>体力</b>\r\n\r\n<indent=0><sprite=5><indent=15>回命：\r\n<indent=16><sprite=6><indent=32><b>体力恢复效果</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=5><indent=15>失命：\r\n<indent=16><sprite=6><indent=32><b>体力恢复效果</b><color=#64F9FA>减少</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4625,
+      "url": "https://api.seerapi.com/v1/pet/4625/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      3,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 2219,
+      "url": "https://api.seerapi.com/v1/eid_effect/2219/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "56aa05dc"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1593,
+  "desc": "自身使用技能若未击败对手则下回合造成的攻击伤害提升100%，自身使用技能若击败对手则自身攻击+2；回合开始时，若上回合对手未使用技能则当回合自身造成的伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能的回合若未击败对手则下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=16><sprite=3><indent=32>自身使用技能的回合若击败对手则自身攻击+2\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若上回合对手未使用技能则当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4367,
+      "url": "https://api.seerapi.com/v1/pet/4367/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      2,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1953,
+      "url": "https://api.seerapi.com/v1/eid_effect/1953/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3b504328"
+}

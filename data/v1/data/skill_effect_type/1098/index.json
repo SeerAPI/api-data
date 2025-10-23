@@ -1,0 +1,21 @@
+{
+  "id": 1098,
+  "args_num": 0,
+  "info": "致命一击率提升20%，每次使用增加20%，最高100%；打出致命一击后令自身下2次技能触发的星皇之怒威力不再减少;技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒（星皇之怒：下2次自身使用的攻击技能先制+2）",
+  "info_formatting_adjustment": "致命一击率提升20%，每次使用增加20%，最高100%\r\n<condition>打出致命一击后</condition>令自身下2次成功触发星皇之怒的攻击技能造成的二次伤害不会减少$Boss$\r\n技能结束后<condition>若对手体力值高于0</condition>，则50%进行一次额外行动以触发星皇之怒\r\n星皇之怒：下2次自身使用的攻击技能先制+2",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 30381,
+      "url": "https://api.seerapi.com/v1/skill/30381/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 8553,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/8553/"
+    }
+  ],
+  "hash": "ba943f7"
+}

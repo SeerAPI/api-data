@@ -1,0 +1,47 @@
+{
+  "id": 1962,
+  "desc": "受到攻击时有50%的几率免疫当回合受到的攻击伤害，未触发则战斗阶段结束时附加自身攻击值70%的百分比伤害；当回合自身受到的攻击伤害则战斗阶段结束时令对手全属性-1，当回合自身未受到的攻击伤害则战斗阶段结束时令自身全属性+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到攻击时50%<color=#64F9FA>免疫</color>当回合受到的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>附加</color>自身攻击值70%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若当回合自身受到了攻击伤害则令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>若当回合自身未受到攻击伤害则令自身<color=#64F9FA>全属性+1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3893,
+      "url": "https://api.seerapi.com/v1/pet/3893/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      70,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1480,
+      "url": "https://api.seerapi.com/v1/eid_effect/1480/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1162,
+    "url": "https://api.seerapi.com/v1/soulmark/1162/"
+  },
+  "hash": "20ce3046"
+}

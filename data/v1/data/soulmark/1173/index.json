@@ -1,0 +1,37 @@
+{
+  "id": 1173,
+  "desc": "对手每处于1种能力提升状态则自身受到的攻击伤害减少10%（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手每处于1种能力提升状态则自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>10%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3906,
+      "url": "https://api.seerapi.com/v1/pet/3906/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      0
+    ],
+    "effect": {
+      "id": 1496,
+      "url": "https://api.seerapi.com/v1/eid_effect/1496/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "db0e2ac5"
+}

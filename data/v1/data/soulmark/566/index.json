@@ -1,0 +1,37 @@
+{
+  "id": 566,
+  "desc": "每次战斗阶段结束时，自身在本次战斗中的攻击伤害提高35%，最高提高175%（下场时保留提升效果，BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3223,
+      "url": "https://api.seerapi.com/v1/pet/3223/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      35,
+      175,
+      1
+    ],
+    "effect": {
+      "id": 842,
+      "url": "https://api.seerapi.com/v1/eid_effect/842/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 558,
+    "url": "https://api.seerapi.com/v1/soulmark/558/"
+  },
+  "hash": "99c17c98"
+}

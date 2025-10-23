@@ -1,0 +1,49 @@
+{
+  "id": 30904,
+  "name": "蝶影振云击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 74,
+    "url": "https://api.seerapi.com/v1/element_type_combination/74/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害低于300则自身下1次受到的伤害降低300点",
+      "args": [
+        300,
+        1,
+        300
+      ],
+      "effect": {
+        "id": 1202,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1202/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则自身下1次技能先制+3",
+      "args": [
+        300,
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1203,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1203/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a0f8be98"
+}

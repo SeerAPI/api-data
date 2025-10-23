@@ -1,0 +1,67 @@
+{
+  "id": 36132,
+  "name": "赤胆缀银枪",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "赤胆不朽，枭将一往无前",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 64,
+    "url": "https://api.seerapi.com/v1/element_type_combination/64/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则附加250点真实伤害，若自身龙胆层数达到7则真实伤害的附加将无视前提条件",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 1859,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1859/"
+      }
+    },
+    {
+      "info": "4回合内若自身攻击技能命中则100%令对手害怕",
+      "args": [
+        3,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 470,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/470/"
+      }
+    },
+    {
+      "info": "先出手时吸取对手最大体力的1/4且当回合对手无法造成攻击伤害",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 1867,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1867/"
+      }
+    },
+    {
+      "info": "后出手时令对手当回合使用的技能的PP值额外-3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1736,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1736/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d0509f23"
+}

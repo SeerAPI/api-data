@@ -1,0 +1,43 @@
+{
+  "id": 440,
+  "desc": "伙伴效果:对手处于异常状态时自身攻击威力翻倍;每回合自身攻击+2、速度+2",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2891,
+      "url": "https://api.seerapi.com/v1/pet/2891/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      0,
+      2,
+      4,
+      2
+    ],
+    "effect": {
+      "id": 636,
+      "url": "https://api.seerapi.com/v1/eid_effect/636/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 308,
+    "url": "https://api.seerapi.com/v1/soulmark/308/"
+  },
+  "hash": "bcc9f0bc"
+}

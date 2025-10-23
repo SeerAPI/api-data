@@ -1,0 +1,46 @@
+{
+  "id": 1304,
+  "desc": "自身处于能力提升状态时所有攻击威力提升50%；回合开始时使对手随机2项属性+1，若与上回合增加的属性存在任意1项相同则当回合自身所有技能{吸取}对手400点{体力}，若与上回合增加的属性不同则当回合自身所有技能先制+2且复制对手当回合获得的属性提升效果（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身处于能力提升状态时所有攻击<b>威力</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时使对手随机2项能力+1\r\n<indent=32><sprite=4><indent=48>若与上回合增加的能力存在任意1项相同则当回合自身所有技能<color=#64F9FA>吸取</color>对手400点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若与上回合增加的能力不同则当回合自身所有技能先制+2且<color=#64F9FA>复制</color>对手因此获得的<b>能力提升状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4057,
+      "url": "https://api.seerapi.com/v1/pet/4057/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      1,
+      1,
+      400,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1645,
+      "url": "https://api.seerapi.com/v1/eid_effect/1645/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f2f5ad55"
+}

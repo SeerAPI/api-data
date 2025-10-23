@@ -1,0 +1,46 @@
+{
+  "id": 1017,
+  "desc": "自身死亡后50%的概率重生一次，重生时消除对手能力提升状态和回合类效果，未重生时为令对手3回合内属性技能无效；自身造成的攻击伤害大于300则{吸取}对手300点{体力}，造成的攻击伤害小于300则下回合攻击必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3739,
+      "url": "https://api.seerapi.com/v1/pet/3739/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      3,
+      300,
+      300,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1315,
+      "url": "https://api.seerapi.com/v1/eid_effect/1315/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "33cba84f"
+}

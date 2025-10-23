@@ -1,0 +1,48 @@
+{
+  "id": 35989,
+  "name": "神像化墟",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 18,
+    "url": "https://api.seerapi.com/v1/element_type_combination/18/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时100%使对手疲惫，未触发则下2回合自身先制+1",
+      "args": [
+        100,
+        7,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1201,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1201/"
+      }
+    },
+    {
+      "info": "若后出手则附加自身最大体力1/2的百分比伤害并恢复等量体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 939,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/939/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "41211730"
+}

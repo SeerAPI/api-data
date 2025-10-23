@@ -1,0 +1,36 @@
+{
+  "id": 15203,
+  "name": "暴虐之爪",
+  "power": 120,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若造成的伤害大于500点，则自身恢复500点生命值",
+      "args": [
+        500,
+        500
+      ],
+      "effect": {
+        "id": 415,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/415/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "98d60719"
+}

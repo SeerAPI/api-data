@@ -1,0 +1,59 @@
+{
+  "id": 36856,
+  "name": "此身即无间",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 89,
+    "url": "https://api.seerapi.com/v1/element_type_combination/89/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "圣谕形态下令对手随机2个技能的PP值归零，邪魇形态下令对手2回合内属性技能无效",
+      "args": [],
+      "effect": {
+        "id": 2065,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2065/"
+      }
+    },
+    {
+      "info": "解除自身的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/3/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "吸取对手280点体力，吸取后若对手体力减少值低于180则为对手附加1层自身所处形态相反的圣告/邪诲",
+      "args": [
+        280
+      ],
+      "effect": {
+        "id": 2078,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2078/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "723df664"
+}

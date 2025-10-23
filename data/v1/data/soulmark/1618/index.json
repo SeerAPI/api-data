@@ -1,0 +1,47 @@
+{
+  "id": 1618,
+  "desc": "自身造成的攻击伤害提升50%，攻击技能命中前每损失10%体力则增伤效果提升10%；若攻击技能命中前自身体力低于最大体力的1/2则额外附加造成伤害100%的百分比伤害，额外恢复造成伤害100%的体力值；|回合开始时若自身不处于能力提升状态，则当回合攻击技能必定致命、必定命中；|战斗阶段结束时若自身处于能力下降状态，则消除对手能力提升状态并附加给对手等同于自身的能力下降状态，若对手免疫此次能力下降则双倍反转自身能力下降状态并为自身附加300点护罩|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%，使用攻击技能时每损失10%体力则效果额外提升10%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能时若自身体力低于最大体力的1/2则当次攻击：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>造成伤害100%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>造成伤害100%的<b>体力值</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身不处于能力提升状态，则当回合攻击技能<color=#64F9FA>必定致命、必定命中</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身处于能力下降状态，则<color=#64F9FA>消除</color>对手<b>能力提升状态</b>并给予对手相同的<b>能力下降</b></b>状态\r\n<indent=32><sprite=4><indent=48>若对手<color=#64F9FA>免疫</color>此次<b>能力下降</b>则双倍<color=#64F9FA>反转</color>自身<b>能力下降状态</b>并<color=#64F9FA>获得</color>300点<b>护罩</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4401,
+      "url": "https://api.seerapi.com/v1/pet/4401/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      10,
+      10,
+      2,
+      100,
+      100,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 2005,
+      "url": "https://api.seerapi.com/v1/eid_effect/2005/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e2fb7713"
+}

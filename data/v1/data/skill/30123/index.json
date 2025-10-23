@@ -1,0 +1,45 @@
+{
+  "id": 30123,
+  "name": "王·联盟审判",
+  "power": 350,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对大暗黑天长老造成的伤害提高50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1064,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1064/"
+      }
+    },
+    {
+      "info": "后出手时下回合受到的伤害降低350点",
+      "args": [
+        350
+      ],
+      "effect": {
+        "id": 969,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/969/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "36c775ff"
+}

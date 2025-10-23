@@ -1,0 +1,42 @@
+{
+  "id": 1464,
+  "desc": "自身受到物理攻击时50%令对手害怕，未触发则令对手攻击-1、速度-1，自身受到特殊攻击时50%令对手麻痹，未触发则令对手特攻-1、速度-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到物理攻击时50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手攻击-1、速度-1\r\n<indent=16><sprite=3><indent=32>自身受到特殊攻击时50%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手特攻-1、速度-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4244,
+      "url": "https://api.seerapi.com/v1/pet/4244/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1,
+      50,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1831,
+      "url": "https://api.seerapi.com/v1/eid_effect/1831/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "eecbf791"
+}

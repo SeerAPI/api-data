@@ -1,0 +1,33 @@
+{
+  "id": 16334,
+  "name": "千里单骑",
+  "power": 85,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "回合开始时，若自身处于能力下降状态，则威力翻倍，同时解除能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 468,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/468/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5da51fa7"
+}

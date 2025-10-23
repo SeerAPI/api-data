@@ -1,0 +1,45 @@
+{
+  "id": 1525,
+  "desc": "自身造成的攻击伤害低于300则50%令对手麻痹，未触发则下回合自身攻击无视对手所有能力提升效果且必定打出致命一击；|自身造成的攻击伤害高于300则50%令对手疲惫，未触发则令自身全属性+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于300则50%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合自身<b>攻击技能</b><color=#64F9FA>无视</color>对手所有能力提升效果且必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300则50%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>未触发则令自身<color=#64F9FA>全属性+1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4302,
+      "url": "https://api.seerapi.com/v1/pet/4302/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      50,
+      300,
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1888,
+      "url": "https://api.seerapi.com/v1/eid_effect/1888/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "657c5b65"
+}

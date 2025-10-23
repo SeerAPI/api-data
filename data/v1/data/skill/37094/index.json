@@ -1,0 +1,64 @@
+{
+  "id": 37094,
+  "name": "彼空·蔚莱唤歌",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 121,
+    "url": "https://api.seerapi.com/v1/element_type_combination/121/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若己方场下处于未来链接的精灵中存在精灵系别与对手相同，则该系别的精灵每有1级未来链接克制倍数提升0.5",
+      "args": [],
+      "effect": {
+        "id": 2110,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2110/"
+      }
+    },
+    {
+      "info": "自身每有1项非第五技能PP值不满附加150点固定伤害，对手免疫固定伤害时额外附加200点真实伤害",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 1740,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1740/"
+      }
+    },
+    {
+      "info": "3回合内对手恢复体力时恢复效果减少100%",
+      "args": [
+        3,
+        100
+      ],
+      "effect": {
+        "id": 761,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/761/"
+      }
+    },
+    {
+      "info": "未击败对手则恢复自身所有技能5点PP值",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 1821,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1821/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2f786016"
+}

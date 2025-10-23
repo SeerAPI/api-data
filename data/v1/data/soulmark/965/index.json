@@ -1,0 +1,47 @@
+{
+  "id": 965,
+  "desc": "自身使用攻击技能有30%的概率造成2-4倍伤害，未触发则下1次攻击技能先制+1且翻倍概率额外提升20%；攻击造成的伤害高于300则附加自身最大体力1/3的百分比伤害并恢复等量体力，造成的伤害低于300则{吸取}对手最大{体力}的1/3（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3679,
+      "url": "https://api.seerapi.com/v1/pet/3679/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      1,
+      1,
+      20,
+      300,
+      3,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1256,
+      "url": "https://api.seerapi.com/v1/eid_effect/1256/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "62407552"
+}

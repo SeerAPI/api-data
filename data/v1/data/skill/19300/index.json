@@ -1,0 +1,45 @@
+{
+  "id": 19300,
+  "name": "双生无影幻",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时降低对手所有PP1点",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 700,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/700/"
+      }
+    },
+    {
+      "info": "后出手时下回合所有技能先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 499,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/499/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1bc08957"
+}

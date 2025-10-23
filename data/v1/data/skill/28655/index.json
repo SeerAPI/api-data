@@ -1,0 +1,33 @@
+{
+  "id": 28655,
+  "name": "留影",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "留下了最后的火光",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，使对手受到等同于自身最大体力1/1的百分比伤害且3回合内对手无法通过技能恢复自身体力",
+      "args": [],
+      "effect": {
+        "id": 1324,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1324/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "36bdde1e"
+}

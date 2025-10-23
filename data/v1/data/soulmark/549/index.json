@@ -1,0 +1,43 @@
+{
+  "id": 549,
+  "desc": "自身体力低于1/2时，攻击{吸取}对手最大{体力}的1/3；自身满体力时，若受到攻击则下1次受到的伤害减少65%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3211,
+      "url": "https://api.seerapi.com/v1/pet/3211/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      3,
+      1,
+      65,
+      1
+    ],
+    "effect": {
+      "id": 836,
+      "url": "https://api.seerapi.com/v1/eid_effect/836/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 538,
+    "url": "https://api.seerapi.com/v1/soulmark/538/"
+  },
+  "hash": "84798f21"
+}

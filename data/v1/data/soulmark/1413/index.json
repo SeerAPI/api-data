@@ -1,0 +1,38 @@
+{
+  "id": 1413,
+  "desc": "单数回合自身受到的攻击伤害减少30%，偶数回合自身有30%的概率闪避当回合受到的攻击(boss无效)",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>奇数回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>30%\r\n<indent=16><sprite=3><indent=32>偶数回合自身有30%的概率<color=#64F9FA>闪避</color>当回合受到的攻击",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4191,
+      "url": "https://api.seerapi.com/v1/pet/4191/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 1784,
+      "url": "https://api.seerapi.com/v1/eid_effect/1784/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8a4635e7"
+}

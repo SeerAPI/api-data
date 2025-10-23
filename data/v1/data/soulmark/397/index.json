@@ -1,0 +1,41 @@
+{
+  "id": 397,
+  "desc": "自身能力得到提升时,下回合所有技能威力提高50%且先制+1;自身处于能力提升状态则免疫异常状态",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3045,
+      "url": "https://api.seerapi.com/v1/pet/3045/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1
+    ],
+    "effect": {
+      "id": 724,
+      "url": "https://api.seerapi.com/v1/eid_effect/724/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "80a0ff9e"
+}

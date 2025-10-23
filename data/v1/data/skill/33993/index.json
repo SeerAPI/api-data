@@ -1,0 +1,36 @@
+{
+  "id": 33993,
+  "name": "王·万雷禁法",
+  "power": 0,
+  "max_pp": 3,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 80,
+    "url": "https://api.seerapi.com/v1/element_type_combination/80/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "30%消耗自身全部体力，30%消耗敌方全部体力，若自身触发效果则消除敌方所有PP值，若敌方触发效果则消除自身所有PP值，均未触发则恢复自身全部体力",
+      "args": [
+        30,
+        30
+      ],
+      "effect": {
+        "id": 1551,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1551/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4ea5d9d3"
+}

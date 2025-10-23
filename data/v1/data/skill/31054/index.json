@@ -1,0 +1,37 @@
+{
+  "id": 31054,
+  "name": "守护圣击",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手当前体力值8%的百分比伤害，连续使用每次增加4%，最高20%",
+      "args": [
+        8,
+        4,
+        20
+      ],
+      "effect": {
+        "id": 411,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/411/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "77df8ff6"
+}

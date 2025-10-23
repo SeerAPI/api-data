@@ -1,0 +1,58 @@
+{
+  "id": 38061,
+  "name": "黑之教典",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1回合自身所有技能先制+2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1123,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1123/"
+      }
+    },
+    {
+      "info": "先出手时造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 986,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/986/"
+      }
+    },
+    {
+      "info": "未击败对手则下1次使用技能后令对手100%害怕",
+      "args": [
+        1,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1050,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1050/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3a64d75a"
+}

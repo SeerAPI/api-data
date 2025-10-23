@@ -1,0 +1,47 @@
+{
+  "id": 779,
+  "desc": "战斗阶段结束时若自身体力低于40%，则恢复自身全部体力并造成等量固定伤害且本场战斗结束前自身所有攻击先制+1且造成的伤害提高50%（每场战斗仅触发1次）；造成的伤害高于300则附加对手最大体力1/3的固定伤害，高于400则变为{吸取}对手最大{体力}的1/3；造成的伤害低于300则下回合自身所有攻击先制+1且造成的伤害提高50%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3466,
+      "url": "https://api.seerapi.com/v1/pet/3466/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      1,
+      50,
+      300,
+      3,
+      400,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1062,
+      "url": "https://api.seerapi.com/v1/eid_effect/1062/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7260aff2"
+}

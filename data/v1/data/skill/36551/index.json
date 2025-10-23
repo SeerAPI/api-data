@@ -1,0 +1,41 @@
+{
+  "id": 36551,
+  "name": "空·魂觉",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 115,
+    "url": "https://api.seerapi.com/v1/element_type_combination/115/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复双方所有体力",
+      "args": [],
+      "effect": {
+        "id": 404,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/404/"
+      }
+    },
+    {
+      "info": "使双方精灵所有技能PP值归零；消除双方能力提升、下降状态以及回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1237,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1237/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "33f4644c"
+}

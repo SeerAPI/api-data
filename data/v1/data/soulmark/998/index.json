@@ -1,0 +1,40 @@
+{
+  "id": 998,
+  "desc": "首次登场时自身全属性+1；回合开始时若自身处于能力提升状态则当回合使用攻击技能80%令对手害怕，自身不处于能力提升状态则当回合使用攻击技能后自身全属性+1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3717,
+      "url": "https://api.seerapi.com/v1/pet/3717/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      80,
+      6,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1293,
+      "url": "https://api.seerapi.com/v1/eid_effect/1293/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f6039da5"
+}

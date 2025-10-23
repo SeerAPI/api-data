@@ -1,0 +1,62 @@
+{
+  "$defs": {
+    "ResourceRef_ElementType_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "组合类型中文名",
+      "title": "Name",
+      "type": "string"
+    },
+    "name_en": {
+      "description": "组合类型英文名",
+      "title": "Name En",
+      "type": "string"
+    },
+    "primary": {
+      "$ref": "#/$defs/ResourceRef_ElementType_",
+      "description": "主属性"
+    },
+    "secondary": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ResourceRef_ElementType_"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "副属性"
+    },
+    "is_double": {
+      "description": "是否是双属性",
+      "readOnly": true,
+      "title": "Is Double",
+      "type": "boolean"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "name_en",
+    "primary",
+    "is_double",
+    "hash"
+  ],
+  "title": "TypeCombination",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

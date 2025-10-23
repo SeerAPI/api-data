@@ -1,0 +1,38 @@
+{
+  "id": 37350,
+  "name": "神予慈悲",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 117,
+    "url": "https://api.seerapi.com/v1/element_type_combination/117/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%概率受到自身最大体力1/1的百分比伤害，剩下0%概率附加自身最大体力1/1的百分比伤害",
+      "args": [
+        100,
+        1,
+        0,
+        1
+      ],
+      "effect": {
+        "id": 1908,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1908/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b5fe0e10"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 37404,
+  "name": "海之歌",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 116,
+    "url": "https://api.seerapi.com/v1/element_type_combination/116/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则附加300点固定伤害",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1261,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1261/"
+      }
+    },
+    {
+      "info": "3回合内每回合被攻击所受到的伤害不超过200",
+      "args": [
+        3,
+        200
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "47d66335"
+}

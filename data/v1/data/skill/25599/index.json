@@ -1,0 +1,58 @@
+{
+  "id": 25599,
+  "name": "万物生长",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始抵抗异常状态了；受到攻击则使对手2个技能PP归零；免疫较低的攻击伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内免疫所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击则100%令对手随机2个技能PP值归零",
+      "args": [
+        3,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 780,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/780/"
+      }
+    },
+    {
+      "info": "3回合内免疫低于300的攻击伤害",
+      "args": [
+        3,
+        300
+      ],
+      "effect": {
+        "id": 576,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/576/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e08eef01"
+}

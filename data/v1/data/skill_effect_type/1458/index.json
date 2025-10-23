@@ -1,0 +1,61 @@
+{
+  "id": 1458,
+  "args_num": 4,
+  "info": "{0}回合内每回合{1}%对手属性技能无效，未触发则{2}%令对手{3}",
+  "info_formatting_adjustment": "{0}回合内每回合{1}%对手属性技能无效\r\n--><condition>未触发</condition>则{2}%令对手{3}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 26641,
+      "url": "https://api.seerapi.com/v1/skill/26641/"
+    },
+    {
+      "id": 27281,
+      "url": "https://api.seerapi.com/v1/skill/27281/"
+    },
+    {
+      "id": 28135,
+      "url": "https://api.seerapi.com/v1/skill/28135/"
+    },
+    {
+      "id": 28378,
+      "url": "https://api.seerapi.com/v1/skill/28378/"
+    },
+    {
+      "id": 35363,
+      "url": "https://api.seerapi.com/v1/skill/35363/"
+    },
+    {
+      "id": 36400,
+      "url": "https://api.seerapi.com/v1/skill/36400/"
+    },
+    {
+      "id": 36516,
+      "url": "https://api.seerapi.com/v1/skill/36516/"
+    },
+    {
+      "id": 37407,
+      "url": "https://api.seerapi.com/v1/skill/37407/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "640077d6"
+}

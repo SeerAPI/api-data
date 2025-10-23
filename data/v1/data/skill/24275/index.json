@@ -1,0 +1,48 @@
+{
+  "id": 24275,
+  "name": "圣域之劫",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "若能力强化状态被消除则有概率使对手害怕；命中率提高了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若自身能力提升状态被消除或吸取则50%使对手害怕2回合",
+      "args": [
+        3,
+        50,
+        6,
+        2
+      ],
+      "effect": {
+        "id": 573,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/573/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/81/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "87507d52"
+}

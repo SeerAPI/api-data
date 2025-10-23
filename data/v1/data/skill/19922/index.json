@@ -1,0 +1,45 @@
+{
+  "id": 19922,
+  "name": "宁屹浅沫光",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    },
+    {
+      "info": "暴击率提升40%，每次使用额外提升20%，最高概率100%",
+      "args": [
+        40,
+        20,
+        100
+      ],
+      "effect": {
+        "id": 696,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/696/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "118d322e"
+}

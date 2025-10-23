@@ -1,0 +1,35 @@
+{
+  "id": 37107,
+  "name": "温馥花芳",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 112,
+    "url": "https://api.seerapi.com/v1/element_type_combination/112/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手不处于异常状态则吸取对手最大体力的1/4",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 1257,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1257/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "68b4c0a7"
+}

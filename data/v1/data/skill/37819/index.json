@@ -1,0 +1,61 @@
+{
+  "id": 37819,
+  "name": "锈铳追魂鸣",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下2回合对手所有技能先制-1，若对手不处于能力提升状态则令对手全属性-1",
+      "args": [
+        2,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1726,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1726/"
+      }
+    },
+    {
+      "info": "随机附加150-250点固伤，对手处于能力下降状态时固伤变为250-350点",
+      "args": [
+        150,
+        250,
+        250,
+        350
+      ],
+      "effect": {
+        "id": 1244,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1244/"
+      }
+    },
+    {
+      "info": "先出手时2回合内对手体力恢复效果减少50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 2116,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2116/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6d8d2613"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1386,
+  "desc": "当回合对手使用的技能类型和自身相同则令对手该技能PP值归零，对手使用的技能类型和自身不同则战斗阶段结束时受到250点固定伤害（奇莉奈在背包时额外附加100点固定伤害）；|自身受到攻击伤害则50%的概率令对手混乱（奇莉奈在背包时概率额外提升20%），未触发则为自身附加250点护盾（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用的技能类型和自身相同则令对手该技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>对手使用的技能类型和自身不同则战斗阶段结束时<color=#64F9FA>受到</color>250点<b>固定伤害</b>，奇莉奈存在于出战背包时额外附加100点\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害则50%<color=#64F9FA>令对手混乱</color>，奇莉奈存在于出战背包时概率提升20%\r\n<indent=32><sprite=4><indent=48>未触发则为自身<color=#64F9FA>附加</color>250点<b>护盾</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4160,
+      "url": "https://api.seerapi.com/v1/pet/4160/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      100,
+      50,
+      20,
+      250,
+      1
+    ],
+    "effect": {
+      "id": 1750,
+      "url": "https://api.seerapi.com/v1/eid_effect/1750/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dc3b90e1"
+}

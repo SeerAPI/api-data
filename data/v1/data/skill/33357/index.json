@@ -1,0 +1,53 @@
+{
+  "id": 33357,
+  "name": "极电荧光刃",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1回合自身所有技能先制+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1123,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1123/"
+      }
+    },
+    {
+      "info": "技能使用成功时，35%使对手麻痹，若没有触发，则对手攻击-2、特攻-2",
+      "args": [
+        35,
+        0,
+        -2,
+        0,
+        -2,
+        0,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 595,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/595/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5e6ae5a9"
+}

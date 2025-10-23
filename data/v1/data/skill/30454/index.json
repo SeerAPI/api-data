@@ -1,0 +1,47 @@
+{
+  "id": 30454,
+  "name": "八荒岩爆",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 37,
+    "url": "https://api.seerapi.com/v1/element_type_combination/37/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方能力提升状态，消除任意一方成功则使自身下1回合先制+2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1119,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1119/"
+      }
+    },
+    {
+      "info": "造成的伤害低于280则为自身附加200点护盾",
+      "args": [
+        280,
+        200
+      ],
+      "effect": {
+        "id": 1120,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1120/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ebc1971d"
+}

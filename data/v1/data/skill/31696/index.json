@@ -1,0 +1,45 @@
+{
+  "id": 31696,
+  "name": "狂兽扑杀",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 90,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则对手全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1234,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1234/"
+      }
+    },
+    {
+      "info": "1回合内令对手使用的属性技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/478/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c707a00a"
+}

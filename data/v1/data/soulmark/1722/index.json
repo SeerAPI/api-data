@@ -1,0 +1,44 @@
+{
+  "id": 1722,
+  "desc": "战斗阶段结束时若对手当前体力百分比高于自身则发动魔祖之渎：{吸取}对手最大{体力}的1/3；|战斗阶段结束时若对手当前存在能力等级高于自身则发动魔祖之嗟：令自身全属性+1、令对手全属性-1；|战斗阶段结束时若对手当回合造成的攻击伤害高于自身则发动魔祖之蛊：随机附加2种异常状态|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手当前体力百分比高于自身则发动魔祖之渎：<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若对手当前存在能力等级高于自身则发动魔祖之嗟：令自身<color=#64F9FA>全属性+1</color>、令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>若对手当回合造成的攻击伤害高于自身则发动魔祖之蛊：随机附加2种<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4509,
+      "url": "https://api.seerapi.com/v1/pet/4509/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      1,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 2113,
+      "url": "https://api.seerapi.com/v1/eid_effect/2113/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d18aa372"
+}

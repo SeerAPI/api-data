@@ -1,0 +1,37 @@
+{
+  "id": 2327,
+  "args_num": 2,
+  "info": "无视对手能力提升效果，无视成功吸取对手最大体力的1/{0}，自身体力未恢复至满时令对手{1}",
+  "info_formatting_adjustment": "无视对手能力提升效果\r\n--><condition>无视成功</condition>吸取对手最大体力的1/{0}\r\n--->然后<condition>若自身体力不为满</condition>则令对手{1}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38055,
+      "url": "https://api.seerapi.com/v1/skill/38055/"
+    },
+    {
+      "id": 38074,
+      "url": "https://api.seerapi.com/v1/skill/38074/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "dd57468c"
+}

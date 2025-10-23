@@ -1,0 +1,36 @@
+{
+  "id": 12112,
+  "name": "双重暗影",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若本次攻击造成的伤害小于250，则自身攻击提升1个等级",
+      "args": [
+        250,
+        0
+      ],
+      "effect": {
+        "id": 107,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/107/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b17e5ed9"
+}

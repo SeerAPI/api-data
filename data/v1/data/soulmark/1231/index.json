@@ -1,0 +1,47 @@
+{
+  "id": 1231,
+  "desc": "每回合开始时敌方有30%的概率受到自身的影响，进入睡眠状态，未触发则当回合自身受到的伤害减少30%（包括固定伤害、百分比伤害）；自身受到攻击后下2回合造成的攻击伤害提升100%，若此时体力低于最大体力的1/2则额外先制+2，若此时体力低于最大体力的1/3则额外先制+3（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时对手30%<color=#64F9FA>受到</color>睡眠\r\n<indent=32><sprite=4><indent=48>未触发则当回合自身受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>30%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后下2回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若触发时自身体力低于最大体力的1/2则效果中额外加入<b>先制</b>+2\r\n<indent=32><sprite=4><indent=48>若触发时自身体力低于最大体力的1/3则效果中额外加入<b>先制</b>+3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3966,
+      "url": "https://api.seerapi.com/v1/pet/3966/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      30,
+      100,
+      2,
+      2,
+      3,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1566,
+      "url": "https://api.seerapi.com/v1/eid_effect/1566/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7477951c"
+}

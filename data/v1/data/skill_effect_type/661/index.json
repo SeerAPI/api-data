@@ -1,0 +1,37 @@
+{
+  "id": 661,
+  "args_num": 3,
+  "info": "消除{0}状态，消除成功{1}回合内受到{2}点固定伤害",
+  "info_formatting_adjustment": "消除{0}状态\r\n--><condition>消除成功</condition>{1}回合内受到{2}点固定伤害",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/10/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 16419,
+      "url": "https://api.seerapi.com/v1/skill/16419/"
+    },
+    {
+      "id": 17381,
+      "url": "https://api.seerapi.com/v1/skill/17381/"
+    },
+    {
+      "id": 38068,
+      "url": "https://api.seerapi.com/v1/skill/38068/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "183d5527"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 37063,
+  "name": "扁舟渡灵",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 736,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/736/"
+      }
+    },
+    {
+      "info": "损失自身200点体力，给对手造成300点固定伤害，若自身体力不足200则剩下1点体力",
+      "args": [
+        200,
+        300,
+        200,
+        1
+      ],
+      "effect": {
+        "id": 479,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/479/"
+      }
+    },
+    {
+      "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+      "args": [],
+      "effect": {
+        "id": 2105,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2105/"
+      }
+    },
+    {
+      "info": "每使用此技能击败一只精灵则减少对手下只出场精灵25%最大体力",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 892,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/892/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ff4fe45"
+}

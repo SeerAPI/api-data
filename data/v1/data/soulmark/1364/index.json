@@ -1,0 +1,46 @@
+{
+  "id": 1364,
+  "desc": "若对手当回合使用的攻击技能威力≥80则战斗阶段结束时为自身附加1个250点的护盾，威力每≥20点则附加的护盾值增加50点；自身护盾被击破而导致死亡则消除对手能力提升状态和回合类效果，未死亡则战斗阶段结束时附加对手最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>若对手当回合使用的攻击技能威力≥80则战斗阶段结束时为自身<color=#64F9FA>附加</color>250点的<b>护盾</b>，威力每超出20点都额外附加50点\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身护盾被击破：\r\n<indent=32><sprite=4><indent=48>当回合若战斗阶段结束时自身存活<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>当回合自身被击败时<color=#64F9FA>消除</color>对手<b>能力提升状态</b>和<b>回合类效果</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4137,
+      "url": "https://api.seerapi.com/v1/pet/4137/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      80,
+      1,
+      250,
+      20,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1727,
+      "url": "https://api.seerapi.com/v1/eid_effect/1727/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "60b227a1"
+}

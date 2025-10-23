@@ -1,0 +1,75 @@
+{
+  "id": 36628,
+  "name": "霜·凌天寂帝枪",
+  "power": 6,
+  "max_pp": 6,
+  "accuracy": 95,
+  "crit_rate": 0.1875,
+  "priority": 0,
+  "must_hit": true,
+  "info": "去留无意，宠辱不惊；不破之名，凌天寂帝！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方能力提升、下降状态",
+      "args": [],
+      "effect": {
+        "id": 533,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/533/"
+      }
+    },
+    {
+      "info": "对手每存在60点护盾则造成的攻击伤害提升6倍",
+      "args": [
+        60,
+        6
+      ],
+      "effect": {
+        "id": 2010,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2010/"
+      }
+    },
+    {
+      "info": "对手存在护盾则附加对手护盾值60%的真实伤害",
+      "args": [
+        60
+      ],
+      "effect": {
+        "id": 1720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1720/"
+      }
+    },
+    {
+      "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和60%的百分比伤害",
+      "args": [
+        60
+      ],
+      "effect": {
+        "id": 1828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1828/"
+      }
+    },
+    {
+      "info": "击败对手则100%令自身凝滞",
+      "args": [
+        100,
+        32
+      ],
+      "effect": {
+        "id": 1933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17ce3d31"
+}

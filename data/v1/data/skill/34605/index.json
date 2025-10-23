@@ -1,0 +1,59 @@
+{
+  "id": 34605,
+  "name": "皓腕凝霜舞",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "20%的概率伤害为2倍，未触发则下次翻倍概率额外提升10%且伤害提升变为3倍",
+      "args": [
+        20,
+        2,
+        10,
+        3
+      ],
+      "effect": {
+        "id": 1242,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1242/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+      "args": [
+        300,
+        2
+      ],
+      "effect": {
+        "id": 1019,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1019/"
+      }
+    },
+    {
+      "info": "当回合未击败对手则使自身下回合受到的伤害降低50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1548,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1548/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "db88a08b"
+}

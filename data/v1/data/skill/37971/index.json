@@ -1,0 +1,47 @@
+{
+  "id": 37971,
+  "name": "忘却",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 81,
+    "url": "https://api.seerapi.com/v1/element_type_combination/81/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 931,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/931/"
+      }
+    },
+    {
+      "info": "吸取对手300点体力，若对手任意1项技能PP值小于2点则额外吸取150点体力",
+      "args": [
+        300,
+        2,
+        150
+      ],
+      "effect": {
+        "id": 1632,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1632/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dcbb0d34"
+}

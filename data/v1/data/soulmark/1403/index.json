@@ -1,0 +1,47 @@
+{
+  "id": 1403,
+  "desc": "与暮月之弦每持续战斗1回合则令对手叠加一层暮月玄音(最高可叠加5次)；|当回合若自身先出手则攻击命中后100%概率令对手随机进入烧伤、冻伤、中毒、麻痹、害怕、睡眠中的1种异常状态，未触发则令自身全属性+1，当回合若自身后出手则攻击命中后令对手全属性-1（boss无效）|暮月玄音：命中率降低10%，攻击技能5%的概率失效",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>暮月之弦每持续战斗1回合都叠加一层<b>暮月玄音</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身先出手则攻击命中后100%令对手受到烧伤、冻伤、中毒、麻痹、害怕、睡眠中的随机1种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则令自身<color=#64F9FA>全属性+1</color>\r\n<indent=16><sprite=3><indent=32>若自身后出手则攻击命中后令对手<color=#64F9FA>全属性-1 </color>\r\n\r\n<indent=0><sprite=5><indent=15>暮月玄音（上限5层）：\r\n<indent=16><sprite=6><indent=32>每有1层，都令对手：\r\n<indent=32><sprite=4><indent=48><b>命中率</b><color=#64F9FA>降低</color>10%\r\n<indent=32><sprite=4><indent=48><b>攻击技能</b>5%<color=#64F9FA>失效</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4178,
+      "url": "https://api.seerapi.com/v1/pet/4178/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      100,
+      1,
+      1,
+      1,
+      10,
+      5,
+      1
+    ],
+    "effect": {
+      "id": 1772,
+      "url": "https://api.seerapi.com/v1/eid_effect/1772/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6dcfb85"
+}

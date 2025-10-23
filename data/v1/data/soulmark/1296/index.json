@@ -1,0 +1,45 @@
+{
+  "id": 1296,
+  "desc": "每个战斗阶段结束时为自身附加一个已损失体力值100%的护盾，若此时自身体力低于对手则将护盾值提升至150%（不可叠加，最大上限600）；自身攻击技能命中后恢复自身当前护盾值50%的体力，自身属性技能命中后附加自身当前护盾值50%的固定伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时为自身<color=#64F9FA>附加</color>已损失体力值100%的<b>护盾</b>，上限600，若自身体力低于对手则改为150%\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后<color=#64F9FA>恢复</color>自身当前护盾值50%的<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身属性技能命中后<color=#64F9FA>附加</color>自身当前护盾值50%的<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4043,
+      "url": "https://api.seerapi.com/v1/pet/4043/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      150,
+      600,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1636,
+      "url": "https://api.seerapi.com/v1/eid_effect/1636/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ef830125"
+}

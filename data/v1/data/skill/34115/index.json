@@ -1,0 +1,57 @@
+{
+  "id": 34115,
+  "name": "界·渊壑巨浪",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 976,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/976/"
+      }
+    },
+    {
+      "info": "若对手处于能力下降状态则造成伤害的50%恢复体力",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 628,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/628/"
+      }
+    },
+    {
+      "info": "出手时若自身体力高于对手则80%令对手冰封，未触发则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        80,
+        15,
+        3
+      ],
+      "effect": {
+        "id": 1570,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1570/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fe316d4b"
+}

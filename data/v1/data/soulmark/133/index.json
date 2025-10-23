@@ -1,0 +1,37 @@
+{
+  "id": 133,
+  "desc": "免疫并反弹对手造成的致命一击，死亡时对手有50%概率瘫痪",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2736,
+      "url": "https://api.seerapi.com/v1/pet/2736/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      19
+    ],
+    "effect": {
+      "id": 354,
+      "url": "https://api.seerapi.com/v1/eid_effect/354/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "19c5db73"
+}

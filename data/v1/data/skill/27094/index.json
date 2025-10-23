@@ -1,0 +1,68 @@
+{
+  "id": 27094,
+  "name": "圣心永耀",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性+1；开始恢复体力并造成等量固伤了；对手受到的伤害开始提高了；出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1397,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1397/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能恢复自身最大体力的1/3并造成等量百分比伤害",
+      "args": [
+        4,
+        3
+      ],
+      "effect": {
+        "id": 532,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/532/"
+      }
+    },
+    {
+      "info": "3回合内免疫致命一击伤害",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 662,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/662/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3ed69e3d"
+}

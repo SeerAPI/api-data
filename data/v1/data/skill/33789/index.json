@@ -1,0 +1,55 @@
+{
+  "id": 33789,
+  "name": "狂·幽弑寰宇",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 105,
+    "url": "https://api.seerapi.com/v1/element_type_combination/105/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 942,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/942/"
+      }
+    },
+    {
+      "info": "未击败对手则下回合自身所有技能先制+3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 984,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/984/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则回合结束时减少对手1/3最大体力",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 752,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/752/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "113c3c87"
+}

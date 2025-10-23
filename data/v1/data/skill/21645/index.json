@@ -1,0 +1,48 @@
+{
+  "id": 21645,
+  "name": "地心引力",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "命中提升了许多，2回合内可以造成的伤害提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身命中等级+2",
+      "args": [
+        5,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "2回合内每回合都能附加200点固定伤害",
+      "args": [
+        2,
+        200
+      ],
+      "effect": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/60/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e16ad8d"
+}

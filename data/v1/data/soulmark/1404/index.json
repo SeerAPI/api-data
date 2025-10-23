@@ -1,0 +1,41 @@
+{
+  "id": 1404,
+  "desc": "回合开始时，若自身拥有护盾状态则使用技能不消耗PP值，若自身未拥有护盾状态则对手使用技能消耗PP值翻倍；|战斗阶段结束时，若自身当回合受到攻击伤害则下回合免疫受到的攻击伤害且战斗阶段结束时{吸取}对手最大{体力}的1/3（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身拥有护盾状态则<color=#64F9FA>使用技能不消耗PP值</color>\r\n<indent=32><sprite=4><indent=48>若自身未拥有护盾状态则对手<color=#64F9FA>使用技能消耗PP值翻倍</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身当回合受到攻击伤害则下回合：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>抵挡</color>受到的<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4179,
+      "url": "https://api.seerapi.com/v1/pet/4179/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1773,
+      "url": "https://api.seerapi.com/v1/eid_effect/1773/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2a616876"
+}

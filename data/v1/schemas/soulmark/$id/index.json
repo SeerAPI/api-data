@@ -1,0 +1,133 @@
+{
+  "$defs": {
+    "EidEffectInUse": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use/"
+    },
+    "ResourceRef": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_SoulmarkTagCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Soulmark_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "desc": {
+      "description": "魂印描述",
+      "title": "Desc",
+      "type": "string"
+    },
+    "desc_formatting_adjustment": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "魂印描述的\"可格式化版本\"，用于呈现Unity端中的描述排版形式",
+      "title": "Desc Formatting Adjustment"
+    },
+    "pve_effective": {
+      "anyOf": [
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "该魂印是否PVE生效，如果为null则表示无法通过数据层面推断其是否生效",
+      "title": "Pve Effective"
+    },
+    "intensified": {
+      "description": "是否是强化的魂印",
+      "title": "Intensified",
+      "type": "boolean"
+    },
+    "is_adv": {
+      "description": "是否是神谕觉醒魂印",
+      "title": "Is Adv",
+      "type": "boolean"
+    },
+    "pet": {
+      "description": "可持有该魂印的精灵ID",
+      "items": {
+        "$ref": "#/$defs/ResourceRef"
+      },
+      "title": "Pet",
+      "type": "array"
+    },
+    "effect": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EidEffectInUse"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "魂印效果"
+    },
+    "tag": {
+      "description": "魂印标签，例如强攻，断回合等",
+      "items": {
+        "$ref": "#/$defs/ResourceRef_SoulmarkTagCategory_"
+      },
+      "title": "Tag",
+      "type": "array"
+    },
+    "intensified_to": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ResourceRef_Soulmark_"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "强化后的魂印资源，该字段仅在该魂印有强化版时有效，否则为null"
+    },
+    "from": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ResourceRef_Soulmark_"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "魂印资源，该字段仅在该魂印是强化/觉醒魂印时有效"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "desc",
+    "intensified",
+    "is_adv",
+    "pet",
+    "effect",
+    "tag",
+    "intensified_to",
+    "from",
+    "hash"
+  ],
+  "title": "Soulmark",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

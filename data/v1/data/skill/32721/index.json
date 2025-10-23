@@ -1,0 +1,45 @@
+{
+  "id": 32721,
+  "name": "怒爪乱痕",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 96,
+    "url": "https://api.seerapi.com/v1/element_type_combination/96/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 942,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/942/"
+      }
+    },
+    {
+      "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1355,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1355/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "44eb703d"
+}

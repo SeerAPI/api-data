@@ -1,0 +1,53 @@
+{
+  "id": 35940,
+  "name": "重返初识",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则下回合自身技能必定先手",
+      "args": [],
+      "effect": {
+        "id": 1817,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1817/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则100%令对手冰封，未触发则恢复自身最大体力的1/3",
+      "args": [
+        100,
+        15,
+        3
+      ],
+      "effect": {
+        "id": 1471,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1471/"
+      }
+    },
+    {
+      "info": "先出手时对手当回合属性技能无效",
+      "args": [],
+      "effect": {
+        "id": 980,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/980/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c32c536b"
+}

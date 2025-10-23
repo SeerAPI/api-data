@@ -1,0 +1,45 @@
+{
+  "id": 1151,
+  "desc": "自身攻击技能造成伤害的100%恢复自身体力，若造成伤害值的尾数为6则额外附加100%的等量固定伤害；自身受到攻击伤害后令对手下回合属性技能失效，若受到伤害值的尾数为6则消除对手回合类效果且100%令对手睡眠（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害100%额外恢复至自身体力\r\n<indent=32><sprite=4><indent=48>若造成伤害值的尾数为6则额外<color=#64F9FA>附加</color>100%的等量<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后令对手下回合<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>若受到伤害值的尾数为6则<color=#64F9FA>消除</color>对手<b>回合类效果</b>且100%<color=#64F9FA>令对手睡眠</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3882,
+      "url": "https://api.seerapi.com/v1/pet/3882/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      6,
+      100,
+      6,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1469,
+      "url": "https://api.seerapi.com/v1/eid_effect/1469/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "29a9eb0"
+}

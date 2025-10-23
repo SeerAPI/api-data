@@ -1,0 +1,45 @@
+{
+  "id": 28881,
+  "name": "织梦",
+  "power": 0,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "为己方提供了援助",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身主动切换下场后令己方下只精灵出战时获得240点护罩",
+      "args": [
+        240
+      ],
+      "effect": {
+        "id": 1911,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1911/"
+      }
+    },
+    {
+      "info": "自身主动切换下场后令己方下只精灵出战时获得240点护盾",
+      "args": [
+        240
+      ],
+      "effect": {
+        "id": 1937,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1937/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "def67d12"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 454,
+  "desc": "回合开始时，若对手体力低于自身最大HP的1/2，则当回合对手受到的伤害提升50%；回合开始时，若对手体力高于自身最大HP的1/2，则当回合自身受到的伤害减少50%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3112,
+      "url": "https://api.seerapi.com/v1/pet/3112/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      2,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 770,
+      "url": "https://api.seerapi.com/v1/eid_effect/770/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2ccd1bc1"
+}

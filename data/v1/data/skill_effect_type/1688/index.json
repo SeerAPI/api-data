@@ -1,0 +1,49 @@
+{
+  "id": 1688,
+  "args_num": 3,
+  "info": "消除敌我双方能力提升状态和回合类效果，消除任意一项成功则吸取对手最大体力的1/{0}且{1}%令对手{2}",
+  "info_formatting_adjustment": "消除敌我双方能力提升状态和回合类效果\r\n--><condition>消除任意一项成功</condition>则吸取对手最大体力的1/{0}且{1}%令对手{2}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 27578,
+      "url": "https://api.seerapi.com/v1/skill/27578/"
+    },
+    {
+      "id": 28092,
+      "url": "https://api.seerapi.com/v1/skill/28092/"
+    },
+    {
+      "id": 29111,
+      "url": "https://api.seerapi.com/v1/skill/29111/"
+    },
+    {
+      "id": 38079,
+      "url": "https://api.seerapi.com/v1/skill/38079/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 63508,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63508/"
+    },
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    },
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    }
+  ],
+  "hash": "a3b3bf95"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 507,
+  "desc": "回合开始时，若对手处于能力提升状态，则消除对手能力提升状态并有60%概率使对手害怕，未触发害怕则附加350点固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3164,
+      "url": "https://api.seerapi.com/v1/pet/3164/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      60,
+      350,
+      1
+    ],
+    "effect": {
+      "id": 808,
+      "url": "https://api.seerapi.com/v1/eid_effect/808/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 504,
+    "url": "https://api.seerapi.com/v1/soulmark/504/"
+  },
+  "hash": "9df1e138"
+}

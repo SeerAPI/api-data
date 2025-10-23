@@ -1,0 +1,58 @@
+{
+  "id": 36746,
+  "name": "悼玄黄",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": "天地凭悼，沦堕玄黄！",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 98,
+    "url": "https://api.seerapi.com/v1/element_type_combination/98/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/868/"
+      }
+    },
+    {
+      "info": "若对手为自身天敌则100%令对手疲惫，未触发则令自身2回合内100%闪避对手攻击",
+      "args": [
+        100,
+        7,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1489,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1489/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "274566d5"
+}

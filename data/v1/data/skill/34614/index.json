@@ -1,0 +1,33 @@
+{
+  "id": 34614,
+  "name": "禁忌巫术",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 62,
+    "url": "https://api.seerapi.com/v1/element_type_combination/62/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使自身体力百分比与对手体力百分比对调",
+      "args": [],
+      "effect": {
+        "id": 529,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/529/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d152881e"
+}

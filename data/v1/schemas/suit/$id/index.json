@@ -1,0 +1,159 @@
+{
+  "$defs": {
+    "EidEffectInUse": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use/"
+    },
+    "ResourceRef_Equip_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "SixAttributes": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes/"
+    },
+    "SuitBonus": {
+      "properties": {
+        "newse_id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "部件特性ID，一部分套装使用该字段来表示效果",
+          "title": "Newse Id"
+        },
+        "eid_effect": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/EidEffectInUse"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "部件效果，一部分套装使用该字段来表示效果"
+        },
+        "id": {
+          "description": "套装效果ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "desc": {
+          "description": "套装描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "effective_pets": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ResourceRef_Pet_"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "表示套装效果仅在这些精灵上生效，null表示对所有精灵都生效",
+          "title": "Effective Pets"
+        },
+        "attribute": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SixAttributes"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "属性加成，仅在套装效果为属性加成时有效"
+        }
+      },
+      "required": [
+        "id",
+        "desc"
+      ],
+      "title": "SuitBonus",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "transform": {
+      "description": "是否可变形",
+      "title": "Transform",
+      "type": "boolean"
+    },
+    "tran_speed": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "变形速度，仅当该套装可变形时有效",
+      "title": "Tran Speed"
+    },
+    "suit_desc": {
+      "description": "套装描述",
+      "title": "Suit Desc",
+      "type": "string"
+    },
+    "equips": {
+      "description": "部件列表",
+      "items": {
+        "$ref": "#/$defs/ResourceRef_Equip_"
+      },
+      "title": "Equips",
+      "type": "array"
+    },
+    "bonus": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SuitBonus"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "套装效果，仅当该套装为能力加成套装时有效"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "transform",
+    "suit_desc",
+    "hash"
+  ],
+  "title": "Suit",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

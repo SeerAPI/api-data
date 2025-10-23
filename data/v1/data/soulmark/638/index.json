@@ -1,0 +1,46 @@
+{
+  "id": 638,
+  "desc": "[固伤效果]:|每次使用攻击技能附加对手上次造成伤害数值一半的固定伤害（BOSS无效); |[拦截效果]:|自身死亡后100%重生一次，重生时消除对手能力提升状态和回合类效果，消除任意一项成功则自身免疫下1次受到的异常状态; |[触发效果]:|重生后自身2回合所有技能威力提升100%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3311,
+      "url": "https://api.seerapi.com/v1/pet/3311/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      100,
+      1,
+      2,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 922,
+      "url": "https://api.seerapi.com/v1/eid_effect/922/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "40c8e234"
+}

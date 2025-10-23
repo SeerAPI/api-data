@@ -1,0 +1,46 @@
+{
+  "id": 1941,
+  "desc": "自身先出手时下回合所有技能先制+1且造成的攻击伤害提升50%，后出手时吸取对手250点体力|战斗阶段结束时，随机触发以下效果中的1个：恢复250点体力、全属性+1、下次受到的攻击伤害减少50%；若本次的触发效果与上次一致则本场战斗删除此效果，并将此触发结果并入自身先出手时触发的效果中（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时下回合所有技能<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=3><indent=32>自身后出手时<color=#64F9FA>吸取</color>对手250点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，随机触发以下效果中的1个：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>250点<b>体力</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>下次受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>若本次的触发效果与上次一致则本场战斗删除此效果，并将此效果并入上述先出手时触发的效果中",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4738,
+      "url": "https://api.seerapi.com/v1/pet/4738/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      250,
+      250,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 2355,
+      "url": "https://api.seerapi.com/v1/eid_effect/2355/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8ce9aede"
+}

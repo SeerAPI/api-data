@@ -1,0 +1,53 @@
+{
+  "id": 32532,
+  "name": "昼夜棱镜",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将下次受到的伤害100%反馈给对手 ",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 855,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/855/"
+      }
+    },
+    {
+      "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+      "args": [],
+      "effect": {
+        "id": 1247,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1247/"
+      }
+    },
+    {
+      "info": "后出手时下回合所有技能先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 499,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/499/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e83545a3"
+}

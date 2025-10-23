@@ -1,0 +1,46 @@
+{
+  "id": 36091,
+  "name": "御·灭杀之枪",
+  "power": 150,
+  "max_pp": 1,
+  "accuracy": 0,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身不处于能力提升状态则吸取对手200点体力，若先出手则额外吸取200点体力",
+      "args": [
+        200,
+        200
+      ],
+      "effect": {
+        "id": 1613,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1613/"
+      }
+    },
+    {
+      "info": "自身处于能力提升状态时造成的伤害提升50%，先出手时效果翻倍",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1472,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1472/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c23b3ee4"
+}

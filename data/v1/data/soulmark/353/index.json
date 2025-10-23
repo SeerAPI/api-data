@@ -1,0 +1,37 @@
+{
+  "id": 353,
+  "desc": "若对方先出手则本回合免疫异常状态；若对手使用带有先手效果的技能，则受到伤害减少60%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2959,
+      "url": "https://api.seerapi.com/v1/pet/2959/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      60
+    ],
+    "effect": {
+      "id": 681,
+      "url": "https://api.seerapi.com/v1/eid_effect/681/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ad00ab16"
+}

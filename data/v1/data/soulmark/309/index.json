@@ -1,0 +1,37 @@
+{
+  "id": 309,
+  "desc": "无视任何伤害限制效果；对方若使用属性技能则自身恢复1/2最大HP",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2893,
+      "url": "https://api.seerapi.com/v1/pet/2893/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2
+    ],
+    "effect": {
+      "id": 638,
+      "url": "https://api.seerapi.com/v1/eid_effect/638/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "87ace85e"
+}

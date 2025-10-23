@@ -1,0 +1,60 @@
+{
+  "id": 27450,
+  "name": "烈焰鬼面",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；自身受到攻击则有一定概率使自身全属性+1；对手释放技能所消耗的PP为2倍",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击则50%使自身全属性+1，未触发则100%使对手全属性-1",
+      "args": [
+        3,
+        50,
+        1,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1594,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1594/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ddaaa615"
+}

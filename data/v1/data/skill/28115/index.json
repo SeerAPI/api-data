@@ -1,0 +1,46 @@
+{
+  "id": 28115,
+  "name": "解脱",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "到你了，你好好加油吧。",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手诅咒，未触发则消除对手回合类效果",
+      "args": [
+        100,
+        23
+      ],
+      "effect": {
+        "id": 1187,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1187/"
+      }
+    },
+    {
+      "info": "消耗自身全部体力，给对手附加消耗体力1/2等量的百分比伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1276,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1276/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9f2437b1"
+}

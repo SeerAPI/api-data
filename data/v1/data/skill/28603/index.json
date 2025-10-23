@@ -1,0 +1,58 @@
+{
+  "id": 28603,
+  "name": "万物绘卷",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "根据对手所处的异常状态附加了异常状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力提升状态，100%概率令对手烧伤",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 200,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/200/"
+      }
+    },
+    {
+      "info": "若对手处于能力下降状态则100%概率冻伤",
+      "args": [
+        100,
+        5
+      ],
+      "effect": {
+        "id": 449,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/449/"
+      }
+    },
+    {
+      "info": "对手处于异常状态时100%令对手中毒",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1248,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1248/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "62ba6eea"
+}

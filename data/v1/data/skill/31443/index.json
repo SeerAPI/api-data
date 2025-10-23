@@ -1,0 +1,56 @@
+{
+  "id": 31443,
+  "name": "圆月释魂斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 976,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/976/"
+      }
+    },
+    {
+      "info": "若打出致命一击则对手100%概率失明",
+      "args": [
+        100,
+        20
+      ],
+      "effect": {
+        "id": 553,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/553/"
+      }
+    },
+    {
+      "info": "若攻击未打出致命一击则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 844,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/844/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d9e5c3d7"
+}

@@ -1,0 +1,49 @@
+{
+  "id": 36382,
+  "name": "兔兔能办案",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 74,
+    "url": "https://api.seerapi.com/v1/element_type_combination/74/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手300点体力，若对手未受到固定伤害则100%令对手害怕",
+      "args": [
+        300,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1895,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1895/"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的1/3，若对手免疫百分比伤害则100%令对手疲惫",
+      "args": [
+        3,
+        100,
+        7
+      ],
+      "effect": {
+        "id": 1885,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1885/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d7a4ef10"
+}

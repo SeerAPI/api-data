@@ -1,0 +1,46 @@
+{
+  "id": 957,
+  "desc": "每次登场当回合若对手使用属性技能则下回合无法使用攻击技能，若对手使用攻击技能则下回合无法使用属性技能；自身每使用1次攻击技能则本次战斗中造成的伤害提高40%，最高120%；自身每使用1次属性技能则本次战斗中受到的伤害减少20%，最高60%（下场后保留，boss无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3672,
+      "url": "https://api.seerapi.com/v1/pet/3672/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      40,
+      120,
+      1,
+      20,
+      60,
+      1
+    ],
+    "effect": {
+      "id": 1248,
+      "url": "https://api.seerapi.com/v1/eid_effect/1248/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6a838c5e"
+}

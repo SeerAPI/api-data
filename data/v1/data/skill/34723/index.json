@@ -1,0 +1,53 @@
+{
+  "id": 34723,
+  "name": "花舞猩红雨",
+  "power": 30,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时使对手2回合属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1284,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1284/"
+      }
+    },
+    {
+      "info": "后出手时下回合所有技能先制+2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 499,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/499/"
+      }
+    },
+    {
+      "info": "涵双1回合释放4-8张玫瑰卡牌进行攻击，每张卡牌额外附加50点固定伤害，自身体力低于最大体力的1/3时效果翻倍",
+      "args": [],
+      "effect": {
+        "id": 1636,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1636/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "303830c6"
+}

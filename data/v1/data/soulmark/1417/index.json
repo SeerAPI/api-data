@@ -1,0 +1,37 @@
+{
+  "id": 1417,
+  "desc": "自身攻击命中后有50%的概率附加200点固定伤害，若自身先出手则概率翻倍，若自身处于能力提升状态则固定伤害翻倍（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后有50%的概率<color=#64F9FA>附加</color>200点<b>固定伤害</b>，若自身先出手则概率翻倍，若自身处于能力提升状态则固定伤害翻倍",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4195,
+      "url": "https://api.seerapi.com/v1/pet/4195/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      200
+    ],
+    "effect": {
+      "id": 1788,
+      "url": "https://api.seerapi.com/v1/eid_effect/1788/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "77b3e792"
+}

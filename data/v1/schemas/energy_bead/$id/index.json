@@ -1,0 +1,78 @@
+{
+  "$defs": {
+    "EidEffectInUse": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use/"
+    },
+    "ResourceRef_Item_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "SixAttributes": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "能量珠ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "能量珠名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "desc": {
+      "description": "能量珠描述",
+      "title": "Desc",
+      "type": "string"
+    },
+    "idx": {
+      "description": "能量珠效果ID",
+      "title": "Idx",
+      "type": "integer"
+    },
+    "use_times": {
+      "description": "使用次数",
+      "title": "Use Times",
+      "type": "integer"
+    },
+    "item": {
+      "$ref": "#/$defs/ResourceRef_Item_",
+      "description": "能量珠物品资源引用"
+    },
+    "effect": {
+      "$ref": "#/$defs/EidEffectInUse",
+      "description": "能量珠效果"
+    },
+    "ability_buff": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SixAttributes"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "能力加成数值，仅当能量珠效果为属性加成时有效"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "desc",
+    "idx",
+    "use_times",
+    "item",
+    "effect",
+    "hash"
+  ],
+  "title": "EnergyBead",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

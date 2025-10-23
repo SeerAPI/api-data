@@ -1,0 +1,38 @@
+{
+  "id": 35181,
+  "name": "百川同泣",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 26,
+    "url": "https://api.seerapi.com/v1/element_type_combination/26/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，100%令对手冰封，未触发则附加自身最大体力1/2的百分比伤害且3回合内对手无法通过技能恢复自身体力",
+      "args": [
+        100,
+        15,
+        2,
+        3
+      ],
+      "effect": {
+        "id": 1698,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1698/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8e8d7747"
+}

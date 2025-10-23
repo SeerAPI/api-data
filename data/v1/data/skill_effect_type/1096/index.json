@@ -1,0 +1,25 @@
+{
+  "id": 1096,
+  "args_num": 0,
+  "info": "全属性+1，自身当前体力低于最大体力的1/2时强化效果翻倍；4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍；自身下2次使用技能触发星皇之怒的概率翻倍;技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒（星皇之怒：下2回合自身造成的攻击伤害翻倍；下2次自身受到的攻击伤害额外减少50%）",
+  "info_formatting_adjustment": "全属性+1\r\n--><condition>自身当前体力低于最大体力的1/2时</condition>强化效果翻倍\r\n4回合内每回合使用技能吸取对手最大体力的1/3$Boss$\r\n-->吸取体力时<condition>若自身体力低于最大体力的1/2</condition>则吸取效果翻倍\r\n自身下2次使用技能触发星皇之怒的概率翻倍\r\n技能结束后<condition>若对手体力值高于0</condition>，则50%进行一次额外行动以触发星皇之怒\r\n星皇之怒：下2回合自身造成的攻击伤害翻倍；下2次自身受到的攻击伤害额外减少50%",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 25295,
+      "url": "https://api.seerapi.com/v1/skill/25295/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    },
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    }
+  ],
+  "hash": "dfb02160"
+}

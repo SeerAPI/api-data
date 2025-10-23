@@ -1,0 +1,35 @@
+{
+  "id": 13176,
+  "name": "无极冰刃",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后10%令对方冻伤",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/14/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "40dc2ff9"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 37259,
+  "name": "霜判",
+  "power": 85,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 91,
+    "url": "https://api.seerapi.com/v1/element_type_combination/91/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升，吸取成功则下1次受到的攻击伤害减少70%",
+      "args": [
+        1,
+        70
+      ],
+      "effect": {
+        "id": 1287,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1287/"
+      }
+    },
+    {
+      "info": "消除对手护盾效果，消除成功100%令对手冰封，未触发则自身获得300点护盾",
+      "args": [
+        100,
+        15,
+        300
+      ],
+      "effect": {
+        "id": 2156,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2156/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "98d83d76"
+}

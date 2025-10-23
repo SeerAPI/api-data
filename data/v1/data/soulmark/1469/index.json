@@ -1,0 +1,40 @@
+{
+  "id": 1469,
+  "desc": "回合开始时，若自身体力高于对手则使用攻击技能50%令对手失明，若自身体力低于对手则使用攻击技能100%令对手失明；|当回合对手攻击技能命中则100%令对手沉默，对手攻击技能未命中则降低对手所有技能1点PP值（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合使用攻击技能时50%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合使用攻击技能时100%<color=#64F9FA>令对手失明</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中则100%<color=#64F9FA>令对手沉默</color>\r\n<indent=16><sprite=3><indent=32>对手攻击技能未命中则<color=#64F9FA>降低</color>对手所有技能1点<b>PP值</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4249,
+      "url": "https://api.seerapi.com/v1/pet/4249/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1837,
+      "url": "https://api.seerapi.com/v1/eid_effect/1837/"
+    }
+  },
+  "tag": [
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "630374b"
+}

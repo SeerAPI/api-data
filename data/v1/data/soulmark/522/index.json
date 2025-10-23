@@ -1,0 +1,37 @@
+{
+  "id": 522,
+  "desc": "攻击消除对手回合类效果；攻击命中后随机使对手1个技能PP值归零",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3204,
+      "url": "https://api.seerapi.com/v1/pet/3204/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 830,
+      "url": "https://api.seerapi.com/v1/eid_effect/830/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "83d2c483"
+}

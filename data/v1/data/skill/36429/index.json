@@ -1,0 +1,46 @@
+{
+  "id": 36429,
+  "name": "夜朗",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身下1次攻击技能造成的伤害额外提升50%",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1179,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1179/"
+      }
+    },
+    {
+      "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 905,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/905/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "71121f29"
+}

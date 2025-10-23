@@ -1,0 +1,46 @@
+{
+  "id": 1375,
+  "desc": "潜隐灵蛇出场后每回合激发灵蛇的力量，按照顺序依次为逆水灵蛇之力、幻藤灵蛇之力、机械灵蛇之力、破地灵蛇之力，之后回合循环上述效果（boss无效）；|逆水灵蛇：自身基础速度值高于对手时当回合攻击技能随机附加150-300点固定伤害；|幻藤灵蛇：自身当回合受到攻击伤害则战斗阶段结束时恢复自身最大体力的1/3；|机械灵蛇：自身回合类效果被消除则100%令对手进入睡眠状态；|破地灵蛇：自身当回合开始时获得一个250点的护盾和250点的护罩",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时潜隐灵蛇激发灵蛇之力，初始为逆水灵蛇之力，灵蛇之力会以逆水、幻藤、机械、破地、逆水的顺序每回合切换\r\n\r\n<indent=0><sprite=5><indent=15>逆水灵蛇之力：\r\n<indent=16><sprite=6><indent=32>基础速度值高于对手时攻击技能随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>幻藤灵蛇之力：\r\n<indent=16><sprite=6><indent=32>受到攻击则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n\r\n<indent=0><sprite=5><indent=15>机械灵蛇之力：\r\n<indent=16><sprite=6><indent=32>回合类效果被消除则100%<color=#64F9FA>令对手睡眠</color>\r\n\r\n<indent=0><sprite=5><indent=15>破地灵蛇之力：\r\n<indent=16><sprite=6><indent=32>回合开始时<color=#64F9FA>获得</color>250点<b>护盾</b>和250点<b>护罩</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4146,
+      "url": "https://api.seerapi.com/v1/pet/4146/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      150,
+      300,
+      3,
+      100,
+      250,
+      250,
+      1
+    ],
+    "effect": {
+      "id": 1736,
+      "url": "https://api.seerapi.com/v1/eid_effect/1736/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8fd3503c"
+}

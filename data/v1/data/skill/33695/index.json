@@ -1,0 +1,53 @@
+{
+  "id": 33695,
+  "name": "瘴云压空",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 92,
+    "url": "https://api.seerapi.com/v1/element_type_combination/92/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则对手全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1234,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1234/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1052,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1052/"
+      }
+    },
+    {
+      "info": "命中后为对手种下一颗黑暗之种（黑暗之种经过4回合逐渐成长，每回合结束使对手随机1个技能PP值-1，长大后使对手所有技能PP值-1）",
+      "args": [],
+      "effect": {
+        "id": 1501,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1501/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "710cd2d0"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 28641,
+  "name": "沉眠之梦",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "陷入了沉睡",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内每回合50%闪避对手攻击",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 426,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/426/"
+      }
+    },
+    {
+      "info": "恢复全部体力，消除所有能力下降，使自己睡眠2回合",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 155,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/155/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "16eca0f0"
+}

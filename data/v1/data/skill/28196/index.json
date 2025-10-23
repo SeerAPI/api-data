@@ -1,0 +1,49 @@
+{
+  "id": 28196,
+  "name": "幽途诡道",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对手受到的固定伤害和百分比伤害开始提升了；令对手进入混乱状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内自身造成的固定伤害、百分比伤害提升100%",
+      "args": [
+        4,
+        100
+      ],
+      "effect": {
+        "id": 1469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1469/"
+      }
+    },
+    {
+      "info": "100%令对手混乱，若对手已处于混乱状态则将此状态刷新至4回合",
+      "args": [
+        100,
+        10,
+        10,
+        4
+      ],
+      "effect": {
+        "id": 1586,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1586/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6e8e0433"
+}

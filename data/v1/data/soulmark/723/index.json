@@ -1,0 +1,36 @@
+{
+  "id": 723,
+  "desc": "自身在出战背包时使己方出战精灵每次攻击25%的概率伤害提高50%，未触发则随机{吸取}对手1~100点{体力}（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3409,
+      "url": "https://api.seerapi.com/v1/pet/3409/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      50,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1008,
+      "url": "https://api.seerapi.com/v1/eid_effect/1008/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2b3f219a"
+}

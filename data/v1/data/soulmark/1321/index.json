@@ -1,0 +1,46 @@
+{
+  "id": 1321,
+  "desc": "自身使用攻击技能则消耗自身最大体力的15%且附加2倍的固定伤害，当自身因主动消耗体力死亡则消除对手回合类效果且令对手进入害怕状态；|战斗阶段结束时，若自身体力高于对手则召唤噩梦蝠群:50%令对手害怕，未触发则下回合攻击必定打出致命一击；若自身体力低于对手则触发蝠翼风暴：令对方防御-1、特防-1且下回合自身攻击技能先制+3（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则消耗自身最大体力的15%且<color=#64F9FA>附加</color>2倍的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>当自身因此效果死亡则<color=#64F9FA>消除</color>对手<b>回合类效果</b>且<color=#64F9FA>令对手害怕</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则召唤噩梦蝠群：50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下回合攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则触发蝠翼风暴：令对方防御-1、特防-1且下回合自身攻击技能<b>先制</b>+3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4078,
+      "url": "https://api.seerapi.com/v1/pet/4078/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      15,
+      2,
+      50,
+      1,
+      1,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1669,
+      "url": "https://api.seerapi.com/v1/eid_effect/1669/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f968960"
+}

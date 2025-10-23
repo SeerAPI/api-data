@@ -1,0 +1,35 @@
+{
+  "id": 28512,
+  "name": "鬼影把戏",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "令对手陷入了异常状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机附加烧伤、冻伤、中毒、害怕、疲惫、麻痹其中1种异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 549,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/549/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f2d783ba"
+}

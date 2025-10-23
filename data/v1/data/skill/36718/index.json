@@ -1,0 +1,57 @@
+{
+  "id": 36718,
+  "name": "华夫美食会",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.25,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "后出手时50%令对手睡眠，未触发则令对手下1次使用的攻击技能无效",
+      "args": [
+        50,
+        8,
+        1
+      ],
+      "effect": {
+        "id": 1799,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1799/"
+      }
+    },
+    {
+      "info": "2回合内免疫并反弹自身受到的固定伤害和百分比伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1818,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1818/"
+      }
+    },
+    {
+      "info": "附加对手已损失体力值25%的百分比伤害",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 1844,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1844/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8e76fb2e"
+}

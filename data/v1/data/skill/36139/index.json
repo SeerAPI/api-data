@@ -1,0 +1,43 @@
+{
+  "id": 36139,
+  "name": "天奔六式",
+  "power": 66,
+  "max_pp": 7,
+  "accuracy": 66,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 116,
+    "url": "https://api.seerapi.com/v1/element_type_combination/116/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身不处于能力提升状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 1860,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1860/"
+      }
+    },
+    {
+      "info": "命中时6%的概率秒杀对方",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 36,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/36/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "25500a64"
+}

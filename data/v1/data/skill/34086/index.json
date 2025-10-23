@@ -1,0 +1,56 @@
+{
+  "id": 34086,
+  "name": "界·尘埃掩埋",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 101,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/101/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功使对手下回合先制-3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 867,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/867/"
+      }
+    },
+    {
+      "info": "获得点数等同于双方最大体力差值的护盾，最高200点，护盾被击破时自身下1次使用的攻击技能附加与双方最大体力差护盾值相同的威力",
+      "args": [
+        200,
+        1
+      ],
+      "effect": {
+        "id": 1561,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1561/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e42d0680"
+}

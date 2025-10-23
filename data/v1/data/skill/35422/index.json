@@ -1,0 +1,33 @@
+{
+  "id": 35422,
+  "name": "仿生傀儡戏",
+  "power": 0,
+  "max_pp": 3,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%复制对手当回合释放的技能，若对手当回合使用的技能为攻击技能则令对手随机1个技能PP值归零，若对手当回合使用的技能为属性技能则令对手下回合先制-2",
+      "args": [],
+      "effect": {
+        "id": 1656,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1656/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d8a85d9d"
+}

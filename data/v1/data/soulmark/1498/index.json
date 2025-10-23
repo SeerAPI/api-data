@@ -1,0 +1,45 @@
+{
+  "id": 1498,
+  "desc": "当回合受到攻击伤害则战斗阶段结束时反弹250点固定伤害；|自身每次后出手则下回合受到的攻击伤害减少100点，每次触发则效果叠加100点，最高可叠加至400点，当减伤数值叠加至最高时令对手随机2个技能PP值归零，之后重置此效果（效果持续到被击败或切换下场，boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害则战斗阶段结束时<color=#64F9FA>附加</color>250点<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身后出手则下回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>100点，每次触发则效果叠加100点，最高叠加至400点\r\n<indent=32><sprite=4><indent=48>当额度叠加至最高时令对手随机2个技能<b>PP值</b><color=#64F9FA>归零</color>，之后重置上述效果",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4274,
+      "url": "https://api.seerapi.com/v1/pet/4274/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      100,
+      100,
+      400,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1860,
+      "url": "https://api.seerapi.com/v1/eid_effect/1860/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ddab2e51"
+}

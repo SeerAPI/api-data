@@ -1,0 +1,42 @@
+{
+  "id": 1860,
+  "desc": "自身登场后的3回合内每次进入异常状态时将之转化为3回合的沉默并记录这些异常状态（最多记录4次）；自身登场的3回合后，每次使用攻击技能后清除首个异常状态的记录以吸取对手最大体力的1/3|自身在场时每持有1个异常状态的记录，造成的伤害提高30%且回合结束后恢复自身最大体力的15%；自身下场时清除所有异常状态的记录并依次附加给己方下只出战精灵（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场后的3回合内，每次进入异常状态时将之<color=#64F9FA>转化</color>为3回合的沉默并记录这些<b>异常状态</b>，最多记录4个\r\n<indent=16><sprite=3><indent=32>自身登场的3回合后，每次使用攻击技能后清除首个异常状态的记录以<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身在场时每持有1个异常状态的记录，造成的<b>攻击伤害</b><color=#64F9FA>提升</color>30%且回合结束后<color=#64F9FA>恢复</color>自身最大体力的15%\r\n\r\n<indent=0><sprite=0><indent=16>下场效果：\r\n<indent=16><sprite=3><indent=32>自身下场时清除上述记录内的所有异常状态并依次附加给己方下只出战精灵",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4658,
+      "url": "https://api.seerapi.com/v1/pet/4658/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      3,
+      3,
+      1,
+      30,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 2255,
+      "url": "https://api.seerapi.com/v1/eid_effect/2255/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fe8f12c8"
+}

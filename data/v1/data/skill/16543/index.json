@@ -1,0 +1,60 @@
+{
+  "id": 16543,
+  "name": "毁邪灭魔斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 34,
+    "url": "https://api.seerapi.com/v1/element_type_combination/34/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成伤害低于300，则下4回合所有技能附带50点固定伤害",
+      "args": [
+        0,
+        300,
+        4,
+        50
+      ],
+      "effect": {
+        "id": 639,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/639/"
+      }
+    },
+    {
+      "info": "若伤害高于300，则自身特攻+1",
+      "args": [
+        300,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 518,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/518/"
+      }
+    },
+    {
+      "info": "当回合未击败对手，则减少对手当前体力1/4",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 644,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/644/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a0988976"
+}

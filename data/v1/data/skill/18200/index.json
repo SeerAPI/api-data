@@ -1,0 +1,36 @@
+{
+  "id": 18200,
+  "name": "龙炎吐息",
+  "power": 120,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/element_type_combination/28/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%另对手烧伤，每次造成的伤害值都将恢复自身体力",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 442,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/442/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cf664345"
+}

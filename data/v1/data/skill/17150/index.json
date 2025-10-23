@@ -1,0 +1,45 @@
+{
+  "id": 17150,
+  "name": "极冻寒霜诀",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手的特防值的25%的百分比伤害",
+      "args": [
+        1,
+        3,
+        25
+      ],
+      "effect": {
+        "id": 593,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/593/"
+      }
+    },
+    {
+      "info": "无视对手双防能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 195,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/195/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2357c159"
+}

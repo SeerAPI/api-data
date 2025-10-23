@@ -1,0 +1,56 @@
+{
+  "id": 25846,
+  "name": "权霸天下",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；自身受到攻击开始吸取对手体力了；免疫下1次受到的攻击",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "4回合内若对手使用攻击技能则命中前令自身吸取对手最大体力的1/3",
+      "args": [
+        4,
+        3
+      ],
+      "effect": {
+        "id": 1269,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1269/"
+      }
+    },
+    {
+      "info": "免疫下1次受到的攻击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 570,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/570/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "92bbcf84"
+}

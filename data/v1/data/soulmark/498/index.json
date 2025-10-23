@@ -1,0 +1,43 @@
+{
+  "id": 498,
+  "desc": "30%的概率将本回合受到的伤害转化为自身体力；50%的概率使对手受到等同于伤害值的固定伤害；回合开始时，若自身体力高于对手，则当回合自身攻击技能额外先制+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3162,
+      "url": "https://api.seerapi.com/v1/pet/3162/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 803,
+      "url": "https://api.seerapi.com/v1/eid_effect/803/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a5ddf16a"
+}

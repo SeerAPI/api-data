@@ -1,0 +1,48 @@
+{
+  "id": 34239,
+  "name": "侵魂终灭冲",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 101,
+    "url": "https://api.seerapi.com/v1/element_type_combination/101/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力上升状态，消除成功则2回合内对手每回合命中-2",
+      "args": [
+        2,
+        5,
+        -2
+      ],
+      "effect": {
+        "id": 759,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/759/"
+      }
+    },
+    {
+      "info": "下2回合对手每回合受到相当于本次伤害的1/3的百分比伤害（可以叠加）",
+      "args": [
+        2,
+        3
+      ],
+      "effect": {
+        "id": 829,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/829/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fd516079"
+}

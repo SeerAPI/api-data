@@ -1,0 +1,63 @@
+{
+  "id": 37093,
+  "name": "彼空·真识本柢",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 121,
+    "url": "https://api.seerapi.com/v1/element_type_combination/121/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1192,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1192/"
+      }
+    },
+    {
+      "info": "自身体力高于最大体力的1/2时100%令对手睡眠",
+      "args": [
+        2,
+        100,
+        8
+      ],
+      "effect": {
+        "id": 1447,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1447/"
+      }
+    },
+    {
+      "info": "若自身当前体力低于最大体力的1/2则恢复自身全部体力并造成等量固定伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1135,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1135/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "721e9870"
+}

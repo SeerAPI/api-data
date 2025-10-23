@@ -1,0 +1,47 @@
+{
+  "id": 701,
+  "desc": "自身使用攻击技能后，若造成的攻击伤害低于300则附加对手当前体力1/3的百分比伤害；|回合开始时若对手处于异常状态则当回合自身造成的攻击伤害提升100%，若对手不处于异常状态则当回合自身技能命中前35%令对手害怕|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后，若造成的攻击伤害低于300则<color=#64F9FA>附加</color>对手当前体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则当回合自身使用技能时35%<color=#64F9FA>令对手害怕</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3388,
+      "url": "https://api.seerapi.com/v1/pet/3388/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      3,
+      100,
+      35,
+      1
+    ],
+    "effect": {
+      "id": 987,
+      "url": "https://api.seerapi.com/v1/eid_effect/987/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1697,
+    "url": "https://api.seerapi.com/v1/soulmark/1697/"
+  },
+  "from": null,
+  "hash": "a2b65bf2"
+}

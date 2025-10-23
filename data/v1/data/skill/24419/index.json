@@ -1,0 +1,47 @@
+{
+  "id": 24419,
+  "name": "龙战九州",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "随机吸取对手能力；受攻击时反弹对手固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "args": [
+        2,
+        -2
+      ],
+      "effect": {
+        "id": 425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/425/"
+      }
+    },
+    {
+      "info": "3回合内受攻击时反弹200点固定伤害",
+      "args": [
+        3,
+        200
+      ],
+      "effect": {
+        "id": 462,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/462/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d96204d2"
+}

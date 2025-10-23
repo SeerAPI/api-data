@@ -1,0 +1,38 @@
+{
+  "id": 33509,
+  "name": "毒瘴弥漫",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后50%使对手感染，未触发则对手下2回合先制-2",
+      "args": [
+        50,
+        27,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 937,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/937/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17a0de7e"
+}

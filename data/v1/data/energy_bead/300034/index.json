@@ -1,0 +1,32 @@
+{
+  "id": 300034,
+  "name": "速度能量珠",
+  "desc": "增加精灵速度能力10点（赛尔间对战无效）",
+  "idx": 1005,
+  "use_times": 10,
+  "item": {
+    "id": 300034,
+    "url": "https://api.seerapi.com/v1/item/300034/"
+  },
+  "effect": {
+    "effect_args": [
+      5,
+      10
+    ],
+    "effect": {
+      "id": 26,
+      "url": "https://api.seerapi.com/v1/eid_effect/26/"
+    }
+  },
+  "ability_buff": {
+    "atk": 0,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 10,
+    "hp": 0,
+    "percent": false,
+    "total": 10
+  },
+  "hash": "9efc5f38"
+}

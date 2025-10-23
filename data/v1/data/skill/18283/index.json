@@ -1,0 +1,36 @@
+{
+  "id": 18283,
+  "name": "痛苦龙息",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/element_type_combination/28/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手烧伤时，60%对方疲惫1回合；对手未烧伤时，40%对方疲惫1回合",
+      "args": [
+        60,
+        40
+      ],
+      "effect": {
+        "id": 151,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/151/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "68e9e809"
+}

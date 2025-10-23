@@ -1,0 +1,53 @@
+{
+  "id": 403,
+  "name": "未来战甲",
+  "transform": false,
+  "tran_speed": 0.0,
+  "suit_desc": "赛尔们在冒险中获得的套装，能够改变外观或者增强力量",
+  "equips": [
+    {
+      "id": 1300839,
+      "url": "https://api.seerapi.com/v1/equip/1300839/"
+    },
+    {
+      "id": 1300840,
+      "url": "https://api.seerapi.com/v1/equip/1300840/"
+    },
+    {
+      "id": 1300841,
+      "url": "https://api.seerapi.com/v1/equip/1300841/"
+    },
+    {
+      "id": 1300842,
+      "url": "https://api.seerapi.com/v1/equip/1300842/"
+    }
+  ],
+  "bonus": {
+    "newse_id": 7749,
+    "eid_effect": {
+      "effect_args": [
+        10,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1482,
+        "url": "https://api.seerapi.com/v1/eid_effect/1482/"
+      }
+    },
+    "id": 403,
+    "desc": "未来战甲套装：背包内精灵全属性+10%；背包内每死亡1只精灵则自身攻击命中后有1%的几率瞬杀对手（仅限赛尔与BOSS间对战）",
+    "effective_pets": [],
+    "attribute": {
+      "atk": 10,
+      "def": 10,
+      "sp_atk": 10,
+      "sp_def": 10,
+      "spd": 10,
+      "hp": 10,
+      "percent": true,
+      "total": 60
+    }
+  },
+  "hash": "ac0bf772"
+}

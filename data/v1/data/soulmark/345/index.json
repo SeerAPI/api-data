@@ -1,0 +1,35 @@
+{
+  "id": 345,
+  "desc": "每次造成伤害高于200,则有50%概率使对手害怕(BOSS无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2937,
+      "url": "https://api.seerapi.com/v1/pet/2937/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      50,
+      6,
+      1
+    ],
+    "effect": {
+      "id": 671,
+      "url": "https://api.seerapi.com/v1/eid_effect/671/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "969e2f0d"
+}

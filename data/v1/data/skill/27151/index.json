@@ -1,0 +1,48 @@
+{
+  "id": 27151,
+  "name": "境垠秘术",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 96,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "特攻+2；开始有几率免疫对手攻击伤害了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身特攻等级+2",
+      "args": [
+        2,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "3回合内有30%概率免疫对手的攻击伤害",
+      "args": [
+        3,
+        30
+      ],
+      "effect": {
+        "id": 525,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/525/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "55d32ca4"
+}

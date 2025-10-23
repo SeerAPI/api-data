@@ -1,0 +1,54 @@
+{
+  "id": 37793,
+  "name": "灼锋破晦",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "args": [],
+      "effect": {
+        "id": 2220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2220/"
+      }
+    },
+    {
+      "info": "将自身的能力下降状态10倍返还给对手",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 706,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/706/"
+      }
+    },
+    {
+      "info": "令双方烧伤，任意一方未触发则额外令对手失明",
+      "args": [
+        2,
+        20
+      ],
+      "effect": {
+        "id": 2200,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2200/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1a9fcaae"
+}

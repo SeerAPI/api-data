@@ -1,0 +1,49 @@
+{
+  "id": 1152,
+  "desc": "回合开始时，若自身满体力则当回合对手使用属性技能则50%无效，若自身体力未满则当回合自身所有技能先制+1且附加自身已损失体力50%的固定伤害；|自身受到攻击时50%令对手害怕，未触发则令对手全属性-1且下回合自身攻击50%令对手诅咒（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则当回合对手使用的<b>属性技能</b>50%<color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>若自身体力未满则当回合自身所有技能<b>先制</b>+1且<color=#64F9FA>附加</color>自身已损失体力50%的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手<color=#64F9FA>全属性-1</color>且下回合自身攻击50%<color=#64F9FA>令对手诅咒</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3883,
+      "url": "https://api.seerapi.com/v1/pet/3883/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      50,
+      50,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1470,
+      "url": "https://api.seerapi.com/v1/eid_effect/1470/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1448,
+    "url": "https://api.seerapi.com/v1/soulmark/1448/"
+  },
+  "from": null,
+  "hash": "df067347"
+}

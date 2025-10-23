@@ -1,0 +1,45 @@
+{
+  "id": 30126,
+  "name": "魔·黑天暗罚",
+  "power": 350,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对王·战联造成的伤害提高50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1063,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1063/"
+      }
+    },
+    {
+      "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 101,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/101/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d1b3f949"
+}

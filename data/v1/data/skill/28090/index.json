@@ -1,0 +1,78 @@
+{
+  "id": 28090,
+  "name": "大雨滂沱",
+  "power": 0,
+  "max_pp": 7,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "滂沱大雨临至，反击序曲奏响；开始免疫并反弹异常状态了；对手全属性都下降了，同时陷入了冰封状态；一段时间内若自身回合类效果被消除则令对手冰封",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身不处于能力提升状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 1860,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1860/"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "使对手全属性-1，未触发则对手沉默",
+      "args": [
+        1,
+        30
+      ],
+      "effect": {
+        "id": 1122,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1122/"
+      }
+    },
+    {
+      "info": "100%令对手冰封，未触发则降低自身所有技能2点PP值",
+      "args": [
+        100,
+        15,
+        2
+      ],
+      "effect": {
+        "id": 1862,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1862/"
+      }
+    },
+    {
+      "info": "4回合内若自身回合类效果被消除则100%令对手冰封",
+      "args": [
+        4,
+        100,
+        15
+      ],
+      "effect": {
+        "id": 1400,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1400/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3abbe86b"
+}

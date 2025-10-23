@@ -1,0 +1,43 @@
+{
+  "id": 886,
+  "desc": "回合开始时若自身满体力则所有技能先制+2，若体力未满则自身造成的伤害提升50%；当回合攻击未击败对手则下回合必定打出致命一击，当回合击败对手则{吸取}对手下只出场精灵最大{体力}的1/3（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3592,
+      "url": "https://api.seerapi.com/v1/pet/3592/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1173,
+      "url": "https://api.seerapi.com/v1/eid_effect/1173/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ce1cc477"
+}

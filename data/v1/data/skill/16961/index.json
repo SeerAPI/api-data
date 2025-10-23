@@ -1,0 +1,45 @@
+{
+  "id": 16961,
+  "name": "神照天殇",
+  "power": 50,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后80%令对方害怕",
+      "args": [
+        80
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15/"
+      }
+    },
+    {
+      "info": "使用技能时若对手处于能力提升状态，则先制+3，同时消除对手能力提升状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 714,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/714/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "94b78afe"
+}

@@ -1,0 +1,68 @@
+{
+  "id": 38041,
+  "name": "欲咒昧灵录",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 19,
+    "url": "https://api.seerapi.com/v1/element_type_combination/19/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则附加300点固定伤害",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 990,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/990/"
+      }
+    },
+    {
+      "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和80%的百分比伤害",
+      "args": [
+        80
+      ],
+      "effect": {
+        "id": 1828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1828/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300时100%令对手混乱",
+      "args": [
+        300,
+        100,
+        10
+      ],
+      "effect": {
+        "id": 594,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/594/"
+      }
+    },
+    {
+      "info": "当回合击败对手时，对方下只精灵出战时100%诅咒",
+      "args": [
+        100,
+        23
+      ],
+      "effect": {
+        "id": 698,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/698/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fdb477ed"
+}

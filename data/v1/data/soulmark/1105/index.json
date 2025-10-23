@@ -1,0 +1,47 @@
+{
+  "id": 1105,
+  "desc": "首次登场当回合开始时，若对手不处于能力提升则自身3回合内免疫异常状态和能力下降状态（该效果为回合类效果），若对手处于能力提升则自身3回合内造成的攻击伤害提升100%；|自身攻击技能命中后50%令对手焚烬，未触发则100%令对手烧伤（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场当回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则以回合类效果形式令自身3回合内<color=#64F9FA>免疫<b></color>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则自身3回合内造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后50%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手烧伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3830,
+      "url": "https://api.seerapi.com/v1/pet/3830/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      100,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1419,
+      "url": "https://api.seerapi.com/v1/eid_effect/1419/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1621,
+    "url": "https://api.seerapi.com/v1/soulmark/1621/"
+  },
+  "from": null,
+  "hash": "3154b0f5"
+}

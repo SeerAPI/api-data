@@ -1,0 +1,55 @@
+{
+  "id": 37613,
+  "name": "烈焰·能量光波",
+  "power": 150,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 125,
+    "url": "https://api.seerapi.com/v1/element_type_combination/125/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于护盾状态时造成的攻击伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 2100,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2100/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害高于300则吸取对手最大体力的1/3",
+      "args": [
+        300,
+        3
+      ],
+      "effect": {
+        "id": 1088,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1088/"
+      }
+    },
+    {
+      "info": "下1回合先出手则对手焚烬",
+      "args": [
+        1,
+        22
+      ],
+      "effect": {
+        "id": 878,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/878/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9dedf74b"
+}

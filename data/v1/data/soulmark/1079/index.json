@@ -1,0 +1,50 @@
+{
+  "id": 1079,
+  "desc": "每回合开始时令对手命中-1；|每次使用攻击技能50%的概率恢复250点体力，未触发则下回合自身造成的攻击伤害提升50%；每次使用属性技能50%的概率附加250点固定伤害，未触发则下回合自身受到的攻击伤害减少50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时令对手命中-1\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>每次使用攻击技能50%的概率<color=#64F9FA>恢复</color>250点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>未触发则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=3><indent=32>每次使用属性技能50%的概率<color=#64F9FA>附加</color>250点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则下回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3804,
+      "url": "https://api.seerapi.com/v1/pet/3804/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      250,
+      50,
+      50,
+      250,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1383,
+      "url": "https://api.seerapi.com/v1/eid_effect/1383/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1649,
+    "url": "https://api.seerapi.com/v1/soulmark/1649/"
+  },
+  "from": null,
+  "hash": "496682"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 24453,
+  "name": "愈战愈勇",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击逐渐的变强了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合攻击+1",
+      "args": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 433,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/433/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e9863c5e"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 37233,
+  "name": "非一",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 107,
+    "url": "https://api.seerapi.com/v1/element_type_combination/107/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则下回合受到的伤害转化为自身体力",
+      "args": [],
+      "effect": {
+        "id": 1219,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1219/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+      "args": [],
+      "effect": {
+        "id": 1974,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1974/"
+      }
+    },
+    {
+      "info": "解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2145,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2145/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d0782bdd"
+}

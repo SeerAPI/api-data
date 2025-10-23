@@ -1,0 +1,48 @@
+{
+  "id": 36694,
+  "name": "璨空灵电",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手不处于麻痹状态则吸取对手1/3最大体力",
+      "args": [
+        0,
+        3
+      ],
+      "effect": {
+        "id": 824,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/824/"
+      }
+    },
+    {
+      "info": "使对手全属性-1，若对手处于麻痹状态则自身额外全属性+1",
+      "args": [
+        1,
+        0,
+        1
+      ],
+      "effect": {
+        "id": 957,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/957/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b1574307"
+}

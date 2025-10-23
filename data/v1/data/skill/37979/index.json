@@ -1,0 +1,57 @@
+{
+  "id": 37979,
+  "name": "暗流水之刃",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若下回合受到攻击，则对手随机3项能力值-2",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 715,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/715/"
+      }
+    },
+    {
+      "info": "自身体力低于对手则为自身附加400点护盾且附加等量的固定伤害",
+      "args": [
+        400
+      ],
+      "effect": {
+        "id": 1588,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1588/"
+      }
+    },
+    {
+      "info": "立刻恢复自身400点体力，3回合后恢复自身全部体力",
+      "args": [
+        400,
+        3
+      ],
+      "effect": {
+        "id": 1635,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1635/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c0d5fa9"
+}

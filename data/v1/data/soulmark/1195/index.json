@@ -1,0 +1,38 @@
+{
+  "id": 1195,
+  "desc": "自身受到攻击伤害时80%令对手中毒；当回合攻击击败对手时，若对手处于中毒状态则80%的概率令对手下1只出场精灵进入感染状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害时80%<color=#64F9FA>令对手中毒</color>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身攻击击败对手时，若对手处于中毒状态则80%令对手下1只出场精灵感染",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3930,
+      "url": "https://api.seerapi.com/v1/pet/3930/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      80,
+      80,
+      1
+    ],
+    "effect": {
+      "id": 1526,
+      "url": "https://api.seerapi.com/v1/eid_effect/1526/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d01ace60"
+}

@@ -1,0 +1,49 @@
+{
+  "id": 10677,
+  "name": "天籁之音",
+  "power": 145,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，20%改变自身攻击等级+1",
+      "args": [
+        0,
+        20,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，20%改变自身防御等级+1",
+      "args": [
+        1,
+        20,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "29956250"
+}

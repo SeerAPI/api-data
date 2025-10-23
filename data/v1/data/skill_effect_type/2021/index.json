@@ -1,0 +1,37 @@
+{
+  "id": 2021,
+  "args_num": 4,
+  "info": "{0}回合内每回合使用技能恢复自身{1}点体力，恢复体力时若自身体力低于最大体力的1/{2}则恢复效果转变为吸取对手{3}点体力",
+  "info_formatting_adjustment": "{0}回合内每回合使用技能恢复自身{1}点体力\r\n-->恢复体力时<condition>若自身体力低于最大体力的1/{2}</condition>则恢复效果转变为吸取对手{3}点体力",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 28338,
+      "url": "https://api.seerapi.com/v1/skill/28338/"
+    },
+    {
+      "id": 28478,
+      "url": "https://api.seerapi.com/v1/skill/28478/"
+    },
+    {
+      "id": 28907,
+      "url": "https://api.seerapi.com/v1/skill/28907/"
+    },
+    {
+      "id": 28920,
+      "url": "https://api.seerapi.com/v1/skill/28920/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    },
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    }
+  ],
+  "hash": "5dee65fe"
+}

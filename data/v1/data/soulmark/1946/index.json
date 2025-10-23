@@ -1,0 +1,45 @@
+{
+  "id": 1946,
+  "desc": "回合开始时，自身防御、特防+2，若自身已处于能力提升状态则改为全属性+1；自身使用攻击技能时，附加给对手等同于自身能力提升的能力下降状态，未触发则为对手附加200点护盾|战斗阶段结束时，自身每处于一种异常状态下回合受到的攻击伤害、固定伤害、百分比伤害减少10%，若处于的异常状态包含石化，则下回合免疫并以固定伤害的形式反弹受到的攻击伤害|自身击败对手时，3回合内自身能力提升状态无法被消除、吸取|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，自身防御、特防+2\r\n<indent=32><sprite=4><indent=48>若自身已处于能力提升状态则改为全属性+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时，<color=#64F9FA>附加</color>给对手等同于自身能力提升的<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则为对手<color=#64F9FA>附加</color>200点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，自身每处于一种异常状态下回合受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>10%\r\n<indent=32><sprite=4><indent=48>若所处的异常状态包含石化，则下回合<color=#64F9FA>免疫并以固定伤害形式反弹</color>受到的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时，3回合内自身<color=#64F9FA>能力提升状态无法被消除、吸取</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4743,
+      "url": "https://api.seerapi.com/v1/pet/4743/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      200,
+      10,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2364,
+      "url": "https://api.seerapi.com/v1/eid_effect/2364/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e50f1242"
+}

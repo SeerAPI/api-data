@@ -1,0 +1,36 @@
+{
+  "id": 22129,
+  "name": "幸运百宝袋",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "体力恢复了一些",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机恢复100到500点生命值",
+      "args": [
+        100,
+        500
+      ],
+      "effect": {
+        "id": 450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/450/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c7c32bf4"
+}

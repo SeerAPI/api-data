@@ -1,0 +1,38 @@
+{
+  "id": 592,
+  "desc": "攻击技能命中对手时，对手每处于一种能力提升状态则附加75点固定伤害，若对手不处于能力提升状态则有50%的概率使对手石化（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3263,
+      "url": "https://api.seerapi.com/v1/pet/3263/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      75,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 877,
+      "url": "https://api.seerapi.com/v1/eid_effect/877/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d8f6c2ac"
+}

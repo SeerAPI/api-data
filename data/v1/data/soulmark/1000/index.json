@@ -1,0 +1,43 @@
+{
+  "id": 1000,
+  "desc": "自身攻击造成的伤害低于300则下回合攻击必定打出致命一击，自身攻击造成的伤害高于300则自身全属性+1（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3726,
+      "url": "https://api.seerapi.com/v1/pet/3726/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      1,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1301,
+      "url": "https://api.seerapi.com/v1/eid_effect/1301/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "870e4a07"
+}

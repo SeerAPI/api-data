@@ -1,0 +1,35 @@
+{
+  "id": 12548,
+  "name": "小太阳",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 85,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若Miss则自己恢复1/4体力",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 136,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/136/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6e610d04"
+}

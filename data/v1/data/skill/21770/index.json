@@ -1,0 +1,35 @@
+{
+  "id": 21770,
+  "name": "万能纽扣",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "复制了属性",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内使自身的属性和对方的属性相同",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/56/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fbda83f1"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1848,
+  "desc": "每次登场时，若自身为对手天敌则为对手附加3回合的星海之浸，自身每次使用攻击后附加3回合的星海之浸|自身所有技能必定打出致命一击；每场战斗限1次，自身受到致死伤害时，若自身的等级为100则消除对手能力提升状态、回合类效果并恢复全部体力值、PP值，然后获得等同于自身体力值的护盾、护罩|星海之浸：使用的属性技能无效，每次受到攻击伤害后拥有者额外受到伤害值50%的百分比伤害，若对手为草系则星海之浸消失并额外附加伤害值100%的真实伤害|（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时，若自身为对手天敌则为对手附加3回合的<b>星海之浸</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击后附加3回合的<b>星海之浸</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身所有技能<color=#64F9FA>必定打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>限定效果（限100级触发，每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身受到致死伤害时，<color=#64F9FA>消除</color>对手能力提升状态、回合类效果并<color=#64F9FA>恢复</color>全部体力值、PP值，然后<color=#64F9FA>获得</color>等同于自身体力值的<b>护盾、护罩</b>\r\n\r\n<indent=0><sprite=5><indent=15>星海之浸：\r\n<indent=16><sprite=6><indent=32>使用的<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=16><sprite=6><indent=32>每次受到攻击伤害后，额外受到伤害值50%的百分比伤害\r\n<indent=32><sprite=4><indent=48>若对手为草系，星海之浸消失，并额外附加伤害值100%的真实伤害",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4648,
+      "url": "https://api.seerapi.com/v1/pet/4648/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      3
+    ],
+    "effect": {
+      "id": 2236,
+      "url": "https://api.seerapi.com/v1/eid_effect/2236/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c500fee8"
+}

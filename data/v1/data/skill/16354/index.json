@@ -1,0 +1,37 @@
+{
+  "id": 16354,
+  "name": "奇光波",
+  "power": 75,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手当前体力值5%的百分比伤害，连续使用每次增加5%，最高30%",
+      "args": [
+        5,
+        5,
+        30
+      ],
+      "effect": {
+        "id": 411,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/411/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "86b5c4fb"
+}

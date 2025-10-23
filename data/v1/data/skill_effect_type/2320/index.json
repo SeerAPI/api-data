@@ -1,0 +1,37 @@
+{
+  "id": 2320,
+  "args_num": 8,
+  "info": "{0}回合内每回合使用技能令对手{1}，未触发则对手下{7}回合攻击技能无效",
+  "info_formatting_adjustment": "{0}回合内每回合使用技能令对手{1}\r\n--><condition>未触发</condition>则对手下{7}回合攻击技能无效",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 0,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/0/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29102,
+      "url": "https://api.seerapi.com/v1/skill/29102/"
+    },
+    {
+      "id": 38020,
+      "url": "https://api.seerapi.com/v1/skill/38020/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35733,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35733/"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "6a3c460"
+}

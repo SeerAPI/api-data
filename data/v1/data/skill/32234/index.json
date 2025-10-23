@@ -1,0 +1,46 @@
+{
+  "id": 32234,
+  "name": "虚无撕裂",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过250点",
+      "args": [
+        2,
+        250
+      ],
+      "effect": {
+        "id": 766,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/766/"
+      }
+    },
+    {
+      "info": "附加对手已损失生命值30%的百分比伤害 ",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 514,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/514/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c076033f"
+}

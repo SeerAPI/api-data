@@ -1,0 +1,43 @@
+{
+  "id": 19644,
+  "name": "剑破苍穹",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "命中后30%令对方麻痹",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/10/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2fbe1cc"
+}

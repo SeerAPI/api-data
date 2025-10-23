@@ -1,0 +1,33 @@
+{
+  "id": 1889,
+  "args_num": 3,
+  "info": "{0}%使对手{1}，未触发则附加{2}点真实伤害，技能无效时100%使对手疲惫并附加400点真实伤害",
+  "info_formatting_adjustment": "{0}%使对手{1}\r\n--><condition>未触发</condition>则附加{2}点真实伤害\r\n<condition>技能无效时</condition>100%使对手疲惫并附加400点真实伤害",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28166,
+      "url": "https://api.seerapi.com/v1/skill/28166/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "523592c9"
+}

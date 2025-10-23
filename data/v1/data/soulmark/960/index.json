@@ -1,0 +1,42 @@
+{
+  "id": 960,
+  "desc": "使用攻击技能则附加200点固定伤害，每次使用增加100点，最高400点；使用属性技能则{吸取}对手200点{体力}，每次使用增加100点，最高400点（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3677,
+      "url": "https://api.seerapi.com/v1/pet/3677/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      100,
+      400,
+      200,
+      100,
+      400,
+      1
+    ],
+    "effect": {
+      "id": 1253,
+      "url": "https://api.seerapi.com/v1/eid_effect/1253/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "682a6feb"
+}

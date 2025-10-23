@@ -1,0 +1,64 @@
+{
+  "id": 28334,
+  "name": "无罔之心",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗异常状态的能力提升了；开始以无罔形态进行作战；自身攻击将无视对手攻击免疫效果；重置了自身的体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "免疫下2次自身受到的异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1440/"
+      }
+    },
+    {
+      "info": "若自身当前不处于无罔形态则将自身转换为无罔形态，若自身当前处于无罔形态则将自身转换为强击形态",
+      "args": [],
+      "effect": {
+        "id": 2014,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2014/"
+      }
+    },
+    {
+      "info": "下2次攻击技能无视攻击免疫效果",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1926,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1926/"
+      }
+    },
+    {
+      "info": "令自身体力等于最大体力的100%，若自身当前体力高于最大体力的50%则回合结束后额外触发一次该效果",
+      "args": [
+        100,
+        50
+      ],
+      "effect": {
+        "id": 1909,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1909/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "46dace28"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 389,
+  "desc": "攻击技能有20%概率令对手麻痹（boss无效）;属性技能有80%概率令对手烧伤",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3025,
+      "url": "https://api.seerapi.com/v1/pet/3025/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      0,
+      1,
+      80,
+      2
+    ],
+    "effect": {
+      "id": 718,
+      "url": "https://api.seerapi.com/v1/eid_effect/718/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6fd07818"
+}

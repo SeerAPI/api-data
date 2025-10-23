@@ -1,0 +1,69 @@
+{
+  "id": 36670,
+  "name": "灵梦芳华逝",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "愿我们的友谊如同故乡的枫叶一般永不褪色！",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 108,
+    "url": "https://api.seerapi.com/v1/element_type_combination/108/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手烧伤，未触发则令自身全属性-1",
+      "args": [
+        100,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1837,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1837/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则100%令对手焚烬",
+      "args": [
+        100,
+        22
+      ],
+      "effect": {
+        "id": 973,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/973/"
+      }
+    },
+    {
+      "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 897,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/897/"
+      }
+    },
+    {
+      "info": "击败对手则对方下只精灵出战时降低所有技能2点PP值",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2027,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2027/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ce2f5c38"
+}

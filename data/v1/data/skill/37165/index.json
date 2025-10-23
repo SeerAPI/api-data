@@ -1,0 +1,56 @@
+{
+  "id": 37165,
+  "name": "魔荼蔓延",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 92,
+    "url": "https://api.seerapi.com/v1/element_type_combination/92/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时降低对手所有PP2点",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 700,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/700/"
+      }
+    },
+    {
+      "info": "附加220点固定伤害，若当回合造成的伤害高于300则固伤效果翻倍",
+      "args": [
+        220,
+        300
+      ],
+      "effect": {
+        "id": 1522,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1522/"
+      }
+    },
+    {
+      "info": "击败对手则对方下只精灵出战时降低所有技能3点PP值",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 2027,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2027/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ff6451ae"
+}

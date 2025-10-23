@@ -1,0 +1,45 @@
+{
+  "id": 33003,
+  "name": "细嗅蔷薇",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身每处于一种能力提升状态，此技能威力提升30",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 882,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/882/"
+      }
+    },
+    {
+      "info": "对手每处于一种能力下降状态附加100点固定伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 848,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/848/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4f1a1bef"
+}

@@ -1,0 +1,53 @@
+{
+  "id": 33607,
+  "name": "霸刀 凛",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": -1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 34,
+    "url": "https://api.seerapi.com/v1/element_type_combination/34/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手双防能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 195,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/195/"
+      }
+    },
+    {
+      "info": "若先出手则当回合闪避对手的攻击技能",
+      "args": [],
+      "effect": {
+        "id": 720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/720/"
+      }
+    },
+    {
+      "info": "后出手时80%令对手对手麻痹，未触发则使自身下2回合必定致命一击",
+      "args": [
+        80,
+        0,
+        2
+      ],
+      "effect": {
+        "id": 1401,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1401/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c89db5d8"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 22856,
+  "name": "强风屏障",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始躲避对手的攻击",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内每回合20%闪避对手攻击",
+      "args": [
+        5,
+        20
+      ],
+      "effect": {
+        "id": 426,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/426/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2e31cd60"
+}

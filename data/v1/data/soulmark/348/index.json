@@ -1,0 +1,35 @@
+{
+  "id": 348,
+  "desc": "受到攻击时,将受到伤害的30%反馈给对手(boss无效)，并且下两回合附加150点固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2950,
+      "url": "https://api.seerapi.com/v1/pet/2950/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      1,
+      2,
+      150
+    ],
+    "effect": {
+      "id": 674,
+      "url": "https://api.seerapi.com/v1/eid_effect/674/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5bad4cf4"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 1991,
+  "desc": "回合开始时，若当回合自身未选择技能，则自身受到的攻击伤害减少99%，之后本场战斗此效果减少11%，此效果减少为0%时，本场战斗自身攻击后附加伤害值99%的百分比伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若当回合自身未选择技能，则自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>99%，每次触发后本场战斗此效果减少11%\r\n<indent=32><sprite=4><indent=48>减少为0%之后，自身攻击后<color=#64F9FA>附加</color>伤害值99%的<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4802,
+      "url": "https://api.seerapi.com/v1/pet/4802/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2416,
+      "url": "https://api.seerapi.com/v1/eid_effect/2416/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "44cb8084"
+}

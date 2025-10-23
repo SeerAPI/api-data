@@ -1,0 +1,39 @@
+{
+  "id": 1335,
+  "desc": "回合开始时，若自身处于能力提升状态则当回合免疫大于300的攻击伤害；自身当回合受到攻击且战斗阶段结束时体力低于对手则随机令对手3项属性-1并将该属性附加给自己（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升状态则当回合<color=#64F9FA>免疫</color>大于300的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若体力低于对手且自身当回合受到了攻击，则随机<color=#64F9FA>吸取</color>对手3项能力1级",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4095,
+      "url": "https://api.seerapi.com/v1/pet/4095/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1687,
+      "url": "https://api.seerapi.com/v1/eid_effect/1687/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c83d1222"
+}

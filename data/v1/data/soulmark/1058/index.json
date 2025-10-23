@@ -1,0 +1,44 @@
+{
+  "id": 1058,
+  "desc": "登场后首回合免疫受到的异常状态和能力下降状态（每场战斗仅触发1次）；攻击技能先出手时对手随机2种能力值-2，攻击技能后出手时{吸取}对手最大{体力}的1/4，自身体力低于1/2时吸取效果翻倍（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3782,
+      "url": "https://api.seerapi.com/v1/pet/3782/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2,
+      4,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1359,
+      "url": "https://api.seerapi.com/v1/eid_effect/1359/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6a340962"
+}

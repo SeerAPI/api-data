@@ -1,0 +1,38 @@
+{
+  "id": 1950,
+  "desc": "战斗阶段结束时，若对手的体力低于1/2则2回合内自身造成的固定伤害、百分比伤害提升50%，若自身也低于1/2则效果翻倍|回合开始时，若对手的体力高于1/2则本回合自身使用攻击技能时附加对手体力1/3的百分比伤害，若自身也高于1/2则效果翻倍|自身登场时解除双方的异常状态，解除成功则2回合内自身免疫受到的攻击|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若对手的体力低于1/2则2回合内自身造成的<b>固定伤害、百分比伤害</b><color=#64F9FA>提升</color>50%，若自身也低于1/2则效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手的体力高于1/2则本回合自身使用攻击技能时<color=#64F9FA>附加</color>对手体力1/3的<b>百分比伤害</b>，若自身也高于1/2则效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场时<color=#64F9FA>解除</color>双方所处的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>解除成功则2回合内自身<color=#64F9FA>免疫</color>受到的<b>攻击</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4747,
+      "url": "https://api.seerapi.com/v1/pet/4747/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2,
+      50,
+      2,
+      3,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 2361,
+      "url": "https://api.seerapi.com/v1/eid_effect/2361/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1643f335"
+}

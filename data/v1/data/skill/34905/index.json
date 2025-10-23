@@ -1,0 +1,54 @@
+{
+  "id": 34905,
+  "name": "万象归墟",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "体力低于最大体力的1/2时先制+1",
+      "args": [],
+      "effect": {
+        "id": 1484,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1484/"
+      }
+    },
+    {
+      "info": "100%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/39/"
+      }
+    },
+    {
+      "info": "牺牲自己，消除对手能力提升状态、回合类效果、护盾效果、护罩效果、神耀能量、自然祝福，同时令对手3回合内属性技能无效",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1479,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1479/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b5ae3be2"
+}

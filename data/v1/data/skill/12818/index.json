@@ -1,0 +1,35 @@
+{
+  "id": 12818,
+  "name": "奔雷袭",
+  "power": 130,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后10%令对方麻痹",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/10/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e6784a6e"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1019,
+  "desc": "自身攻击50%的概率打出致命一击，未触发则下1次攻击100%的概率打出致命一击；每次登场后造成的攻击伤害提升100%且受到的攻击伤害减少50%，之后每回合造成的攻击伤害减少20%且受到的攻击伤害减少10%，最多减少到0%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3742,
+      "url": "https://api.seerapi.com/v1/pet/3742/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      100,
+      100,
+      50,
+      20,
+      10,
+      1
+    ],
+    "effect": {
+      "id": 1318,
+      "url": "https://api.seerapi.com/v1/eid_effect/1318/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "122dd4aa"
+}

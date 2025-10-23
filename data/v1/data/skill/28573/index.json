@@ -1,0 +1,47 @@
+{
+  "id": 28573,
+  "name": "避险缩地",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "受到的物理攻击伤害减少了；开始回避死亡",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内受到物理攻击伤害减少50%",
+      "args": [
+        3,
+        0,
+        50
+      ],
+      "effect": {
+        "id": 599,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/599/"
+      }
+    },
+    {
+      "info": "下回合受到致命伤害时残留1点体力 ",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 506,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/506/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fea02e1"
+}

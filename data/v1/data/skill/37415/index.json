@@ -1,0 +1,38 @@
+{
+  "id": 37415,
+  "name": "临界充能",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 61,
+    "url": "https://api.seerapi.com/v1/element_type_combination/61/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "损失自身200点体力，给对手造成400点固定伤害，若自身体力不足1则剩下1点体力",
+      "args": [
+        200,
+        400,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 479,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/479/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "997dca74"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 391,
+  "desc": "受到的伤害大于200则下回合免疫攻击伤害（boss无效）;受到的伤害小于300则下回合所有攻击技能威力翻倍",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3020,
+      "url": "https://api.seerapi.com/v1/pet/3020/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      1,
+      300,
+      2
+    ],
+    "effect": {
+      "id": 712,
+      "url": "https://api.seerapi.com/v1/eid_effect/712/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "331c9917"
+}

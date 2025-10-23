@@ -1,0 +1,65 @@
+{
+  "id": 1399,
+  "args_num": 2,
+  "info": "消除对手回合类效果，消除成功则对手{0}，未触发则自身免疫下{1}次受到的异常状态",
+  "info_formatting_adjustment": "消除对手回合类效果\r\n--><condition>消除成功</condition>则对手{0}\r\n---><condition>未触发</condition>则自身免疫下{1}次受到的异常状态",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 32669,
+      "url": "https://api.seerapi.com/v1/skill/32669/"
+    },
+    {
+      "id": 34599,
+      "url": "https://api.seerapi.com/v1/skill/34599/"
+    },
+    {
+      "id": 35012,
+      "url": "https://api.seerapi.com/v1/skill/35012/"
+    },
+    {
+      "id": 36281,
+      "url": "https://api.seerapi.com/v1/skill/36281/"
+    },
+    {
+      "id": 37275,
+      "url": "https://api.seerapi.com/v1/skill/37275/"
+    },
+    {
+      "id": 37299,
+      "url": "https://api.seerapi.com/v1/skill/37299/"
+    },
+    {
+      "id": 37337,
+      "url": "https://api.seerapi.com/v1/skill/37337/"
+    },
+    {
+      "id": 37808,
+      "url": "https://api.seerapi.com/v1/skill/37808/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 34256,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/34256/"
+    }
+  ],
+  "hash": "ba018c74"
+}

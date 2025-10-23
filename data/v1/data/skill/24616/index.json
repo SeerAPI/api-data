@@ -1,0 +1,48 @@
+{
+  "id": 24616,
+  "name": "矫健身姿",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "受到的伤害减少了；恢复自身的PP值",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内受到物理攻击和特殊攻击伤害减少50%",
+      "args": [
+        2,
+        2,
+        50
+      ],
+      "effect": {
+        "id": 599,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/599/"
+      }
+    },
+    {
+      "info": "100%恢复自己所有技能PP值2点",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 598,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/598/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b2b16141"
+}

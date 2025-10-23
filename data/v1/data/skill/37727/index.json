@@ -1,0 +1,57 @@
+{
+  "id": 37727,
+  "name": "雷光轮",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 80,
+    "url": "https://api.seerapi.com/v1/element_type_combination/80/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功下回合造成伤害提升100%",
+      "args": [
+        0,
+        100
+      ],
+      "effect": {
+        "id": 631,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/631/"
+      }
+    },
+    {
+      "info": "附加对手已损失生命值30%的百分比伤害 ",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 514,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/514/"
+      }
+    },
+    {
+      "info": "若造成的伤害大于200点，则自身恢复400点生命值",
+      "args": [
+        200,
+        400
+      ],
+      "effect": {
+        "id": 415,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/415/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4074f154"
+}

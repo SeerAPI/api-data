@@ -1,0 +1,36 @@
+{
+  "id": 36248,
+  "name": "麻醉弹幕",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "后出手时，100%概率使对方麻痹",
+      "args": [
+        100,
+        0
+      ],
+      "effect": {
+        "id": 147,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/147/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "db75cc32"
+}

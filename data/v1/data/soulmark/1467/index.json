@@ -1,0 +1,45 @@
+{
+  "id": 1467,
+  "desc": "当回合若对手先出手则所有技能消除对手回合类效果并在战斗阶段结束时恢复自身最大体力的35%，恢复量每溢出1%，则自身下回合造成伤害提升2%，受到攻击伤害减少1%，使用技能附加对手最大体力1%的百分比伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>当回合若对手先出手则自身所有技能<color=#64F9FA>消除</color>对手<b>回合类效果</b>并在战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的35%，恢复量每溢出1%自身下回合：\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>2%\r\n<indent=32><sprite=4><indent=48>受到的<b>攻击伤害</b><color=#64F9FA>减少</color>1%\r\n<indent=32><sprite=4><indent=48>使用技能<color=#64F9FA>附加</color>对手最大体力1%的<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4247,
+      "url": "https://api.seerapi.com/v1/pet/4247/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      35,
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1834,
+      "url": "https://api.seerapi.com/v1/eid_effect/1834/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "67db8190"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 27150,
+  "name": "精准视界",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 99,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "特攻+2、速度+2、命中+2；恢复自身体力；自身攻击技能更加强力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，攻击",
+      "args": [
+        0,
+        0,
+        2,
+        0,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585/"
+      }
+    },
+    {
+      "info": "恢复自身300点体力，自身体力少于1/2时恢复效果翻倍",
+      "args": [
+        300,
+        2
+      ],
+      "effect": {
+        "id": 708,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/708/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定致命、必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 681,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/681/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b93a3931"
+}

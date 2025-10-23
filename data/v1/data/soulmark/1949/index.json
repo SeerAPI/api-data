@@ -1,0 +1,43 @@
+{
+  "id": 1949,
+  "desc": "自身登场时，若自身体力高于对手则当回合免疫受到的异常状态，若自身体力低于对手则战斗阶段结束时恢复最大体力的1/3；自身受到的攻击伤害减少50%，自身体力每减少10%，效果减少5%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则战斗阶段结束时<color=#64F9FA>恢复</color>最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%，自身体力每减少10%，效果减少5%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4746,
+      "url": "https://api.seerapi.com/v1/pet/4746/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      10,
+      5,
+      1
+    ],
+    "effect": {
+      "id": 2366,
+      "url": "https://api.seerapi.com/v1/eid_effect/2366/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a52e4966"
+}

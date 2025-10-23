@@ -1,0 +1,56 @@
+{
+  "id": 37322,
+  "name": "结苞待放",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 21,
+    "url": "https://api.seerapi.com/v1/element_type_combination/21/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "为自身附加150点护盾",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 847,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/847/"
+      }
+    },
+    {
+      "info": "为自身附加150点护罩",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 1342,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1342/"
+      }
+    },
+    {
+      "info": "附加自身最大体力30%的百分比伤害并恢复等量体力，恢复体力时若自身体力低于最大体力的1/3则恢复效果和百分比伤害翻倍",
+      "args": [
+        30,
+        3
+      ],
+      "effect": {
+        "id": 852,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/852/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8ddc3011"
+}

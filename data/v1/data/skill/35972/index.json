@@ -1,0 +1,43 @@
+{
+  "id": 35972,
+  "name": "族群愿力",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加自身最大体力25%的百分比伤害并恢复等量体力",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 839,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/839/"
+      }
+    },
+    {
+      "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+      "args": [],
+      "effect": {
+        "id": 709,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/709/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2ab3bb5d"
+}

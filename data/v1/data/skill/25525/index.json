@@ -1,0 +1,58 @@
+{
+  "id": 25525,
+  "name": "壁垒模式",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "消耗自身当前体力并对对手造成等量固定伤害；受到攻击则恢复自身体力；攻击变得更犀利了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身当前最大体力的1/2并使对手受到等量百分比伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1185,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1185/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击100%恢复1/3体力",
+      "args": [
+        3,
+        100,
+        3
+      ],
+      "effect": {
+        "id": 724,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/724/"
+      }
+    },
+    {
+      "info": "3回合内每回合攻击附加自身双防值总和30%的百分比伤害",
+      "args": [
+        3,
+        30
+      ],
+      "effect": {
+        "id": 1186,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1186/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "44b46e7a"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 30438,
+  "name": "三千大世斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 18,
+    "url": "https://api.seerapi.com/v1/element_type_combination/18/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1回合对手攻击技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1060,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1060/"
+      }
+    },
+    {
+      "info": "若本回合击败对手则将对手的能力提升效果转移到自己身上",
+      "args": [],
+      "effect": {
+        "id": 784,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/784/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "31cc24f5"
+}

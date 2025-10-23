@@ -1,0 +1,58 @@
+{
+  "id": 26653,
+  "name": "酥屑糖衣",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "有几率令对手睡眠；开始免疫异常状态；对手的速度能力降低了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手睡眠，未触发则附加对手最大体力1/4的百分比伤害",
+      "args": [
+        50,
+        8,
+        4
+      ],
+      "effect": {
+        "id": 1231,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1231/"
+      }
+    },
+    {
+      "info": "3回合内免疫所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内对手每回合速度等级-1",
+      "args": [
+        3,
+        -1
+      ],
+      "effect": {
+        "id": 424,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/424/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9dbd7d3e"
+}

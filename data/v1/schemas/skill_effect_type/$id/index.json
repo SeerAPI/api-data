@@ -1,0 +1,114 @@
+{
+  "$defs": {
+    "ResourceRef_SkillEffectParam_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_SkillEffectTypeTag_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Skill_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "SkillEffectParamInType": {
+      "properties": {
+        "position": {
+          "description": "参数位置",
+          "title": "Position",
+          "type": "integer"
+        },
+        "param": {
+          "$ref": "#/$defs/ResourceRef_SkillEffectParam_",
+          "description": "参数类型引用"
+        }
+      },
+      "required": [
+        "position",
+        "param"
+      ],
+      "title": "SkillEffectParamInType",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "args_num": {
+      "description": "参数数量",
+      "title": "Args Num",
+      "type": "integer"
+    },
+    "info": {
+      "description": "效果描述",
+      "title": "Info",
+      "type": "string"
+    },
+    "info_formatting_adjustment": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "效果描述的\"可格式化版本\"，用于呈现Unity端中的多行描述形式",
+      "title": "Info Formatting Adjustment"
+    },
+    "pve_effective": {
+      "description": "该效果是否PVE生效",
+      "title": "Pve Effective",
+      "type": "boolean"
+    },
+    "param": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/SkillEffectParamInType"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "参数类型列表，描述参数类型和参数位置",
+      "title": "Param"
+    },
+    "skill": {
+      "description": "使用该效果的技能列表",
+      "items": {
+        "$ref": "#/$defs/ResourceRef_Skill_"
+      },
+      "title": "Skill",
+      "type": "array"
+    },
+    "tag": {
+      "description": "标签列表",
+      "items": {
+        "$ref": "#/$defs/ResourceRef_SkillEffectTypeTag_"
+      },
+      "title": "Tag",
+      "type": "array"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "args_num",
+    "info",
+    "pve_effective",
+    "hash"
+  ],
+  "title": "SkillEffectType",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

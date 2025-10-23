@@ -1,0 +1,47 @@
+{
+  "id": 894,
+  "desc": "使用技能时随机触发三张卡牌中的一种效果（boss无效）；太阳牌：50%{吸取}对手200点{体力}，未触发则令自身全属性+1；月亮牌：50%附加200点固定伤害，未触发则令对手全属性-1；空白牌：50%令对手睡眠，未触发则消除对手回合类效果",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3601,
+      "url": "https://api.seerapi.com/v1/pet/3601/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      200,
+      1,
+      50,
+      200,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1180,
+      "url": "https://api.seerapi.com/v1/eid_effect/1180/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7f585d2a"
+}

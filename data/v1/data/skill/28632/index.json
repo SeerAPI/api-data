@@ -1,0 +1,35 @@
+{
+  "id": 28632,
+  "name": "浅唱诗",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "歌唱了净化的诗篇",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和150%的百分比伤害",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 1828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1828/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "56fa2942"
+}

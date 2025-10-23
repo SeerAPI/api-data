@@ -1,0 +1,56 @@
+{
+  "id": 32397,
+  "name": "无情之刃",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手所有护盾效果，消除成功则对手下1回合所有技能失效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1368,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1368/"
+      }
+    },
+    {
+      "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 905,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/905/"
+      }
+    },
+    {
+      "info": "造成的伤害低于250则附加自身最大体力25%的百分比伤害",
+      "args": [
+        250,
+        25
+      ],
+      "effect": {
+        "id": 1082,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1082/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cedc476a"
+}

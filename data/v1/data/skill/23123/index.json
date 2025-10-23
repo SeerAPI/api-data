@@ -1,0 +1,37 @@
+{
+  "id": 23123,
+  "name": "黑暗起源",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手使用属性技能则100%概率令对手害怕",
+      "args": [
+        3,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/469/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "11c31928"
+}

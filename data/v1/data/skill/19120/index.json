@@ -1,0 +1,54 @@
+{
+  "id": 19120,
+  "name": "古法仪式",
+  "power": 5,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 521,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/521/"
+      }
+    },
+    {
+      "info": "吸取对手250点体力",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 870,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/870/"
+      }
+    },
+    {
+      "info": "下1回合造成的攻击伤害额外提升100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d7a4ed7b"
+}

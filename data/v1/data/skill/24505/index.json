@@ -1,0 +1,55 @@
+{
+  "id": 24505,
+  "name": "阴阳俱损",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗异常状态的能力得到提升，和对手同时降低最大HP，若血量高于对手则会变得更快",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "使对手和自身同时降低1/4最大体力",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 841,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/841/"
+      }
+    },
+    {
+      "info": "自身体力高于对手时先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 836,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/836/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e6215d63"
+}

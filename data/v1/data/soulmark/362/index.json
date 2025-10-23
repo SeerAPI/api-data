@@ -1,0 +1,40 @@
+{
+  "id": 362,
+  "desc": "每回合回复150点体力;体力每损失1%,技能伤害提提升1%;|体力低于1/2后,体力每损失1%,技能伤害提升2%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2975,
+      "url": "https://api.seerapi.com/v1/pet/2975/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      150,
+      1,
+      1,
+      2,
+      2
+    ],
+    "effect": {
+      "id": 689,
+      "url": "https://api.seerapi.com/v1/eid_effect/689/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8b388edb"
+}

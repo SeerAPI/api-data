@@ -1,0 +1,37 @@
+{
+  "id": 15494,
+  "name": "荣耀圣剑",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 31,
+    "url": "https://api.seerapi.com/v1/element_type_combination/31/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加50点固定伤害，连续使用每次增加50点固定伤害，最高附加200点固定伤害",
+      "args": [
+        50,
+        50,
+        200
+      ],
+      "effect": {
+        "id": 429,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/429/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2905abac"
+}

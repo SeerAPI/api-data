@@ -1,0 +1,47 @@
+{
+  "id": 840,
+  "desc": "自身死亡时45%的概率重生，重生时消除对手能力提升状态且下1次受到的攻击伤害减少50%；自身造成的攻击伤害大于300则附加300点固定伤害，造成的攻击伤害小于300则自身特攻+2（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3534,
+      "url": "https://api.seerapi.com/v1/pet/3534/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      45,
+      1,
+      50,
+      300,
+      300,
+      300,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1127,
+      "url": "https://api.seerapi.com/v1/eid_effect/1127/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "57048842"
+}

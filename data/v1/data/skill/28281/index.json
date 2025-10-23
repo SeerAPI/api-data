@@ -1,0 +1,58 @@
+{
+  "id": 28281,
+  "name": "稳若磐石",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "将自身能力下降状态反馈给对手；全属性都提升了；若对手当回合切换精灵则令对手麻痹或冰封",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈成功则令对手下1次使用的技能无效，反馈失败则解除自身能力下降状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1876,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1876/"
+      }
+    },
+    {
+      "info": "全属性+1，对手处于能力下降状态时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1338,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1338/"
+      }
+    },
+    {
+      "info": "若对手当回合切换精灵则100%令对手麻痹，未触发则100%令对手冰封",
+      "args": [
+        100,
+        0,
+        100,
+        15
+      ],
+      "effect": {
+        "id": 1868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1868/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "aa67ae43"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 1136,
+  "desc": "战斗阶段结束时若自身死亡且当回合自身受到的攻击伤害低于250点则100%的概率复活；回合开始时，若自身处于能力提升状态则当回合造成的攻击伤害提升100%，若自身不处于能力提升状态则当回合受到攻击后下回合100%打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中后若自身死亡且当回合自身受到的攻击伤害低于250则自身100%<color=#64F9FA>复活</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合受到攻击后下回合100%<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3864,
+      "url": "https://api.seerapi.com/v1/pet/3864/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      100,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1453,
+      "url": "https://api.seerapi.com/v1/eid_effect/1453/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8b9a1586"
+}

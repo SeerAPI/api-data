@@ -1,0 +1,64 @@
+{
+  "id": 37374,
+  "name": "炼·无妄登极",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 16,
+    "url": "https://api.seerapi.com/v1/element_type_combination/16/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 697,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/697/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则令对手臣服，未触发则吸取对手最大体力的1/3",
+      "args": [
+        31,
+        3
+      ],
+      "effect": {
+        "id": 1297,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1297/"
+      }
+    },
+    {
+      "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和100%的百分比伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1828/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1606,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1606/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6b6ce99c"
+}

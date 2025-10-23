@@ -1,0 +1,49 @@
+{
+  "id": 34611,
+  "name": "彩虹色强袭",
+  "power": 170,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "40%使对手睡眠，若未触发则使对手受到相当于自身当前体力1/4的百分比伤害",
+      "args": [
+        40,
+        8,
+        4
+      ],
+      "effect": {
+        "id": 974,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/974/"
+      }
+    },
+    {
+      "info": "暴击率提升30%，每次使用额外提升10%，最高概率60%",
+      "args": [
+        30,
+        10,
+        60
+      ],
+      "effect": {
+        "id": 696,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/696/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ae41c5"
+}

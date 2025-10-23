@@ -1,0 +1,40 @@
+{
+  "id": 17227,
+  "name": "风翼蝶舞祭",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若体力大于对手，则消耗自身体力至残留1点体力给对手造成250至350点伤害；若体力小于对手，则消耗自身全部体力给对手造成300至400点伤害，若对手受到致命伤害时残留1点体力，并使对手害怕2回合",
+      "args": [
+        250,
+        350,
+        300,
+        400,
+        6,
+        1
+      ],
+      "effect": {
+        "id": 755,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/755/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a66fb96a"
+}

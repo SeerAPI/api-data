@@ -1,0 +1,46 @@
+{
+  "id": 1234,
+  "desc": "回合开始时，自身每损失最大体力的25%则当回合造成的攻击伤害提升50%；使用攻击时，若自身当前体力低于最大体力的50%则附加造成伤害值50%的固定伤害，自身体力低于40%则额外恢复等量体力值，自身体力低于30%则额外打出致命一击（Boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，自身每损失最大体力的25%则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击时若自身当前体力低于最大体力的50%则<color=#64F9FA>附加</color>造成伤害值50%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于40%则额外<color=#64F9FA>恢复</color>等量体力值\r\n<indent=32><sprite=4><indent=48>自身体力低于30%则额外<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3970,
+      "url": "https://api.seerapi.com/v1/pet/3970/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      50,
+      50,
+      50,
+      40,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 1569,
+      "url": "https://api.seerapi.com/v1/eid_effect/1569/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b7d1fa38"
+}

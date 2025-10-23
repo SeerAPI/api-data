@@ -1,0 +1,37 @@
+{
+  "id": 2309,
+  "args_num": 3,
+  "info": "恢复最大体力的{0}%并造成等量百分比伤害，若对手免疫百分比伤害则{1}%令对手{2}",
+  "info_formatting_adjustment": "恢复最大体力的{0}%并造成等量百分比伤害\r\n--><condition>若对手免疫百分比伤害</condition>则{1}%令对手{2}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 37958,
+      "url": "https://api.seerapi.com/v1/skill/37958/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "5ba17ecf"
+}

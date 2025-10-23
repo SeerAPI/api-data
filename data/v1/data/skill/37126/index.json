@@ -1,0 +1,36 @@
+{
+  "id": 37126,
+  "name": "释放",
+  "power": 60,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 116,
+    "url": "https://api.seerapi.com/v1/element_type_combination/116/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "释放技能时自身每损失10%的体力值则此技能威力提升40点",
+      "args": [
+        10,
+        40
+      ],
+      "effect": {
+        "id": 1652,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1652/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f9f747f1"
+}

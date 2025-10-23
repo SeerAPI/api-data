@@ -1,0 +1,36 @@
+{
+  "id": 19549,
+  "name": "灾厄之劫",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后5%令对手瘫痪",
+      "args": [
+        5,
+        19
+      ],
+      "effect": {
+        "id": 756,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/756/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8ffe0d58"
+}

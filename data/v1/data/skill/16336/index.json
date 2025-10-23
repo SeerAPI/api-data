@@ -1,0 +1,45 @@
+{
+  "id": 16336,
+  "name": "武圣劈天斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/6",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 67,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/67/"
+      }
+    },
+    {
+      "info": "当回合未击败对手，则减少对手当前体力1/8",
+      "args": [
+        8
+      ],
+      "effect": {
+        "id": 644,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/644/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ab7fba97"
+}

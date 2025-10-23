@@ -1,0 +1,39 @@
+{
+  "id": 705,
+  "desc": "自身使用攻击技能时50%的概率威力翻倍，未触发则附加300点固定伤害；回合开始时，若对手体力低于20%则所有技能必定秒杀对手(BOSS无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3390,
+      "url": "https://api.seerapi.com/v1/pet/3390/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      300,
+      20,
+      1
+    ],
+    "effect": {
+      "id": 990,
+      "url": "https://api.seerapi.com/v1/eid_effect/990/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6a548a0b"
+}

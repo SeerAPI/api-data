@@ -1,0 +1,54 @@
+{
+  "id": 32815,
+  "name": "暴怒龙息",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 32,
+    "url": "https://api.seerapi.com/v1/element_type_combination/32/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当自身血量少于1/3时先制+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 454,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/454/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 945,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/945/"
+      }
+    },
+    {
+      "info": "若自身为满体力则技能威力提升80%",
+      "args": [
+        80
+      ],
+      "effect": {
+        "id": 925,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/925/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "499e2cae"
+}

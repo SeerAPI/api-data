@@ -1,0 +1,52 @@
+{
+  "id": 36535,
+  "name": "超限极光",
+  "power": 90,
+  "max_pp": 10,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": "比极限更极致，比炫彩更璀璨！",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令自身下1回合必定先出手且下1回合造成的攻击伤害翻倍",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 827,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/827/"
+      }
+    },
+    {
+      "info": "自身持有圣辉之羽时恢复全部体力",
+      "args": [],
+      "effect": {
+        "id": 1957,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1957/"
+      }
+    },
+    {
+      "info": "自身持有圣雷华冠时造成的攻击伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 1958,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1958/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f7aeaf1a"
+}

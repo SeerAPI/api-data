@@ -1,0 +1,46 @@
+{
+  "id": 37293,
+  "name": "等价互惠",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "令双方全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1145,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1145/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "adce7f7c"
+}

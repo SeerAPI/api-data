@@ -1,0 +1,35 @@
+{
+  "id": 15435,
+  "name": "无形突袭",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不会低于150",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 135,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/135/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3c55c64"
+}

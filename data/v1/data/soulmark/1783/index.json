@@ -1,0 +1,43 @@
+{
+  "id": 1783,
+  "desc": "回合开始时，若自身体力为满则当回合使用攻击技能后吸取对手最大体力的20%，对手为自身天敌时效果翻倍，若对手体力为满则当回合造成的攻击伤害提升50%，自身为对手天敌时效果翻倍；回合开始时，使自身PP值为满的技能当回合先制+1，不为满的技能当回合不会消耗PP值（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力为满则当回合使用攻击技能后<color=#64F9FA>吸取</color>对手最大体力的20%，对手为自身天敌时效果翻倍\r\n<indent=32><sprite=4><indent=48>若对手体力为满则当回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%，自身为对手天敌时效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身使用PP为满的技能<b>先制</b>+1，自身使用PP不为满的技能不会消耗PP值",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4574,
+      "url": "https://api.seerapi.com/v1/pet/4574/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2177,
+      "url": "https://api.seerapi.com/v1/eid_effect/2177/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "70bdd7d3"
+}

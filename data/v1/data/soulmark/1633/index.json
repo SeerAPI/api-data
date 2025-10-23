@@ -1,0 +1,38 @@
+{
+  "id": 1633,
+  "desc": "回合开始时若自身为满体力则当回合所有技能命中时50%令对手害怕，若自身不为满体力则当回合所有技能先制+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身为满体力则当回合所有技能命中时50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>若自身不为满体力则当回合所有技能<b>先制</b>+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4416,
+      "url": "https://api.seerapi.com/v1/pet/4416/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2019,
+      "url": "https://api.seerapi.com/v1/eid_effect/2019/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "90f28dbf"
+}

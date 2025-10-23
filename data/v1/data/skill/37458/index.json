@@ -1,0 +1,66 @@
+{
+  "id": 37458,
+  "name": "孑身诫",
+  "power": 85,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，若对手回合类效果无法被消除则对手所有技能PP值归0",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 2163,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2163/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手所有技能PP值归零",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 931,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/931/"
+      }
+    },
+    {
+      "info": "100%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/39/"
+      }
+    },
+    {
+      "info": "无为：若自身处于异常状态，则消耗此技能全部PP值以令对手下回合无法主动切换精灵",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 2190,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2190/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5164f818"
+}

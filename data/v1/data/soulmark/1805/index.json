@@ -1,0 +1,46 @@
+{
+  "id": 1805,
+  "desc": "战斗开始时自身获得2层命起、2层魂落，战斗中二者层数之和恒为4，当其中一项层数增加/减少时，另一项会同步减少/增加；自身出战时2回合内免疫己方上只精灵下场时所处的异常状态，所处异常数达到4时改为所有异常状态|对手使用威力不高于0的攻击技能时减少1层命起并令对手睡眠，未触发则免疫对手此次攻击，自身每有1层命起威力阈值提升40，自身使用威力不高于0的攻击技能后减少1层魂落并令对手睡眠，未触发则附加对手最大体力1/3的百分比伤害，自身每有1层魂落威力阈值提升40|自身未击败对手时，若自身命起层数不低于魂落则恢复最大体力的1/4，魂落层数不低于命起则恢复所有技能1点PP值，层数相等时己方免疫下次受到的异常状态；击败对手时，对手下场后所处的异常状态、能力下降状态转移给下只出战精灵|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>战斗开始时</color>自身获得2层命起、2层魂落，战斗中二者层数之和<b>恒为</b>4，当其中一项层数增加/减少时，另一项会同步减少/增加\r\n\r\n<indent=0><sprite=0><indent=16>出战效果：\r\n<indent=16><sprite=3><indent=32>自身出战时2回合内<color=#64F9FA>免疫</color>己方上只精灵下场时所处的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>所处异常数达到4时改为所有异常状态\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用威力不高于0的攻击技能时减少1层命起并<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>免疫</color>对手此次<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>自身每有1层命起威力阈值提升40\r\n<indent=16><sprite=3><indent=32>自身使用威力不高于0的攻击技能后减少1层魂落并<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身每有1层魂落威力阈值提升40\r\n\r\n<indent=0><sprite=0><indent=16>未击败效果：\r\n<indent=16><sprite=3><indent=32>自身未击败对手时：\r\n<indent=32><sprite=4><indent=48>若自身命起层数不低于魂落则<color=#64F9FA>恢复最大体力的1/4</color>\r\n<indent=32><sprite=4><indent=48>魂落层数不低于命起则<color=#64F9FA>恢复</color>所有技能1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>层数相等时己方<color=#64F9FA>免疫</color>下次受到的<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>击败对手时，对手下场后所处的<b>异常状态、能力下降</b>状态<color=#64F9FA>转移</color>给下只出战精灵",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4599,
+      "url": "https://api.seerapi.com/v1/pet/4599/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2,
+      4,
+      0,
+      1,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 2193,
+      "url": "https://api.seerapi.com/v1/eid_effect/2193/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a7a068ef"
+}

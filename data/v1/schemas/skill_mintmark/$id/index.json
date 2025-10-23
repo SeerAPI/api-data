@@ -1,0 +1,113 @@
+{
+  "$defs": {
+    "ResourceRef_MintmarkRarityCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_MintmarkTypeCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Skill_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "SkillMintmarkEffect": {
+      "properties": {
+        "effect": {
+          "description": "增幅效果ID",
+          "title": "Effect",
+          "type": "integer"
+        },
+        "arg": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "增幅效果参数",
+          "title": "Arg"
+        }
+      },
+      "required": [
+        "effect",
+        "arg"
+      ],
+      "title": "SkillMintmarkEffect",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "type": {
+      "$ref": "#/$defs/ResourceRef_MintmarkTypeCategory_",
+      "description": "刻印类型"
+    },
+    "rarity": {
+      "$ref": "#/$defs/ResourceRef_MintmarkRarityCategory_",
+      "description": "刻印稀有度"
+    },
+    "pet": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Pet_"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "表示该刻印仅能安装在这些精灵上，null表示无精灵限制",
+      "title": "Pet"
+    },
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "desc": {
+      "description": "刻印描述",
+      "title": "Desc",
+      "type": "string"
+    },
+    "effect": {
+      "$ref": "#/$defs/SkillMintmarkEffect",
+      "description": "技能刻印效果，仅当刻印类型为技能刻印时有效"
+    },
+    "skill": {
+      "description": "该刻印所绑定的技能列表",
+      "items": {
+        "$ref": "#/$defs/ResourceRef_Skill_"
+      },
+      "title": "Skill",
+      "type": "array"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "type",
+    "rarity",
+    "id",
+    "name",
+    "desc",
+    "effect",
+    "hash"
+  ],
+  "title": "SkillMintmark",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

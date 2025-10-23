@@ -1,0 +1,42 @@
+{
+  "id": 459,
+  "desc": "自身HP每降低5%，则自身受到的伤害减少5%（上限50%）且致命一击概率上升2%|(战神兄弟伙伴效果：攻击+50，体力+50)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2780,
+      "url": "https://api.seerapi.com/v1/pet/2780/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      5,
+      50,
+      2,
+      100,
+      50,
+      50
+    ],
+    "effect": {
+      "id": 384,
+      "url": "https://api.seerapi.com/v1/eid_effect/384/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f366b4f2"
+}

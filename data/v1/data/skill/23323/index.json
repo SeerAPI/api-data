@@ -1,0 +1,56 @@
+{
+  "id": 23323,
+  "name": "天衣无缝",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "体力恢复了一些，变的更加耐打了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合自身受到物理攻击伤害减半",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 50,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/50/"
+      }
+    },
+    {
+      "info": "3回合自己受到特殊攻击伤害减半",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 44,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/44/"
+      }
+    },
+    {
+      "info": "3回合内若使用技能则恢复170点体力值",
+      "args": [
+        3,
+        170
+      ],
+      "effect": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/77/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "454156ac"
+}

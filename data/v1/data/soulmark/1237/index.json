@@ -1,0 +1,45 @@
+{
+  "id": 1237,
+  "desc": "自身受到的攻击伤害高于300则100%令对手冰封，未触发则100%令对手束缚；回合开始时，若对手处于冰封状态则自身使用攻击技能100%打出致命一击，若对手不处于冰封状态则自身使用攻击技能造成伤害值的100%恢复体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则100%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手束缚</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于冰封状态则自身使用攻击技能100%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于冰封状态则自身使用造成的攻击伤害100%额外恢复至自身体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3973,
+      "url": "https://api.seerapi.com/v1/pet/3973/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      100,
+      100,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1574,
+      "url": "https://api.seerapi.com/v1/eid_effect/1574/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8dc84127"
+}

@@ -1,0 +1,59 @@
+{
+  "id": 34972,
+  "name": "黯灭葬天诀",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 93,
+    "url": "https://api.seerapi.com/v1/element_type_combination/93/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身下2回合造成的攻击伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1124,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1124/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842/"
+      }
+    },
+    {
+      "info": "造成的伤害高于300则100%令对手感染，未触发则吸取对手最大体力的1/3",
+      "args": [
+        300,
+        100,
+        27,
+        3
+      ],
+      "effect": {
+        "id": 1679,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1679/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "616d660c"
+}

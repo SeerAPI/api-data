@@ -1,0 +1,45 @@
+{
+  "id": 24743,
+  "name": "太极无尽",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "有概率使对手麻痹；有概率使对手害怕",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后50%令对方麻痹",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/10/"
+      }
+    },
+    {
+      "info": "命中后50%令对方害怕",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b9f21309"
+}

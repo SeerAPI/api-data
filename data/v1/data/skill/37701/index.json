@@ -1,0 +1,58 @@
+{
+  "id": 37701,
+  "name": "寒境吞风破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功对手下1回合受到的伤害翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 789,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/789/"
+      }
+    },
+    {
+      "info": "使敌我双方同时冻伤2回合",
+      "args": [
+        5,
+        2
+      ],
+      "effect": {
+        "id": 547,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/547/"
+      }
+    },
+    {
+      "info": "自身体力小于最大值的1/2时，70%概率令对方冰封",
+      "args": [
+        2,
+        70,
+        15
+      ],
+      "effect": {
+        "id": 159,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/159/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c40d4df9"
+}

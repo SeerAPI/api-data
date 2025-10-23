@@ -1,0 +1,38 @@
+{
+  "id": 28164,
+  "name": "天命否决",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "否定了既定的命运",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "0%概率受到自身最大体力1/2的百分比伤害，剩下100%概率附加自身最大体力1/2的百分比伤害",
+      "args": [
+        0,
+        2,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1908,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1908/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e77f5940"
+}

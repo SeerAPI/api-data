@@ -1,0 +1,36 @@
+{
+  "id": 34666,
+  "name": "恶灵重生",
+  "power": 200,
+  "max_pp": 2,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "每次使用该技能击败对手则恢复自身全部体力，同时重置该技能使用次数并使该技能攻击威力提升50点，未击败对手时令自身下回合攻击技能先制+3",
+      "args": [
+        50,
+        3
+      ],
+      "effect": {
+        "id": 1628,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1628/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c9013ec2"
+}

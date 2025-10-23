@@ -1,0 +1,43 @@
+{
+  "id": 37784,
+  "name": "念动脑波",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则2回合内对手的能力下降状态无法被解除或反转",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1771,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1771/"
+      }
+    },
+    {
+      "info": "若先出手则当回合闪避对手的攻击技能",
+      "args": [],
+      "effect": {
+        "id": 720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/720/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c71baf11"
+}

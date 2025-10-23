@@ -1,0 +1,41 @@
+{
+  "id": 1175,
+  "desc": "回合开始时100%令对手中毒；战斗阶段结束时若自身体力低于500则恢复自身300点体力并造成等量固定伤害，每降低100点生命值则恢复量和固定伤害提升100点（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时100%<color=#64F9FA>令对手中毒</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于500则<color=#64F9FA>恢复</color>自身300点<b>体力</b>并<color=#64F9FA>附加</color>等量<b>固定伤害</b>，每降低100点生命值则效果提升100点",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3909,
+      "url": "https://api.seerapi.com/v1/pet/3909/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      500,
+      300,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1500,
+      "url": "https://api.seerapi.com/v1/eid_effect/1500/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "750f906e"
+}

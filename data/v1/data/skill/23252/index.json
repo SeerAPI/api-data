@@ -1,0 +1,48 @@
+{
+  "id": 23252,
+  "name": "沙盗之诈",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击更容易命中对方要害了，使对手陷入了奇怪的状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对方使用属性技能，则60%使对方害怕",
+      "args": [
+        3,
+        60,
+        6
+      ],
+      "effect": {
+        "id": 152,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/152/"
+      }
+    },
+    {
+      "info": "3回合内致命一击概率上升1/16",
+      "args": [
+        3,
+        16
+      ],
+      "effect": {
+        "id": 498,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/498/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "abe4cbd6"
+}

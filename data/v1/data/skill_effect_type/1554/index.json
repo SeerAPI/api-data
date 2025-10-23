@@ -1,0 +1,41 @@
+{
+  "id": 1554,
+  "args_num": 3,
+  "info": "若自身当前体力低于最大体力的1/{0}则令自身{1}且免疫下{2}次受到的攻击",
+  "info_formatting_adjustment": null,
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28337,
+      "url": "https://api.seerapi.com/v1/skill/28337/"
+    },
+    {
+      "id": 34033,
+      "url": "https://api.seerapi.com/v1/skill/34033/"
+    },
+    {
+      "id": 37726,
+      "url": "https://api.seerapi.com/v1/skill/37726/"
+    },
+    {
+      "id": 37852,
+      "url": "https://api.seerapi.com/v1/skill/37852/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "9109fe81"
+}

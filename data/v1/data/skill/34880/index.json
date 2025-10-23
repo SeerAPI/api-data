@@ -1,0 +1,54 @@
+{
+  "id": 34880,
+  "name": "邪邃圣念",
+  "power": 90,
+  "max_pp": 10,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 98,
+    "url": "https://api.seerapi.com/v1/element_type_combination/98/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 797,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/797/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手疲惫",
+      "args": [
+        0,
+        7
+      ],
+      "effect": {
+        "id": 636,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/636/"
+      }
+    },
+    {
+      "info": "使自身随机获得圣念状态或邪念状态，若已拥有则切换为另外一种状态",
+      "args": [],
+      "effect": {
+        "id": 1571,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1571/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "635e70bc"
+}

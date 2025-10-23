@@ -1,0 +1,34 @@
+{
+  "id": 1858,
+  "desc": "受到的攻击伤害减少20%；自身使用攻击技能时消除对手的护盾，若对手不处于护盾则自身获得200点护盾，该护盾消失时反转对手能力提升状态，同时使对手威力最低的攻击技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>受到的<b>攻击伤害</b><color=#64F9FA>减少</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时<color=#64F9FA>消除</color>对手的<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于护盾则自身<color=#64F9FA>获得</color>200点<b>护盾</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>该护盾消失时<color=#64F9FA>反转</color>对手<b>能力提升状态</b>，同时使对手威力最低的攻击技能<b>PP值<color=#64F9FA></b>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4656,
+      "url": "https://api.seerapi.com/v1/pet/4656/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 2252,
+      "url": "https://api.seerapi.com/v1/eid_effect/2252/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7ab45b77"
+}

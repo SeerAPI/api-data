@@ -1,0 +1,35 @@
+{
+  "id": 17214,
+  "name": "火焰击",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/element_type_combination/28/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于烧伤状态则每次攻击造成的伤害都将恢复自身体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 472,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/472/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4fc58e5f"
+}

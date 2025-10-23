@@ -1,0 +1,39 @@
+{
+  "id": 1046,
+  "desc": "自身受到的攻击伤害高于自身最大体力的1/2则75%令对手感染，未触发感染则自身下回合攻击100%打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3768,
+      "url": "https://api.seerapi.com/v1/pet/3768/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      75,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1346,
+      "url": "https://api.seerapi.com/v1/eid_effect/1346/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "61039be5"
+}

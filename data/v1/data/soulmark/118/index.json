@@ -1,0 +1,29 @@
+{
+  "id": 118,
+  "desc": "自身受到的伤害不足250，则战斗阶段结束时对手有30%概率流血",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2701,
+      "url": "https://api.seerapi.com/v1/pet/2701/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      30,
+      16
+    ],
+    "effect": {
+      "id": 340,
+      "url": "https://api.seerapi.com/v1/eid_effect/340/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2aeb3afc"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1580,
+  "desc": "自身先出手前令对手所有技能PP值-2，后出手前令对手随机1个技能PP值归零；|自身登场时若对手体力值＞500则激活机械领域（效果持续3回合），若对手体力值≤500则激活次元领域（效果持续3回合），若本次登场为主动切换登场则额外令对手当回合使用的技能PP值消耗20倍，领域效果结束的当回合战斗阶段结束时，自身获得500点护盾和500点护罩（boss无效）|机械领域：对手造成的攻击伤害不超过自身最大体力的40%；战斗阶段结束时，若自身当回合受到了攻击伤害，则下回合所有技能先制+2|次元领域：对手无法通过自身技能恢复体力；战斗阶段结束时，若自身当回合受到了攻击伤害，则{吸取}对手最大{体力}的1/3",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能时：\r\n<indent=32><sprite=4><indent=48>若为先出手则令对手所有技能<b>PP值</b>-2\r\n<indent=32><sprite=4><indent=48>若为后出手则令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>贝狄薇尔每次登场时：\r\n<indent=32><sprite=4><indent=48>若对手体力值＞500则激活3回合的<b>机械领域</b>\r\n<indent=32><sprite=4><indent=48>若对手体力值≤500则激活3回合的<b>次元领域</b>\r\n<indent=32><sprite=4><indent=48>若本次登场为切换登场则额外令对手当回合使用的技能PP值消耗变为20倍\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若机械领域或次元领域的剩余回合数为1，则获得500点<b>护盾</b>和500点<b>护罩</b>\r\n\r\n<indent=0><sprite=5><indent=15>机械领域：\r\n<indent=16><sprite=6><indent=32>自身受到的<b>攻击伤害</b><color=#64F9FA>无法超过</color>自身最大体力的40%\r\n<indent=16><sprite=6><indent=32>战斗阶段结束时若当回合自身受到了攻击伤害，则令自身下回合所有技能<b>先制</b>+2\r\n\r\n\r\n<indent=0><sprite=5><indent=15>次元领域：\r\n<indent=16><sprite=6><indent=32>对手<color=#64F9FA>无法通过自身技能恢复体力</color>\r\n<indent=16><sprite=6><indent=32>战斗阶段结束时若当回合自身受到了攻击伤害，则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4184,
+      "url": "https://api.seerapi.com/v1/pet/4184/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      500,
+      500,
+      20,
+      500,
+      500,
+      1
+    ],
+    "effect": {
+      "id": 1935,
+      "url": "https://api.seerapi.com/v1/eid_effect/1935/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1408,
+    "url": "https://api.seerapi.com/v1/soulmark/1408/"
+  },
+  "hash": "d1329430"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 24401,
+  "name": "浴火脱胎",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对手释放技能所消耗的PP翻倍；随机使自己能力提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    },
+    {
+      "info": "随机使自己3项能力+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 626,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/626/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6e601e95"
+}

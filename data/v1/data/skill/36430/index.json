@@ -1,0 +1,37 @@
+{
+  "id": 36430,
+  "name": "魁痕",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "后出手时100%令对手对手流血，未触发则使自身下1回合必定致命一击",
+      "args": [
+        100,
+        16,
+        1
+      ],
+      "effect": {
+        "id": 1401,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1401/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "861ef93e"
+}

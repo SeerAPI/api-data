@@ -1,0 +1,64 @@
+{
+  "$defs": {
+    "ResourceRef_PetSkinCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "皮肤ID，注意该字段不是头像/立绘等所使用的资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "皮肤名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "resource_id": {
+      "description": "皮肤资源ID",
+      "title": "Resource Id",
+      "type": "integer"
+    },
+    "enemy_resource_id": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "该皮肤在对手侧时使用的资源的ID，仅少数皮肤存在这种资源",
+      "title": "Enemy Resource Id"
+    },
+    "pet": {
+      "$ref": "#/$defs/ResourceRef_Pet_",
+      "description": "使用该皮肤的精灵"
+    },
+    "category": {
+      "$ref": "#/$defs/ResourceRef_PetSkinCategory_",
+      "description": "该皮肤所属的系列"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "resource_id",
+    "pet",
+    "category",
+    "hash"
+  ],
+  "title": "PetSkin",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

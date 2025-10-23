@@ -1,0 +1,37 @@
+{
+  "id": 546,
+  "desc": "所有攻击无视对手特防提升效果；自身造成伤害时，对手在战斗阶段结束时受到相当于本次伤害1/2的固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3214,
+      "url": "https://api.seerapi.com/v1/pet/3214/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1
+    ],
+    "effect": {
+      "id": 839,
+      "url": "https://api.seerapi.com/v1/eid_effect/839/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "379d0b22"
+}

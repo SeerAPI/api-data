@@ -1,0 +1,46 @@
+{
+  "id": 1396,
+  "desc": "每个战斗阶段结束时恢复自身300点体力值，若战斗阶段结束时自身满体力则下回合所有技能先制+1；|自身攻击命中后75%令对手冻伤，若造成的的伤害超过300则100%令对手冻伤且下回合造成的伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>恢复</color>自身300点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若恢复时自身满体力则下回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后75%<color=#64F9FA>令对手冻伤</color>\r\n<indent=32><sprite=4><indent=48>若造成的的伤害超过300则100%<color=#64F9FA>令对手冻伤</color>且下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4172,
+      "url": "https://api.seerapi.com/v1/pet/4172/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      1,
+      75,
+      300,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1761,
+      "url": "https://api.seerapi.com/v1/eid_effect/1761/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "69953135"
+}

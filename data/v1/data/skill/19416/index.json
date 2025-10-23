@@ -1,0 +1,45 @@
+{
+  "id": 19416,
+  "name": "夺命破世击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手体力不足280则直接秒杀",
+      "args": [
+        280
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    },
+    {
+      "info": "当回合击败对手则下回合开始后随机附加1种异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 826,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/826/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fd4a70b1"
+}

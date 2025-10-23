@@ -1,0 +1,45 @@
+{
+  "id": 1811,
+  "desc": "自身受到攻击后为对手附加2层碧叶猛毒，自身每损失25%的最大体力附加层数+2；对手每有1层碧叶猛毒自身攻击技能命中时恢复100点体力且当次攻击造成伤害提升10%；|碧叶猛毒：每有1层造成的攻击伤害减少6%且使用技能后受到100点固定伤害，每层碧叶猛毒持续3回合，最高12层|（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后为对手附加2层<b>碧叶猛毒</b>，自身每损失25%的最大体力附加层数+2\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>对手每有1层碧叶猛毒自身攻击技能命中时<color=#64F9FA>恢复</color>100点<b>体力</b>且当次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%;\r\n\r\n<indent=0><sprite=5><indent=15>碧叶猛毒（上限12层）：\r\n<indent=16><sprite=6><indent=32>每有1层造成的<b>攻击伤害<color=#64F9FA></b>减少</color>6%且使用技能后<color=#64F9FA>受到</color>100点<b>固定伤害</b>\r\n<indent=16><sprite=6><indent=32>每层碧叶猛毒独立持续3回合",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4606,
+      "url": "https://api.seerapi.com/v1/pet/4606/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      25,
+      2,
+      1,
+      100,
+      10
+    ],
+    "effect": {
+      "id": 2202,
+      "url": "https://api.seerapi.com/v1/eid_effect/2202/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cc50ec67"
+}

@@ -1,0 +1,66 @@
+{
+  "id": 30791,
+  "name": "王·秘影战歌",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 60,
+    "url": "https://api.seerapi.com/v1/element_type_combination/60/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "args": [],
+      "effect": {
+        "id": 760,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/760/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则自身下2回合所有技能先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 979,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/979/"
+      }
+    },
+    {
+      "info": "附加对手最大体力值20%的百分比伤害，每次使用增加10%，最高40%",
+      "args": [
+        20,
+        10,
+        40
+      ],
+      "effect": {
+        "id": 906,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/906/"
+      }
+    },
+    {
+      "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 67,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/67/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "38aeba9c"
+}

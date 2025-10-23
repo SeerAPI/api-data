@@ -1,0 +1,43 @@
+{
+  "id": 31141,
+  "name": "神圣复苏",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": "复苏的神灵之光将净化万物，众生归于原点",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 223,
+    "url": "https://api.seerapi.com/v1/element_type_combination/223/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使双方精灵所有技能PP值归零；消除双方能力提升、下降状态以及回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1237,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1237/"
+      }
+    },
+    {
+      "info": "恢复自身最大体力的1/1并造成等量百分比伤害",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1005,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1005/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "55f4d1b9"
+}

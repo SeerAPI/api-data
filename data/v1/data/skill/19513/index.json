@@ -1,0 +1,37 @@
+{
+  "id": 19513,
+  "name": "炼神乾坤灾",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后50%使对手疲惫，未触发则附加自身最大体力值1/3的百分比伤害",
+      "args": [
+        50,
+        7,
+        3
+      ],
+      "effect": {
+        "id": 917,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/917/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1ff030e3"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 37226,
+  "name": "叱啸泯魂斩",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 40,
+    "url": "https://api.seerapi.com/v1/element_type_combination/40/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手双防能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 195,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/195/"
+      }
+    },
+    {
+      "info": "100%令对手束缚，未触发则消除对手回合类效果",
+      "args": [
+        100,
+        28
+      ],
+      "effect": {
+        "id": 1187,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1187/"
+      }
+    },
+    {
+      "info": "自身每有1回合异常状态造成伤害提升30%，最高150%",
+      "args": [
+        30,
+        150
+      ],
+      "effect": {
+        "id": 2137,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2137/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e4100a25"
+}

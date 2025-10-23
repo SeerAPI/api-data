@@ -1,0 +1,67 @@
+{
+  "id": 26040,
+  "name": "恶魔降临",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都提升了；每回合结束时可以解除自身异常状态；自身出手速度更快了，同时输出能力提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，若自身当前体力低于对手则强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 946,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/946/"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    },
+    {
+      "info": "下2回合造成的攻击伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "12b2281a"
+}

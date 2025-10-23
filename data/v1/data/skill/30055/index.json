@@ -1,0 +1,45 @@
+{
+  "id": 30055,
+  "name": "无极爆裂冲",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 995,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/995/"
+      }
+    },
+    {
+      "info": "未击败对手则下回合自身所有技能先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 984,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/984/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "880c7795"
+}

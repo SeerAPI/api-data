@@ -1,0 +1,44 @@
+{
+  "id": 1054,
+  "desc": "对手不处于能力下降状态时自身所有技能先制+1；自身体力高于最大体力的1/2时被击败则使对手受到等同于自身最大体力70%的固定伤害，自身体力低于最大体力的1/2时被击败则消除对手回合类效果和能力提升状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3776,
+      "url": "https://api.seerapi.com/v1/pet/3776/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      70,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1353,
+      "url": "https://api.seerapi.com/v1/eid_effect/1353/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "17c060be"
+}

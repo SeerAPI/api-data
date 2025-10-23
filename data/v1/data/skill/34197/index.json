@@ -1,0 +1,55 @@
+{
+  "id": 34197,
+  "name": "星河幻灭冲",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 38,
+    "url": "https://api.seerapi.com/v1/element_type_combination/38/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手体力不足300则直接秒杀",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    },
+    {
+      "info": "本回合打出致命一击则令对手2回合属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1483,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1483/"
+      }
+    },
+    {
+      "info": "本回合未打出致命一击则令对手随机1个技能PP值归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1557,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1557/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c27f9453"
+}

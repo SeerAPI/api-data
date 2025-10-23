@@ -1,0 +1,58 @@
+{
+  "id": 29057,
+  "name": "邪影纠缠",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；开始免疫能力下降状态了；开始令对手害怕了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能则70%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3,
+        70,
+        6,
+        3
+      ],
+      "effect": {
+        "id": 1255,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1255/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8af3f831"
+}

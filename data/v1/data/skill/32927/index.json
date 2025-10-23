@@ -1,0 +1,43 @@
+{
+  "id": 32927,
+  "name": "亡魂超度",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身体力低于最大体力的1/2则先制+2",
+      "args": [],
+      "effect": {
+        "id": 1117,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1117/"
+      }
+    },
+    {
+      "info": "造成伤害的60%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "args": [
+        60
+      ],
+      "effect": {
+        "id": 1249,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1249/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4fc46350"
+}

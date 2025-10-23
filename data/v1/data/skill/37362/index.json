@@ -1,0 +1,67 @@
+{
+  "id": 37362,
+  "name": "曲止杜鹃啼",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则对手冰封，未触发则2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        15,
+        2
+      ],
+      "effect": {
+        "id": 1370,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1370/"
+      }
+    },
+    {
+      "info": "本回合打出致命一击则令对手2回合属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1483,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1483/"
+      }
+    },
+    {
+      "info": "本回合未打出致命一击则恢复自己所有技能1点PP值并降低对手所有技能1点PP值",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1689,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1689/"
+      }
+    },
+    {
+      "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1709,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1709/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "90e91ca2"
+}

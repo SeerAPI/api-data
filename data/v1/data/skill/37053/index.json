@@ -1,0 +1,47 @@
+{
+  "id": 37053,
+  "name": "无间禁道",
+  "power": 100,
+  "max_pp": 1,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 96,
+    "url": "https://api.seerapi.com/v1/element_type_combination/96/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，使对手受到自身最大体力1/1的百分比伤害，同时使自身下只出场精灵前3回合100%闪避对手的攻击技能",
+      "args": [
+        1,
+        3,
+        100
+      ],
+      "effect": {
+        "id": 1416,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1416/"
+      }
+    },
+    {
+      "info": "使对手随机2项技能的PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 583,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/583/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7af540b3"
+}

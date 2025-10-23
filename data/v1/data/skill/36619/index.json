@@ -1,0 +1,43 @@
+{
+  "id": 36619,
+  "name": "不破四式",
+  "power": 44,
+  "max_pp": 6,
+  "accuracy": 44,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力提升状态则先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2000/"
+      }
+    },
+    {
+      "info": "4回合内受到攻击则对手下回合受到的伤害翻倍",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 817,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/817/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fbbb33bd"
+}

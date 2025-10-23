@@ -1,0 +1,36 @@
+{
+  "id": 1952,
+  "desc": "自身攻击命中对手后50%令对手害怕，未触发则吸取对手最大体力的1/3且下次害怕触发概率翻倍|对手技能命中自身时吸取对手能力提升状态，吸取成功则免疫下1次受到的攻击伤害|自身击败对手时令对方下只出战精灵害怕，未触发则吸取对方下只出战精灵所有能力1级，且害怕效果延续至对方的再下一只精灵（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中对手后50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手最大体力的1/3且下次害怕触发概率翻倍\r\n<indent=16><sprite=3><indent=32>对手技能命中自身时<color=#64F9FA>吸取</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>吸取成功则<color=#64F9FA>免疫</color>下1次受到的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时令对方下只出战精灵害怕，未触发则吸取对方下只出战精灵所有能力1级，且害怕效果延续至对方的再下一只精灵",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": true,
+  "pet": [
+    {
+      "id": 3766,
+      "url": "https://api.seerapi.com/v1/pet/3766/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2365,
+      "url": "https://api.seerapi.com/v1/eid_effect/2365/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1045,
+    "url": "https://api.seerapi.com/v1/soulmark/1045/"
+  },
+  "hash": "98f96f8f"
+}

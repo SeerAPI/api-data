@@ -1,0 +1,43 @@
+{
+  "id": 1925,
+  "desc": "自身受到的技能伤害高于400时80%令对手睡眠，未触发则自身恢复400点体力，自身受到的技能伤害低于400时下回合对手属性技能无效，无效成功则恢复自身已损失体力值的80%|回合开始时，若自身体力不为满则当回合所有技能先制+1，若自身体力低于对手则每与对手相差80点自身造成的攻击伤害提升40%，最高160%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的技能伤害高于400时80%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身<color=#64F9FA>恢复</color>400点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身受到的技能伤害低于400时下回合对手<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>无效成功则<color=#64F9FA>恢复</color>己方在场精灵已损失体力值的80%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力不为满则当回合所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则每与对手相差80点自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%，最高160%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4725,
+      "url": "https://api.seerapi.com/v1/pet/4725/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      80,
+      40,
+      160,
+      1
+    ],
+    "effect": {
+      "id": 2338,
+      "url": "https://api.seerapi.com/v1/eid_effect/2338/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "15556000"
+}

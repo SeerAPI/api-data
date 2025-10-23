@@ -1,0 +1,59 @@
+{
+  "id": 37551,
+  "name": "渗宇洄光",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后70%令对手失明",
+      "args": [
+        70,
+        20
+      ],
+      "effect": {
+        "id": 756,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/756/"
+      }
+    },
+    {
+      "info": "3回合内每回合30%闪避对手攻击，对手攻击技能命中时令对手随机1个技能PP值归0",
+      "args": [
+        3,
+        30,
+        1
+      ],
+      "effect": {
+        "id": 2221,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2221/"
+      }
+    },
+    {
+      "info": "下3回合对手每回合受到相当于本次伤害的1/3的百分比伤害（可以叠加）",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 829,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/829/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6f092352"
+}

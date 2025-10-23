@@ -1,0 +1,47 @@
+{
+  "id": 34495,
+  "name": "毛球急冻冰",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力上升状态，消除成功则2回合内对手每回合防御-2",
+      "args": [
+        2,
+        1,
+        -2
+      ],
+      "effect": {
+        "id": 759,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/759/"
+      }
+    },
+    {
+      "info": "若对手处于冻伤状态则每次攻击造成的伤害都将恢复自身体力",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 472,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/472/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "da759881"
+}

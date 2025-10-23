@@ -1,0 +1,39 @@
+{
+  "id": 861,
+  "desc": "回合开始时若自身体力高于对手则40%的概率闪避对手攻击，自身体力低于对手时概率变为60%；使用攻击技能时50%的概率令对手害怕（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3559,
+      "url": "https://api.seerapi.com/v1/pet/3559/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      60,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1149,
+      "url": "https://api.seerapi.com/v1/eid_effect/1149/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6797636a"
+}

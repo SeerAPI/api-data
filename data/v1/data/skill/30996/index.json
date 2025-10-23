@@ -1,0 +1,46 @@
+{
+  "id": 30996,
+  "name": "夺魂齿",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过280点",
+      "args": [
+        2,
+        280
+      ],
+      "effect": {
+        "id": 766,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/766/"
+      }
+    },
+    {
+      "info": "命中后50%令对方害怕",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "58ec145f"
+}

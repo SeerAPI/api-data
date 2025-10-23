@@ -1,0 +1,48 @@
+{
+  "id": 21711,
+  "name": "激光制导",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "命中提升了许多，伤害好像提升了一些",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身命中等级+2",
+      "args": [
+        5,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "5回合内每回合都能附加50点固定伤害",
+      "args": [
+        5,
+        50
+      ],
+      "effect": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/60/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "94af9014"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 34681,
+  "name": "摇曳飞冲",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 18,
+    "url": "https://api.seerapi.com/v1/element_type_combination/18/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "20%的概率恢复自身体力的1/2",
+      "args": [
+        20,
+        2
+      ],
+      "effect": {
+        "id": 438,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/438/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9d1c7d40"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 859,
+  "desc": "每个战斗阶段结束时自身速度+1；自身处于速度提升时每次使用攻击技能附加200点固定伤害，每次使用属性技能{吸取}对手200点{体力}（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3553,
+      "url": "https://api.seerapi.com/v1/pet/3553/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      200,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 1144,
+      "url": "https://api.seerapi.com/v1/eid_effect/1144/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7f3b638d"
+}

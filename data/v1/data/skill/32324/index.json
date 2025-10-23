@@ -1,0 +1,43 @@
+{
+  "id": 32324,
+  "name": "神来之笔",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1164/"
+      }
+    },
+    {
+      "info": "先出手时造成的攻击伤害额外提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 986,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/986/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4c2fa5af"
+}

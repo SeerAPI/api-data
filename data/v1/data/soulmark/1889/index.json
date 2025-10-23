@@ -1,0 +1,39 @@
+{
+  "id": 1889,
+  "desc": "自身免疫对手的草系攻击，每次免疫成功后，自身下次攻击时恢复全部体力，对手使用其他系别的攻击技能时，自身减少所有技能2点PP以解除自身所处的控制类异常状态|回合开始时，若对手处于异常状态则每有一种异常状态当回合自身造成的攻击伤害提升50%，若对手不处于异常状态则当回合自身使用技能后100%令对手中毒（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身<color=#64F9FA>免疫</color>对手的<b>草系攻击</b>，每次免疫成功后，自身下次攻击时<color=#64F9FA>恢复<b></color>全部体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用其他系别的攻击技能时，自身<color=#64F9FA>减少</color>所有技能2点<b>PP</b>以<color=#64F9FA>解除</color>自身所处的<b>控制类异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则每有一种异常状态当回合自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则当回合自身使用技能后100%<color=#64F9FA>令对手中毒</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4686,
+      "url": "https://api.seerapi.com/v1/pet/4686/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2287,
+      "url": "https://api.seerapi.com/v1/eid_effect/2287/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "78b360d0"
+}

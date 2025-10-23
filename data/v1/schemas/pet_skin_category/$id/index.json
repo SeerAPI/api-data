@@ -1,0 +1,34 @@
+{
+  "$defs": {
+    "ResourceRef_PetSkin_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "系列ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "skins": {
+      "description": "该系列的皮肤列表",
+      "items": {
+        "$ref": "#/$defs/ResourceRef_PetSkin_"
+      },
+      "title": "Skins",
+      "type": "array"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "hash"
+  ],
+  "title": "PetSkinCategory",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

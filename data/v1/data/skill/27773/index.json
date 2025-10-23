@@ -1,0 +1,59 @@
+{
+  "id": 27773,
+  "name": "古壁炎纹",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身的攻击和命中提升了；附加一定固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "args": [
+        0,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身命中等级+2",
+      "args": [
+        5,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "附加对手防御值25%的百分比伤害",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 459,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/459/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5acc7636"
+}

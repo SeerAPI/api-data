@@ -1,0 +1,55 @@
+{
+  "id": 37020,
+  "name": "一月的雪鸮",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 46,
+    "url": "https://api.seerapi.com/v1/element_type_combination/46/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果，消除成功则双方冻伤",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 1414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1414/"
+      }
+    },
+    {
+      "info": "双方任意一方处于能力下降状态均会附加200点固定伤害，同时解除自身能力下降状态",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 684,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/684/"
+      }
+    },
+    {
+      "info": "下次攻击忽略对手双防值的25%",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/886/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9058c34a"
+}

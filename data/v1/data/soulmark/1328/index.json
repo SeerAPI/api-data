@@ -1,0 +1,44 @@
+{
+  "id": 1328,
+  "desc": "自身处于能力提升状态时造成伤害的50%恢复自身体力；若自身被对手击败则毒苹果效果转移：100%令对手陷入烧伤、冻伤、中毒、焚烬、冰封、感染中的2种异常状态，未触发则令对手全属性-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身处于能力提升状态时造成伤害的50%恢复自身体力\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>若自身被对手击败则毒苹果效果转移：\r\n100%令对手<color=#64F9FA>受到</color>烧伤、冻伤、中毒、焚烬、冰封、感染中的2种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则令对手<color=#64F9FA>全属性-1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4086,
+      "url": "https://api.seerapi.com/v1/pet/4086/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1678,
+      "url": "https://api.seerapi.com/v1/eid_effect/1678/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b8e65e95"
+}

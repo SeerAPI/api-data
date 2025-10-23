@@ -1,0 +1,38 @@
+{
+  "id": 852,
+  "desc": "自身使用攻击技能时双方每处于1种能力提升状态则附加70点固定伤害，自身使用属性技能时双方每处于1种能力提升状态则恢复70点体力；战斗阶段结束时双倍反转自身能力下降状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3549,
+      "url": "https://api.seerapi.com/v1/pet/3549/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      70,
+      1
+    ],
+    "effect": {
+      "id": 1137,
+      "url": "https://api.seerapi.com/v1/eid_effect/1137/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e905bf45"
+}

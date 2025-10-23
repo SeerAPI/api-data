@@ -1,0 +1,35 @@
+{
+  "id": 23975,
+  "name": "命舛齐天",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "牺牲自己使对手无法使用属性技能",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，使对手5回合内使用属性技能失效（延续到对手所有精灵）",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 753,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/753/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fb00e0cd"
+}

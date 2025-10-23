@@ -1,0 +1,51 @@
+{
+  "id": 37926,
+  "name": "百骸热忱铸",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 125,
+    "url": "https://api.seerapi.com/v1/element_type_combination/125/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若当前体力低于对手则先制+1",
+      "args": [],
+      "effect": {
+        "id": 954,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/954/"
+      }
+    },
+    {
+      "info": "若对手处于能力提升状态则先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2000/"
+      }
+    },
+    {
+      "info": "对手每处于一种能力下降状态时附加60点固定伤害",
+      "args": [
+        60
+      ],
+      "effect": {
+        "id": 542,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/542/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "edcea825"
+}

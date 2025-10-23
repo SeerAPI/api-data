@@ -1,0 +1,53 @@
+{
+  "id": 36689,
+  "name": "极涛裂空杀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.1875,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身遇到天敌则先制+3",
+      "args": [],
+      "effect": {
+        "id": 1810,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1810/"
+      }
+    },
+    {
+      "info": "先出手时吸取对手最大体力的1/4且当回合对手无法造成攻击伤害",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 1867,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1867/"
+      }
+    },
+    {
+      "info": "未击败对手则降低对手所有技能2点PP值",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2033,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2033/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d9b40ec6"
+}

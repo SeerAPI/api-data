@@ -1,0 +1,37 @@
+{
+  "id": 40007,
+  "name": "测试技能5",
+  "power": 1,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手为狩杀之的则造成的攻击伤害提升40%，若对手不为狩杀之的则自身当回合无法造成攻击伤害且附加等同于狩杀之的体力40%的百分比伤害，自身拥有狩杀之魂时上述效果提升40%",
+      "args": [
+        40,
+        40,
+        40
+      ],
+      "effect": {
+        "id": 2278,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2278/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a20ba9b4"
+}

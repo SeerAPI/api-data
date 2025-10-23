@@ -1,0 +1,72 @@
+{
+  "id": 1141,
+  "args_num": 7,
+  "info": "1回合做{0}~{1}次攻击，每次攻击{2}%令对手{3}，攻击低于{4}次则每次攻击{5}%令对手{6}",
+  "info_formatting_adjustment": "1回合做{0}~{1}次攻击，每次攻击{2}%令对手{3}\r\n--><condition>攻击低于{4}次</condition>则每次攻击{5}%令对手{6}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 6,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 30502,
+      "url": "https://api.seerapi.com/v1/skill/30502/"
+    },
+    {
+      "id": 32274,
+      "url": "https://api.seerapi.com/v1/skill/32274/"
+    },
+    {
+      "id": 32401,
+      "url": "https://api.seerapi.com/v1/skill/32401/"
+    },
+    {
+      "id": 32685,
+      "url": "https://api.seerapi.com/v1/skill/32685/"
+    },
+    {
+      "id": 33637,
+      "url": "https://api.seerapi.com/v1/skill/33637/"
+    },
+    {
+      "id": 34484,
+      "url": "https://api.seerapi.com/v1/skill/34484/"
+    },
+    {
+      "id": 34746,
+      "url": "https://api.seerapi.com/v1/skill/34746/"
+    },
+    {
+      "id": 36342,
+      "url": "https://api.seerapi.com/v1/skill/36342/"
+    },
+    {
+      "id": 36592,
+      "url": "https://api.seerapi.com/v1/skill/36592/"
+    },
+    {
+      "id": 37668,
+      "url": "https://api.seerapi.com/v1/skill/37668/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "93934655"
+}

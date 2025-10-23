@@ -1,0 +1,44 @@
+{
+  "id": 196,
+  "args_num": 6,
+  "info": "{1}%令对方{0}等级{2}；若先出手，则{4}%使对方{3}等级{5}",
+  "info_formatting_adjustment": "{1}%令对方{0}等级{2}\r\n--><condition>若先出手</condition>，则{4}%使对方{3}等级{5}",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 13193,
+      "url": "https://api.seerapi.com/v1/skill/13193/"
+    },
+    {
+      "id": 16649,
+      "url": "https://api.seerapi.com/v1/skill/16649/"
+    },
+    {
+      "id": 36174,
+      "url": "https://api.seerapi.com/v1/skill/36174/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35733,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35733/"
+    }
+  ],
+  "hash": "dc2d2ef6"
+}

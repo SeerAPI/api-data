@@ -1,0 +1,66 @@
+{
+  "id": 36929,
+  "name": "异冥纵骸咒",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 62,
+    "url": "https://api.seerapi.com/v1/element_type_combination/62/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 736,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/736/"
+      }
+    },
+    {
+      "info": "命中后2回合内每回合使对手特防-1、速度-1，若未触发则减少对手最大体力的1/3",
+      "args": [
+        2,
+        0,
+        0,
+        0,
+        -1,
+        -1,
+        0,
+        3
+      ],
+      "effect": {
+        "id": 1028,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1028/"
+      }
+    },
+    {
+      "info": "2回合内受到的伤害低于350时100%令对手沉默，未触发则附加350点固定伤害",
+      "args": [
+        2,
+        350,
+        100,
+        30,
+        350
+      ],
+      "effect": {
+        "id": 1612,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1612/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "64d341ba"
+}

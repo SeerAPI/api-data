@@ -1,0 +1,45 @@
+{
+  "id": 1833,
+  "desc": "对手使用攻击技能时令双方烧伤3回合，若自身已处于烧伤状态则改为70%闪避对手当次攻击并使自身的烧伤回合数+2，最多增加至7回合|自身登场时为对方附加炙光火种：己方在场精灵击败赫斯提亚后消除自身所有回合类效果并焚烬，若赫斯提亚处于烧伤则解除此状态，对方获得层数等同于烧伤回合数的佑灵灼火，赫斯提亚下场后炙光火种消失|回合开始时，若自身处于烧伤状态则每有1回合自身特攻、速度+1,若对手不处于烧伤状态则当回合使用技能后令对手束缚并特防、速度-1|佑灵灼火：对方对己方赫斯提亚以外的精灵使用攻击技能时消耗1层，己方在场精灵当回合免疫受到的异常状态且对手烧伤，最高7层|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时<color=#64F9FA>令双方烧伤</color>3回合\r\n<indent=32><sprite=4><indent=48>若自身已处于烧伤状态则改为70%<color=#64F9FA>闪避</color>对手的<b>当次攻击</b>并使自身的烧伤回合数+2，最多增加至7回合\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场时为对方附加炙光火种：己方在场精灵击败赫斯提亚后，\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>自身<b>回合类效果</b>并焚烬\r\n<indent=32><sprite=4><indent=48>若赫斯提亚处于烧伤则<color=#64F9FA>解除</color>此状态，对方获得层数等同于此烧伤回合数的<b>佑灵灼火</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于烧伤状态则每有1回合自身特攻、速度+1\r\n<indent=32><sprite=4><indent=48>若对手不处于烧伤状态则当回合使用技能后<color=#64F9FA>令对手束缚</color>并特防、速度-1\r\n\r\n<indent=0><sprite=5><indent=15>佑灵灼火（上限7层）：\r\n<indent=16><sprite=6><indent=32>对手对己方其他精灵使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>消耗1层\r\n<indent=32><sprite=4><indent=48>使己方当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>并<color=#64F9FA>令对手烧伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4627,
+      "url": "https://api.seerapi.com/v1/pet/4627/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      50,
+      300,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2227,
+      "url": "https://api.seerapi.com/v1/eid_effect/2227/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5831a4a9"
+}

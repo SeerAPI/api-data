@@ -1,0 +1,33 @@
+{
+  "id": 35141,
+  "name": "稚气模仿",
+  "power": 0,
+  "max_pp": 3,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%复制对手当回合释放的技能，未触发则恢复自身最大体力的1/2且令对手全属性-1",
+      "args": [],
+      "effect": {
+        "id": 1619,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1619/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8361a2e3"
+}

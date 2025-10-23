@@ -1,0 +1,39 @@
+{
+  "id": 1372,
+  "desc": "出场后自身造成的伤害提升10%、打出致命一击的概率提升10%；本场战斗中自身每击败一只精灵则造成的伤害提升10%、打出致命一击的概率提升10%（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>登场后自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%、打出致命一击的概率提升10%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>本场战斗中自身每击败一只精灵则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%、打出致命一击的概率提升10%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4142,
+      "url": "https://api.seerapi.com/v1/pet/4142/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "effect": {
+      "id": 1733,
+      "url": "https://api.seerapi.com/v1/eid_effect/1733/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "82d11845"
+}

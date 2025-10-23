@@ -1,0 +1,25 @@
+{
+  "id": 1749,
+  "args_num": 2,
+  "info": "对手每有1项技能PP值为0则附加{0}点固定伤害，若对手未受到固定伤害则额外附加{1}点真实伤害",
+  "info_formatting_adjustment": "对手每有1项技能PP值为0则附加{0}点固定伤害\r\n--><condition>若对手未受到固定伤害</condition>则额外附加{1}点真实伤害",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 35554,
+      "url": "https://api.seerapi.com/v1/skill/35554/"
+    },
+    {
+      "id": 36651,
+      "url": "https://api.seerapi.com/v1/skill/36651/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "714d635b"
+}

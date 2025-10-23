@@ -1,0 +1,66 @@
+{
+  "id": 29033,
+  "name": "二度愚神",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫受到的异常状态了；开始闪避对手的攻击了；骗取了短暂的永生",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于能力下降时先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 747,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/747/"
+      }
+    },
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "1回合内100%闪避对手攻击，对手攻击技能命中时随机附加麻痹、睡眠中的1种异常状态",
+      "args": [
+        1,
+        100,
+        0,
+        8
+      ],
+      "effect": {
+        "id": 1975,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1975/"
+      }
+    },
+    {
+      "info": "若先出手则自身下次受到致死伤害时保留1点体力",
+      "args": [],
+      "effect": {
+        "id": 2281,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2281/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "544aa35a"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 34077,
+  "name": "灵眸碎魄",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 931,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/931/"
+      }
+    },
+    {
+      "info": "造成的伤害低于200则100%令对手害怕，未触发则下2回合攻击技能50%令对手睡眠",
+      "args": [
+        200,
+        100,
+        6,
+        2,
+        50,
+        8
+      ],
+      "effect": {
+        "id": 1430,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1430/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c9e74d91"
+}

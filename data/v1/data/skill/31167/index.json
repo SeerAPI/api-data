@@ -1,0 +1,63 @@
+{
+  "id": 31167,
+  "name": "混沌先锋破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 92,
+    "url": "https://api.seerapi.com/v1/element_type_combination/92/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1回合对手攻击技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1060,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1060/"
+      }
+    },
+    {
+      "info": "连续使用时先制+1",
+      "args": [],
+      "effect": {
+        "id": 1080,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1080/"
+      }
+    },
+    {
+      "info": "自身每处于一种能力提升状态则附加50点固定伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 808,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/808/"
+      }
+    },
+    {
+      "info": "对手每处于一种能力下降状态时附加50点固定伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 542,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/542/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "111c6c29"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 19753,
+  "name": "皮皮撞击",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 53,
+    "url": "https://api.seerapi.com/v1/element_type_combination/53/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则对手下1回合技能失效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 988,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/988/"
+      }
+    },
+    {
+      "info": "2回合内自身能力提升状态被消除或吸取时，令对手全属性-1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 804,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/804/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7288288e"
+}

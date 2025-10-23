@@ -1,0 +1,55 @@
+{
+  "id": 31894,
+  "name": "赤华断刃",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 57,
+    "url": "https://api.seerapi.com/v1/element_type_combination/57/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "双倍反转对手能力提升状态，反转成功则下回合自身所有技能先制+1，反转失败则消除对手能力提升状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 970,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/970/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842/"
+      }
+    },
+    {
+      "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 101,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/101/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "37719953"
+}

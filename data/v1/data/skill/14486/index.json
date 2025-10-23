@@ -1,0 +1,35 @@
+{
+  "id": 14486,
+  "name": "神秘之光",
+  "power": 110,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于害怕状态则伤害翻倍",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 500,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/500/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "82efb9ec"
+}

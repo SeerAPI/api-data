@@ -1,0 +1,41 @@
+{
+  "id": 2068,
+  "args_num": 2,
+  "info": "{0}%令对手{1}，未触发则回合结束后消除对手回合类效果",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则回合结束后消除对手回合类效果",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28441,
+      "url": "https://api.seerapi.com/v1/skill/28441/"
+    },
+    {
+      "id": 28945,
+      "url": "https://api.seerapi.com/v1/skill/28945/"
+    },
+    {
+      "id": 36821,
+      "url": "https://api.seerapi.com/v1/skill/36821/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    }
+  ],
+  "hash": "d8cdbdea"
+}

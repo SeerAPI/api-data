@@ -1,0 +1,37 @@
+{
+  "id": 890,
+  "desc": "对手处于失明状态则攻击技能附加对手最大体力1/3的固定伤害，对手处于害怕状态则攻击技能必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3588,
+      "url": "https://api.seerapi.com/v1/pet/3588/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1175,
+      "url": "https://api.seerapi.com/v1/eid_effect/1175/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5f7ae464"
+}

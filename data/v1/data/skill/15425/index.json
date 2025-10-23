@@ -1,0 +1,41 @@
+{
+  "id": 15425,
+  "name": "梦幻风暴",
+  "power": 140,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/3/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "301b7f05"
+}

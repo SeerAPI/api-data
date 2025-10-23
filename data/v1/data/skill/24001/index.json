@@ -1,0 +1,46 @@
+{
+  "id": 24001,
+  "name": "艳阳高照",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗能力下降；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内免疫能力下降状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "下1回合自身攻击先制+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/481/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c2b332e3"
+}

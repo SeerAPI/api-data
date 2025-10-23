@@ -1,0 +1,50 @@
+{
+  "id": 1703,
+  "desc": "自身使用攻击技能则30%令对手中毒、30%令对手烧伤、30%令对手冻伤、30%令对手麻痹、30%令对手睡眠、30%令对手害怕，未触发则令自身全属性+1且随机为自身附加中毒、烧伤、冻伤中的1种异常状态；战斗阶段结束时，若自身处于异常状态则下回合开始时解除自身异常状态且当回合攻击必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则30%令对手中毒、30%令对手烧伤、30%令对手冻伤、30%令对手麻痹、30%令对手睡眠、30%令对手害怕\r\n<indent=32><sprite=4><indent=48>未触发则令自身<color=#64F9FA>全属性+1</color>且随机为自身附加中毒、烧伤、冻伤中的1种<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身处于异常状态则下回合开始时<color=#64F9FA>解除</color>自身<b>异常状态</b>且当回合攻击必定<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4216,
+      "url": "https://api.seerapi.com/v1/pet/4216/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1805,
+      "url": "https://api.seerapi.com/v1/eid_effect/1805/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1434,
+    "url": "https://api.seerapi.com/v1/soulmark/1434/"
+  },
+  "hash": "f9e32bb2"
+}

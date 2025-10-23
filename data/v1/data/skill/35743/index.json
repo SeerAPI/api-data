@@ -1,0 +1,39 @@
+{
+  "id": 35743,
+  "name": "鬼焰·焚身术",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，减少对手当前体力的1/8，同时使己方下1只出场精灵获得点数等同于对手最大体力值1/5的护盾且下2次技能先制+2，护盾最多可获得1000点",
+      "args": [
+        8,
+        5,
+        2,
+        2,
+        1000
+      ],
+      "effect": {
+        "id": 1780,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1780/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "54bb6d5f"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1638,
+  "desc": "自身每次登场首回合免疫异常状态并令对手攻击技能的附加效果失效；|回合开始时若自身处于能力提升、能力下降或异常状态则当回合所有技能先制+2；自身技能命中时使对手3项能力值-1并附加到自己身上（若触发失败则记录自身当前所处的能力下降且当回合战斗阶段结束时自身获得所记录能力下降2倍的能力提升），之后根据自身状态额外触发如下效果：|①.处于能力提升状态：获得1枚龙胆；|②.处于能力下降状态：每处于1种能力下降则附加给对手30点真实伤害，且下回合技能命中时触发效果提升至6项；|③.处于异常状态：{吸取}对手最大{体力}的1/4|（所有特效boss无效）|龙胆：每次获得后当回合结束起直至下回合结束自身免疫异常状态，最多获得7枚；当龙胆达到7枚时触发龙胆世无双：自身开始免疫异常状态且使用技能不再消耗PP值直到龙胆低于7枚；自身下场后，每经过1回合龙胆减少1枚",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场后当回合免疫<b>异常状态</b>并令对手<b>攻击技能</b>的<color=#64F9FA>命中效果失效</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升、能力下降或异常状态则当回合所有技能<b>先制</b>+2\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身技能命中时降低对手3项能力1级并附加到自身\r\n<indent=32><sprite=4><indent=48>未触发则当回合战斗阶段结束时<color=#64F9FA>获得</color>此时自身所处能力下降2倍的<b>能力提升</b>\r\n<indent=32><sprite=4><indent=48>然后根据自身状态额外触发累计的如下效果：\r\n<indent=32><sprite=4><sprite=4><indent=64>处于能力提升则获得1层<b>龙胆</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>处于能力下降则每处于1项都<color=#64F9FA>附加</color>30点<b>真实伤害</b>，且下回合上述降低能力等级效果改为降低6项\r\n<indent=32><sprite=4><sprite=4><indent=64>处于异常状态则<color=#64F9FA>吸取</color>对手最大体力的1/4 \r\n\r\n<indent=0><sprite=5><indent=15>龙胆（上限7枚，下场保留）：\r\n<indent=16><sprite=6><indent=32>每次获得后，当回合战斗阶段起2回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=16><sprite=6><indent=32>自身下场后，每经过1回合龙胆减少1层\r\n<indent=16><sprite=6><indent=32>当龙胆层数为7时触发龙胆世无双：自身开始<color=#64F9FA>免疫</color><b>异常状态</b>且使用技能不再消耗PP值直到龙胆数低于7",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4421,
+      "url": "https://api.seerapi.com/v1/pet/4421/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      30,
+      4,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2020,
+      "url": "https://api.seerapi.com/v1/eid_effect/2020/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "75a6cef8"
+}

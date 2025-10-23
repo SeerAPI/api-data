@@ -1,0 +1,55 @@
+{
+  "id": 23685,
+  "name": "光华尽现",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "体力开始慢慢恢复了；攻击变得更加犀利了；吸收对手能力强化",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    },
+    {
+      "info": "2回合内若对手使用属性技能则60%概率令对手疲惫",
+      "args": [
+        2,
+        60,
+        7
+      ],
+      "effect": {
+        "id": 469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/469/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能吸取对手能力提升状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 677,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/677/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2c6b1b0"
+}

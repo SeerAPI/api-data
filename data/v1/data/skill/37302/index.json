@@ -1,0 +1,59 @@
+{
+  "id": 37302,
+  "name": "恶妒枯凋",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 99,
+    "url": "https://api.seerapi.com/v1/element_type_combination/99/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于能力下降时先制+2",
+      "args": [],
+      "effect": {
+        "id": 1807,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1807/"
+      }
+    },
+    {
+      "info": "若对手处于能力提升状态则先制+2",
+      "args": [],
+      "effect": {
+        "id": 779,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/779/"
+      }
+    },
+    {
+      "info": "攻击时将自身的能力下降状态视为相应的能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1874,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1874/"
+      }
+    },
+    {
+      "info": "自身每有1级能力下降状态吸取对手66点体力，对手处于能力提升状态时效果翻倍",
+      "args": [
+        66
+      ],
+      "effect": {
+        "id": 2171,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2171/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "204eaee9"
+}

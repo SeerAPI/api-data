@@ -1,0 +1,43 @@
+{
+  "id": 731,
+  "desc": "使用攻击技能并先出手时，当回合受到的攻击伤害减少50%，使用属性技能并后出手时，回合结束{吸取}对手最大{体力}的1/4；回合开始时，若当回合之前两个回合中，一回合使用攻击技能并先出手，另外一回合使用属性技能并后出手，则当回合自身攻击100%秒杀对手（两回合使用技能顺序不分先后，所有特效BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3412,
+      "url": "https://api.seerapi.com/v1/pet/3412/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      4,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1014,
+      "url": "https://api.seerapi.com/v1/eid_effect/1014/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fc731825"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 24304,
+  "name": "涛·白雾",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "受到致命伤害时残留1点体力；若对手使用属性技能则受到固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下回合受到致命伤害时残留1点体力 ",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 506,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/506/"
+      }
+    },
+    {
+      "info": "3回合内若对手成功使用属性技能则受到120点固定伤害",
+      "args": [
+        3,
+        120
+      ],
+      "effect": {
+        "id": 526,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/526/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c07a4d88"
+}

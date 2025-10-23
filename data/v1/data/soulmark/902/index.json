@@ -1,0 +1,38 @@
+{
+  "id": 902,
+  "desc": "进入战斗立刻开启天眼：造成伤害的50%恢复自身体力；自身的攻击技能50%打出致命一击，未触发则下回合必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3610,
+      "url": "https://api.seerapi.com/v1/pet/3610/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1189,
+      "url": "https://api.seerapi.com/v1/eid_effect/1189/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "69cb9c5e"
+}

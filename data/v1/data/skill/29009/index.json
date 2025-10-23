@@ -1,0 +1,70 @@
+{
+  "id": 29009,
+  "name": "圣光不灭",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "令对手混乱了；开始免疫并反弹受到的异常状态了；受到的伤害减少了；开始吸取对手的体力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手混乱，若触发则自身下1次攻击技能造成的伤害提升100%，若未触发则令自身失神且免疫下1次受到的攻击",
+      "args": [
+        100,
+        10,
+        1,
+        29,
+        1
+      ],
+      "effect": {
+        "id": 1569,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1569/"
+      }
+    },
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内若自身处于异常状态则受到伤害减少777点",
+      "args": [
+        3,
+        777
+      ],
+      "effect": {
+        "id": 522,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/522/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则回合结束时减少对手1/4最大体力",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 752,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/752/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d98c1cb"
+}

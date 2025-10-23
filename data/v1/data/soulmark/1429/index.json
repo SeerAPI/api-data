@@ -1,0 +1,41 @@
+{
+  "id": 1429,
+  "desc": "自身技能命中后或对手技能命中后均会触发命运之轮，随机获得其中1种命运之轮效果：|己方命运之轮：①随机3项属性+1、②获得200点护盾和200点护罩、③随机恢复200-400点体力值；|敌方命运之轮：①随机3项属性-1、②100%进入失神状态、③随机附加200-400点固定伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身技能命中后会触发命运之轮，随机获得以下1种效果：\r\n<indent=32><sprite=4><indent=48>随机3项属性+1\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>获得</color>200点<b>护盾</b>和200点<b>护罩</b>\r\n<indent=32><sprite=4><indent=48>随机<color=#64F9FA>恢复</color>200-400点<b>体力值</b>\r\n<indent=16><sprite=3><indent=32>对手技能命中后会触发命运之轮，随机获得以下1种效果：\r\n<indent=32><sprite=4><indent=48>随机3项属性-1\r\n<indent=32><sprite=4><indent=48>100%失神\r\n<indent=32><sprite=4><indent=48>随机<color=#64F9FA>附加</color>200-400点<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4210,
+      "url": "https://api.seerapi.com/v1/pet/4210/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 1800,
+      "url": "https://api.seerapi.com/v1/eid_effect/1800/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7130af37"
+}

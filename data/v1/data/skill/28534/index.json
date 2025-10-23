@@ -1,0 +1,79 @@
+{
+  "id": 28534,
+  "name": "敕界归元",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹受到的异常状态了；令对手害怕；对对手的技能施加了限制",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "命中后100%使对手害怕，未触发则下1回合攻击有100%概率使对手害怕",
+      "args": [
+        100,
+        6,
+        1,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1035,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1035/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能，则使用攻击技能后的下2回合属性技能命中效果失效",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 1165,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1165/"
+      }
+    },
+    {
+      "info": "3回合内对手使用属性技能后，自身恢复最大体力的1/3并造成等量百分比伤害",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 2099,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2099/"
+      }
+    },
+    {
+      "info": "空元之诗·镀：若对手处于控制类异常状态，则己方免疫下2次受到的异常状态",
+      "args": [],
+      "effect": {
+        "id": 2087,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2087/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8f39e737"
+}

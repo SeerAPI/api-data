@@ -1,0 +1,40 @@
+{
+  "id": 593,
+  "desc": "使用攻击技能后自身下1次攻击技能造成的伤害提高50%；使用属性技能后自身下1次属性技能先制+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3267,
+      "url": "https://api.seerapi.com/v1/pet/3267/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 878,
+      "url": "https://api.seerapi.com/v1/eid_effect/878/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7b2bdba2"
+}

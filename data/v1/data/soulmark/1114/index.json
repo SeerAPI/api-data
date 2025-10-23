@@ -1,0 +1,40 @@
+{
+  "id": 1114,
+  "desc": "攻击命中后有自身已损失体力百分比的概率造成的伤害提升100%，若当回合攻击造成的伤害低于300则附加300点固定伤害且下次攻击命中后有自身已损失体力百分比的概率造成的伤害提升150%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>攻击命中时有自身已损失体力百分比的概率造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=16><sprite=3><indent=32>若攻击造成的伤害低于300则<color=#64F9FA>附加</color>300点<b>固定伤害</b>且下次上述效果改为提升150%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3841,
+      "url": "https://api.seerapi.com/v1/pet/3841/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      300,
+      300,
+      150,
+      1
+    ],
+    "effect": {
+      "id": 1429,
+      "url": "https://api.seerapi.com/v1/eid_effect/1429/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c754da48"
+}

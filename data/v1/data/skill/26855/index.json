@@ -1,0 +1,35 @@
+{
+  "id": 26855,
+  "name": "不灭炎甲",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "下次攻击忽略对手一些防御值",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下次攻击忽略对手双防值的40%",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/886/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cbf5de3"
+}

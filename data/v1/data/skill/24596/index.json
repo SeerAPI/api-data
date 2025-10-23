@@ -1,0 +1,62 @@
+{
+  "id": 24596,
+  "name": "无尽之吼",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都提升了；先出手时，当前回合自己不会受到对手攻击性技能伤害；对手释放技能所消耗的PP翻倍",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，防御",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585/"
+      }
+    },
+    {
+      "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 138,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/138/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fb5d900a"
+}

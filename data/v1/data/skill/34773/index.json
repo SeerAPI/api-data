@@ -1,0 +1,54 @@
+{
+  "id": 34773,
+  "name": "暗龙寂灭袭",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 55,
+    "url": "https://api.seerapi.com/v1/element_type_combination/55/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则50%令对手害怕，未触发则100%令对手中毒",
+      "args": [
+        50,
+        6,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1138,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1138/"
+      }
+    },
+    {
+      "info": "对手处于任意异常状态时造成的伤害将全额恢复体力",
+      "args": [],
+      "effect": {
+        "id": 575,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/575/"
+      }
+    },
+    {
+      "info": "出手时若自身满体力则100%打出致命一击",
+      "args": [],
+      "effect": {
+        "id": 1640,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1640/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9c158b93"
+}

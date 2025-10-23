@@ -1,0 +1,47 @@
+{
+  "id": 1395,
+  "desc": "每个战斗阶段结束时体力低于最大体力的1/3则从下回合起所有攻击技能先制+1，最高可叠加至先制+3（下场后重置）；|若自身先出手则令对手当回合无法通过技能恢复自身体力且受到恢复体力值1/3的固定伤害，若自身后出手则使自身特攻+2、速度+1，当回合受到攻击伤害时额外令对手特防-2、命中-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时体力低于最大体力的1/3则本次在场所有攻击技能<b>先制</b>+1，可叠加至先制+3\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身先出手则令对手当回合<color=#64F9FA>无法通过技能恢复自身体力</color>且受到恢复体力值1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>若自身后出手则使自身特攻+2、速度+1\r\n<indent=32><sprite=4><indent=48>若当回合受到攻击伤害则额外令对手特防-2、命中-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4170,
+      "url": "https://api.seerapi.com/v1/pet/4170/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      3,
+      3,
+      2,
+      1,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1760,
+      "url": "https://api.seerapi.com/v1/eid_effect/1760/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6a34878"
+}

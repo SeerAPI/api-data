@@ -1,0 +1,44 @@
+{
+  "id": 17825,
+  "name": "破岩撞击",
+  "power": 80,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内每回合被攻击所受到的伤害不超过280",
+      "args": [
+        2,
+        280
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果",
+      "args": [],
+      "effect": {
+        "id": 180,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/180/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "48659d1d"
+}

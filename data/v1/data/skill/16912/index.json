@@ -1,0 +1,36 @@
+{
+  "id": 16912,
+  "name": "蚀日惊天啸",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手烧伤，则对对方造成伤害的40%恢复自身体力",
+      "args": [
+        2,
+        40
+      ],
+      "effect": {
+        "id": 687,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/687/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6996257d"
+}

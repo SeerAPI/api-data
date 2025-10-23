@@ -1,0 +1,38 @@
+{
+  "id": 415,
+  "desc": "回合开始时，体力每降低10%则给自己增加60点的护盾，造成的伤害提升10%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3061,
+      "url": "https://api.seerapi.com/v1/pet/3061/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      60,
+      10
+    ],
+    "effect": {
+      "id": 737,
+      "url": "https://api.seerapi.com/v1/eid_effect/737/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "246fd581"
+}

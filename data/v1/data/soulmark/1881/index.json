@@ -1,0 +1,39 @@
+{
+  "id": 1881,
+  "desc": "回合开始时，若自身体力值为奇数，当回合造成的攻击伤害提升50%，若自身体力值为偶数，当回合对手攻击技能附加效果失效|自身使用技能后若未造成攻击伤害则附加对手最大体力1/3的百分比伤害，对手使用技能后若未造成攻击伤害则随机1个技能PP值归0|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力值为奇数，当回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身体力值为偶数，当回合对手<b>攻击技能</b><color=#64F9FA>命中效果失效</color>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后若未造成攻击伤害则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>对手使用技能后若未造成攻击伤害则随机1个技能<b>PP值<color=#64F9FA></b>归0</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4682,
+      "url": "https://api.seerapi.com/v1/pet/4682/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2279,
+      "url": "https://api.seerapi.com/v1/eid_effect/2279/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "242aa242"
+}

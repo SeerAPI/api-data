@@ -1,0 +1,35 @@
+{
+  "id": 15881,
+  "name": "残酷绞杀",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 19,
+    "url": "https://api.seerapi.com/v1/element_type_combination/19/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手已损失生命值15%的百分比伤害 ",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 514,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/514/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "250c39ff"
+}

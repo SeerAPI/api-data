@@ -1,0 +1,41 @@
+{
+  "id": 530,
+  "desc": "当回合自身能力提升状态被消除则战斗阶段结束时为自身附加400护盾；自身护盾被击破时给对手附加400点固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3174,
+      "url": "https://api.seerapi.com/v1/pet/3174/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      400,
+      400,
+      1
+    ],
+    "effect": {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/eid_effect/813/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 505,
+    "url": "https://api.seerapi.com/v1/soulmark/505/"
+  },
+  "hash": "362257ff"
+}

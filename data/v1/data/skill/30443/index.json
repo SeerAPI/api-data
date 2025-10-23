@@ -1,0 +1,54 @@
+{
+  "id": 30443,
+  "name": "同等慈悲",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "下2回合，每回合攻击技能造成的伤害不少于280",
+      "args": [
+        2,
+        280
+      ],
+      "effect": {
+        "id": 871,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/871/"
+      }
+    },
+    {
+      "info": "技能命中后消除自身能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1113,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1113/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5dad7547"
+}

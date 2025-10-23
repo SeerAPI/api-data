@@ -1,0 +1,43 @@
+{
+  "id": 37000,
+  "name": "逆流龙叹",
+  "power": 110,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 120,
+    "url": "https://api.seerapi.com/v1/element_type_combination/120/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%的概率造成的伤害翻倍，若后出手则概率翻倍",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1701,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1701/"
+      }
+    },
+    {
+      "info": "出手时本回合若受到伤害，则将伤害反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 818,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/818/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6b079cc0"
+}

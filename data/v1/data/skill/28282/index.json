@@ -1,0 +1,36 @@
+{
+  "id": 28282,
+  "name": "幽谷之吟",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "一定回合内若对手使用攻击技能则自身攻击开始必定打出致命一击",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手使用攻击技能则自身下2回合必定暴击",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 1585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1585/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b6cb0a84"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 28385,
+  "name": "酥香门第",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；一定回合内对手攻击技能命中前会被吸取一些体力；一定回合内若对手使用属性技能则造成的攻击伤害开始减少",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内免疫所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能则命中前令自身吸取对手最大体力的1/3",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 1269,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1269/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用属性技能，则使用属性技能后的下2回合造成的攻击伤害减少300点",
+      "args": [
+        3,
+        2,
+        300
+      ],
+      "effect": {
+        "id": 1717,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1717/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b1c7d426"
+}

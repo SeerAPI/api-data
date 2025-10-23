@@ -1,0 +1,37 @@
+{
+  "id": 16337,
+  "name": "胧月吟",
+  "power": 85,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合内若对手使用属性技能则100%概率令对手石化",
+      "args": [
+        1,
+        100,
+        9
+      ],
+      "effect": {
+        "id": 469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/469/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9f4e24c4"
+}

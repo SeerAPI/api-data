@@ -1,0 +1,51 @@
+{
+  "id": 36965,
+  "name": "窃语",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则50%令对手焚烬，未触发则50%令对手冰封",
+      "args": [
+        50,
+        22,
+        50,
+        15
+      ],
+      "effect": {
+        "id": 1138,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1138/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则50%令对手失明，未触发则50%令对手失神",
+      "args": [
+        50,
+        20,
+        50,
+        29
+      ],
+      "effect": {
+        "id": 1398,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1398/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6fa8ad50"
+}

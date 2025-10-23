@@ -1,0 +1,42 @@
+{
+  "id": 921,
+  "desc": "自身攻击技能命中前消除对手回合类效果；|若对手先出手则对手技能命中前直至当回合结束后自身免疫异常状态且当回合受到的攻击伤害减少50%；|若自身先出手则自身技能命中前直至当回合结束后自身免疫能力下降状态且当回合造成的攻击伤害提升50%|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3627,
+      "url": "https://api.seerapi.com/v1/pet/3627/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1205,
+      "url": "https://api.seerapi.com/v1/eid_effect/1205/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1e6bf82e"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 33104,
+  "name": "雪落无痕",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 87,
+    "url": "https://api.seerapi.com/v1/element_type_combination/87/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "处在烧伤、中毒、冻伤状态时威力翻倍，命中后解除这些异常状态 ",
+      "args": [],
+      "effect": {
+        "id": 513,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/513/"
+      }
+    },
+    {
+      "info": "使用时若有一方处于冻伤状态，则必定威力翻倍",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 758,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/758/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a24a0fa3"
+}

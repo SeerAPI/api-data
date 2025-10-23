@@ -1,0 +1,37 @@
+{
+  "id": 686,
+  "desc": "自身使用技能后吸取对手能力提升状态，之后将自身相应的能力提升赋予给对手相应的能力下降（技能生效后触发），若未触发效果则{吸取}对手最大{体力}的1/3（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3367,
+      "url": "https://api.seerapi.com/v1/pet/3367/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1
+    ],
+    "effect": {
+      "id": 969,
+      "url": "https://api.seerapi.com/v1/eid_effect/969/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f27b75d3"
+}

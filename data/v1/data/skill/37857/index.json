@@ -1,0 +1,48 @@
+{
+  "id": 37857,
+  "name": "悠悠射线",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+      "args": [
+        0,
+        300
+      ],
+      "effect": {
+        "id": 657,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/657/"
+      }
+    },
+    {
+      "info": "3回合内每回合70%闪避对手攻击，未触发则使对手全属性-1",
+      "args": [
+        3,
+        70,
+        1
+      ],
+      "effect": {
+        "id": 1556,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1556/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "80be37d4"
+}

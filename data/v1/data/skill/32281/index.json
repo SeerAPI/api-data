@@ -1,0 +1,46 @@
+{
+  "id": 32281,
+  "name": "盾牌瞬袭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1012,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1012/"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的1/4，自身体力低于1/2时吸取效果翻倍",
+      "args": [
+        4,
+        2
+      ],
+      "effect": {
+        "id": 977,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/977/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "69bbfa28"
+}

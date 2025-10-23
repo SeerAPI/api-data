@@ -1,0 +1,41 @@
+{
+  "id": 33706,
+  "name": "落花无息",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于护盾状态下先制+1",
+      "args": [],
+      "effect": {
+        "id": 1487,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1487/"
+      }
+    },
+    {
+      "info": "恢复自身n点体力（n=双方当前护盾值总和）",
+      "args": [],
+      "effect": {
+        "id": 1497,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1497/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b5e32b99"
+}

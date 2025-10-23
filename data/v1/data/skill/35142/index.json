@@ -1,0 +1,48 @@
+{
+  "id": 35142,
+  "name": "彩色独轮车",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+      "args": [
+        0,
+        300
+      ],
+      "effect": {
+        "id": 657,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/657/"
+      }
+    },
+    {
+      "info": "附加攻击伤害21%的百分比伤害，每次使用增加10%，最高61%",
+      "args": [
+        21,
+        10,
+        61
+      ],
+      "effect": {
+        "id": 1366,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1366/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e60b755f"
+}

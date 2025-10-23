@@ -1,0 +1,43 @@
+{
+  "id": 713,
+  "desc": "每个战斗阶段结束时恢复200点体力并造成等量固伤；每次使用攻击技能50%令对手麻痹，未触发则附加对手最大体力1/3的固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3397,
+      "url": "https://api.seerapi.com/v1/pet/3397/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 996,
+      "url": "https://api.seerapi.com/v1/eid_effect/996/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e00a2e2f"
+}

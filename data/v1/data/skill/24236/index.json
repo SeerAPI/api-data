@@ -1,0 +1,46 @@
+{
+  "id": 24236,
+  "name": "机械强化",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "若被对方击败，则对手所有能力加强状态消失；随机使对手能力等级降低",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若被对方击败，则对手所有能力加强状态消失",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 197,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/197/"
+      }
+    },
+    {
+      "info": "随机使对手2种能力等级-2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 198,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/198/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e89acf2a"
+}

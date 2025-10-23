@@ -1,0 +1,48 @@
+{
+  "id": 912,
+  "desc": "回合开始时，若对手处于能力提升状态则消除对手能力提升状态并有70%概率使对手焚烬，若对手不处于能力提升状态则自身所有技能先制+1；自身使用攻击技能造成的伤害40%概率提升150%，未触发则对手2回合内无法使用属性技能（boss无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3564,
+      "url": "https://api.seerapi.com/v1/pet/3564/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      1,
+      40,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1151,
+      "url": "https://api.seerapi.com/v1/eid_effect/1151/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 864,
+    "url": "https://api.seerapi.com/v1/soulmark/864/"
+  },
+  "hash": "e414db3e"
+}

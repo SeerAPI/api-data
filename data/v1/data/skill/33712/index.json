@@ -1,0 +1,55 @@
+{
+  "id": 33712,
+  "name": "嘶鸣擎空啸",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 85,
+    "url": "https://api.seerapi.com/v1/element_type_combination/85/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 879,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/879/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则下1回合自身先制+1",
+      "args": [
+        300,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1029,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1029/"
+      }
+    },
+    {
+      "info": "打出致命一击则附加对手最大体力1/4的百分比伤害",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 1356,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1356/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3d5b4829"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 16862,
+  "name": "划空神光",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 18,
+    "url": "https://api.seerapi.com/v1/element_type_combination/18/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，若消除成功则自身防御",
+      "args": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 538,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/538/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8ab54dd4"
+}

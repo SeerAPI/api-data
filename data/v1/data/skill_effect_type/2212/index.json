@@ -1,0 +1,29 @@
+{
+  "id": 2212,
+  "args_num": 3,
+  "info": "{0}回合内对手使用威力不高于{1}的攻击技能时令对手{2}，未触发则抵挡对手当次攻击",
+  "info_formatting_adjustment": "{0}回合内对手<condition>使用威力不高于{1}的攻击技能时</condition>令对手{2}\r\n--><condition>未触发</condition>则抵挡对手当次攻击",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 37509,
+      "url": "https://api.seerapi.com/v1/skill/37509/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "bc2cfc84"
+}

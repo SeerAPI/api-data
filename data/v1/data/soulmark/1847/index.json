@@ -1,0 +1,46 @@
+{
+  "id": 1847,
+  "desc": "每次登场时，若自身为对手天敌则为对手附加3回合的星芳之缠，自身每次使用攻击后附加3回合的星芳之缠|回合开始时，若自身体力高于对手则当回合受到的攻击伤害减少50%，若自身体力低于对手则回合结束后恢复自身最大体力的35%|星芳之缠：造成的攻击伤害额外减少50%；每次受到攻击伤害后拥有者额外受到伤害值50%的百分比伤害，若对手为火系则星芳之缠消失并额外附加伤害值100%的真实伤害|（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时，若自身为对手天敌则为对手附加3回合的<b>星芳之缠</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击后附加3回合的<b>星芳之缠</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>若自身体力高于对手则当回合受到的攻击伤害<color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>若自身体力低于对手则回合结束后<color=#64F9FA>恢复</color>自身最大体力的35%\r\n\r\n<indent=0><sprite=5><indent=15>星芳之缠：\r\n<indent=16><sprite=6><indent=32>造成的攻击伤害额外<color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=6><indent=32>每次受到攻击伤害后拥有者额外受到伤害值50%的百分比伤害\r\n<indent=32><sprite=4><indent=48>若对手为火系，星芳之缠消失，并额外附加伤害值100%的真实伤害",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4647,
+      "url": "https://api.seerapi.com/v1/pet/4647/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      3,
+      50,
+      35,
+      25,
+      50,
+      100
+    ],
+    "effect": {
+      "id": 2235,
+      "url": "https://api.seerapi.com/v1/eid_effect/2235/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "37214bf"
+}

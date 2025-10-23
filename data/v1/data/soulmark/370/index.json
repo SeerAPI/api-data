@@ -1,0 +1,37 @@
+{
+  "id": 370,
+  "desc": "先出手时附加200点固定伤害;后出手恢复200HP体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2991,
+      "url": "https://api.seerapi.com/v1/pet/2991/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      200
+    ],
+    "effect": {
+      "id": 393,
+      "url": "https://api.seerapi.com/v1/eid_effect/393/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6cbc881d"
+}

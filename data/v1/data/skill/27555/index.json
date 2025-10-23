@@ -1,0 +1,67 @@
+{
+  "id": 27555,
+  "name": "天道枷锁",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对手的属性技能开始失效了；对手开始无法提升自身能力；3回合后对对手造成大量固定伤害；自身出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/478/"
+      }
+    },
+    {
+      "info": "3回合对手无法使自身能力出现提升状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 765,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/765/"
+      }
+    },
+    {
+      "info": "3回合后对对手造成500点固定伤害 重复使用无法叠加",
+      "args": [
+        3,
+        500
+      ],
+      "effect": {
+        "id": 571,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/571/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1147fef1"
+}

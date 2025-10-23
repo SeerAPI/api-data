@@ -1,0 +1,45 @@
+{
+  "id": 32686,
+  "name": "灼热冰锥",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 805,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/805/"
+      }
+    },
+    {
+      "info": "附加自身最大体力25%的百分比伤害并恢复等量体力",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 839,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/839/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "23b981ed"
+}

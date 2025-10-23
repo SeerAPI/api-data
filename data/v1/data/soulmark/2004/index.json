@@ -1,0 +1,33 @@
+{
+  "id": 2004,
+  "desc": "自身造成攻击伤害后50%令对手混乱，造成的攻击伤害每有100点概率提升15%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成攻击伤害后50%<color=#64F9FA>令对手混乱</color>，伤害每有100点概率提升15%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4813,
+      "url": "https://api.seerapi.com/v1/pet/4813/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2430,
+      "url": "https://api.seerapi.com/v1/eid_effect/2430/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "61277284"
+}

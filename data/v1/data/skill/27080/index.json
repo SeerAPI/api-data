@@ -1,0 +1,56 @@
+{
+  "id": 27080,
+  "name": "彩虹之光",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫能力下降状态了；受到攻击开始令对手能力下降了；攻击开始恢复自身体力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内免疫能力下降状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "3回合内若受到攻击，对手防御等级-1、特防等级-1、命中等级-1",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 157,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/157/"
+      }
+    },
+    {
+      "info": "4回合内自身攻击技能造成伤害的100%会恢复自身体力",
+      "args": [
+        3,
+        100
+      ],
+      "effect": {
+        "id": 417,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/417/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3562fad1"
+}

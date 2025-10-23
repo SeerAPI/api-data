@@ -1,0 +1,43 @@
+{
+  "id": 1465,
+  "desc": "自身每回合都有一定概率闪避对手攻击技能，概率等同于自身当前体力百分比；|当回合对手技能命中则在战斗阶段结束时{吸取}对手200点{体力}，若对手连续命中则额外吸取100点体力，当回合对手技能MISS则令对手防御-2（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身有概率<color=#64F9FA>闪避</color>对手<b>攻击技能</b>，概率等同于自身当前体力百分比\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手技能命中则<color=#64F9FA>吸取</color>对手200点<b>体力</b>，若对手连续命中则额外吸取100点体力\r\n<indent=16><sprite=3><indent=32>若对手技能MISS则令对手防御-2",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4245,
+      "url": "https://api.seerapi.com/v1/pet/4245/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      100,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1832,
+      "url": "https://api.seerapi.com/v1/eid_effect/1832/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "db01cc5f"
+}

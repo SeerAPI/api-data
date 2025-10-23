@@ -1,0 +1,44 @@
+{
+  "id": 18332,
+  "name": "洋流逆转",
+  "power": 95,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果反转成能力下降效果",
+      "args": [],
+      "effect": {
+        "id": 143,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/143/"
+      }
+    },
+    {
+      "info": "下1回合令对手所有技能先制-1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 619,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/619/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8f3e4bce"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 31356,
+  "name": "极天战威决",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 78,
+    "url": "https://api.seerapi.com/v1/element_type_combination/78/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后50%使对手疲惫，未触发则对手下2回合先制-2",
+      "args": [
+        50,
+        7,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 937,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/937/"
+      }
+    },
+    {
+      "info": "自身不处于能力提升状态则造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1152,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1152/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5b2be254"
+}

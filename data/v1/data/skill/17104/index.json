@@ -1,0 +1,46 @@
+{
+  "id": 17104,
+  "name": "黑夜灭魂决",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于能力提升状态时，回合结束时直接减少对手1/5最大体力",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 728,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/728/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "53ba0407"
+}

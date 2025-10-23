@@ -1,0 +1,51 @@
+{
+  "id": 16065,
+  "name": "天尊魔焰拳",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 27,
+    "url": "https://api.seerapi.com/v1/element_type_combination/27/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时，额外附加230点固定伤害",
+      "args": [
+        230
+      ],
+      "effect": {
+        "id": 405,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/405/"
+      }
+    },
+    {
+      "info": "3回合内若受到攻击，则对手命中-1",
+      "args": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "effect": {
+        "id": 477,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/477/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f1c1dbc8"
+}

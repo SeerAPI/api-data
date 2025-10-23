@@ -1,0 +1,47 @@
+{
+  "id": 19985,
+  "name": "玄清影蝶舞",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 74,
+    "url": "https://api.seerapi.com/v1/element_type_combination/74/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不足300则吸取对手最大体力的1/3",
+      "args": [
+        300,
+        3
+      ],
+      "effect": {
+        "id": 947,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/947/"
+      }
+    },
+    {
+      "info": "若造成的伤害大于300点，则自身恢复300点生命值",
+      "args": [
+        300,
+        300
+      ],
+      "effect": {
+        "id": 415,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/415/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e17cfa34"
+}

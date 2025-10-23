@@ -1,0 +1,55 @@
+{
+  "id": 38113,
+  "name": "乍暖雪",
+  "power": 150,
+  "max_pp": 3,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 91,
+    "url": "https://api.seerapi.com/v1/element_type_combination/91/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内对手的能力下降状态无法被解除或反转",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1684,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1684/"
+      }
+    },
+    {
+      "info": "下1回合令对手无法主动切换精灵",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1478/"
+      }
+    },
+    {
+      "info": "若对手处于能力下降状态，则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1438,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1438/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9606165a"
+}

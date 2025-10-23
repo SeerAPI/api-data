@@ -1,0 +1,46 @@
+{
+  "id": 32018,
+  "name": "虎蜂刺",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下1回合令对手使用的攻击技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1055,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1055/"
+      }
+    },
+    {
+      "info": "35%使对手害怕，自身体力低于对手时概率翻倍",
+      "args": [
+        35,
+        6
+      ],
+      "effect": {
+        "id": 1210,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1210/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1fa082fc"
+}

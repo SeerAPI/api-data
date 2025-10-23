@@ -1,0 +1,45 @@
+{
+  "id": 37390,
+  "name": "星光·灵绝击",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力下降状态则造成伤害的100%恢复体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 628,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/628/"
+      }
+    },
+    {
+      "info": "若对手处于能力下降状态则附加300点伤害",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 167,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/167/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "31030020"
+}

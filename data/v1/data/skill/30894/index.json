@@ -1,0 +1,48 @@
+{
+  "id": 30894,
+  "name": "冥之孤傲",
+  "power": 95,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 62,
+    "url": "https://api.seerapi.com/v1/element_type_combination/62/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手全属性-1",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749/"
+      }
+    },
+    {
+      "info": "获得500点护盾，护盾消失时附加300点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+      "args": [
+        500,
+        300,
+        1
+      ],
+      "effect": {
+        "id": 1754,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1754/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1ced13ac"
+}

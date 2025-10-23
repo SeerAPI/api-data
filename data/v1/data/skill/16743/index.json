@@ -1,0 +1,43 @@
+{
+  "id": 16743,
+  "name": "幽暗惊魂击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 494,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/494/"
+      }
+    },
+    {
+      "info": "遇到天敌时附加160点固定伤害",
+      "args": [
+        160
+      ],
+      "effect": {
+        "id": 428,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/428/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "abd08f86"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1995,
+  "desc": "回合结束后，若自身存活于场下且己方在场精灵处于诅咒状态，则将诅咒随机转化为附属诅咒中的一种，转化成功自身下次登场时消除对手回合类效果，消除成功则当回合开始时令对手诅咒|回合开始时，若对手处于异常状态则全属性+1，并根据对手所处异常状态的类型依次触发以下效果|控制类异常状态：当回合自身造成的攻击伤害提升100%|弱化类异常状态：当回合战斗阶段结束时吸取对手最大体力的1/3|附属类异常状态：当回合对手属性技能无效|限制类异常状态：对对方所有场下精灵附加100点真实伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，若自身存活于场下且己方在场精灵处于诅咒状态，则将诅咒随机转化为附属诅咒中的一种\r\n<indent=32><sprite=4><indent=48>转化成功自身下次登场时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>消除成功则当回合开始时<color=#64F9FA>令对手诅咒</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于异常状态则全属性+1，并根据对手所处异常状态的类型依次触发以下效果：\r\n<indent=32><sprite=4><indent=48>控制类异常状态：当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>弱化类异常状态：当回合战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>附属类异常状态：当回合对手<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>限制类异常状态：对对方所有不在场精灵<color=#64F9FA>附加</color>100点<b>真实伤害</b>，造成致命伤害时<color=#64F9FA>保留</color>其1点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4805,
+      "url": "https://api.seerapi.com/v1/pet/4805/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2420,
+      "url": "https://api.seerapi.com/v1/eid_effect/2420/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cf354aab"
+}

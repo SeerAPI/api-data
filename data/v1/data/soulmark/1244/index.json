@@ -1,0 +1,44 @@
+{
+  "id": 1244,
+  "desc": "奇数回合，使用属性技能则50%使自身下回合攻击威力翻倍，未触发则附加对手最大体力1/3的固定伤害；偶数回合，使用攻击技能则50%使自身下回合闪避受到的攻击，未触发则恢复自身最大体力1/3的体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>奇数回合中自身使用属性技能则50%使自身下回合攻击<b>威力</b><color=#64F9FA>翻倍</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>偶数回合中自身使用攻击技能则50%使自身下回合<color=#64F9FA>闪避</color>受到的<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>恢复</color>自身最大体力1/3的<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3980,
+      "url": "https://api.seerapi.com/v1/pet/3980/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1580,
+      "url": "https://api.seerapi.com/v1/eid_effect/1580/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "99f13bbf"
+}

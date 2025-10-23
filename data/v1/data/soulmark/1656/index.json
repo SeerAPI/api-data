@@ -1,0 +1,40 @@
+{
+  "id": 1656,
+  "desc": "奥雷莫德在战斗中会召唤天雷银椋助战，每个战斗阶段结束时若当回合自身造成或受到的攻击伤害高于300则天雷银椋升级（天雷银椋初始为1级，最高可升至3级，下场后保留等级，boss无效）|1级天雷银椋：自身受到的攻击伤害低于300则100%令对手麻痹；自身造成的攻击伤害低于300则100%令对手害怕|2级天雷银椋：对手使用攻击技能后，自身受到的攻击伤害低于300则100%令对手麻痹；自身使用攻击技能后，造成的攻击伤害低于300则100%令对手害怕|3级天雷银椋：对手使用攻击技能后，自身受到的攻击伤害低于400则100%令对手麻痹；自身使用攻击技能后，造成的攻击伤害低于400则100%令对手害怕",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身首次登场后开启<b>银雷椋翼</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若当回合自身造成或受到的攻击伤害高于300则升级银雷椋翼\r\n\r\n<indent=0><sprite=5><indent=15>银雷椋翼（上限3级，下场保留）：\r\n<indent=16><sprite=6><indent=32>初始为1级，满足特定的条件可以升级\r\n<indent=16><sprite=6><indent=32>根据当前的等级，触发<color=#64F9FA>对应</color>的效果：\r\n<indent=32><sprite=4><indent=48>1级：自身受到的攻击伤害低于300则100%<color=#64F9FA>令对手麻痹</color>；自身造成的攻击伤害低于300则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>2级：对手使用攻击技能后，自身受到的攻击伤害低于300则100%<color=#64F9FA>令对手麻痹</color>；自身使用攻击技能后，造成的攻击伤害低于300则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>3级：对手使用攻击技能后，自身受到的攻击伤害低于400则100%<color=#64F9FA>令对手麻痹</color>；自身使用攻击技能后，造成的攻击伤害低于400则100%<color=#64F9FA>令对手害怕</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4438,
+      "url": "https://api.seerapi.com/v1/pet/4438/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      3,
+      300,
+      400,
+      1
+    ],
+    "effect": {
+      "id": 2038,
+      "url": "https://api.seerapi.com/v1/eid_effect/2038/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ad738013"
+}

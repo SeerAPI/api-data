@@ -1,0 +1,45 @@
+{
+  "id": 34268,
+  "name": "弱点暗杀",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功后恢复250点体力",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 548,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/548/"
+      }
+    },
+    {
+      "info": "若对手体力不足250则直接秒杀",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2aacd2"
+}

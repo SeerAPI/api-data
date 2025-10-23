@@ -1,0 +1,45 @@
+{
+  "id": 36043,
+  "name": "潮游太空",
+  "power": 60,
+  "max_pp": 25,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": "旅船潮游太空，对手似乎有种异样的变化",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内对手无法通过自身技能恢复体力",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 679,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/679/"
+      }
+    },
+    {
+      "info": "下5回合对手使用体力药剂时效果变成减少相应的体力",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/69/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b85b288f"
+}

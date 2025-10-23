@@ -1,0 +1,33 @@
+{
+  "id": 2250,
+  "args_num": 3,
+  "info": "平均自身的能力等级，然后自身每减少了1项能力的等级附加{0}点真实伤害，每增加了1项能力的等级令对手下{1}次攻击造成的伤害减少{2}%",
+  "info_formatting_adjustment": "平均自身的能力等级，然后\r\n-->自身<condition>每减少了1项能力的等级</condition>附加{0}点真实伤害\r\n-->自身<condition>每增加了1项能力的等级</condition>令对手下{1}次攻击造成的攻击伤害减少{2}%",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 28,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/28/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 37748,
+      "url": "https://api.seerapi.com/v1/skill/37748/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 46009,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/46009/"
+    }
+  ],
+  "hash": "d2e03c90"
+}

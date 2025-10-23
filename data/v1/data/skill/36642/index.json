@@ -1,0 +1,36 @@
+{
+  "id": 36642,
+  "name": "上客请留步",
+  "power": 160,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身同时不存在回合类效果与能力提升状态则100%随机附加1种控制类异常状态",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1851,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1851/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "397ec885"
+}

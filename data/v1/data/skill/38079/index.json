@@ -1,0 +1,66 @@
+{
+  "id": 38079,
+  "name": "撬动世界",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于异常状态时，克制倍数取自身对对手、对手对自身克制倍数中的最大值",
+      "args": [],
+      "effect": {
+        "id": 2205,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2205/"
+      }
+    },
+    {
+      "info": "攻击时将对手的能力提升状态视为相应的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1767,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1767/"
+      }
+    },
+    {
+      "info": "消除敌我双方能力提升状态和回合类效果，消除任意一项成功则吸取对手最大体力的1/3且100%令对手害怕",
+      "args": [
+        3,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1688,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1688/"
+      }
+    },
+    {
+      "info": "100%令对手流血，未触发则2回合内自身造成的攻击伤害额外提升100%",
+      "args": [
+        100,
+        16,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1111,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1111/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "79f6eee5"
+}

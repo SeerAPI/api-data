@@ -1,0 +1,47 @@
+{
+  "id": 1947,
+  "desc": "自身登场的当回合战斗阶段结束时触发一次入梦，之后每间隔3回合战斗阶段结束时额外进行一次入梦：50%令对手睡眠，触发成功则自身下1次使用攻击技能时消除对手能力提升状态效果，下1次使用属性技能时消除对手回合类效果，免疫下1次受到的异常状态，未触发则本次在场此效果的触发间隔减少1回合，并将首条未修改过的触发成功效果修改为每回合开始触发|自身的入梦间隔为0回合时，自身使用技能不受PP值限制且无视攻击免疫效果|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场的当回合战斗阶段结束时触发一次入梦，之后每间隔3回合战斗阶段结束时额外进行一次入梦：50%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>触发成功则自身：\r\n<indent=32><sprite=4><sprite=4><indent=64>下1次使用攻击技能时<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>下1次使用属性技能时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><sprite=4><indent=64><color=#64F9FA>免疫</color>下1次受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则自身本次在场：\r\n<indent=32><sprite=4><sprite=4><indent=64>入梦的触发间隔减少1回合\r\n<indent=32><sprite=4><sprite=4><indent=64>将入梦首条未修改过的触发成功效果修改为每回合开始触发\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身的入梦间隔为0回合后，自身技能<color=#64F9FA>不受PP值限制</color>且<color=#64F9FA>无视攻击免疫效果</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4744,
+      "url": "https://api.seerapi.com/v1/pet/4744/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      50,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "effect": {
+      "id": 2360,
+      "url": "https://api.seerapi.com/v1/eid_effect/2360/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b43411cc"
+}

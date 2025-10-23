@@ -1,0 +1,58 @@
+{
+  "id": 38059,
+  "name": "旧迹觅遗枝",
+  "power": 15,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1次受到的攻击伤害减少300点",
+      "args": [
+        1,
+        300
+      ],
+      "effect": {
+        "id": 1681,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1681/"
+      }
+    },
+    {
+      "info": "1回合做10次攻击，自身每有1项技能PP值不为满则连击次数+1",
+      "args": [
+        10,
+        1
+      ],
+      "effect": {
+        "id": 1863,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1863/"
+      }
+    },
+    {
+      "info": "若造成的伤害低于300，则所有技能的PP值恢复1点",
+      "args": [
+        300,
+        1
+      ],
+      "effect": {
+        "id": 134,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/134/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "33ef8b8f"
+}

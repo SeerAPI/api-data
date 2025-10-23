@@ -1,0 +1,57 @@
+{
+  "id": 37422,
+  "name": "本征回返",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 72,
+    "url": "https://api.seerapi.com/v1/element_type_combination/72/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令自身凝滞",
+      "args": [
+        100,
+        32
+      ],
+      "effect": {
+        "id": 2196,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2196/"
+      }
+    },
+    {
+      "info": "令自身体力等于最大体力的50%，若自身当前体力高于最大体力的50%则回合结束后额外触发一次该效果",
+      "args": [
+        50,
+        50
+      ],
+      "effect": {
+        "id": 1909,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1909/"
+      }
+    },
+    {
+      "info": "2回合内自身的能力提升状态无法被消除或吸取",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1683,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1683/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "624a4905"
+}

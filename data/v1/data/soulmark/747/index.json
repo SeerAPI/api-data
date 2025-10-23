@@ -1,0 +1,36 @@
+{
+  "id": 747,
+  "desc": "登场后自身下2次攻击造成的伤害提高150%，之后自身攻击造成的伤害低于300则使自身下1次攻击造成的伤害提高50%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3435,
+      "url": "https://api.seerapi.com/v1/pet/3435/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      150,
+      300,
+      1,
+      50
+    ],
+    "effect": {
+      "id": 1033,
+      "url": "https://api.seerapi.com/v1/eid_effect/1033/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "845be693"
+}

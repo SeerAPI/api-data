@@ -1,0 +1,68 @@
+{
+  "id": 59,
+  "args_num": 2,
+  "info": "消耗自身全部体力(体力降到0)，使下一只出战精灵的{0}和{1}能力提升1个等级",
+  "info_formatting_adjustment": "消耗自身全部体力(体力降到0)\r\n使下一只出战精灵的{0}和{1}能力提升1个等级",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    },
+    {
+      "position": 1,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 20175,
+      "url": "https://api.seerapi.com/v1/skill/20175/"
+    },
+    {
+      "id": 20264,
+      "url": "https://api.seerapi.com/v1/skill/20264/"
+    },
+    {
+      "id": 20330,
+      "url": "https://api.seerapi.com/v1/skill/20330/"
+    },
+    {
+      "id": 20522,
+      "url": "https://api.seerapi.com/v1/skill/20522/"
+    },
+    {
+      "id": 20626,
+      "url": "https://api.seerapi.com/v1/skill/20626/"
+    },
+    {
+      "id": 20670,
+      "url": "https://api.seerapi.com/v1/skill/20670/"
+    },
+    {
+      "id": 20720,
+      "url": "https://api.seerapi.com/v1/skill/20720/"
+    },
+    {
+      "id": 20749,
+      "url": "https://api.seerapi.com/v1/skill/20749/"
+    },
+    {
+      "id": 22558,
+      "url": "https://api.seerapi.com/v1/skill/22558/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "c917f80f"
+}

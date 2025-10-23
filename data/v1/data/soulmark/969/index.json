@@ -1,0 +1,44 @@
+{
+  "id": 969,
+  "desc": "自身特殊攻击必定命中且造成伤害的50%恢复自身体力；|自身先出手时造成的攻击伤害提升50%，自身体力低于对手时提升效果翻倍；|对手出手前若自身体力低于对手则自身额外全属性+1；|对手先出手时立即附加对手最大体力1/3的百分比伤害（若附加伤害后对手体力为0，则消除对手回合类效果同时令对手当回合无法使用技能）|（特殊攻击必定命中boss有效，其他效果boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3686,
+      "url": "https://api.seerapi.com/v1/pet/3686/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1265,
+      "url": "https://api.seerapi.com/v1/eid_effect/1265/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b69559d0"
+}

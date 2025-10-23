@@ -1,0 +1,39 @@
+{
+  "id": 1100,
+  "desc": "自身攻击技能命中对手后或对手攻击技能命中自身后，都有50%的概率令对手害怕，未触发则50%的概率令对手冰封；战斗阶段结束时若对手同时处于害怕和冰封状态则下回合自身造成的攻击伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中对手后或对手攻击技能命中自身后，都有50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>任意一项未触发则50%<color=#64F9FA>令对手冰封</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若对手同时处于害怕和冰封状态则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3825,
+      "url": "https://api.seerapi.com/v1/pet/3825/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1411,
+      "url": "https://api.seerapi.com/v1/eid_effect/1411/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5e7d03fb"
+}

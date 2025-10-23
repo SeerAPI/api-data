@@ -1,0 +1,37 @@
+{
+  "id": 36402,
+  "name": "水晶之褶",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%使对手睡眠，自身每处于一种能力提升状态则概率提高10%",
+      "args": [
+        50,
+        8,
+        10
+      ],
+      "effect": {
+        "id": 982,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/982/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "94c7d95a"
+}

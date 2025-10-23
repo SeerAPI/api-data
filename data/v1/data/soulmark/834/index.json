@@ -1,0 +1,43 @@
+{
+  "id": 834,
+  "desc": "自身使用属性技能时先制+1，自身使用攻击技能则战斗阶段结束时自身速度+1同时附加自身速度值50%的固定伤害；先出手时随机获得下列三种效果之一：恢复自身全部体力、本次出手造成的伤害翻倍、免疫下1次受到的攻击（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3525,
+      "url": "https://api.seerapi.com/v1/pet/3525/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1117,
+      "url": "https://api.seerapi.com/v1/eid_effect/1117/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e474087b"
+}

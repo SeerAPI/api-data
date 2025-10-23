@@ -1,0 +1,46 @@
+{
+  "id": 24545,
+  "name": "风雪掩护",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "恢复固定体力，攻击变得更加暴戾了；",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复200点体力",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 466,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/466/"
+      }
+    },
+    {
+      "info": "4回合内每回合都能附加100点固定伤害",
+      "args": [
+        4,
+        100
+      ],
+      "effect": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/60/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b3367fd1"
+}

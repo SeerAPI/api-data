@@ -1,0 +1,61 @@
+{
+  "id": 36806,
+  "name": "破风利矢",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 105,
+    "url": "https://api.seerapi.com/v1/element_type_combination/105/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手双防能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 195,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/195/"
+      }
+    },
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "当回合造成的攻击伤害若高于300则100%令对手害怕",
+      "args": [
+        300,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1106,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1106/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "90c416ec"
+}

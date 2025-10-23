@@ -1,0 +1,45 @@
+{
+  "id": 33725,
+  "name": "粒子微波",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将能力下降状态反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 63,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/63/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则自身下2回合攻击有50%使对手麻痹",
+      "args": [
+        2,
+        50,
+        0
+      ],
+      "effect": {
+        "id": 915,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/915/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "470b92ed"
+}

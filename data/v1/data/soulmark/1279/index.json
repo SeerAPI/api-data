@@ -1,0 +1,44 @@
+{
+  "id": 1279,
+  "desc": "每次登场首回合凯瑟琳会积蓄一次爆裂攻击：此次攻击无视伤害限制效果和免疫伤害效果、造成的伤害提升150%且造成伤害值的100%恢复自身体力值，之后每经过3回合积蓄一次，当处于爆裂攻击还在积蓄的回合时自身受到的所有伤害（包括固定伤害和百分比伤害）减少25%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场首回合凯瑟琳触发<b>爆裂攻击</b>，然后每逢第3回合都触发爆裂攻击\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>未触发爆裂攻击的回合自身受到的<b>攻击伤害、固定伤害和百分比伤害</b><color=#64F9FA>减少</color>25% \r\n\r\n<indent=0><sprite=5><indent=15>爆裂攻击：\r\n<indent=16><sprite=6><indent=32>使用的攻击技能：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>无视</color><b>伤害限制效果</b>和<b>免疫伤害效果</b>\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>150%\r\n<indent=32><sprite=4><indent=48>造成的攻击伤害100%额外恢复至自身体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4021,
+      "url": "https://api.seerapi.com/v1/pet/4021/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      150,
+      100,
+      3,
+      25,
+      1
+    ],
+    "effect": {
+      "id": 1615,
+      "url": "https://api.seerapi.com/v1/eid_effect/1615/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "edbbde00"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 17900,
+  "name": "残影极电斩",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 35,
+    "url": "https://api.seerapi.com/v1/element_type_combination/35/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 67,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/67/"
+      }
+    },
+    {
+      "info": "造成的伤害不少于280",
+      "args": [
+        280
+      ],
+      "effect": {
+        "id": 447,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/447/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2b0d02a8"
+}

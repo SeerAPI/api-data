@@ -1,0 +1,49 @@
+{
+  "id": 36144,
+  "name": "岁月蹉",
+  "power": 130,
+  "max_pp": 7,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身不处于能力提升状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 1860,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1860/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "自身不处于能力提升状态则造成的伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 1178,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1178/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b2828a4d"
+}

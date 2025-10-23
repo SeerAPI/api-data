@@ -1,0 +1,45 @@
+{
+  "id": 28313,
+  "name": "变幻无穷",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "施展大魔法之术，完全同步了自身与对手的攻击与防御力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合自身的攻击力和对手相同",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 51,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/51/"
+      }
+    },
+    {
+      "info": "5回合自身的防御力和对手相同",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 45,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/45/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d488d3ad"
+}

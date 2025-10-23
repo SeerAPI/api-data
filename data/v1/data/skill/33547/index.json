@@ -1,0 +1,45 @@
+{
+  "id": 33547,
+  "name": "装甲切割",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 75,
+    "url": "https://api.seerapi.com/v1/element_type_combination/75/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1012,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1012/"
+      }
+    },
+    {
+      "info": "附加对手防御值30%的百分比伤害",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 459,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/459/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6b4884bc"
+}

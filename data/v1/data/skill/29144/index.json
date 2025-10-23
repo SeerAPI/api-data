@@ -1,0 +1,69 @@
+{
+  "id": 29144,
+  "name": "征程星火",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；开始吸取对手的体力了；与社会机器展开了斗争；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身背包内每存活1只精灵则50%的概率强化效果翻倍",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1669,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1669/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，恢复体力时若自身体力低于最大体力的1/2则恢复效果翻倍",
+      "args": [
+        4,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 717,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/717/"
+      }
+    },
+    {
+      "info": "将对手的系别变为6系，若对手的系别中带有6系则对手下次使用的技能无效",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 2255,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2255/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "76ab6985"
+}

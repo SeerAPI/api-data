@@ -1,0 +1,44 @@
+{
+  "id": 1500,
+  "desc": "自身造成的攻击伤害大于对手最大体力的1/3则100%令对手麻痹，未触发则附加对手最大体力1/3的固定伤害，自身造成的攻击伤害低于对手最大体力的1/3则下回合自身攻击必定打出致命一击；|自身先出手时对手当回合无法通过自身技能恢复体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于对手最大体力的1/3则100%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于对手最大体力的1/3则下回合自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时对手当回合<color=#64F9FA>无法通过自身技能恢复体力</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4276,
+      "url": "https://api.seerapi.com/v1/pet/4276/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      100,
+      3,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1862,
+      "url": "https://api.seerapi.com/v1/eid_effect/1862/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4e9a5a4"
+}

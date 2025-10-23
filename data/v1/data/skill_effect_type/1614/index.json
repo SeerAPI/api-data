@@ -1,0 +1,53 @@
+{
+  "id": 1614,
+  "args_num": 4,
+  "info": "{0}回合内对手使用攻击技能后{1}%令对手{2}，未触发则令对手全属性-{3}",
+  "info_formatting_adjustment": "{0}回合内<condition>对手使用攻击技能后</condition>{1}%令对手{2}\r\n--><condition>未触发</condition>则令对手全属性-{3}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 27314,
+      "url": "https://api.seerapi.com/v1/skill/27314/"
+    },
+    {
+      "id": 27369,
+      "url": "https://api.seerapi.com/v1/skill/27369/"
+    },
+    {
+      "id": 27716,
+      "url": "https://api.seerapi.com/v1/skill/27716/"
+    },
+    {
+      "id": 28594,
+      "url": "https://api.seerapi.com/v1/skill/28594/"
+    },
+    {
+      "id": 29117,
+      "url": "https://api.seerapi.com/v1/skill/29117/"
+    },
+    {
+      "id": 37731,
+      "url": "https://api.seerapi.com/v1/skill/37731/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 35733,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35733/"
+    }
+  ],
+  "hash": "37ec311b"
+}

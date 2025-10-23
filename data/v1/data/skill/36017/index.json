@@ -1,0 +1,64 @@
+{
+  "id": 36017,
+  "name": "圣剑·至序永生",
+  "power": 160,
+  "max_pp": 3,
+  "accuracy": 95,
+  "crit_rate": 0.3125,
+  "priority": 0,
+  "must_hit": true,
+  "info": "圣剑诛敌之日，至序永生之时！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 117,
+    "url": "https://api.seerapi.com/v1/element_type_combination/117/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则自身2回合内造成的伤害提高100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1183,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1183/"
+      }
+    },
+    {
+      "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和100%的百分比伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1828/"
+      }
+    },
+    {
+      "info": "对手每存在1层处决印记则先出手时技能威力提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1829,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1829/"
+      }
+    },
+    {
+      "info": "圣剑重铸期间若击败对手则解放双方场上所有圣剑，每解放1柄则随机为对方下只出战精灵附加1种异常状态",
+      "args": [],
+      "effect": {
+        "id": 1830,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1830/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6b1942d3"
+}

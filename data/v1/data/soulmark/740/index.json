@@ -1,0 +1,48 @@
+{
+  "id": 740,
+  "desc": "每次攻击造成伤害的50%恢复自身体力，若恢复的体力低于300则下回合自身造成的攻击伤害提升50%同时恢复百分比翻倍；50%使对手的属性技能失效，未触发则下回合100%令对手的属性技能失效（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3425,
+      "url": "https://api.seerapi.com/v1/pet/3425/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      300,
+      50,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1024,
+      "url": "https://api.seerapi.com/v1/eid_effect/1024/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1030,
+    "url": "https://api.seerapi.com/v1/soulmark/1030/"
+  },
+  "from": null,
+  "hash": "235ed33e"
+}

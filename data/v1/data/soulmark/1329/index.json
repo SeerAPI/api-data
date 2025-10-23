@@ -1,0 +1,44 @@
+{
+  "id": 1329,
+  "desc": "回合开始时若自身处于能力提升状态则攻击造成伤害的50%恢复自身体力值，恢复的体力值低于200则为自身附加一个200点的护盾，恢复的体力值高于200则为自身附加一个200点的护罩（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升状态则造成伤害的50%恢复自身体力值\r\n<indent=32><sprite=4><indent=48>恢复的体力值低于200则<color=#64F9FA>获得</color>200点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>恢复的体力值高于200则<color=#64F9FA>获得</color>200点<b>护罩</b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4087,
+      "url": "https://api.seerapi.com/v1/pet/4087/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      200,
+      200,
+      200,
+      200
+    ],
+    "effect": {
+      "id": 1679,
+      "url": "https://api.seerapi.com/v1/eid_effect/1679/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "61c1a9c0"
+}

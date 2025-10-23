@@ -1,0 +1,41 @@
+{
+  "id": 318,
+  "desc": "若我方使用攻击技能，20%的概率令对面进入冰封（boss无效）;|若我方使用属性技能，立即恢复自身1/5最大HP",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2909,
+      "url": "https://api.seerapi.com/v1/pet/2909/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      20,
+      15,
+      1,
+      2,
+      5
+    ],
+    "effect": {
+      "id": 646,
+      "url": "https://api.seerapi.com/v1/eid_effect/646/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5b8f4fcc"
+}

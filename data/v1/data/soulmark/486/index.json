@@ -1,0 +1,35 @@
+{
+  "id": 486,
+  "desc": "使用攻击技能时立刻恢复150点体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3144,
+      "url": "https://api.seerapi.com/v1/pet/3144/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      0,
+      0,
+      1,
+      150
+    ],
+    "effect": {
+      "id": 693,
+      "url": "https://api.seerapi.com/v1/eid_effect/693/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "51958c8a"
+}

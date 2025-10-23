@@ -1,0 +1,35 @@
+{
+  "id": 36999,
+  "name": "释魂咒喻",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 120,
+    "url": "https://api.seerapi.com/v1/element_type_combination/120/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当回合击败对手则下回合开始后随机附加2种异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 826,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/826/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "124f2245"
+}

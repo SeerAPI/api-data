@@ -1,0 +1,39 @@
+{
+  "id": 1913,
+  "desc": "对手使用技能时自身获得等同于对手所有技能威力值之和的护盾与护罩；对手使用技能后，消耗自身的所有护盾、护罩并附加给对手消耗值一半的百分比伤害，若自身没有护盾则本场战斗自身受到的攻击伤害减少10%，若自身没有护罩则本场战斗自身受到的固定伤害、百分比伤害减少10%，减伤效果最多均为30%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能时自身<color=#64F9FA>获得</color>等同于对手所有技能威力值之和的<b>护盾</b>与<b>护罩</b>\r\n<indent=16><sprite=3><indent=32>对手使用技能后，消耗自身的所有护盾、护罩并<color=#64F9FA>附加</color>给对手消耗量一半的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身没有护盾则本场战斗自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>10%，上限为30%\r\n<indent=32><sprite=4><indent=48>若自身没有护罩则本场战斗自身受到的<b>固定伤害、百分比伤害</b><color=#64F9FA>减少</color>10%，上限为30%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4711,
+      "url": "https://api.seerapi.com/v1/pet/4711/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      10,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 2313,
+      "url": "https://api.seerapi.com/v1/eid_effect/2313/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "936165cc"
+}

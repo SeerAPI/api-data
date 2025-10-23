@@ -1,0 +1,44 @@
+{
+  "id": 876,
+  "desc": "自身处于能力提升状态时所有攻击必定打出致命一击（boss有效）；自身攻击技能40%随机附加1-2种异常状态，先出手时概率变为60%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升状态则当回合必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能40%随机附加1~2种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>先出手时概率变为60%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3573,
+      "url": "https://api.seerapi.com/v1/pet/3573/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      1,
+      2,
+      60,
+      1
+    ],
+    "effect": {
+      "id": 1160,
+      "url": "https://api.seerapi.com/v1/eid_effect/1160/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "54db83c0"
+}

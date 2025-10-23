@@ -1,0 +1,46 @@
+{
+  "id": 32591,
+  "name": "仙龙净化",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 805,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/805/"
+      }
+    },
+    {
+      "info": "2回合使对方攻击伤害是正常状态下的1/2倍",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 54,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/54/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6820d043"
+}

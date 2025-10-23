@@ -1,0 +1,68 @@
+{
+  "id": 37873,
+  "name": "孽刃残戕",
+  "power": 90,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 103,
+    "url": "https://api.seerapi.com/v1/element_type_combination/103/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内对手属性技能命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1922,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1922/"
+      }
+    },
+    {
+      "info": "若打出致命一击则对手100%概率害怕",
+      "args": [
+        100,
+        6
+      ],
+      "effect": {
+        "id": 553,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/553/"
+      }
+    },
+    {
+      "info": "吸取对手240点体力，若对手任意1项技能PP值小于4点则吸取效果翻倍",
+      "args": [
+        240,
+        4
+      ],
+      "effect": {
+        "id": 1450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1450/"
+      }
+    },
+    {
+      "info": "3回合内使用技能附加240点固定伤害，若自身体力低于对手则效果翻倍",
+      "args": [
+        3,
+        240
+      ],
+      "effect": {
+        "id": 1154,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1154/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1cb30032"
+}

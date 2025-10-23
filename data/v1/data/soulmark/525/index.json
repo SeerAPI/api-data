@@ -1,0 +1,28 @@
+{
+  "id": 525,
+  "desc": "回合开始时若自身处于异常状态，则战斗阶段结束时对手受到自身已损失HP的2倍伤害（自身被击败的回合仍然生效，生效时若致死则对手保留1点体力，BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3186,
+      "url": "https://api.seerapi.com/v1/pet/3186/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1
+    ],
+    "effect": {
+      "id": 820,
+      "url": "https://api.seerapi.com/v1/eid_effect/820/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1032bc5d"
+}

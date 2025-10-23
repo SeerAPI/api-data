@@ -1,0 +1,33 @@
+{
+  "id": 19142,
+  "name": "无尽责罚",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，消除对手能力提升状态和回合类效果，使己方下只出场精灵下次攻击必定先手、必定命中且造成的伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 873,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/873/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "74d2e71"
+}

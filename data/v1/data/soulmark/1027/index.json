@@ -1,0 +1,40 @@
+{
+  "id": 1027,
+  "desc": "回合开始时，若自身体力高于对手则50%闪避对手攻击技能，若自身体力低于对手则80%闪避对手攻击技能；若对手攻击技能未命中则100%令对手冻伤，未触发则50%令对手冰封（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3750,
+      "url": "https://api.seerapi.com/v1/pet/3750/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      80,
+      100,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1325,
+      "url": "https://api.seerapi.com/v1/eid_effect/1325/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f0ffea7f"
+}

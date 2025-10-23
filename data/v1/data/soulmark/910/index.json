@@ -1,0 +1,37 @@
+{
+  "id": 910,
+  "desc": "回合开始时若自身体力高于最大体力的1/2则攻击技能80％令对手失明，若自身体力低于最大体力的1/2则当回合受到的攻击伤害减少40%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3621,
+      "url": "https://api.seerapi.com/v1/pet/3621/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      80,
+      20,
+      2,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 1199,
+      "url": "https://api.seerapi.com/v1/eid_effect/1199/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "63667f1c"
+}

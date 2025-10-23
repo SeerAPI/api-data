@@ -1,0 +1,46 @@
+{
+  "id": 846,
+  "desc": "自身首次死亡时100%的概率会残留1点体力，同时战斗阶段结束时100%令对手害怕；对手使用属性技能则自身免疫下1次受到的异常状态；对手使用攻击技能则自身有70%的概率闪避对手攻击，若该效果触发则下回合自身攻击造成的伤害提升50%，若该效果未触发则战斗阶段结束时附加自身攻击值50%的百分比伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3539,
+      "url": "https://api.seerapi.com/v1/pet/3539/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      100,
+      1,
+      70,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1129,
+      "url": "https://api.seerapi.com/v1/eid_effect/1129/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "988447dd"
+}

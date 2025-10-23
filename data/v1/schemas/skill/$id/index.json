@@ -1,0 +1,146 @@
+{
+  "$defs": {
+    "ResourceRef": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_SkillCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_SkillHideEffect_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_TypeCombination_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "SkillEffectInUse": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "技能名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "power": {
+      "description": "技能威力",
+      "title": "Power",
+      "type": "integer"
+    },
+    "max_pp": {
+      "description": "技能最大PP",
+      "title": "Max Pp",
+      "type": "integer"
+    },
+    "accuracy": {
+      "description": "技能命中率",
+      "title": "Accuracy",
+      "type": "integer"
+    },
+    "crit_rate": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "技能暴击率, 该技能无法暴击时为null（例如属性技能）",
+      "title": "Crit Rate"
+    },
+    "priority": {
+      "description": "技能优先级",
+      "title": "Priority",
+      "type": "integer"
+    },
+    "must_hit": {
+      "description": "技能是否必定命中",
+      "title": "Must Hit",
+      "type": "boolean"
+    },
+    "info": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "技能描述",
+      "title": "Info"
+    },
+    "category": {
+      "$ref": "#/$defs/ResourceRef_SkillCategory_",
+      "description": "技能分类"
+    },
+    "type": {
+      "$ref": "#/$defs/ResourceRef_TypeCombination_",
+      "description": "技能属性"
+    },
+    "learned_by_pet": {
+      "description": "可学习该技能的精灵列表",
+      "items": {
+        "$ref": "#/$defs/ResourceRef"
+      },
+      "title": "Learned By Pet",
+      "type": "array"
+    },
+    "skill_effect": {
+      "description": "技能效果列表",
+      "items": {
+        "$ref": "#/$defs/SkillEffectInUse"
+      },
+      "title": "Skill Effect",
+      "type": "array"
+    },
+    "friend_skill_effect": {
+      "description": "旧版伙伴系统强化后的技能效果",
+      "items": {
+        "$ref": "#/$defs/SkillEffectInUse"
+      },
+      "title": "Friend Skill Effect",
+      "type": "array"
+    },
+    "hide_effect": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ResourceRef_SkillHideEffect_"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "技能隐藏效果"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "power",
+    "max_pp",
+    "accuracy",
+    "crit_rate",
+    "priority",
+    "must_hit",
+    "category",
+    "type",
+    "hash"
+  ],
+  "title": "Skill",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

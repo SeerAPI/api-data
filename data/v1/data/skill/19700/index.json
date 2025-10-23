@@ -1,0 +1,44 @@
+{
+  "id": 19700,
+  "name": "天魔粉碎",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    },
+    {
+      "info": "随机使自己3项能力+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 626,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/626/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "324fa982"
+}

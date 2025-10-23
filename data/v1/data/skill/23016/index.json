@@ -1,0 +1,49 @@
+{
+  "id": 23016,
+  "name": "破冰邪力",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击、特攻降低了许多",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手攻击等级-2",
+      "args": [
+        0,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手特攻等级-2",
+      "args": [
+        2,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "54c9b7bf"
+}

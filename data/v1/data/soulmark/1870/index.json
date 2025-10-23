@@ -1,0 +1,40 @@
+{
+  "id": 1870,
+  "desc": "自身每次登场时，己方存活精灵每比对方多一只自身获得100点护盾；自身使用攻击技能时，若自身拥有护盾则造成的攻击伤害提升50%，自身每有100点护盾再额外提升10%；自身击败对手时，自身提升等同于护盾值10%的体力上限（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场时，己方存活精灵每比对方多一只自身<color=#64F9FA>获得</color>100点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时，若自身拥有护盾则造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%，自身每有50点护盾再额外提升10%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时，自身<color=#64F9FA>提升</color>等同于护盾值10%的<b>体力上限</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4667,
+      "url": "https://api.seerapi.com/v1/pet/4667/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      50,
+      100,
+      10,
+      1
+    ],
+    "effect": {
+      "id": 2266,
+      "url": "https://api.seerapi.com/v1/eid_effect/2266/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2738a16f"
+}

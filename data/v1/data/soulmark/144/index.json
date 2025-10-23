@@ -1,0 +1,33 @@
+{
+  "id": 144,
+  "desc": "所有攻击技能造成的伤害的30%恢复自身体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2757,
+      "url": "https://api.seerapi.com/v1/pet/2757/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      0
+    ],
+    "effect": {
+      "id": 363,
+      "url": "https://api.seerapi.com/v1/eid_effect/363/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "db5bd568"
+}

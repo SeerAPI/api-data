@@ -1,0 +1,48 @@
+{
+  "id": 36206,
+  "name": "窥渊之眸",
+  "power": 25,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.125,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 51,
+    "url": "https://api.seerapi.com/v1/element_type_combination/51/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1108,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1108/"
+      }
+    },
+    {
+      "info": "随机附加烧伤，冻伤，失明，失神中的1种异常状态，未触发则自身下1回合造成的伤害提升50%",
+      "args": [
+        1,
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1498,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1498/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5f1b5117"
+}

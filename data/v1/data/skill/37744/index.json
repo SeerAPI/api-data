@@ -1,0 +1,56 @@
+{
+  "id": 37744,
+  "name": "矩阵革命",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 118,
+    "url": "https://api.seerapi.com/v1/element_type_combination/118/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1523,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1523/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则自身下1次攻击技能造成的伤害额外提升100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1037,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1037/"
+      }
+    },
+    {
+      "info": "恢复自身其他技能此技能剩余PP值的50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 2248,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2248/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5e498fe6"
+}

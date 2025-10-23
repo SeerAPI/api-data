@@ -1,0 +1,37 @@
+{
+  "id": 1885,
+  "desc": "首次登场时获得等同于自身最大体力值的光辉能量，之后每回合开始时减少自身最大体力20%的能量，若减少前自身拥有的光辉能量高于上回合开始则当回合自身所有技能先制+1且造成的攻击伤害提升50%，若低于上回合开始则当回合自身受到的攻击伤害减少50%|自身使用攻击技能时，附加光辉能量50%的百分比伤害，每回合结束后恢复光辉能量50%的体力，自身拥有的光辉光辉能量高于自身最大体力的50%时，自身免疫受到的异常状态与能力下降状态|（所有效果boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>赛罗首次登场时获得等同于自身最大体力值的<b>光辉能量</b>，之后每回合开始时减少自身最大体力20%的光辉能量\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时，<color=#64F9FA>附加</color>光辉能量50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身拥有的光辉能量高于自身最大体力的50%时，自身<color=#64F9FA>免疫</color>受到的<b>异常状态</b>与<b>能力下降状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>光辉能量50%的的<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若自身拥有的光辉能量高于上回合结束后，则下回合自身所有技能<b>先制</b>+1且造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身拥有的光辉能量低于上回合开始，则下回合自身受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%\r\n\r\n<indent=0><sprite=5><indent=15>光辉能量（上限为自身最大体力）：\r\n<indent=16><sprite=6><indent=32>赛罗奥特曼用以触发额外效果的条件",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4679,
+      "url": "https://api.seerapi.com/v1/pet/4679/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      50
+    ],
+    "effect": {
+      "id": 2271,
+      "url": "https://api.seerapi.com/v1/eid_effect/2271/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6cef3e42"
+}

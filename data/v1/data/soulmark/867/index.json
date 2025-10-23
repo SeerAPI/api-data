@@ -1,0 +1,41 @@
+{
+  "id": 867,
+  "desc": "每次使用攻击技能都会使对手烧伤；自身使用攻击技能时若对手处于烧伤状态则50%使对手焚烬，未触发焚烬则消除对手回合类效果且自身下回合攻击必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3566,
+      "url": "https://api.seerapi.com/v1/pet/3566/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1153,
+      "url": "https://api.seerapi.com/v1/eid_effect/1153/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5a6afa19"
+}

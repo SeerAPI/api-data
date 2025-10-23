@@ -1,0 +1,45 @@
+{
+  "id": 1838,
+  "desc": "回合开始时，若自身处于异常状态则解除所处的异常状态，解除成功则获得最大体力10%的体力上限并全属性+1，每场战斗最多触发4次；自身使用技能后，若自身体力高于对手则附加双方体力差30%的百分比伤害，若自身体力低于对手则随机附加烧伤、冻伤、中毒中的1种异常状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于异常状态则<color=#64F9FA>解除</color>所处的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>解除成功则<color=#64F9FA>获得</color>最大体力10%的<b>体力上限</b>并<color=#64F9FA>全属性+1</color>，每场战斗最多触发4次\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则<color=#64F9FA>附加</color>双方体力差30%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则随机附加烧伤、冻伤、中毒中的1种<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4632,
+      "url": "https://api.seerapi.com/v1/pet/4632/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      1,
+      4,
+      30,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2233,
+      "url": "https://api.seerapi.com/v1/eid_effect/2233/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "de4a5a8"
+}

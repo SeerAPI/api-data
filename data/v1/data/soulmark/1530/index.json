@@ -1,0 +1,43 @@
+{
+  "id": 1530,
+  "desc": "当回合自身受到的攻击伤害高于300则战斗阶段结束时恢复本次伤害量1/2的体力，受到的攻击伤害低于300则战斗阶段结束时附加自身当前体力值1/2的固定伤害（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则战斗阶段结束时<color=#64F9FA>恢复</color>本次伤害量1/2的<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于300则战斗阶段结束时<color=#64F9FA>附加</color>自身当前体力值1/2的<b>固定伤害</b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4307,
+      "url": "https://api.seerapi.com/v1/pet/4307/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      2,
+      300,
+      2
+    ],
+    "effect": {
+      "id": 1893,
+      "url": "https://api.seerapi.com/v1/eid_effect/1893/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "329b438a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 35615,
+  "name": "原初圣印",
+  "power": 100,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 115,
+    "url": "https://api.seerapi.com/v1/element_type_combination/115/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手存在护盾则附加对手护盾值40%的真实伤害",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 1720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1720/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7a2a85d6"
+}

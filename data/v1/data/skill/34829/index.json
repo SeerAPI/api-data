@@ -1,0 +1,43 @@
+{
+  "id": 34829,
+  "name": "燎原火箭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 68,
+    "url": "https://api.seerapi.com/v1/element_type_combination/68/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "双倍反转对手能力提升状态，反转成功则下回合自身所有技能先制+1，反转失败则消除对手能力提升状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 970,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/970/"
+      }
+    },
+    {
+      "info": "先出手时对手当回合属性技能无效",
+      "args": [],
+      "effect": {
+        "id": 980,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/980/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "78b5c517"
+}

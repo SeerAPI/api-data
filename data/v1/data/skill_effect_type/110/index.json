@@ -1,0 +1,33 @@
+{
+  "id": 110,
+  "args_num": 3,
+  "info": "{0}回合内每次躲避攻击都有{1}%概率使自身{2}提升1个等级",
+  "info_formatting_adjustment": null,
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 21009,
+      "url": "https://api.seerapi.com/v1/skill/21009/"
+    },
+    {
+      "id": 22888,
+      "url": "https://api.seerapi.com/v1/skill/22888/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "126291ba"
+}

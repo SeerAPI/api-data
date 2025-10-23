@@ -1,0 +1,54 @@
+{
+  "id": 23436,
+  "name": "真·次元无双",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击变得更加凌厉，下回能更快的出手了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下3回合自身攻击技能必定打出致命一击",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    },
+    {
+      "info": "下1回合自身攻击先制+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/481/"
+      }
+    },
+    {
+      "info": "消除双方能力提升、下降状态",
+      "args": [],
+      "effect": {
+        "id": 533,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/533/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5c546f7b"
+}

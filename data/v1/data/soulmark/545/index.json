@@ -1,0 +1,39 @@
+{
+  "id": 545,
+  "desc": "所有技能100%使对手流血；回合开始时，若对手处于流血状态，则当回合自身先制+1且造成的伤害提高50%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3216,
+      "url": "https://api.seerapi.com/v1/pet/3216/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 838,
+      "url": "https://api.seerapi.com/v1/eid_effect/838/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d730cd22"
+}

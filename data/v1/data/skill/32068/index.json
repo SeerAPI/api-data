@@ -1,0 +1,49 @@
+{
+  "id": 32068,
+  "name": "东风定江陵",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 58,
+    "url": "https://api.seerapi.com/v1/element_type_combination/58/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的攻击伤害高于300则吸取对手最大体力的1/3",
+      "args": [
+        300,
+        3
+      ],
+      "effect": {
+        "id": 1088,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1088/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300时令对手焚烬，未触发则自身下1次攻击造成的伤害额外提升100%",
+      "args": [
+        300,
+        22,
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1256,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1256/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a6e321cc"
+}

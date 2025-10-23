@@ -1,0 +1,43 @@
+{
+  "id": 19694,
+  "name": "幽绿死光",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "附加对手已损失生命值30%的百分比伤害 ",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 514,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/514/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9ee0c376"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 31736,
+  "name": "怒气爆弹",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 27,
+    "url": "https://api.seerapi.com/v1/element_type_combination/27/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加50点固定伤害，每次使用额外附加50点，最高150点，遇到天敌时效果翻倍",
+      "args": [
+        50,
+        50,
+        150
+      ],
+      "effect": {
+        "id": 497,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/497/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "aec3a1b5"
+}

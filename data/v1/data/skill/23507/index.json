@@ -1,0 +1,64 @@
+{
+  "id": 23507,
+  "name": "红月安魂曲",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗异常状态以及能力下降状态的能力提升了，下回合能更快地出手了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/3/"
+      }
+    },
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "下1回合自身攻击先制+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/481/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2007db3d"
+}

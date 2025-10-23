@@ -1,0 +1,35 @@
+{
+  "id": 36046,
+  "name": "尾迹",
+  "power": 15,
+  "max_pp": 15,
+  "accuracy": 70,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%概率令对手增加一层衰弱",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 103,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/103/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7d93df04"
+}

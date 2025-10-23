@@ -1,0 +1,45 @@
+{
+  "id": 31324,
+  "name": "狂刃裂甲",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力上升状态，消除成功下1回合必定先出手",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 777,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/777/"
+      }
+    },
+    {
+      "info": "自身处于能力提升状态时，回合结束时直接减少对手1/4最大体力",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 728,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/728/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c6cace07"
+}

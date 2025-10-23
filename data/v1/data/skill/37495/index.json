@@ -1,0 +1,55 @@
+{
+  "id": 37495,
+  "name": "沉重",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 113,
+    "url": "https://api.seerapi.com/v1/element_type_combination/113/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手正先制等级",
+      "args": [],
+      "effect": {
+        "id": 2142,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2142/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1044,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1044/"
+      }
+    },
+    {
+      "info": "当回合若未击败对手则60%令对手束缚，未触发则令自身全属性+1",
+      "args": [
+        60,
+        28,
+        1
+      ],
+      "effect": {
+        "id": 1040,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1040/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6a4c4114"
+}

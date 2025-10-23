@@ -1,0 +1,60 @@
+{
+  "id": 27269,
+  "name": "暗电之力",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身攻击和速度提升了；自身受到了保护",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身特攻等级+2",
+      "args": [
+        2,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身速度等级+1",
+      "args": [
+        4,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "3回合内每回合被攻击所受到的伤害不超过280",
+      "args": [
+        3,
+        280
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "74db3ee2"
+}

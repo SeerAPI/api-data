@@ -1,0 +1,46 @@
+{
+  "id": 23056,
+  "name": "磐石身躯",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗异常状态的能力提升了，能够抵抗一些伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内免疫所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "2回合内每回合所受的伤害减少100点",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 463,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/463/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "152b62e9"
+}

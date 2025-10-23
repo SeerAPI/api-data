@@ -1,0 +1,46 @@
+{
+  "id": 830,
+  "desc": "首次登场后使对手下1次攻击伤害降低50%且下1回合所有技能先制-2；受到攻击有50%的概率使对手害怕，若未触发回合结束后{吸取}对手最大{体力}的1/3(BOSS无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3517,
+      "url": "https://api.seerapi.com/v1/pet/3517/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      1,
+      2,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1111,
+      "url": "https://api.seerapi.com/v1/eid_effect/1111/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f33784de"
+}

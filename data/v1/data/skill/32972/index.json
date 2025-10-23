@@ -1,0 +1,51 @@
+{
+  "id": 32972,
+  "name": "冻结闪击",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则特攻",
+      "args": [
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "effect": {
+        "id": 901,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/901/"
+      }
+    },
+    {
+      "info": "未击败对手则100%令对手冻伤",
+      "args": [
+        100,
+        5
+      ],
+      "effect": {
+        "id": 719,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/719/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7d2ae83a"
+}

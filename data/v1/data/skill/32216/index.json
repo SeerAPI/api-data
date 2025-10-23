@@ -1,0 +1,43 @@
+{
+  "id": 32216,
+  "name": "娇蛮方块",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不少于300",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 447,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/447/"
+      }
+    },
+    {
+      "info": "将自身相应的能力提升赋予给对手相应的能力下降",
+      "args": [],
+      "effect": {
+        "id": 722,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/722/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bf8adf05"
+}

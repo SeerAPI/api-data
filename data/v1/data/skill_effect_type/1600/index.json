@@ -1,0 +1,68 @@
+{
+  "id": 1600,
+  "args_num": 6,
+  "info": "{0}%令对手{1}，未触发则自身下{2}回合攻击必定致命一击，触发后{3}回合内若对手主动切换精灵则当回合开始后{4}%令对手{5}",
+  "info_formatting_adjustment": "命中后{0}%令对手{1}\r\n--><condition>未触发</condition>则自身下{2}回合攻击必定致命一击\r\n--><condition>触发后</condition>{3}回合内对手主动切换精灵则当回合开始后{4}%令对手{5}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 5,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 27233,
+      "url": "https://api.seerapi.com/v1/skill/27233/"
+    },
+    {
+      "id": 28353,
+      "url": "https://api.seerapi.com/v1/skill/28353/"
+    },
+    {
+      "id": 35892,
+      "url": "https://api.seerapi.com/v1/skill/35892/"
+    },
+    {
+      "id": 36333,
+      "url": "https://api.seerapi.com/v1/skill/36333/"
+    },
+    {
+      "id": 36892,
+      "url": "https://api.seerapi.com/v1/skill/36892/"
+    },
+    {
+      "id": 37292,
+      "url": "https://api.seerapi.com/v1/skill/37292/"
+    },
+    {
+      "id": 37357,
+      "url": "https://api.seerapi.com/v1/skill/37357/"
+    },
+    {
+      "id": 37864,
+      "url": "https://api.seerapi.com/v1/skill/37864/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 8553,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/8553/"
+    }
+  ],
+  "hash": "253de46b"
+}

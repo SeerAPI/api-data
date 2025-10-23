@@ -1,0 +1,25 @@
+{
+  "id": 2167,
+  "args_num": 2,
+  "info": "将对手所有异常状态转化为自身星执所记录的异常状态，若记录的异常状态为控制类则吸取对手最大体力的1/{0}，为非控制类则对手{1}回合内属性技能无效",
+  "info_formatting_adjustment": "将对手所有异常状态转化为自身星执所记录的异常状态，若记录的异常状态：\r\n--><condition>为控制类</condition>则吸取对手最大体力的1/{0}\r\n--><condition>为非控制类</condition>则对手{1}回合内属性技能无效",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 37353,
+      "url": "https://api.seerapi.com/v1/skill/37353/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "f69f08e3"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 32547,
+  "name": "恐怖凝视",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 94,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 96,
+    "url": "https://api.seerapi.com/v1/element_type_combination/96/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 805,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/805/"
+      }
+    },
+    {
+      "info": "40%令对手害怕，每次使用概率增加10%，最高概率80%",
+      "args": [
+        40,
+        6,
+        10,
+        80
+      ],
+      "effect": {
+        "id": 782,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/782/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f3f679a3"
+}

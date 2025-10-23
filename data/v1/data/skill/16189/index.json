@@ -1,0 +1,52 @@
+{
+  "id": 16189,
+  "name": "红颜殒命斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 58,
+    "url": "https://api.seerapi.com/v1/element_type_combination/58/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手是雄性则造成伤害提升20%,若对手不是雄性，则有20%概率使对手害怕",
+      "args": [
+        1,
+        20,
+        20,
+        6
+      ],
+      "effect": {
+        "id": 600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/600/"
+      }
+    }
+  ],
+  "friend_skill_effect": [
+    {
+      "info": "若对手是雄性则造成伤害提升25%,若对手不是雄性，则有25%概率使对手害怕",
+      "args": [
+        1,
+        25,
+        25,
+        6
+      ],
+      "effect": {
+        "id": 600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/600/"
+      }
+    }
+  ],
+  "hide_effect": null,
+  "hash": "1a9ba1b5"
+}

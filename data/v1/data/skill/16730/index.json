@@ -1,0 +1,48 @@
+{
+  "id": 16730,
+  "name": "踏云冲霄破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内受攻击时反弹150点固定伤害",
+      "args": [
+        2,
+        150
+      ],
+      "effect": {
+        "id": 462,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/462/"
+      }
+    },
+    {
+      "info": "后出手时，100%使自身特攻提升1个等级",
+      "args": [
+        2,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 186,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/186/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fabdb81b"
+}

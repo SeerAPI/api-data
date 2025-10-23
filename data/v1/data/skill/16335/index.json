@@ -1,0 +1,38 @@
+{
+  "id": 16335,
+  "name": "斗神岩斩破",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "55%概率使对手2回合内防御能力每回合变化-1",
+      "args": [
+        55,
+        2,
+        1,
+        -1
+      ],
+      "effect": {
+        "id": 643,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/643/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "51b4cc71"
+}

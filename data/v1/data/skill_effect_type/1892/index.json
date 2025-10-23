@@ -1,0 +1,41 @@
+{
+  "id": 1892,
+  "args_num": 4,
+  "info": "{0}回合内每回合使用技能吸取对手{1}点体力，吸取体力时若自身体力低于最大体力的1/{2}则吸取效果翻倍，若对手未受到固定伤害则额外附加{3}点真实伤害",
+  "info_formatting_adjustment": "{0}回合内每回合使用技能吸取对手{1}点体力\r\n-->吸取体力时<condition>若自身体力低于最大体力的1/{2}</condition>则吸取效果翻倍\r\n--><condition>若对手未受到固定伤害</condition>则额外附加{3}点真实伤害",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 28167,
+      "url": "https://api.seerapi.com/v1/skill/28167/"
+    },
+    {
+      "id": 28587,
+      "url": "https://api.seerapi.com/v1/skill/28587/"
+    },
+    {
+      "id": 28599,
+      "url": "https://api.seerapi.com/v1/skill/28599/"
+    },
+    {
+      "id": 28726,
+      "url": "https://api.seerapi.com/v1/skill/28726/"
+    },
+    {
+      "id": 36657,
+      "url": "https://api.seerapi.com/v1/skill/36657/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "553c69f3"
+}

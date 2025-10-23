@@ -1,0 +1,56 @@
+{
+  "id": 28492,
+  "name": "灭视",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对对手施加了魔咒；受到的过高伤害减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合后若对方没有将自己击败，则对方死亡",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 62,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/62/"
+      }
+    },
+    {
+      "info": "5回合内若被对方击败，则对手所有能力加强状态消失",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 197,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/197/"
+      }
+    },
+    {
+      "info": "5回合内每回合被攻击所受到的伤害不超过280",
+      "args": [
+        5,
+        280
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fcc84c6b"
+}

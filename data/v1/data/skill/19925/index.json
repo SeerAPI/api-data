@@ -1,0 +1,35 @@
+{
+  "id": 19925,
+  "name": "幽茫千世决",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "出手时本回合若未受到伤害则对手下1回合属性技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1031,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1031/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3d4a7cea"
+}

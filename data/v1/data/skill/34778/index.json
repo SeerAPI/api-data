@@ -1,0 +1,56 @@
+{
+  "id": 34778,
+  "name": "逆势裂地诀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 96,
+    "url": "https://api.seerapi.com/v1/element_type_combination/96/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "暴击率提升20%，每次使用额外提升20%，最高概率100%",
+      "args": [
+        20,
+        20,
+        100
+      ],
+      "effect": {
+        "id": 696,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/696/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
+      "args": [
+        300,
+        1
+      ],
+      "effect": {
+        "id": 1258,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1258/"
+      }
+    },
+    {
+      "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+      "args": [],
+      "effect": {
+        "id": 709,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/709/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5a3f3639"
+}

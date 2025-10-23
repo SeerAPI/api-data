@@ -1,0 +1,39 @@
+{
+  "id": 1489,
+  "desc": "战斗阶段结束时若对手处于能力提升状态则60%令对手麻痹，若对手不处于能力提升状态则下回合自身攻击技能必定打出致命一击；回合开始时自身每处于1种能力强化状态则造成的攻击伤害提升10%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则60%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则下回合自身攻击技能必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身每处于1种能力提升状态则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4265,
+      "url": "https://api.seerapi.com/v1/pet/4265/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      60,
+      1,
+      10,
+      1
+    ],
+    "effect": {
+      "id": 1853,
+      "url": "https://api.seerapi.com/v1/eid_effect/1853/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b6e6450d"
+}

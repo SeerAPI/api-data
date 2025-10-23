@@ -1,0 +1,54 @@
+{
+  "id": 36558,
+  "name": "海雾宫之扉",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身拥有凯旋预言时先制+1",
+      "args": [],
+      "effect": {
+        "id": 1964,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1964/"
+      }
+    },
+    {
+      "info": "己方每有一只精灵存活则恢复100点体力，每有一只精灵死亡则附加100点固定伤害",
+      "args": [
+        100,
+        100
+      ],
+      "effect": {
+        "id": 1305,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1305/"
+      }
+    },
+    {
+      "info": "己方场下每死亡一只精灵则造成的攻击伤害提升30%",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 1934,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1934/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e092075e"
+}

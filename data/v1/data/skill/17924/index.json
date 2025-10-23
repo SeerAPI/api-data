@@ -1,0 +1,51 @@
+{
+  "id": 17924,
+  "name": "镰华之羽",
+  "power": 80,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合对手防御-1、命中-1",
+      "args": [
+        3,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "effect": {
+        "id": 448,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/448/"
+      }
+    },
+    {
+      "info": "命中后30%令对手睡眠",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 16,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/16/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3ca99132"
+}

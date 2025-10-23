@@ -1,0 +1,47 @@
+{
+  "id": 1324,
+  "desc": "自身使用攻击技能每次造成奇数伤害则本场战斗中造成的攻击伤害提升20%（最高100%）；|自身使用攻击技能后，若造成的攻击伤害低于300则下1次使用的攻击技能必定打出致命一击，若造成的攻击伤害高于300则50%令对手疲惫，未触发则当回合战斗阶段结束时{吸取}对手最大{体力}的1/3|（增伤效果下场后保留，所有特效boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能每造成1次奇数伤害则本场战斗造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%，最高100%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于300则下1次攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300则50%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4081,
+      "url": "https://api.seerapi.com/v1/pet/4081/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      100,
+      300,
+      1,
+      300,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1674,
+      "url": "https://api.seerapi.com/v1/eid_effect/1674/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "76db96bb"
+}

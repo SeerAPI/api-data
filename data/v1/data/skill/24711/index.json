@@ -1,0 +1,46 @@
+{
+  "id": 24711,
+  "name": "熊熊战火",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗能力下降；有概率使对手属性技能失效",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "3回合内50%令对手使用的属性技能无效",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 695,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/695/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f5d852cc"
+}

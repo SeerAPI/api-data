@@ -1,0 +1,46 @@
+{
+  "id": 1855,
+  "desc": "自身每次使用攻击技能后，对手造成的攻击伤害、固定伤害、百分比伤害减少20%直到下场，最多可叠加3次；自身受到的攻击伤害低于300时恢复自身最大体力的1/3，若恢复至满则全属性+1且下次攻击造成的伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击技能后，对手造成的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>减少</color>20%直到下场，最多可叠加3次\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于300时<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若恢复至满则<color=#64F9FA>全属性+1</color>且下次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4653,
+      "url": "https://api.seerapi.com/v1/pet/4653/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      3,
+      300,
+      3,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2251,
+      "url": "https://api.seerapi.com/v1/eid_effect/2251/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4209986f"
+}

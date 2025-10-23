@@ -1,0 +1,44 @@
+{
+  "id": 841,
+  "desc": "首次登场之后2回合内，对手行动结束时若自身体力为0则重置自身的体力值且令对手下1次攻击技能无效、消除对手回合类效果与能力提升状态（boss有效）；自身受到异常状态时50%免疫并反弹给对手，未触发则战斗阶段结束时令对手全属性-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>首次登场之后2回合内，对手行动结束时若自身体力为0则：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>重置</color>自身的体力值且令对手下1次攻击技能<color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>对手<b>回合类效果</b>与<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>50%<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则当回合战斗阶段结束时令对手<color=#64F9FA>全属性-1</color>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3532,
+      "url": "https://api.seerapi.com/v1/pet/3532/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1125,
+      "url": "https://api.seerapi.com/v1/eid_effect/1125/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "68a54304"
+}

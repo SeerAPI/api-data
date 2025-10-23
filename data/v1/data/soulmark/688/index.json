@@ -1,0 +1,40 @@
+{
+  "id": 688,
+  "desc": "在战斗中，攻击和特攻等于其中较高的一项且每次攻击有50%的概率打出致命一击；回合开始时时若对手体力小于1/2则当回合自身攻击技能先制+1且造成的伤害提升50%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3373,
+      "url": "https://api.seerapi.com/v1/pet/3373/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 971,
+      "url": "https://api.seerapi.com/v1/eid_effect/971/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ccab9315"
+}

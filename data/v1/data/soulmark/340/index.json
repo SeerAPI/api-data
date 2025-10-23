@@ -1,0 +1,43 @@
+{
+  "id": 340,
+  "desc": "每次战斗阶段结束时，恢复自身已损失血量的50%（死亡则不恢复）;|首次登场时2回合内若受到致命伤害，则保留1点体力，同时消除对手能力提升和回合类效果(触发一次)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2933,
+      "url": "https://api.seerapi.com/v1/pet/2933/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 658,
+      "url": "https://api.seerapi.com/v1/eid_effect/658/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3bce88d2"
+}

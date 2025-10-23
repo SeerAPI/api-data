@@ -1,0 +1,48 @@
+{
+  "id": 27301,
+  "name": "自愈孢子",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身防御和特防提升了；受到攻击恢复体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内受到攻击100%概率回复200点体力",
+      "args": [
+        3,
+        100,
+        200
+      ],
+      "effect": {
+        "id": 406,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/406/"
+      }
+    },
+    {
+      "info": "3回合内每回合防御和特防等级+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 165,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/165/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "808afea6"
+}

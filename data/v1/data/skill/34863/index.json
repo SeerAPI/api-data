@@ -1,0 +1,47 @@
+{
+  "id": 34863,
+  "name": "圣灵辉芒",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 100,
+    "url": "https://api.seerapi.com/v1/element_type_combination/100/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1012,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1012/"
+      }
+    },
+    {
+      "info": "50%令对手失明，未触发则降低对手所有技能1点PP值",
+      "args": [
+        50,
+        20,
+        1
+      ],
+      "effect": {
+        "id": 1660,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1660/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "daf2d3a7"
+}

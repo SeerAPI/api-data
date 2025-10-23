@@ -1,0 +1,104 @@
+{
+  "$defs": {
+    "ResourceRef_Item_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_SkillStoneCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "SkillEffectInUse": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use/"
+    },
+    "SkillStoneEffect": {
+      "properties": {
+        "prob": {
+          "description": "技能石效果激活概率，0到1之间",
+          "title": "Prob",
+          "type": "number"
+        },
+        "effect": {
+          "description": "技能石效果列表",
+          "items": {
+            "$ref": "#/$defs/SkillEffectInUse"
+          },
+          "title": "Effect",
+          "type": "array"
+        }
+      },
+      "required": [
+        "prob",
+        "effect"
+      ],
+      "title": "SkillStoneEffect",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "技能石ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "技能石名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "rank": {
+      "description": "技能石等级，1到5分别对应D, C, B, A, S",
+      "title": "Rank",
+      "type": "integer"
+    },
+    "power": {
+      "description": "技能石威力",
+      "title": "Power",
+      "type": "integer"
+    },
+    "max_pp": {
+      "description": "技能石最大PP",
+      "title": "Max Pp",
+      "type": "integer"
+    },
+    "accuracy": {
+      "description": "技能石命中率",
+      "title": "Accuracy",
+      "type": "integer"
+    },
+    "category": {
+      "$ref": "#/$defs/ResourceRef_SkillStoneCategory_",
+      "description": "技能石分类"
+    },
+    "item": {
+      "$ref": "#/$defs/ResourceRef_Item_",
+      "description": "技能石物品资源引用"
+    },
+    "effect": {
+      "description": "完美技能石效果列表",
+      "items": {
+        "$ref": "#/$defs/SkillStoneEffect"
+      },
+      "title": "Effect",
+      "type": "array"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "rank",
+    "power",
+    "max_pp",
+    "accuracy",
+    "category",
+    "item",
+    "effect",
+    "hash"
+  ],
+  "title": "SkillStone",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,63 @@
+{
+  "id": 37022,
+  "name": "玄一",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手持有失能时必定命中且无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 2130,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2130/"
+      }
+    },
+    {
+      "info": "自身持有回能时先制+1且附加对手最大体力1/4的百分比伤害",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 2131,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2131/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内对手属性技能命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1922,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1922/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则2回合内对手攻击技能无法造成伤害且命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1776/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c6d7eac6"
+}

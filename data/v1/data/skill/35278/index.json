@@ -1,0 +1,35 @@
+{
+  "id": 35278,
+  "name": "聚灵圆弧",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时使对手随机1个技能PP值归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1222,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1222/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "69508e65"
+}

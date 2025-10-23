@@ -1,0 +1,56 @@
+{
+  "id": 36530,
+  "name": "寒囚凝天刃",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.1875,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 84,
+    "url": "https://api.seerapi.com/v1/element_type_combination/84/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手不处于异常状态则先制+1",
+      "args": [],
+      "effect": {
+        "id": 1956,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1956/"
+      }
+    },
+    {
+      "info": "100%令对手冻伤，未触发则1回合内自身造成的攻击伤害额外提升100%",
+      "args": [
+        100,
+        5,
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1111,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1111/"
+      }
+    },
+    {
+      "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 833,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/833/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1f37cef"
+}

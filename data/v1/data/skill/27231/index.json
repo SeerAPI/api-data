@@ -1,0 +1,59 @@
+{
+  "id": 27231,
+  "name": "粽叶飘香",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始恢复体力了；对手恢复体力效果开始减少了；自身受到攻击则降低对手PP值",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合恢复自身已损失体力的50%",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 762,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/762/"
+      }
+    },
+    {
+      "info": "3回合内对手恢复体力时恢复效果减少50%",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 761,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/761/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击则100%令对手随机1个技能PP值归零",
+      "args": [
+        3,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 780,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/780/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "97d2fa8a"
+}

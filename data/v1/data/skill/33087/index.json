@@ -1,0 +1,55 @@
+{
+  "id": 33087,
+  "name": "挥枪前刺",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": "名闻四海香！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 77,
+    "url": "https://api.seerapi.com/v1/element_type_combination/77/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 928,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/928/"
+      }
+    },
+    {
+      "info": "先出手时造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 986,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/986/"
+      }
+    },
+    {
+      "info": "后出手时下回合受到的伤害降低200点",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 969,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/969/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9c296853"
+}

@@ -1,0 +1,42 @@
+{
+  "id": 1037,
+  "desc": "雄性精灵攻击我方时75%的概率令对手烧伤，未触发则对手随机3项能力值-1；雌性精灵攻击我方时75%的概率令对手失明，未触发则自身随机3项能力值+1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3758,
+      "url": "https://api.seerapi.com/v1/pet/3758/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      75,
+      3,
+      1,
+      75,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1335,
+      "url": "https://api.seerapi.com/v1/eid_effect/1335/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bf211c37"
+}

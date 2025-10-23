@@ -1,0 +1,36 @@
+{
+  "id": 12145,
+  "name": "爆发冲击",
+  "power": 135,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "10%概率额外附加200点固定伤害",
+      "args": [
+        10,
+        200
+      ],
+      "effect": {
+        "id": 93,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/93/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "abcd91ee"
+}

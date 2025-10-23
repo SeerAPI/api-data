@@ -1,0 +1,45 @@
+{
+  "id": 34461,
+  "name": "火羽风息",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 27,
+    "url": "https://api.seerapi.com/v1/element_type_combination/27/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则100%令对手害怕，未触发则恢复自身最大体力的1/3",
+      "args": [
+        100,
+        6,
+        3
+      ],
+      "effect": {
+        "id": 1423,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1423/"
+      }
+    },
+    {
+      "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+      "args": [],
+      "effect": {
+        "id": 1247,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1247/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2ecb99f7"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 1100,
+  "args_num": 3,
+  "info": "{0}回合内若对手使用属性技能则随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态，未触发则下{1}回合造成的伤害提高{2}%",
+  "info_formatting_adjustment": "{0}回合内，<condition>若对手使用属性技能</condition>则随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态\r\n--><condition>未触发</condition>则下{1}回合造成的伤害提升{2}%",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 25296,
+      "url": "https://api.seerapi.com/v1/skill/25296/"
+    },
+    {
+      "id": 28831,
+      "url": "https://api.seerapi.com/v1/skill/28831/"
+    },
+    {
+      "id": 29099,
+      "url": "https://api.seerapi.com/v1/skill/29099/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 18673,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673/"
+    }
+  ],
+  "hash": "ab286337"
+}

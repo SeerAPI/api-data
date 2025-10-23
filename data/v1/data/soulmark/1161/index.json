@@ -1,0 +1,45 @@
+{
+  "id": 1161,
+  "desc": "阿芙每使用一次攻击技能则本场战斗中造成的攻击伤害提高20%且附加固定伤害60点，攻击伤害最高提升100%，固定伤害最高附加300点；自身造成的攻击伤害超过300则下回合内免疫异常状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>阿芙每使用一次攻击技能则本场战斗中造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%且攻击后<color=#64F9FA>附加</color><b>固定伤害</b>60点，攻击伤害最高提升100%，固定伤害最高附加300点\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害超过300则2回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3892,
+      "url": "https://api.seerapi.com/v1/pet/3892/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      60,
+      100,
+      300,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1479,
+      "url": "https://api.seerapi.com/v1/eid_effect/1479/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "17c9d956"
+}

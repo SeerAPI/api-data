@@ -1,0 +1,46 @@
+{
+  "id": 34588,
+  "name": "幽姿独拒霜",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手体力不足200则直接秒杀",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能且出手流程结束后若对手处于能力下降状态则附加给对手200点固定伤害",
+      "args": [
+        3,
+        200
+      ],
+      "effect": {
+        "id": 767,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/767/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b7828270"
+}

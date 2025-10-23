@@ -1,0 +1,66 @@
+{
+  "id": 28050,
+  "name": "冠世莲华",
+  "power": 0,
+  "max_pp": 3,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 3,
+  "must_hit": true,
+  "info": "全属性都提升了；开始吸取对手的体力了；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若当前体力低于对手则先制+1",
+      "args": [],
+      "effect": {
+        "id": 954,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/954/"
+      }
+    },
+    {
+      "info": "全属性+1，先出手时自身强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1283,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1283/"
+      }
+    },
+    {
+      "info": "2回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "args": [
+        2,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 971,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/971/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dc7fab40"
+}

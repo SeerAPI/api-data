@@ -1,0 +1,33 @@
+{
+  "id": 544,
+  "desc": "攻击附加自身已损失体力值60%的固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3219,
+      "url": "https://api.seerapi.com/v1/pet/3219/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      60
+    ],
+    "effect": {
+      "id": 693,
+      "url": "https://api.seerapi.com/v1/eid_effect/693/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7db9f9e0"
+}

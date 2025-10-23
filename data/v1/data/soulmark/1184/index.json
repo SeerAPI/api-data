@@ -1,0 +1,42 @@
+{
+  "id": 1184,
+  "desc": "首次登场首回合攻击技能造成的伤害提升100%；每经过3回合，露希安会获得海洋的庇护：当回合对手使用攻击技能则将受到的攻击伤害转化为自身体力，当回合对手未使用攻击技能则自身下回合攻击技能造成的伤害提升100%（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场首回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每逢第3回合，露希安会获得<b>海洋的庇护</b>\r\n\r\n<indent=0><sprite=5><indent=15>海洋的庇护：\r\n<indent=16><sprite=6><indent=32>当回合对手使用攻击技能则将受到的<b>攻击伤害</b><color=#64F9FA>转化</color>为自身<b>体力</b>\r\n<indent=16><sprite=6><indent=32>当回合对手未使用攻击技能则自身下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3919,
+      "url": "https://api.seerapi.com/v1/pet/3919/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      3,
+      100
+    ],
+    "effect": {
+      "id": 1512,
+      "url": "https://api.seerapi.com/v1/eid_effect/1512/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f753e52e"
+}

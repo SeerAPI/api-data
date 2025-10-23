@@ -1,0 +1,61 @@
+{
+  "id": 1372,
+  "args_num": 3,
+  "info": "{0}回合内对手使用攻击技能则{1}%{2}，未触发则消除对手回合类效果",
+  "info_formatting_adjustment": "{0}回合内<condition>对手使用攻击技能</condition>则{1}%{2}\r\n--><condition>未触发</condition>则消除对手回合类效果",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 26346,
+      "url": "https://api.seerapi.com/v1/skill/26346/"
+    },
+    {
+      "id": 26767,
+      "url": "https://api.seerapi.com/v1/skill/26767/"
+    },
+    {
+      "id": 27203,
+      "url": "https://api.seerapi.com/v1/skill/27203/"
+    },
+    {
+      "id": 27278,
+      "url": "https://api.seerapi.com/v1/skill/27278/"
+    },
+    {
+      "id": 27628,
+      "url": "https://api.seerapi.com/v1/skill/27628/"
+    },
+    {
+      "id": 28565,
+      "url": "https://api.seerapi.com/v1/skill/28565/"
+    },
+    {
+      "id": 29000,
+      "url": "https://api.seerapi.com/v1/skill/29000/"
+    },
+    {
+      "id": 37984,
+      "url": "https://api.seerapi.com/v1/skill/37984/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    }
+  ],
+  "hash": "644a34d8"
+}

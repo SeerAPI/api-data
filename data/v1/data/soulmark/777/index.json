@@ -1,0 +1,40 @@
+{
+  "id": 777,
+  "desc": "[叠加效果]:|回合受到攻击伤害减少35%，之后每回合受到攻击伤害减少量增加15%，最高65%；|[恢复效果]:|攻击造成伤害的50%恢复自身体力，若打出致命一击则造成伤害的100%恢复自身体力",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>受到的<b>攻击伤害</b><color=#64F9FA>额外减少</color>35%\r\n<indent=32><sprite=4><indent=48>每回合额度增加15%，最高65%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>造成的攻击伤害50%恢复至自身体力\r\n<indent=32><sprite=4><indent=48>若攻击打出致命一击，则造成的攻击伤害100%恢复至自身体力",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3460,
+      "url": "https://api.seerapi.com/v1/pet/3460/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      35,
+      15,
+      65,
+      50,
+      100
+    ],
+    "effect": {
+      "id": 1059,
+      "url": "https://api.seerapi.com/v1/eid_effect/1059/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "11a1fbec"
+}

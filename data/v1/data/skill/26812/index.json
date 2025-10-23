@@ -1,0 +1,69 @@
+{
+  "id": 26812,
+  "name": "幻念重压",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；对手使用攻击则害怕，使用属性则PP值减少；对手出招速度变慢了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能则100%使对手害怕",
+      "args": [
+        3,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 663,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/663/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用属性技能则令对手所有技能降低1点PP值",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 861,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/861/"
+      }
+    },
+    {
+      "info": "下2回合令对手所有技能先制-2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 619,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/619/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f0b60711"
+}

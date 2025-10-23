@@ -1,0 +1,59 @@
+{
+  "id": 36350,
+  "name": "幻影龙刺",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.25,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 39,
+    "url": "https://api.seerapi.com/v1/element_type_combination/39/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则自身1回合内造成的伤害提高150%",
+      "args": [
+        1,
+        150
+      ],
+      "effect": {
+        "id": 1183,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1183/"
+      }
+    },
+    {
+      "info": "威力随机，随机范围120-240，连续使用每次威力提升20，最高提升至240",
+      "args": [
+        120,
+        240,
+        20,
+        240
+      ],
+      "effect": {
+        "id": 604,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/604/"
+      }
+    },
+    {
+      "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1356,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1356/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6086b587"
+}

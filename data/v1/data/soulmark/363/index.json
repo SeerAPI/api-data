@@ -1,0 +1,35 @@
+{
+  "id": 363,
+  "desc": "第一战斗阶段结束时吸收对手1/9最大体力,每回合增加1/9的吸收量, 最多吸收1/3最大体力(boss无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2974,
+      "url": "https://api.seerapi.com/v1/pet/2974/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      9,
+      9,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 688,
+      "url": "https://api.seerapi.com/v1/eid_effect/688/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "496344b4"
+}

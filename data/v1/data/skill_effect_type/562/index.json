@@ -1,0 +1,68 @@
+{
+  "id": 562,
+  "args_num": 7,
+  "info": "自身{0}，对手{6}时强化效果翻倍",
+  "info_formatting_adjustment": "自身{0}\r\n--><condition>对手{6}时</condition>强化效果翻倍",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 0,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/0/"
+      }
+    },
+    {
+      "position": 6,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 22961,
+      "url": "https://api.seerapi.com/v1/skill/22961/"
+    },
+    {
+      "id": 23684,
+      "url": "https://api.seerapi.com/v1/skill/23684/"
+    },
+    {
+      "id": 23711,
+      "url": "https://api.seerapi.com/v1/skill/23711/"
+    },
+    {
+      "id": 23762,
+      "url": "https://api.seerapi.com/v1/skill/23762/"
+    },
+    {
+      "id": 23993,
+      "url": "https://api.seerapi.com/v1/skill/23993/"
+    },
+    {
+      "id": 24017,
+      "url": "https://api.seerapi.com/v1/skill/24017/"
+    },
+    {
+      "id": 24246,
+      "url": "https://api.seerapi.com/v1/skill/24246/"
+    },
+    {
+      "id": 24274,
+      "url": "https://api.seerapi.com/v1/skill/24274/"
+    },
+    {
+      "id": 29101,
+      "url": "https://api.seerapi.com/v1/skill/29101/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "8f0f176e"
+}

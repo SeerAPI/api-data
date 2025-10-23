@@ -1,0 +1,51 @@
+{
+  "id": 19720,
+  "name": "月之凌空断",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 31,
+    "url": "https://api.seerapi.com/v1/element_type_combination/31/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 521,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/521/"
+      }
+    },
+    {
+      "info": "先出手的话威力为2倍",
+      "args": [],
+      "effect": {
+        "id": 40,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/40/"
+      }
+    },
+    {
+      "info": "后出手时下回合受到的伤害降低200点",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 969,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/969/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9dc079c4"
+}

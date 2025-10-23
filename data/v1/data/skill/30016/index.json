@@ -1,0 +1,46 @@
+{
+  "id": 30016,
+  "name": "日月归魂光",
+  "power": 0,
+  "max_pp": 2,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手体力不足300则直接秒杀",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    },
+    {
+      "info": "对手体力高于350则将对手体力减少到350",
+      "args": [
+        350,
+        350
+      ],
+      "effect": {
+        "id": 1051,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1051/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "84c402bb"
+}

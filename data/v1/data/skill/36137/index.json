@@ -1,0 +1,44 @@
+{
+  "id": 36137,
+  "name": "天奔四式",
+  "power": 44,
+  "max_pp": 7,
+  "accuracy": 44,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身不处于能力提升状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 1860,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1860/"
+      }
+    },
+    {
+      "info": "体力低于1/4时威力4倍",
+      "args": [
+        4,
+        4
+      ],
+      "effect": {
+        "id": 645,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/645/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "613db2ca"
+}

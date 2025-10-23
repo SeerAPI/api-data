@@ -1,0 +1,47 @@
+{
+  "id": 23902,
+  "name": "领主之力",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "使对手出手变得更慢了；有概率随机降低对手的技能PP",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下2回合令对手所有技能先制-1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 619,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/619/"
+      }
+    },
+    {
+      "info": "60%的概率令对手随机1项技能PP值归零",
+      "args": [
+        60,
+        1
+      ],
+      "effect": {
+        "id": 656,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/656/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5db30dfb"
+}

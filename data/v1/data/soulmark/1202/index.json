@@ -1,0 +1,42 @@
+{
+  "id": 1202,
+  "desc": "回合开始时，若对手处于烧伤状态则当回合对手属性技能失效，若对手处于冻伤状态当回合对手造成的攻击伤害减少50%；自身死亡时，若对手不处于烧伤或冻伤状态则100%令对手随机进入焚烬和冰封其中1种异常状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则当回合对手<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤状态当回合对手造成的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，若对手不处于烧伤或冻伤状态则100%令对手随机<color=#64F9FA>受到</color>焚烬、冰封的其中1种<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3939,
+      "url": "https://api.seerapi.com/v1/pet/3939/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1537,
+      "url": "https://api.seerapi.com/v1/eid_effect/1537/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a1d50ba9"
+}

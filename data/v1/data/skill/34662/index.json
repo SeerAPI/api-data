@@ -1,0 +1,47 @@
+{
+  "id": 34662,
+  "name": "夜怨缠身",
+  "power": 15,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则吸取对手300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1022,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1022/"
+      }
+    },
+    {
+      "info": "1回合做1-10次攻击，若本回合攻击次数达到最大则必定秒杀对手",
+      "args": [
+        1,
+        1,
+        10
+      ],
+      "effect": {
+        "id": 1627,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1627/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2e4812bc"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 34802,
+  "name": "鬼火转轮",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 101,
+    "url": "https://api.seerapi.com/v1/element_type_combination/101/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1220/"
+      }
+    },
+    {
+      "info": "下2回合自身使用攻击技能则附加200点固定伤害",
+      "args": [
+        2,
+        200
+      ],
+      "effect": {
+        "id": 611,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/611/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "19cee179"
+}

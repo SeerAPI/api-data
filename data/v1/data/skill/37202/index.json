@@ -1,0 +1,65 @@
+{
+  "id": 37202,
+  "name": "染魂邪灵锲",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则对手害怕",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 1054,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1054/"
+      }
+    },
+    {
+      "info": "2回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+      "args": [
+        2,
+        3
+      ],
+      "effect": {
+        "id": 1449,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1449/"
+      }
+    },
+    {
+      "info": "下3回合受到致命伤害时残留1点体力",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 1068,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1068/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "22ee1134"
+}

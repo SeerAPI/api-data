@@ -1,0 +1,54 @@
+{
+  "id": 32804,
+  "name": "黑翼腾空闪",
+  "power": 25,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 85,
+    "url": "https://api.seerapi.com/v1/element_type_combination/85/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 494,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/494/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 942,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/942/"
+      }
+    },
+    {
+      "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1108,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1108/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1fc45483"
+}

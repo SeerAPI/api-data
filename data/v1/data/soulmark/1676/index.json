@@ -1,0 +1,39 @@
+{
+  "id": 1676,
+  "desc": "每次对手主动切换下场则对方下只精灵出战时自身恢复所有技能1点PP值；回合结束后若自身未击败对手则下回合攻击技能100%打出致命一击，若自身击败对手则下回合攻击技能造成伤害的100%恢复自身体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手主动切换精灵登场时自身<color=#64F9FA>恢复</color>所有技能1点<b>PP值</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身未击败对手，则下回合自身攻击技能100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>若自身击败对手，则下回合自身攻击技能造成伤害100%恢复自身体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4466,
+      "url": "https://api.seerapi.com/v1/pet/4466/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2059,
+      "url": "https://api.seerapi.com/v1/eid_effect/2059/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bce45f40"
+}

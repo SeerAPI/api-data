@@ -1,0 +1,56 @@
+{
+  "id": 32954,
+  "name": "窒息冥刃",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 93,
+    "url": "https://api.seerapi.com/v1/element_type_combination/93/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1159,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1159/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则吸取对手300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 955,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/955/"
+      }
+    },
+    {
+      "info": "连续使用时威力提升20%，最高提升60%",
+      "args": [
+        20,
+        60
+      ],
+      "effect": {
+        "id": 1443,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1443/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e369ac5a"
+}

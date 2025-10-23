@@ -1,0 +1,41 @@
+{
+  "id": 28778,
+  "name": "滞道销心",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "解除了自身的能力下降状态；消除了自身的能力提升状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/3/"
+      }
+    },
+    {
+      "info": "技能命中后消除自身能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1113,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1113/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c5681b1a"
+}

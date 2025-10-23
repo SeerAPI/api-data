@@ -1,0 +1,66 @@
+{
+  "id": 28025,
+  "name": "殉血铸身",
+  "power": 0,
+  "max_pp": 4,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对手回合类效果被消除了；开始将养分慢慢输送给对方；受到的伤害开始减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1747,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1747/"
+      }
+    },
+    {
+      "info": "100%令自身全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1191/"
+      }
+    },
+    {
+      "info": "100%令对手全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1835,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1835/"
+      }
+    },
+    {
+      "info": "3回合使对方攻击伤害是正常状态下的1/2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 54,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/54/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ef5c22f0"
+}

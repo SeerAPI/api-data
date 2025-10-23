@@ -1,0 +1,47 @@
+{
+  "id": 38081,
+  "name": "罪恶类列",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内对手使用属性技能，则自身下1回合必定暴击",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 718,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/718/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害高于300则吸取对手最大体力的1/3",
+      "args": [
+        300,
+        3
+      ],
+      "effect": {
+        "id": 1088,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1088/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7e25eb6e"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 33704,
+  "name": "利刃毒叶",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下次攻击忽略对手双防值的25%",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/886/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ac5331c0"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 18025,
+  "name": "错落光影斩",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 31,
+    "url": "https://api.seerapi.com/v1/element_type_combination/31/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于麻痹状态则每次攻击造成的伤害都将恢复自身体力",
+      "args": [
+        0
+      ],
+      "effect": {
+        "id": 472,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/472/"
+      }
+    },
+    {
+      "info": "造成的伤害不少于280",
+      "args": [
+        280
+      ],
+      "effect": {
+        "id": 447,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/447/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4f29d861"
+}

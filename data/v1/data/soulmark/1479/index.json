@@ -1,0 +1,44 @@
+{
+  "id": 1479,
+  "desc": "登场时获得深渊祝福：若自身为满体力则当回合免疫受到的异常状态，若未满体力则令对手随机1个技能PP值归零；|自身当回合受到攻击则战斗阶段结束时触发深渊呼唤：吸取对手150点体力，对手每有1个技能PP值为零则额外吸取150点体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时获得深渊祝福：\r\n<indent=32><sprite=4><indent=48>若自身为满体力则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若未满体力则令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若当回合受到了攻击伤害则触发深渊呼唤：<color=#64F9FA>吸取</color>对手150点<b>体力</b>，对手每有1个技能PP值为零则额外吸取150点体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4253,
+      "url": "https://api.seerapi.com/v1/pet/4253/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      150,
+      1,
+      150,
+      1
+    ],
+    "effect": {
+      "id": 1841,
+      "url": "https://api.seerapi.com/v1/eid_effect/1841/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9537769f"
+}

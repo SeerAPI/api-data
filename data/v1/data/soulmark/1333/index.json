@@ -1,0 +1,40 @@
+{
+  "id": 1333,
+  "desc": "自身出手前若体力低于250则立刻进入百步穿杨状态：消耗自身所有技能PP值，令当回合使用的所有技能必定命中且额外消耗对手全部体力（每场战斗仅触发1次）；回合开始时，若对手不处于异常状态则当回合自身攻击技能造成的伤害提升100%；回合开始时，若对手不处于能力提升状态则当回合自身攻击技能命中后额外附加对手最大体力30%的百分比伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身出手时若体力低于250则立刻进入百步穿杨状态：消耗所有技能PP值令当回合使用的技能<color=#64F9FA>必定命中</color>且<color=#64F9FA>秒杀</color>对手\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手不处于异常状态则自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若同时不处于能力提升状态则额外<color=#64F9FA>附加</color>对手最大体力30%的<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4093,
+      "url": "https://api.seerapi.com/v1/pet/4093/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      1,
+      100,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 1684,
+      "url": "https://api.seerapi.com/v1/eid_effect/1684/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "28fcfdb7"
+}

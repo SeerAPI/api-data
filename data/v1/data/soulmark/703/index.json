@@ -1,0 +1,39 @@
+{
+  "id": 703,
+  "desc": "连续2次使用攻击技能时附加250点固定伤害；连续2次使用属性技能时恢复250点固定体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3384,
+      "url": "https://api.seerapi.com/v1/pet/3384/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      250,
+      2,
+      250
+    ],
+    "effect": {
+      "id": 986,
+      "url": "https://api.seerapi.com/v1/eid_effect/986/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "367004b2"
+}

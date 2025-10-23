@@ -1,0 +1,47 @@
+{
+  "id": 30681,
+  "name": "幻宇流光缚",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手全属性-1",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749/"
+      }
+    },
+    {
+      "info": "3回合内若对手恢复体力则自身也恢复等量体力的8/5倍",
+      "args": [
+        3,
+        8
+      ],
+      "effect": {
+        "id": 746,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/746/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "db0d20d9"
+}

@@ -1,0 +1,52 @@
+{
+  "id": 24625,
+  "name": "梦光沉思",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "使对手全属性都降低了；自身特攻，速度，命中提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手全属性-1",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749/"
+      }
+    },
+    {
+      "info": "3回合内每回合特攻+1、速度+1、命中+1",
+      "args": [
+        3,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 433,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/433/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e5b7f63b"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 915,
+  "desc": "回合开始时随机吸取对手2项属性-1；自身每处于1种能力提升状态，则自身造成的攻击伤害提升20%；对手每处于1种能力下降状态，则自身受到的攻击伤害减少10%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3622,
+      "url": "https://api.seerapi.com/v1/pet/3622/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      1,
+      20,
+      1,
+      10,
+      1
+    ],
+    "effect": {
+      "id": 1200,
+      "url": "https://api.seerapi.com/v1/eid_effect/1200/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "83386b96"
+}

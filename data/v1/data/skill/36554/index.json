@@ -1,0 +1,44 @@
+{
+  "id": 36554,
+  "name": "神眷之惠",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1164/"
+      }
+    },
+    {
+      "info": "无视对手能力提升状态，无视成功则100%令对手睡眠",
+      "args": [
+        100,
+        8
+      ],
+      "effect": {
+        "id": 1952,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1952/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ea858de2"
+}

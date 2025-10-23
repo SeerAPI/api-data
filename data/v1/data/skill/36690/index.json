@@ -1,0 +1,64 @@
+{
+  "id": 36690,
+  "name": "激流葬命斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1159,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1159/"
+      }
+    },
+    {
+      "info": "技能威力提升25%，对手任意1项技能PP值小于2点则提升效果翻倍",
+      "args": [
+        25,
+        2
+      ],
+      "effect": {
+        "id": 1857,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1857/"
+      }
+    },
+    {
+      "info": "对方场下每死亡一只精灵则附加给对手100点固定伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1972,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1972/"
+      }
+    },
+    {
+      "info": "击败对手则对方下只出战精灵首回合先制效果失效",
+      "args": [],
+      "effect": {
+        "id": 2017,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2017/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "af603d91"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 2085,
+  "args_num": 7,
+  "info": "命中后自身{0}，若造成的伤害高于{6}则效果翻倍",
+  "info_formatting_adjustment": "命中后自身{0}\r\n--><condition>若造成的伤害高于</condition>{6}则效果翻倍",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 0,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/0/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 36924,
+      "url": "https://api.seerapi.com/v1/skill/36924/"
+    },
+    {
+      "id": 37826,
+      "url": "https://api.seerapi.com/v1/skill/37826/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "667239fe"
+}

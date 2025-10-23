@@ -1,0 +1,35 @@
+{
+  "id": 32902,
+  "name": "次元光束",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 64,
+    "url": "https://api.seerapi.com/v1/element_type_combination/64/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加10%当前体力值的伤害",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 192,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/192/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "88825aaf"
+}

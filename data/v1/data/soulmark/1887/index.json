@@ -1,0 +1,43 @@
+{
+  "id": 1887,
+  "desc": "自身免疫对手的火系攻击，每次免疫成功后，自身下次攻击时附加300点固定伤害，对手使用其他系别的攻击技能时，自身减少所有技能2点PP以消除对手的回合类效果|回合开始时，若对手处于能力下降状态则当回合对手属性技能无效，若对手不处于能力下降状态则当回合自身使用技能后100%令对手烧伤|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身<color=#64F9FA>免疫</color>对手的<b>火系攻击</b>，每次免疫成功后，自身下次攻击时<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用其他系别的攻击技能时，自身<color=#64F9FA>减少</color>所有技能2点<b>PP</b>以<color=#64F9FA>消除</color>对手的<b>回合类效果</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则当回合对手<b>属性技能<color=#64F9FA></b>无效</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力下降状态则当回合自身使用技能后100%<color=#64F9FA>令对手烧伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4684,
+      "url": "https://api.seerapi.com/v1/pet/4684/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      2,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2285,
+      "url": "https://api.seerapi.com/v1/eid_effect/2285/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "55275be1"
+}

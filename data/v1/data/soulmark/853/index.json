@@ -1,0 +1,44 @@
+{
+  "id": 853,
+  "desc": "使用攻击技能后，自身下1次属性技能先制+2；使用属性技能后，自身下1次攻击技能{吸取}对手最大{体力}的1/3；战斗阶段结束时自身体力低于对手则下1次受到的攻击伤害减少50%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3552,
+      "url": "https://api.seerapi.com/v1/pet/3552/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      3,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1138,
+      "url": "https://api.seerapi.com/v1/eid_effect/1138/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6607b486"
+}

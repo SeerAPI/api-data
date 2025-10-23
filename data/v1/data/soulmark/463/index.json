@@ -1,0 +1,37 @@
+{
+  "id": 463,
+  "desc": "伙伴效果:使用攻击技能则对手烧伤，同时使对手双防-1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3060,
+      "url": "https://api.seerapi.com/v1/pet/3060/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 769,
+      "url": "https://api.seerapi.com/v1/eid_effect/769/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 414,
+    "url": "https://api.seerapi.com/v1/soulmark/414/"
+  },
+  "hash": "e1e50aed"
+}

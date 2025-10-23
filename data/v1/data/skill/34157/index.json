@@ -1,0 +1,43 @@
+{
+  "id": 34157,
+  "name": "龙腾飞跃",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "本回合打出致命一击则下1回合其它攻击技能必定致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 731,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/731/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "46ca9089"
+}

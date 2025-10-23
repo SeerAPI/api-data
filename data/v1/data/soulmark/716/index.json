@@ -1,0 +1,39 @@
+{
+  "id": 716,
+  "desc": "首次登场第1回合免疫并反弹异常状态，之后每次登场前2回合免疫异常状态；双方任意一方处于能力提升状态则自身受到攻击伤害减少60%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3402,
+      "url": "https://api.seerapi.com/v1/pet/3402/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      60,
+      1
+    ],
+    "effect": {
+      "id": 999,
+      "url": "https://api.seerapi.com/v1/eid_effect/999/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "327a49f7"
+}

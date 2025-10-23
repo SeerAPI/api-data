@@ -1,0 +1,37 @@
+{
+  "id": 1997,
+  "desc": "每次登场之后自身的首次攻击必定打出致命一击；自身使用攻击技能后吸取对手自身速度值30%的体力，若自身为满体力则自身的速度值提升50点且吸取效果翻倍（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场之后自身的首次攻击必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后<color=#64F9FA>吸取</color>对手自身速度值30%的<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若自身为满体力则自身的速度值提升50点且吸取效果翻倍",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4806,
+      "url": "https://api.seerapi.com/v1/pet/4806/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2422,
+      "url": "https://api.seerapi.com/v1/eid_effect/2422/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1e18bbbc"
+}

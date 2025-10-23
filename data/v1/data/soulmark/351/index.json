@@ -1,0 +1,37 @@
+{
+  "id": 351,
+  "desc": "受到伤害大于400,则本次伤害减少350点且消除对手回合类效果",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2957,
+      "url": "https://api.seerapi.com/v1/pet/2957/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      400,
+      350
+    ],
+    "effect": {
+      "id": 676,
+      "url": "https://api.seerapi.com/v1/eid_effect/676/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f75bd7ab"
+}

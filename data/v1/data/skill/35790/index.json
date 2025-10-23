@@ -1,0 +1,53 @@
+{
+  "id": 35790,
+  "name": "且听尘嚣",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 109,
+    "url": "https://api.seerapi.com/v1/element_type_combination/109/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "若对手不处于异常状态则造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 769,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/769/"
+      }
+    },
+    {
+      "info": "吸取对手200点体力，体力低于对手时吸取效果翻倍",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 894,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/894/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "886b0277"
+}

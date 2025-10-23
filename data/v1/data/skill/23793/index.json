@@ -1,0 +1,64 @@
+{
+  "id": 23793,
+  "name": "无影刀锋阵",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "有一定概率对手的属性技能失效；有一定几率对手的攻击技能miss；自身攻击提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内50%令对手使用的属性技能无效",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 695,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/695/"
+      }
+    },
+    {
+      "info": "3回合内50%的概率使对手物理攻击和特殊攻击Miss",
+      "args": [
+        3,
+        50,
+        2
+      ],
+      "effect": {
+        "id": 654,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/654/"
+      }
+    },
+    {
+      "info": "3回合内每回合攻击+1",
+      "args": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 433,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/433/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fc42cfb9"
+}

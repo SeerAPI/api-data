@@ -1,0 +1,43 @@
+{
+  "id": 30450,
+  "name": "统御三界",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈成功则对手害怕",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 1030,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1030/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cb5a8759"
+}

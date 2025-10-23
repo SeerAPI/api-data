@@ -1,0 +1,36 @@
+{
+  "id": 36819,
+  "name": "碧丝刎月",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 101,
+    "url": "https://api.seerapi.com/v1/element_type_combination/101/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内对手使用属性技能，则自身下2回合必定暴击",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 718,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/718/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "594f3472"
+}

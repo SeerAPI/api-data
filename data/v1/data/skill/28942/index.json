@@ -1,0 +1,70 @@
+{
+  "id": 28942,
+  "name": "宇宙胎动",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；开始吸取对手的体力了；受到的固定伤害减少了；宇宙深处传来了鼓动",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身当前体力高于对手时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 885,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/885/"
+      }
+    },
+    {
+      "info": "消耗自身体力上限的10%，每消耗10点本场战斗自身造成的攻击伤害提升1%",
+      "args": [
+        10,
+        10,
+        1
+      ],
+      "effect": {
+        "id": 2254,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2254/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "args": [
+        4,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 971,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/971/"
+      }
+    },
+    {
+      "info": "3回合内自身受到的固定伤害和百分比伤害减少50%",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 1475,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1475/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4ff0c475"
+}

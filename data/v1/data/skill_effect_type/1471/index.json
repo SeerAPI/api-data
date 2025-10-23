@@ -1,0 +1,73 @@
+{
+  "id": 1471,
+  "args_num": 3,
+  "info": "消除对手能力提升状态，消除成功则{0}%令对手{1}，未触发则恢复自身最大体力的1/{2}",
+  "info_formatting_adjustment": "消除对手能力提升状态\r\n--><condition>消除成功</condition>则{0}%令对手{1}\r\n---><condition>未触发</condition>则恢复自身最大体力的1/{2}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 33325,
+      "url": "https://api.seerapi.com/v1/skill/33325/"
+    },
+    {
+      "id": 33842,
+      "url": "https://api.seerapi.com/v1/skill/33842/"
+    },
+    {
+      "id": 33872,
+      "url": "https://api.seerapi.com/v1/skill/33872/"
+    },
+    {
+      "id": 34813,
+      "url": "https://api.seerapi.com/v1/skill/34813/"
+    },
+    {
+      "id": 35030,
+      "url": "https://api.seerapi.com/v1/skill/35030/"
+    },
+    {
+      "id": 35940,
+      "url": "https://api.seerapi.com/v1/skill/35940/"
+    },
+    {
+      "id": 36295,
+      "url": "https://api.seerapi.com/v1/skill/36295/"
+    },
+    {
+      "id": 36724,
+      "url": "https://api.seerapi.com/v1/skill/36724/"
+    },
+    {
+      "id": 37509,
+      "url": "https://api.seerapi.com/v1/skill/37509/"
+    },
+    {
+      "id": 37762,
+      "url": "https://api.seerapi.com/v1/skill/37762/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 63508,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63508/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    }
+  ],
+  "hash": "58485683"
+}

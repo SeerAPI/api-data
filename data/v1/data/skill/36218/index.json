@@ -1,0 +1,64 @@
+{
+  "id": 36218,
+  "name": "鬼影张牙",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.375,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "连续使用时先制+1",
+      "args": [],
+      "effect": {
+        "id": 1080,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1080/"
+      }
+    },
+    {
+      "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1709,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1709/"
+      }
+    },
+    {
+      "info": "2回合使对方攻击伤害是正常状态下的1/2倍",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 54,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/54/"
+      }
+    },
+    {
+      "info": "未击败对手则自身下3回合免疫并反弹异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1091,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1091/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1888ec79"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 17202,
+  "name": "异魔腐化击",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "附加对手当前体力7%的伤害",
+      "args": [
+        7
+      ],
+      "effect": {
+        "id": 751,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/751/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "790fd683"
+}

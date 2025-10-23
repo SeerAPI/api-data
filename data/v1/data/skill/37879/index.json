@@ -1,0 +1,59 @@
+{
+  "id": 37879,
+  "name": "多彩宏光",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以35的固定伤害",
+      "args": [
+        35
+      ],
+      "effect": {
+        "id": 1209,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1209/"
+      }
+    },
+    {
+      "info": "2回合内使用技能吸取对手最大体力的1/4，自身体力低于1/2时效果翻倍，吸取后若对手体力未减少则2回合内对手无法恢复体力",
+      "args": [
+        2,
+        4,
+        2,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 2093,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2093/"
+      }
+    },
+    {
+      "info": "未击败对手则己方下2次攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "842c0240"
+}

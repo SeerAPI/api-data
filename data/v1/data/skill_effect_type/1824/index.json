@@ -1,0 +1,37 @@
+{
+  "id": 1824,
+  "args_num": 3,
+  "info": "{0}%令对手{1}，未触发则对手每存在1层处决印记自身免疫{2}次受到的异常状态",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则对手每存在1层处决印记自身免疫{2}次受到的异常状态",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 36012,
+      "url": "https://api.seerapi.com/v1/skill/36012/"
+    },
+    {
+      "id": 36016,
+      "url": "https://api.seerapi.com/v1/skill/36016/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 34256,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/34256/"
+    }
+  ],
+  "hash": "1ddd644e"
+}

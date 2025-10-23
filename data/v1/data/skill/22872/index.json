@@ -1,0 +1,97 @@
+{
+  "id": 22872,
+  "name": "饮鸩止渴",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性降低了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手攻击等级-1，若对手处于疲惫状态，则弱化效果翻倍",
+      "args": [
+        0,
+        -1,
+        7
+      ],
+      "effect": {
+        "id": 414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/414/"
+      }
+    },
+    {
+      "info": "对手防御等级-1，若对手处于烧伤状态，则弱化效果翻倍",
+      "args": [
+        1,
+        -1,
+        2
+      ],
+      "effect": {
+        "id": 414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/414/"
+      }
+    },
+    {
+      "info": "对手特攻等级-1，若对手处于麻痹状态，则弱化效果翻倍",
+      "args": [
+        2,
+        -1,
+        0
+      ],
+      "effect": {
+        "id": 414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/414/"
+      }
+    },
+    {
+      "info": "对手特防等级-1，若对手处于害怕状态，则弱化效果翻倍",
+      "args": [
+        3,
+        -1,
+        6
+      ],
+      "effect": {
+        "id": 414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/414/"
+      }
+    },
+    {
+      "info": "对手速度等级-1，若对手处于冻伤状态，则弱化效果翻倍",
+      "args": [
+        4,
+        -1,
+        5
+      ],
+      "effect": {
+        "id": 414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/414/"
+      }
+    },
+    {
+      "info": "对手命中等级-1，若对手处于中毒状态，则弱化效果翻倍",
+      "args": [
+        5,
+        -1,
+        1
+      ],
+      "effect": {
+        "id": 414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/414/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f4c442b9"
+}

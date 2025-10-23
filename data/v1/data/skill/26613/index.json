@@ -1,0 +1,59 @@
+{
+  "id": 26613,
+  "name": "地狱之门",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态；自身受到攻击则令对手害怕；为自身附加一个护盾",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "4回合内受到攻击则100%对手害怕，未触发则消除对手回合类效果",
+      "args": [
+        4,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1200,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1200/"
+      }
+    },
+    {
+      "info": "获得400点护盾，护盾消失时附加200点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+      "args": [
+        400,
+        200,
+        1
+      ],
+      "effect": {
+        "id": 1754,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1754/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e714a16"
+}

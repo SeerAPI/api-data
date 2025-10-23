@@ -1,0 +1,44 @@
+{
+  "id": 1619,
+  "desc": "自身受到攻击后50%令对手害怕、50%令对手烧伤；回合开始时，若对手处于烧伤状态，则当回合自身100%闪避对手的攻击，若对手处于害怕状态，则当回合自身造成的攻击伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后50%<color=#64F9FA>令对手害怕</color>、50%<color=#64F9FA>令对手烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态，则当回合自身100%<color=#64F9FA>闪避</color>对手的<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>若对手处于害怕状态，则当回合自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4402,
+      "url": "https://api.seerapi.com/v1/pet/4402/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2006,
+      "url": "https://api.seerapi.com/v1/eid_effect/2006/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8e798505"
+}

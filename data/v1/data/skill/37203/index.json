@@ -1,0 +1,64 @@
+{
+  "id": 37203,
+  "name": "铭骨之吊唁",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1159,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1159/"
+      }
+    },
+    {
+      "info": "吸取对手300点体力，若对手任意1项技能PP值小于2点则吸取效果翻倍",
+      "args": [
+        300,
+        2
+      ],
+      "effect": {
+        "id": 1450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1450/"
+      }
+    },
+    {
+      "info": "自身处于护盾状态时造成的攻击伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 2100,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2100/"
+      }
+    },
+    {
+      "info": "击败对手则令对手下1次使用的属性技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1827,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1827/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "78f976c"
+}

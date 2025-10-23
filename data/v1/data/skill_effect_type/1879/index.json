@@ -1,0 +1,37 @@
+{
+  "id": 1879,
+  "args_num": 4,
+  "info": "获得{0}点护罩，若自身双防总和高于对手则额外获得{1}点，护罩消失时{2}%令对手{3}",
+  "info_formatting_adjustment": "获得{0}点护罩\r\n--><condition>若自身双防总和高于对手</condition>则额外获得{1}点\r\n--><condition>护罩消失时</condition>{2}%令对手{3}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 36214,
+      "url": "https://api.seerapi.com/v1/skill/36214/"
+    },
+    {
+      "id": 36526,
+      "url": "https://api.seerapi.com/v1/skill/36526/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 61613,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/61613/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "f760b8af"
+}

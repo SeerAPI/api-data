@@ -1,0 +1,56 @@
+{
+  "id": 34807,
+  "name": "湮灭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 4,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 114,
+    "url": "https://api.seerapi.com/v1/element_type_combination/114/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功使对手下回合先制-2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 867,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/867/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则100%随机为对手任意技能散布2枚致命印记",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1642,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1642/"
+      }
+    },
+    {
+      "info": "对手每存在1层致命裂痕则附加100点真实伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1643,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1643/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "149416a4"
+}

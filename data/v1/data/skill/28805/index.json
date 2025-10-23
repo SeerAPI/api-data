@@ -1,0 +1,35 @@
+{
+  "id": 28805,
+  "name": "六手协奏",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "弹响了乐曲",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若上回合自身未受到攻击伤害则附加对手最大体力1/2的百分比伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1801,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1801/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bca43c68"
+}

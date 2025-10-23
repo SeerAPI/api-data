@@ -1,0 +1,49 @@
+{
+  "id": 37377,
+  "name": "星光·粉末击打",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后100%使对手寄生，未触发则附加自身最大体力值1/4的百分比伤害",
+      "args": [
+        100,
+        4,
+        4
+      ],
+      "effect": {
+        "id": 917,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/917/"
+      }
+    },
+    {
+      "info": "命中则100%使对手中毒，未触发则附加200点固定伤害",
+      "args": [
+        100,
+        1,
+        200
+      ],
+      "effect": {
+        "id": 1000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1000/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "97f8c1d9"
+}

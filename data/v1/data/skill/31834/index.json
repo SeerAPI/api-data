@@ -1,0 +1,60 @@
+{
+  "id": 31834,
+  "name": "荒芜狱渊裂",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.375,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "本回合打出致命一击则下1回合其它攻击技能必定致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 731,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/731/"
+      }
+    },
+    {
+      "info": "本回合若没有打出致命一击则特攻",
+      "args": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 732,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/732/"
+      }
+    },
+    {
+      "info": "使自身下2次攻击技能必定触发邪龙之噬",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1330,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1330/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "20a78c88"
+}

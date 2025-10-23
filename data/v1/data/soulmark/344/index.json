@@ -1,0 +1,38 @@
+{
+  "id": 344,
+  "desc": "每次受到攻击的40%转化为自身HP;若对手处于能力提升状态则自身免疫异常状>态;(BOSS无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2944,
+      "url": "https://api.seerapi.com/v1/pet/2944/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 670,
+      "url": "https://api.seerapi.com/v1/eid_effect/670/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1e9d8771"
+}

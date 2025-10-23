@@ -1,0 +1,37 @@
+{
+  "id": 28254,
+  "name": "鬼鬼祟祟",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "对手全属性都下降了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手全属性-1，若对手处于烧伤状态则自身额外全属性+1",
+      "args": [
+        1,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 957,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/957/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ad480c9"
+}

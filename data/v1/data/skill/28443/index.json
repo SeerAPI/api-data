@@ -1,0 +1,47 @@
+{
+  "id": 28443,
+  "name": "林间陷阱",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "对手的能力下降了；开始附加固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手全属性-1",
+      "args": [
+        50,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749/"
+      }
+    },
+    {
+      "info": "3回合内每回合若先出手则吸取对手200点体力",
+      "args": [
+        3,
+        200
+      ],
+      "effect": {
+        "id": 923,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/923/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "30f39b8f"
+}

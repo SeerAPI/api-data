@@ -1,0 +1,80 @@
+{
+  "id": 37459,
+  "name": "千秋虔",
+  "power": 150,
+  "max_pp": 8,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%恢复自身所有PP值4点",
+      "args": [
+        100,
+        4
+      ],
+      "effect": {
+        "id": 1604,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1604/"
+      }
+    },
+    {
+      "info": "解除自身能力下降状态，解除成功则100%令对手臣服",
+      "args": [
+        100,
+        31
+      ],
+      "effect": {
+        "id": 1711,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1711/"
+      }
+    },
+    {
+      "info": "若对手当回合切换精灵则100%令对手臣服，未触发则100%令对手束缚",
+      "args": [
+        100,
+        31,
+        100,
+        28
+      ],
+      "effect": {
+        "id": 1868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1868/"
+      }
+    },
+    {
+      "info": "若击败臣服的对手则对方下只出战精灵臣服",
+      "args": [
+        31
+      ],
+      "effect": {
+        "id": 185,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/185/"
+      }
+    },
+    {
+      "info": "无为：若自身未满体力，则消耗此技能全部PP值以令对手下回合先制-2",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 2190,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2190/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7345592d"
+}

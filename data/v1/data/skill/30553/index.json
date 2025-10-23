@@ -1,0 +1,45 @@
+{
+  "id": 30553,
+  "name": "碎岩怒袭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，若消除成功，则对手石化",
+      "args": [
+        9
+      ],
+      "effect": {
+        "id": 453,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/453/"
+      }
+    },
+    {
+      "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 101,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/101/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "35a1649f"
+}

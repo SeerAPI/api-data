@@ -1,0 +1,45 @@
+{
+  "id": 1380,
+  "desc": "金吉娜熟练运用双枪，自身使用攻击技能则使对手2回合无法通过自身技能恢复体力，自身使用属性技能则对手下2回合受到的伤害提高100%；|击败对手则减少对手下只出场精灵最大体力的1/3且100%令对手烧伤（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>熟练运用双枪的金吉娜\r\n<indent=32><sprite=4><indent=48>使用攻击技能则使对手2回合<color=#64F9FA>无法通过技能恢复体力</color>\r\n<indent=32><sprite=4><indent=48>使用属性技能则对手下2回合受到的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>击败对手则<color=#64F9FA>减少</color>下只出场精灵最大体力的1/3且100%<color=#64F9FA>令其烧伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4153,
+      "url": "https://api.seerapi.com/v1/pet/4153/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2,
+      100,
+      3,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1741,
+      "url": "https://api.seerapi.com/v1/eid_effect/1741/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bd242e39"
+}

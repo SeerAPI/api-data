@@ -1,0 +1,43 @@
+{
+  "id": 37541,
+  "name": "奸奇",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 42,
+    "url": "https://api.seerapi.com/v1/element_type_combination/42/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则吸取对手300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1022,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1022/"
+      }
+    },
+    {
+      "info": "使用后在战斗结束时可以获得500泰坦之灵，每日上限5000",
+      "args": [],
+      "effect": {
+        "id": 1377,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1377/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f0aa990"
+}

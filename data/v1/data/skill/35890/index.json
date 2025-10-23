@@ -1,0 +1,55 @@
+{
+  "id": 35890,
+  "name": "璃·舞倾天下",
+  "power": 99,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "我想时间会给出答案的，临行前让我最后为你跳这一舞吧。",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则己方免疫下2次受到的异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 928,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/928/"
+      }
+    },
+    {
+      "info": "100%令对手束缚，未触发则降低对手所有技能2点PP值",
+      "args": [
+        100,
+        28,
+        2
+      ],
+      "effect": {
+        "id": 1660,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1660/"
+      }
+    },
+    {
+      "info": "若对手为雄性精灵，则未陷入失心迷阵时令对手陷入失心迷阵，陷入失心迷阵时当次攻击不消耗自身PP值；若对手不为雄性精灵，则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 1806,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1806/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1f6c29b2"
+}

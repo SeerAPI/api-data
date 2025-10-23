@@ -1,0 +1,35 @@
+{
+  "id": 12546,
+  "name": "光箭攻击",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不会低于80",
+      "args": [
+        80
+      ],
+      "effect": {
+        "id": 135,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/135/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6fe418b3"
+}

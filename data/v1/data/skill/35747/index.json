@@ -1,0 +1,61 @@
+{
+  "id": 35747,
+  "name": "圣女诛魔舞",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 100,
+    "url": "https://api.seerapi.com/v1/element_type_combination/100/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "双倍反转自身能力下降状态，反转成功则获得300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1038,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1038/"
+      }
+    },
+    {
+      "info": "消耗自身所有护盾值，造成等量固定伤害",
+      "args": [],
+      "effect": {
+        "id": 1017,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1017/"
+      }
+    },
+    {
+      "info": "未击败对手则自身下3回合免疫并反弹异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1091,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1091/"
+      }
+    },
+    {
+      "info": "当回合击败对手则恢复自身所有技能PP值",
+      "args": [],
+      "effect": {
+        "id": 1286,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1286/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1b96f204"
+}

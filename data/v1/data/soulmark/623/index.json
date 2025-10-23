@@ -1,0 +1,43 @@
+{
+  "id": 623,
+  "desc": "出场后每回合受到的伤害减少10%，最高减少40%（包括固伤）；若自己死亡则消除对方回合类效果且50%令对方冰封（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3293,
+      "url": "https://api.seerapi.com/v1/pet/3293/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      40,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 905,
+      "url": "https://api.seerapi.com/v1/eid_effect/905/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3cc76ea5"
+}

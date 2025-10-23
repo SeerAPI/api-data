@@ -1,0 +1,41 @@
+{
+  "id": 1321,
+  "args_num": 2,
+  "info": "解除自身能力下降状态并消除对手提升状态，消除任意一项成功则{0}%对手{1}",
+  "info_formatting_adjustment": "解除自身弱化状态并消除对手强化状态\r\n--><condition>消除任意一项成功</condition>则{0}%对手{1}$Boss$",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 31757,
+      "url": "https://api.seerapi.com/v1/skill/31757/"
+    },
+    {
+      "id": 36940,
+      "url": "https://api.seerapi.com/v1/skill/36940/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 63137,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63137/"
+    },
+    {
+      "id": 63508,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63508/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "f6f166ba"
+}

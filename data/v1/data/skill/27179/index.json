@@ -1,0 +1,38 @@
+{
+  "id": 27179,
+  "name": "电灵火花",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 96,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "50%使对手全属性-1，先出手几率提升至100%",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%使对手全属性-1，若先出手则100%使对手全属性-1",
+      "args": [
+        50,
+        1,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 857,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/857/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "50ac60cd"
+}

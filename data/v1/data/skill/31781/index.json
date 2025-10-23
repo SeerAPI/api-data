@@ -1,0 +1,54 @@
+{
+  "id": 31781,
+  "name": "紫金斗魂破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1012,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1012/"
+      }
+    },
+    {
+      "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 897,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/897/"
+      }
+    },
+    {
+      "info": "当回合击败对手则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 672,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/672/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ab895290"
+}

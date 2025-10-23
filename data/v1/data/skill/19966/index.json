@@ -1,0 +1,44 @@
+{
+  "id": 19966,
+  "name": "战威利刃",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 84,
+    "url": "https://api.seerapi.com/v1/element_type_combination/84/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 485,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/485/"
+      }
+    },
+    {
+      "info": "若自身当前体力高于最大体力的1/2则威力提升50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 845,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/845/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3a76e709"
+}

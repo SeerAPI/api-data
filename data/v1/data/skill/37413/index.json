@@ -1,0 +1,45 @@
+{
+  "id": 37413,
+  "name": "蓄能瞬爆",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 61,
+    "url": "https://api.seerapi.com/v1/element_type_combination/61/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1199/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机1项技能PP值归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1245,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1245/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a18d317f"
+}

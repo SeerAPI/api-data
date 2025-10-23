@@ -1,0 +1,46 @@
+{
+  "id": 24828,
+  "name": "月光引露",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对手释放技能所消耗的PP翻倍；若受到攻击则自身双防提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    },
+    {
+      "info": "3回合内若受到攻击则自身防御+1 特防+1",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 535,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/535/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "44e5b0a9"
+}

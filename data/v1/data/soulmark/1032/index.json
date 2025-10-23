@@ -1,0 +1,43 @@
+{
+  "id": 1032,
+  "desc": "自身使用技能时50%的概率不消耗技能PP值，对手使用技能时50%的概率消耗2倍技能PP值；回合开始时，若对手体力高于最大体力的1/2则当回合自身受到的攻击伤害减少50%，若对手体力低于最大体力的1/2则当回合自身攻击技能随机附加200-400点固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3755,
+      "url": "https://api.seerapi.com/v1/pet/3755/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      2,
+      2,
+      50,
+      200,
+      400,
+      1
+    ],
+    "effect": {
+      "id": 1331,
+      "url": "https://api.seerapi.com/v1/eid_effect/1331/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5682f1e0"
+}

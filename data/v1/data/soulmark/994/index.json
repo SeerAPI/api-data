@@ -1,0 +1,40 @@
+{
+  "id": 994,
+  "desc": "极夜之羽护体：天生免疫害怕状态；回合开始时自身每处于一种能力提升状态则当回合攻击附加70点固定伤害，回合开始时若自身不处于能力提升状态则战斗阶段结束时{吸取}对手200点{体力}，体力低于对手时额外{吸取}100点{体力}（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3718,
+      "url": "https://api.seerapi.com/v1/pet/3718/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      70,
+      200,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1294,
+      "url": "https://api.seerapi.com/v1/eid_effect/1294/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7c720523"
+}

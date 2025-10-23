@@ -1,0 +1,37 @@
+{
+  "id": 94,
+  "desc": "出场时自身造成的伤害提升5%、受到的伤害降低5%；|在一场战斗中，每击败一只精灵则自身造成的伤害提升10%、受到的伤害降低10%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2648,
+      "url": "https://api.seerapi.com/v1/pet/2648/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      10
+    ],
+    "effect": {
+      "id": 319,
+      "url": "https://api.seerapi.com/v1/eid_effect/319/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dd841bd4"
+}

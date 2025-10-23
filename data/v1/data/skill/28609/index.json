@@ -1,0 +1,52 @@
+{
+  "id": 28609,
+  "name": "慧海星识",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "消除了对手的能力提升与回合类效果；吸取了对手的体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果",
+      "args": [],
+      "effect": {
+        "id": 180,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/180/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的1/3，自身体力低于1/2时吸取效果翻倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 977,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/977/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6e99e652"
+}

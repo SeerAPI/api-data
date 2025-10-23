@@ -1,0 +1,62 @@
+{
+  "id": 16673,
+  "name": "神浪迎天击",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "当回合未击败对手，则减少对手当前体力1/4",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 644,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/644/"
+      }
+    }
+  ],
+  "friend_skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "当回合未击败对手，则减少对手当前体力1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 644,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/644/"
+      }
+    }
+  ],
+  "hide_effect": null,
+  "hash": "124d8842"
+}

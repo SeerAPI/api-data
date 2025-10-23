@@ -1,0 +1,44 @@
+{
+  "id": 1374,
+  "desc": "每回合开始时50%触发撕裂之爪：令对手防御-1、速度-1，50%触发迷惑之爪：令对手特防-1、命中-1；|触发撕裂之爪则令自身当回合攻击造成的伤害提升50%，触发迷惑之爪则自身当回合攻击50%令对手睡眠（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>50%触发撕裂之爪：令对手防御-1、速度-1\r\n<indent=32><sprite=4><sprite=4><indent=64>然后自身当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>50%触发迷惑之爪：令对手特防-1、命中-1\r\n<indent=32><sprite=4><sprite=4><indent=64>然后自身当回合攻击50%<color=#64F9FA>令对手睡眠</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4145,
+      "url": "https://api.seerapi.com/v1/pet/4145/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1735,
+      "url": "https://api.seerapi.com/v1/eid_effect/1735/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9e4a4edc"
+}

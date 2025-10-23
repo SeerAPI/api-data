@@ -1,0 +1,46 @@
+{
+  "id": 674,
+  "desc": "受到的伤害减少30%（包括固定伤害和百分比伤害）；回合开始时若自身体力高于对手则50%使自身造成的伤害翻倍，未触发则下回合攻击必定致命；回合开始时若自身体力低于对手则使用攻击技能命中时50%将对手所有PP降为0，未触发则使对手随机进入1种异常状态（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3356,
+      "url": "https://api.seerapi.com/v1/pet/3356/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      50,
+      100,
+      50,
+      0,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 956,
+      "url": "https://api.seerapi.com/v1/eid_effect/956/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dfcfaf5c"
+}

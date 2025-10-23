@@ -1,0 +1,45 @@
+{
+  "id": 34286,
+  "name": "婀娜多姿",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 24,
+    "url": "https://api.seerapi.com/v1/element_type_combination/24/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加250点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 1084,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1084/"
+      }
+    },
+    {
+      "info": "击败对手则自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1049,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1049/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "59710506"
+}

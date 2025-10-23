@@ -1,0 +1,48 @@
+{
+  "id": 34401,
+  "name": "地能转移",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 37,
+    "url": "https://api.seerapi.com/v1/element_type_combination/37/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手全属性-1",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749/"
+      }
+    },
+    {
+      "info": "消耗自身全部体力，使对手受到自身最大体力1/3的百分比伤害，同时使自身下只出场精灵前2回合100%闪避对手的攻击技能",
+      "args": [
+        3,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1416,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1416/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a178b46c"
+}

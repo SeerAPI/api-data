@@ -1,0 +1,57 @@
+{
+  "id": 37025,
+  "name": "幻寐蚀心",
+  "power": 95,
+  "max_pp": 10,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 51,
+    "url": "https://api.seerapi.com/v1/element_type_combination/51/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1099,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1099/"
+      }
+    },
+    {
+      "info": "攻击后附加造成伤害120%的百分比伤害，先出手时效果提升120%，附加后若对手体力未减少则额外附加等量的真实伤害",
+      "args": [
+        120,
+        120
+      ],
+      "effect": {
+        "id": 2129,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2129/"
+      }
+    },
+    {
+      "info": "击败对手则对手下只出场精灵1回合内先制-2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 934,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/934/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e5d5cac1"
+}

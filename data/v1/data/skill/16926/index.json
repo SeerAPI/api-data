@@ -1,0 +1,38 @@
+{
+  "id": 16926,
+  "name": "邪光之怒",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手是雄性则造成伤害提升50%,若对手不是雄性，则有20%概率使对手害怕",
+      "args": [
+        1,
+        50,
+        20,
+        6
+      ],
+      "effect": {
+        "id": 600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/600/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1574098f"
+}

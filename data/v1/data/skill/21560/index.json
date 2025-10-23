@@ -1,0 +1,38 @@
+{
+  "id": 21560,
+  "name": "雷霆之火",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 70,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后，50%令对方麻痹，50%令对方烧伤",
+      "args": [
+        50,
+        0,
+        50,
+        2
+      ],
+      "effect": {
+        "id": 149,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/149/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b137c5ee"
+}

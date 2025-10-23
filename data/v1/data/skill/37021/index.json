@@ -1,0 +1,69 @@
+{
+  "id": 37021,
+  "name": "缘结·浮世诵",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 115,
+    "url": "https://api.seerapi.com/v1/element_type_combination/115/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "对手持有失体时造成伤害提升100%，否则为对手附加3回合的失体并令对手害怕",
+      "args": [],
+      "effect": {
+        "id": 2132,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2132/"
+      }
+    },
+    {
+      "info": "自身持有回体时先制+1，否则为自身附加3回合的回体并令对手疲惫",
+      "args": [],
+      "effect": {
+        "id": 2133,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2133/"
+      }
+    },
+    {
+      "info": "吸取对手200点固定体力，每次使用额外附加100点，最高400点",
+      "args": [
+        200,
+        100,
+        400
+      ],
+      "effect": {
+        "id": 837,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/837/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "246e3d3e"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 113,
+  "desc": "若对手本回合能力等级发生变化，则战斗阶段结束时恢复1/6最大HP",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2696,
+      "url": "https://api.seerapi.com/v1/pet/2696/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      6
+    ],
+    "effect": {
+      "id": 338,
+      "url": "https://api.seerapi.com/v1/eid_effect/338/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cabbd9ef"
+}

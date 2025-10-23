@@ -1,0 +1,47 @@
+{
+  "id": 33091,
+  "name": "狂怒涡流",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则下1次攻击附加300点固定伤害",
+      "args": [
+        1,
+        300
+      ],
+      "effect": {
+        "id": 1036,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1036/"
+      }
+    },
+    {
+      "info": "2回合内若对手造成的伤害低于200则免疫该伤害",
+      "args": [
+        2,
+        200
+      ],
+      "effect": {
+        "id": 874,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/874/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f67936c"
+}

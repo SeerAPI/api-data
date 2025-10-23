@@ -1,0 +1,41 @@
+{
+  "id": 1065,
+  "desc": "自身攻击技能命中对手后50%的概率令对手随机进入1种异常状态，未触发则下次触发概率提升25%；回合开始时若自身体力低于对手则攻击技能50%打出致命一击，未触发则下次触发概率提升25%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3790,
+      "url": "https://api.seerapi.com/v1/pet/3790/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      25,
+      50,
+      25,
+      1
+    ],
+    "effect": {
+      "id": 1365,
+      "url": "https://api.seerapi.com/v1/eid_effect/1365/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "78349fcd"
+}

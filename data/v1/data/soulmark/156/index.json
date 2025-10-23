@@ -1,0 +1,39 @@
+{
+  "id": 156,
+  "desc": "回合开始时若血量低于对手则受到的伤害减少150点；后出手时速度+1",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2792,
+      "url": "https://api.seerapi.com/v1/pet/2792/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      150,
+      5,
+      1
+    ],
+    "effect": {
+      "id": 373,
+      "url": "https://api.seerapi.com/v1/eid_effect/373/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5ede1696"
+}

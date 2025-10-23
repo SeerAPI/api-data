@@ -1,0 +1,46 @@
+{
+  "id": 34808,
+  "name": "躯壳剥离",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 114,
+    "url": "https://api.seerapi.com/v1/element_type_combination/114/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "30%概率先制+1",
+      "args": [
+        30,
+        1
+      ],
+      "effect": {
+        "id": 482,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/482/"
+      }
+    },
+    {
+      "info": "若对手体力不足300则直接秒杀",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4ba52cc1"
+}

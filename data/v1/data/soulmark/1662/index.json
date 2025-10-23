@@ -1,0 +1,41 @@
+{
+  "id": 1662,
+  "desc": "自身技能命中时消除对手所有护盾效果，消除成功则附加给自身等量的护盾值（不可叠加）并附加给对手等量的固定伤害；战斗阶段结束时恢复等同于自身当前护盾值的体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身技能命中时<color=#64F9FA>消除</color>对手所有<b>护盾</b>效果\r\n消除成功则<color=#64F9FA>获得</color>等量的<b>护盾</b>值并<color=#64F9FA>附加</color>等量的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>恢复</color>等同于自身当前护盾值的<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4447,
+      "url": "https://api.seerapi.com/v1/pet/4447/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2047,
+      "url": "https://api.seerapi.com/v1/eid_effect/2047/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "73549f7f"
+}

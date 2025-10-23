@@ -1,0 +1,37 @@
+{
+  "id": 35584,
+  "name": "沙漠猎手",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合内受到物理攻击和特殊攻击伤害减少50%",
+      "args": [
+        1,
+        2,
+        50
+      ],
+      "effect": {
+        "id": 599,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/599/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bdf3cb46"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 1933,
+  "desc": "对手先出手时当回合自身受到的攻击伤害减少25%，自身先出手时当回合自身受到攻击后反馈所受攻击伤害的25%|战斗阶段结束时，若自身体力低于500点则每低1点自身恢复1点体力并附加等同于恢复量的固定伤害，若自身体力高于500点则自身本次在场体力恢复效果提升20%，最高100%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手先出手则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=16><sprite=3><indent=32>若自身先出手则当回合自身受到攻击后<color=#64F9FA>反馈</color>所受攻击伤害的25%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于500点则每低1点自身<color=#64F9FA>恢复</color>1点<b>体力</b>并<color=#64F9FA>附加</color>等同于恢复量的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力高于500点则自身本次在场<b>体力恢复效果</b><color=#64F9FA>提升</color>20%，最高100%\r\n",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4734,
+      "url": "https://api.seerapi.com/v1/pet/4734/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      25,
+      500,
+      1,
+      1,
+      20,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2350,
+      "url": "https://api.seerapi.com/v1/eid_effect/2350/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bf9be146"
+}

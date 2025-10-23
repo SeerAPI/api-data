@@ -1,0 +1,35 @@
+{
+  "id": 37001,
+  "name": "谬法无端",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 120,
+    "url": "https://api.seerapi.com/v1/element_type_combination/120/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手当前体力40%的伤害",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 751,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/751/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a200302e"
+}

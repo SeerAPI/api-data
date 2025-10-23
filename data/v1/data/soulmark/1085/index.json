@@ -1,0 +1,45 @@
+{
+  "id": 1085,
+  "desc": "自身受到攻击时有50%概率减少250点攻击伤害，未触发则战斗阶段结束时{吸取}对手250点{体力}；攻击技能命中对手时若对手处于冻伤状态则50%令对手害怕，未触发则50%令对手冰封（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时50%<color=#64F9FA>减少</color>其250点<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>吸取</color>对手250点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能命中对手时若对手处于冻伤状态则50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手冰封</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3810,
+      "url": "https://api.seerapi.com/v1/pet/3810/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      250,
+      250,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1393,
+      "url": "https://api.seerapi.com/v1/eid_effect/1393/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "daf0a576"
+}

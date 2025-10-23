@@ -1,0 +1,33 @@
+{
+  "id": 626,
+  "desc": "受到攻击时70%概率使对手随机进入害怕、麻痹、疲惫、石化、冰封中随机一种异常状态，未触发则自身下次攻击使对手随机进入两种异常状态（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3300,
+      "url": "https://api.seerapi.com/v1/pet/3300/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      1
+    ],
+    "effect": {
+      "id": 909,
+      "url": "https://api.seerapi.com/v1/eid_effect/909/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3f68a63b"
+}

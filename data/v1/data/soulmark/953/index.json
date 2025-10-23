@@ -1,0 +1,42 @@
+{
+  "id": 953,
+  "desc": "战斗阶段结束时若对手处于能力提升状态则反转对手的能力提升状态；自身使用攻击技能时对手每处于1种能力下降状态则附加80点固定伤害，若对手不处于能力下降状态则必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3671,
+      "url": "https://api.seerapi.com/v1/pet/3671/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      80,
+      1
+    ],
+    "effect": {
+      "id": 1246,
+      "url": "https://api.seerapi.com/v1/eid_effect/1246/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "36867882"
+}

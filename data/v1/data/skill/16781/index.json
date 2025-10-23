@@ -1,0 +1,41 @@
+{
+  "id": 16781,
+  "name": "灵火毁灭",
+  "power": 70,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合对手防御-1、速度-1",
+      "args": [
+        3,
+        0,
+        -1,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "effect": {
+        "id": 448,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/448/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e20b68f5"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 37732,
+  "name": "倍量正电荷",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，防御",
+      "args": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585/"
+      }
+    },
+    {
+      "info": "2回合内每回合使用技能附加对手最大体力1/4的百分比伤害",
+      "args": [
+        2,
+        4
+      ],
+      "effect": {
+        "id": 1213,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1213/"
+      }
+    },
+    {
+      "info": "下2回合令对手所有技能先制-1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 619,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/619/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b02b056d"
+}

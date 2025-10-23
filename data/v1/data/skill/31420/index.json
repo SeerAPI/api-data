@@ -1,0 +1,43 @@
+{
+  "id": 31420,
+  "name": "生命之森",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 485,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/485/"
+      }
+    },
+    {
+      "info": "自身体力高于对手时附加自身最大体力值30%的百分比伤害",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 903,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/903/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e4bfc85f"
+}

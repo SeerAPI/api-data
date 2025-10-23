@@ -1,0 +1,42 @@
+{
+  "id": 1414,
+  "desc": "回合开始时，对手每处于1项能力下降状态则自身造成的攻击伤害提升20%；自身属性技能命中后令对手随机2项能力值-1，若当回合自身先出手则转变为令对手随机2项能力值-2（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，对手每处于1项能力下降状态则自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身属性技能命中后令对手随机2项能力值-1，若当回合自身先出手则转变为令对手随机2项能力值-2",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4192,
+      "url": "https://api.seerapi.com/v1/pet/4192/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      20,
+      2,
+      1,
+      2,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1785,
+      "url": "https://api.seerapi.com/v1/eid_effect/1785/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7ac00ad8"
+}

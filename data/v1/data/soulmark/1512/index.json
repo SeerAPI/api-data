@@ -1,0 +1,40 @@
+{
+  "id": 1512,
+  "desc": "自身攻击技能命中后50%的概率附加自身最大体力1/3的固定伤害，未触发则下回合自身攻击必定打出致命一击；|自身攻击技能未命中则100%令对手随机1个攻击技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后50%<color=#64F9FA>附加</color>自身最大体力1/3的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则下回合自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能未命中则100%令对手随机1个攻击技能<b>PP值</b><color=#64F9FA>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4291,
+      "url": "https://api.seerapi.com/v1/pet/4291/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1876,
+      "url": "https://api.seerapi.com/v1/eid_effect/1876/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a94206dd"
+}

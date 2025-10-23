@@ -1,0 +1,38 @@
+{
+  "id": 322,
+  "desc": "所有技能附带自身最大体力15%的固定伤害，体力每减少10%，受到的伤害减少5%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2910,
+      "url": "https://api.seerapi.com/v1/pet/2910/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      15,
+      10,
+      5
+    ],
+    "effect": {
+      "id": 647,
+      "url": "https://api.seerapi.com/v1/eid_effect/647/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "850ce550"
+}

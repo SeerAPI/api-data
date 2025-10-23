@@ -1,0 +1,35 @@
+{
+  "id": 37792,
+  "name": "断绝光束",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则附加500点固定伤害",
+      "args": [
+        500
+      ],
+      "effect": {
+        "id": 1170,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1170/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "907152"
+}

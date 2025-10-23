@@ -1,0 +1,45 @@
+{
+  "id": 1381,
+  "desc": "自身攻击打出致命一击则50%令对手冰封，未触发则100%令对手冻伤，攻击未打出致命一击则附带本次攻击伤害50%的固定伤害；|回合开始时，若对手处于2种及以上的异常状态则自身当回合攻击忽略对手25%的双防值（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击打出致命一击则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=16><sprite=3><indent=32>自身攻击未打出致命一击则<color=#64F9FA>附加</color>本次攻击伤害50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于2种及以上的异常状态则自身当回合攻击<color=#64F9FA>忽略</color>对手25%的<b>双防值</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4154,
+      "url": "https://api.seerapi.com/v1/pet/4154/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      50,
+      2,
+      25,
+      1
+    ],
+    "effect": {
+      "id": 1742,
+      "url": "https://api.seerapi.com/v1/eid_effect/1742/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b6469f84"
+}

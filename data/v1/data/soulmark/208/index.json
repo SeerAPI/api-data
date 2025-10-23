@@ -1,0 +1,33 @@
+{
+  "id": 208,
+  "desc": "回合开始时,若对手体力低于25%,则所有技能必定瞬杀对手（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2882,
+      "url": "https://api.seerapi.com/v1/pet/2882/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      1
+    ],
+    "effect": {
+      "id": 625,
+      "url": "https://api.seerapi.com/v1/eid_effect/625/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6e45af0a"
+}

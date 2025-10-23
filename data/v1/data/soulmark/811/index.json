@@ -1,0 +1,45 @@
+{
+  "id": 811,
+  "desc": "50%概率闪避对手攻击，未随机到则对手全属性-1；先出手时免疫当回合受到的攻击伤害并反弹伤害的1/2给对手；后出手时恢复自身最大体力的1/3且下回合自身先制+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3502,
+      "url": "https://api.seerapi.com/v1/pet/3502/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      2,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1096,
+      "url": "https://api.seerapi.com/v1/eid_effect/1096/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "de837256"
+}

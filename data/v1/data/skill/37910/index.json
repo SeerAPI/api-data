@@ -1,0 +1,69 @@
+{
+  "id": 37910,
+  "name": "战·日月逆行",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则对手害怕",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 733,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/733/"
+      }
+    },
+    {
+      "info": "将自身的武道衍化轨迹改为逆转并将武道正转期间抵挡的伤害以固定伤害的形式反馈给对手，最高不超过自身最大体力的150%",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 2292,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2292/"
+      }
+    },
+    {
+      "info": "对手为自身天敌时造成的伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 567,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/567/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1886c64"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1875,
+  "desc": "回合开始时，若对手体力为满则当回合对手技能命中时100%沉默，未触发则100%害怕，若对手体力不为满则当回合自身造成的攻击伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手体力为满则当回合对手技能命中时100%沉默，未触发则100%害怕\r\n<indent=32><sprite=4><indent=48>若对手体力不为满则当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4673,
+      "url": "https://api.seerapi.com/v1/pet/4673/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2275,
+      "url": "https://api.seerapi.com/v1/eid_effect/2275/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f12f271f"
+}

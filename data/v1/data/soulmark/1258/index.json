@@ -1,0 +1,47 @@
+{
+  "id": 1258,
+  "desc": "1、自身未上场时开始蓄力，每过1回合蓄力层数+1，最多9层（每层使自身造成的攻击伤害提升30%，切换下场后当前蓄力层数保留，死亡后蓄力层数清零）；自身上场后，每使用1次攻击技能则蓄力层数-1并附加自身最大体力1/4的百分比伤害（蓄力层数为0时不再触发，boss无效）；|2、自身每次登场时，若自身的蓄力层数≥6层则直至下回合开始时免疫所有异常状态（下场后保留，boss无效）；|3、自身选择使用攻击技能则当回合无视对手双防能力提升状态（该效果为回合类效果），攻击命中后若造成攻击伤害且低于300则下回合自身所有技能先制+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身不在场时每回合增加1层<b>蓄力</b> \r\n<indent=16><sprite=3><indent=32>自身在场时，使用攻击技能后使蓄力层数-1以<color=#64F9FA>附加</color>自身最大体力1/4的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场时若自身的蓄力层数≥6层则<color=#64F9FA>免疫</color>受到的<b>异常状态</b>直至下回合开始，效果下场保留\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>若自身选择攻击技能则当回合开始时以回合类效果形式1回合内<color=#64F9FA>无视</color>对方双防<b>能力提升状态</b>，\r\n<indent=16><sprite=3><indent=32>若自身攻击技能造成的伤害低于300则下回合自身所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=5><indent=15>蓄力（上限9层，下场保留）：\r\n<indent=16><sprite=6><indent=32>每有1层，自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>30%\r\n<indent=16><sprite=6><indent=32>自身死亡时消失",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4002,
+      "url": "https://api.seerapi.com/v1/pet/4002/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      9,
+      30,
+      1,
+      4,
+      6,
+      300,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1595,
+      "url": "https://api.seerapi.com/v1/eid_effect/1595/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fe44401a"
+}

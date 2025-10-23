@@ -1,0 +1,39 @@
+{
+  "id": 1914,
+  "desc": "自身登场后触发虐龙古咒：奇数次选择的属性技能附加250点龙系伤害且使用时消除对手回合类效果，偶数次选择的属性技能附加250点邪灵系伤害且使用时消除对手能力提升状态|回合开始时，若自身体力未高于上回合开始，则本回合免疫受到的异常状态且回合结束后恢复最大体力的1/3|战斗开始时自身与龙焉缔结冥龙之契：龙焉全能力提升70点，所有攻击技能无视对手的护盾效果|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场后触发虐龙古咒：\r\n<indent=32><sprite=4><indent=48>奇数次选择的属性技能<color=#64F9FA>附加</color>250点<b>龙系伤害</b>且使用时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>偶数次选择的属性技能<color=#64F9FA>附加</color>250点<b>邪灵系伤害</b>且使用时<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力未高于上回合开始，则本回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且回合结束后<color=#64F9FA>恢复</color>1/3最大体力\r\n\r\n<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时自身与龙焉缔结冥龙之契：龙焉全<b>能力值</b><color=#64F9FA>提升</color>70点且攻击技能<color=#64F9FA>无视</color>对手的<b>护盾效果</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4712,
+      "url": "https://api.seerapi.com/v1/pet/4712/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      250,
+      70,
+      1
+    ],
+    "effect": {
+      "id": 2315,
+      "url": "https://api.seerapi.com/v1/eid_effect/2315/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7c09ea7f"
+}

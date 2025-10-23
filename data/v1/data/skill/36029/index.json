@@ -1,0 +1,33 @@
+{
+  "id": 36029,
+  "name": "战栗怒咆",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 90,
+    "url": "https://api.seerapi.com/v1/element_type_combination/90/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "未击败对手则自身能力提升状态翻倍",
+      "args": [],
+      "effect": {
+        "id": 964,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/964/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "31f69145"
+}

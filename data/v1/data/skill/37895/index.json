@@ -1,0 +1,49 @@
+{
+  "id": 37895,
+  "name": "雷霆电击刀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中则50%使对手麻痹，未触发则附加200点固定伤害",
+      "args": [
+        50,
+        0,
+        200
+      ],
+      "effect": {
+        "id": 1000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1000/"
+      }
+    },
+    {
+      "info": "先出手时100%自身攻击等级+2",
+      "args": [
+        0,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 474,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/474/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2fcb7d66"
+}

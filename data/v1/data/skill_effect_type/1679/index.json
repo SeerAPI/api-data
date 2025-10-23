@@ -1,0 +1,53 @@
+{
+  "id": 1679,
+  "args_num": 4,
+  "info": "造成的伤害高于{0}则{1}%令对手{2}，未触发则吸取对手最大体力的1/{3}",
+  "info_formatting_adjustment": "造成的伤害高于{0}则{1}%令对手{2}\r\n--><condition>未触发</condition>则吸取对手最大体力的1/{3}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 34972,
+      "url": "https://api.seerapi.com/v1/skill/34972/"
+    },
+    {
+      "id": 35770,
+      "url": "https://api.seerapi.com/v1/skill/35770/"
+    },
+    {
+      "id": 35853,
+      "url": "https://api.seerapi.com/v1/skill/35853/"
+    },
+    {
+      "id": 37656,
+      "url": "https://api.seerapi.com/v1/skill/37656/"
+    },
+    {
+      "id": 37661,
+      "url": "https://api.seerapi.com/v1/skill/37661/"
+    },
+    {
+      "id": 38019,
+      "url": "https://api.seerapi.com/v1/skill/38019/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    }
+  ],
+  "hash": "3c299e84"
+}

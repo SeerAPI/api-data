@@ -1,0 +1,45 @@
+{
+  "id": 1015,
+  "desc": "回合开始时50%令对手烧伤，50%令己方烧伤；对手处于烧伤状态时我方使用攻击技能附加对手最大体力1/3的固定伤害，我方处于烧伤状态时自身攻击技能先制+1且造成的攻击伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3737,
+      "url": "https://api.seerapi.com/v1/pet/3737/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      3,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1313,
+      "url": "https://api.seerapi.com/v1/eid_effect/1313/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5112206"
+}

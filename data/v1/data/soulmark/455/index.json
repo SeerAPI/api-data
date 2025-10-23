@@ -1,0 +1,35 @@
+{
+  "id": 455,
+  "desc": "50%免疫对手造成的攻击伤害，若触发则60%概率反弹免疫伤害的40%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3115,
+      "url": "https://api.seerapi.com/v1/pet/3115/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      60,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 771,
+      "url": "https://api.seerapi.com/v1/eid_effect/771/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f268120a"
+}

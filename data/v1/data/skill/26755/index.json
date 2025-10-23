@@ -1,0 +1,60 @@
+{
+  "id": 26755,
+  "name": "邪魅一笑",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "高几率令对手疲惫；自身出手更快了且打出的伤害提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后80%令对手疲惫，未触发则下2回合自身攻击技能先制+2",
+      "args": [
+        80,
+        7,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 1079,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1079/"
+      }
+    },
+    {
+      "info": "下2回合造成的攻击伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6bc58eee"
+}

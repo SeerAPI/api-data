@@ -1,0 +1,50 @@
+{
+  "id": 1788,
+  "desc": "自身每次攻击命中造成的伤害提升（提升值等同于自身当前体力百分比）且100%令对手烧伤，自身体力低于最大体力的1/3则造成攻击伤害的100%恢复自身体力|战斗阶段结束时，自身体力低于最大体力的1/3进入箭魂状态：下回合自身所有技能先制+3且造成的攻击伤害提升150%(boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身每次攻击命中造成的伤害提升且100%<color=#64F9FA>令对手烧伤</color>，提升值等同于自身当前体力百分比\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>自身体力低于最大体力的1/3则造成攻击伤害的100%<color=#64F9FA>恢复</color>自身<b>体力</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于最大体力的1/3进入箭魂状态：\r\n<indent=32><sprite=4><sprite=4><indent=64>下回合自身所有技能<b>先制</b>+3且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>150%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4173,
+      "url": "https://api.seerapi.com/v1/pet/4173/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      3,
+      100,
+      3,
+      3,
+      150,
+      250,
+      1
+    ],
+    "effect": {
+      "id": 1764,
+      "url": "https://api.seerapi.com/v1/eid_effect/1764/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1397,
+    "url": "https://api.seerapi.com/v1/soulmark/1397/"
+  },
+  "hash": "6fa17"
+}

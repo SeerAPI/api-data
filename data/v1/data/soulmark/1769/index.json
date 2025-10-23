@@ -1,0 +1,50 @@
+{
+  "id": 1769,
+  "desc": "自身天生免疫石化状态；|自身护盾值高于对手时造成的攻击伤害提升50%，自身的护盾值低于对手时受到的攻击伤害、固定伤害、百分比伤害减少50%|战斗阶段结束时若自身体力高于对手则获得自身最大体力1/3的护盾，若低于对手则恢复最大体力1/3并造成等量百分比伤害；|自身使用攻击技能后开启暗影护盾：2回合内闪避对手的物理攻击，使用属性技能后开启幽冥之盾：2回合内闪避对手的特殊攻击，开启任意一项后，若自身同时处于暗影护盾、幽冥之盾则对对手进行灵魂干涉：100%令对手疲惫（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身天生<color=#64F9FA>免疫<b></color>石化</b>状态\r\n<indent=16><sprite=3><indent=32>自身护盾值高于对手时造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=16><sprite=3><indent=32>自身的护盾值低于对手时受到的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>减少</color>50%\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则<color=#64F9FA>获得</color>自身最大体力1/3的<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则<color=#64F9FA>恢复</color>最大体力1/3并造成等量<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果： \r\n<indent=16><sprite=3><indent=32>使用攻击技能后开启暗影护盾：2回合内<color=#64F9FA>闪避</color>对手的<b>物理攻击</b>\r\n<indent=16><sprite=3><indent=32>使用属性技能后开启幽冥之盾：2回合内<color=#64F9FA>闪避</color>对手的<b>特殊攻击</b>\r\n<indent=16><sprite=3><indent=32>上述效果触发后，若自身同时处于暗影护盾、幽冥之盾则对对手进行灵魂干涉：100%<color=#64F9FA>使对手疲惫</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": true,
+  "pet": [
+    {
+      "id": 3716,
+      "url": "https://api.seerapi.com/v1/pet/3716/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      3,
+      3,
+      2,
+      2,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2160,
+      "url": "https://api.seerapi.com/v1/eid_effect/2160/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 993,
+    "url": "https://api.seerapi.com/v1/soulmark/993/"
+  },
+  "hash": "9e1663de"
+}

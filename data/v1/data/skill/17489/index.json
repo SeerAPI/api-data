@@ -1,0 +1,54 @@
+{
+  "id": 17489,
+  "name": "狂怒破击",
+  "power": 80,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果",
+      "args": [],
+      "effect": {
+        "id": 180,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/180/"
+      }
+    },
+    {
+      "info": "下1回合自身造成的攻击伤害翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776/"
+      }
+    },
+    {
+      "info": "1回合内每回合被攻击所受到的伤害不超过250",
+      "args": [
+        1,
+        250
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "47d6728a"
+}

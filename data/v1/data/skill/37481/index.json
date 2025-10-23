@@ -1,0 +1,37 @@
+{
+  "id": 37481,
+  "name": "侵蚀剑痕",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加自身当前体力值25%的百分比伤害，每次使用增加10%，最高45%",
+      "args": [
+        25,
+        10,
+        45
+      ],
+      "effect": {
+        "id": 1280,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1280/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "37c37e68"
+}

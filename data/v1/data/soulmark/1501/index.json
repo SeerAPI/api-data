@@ -1,0 +1,40 @@
+{
+  "id": 1501,
+  "desc": "每次敌我双方任意一方使用属性技能，则自身下回合起攻击造成的伤害提升25%，最多提升150%；|每次敌我双方任意一方使用攻击技能，则自身下回合起所有技能先制效果额外+1，最多+3（所有效果持续到被击败或切换下场，boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每次敌我双方任意一方使用属性技能，则自身下回合起本次在场造成的<b>攻击伤害</b><color=#64F9FA>提升</color>25%，最高提升150%\r\n<indent=16><sprite=3><indent=32>每次敌我双方任意一方使用攻击技能，则自身下回合起本次在场所有技能<b>先制</b>+1，最高+3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4277,
+      "url": "https://api.seerapi.com/v1/pet/4277/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      150,
+      1,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1863,
+      "url": "https://api.seerapi.com/v1/eid_effect/1863/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3cf2ae7c"
+}

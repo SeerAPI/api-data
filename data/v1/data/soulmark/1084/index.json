@@ -1,0 +1,47 @@
+{
+  "id": 1084,
+  "desc": "哈莫雷特获得龙神之力，万龙臣服：所有属性中带龙系的精灵每回合50%的概率先制-1且对其造成的攻击伤害降低25%；|满体力时自身受到的攻击伤害降低50%且造成的攻击伤害提升50%，自身体力每降低10%则减伤效果降低10%，同时造成的伤害提升10%；|对手使用属性技能则自身当回合免疫异常状态和能力下降状态，使用攻击技能则战斗阶段结束时随机附加给对手150-300点固定伤害（boss无效）|御之龙魂BUFF说明：受到的固定伤害和百分比伤害减少25%、攻击令对手随机1个技能PP值归零|战之龙魂BUFF说明：所有技能先制+3且必定命中、攻击造成的伤害随机提升50%-100%",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>龙神之力：\r\n<indent=16><sprite=3><indent=32>系别中带有龙系的对手每回合50%触发万龙臣服：<b>先制</b>-1且对哈莫雷特造成的<b>攻击伤害</b><color=#64F9FA>降低</color>25%\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害<color=#64F9FA>降低</color>50%且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，自身每损失10%体力：\r\n<indent=32><sprite=4><indent=48>减伤效果降低10%\r\n<indent=32><sprite=4><indent=48>增伤效果提升10%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用属性技能则自身当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能则战斗阶段结束时随机<color=#64F9FA>附加</color>对手150-300点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>御之龙魂：\r\n<indent=16><sprite=6><indent=32>受到的<b>固定伤害、百分比伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=16><sprite=6><indent=32>攻击技能令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=5><indent=15>战之龙魂：\r\n<indent=16><sprite=6><indent=32>所有技能<b>先制</b>+3且<color=#64F9FA>必定命中</color>\r\n<indent=16><sprite=6><indent=32>造成的<b>攻击伤害</b>随机<color=#64F9FA>提升</color>50%-100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3809,
+      "url": "https://api.seerapi.com/v1/pet/3809/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      25,
+      10,
+      10,
+      150,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1392,
+      "url": "https://api.seerapi.com/v1/eid_effect/1392/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dc8bac49"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1401,
+  "desc": "当回合若自身先出手则使用的攻击技能威力提升50%；自身攻击打出致命一击则下回合自身攻击技能额外先制+1，自身攻击未打出致命一击则下回合自身攻击技能50%打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身先出手则使用的攻击技能<b>威力</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击打出了致命一击则下回合自身攻击技能<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>自身攻击未打出致命一击则下回合自身<b>攻击技能</b>50%<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4176,
+      "url": "https://api.seerapi.com/v1/pet/4176/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1770,
+      "url": "https://api.seerapi.com/v1/eid_effect/1770/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "47603ce3"
+}

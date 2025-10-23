@@ -1,0 +1,68 @@
+{
+  "id": 34299,
+  "name": "堇雪月寒风",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 91,
+    "url": "https://api.seerapi.com/v1/element_type_combination/91/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "风之力量觉醒，使自身下1次攻击获得蚀骨之风效果",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1592,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1592/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 942,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/942/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
+      "args": [
+        300,
+        1
+      ],
+      "effect": {
+        "id": 1258,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1258/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300时100%令对手冻伤",
+      "args": [
+        300,
+        100,
+        5
+      ],
+      "effect": {
+        "id": 594,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/594/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2f5bcdf2"
+}

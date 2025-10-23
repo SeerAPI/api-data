@@ -1,0 +1,62 @@
+{
+  "id": 27784,
+  "name": "双刃分合",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；开始有一定概率免疫对手攻击伤害了；将自身能力下降状态双倍反馈给对手",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内有50%概率免疫对手攻击伤害，未触发则对手防御-2、特防-2、速度-2",
+      "args": [
+        3,
+        50,
+        0,
+        -2,
+        0,
+        -2,
+        -2,
+        0
+      ],
+      "effect": {
+        "id": 1259,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1259/"
+      }
+    },
+    {
+      "info": "将自身能力下降状态双倍反馈给对手，反馈成功则3回合内免疫能力下降效果",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1260,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1260/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "16484dd3"
+}

@@ -1,0 +1,44 @@
+{
+  "id": 34186,
+  "name": "轻悠浮云",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吞噬对手的能力提升效果并双倍转移到自己身上",
+      "args": [],
+      "effect": {
+        "id": 569,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/569/"
+      }
+    },
+    {
+      "info": "恢复自身200点体力，自身体力少于1/2时恢复效果翻倍",
+      "args": [
+        200,
+        2
+      ],
+      "effect": {
+        "id": 708,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/708/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3fac78a1"
+}

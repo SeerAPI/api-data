@@ -1,0 +1,52 @@
+{
+  "id": 38044,
+  "name": "割风觅首",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 32,
+    "url": "https://api.seerapi.com/v1/element_type_combination/32/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身为对手天敌则必定命中",
+      "args": [],
+      "effect": {
+        "id": 2028,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2028/"
+      }
+    },
+    {
+      "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+      "args": [],
+      "effect": {
+        "id": 1247,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1247/"
+      }
+    },
+    {
+      "info": "自身HP小于1/2时威力为2倍",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 37,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/37/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "68f4c94a"
+}

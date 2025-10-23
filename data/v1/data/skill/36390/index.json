@@ -1,0 +1,47 @@
+{
+  "id": 36390,
+  "name": "守鹿",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 221,
+    "url": "https://api.seerapi.com/v1/element_type_combination/221/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果，消除任意一方成功则自身下1次攻击技能造成的伤害提升100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1850,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1850/"
+      }
+    },
+    {
+      "info": "消除双方能力提升、下降状态，消除任意一方成功则自身下1次攻击技能附加对手最大体力1/3的百分比伤害",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1849,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1849/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "444c0f9b"
+}

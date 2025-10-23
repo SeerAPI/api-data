@@ -1,0 +1,45 @@
+{
+  "id": 15025,
+  "name": "猎杀百头",
+  "power": 30,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "连击4次，每次命中后连击数+1，最高连击8次 ",
+      "args": [
+        4,
+        1,
+        8
+      ],
+      "effect": {
+        "id": 484,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/484/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fb16eba6"
+}

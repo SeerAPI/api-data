@@ -1,0 +1,36 @@
+{
+  "id": 16643,
+  "name": "绝影击",
+  "power": 90,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 53,
+    "url": "https://api.seerapi.com/v1/element_type_combination/53/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内对手所有属性技能命中率减少50%",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 578,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/578/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "51337d9f"
+}

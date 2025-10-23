@@ -1,0 +1,46 @@
+{
+  "id": 31382,
+  "name": "光之芙蓉",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 59,
+    "url": "https://api.seerapi.com/v1/element_type_combination/59/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1回合造成的伤害翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1044,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1044/"
+      }
+    },
+    {
+      "info": "下1回合先出手则对手失明",
+      "args": [
+        1,
+        20
+      ],
+      "effect": {
+        "id": 878,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/878/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f80a56c1"
+}

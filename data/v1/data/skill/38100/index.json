@@ -1,0 +1,45 @@
+{
+  "id": 38100,
+  "name": "经武纵横",
+  "power": 20,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/element_type_combination/7/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合做10-15次攻击，对手处于异常状态时连击上限为20",
+      "args": [
+        10,
+        15,
+        20
+      ],
+      "effect": {
+        "id": 1685,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1685/"
+      }
+    },
+    {
+      "info": "对手为自身天敌时造成的伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 567,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/567/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "46ce8ef8"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 25144,
+  "name": "九死未悔",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 2,
+  "must_hit": true,
+  "info": "消耗自身全部体力，使对手有一定几率进入异常状态，并使己方下只出场精灵攻击更加犀利",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，80%随机附加1种控制类异常状态，己方下只出场精灵3回合内攻击伤害提升49%且先制+1",
+      "args": [
+        80,
+        1,
+        3,
+        49,
+        1
+      ],
+      "effect": {
+        "id": 1059,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1059/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7d6539d4"
+}

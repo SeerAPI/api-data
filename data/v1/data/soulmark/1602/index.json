@@ -1,0 +1,43 @@
+{
+  "id": 1602,
+  "desc": "自身使用攻击技能100%令对手冻伤，未触发则消除对手回合类效果，若自身处于能力提升状态则额外令对手100%冰封；|战斗阶段结束时若对手处于异常状态则令对手下回合无法使用属性技能，若对手不处于异常状态则令自身全属性+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>然后若自身处于能力提升状态则额外100%<color=#64F9FA>令对手冰封</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时:\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则令对手下回合<b>属性技能</b><color=#64F9FA>命中效果失效</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则令自身<color=#64F9FA>全属性+1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4378,
+      "url": "https://api.seerapi.com/v1/pet/4378/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1962,
+      "url": "https://api.seerapi.com/v1/eid_effect/1962/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "70c1ce67"
+}

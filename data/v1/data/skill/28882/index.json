@@ -1,0 +1,37 @@
+{
+  "id": 28882,
+  "name": "溯洄",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始治愈自身",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内受到攻击50%恢复1/1体力",
+      "args": [
+        4,
+        50,
+        1
+      ],
+      "effect": {
+        "id": 724,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/724/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "afa042c4"
+}

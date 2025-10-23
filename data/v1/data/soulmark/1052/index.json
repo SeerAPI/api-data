@@ -1,0 +1,30 @@
+{
+  "id": 1052,
+  "desc": "回合开始时，自身每处于一级速度能力提升状态则当回合攻击技能附加对手最大体力1/6的固定伤害；自身使用攻击技能时若对手处于流血状态，则50%令对手害怕，未触发害怕则100%令对手麻痹（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3774,
+      "url": "https://api.seerapi.com/v1/pet/3774/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      6,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1351,
+      "url": "https://api.seerapi.com/v1/eid_effect/1351/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "28459255"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1347,
+  "desc": "自身攻击命中后50%令对手麻痹，未触发则令自身下回合攻击造成的伤害提升50%且异常概率提升25%；|每经过3回合触发一次迅电龙吟：当回合攻击技能必定打出致命一击且附加300点固定伤害，当回合属性技能100%令对手麻痹且恢复300点体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后50%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则令自身下回合概率提升25%且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每经过3回合触发一次迅电龙吟：\r\n<indent=32><sprite=4><indent=48>当回合攻击技能必定<color=#64F9FA>打出致命一击</color>且<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>当回合属性技能100%<color=#64F9FA>令对手麻痹</color>且令自身<color=#64F9FA>恢复</color>300点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4115,
+      "url": "https://api.seerapi.com/v1/pet/4115/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      25,
+      3,
+      300,
+      100,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1700,
+      "url": "https://api.seerapi.com/v1/eid_effect/1700/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3d30213c"
+}

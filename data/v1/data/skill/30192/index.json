@@ -1,0 +1,40 @@
+{
+  "id": 30192,
+  "name": "妖皇极洌刺",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害大于280则对手80%害怕，未触发则自身下2回合攻击有50%的概率使对手害怕",
+      "args": [
+        280,
+        80,
+        6,
+        2,
+        50,
+        6
+      ],
+      "effect": {
+        "id": 1074,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1074/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "de5a2c88"
+}

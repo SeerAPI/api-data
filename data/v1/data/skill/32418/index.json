@@ -1,0 +1,45 @@
+{
+  "id": 32418,
+  "name": "火羽圣雷破",
+  "power": 30,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 33,
+    "url": "https://api.seerapi.com/v1/element_type_combination/33/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手双防能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 195,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/195/"
+      }
+    },
+    {
+      "info": "连击5次，每次命中后连击数+1，最高连击10次 ",
+      "args": [
+        5,
+        1,
+        10
+      ],
+      "effect": {
+        "id": 484,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/484/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3c7849dc"
+}

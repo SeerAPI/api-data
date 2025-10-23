@@ -1,0 +1,46 @@
+{
+  "id": 971,
+  "desc": "增加20点防御上限和20点特防上限；受到攻击时50%的概率使本回合受到的攻击伤害减半，未触发则战斗阶段结束时恢复自身最大体力的1/3；受到攻击时50%的概率使对手受到等同于伤害值的固定伤害，未触发则战斗阶段结束时附加对手最大体力1/3的固定伤害(boss无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3695,
+      "url": "https://api.seerapi.com/v1/pet/3695/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      20,
+      50,
+      3,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1269,
+      "url": "https://api.seerapi.com/v1/eid_effect/1269/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3f1a4ab2"
+}

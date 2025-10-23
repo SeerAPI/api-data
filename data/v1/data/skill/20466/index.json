@@ -1,0 +1,33 @@
+{
+  "id": 20466,
+  "name": "敌我同伤",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "敌我双方都受到了伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "损失1/2的体力，给予对手同等的伤害",
+      "args": [],
+      "effect": {
+        "id": 80,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/80/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "acb6bb0b"
+}

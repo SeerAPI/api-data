@@ -1,0 +1,43 @@
+{
+  "id": 875,
+  "desc": "回合开始时若自身体力高于对手则当回合自身攻击技能先制+1且造成的伤害提升50%；40%将本回合受到的攻击伤害转化为体力，未触发则战斗阶段结束时使对手受到等同于伤害值的固定伤害（boss无效）邪龙之噬buff说明：随机{吸取}150-300点{体力}，攻击先制+1",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3575,
+      "url": "https://api.seerapi.com/v1/pet/3575/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 1162,
+      "url": "https://api.seerapi.com/v1/eid_effect/1162/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3df391bf"
+}

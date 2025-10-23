@@ -1,0 +1,57 @@
+{
+  "id": 34360,
+  "name": "海妖洗魂咒",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手冰封 ",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 948,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/948/"
+      }
+    },
+    {
+      "info": "若造成的伤害不足300，则下2回合的攻击必定致命一击 ",
+      "args": [
+        300,
+        2
+      ],
+      "effect": {
+        "id": 475,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/475/"
+      }
+    },
+    {
+      "info": "每次命中对手会降低对手下只出战精灵最大体力的15%，最多降低45%",
+      "args": [
+        15,
+        45
+      ],
+      "effect": {
+        "id": 883,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/883/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f675a4ad"
+}

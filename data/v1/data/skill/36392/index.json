@@ -1,0 +1,33 @@
+{
+  "id": 36392,
+  "name": "八方无人来朝",
+  "power": 170,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "朕为始皇帝。后世以计数，二世三世至于万世，传之无穷！",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 221,
+    "url": "https://api.seerapi.com/v1/element_type_combination/221/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "每场战斗中该技能仅可成功使用1次，生效后立即消除对手回合类效果、护盾效果、护罩效果，自身恢复全部体力和所有技能PP值并将当前拥有的永昌玺数量变为6方，且7回合内自身在场时若未击败对手则拥有的永昌玺数量将不再消耗，但击败对手或自身在场7回合后，则会清空自身所有技能PP值，将自身当前体力降为1点，且下回合自身无法主动切换精灵",
+      "args": [],
+      "effect": {
+        "id": 1906,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1906/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bde7d349"
+}

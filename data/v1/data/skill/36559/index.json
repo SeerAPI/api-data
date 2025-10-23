@@ -1,0 +1,65 @@
+{
+  "id": 36559,
+  "name": "千万时之眸",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则下1回合令对手使用的攻击技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1032,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1032/"
+      }
+    },
+    {
+      "info": "下回合对手未使用攻击技能则100%令对手睡眠，未触发则令对手下1次属性技能失效",
+      "args": [
+        100,
+        8,
+        1
+      ],
+      "effect": {
+        "id": 1798,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1798/"
+      }
+    },
+    {
+      "info": "附加己方存活精灵共计已损失体力30%的百分比伤害，自身持有凯旋预言时转化为真实伤害，且当回合击败对手后恢复己方场下体力最低的首位精灵全部体力和所有技能PP值",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 1965,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1965/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2ee09e3e"
+}

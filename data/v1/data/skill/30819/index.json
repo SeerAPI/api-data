@@ -1,0 +1,36 @@
+{
+  "id": 30819,
+  "name": "终末之光",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "牺牲自己进行自爆，将对手体力降为1点，令我方下一只出场精灵获得3次奇迹之力效果",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1182,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1182/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "38b10c55"
+}

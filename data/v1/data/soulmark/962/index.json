@@ -1,0 +1,41 @@
+{
+  "id": 962,
+  "desc": "对手处于睡眠状态时自身攻击技能造成的伤害随机提升60%-120%，对手不处于睡眠状态时自身攻击技能30%-60%令对手睡眠（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3674,
+      "url": "https://api.seerapi.com/v1/pet/3674/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      8,
+      60,
+      120,
+      30,
+      60,
+      1
+    ],
+    "effect": {
+      "id": 1250,
+      "url": "https://api.seerapi.com/v1/eid_effect/1250/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c2cd03da"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 28252,
+  "name": "一发破的",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都提升了；免疫并反弹下1次异常状态；灵烁之箭瞄准了对手的弱点，即将射出势如破竹的一箭",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身不处于能力提升状态时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 962,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/962/"
+      }
+    },
+    {
+      "info": "免疫并反弹下1次自身受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1935,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1935/"
+      }
+    },
+    {
+      "info": "下1次选择使用攻击技能时将对手的能力提升状态视为相应的能力下降状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1804,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1804/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cb8a7d32"
+}

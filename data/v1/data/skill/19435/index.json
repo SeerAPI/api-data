@@ -1,0 +1,47 @@
+{
+  "id": 19435,
+  "name": "凛冽呼啸",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "30%概率使对手陷入冰封状态2回合",
+      "args": [
+        30,
+        15,
+        2
+      ],
+      "effect": {
+        "id": 603,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/603/"
+      }
+    },
+    {
+      "info": "若对手冰封，技能威力翻倍",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 609,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/609/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "22d4bc00"
+}

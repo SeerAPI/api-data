@@ -1,0 +1,35 @@
+{
+  "id": 37869,
+  "name": "圣光碰撞",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 52,
+    "url": "https://api.seerapi.com/v1/element_type_combination/52/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身所处的异常状态，解除成功令对手疲惫",
+      "args": [
+        7
+      ],
+      "effect": {
+        "id": 2158,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2158/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b6ae0ee8"
+}

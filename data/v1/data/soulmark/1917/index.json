@@ -1,0 +1,47 @@
+{
+  "id": 1917,
+  "desc": "自身选择技能的回合自身的先制等级随机增加0~2，随机到0时对手当回合属性技能无效，随机到1时自身当回合技能命中后获取300点护盾，随机到2时自身当回合技能使用后吸取对手300点体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身选择技能的回合自身的<b>先制</b>等级随机<color=#64F9FA>增加</color>0~2，当此效果：\r\n<indent=32><sprite=4><indent=48>随机到0时对手下回合<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>随机到1时自身当回合技能命中后<color=#64F9FA>获取</color>300点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>随机到2时自身当回合技能使用后<color=#64F9FA>吸取</color>对手300点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4715,
+      "url": "https://api.seerapi.com/v1/pet/4715/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      0,
+      2,
+      0,
+      1,
+      300,
+      2,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 2332,
+      "url": "https://api.seerapi.com/v1/eid_effect/2332/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "abc57759"
+}

@@ -1,0 +1,57 @@
+{
+  "id": 36663,
+  "name": "赤霄绝斩",
+  "power": 90,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 47,
+    "url": "https://api.seerapi.com/v1/element_type_combination/47/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "若对手处于烧伤状态则2回合内属性技能命中效果失效",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 2022,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2022/"
+      }
+    },
+    {
+      "info": "若对手处于流血状态则2回合内攻击技能无法造成伤害且命中效果失效",
+      "args": [
+        16,
+        2
+      ],
+      "effect": {
+        "id": 1981,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1981/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "19950d81"
+}

@@ -1,0 +1,69 @@
+{
+  "id": 24330,
+  "name": "斗心不死",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗异常状态的能力提升了；抵抗能力下降；受到过高伤害则对手疲惫；开始慢慢减少对手体力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "5回合内若受到伤害高于200则对手疲惫",
+      "args": [
+        5,
+        200,
+        7
+      ],
+      "effect": {
+        "id": 545,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/545/"
+      }
+    },
+    {
+      "info": "3回合内每回合有100%的概率降低对手最大体力的1/4",
+      "args": [
+        3,
+        100,
+        4
+      ],
+      "effect": {
+        "id": 725,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/725/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bb3993ae"
+}

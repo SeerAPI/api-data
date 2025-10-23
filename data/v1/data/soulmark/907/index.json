@@ -1,0 +1,48 @@
+{
+  "id": 907,
+  "desc": "首次登场下1次技能100%令对手进入焚烬状态；登场后每5回合触发一次业火涤尘，消除双方能力提升状态和回合类效果，消除任意一项成功则令对手焚烬；回合开始时若自身体力高于对手则造成的攻击伤害提高50%，自身体力低于对手则受到的攻击伤害减少50%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3617,
+      "url": "https://api.seerapi.com/v1/pet/3617/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      100,
+      5,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1195,
+      "url": "https://api.seerapi.com/v1/eid_effect/1195/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": {
+    "id": 938,
+    "url": "https://api.seerapi.com/v1/soulmark/938/"
+  },
+  "from": null,
+  "hash": "9d6f30f5"
+}

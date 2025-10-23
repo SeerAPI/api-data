@@ -1,0 +1,45 @@
+{
+  "id": 1149,
+  "desc": "对手是自身天敌时受到的攻击伤害减少25%，自身是对手天敌时造成的攻击伤害提升50%；|每回合开始时为自身附加300点护盾和300点护罩，当回合对手出手流程结束时若自身护盾或护罩任意一个消失则恢复自身最大体力的1/3并造成等量百分比伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手为自身天敌时受到的<b>攻击伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=16><sprite=3><indent=32>自身为对手天敌时造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时为自身<color=#64F9FA>附加</color>300点<b>护盾</b>和300点<b>护罩</b>\r\n<indent=32><sprite=4><indent=48>当回合对手出手流程结束时若自身护盾或护罩任意一个消失则<color=#64F9FA>恢复</color>自身最大体力的1/3并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3880,
+      "url": "https://api.seerapi.com/v1/pet/3880/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      50,
+      300,
+      300,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1467,
+      "url": "https://api.seerapi.com/v1/eid_effect/1467/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b7c6cb38"
+}

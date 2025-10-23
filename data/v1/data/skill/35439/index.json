@@ -1,0 +1,55 @@
+{
+  "id": 35439,
+  "name": "熔钢龙痕",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 39,
+    "url": "https://api.seerapi.com/v1/element_type_combination/39/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则令对手下1次使用的攻击技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1115,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1115/"
+      }
+    },
+    {
+      "info": "消除对手所有护盾效果，消除成功则对手下1回合所有技能失效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1368,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1368/"
+      }
+    },
+    {
+      "info": "自身每有1项非第五技能PP值不满附加150点固定伤害，对手免疫固定伤害时额外附加200点真实伤害",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 1740,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1740/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "727cdd4e"
+}

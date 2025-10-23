@@ -1,0 +1,52 @@
+{
+  "id": 37179,
+  "name": "赠花留香",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身为满体力时对手攻击+1、防御+1、特攻+1、特防+1",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 667,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/667/"
+      }
+    },
+    {
+      "info": "3回合内每回合所受的伤害减少300点",
+      "args": [
+        3,
+        300
+      ],
+      "effect": {
+        "id": 463,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/463/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9ccc4732"
+}

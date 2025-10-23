@@ -1,0 +1,44 @@
+{
+  "id": 645,
+  "desc": "每回合自身速度+2，自身处于速度提升状态时每次攻击必定致命一击（BOSS无效）；自身死亡时100%的概率浴火重生一次，浴火重生后抵挡下2次受到的攻击伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3318,
+      "url": "https://api.seerapi.com/v1/pet/3318/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      100,
+      1,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 929,
+      "url": "https://api.seerapi.com/v1/eid_effect/929/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "12e2e1e6"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 35336,
+  "name": "刹那山崩",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1010,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1010/"
+      }
+    },
+    {
+      "info": "吸取对手200点体力，对手≥2项技能PP值为零时额外吸取100点体力",
+      "args": [
+        200,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1723,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1723/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7d3b4fec"
+}

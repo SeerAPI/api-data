@@ -1,0 +1,46 @@
+{
+  "id": 36287,
+  "name": "严于律己",
+  "power": 70,
+  "max_pp": 25,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 797,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/797/"
+      }
+    },
+    {
+      "info": "命中后100%令对手沉默",
+      "args": [
+        100,
+        30
+      ],
+      "effect": {
+        "id": 756,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/756/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "307ec72e"
+}

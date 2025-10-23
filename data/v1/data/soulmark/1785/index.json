@@ -1,0 +1,38 @@
+{
+  "id": 1785,
+  "desc": "自身攻击命中后令对手所处的所有异常状态延长1回合，自身受到攻击后，玛奇和梅伊其中一人会对对手进行干扰，触发以下效果|玛奇：消除对手回合类效果并使对手烧伤|梅伊：消除对手能力提升状态并使对手冻伤 （boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后令对手所处的所有<b>异常状态</b>延长1回合\r\n<indent=16><sprite=3><indent=32>自身受到攻击后，马奇和梅伊分别有50%的概率对对手进行干扰，触发以下效果：\r\n<indent=32><sprite=4><indent=48>玛奇：<color=#64F9FA>消除</color>对手<b>回合类效果</b>并<color=#64F9FA>使对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>梅伊：<color=#64F9FA>消除</color>对手<b>能力提升状态</b>并<color=#64F9FA>使对手冻伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4577,
+      "url": "https://api.seerapi.com/v1/pet/4577/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 2180,
+      "url": "https://api.seerapi.com/v1/eid_effect/2180/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "56232cc1"
+}

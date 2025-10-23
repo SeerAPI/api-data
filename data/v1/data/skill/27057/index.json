@@ -1,0 +1,69 @@
+{
+  "id": 27057,
+  "name": "紫光电涌",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；受到攻击开始令对手害怕了；攻击造成的伤害开始不低于280了；开始免疫对手的先手技能了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "4回合内受到攻击则100%令对手害怕，未触发则令对手全属性-1",
+      "args": [
+        4,
+        100,
+        6,
+        1
+      ],
+      "effect": {
+        "id": 1322,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1322/"
+      }
+    },
+    {
+      "info": "下3回合，每回合攻击技能造成的伤害不少于280",
+      "args": [
+        3,
+        280
+      ],
+      "effect": {
+        "id": 871,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/871/"
+      }
+    },
+    {
+      "info": "下2回合若对手先出手，则令对手当回合使用的攻击技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 726,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/726/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c96ef893"
+}

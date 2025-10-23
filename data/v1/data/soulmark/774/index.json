@@ -1,0 +1,42 @@
+{
+  "id": 774,
+  "desc": "每次受到攻击伤害后反弹给对手250点固定伤害；先出手时当回合自身闪避率提升70%，后出手时自身攻击技能必定打出致命一击（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3458,
+      "url": "https://api.seerapi.com/v1/pet/3458/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      70,
+      1
+    ],
+    "effect": {
+      "id": 1057,
+      "url": "https://api.seerapi.com/v1/eid_effect/1057/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4724df9e"
+}

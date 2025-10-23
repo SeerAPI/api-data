@@ -1,0 +1,56 @@
+{
+  "id": 37612,
+  "name": "烈焰·高能射线 ",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 125,
+    "url": "https://api.seerapi.com/v1/element_type_combination/125/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，若对手不处于回合类效果则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1878,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1878/"
+      }
+    },
+    {
+      "info": "对手每处于一种异常状态造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 2073,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2073/"
+      }
+    },
+    {
+      "info": "对手不处于异常状态时对手2回合内体力恢复效果减少50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 2128,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2128/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6911590a"
+}

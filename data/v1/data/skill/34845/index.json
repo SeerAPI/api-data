@@ -1,0 +1,44 @@
+{
+  "id": 34845,
+  "name": "破冰之翼",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 43,
+    "url": "https://api.seerapi.com/v1/element_type_combination/43/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1232,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1232/"
+      }
+    },
+    {
+      "info": "将当回合护盾所承受的伤害值以百分比伤害的形式100%反弹给对手，若护盾未承受伤害值则使对手随机的1个技能PP值归零",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1560,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1560/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7a23743b"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 36165,
+  "name": "呼啸咒",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使敌我双方同时冻伤3回合",
+      "args": [
+        5,
+        3
+      ],
+      "effect": {
+        "id": 547,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/547/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2f6e8970"
+}

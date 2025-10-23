@@ -1,0 +1,35 @@
+{
+  "id": 34810,
+  "name": "凋零之触",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 114,
+    "url": "https://api.seerapi.com/v1/element_type_combination/114/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机附加烧伤、冻伤、中毒、害怕、疲惫、麻痹其中2种异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 549,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/549/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fa81f5e8"
+}

@@ -1,0 +1,44 @@
+{
+  "id": 28864,
+  "name": "妖异啸风",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "风包裹了战场",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "遇到天敌时100%令对手混乱",
+      "args": [
+        100,
+        10
+      ],
+      "effect": {
+        "id": 1488,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1488/"
+      }
+    },
+    {
+      "info": "若自身为对手天敌则对手下次使用的攻击技能必定MISS",
+      "args": [],
+      "effect": {
+        "id": 2029,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2029/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3d54f3f9"
+}

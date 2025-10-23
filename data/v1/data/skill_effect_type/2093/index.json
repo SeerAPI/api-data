@@ -1,0 +1,37 @@
+{
+  "id": 2093,
+  "args_num": 5,
+  "info": "{0}回合内使用技能吸取对手最大体力的1/{1}，自身体力低于1/{2}时效果翻倍，吸取后若对手体力未减少则{3}回合内对手{4}",
+  "info_formatting_adjustment": "{0}回合内使用技能吸取对手最大体力的1/{1}\r\n--><condition>自身体力低于</condition>1/{2}时效果翻倍\r\n-->吸取后<condition>若对手体力未减少</condition>则{3}回合内对手{4}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 4,
+      "param": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/23/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28535,
+      "url": "https://api.seerapi.com/v1/skill/28535/"
+    },
+    {
+      "id": 37879,
+      "url": "https://api.seerapi.com/v1/skill/37879/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850/"
+    },
+    {
+      "id": 45247,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/45247/"
+    }
+  ],
+  "hash": "7e397ce5"
+}

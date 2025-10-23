@@ -1,0 +1,33 @@
+{
+  "id": 335,
+  "desc": "若对手处于烧伤状态,则无法进行能力提升并且每回合{吸取}对手1/4最大{体力}",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2932,
+      "url": "https://api.seerapi.com/v1/pet/2932/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      4
+    ],
+    "effect": {
+      "id": 657,
+      "url": "https://api.seerapi.com/v1/eid_effect/657/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "24bdf5d7"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 37433,
+  "name": "悚颜",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 114,
+    "url": "https://api.seerapi.com/v1/element_type_combination/114/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除并附加给对手自身所处的异常状态，解除成功则对手1回合内技能命中效果失效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 2145,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2145/"
+      }
+    },
+    {
+      "info": "吸取并反转对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 978,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/978/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则自身下2次技能先制+2",
+      "args": [
+        300,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 1203,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1203/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "731bbb32"
+}

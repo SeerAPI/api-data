@@ -1,0 +1,33 @@
+{
+  "id": 510,
+  "desc": "自身攻击50%使对手冻伤，未触发则消除对手回合类效果（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3175,
+      "url": "https://api.seerapi.com/v1/pet/3175/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1
+    ],
+    "effect": {
+      "id": 810,
+      "url": "https://api.seerapi.com/v1/eid_effect/810/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f26db99e"
+}

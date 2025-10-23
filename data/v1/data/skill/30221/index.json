@@ -1,0 +1,45 @@
+{
+  "id": 30221,
+  "name": "龙傲九天",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 73,
+    "url": "https://api.seerapi.com/v1/element_type_combination/73/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则对手全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1009,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1009/"
+      }
+    },
+    {
+      "info": "若自身为满体力则技能威力提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 925,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/925/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d0e112a3"
+}

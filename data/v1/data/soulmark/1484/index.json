@@ -1,0 +1,44 @@
+{
+  "id": 1484,
+  "desc": "对手每次通过技能恢复体力时下回合自身有50%的概率免疫受到的攻击伤害，未触发则受到的攻击伤害减少50%；|自身每次恢复体力时（不包括使用药剂）下回合自身攻击技能额外先制+1且造成的攻击伤害提升50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次通过技能恢复体力时下回合自身有50%的概率<color=#64F9FA>抵挡</color>受到的<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>未触发则受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>自身每次通过技能恢复体力时下回合自身攻击技能<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4260,
+      "url": "https://api.seerapi.com/v1/pet/4260/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1847,
+      "url": "https://api.seerapi.com/v1/eid_effect/1847/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a5da499d"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 477,
+  "desc": "攻击技能有70%概率使对手随机进入一种异常状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3136,
+      "url": "https://api.seerapi.com/v1/pet/3136/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      1
+    ],
+    "effect": {
+      "id": 782,
+      "url": "https://api.seerapi.com/v1/eid_effect/782/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2969ddaf"
+}

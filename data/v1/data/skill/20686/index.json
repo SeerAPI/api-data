@@ -1,0 +1,46 @@
+{
+  "id": 20686,
+  "name": "爆燃",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "即将开始疯狂的进攻",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下1回合自身攻击技能必定打出致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    },
+    {
+      "info": "1回合攻击伤害是正常状态下的2倍",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 53,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/53/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b3fb6b3f"
+}

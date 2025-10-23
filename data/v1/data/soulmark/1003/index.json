@@ -1,0 +1,42 @@
+{
+  "id": 1003,
+  "desc": "使用攻击技能令对手随机进入烧伤、冻伤、中毒中的一种异常状态；回合开始时，若对手处于烧伤状态下则当回合所有技能先制-1，若对手处于冻伤状态下则战斗阶段结束时附加300点固定伤害，若对手处于中毒状态下则当回合自身攻击必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3728,
+      "url": "https://api.seerapi.com/v1/pet/3728/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1304,
+      "url": "https://api.seerapi.com/v1/eid_effect/1304/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fa26f09f"
+}

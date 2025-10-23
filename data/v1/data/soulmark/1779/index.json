@@ -1,0 +1,42 @@
+{
+  "id": 1779,
+  "desc": "自身每次进入异常状态时恢复自身所有技能PP值且下1次攻击技能先制+1，自身击败对手时，若双方任意一方处于异常状态则令对方下只精灵出战时麻痹|自身先制高于对手时当回合抵挡对手的攻击，自身先制不高于对手时当回合使用技能后令对手麻痹，未触发则下回合攻击技能必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次进入异常状态时，<color=#64F9FA>恢复</color>自身所有技能<b>PP值</b>，并且下一次攻击技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时，若双方任意一方处于<b>异常状态</b>，则令对方下只精灵出战时麻痹\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身先制高于对手时，当回合<color=#64F9FA>抵挡</color>对手的<b>攻击</b>\r\n<indent=16><sprite=3><indent=32>自身先制不高于对手时，当回合使用技能后<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合攻击技能必定<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4569,
+      "url": "https://api.seerapi.com/v1/pet/4569/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2172,
+      "url": "https://api.seerapi.com/v1/eid_effect/2172/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "14bc73d5"
+}

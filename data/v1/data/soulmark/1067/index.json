@@ -1,0 +1,46 @@
+{
+  "id": 1067,
+  "desc": "使用攻击技能{吸取}对手最大{体力}的20%，每次使用增加5%，最高30%；使用属性技能使自身下回合造成的伤害提升30%，每次使用增加10%，最高50%；自身被击败时消除对手能力提升状态，消除成功则100%令对手害怕，未触发则附加自身最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3791,
+      "url": "https://api.seerapi.com/v1/pet/3791/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      30,
+      30,
+      50,
+      100,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1366,
+      "url": "https://api.seerapi.com/v1/eid_effect/1366/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dd5536c4"
+}

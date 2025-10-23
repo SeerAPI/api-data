@@ -1,0 +1,48 @@
+{
+  "id": 31773,
+  "name": "巨石神兵阵",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 81,
+    "url": "https://api.seerapi.com/v1/element_type_combination/81/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身下2次攻击技能造成的伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1179,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1179/"
+      }
+    },
+    {
+      "info": "附加自身最大体力值20%的百分比伤害，连续使用每次增加5%，最高30%",
+      "args": [
+        20,
+        5,
+        30
+      ],
+      "effect": {
+        "id": 1155,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1155/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a5eaebf0"
+}

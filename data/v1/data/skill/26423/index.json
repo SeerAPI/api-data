@@ -1,0 +1,55 @@
+{
+  "id": 26423,
+  "name": "摩羯守护",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；对手使用攻击技能则陷入异常状态；自身打出致命的几率提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能则随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 559,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/559/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6a2f4b9b"
+}

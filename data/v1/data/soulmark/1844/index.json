@@ -1,0 +1,37 @@
+{
+  "id": 1844,
+  "desc": "战斗开始时己方获得星执：记录蓓丽安特的异常抗性的唯一最高项，己方精灵进入此记录的异常状态时转化为3回合星赐|蓓丽安特被击败时解放星执，消逝自身并化身为星执者，星执者的初始拥有等同于蓓丽安特本次登场时最大体力的能量，己方其他精灵被击败时，星执者额外获得300点能量，失去所有能量后星执者消失|星赐：附属类异常状态，该状态下的精灵造成的攻击伤害提升30%，每回合结束后恢复2点PP值|星执者：己方在场精灵进入异常状态时转化为3回合星赐；己方精灵每次使用技能后星执者消耗15%的能量以附加给对手等量真实伤害，每回合结束后星执者消耗15%的能量以恢复在场存活精灵等量体力，每次消耗的能量至少为150点|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时己方获得星执：\r\n<indent=32><sprite=4><indent=48>记录蓓丽安特的<b>异常抗性</b>的<b>唯一最高项</b>，星执存在期间己方精灵进入此记录的<b>异常状态</b>时<color=#64F9FA>转化</color>为3回合星赐\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>蓓丽安特被击败时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>解放</color><b>星执</b>，<color=#64F9FA>消逝</color><b>自身</b>并<color=#64F9FA>化身为</color><b>星执者</b>，星执者初始存有蓓丽安特本次登场时最大体力100%的<b>能量</b>\r\n<indent=16><sprite=3><indent=32>己方其他精灵被击败时，星执者获得300点能量\r\n\r\n<indent=0><sprite=5><indent=15>星执者：\r\n<indent=16><sprite=6><indent=32>将己方在场精灵进入的所有<b>异常状态</b><color=#64F9FA>转化</color>为星赐\r\n<indent=16><sprite=6><indent=32>己方在场精灵满足以下条件时将<color=#64F9FA>消耗</color>星执者存有的<b>能量</b>以触发对应效果，每次消耗的能量至少为150点\r\n<indent=32><sprite=4><indent=48>使用技能后星执者消耗15%的能量并<color=#64F9FA>造成</color>等量<b>真实伤害</b>\r\n<indent=32><sprite=4><indent=48>回合结束后星执者消耗15%的能量并为己方在场精灵<color=#64F9FA>恢复</color>等量<b>体力</b>\r\n<indent=16><sprite=6><indent=32>能量归0时星执者效果结束",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4643,
+      "url": "https://api.seerapi.com/v1/pet/4643/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2234,
+      "url": "https://api.seerapi.com/v1/eid_effect/2234/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7f4b5b4"
+}

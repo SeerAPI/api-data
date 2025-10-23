@@ -1,0 +1,47 @@
+{
+  "id": 1210,
+  "desc": "自身使用技能则25%令对手害怕、25%令对手疲惫、25%令对手流血、25%令对手束缚，均未触发则战斗阶段结束时附加对手最大体力1/3的百分比伤害；自身使用属性技能则{吸取}对手250点{体力}，若使用属性技能后体力低于对手则额外{吸取}100点{体力}（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能则：\r\n<indent=32><sprite=4><indent=48>25%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>25%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>25%<color=#64F9FA>令对手流血</color>\r\n<indent=32><sprite=4><indent=48>25%<color=#64F9FA>令对手束缚</color>\r\n<indent=32><sprite=4><indent=48>上述效果均未触发则当回合战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则<color=#64F9FA>吸取</color>对手250点<b>体力</b>，体力低于对手时效果提升100点",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3946,
+      "url": "https://api.seerapi.com/v1/pet/3946/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      25,
+      25,
+      25,
+      3,
+      250,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1544,
+      "url": "https://api.seerapi.com/v1/eid_effect/1544/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "602596fe"
+}

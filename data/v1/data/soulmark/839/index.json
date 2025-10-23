@@ -1,0 +1,46 @@
+{
+  "id": 839,
+  "desc": "回合开始时50%令对手全属性-1，未触发则当回合自身攻击技能先制+1；自身使用攻击技能50%概率使对手害 怕，每损失5%体力，害怕概率提升5%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3531,
+      "url": "https://api.seerapi.com/v1/pet/3531/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1,
+      50,
+      5,
+      5,
+      1
+    ],
+    "effect": {
+      "id": 1122,
+      "url": "https://api.seerapi.com/v1/eid_effect/1122/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b2e3075e"
+}

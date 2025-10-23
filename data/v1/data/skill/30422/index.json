@@ -1,0 +1,46 @@
+{
+  "id": 30422,
+  "name": "嗜血强袭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 35,
+    "url": "https://api.seerapi.com/v1/element_type_combination/35/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态，反转成功则对手下1回合技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1087,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1087/"
+      }
+    },
+    {
+      "info": "每损失1点体力则额外附加1点固定伤害",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 455,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/455/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ebb50f4d"
+}

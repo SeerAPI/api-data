@@ -1,0 +1,37 @@
+{
+  "id": 1826,
+  "desc": "每次出战时点燃烛并吸取对手所有技能2点PP值恢复至己方上只精灵，吸取后若对手因此损失的PP值不小于10则恢复双方全部PP值，小于10时使对手所有技能保留1点PP并烧伤，未触发则令对手所有技能PP值归1|每回合结束后若对手处于烧伤状态则熄灭烛，熄灭成功时将对手的烧伤转化为焚烬；烛点燃期间，对手PP值非0最低的技能先制效果失效，PP最高的技能命中效果失效，烛熄灭期间，自身PP值非0最低的技能无视对手能力提升与攻击免疫效果，PP最高的技能无视对手护盾且威力翻倍|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>出战效果：\r\n<indent=16><sprite=3><indent=32>每次出战时点燃烛并<color=#64F9FA>吸取</color>对手所有技能2点<b>PP值<color=#64F9FA></b>恢复至</color>己方上只精灵\r\n<indent=32><sprite=4><indent=48>吸取后若对手因此损失的PP值不小于10则<color=#64F9FA>恢复</color>双方全部<b>PP值</b>：\r\n<indent=32><sprite=4><indent=48>吸取后若对手因此损失的PP值小于10则使对手<b>所有技能</b><color=#64F9FA>保留</color>1点<b>PP</b>并烧伤\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则令对手<b>所有技能<color=#64F9FA></b>PP值归1</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=32><sprite=4><indent=48>回合结束后，若对手处于烧伤状态，则熄灭烛以将对手的烧伤<color=#64F9FA>转化</color>为焚烬\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>烛点燃期间：\r\n<indent=32><sprite=4><indent=48>对手PP值非0最低的技能<color=#64F9FA>先制效果失效</color>\r\n<indent=32><sprite=4><indent=48>对手PP最高的技能<color=#64F9FA>命中效果失效</color>\r\n<indent=16><sprite=3><indent=32>烛熄灭期间：\r\n<indent=32><sprite=4><indent=48>自身PP值非0最低的技能<color=#64F9FA>无视</color>对手<b>能力提升</b>与<b>攻击免疫效果</b>\r\n<indent=32><sprite=4><indent=48>自身PP最高的技能<color=#64F9FA>无视</color>对手<b>护盾</b>且<b>威力<color=#64F9FA></b>翻倍</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4620,
+      "url": "https://api.seerapi.com/v1/pet/4620/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2213,
+      "url": "https://api.seerapi.com/v1/eid_effect/2213/"
+    }
+  },
+  "tag": [
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5ccb23a2"
+}

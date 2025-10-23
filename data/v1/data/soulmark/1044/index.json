@@ -1,0 +1,39 @@
+{
+  "id": 1044,
+  "desc": "每个战斗阶段结束时随机令自身或对手损失最大体力的1/4；若自身损失体力则下回合自身攻击先制+1，若对手损失体力则下回合自身攻击50%令对手麻痹（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3761,
+      "url": "https://api.seerapi.com/v1/pet/3761/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      4,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1338,
+      "url": "https://api.seerapi.com/v1/eid_effect/1338/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b25ae3f"
+}

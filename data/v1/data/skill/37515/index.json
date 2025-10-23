@@ -1,0 +1,63 @@
+{
+  "id": 37515,
+  "name": "星澜",
+  "power": 90,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 123,
+    "url": "https://api.seerapi.com/v1/element_type_combination/123/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不少于400",
+      "args": [
+        400
+      ],
+      "effect": {
+        "id": 447,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/447/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则1回合内令对手使用的属性技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1056,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1056/"
+      }
+    },
+    {
+      "info": "自身星盘每转动1刻吸取对手30点体力，回返期间改为汲取体力",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 2209,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2209/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d7f40e59"
+}

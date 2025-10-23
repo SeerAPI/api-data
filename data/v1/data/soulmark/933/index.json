@@ -1,0 +1,37 @@
+{
+  "id": 933,
+  "desc": "自身攻击技能造成的伤害低于300则下2回合必定打出致命一击（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3641,
+      "url": "https://api.seerapi.com/v1/pet/3641/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      2
+    ],
+    "effect": {
+      "id": 1223,
+      "url": "https://api.seerapi.com/v1/eid_effect/1223/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "98746c4e"
+}

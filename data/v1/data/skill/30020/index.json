@@ -1,0 +1,45 @@
+{
+  "id": 30020,
+  "name": "生凛寒威冽",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态，反转成功则对手烧伤",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1054,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1054/"
+      }
+    },
+    {
+      "info": "自身处于能力下降时先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 747,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/747/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f3f73e89"
+}

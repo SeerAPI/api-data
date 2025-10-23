@@ -1,0 +1,68 @@
+{
+  "id": 36733,
+  "name": "花月鸟之梦",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 91,
+    "url": "https://api.seerapi.com/v1/element_type_combination/91/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1099,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1099/"
+      }
+    },
+    {
+      "info": "随机吸取对手200-300点体力，若自身处于能力提升状态则效果转变为300-400点",
+      "args": [
+        200,
+        300,
+        300,
+        400
+      ],
+      "effect": {
+        "id": 1694,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1694/"
+      }
+    },
+    {
+      "info": "未击败对手则恢复自身所有技能2点PP值",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1821,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1821/"
+      }
+    },
+    {
+      "info": "击败对手则令自身2回合内的能力提升状态无法被消除或吸取",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1960,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1960/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "85690232"
+}

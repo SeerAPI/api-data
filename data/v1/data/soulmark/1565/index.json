@@ -1,0 +1,44 @@
+{
+  "id": 1565,
+  "desc": "自身每次使用技能时为自身附加300点护盾（护盾无法叠加），每次使用攻击技能时若自身已经拥有护盾则无视对手速度能力提升状态且造成的攻击伤害提升100%，每次使用属性技能时若自身已经拥有护盾则70%令对手焚烬，未触发则100%令对手烧伤（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>每次使用技能时为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n<indent=16><sprite=3><indent=32>每次使用攻击技能时若自身已经拥有护盾则<color=#64F9FA>无视</color>对手速度<b>能力提升状态</b>且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=16><sprite=3><indent=32>每次使用属性技能时若自身已经拥有护盾则70%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手烧伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4339,
+      "url": "https://api.seerapi.com/v1/pet/4339/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      100,
+      70,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1924,
+      "url": "https://api.seerapi.com/v1/eid_effect/1924/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8d29ddd"
+}

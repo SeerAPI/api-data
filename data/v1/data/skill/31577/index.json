@@ -1,0 +1,44 @@
+{
+  "id": 31577,
+  "name": "天地尽灭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 224,
+    "url": "https://api.seerapi.com/v1/element_type_combination/224/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令对手害怕，未触发则吸取对手最大体力的1/3",
+      "args": [
+        6,
+        3
+      ],
+      "effect": {
+        "id": 1297,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1297/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则直接扣除对方场下随机一只精灵最大体力的1/4，致死时令其残留1点体力",
+      "args": [],
+      "effect": {
+        "id": 1298,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1298/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e184f4b8"
+}

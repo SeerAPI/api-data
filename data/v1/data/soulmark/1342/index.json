@@ -1,0 +1,47 @@
+{
+  "id": 1342,
+  "desc": "回合开始时，自身体力每损失1%则当回合攻击造成的伤害提升1%，若体力低于最大体力的1/2则转变为伤害提升2%；|自身攻击造成的伤害低于对手最大体力的1/3则战斗阶段结束时附加对手最大体力1/3的固定伤害，自身攻击造成的伤害高于对手最大体力的1/3则战斗阶段结束时恢复自身最大体力1/3的体力并造成等量固伤（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身体力每损失1%则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>1%\r\n<indent=32><sprite=4><indent=48>若体力低于最大体力的1/2则改为提升2%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害低于对手最大体力的1/3则战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害高于对手最大体力的1/3则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力1/3的体力并造成等量<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4109,
+      "url": "https://api.seerapi.com/v1/pet/4109/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "effect": {
+      "id": 1694,
+      "url": "https://api.seerapi.com/v1/eid_effect/1694/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8075c3a3"
+}

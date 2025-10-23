@@ -1,0 +1,53 @@
+{
+  "id": 38101,
+  "name": "极武棱杀",
+  "power": 110,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 129,
+    "url": "https://api.seerapi.com/v1/element_type_combination/129/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 697,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/697/"
+      }
+    },
+    {
+      "info": "未击败对手则下回合造成的伤害提升65%",
+      "args": [
+        65
+      ],
+      "effect": {
+        "id": 920,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/920/"
+      }
+    },
+    {
+      "info": "当回合击败对手则令对手下只登场精灵随机5个技能PP值归零",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 1663,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1663/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "777480b3"
+}

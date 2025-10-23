@@ -1,0 +1,48 @@
+{
+  "id": 36174,
+  "name": "秘斧击",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 109,
+    "url": "https://api.seerapi.com/v1/element_type_combination/109/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    },
+    {
+      "info": "30%令对方命中等级-1；若先出手，则50%使对方命中等级-2",
+      "args": [
+        5,
+        30,
+        -1,
+        5,
+        50,
+        -2
+      ],
+      "effect": {
+        "id": 196,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/196/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7ba0c604"
+}

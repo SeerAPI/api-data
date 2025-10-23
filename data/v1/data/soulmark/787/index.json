@@ -1,0 +1,42 @@
+{
+  "id": 787,
+  "desc": "自身被击败时消除对手能力提升状态，消除成功则对手害怕；每次击败对手后自身下1次受到致命攻击时残留1点血，残留1点血的同时消除对手回合类效果并吸取对手能力提升状态（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3474,
+      "url": "https://api.seerapi.com/v1/pet/3474/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1069,
+      "url": "https://api.seerapi.com/v1/eid_effect/1069/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "38e0886e"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 28053,
+  "name": "元素幻影",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始闪避对手的攻击了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内对手所有攻击必定MISS，必中技能有效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 432,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/432/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a43e8820"
+}

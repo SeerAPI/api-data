@@ -1,0 +1,45 @@
+{
+  "id": 26976,
+  "name": "汲存八荒",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 97,
+  "crit_rate": null,
+  "priority": 1,
+  "must_hit": true,
+  "info": "牺牲自己，削减对手一些体力上限",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 222,
+    "url": "https://api.seerapi.com/v1/element_type_combination/222/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手随机2项技能的PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 583,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/583/"
+      }
+    },
+    {
+      "info": "消耗自身所有体力，削减对手本场战斗中80点体力上限",
+      "args": [
+        80
+      ],
+      "effect": {
+        "id": 1518,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1518/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "516cf954"
+}

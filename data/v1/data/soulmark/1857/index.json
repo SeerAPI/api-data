@@ -1,0 +1,43 @@
+{
+  "id": 1857,
+  "desc": "登场后获得50%的攻击伤害、固定伤害、百分比伤害减免，自身每次使用属性技能时依次使三种伤害减免中的一种转变为对应的造成伤害增加|对手使用技能后，若本次在场未触发过转变则自身所处异常状态回合数-1；回合结束后，若本次在场触发过转变则恢复200点体力；被击败后，若本次在场已触发全部转变则令对手瘫痪（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>登场后<color=#64F9FA>减少</color>50%受到的<b>攻击伤害、固定伤害、百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>每次使用属性技能时使三种受到伤害减免中的前一种<color=#64F9FA>转变</color>为对应的<b>造成伤害增加</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能后，若本次在场未触发过转变则自身所处异常状态<b>回合数<color=#64F9FA></b>-1</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，若本次在场触发过转变则<color=#64F9FA>恢复</color>200点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后，若本次在场已触发全部转变则<color=#64F9FA>令对手瘫痪</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4655,
+      "url": "https://api.seerapi.com/v1/pet/4655/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 2253,
+      "url": "https://api.seerapi.com/v1/eid_effect/2253/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "37453371"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 36553,
+  "name": "缘尽·鬼神散",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 115,
+    "url": "https://api.seerapi.com/v1/element_type_combination/115/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "己方场下每死亡一只精灵则造成的攻击伤害提升20%",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 1934,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1934/"
+      }
+    },
+    {
+      "info": "对方场下每死亡一只精灵则附加给对手100点固定伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1972,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1972/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a74b9814"
+}

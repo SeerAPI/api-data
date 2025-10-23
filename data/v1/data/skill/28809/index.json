@@ -1,0 +1,71 @@
+{
+  "id": 28809,
+  "name": "魂劫骇咒",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；开始吸取对手的体力了；出手变得更快了；为对手附加了蚩庸之锁",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，对手处于能力下降状态时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1338,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1338/"
+      }
+    },
+    {
+      "info": "4回合内使用技能吸取对手最大体力的1/3，自身体力低于1/2时效果翻倍，吸取后若对手体力未减少则为己方所有场下存活精灵恢复200点体力",
+      "args": [
+        4,
+        3,
+        2,
+        200
+      ],
+      "effect": {
+        "id": 2076,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2076/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    },
+    {
+      "info": "为对手附加1层蚩庸之锁，若附加的蚩庸之锁超出了上限则对手下2回合先制-1",
+      "args": [
+        1,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 2211,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2211/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "879135f1"
+}

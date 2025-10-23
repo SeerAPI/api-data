@@ -1,0 +1,47 @@
+{
+  "id": 752,
+  "desc": "[进攻效果]:|自身使用技能时造成的攻击伤害提高50%，若使用技能时自身体力低于对手则造成的攻击伤害额外提高25%，同时{吸取}对手200点{体力}（boss有效）；|[固伤效果]:|自身若使用攻击技能则当回合无视对手能力提升状态（该效果为回合类效果）且有50%概率附加造成攻击伤害50%的百分比伤害（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用技能时：\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，体力低于对手时效果提升25%\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>吸取</color>对手200点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>以回合类效果形式令自身1回合内<color=#64F9FA>无视</color>对手的<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>当回合50%<color=#64F9FA>附加</color>造成攻击伤害50%的<b>百分比伤害</b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3437,
+      "url": "https://api.seerapi.com/v1/pet/3437/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      25,
+      200,
+      50,
+      50
+    ],
+    "effect": {
+      "id": 1035,
+      "url": "https://api.seerapi.com/v1/eid_effect/1035/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1209,
+    "url": "https://api.seerapi.com/v1/soulmark/1209/"
+  },
+  "from": null,
+  "hash": "243e38ea"
+}

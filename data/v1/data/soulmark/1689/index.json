@@ -1,0 +1,44 @@
+{
+  "id": 1689,
+  "desc": "回合开始时随机令对手2项能力值-1，然后若对手处于全能力下降状态则消除对手回合类效果并令对手冻伤；|自身攻击技能命中则造成攻击伤害前，若对手处于冻伤状态80%令对手冰封，若对手不处于冻伤状态本次攻击造成的伤害提升50%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时随机令对手2项能力值-1\r\n<indent=32><sprite=4><indent=48>然后若对手处于全能力下降状态则<color=#64F9FA>消除</color>对手回合类效果并<color=#64F9FA>令对手冻伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能命中效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中时：\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤状态则80%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于冻伤状态则本次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4479,
+      "url": "https://api.seerapi.com/v1/pet/4479/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      80,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 2074,
+      "url": "https://api.seerapi.com/v1/eid_effect/2074/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "37bc5664"
+}

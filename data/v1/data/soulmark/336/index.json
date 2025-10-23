@@ -1,0 +1,37 @@
+{
+  "id": 336,
+  "desc": "攻击时有20%概率使对手瘫痪,每降低50点体力概率提升5%,最高50%;",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2940,
+      "url": "https://api.seerapi.com/v1/pet/2940/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      20,
+      19,
+      50,
+      5,
+      50
+    ],
+    "effect": {
+      "id": 662,
+      "url": "https://api.seerapi.com/v1/eid_effect/662/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a5e2dd8f"
+}

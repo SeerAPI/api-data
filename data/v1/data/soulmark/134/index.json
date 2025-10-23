@@ -1,0 +1,39 @@
+{
+  "id": 134,
+  "desc": "当回合若自身处于烧伤状态，则自身造成的伤害提升50%;|当回合若对手处于烧伤状态，则当回合结束后自身恢复1/3最大HP",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2739,
+      "url": "https://api.seerapi.com/v1/pet/2739/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      2,
+      3
+    ],
+    "effect": {
+      "id": 355,
+      "url": "https://api.seerapi.com/v1/eid_effect/355/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f0e0f830"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 34732,
+  "name": "凌波清韵绝",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/868/"
+      }
+    },
+    {
+      "info": "若对手是雄性则造成伤害提升50%,若对手不是雄性，则有50%概率使对手冰封",
+      "args": [
+        1,
+        50,
+        50,
+        15
+      ],
+      "effect": {
+        "id": 600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/600/"
+      }
+    },
+    {
+      "info": "若未击败对手则下2回合攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 582,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/582/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5373a2a0"
+}

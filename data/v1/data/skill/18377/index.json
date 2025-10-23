@@ -1,0 +1,35 @@
+{
+  "id": 18377,
+  "name": "暗影锥",
+  "power": 80,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手冻伤，技能威力翻倍",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 609,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/609/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e73c4ef6"
+}

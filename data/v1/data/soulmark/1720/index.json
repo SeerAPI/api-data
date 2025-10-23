@@ -1,0 +1,41 @@
+{
+  "id": 1720,
+  "desc": "每次登场时恢复自身最大体力的1/3，若登场时自身为满体力则恢复体力效果转变为2回合内免疫受到的异常状态；|自身使用攻击技能后，若造成的攻击伤害低于250则下回合自身攻击技能造成的伤害提升100%且使用后100%令对手瘫痪，若造成的攻击伤害不低于250则下回合自身攻击技能先制+1且使用后{吸取}对手250点{体力}|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时：\r\n<indent=32><sprite=4><indent=48>若自身体力未满则<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若自身为满体力则2回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后：\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害低于250则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%且使用后100%<color=#64F9FA>令对手瘫痪</color>\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害不低于250则下回合自身攻击技能<b>先制</b>+1且使用后<color=#64F9FA>吸取</color>对手250点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4507,
+      "url": "https://api.seerapi.com/v1/pet/4507/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2112,
+      "url": "https://api.seerapi.com/v1/eid_effect/2112/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ab990f77"
+}

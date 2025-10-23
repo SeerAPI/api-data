@@ -1,0 +1,43 @@
+{
+  "id": 1898,
+  "desc": "自身攻击技能命中后100%令对手失明，自身属性技能命中后100%令对手失神，上述效果附加异常状态前，若对手处于异常状态且自身所使用技能PP值为满，则上述效果均改为将对手所处异常状态转化为睡眠|每回合结束后恢复自身350点体力，若自身体力低于最大体力的1/2则额外使下回合自身所有技能先制+1，若自身体力高于最大体力的1/2则额外使下回合自身使用技能时附加350点固定伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身技能命中后，若对手不处于异常状态，则：\r\n<indent=32><sprite=4><indent=48>所使用的技能为攻击技能则100%<color=#64F9FA>令对手失明</color>，所使用的技能为属性技能则100%<color=#64F9FA>令对手失神</color>\r\n<indent=16><sprite=3><indent=32>自身技能命中后，若对手处于异常状态且自身所使用技能PP值为满，则将对手所处异常状态<color=#64F9FA>转化</color>为睡眠\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>每回合结束后<color=#64F9FA>恢复</color>自身350点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则额外使下回合自身所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则额外使下回合自身使用技能时<color=#64F9FA>附加</color>350点<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4697,
+      "url": "https://api.seerapi.com/v1/pet/4697/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      100,
+      350,
+      1
+    ],
+    "effect": {
+      "id": 2298,
+      "url": "https://api.seerapi.com/v1/eid_effect/2298/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3f4fa1cb"
+}

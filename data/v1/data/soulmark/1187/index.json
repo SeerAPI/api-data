@@ -1,0 +1,40 @@
+{
+  "id": 1187,
+  "desc": "每次登场首回合使用攻击100%打出致命一击，之后每回合致命一击概率降低20%；每次登场首回合受到攻击附加给对手自身最大体力的50%的固定伤害，之后每回合固定伤害效果降低10%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场首回合使用攻击100%<color=#64F9FA>打出致命一击</color>，之后每回合概率降低20%\r\n<indent=16><sprite=3><indent=32>登场首回合受到攻击<color=#64F9FA>附加</color>自身最大体力的50%的<b>百分比伤害</b>，之后每回合效果降低10%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3922,
+      "url": "https://api.seerapi.com/v1/pet/3922/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      20,
+      50,
+      10,
+      1
+    ],
+    "effect": {
+      "id": 1515,
+      "url": "https://api.seerapi.com/v1/eid_effect/1515/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4881a122"
+}

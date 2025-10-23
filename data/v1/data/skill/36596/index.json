@@ -1,0 +1,35 @@
+{
+  "id": 36596,
+  "name": "解析模组",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内使自身的属性和对方的属性相同",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/56/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8bd93ef2"
+}

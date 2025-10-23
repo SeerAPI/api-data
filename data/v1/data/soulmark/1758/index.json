@@ -1,0 +1,44 @@
+{
+  "id": 1758,
+  "desc": "对手每次受到攻击伤害后100%令对手冻伤，每次受到固定伤害、百分比伤害后随机一项能力等级-1；|战斗阶段结束时若对手处于异常状态则自身下回合造成的攻击伤害提升60%，若对手处于能力下降状态则自身吸取对手最大体力的1/3（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次受到攻击伤害后100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=16><sprite=3><indent=32>对手每次受到固定伤害、百分比伤害后随机一项能力等级-1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则下回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>60%\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4549,
+      "url": "https://api.seerapi.com/v1/pet/4549/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      1,
+      60,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2154,
+      "url": "https://api.seerapi.com/v1/eid_effect/2154/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2729ff8d"
+}

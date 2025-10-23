@@ -1,0 +1,36 @@
+{
+  "id": 37200,
+  "name": "散魂之蛊",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身体力高于最大体力的1/2时攻击后附加造成伤害值30%的百分比伤害",
+      "args": [
+        2,
+        30
+      ],
+      "effect": {
+        "id": 1553,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1553/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "58771b3f"
+}

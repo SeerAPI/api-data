@@ -1,0 +1,38 @@
+{
+  "id": 1116,
+  "desc": "增加100点体力上限；回合开始时，自身体力高于对手则当回合攻击50%的概率打出致命一击，自身体力低于对手则当回合攻击25%的概率打出致命一击（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>增加</color>自身100点<b>体力上限</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>自身体力高于对手则当回合攻击50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>自身体力低于对手则当回合攻击25%<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3843,
+      "url": "https://api.seerapi.com/v1/pet/3843/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      50,
+      25
+    ],
+    "effect": {
+      "id": 1431,
+      "url": "https://api.seerapi.com/v1/eid_effect/1431/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "83d61ad7"
+}

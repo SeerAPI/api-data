@@ -1,0 +1,36 @@
+{
+  "id": 11351,
+  "name": "奋力一搏",
+  "power": 110,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身HP小于1/4时威力为2倍",
+      "args": [
+        4,
+        2
+      ],
+      "effect": {
+        "id": 37,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/37/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ed2afbae"
+}

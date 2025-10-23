@@ -1,0 +1,37 @@
+{
+  "id": 1878,
+  "desc": "每次登场后，对手2回合内属性技能无效，攻击技能无法附加异常状态与能力下降状态，若登场当回合对手未选择技能则回合结束后为对手附加2道蚩庸之锁|对手每次使用技能时随机2项能力等级-1，未触发则自身当回合受到的攻击伤害、固定伤害、百分比伤害减少50%，然后若本次技能为攻击技能则自身下回合所有技能先制+1且必定命中，若本次技能为属性技能则附加对手最大体力1/3的百分比伤害且对手下次受到的攻击伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场后：\r\n<indent=32><sprite=4><indent=48>对手2回合内<b>属性技能<color=#64F9FA></b>无效</color>，<b>攻击技能<color=#64F9FA></b>无法附加</color><b>异常状态</b>与<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>若登场当回合对手未选择技能，则额外为对手附加2层<b>蚩庸之锁</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次使用技能时随机2项能力等级-1，未触发则当回合受到的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>减少</color>50%，然后：\r\n<indent=32><sprite=4><indent=48>若本次技能为攻击技能则下回合所有技能<b>先制</b>+1且<color=#64F9FA>必定命中</color>\r\n<indent=32><sprite=4><indent=48>若本次技能为属性技能则<color=#64F9FA>附加</color>对手最大体力的1/3的<b>百分比伤害</b>且对手下次受到的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n\r\n<indent=0><sprite=5><indent=15>蚩庸之锁（上限3层）：\r\n<indent=16><sprite=6><indent=32>米斯蒂克在场时，每有1层自身<color=#64F9FA>视为<b></color>命中等级</b>-1\r\n<indent=16><sprite=6><indent=32>米斯蒂克不在场时：\r\n<indent=32><sprite=4><indent=48>每回合减少1层\r\n<indent=32><sprite=4><indent=48>直到消失为止自身<b>属性技能<color=#64F9FA></b>无效</color>且<b>攻击技能</b><color=#64F9FA>无法附加异常状态</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4676,
+      "url": "https://api.seerapi.com/v1/pet/4676/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2268,
+      "url": "https://api.seerapi.com/v1/eid_effect/2268/"
+    }
+  },
+  "tag": [
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a20fc817"
+}

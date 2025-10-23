@@ -1,0 +1,34 @@
+{
+  "id": 435,
+  "desc": "每次攻击时都有60%概率使对手烧伤。战斗阶段结束时若对手处于异常状态，则自身回复200点血（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3093,
+      "url": "https://api.seerapi.com/v1/pet/3093/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      60,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 755,
+      "url": "https://api.seerapi.com/v1/eid_effect/755/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a364eef1"
+}

@@ -1,0 +1,59 @@
+{
+  "id": 37048,
+  "name": "高效决断",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/element_type_combination/7/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若当前体力低于对手则先制+1",
+      "args": [],
+      "effect": {
+        "id": 954,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/954/"
+      }
+    },
+    {
+      "info": "连续使用每次威力增加40，最高威力200",
+      "args": [
+        40,
+        200
+      ],
+      "effect": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/9/"
+      }
+    },
+    {
+      "info": "自身下次被击败后下一只出场的精灵防御",
+      "args": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "effect": {
+        "id": 1319,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1319/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8c320e3e"
+}

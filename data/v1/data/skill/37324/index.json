@@ -1,0 +1,45 @@
+{
+  "id": 37324,
+  "name": "幻明光引术",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1199/"
+      }
+    },
+    {
+      "info": "自身每处于一种能力提升状态，此技能威力提升10",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 882,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/882/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "471b4064"
+}

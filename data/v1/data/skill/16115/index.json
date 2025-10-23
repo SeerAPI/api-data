@@ -1,0 +1,37 @@
+{
+  "id": 16115,
+  "name": "光之翼",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 32,
+    "url": "https://api.seerapi.com/v1/element_type_combination/32/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加自身的攻击值的15%的百分比伤害",
+      "args": [
+        0,
+        0,
+        15
+      ],
+      "effect": {
+        "id": 593,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/593/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dd41e1f4"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 1053,
+  "desc": "回合开始时，若对手不处于能力下降状态则当回合自身攻击技能令对手速度-2、命中-2，若对手处于能力下降状态则当回合自身攻击技能50%令对手冰封（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3775,
+      "url": "https://api.seerapi.com/v1/pet/3775/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1352,
+      "url": "https://api.seerapi.com/v1/eid_effect/1352/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ef32e258"
+}

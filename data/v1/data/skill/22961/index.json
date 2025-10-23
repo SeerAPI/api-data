@@ -1,0 +1,41 @@
+{
+  "id": 22961,
+  "name": "火焰战魂",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "特攻、防御、特防、速度提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身防御+1、特攻+1、特防+1、速度+1，对手烧伤时强化效果翻倍",
+      "args": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "effect": {
+        "id": 562,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/562/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "748abe95"
+}

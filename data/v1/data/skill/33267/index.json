@@ -1,0 +1,43 @@
+{
+  "id": 33267,
+  "name": "春风化雨",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 931,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/931/"
+      }
+    },
+    {
+      "info": "若打出致命一击则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 496,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/496/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "637ed5f0"
+}

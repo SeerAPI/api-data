@@ -1,0 +1,55 @@
+{
+  "id": 34244,
+  "name": "绝世·青虹",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/781/"
+      }
+    },
+    {
+      "info": "解除自身能力下降状态，解除成功则使对手随机2个技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1441,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1441/"
+      }
+    },
+    {
+      "info": "自己出手时若自身体力高于对手则造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1360,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1360/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a87c4f72"
+}

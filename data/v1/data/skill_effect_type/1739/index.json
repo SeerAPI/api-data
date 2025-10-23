@@ -1,0 +1,29 @@
+{
+  "id": 1739,
+  "args_num": 4,
+  "info": "解放自身所有的图腾庇护并获得英魂的祝福：解放贤之庇护时，{0}回合内对手属性技能命中效果失效，解放威之庇护时，{1}回合内对手攻击技能命中效果失效，解放霸之庇护时，清除对手{2}个技能PP，若自身无图腾庇护可解放，则消除对手回合类效果，消除成功恢复自身最大体力的1/{3}",
+  "info_formatting_adjustment": "解放自身所有的图腾庇护并获得英魂的祝福：\r\n--><condition>解放贤之庇护时</condition>，{0}回合内对手属性技能附加效果失效\r\n--><condition>解放威之庇护时</condition>，{1}回合内对手攻击技能附加效果失效\r\n--><condition>解放霸之庇护时</condition>，清除对手{2}个技能PP\r\n--><condition>若自身无图腾庇护可解放</condition>，则消除对手回合类效果\r\n--->消除成功恢复自身最大体力的1/{3}",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 35442,
+      "url": "https://api.seerapi.com/v1/skill/35442/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    },
+    {
+      "id": 46440,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/46440/"
+    },
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    }
+  ],
+  "hash": "c3033d7b"
+}

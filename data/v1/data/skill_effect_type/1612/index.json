@@ -1,0 +1,57 @@
+{
+  "id": 1612,
+  "args_num": 5,
+  "info": "{0}回合内受到的伤害低于{1}时{2}%令对手{3}，未触发则附加{4}点固定伤害",
+  "info_formatting_adjustment": "{0}回合内<condition>受到的伤害低于{1}时</condition>{2}%令对手{3}\r\n--><condition>未触发</condition>则附加{4}点固定伤害",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 27296,
+      "url": "https://api.seerapi.com/v1/skill/27296/"
+    },
+    {
+      "id": 27557,
+      "url": "https://api.seerapi.com/v1/skill/27557/"
+    },
+    {
+      "id": 27663,
+      "url": "https://api.seerapi.com/v1/skill/27663/"
+    },
+    {
+      "id": 27713,
+      "url": "https://api.seerapi.com/v1/skill/27713/"
+    },
+    {
+      "id": 27830,
+      "url": "https://api.seerapi.com/v1/skill/27830/"
+    },
+    {
+      "id": 28625,
+      "url": "https://api.seerapi.com/v1/skill/28625/"
+    },
+    {
+      "id": 36929,
+      "url": "https://api.seerapi.com/v1/skill/36929/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "84a1c915"
+}

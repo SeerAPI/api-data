@@ -1,0 +1,46 @@
+{
+  "id": 32976,
+  "name": "冰霸霸之拳",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 905,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/905/"
+      }
+    },
+    {
+      "info": "附加200点固定伤害，对手冻伤时固定伤害翻倍",
+      "args": [
+        200,
+        5
+      ],
+      "effect": {
+        "id": 987,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/987/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ee11933c"
+}

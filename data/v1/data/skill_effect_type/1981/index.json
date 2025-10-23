@@ -1,0 +1,37 @@
+{
+  "id": 1981,
+  "args_num": 2,
+  "info": "若对手处于{0}状态则{1}回合内攻击技能无法造成伤害且命中效果失效",
+  "info_formatting_adjustment": null,
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 36579,
+      "url": "https://api.seerapi.com/v1/skill/36579/"
+    },
+    {
+      "id": 36663,
+      "url": "https://api.seerapi.com/v1/skill/36663/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 52161,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/52161/"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "4c9b927e"
+}

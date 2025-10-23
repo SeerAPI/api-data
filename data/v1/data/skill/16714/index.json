@@ -1,0 +1,36 @@
+{
+  "id": 16714,
+  "name": "奇客击杀",
+  "power": 90,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%概率先制+2",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 482,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/482/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "577d0bbb"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 17898,
+  "name": "雷龙群舞",
+  "power": 80,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 35,
+    "url": "https://api.seerapi.com/v1/element_type_combination/35/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/781/"
+      }
+    },
+    {
+      "info": "2回合内每回合被攻击所受到的伤害不超过250",
+      "args": [
+        2,
+        250
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d3969ca"
+}

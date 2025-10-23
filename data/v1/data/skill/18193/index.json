@@ -1,0 +1,48 @@
+{
+  "id": 18193,
+  "name": "红莲狂舞诀",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手处于烧伤状态时，威力翻倍",
+      "args": [],
+      "effect": {
+        "id": 96,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/96/"
+      }
+    },
+    {
+      "info": "当次攻击击败对手，则自身特攻",
+      "args": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "effect": {
+        "id": 650,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/650/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "aa0164f5"
+}

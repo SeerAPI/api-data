@@ -1,0 +1,60 @@
+{
+  "id": 19316,
+  "name": "光斩恶灵",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 64,
+    "url": "https://api.seerapi.com/v1/element_type_combination/64/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手防御等级-2",
+      "args": [
+        1,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手特防等级-2",
+      "args": [
+        3,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "随机恢复200到300点生命值",
+      "args": [
+        200,
+        300
+      ],
+      "effect": {
+        "id": 450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/450/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4f9b3d73"
+}

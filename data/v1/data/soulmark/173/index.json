@@ -1,0 +1,35 @@
+{
+  "id": 173,
+  "desc": "每次使用攻击技能有10%概率使对手害怕（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2821,
+      "url": "https://api.seerapi.com/v1/pet/2821/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      10,
+      6
+    ],
+    "effect": {
+      "id": 395,
+      "url": "https://api.seerapi.com/v1/eid_effect/395/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b618e784"
+}

@@ -1,0 +1,49 @@
+{
+  "id": 18157,
+  "name": "狂风暴雪",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手防御等级-1",
+      "args": [
+        1,
+        100,
+        -1
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手特防等级-1",
+      "args": [
+        3,
+        100,
+        -1
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a39d0a70"
+}

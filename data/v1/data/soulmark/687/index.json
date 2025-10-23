@@ -1,0 +1,35 @@
+{
+  "id": 687,
+  "desc": "自身攻击技能有30%概率使对手失明2回合",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3369,
+      "url": "https://api.seerapi.com/v1/pet/3369/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      30,
+      20
+    ],
+    "effect": {
+      "id": 358,
+      "url": "https://api.seerapi.com/v1/eid_effect/358/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f879e4eb"
+}

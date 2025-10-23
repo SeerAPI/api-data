@@ -1,0 +1,36 @@
+{
+  "id": 17565,
+  "name": "遮天巨叶",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内对手造成的伤害降低50%",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 491,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/491/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d283c5d0"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 395,
+  "desc": "[减伤效果]:|满体力时受到的伤害降低75%,体力每降低10%,减伤效果降低15%;|[触发效果]:|每回合开始时若自身体力高于对手则免疫异常状态;若自身体力低于对手则战斗阶段结束时恢复最大HP的1/3",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>满体力时，受到的<b>攻击伤害</b><color=#64F9FA>额外减少</color>75%，体力每降低10%，减伤效果都降低15%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>若自身体力高于对手，则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>若自身体力低于对手，则当回合战斗阶段结束时<color=#64F9FA>恢复</color>最大体力的1/3",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3022,
+      "url": "https://api.seerapi.com/v1/pet/3022/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      75,
+      10,
+      15,
+      3
+    ],
+    "effect": {
+      "id": 715,
+      "url": "https://api.seerapi.com/v1/eid_effect/715/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": {
+    "id": 396,
+    "url": "https://api.seerapi.com/v1/soulmark/396/"
+  },
+  "from": null,
+  "hash": "a0c161ac"
+}

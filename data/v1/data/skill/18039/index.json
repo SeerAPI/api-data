@@ -1,0 +1,46 @@
+{
+  "id": 18039,
+  "name": "月神之刃",
+  "power": 80,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手使用属性技能，则自身恢复1/3最大体力值",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 187,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/187/"
+      }
+    },
+    {
+      "info": "附加对手防御值30%的百分比伤害",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 459,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/459/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "97193ca1"
+}

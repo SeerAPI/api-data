@@ -1,0 +1,45 @@
+{
+  "id": 37388,
+  "name": "星光·音速火拳",
+  "power": 90,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功使对手下回合先制-3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 867,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/867/"
+      }
+    },
+    {
+      "info": "50%的概率造成伤害翻倍，对手处于能力下降状态时概率翻倍",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1481/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d8aeba5a"
+}

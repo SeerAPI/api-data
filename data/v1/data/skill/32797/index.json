@@ -1,0 +1,33 @@
+{
+  "id": 32797,
+  "name": "流光弹奏",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力提升状态则先制+2",
+      "args": [],
+      "effect": {
+        "id": 779,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/779/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bdc840c5"
+}

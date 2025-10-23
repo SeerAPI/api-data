@@ -1,0 +1,60 @@
+{
+  "id": 27985,
+  "name": "星域逆流",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；开始有一定概率令对手冰封了；对手切换精灵则令登场精灵进入异常状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能80%令对手冰封，未触发则吸取对手最大体力的1/3",
+      "args": [
+        3,
+        80,
+        15,
+        3
+      ],
+      "effect": {
+        "id": 1814,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1814/"
+      }
+    },
+    {
+      "info": "3回合内对手主动切换精灵则回合开始后100%随机附加1种异常状态",
+      "args": [
+        3,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1510,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1510/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4cf7d9b9"
+}

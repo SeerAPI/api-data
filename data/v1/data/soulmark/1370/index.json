@@ -1,0 +1,42 @@
+{
+  "id": 1370,
+  "desc": "自身能力提升状态被消除则100%令对手烧伤，未触发则消除对手回合类效果且100%令对手疲惫；回合开始时，若对手处于烧伤状态且自身先出手则免疫当回合受到的攻击伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身能力提升状态被消除则100%<color=#64F9FA>令对手烧伤</color>\r\n未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>且100%<color=#64F9FA>令对手疲惫</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于烧伤状态且自身先出手则<color=#64F9FA>抵挡</color>当回合受到的<b>攻击</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4140,
+      "url": "https://api.seerapi.com/v1/pet/4140/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1731,
+      "url": "https://api.seerapi.com/v1/eid_effect/1731/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6582631b"
+}

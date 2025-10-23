@@ -1,0 +1,68 @@
+{
+  "id": 27021,
+  "name": "神之宣告",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "星之神谕觉醒，宣告胜利之令；全属性都提升了；开始吸取对手的体力了；抵抗固定伤害和百分比伤害的能力提升了；自身回合类效果开始无法被消除",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，对手存在神印时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1536,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1536/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "args": [
+        4,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 971,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/971/"
+      }
+    },
+    {
+      "info": "3回合内自身受到的固定伤害和百分比伤害减少30%",
+      "args": [
+        3,
+        30
+      ],
+      "effect": {
+        "id": 1475,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1475/"
+      }
+    },
+    {
+      "info": "2回合内自身的回合类效果无法被消除，后出手时回合数+1",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 821,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/821/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b9c4eb99"
+}

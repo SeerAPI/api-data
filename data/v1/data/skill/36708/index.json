@@ -1,0 +1,56 @@
+{
+  "id": 36708,
+  "name": "天威圣戟",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 942,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/942/"
+      }
+    },
+    {
+      "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和50%的百分比伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1828/"
+      }
+    },
+    {
+      "info": "对手下1次主动切换或死亡切换精灵时，在场精灵吸取对手下只出场精灵最大体力的1/3",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1779,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1779/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b240341"
+}

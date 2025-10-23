@@ -1,0 +1,41 @@
+{
+  "id": 941,
+  "desc": "回合开始时，若自身体力低于对手则为自身附加300点护盾，若自身体力高于对手则所有技能附加300点固定伤害（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3658,
+      "url": "https://api.seerapi.com/v1/pet/3658/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      300
+    ],
+    "effect": {
+      "id": 1232,
+      "url": "https://api.seerapi.com/v1/eid_effect/1232/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ace32627"
+}

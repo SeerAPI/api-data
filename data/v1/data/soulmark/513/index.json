@@ -1,0 +1,39 @@
+{
+  "id": 513,
+  "desc": "自身满体力时先制+2；每次使用攻击技能使对手下只出场精灵最大体力减少1/6，最多减少2/3（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3183,
+      "url": "https://api.seerapi.com/v1/pet/3183/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      6,
+      4,
+      1
+    ],
+    "effect": {
+      "id": 815,
+      "url": "https://api.seerapi.com/v1/eid_effect/815/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "36d03230"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 12430,
+  "name": "斗魂烈爪",
+  "power": 70,
+  "max_pp": 25,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "10%概率额外附加50点固定伤害",
+      "args": [
+        10,
+        50
+      ],
+      "effect": {
+        "id": 93,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/93/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1127b76d"
+}

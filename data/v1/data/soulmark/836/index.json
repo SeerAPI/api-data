@@ -1,0 +1,47 @@
+{
+  "id": 836,
+  "desc": "回合开始时若自身体力低于最大体力的1/2，则当回合自身使用攻击技能时{吸取}对手最大{体力}的1/3；回合开始时若自身体力高于最大体力的1/2，则当回合自身属性技能先制+1且受到的攻击伤害减少35%，若回合开始时自身为满体力则减伤效果额外提升至50%；战斗阶段结束时若自身体力低于对手且对手体力高于350，则当回合结束后将对手体力直接扣除至350（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2，则当回合自身使用攻击技能时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2，则当回合自身属性技能<b>先制</b>+1且受到的<b>攻击伤害</b><color=#64F9FA>减少</color>35%\r\n<indent=32><sprite=4><sprite=4><indent=64>若自身为满体力则减伤效果提升至50%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于对手且对手体力高于350，则当回合结束后将对手体力<color=#64F9FA>调整至</color>350</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3529,
+      "url": "https://api.seerapi.com/v1/pet/3529/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      3,
+      2,
+      1,
+      35,
+      50,
+      350,
+      1
+    ],
+    "effect": {
+      "id": 1121,
+      "url": "https://api.seerapi.com/v1/eid_effect/1121/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "42e1dbd7"
+}

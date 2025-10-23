@@ -1,0 +1,36 @@
+{
+  "id": 37394,
+  "name": "裂风魂狩",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内每回合若先出手则吸取对手300点体力",
+      "args": [
+        4,
+        300
+      ],
+      "effect": {
+        "id": 923,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/923/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6840a02f"
+}

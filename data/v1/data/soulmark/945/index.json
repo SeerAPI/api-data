@@ -1,0 +1,47 @@
+{
+  "id": 945,
+  "desc": "战斗阶段结束时若对手处于能力提升状态则反转对手的能力提升状态；自身造成的攻击伤害高于350则80%令对手瘫痪，未触发瘫痪则下回合攻击80%令对手害怕；自身受到的攻击伤害低于350则下回合对手受到的伤害提升80%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3659,
+      "url": "https://api.seerapi.com/v1/pet/3659/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      350,
+      80,
+      19,
+      80,
+      6,
+      350,
+      80,
+      1
+    ],
+    "effect": {
+      "id": 1234,
+      "url": "https://api.seerapi.com/v1/eid_effect/1234/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "33fcc3bd"
+}

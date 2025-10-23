@@ -1,0 +1,43 @@
+{
+  "id": 1441,
+  "desc": "1、机械塔克林每次登场时自动激活终阶源盾，当回合终阶源盾被消耗则战斗阶段结束时重新激活终阶源盾；|2、自身每次使用第五技能时若终阶源盾已激活则必定打出致命一击，若终阶源盾未激活则激活终阶源盾；|3、终阶源盾被激活时自身造成的攻击伤害提升50%，终阶源盾未激活时自身攻击命中附加防御和特防总和50%的固定伤害|（boss无效）|终阶源盾：免疫1次受到的异常状态，消耗后获得一个300点的护盾（不可叠加）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时激活<b>终阶源盾</b>，当回合终阶源盾被消耗则战斗阶段结束时重新激活终阶源盾\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次使用第五技能时：\r\n<indent=32><sprite=4><indent=48>若终阶源盾已激活则必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若终阶源盾未激活则激活终阶源盾\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>终阶源盾被激活时自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=3><indent=32>终阶源盾未激活时自身使用攻击<color=#64F9FA>附加</color>防御和特防总和50%的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>终阶源盾：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>免疫</color>1次受到的<b>异常状态</b>\r\n<indent=16><sprite=6><indent=32>消耗后<color=#64F9FA>获得</color> 300点<b>护盾</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4222,
+      "url": "https://api.seerapi.com/v1/pet/4222/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1811,
+      "url": "https://api.seerapi.com/v1/eid_effect/1811/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "49ef78e"
+}

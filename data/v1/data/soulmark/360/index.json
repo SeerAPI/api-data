@@ -1,0 +1,42 @@
+{
+  "id": 360,
+  "desc": "出场时所有攻击技能都有30%概率令对手害怕, 自身每战斗一回合概率增加5%(boss无效);|战斗后下场时令下一只登场精灵免疫首回合异常状态,受到的第一次伤害不超过250(包括正常切换和死亡切换);|所有特殊攻击必定命中",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2977,
+      "url": "https://api.seerapi.com/v1/pet/2977/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      6,
+      5,
+      1,
+      1,
+      1,
+      250
+    ],
+    "effect": {
+      "id": 687,
+      "url": "https://api.seerapi.com/v1/eid_effect/687/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "914a2da6"
+}

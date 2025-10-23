@@ -1,0 +1,41 @@
+{
+  "id": 944,
+  "desc": "天生免疫能力下降状态，回合开始时若对手不处于能力下降状态则当回合所有技能50%令对手烧伤；|若自身体力高于最大体力的1/2则对手每回合所有技能PP减少1点，若自身体力低于最大体力的1/2则对手每回合所有技能PP减少2点（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>天生<color=#64F9FA>免疫</color><b>能力下降状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手不处于能力下降状态则当回合所有技能50%<color=#64F9FA>令对手烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则对手所有技能<b>PP值</b><color=#64F9FA>减少</color>1点\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则对手所有技能<b>PP值</b><color=#64F9FA>减少</color>2点",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3657,
+      "url": "https://api.seerapi.com/v1/pet/3657/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      2,
+      1,
+      2,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1231,
+      "url": "https://api.seerapi.com/v1/eid_effect/1231/"
+    }
+  },
+  "tag": [
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1478,
+    "url": "https://api.seerapi.com/v1/soulmark/1478/"
+  },
+  "from": null,
+  "hash": "59e431a3"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 37640,
+  "name": "终途",
+  "power": 70,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 127,
+    "url": "https://api.seerapi.com/v1/element_type_combination/127/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "体力高于对手时，此技能命中后100%使对手速度",
+      "args": [
+        -2,
+        0,
+        -2,
+        0,
+        -2,
+        0
+      ],
+      "effect": {
+        "id": 646,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/646/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "984aee9f"
+}

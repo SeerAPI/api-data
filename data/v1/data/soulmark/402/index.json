@@ -1,0 +1,37 @@
+{
+  "id": 402,
+  "desc": "受到的伤害减少50%,对方所有技能命中率降低50%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3043,
+      "url": "https://api.seerapi.com/v1/pet/3043/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50
+    ],
+    "effect": {
+      "id": 725,
+      "url": "https://api.seerapi.com/v1/eid_effect/725/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fbc20605"
+}

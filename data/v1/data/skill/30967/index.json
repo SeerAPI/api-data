@@ -1,0 +1,45 @@
+{
+  "id": 30967,
+  "name": "圣僧佛经印",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令对手失明",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 889,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/889/"
+      }
+    },
+    {
+      "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 101,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/101/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9feed44f"
+}

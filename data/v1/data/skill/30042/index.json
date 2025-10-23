@@ -1,0 +1,43 @@
+{
+  "id": 30042,
+  "name": "扑天生弑吞",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 697,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/697/"
+      }
+    },
+    {
+      "info": "后出手时下回合受到的伤害降低200点",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 969,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/969/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "83fc1a5b"
+}

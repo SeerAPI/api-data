@@ -1,0 +1,44 @@
+{
+  "id": 526,
+  "desc": "回合开始时，若自身体力高于1/2则当回合造成的伤害提高50%；|战斗阶段结束时，若自身体力低于1/2则下回合受到的伤害降低50%且自身先制+2",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3197,
+      "url": "https://api.seerapi.com/v1/pet/3197/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      2,
+      50,
+      2
+    ],
+    "effect": {
+      "id": 829,
+      "url": "https://api.seerapi.com/v1/eid_effect/829/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dfa5f8c5"
+}

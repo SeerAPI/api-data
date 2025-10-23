@@ -1,0 +1,53 @@
+{
+  "id": 29028,
+  "name": "螺壳曳光",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫受到的异常状态了；开始免疫非致命一击伤害了；获得了护盾",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "2回合内对手使用技能时自身免疫对手下1次非致命一击造成的攻击伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1784,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1784/"
+      }
+    },
+    {
+      "info": "若自身当前体力低于对手则为自身附加等同于双方最大体力差值的护盾",
+      "args": [],
+      "effect": {
+        "id": 1871,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1871/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dae12f9a"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 27870,
+  "name": "火线引爆",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身攻击开始必定打出致命一击、必定命中了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下2回合自身攻击技能必定致命、必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 681,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/681/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e097caf"
+}

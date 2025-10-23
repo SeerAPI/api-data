@@ -1,0 +1,46 @@
+{
+  "id": 35499,
+  "name": "岩顶壁垣击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 37,
+    "url": "https://api.seerapi.com/v1/element_type_combination/37/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手上回合造成攻击伤害100%的百分比伤害，后出手时效果提升50%",
+      "args": [
+        100,
+        50
+      ],
+      "effect": {
+        "id": 1725,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1725/"
+      }
+    },
+    {
+      "info": "下5回合对手使用体力药剂时效果变成减少相应的体力",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/69/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a663fd28"
+}

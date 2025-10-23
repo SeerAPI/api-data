@@ -1,0 +1,55 @@
+{
+  "id": 34081,
+  "name": "暗蚀诡谲",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若当前体力低于对手则先制+1",
+      "args": [],
+      "effect": {
+        "id": 954,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/954/"
+      }
+    },
+    {
+      "info": "自身体力低于对手时造成的伤害提高100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1086,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1086/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则附加300点固定伤害，若先出手则固定伤害提高150点",
+      "args": [
+        300,
+        300,
+        150
+      ],
+      "effect": {
+        "id": 1066,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1066/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b919dee"
+}

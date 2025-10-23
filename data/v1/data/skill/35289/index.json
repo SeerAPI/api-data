@@ -1,0 +1,46 @@
+{
+  "id": 35289,
+  "name": "狩猎光刃",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 61,
+    "url": "https://api.seerapi.com/v1/element_type_combination/61/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "60%令对手疲惫，未触发则吸取对手能力提升状态",
+      "args": [
+        60,
+        7
+      ],
+      "effect": {
+        "id": 1482,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1482/"
+      }
+    },
+    {
+      "info": "对手不处于异常状态则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1257,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1257/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3c4cfa76"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 652,
+  "desc": "我方每次使用属性技能则恢复自身所有PP一点，对手每次使用属性技能则使对手随机1个技能的PP值归零（BOSS无效）；每一次恢复体力，则下回合解除自身异常状态和能力下降状态，同时下2回合内免疫异常状态和能力下降状态且使用攻击技能50%的概率威力翻倍",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>我方每次使用属性技能则<color=#64F9FA>恢复</color>自身所有PP一点\r\n<indent=16><sprite=3><indent=32>对手每次使用属性技能则使对手随机1个技能的PP值<color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>每一次恢复体力，则：\r\n<indent=32><sprite=4><indent=48>下回合<color=#64F9FA>解除</color>自身<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>下2回合内<color=#64F9FA>免疫</color><b>异常状态</b>和<b>能力下降状态</b>且使用攻击技能50%的概率<color=#64F9FA>威力翻倍</color></b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3328,
+      "url": "https://api.seerapi.com/v1/pet/3328/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      2,
+      50,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 934,
+      "url": "https://api.seerapi.com/v1/eid_effect/934/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e20832f1"
+}

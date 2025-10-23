@@ -1,0 +1,55 @@
+{
+  "id": 37396,
+  "name": "劫命疾袭",
+  "power": 85,
+  "max_pp": 6,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手能力下降等级总和X30的固定伤害",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 1772,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1772/"
+      }
+    },
+    {
+      "info": "对手不处于能力下降状态则造成的伤害提高100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1198,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1198/"
+      }
+    },
+    {
+      "info": "未击败对手则对手下2回合无法解除、反转自身能力下降状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2075,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2075/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4e6a7ce8"
+}

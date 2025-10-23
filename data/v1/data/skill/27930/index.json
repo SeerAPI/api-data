@@ -1,0 +1,57 @@
+{
+  "id": 27930,
+  "name": "蒸汽能源",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；自身开始受到的攻击伤害不超过200了；自身受到攻击则令对手进入异常状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内每回合被攻击所受到的伤害不超过200",
+      "args": [
+        3,
+        200
+      ],
+      "effect": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/125/"
+      }
+    },
+    {
+      "info": "3回合内对手使用攻击技能后随机附加给对手1种异常状态",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 1089,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1089/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "743309e1"
+}

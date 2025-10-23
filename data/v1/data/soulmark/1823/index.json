@@ -1,0 +1,40 @@
+{
+  "id": 1823,
+  "desc": "对手使用技能后，若自身体力不为满则80%令对手麻痹，未触发则下回合攻击技能先制+1；|自身使用攻击技能后随机附加烧伤、失明中的1种异常状态，若成功触发烧伤则附加300点固定伤害，若成功触发失明则令对手随机1个技能PP值归0（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能后，若自身体力不为满则80%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合攻击技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后随机附加烧伤、失明中的1种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若成功触发烧伤则<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若成功触发失明则令对手随机1个技能<b>PP值</b><color=#64F9FA>归0</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4617,
+      "url": "https://api.seerapi.com/v1/pet/4617/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      80,
+      1,
+      300,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2212,
+      "url": "https://api.seerapi.com/v1/eid_effect/2212/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bcc5b858"
+}

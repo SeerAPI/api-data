@@ -1,0 +1,36 @@
+{
+  "id": 20574,
+  "name": "强效恢复",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "融入了自然的怀抱中",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内若使用技能则恢复60点体力值",
+      "args": [
+        5,
+        60
+      ],
+      "effect": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/77/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "56b65890"
+}

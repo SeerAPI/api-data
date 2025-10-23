@@ -1,0 +1,36 @@
+{
+  "id": 36260,
+  "name": "入木三分",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加60~360点固定伤害并恢复等量体力",
+      "args": [
+        60,
+        360
+      ],
+      "effect": {
+        "id": 1144,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1144/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "389e05ee"
+}

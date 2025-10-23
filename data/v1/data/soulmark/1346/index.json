@@ -1,0 +1,47 @@
+{
+  "id": 1346,
+  "desc": "自身每次受到攻击伤害后{吸取}对手最大{体力}的1/3，若回合开始时自身体力低于最大体力的1/3则转变为{吸取}对手最大{体力}的1/2；|回合开始时，若自身体力低于对手则当回合自身受到的攻击伤害减少50%且所有技能先制+2，若自身体力高于对手则当回合自身造成的攻击伤害随机提升50%-100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次受到攻击伤害后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若回合开始时自身体力低于最大体力的1/3则改为吸取对手最大体力的1/2\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且所有技能<b>先制</b>+2\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合自身造成的<b>攻击伤害</b>随机<color=#64F9FA>提升</color>50%-100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4114,
+      "url": "https://api.seerapi.com/v1/pet/4114/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      3,
+      2,
+      50,
+      2,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1699,
+      "url": "https://api.seerapi.com/v1/eid_effect/1699/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "460184e1"
+}

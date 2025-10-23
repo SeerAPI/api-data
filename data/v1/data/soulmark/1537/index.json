@@ -1,0 +1,39 @@
+{
+  "id": 1537,
+  "desc": "攻击有50%概率附加对手当前体力30%的固定伤害；若攻击造成的伤害高于300则造成的伤害恢复自身体力（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3493,
+      "url": "https://api.seerapi.com/v1/pet/3493/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      30,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1089,
+      "url": "https://api.seerapi.com/v1/eid_effect/1089/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1c140d49"
+}

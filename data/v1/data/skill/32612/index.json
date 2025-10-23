@@ -1,0 +1,46 @@
+{
+  "id": 32612,
+  "name": "异空之痕",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "连续使用每次威力增加20，最高威力240",
+      "args": [
+        20,
+        240
+      ],
+      "effect": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/9/"
+      }
+    },
+    {
+      "info": "附加自身最大体力25%的百分比伤害并恢复等量体力",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 839,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/839/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "409d43cd"
+}

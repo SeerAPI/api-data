@@ -1,0 +1,40 @@
+{
+  "id": 981,
+  "desc": "回合开始时若自身不处于能力提升状态则当回合对手无法通过自身技能恢复体力（该效果为回合类效果）；|自身使用攻击技能则{吸取}对手最大{体力}的20%，每次使用额外增加5%，最高30%，若吸取数值叠加到最高，则下次使用的攻击技能令对手随机3个技能PP值归零同时吸取数值恢复到初始状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3647,
+      "url": "https://api.seerapi.com/v1/pet/3647/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      5,
+      30,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1279,
+      "url": "https://api.seerapi.com/v1/eid_effect/1279/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "21158759"
+}

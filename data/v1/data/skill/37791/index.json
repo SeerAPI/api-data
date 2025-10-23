@@ -1,0 +1,58 @@
+{
+  "id": 37791,
+  "name": "高能奔泻",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则100%令对手焚烬",
+      "args": [
+        100,
+        22
+      ],
+      "effect": {
+        "id": 973,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/973/"
+      }
+    },
+    {
+      "info": "2回合内自身造成的固定伤害、百分比伤害提升50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 1469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1469/"
+      }
+    },
+    {
+      "info": "2回合内自身受到的固定伤害和百分比伤害减少50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 1475,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1475/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e22325c2"
+}

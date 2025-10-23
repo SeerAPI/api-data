@@ -1,0 +1,59 @@
+{
+  "id": 26925,
+  "name": "剧毒踪迹",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；开始闪避对手攻击了；对手MISS则中毒",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "3回合内50%闪避对手攻击，若对手MISS则恢复自身最大体力的1/3",
+      "args": [
+        3,
+        50,
+        3
+      ],
+      "effect": {
+        "id": 1023,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1023/"
+      }
+    },
+    {
+      "info": "3回合内若对手攻击技能未命中则100%令对手中毒",
+      "args": [
+        3,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1466,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1466/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "faf17f28"
+}

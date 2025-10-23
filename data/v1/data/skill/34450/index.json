@@ -1,0 +1,60 @@
+{
+  "id": 34450,
+  "name": "哀·幻梦魔音",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 30,
+    "url": "https://api.seerapi.com/v1/element_type_combination/30/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1062,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1062/"
+      }
+    },
+    {
+      "info": "2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 679,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/679/"
+      }
+    },
+    {
+      "info": "使对手命中，对手处于异常状态时弱化效果翻倍",
+      "args": [
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "effect": {
+        "id": 745,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/745/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dadf0e6a"
+}

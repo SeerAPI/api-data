@@ -1,0 +1,41 @@
+{
+  "id": 975,
+  "desc": "使用攻击技能50%概率使对手麻痹，未触发则随机附加150-250点固定伤害；受到攻击时50%令对手烧伤，未触发则50%令对手焚烬（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3693,
+      "url": "https://api.seerapi.com/v1/pet/3693/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      150,
+      250,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1266,
+      "url": "https://api.seerapi.com/v1/eid_effect/1266/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "86b251fc"
+}

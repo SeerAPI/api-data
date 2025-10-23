@@ -1,0 +1,35 @@
+{
+  "id": 11192,
+  "name": "沙暴利刃",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后15%令对方害怕",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "20576d3f"
+}

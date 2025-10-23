@@ -1,0 +1,33 @@
+{
+  "id": 2255,
+  "args_num": 1,
+  "info": "将对手的系别变为{0}系，若对手的系别中带有{0}系则对手下次使用的技能无效",
+  "info_formatting_adjustment": "将对手的系别变为{0}系\r\n--><condition>若对手的系别中带有</condition>{0}系则对手下次使用的技能无效",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/22/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28937,
+      "url": "https://api.seerapi.com/v1/skill/28937/"
+    },
+    {
+      "id": 29144,
+      "url": "https://api.seerapi.com/v1/skill/29144/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "6058e1c9"
+}

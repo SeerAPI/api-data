@@ -1,0 +1,44 @@
+{
+  "id": 630,
+  "args_num": 9,
+  "info": "{0}回合内{1}状态被消除，则有{2}%概率使对手{3}",
+  "info_formatting_adjustment": null,
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/11/"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 0,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/0/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 23486,
+      "url": "https://api.seerapi.com/v1/skill/23486/"
+    },
+    {
+      "id": 23516,
+      "url": "https://api.seerapi.com/v1/skill/23516/"
+    },
+    {
+      "id": 28771,
+      "url": "https://api.seerapi.com/v1/skill/28771/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 35733,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35733/"
+    }
+  ],
+  "hash": "3f1b7359"
+}

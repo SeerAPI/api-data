@@ -1,0 +1,60 @@
+{
+  "id": 28935,
+  "name": "龙契·惘",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "令对手诅咒了；自身被邪恶的气息环绕；对对手的属性技能施加了限制",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "出手时若自身体力低于对手则100%令对手诅咒，未触发则令自身下回合所有技能先制+1",
+      "args": [
+        100,
+        23,
+        1
+      ],
+      "effect": {
+        "id": 1762,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1762/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用属性技能则随机附加2种异常状态，未触发则消除对手回合类效果",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 1348,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1348/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能则100%使对手诅咒",
+      "args": [
+        3,
+        100,
+        23
+      ],
+      "effect": {
+        "id": 663,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/663/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3beb0a08"
+}

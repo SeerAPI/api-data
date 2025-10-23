@@ -1,0 +1,58 @@
+{
+  "id": 17329,
+  "name": "星风血煞击",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 55,
+    "url": "https://api.seerapi.com/v1/element_type_combination/55/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手害怕，若没有触发害怕效果，则对手防御-1、命中-1",
+      "args": [
+        50,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "effect": {
+        "id": 504,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/504/"
+      }
+    }
+  ],
+  "friend_skill_effect": [
+    {
+      "info": "70%令对手害怕，若没有触发害怕效果，则对手防御-1、命中-1",
+      "args": [
+        70,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        -1
+      ],
+      "effect": {
+        "id": 504,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/504/"
+      }
+    }
+  ],
+  "hide_effect": null,
+  "hash": "daf9572a"
+}

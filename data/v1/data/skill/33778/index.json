@@ -1,0 +1,48 @@
+{
+  "id": 33778,
+  "name": "龙威盛怒",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 83,
+    "url": "https://api.seerapi.com/v1/element_type_combination/83/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 797,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/797/"
+      }
+    },
+    {
+      "info": "命中后50%令对手害怕，自身每损失20%的体力概率提升10%",
+      "args": [
+        50,
+        6,
+        20,
+        10
+      ],
+      "effect": {
+        "id": 1365,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1365/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9db131c3"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 27287,
+  "name": "漩涡缠身",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身攻击能力和速度能力提升了；自身被击败时令对手疲惫",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "args": [
+        0,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身速度等级+1",
+      "args": [
+        4,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "3回合内若被对手击败则对手疲惫2回合 ",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 524,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/524/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "78197c3f"
+}

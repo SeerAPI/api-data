@@ -1,0 +1,37 @@
+{
+  "id": 28685,
+  "name": "废土蓝图",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "开始使对手石化",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若自身处于能力提升状态则每回合使用技能50%令对手石化",
+      "args": [
+        3,
+        50,
+        9
+      ],
+      "effect": {
+        "id": 960,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/960/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e541f85c"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 1327,
+  "desc": "自身受到的攻击伤害低于自身最大体力的25%则100%令对手石化，未触发则令对手所有技能PP值-1；|战斗阶段结束时，体力高于自身最大体力的50%则下回合免疫异常状态，体力低于自身最大体力的50%则下回合受到的攻击伤害减少50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于自身最大体力的25%则100%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手所有技能<b>PP值</b>-1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的50%则下回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的50%则下回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4085,
+      "url": "https://api.seerapi.com/v1/pet/4085/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      100,
+      1,
+      50,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1677,
+      "url": "https://api.seerapi.com/v1/eid_effect/1677/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "60db3194"
+}

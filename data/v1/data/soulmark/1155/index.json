@@ -1,0 +1,50 @@
+{
+  "id": 1155,
+  "desc": "当回合受到的攻击伤害高于自身最大体力的1/2时，减免该伤害的60%；当回合受到的攻击伤害低于自身最大体力的1/2时，令对手受到伤害值100%的百分比伤害；自身攻击技能无视对手能力提升状态且攻击命中对手后，若对手当前处于能力提升状态则100%令对手冰封，未触发则自身下1次受到的攻击伤害不超过200点（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>受到的攻击伤害高于自身最大体力的1/2时，<color=#64F9FA>额外减少</color>该伤害的60%\r\n<indent=16><sprite=3><indent=32>受到的攻击伤害低于自身最大体力的1/2时，<color=#64F9FA>附加</color>该伤害100%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身所有技能<color=#64F9FA>无视</color>对手<b>能力提升状态</b>\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中对手后若对手当前处于能力提升则100%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身下1次受到的<b>攻击伤害</b><color=#64F9FA><color=#64F9FA>无法超过</color>200点",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3886,
+      "url": "https://api.seerapi.com/v1/pet/3886/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      60,
+      2,
+      100,
+      100,
+      1,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 1473,
+      "url": "https://api.seerapi.com/v1/eid_effect/1473/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1971,
+    "url": "https://api.seerapi.com/v1/soulmark/1971/"
+  },
+  "from": null,
+  "hash": "47a2f0ab"
+}

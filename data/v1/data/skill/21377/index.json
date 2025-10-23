@@ -1,0 +1,36 @@
+{
+  "id": 21377,
+  "name": "疲乏光线",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 60,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手疲惫2回合",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/22/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "168ab99e"
+}

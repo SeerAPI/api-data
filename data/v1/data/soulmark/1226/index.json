@@ -1,0 +1,45 @@
+{
+  "id": 1226,
+  "desc": "自身先出手时令对手当回合无法通过自身技能恢复体力；每次受到的攻击伤害高于300则自身从下回合起攻击技能先制+1，最高累计为先制+3；每次受到的攻击伤害低于300则自身从下回合起造成的攻击伤害提升30%，最高累计提升90%（boss无效，伤害效果持续到被击败或切换下场）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时对手以回合类效果形式1回合内<color=#64F9FA>无法通过技能恢复体力</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到了高于300的攻击伤害则自身本次在场攻击技能<b>先制</b>+1，最高累计至先制+3\r\n<indent=16><sprite=3><indent=32>自身受到了低于300的攻击伤害则自身本次在场造成的<b>攻击伤害</b><color=#64F9FA>提升</color>30%，最高累计提升90%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3961,
+      "url": "https://api.seerapi.com/v1/pet/3961/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      1,
+      3,
+      300,
+      30,
+      90,
+      1
+    ],
+    "effect": {
+      "id": 1561,
+      "url": "https://api.seerapi.com/v1/eid_effect/1561/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1271,
+    "url": "https://api.seerapi.com/v1/soulmark/1271/"
+  },
+  "from": null,
+  "hash": "e959f0e0"
+}

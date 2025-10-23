@@ -1,0 +1,47 @@
+{
+  "id": 1814,
+  "desc": "回合开始时，若自身满体力则令对手所有技能PP值-2，若自身未满体力则为自身附加200点护罩，自身体力低于最大体力的1/2时额外附加150点护盾与150点护罩；（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则令对手所有技能PP值-2\r\n<indent=32><sprite=4><indent=48>若自身未满体力则为自身<color=#64F9FA>附加</color>200点<b>护罩</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若自身体力低于最大体力的1/2则额外<color=#64F9FA>获得</color>150点<b>护盾</b>与150点<b>护罩</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4609,
+      "url": "https://api.seerapi.com/v1/pet/4609/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      2,
+      0,
+      0,
+      200,
+      2,
+      150,
+      1
+    ],
+    "effect": {
+      "id": 1896,
+      "url": "https://api.seerapi.com/v1/eid_effect/1896/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c092bbb7"
+}

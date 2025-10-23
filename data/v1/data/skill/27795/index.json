@@ -1,0 +1,66 @@
+{
+  "id": 27795,
+  "name": "寒冰光影",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都提升了；自身受到致死攻击则剩余1点体力；自身攻击威力开始提升了；自身出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，先出手时自身强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1283,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1283/"
+      }
+    },
+    {
+      "info": "2回合内受到致死攻击时则余下1点体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/68/"
+      }
+    },
+    {
+      "info": "下2回合自身造成的攻击伤害翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a9759571"
+}

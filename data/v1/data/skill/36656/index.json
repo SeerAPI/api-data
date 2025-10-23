@@ -1,0 +1,63 @@
+{
+  "id": 36656,
+  "name": "鹏·万里遨摇",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，若对手不处于能力提升状态则吸取对手最大体力的1/4",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 1928,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1928/"
+      }
+    },
+    {
+      "info": "自身持有北冥狂刃时造成的攻击伤害提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 2011,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2011/"
+      }
+    },
+    {
+      "info": "未击败对手则下回合自身所有技能先制+3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 984,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/984/"
+      }
+    },
+    {
+      "info": "击败对手则令对手下回合使用的属性技能无效",
+      "args": [],
+      "effect": {
+        "id": 2013,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2013/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6046d4b0"
+}

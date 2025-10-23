@@ -1,0 +1,59 @@
+{
+  "id": 36534,
+  "name": "冥咒妒命杀",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合使用技能吸取对手280点体力，吸取体力时若自身当前体力低于对手则吸取效果提升至350点",
+      "args": [
+        3,
+        280,
+        350
+      ],
+      "effect": {
+        "id": 1842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1842/"
+      }
+    },
+    {
+      "info": "当回合若未击败对手则100%令对手束缚，未触发则令自身全属性+1",
+      "args": [
+        100,
+        28,
+        1
+      ],
+      "effect": {
+        "id": 1040,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1040/"
+      }
+    },
+    {
+      "info": "击败对手则自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1049,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1049/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "10a8b977"
+}

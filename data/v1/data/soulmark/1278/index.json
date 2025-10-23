@@ -1,0 +1,46 @@
+{
+  "id": 1278,
+  "desc": "自身所有攻击技能50%打出致命一击，打出致命一击则100%令对手害怕，未打出致命一击则战斗阶段结束时附加自身最大体力30%的固定伤害，自身在本场战斗中战斗的回合数每累计超过3回合则附加的固定伤害值提升10%，最高100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能50%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击打出致命一击则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=16><sprite=3><indent=32>自身攻击未打出致命一击则战斗阶段结束时<color=#64F9FA>附加</color>自身最大体力30%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身在每累计在场3回合则效果额度本场战斗提升10%，最高100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4020,
+      "url": "https://api.seerapi.com/v1/pet/4020/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      30,
+      3,
+      10,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1614,
+      "url": "https://api.seerapi.com/v1/eid_effect/1614/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4197497"
+}

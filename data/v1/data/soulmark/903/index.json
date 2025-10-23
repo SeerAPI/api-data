@@ -1,0 +1,44 @@
+{
+  "id": 903,
+  "desc": "连续使用攻击技能时，自身全属性+1且{吸取}对手最大{体力}的1/3；连续使用属性技能时，对手全属性-1且附加对手最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3609,
+      "url": "https://api.seerapi.com/v1/pet/3609/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      3,
+      1,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1186,
+      "url": "https://api.seerapi.com/v1/eid_effect/1186/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1912fa60"
+}

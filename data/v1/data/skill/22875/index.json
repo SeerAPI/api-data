@@ -1,0 +1,45 @@
+{
+  "id": 22875,
+  "name": "极昼",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "获得了极昼之力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复自身最大体力的1/1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 43,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/43/"
+      }
+    },
+    {
+      "info": "3回合内令对手使用的属性技能无效",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/478/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4a949c4f"
+}

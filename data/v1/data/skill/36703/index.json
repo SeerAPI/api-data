@@ -1,0 +1,46 @@
+{
+  "id": 36703,
+  "name": "牵风引霞",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 108,
+    "url": "https://api.seerapi.com/v1/element_type_combination/108/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手下1次主动切换或死亡切换精灵时，在场精灵吸取对手下只出场精灵最大体力的1/3",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1779,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1779/"
+      }
+    },
+    {
+      "info": "自身主动切换下场后令己方下只精灵出战时恢复300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1702,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1702/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "75245648"
+}

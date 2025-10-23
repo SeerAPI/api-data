@@ -1,0 +1,47 @@
+{
+  "id": 32805,
+  "name": "毁灭重剑",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 736,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/736/"
+      }
+    },
+    {
+      "info": "造成的伤害低于200则3回合内自身受到的伤害减少200",
+      "args": [
+        200,
+        3,
+        200
+      ],
+      "effect": {
+        "id": 665,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/665/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3b3ba71"
+}

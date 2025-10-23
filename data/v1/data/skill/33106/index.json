@@ -1,0 +1,41 @@
+{
+  "id": 33106,
+  "name": "绚丽烟花",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 68,
+    "url": "https://api.seerapi.com/v1/element_type_combination/68/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1061,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1061/"
+      }
+    },
+    {
+      "info": "自身处于能力提升状态时50%打出致命一击",
+      "args": [],
+      "effect": {
+        "id": 1420,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1420/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f62cdc98"
+}

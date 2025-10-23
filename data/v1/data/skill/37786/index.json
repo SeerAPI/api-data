@@ -1,0 +1,56 @@
+{
+  "id": 37786,
+  "name": "赤色幻影",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则对手2回合内攻击技能MISS",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 950,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/950/"
+      }
+    },
+    {
+      "info": "3回合内若对手攻击MISS则回合结束时吸取对手最大体力的1/3",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 1320,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1320/"
+      }
+    },
+    {
+      "info": "3回合内若对手MISS则下回合自身必定致命一击",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 160,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/160/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a6e6c3d0"
+}

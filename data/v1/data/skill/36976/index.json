@@ -1,0 +1,35 @@
+{
+  "id": 36976,
+  "name": "急火飞奔",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%的概率造成伤害翻倍，对手不处于异常状态时概率翻倍",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1710,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1710/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9c8ad00c"
+}

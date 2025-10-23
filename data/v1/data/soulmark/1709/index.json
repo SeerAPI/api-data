@@ -1,0 +1,43 @@
+{
+  "id": 1709,
+  "desc": "自身攻击技能命中前若对手处于全属性提升状态则消除对手回合类效果，若自身处于全属性下降状态则{吸取}对手最大{体力}的1/3；|战斗阶段结束时若对手处于全属性提升状态则下回合自身攻击技能先制+1，若自身处于全属性下降状态则100%令对手疲惫，上述任意一项效果满足触发条件则下回合开始时解除自身异常状态|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中前：\r\n<indent=32><sprite=4><indent=48>若对手处于全属性提升状态则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>若自身处于全属性下降状态则<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于全属性提升状态则下回合自身攻击技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身处于全属性下降状态则100%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>上述任意一项效果满足触发条件则下回合开始时<color=#64F9FA>解除</color>自身<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4495,
+      "url": "https://api.seerapi.com/v1/pet/4495/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2097,
+      "url": "https://api.seerapi.com/v1/eid_effect/2097/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ca64cd24"
+}

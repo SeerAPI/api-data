@@ -1,0 +1,82 @@
+{
+  "id": 36657,
+  "name": "光·命问星天",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "大鹏有朝随风起，扶摇直上九万里！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 119,
+    "url": "https://api.seerapi.com/v1/element_type_combination/119/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，先出手时自身强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1283,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1283/"
+      }
+    },
+    {
+      "info": "5回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "5回合内使用技能100%随机附加1种控制类异常状态",
+      "args": [
+        5,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 2016,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2016/"
+      }
+    },
+    {
+      "info": "5回合内每回合使用技能吸取对手250点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍，若对手未受到固定伤害则额外附加250点真实伤害",
+      "args": [
+        5,
+        250,
+        2,
+        250
+      ],
+      "effect": {
+        "id": 1892,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1892/"
+      }
+    },
+    {
+      "info": "5回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+      "args": [
+        5,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1655,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1655/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a07dc3e6"
+}

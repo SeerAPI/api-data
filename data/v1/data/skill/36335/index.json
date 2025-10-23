@@ -1,0 +1,53 @@
+{
+  "id": 36335,
+  "name": "以恶之名",
+  "power": 100,
+  "max_pp": 2,
+  "accuracy": 99,
+  "crit_rate": 0.3125,
+  "priority": 3,
+  "must_hit": false,
+  "info": "这里要么流汗，要么流血！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 93,
+    "url": "https://api.seerapi.com/v1/element_type_combination/93/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于异常状态则先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1002,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1002/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态，则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 770,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/770/"
+      }
+    },
+    {
+      "info": "免疫对手下1次攻击技能造成的伤害并附加免疫量的真实伤害",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 816,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/816/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "11178765"
+}

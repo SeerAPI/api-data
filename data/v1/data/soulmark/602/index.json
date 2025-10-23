@@ -1,0 +1,42 @@
+{
+  "id": 602,
+  "desc": "回合开始时，若自身体力高于对手，则自身出手后反转对手能力提升状态；回合开始时，若自身体力低于对手，则当回合对手攻击命中时使对手麻痹，未触发则有50%的概率闪避下1次受到的攻击（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3273,
+      "url": "https://api.seerapi.com/v1/pet/3273/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 887,
+      "url": "https://api.seerapi.com/v1/eid_effect/887/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5b1e4bcd"
+}

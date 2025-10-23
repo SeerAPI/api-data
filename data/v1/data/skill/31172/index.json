@@ -1,0 +1,45 @@
+{
+  "id": 31172,
+  "name": "镰爪破甲击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 75,
+    "url": "https://api.seerapi.com/v1/element_type_combination/75/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 877,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/877/"
+      }
+    },
+    {
+      "info": "后出手时下回合受到的伤害降低250点",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 969,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/969/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "da099762"
+}

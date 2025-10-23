@@ -1,0 +1,37 @@
+{
+  "id": 16171,
+  "name": "教你做人",
+  "power": 30,
+  "max_pp": 50,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内若对手使用攻击技能则50%使对手疲惫",
+      "args": [
+        2,
+        50,
+        7
+      ],
+      "effect": {
+        "id": 663,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/663/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "efeb1e5e"
+}

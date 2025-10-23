@@ -1,0 +1,43 @@
+{
+  "id": 1083,
+  "desc": "自身攻击造成的伤害小于对手最大体力的1/2则下回合自身攻击造成的伤害提升150%，自身攻击造成的伤害大于对手最大体力的1/2则造成伤害的100%恢复自身体力并附加等量固定伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害小于对手最大体力的1/2则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>150%\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害大于对手最大体力的1/2则造成的攻击伤害100%额外恢复至自身体力并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3808,
+      "url": "https://api.seerapi.com/v1/pet/3808/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      150,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1391,
+      "url": "https://api.seerapi.com/v1/eid_effect/1391/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "58700635"
+}

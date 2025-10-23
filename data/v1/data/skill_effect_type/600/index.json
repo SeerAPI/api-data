@@ -1,0 +1,64 @@
+{
+  "id": 600,
+  "args_num": 4,
+  "info": "若对手是{0}则造成伤害提升{1}%,若对手不是{0}，则有{2}%概率使对手{3}",
+  "info_formatting_adjustment": "<condition>若对手是{0}</condition>则造成伤害提升{1}%\r\n<condition>若对手不是{0}</condition>，则有{2}%概率使对手{3}",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/5/"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 16189,
+      "url": "https://api.seerapi.com/v1/skill/16189/"
+    },
+    {
+      "id": 16926,
+      "url": "https://api.seerapi.com/v1/skill/16926/"
+    },
+    {
+      "id": 31439,
+      "url": "https://api.seerapi.com/v1/skill/31439/"
+    },
+    {
+      "id": 31486,
+      "url": "https://api.seerapi.com/v1/skill/31486/"
+    },
+    {
+      "id": 31984,
+      "url": "https://api.seerapi.com/v1/skill/31984/"
+    },
+    {
+      "id": 33891,
+      "url": "https://api.seerapi.com/v1/skill/33891/"
+    },
+    {
+      "id": 34732,
+      "url": "https://api.seerapi.com/v1/skill/34732/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 18673,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "55308ded"
+}

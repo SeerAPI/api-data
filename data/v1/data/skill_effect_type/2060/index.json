@@ -1,0 +1,45 @@
+{
+  "id": 2060,
+  "args_num": 4,
+  "info": "{0}回合内对手使用属性技能时{1}%令对手{2}，未触发则恢复自身最大体力的1/{3}并造成等量百分比伤害",
+  "info_formatting_adjustment": "{0}回合内对手使用属性技能时{1}%令对手{2}\r\n--><condition>未触发</condition>则恢复自身最大体力的1/{3}并造成等量百分比伤害",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29043,
+      "url": "https://api.seerapi.com/v1/skill/29043/"
+    },
+    {
+      "id": 37135,
+      "url": "https://api.seerapi.com/v1/skill/37135/"
+    },
+    {
+      "id": 37261,
+      "url": "https://api.seerapi.com/v1/skill/37261/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "fa8f767e"
+}

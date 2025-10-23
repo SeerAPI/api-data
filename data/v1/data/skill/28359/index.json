@@ -1,0 +1,48 @@
+{
+  "id": 28359,
+  "name": "地煞巧变",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "消除双方能力提升状态及所有护盾",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方能力提升状态，消除任意一方成功则自身免疫下1次异常状态且令对手随机2个技能PP值归零",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1419,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1419/"
+      }
+    },
+    {
+      "info": "消除双方护盾并附加护盾值50%的百分比伤害，若护盾值总和超过300点则转变为附加护盾值100%的百分比伤害",
+      "args": [
+        50,
+        300,
+        100
+      ],
+      "effect": {
+        "id": 1791,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1791/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a22a6b18"
+}

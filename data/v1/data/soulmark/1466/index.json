@@ -1,0 +1,48 @@
+{
+  "id": 1466,
+  "desc": "自身成为先手方时当回合结束附加对手最大体力1/3的百分比伤害，若自身成功出手则额外使当回合受到的攻击伤害减少50%；|回合开始时，若对手处于回合类效果则自身攻击技能先制+1，若自身处于回合类效果则当回合使用技能后70%令对手焚烬，未触发则对手2回合内无法通过自身技能恢复体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身成为先手方时当回合战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身成功出手则额外使当回合受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于回合类效果则自身所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身处于回合类效果则当回合使用技能时70%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则令对手2回合内<color=#64F9FA>无法通过自身技能恢复体力</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4246,
+      "url": "https://api.seerapi.com/v1/pet/4246/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      1,
+      70,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1833,
+      "url": "https://api.seerapi.com/v1/eid_effect/1833/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1761,
+    "url": "https://api.seerapi.com/v1/soulmark/1761/"
+  },
+  "from": null,
+  "hash": "8e2535c3"
+}

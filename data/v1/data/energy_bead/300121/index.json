@@ -1,0 +1,32 @@
+{
+  "id": 300121,
+  "name": "强效攻击冲能液",
+  "desc": "在精灵对战中，增加精灵攻击30，使用次数：10次。注意：赛尔间对战无效",
+  "idx": 1071,
+  "use_times": 10,
+  "item": {
+    "id": 300121,
+    "url": "https://api.seerapi.com/v1/item/300121/"
+  },
+  "effect": {
+    "effect_args": [
+      1,
+      30
+    ],
+    "effect": {
+      "id": 26,
+      "url": "https://api.seerapi.com/v1/eid_effect/26/"
+    }
+  },
+  "ability_buff": {
+    "atk": 30,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 0,
+    "percent": false,
+    "total": 30
+  },
+  "hash": "d8d6624a"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 35473,
+  "name": "异技探寻术",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手当前精灵携带技能石则降低对手所有技能2点PP值且恢复自身所有技能1点PP值",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1743,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1743/"
+      }
+    },
+    {
+      "info": "若对手当前精灵未携带技能石则造成的攻击伤害提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1744,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1744/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e6d99a26"
+}

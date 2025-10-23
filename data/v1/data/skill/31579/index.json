@@ -1,0 +1,45 @@
+{
+  "id": 31579,
+  "name": "流风剑道",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 224,
+    "url": "https://api.seerapi.com/v1/element_type_combination/224/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%的概率打出致命一击",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1315,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1315/"
+      }
+    },
+    {
+      "info": "若打出致命一击，则造成伤害值的50%恢复自身体力 ",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 505,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/505/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f713e05e"
+}

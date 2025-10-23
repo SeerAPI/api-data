@@ -1,0 +1,35 @@
+{
+  "id": 793,
+  "desc": "自身攻击造成的伤害低于300则自身攻击+2，自身攻击造成的伤害高于300则自身速度+2",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3478,
+      "url": "https://api.seerapi.com/v1/pet/3478/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      2,
+      300,
+      2
+    ],
+    "effect": {
+      "id": 1077,
+      "url": "https://api.seerapi.com/v1/eid_effect/1077/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "527a04ff"
+}

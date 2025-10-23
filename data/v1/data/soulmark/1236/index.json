@@ -1,0 +1,43 @@
+{
+  "id": 1236,
+  "desc": "自身死亡后有50%的概率复活；第1次复活后消除对手的能力提升状态且令自身3回合内造成的伤害提升100%，第2次复活后吸取对手的能力提升状态且令自身3回合内造成的伤害提升150%，第3次复活后吸取并反转对手的能力提升状态且令自身3回合内造成的伤害提升200%（每场战斗最多复活3次，boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限3次）：\r\n<indent=16><sprite=3><indent=32>自身死亡后50%<color=#64F9FA>复活</color>\r\n<indent=32><sprite=4><indent=48>第1次复活后<color=#64F9FA>消除</color>对手的<b>能力提升状态</b>且令自身3回合内造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>第2次复活后<color=#64F9FA>吸取</color>对手的<b>能力提升状态</b>且令自身3回合内造成的<b>攻击伤害</b><color=#64F9FA>提升</color>150%\r\n<indent=32><sprite=4><indent=48>第3次复活后<color=#64F9FA>吸取并反转</color>对手的<b>能力提升状态</b>且令自身3回合内造成的<b>攻击伤害</b><color=#64F9FA>提升</color>200%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3972,
+      "url": "https://api.seerapi.com/v1/pet/3972/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      100,
+      3,
+      150,
+      3,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 1571,
+      "url": "https://api.seerapi.com/v1/eid_effect/1571/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "af26035e"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 37597,
+  "name": "毒芽萌发",
+  "power": 80,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "30%令对手寄生",
+      "args": [
+        30,
+        4
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    },
+    {
+      "info": "攻击对手时若对手处于中毒状态，则100%使对手寄生",
+      "args": [
+        1,
+        100,
+        4
+      ],
+      "effect": {
+        "id": 572,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/572/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4e4d5c3b"
+}

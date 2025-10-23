@@ -1,0 +1,38 @@
+{
+  "id": 36297,
+  "name": "苍宇遗光",
+  "power": 100,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 118,
+    "url": "https://api.seerapi.com/v1/element_type_combination/118/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合使用技能则50%令对手疲惫，未触发则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3,
+        50,
+        7,
+        3
+      ],
+      "effect": {
+        "id": 1255,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1255/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8943e06a"
+}

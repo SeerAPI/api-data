@@ -1,0 +1,43 @@
+{
+  "id": 655,
+  "desc": "战斗阶段结束时若自身体力高于对手则有50%概率使对手害怕，未触发则使对手全属性-1；战斗阶段结束时若自身体力低于对手则{吸取}对手最大{体力}的1/4（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3332,
+      "url": "https://api.seerapi.com/v1/pet/3332/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      4,
+      1
+    ],
+    "effect": {
+      "id": 938,
+      "url": "https://api.seerapi.com/v1/eid_effect/938/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3f67a416"
+}

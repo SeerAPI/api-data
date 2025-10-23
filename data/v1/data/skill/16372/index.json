@@ -1,0 +1,36 @@
+{
+  "id": 16372,
+  "name": "无畏冲锋",
+  "power": 90,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 47,
+    "url": "https://api.seerapi.com/v1/element_type_combination/47/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功下回合自身先制+1",
+      "args": [
+        0,
+        1
+      ],
+      "effect": {
+        "id": 629,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/629/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "614e7571"
+}

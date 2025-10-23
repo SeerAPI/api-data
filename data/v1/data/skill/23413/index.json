@@ -1,0 +1,69 @@
+{
+  "id": 23413,
+  "name": "海之契约",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当自身血量少于1/3时先制+2",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 616,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/616/"
+      }
+    },
+    {
+      "info": "恢复自身最大体力的1/2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 43,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/43/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能恢复自身最大体力的1/4",
+      "args": [
+        3,
+        4
+      ],
+      "effect": {
+        "id": 57,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/57/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手命中等级-1",
+      "args": [
+        5,
+        100,
+        -1
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7b0cdb49"
+}

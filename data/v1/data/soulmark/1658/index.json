@@ -1,0 +1,47 @@
+{
+  "id": 1658,
+  "desc": "自身使用攻击技能会连击2次，若使用后造成的伤害不高于400则之后每次使用连击次数+2（上限为8次），若使用后造成的伤害高于400则重置自身连击次数并附加造成伤害100%的百分比伤害；|在战斗中令自身防御值和特防值中较低的一项每回合开始时提升2级，若自身防御值和特防值相同则造成的攻击伤害提升40%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能会<color=#64F9FA>连击</color>2次\r\n<indent=32><sprite=4><indent=48>若使用后造成的伤害不高于400则之后每次使用连击次数+2（上限为8次）\r\n<indent=32><sprite=4><indent=48>若使用后造成的伤害高于400则重置自身连击次数并<color=#64F9FA>附加</color>造成伤害100%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身防御值和特防值不同则<b>其中较低的一项</b><color=#64F9FA>提升</color>2级\r\n<indent=32><sprite=4><indent=48>若自身防御值和特防值相同则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%</color></b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4442,
+      "url": "https://api.seerapi.com/v1/pet/4442/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      400,
+      2,
+      8,
+      100,
+      2,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 2042,
+      "url": "https://api.seerapi.com/v1/eid_effect/2042/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6f6cd732"
+}

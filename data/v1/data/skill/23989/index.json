@@ -1,0 +1,51 @@
+{
+  "id": 23989,
+  "name": "双生毒尾",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "免疫并反弹异常状态；对手特防持续降低",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内每回合对手特防-1",
+      "args": [
+        3,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 448,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/448/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c17c9978"
+}

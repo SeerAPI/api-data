@@ -1,0 +1,51 @@
+{
+  "id": 35136,
+  "name": "断罪神罚印",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 80,
+    "url": "https://api.seerapi.com/v1/element_type_combination/80/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "本回合若没有打出致命一击则防御",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 732,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/732/"
+      }
+    },
+    {
+      "info": "自身每处于1种能力提升状态，造成的伤害提升15%",
+      "args": [
+        1,
+        15
+      ],
+      "effect": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/999/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "eb52aabb"
+}

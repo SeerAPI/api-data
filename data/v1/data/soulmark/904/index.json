@@ -1,0 +1,39 @@
+{
+  "id": 904,
+  "desc": "增加30点防御上限和30点特防上限；使用攻击技能附加自身双防总和30%的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3611,
+      "url": "https://api.seerapi.com/v1/pet/3611/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      30,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 1188,
+      "url": "https://api.seerapi.com/v1/eid_effect/1188/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "44e82e11"
+}

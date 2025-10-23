@@ -1,0 +1,37 @@
+{
+  "id": 1771,
+  "desc": "自身使用技能击败对手后恢复自身最大体力的1/2，若对手处于烧伤状态则转变为恢复自身全部体力值且令对手下只精灵出战时烧伤（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能击败对手后<color=#64F9FA>恢复</color>自身最大体力的1/2\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则转变为<color=#64F9FA>恢复</color>自身全部<b>体力</b>值且令对手下只精灵出战时烧伤",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4560,
+      "url": "https://api.seerapi.com/v1/pet/4560/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1
+    ],
+    "effect": {
+      "id": 2163,
+      "url": "https://api.seerapi.com/v1/eid_effect/2163/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "38fe3e10"
+}

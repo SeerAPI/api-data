@@ -1,0 +1,34 @@
+{
+  "id": 630,
+  "desc": "50%概率使自身技能威力翻倍，未触发则自身下次攻击必定致命一击（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3298,
+      "url": "https://api.seerapi.com/v1/pet/3298/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 913,
+      "url": "https://api.seerapi.com/v1/eid_effect/913/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c083e998"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 34526,
+  "name": "碧空苍刃击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%的概率令对手随机1项技能PP值归零",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 656,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/656/"
+      }
+    },
+    {
+      "info": "对手处于能力下降状态造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1439,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1439/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1048,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1048/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "436ac35a"
+}

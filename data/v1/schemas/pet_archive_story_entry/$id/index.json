@@ -1,0 +1,45 @@
+{
+  "$defs": {
+    "ResourceRef_PetArchiveStoryBook_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "故事条目ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "content": {
+      "description": "故事条目内容",
+      "title": "Content",
+      "type": "string"
+    },
+    "pet": {
+      "$ref": "#/$defs/ResourceRef_Pet_",
+      "description": "精灵"
+    },
+    "book": {
+      "$ref": "#/$defs/ResourceRef_PetArchiveStoryBook_",
+      "description": "故事"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "content",
+    "pet",
+    "book",
+    "hash"
+  ],
+  "title": "PetArchiveStoryEntry",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

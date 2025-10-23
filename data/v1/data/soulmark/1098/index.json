@@ -1,0 +1,50 @@
+{
+  "id": 1098,
+  "desc": "战斗阶段结束时，若自身存活且体力低于最大体力的1/2则解除自身异常状态，恢复自身全部体力并造成等量固伤，同时本场战斗结束前自身所有技能先制+1（每场战斗仅触发1次）；|自身造成的攻击伤害高于300则{吸取}对手300点{体力}，自身造成的伤害低于300则下回合攻击技能先制+1且造成的伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身存活且体力低于最大体力的1/2则：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>解除</color>自身所处的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>自身全部体力并造成等量<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>本场战斗自身所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300则<color=#64F9FA>吸取</color>对手300点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于300则下回合攻击技能<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3823,
+      "url": "https://api.seerapi.com/v1/pet/3823/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      1,
+      300,
+      300,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1409,
+      "url": "https://api.seerapi.com/v1/eid_effect/1409/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1307,
+    "url": "https://api.seerapi.com/v1/soulmark/1307/"
+  },
+  "from": null,
+  "hash": "4143b6f2"
+}

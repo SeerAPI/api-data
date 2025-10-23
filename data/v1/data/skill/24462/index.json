@@ -1,0 +1,61 @@
+{
+  "id": 24462,
+  "name": "血舞星河",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都得到了提升；受到的伤害将转化为自身体力；对手使用属性技能将降低体力；",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，防御",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585/"
+      }
+    },
+    {
+      "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 128,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/128/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用属性技能降低对手最大体力的1/3",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 703,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/703/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d047c441"
+}

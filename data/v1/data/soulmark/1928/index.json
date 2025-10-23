@@ -1,0 +1,42 @@
+{
+  "id": 1928,
+  "desc": "对手使用攻击技能时，为对手随机附加中毒、寄生、感染、睡眠中的一种异常状态|回合开始时，若本场战斗自身已经通过上述方式附加过四种异常状态，当回合自身造成的攻击伤害提升100%，受到的攻击伤害减少40%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时，为对手<color=#64F9FA>附加</color>中毒、寄生、感染、睡眠中的一种<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若本场战斗自身已经通过触发效果附加过四种异常状态，当回合：\r\n<indent=32><sprite=4><indent=48>自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>40%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4728,
+      "url": "https://api.seerapi.com/v1/pet/4728/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 2342,
+      "url": "https://api.seerapi.com/v1/eid_effect/2342/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b1c85042"
+}

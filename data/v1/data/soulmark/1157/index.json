@@ -1,0 +1,50 @@
+{
+  "id": 1157,
+  "desc": "当回合攻击未击败对手则下回合自身所有技能先制+1且攻击造成的伤害提升50%，当回合攻击击败对手则{吸取}对手下只登场精灵最大{体力}的1/3且50%令对手睡眠；|死亡后恢复己方所有不在场且存活精灵最大体力的1/3，同时使己方下只精灵登场后获得神圣之荷的庇护：400点护盾和400点护罩（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能的回合：\r\n<indent=32><sprite=4><indent=48>若未击败对手则下回合自身所有技能<b>先制</b>+1且攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若击败对手则<color=#64F9FA>吸取</color>对手下只登场精灵最大体力的1/3且50%<color=#64F9FA>令对手睡眠</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>己方所有不在场且存活的精灵最大体力的1/3\r\n<indent=32><sprite=4><indent=48>使己方下只精灵登场后获得神圣之荷的庇护：<color=#64F9FA>获得</color>400点<b>护盾</b>和400点<b>护罩</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3888,
+      "url": "https://api.seerapi.com/v1/pet/3888/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      3,
+      50,
+      3,
+      400,
+      400,
+      1
+    ],
+    "effect": {
+      "id": 1475,
+      "url": "https://api.seerapi.com/v1/eid_effect/1475/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1561,
+    "url": "https://api.seerapi.com/v1/soulmark/1561/"
+  },
+  "from": null,
+  "hash": "15e7e995"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1482,
+  "desc": "自身攻击技能命中后触发归零强袭：附加等同于攻击伤害80%的百分比伤害，恢复等同于攻击伤害80%的体力，造成的攻击伤害低于300则对手下回合属性技能失效，造成的攻击伤害高于300则对手下回合攻击技能失效；|自身使用属性技能则触发归零诡雷：对手下次使用技能则战斗阶段结束时受到300点固定伤害；|自身受到攻击伤害则触发归零屏障：受到的攻击伤害低于300则战斗阶段结束时降低对手所有技能1点PP值并恢复自身所有技能1点PP值，受到的攻击伤害高于300则下回合对手所有技能先制-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后触发归零强袭：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>等同于攻击伤害80%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>等同于攻击伤害80%的<b>体力</b>\r\n<indent=32><sprite=4><indent=48>造成的攻击伤害低于300则对手下回合<b>属性技能</b><color=#64F9FA>失效</color>\r\n<indent=32><sprite=4><indent=48>造成的攻击伤害高于300则对手下回合<b>攻击技能</b><color=#64F9FA>失效</color>\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则触发归零诡雷：\r\n<indent=32><sprite=4><indent=48>对手下次使用技能则战斗阶段结束时<color=#64F9FA>受到</color>300点<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害则触发归零屏障：\r\n<indent=32><sprite=4><indent=48>受到的攻击伤害低于300则战斗阶段结束时<color=#64F9FA>降低</color>对手所有技能1点<b>PP值</b>并<color=#64F9FA>恢复</color>自身所有技能1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>受到的攻击伤害高于300则下回合对手所有技能<b>先制</b>-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4258,
+      "url": "https://api.seerapi.com/v1/pet/4258/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      80,
+      300,
+      1,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1845,
+      "url": "https://api.seerapi.com/v1/eid_effect/1845/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5bb0940b"
+}

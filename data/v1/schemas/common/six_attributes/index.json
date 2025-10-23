@@ -1,0 +1,52 @@
+{
+  "description": "六维属性类",
+  "properties": {
+    "atk": {
+      "description": "攻击",
+      "title": "Atk",
+      "type": "integer"
+    },
+    "def": {
+      "description": "防御",
+      "title": "Def",
+      "type": "integer"
+    },
+    "sp_atk": {
+      "description": "特攻",
+      "title": "Sp Atk",
+      "type": "integer"
+    },
+    "sp_def": {
+      "description": "特防",
+      "title": "Sp Def",
+      "type": "integer"
+    },
+    "spd": {
+      "description": "速度",
+      "title": "Spd",
+      "type": "integer"
+    },
+    "hp": {
+      "description": "体力",
+      "title": "Hp",
+      "type": "integer"
+    },
+    "percent": {
+      "default": false,
+      "description": "该对象描述的是否是百分比加成，如果为true，属性值为省略百分比（%）符号的加成",
+      "title": "Percent",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "atk",
+    "def",
+    "sp_atk",
+    "sp_def",
+    "spd",
+    "hp"
+  ],
+  "title": "SixAttributesBase",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

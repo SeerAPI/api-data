@@ -1,0 +1,33 @@
+{
+  "id": 447,
+  "desc": "所有攻击技能有50%的概率造成200%的伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3103,
+      "url": "https://api.seerapi.com/v1/pet/3103/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2
+    ],
+    "effect": {
+      "id": 733,
+      "url": "https://api.seerapi.com/v1/eid_effect/733/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "52024a2d"
+}

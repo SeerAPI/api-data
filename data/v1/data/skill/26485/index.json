@@ -1,0 +1,36 @@
+{
+  "id": 26485,
+  "name": "天地灵气",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "若对手miss则自身恢复一些体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手MISS则自身恢复1/3的最大体力值",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 177,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/177/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "df32ed48"
+}

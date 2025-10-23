@@ -1,0 +1,47 @@
+{
+  "id": 32307,
+  "name": "辉芒黯陨",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 94,
+    "url": "https://api.seerapi.com/v1/element_type_combination/94/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机附加150~300点固定伤害",
+      "args": [
+        150,
+        300
+      ],
+      "effect": {
+        "id": 683,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/683/"
+      }
+    },
+    {
+      "info": "30%的概率令对手随机3项技能PP值归零",
+      "args": [
+        30,
+        3
+      ],
+      "effect": {
+        "id": 656,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/656/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "32fb7544"
+}

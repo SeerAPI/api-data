@@ -1,0 +1,50 @@
+{
+  "id": 37698,
+  "name": "落绒闪影",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，若消除成功则自身特攻",
+      "args": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 538,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/538/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态，则每次攻击恢复自身体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 489,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/489/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e0e9a173"
+}

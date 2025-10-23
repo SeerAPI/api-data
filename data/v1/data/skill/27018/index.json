@@ -1,0 +1,46 @@
+{
+  "id": 27018,
+  "name": "神之禁",
+  "power": 0,
+  "max_pp": 15,
+  "accuracy": 97,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "开始令对手无法提升能力状态；开始令对手技能消耗的PP翻倍",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合对手无法使自身能力出现提升状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 765,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/765/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8d5ab4b1"
+}

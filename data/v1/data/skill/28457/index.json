@@ -1,0 +1,45 @@
+{
+  "id": 28457,
+  "name": "踏蔓先登",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "尝试躲避攻击",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "遇到天敌时先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 610,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/610/"
+      }
+    },
+    {
+      "info": "先出手时免疫当回合受到的攻击伤害，若对手为自身天敌则免疫并反弹给对手造成伤害值50%的百分比伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1511,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1511/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "40c8c9f9"
+}

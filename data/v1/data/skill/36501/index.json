@@ -1,0 +1,33 @@
+{
+  "id": 36501,
+  "name": "反冲切割",
+  "power": 115,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身相应的能力提升赋予给对手相应的能力下降",
+      "args": [],
+      "effect": {
+        "id": 722,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/722/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "75f9c316"
+}

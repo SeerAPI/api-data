@@ -1,0 +1,55 @@
+{
+  "id": 24920,
+  "name": "神威灵装",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始抵抗异常状态了；将下次受到的伤害的反馈给对手；吸取对手体力，体力低于对手时效果翻倍",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内免疫所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "将下次受到的伤害150%反馈给对手 ",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 855,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/855/"
+      }
+    },
+    {
+      "info": "吸取对手250点体力，体力低于对手时吸取效果翻倍",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 894,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/894/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "605ad5f2"
+}

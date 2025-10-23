@@ -1,0 +1,51 @@
+{
+  "id": 31918,
+  "name": "冲锋怒号",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "args": [
+        150,
+        300,
+        30,
+        300
+      ],
+      "effect": {
+        "id": 604,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/604/"
+      }
+    },
+    {
+      "info": "命中后80%使对手害怕，未触发则对手下2回合先制-2",
+      "args": [
+        80,
+        6,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 937,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/937/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e716f8bc"
+}

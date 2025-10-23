@@ -1,0 +1,44 @@
+{
+  "id": 1877,
+  "desc": "自身连续使用攻击技能时造成的伤害提升50%，若造成的攻击伤害高于300则50%令对手疲惫|自身技能结束时，若此技能剩余PP值为0则恢复自身全部体力并造成等量百分比伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身连续使用攻击技能时造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，若造成的攻击伤害高于300则50%<color=#64F9FA>令对手疲惫</color>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身技能结束后，若此技能剩余PP值为0则<color=#64F9FA>恢复</color>自身<b>全部体力</b>并造成等量<b>百分比伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4675,
+      "url": "https://api.seerapi.com/v1/pet/4675/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      300,
+      50,
+      0,
+      1
+    ],
+    "effect": {
+      "id": 2277,
+      "url": "https://api.seerapi.com/v1/eid_effect/2277/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "45e5fc9b"
+}

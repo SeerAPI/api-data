@@ -1,0 +1,36 @@
+{
+  "id": 35799,
+  "name": "朽木毒素",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 22,
+    "url": "https://api.seerapi.com/v1/element_type_combination/22/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加200点固定伤害，对手中毒时固定伤害翻倍",
+      "args": [
+        200,
+        1
+      ],
+      "effect": {
+        "id": 987,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/987/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d804abd9"
+}

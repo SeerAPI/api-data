@@ -1,0 +1,52 @@
+{
+  "id": 37665,
+  "name": "星光·泰山压顶",
+  "power": 300,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "args": [],
+      "effect": {
+        "id": 2220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2220/"
+      }
+    },
+    {
+      "info": "若先出手则必定打出致命一击",
+      "args": [],
+      "effect": {
+        "id": 1395,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1395/"
+      }
+    },
+    {
+      "info": "击败对手则100%令自身疲惫",
+      "args": [
+        100,
+        7
+      ],
+      "effect": {
+        "id": 1933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17e66f4d"
+}

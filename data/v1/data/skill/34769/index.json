@@ -1,0 +1,36 @@
+{
+  "id": 34769,
+  "name": "鬼魅之咒",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 55,
+    "url": "https://api.seerapi.com/v1/element_type_combination/55/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "20%概率额外附加200点固定伤害",
+      "args": [
+        20,
+        200
+      ],
+      "effect": {
+        "id": 93,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/93/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "18a9e95f"
+}

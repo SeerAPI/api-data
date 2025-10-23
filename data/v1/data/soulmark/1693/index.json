@@ -1,0 +1,46 @@
+{
+  "id": 1693,
+  "desc": "雄性精灵对自身造成的攻击伤害、固定伤害、百分比伤害减少15%；|自身使用技能则造成的攻击伤害提升0%~50%且使用后随机附加0~300点固定伤害，若所使用的技能与上回合类型不同，则增伤及固伤随机修改为最大值且本次技能先制额外+1|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>雄性精灵对自身造成的<b>攻击伤害、百分比伤害</b><color=#64F9FA>减少</color>15%\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>0%~50%且使用后随机<color=#64F9FA>附加</color>0~300点<b>固定伤害</b>\r\n若所使用的技能与上回合类型不同，则上述随机数修改为最大值且本次技能<b>先制</b>额外+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4481,
+      "url": "https://api.seerapi.com/v1/pet/4481/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      15,
+      0,
+      50,
+      0,
+      300,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2078,
+      "url": "https://api.seerapi.com/v1/eid_effect/2078/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "dcbe6e1"
+}

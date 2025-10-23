@@ -1,0 +1,44 @@
+{
+  "id": 801,
+  "desc": "50%概率受到的攻击伤害减少50%，未触发则下回合免疫受到的攻击伤害；体力高于对手时，攻击附加自身最大体力1/3的固定伤害，体力低于对手时，属性技能{吸取}对手最大{体力}的1/3（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3489,
+      "url": "https://api.seerapi.com/v1/pet/3489/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      3,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1088,
+      "url": "https://api.seerapi.com/v1/eid_effect/1088/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cd29ddb"
+}

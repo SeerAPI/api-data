@@ -1,0 +1,46 @@
+{
+  "id": 996,
+  "desc": "攻击技能命中对手时25%-50%的概率造成的伤害提升25%-50%；单数战斗阶段结束时恢复自身最大体力的1/4，偶数战斗阶段结束时令自身随机2项能力值+1（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3722,
+      "url": "https://api.seerapi.com/v1/pet/3722/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      50,
+      25,
+      50,
+      4,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1297,
+      "url": "https://api.seerapi.com/v1/eid_effect/1297/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cb59dae4"
+}

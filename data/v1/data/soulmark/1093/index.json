@@ -1,0 +1,40 @@
+{
+  "id": 1093,
+  "desc": "对手使用物理攻击命中自身则100%令对手失明，使用特殊攻击命中自身则回合结束后恢复自身已损失体力的1/2，使用属性技能则使自身下回合所有技能有50%的概率附加250点固定伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用物理攻击命中则100%<color=#64F9FA>令对手失明</color>\r\n<indent=16><sprite=3><indent=32>对手使用特殊攻击命中则战斗阶段结束时自身<color=#64F9FA>恢复</color>已损失体力的1/2\r\n<indent=16><sprite=3><indent=32>对手使用属性技能则使自身下回合所有技能50%<color=#64F9FA>附加</color>250点<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3818,
+      "url": "https://api.seerapi.com/v1/pet/3818/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      2,
+      50,
+      250,
+      1
+    ],
+    "effect": {
+      "id": 1401,
+      "url": "https://api.seerapi.com/v1/eid_effect/1401/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7b5372ea"
+}

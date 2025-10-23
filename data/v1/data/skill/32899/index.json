@@ -1,0 +1,48 @@
+{
+  "id": 32899,
+  "name": "琉璃净火",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于烧伤状态则先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 958,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/958/"
+      }
+    },
+    {
+      "info": "若对手烧伤则使对手下2回合攻击必定MISS",
+      "args": [
+        2,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 686,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/686/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fd9a9880"
+}

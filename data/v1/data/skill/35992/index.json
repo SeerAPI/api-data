@@ -1,0 +1,45 @@
+{
+  "id": 35992,
+  "name": "秘械幻影",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 84,
+    "url": "https://api.seerapi.com/v1/element_type_combination/84/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害不少于250",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 447,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/447/"
+      }
+    },
+    {
+      "info": "额外附加250点固定伤害",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 29,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/29/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "56e47fd3"
+}

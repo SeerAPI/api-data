@@ -1,0 +1,44 @@
+{
+  "id": 1092,
+  "desc": "每回合开始时100%令对手全属性-1，若自身体力高于对手则50%的概率弱化效果翻倍；自身死亡时，100%令对手进入害怕、麻痹、疲惫3种异常中的1种，未触发则消除对手回合类效果（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时100%令对手<color=#64F9FA>全属性-1</color>，若自身体力高于对手则50%效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时100%<color=#64F9FA>附加</color>害怕、麻痹、疲惫中的1种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3817,
+      "url": "https://api.seerapi.com/v1/pet/3817/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      1,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1400,
+      "url": "https://api.seerapi.com/v1/eid_effect/1400/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "179dbee5"
+}

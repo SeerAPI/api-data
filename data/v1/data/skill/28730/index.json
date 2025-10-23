@@ -1,0 +1,47 @@
+{
+  "id": 28730,
+  "name": "炼·陆离",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": -1,
+  "must_hit": false,
+  "info": "消除了对手的回合类效果，开始逐渐恢复活力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则使自身下2回合必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1224,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1224/"
+      }
+    },
+    {
+      "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+      "args": [
+        2,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1655,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1655/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c723b127"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 28056,
+  "name": "承哀思",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "消除敌我双方回合类效果并使双方失神",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果并为双方附加3回合失神，自身失神状态解除后则恢复自身所有体力",
+      "args": [
+        3,
+        29,
+        29
+      ],
+      "effect": {
+        "id": 1139,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1139/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3d0976fd"
+}

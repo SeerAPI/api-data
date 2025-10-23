@@ -1,0 +1,38 @@
+{
+  "id": 1177,
+  "desc": "每回合自身速度+1，自身处于速度提升状态时闪避率提升50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身速度+1\r\n<indent=32><sprite=4><indent=48>然后若自身处于速度提升状态则当回合50%<color=#64F9FA>闪避</color>受到的<b>攻击</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3911,
+      "url": "https://api.seerapi.com/v1/pet/3911/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1502,
+      "url": "https://api.seerapi.com/v1/eid_effect/1502/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f1dd65d9"
+}

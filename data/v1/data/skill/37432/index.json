@@ -1,0 +1,64 @@
+{
+  "id": 37432,
+  "name": "日月轮·同天",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "为自身附加200点护盾",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 847,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/847/"
+      }
+    },
+    {
+      "info": "为自身附加200点护罩",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 1342,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1342/"
+      }
+    },
+    {
+      "info": "无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 697,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/697/"
+      }
+    },
+    {
+      "info": "对手不处于异常状态时对手2回合内体力恢复效果减少50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 2128,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2128/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1acba15b"
+}

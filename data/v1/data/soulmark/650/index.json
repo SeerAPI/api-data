@@ -1,0 +1,42 @@
+{
+  "id": 650,
+  "desc": "对手处于能力提升状态时，自身攻击有80%概率使对手冰封，未触发则消除对手回合类效果；自身使用攻击技能时若对手处于异常状态则附加对手最大体力1/3的固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3325,
+      "url": "https://api.seerapi.com/v1/pet/3325/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      80,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 935,
+      "url": "https://api.seerapi.com/v1/eid_effect/935/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "44699a62"
+}

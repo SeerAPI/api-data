@@ -1,0 +1,46 @@
+{
+  "id": 24729,
+  "name": "一骑绝尘",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击无视对手伤害限制效果；对手释放技能所消耗的PP翻倍",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内自身所有攻击无视伤害限制效果",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 790,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/790/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "410b1f7e"
+}

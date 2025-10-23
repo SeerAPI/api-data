@@ -1,0 +1,44 @@
+{
+  "id": 1059,
+  "desc": "攻击技能附加对手防御值25%的固定伤害，每次使用增加25%，最高100%；回合开始时，若自身不处于能力提升状态则当回合攻击技能先制+1且造成的伤害提升50%，若自身处于能力提升状态则当回合免疫异常状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3783,
+      "url": "https://api.seerapi.com/v1/pet/3783/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      100,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1360,
+      "url": "https://api.seerapi.com/v1/eid_effect/1360/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d79ce53f"
+}

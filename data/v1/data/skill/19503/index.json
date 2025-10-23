@@ -1,0 +1,47 @@
+{
+  "id": 19503,
+  "name": "无影之刃",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": -1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 34,
+    "url": "https://api.seerapi.com/v1/element_type_combination/34/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "后出手时，50%概率使对方冰封",
+      "args": [
+        50,
+        15
+      ],
+      "effect": {
+        "id": 147,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/147/"
+      }
+    },
+    {
+      "info": "后出手时，50%概率使对方麻痹",
+      "args": [
+        50,
+        0
+      ],
+      "effect": {
+        "id": 147,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/147/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7fe25bda"
+}

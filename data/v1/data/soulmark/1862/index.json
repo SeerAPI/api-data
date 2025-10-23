@@ -1,0 +1,37 @@
+{
+  "id": 1862,
+  "desc": "战斗开始时，自身所有能力值变为所有能力值之和的一半；自身使用技能不受PP值限制且使用之后的PP值消耗改为反转当前PP值与已损失PP值|自身使用PP值不为0的技能时解除所处的异常状态且免疫下次受到的异常状态，使用的PP值为0的技能时必定命中、强制执行命中效果且使用后触发万相乖离，自身未使用技能的回合结束，根据满足的条件触发技能中的无为效果|万相乖离：永久取消第五技能首条未取消过的效果中的触发条件并提升50点威力，自身击败对手后，重置万相乖离并令对方全部阵亡精灵消逝|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时，自身<b>所有能力值</b>变为<b>所有能力值之和</b>的一半\r\n<indent=16><sprite=3><indent=32>自身使用技能<color=#64F9FA>不受PP值限制</color>且使用之后的PP值消耗改为反转当前PP值与已损失PP值\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用PP值不为0的技能时<color=#64F9FA>解除</color>所处的<b>异常状态</b>并<color=#64F9FA>免疫</color>下次受到的<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>自身使用的PP值为0的技能时将<color=#64F9FA>视为命中强制执行命中效果</color>并在使用后触发万相乖离\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>若当回合自身未使用技能，则战斗阶段结束时根据满足的条件触发技能中的<b>无为</b>效果\r\n\r\n<indent=0><sprite=5><indent=15>万相乖离：\r\n<indent=16><sprite=6><indent=32>永久<color=#64F9FA>取消</color>第五技能<b>首条未取消过的效果</b>中的<b>所有触发条件</b>并<color=#64F9FA>提升</color>50点威力，自身击败对手后，万相乖离重置并令对方阵亡精灵<color=#64F9FA>消逝</color>\r\n\r\n<indent=0><sprite=5><indent=15>无为：\r\n<indent=16><sprite=6><indent=32>无为觉者特定技能中的效果，不随技能的命中而直接生效\r\n<indent=16><sprite=6><indent=32>战斗阶段结束时，若本回合无为觉者未使用技能，则携带技能中所有满足条件的无为效果均会生效",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4661,
+      "url": "https://api.seerapi.com/v1/pet/4661/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2260,
+      "url": "https://api.seerapi.com/v1/eid_effect/2260/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b94f02e"
+}

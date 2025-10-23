@@ -1,0 +1,40 @@
+{
+  "id": 914,
+  "desc": "自身先出手时候附加200点固定伤害，自身体力低于1/2时附加效果翻倍；自身后出手时{吸取}对手200点{体力}，自身体力低于1/2时吸取效果翻倍（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3618,
+      "url": "https://api.seerapi.com/v1/pet/3618/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      2,
+      200,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1197,
+      "url": "https://api.seerapi.com/v1/eid_effect/1197/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "912dac4b"
+}

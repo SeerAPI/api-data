@@ -1,0 +1,35 @@
+{
+  "id": 14650,
+  "name": "狂怒裂地击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 42,
+    "url": "https://api.seerapi.com/v1/element_type_combination/42/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当对手处于防御能力提升时，恢复200点体力值 ",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 510,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/510/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9219e9a2"
+}

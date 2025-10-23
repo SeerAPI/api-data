@@ -1,0 +1,39 @@
+{
+  "id": 115,
+  "desc": "若每回合先出手攻击，则造成伤害的20%恢复自身体力并附带15%概率令对手睡眠",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2695,
+      "url": "https://api.seerapi.com/v1/pet/2695/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      20,
+      15,
+      8
+    ],
+    "effect": {
+      "id": 339,
+      "url": "https://api.seerapi.com/v1/eid_effect/339/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "199390d0"
+}

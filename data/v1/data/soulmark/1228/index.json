@@ -1,0 +1,45 @@
+{
+  "id": 1228,
+  "desc": "自身攻击命中对手时100%令对手进入烧伤、冻伤、中毒3种异常状态中的1种；战斗阶段结束时，若对手处于烧伤状态则下回合自身攻击50%打出致命一击，若对手处于冻伤状态则下回合自身攻击50%附加200点固定伤害，若对手处于中毒状态则下回合自身攻击50%令对手感染（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中对手时100%令对手<color=#64F9FA>受到</color>烧伤、冻伤、中毒3种异常状态中的1种\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则下回合自身攻击技能50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤状态则下回合自身<b>攻击技能</b>50%<color=#64F9FA>附加</color>200点固定伤害\r\n<indent=32><sprite=4><indent=48>若对手处于中毒状态则下回合自身<b>攻击技能</b>50%<color=#64F9FA>令对手感染</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3963,
+      "url": "https://api.seerapi.com/v1/pet/3963/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      50,
+      50,
+      200,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1563,
+      "url": "https://api.seerapi.com/v1/eid_effect/1563/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "475db32c"
+}

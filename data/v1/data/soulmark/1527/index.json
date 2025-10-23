@@ -1,0 +1,41 @@
+{
+  "id": 1527,
+  "desc": "回合开始时若对手不处于异常状态则令对手随机3项属性-1；|自身使用攻击技能造成的攻击伤害为奇数则100%令对手烧伤，造成的攻击伤害为偶数则100%令对手失明，未触发烧伤或失明则令自身下1次攻击必定打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手不处于异常状态则令对手随机3项属性-1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成攻击伤害后：\r\n<indent=32><sprite=4><indent=48>若伤害为奇数则100%<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下1次攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若伤害为偶数则100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下1次攻击必定<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4304,
+      "url": "https://api.seerapi.com/v1/pet/4304/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      100,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1890,
+      "url": "https://api.seerapi.com/v1/eid_effect/1890/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8cf479f4"
+}

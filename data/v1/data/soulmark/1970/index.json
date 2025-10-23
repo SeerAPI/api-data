@@ -1,0 +1,40 @@
+{
+  "id": 1970,
+  "desc": "自身每次登场后，下2次使用攻击技能时消除对手能力提升状态，消除成功则令对手全属性-1，对手不处于能力提升状态时自身100%闪避对手的下1次攻击技能|自身使用属性技能时，若自身的登场效果已耗尽，则消耗此技能的全部PP值以重置登场效果|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场后，下2次使用攻击技能时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>对手<b>能力提升状态</b>，消除成功则令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>对手不处于能力提升状态时自身100%<color=#64F9FA>闪避</color>对手的下1次<b>攻击技能</b>\r\n\r\n<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能时若自身的登场效果已耗尽，则<color=#64F9FA>消耗</color>此技能的全部<b>PP值</b>以重置登场效果",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4759,
+      "url": "https://api.seerapi.com/v1/pet/4759/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2383,
+      "url": "https://api.seerapi.com/v1/eid_effect/2383/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7ec1d70f"
+}

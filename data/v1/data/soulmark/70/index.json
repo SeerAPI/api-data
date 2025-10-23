@@ -1,0 +1,34 @@
+{
+  "id": 70,
+  "desc": "对手体力少于1/2时，每次攻击对手6%的概率麻痹",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2585,
+      "url": "https://api.seerapi.com/v1/pet/2585/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      6
+    ],
+    "effect": {
+      "id": 296,
+      "url": "https://api.seerapi.com/v1/eid_effect/296/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "59678c62"
+}

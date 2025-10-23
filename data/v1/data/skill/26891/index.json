@@ -1,0 +1,40 @@
+{
+  "id": 26891,
+  "name": "圣灵之黯",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "全属性都提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，防御",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f66e55d7"
+}

@@ -1,0 +1,57 @@
+{
+  "id": 28069,
+  "name": "破敌之势",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "破敌之势就绪，双方的回合类效果全部被消除；全属性都提升了；下次攻击更容易击破对手要害了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果，消除任意一方成功则自身下1次攻击技能造成的伤害提升150%",
+      "args": [
+        1,
+        150
+      ],
+      "effect": {
+        "id": 1850,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1850/"
+      }
+    },
+    {
+      "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1014,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1014/"
+      }
+    },
+    {
+      "info": "下次攻击忽略对手双防值的40%",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/886/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b211f13e"
+}

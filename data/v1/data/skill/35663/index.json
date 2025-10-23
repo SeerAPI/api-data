@@ -1,0 +1,43 @@
+{
+  "id": 35663,
+  "name": "幻象迭生",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 51,
+    "url": "https://api.seerapi.com/v1/element_type_combination/51/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手为自身天敌时造成的伤害翻倍",
+      "args": [],
+      "effect": {
+        "id": 567,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/567/"
+      }
+    },
+    {
+      "info": "命中时，100%概率令对手混乱",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 99,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/99/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e3072bc9"
+}

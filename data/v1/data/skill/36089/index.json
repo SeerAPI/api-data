@@ -1,0 +1,38 @@
+{
+  "id": 36089,
+  "name": "镇辰之阵",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机附加100-300点固定伤害，自身处于能力提升状态时变为200-400点固定伤害",
+      "args": [
+        100,
+        300,
+        200,
+        400
+      ],
+      "effect": {
+        "id": 1131,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1131/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b5554593"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 27386,
+  "name": "迷幻注视",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身速度提升了；使对手随机进入烧伤、冻伤、中毒状态中的一种",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身速度等级+1",
+      "args": [
+        4,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "100%随机附加烧伤，冻伤，中毒中的1种",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 451,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/451/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f7e7bb7c"
+}

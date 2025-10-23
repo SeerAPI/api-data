@@ -1,0 +1,40 @@
+{
+  "id": 1398,
+  "desc": "当回合对手使用攻击技能则令对手随机1个属性技能PP值归零，当回合对手使用属性技能则令对手随机1个攻击技能PP值归零；|自身连续使用攻击技能时每次威力提升20%，最高提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能则令对手随机1个属性技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>对手使用属性技能则令对手随机1个攻击技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身连续使用攻击技能时每次<b>威力</b><color=#64F9FA>提升</color>20%，最高提升100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4174,
+      "url": "https://api.seerapi.com/v1/pet/4174/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      20,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1765,
+      "url": "https://api.seerapi.com/v1/eid_effect/1765/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b85dd23c"
+}

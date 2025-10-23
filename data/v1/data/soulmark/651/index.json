@@ -1,0 +1,39 @@
+{
+  "id": 651,
+  "desc": "自身使用攻击技能时50%令对手烧伤，50%令对手冻伤；自身受到攻击时50%令对手冰封，未触发则消除对手回合类效果（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3327,
+      "url": "https://api.seerapi.com/v1/pet/3327/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 933,
+      "url": "https://api.seerapi.com/v1/eid_effect/933/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "43a51858"
+}

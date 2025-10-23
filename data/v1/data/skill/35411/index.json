@@ -1,0 +1,49 @@
+{
+  "id": 35411,
+  "name": "平行镭射光",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 72,
+    "url": "https://api.seerapi.com/v1/element_type_combination/72/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力下降状态则造成伤害的100%恢复体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 628,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/628/"
+      }
+    },
+    {
+      "info": "50%令对手疲惫，50%令自身冻伤，均未触发则为自身附加200点护盾",
+      "args": [
+        50,
+        7,
+        50,
+        5,
+        200
+      ],
+      "effect": {
+        "id": 1582,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1582/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5b976523"
+}

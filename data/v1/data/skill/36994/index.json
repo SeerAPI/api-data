@@ -1,0 +1,56 @@
+{
+  "id": 36994,
+  "name": "虚昼幻空斥",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 71,
+    "url": "https://api.seerapi.com/v1/element_type_combination/71/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则自身下2次技能先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 994,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/994/"
+      }
+    },
+    {
+      "info": "对手不处于异常状态时令对手随机2个技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2081,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2081/"
+      }
+    },
+    {
+      "info": "对手处于异常状态则吸取对手300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1214,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1214/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2664d52a"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 1975,
+  "desc": "自身造成的攻击伤害等于750时，秒杀对手；自身造成的攻击伤害不低于150，连续使用攻击技能时本次造成此效果提升150点，最高750点（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害等于750时，<color=#64F9FA>秒杀对手</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的<b>攻击伤害</b>不低于150\r\n<indent=32><sprite=4><indent=48>连续使用攻击技能时本次造成此效果提升150点，最高750点",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4764,
+      "url": "https://api.seerapi.com/v1/pet/4764/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      750,
+      150,
+      150,
+      750,
+      1
+    ],
+    "effect": {
+      "id": 2388,
+      "url": "https://api.seerapi.com/v1/eid_effect/2388/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9e42aa86"
+}

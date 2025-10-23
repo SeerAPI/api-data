@@ -1,0 +1,46 @@
+{
+  "id": 38115,
+  "name": "念力火球",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下1回合自身攻击技能必定命中",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/81/"
+      }
+    },
+    {
+      "info": "对手处于能力提升状态时附加其防御值50%的百分比伤害",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 627,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/627/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f04c8084"
+}

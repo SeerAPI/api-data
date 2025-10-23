@@ -1,0 +1,46 @@
+{
+  "id": 31520,
+  "name": "幽鬼刃轮",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1199/"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的1/4，自身体力低于对手时变为1/3",
+      "args": [
+        4,
+        3
+      ],
+      "effect": {
+        "id": 1263,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1263/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8fea666b"
+}

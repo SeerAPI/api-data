@@ -1,0 +1,38 @@
+{
+  "id": 587,
+  "desc": "先出手时30%概率使对手疲惫；后出手时使自身战斗阶段结束时速度+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3257,
+      "url": "https://api.seerapi.com/v1/pet/3257/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 871,
+      "url": "https://api.seerapi.com/v1/eid_effect/871/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1543f54f"
+}

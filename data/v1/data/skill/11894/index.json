@@ -1,0 +1,36 @@
+{
+  "id": 11894,
+  "name": "冰冷支配",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身HP小于1/8时威力为2倍",
+      "args": [
+        8,
+        2
+      ],
+      "effect": {
+        "id": 37,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/37/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "25fe7cf2"
+}

@@ -1,0 +1,49 @@
+{
+  "id": 32320,
+  "name": "璀璨星芒",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 31,
+    "url": "https://api.seerapi.com/v1/element_type_combination/31/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则令自身下1回合必定先出手且下1回合造成的攻击伤害翻倍",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 827,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/827/"
+      }
+    },
+    {
+      "info": "40%的概率造成2倍伤害，每次使用概率增加20%，最高概率100%",
+      "args": [
+        40,
+        2,
+        20,
+        100
+      ],
+      "effect": {
+        "id": 1328,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1328/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8a679fd0"
+}

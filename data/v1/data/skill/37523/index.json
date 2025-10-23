@@ -1,0 +1,45 @@
+{
+  "id": 37523,
+  "name": "灭杀雷电",
+  "power": 90,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 90,
+    "url": "https://api.seerapi.com/v1/element_type_combination/90/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1747,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1747/"
+      }
+    },
+    {
+      "info": "解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2145,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2145/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "607a28f7"
+}

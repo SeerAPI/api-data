@@ -1,0 +1,36 @@
+{
+  "id": 12069,
+  "name": "绿草吸取",
+  "power": 110,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若使用技能则恢复30点体力值",
+      "args": [
+        3,
+        30
+      ],
+      "effect": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/77/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "21a2014f"
+}

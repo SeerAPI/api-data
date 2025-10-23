@@ -1,0 +1,29 @@
+{
+  "id": 1298,
+  "args_num": 0,
+  "info": "消除对手能力提升状态，消除成功则直接扣除对方场下随机一只精灵最大体力的1/4，致死时令其残留1点体力",
+  "info_formatting_adjustment": "消除对手能力提升状态\r\n--><condition>消除成功</condition>则直接扣除对方场下随机一只精灵最大体力的1/4$Boss$\r\n---><condition>致死时</condition>令其残留1点体力$Boss$",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 31577,
+      "url": "https://api.seerapi.com/v1/skill/31577/"
+    },
+    {
+      "id": 36662,
+      "url": "https://api.seerapi.com/v1/skill/36662/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 63508,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/63508/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "6aa90475"
+}

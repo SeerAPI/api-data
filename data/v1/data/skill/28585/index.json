@@ -1,0 +1,47 @@
+{
+  "id": 28585,
+  "name": "源初构想",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "特攻、速度能力提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%令自身特攻和速度等级+2。若和对手属性相同，则技能效果翻倍",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 403,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/403/"
+      }
+    },
+    {
+      "info": "遇到天敌时40%令对手烧伤",
+      "args": [
+        40,
+        19
+      ],
+      "effect": {
+        "id": 464,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/464/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "91125ad7"
+}

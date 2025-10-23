@@ -1,0 +1,50 @@
+{
+  "id": 1400,
+  "desc": "自身每次登场随机获得圣念状态或邪念状态，状态每次发生转变时下回合攻击先制+1；|使用攻击时，若自身为圣念状态则造成伤害的50%恢复自身体力，先出手时效果翻倍，若自身为邪念状态则50%打出致命一击，先出手时效果翻倍；|自身死亡时若为圣念状态则令自身下只出场精灵获得梦魇的力量：攻击技能威力提升50%且50%令对手疲惫，持续3回合；自身死亡时若为邪念状态则令对手受到梦魇的恐吓：下回合起对手无法通过自身技能恢复体力且受到自身最大体力值25%的固定伤害，持续3回合；（每场战斗仅触发1次，boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>邪影梦魇可通过特定技能令自身进入<b>圣念</b>或<b>邪念</b>2种状态，状态每次发生切换时下回合攻击<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场时随机进入圣念、邪念2种状态之一\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击时：\r\n<indent=32><sprite=4><indent=48>若自身为圣念状态则造成的攻击伤害50%额外恢复至自身体力，先出手时效果翻倍\r\n<indent=32><sprite=4><indent=48>若自身为邪念状态则50%<color=#64F9FA>打出致命一击</color>，先出手时效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身被击败时：\r\n<indent=32><sprite=4><indent=48>若处于圣念状态则令自身下只出场精灵获得梦魇的力量3回合：<b>攻击伤害</b><color=#64F9FA>提升</color>50%且50%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>若处于邪念状态则令对手在场精灵受到梦魇的恐吓3回合：<color=#64F9FA>无法通过技能恢复体力</color>且对手每次使用技能则自身<color=#64F9FA>受到</color>最大体力值25%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>圣念：\r\n<indent=16><sprite=6><indent=32>邪影梦魇用以触发额外效果的条件\r\n\r\n<indent=0><sprite=5><indent=15>邪念：\r\n<indent=16><sprite=6><indent=32>邪影梦魇用以触发额外效果的条件",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4035,
+      "url": "https://api.seerapi.com/v1/pet/4035/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      50,
+      50,
+      3,
+      25,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1775,
+      "url": "https://api.seerapi.com/v1/eid_effect/1775/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1291,
+    "url": "https://api.seerapi.com/v1/soulmark/1291/"
+  },
+  "hash": "6433111"
+}

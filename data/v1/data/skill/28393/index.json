@@ -1,0 +1,65 @@
+{
+  "id": 28393,
+  "name": "波光粼粼",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；有一定几率令对手疲惫；若对手处于异常状态则自身体力完全恢复；若对手不处于异常状态则附加一些百分比伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "命中后30%使对手疲惫3回合,遇到天敌概率翻倍",
+      "args": [
+        30,
+        7,
+        3
+      ],
+      "effect": {
+        "id": 640,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/640/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态，则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 770,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/770/"
+      }
+    },
+    {
+      "info": "若对手不处于异常状态则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1046,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1046/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5907acfb"
+}

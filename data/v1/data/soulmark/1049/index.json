@@ -1,0 +1,42 @@
+{
+  "id": 1049,
+  "desc": "受到攻击时自身防御+1、特防+1；自身受到的攻击伤害低于400则将伤害的100%反弹给对手（双方同时死亡时则对手残留1点体力），自身受到的攻击伤害高于400则战斗阶段结束时恢复自身最大体力的1/3（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3767,
+      "url": "https://api.seerapi.com/v1/pet/3767/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      400,
+      100,
+      400,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1345,
+      "url": "https://api.seerapi.com/v1/eid_effect/1345/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7743df48"
+}

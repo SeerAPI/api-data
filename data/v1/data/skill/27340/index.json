@@ -1,0 +1,68 @@
+{
+  "id": 27340,
+  "name": "电容吸收",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 1,
+  "must_hit": true,
+  "info": "消除对手所有的护盾效果；开始免疫高于300的攻击伤害了；对手受到的伤害提升了；自身出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手所有护盾效果，消除成功则使对手全属性-1，自身体力低于对手时弱化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1215,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1215/"
+      }
+    },
+    {
+      "info": "4回合内免疫大于300的攻击伤害",
+      "args": [
+        4,
+        300
+      ],
+      "effect": {
+        "id": 741,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/741/"
+      }
+    },
+    {
+      "info": "下2回合造成的攻击伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d97c6950"
+}

@@ -1,0 +1,62 @@
+{
+  "id": 36519,
+  "name": "裁·涤魂魔锋",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 48,
+    "url": "https://api.seerapi.com/v1/element_type_combination/48/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手处于护盾状态时先制额外+3",
+      "args": [],
+      "effect": {
+        "id": 1951,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1951/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，若对手不处于回合类效果则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1878,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1878/"
+      }
+    },
+    {
+      "info": "无视对手能力提升状态，无视成功则100%令对手疲惫",
+      "args": [
+        100,
+        7
+      ],
+      "effect": {
+        "id": 1952,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1952/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "16220033"
+}

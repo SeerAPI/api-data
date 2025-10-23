@@ -1,0 +1,43 @@
+{
+  "id": 31074,
+  "name": "初心不死",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1061,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1061/"
+      }
+    },
+    {
+      "info": "若后出手则下1回合攻击必定致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 540,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/540/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6f61fe12"
+}

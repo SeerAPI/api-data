@@ -1,0 +1,43 @@
+{
+  "id": 818,
+  "desc": "回合开始时若自身当前体力高于最大体力的1/2则令对手全属性-1；|自身攻击技能命中前若对手处于能力下降状态，则会记录对手当前在战斗中的属性且将对手属性修改为暗影系；|战斗阶段结束时若自身当前已拥有记录的属性，则会将对手属性修改为自身所记录的属性，若对手不处于能力下降状态则额外{吸取}对手最大{体力}的1/3|（自身只能同时记录1种属性，每次新记录的属性都会刷新原有的属性，修改属性效果自身体力为0时也可触发，所有特效boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3510,
+      "url": "https://api.seerapi.com/v1/pet/3510/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1102,
+      "url": "https://api.seerapi.com/v1/eid_effect/1102/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "55c34235"
+}

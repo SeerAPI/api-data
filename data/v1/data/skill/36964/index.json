@@ -1,0 +1,58 @@
+{
+  "id": 36964,
+  "name": "霜星冰雪乐",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 87,
+    "url": "https://api.seerapi.com/v1/element_type_combination/87/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升，反转成功下2回合先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 743,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/743/"
+      }
+    },
+    {
+      "info": "若先出手则造成攻击伤害的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 458,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/458/"
+      }
+    },
+    {
+      "info": "3回合内若自身处于能力提升状态则每回合使用技能100%令对手冻伤",
+      "args": [
+        3,
+        100,
+        5
+      ],
+      "effect": {
+        "id": 960,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/960/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5f4be053"
+}

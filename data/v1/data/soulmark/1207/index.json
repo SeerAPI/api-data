@@ -1,0 +1,39 @@
+{
+  "id": 1207,
+  "desc": "每回合开始时50%令对手进入流血状态；自身当回合先出手时攻击技能100%打出致命一击，当回合后出手时令对手下回合所有技能先制-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时50%<color=#64F9FA>令对手流血</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时攻击技能100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身后出手时令对手下回合所有技能<b>先制</b>-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3944,
+      "url": "https://api.seerapi.com/v1/pet/3944/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1542,
+      "url": "https://api.seerapi.com/v1/eid_effect/1542/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "259b5650"
+}

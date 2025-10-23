@@ -1,0 +1,33 @@
+{
+  "id": 28856,
+  "name": "腐蚀液",
+  "power": 0,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 1,
+  "must_hit": true,
+  "info": "消除了对手的能力提升",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "569d8a15"
+}

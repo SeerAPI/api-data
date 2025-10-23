@@ -1,0 +1,36 @@
+{
+  "id": 10777,
+  "name": "枷锁",
+  "power": 10,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内每回合都能附加60点固定伤害",
+      "args": [
+        5,
+        60
+      ],
+      "effect": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/60/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9748b783"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 14042,
+  "name": "流轮光斩",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "15%概率伤害为2倍",
+      "args": [
+        15,
+        2
+      ],
+      "effect": {
+        "id": 88,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/88/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1eadbc4"
+}

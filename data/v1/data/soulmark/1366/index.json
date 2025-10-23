@@ -1,0 +1,50 @@
+{
+  "id": 1366,
+  "desc": "自身使用攻击技能若未造成伤害则使用后{吸取}对手最大{体力}的1/3且下回合自身所有技能先制+1；|自身每次先出手则技能命中前全属性+1，若自身体力高于最大体力的1/2则额外攻击+1、速度+1；自身每次后出手则技能命中前消除对手回合类效果，若对手不处于回合类效果或回合类效果无法被消除则使用技能后{吸取}对手最大{体力}的1/3|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能若未造成伤害则<color=#64F9FA>吸取</color>对手最大体力的1/3且下回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手则使用技能时全属性+1，若自身体力高于最大体力的1/2则额外攻击+1、速度+1\r\n<indent=16><sprite=3><indent=32>自身后出手则使用技能时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于回合类效果或回合类效果无法被消除则使用技能后<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3924,
+      "url": "https://api.seerapi.com/v1/pet/3924/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      1,
+      2,
+      1,
+      1,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1729,
+      "url": "https://api.seerapi.com/v1/eid_effect/1729/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1189,
+    "url": "https://api.seerapi.com/v1/soulmark/1189/"
+  },
+  "hash": "4de74e9a"
+}

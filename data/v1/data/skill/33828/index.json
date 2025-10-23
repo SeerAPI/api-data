@@ -1,0 +1,43 @@
+{
+  "id": 33828,
+  "name": "疾速狂斩",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手处于能力提升状态时先制额外+1且威力翻倍",
+      "args": [],
+      "effect": {
+        "id": 539,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/539/"
+      }
+    },
+    {
+      "info": "反转对手能力提升状态，反转成功则令对手害怕，反转失败则消除对手能力提升状态",
+      "args": [
+        6
+      ],
+      "effect": {
+        "id": 1347,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1347/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2bc2f558"
+}

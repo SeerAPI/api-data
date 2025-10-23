@@ -1,0 +1,35 @@
+{
+  "id": 12500,
+  "name": "极冻旋风",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 43,
+    "url": "https://api.seerapi.com/v1/element_type_combination/43/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后15%令对方冻伤",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/14/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "817a6aae"
+}

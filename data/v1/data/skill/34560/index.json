@@ -1,0 +1,43 @@
+{
+  "id": 34560,
+  "name": "眩晕抽打",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中时，20%概率令对手混乱",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 99,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/99/"
+      }
+    },
+    {
+      "info": "威力随机，随机范围150~220",
+      "args": [],
+      "effect": {
+        "id": 70,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/70/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3f278803"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 1959,
+  "args_num": 2,
+  "info": "消除对手回合类效果，消除成功{0}%令对手{1}，未触发则造成的攻击伤害翻倍",
+  "info_formatting_adjustment": "消除对手回合类效果\r\n--><condition>消除成功</condition>{0}%令对手{1}\r\n---><condition>未触发</condition>则造成的攻击伤害翻倍",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 36613,
+      "url": "https://api.seerapi.com/v1/skill/36613/"
+    },
+    {
+      "id": 36696,
+      "url": "https://api.seerapi.com/v1/skill/36696/"
+    },
+    {
+      "id": 36781,
+      "url": "https://api.seerapi.com/v1/skill/36781/"
+    },
+    {
+      "id": 37349,
+      "url": "https://api.seerapi.com/v1/skill/37349/"
+    },
+    {
+      "id": 37402,
+      "url": "https://api.seerapi.com/v1/skill/37402/"
+    },
+    {
+      "id": 37417,
+      "url": "https://api.seerapi.com/v1/skill/37417/"
+    },
+    {
+      "id": 37528,
+      "url": "https://api.seerapi.com/v1/skill/37528/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 18673,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673/"
+    }
+  ],
+  "hash": "1ae51084"
+}

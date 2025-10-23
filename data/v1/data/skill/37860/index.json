@@ -1,0 +1,48 @@
+{
+  "id": 37860,
+  "name": "穿林响",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 22,
+    "url": "https://api.seerapi.com/v1/element_type_combination/22/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则2回合内对手属性技能无效，若对手不处于能力提升状态则自身下2回合先制+1",
+      "args": [
+        2,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1445,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1445/"
+      }
+    },
+    {
+      "info": "对手选择攻击技能时此技能先制+3且100%令对手混乱",
+      "args": [
+        100,
+        10
+      ],
+      "effect": {
+        "id": 2273,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2273/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "33e6880c"
+}

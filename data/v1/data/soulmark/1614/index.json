@@ -1,0 +1,44 @@
+{
+  "id": 1614,
+  "desc": "自身使用攻击技能时100%令对手流血，未触发则{吸取}对手1/3最大{体力}；回合开始时，若对手处于异常状态则本回合额外先制+1，若对手不处于异常状态则自身攻击100%打出致命一击（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时100%<color=#64F9FA>令对手流血</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手1/3最大体力\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则本回合额外<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则自身攻击100%<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4396,
+      "url": "https://api.seerapi.com/v1/pet/4396/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      3,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2002,
+      "url": "https://api.seerapi.com/v1/eid_effect/2002/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cf1032d0"
+}

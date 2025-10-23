@@ -1,0 +1,68 @@
+{
+  "id": 16790,
+  "name": "幽藤绞杀破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 23,
+    "url": "https://api.seerapi.com/v1/element_type_combination/23/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手中毒则使对手下2回合攻击必定MISS",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 686,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/686/"
+      }
+    },
+    {
+      "info": "后出手时恢复100点体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 476,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/476/"
+      }
+    }
+  ],
+  "friend_skill_effect": [
+    {
+      "info": "若对手中毒则使对手下3回合攻击必定MISS",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 686,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/686/"
+      }
+    },
+    {
+      "info": "后出手时恢复120点体力",
+      "args": [
+        120
+      ],
+      "effect": {
+        "id": 476,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/476/"
+      }
+    }
+  ],
+  "hide_effect": null,
+  "hash": "b91c5470"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 28894,
+  "name": "蘑神复苏",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "恢复了大量体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复自身最大体力的1/3并造成等量百分比伤害",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1005,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1005/"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1925,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1925/"
+      }
+    },
+    {
+      "info": "恢复自身最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 43,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/43/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b7c92603"
+}

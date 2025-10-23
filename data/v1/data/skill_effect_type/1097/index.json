@@ -1,0 +1,25 @@
+{
+  "id": 1097,
+  "args_num": 0,
+  "info": "造成的攻击伤害若低于280则令对手疲惫；未击败对手则令对手下1回合使用的攻击技能无效;技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒（星皇之怒：50%令对手失明，未触发则2回合内令对手使用的属性技能无效）",
+  "info_formatting_adjustment": "<condition>造成的攻击伤害若低于280</condition>则令对手疲惫$Boss$\r\n<condition>未击败对手</condition>则令对手下1回合使用的攻击技能无效$Boss$\r\n技能结束后<condition>若对手体力值高于0</condition>，则50%进行一次额外行动以触发星皇之怒\r\n星皇之怒：50%令对手失明，未触发则2回合内令对手使用的属性技能无效$Boss$",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 30380,
+      "url": "https://api.seerapi.com/v1/skill/30380/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "8e2996c1"
+}

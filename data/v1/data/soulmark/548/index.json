@@ -1,0 +1,46 @@
+{
+  "id": 548,
+  "desc": "攻击技能40%使对手睡眠，未触发则自身特攻+1、速度+1且有60%的概率消除对手回合类效果；攻击技能命中睡眠中的对手时，附加自身最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3205,
+      "url": "https://api.seerapi.com/v1/pet/3205/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      60,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 834,
+      "url": "https://api.seerapi.com/v1/eid_effect/834/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 535,
+    "url": "https://api.seerapi.com/v1/soulmark/535/"
+  },
+  "hash": "3fe54c4c"
+}

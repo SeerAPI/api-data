@@ -1,0 +1,35 @@
+{
+  "id": 14295,
+  "name": "龙王啸天破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态，则每次攻击恢复自身体力的1/4",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 489,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/489/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "33670d61"
+}

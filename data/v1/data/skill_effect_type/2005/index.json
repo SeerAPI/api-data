@@ -1,0 +1,33 @@
+{
+  "id": 2005,
+  "args_num": 3,
+  "info": "{0}%令对手{1}，未触发则为对手附加{2}点护盾",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则为对手附加{2}点护盾",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28319,
+      "url": "https://api.seerapi.com/v1/skill/28319/"
+    },
+    {
+      "id": 29000,
+      "url": "https://api.seerapi.com/v1/skill/29000/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "a549fd14"
+}

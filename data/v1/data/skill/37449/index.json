@@ -1,0 +1,58 @@
+{
+  "id": 37449,
+  "name": "天下一锅鲜",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手不处于能力下降状态则使对手随机4项能力值-1",
+      "args": [
+        4,
+        1
+      ],
+      "effect": {
+        "id": 1417,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1417/"
+      }
+    },
+    {
+      "info": "100%令对手睡眠，未触发则降低对手所有技能5点PP值",
+      "args": [
+        100,
+        8,
+        5
+      ],
+      "effect": {
+        "id": 1660,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1660/"
+      }
+    },
+    {
+      "info": "消耗自身全部体力，给对手附加消耗体力1/2等量的百分比伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1276,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1276/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "105b9be5"
+}

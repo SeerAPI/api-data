@@ -1,0 +1,72 @@
+{
+  "id": 1868,
+  "args_num": 4,
+  "info": "若对手当回合切换精灵则{0}%令对手{1}，未触发则{2}%令对手{3}",
+  "info_formatting_adjustment": "<condition>若对手当回合切换精灵</condition>则{0}%令对手{1}\r\n--><condition>未触发</condition>则{2}%令对手{3}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28281,
+      "url": "https://api.seerapi.com/v1/skill/28281/"
+    },
+    {
+      "id": 28521,
+      "url": "https://api.seerapi.com/v1/skill/28521/"
+    },
+    {
+      "id": 29003,
+      "url": "https://api.seerapi.com/v1/skill/29003/"
+    },
+    {
+      "id": 36178,
+      "url": "https://api.seerapi.com/v1/skill/36178/"
+    },
+    {
+      "id": 36784,
+      "url": "https://api.seerapi.com/v1/skill/36784/"
+    },
+    {
+      "id": 37114,
+      "url": "https://api.seerapi.com/v1/skill/37114/"
+    },
+    {
+      "id": 37459,
+      "url": "https://api.seerapi.com/v1/skill/37459/"
+    },
+    {
+      "id": 37870,
+      "url": "https://api.seerapi.com/v1/skill/37870/"
+    },
+    {
+      "id": 37985,
+      "url": "https://api.seerapi.com/v1/skill/37985/"
+    },
+    {
+      "id": 37990,
+      "url": "https://api.seerapi.com/v1/skill/37990/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "8e297f36"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 37899,
+  "name": "破灭骇浪",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 959,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/959/"
+      }
+    },
+    {
+      "info": "随机附加给对手200-400点固定伤害，若打出致命一击则效果转变为吸取对手300-400点体力",
+      "args": [
+        200,
+        400,
+        300,
+        400
+      ],
+      "effect": {
+        "id": 1659,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1659/"
+      }
+    },
+    {
+      "info": "击败对手则对方下只精灵出战时己方在场精灵吸取其最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 840,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/840/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ce382a4b"
+}

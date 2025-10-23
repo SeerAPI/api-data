@@ -1,0 +1,44 @@
+{
+  "id": 1754,
+  "desc": "自身攻击无视伤害限制效果且命中时令对手速度-2，然后对手每有1级速度弱化附加100点固定伤害；|战斗阶段结束时，若对手速度等级小于-3则附加给对手等量的特防能力下降并令对手束缚|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身攻击<color=#64F9FA>无视</color><b>伤害限制效果</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能命中时令对手速度-2\r\n<indent=32><sprite=4><indent=48>然后对手每有1级速度弱化<color=#64F9FA>附加</color>100点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若对手速度等级小于-3则附加给对手等量的防御能力下降并<color=#64F9FA>令对手束缚</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4544,
+      "url": "https://api.seerapi.com/v1/pet/4544/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      100,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2147,
+      "url": "https://api.seerapi.com/v1/eid_effect/2147/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "56315a6e"
+}

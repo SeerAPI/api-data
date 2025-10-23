@@ -1,0 +1,33 @@
+{
+  "id": 31842,
+  "name": "圆寂归尘",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 76,
+    "url": "https://api.seerapi.com/v1/element_type_combination/76/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，对手所有技能PP值归零，全属性-1",
+      "args": [],
+      "effect": {
+        "id": 875,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/875/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d3867279"
+}

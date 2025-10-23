@@ -1,0 +1,70 @@
+{
+  "id": 28166,
+  "name": "人律再书",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "为自身附加1层未来奇点；令对手进入疲惫状态；对手使用攻击技能则降低对手PP值；对手使用属性技能则自身受到的固定伤害和百分比伤害减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "为自身附加1层未来奇点",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1888,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1888/"
+      }
+    },
+    {
+      "info": "100%使对手疲惫，未触发则附加200点真实伤害，技能无效时100%使对手疲惫并附加400点真实伤害",
+      "args": [
+        100,
+        7,
+        200
+      ],
+      "effect": {
+        "id": 1889,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1889/"
+      }
+    },
+    {
+      "info": "4回合内若对手使用攻击技能则令对手所有技能PP值-2",
+      "args": [
+        4,
+        2
+      ],
+      "effect": {
+        "id": 1884,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1884/"
+      }
+    },
+    {
+      "info": "4回合内若对手使用属性技能则自身下1次受到的固定伤害、百分比伤害减少100%",
+      "args": [
+        4,
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1890,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1890/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d59d63ed"
+}

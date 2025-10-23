@@ -1,0 +1,47 @@
+{
+  "id": 476,
+  "desc": "免疫并反弹致命一击伤害，触发后自身恢复500点体力且下回合自身先制+2（boss无效）；|能力提升状态被消除则对手瘫痪，未触发瘫痪则消除对手回合类效果（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3134,
+      "url": "https://api.seerapi.com/v1/pet/3134/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      500,
+      2,
+      50,
+      19,
+      1
+    ],
+    "effect": {
+      "id": 786,
+      "url": "https://api.seerapi.com/v1/eid_effect/786/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": {
+    "id": 582,
+    "url": "https://api.seerapi.com/v1/soulmark/582/"
+  },
+  "from": null,
+  "hash": "b6afca67"
+}

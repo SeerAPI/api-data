@@ -1,0 +1,46 @@
+{
+  "id": 990,
+  "desc": "登场后自身首回合受到致命攻击则100%的概率残留1点体力，之后每回合概率降低30%，自身死亡时50%令对手冰封；若对手处于异常状态则自身攻击技能附加对手最大体力1/3的固定伤害，若对手不处于异常状态则自身所有技能先制+1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3646,
+      "url": "https://api.seerapi.com/v1/pet/3646/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      1,
+      30,
+      50,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1291,
+      "url": "https://api.seerapi.com/v1/eid_effect/1291/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "68cc6bcc"
+}

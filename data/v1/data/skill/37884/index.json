@@ -1,0 +1,54 @@
+{
+  "id": 37884,
+  "name": "风斤",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 95,
+    "url": "https://api.seerapi.com/v1/element_type_combination/95/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 1508,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1508/"
+      }
+    },
+    {
+      "info": "本回合打出致命一击则下1回合其它攻击技能必定致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 731,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/731/"
+      }
+    },
+    {
+      "info": "若打出致命一击则对手100%概率麻痹",
+      "args": [
+        100,
+        0
+      ],
+      "effect": {
+        "id": 553,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/553/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "176fb5c6"
+}

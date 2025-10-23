@@ -1,0 +1,38 @@
+{
+  "id": 130,
+  "desc": "每回合都有50%概率闪避对手攻击，每回合受到的伤害增加20%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2728,
+      "url": "https://api.seerapi.com/v1/pet/2728/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      500,
+      1,
+      200
+    ],
+    "effect": {
+      "id": 352,
+      "url": "https://api.seerapi.com/v1/eid_effect/352/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "68f43412"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 37576,
+  "name": "爆火焚烧",
+  "power": 150,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手烧伤",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "461dfbe9"
+}

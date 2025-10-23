@@ -1,0 +1,51 @@
+{
+  "id": 38012,
+  "name": "波纹鞭打",
+  "power": 15,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合做8-12次攻击，每次攻击有100%的概率附加30点固定伤害",
+      "args": [
+        8,
+        12,
+        100,
+        30
+      ],
+      "effect": {
+        "id": 1454,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1454/"
+      }
+    },
+    {
+      "info": "40%令对手麻痹，每次使用概率增加20%，最高概率100%",
+      "args": [
+        40,
+        0,
+        20,
+        100
+      ],
+      "effect": {
+        "id": 782,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/782/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e4aac384"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 354,
+  "desc": "每经过3回合，女警凯瑟琳会积蓄一次强力攻击，这次攻击威力将提升150%且造成伤害60%恢复自身血量",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2964,
+      "url": "https://api.seerapi.com/v1/pet/2964/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      150,
+      60
+    ],
+    "effect": {
+      "id": 679,
+      "url": "https://api.seerapi.com/v1/eid_effect/679/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a6c37ef"
+}

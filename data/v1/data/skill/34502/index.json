@@ -1,0 +1,54 @@
+{
+  "id": 34502,
+  "name": "瞬闪突刺",
+  "power": 20,
+  "max_pp": 20,
+  "accuracy": 93,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 48,
+    "url": "https://api.seerapi.com/v1/element_type_combination/48/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合做3~6次攻击，每次攻击都有20%的概率令自身攻击+1、速度+1、命中+1",
+      "args": [
+        1,
+        3,
+        6,
+        20,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1172,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1172/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下2回合对手属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 985,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/985/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8d590c92"
+}

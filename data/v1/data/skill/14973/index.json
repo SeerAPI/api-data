@@ -1,0 +1,33 @@
+{
+  "id": 14973,
+  "name": "魔尊夜影击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害低于280时每相差2点有1%的概率使对手害怕",
+      "args": [],
+      "effect": {
+        "id": 531,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/531/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4b5a6f1a"
+}

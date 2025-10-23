@@ -1,0 +1,33 @@
+{
+  "id": 693,
+  "desc": "战斗阶段结束时若自身体力未满则{吸取}对手150点{体力}",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3377,
+      "url": "https://api.seerapi.com/v1/pet/3377/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      150,
+      0
+    ],
+    "effect": {
+      "id": 978,
+      "url": "https://api.seerapi.com/v1/eid_effect/978/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a703bad3"
+}

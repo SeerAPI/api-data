@@ -1,0 +1,46 @@
+{
+  "id": 1698,
+  "desc": "每次登场时触发岳灵涤荡：1回合内免疫所受到的异常状态且受到的攻击伤害、固定伤害、百分比伤害减少30%；击败对手后恢复自身最大体力的1/3并再次触发岳灵涤荡（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时触发岳灵涤荡：1回合内<color=#64F9FA>免疫</color>所受到的<b>异常状态</b>且受到的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>减少</color>30%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>击败对手后<color=#64F9FA>恢复</color>自身最大体力的1/3并再次触发岳灵涤荡",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4486,
+      "url": "https://api.seerapi.com/v1/pet/4486/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      30,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2087,
+      "url": "https://api.seerapi.com/v1/eid_effect/2087/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1817,
+    "url": "https://api.seerapi.com/v1/soulmark/1817/"
+  },
+  "from": null,
+  "hash": "9a34ad21"
+}

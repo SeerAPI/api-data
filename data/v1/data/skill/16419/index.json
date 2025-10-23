@@ -1,0 +1,37 @@
+{
+  "id": 16419,
+  "name": "苍龙坠",
+  "power": 85,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/element_type_combination/28/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除自身能力下降状态，消除成功3回合内受到75点固定伤害",
+      "args": [
+        1,
+        3,
+        75
+      ],
+      "effect": {
+        "id": 661,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/661/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "49c8f945"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 28557,
+  "name": "遗骸复原",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 1,
+  "must_hit": true,
+  "info": "获得了极强的生命力；开始面已收到的异常状态了；身边围绕了恐惧的气息",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时当回合对手使用技能后若自身体力为0，则令自身体力等于最大体力",
+      "args": [],
+      "effect": {
+        "id": 561,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/561/"
+      }
+    },
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "4回合内若对手造成的伤害低于250，则对手害怕",
+      "args": [
+        4,
+        250,
+        6
+      ],
+      "effect": {
+        "id": 742,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/742/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "76ca2bec"
+}

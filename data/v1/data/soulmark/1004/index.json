@@ -1,0 +1,43 @@
+{
+  "id": 1004,
+  "desc": "30%的概率免疫自身受到攻击伤害；战斗阶段结束时恢复自身100点体力，每回合叠加100点，最高300点（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3727,
+      "url": "https://api.seerapi.com/v1/pet/3727/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      100,
+      100,
+      300
+    ],
+    "effect": {
+      "id": 1303,
+      "url": "https://api.seerapi.com/v1/eid_effect/1303/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6456a9f9"
+}

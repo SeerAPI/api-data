@@ -1,0 +1,39 @@
+{
+  "id": 588,
+  "desc": "造成的伤害高于200则对手60%害怕；造成的伤害低于300则消除对手回合类效果（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3262,
+      "url": "https://api.seerapi.com/v1/pet/3262/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      60,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 875,
+      "url": "https://api.seerapi.com/v1/eid_effect/875/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "eb16827"
+}

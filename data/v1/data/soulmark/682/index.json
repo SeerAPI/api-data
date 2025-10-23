@@ -1,0 +1,42 @@
+{
+  "id": 682,
+  "desc": "自身造成的攻击伤害若低于300则下次使用的攻击技能先制+2且造成的伤害提升100%；|自身能力提升状态被消除或吸取则消除对手回合类效果|（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3360,
+      "url": "https://api.seerapi.com/v1/pet/3360/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      2,
+      100
+    ],
+    "effect": {
+      "id": 965,
+      "url": "https://api.seerapi.com/v1/eid_effect/965/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "31c590d3"
+}

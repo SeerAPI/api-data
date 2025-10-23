@@ -1,0 +1,44 @@
+{
+  "id": 27375,
+  "name": "炎魂之心",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "损失自己一定体力并且提升自己的能力；自身造成伤害的一部分会恢复自身的体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "损失1/2的体力，提升自身的能力",
+      "args": [],
+      "effect": {
+        "id": 79,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/79/"
+      }
+    },
+    {
+      "info": "3回合内每次造成伤害的1/2会恢复自己的HP",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 89,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/89/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "72cc5ed4"
+}

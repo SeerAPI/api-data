@@ -1,0 +1,59 @@
+{
+  "id": 27394,
+  "name": "零度压迫",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "自身下次攻击必定致命一击；开始有一定概率免疫对手攻击伤害了；每回合使对手防御-1、速度-1",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身下1次攻击必定致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1204,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1204/"
+      }
+    },
+    {
+      "info": "3回合内有30%概率免疫对手的攻击伤害",
+      "args": [
+        3,
+        30
+      ],
+      "effect": {
+        "id": 525,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/525/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能则造成伤害前令对手防御-1、速度-1，未触发则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3,
+        1,
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1393,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1393/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7015b974"
+}

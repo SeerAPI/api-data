@@ -1,0 +1,46 @@
+{
+  "id": 1257,
+  "desc": "登场后自身开始免疫害怕类异常状态；|50%的概率免疫对手造成的攻击伤害，若触发则100%的概率将免疫伤害量的50%以固定伤害的形式反弹给对手，若未触发则下回合100%闪避对手的攻击；自身攻击命中对手时有概率使对手害怕（概率等同于出手时自身当前体力百分比），未触发则恢复自身最大体力的1/3且令自身下回合所有技能先制+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场之后自身<color=#64F9FA>免疫</color>害怕状态\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>50%的概率<color=#64F9FA>免疫</color>对手造成的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>若触发则100%以固定伤害形式<color=#64F9FA>反弹</color>所免疫伤害量的50%\r\n<indent=32><sprite=4><indent=48>若未触发则下回合100%<color=#64F9FA>闪避</color>对手的<b>攻击</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中对手时有概率<color=#64F9FA>使对手害怕</color>，概率等同于出手时自身当前体力百分比\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>恢复</color>自身最大体力的1/3且令自身下回合所有技能<b>先制</b>+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4001,
+      "url": "https://api.seerapi.com/v1/pet/4001/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      50,
+      100,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1594,
+      "url": "https://api.seerapi.com/v1/eid_effect/1594/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1f0edcd3"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 36110,
+  "name": "炫动流星脚",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 81,
+    "url": "https://api.seerapi.com/v1/element_type_combination/81/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "双倍反转自身能力下降状态，反转成功则获得300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1038,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1038/"
+      }
+    },
+    {
+      "info": "附加200点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 1084,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1084/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fa6d3f39"
+}

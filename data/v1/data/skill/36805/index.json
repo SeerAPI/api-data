@@ -1,0 +1,35 @@
+{
+  "id": 36805,
+  "name": "撕心之刎",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 105,
+    "url": "https://api.seerapi.com/v1/element_type_combination/105/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当回合未击败对手则有30%将对手所有技能PP值降为0",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 739,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/739/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "27137c83"
+}

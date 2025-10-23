@@ -1,0 +1,45 @@
+{
+  "id": 1472,
+  "desc": "自身攻击技能50%打出致命一击，回合开始时若自身体力低于最大体力的1/2则自身攻击技能100%打出致命一击（boss有效）；|自身攻击打出致命一击则100%令对手冰封，未触发则附加自身攻击值50%的固定伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身攻击技能50%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于最大体力的1/2则自身攻击技能100%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击打出致命一击则100%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>自身攻击值50%的<b>固定伤害</b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4252,
+      "url": "https://api.seerapi.com/v1/pet/4252/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      100,
+      100,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1840,
+      "url": "https://api.seerapi.com/v1/eid_effect/1840/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7f41fe6f"
+}

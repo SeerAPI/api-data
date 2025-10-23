@@ -1,0 +1,43 @@
+{
+  "id": 38015,
+  "name": "冲顶强袭",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "args": [],
+      "effect": {
+        "id": 2220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2220/"
+      }
+    },
+    {
+      "info": "当回合未击败对手则减少对方所有技能PP2点",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1285,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1285/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d34d6948"
+}

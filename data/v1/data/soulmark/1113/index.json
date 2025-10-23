@@ -1,0 +1,45 @@
+{
+  "id": 1113,
+  "desc": "回合结束后，若当回合对手存活则令自身随机3项属性+1且50%概率令对手害怕，未触发害怕则50%概率令对手瘫痪；回合结束后，若当回合对手死亡则对手下只精灵登场时，在场精灵{吸取}对手最大{体力}的1/3且全属性+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>未击败效果：\r\n<indent=16><sprite=3><indent=32>未击败对手时自身随机3项属性+1且50%<color=#64F9FA>令对手害怕</color>\r\n<indent=16><sprite=3><indent=32>未触发害怕则50%<color=#64F9FA>令对手瘫痪</color>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=32><sprite=4><indent=48>击败对手则对手下只精灵登场时己方在场精灵<color=#64F9FA>吸取</color>其最大体力的1/3且<color=#64F9FA>全属性+1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3840,
+      "url": "https://api.seerapi.com/v1/pet/3840/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      50,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1427,
+      "url": "https://api.seerapi.com/v1/eid_effect/1427/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "829f1d8e"
+}

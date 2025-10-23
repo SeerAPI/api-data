@@ -1,0 +1,47 @@
+{
+  "id": 783,
+  "desc": "回合开始时若自身体力高于对手则当回合攻击技能随机附加20~40点威力，若自身体力低于对手则攻击技能随机附加25~45点威力；若自身攻击技能造成的伤害超过250则恢复自身最大体力的1/3并造成等量固定伤害并免疫下1次受到的异常状态，若造成的伤害不超过250则自身特攻+2、速度+2同时下1次攻击必定致命一击（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3470,
+      "url": "https://api.seerapi.com/v1/pet/3470/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      40,
+      25,
+      45,
+      250,
+      3,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1066,
+      "url": "https://api.seerapi.com/v1/eid_effect/1066/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5954cafd"
+}

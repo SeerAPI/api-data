@@ -1,0 +1,35 @@
+{
+  "id": 31120,
+  "name": "灵光刃舞",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若后出手则附加自身最大体力1/3的百分比伤害并恢复等量体力",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 939,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/939/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "748c7aa4"
+}

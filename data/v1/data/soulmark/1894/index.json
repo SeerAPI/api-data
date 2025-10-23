@@ -1,0 +1,33 @@
+{
+  "id": 1894,
+  "desc": "回合开始时，若自身处于能力提升则2回合内攻击技能必定打出致命一击|（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于能力提升则2回合内攻击技能<color=#64F9FA>必定打出致命一击</color>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4692,
+      "url": "https://api.seerapi.com/v1/pet/4692/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      0
+    ],
+    "effect": {
+      "id": 2294,
+      "url": "https://api.seerapi.com/v1/eid_effect/2294/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3751d6f"
+}

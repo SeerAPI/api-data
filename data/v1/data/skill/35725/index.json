@@ -1,0 +1,47 @@
+{
+  "id": 35725,
+  "name": "凝冰幽光寒",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%的概率造成的攻击伤害提升100%，若出手时自身为满体力则概率翻倍",
+      "args": [
+        50,
+        100
+      ],
+      "effect": {
+        "id": 1525,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1525/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若高于350则自身免疫下1次受到的异常状态",
+      "args": [
+        350,
+        1
+      ],
+      "effect": {
+        "id": 1258,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1258/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7a664872"
+}

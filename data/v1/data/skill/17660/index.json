@@ -1,0 +1,46 @@
+{
+  "id": 17660,
+  "name": "破锐怒冲",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 128,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/128/"
+      }
+    },
+    {
+      "info": "当自身血量少于1/3时先制+2",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 616,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/616/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "43f3d2f4"
+}

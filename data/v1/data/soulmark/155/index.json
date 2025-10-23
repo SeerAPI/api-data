@@ -1,0 +1,40 @@
+{
+  "id": 155,
+  "desc": "自身处于能力提升时攻击技能威力提升50%;每次攻击造成伤害的50%恢复自身体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2793,
+      "url": "https://api.seerapi.com/v1/pet/2793/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      4,
+      1,
+      50
+    ],
+    "effect": {
+      "id": 374,
+      "url": "https://api.seerapi.com/v1/eid_effect/374/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2c681abd"
+}

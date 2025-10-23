@@ -1,0 +1,56 @@
+{
+  "id": 19100,
+  "name": "银雾之翼",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 221,
+    "url": "https://api.seerapi.com/v1/element_type_combination/221/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功使对手下回合先制-2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 867,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/867/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/868/"
+      }
+    },
+    {
+      "info": "若打出致命一击则获得2层神耀能量, 否则获得1层",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 866,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/866/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6c1281d1"
+}

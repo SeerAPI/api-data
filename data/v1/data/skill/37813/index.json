@@ -1,0 +1,62 @@
+{
+  "id": 37813,
+  "name": "神返",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 128,
+    "url": "https://api.seerapi.com/v1/element_type_combination/128/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "攻击时将自身的能力下降状态视为相应的能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1874,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1874/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则使对手下1次技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1279,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1279/"
+      }
+    },
+    {
+      "info": "未击败对手下1回合自身攻击先制+2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 820,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/820/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cd0040b"
+}

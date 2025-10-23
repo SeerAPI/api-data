@@ -1,0 +1,49 @@
+{
+  "id": 33880,
+  "name": "赤诚红中",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手随机1项技能PP值归零，若对手处于能力下降状态则100%使对手随机2项技能PP值归零",
+      "args": [
+        100,
+        1,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1519,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1519/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则吸取对手1/3最大体力",
+      "args": [
+        300,
+        3
+      ],
+      "effect": {
+        "id": 1104,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1104/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6329a396"
+}

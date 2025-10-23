@@ -1,0 +1,39 @@
+{
+  "id": 1766,
+  "desc": "自身使用技能后附加250点固定伤害，若上回合自身未受到攻击伤害则效果翻倍，若受到了攻击伤害则吸取对手第五技能的剩余PP值恢复至自身第五技能；|战斗阶段结束时，若本回合对手未使用技能则直到下场自身造成的攻击伤害提升20%，最高提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后<color=#64F9FA>附加</color>250点<b>固定伤害</b>，若上回合：\r\n<indent=32><sprite=4><indent=48>自身未受到攻击伤害则效果翻倍\r\n<indent=32><sprite=4><indent=48>自身受到了攻击伤害则<color=#64F9FA>吸取</color>对手第五技能的剩余<b>PP值<color=#64F9FA></b>恢复至</color>自身<b>第五技能</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若本回合对手未使用技能则直到下场自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>20%，最高提升100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4556,
+      "url": "https://api.seerapi.com/v1/pet/4556/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      20,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2159,
+      "url": "https://api.seerapi.com/v1/eid_effect/2159/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "207a7493"
+}

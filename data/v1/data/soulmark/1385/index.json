@@ -1,0 +1,38 @@
+{
+  "id": 1385,
+  "desc": "自身攻击技能造成的伤害为奇数则下回合造成的攻击伤害提升50%，自身攻击技能造成的伤害为偶数则使对手随机1项技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害为奇数则下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害为偶数则使对手随机1项技能<b>PP值</b><color=#64F9FA>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4159,
+      "url": "https://api.seerapi.com/v1/pet/4159/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1749,
+      "url": "https://api.seerapi.com/v1/eid_effect/1749/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "19d859d8"
+}

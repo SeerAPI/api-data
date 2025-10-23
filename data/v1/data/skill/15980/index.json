@@ -1,0 +1,37 @@
+{
+  "id": 15980,
+  "name": "黑岩焰爆",
+  "power": 60,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 47,
+    "url": "https://api.seerapi.com/v1/element_type_combination/47/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "连击2次，每次命中后连击数+1，最高连击3次 ",
+      "args": [
+        2,
+        1,
+        3
+      ],
+      "effect": {
+        "id": 484,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/484/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2a763b76"
+}

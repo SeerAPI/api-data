@@ -1,0 +1,45 @@
+{
+  "id": 17771,
+  "name": "破碎冰尘灭",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对方处于冻伤状态时，附加150点伤害",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 141,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/141/"
+      }
+    },
+    {
+      "info": "先出手时恢复1/4体力",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 565,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/565/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b1a88333"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 34474,
+  "name": "风雨暗影冲",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身生命值低于1/3则从下回合开始必定致命一击",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 461,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/461/"
+      }
+    },
+    {
+      "info": "40%令对手害怕，若没有触发害怕效果，则对手速度-1、命中-1",
+      "args": [
+        40,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "effect": {
+        "id": 504,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/504/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6c31a643"
+}

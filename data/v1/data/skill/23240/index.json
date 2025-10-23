@@ -1,0 +1,54 @@
+{
+  "id": 23240,
+  "name": "妖祭 孽",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "会反弹对手施加的异常状态；会反转对手的提升状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手疲惫3回合",
+      "args": [
+        50,
+        2
+      ],
+      "effect": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/22/"
+      }
+    },
+    {
+      "info": "使对手的能力提升效果反转成能力下降效果",
+      "args": [],
+      "effect": {
+        "id": 143,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/143/"
+      }
+    },
+    {
+      "info": "3回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "765ea09a"
+}

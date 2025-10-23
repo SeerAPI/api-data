@@ -1,0 +1,33 @@
+{
+  "id": 495,
+  "desc": "先出手时使对手烧伤；回合开始时若对手烧伤，则自身造成的伤害提升50%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3161,
+      "url": "https://api.seerapi.com/v1/pet/3161/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      0
+    ],
+    "effect": {
+      "id": 800,
+      "url": "https://api.seerapi.com/v1/eid_effect/800/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cad4fb82"
+}

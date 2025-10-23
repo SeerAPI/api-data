@@ -1,0 +1,38 @@
+{
+  "id": 619,
+  "desc": "每个战斗阶段结束时使对手全属性-1；对手每处于一种能力下降状态，自身攻击都有25%的概率使对手随机进入一种异常状态（每种能力下降状态单独计算概率，BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3288,
+      "url": "https://api.seerapi.com/v1/pet/3288/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      25,
+      1
+    ],
+    "effect": {
+      "id": 901,
+      "url": "https://api.seerapi.com/v1/eid_effect/901/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8f279220"
+}

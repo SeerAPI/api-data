@@ -1,0 +1,38 @@
+{
+  "id": 669,
+  "desc": "每次使用攻击技能50%令对手害怕，未触发则下1次触发概率提升20%；每次受到攻击伤害50%令对手冰封，未触发则下1次触发概率提升20%（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3348,
+      "url": "https://api.seerapi.com/v1/pet/3348/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      20,
+      50,
+      1,
+      20,
+      1
+    ],
+    "effect": {
+      "id": 952,
+      "url": "https://api.seerapi.com/v1/eid_effect/952/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e1a089df"
+}

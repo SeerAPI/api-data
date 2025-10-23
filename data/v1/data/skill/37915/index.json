@@ -1,0 +1,45 @@
+{
+  "id": 37915,
+  "name": "炽雷光刃",
+  "power": 130,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "额外附加240点固定伤害",
+      "args": [
+        240
+      ],
+      "effect": {
+        "id": 29,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/29/"
+      }
+    },
+    {
+      "info": "造成伤害的100%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1249,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1249/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "11d6f0b2"
+}

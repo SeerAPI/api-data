@@ -1,0 +1,69 @@
+{
+  "id": 36356,
+  "name": "千里共婵娟",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%令对手睡眠",
+      "args": [
+        100,
+        8
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    },
+    {
+      "info": "100%令对手疲惫",
+      "args": [
+        100,
+        7
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    },
+    {
+      "info": "100%令对手害怕",
+      "args": [
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    },
+    {
+      "info": "100%令对手麻痹",
+      "args": [
+        100,
+        0
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "21703efe"
+}

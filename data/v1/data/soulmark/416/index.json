@@ -1,0 +1,37 @@
+{
+  "id": 416,
+  "desc": "若对手处于烧伤状态则自身所有技能先制+1并且攻击威力翻倍",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3066,
+      "url": "https://api.seerapi.com/v1/pet/3066/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1
+    ],
+    "effect": {
+      "id": 739,
+      "url": "https://api.seerapi.com/v1/eid_effect/739/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "120e0eab"
+}

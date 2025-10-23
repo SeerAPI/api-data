@@ -1,0 +1,38 @@
+{
+  "id": 1977,
+  "desc": "回合开始时若自身处于疲惫状态则当回合抵挡受到的攻击且对手的属性技能无效；自身使用攻击技能时，若对手不处于异常状态则当回合造成的攻击伤害提升50%，若对手处于异常状态则吸取对手最大体力的1/3并令对手疲惫（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于疲惫状态则当回合<color=#64F9FA>抵挡</color>受到的<b>攻击</b>且对手的<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则<color=#64F9FA>吸取</color>对手最大体力的1/3并<color=#64F9FA>令对手疲惫</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4780,
+      "url": "https://api.seerapi.com/v1/pet/4780/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2403,
+      "url": "https://api.seerapi.com/v1/eid_effect/2403/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ef48f5ec"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 32701,
+  "name": "魔魂焚天焰",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 107,
+    "url": "https://api.seerapi.com/v1/element_type_combination/107/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于烧伤状态则先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 958,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/958/"
+      }
+    },
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1192,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1192/"
+      }
+    },
+    {
+      "info": "附加自身最大体力值20%的百分比伤害，连续使用每次增加10%，最高40%",
+      "args": [
+        20,
+        10,
+        40
+      ],
+      "effect": {
+        "id": 1155,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1155/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ca4345db"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 1430,
+  "args_num": 6,
+  "info": "造成的伤害低于{0}则{1}%令对手{2}，未触发则下{3}回合攻击技能{4}%令对手{5}",
+  "info_formatting_adjustment": "<condition>造成的伤害低于{0}</condition>则{1}%令对手{2}\r\n--><condition>未触发</condition>则下{3}回合攻击技能{4}%令对手{5}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 5,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 32885,
+      "url": "https://api.seerapi.com/v1/skill/32885/"
+    },
+    {
+      "id": 33624,
+      "url": "https://api.seerapi.com/v1/skill/33624/"
+    },
+    {
+      "id": 34077,
+      "url": "https://api.seerapi.com/v1/skill/34077/"
+    },
+    {
+      "id": 34426,
+      "url": "https://api.seerapi.com/v1/skill/34426/"
+    },
+    {
+      "id": 34463,
+      "url": "https://api.seerapi.com/v1/skill/34463/"
+    },
+    {
+      "id": 35083,
+      "url": "https://api.seerapi.com/v1/skill/35083/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "61da3383"
+}

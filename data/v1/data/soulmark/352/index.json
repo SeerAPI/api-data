@@ -1,0 +1,37 @@
+{
+  "id": 352,
+  "desc": "天生免疫能力下降状态；若本回合未受到伤害，则下回合所有技能先制＋1，并且造成的伤害提升50%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2965,
+      "url": "https://api.seerapi.com/v1/pet/2965/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50
+    ],
+    "effect": {
+      "id": 680,
+      "url": "https://api.seerapi.com/v1/eid_effect/680/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c5aabdcf"
+}

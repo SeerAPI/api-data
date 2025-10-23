@@ -1,0 +1,51 @@
+{
+  "id": 34683,
+  "name": "风起千刃散",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 18,
+    "url": "https://api.seerapi.com/v1/element_type_combination/18/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后30%令对手流血",
+      "args": [
+        30,
+        16
+      ],
+      "effect": {
+        "id": 756,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/756/"
+      }
+    },
+    {
+      "info": "对手命中,后出手时弱化效果翻倍",
+      "args": [
+        -1,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "effect": {
+        "id": 483,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/483/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "58cbb6ab"
+}

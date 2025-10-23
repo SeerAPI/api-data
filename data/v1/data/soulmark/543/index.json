@@ -1,0 +1,44 @@
+{
+  "id": 543,
+  "desc": "[触发效果]:|自身体力高于对方则造成伤害增加49%，自身体力低于对方则受到伤害减少49%；|[叠加效果]:|战斗阶段结束时{吸取}对方90点{体力}，每回合增加90点吸收量，最多{吸取}270点{体力}",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3221,
+      "url": "https://api.seerapi.com/v1/pet/3221/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      49,
+      49,
+      90,
+      90,
+      270
+    ],
+    "effect": {
+      "id": 762,
+      "url": "https://api.seerapi.com/v1/eid_effect/762/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1f830d61"
+}

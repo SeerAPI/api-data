@@ -1,0 +1,45 @@
+{
+  "id": 947,
+  "desc": "在战斗中，自身攻击和特攻等于其中较高的一项；自身所有特殊攻击先制+1，所有物理攻击附加对手双防值总和30%的固定伤害；登场后每3回合转动一次星盘：当回合自身受到的伤害减少99%（包括固定伤害、百分比伤害）且战斗阶段结束时令对手随机1项技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3661,
+      "url": "https://api.seerapi.com/v1/pet/3661/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      30,
+      3,
+      99,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1236,
+      "url": "https://api.seerapi.com/v1/eid_effect/1236/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a667cc76"
+}

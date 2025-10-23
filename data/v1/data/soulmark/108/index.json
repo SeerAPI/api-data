@@ -1,0 +1,33 @@
+{
+  "id": 108,
+  "desc": "若对手能力下降被解除，则战斗阶段结束时直接给对手造成150点固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2680,
+      "url": "https://api.seerapi.com/v1/pet/2680/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      150,
+      0
+    ],
+    "effect": {
+      "id": 332,
+      "url": "https://api.seerapi.com/v1/eid_effect/332/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "eb3502d3"
+}

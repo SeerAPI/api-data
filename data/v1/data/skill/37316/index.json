@@ -1,0 +1,64 @@
+{
+  "id": 37316,
+  "name": "扶桑",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 82,
+    "url": "https://api.seerapi.com/v1/element_type_combination/82/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手不处于异常状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2170,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2170/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则下1次受到的伤害转化为自身体力",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1343,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1343/"
+      }
+    },
+    {
+      "info": "若自身未满体力则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1371,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1371/"
+      }
+    },
+    {
+      "info": "自身体力不为满时100%令对手感染",
+      "args": [
+        100,
+        27
+      ],
+      "effect": {
+        "id": 2172,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2172/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bcb19573"
+}

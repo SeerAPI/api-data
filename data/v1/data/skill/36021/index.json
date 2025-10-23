@@ -1,0 +1,69 @@
+{
+  "id": 36021,
+  "name": "极戾·破世龙拳",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "谁敢来接，这破世之龙拳！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 73,
+    "url": "https://api.seerapi.com/v1/element_type_combination/73/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1750,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1750/"
+      }
+    },
+    {
+      "info": "无视对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 494,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/494/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 942,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/942/"
+      }
+    },
+    {
+      "info": "造成的伤害提升，伤害提升的倍数等于对手能力下降等级总和乘以20%",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 858,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/858/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5ca427ee"
+}

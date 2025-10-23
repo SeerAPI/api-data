@@ -1,0 +1,66 @@
+{
+  "id": 28118,
+  "name": "擎苍牵黄",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都提升了；开始慢慢恢复自身体力了；出手变得更快了；先出手时当回合封印对手的属性技能",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身持有的灭神之箭≥3支时强化效果翻倍",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 1873,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1873/"
+      }
+    },
+    {
+      "info": "2回合内每回合使用技能恢复自身最大体力的1/2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 57,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/57/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    },
+    {
+      "info": "先出手时对手当回合属性技能无效",
+      "args": [],
+      "effect": {
+        "id": 980,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/980/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a525241f"
+}

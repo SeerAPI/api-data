@@ -1,0 +1,56 @@
+{
+  "id": 24601,
+  "name": "造化俱生",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "恢复自身体力；出手变得更快了；攻击威力翻倍",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复250点体力",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 466,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/466/"
+      }
+    },
+    {
+      "info": "下2回合自身造成的攻击伤害翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ba3523d4"
+}

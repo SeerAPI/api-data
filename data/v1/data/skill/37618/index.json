@@ -1,0 +1,67 @@
+{
+  "id": 37618,
+  "name": "绝霭纤介",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 105,
+    "url": "https://api.seerapi.com/v1/element_type_combination/105/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身体力低于对手时，下1次自身技能先制+2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1230,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1230/"
+      }
+    },
+    {
+      "info": "若先出手则造成攻击伤害的100%恢复自身体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 458,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/458/"
+      }
+    },
+    {
+      "info": "后出手时令对手当回合使用的技能的PP值额外-5",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 1736,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1736/"
+      }
+    },
+    {
+      "info": "若对手处于能力提升状态，则对手3回合内造成的伤害不超过300",
+      "args": [
+        3,
+        300
+      ],
+      "effect": {
+        "id": 798,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/798/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "47ccc09d"
+}

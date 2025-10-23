@@ -1,0 +1,54 @@
+{
+  "id": 37621,
+  "name": "魂凝锋痕",
+  "power": 90,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 111,
+    "url": "https://api.seerapi.com/v1/element_type_combination/111/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1164/"
+      }
+    },
+    {
+      "info": "若对手处于能力下降状态则100%概率冰封",
+      "args": [
+        100,
+        15
+      ],
+      "effect": {
+        "id": 449,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/449/"
+      }
+    },
+    {
+      "info": "2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 679,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/679/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1f6930f3"
+}

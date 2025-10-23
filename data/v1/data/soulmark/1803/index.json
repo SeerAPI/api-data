@@ -1,0 +1,45 @@
+{
+  "id": 1803,
+  "desc": "自身受到的攻击伤害减少70点且每回合结束后恢复70点体力，战斗中己方每次使精灵消逝后，上述所有效果提升70点；|回合开始时若自身为满体力则当回合免疫并反弹受到的异常状态，若自身不为满体力则当回合先制+1且使用技能后70%令对手睡眠（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身受到的<b>攻击伤害<color=#64F9FA></b>减少</color>100点且每回合结束后<color=#64F9FA>恢复</color>70点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>战斗中每次对方精灵消逝后，上述所有效果提升70点\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身为满体力则当回合<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身不为满体力则当回合<b>先制</b>+1且使用技能后70%<color=#64F9FA>令对手睡眠</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4597,
+      "url": "https://api.seerapi.com/v1/pet/4597/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      70,
+      70,
+      1,
+      70,
+      1
+    ],
+    "effect": {
+      "id": 2196,
+      "url": "https://api.seerapi.com/v1/eid_effect/2196/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "af567172"
+}

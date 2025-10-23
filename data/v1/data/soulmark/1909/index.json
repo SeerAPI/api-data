@@ -1,0 +1,33 @@
+{
+  "id": 1909,
+  "desc": "攻击技能命中后自身恢复400点体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能命中后立即为自身<color=#64F9FA>恢复</color>400点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4705,
+      "url": "https://api.seerapi.com/v1/pet/4705/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      400,
+      1
+    ],
+    "effect": {
+      "id": 818,
+      "url": "https://api.seerapi.com/v1/eid_effect/818/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4beb05e5"
+}

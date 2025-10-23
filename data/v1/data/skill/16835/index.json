@@ -1,0 +1,37 @@
+{
+  "id": 16835,
+  "name": "噬血杀",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成伤害大于300，则下1回合自己所有直接攻击先制+1",
+      "args": [
+        300,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 591,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/591/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1cd304ce"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 32834,
+  "name": "灭世暴风雪",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 34,
+    "url": "https://api.seerapi.com/v1/element_type_combination/34/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则吸取对手300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 955,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/955/"
+      }
+    },
+    {
+      "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+      "args": [],
+      "effect": {
+        "id": 1247,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1247/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17808d79"
+}

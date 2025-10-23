@@ -1,0 +1,45 @@
+{
+  "id": 1801,
+  "desc": "回合开始时，若自身体力高于对手则令对手速度、命中-2，未触发则70%令对手害怕，若自身体力低于对手则自身每损失1%的体力当回合使用技能后附加已损失体力值2%的百分比伤害，对手体力未减少则70%令对手冰封（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则令对手速度、命中-2\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则70%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手，则自身每损失1%的体力，当回合使用技能后<color=#64F9FA>附加</color>已损失体力值2%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手体力未减少则70%<color=#64F9FA>令对手冰封</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4594,
+      "url": "https://api.seerapi.com/v1/pet/4594/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      70,
+      1,
+      2,
+      70,
+      1
+    ],
+    "effect": {
+      "id": 2195,
+      "url": "https://api.seerapi.com/v1/eid_effect/2195/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1155a1ee"
+}

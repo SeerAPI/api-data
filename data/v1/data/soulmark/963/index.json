@@ -1,0 +1,40 @@
+{
+  "id": 963,
+  "desc": "回合开始时，若对手不处于异常状态则自身所有技能必定命中且50%令对手随机进入1-2种异常状态，若对手处于异常状态则自身所有技能附加对手最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3678,
+      "url": "https://api.seerapi.com/v1/pet/3678/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      2,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1255,
+      "url": "https://api.seerapi.com/v1/eid_effect/1255/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "606ebee3"
+}

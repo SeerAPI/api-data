@@ -1,0 +1,36 @@
+{
+  "id": 27017,
+  "name": "神之邃",
+  "power": 0,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "使用了神灵的力量",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内每回合50%闪避对手攻击",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 426,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/426/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f034a4fa"
+}

@@ -1,0 +1,30 @@
+{
+  "id": 143,
+  "desc": "自身攻击类技能有30%的概率使对手中毒2回合（注意：无视boss特效中的免疫异常状态)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2759,
+      "url": "https://api.seerapi.com/v1/pet/2759/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 358,
+      "url": "https://api.seerapi.com/v1/eid_effect/358/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5d018093"
+}

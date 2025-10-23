@@ -1,0 +1,35 @@
+{
+  "id": 35834,
+  "name": "幽夜鬼步",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态，反转成功则2回合内躲避所有攻击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1069,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1069/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e256aca9"
+}

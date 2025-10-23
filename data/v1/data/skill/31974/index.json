@@ -1,0 +1,43 @@
+{
+  "id": 31974,
+  "name": "王牌反杀",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 51,
+    "url": "https://api.seerapi.com/v1/element_type_combination/51/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则对手2回合内攻击技能MISS",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 950,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/950/"
+      }
+    },
+    {
+      "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "args": [],
+      "effect": {
+        "id": 444,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/444/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e47e2473"
+}

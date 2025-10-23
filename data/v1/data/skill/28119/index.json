@@ -1,0 +1,37 @@
+{
+  "id": 28119,
+  "name": "无言之视",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "攻击开始有几率令对手害怕了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下3回合每回合使用攻击技能50%令对手害怕",
+      "args": [
+        3,
+        50,
+        6
+      ],
+      "effect": {
+        "id": 592,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/592/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8e3003e0"
+}

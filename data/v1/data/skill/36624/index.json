@@ -1,0 +1,51 @@
+{
+  "id": 36624,
+  "name": "葬生影",
+  "power": 130,
+  "max_pp": 6,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力提升状态则先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2000/"
+      }
+    },
+    {
+      "info": "无视对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 494,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/494/"
+      }
+    },
+    {
+      "info": "若对手处于能力提升状态则附加对手最大体力1/3的百分比伤害",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 825,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/825/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d1c6ba11"
+}

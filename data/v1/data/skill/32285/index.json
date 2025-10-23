@@ -1,0 +1,46 @@
+{
+  "id": 32285,
+  "name": "光影交错",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 31,
+    "url": "https://api.seerapi.com/v1/element_type_combination/31/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下2回合造成的伤害提高100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 1010,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1010/"
+      }
+    },
+    {
+      "info": "若对手体力不足300则直接秒杀",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c7c7db28"
+}

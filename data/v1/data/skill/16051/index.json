@@ -1,0 +1,44 @@
+{
+  "id": 16051,
+  "name": "魔影突袭",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%降低对手所有技能2点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "args": [
+        50,
+        2
+      ],
+      "effect": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/39/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3c62a6d0"
+}

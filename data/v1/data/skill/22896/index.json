@@ -1,0 +1,44 @@
+{
+  "id": 22896,
+  "name": "反转时空",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "逆转了时空",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手下回合受到其他技能的伤害翻倍 ",
+      "args": [],
+      "effect": {
+        "id": 551,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/551/"
+      }
+    },
+    {
+      "info": "3回合内若使用技能则恢复100点体力值",
+      "args": [
+        3,
+        100
+      ],
+      "effect": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/77/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bcf9cf40"
+}

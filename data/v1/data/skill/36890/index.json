@@ -1,0 +1,41 @@
+{
+  "id": 36890,
+  "name": "雷刃轰鸣",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 80,
+    "url": "https://api.seerapi.com/v1/element_type_combination/80/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于麻痹状态则对手攻击+2、速度+2、命中+2",
+      "args": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 546,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/546/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "73c30231"
+}

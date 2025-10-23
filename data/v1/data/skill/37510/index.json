@@ -1,0 +1,67 @@
+{
+  "id": 37510,
+  "name": "堕之盛响",
+  "power": 120,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令对手疲惫",
+      "args": [
+        7
+      ],
+      "effect": {
+        "id": 889,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/889/"
+      }
+    },
+    {
+      "info": "消耗自身全部体力，己方下只精灵获得点数等同于消耗值50%的护盾与护罩",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 2213,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2213/"
+      }
+    },
+    {
+      "info": "为对手附加3层蚩庸之锁，若附加的蚩庸之锁超出了上限则对手下2回合先制-1",
+      "args": [
+        3,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 2211,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2211/"
+      }
+    },
+    {
+      "info": "己方免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 2148,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2148/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "22e4be2d"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 1440,
+  "desc": "每回合自身先出手时50%闪避对手的攻击技能，未触发则免疫下回合对手造成的攻击伤害；|回合开始时，若对手体力高于最大体力的1/2则自身攻击命中后令对手防御-1、特防-1，若对手体力低于最大体力的1/2则自身攻击威力提升50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时50%<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>\r\n<indent=32><sprite=4><indent=48>未触发则下回合<color=#64F9FA>抵挡</color>对手的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手体力高于最大体力的1/2则自身攻击命中后令对手防御-1、特防-1\r\n<indent=32><sprite=4><indent=48>若对手体力低于最大体力的1/2则自身攻击<b>威力</b><color=#64F9FA>提升</color>50%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4221,
+      "url": "https://api.seerapi.com/v1/pet/4221/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      1,
+      1,
+      2,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1809,
+      "url": "https://api.seerapi.com/v1/eid_effect/1809/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4241e1c0"
+}

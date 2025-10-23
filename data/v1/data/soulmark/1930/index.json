@@ -1,0 +1,43 @@
+{
+  "id": 1930,
+  "desc": "boss对战中自身拥有神话（仅boss有效）|己方每有一只其他存活精灵受到的攻击伤害额外减少5%，造成的攻击伤害额外提升5%，造成伤害的5%恢复至自身体力，若存活的精灵为皮皮、比波、波克尔则上述效果中的百分比分别提升为10%、11%、12%（boss有效）|战斗开始时，自身获得7片神羽，之后己方其他精灵的回合结束后，若其体力低于最大体力的1/2且低于自身，则消耗一片神羽以令其体力值增加至与自身相等（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>Boss对战中自身拥有神话\r\n<indent=16><sprite=3><indent=32>己方每有一只其他存活精灵受到的<b>攻击伤害</b><color=#64F9FA>额外减少</color>5%，造成的<b>攻击伤害</b><color=#64F9FA>额外提升</color>5%，造成伤害的5%<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若存活的精灵为皮皮、比波、波克尔则上述所有效果中的百分比分别提升为10%、11%、12%\r\n\r\n<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时：\r\n<indent=32><sprite=4><indent=48>自身获得7片神羽\r\n<indent=32><sprite=4><indent=48>之后己方其他精灵的回合结束后，若其体力值低于最大体力的1/2且低于自身则消耗一片神羽以令其体力值增加至与自身相等\r\n\r\n<indent=0><sprite=5><indent=16>神羽（上限7片，下场保留）\r\n<indent=16><sprite=6><indent=32>每拥有1片神羽回合结束时恢复50点体力\r\n<indent=16><sprite=6><indent=32>失去所有神羽之后，每次使用攻击技能后令对手睡眠",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4732,
+      "url": "https://api.seerapi.com/v1/pet/4732/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      5,
+      5,
+      7
+    ],
+    "effect": {
+      "id": 2346,
+      "url": "https://api.seerapi.com/v1/eid_effect/2346/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "28a27d3c"
+}

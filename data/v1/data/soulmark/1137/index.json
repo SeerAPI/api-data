@@ -1,0 +1,46 @@
+{
+  "id": 1137,
+  "desc": "每次对手选择使用技能时若与上次选择使用的技能为同一技能，则有30%的概率使用技能无效，同时当回合战斗阶段结束时{吸取}对手300点{体力}；|自身每击败一只精灵则致命一击率提升10%、闪避率提升10%（切换保留）；|回合开始时，若自身体力高于对手则令对手全属性-1且当回合自身所有技能先制+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手连续使用同一技能则：\r\n<indent=32><sprite=4><indent=48>当回合战斗阶段结束时<color=#64F9FA>吸取</color>对手250点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>25%令所使用技能<color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身每击败一只精灵本场战斗10%<color=#64F9FA>打出致命一击</color>、10%<color=#64F9FA>闪避</color>受到的<b>攻击</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力高于对手则令对手<color=#64F9FA>全属性-1</color>且当回合自身所有技能<b>先制</b>+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3865,
+      "url": "https://api.seerapi.com/v1/pet/3865/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      30,
+      10,
+      10,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1454,
+      "url": "https://api.seerapi.com/v1/eid_effect/1454/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e1b80d36"
+}

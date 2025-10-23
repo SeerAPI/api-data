@@ -1,0 +1,47 @@
+{
+  "id": 31593,
+  "name": "乱世鬼谋",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则对手全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1009,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1009/"
+      }
+    },
+    {
+      "info": "造成的伤害低于250时80%令对手害怕",
+      "args": [
+        250,
+        80,
+        6
+      ],
+      "effect": {
+        "id": 594,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/594/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "66ce243e"
+}

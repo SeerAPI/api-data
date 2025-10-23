@@ -1,0 +1,49 @@
+{
+  "id": 1457,
+  "args_num": 4,
+  "info": "{0}回合内攻击技能{1}%令对手{2}，未触发则使对手随机{3}项技能PP值归零",
+  "info_formatting_adjustment": "{0}回合内攻击技能{1}%令对手{2}\r\n--><condition>未触发</condition>则使对手随机{3}项技能PP值归零",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 26635,
+      "url": "https://api.seerapi.com/v1/skill/26635/"
+    },
+    {
+      "id": 27155,
+      "url": "https://api.seerapi.com/v1/skill/27155/"
+    },
+    {
+      "id": 27327,
+      "url": "https://api.seerapi.com/v1/skill/27327/"
+    },
+    {
+      "id": 28876,
+      "url": "https://api.seerapi.com/v1/skill/28876/"
+    },
+    {
+      "id": 36898,
+      "url": "https://api.seerapi.com/v1/skill/36898/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 46440,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/46440/"
+    }
+  ],
+  "hash": "6616ee0d"
+}

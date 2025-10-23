@@ -1,0 +1,70 @@
+{
+  "id": 27058,
+  "name": "烬灭之拥",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性+1；开始恢复自身体力了；能力强化被消除开始令对手麻痹了；出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，对手处于异常状态时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1001,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1001/"
+      }
+    },
+    {
+      "info": "恢复自身最大体力的1/2，若自身体力低于1/2则造成等量固伤",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 1290,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1290/"
+      }
+    },
+    {
+      "info": "3回合内若自身能力提升状态被消除或吸取则100%使对手麻痹2回合",
+      "args": [
+        3,
+        100,
+        0,
+        2
+      ],
+      "effect": {
+        "id": 573,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/573/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5c9b9437"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 23844,
+  "name": "次元神之阵",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性都提升了；强化状态被消除攻击致命",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，防御",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585/"
+      }
+    },
+    {
+      "info": "下2回合若自身能力提升状态被消除则必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 711,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/711/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b3ceacd0"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 27,
+  "desc": "满体力时100%免疫异常状态，满体力时50%概率免疫能力下降状态",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2496,
+      "url": "https://api.seerapi.com/v1/pet/2496/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      50
+    ],
+    "effect": {
+      "id": 285,
+      "url": "https://api.seerapi.com/v1/eid_effect/285/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/soulmark/28/"
+  },
+  "from": null,
+  "hash": "b20f080d"
+}

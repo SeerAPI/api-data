@@ -1,0 +1,36 @@
+{
+  "id": 33390,
+  "name": "冰火穿击",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "10%恢复自己所有技能PP值1点",
+      "args": [
+        10,
+        1
+      ],
+      "effect": {
+        "id": 598,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/598/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4e4c1d6e"
+}

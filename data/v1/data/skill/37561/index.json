@@ -1,0 +1,56 @@
+{
+  "id": 37561,
+  "name": "海啸·能量光波",
+  "power": 150,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 124,
+    "url": "https://api.seerapi.com/v1/element_type_combination/124/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若打出致命一击，则造成伤害值的100%恢复自身体力 ",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 505,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/505/"
+      }
+    },
+    {
+      "info": "若打出致命一击则对手100%概率冰封",
+      "args": [
+        100,
+        15
+      ],
+      "effect": {
+        "id": 553,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/553/"
+      }
+    },
+    {
+      "info": "击败对手则令自身2回合内的能力提升状态无法被消除或吸取",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1960,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1960/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "10adfd86"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 1330,
+  "desc": "每回合开始时令自身防御+1、特防+1，自身受到攻击时若双防提升等级总和≥6则战斗阶段结束时令对手受到自身最大体力值30%的固定伤害；|自身死亡后令己方下只出场精灵立刻恢复最大体力40%（“环”小队成员转为50%）的体力值，之后每回合恢复最大体力20%（“环”小队成员转为25%）的体力值（持续3回合，boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时令自身防御+1、特防+1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时若双防提升等级总和≥6则战斗阶段结束时<color=#64F9FA>附加</color>自身最大体力30%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后令己方下只出战精灵立刻<color=#64F9FA>恢复</color>最大体力40%的<b>体力</b>，之后3回合内每回合<color=#64F9FA>恢复</color>最大体力20%的<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若下只出战精灵是“环”小队成员，则改为立刻恢复最大体力50%的体力，之后3回合内每回合恢复最大体力25%的体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4088,
+      "url": "https://api.seerapi.com/v1/pet/4088/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      6,
+      30,
+      40,
+      20,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1680,
+      "url": "https://api.seerapi.com/v1/eid_effect/1680/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "47be53aa"
+}

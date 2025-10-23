@@ -1,0 +1,59 @@
+{
+  "id": 28316,
+  "name": "落花有意",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 3,
+  "must_hit": true,
+  "info": "免疫并反弹下1次异常状态；操纵穹明号开启拥君之盾与绝缘之罩守卫自身；将对手的回合类效果与能力提升状态全部消除",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "免疫并反弹下1次自身受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1935,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1935/"
+      }
+    },
+    {
+      "info": "若自身未持有拥君之盾则开启拥君之盾，若自身未持有绝缘之罩则开启绝缘之罩",
+      "args": [],
+      "effect": {
+        "id": 1973,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1973/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 945,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/945/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+      "args": [],
+      "effect": {
+        "id": 1974,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1974/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ff989426"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 28621,
+  "name": "慈悲善念",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "使对手安眠",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于异常状态，则附加300点伤害",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 162,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/162/"
+      }
+    },
+    {
+      "info": "若对手不处于异常状态则80%令对手睡眠",
+      "args": [
+        80,
+        8
+      ],
+      "effect": {
+        "id": 1426,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1426/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "94ac5188"
+}

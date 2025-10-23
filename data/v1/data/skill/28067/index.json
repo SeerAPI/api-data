@@ -1,0 +1,36 @@
+{
+  "id": 28067,
+  "name": "领航之法",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "清除对手一些PP值",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%降低对手所有PP值2点",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1603,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1603/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5c9d6ab8"
+}

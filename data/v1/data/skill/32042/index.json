@@ -1,0 +1,46 @@
+{
+  "id": 32042,
+  "name": "叶落彼岸",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "args": [
+        2,
+        -2
+      ],
+      "effect": {
+        "id": 425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/425/"
+      }
+    },
+    {
+      "info": "为自身附加400点护罩",
+      "args": [
+        400
+      ],
+      "effect": {
+        "id": 1342,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1342/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3b9b1b3c"
+}

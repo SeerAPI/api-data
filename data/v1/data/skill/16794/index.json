@@ -1,0 +1,56 @@
+{
+  "id": 16794,
+  "name": "风火傲神绝",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "先出手时，100%概率令对方烧伤",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 173,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/173/"
+      }
+    },
+    {
+      "info": "后出手时，100%改变对方速度等级-1",
+      "args": [
+        4,
+        100,
+        -1
+      ],
+      "effect": {
+        "id": 148,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/148/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4c9c1669"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 19078,
+  "name": "后发制人诀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": -1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 59,
+    "url": "https://api.seerapi.com/v1/element_type_combination/59/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加自身最大体力20%的百分比伤害",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 831,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/831/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "deae6cc4"
+}

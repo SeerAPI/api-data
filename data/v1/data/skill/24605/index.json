@@ -1,0 +1,52 @@
+{
+  "id": 24605,
+  "name": "妖魔退散",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "使自身随机属性提升；使对手特防降低了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机使自己3项能力+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 626,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/626/"
+      }
+    },
+    {
+      "info": "3回合内每回合对手特防-1",
+      "args": [
+        3,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 448,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/448/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ff692212"
+}

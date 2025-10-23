@@ -1,0 +1,39 @@
+{
+  "id": 719,
+  "desc": "造成的伤害提高35%，自身体力低于对手时额外提高25%；攻击有50%概率无视对手能力提升状态，未触发则附加自身造成的攻击伤害50%的固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3403,
+      "url": "https://api.seerapi.com/v1/pet/3403/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      35,
+      25,
+      50,
+      50
+    ],
+    "effect": {
+      "id": 1005,
+      "url": "https://api.seerapi.com/v1/eid_effect/1005/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6578db85"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 35951,
+  "name": "禁术·契灭",
+  "power": 160,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": "快结下这契约吧，你所有的愿望都将实现！",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 225,
+    "url": "https://api.seerapi.com/v1/element_type_combination/225/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身所有技能的PP值并附加自身最大体力值20%的百分比伤害，若消耗的PP值≥5点则附加的百分比伤害翻倍且额外令对手下1次攻击技能无效",
+      "args": [
+        20,
+        5,
+        1
+      ],
+      "effect": {
+        "id": 1822,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1822/"
+      }
+    },
+    {
+      "info": "下2回合自身造成的攻击伤害翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8a8bf1a1"
+}

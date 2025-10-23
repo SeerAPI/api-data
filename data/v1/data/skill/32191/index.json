@@ -1,0 +1,41 @@
+{
+  "id": 32191,
+  "name": "暗夜法球",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 1061,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1061/"
+      }
+    },
+    {
+      "info": "双倍反转自身的能力下降",
+      "args": [],
+      "effect": {
+        "id": 896,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/896/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "319eb2d9"
+}

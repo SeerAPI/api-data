@@ -1,0 +1,65 @@
+{
+  "id": 27958,
+  "name": "简·战斗数据",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "解除自身能力下降状态；自身的攻击提升了；自身攻击开始无视对手能力强化状态了；自身直接攻击开始必定命中了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/3/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身攻击等级+3",
+      "args": [
+        0,
+        100,
+        3
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "下2回合若自身选择使用技能则无视对手能力提升状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 486,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/486/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/81/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1d96259a"
+}

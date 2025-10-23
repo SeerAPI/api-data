@@ -1,0 +1,47 @@
+{
+  "id": 1903,
+  "desc": "回合开始时自身防御+1、特防+1，然后若自身能力等级总和低于对手则防御、特防额外+1且当回合闪避对手的攻击，若高于对手则令对手速度-1，未触发则为自身附加200点护盾、200点护罩|对手威力不低于120的攻击技能命中自身时触发天寒雪崩：消除自身能力提升状态并附加给对手，然后若对手处于能力提升状态则对手每有1级能力提升使自身当回合战斗阶段结束时吸取对手40点体力，若对手所有能力均有提升等级则额外消除对手回合类效果并令对手冻伤|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时令自身防御+1、特防+1\r\n<indent=32><sprite=4><indent=48>若自身能力等级总和低于对手则防御、特防额外+1且当回合<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>\r\n<indent=32><sprite=4><indent=48>若自身能力等级总和高于对手则令对手速度-1\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则为自身<color=#64F9FA>附加</color>200点<b>护盾</b>与200点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中且技能威力不低于120则自身触发<b>天寒雪崩</b>\r\n\r\n<indent=0><sprite=5><indent=15>天寒雪崩：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>消除</color>自身<b>能力提升状态</b>并<color=#64F9FA>附加给</color>对手，然后：\r\n<indent=32><sprite=4><indent=48>对手每有1级能力提升使自身当回合战斗阶段结束时<color=#64F9FA>吸取</color>对手x40点<b>体力</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手所有能力均有提升等级则额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>并100%<color=#64F9FA>令对手冻伤</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4318,
+      "url": "https://api.seerapi.com/v1/pet/4318/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      200,
+      120,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 2302,
+      "url": "https://api.seerapi.com/v1/eid_effect/2302/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1545,
+    "url": "https://api.seerapi.com/v1/soulmark/1545/"
+  },
+  "hash": "e86647d2"
+}

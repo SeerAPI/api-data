@@ -1,0 +1,35 @@
+{
+  "id": 37556,
+  "name": "律理虚浮",
+  "power": 120,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 123,
+    "url": "https://api.seerapi.com/v1/element_type_combination/123/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2145,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2145/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "110e10f4"
+}

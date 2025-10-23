@@ -1,0 +1,47 @@
+{
+  "id": 23995,
+  "name": "妖族意志",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗能力下降；受到攻击则有几率令对手麻痹",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "3回合内若受到攻击则有30%概率令对手麻痹",
+      "args": [
+        3,
+        30,
+        0
+      ],
+      "effect": {
+        "id": 164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/164/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ec540e1"
+}

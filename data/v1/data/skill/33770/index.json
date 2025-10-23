@@ -1,0 +1,46 @@
+{
+  "id": 33770,
+  "name": "穿魂曲",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1199/"
+      }
+    },
+    {
+      "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "args": [
+        2,
+        -2
+      ],
+      "effect": {
+        "id": 425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/425/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "19aad643"
+}

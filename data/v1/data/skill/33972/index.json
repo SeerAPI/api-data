@@ -1,0 +1,49 @@
+{
+  "id": 33972,
+  "name": "福至万家欢",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力上升状态，消除成功则2回合内对手每回合命中-1",
+      "args": [
+        2,
+        5,
+        -1
+      ],
+      "effect": {
+        "id": 759,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/759/"
+      }
+    },
+    {
+      "info": "附加100点固定伤害，每次使用额外附加50点，最高200点，遇到天敌时效果翻倍",
+      "args": [
+        100,
+        50,
+        200
+      ],
+      "effect": {
+        "id": 497,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/497/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cc9a17e1"
+}

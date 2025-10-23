@@ -1,0 +1,45 @@
+{
+  "id": 1590,
+  "desc": "自身使用攻击技能时体力每损失1%，则当次攻击造成的伤害提升2%；回合开始时若自身体力低于对手则当回合自身所有技能先制+1，战斗阶段结束时附加自身已损失体力50%的百分比伤害（损失体力伤害提升效果boss有效，其余效果boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身体力每损失1%，则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>2%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>附加</color>自身已损失体力50%的<b>百分比伤害</b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3594,
+      "url": "https://api.seerapi.com/v1/pet/3594/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1946,
+      "url": "https://api.seerapi.com/v1/eid_effect/1946/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 892,
+    "url": "https://api.seerapi.com/v1/soulmark/892/"
+  },
+  "hash": "cf42c4c8"
+}

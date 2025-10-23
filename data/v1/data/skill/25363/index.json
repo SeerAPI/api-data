@@ -1,0 +1,57 @@
+{
+  "id": 25363,
+  "name": "蔓蔓青萝",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "随机使对手属性降低并附加给自己；免疫并反弹异常状态；对手消耗的PP值变高了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 849,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/849/"
+      }
+    },
+    {
+      "info": "5回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为3倍",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f4d1ad88"
+}

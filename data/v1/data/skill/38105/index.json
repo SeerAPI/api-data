@@ -1,0 +1,57 @@
+{
+  "id": 38105,
+  "name": "怒焰疾冲",
+  "power": 10,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 101,
+    "url": "https://api.seerapi.com/v1/element_type_combination/101/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合做8-10次攻击，对手处于异常状态时连击上限为13",
+      "args": [
+        8,
+        10,
+        13
+      ],
+      "effect": {
+        "id": 1685,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1685/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1052,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1052/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则回合结束时减少对手1/3最大体力",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 752,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/752/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1c33f489"
+}

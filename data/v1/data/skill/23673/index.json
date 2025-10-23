@@ -1,0 +1,36 @@
+{
+  "id": 23673,
+  "name": "光荣牺牲",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击变得更加犀利了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身所有体力给对手造成300-400点伤害,若造成伤害大于对手体力，则对手必定留1点血",
+      "args": [
+        300,
+        400
+      ],
+      "effect": {
+        "id": 617,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/617/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2e8996e5"
+}

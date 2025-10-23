@@ -1,0 +1,34 @@
+{
+  "id": 1896,
+  "desc": "战斗开始时，自身增加400点体力上限，之后本场战斗限4次，自身每次受到高于300的攻击伤害时，双方受到300点固定伤害且自身减少100点体力上限|回合开始时，若自身最大体力高于对手则自身当回合受到的固定伤害、百分比伤害减少60%，若自身最大体力低于对手则自身当回合使用攻击技能时消耗自身全部体力并附加等量的固定伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时，自身增加400点临时体力上限\r\n<indent=32><sprite=4><indent=48>之后本场战斗限4次，自身每次受到高于300的攻击伤害时，双方<color=#64F9FA>受到</color>300点<b>固定伤害</b>且自身<color=#64F9FA>减少</color>100点<b>体力上限</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身最大体力高于对手则自身当回合受到的<b>固定伤害、百分比伤害</b><color=#64F9FA>减少</color>60%\r\n<indent=32><sprite=4><indent=48>若自身最大体力低于对手则自身当回合使用攻击技能时<color=#64F9FA>消耗</color>自身<b>全部体力</b>并<color=#64F9FA>附加</color>等量的<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4695,
+      "url": "https://api.seerapi.com/v1/pet/4695/"
+    }
+  ],
+  "effect": {
+    "effect_args": null,
+    "effect": {
+      "id": 2296,
+      "url": "https://api.seerapi.com/v1/eid_effect/2296/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4dd0dae"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 23741,
+  "name": "异界之印",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始吸收对方体力；使对手中毒的概率提升了；攻击变得更加犀利了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内每回合使用技能吸取对手最大体力的1/4",
+      "args": [
+        5,
+        4
+      ],
+      "effect": {
+        "id": 597,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/597/"
+      }
+    },
+    {
+      "info": "4回合内每回合额外附加55%概率令对手中毒",
+      "args": [
+        4,
+        55,
+        1
+      ],
+      "effect": {
+        "id": 169,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/169/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4289c85a"
+}

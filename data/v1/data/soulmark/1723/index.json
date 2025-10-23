@@ -1,0 +1,41 @@
+{
+  "id": 1723,
+  "desc": "卫岳作为开拓舰穹明号的舰长，在战斗中会召唤穹明号协助自身作战，驾驶穹明号的卫岳攻守兼备，自身在场期间防御、特防值等于攻击、特攻值中较低的一项，且令对手所有体力恢复效果减少50%；|每次登场首回合若对手使用攻击技能则命中前穹明号会开启拥君之盾守护自身，若对手使用属性技能则命中前穹明号会开启绝缘之罩守护自身，若对手未使用技能则下回合开始时拥君之盾和绝缘之罩会一同开启；|回合结束后若自身死亡，则解放当前持有的拥君之盾和绝缘之罩，解放拥君之盾则2回合内己方精灵造成的攻击伤害提升100%，解放绝缘之罩则2回合内己方精灵造成的固定伤害、百分比伤害提升50%，若二者均被解放则2回合内对方所有精灵的体力恢复效果减少100%|（拥君之盾和绝缘之罩持有后不会重复开启，下场不保留，卫岳阵亡后会将其解放，所有特效boss无效）|拥君之盾：开启时为持有精灵附加300点护盾；持有精灵造成的攻击伤害提升50%，免疫受到的臣服异常状态|绝缘之罩：开启时为持有精灵附加300点护罩；持有精灵造成的固定伤害、百分比伤害提升25%，免疫受到的麻痹异常状态",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>卫岳身为穹明舰长，会与穹明号协同作战：\r\n<indent=32><sprite=4><indent=48>在战斗中，<b>防御、特防值</b>等于攻击、特攻值中较低的一项\r\n<indent=32><sprite=4><indent=48>自身在场时，令对手<b>体力恢复效果</b><color=#64F9FA>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场首回合：\r\n<indent=32><sprite=4><indent=48>若对手<color=#64F9FA>使用攻击技能</color>则命中前自身开启<b>拥君之盾</b>\r\n<indent=32><sprite=4><indent=48>若对手<color=#64F9FA>使用属性技能</color>则命中前自身开启<b>绝缘之罩</b>\r\n<indent=32><sprite=4><indent=48>若对手未使用技能则下回合开始时拥君之盾和绝缘之罩会一同开启\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，<color=#64F9FA>解放</color>当前持有的拥君之盾和绝缘之罩\r\n<indent=32><sprite=4><indent=48>解放拥君之盾则2回合内己方精灵造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>解放绝缘之罩则2回合内己方精灵造成的<b>固定伤害、百分比伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若二者均被解放则2回合内对方所有精灵的<b>体力恢复效果</b>额外<color=#64F9FA>减少</color>100%\r\n\r\n<indent=0><sprite=5><indent=15>拥君之盾：\r\n<indent=16><sprite=6><indent=32>开启时获得300点护盾，持有时无法重复开启\r\n<indent=16><sprite=6><indent=32>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>免疫</color>受到的<b>臣服异常状态</b>\r\n\r\n<indent=0><sprite=5><indent=15>绝缘之罩：\r\n<indent=16><sprite=6><indent=32>开启时获得300点护罩，持有时无法重复开启\r\n<indent=16><sprite=6><indent=32>造成的<b>固定伤害、百分比伤害</b><color=#64F9FA>提升</color>25%\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>免疫</color>受到的<b>麻痹异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4510,
+      "url": "https://api.seerapi.com/v1/pet/4510/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2107,
+      "url": "https://api.seerapi.com/v1/eid_effect/2107/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "36e9dd76"
+}

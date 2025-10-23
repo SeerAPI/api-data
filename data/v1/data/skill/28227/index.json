@@ -1,0 +1,46 @@
+{
+  "id": 28227,
+  "name": "入鞘",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身造成的攻击伤害额外提升了；后出手则下回合自身出手更快",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下1回合造成的攻击伤害额外提升100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    },
+    {
+      "info": "后出手时下回合攻击技能先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1549,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1549/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d72fe1a"
+}

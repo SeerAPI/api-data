@@ -1,0 +1,59 @@
+{
+  "id": 37789,
+  "name": "天灯何其乐",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后100%使对手烧伤，未触发则附加自身最大体力值1/3的百分比伤害",
+      "args": [
+        100,
+        2,
+        3
+      ],
+      "effect": {
+        "id": 917,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/917/"
+      }
+    },
+    {
+      "info": "未击败对手则恢复自身所有技能2点PP值",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1821,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1821/"
+      }
+    },
+    {
+      "info": "附加自身当前体力15%的百分比伤害，连续使用每次增加15%，最高60%",
+      "args": [
+        15,
+        15,
+        60
+      ],
+      "effect": {
+        "id": 1072,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1072/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17e1d195"
+}

@@ -1,0 +1,44 @@
+{
+  "id": 1062,
+  "desc": "里奥斯每次登场后100%令对手进入易燃状态，同时给对手周围布置一层密集火网：处于烧伤状态下则无法处于能力提升状态；攻击技能命中对手后50%的概率令对手烧伤，未触发则为自身附加300点护盾或给对手造成300点固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3786,
+      "url": "https://api.seerapi.com/v1/pet/3786/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      50,
+      300,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1362,
+      "url": "https://api.seerapi.com/v1/eid_effect/1362/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1dbab731"
+}

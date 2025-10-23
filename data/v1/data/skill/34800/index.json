@@ -1,0 +1,46 @@
+{
+  "id": 34800,
+  "name": "险境压制",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 995,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/995/"
+      }
+    },
+    {
+      "info": "获得400点护盾，护盾消失时附加300点固定伤害",
+      "args": [
+        400,
+        300
+      ],
+      "effect": {
+        "id": 1387,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1387/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f089dccb"
+}

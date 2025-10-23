@@ -1,0 +1,56 @@
+{
+  "id": 33046,
+  "name": "爵·灵魂之哀",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 111,
+    "url": "https://api.seerapi.com/v1/element_type_combination/111/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则吸取对手300点体力，若对手不处于能力提升状态则令对手全属性-1",
+      "args": [
+        300,
+        1
+      ],
+      "effect": {
+        "id": 1354,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1354/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1048,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1048/"
+      }
+    },
+    {
+      "info": "对手不处于异常状态则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1257,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1257/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "aba59e3f"
+}

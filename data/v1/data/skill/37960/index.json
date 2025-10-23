@@ -1,0 +1,61 @@
+{
+  "id": 37960,
+  "name": "TH天基轰灭",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 494,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/494/"
+      }
+    },
+    {
+      "info": "解除自身所处的异常状态，解除成功令对手烧伤",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2158,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2158/"
+      }
+    },
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1192,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1192/"
+      }
+    },
+    {
+      "info": "50%的概率造成伤害翻倍，对手处于能力下降状态时概率翻倍",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1481/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fc54037"
+}

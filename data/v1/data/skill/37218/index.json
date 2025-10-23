@@ -1,0 +1,52 @@
+{
+  "id": 37218,
+  "name": "烬灭神咒剑",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 58,
+    "url": "https://api.seerapi.com/v1/element_type_combination/58/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力提升状态则先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2000/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升，吸取成功则下1次受到的攻击伤害减少50%",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1287,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1287/"
+      }
+    },
+    {
+      "info": "技能无效时，消除对手回合类效果、能力提升效果，令对手焚烬",
+      "args": [],
+      "effect": {
+        "id": 2126,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2126/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c3f8231b"
+}

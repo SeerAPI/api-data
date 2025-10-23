@@ -1,0 +1,36 @@
+{
+  "id": 315,
+  "desc": "每回合，对手所有技能PP减少1点（boss无效）;免疫能力下降",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2898,
+      "url": "https://api.seerapi.com/v1/pet/2898/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1
+    ],
+    "effect": {
+      "id": 639,
+      "url": "https://api.seerapi.com/v1/eid_effect/639/"
+    }
+  },
+  "tag": [
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": {
+    "id": 438,
+    "url": "https://api.seerapi.com/v1/soulmark/438/"
+  },
+  "from": null,
+  "hash": "467dc758"
+}

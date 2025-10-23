@@ -1,0 +1,43 @@
+{
+  "id": 1675,
+  "desc": "自身攻击打出致命一击后附加对手最大体力15%的百分比伤害；|自身被击败时，为对手附加霜寒封印：3回合内防御、特防能力提升效果失效，无法通过技能恢复体力且每次使用技能后受到最大体力10%的百分比伤害，该百分比伤害最高为斯克鲁恩攻击值的200%|（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击打出致命一击后<color=#64F9FA>附加</color>对手最大体力15%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后令对手陷入<b>霜寒封印</b>\r\n\r\n<indent=0><sprite=5><indent=15>霜寒封印：\r\n<indent=16><sprite=6><indent=32>3回合内：\r\n<indent=32><sprite=4><indent=48>防御、特防能力提升效果失效\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>无法通过技能恢复体力</color>且每次使用技能后<color=#64F9FA>受到</color>最大体力10%的<b>百分比伤害</b>，该百分比伤害最高为施加者攻击值的200%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4463,
+      "url": "https://api.seerapi.com/v1/pet/4463/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      15,
+      5,
+      10,
+      200
+    ],
+    "effect": {
+      "id": 2060,
+      "url": "https://api.seerapi.com/v1/eid_effect/2060/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "82f4a7a4"
+}

@@ -1,0 +1,40 @@
+{
+  "id": 1064,
+  "desc": "自身死亡后50%的概率复活一次，复活时消除双方能力提升状态和能力下降状态；战斗阶段结束时，若自身体力低于300则消除对手能力提升状态和回合类效果并使对手下2次技能无效（每场战斗仅触发1次），若自身体力高于300则{吸取}对手300点{体力}（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3785,
+      "url": "https://api.seerapi.com/v1/pet/3785/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      300,
+      2,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1361,
+      "url": "https://api.seerapi.com/v1/eid_effect/1361/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b8bd0240"
+}

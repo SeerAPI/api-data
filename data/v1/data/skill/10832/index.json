@@ -1,0 +1,35 @@
+{
+  "id": 10832,
+  "name": "噬魂之刃",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "降低对方25点战斗时的最高HP",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/38/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4a18d10f"
+}

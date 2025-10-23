@@ -1,0 +1,34 @@
+{
+  "id": 388,
+  "desc": "第一次受到的攻击伤害减少30%,每次受到攻击减少量增加10%,最多减少60%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3026,
+      "url": "https://api.seerapi.com/v1/pet/3026/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      10,
+      60
+    ],
+    "effect": {
+      "id": 714,
+      "url": "https://api.seerapi.com/v1/eid_effect/714/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "afd35f9f"
+}

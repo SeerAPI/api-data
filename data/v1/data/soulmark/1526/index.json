@@ -1,0 +1,42 @@
+{
+  "id": 1526,
+  "desc": "当回合自身先出手则令自身防御+1、特防+1，自身后出手则令对手速度-1、命中-1，出手时若自身体力高于对手则能力提升和下降的效果翻倍且额外令对手攻击-1、特攻-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手则令自身防御+1、特防+1\r\n<indent=16><sprite=3><indent=32>自身后出手则令对手速度-1、命中-1\r\n<indent=16><sprite=3><indent=32>自身体力高于对手时上述所有效果翻倍且额外令对手攻击-1、特攻-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4303,
+      "url": "https://api.seerapi.com/v1/pet/4303/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1889,
+      "url": "https://api.seerapi.com/v1/eid_effect/1889/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "11954073"
+}

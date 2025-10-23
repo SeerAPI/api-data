@@ -1,0 +1,35 @@
+{
+  "id": 20715,
+  "name": "厚实",
+  "power": 0,
+  "max_pp": 30,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "进入防御状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "可以抵挡100点伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 49,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/49/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4c5c0174"
+}

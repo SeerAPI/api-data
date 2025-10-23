@@ -1,0 +1,35 @@
+{
+  "id": 16536,
+  "name": "龙枪合一破",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/element_type_combination/10/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于异常状态，则附加100点伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 162,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/162/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ab6d57d8"
+}

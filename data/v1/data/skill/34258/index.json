@@ -1,0 +1,46 @@
+{
+  "id": 34258,
+  "name": "藐世不语",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 95,
+    "url": "https://api.seerapi.com/v1/element_type_combination/95/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则令对手失明，若对手不处于能力提升状态则令对手全属性-1",
+      "args": [
+        20,
+        1
+      ],
+      "effect": {
+        "id": 1542,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1542/"
+      }
+    },
+    {
+      "info": "若打出致命一击则自身2回合内免疫异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 555,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/555/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "af15da8"
+}

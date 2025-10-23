@@ -1,0 +1,44 @@
+{
+  "id": 978,
+  "desc": "登场首回合受到伤害减少20%，之后每回合受到伤害减少量增加10%，最高50%（包括固定伤害）；自身攻击无视对手特防能力提升状态且50%的概率造成的伤害翻倍，未触发则下回合100%的概率造成的伤害翻倍（boss有效） 冰之祝福buff说明：50%的概率打出致命一击；攻击随机附加150-300点固定伤害",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>登场首回合受到<b>攻击伤害、固定伤害</b><color=#64F9FA>减少</color>20%\r\n<indent=32><sprite=4><indent=48>之后每回合受到伤害<b>减少量</b><color=#64F9FA>增加</color>10%，最高50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击无视对手特防能力提升状态且50%的概率造成的<color=#64F9FA>伤害翻倍</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合100%的概率造成的<color=#64F9FA>伤害翻倍</color>\r\n\r\n<indent=0><sprite=5><indent=15>冰之祝福：\r\n<indent=16><sprite=6><indent=32>50%的概率打出致命一击\r\n<indent=16><sprite=6><indent=32>攻击随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b></color></b>",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3699,
+      "url": "https://api.seerapi.com/v1/pet/3699/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      10,
+      50,
+      50,
+      100
+    ],
+    "effect": {
+      "id": 1276,
+      "url": "https://api.seerapi.com/v1/eid_effect/1276/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f0aa77bc"
+}

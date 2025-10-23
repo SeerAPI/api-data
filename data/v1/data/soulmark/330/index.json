@@ -1,0 +1,29 @@
+{
+  "id": 330,
+  "desc": "战斗阶段结束时若对手不处于能力下降状态则每回合减少1/4最大HP（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2922,
+      "url": "https://api.seerapi.com/v1/pet/2922/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      4,
+      1
+    ],
+    "effect": {
+      "id": 655,
+      "url": "https://api.seerapi.com/v1/eid_effect/655/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "55a97fef"
+}

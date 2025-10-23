@@ -1,0 +1,65 @@
+{
+  "id": 1570,
+  "args_num": 3,
+  "info": "出手时若自身体力高于对手则{0}%令对手{1}，未触发则附加对手最大体力1/{2}的百分比伤害",
+  "info_formatting_adjustment": "出手时<condition>若自身体力高于对手</condition>则{0}%令对手{1}\r\n--><condition>未触发</condition>则附加对手最大体力1/{2}的百分比伤害",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 34115,
+      "url": "https://api.seerapi.com/v1/skill/34115/"
+    },
+    {
+      "id": 34320,
+      "url": "https://api.seerapi.com/v1/skill/34320/"
+    },
+    {
+      "id": 35182,
+      "url": "https://api.seerapi.com/v1/skill/35182/"
+    },
+    {
+      "id": 35394,
+      "url": "https://api.seerapi.com/v1/skill/35394/"
+    },
+    {
+      "id": 35519,
+      "url": "https://api.seerapi.com/v1/skill/35519/"
+    },
+    {
+      "id": 35544,
+      "url": "https://api.seerapi.com/v1/skill/35544/"
+    },
+    {
+      "id": 35592,
+      "url": "https://api.seerapi.com/v1/skill/35592/"
+    },
+    {
+      "id": 35742,
+      "url": "https://api.seerapi.com/v1/skill/35742/"
+    },
+    {
+      "id": 37713,
+      "url": "https://api.seerapi.com/v1/skill/37713/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "713af209"
+}

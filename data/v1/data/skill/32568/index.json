@@ -1,0 +1,36 @@
+{
+  "id": 32568,
+  "name": "鬼火四起",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 51,
+    "url": "https://api.seerapi.com/v1/element_type_combination/51/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "体力低于1/3时威力3倍",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 645,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/645/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c757d361"
+}

@@ -1,0 +1,60 @@
+{
+  "id": 27146,
+  "name": "咒灵祷告",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 96,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "攻击+2、速度+1；开始免疫大于300的攻击伤害了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "args": [
+        0,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身速度等级+1",
+      "args": [
+        4,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "3回合内免疫大于300的攻击伤害",
+      "args": [
+        3,
+        300
+      ],
+      "effect": {
+        "id": 741,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/741/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "71f2e0ff"
+}

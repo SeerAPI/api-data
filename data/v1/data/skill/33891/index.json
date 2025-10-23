@@ -1,0 +1,38 @@
+{
+  "id": 33891,
+  "name": "真神信仰",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 223,
+    "url": "https://api.seerapi.com/v1/element_type_combination/223/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手是雄性则造成伤害提升100%,若对手不是雄性，则有50%概率使对手疲惫",
+      "args": [
+        1,
+        100,
+        50,
+        7
+      ],
+      "effect": {
+        "id": 600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/600/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6b57d5a1"
+}

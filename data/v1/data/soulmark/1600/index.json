@@ -1,0 +1,45 @@
+{
+  "id": 1600,
+  "desc": "在风神的庇护下，自身天生免疫能力下降状态且释放技能不消耗PP值(PP值为0时无法释放技能)，在圣光的庇护下，自身天生免疫受到的非本系攻击伤害且自身所有攻击伤害获得本系属性加成；|自身连续使用攻击技能则100%令对手睡眠,未触发则消除对手回合类效果且{吸取}对手300点{体力}，自身连续使用属性技能则下回合受到的攻击伤害、固定伤害和百分比伤害减少50%且所有技能先制+1，当回合自身使用技能且以上条件均未触发则战斗阶段结束时附加100点真实伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在风神的庇护下，自身天生<color=#64F9FA>免疫</color><b>能力下降状态</b>且<color=#64F9FA>释放技能不消耗PP值</color>\r\n<indent=16><sprite=3><indent=32>在圣光的庇护下，自身天生<color=#64F9FA>抵挡</color>受到的<b>非本系攻击</b>且自身所有攻击获得<b>本系属性加成</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身连续使用攻击技能则100%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>且<color=#64F9FA>吸取</color>对手300点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身连续使用属性技能则下回合受到的<b>攻击伤害、固定伤害和百分比伤害</b><color=#64F9FA>减少</color>50%且所有技能先制+1\r\n<indent=16><sprite=3><indent=32>当回合自身使用技能且以上条件均未满足则战斗阶段结束时<color=#64F9FA>附加</color>100点<b>真实伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4376,
+      "url": "https://api.seerapi.com/v1/pet/4376/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      300,
+      50,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1961,
+      "url": "https://api.seerapi.com/v1/eid_effect/1961/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "229ee2cd"
+}

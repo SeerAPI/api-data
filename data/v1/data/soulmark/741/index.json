@@ -1,0 +1,44 @@
+{
+  "id": 741,
+  "desc": "每回合开始时令对手随机2项属性-1；回合开始时自身体力低于对手则当回合自身技能有70%概率令对手害怕，未触发则战斗阶段结束时附加对手最大体力1/4的固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3422,
+      "url": "https://api.seerapi.com/v1/pet/3422/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      70,
+      4,
+      1
+    ],
+    "effect": {
+      "id": 1022,
+      "url": "https://api.seerapi.com/v1/eid_effect/1022/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a56c8c98"
+}

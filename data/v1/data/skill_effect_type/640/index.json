@@ -1,0 +1,53 @@
+{
+  "id": 640,
+  "args_num": 3,
+  "info": "命中后{0}%使对手{1}{2}回合,遇到天敌概率翻倍",
+  "info_formatting_adjustment": "命中后{0}%使对手{1}{2}回合\r\n--><condition>遇到天敌</condition>概率翻倍",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 17379,
+      "url": "https://api.seerapi.com/v1/skill/17379/"
+    },
+    {
+      "id": 23497,
+      "url": "https://api.seerapi.com/v1/skill/23497/"
+    },
+    {
+      "id": 28393,
+      "url": "https://api.seerapi.com/v1/skill/28393/"
+    },
+    {
+      "id": 33062,
+      "url": "https://api.seerapi.com/v1/skill/33062/"
+    },
+    {
+      "id": 33372,
+      "url": "https://api.seerapi.com/v1/skill/33372/"
+    },
+    {
+      "id": 35486,
+      "url": "https://api.seerapi.com/v1/skill/35486/"
+    },
+    {
+      "id": 37646,
+      "url": "https://api.seerapi.com/v1/skill/37646/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "98479555"
+}

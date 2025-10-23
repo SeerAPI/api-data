@@ -1,0 +1,48 @@
+{
+  "id": 37547,
+  "name": "尾声悠扬",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机恢复自身200-300点体力，自身不处于能力提升状态时变为300-400点体力",
+      "args": [
+        200,
+        300,
+        300,
+        400
+      ],
+      "effect": {
+        "id": 1132,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1132/"
+      }
+    },
+    {
+      "info": "恢复己方所有不在场精灵300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1955,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1955/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ffdab2b3"
+}

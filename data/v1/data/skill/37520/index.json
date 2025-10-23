@@ -1,0 +1,53 @@
+{
+  "id": 37520,
+  "name": "赛罗奥特飞踢",
+  "power": 90,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 78,
+    "url": "https://api.seerapi.com/v1/element_type_combination/78/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "args": [],
+      "effect": {
+        "id": 2220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2220/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 931,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/931/"
+      }
+    },
+    {
+      "info": "当回合若自身先出手则令对手使用的威力低于150的攻击技能无效，若击败对手则攻击无效效果延续至下回合",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 1664,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1664/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4532f479"
+}

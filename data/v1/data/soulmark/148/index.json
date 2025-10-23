@@ -1,0 +1,37 @@
+{
+  "id": 148,
+  "desc": "自身体力小于1/2时，所有攻击技能先制+2；|每次直接攻击都有15%概率使对手进入随机异常状态",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2771,
+      "url": "https://api.seerapi.com/v1/pet/2771/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      15
+    ],
+    "effect": {
+      "id": 366,
+      "url": "https://api.seerapi.com/v1/eid_effect/366/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "67b2648e"
+}

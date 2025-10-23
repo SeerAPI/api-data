@@ -1,0 +1,71 @@
+{
+  "id": 28535,
+  "name": "告命诗途",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；书写了空妄诗章；开始吸取对手的体力了；自身出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1并将空妄诗章补充至与自身先制等级相等，自身没有空妄诗章时额外书写1篇，拥有时强化效果翻倍",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 2092,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2092/"
+      }
+    },
+    {
+      "info": "4回合内使用技能吸取对手最大体力的1/3，自身体力低于1/2时效果翻倍，吸取后若对手体力未减少则2回合内对手无法恢复体力",
+      "args": [
+        4,
+        3,
+        2,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 2093,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2093/"
+      }
+    },
+    {
+      "info": "下2回合自身所有技能先制+2，自身先制等级大于0时提升为+3",
+      "args": [
+        2,
+        2,
+        0,
+        3
+      ],
+      "effect": {
+        "id": 2098,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2098/"
+      }
+    },
+    {
+      "info": "空元之诗·柱：若对手处于回合类效果，则对手每有1个技能PP值不为满附加50点次元·龙系伤害且对手下回合无法主动切换精灵",
+      "args": [],
+      "effect": {
+        "id": 2088,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2088/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "12292a73"
+}

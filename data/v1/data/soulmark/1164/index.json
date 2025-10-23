@@ -1,0 +1,33 @@
+{
+  "id": 1164,
+  "desc": "回合开始时，若自身体力高于对手且当回合自身先出手则触发思维干涉：将自身当回合受到的攻击伤害反弹给对手，若自身体力低于对手且当回合自身先出手则触发空间跳跃：免疫当回合受到的攻击伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手且当回合自身先出手则触发思维干涉：将自身当回合受到的<b>攻击伤害</b><color=#64F9FA>反弹</color>给对手\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手且当回合自身先出手则触发空间跳跃：<color=#64F9FA>免疫</color>当回合受到的<b>攻击伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3895,
+      "url": "https://api.seerapi.com/v1/pet/3895/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 1486,
+      "url": "https://api.seerapi.com/v1/eid_effect/1486/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2efdd464"
+}

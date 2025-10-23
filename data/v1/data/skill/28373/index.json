@@ -1,0 +1,60 @@
+{
+  "id": 28373,
+  "name": "薄雾流光",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；一定回合内若自身能力提升状态被消除或吸取则令对手冰封；一定回合内每次对手主动切换下场则令对方下只精灵出战时冻伤",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内若自身能力提升状态被消除或吸取则100%令对手冰封，未触发则免疫下1次受到的攻击",
+      "args": [
+        3,
+        100,
+        15,
+        1
+      ],
+      "effect": {
+        "id": 2039,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2039/"
+      }
+    },
+    {
+      "info": "3回合内对手主动切换精灵出战时100%冻伤",
+      "args": [
+        3,
+        100,
+        5
+      ],
+      "effect": {
+        "id": 2040,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2040/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "460656bf"
+}

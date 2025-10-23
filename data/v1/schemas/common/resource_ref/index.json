@@ -1,0 +1,23 @@
+{
+  "description": "API资源类",
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "url": {
+      "description": "资源URL",
+      "readOnly": true,
+      "title": "Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "url"
+  ],
+  "title": "ResourceRef",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

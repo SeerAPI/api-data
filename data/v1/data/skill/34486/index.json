@@ -1,0 +1,46 @@
+{
+  "id": 34486,
+  "name": "极速冰弹",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 9,
+    "url": "https://api.seerapi.com/v1/element_type_combination/9/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令对手随机1项技能PP值归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1114,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1114/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若低于250则恢复自身250点体力",
+      "args": [
+        250,
+        250
+      ],
+      "effect": {
+        "id": 541,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/541/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8996405b"
+}

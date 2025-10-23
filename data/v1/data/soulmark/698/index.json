@@ -1,0 +1,42 @@
+{
+  "id": 698,
+  "desc": "回合开始时若对手不处于能力提升或能力下降状态，则当回合自身造成的攻击伤害提高100%，同时使用技能时{吸取}对手最大{体力}的1/3；战斗阶段结束时若自身不处于能力提升状态则消除对手能力提升及能力下降状态，消除成功则解除自身能力下降状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3380,
+      "url": "https://api.seerapi.com/v1/pet/3380/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 980,
+      "url": "https://api.seerapi.com/v1/eid_effect/980/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8525f868"
+}

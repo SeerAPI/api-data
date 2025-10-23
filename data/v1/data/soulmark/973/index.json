@@ -1,0 +1,50 @@
+{
+  "id": 973,
+  "desc": "回合开始时若自身体力高于最大体力的1/2则当回合所有技能先制+1，若自身体力低于最大体力的1/2则当回合自身攻击技能{吸取}对手最大{体力}的1/4；回合开始时若自身处于能力提升状态则当回合自身造成的攻击伤害提升50%，若自身不处于能力提升状态则当回合自身攻击技能{吸取}对手最大{体力}的1/3（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3685,
+      "url": "https://api.seerapi.com/v1/pet/3685/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      2,
+      4,
+      50,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1264,
+      "url": "https://api.seerapi.com/v1/eid_effect/1264/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 967,
+    "url": "https://api.seerapi.com/v1/soulmark/967/"
+  },
+  "hash": "2fd1c02e"
+}

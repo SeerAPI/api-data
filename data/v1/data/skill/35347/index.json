@@ -1,0 +1,44 @@
+{
+  "id": 35347,
+  "name": "招魂之引",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 98,
+    "url": "https://api.seerapi.com/v1/element_type_combination/98/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+      "args": [],
+      "effect": {
+        "id": 1216,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1216/"
+      }
+    },
+    {
+      "info": "若对手的HP小于400，则造成的伤害增加100%",
+      "args": [
+        400,
+        100
+      ],
+      "effect": {
+        "id": 488,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/488/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17de59b6"
+}

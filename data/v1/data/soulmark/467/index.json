@@ -1,0 +1,37 @@
+{
+  "id": 467,
+  "desc": "提升自身体力20%的双防值；攻击技能造成的伤害低于300则下回合免疫异常状态",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3116,
+      "url": "https://api.seerapi.com/v1/pet/3116/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      300
+    ],
+    "effect": {
+      "id": 775,
+      "url": "https://api.seerapi.com/v1/eid_effect/775/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a81e7f92"
+}

@@ -1,0 +1,35 @@
+{
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "资源名称",
+      "title": "Name"
+    },
+    "url": {
+      "description": "资源URL",
+      "readOnly": true,
+      "title": "Url",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "url"
+  ],
+  "title": "NamedResourceRef",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

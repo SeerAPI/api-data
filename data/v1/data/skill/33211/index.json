@@ -1,0 +1,44 @@
+{
+  "id": 33211,
+  "name": "时光倒流",
+  "power": 0,
+  "max_pp": 3,
+  "accuracy": 99,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时本回合自身下次死亡时恢复全部体力并解除自身的异常状态和能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1463,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1463/"
+      }
+    },
+    {
+      "info": "3回合内使用技能附加200点固定伤害，若自身体力低于对手则效果翻倍",
+      "args": [
+        3,
+        200
+      ],
+      "effect": {
+        "id": 1154,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1154/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b66353d4"
+}

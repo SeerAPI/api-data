@@ -1,0 +1,29 @@
+{
+  "id": 1822,
+  "args_num": 3,
+  "info": "消耗自身所有技能的PP值并附加自身最大体力值{0}%的百分比伤害，若消耗的PP值≥{1}点则附加的百分比伤害翻倍且额外令对手下{2}次攻击技能无效",
+  "info_formatting_adjustment": "消耗自身所有技能的PP值并附加自身最大体力值{0}%的百分比伤害\r\n--><condition>若消耗的PP值≥{1}点</condition>则附加的百分比伤害翻倍且额外令对手下{2}次攻击技能无效",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 35951,
+      "url": "https://api.seerapi.com/v1/skill/35951/"
+    },
+    {
+      "id": 37320,
+      "url": "https://api.seerapi.com/v1/skill/37320/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313/"
+    }
+  ],
+  "hash": "3e495747"
+}

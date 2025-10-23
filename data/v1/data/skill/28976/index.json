@@ -1,0 +1,79 @@
+{
+  "id": 28976,
+  "name": "神音",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫受到的异常状态了；开始免疫攻击了；开始转化受到的伤害了；自身的回合类效果得到了保护；开始吸取对手的体力了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内免疫所有受到的异常状态",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "免疫下1次受到的攻击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 570,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/570/"
+      }
+    },
+    {
+      "info": "令自身下1次受到的攻击伤害转化为体力",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1314,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1314/"
+      }
+    },
+    {
+      "info": "3回合内若自身回合类效果被消除则对手下2回合造成的攻击伤害额外减少50%",
+      "args": [
+        3,
+        2,
+        50
+      ],
+      "effect": {
+        "id": 1886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1886/"
+      }
+    },
+    {
+      "info": "3回合内每回合使用技能吸取对手最大体力的1/3，若对手未受到百分比伤害则额外附加200点真实伤害",
+      "args": [
+        3,
+        3,
+        200
+      ],
+      "effect": {
+        "id": 1674,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1674/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ee26ef3c"
+}

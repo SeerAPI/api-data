@@ -1,0 +1,43 @@
+{
+  "id": 19939,
+  "name": "魔王天权震",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 62,
+    "url": "https://api.seerapi.com/v1/element_type_combination/62/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身的能力下降状态双倍反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 813,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/813/"
+      }
+    },
+    {
+      "info": "未击败对手则己方下2次攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bf47b143"
+}

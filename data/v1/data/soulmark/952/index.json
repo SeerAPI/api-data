@@ -1,0 +1,39 @@
+{
+  "id": 952,
+  "desc": "每次攻击造成伤害值的40%恢复自身体力，自身体力低于对手时造成伤害值的80%恢复自身体力；攻击技能附加所造成伤害值20%的固定伤害，自身体力低于对手时附加的固定伤害效果翻倍（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3669,
+      "url": "https://api.seerapi.com/v1/pet/3669/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      40,
+      80,
+      20,
+      1
+    ],
+    "effect": {
+      "id": 1244,
+      "url": "https://api.seerapi.com/v1/eid_effect/1244/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b4b6181d"
+}

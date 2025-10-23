@@ -1,0 +1,49 @@
+{
+  "id": 37897,
+  "name": "诅咒之牙",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/element_type_combination/25/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功恢复100%的体力",
+      "args": [
+        0,
+        100
+      ],
+      "effect": {
+        "id": 660,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/660/"
+      }
+    },
+    {
+      "info": "自身为满体力时50%令对手诅咒，未触发则下2回合对手所有技能先制-1",
+      "args": [
+        50,
+        23,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 2095,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2095/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ca07d25"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 36627,
+  "name": "寒露",
+  "power": 150,
+  "max_pp": 6,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于能力提升状态则先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2000,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2000/"
+      }
+    },
+    {
+      "info": "若先出手则当回合闪避对手的攻击技能",
+      "args": [],
+      "effect": {
+        "id": 720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/720/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2009,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2009/"
+      }
+    },
+    {
+      "info": "若自身处于异常状态则造成的攻击伤害额外提升100%且回合结束后解除自身所有异常状态",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1169,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1169/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ebaf412"
+}

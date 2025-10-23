@@ -1,0 +1,39 @@
+{
+  "id": 457,
+  "desc": "每回合恢复最大体力值1/6；自身攻击有1/6的概率威力翻倍（可以与暴击叠加）|(战神兄弟伙伴效果：攻击+50，体力+50)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2780,
+      "url": "https://api.seerapi.com/v1/pet/2780/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      166,
+      166,
+      50,
+      50
+    ],
+    "effect": {
+      "id": 372,
+      "url": "https://api.seerapi.com/v1/eid_effect/372/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9a3df965"
+}

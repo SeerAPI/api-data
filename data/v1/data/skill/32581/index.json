@@ -1,0 +1,47 @@
+{
+  "id": 32581,
+  "name": "流星万箭雨",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 59,
+    "url": "https://api.seerapi.com/v1/element_type_combination/59/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 797,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/797/"
+      }
+    },
+    {
+      "info": "附加对手最大体力值25%的百分比伤害，每次使用增加5%，最高40%",
+      "args": [
+        25,
+        5,
+        40
+      ],
+      "effect": {
+        "id": 906,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/906/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1dd1e85a"
+}

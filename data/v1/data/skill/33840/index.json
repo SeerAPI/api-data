@@ -1,0 +1,52 @@
+{
+  "id": 33840,
+  "name": "恶灵相向",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
+      "args": [
+        300,
+        1
+      ],
+      "effect": {
+        "id": 1258,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1258/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则自身攻击+2、速度+2",
+      "args": [
+        300,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "effect": {
+        "id": 1425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1425/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "300a5bf8"
+}

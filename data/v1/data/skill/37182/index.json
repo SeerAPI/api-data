@@ -1,0 +1,48 @@
+{
+  "id": 37182,
+  "name": "盈盈碧叶",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手使用属性技能，则使用属性技能后的下2回合造成的攻击伤害减少200点",
+      "args": [
+        3,
+        2,
+        200
+      ],
+      "effect": {
+        "id": 1717,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1717/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能则自身下2回合必定暴击",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 1585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1585/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1fe8a719"
+}

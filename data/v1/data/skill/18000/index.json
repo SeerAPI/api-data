@@ -1,0 +1,43 @@
+{
+  "id": 18000,
+  "name": "精确打击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当回合击败对手则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 672,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/672/"
+      }
+    },
+    {
+      "info": "若对手体力不足280则直接秒杀",
+      "args": [
+        280
+      ],
+      "effect": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/456/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ce406767"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 17899,
+  "name": "九州狂雷",
+  "power": 140,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 35,
+    "url": "https://api.seerapi.com/v1/element_type_combination/35/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 521,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/521/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 485,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/485/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "64533ced"
+}

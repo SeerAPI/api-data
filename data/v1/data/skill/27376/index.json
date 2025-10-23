@@ -1,0 +1,67 @@
+{
+  "id": 27376,
+  "name": "龙族烙印",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "自身先出手时对手当回合的属性技能无效；开始免疫并反弹异常状态了；自身受到攻击则令对手烧伤；自身出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时对手当回合属性技能无效",
+      "args": [],
+      "effect": {
+        "id": 980,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/980/"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击后100%使对手烧伤，未触发则自身全属性+1",
+      "args": [
+        3,
+        100,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1617,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1617/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "80e75607"
+}

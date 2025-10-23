@@ -1,0 +1,33 @@
+{
+  "id": 1698,
+  "args_num": 4,
+  "info": "消耗自身全部体力，{0}%令对手{1}，未触发则附加自身最大体力1/{2}的百分比伤害且{3}回合内对手无法通过技能恢复自身体力",
+  "info_formatting_adjustment": "消耗自身全部体力\r\n{0}%令对手{1}\r\n--><condition>未触发</condition>则附加自身最大体力1/{2}的百分比伤害且{3}回合内对手无法通过技能恢复自身体力",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 35181,
+      "url": "https://api.seerapi.com/v1/skill/35181/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 45247,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/45247/"
+    }
+  ],
+  "hash": "22c49c86"
+}

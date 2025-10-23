@@ -1,0 +1,72 @@
+{
+  "id": 23285,
+  "name": "逆转机甲",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "体力恢复了，下回合能更快地出手了，攻击更加凌厉了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身的烧伤、冻伤、中毒状态",
+      "args": [],
+      "effect": {
+        "id": 544,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/544/"
+      }
+    },
+    {
+      "info": "解除自身的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/3/"
+      }
+    },
+    {
+      "info": "恢复自身最大体力的1/1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 43,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/43/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    },
+    {
+      "info": "下1回合自身攻击先制+2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/481/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fcbd37c4"
+}

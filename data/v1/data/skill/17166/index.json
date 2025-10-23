@@ -1,0 +1,35 @@
+{
+  "id": 17166,
+  "name": "神话·星河破灭",
+  "power": 170,
+  "max_pp": 3,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当回合未击败对手则有50%将对手所有技能PP值降为0",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 739,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/739/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "17db555c"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 600,
+  "desc": "对手处于睡眠状态时自身攻击必定致命一击并在出手后使自身特攻+1、速度+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3274,
+      "url": "https://api.seerapi.com/v1/pet/3274/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 890,
+      "url": "https://api.seerapi.com/v1/eid_effect/890/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bd26134b"
+}

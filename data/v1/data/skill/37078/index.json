@@ -1,0 +1,46 @@
+{
+  "id": 37078,
+  "name": "留影",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 99,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有体力，若对手不处于能力提升状态则2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1361,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1361/"
+      }
+    },
+    {
+      "info": "使对手随机2项技能PP值归零，若当回合受到攻击则额外使对手随机1项技能PP值归零",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1126,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1126/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "43d5836"
+}

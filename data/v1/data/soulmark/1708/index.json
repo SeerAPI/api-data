@@ -1,0 +1,45 @@
+{
+  "id": 1708,
+  "desc": "回合开始时若对手的最大体力值高于自身，则当回合自身造成的攻击伤害提升50%，受到的攻击伤害减少25%；|回合开始时若对手的速度值高于自身，则令对手防御、速度等级-1；|自身被击败时，己方每阵亡一只精灵附加给对手500点固定伤害，造成致死伤害时消除对手回合类效果|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手的最大体力值高于自身，则当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，受到的<b>攻击伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=32><sprite=4><indent=48>若对手的速度值高于自身，则令对手防御、速度等级-1\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时己方当前每阵亡一只精灵<color=#64F9FA>附加</color>给对手500点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>造成致死伤害时额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4494,
+      "url": "https://api.seerapi.com/v1/pet/4494/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      25,
+      1,
+      500,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2094,
+      "url": "https://api.seerapi.com/v1/eid_effect/2094/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2ab0dd5c"
+}

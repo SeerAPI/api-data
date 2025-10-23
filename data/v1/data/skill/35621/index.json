@@ -1,0 +1,47 @@
+{
+  "id": 35621,
+  "name": "皎月光箭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1220/"
+      }
+    },
+    {
+      "info": "造成的伤害低于300则下2回合自身先制+1",
+      "args": [
+        300,
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1029,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1029/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "15efb546"
+}

@@ -1,0 +1,51 @@
+{
+  "id": 36580,
+  "name": "珍藏小食",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 42,
+    "url": "https://api.seerapi.com/v1/element_type_combination/42/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "15%令对手中毒，15%令自身中毒，均未触发则为自身附加200点护盾",
+      "args": [
+        15,
+        1,
+        15,
+        1,
+        200
+      ],
+      "effect": {
+        "id": 1582,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1582/"
+      }
+    },
+    {
+      "info": "3回合内使用技能恢复233点体力，体力低于1/2时恢复至满",
+      "args": [
+        3,
+        233,
+        2
+      ],
+      "effect": {
+        "id": 615,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/615/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "af755aec"
+}

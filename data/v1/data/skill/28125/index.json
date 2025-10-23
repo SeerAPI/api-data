@@ -1,0 +1,60 @@
+{
+  "id": 28125,
+  "name": "空壕",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "对手的防御和特防都降低了许多；根据己方精灵存活数与死亡数恢复自身体力并附加给对手固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手防御等级-2",
+      "args": [
+        1,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手特防等级-2",
+      "args": [
+        3,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "己方每有一只精灵存活则恢复100点体力，每有一只精灵死亡则附加100点固定伤害",
+      "args": [
+        100,
+        100
+      ],
+      "effect": {
+        "id": 1305,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1305/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f0e4af20"
+}

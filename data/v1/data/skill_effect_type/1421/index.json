@@ -1,0 +1,37 @@
+{
+  "id": 1421,
+  "args_num": 4,
+  "info": "当回合打出的攻击伤害在{0}—{1}之间则{2}%令对手{3}",
+  "info_formatting_adjustment": null,
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 32769,
+      "url": "https://api.seerapi.com/v1/skill/32769/"
+    },
+    {
+      "id": 33151,
+      "url": "https://api.seerapi.com/v1/skill/33151/"
+    },
+    {
+      "id": 33498,
+      "url": "https://api.seerapi.com/v1/skill/33498/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "e384f5f3"
+}

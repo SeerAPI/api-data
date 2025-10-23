@@ -1,0 +1,36 @@
+{
+  "id": 37567,
+  "name": "尖刺突袭",
+  "power": 70,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手流血",
+      "args": [
+        50,
+        16
+      ],
+      "effect": {
+        "id": 1605,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1605/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fbcceec"
+}

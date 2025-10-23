@@ -1,0 +1,35 @@
+{
+  "id": 20055,
+  "name": "防护罩",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "自身被防护罩包围了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "抵挡下1次对手的攻击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 46,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/46/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "46f312eb"
+}

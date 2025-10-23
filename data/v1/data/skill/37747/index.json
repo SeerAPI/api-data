@@ -1,0 +1,72 @@
+{
+  "id": 37747,
+  "name": "天地大冲撞",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 118,
+    "url": "https://api.seerapi.com/v1/element_type_combination/118/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则先制+2",
+      "args": [],
+      "effect": {
+        "id": 1174,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1174/"
+      }
+    },
+    {
+      "info": "自身每处于1种能力提升状态，则为自身附加80点护盾",
+      "args": [
+        1,
+        80
+      ],
+      "effect": {
+        "id": 1013,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1013/"
+      }
+    },
+    {
+      "info": "2回合内将受到的攻击伤害转化为自身体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 128,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/128/"
+      }
+    },
+    {
+      "info": "若未击败对手则下2回合攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 582,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/582/"
+      }
+    },
+    {
+      "info": "当回合击败对手则恢复自身所有技能PP值",
+      "args": [],
+      "effect": {
+        "id": 1286,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1286/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "122ad488"
+}

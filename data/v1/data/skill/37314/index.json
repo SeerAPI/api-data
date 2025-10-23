@@ -1,0 +1,63 @@
+{
+  "id": 37314,
+  "name": "梵·慧启莲生",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 57,
+    "url": "https://api.seerapi.com/v1/element_type_combination/57/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1199/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842/"
+      }
+    },
+    {
+      "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1709,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1709/"
+      }
+    },
+    {
+      "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+      "args": [],
+      "effect": {
+        "id": 709,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/709/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dac7746e"
+}

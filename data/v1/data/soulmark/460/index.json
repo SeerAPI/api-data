@@ -1,0 +1,46 @@
+{
+  "id": 460,
+  "desc": "伙伴效果:每次登场首回合免疫异常状态；回合开始时自身处于能力提升则所有技能先制+2；每回合随机吸取对手3项属性-1，并将该属性附加给自己（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3078,
+      "url": "https://api.seerapi.com/v1/pet/3078/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 748,
+      "url": "https://api.seerapi.com/v1/eid_effect/748/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 426,
+    "url": "https://api.seerapi.com/v1/soulmark/426/"
+  },
+  "hash": "cd198def"
+}

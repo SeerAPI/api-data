@@ -1,0 +1,35 @@
+{
+  "id": 16553,
+  "name": "灭形毁骸",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 23,
+    "url": "https://api.seerapi.com/v1/element_type_combination/23/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后30%令对方中毒",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/11/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ca846040"
+}

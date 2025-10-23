@@ -1,0 +1,45 @@
+{
+  "id": 23119,
+  "name": "星空之祭",
+  "power": 0,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "进攻变得更加精准、凌厉了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下2回合自身攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/81/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4c08f563"
+}

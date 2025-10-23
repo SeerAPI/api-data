@@ -1,0 +1,40 @@
+{
+  "id": 755,
+  "args_num": 6,
+  "info": "若体力大于对手，则消耗自身体力至残留1点体力给对手造成{0}至{1}点伤害；若体力小于对手，则消耗自身全部体力给对手造成{2}至{3}点伤害，若对手受到致命伤害时残留1点体力，并使对手{4}{5}回合",
+  "info_formatting_adjustment": "<condition>若体力大于对手</condition>，则消耗自身体力至残留1点体力给对手造成{0}至{1}点伤害\r\n<condition>若体力小于对手</condition>，则消耗自身全部体力给对手造成{2}至{3}点伤害\r\n--><condition>若对手受到致命伤害时残留1点体力</condition>，并使对手{4}{5}回合",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 4,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 5,
+      "param": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/18/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 17227,
+      "url": "https://api.seerapi.com/v1/skill/17227/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "1f841d3b"
+}

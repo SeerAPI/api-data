@@ -1,0 +1,36 @@
+{
+  "id": 15155,
+  "name": "灰烬之爪",
+  "power": 120,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5%概率额外附加300点固定伤害",
+      "args": [
+        5,
+        300
+      ],
+      "effect": {
+        "id": 93,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/93/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "91fe49c8"
+}

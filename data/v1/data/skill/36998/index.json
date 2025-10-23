@@ -1,0 +1,53 @@
+{
+  "id": 36998,
+  "name": "阅世",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 99,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 120,
+    "url": "https://api.seerapi.com/v1/element_type_combination/120/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于回合类效果则造成伤害提升100%并消除对手回合类效果",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1808,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1808/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 872,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/872/"
+      }
+    },
+    {
+      "info": "空元之诗·渍：若技能无效，则消除对手回合类效果、能力提升效果，消除成功任意一项则令对手诅咒",
+      "args": [],
+      "effect": {
+        "id": 2086,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2086/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "252c4bcd"
+}

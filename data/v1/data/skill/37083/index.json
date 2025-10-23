@@ -1,0 +1,54 @@
+{
+  "id": 37083,
+  "name": "迴还",
+  "power": 90,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 224,
+    "url": "https://api.seerapi.com/v1/element_type_combination/224/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1164/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1056,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1056/"
+      }
+    },
+    {
+      "info": "先出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则伤害额外提升50%",
+      "args": [
+        100,
+        50
+      ],
+      "effect": {
+        "id": 1686,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1686/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "de54ed0f"
+}

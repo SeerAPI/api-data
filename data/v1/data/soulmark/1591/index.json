@@ -1,0 +1,41 @@
+{
+  "id": 1591,
+  "desc": "回合开始时若自身当前体力值与对手最大体力值之差大于200则自身所有技能先制+1，若自身当前体力值与对手最大体力值之差小于400则当回合自身受到的攻击伤害降低50%；|当回合对手使用攻击技能造成的伤害高于300则令对手下回合无法通过自身技能恢复体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身当前体力值与对手最大体力值之差大于200则自身所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身当前体力值与对手最大体力值之差小于400则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>降低</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手造成的攻击伤害高于300，则令对手下回合<color=#64F9FA>无法通过自身技能恢复体力</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4365,
+      "url": "https://api.seerapi.com/v1/pet/4365/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      1,
+      400,
+      50,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1951,
+      "url": "https://api.seerapi.com/v1/eid_effect/1951/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e1f52b4a"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 368,
+  "desc": "每次使用攻击技能附加自身已损失体力值50%的固定伤害;|每次使用属性技能恢复200HP",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2992,
+      "url": "https://api.seerapi.com/v1/pet/2992/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      2,
+      200
+    ],
+    "effect": {
+      "id": 693,
+      "url": "https://api.seerapi.com/v1/eid_effect/693/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ea4ddc12"
+}

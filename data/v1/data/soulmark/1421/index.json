@@ -1,0 +1,33 @@
+{
+  "id": 1421,
+  "desc": "回合开始时，若自身处于能力提升状态或对手处于能力下降状态则令对手当回合使用的技能20%失效（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于能力提升状态或对手处于能力下降状态则令对手当回合使用的技能20%<color=#64F9FA>失效</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4199,
+      "url": "https://api.seerapi.com/v1/pet/4199/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      1
+    ],
+    "effect": {
+      "id": 1792,
+      "url": "https://api.seerapi.com/v1/eid_effect/1792/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e9ee793c"
+}

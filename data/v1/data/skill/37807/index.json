@@ -1,0 +1,62 @@
+{
+  "id": 37807,
+  "name": "王·澥宇浮岚",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1232,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1232/"
+      }
+    },
+    {
+      "info": "消耗自身的护盾值，每消耗250点附加给对手2回合的冻伤与1滴蚀砚之泪",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 2263,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2263/"
+      }
+    },
+    {
+      "info": "未击败对手则下2回合自身先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 1218,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1218/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "25c8e094"
+}

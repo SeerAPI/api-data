@@ -1,0 +1,55 @@
+{
+  "id": 38021,
+  "name": "霸颚击",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，若消除成功，则对手冻伤",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 453,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/453/"
+      }
+    },
+    {
+      "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+      "args": [],
+      "effect": {
+        "id": 1247,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1247/"
+      }
+    },
+    {
+      "info": "附加对手当前体力值20%的百分比伤害，连续使用每次增加10%，最高40%",
+      "args": [
+        20,
+        10,
+        40
+      ],
+      "effect": {
+        "id": 411,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/411/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "869ed1b1"
+}

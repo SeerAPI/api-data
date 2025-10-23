@@ -1,0 +1,35 @@
+{
+  "id": 16290,
+  "name": "魔球连击",
+  "power": 80,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "2回合内属性攻击对自身必定miss",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 86,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/86/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "79c01d30"
+}

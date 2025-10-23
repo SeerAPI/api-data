@@ -1,0 +1,35 @@
+{
+  "id": 1180,
+  "desc": "每回合自身防御+1、特防+1，自身处于双防提升状态时致命率提升50%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身防御+1、特防+1\r\n<indent=32><sprite=4><indent=48>然后若自身处于双防提升状态则当回合攻击50%<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3913,
+      "url": "https://api.seerapi.com/v1/pet/3913/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1505,
+      "url": "https://api.seerapi.com/v1/eid_effect/1505/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2753d9fe"
+}

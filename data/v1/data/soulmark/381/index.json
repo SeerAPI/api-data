@@ -1,0 +1,37 @@
+{
+  "id": 381,
+  "desc": "本回合攻击技能未打出致命一击则下回合所有攻击打出致命一击概率提高50%; 若打出致命一击则2回合内免疫异常状态",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3005,
+      "url": "https://api.seerapi.com/v1/pet/3005/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2
+    ],
+    "effect": {
+      "id": 706,
+      "url": "https://api.seerapi.com/v1/eid_effect/706/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d9cc6a65"
+}

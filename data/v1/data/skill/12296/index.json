@@ -1,0 +1,35 @@
+{
+  "id": 12296,
+  "name": "蔚蓝之击",
+  "power": 45,
+  "max_pp": 30,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 24,
+    "url": "https://api.seerapi.com/v1/element_type_combination/24/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对方为雌性则技能威力翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 129,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/129/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dc005cea"
+}

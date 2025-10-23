@@ -1,0 +1,68 @@
+{
+  "id": 28928,
+  "name": "乱流电弧",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；降低了自身的体力值；雷电使自身的温度开始升高了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身满体力时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 893,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/893/"
+      }
+    },
+    {
+      "info": "回合结束时将自身当前体力降低为1，并附加本次降低体力值50%的百分比伤害",
+      "args": [
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1142,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1142/"
+      }
+    },
+    {
+      "info": "100%令自身狂暴",
+      "args": [
+        100,
+        14
+      ],
+      "effect": {
+        "id": 2196,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2196/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "187245d9"
+}

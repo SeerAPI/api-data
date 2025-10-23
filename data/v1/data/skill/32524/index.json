@@ -1,0 +1,46 @@
+{
+  "id": 32524,
+  "name": "甜心幻变",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1352,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1352/"
+      }
+    },
+    {
+      "info": "若打出致命一击则对手80%概率害怕",
+      "args": [
+        80,
+        6
+      ],
+      "effect": {
+        "id": 553,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/553/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "261aaef2"
+}

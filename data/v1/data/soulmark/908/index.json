@@ -1,0 +1,45 @@
+{
+  "id": 908,
+  "desc": "每次登场首回合免疫并反弹受到的异常状态；每个战斗阶段结束时随机{吸取}对手200-300点{体力}且随机吸取对手3项属性-1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3614,
+      "url": "https://api.seerapi.com/v1/pet/3614/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      200,
+      300,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1192,
+      "url": "https://api.seerapi.com/v1/eid_effect/1192/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9ab5cb9d"
+}

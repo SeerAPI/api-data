@@ -1,0 +1,49 @@
+{
+  "id": 37478,
+  "name": "微麻斩风刀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害低于250则100%令对手麻痹，未触发则消除对手回合类效果",
+      "args": [
+        250,
+        100,
+        0
+      ],
+      "effect": {
+        "id": 1363,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1363/"
+      }
+    },
+    {
+      "info": "3回合内若对手造成的伤害低于250，则对手麻痹",
+      "args": [
+        3,
+        250,
+        0
+      ],
+      "effect": {
+        "id": 742,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/742/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c9eeb9a8"
+}

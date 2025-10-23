@@ -1,0 +1,45 @@
+{
+  "id": 37147,
+  "name": "尘沙陷落",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 81,
+    "url": "https://api.seerapi.com/v1/element_type_combination/81/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，若对手不处于能力提升状态则使对手全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1127,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1127/"
+      }
+    },
+    {
+      "info": "对手处于能力下降状态造成的伤害提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1439,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1439/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2c5a96db"
+}

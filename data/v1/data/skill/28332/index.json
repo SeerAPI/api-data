@@ -1,0 +1,68 @@
+{
+  "id": 28332,
+  "name": "一笑流芳",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；一定回合内若自身先出手则开始吸取对手体力了；一定回合内若对手攻击技能未命中则进入睡眠状态；自身攻击开始变得更加精确",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "4回合内每回合若先出手则吸取对手300点体力",
+      "args": [
+        4,
+        300
+      ],
+      "effect": {
+        "id": 923,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/923/"
+      }
+    },
+    {
+      "info": "4回合内若对手攻击技能未命中则100%令对手睡眠",
+      "args": [
+        4,
+        100,
+        8
+      ],
+      "effect": {
+        "id": 1466,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1466/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/81/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "baa29169"
+}

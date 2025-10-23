@@ -1,0 +1,68 @@
+{
+  "id": 29030,
+  "name": "重低音波涛",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹受到的异常状态了；可以抵挡对手的下次攻击；附加了固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "抵挡下1次对手的攻击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 46,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/46/"
+      }
+    },
+    {
+      "info": "3回合内自身受到攻击则使对手束缚，未触发则吸取对手最大体力的1/3",
+      "args": [
+        3,
+        28,
+        3
+      ],
+      "effect": {
+        "id": 1188,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1188/"
+      }
+    },
+    {
+      "info": "附加200点固定伤害，对手冻伤时固定伤害翻倍",
+      "args": [
+        200,
+        5
+      ],
+      "effect": {
+        "id": 987,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/987/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "272c2851"
+}

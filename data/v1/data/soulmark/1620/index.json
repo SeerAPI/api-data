@@ -1,0 +1,49 @@
+{
+  "id": 1620,
+  "desc": "回合开始时，若对手处于异常状态则当回合自身攻击命中后{吸取}对手最大{体力}的1/3；|对手使用攻击技能后，若自身受到的伤害高于300则消除对手回合类效果并反弹给对手自身受到攻击伤害100%的百分比伤害且100%令对手疲惫，若自身受到的伤害低于300则下回合自身先制+1且造成的攻击伤害提升100%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于异常状态则当回合自身攻击技能命中后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>当回合受到的攻击伤害高于300则<color=#64F9FA>消除</color>对手<b>回合类效果</b>、<color=#64F9FA>反馈</color>等同于该伤害100%的<b>百分比伤害</b>且100%<color=#64F9FA>令对手疲惫</color>\r\n<indent=16><sprite=3><indent=32>当回合受到的攻击伤害低于300则下回合自身<b>先制</b>+1且造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3847,
+      "url": "https://api.seerapi.com/v1/pet/3847/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      300,
+      100,
+      100,
+      1,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2004,
+      "url": "https://api.seerapi.com/v1/eid_effect/2004/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1120,
+    "url": "https://api.seerapi.com/v1/soulmark/1120/"
+  },
+  "hash": "c57b8f18"
+}

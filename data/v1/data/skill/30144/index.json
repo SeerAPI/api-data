@@ -1,0 +1,45 @@
+{
+  "id": 30144,
+  "name": "光翼魂天破",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 64,
+    "url": "https://api.seerapi.com/v1/element_type_combination/64/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取并反转对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 978,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/978/"
+      }
+    },
+    {
+      "info": "50%使对手麻痹，未触发则自身下2回合攻击必定致命一击",
+      "args": [
+        50,
+        0,
+        2
+      ],
+      "effect": {
+        "id": 1033,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1033/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1d9c1bf1"
+}

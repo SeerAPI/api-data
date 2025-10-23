@@ -1,0 +1,56 @@
+{
+  "id": 33161,
+  "name": "恶魔汲血刃",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 995,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/995/"
+      }
+    },
+    {
+      "info": "造成伤害的50%恢复自身体力，若自身体力低于对手则效果提升至100%",
+      "args": [
+        50,
+        100
+      ],
+      "effect": {
+        "id": 1415,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1415/"
+      }
+    },
+    {
+      "info": "3回合内若对手MISS则下回合自身必定致命一击",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 160,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/160/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "62fc6433"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 383,
+  "desc": "回合开始时体力小于1/2时则所有技能先制+1; 回合开始时体力大于1/2时则所有攻击技能伤害提升50%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3013,
+      "url": "https://api.seerapi.com/v1/pet/3013/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      50
+    ],
+    "effect": {
+      "id": 708,
+      "url": "https://api.seerapi.com/v1/eid_effect/708/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a3607a4b"
+}

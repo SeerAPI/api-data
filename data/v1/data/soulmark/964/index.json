@@ -1,0 +1,46 @@
+{
+  "id": 964,
+  "desc": "使用攻击技能时有自身当前体力百分比的概率使对手烧伤，未触发则战斗阶段结束时附加对手最大体力1/3的固定伤害；回合开始时若对手处于烧伤状态当回合自身造成的伤害随机提升80%-120%，若对手不处于烧伤状态则当回合受到的攻击伤害随机减少40%-60%（boss无效））",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3680,
+      "url": "https://api.seerapi.com/v1/pet/3680/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      3,
+      80,
+      120,
+      40,
+      60,
+      1
+    ],
+    "effect": {
+      "id": 1257,
+      "url": "https://api.seerapi.com/v1/eid_effect/1257/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7fb87722"
+}

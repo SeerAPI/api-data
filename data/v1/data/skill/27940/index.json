@@ -1,0 +1,35 @@
+{
+  "id": 27940,
+  "name": "星轨逆行",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "消除对手护盾效果",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手所有护盾效果，消除成功则使对手全属性-1，自身体力低于对手时弱化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1215,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1215/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "daf6ce6e"
+}

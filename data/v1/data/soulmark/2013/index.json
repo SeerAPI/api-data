@@ -1,0 +1,41 @@
+{
+  "id": 2013,
+  "desc": "登场时为对手附加3回合易燃；自身攻击技能命中对手时附加300点固定伤害，若对手不处于异常状态额外恢复300点体力；战斗阶段结束时，若对手处于烧伤状态则消除对手能力提升，若对手处于易燃状态则2回合内受到的攻击伤害减少30%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时为对手<color=#64F9FA>附加</color>3回合易燃状态\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中对手时<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态额外<color=#64F9FA>恢复</color>300点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若对手处于易燃状态则2回合内受到的<b>攻击伤害</b><color=#64F9FA>减少</color>30%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4822,
+      "url": "https://api.seerapi.com/v1/pet/4822/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2438,
+      "url": "https://api.seerapi.com/v1/eid_effect/2438/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "922b23e5"
+}

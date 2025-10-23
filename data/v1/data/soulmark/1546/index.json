@@ -1,0 +1,36 @@
+{
+  "id": 1546,
+  "desc": "自身受到的攻击伤害低于300则100%令敌我双方随机陷入1种弱化类异常状态；自身受到的攻击伤害的50%反弹给对手，若回合开始时自身处于异常状态则当回合受到的攻击伤害100%反弹给对手（双方同时死亡则对手残留1点体力，boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于300则100%为敌我双方随机<color=#64F9FA>附加</color>1种弱化类<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后<color=#64F9FA>附加</color>等同于伤害量50%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若回合开始时自身处于异常状态则上述效果提升至100% \r\n<indent=32><sprite=4><indent=48>若双方同时死亡则对手<color=#64F9FA>保留</color>1点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4319,
+      "url": "https://api.seerapi.com/v1/pet/4319/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      100,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1905,
+      "url": "https://api.seerapi.com/v1/eid_effect/1905/"
+    }
+  },
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "84469760"
+}

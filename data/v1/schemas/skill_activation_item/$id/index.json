@@ -1,0 +1,59 @@
+{
+  "$defs": {
+    "ResourceRef_Item_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    },
+    "ResourceRef_Skill_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "技能激活道具ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "技能激活道具名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "item_number": {
+      "description": "激活技能需要的该道具数量",
+      "title": "Item Number",
+      "type": "integer"
+    },
+    "item": {
+      "$ref": "#/$defs/ResourceRef_Item_",
+      "description": "道具资源引用"
+    },
+    "skill": {
+      "$ref": "#/$defs/ResourceRef_Skill_",
+      "description": "使用该道具激活的技能"
+    },
+    "pet": {
+      "$ref": "#/$defs/ResourceRef_Pet_",
+      "description": "使用该道具的精灵"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "item_number",
+    "item",
+    "skill",
+    "pet",
+    "hash"
+  ],
+  "title": "SkillActivationItem",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

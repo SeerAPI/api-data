@@ -1,0 +1,47 @@
+{
+  "id": 30026,
+  "name": "无极灾变",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 62,
+    "url": "https://api.seerapi.com/v1/element_type_combination/62/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 959,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/959/"
+      }
+    },
+    {
+      "info": "造成的伤害低于200则下1回合自身先制+1",
+      "args": [
+        200,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1029,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1029/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cab008fa"
+}

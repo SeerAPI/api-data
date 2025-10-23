@@ -1,0 +1,42 @@
+{
+  "id": 927,
+  "desc": "自身造成的攻击伤害高于300则50%附加对手最大体力1/3的固定伤害，未触发则令对手冰封；自身造成的攻击伤害低于300则50%附加自身最大体力1/3的固定伤害，未触发则令对手麻痹（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3639,
+      "url": "https://api.seerapi.com/v1/pet/3639/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      50,
+      3,
+      300,
+      50,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1219,
+      "url": "https://api.seerapi.com/v1/eid_effect/1219/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d58fbafd"
+}

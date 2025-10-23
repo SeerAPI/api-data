@@ -1,0 +1,47 @@
+{
+  "id": 36722,
+  "name": "大贤者幻想",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 36,
+    "url": "https://api.seerapi.com/v1/element_type_combination/36/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时使对手2回合属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1284,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1284/"
+      }
+    },
+    {
+      "info": "附加自身当前体力25%的百分比伤害，连续使用每次增加10%，最高45%",
+      "args": [
+        25,
+        10,
+        45
+      ],
+      "effect": {
+        "id": 1072,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1072/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f5222a9c"
+}

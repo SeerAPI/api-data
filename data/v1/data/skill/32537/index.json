@@ -1,0 +1,33 @@
+{
+  "id": 32537,
+  "name": "能量逆转",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 76,
+    "url": "https://api.seerapi.com/v1/element_type_combination/76/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "回合开始时，若自身处于能力下降状态，则威力翻倍，同时解除能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 468,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/468/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a76dc48d"
+}

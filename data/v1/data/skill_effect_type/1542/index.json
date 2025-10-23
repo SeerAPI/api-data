@@ -1,0 +1,69 @@
+{
+  "id": 1542,
+  "args_num": 2,
+  "info": "吸取对手能力提升状态，吸取成功则令对手{0}，若对手不处于能力提升状态则令对手全属性-{1}",
+  "info_formatting_adjustment": "吸取对手能力提升状态\r\n--><condition>吸取成功</condition>则令对手{0}\r\n<condition>若对手不处于能力提升状态</condition>则令对手全属性-{1}",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 33977,
+      "url": "https://api.seerapi.com/v1/skill/33977/"
+    },
+    {
+      "id": 34258,
+      "url": "https://api.seerapi.com/v1/skill/34258/"
+    },
+    {
+      "id": 34288,
+      "url": "https://api.seerapi.com/v1/skill/34288/"
+    },
+    {
+      "id": 35259,
+      "url": "https://api.seerapi.com/v1/skill/35259/"
+    },
+    {
+      "id": 35294,
+      "url": "https://api.seerapi.com/v1/skill/35294/"
+    },
+    {
+      "id": 36514,
+      "url": "https://api.seerapi.com/v1/skill/36514/"
+    },
+    {
+      "id": 36522,
+      "url": "https://api.seerapi.com/v1/skill/36522/"
+    },
+    {
+      "id": 37820,
+      "url": "https://api.seerapi.com/v1/skill/37820/"
+    },
+    {
+      "id": 38112,
+      "url": "https://api.seerapi.com/v1/skill/38112/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 3090,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/3090/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 35733,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35733/"
+    }
+  ],
+  "hash": "6c8ed3b8"
+}

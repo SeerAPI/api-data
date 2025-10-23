@@ -1,0 +1,35 @@
+{
+  "id": 35954,
+  "name": "魔钢幻舞",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 75,
+    "url": "https://api.seerapi.com/v1/element_type_combination/75/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于能力下降状态时附加300点固定伤害，并解除这些能力下降状态",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 515,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/515/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3eaea63a"
+}

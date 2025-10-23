@@ -1,0 +1,65 @@
+{
+  "id": 36146,
+  "name": "惊蛰",
+  "power": 150,
+  "max_pp": 7,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 116,
+    "url": "https://api.seerapi.com/v1/element_type_combination/116/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身不处于能力提升状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 1860,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1860/"
+      }
+    },
+    {
+      "info": "先出手时使对手2回合属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1284,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1284/"
+      }
+    },
+    {
+      "info": "双方任意一方处于能力下降状态均会附加400点固定伤害，同时解除自身能力下降状态",
+      "args": [
+        400
+      ],
+      "effect": {
+        "id": 684,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/684/"
+      }
+    },
+    {
+      "info": "附加自身最大体力20%的百分比伤害，每次使用增加10%，最高40%",
+      "args": [
+        20,
+        10,
+        40
+      ],
+      "effect": {
+        "id": 1206,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1206/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "61f0fa80"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 37364,
+  "name": "流光水泡",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 24,
+    "url": "https://api.seerapi.com/v1/element_type_combination/24/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1220/"
+      }
+    },
+    {
+      "info": "击败对手则下回合开始后随机附加烧伤、冻伤、中毒中的1种异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1268,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1268/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "94ffded6"
+}

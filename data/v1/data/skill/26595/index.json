@@ -1,0 +1,53 @@
+{
+  "id": 26595,
+  "name": "龙·守地灵",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹异常状态了；使对手下一次技能无效；自身获得了战之龙魂效果",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "令对手下次使用的技能无效",
+      "args": [],
+      "effect": {
+        "id": 884,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/884/"
+      }
+    },
+    {
+      "info": "召唤龙神，使自身下2回合获得战之龙魂效果",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1452,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1452/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "964520da"
+}

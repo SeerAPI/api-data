@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "desc": "受到先制技能的伤害减少30%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2516,
+      "url": "https://api.seerapi.com/v1/pet/2516/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      0
+    ],
+    "effect": {
+      "id": 282,
+      "url": "https://api.seerapi.com/v1/eid_effect/282/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 34,
+    "url": "https://api.seerapi.com/v1/soulmark/34/"
+  },
+  "hash": "74746d46"
+}

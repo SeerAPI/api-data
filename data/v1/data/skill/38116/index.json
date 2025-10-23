@@ -1,0 +1,48 @@
+{
+  "id": 38116,
+  "name": "热浪汇集",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 29,
+    "url": "https://api.seerapi.com/v1/element_type_combination/29/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸收对手能力提升，吸收成功减少对手1/3最大体力",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 859,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/859/"
+      }
+    },
+    {
+      "info": "造成伤害低于300，则下2回合所有技能附带200点固定伤害",
+      "args": [
+        0,
+        300,
+        2,
+        200
+      ],
+      "effect": {
+        "id": 639,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/639/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4f63bafa"
+}

@@ -1,0 +1,35 @@
+{
+  "id": 20325,
+  "name": "遮蔽屏障",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "可以吸收一些伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "可以抵挡75点伤害",
+      "args": [
+        75
+      ],
+      "effect": {
+        "id": 49,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/49/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6cd47cfa"
+}

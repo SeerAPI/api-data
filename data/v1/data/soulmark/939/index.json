@@ -1,0 +1,36 @@
+{
+  "id": 939,
+  "desc": "战斗阶段结束时，自身所有能力下降反转为能力上升；回合开始时若自身处于能力提升状态，当回合受到的伤害大于250则免疫并反弹该伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3192,
+      "url": "https://api.seerapi.com/v1/pet/3192/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      1
+    ],
+    "effect": {
+      "id": 819,
+      "url": "https://api.seerapi.com/v1/eid_effect/819/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 517,
+    "url": "https://api.seerapi.com/v1/soulmark/517/"
+  },
+  "hash": "5e839d9c"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 72,
+  "desc": "每次攻击20%概率附加20点固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2593,
+      "url": "https://api.seerapi.com/v1/pet/2593/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      20
+    ],
+    "effect": {
+      "id": 109,
+      "url": "https://api.seerapi.com/v1/eid_effect/109/"
+    }
+  },
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "72135db"
+}

@@ -1,0 +1,29 @@
+{
+  "id": 1281,
+  "args_num": 0,
+  "info": "消耗自身所有护盾值并造成等量固定伤害，若消耗的护盾值大于300则额外附加自身最大体力1/3的百分比伤害，小于300且大于0则恢复自身最大体力的1/3并造成等量百分比伤害",
+  "info_formatting_adjustment": "消耗自身所有护盾值并造成等量固定伤害\r\n--><condition>若消耗的护盾值大于300</condition>则额外附加自身最大体力1/3的百分比伤害\r\n--><condition>小于300且大于0</condition>则恢复自身最大体力的1/3并造成等量百分比伤害",
+  "pve_effective": true,
+  "param": null,
+  "skill": [
+    {
+      "id": 31529,
+      "url": "https://api.seerapi.com/v1/skill/31529/"
+    },
+    {
+      "id": 36817,
+      "url": "https://api.seerapi.com/v1/skill/36817/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    }
+  ],
+  "hash": "10f3c28c"
+}

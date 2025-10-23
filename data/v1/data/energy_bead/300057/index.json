@@ -1,0 +1,32 @@
+{
+  "id": 300057,
+  "name": "特效攻击能量珠",
+  "desc": "对战时增加精灵攻击45，使用次数20次。注意：赛尔间对战无效",
+  "idx": 1054,
+  "use_times": 20,
+  "item": {
+    "id": 300057,
+    "url": "https://api.seerapi.com/v1/item/300057/"
+  },
+  "effect": {
+    "effect_args": [
+      1,
+      45
+    ],
+    "effect": {
+      "id": 26,
+      "url": "https://api.seerapi.com/v1/eid_effect/26/"
+    }
+  },
+  "ability_buff": {
+    "atk": 45,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 0,
+    "percent": false,
+    "total": 45
+  },
+  "hash": "9024520c"
+}

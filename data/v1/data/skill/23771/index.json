@@ -1,0 +1,62 @@
+{
+  "id": 23771,
+  "name": "神圣领域",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "速度，攻击，双防提升了，抵御伤害的能力提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合攻击+1、速度+1、命中+1",
+      "args": [
+        3,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 433,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/433/"
+      }
+    },
+    {
+      "info": "2回合内对手造成的伤害降低50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 491,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/491/"
+      }
+    },
+    {
+      "info": "下3回合，能力提升状态消失则对手使用属性技能失效",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 690,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/690/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "19e814af"
+}

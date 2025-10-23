@@ -1,0 +1,43 @@
+{
+  "id": 34631,
+  "name": "净化反击",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 112,
+    "url": "https://api.seerapi.com/v1/element_type_combination/112/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身的烧伤、冻伤、中毒状态",
+      "args": [],
+      "effect": {
+        "id": 544,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/544/"
+      }
+    },
+    {
+      "info": "附加自身防御、特防总和25%的百分比伤害",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 943,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/943/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ee8d4b0"
+}

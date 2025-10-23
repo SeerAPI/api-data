@@ -1,0 +1,43 @@
+{
+  "id": 870,
+  "desc": "每次登场时为自身附加等同于自身最大体力值1/2的护盾且当回合开始起自身免疫异常状态直到自身的下个回合开始；回合开始时若自身存在护盾则自身使用攻击技能先制+1；自身护盾消失时消除对手回合类效果和能力提升状态，同时使对手随机2个技能的PP值归零（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3568,
+      "url": "https://api.seerapi.com/v1/pet/3568/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1155,
+      "url": "https://api.seerapi.com/v1/eid_effect/1155/"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "79865281"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 1989,
+  "desc": "回合开始时，若对手处于冻伤则当回合使用技能后令对手睡眠1回合并令冻伤回合数+2；自身被击败时，若对手处于冻伤状态则每有1回合冻伤1回合内无法主动切换精灵（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于冻伤则当回合使用技能后<color=#64F9FA>令对手睡眠</color>1回合并令冻伤回合数+2\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，若对手处于冻伤状态则每有1回合冻伤1回合内<color=#64F9FA>无法主动切换精灵</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4799,
+      "url": "https://api.seerapi.com/v1/pet/4799/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2413,
+      "url": "https://api.seerapi.com/v1/eid_effect/2413/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3c7fd6a1"
+}

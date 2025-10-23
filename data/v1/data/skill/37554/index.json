@@ -1,0 +1,35 @@
+{
+  "id": 37554,
+  "name": "破灭咏叹",
+  "power": 120,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 224,
+    "url": "https://api.seerapi.com/v1/element_type_combination/224/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机附加1种异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 786,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/786/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "df14e0e0"
+}

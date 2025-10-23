@@ -1,0 +1,45 @@
+{
+  "id": 22988,
+  "name": "黑暗斗志",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "恢复了许多体力，抵抗异常状态的能力提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复200点体力",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 466,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/466/"
+      }
+    },
+    {
+      "info": "3回合内免疫所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7d8183b4"
+}

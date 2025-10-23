@@ -1,0 +1,54 @@
+{
+  "id": 30878,
+  "name": "王·金属风暴",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "args": [],
+      "effect": {
+        "id": 760,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/760/"
+      }
+    },
+    {
+      "info": "1回合内令对手使用的属性技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/478/"
+      }
+    },
+    {
+      "info": "每次使用则当回合造成的攻击伤害额外提升25%，最高额外提升100%",
+      "args": [
+        25,
+        100
+      ],
+      "effect": {
+        "id": 795,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/795/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "85241e01"
+}

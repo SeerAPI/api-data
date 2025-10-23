@@ -1,0 +1,37 @@
+{
+  "id": 627,
+  "args_num": 2,
+  "info": "对手处于能力提升状态时附加其{0}值{1}%的百分比伤害",
+  "info_formatting_adjustment": null,
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 16326,
+      "url": "https://api.seerapi.com/v1/skill/16326/"
+    },
+    {
+      "id": 36960,
+      "url": "https://api.seerapi.com/v1/skill/36960/"
+    },
+    {
+      "id": 38115,
+      "url": "https://api.seerapi.com/v1/skill/38115/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "adb5224e"
+}

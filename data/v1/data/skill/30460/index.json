@@ -1,0 +1,48 @@
+{
+  "id": 30460,
+  "name": "荡尽天下",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "args": [
+        150,
+        300,
+        30,
+        300
+      ],
+      "effect": {
+        "id": 604,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/604/"
+      }
+    },
+    {
+      "info": "未击败对手则己方下2次攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "51571980"
+}

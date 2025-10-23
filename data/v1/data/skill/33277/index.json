@@ -1,0 +1,48 @@
+{
+  "id": 33277,
+  "name": "瓢虫穿刺阵",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 225,
+    "url": "https://api.seerapi.com/v1/element_type_combination/225/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4%的概率造成8倍伤害，每次使用概率增加2%，最高概率8%",
+      "args": [
+        4,
+        8,
+        2,
+        8
+      ],
+      "effect": {
+        "id": 1328,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1328/"
+      }
+    },
+    {
+      "info": "造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1249,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1249/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3b675a2e"
+}

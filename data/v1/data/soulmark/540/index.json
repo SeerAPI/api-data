@@ -1,0 +1,40 @@
+{
+  "id": 540,
+  "desc": "死亡时下一只出战精灵继承自己的能力强化状态和回合类效果；死亡时对手受到等同于致死伤害量的固定伤害并反弹自身所处异常状态（包括固定伤害，若致死则对手保留1点体力，BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3220,
+      "url": "https://api.seerapi.com/v1/pet/3220/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1
+    ],
+    "effect": {
+      "id": 840,
+      "url": "https://api.seerapi.com/v1/eid_effect/840/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 610,
+    "url": "https://api.seerapi.com/v1/soulmark/610/"
+  },
+  "from": null,
+  "hash": "353abb6d"
+}

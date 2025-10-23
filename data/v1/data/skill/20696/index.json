@@ -1,0 +1,36 @@
+{
+  "id": 20696,
+  "name": "极冰甲",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "被极寒的冰雪覆盖",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "5回合内受到物理攻击时，有50%概率将对手冻伤",
+      "args": [
+        5,
+        50
+      ],
+      "effect": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/92/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f56d3db1"
+}

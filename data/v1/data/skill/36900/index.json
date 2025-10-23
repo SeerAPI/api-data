@@ -1,0 +1,35 @@
+{
+  "id": 36900,
+  "name": "鹰姿飒爽",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/element_type_combination/4/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身速度能力每提升1段，则回合结束时减少对手1/10最大体力",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 812,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/812/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "700ae0"
+}

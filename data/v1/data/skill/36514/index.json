@@ -1,0 +1,47 @@
+{
+  "id": 36514,
+  "name": "幻灵闪",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 117,
+    "url": "https://api.seerapi.com/v1/element_type_combination/117/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则令对手混乱，若对手不处于能力提升状态则令对手全属性-1",
+      "args": [
+        10,
+        1
+      ],
+      "effect": {
+        "id": 1542,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1542/"
+      }
+    },
+    {
+      "info": "本回合未击败对手则下1回合反弹受到伤害的1/2",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 864,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/864/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4caef623"
+}

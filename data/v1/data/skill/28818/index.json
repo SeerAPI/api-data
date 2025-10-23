@@ -1,0 +1,75 @@
+{
+  "id": 28818,
+  "name": "灼眼焰华",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹受到的异常状态；对手处于烧伤则开始无效对手的技能；下次攻击变得更加凌厉；对手的能力开始逐渐降低",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "若对手处于烧伤状态则2回合内100%令对手使用的技能无效",
+      "args": [
+        2,
+        2,
+        100
+      ],
+      "effect": {
+        "id": 914,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/914/"
+      }
+    },
+    {
+      "info": "下次攻击忽略对手双防值的50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/886/"
+      }
+    },
+    {
+      "info": "3回合内使用技能令对手攻击-1、防御-1、特攻-1、速度-1，未触发则自身下1次攻击造成伤害提升100%",
+      "args": [
+        3,
+        -1,
+        -1,
+        -1,
+        0,
+        -1,
+        0,
+        1,
+        100
+      ],
+      "effect": {
+        "id": 2161,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2161/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "be33ec97"
+}

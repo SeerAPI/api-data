@@ -1,0 +1,58 @@
+{
+  "id": 27129,
+  "name": "蔷薇信风",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 98,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫异常状态了；对手使用攻击技能开始令其流血了；对手使用属性技能开始减少其PP了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 50,
+    "url": "https://api.seerapi.com/v1/element_type_combination/50/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48/"
+      }
+    },
+    {
+      "info": "4回合内若对手使用攻击技能则100%使对手流血",
+      "args": [
+        4,
+        100,
+        16
+      ],
+      "effect": {
+        "id": 663,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/663/"
+      }
+    },
+    {
+      "info": "4回合内若对手使用属性技能则令对手所有技能降低2点PP值",
+      "args": [
+        4,
+        2
+      ],
+      "effect": {
+        "id": 861,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/861/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a5dfd2e6"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 1783,
+  "args_num": 2,
+  "info": "消除双方回合类效果，消除任意一项成功则双方{0}，若任意一方回合类效果无法被消除则令对手下{1}回合无法主动切换精灵",
+  "info_formatting_adjustment": "消除敌我双方回合类效果\r\n--><condition>消除任意一项成功</condition>则令双方{0}\r\n--><condition>若任意一方回合类效果无法被消除</condition>则令对手下{1}回合无法主动切换精灵",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 27902,
+      "url": "https://api.seerapi.com/v1/skill/27902/"
+    },
+    {
+      "id": 28249,
+      "url": "https://api.seerapi.com/v1/skill/28249/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "9c661213"
+}

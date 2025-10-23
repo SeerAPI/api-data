@@ -1,0 +1,37 @@
+{
+  "id": 1916,
+  "desc": "每次登场时记录自身的体力值，自身受到致死攻击伤害时，使自身的体力值回归记录的体力值，每场战斗限一次|自身被击败后，己方下只精灵登场首回合免疫受到的攻击，触发成功则令对手瘫痪（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>每次登场时候记录自身的体力值\r\n<indent=32><sprite=4><indent=48>之后自身受到致死攻击伤害时，使自身的体力值等于记录的体力值\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后，己方下只精灵登场首回合<color=#64F9FA>免疫</color>受到的<b>攻击技能</b>\r\n<indent=32><sprite=4><indent=48>触发成功则<color=#64F9FA>令对手瘫痪</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4713,
+      "url": "https://api.seerapi.com/v1/pet/4713/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2330,
+      "url": "https://api.seerapi.com/v1/eid_effect/2330/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "68146a1b"
+}

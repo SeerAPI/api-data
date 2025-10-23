@@ -1,0 +1,45 @@
+{
+  "id": 1737,
+  "desc": "战斗阶段结束时根据双方当前的能力等级状态触发如下效果：|①.自身存在能力等级高于对手：100%令对手睡眠；|②.自身所有能力等级均不高于对手，且低于对手的项数＞3项：100%令对手束缚；|③.自身所有能力等级均不高于对手，且低于对手的项数≤3项：附加给对手双方能力等级差值×150点固定伤害|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时根据双方当前的能力等级状态触发如下效果：\r\n<indent=32><sprite=4><indent=48>自身存在能力等级高于对手：100%<color=#64F9FA>令对手睡眠</color>；\r\n<indent=32><sprite=4><indent=48>自身所有能力等级均不高于对手，且低于对手的项数＞3项：100%<color=#64F9FA>令对手束缚</color>；\r\n<indent=32><sprite=4><indent=48>自身所有能力等级均不高于对手，且低于对手的项数≤3项：<color=#64F9FA>附加</color>给对手双方净能力变化值总和×150点<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4523,
+      "url": "https://api.seerapi.com/v1/pet/4523/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      3,
+      100,
+      3,
+      150,
+      1
+    ],
+    "effect": {
+      "id": 2130,
+      "url": "https://api.seerapi.com/v1/eid_effect/2130/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3e4473c2"
+}

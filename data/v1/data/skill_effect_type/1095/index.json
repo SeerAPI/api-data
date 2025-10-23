@@ -1,0 +1,29 @@
+{
+  "id": 1095,
+  "args_num": 0,
+  "info": "3回合内若对手使用属性技能则命中前令对手所有技能随机降低1-3点PP值；3回合内若对手使用攻击技能则使用后受到对手最大体力1/3的百分比伤害；己方免疫下2次受到的异常状态;技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒（星皇之怒：令自身2回合内回合类效果无法被消除（后出手则延续至下2回合）；下2回合自身所有技能先制+2）",
+  "info_formatting_adjustment": "3回合内<condition>若对手使用属性技能</condition>则命中前令对手所有技能随机降低1-3点PP值$Boss$\r\n3回合内<condition>若对手使用攻击技能</condition>则使用后对手受到最大体力1/3的百分比伤害$Boss$\r\n己方免疫下2次受到的异常状态\r\n技能结束后<condition>若对手体力值高于0</condition>，则50%进行一次额外行动以触发星皇之怒\r\n星皇之怒：令自身2回合内回合类效果无法被消除（后出手则延续至下2回合；下2回合自身所有技能先制+2$Boss$",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 25294,
+      "url": "https://api.seerapi.com/v1/skill/25294/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 46440,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/46440/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 34256,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/34256/"
+    }
+  ],
+  "hash": "d151da90"
+}

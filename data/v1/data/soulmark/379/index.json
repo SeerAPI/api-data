@@ -1,0 +1,33 @@
+{
+  "id": 379,
+  "desc": "使用技能时将自身相应的能力提升赋予给对手相应的能力下降,若未触发效果则减少对手1/4最大HP（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3006,
+      "url": "https://api.seerapi.com/v1/pet/3006/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      4,
+      1
+    ],
+    "effect": {
+      "id": 704,
+      "url": "https://api.seerapi.com/v1/eid_effect/704/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "711eb426"
+}

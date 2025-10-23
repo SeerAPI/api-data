@@ -1,0 +1,58 @@
+{
+  "id": 37812,
+  "name": "神光",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 128,
+    "url": "https://api.seerapi.com/v1/element_type_combination/128/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力上升状态，消除成功2回合内受到伤害减少200点",
+      "args": [
+        2,
+        200
+      ],
+      "effect": {
+        "id": 624,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/624/"
+      }
+    },
+    {
+      "info": "未击败对手则己方下1次攻击技能必定打出致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/933/"
+      }
+    },
+    {
+      "info": "击败对手则下2回合自身造成的攻击伤害提升50%，若以致命一击击败对手则伤害再提升50%",
+      "args": [
+        2,
+        50,
+        50
+      ],
+      "effect": {
+        "id": 1719,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1719/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7d87c997"
+}

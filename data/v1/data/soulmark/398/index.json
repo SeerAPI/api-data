@@ -1,0 +1,43 @@
+{
+  "id": 398,
+  "desc": "登场时获得一个可抵御100点攻击伤害的护盾,背包内每存活一只精灵(不包括自己),则护盾值增加100点,最高600点;|登场时背包内每阵亡一只精灵,造成的伤害提升10%,最高50%",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3036,
+      "url": "https://api.seerapi.com/v1/pet/3036/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      100,
+      600,
+      10,
+      50
+    ],
+    "effect": {
+      "id": 720,
+      "url": "https://api.seerapi.com/v1/eid_effect/720/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    }
+  ],
+  "intensified_to": {
+    "id": 399,
+    "url": "https://api.seerapi.com/v1/soulmark/399/"
+  },
+  "from": null,
+  "hash": "13ca62ee"
+}

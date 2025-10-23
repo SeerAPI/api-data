@@ -1,0 +1,45 @@
+{
+  "id": 28430,
+  "name": "沉眠者不朽",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "进入了沉眠",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复全部体力，消除所有能力下降，使自己睡眠3回合",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 155,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/155/"
+      }
+    },
+    {
+      "info": "免疫下1次受到的攻击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 570,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/570/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bfefaad8"
+}

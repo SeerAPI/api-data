@@ -1,0 +1,60 @@
+{
+  "id": 35797,
+  "name": "终末·命轨重启",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则100%令对手疲惫，未触发则100%令对手混乱",
+      "args": [
+        100,
+        7,
+        100,
+        10
+      ],
+      "effect": {
+        "id": 1138,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1138/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手害怕",
+      "args": [
+        0,
+        6
+      ],
+      "effect": {
+        "id": 636,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/636/"
+      }
+    },
+    {
+      "info": "每次使用则当回合造成的攻击伤害额外提升25%，最高额外提升100%",
+      "args": [
+        25,
+        100
+      ],
+      "effect": {
+        "id": 795,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/795/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1be96f77"
+}

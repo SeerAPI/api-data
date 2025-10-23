@@ -1,0 +1,63 @@
+{
+  "id": 2038,
+  "args_num": 3,
+  "info": "消除对手回合类效果，消除成功则令对手{0}，若对手不处于回合类效果则令自身{1}且{2}状态解除后恢复自身全部体力",
+  "info_formatting_adjustment": "消除对手回合类效果\r\n--><condition>消除成功</condition>则令对手{0}\r\n<condition>若对手不处于回合类效果</condition>则令自身{1}且{2}状态解除后恢复自身全部体力",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    },
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29134,
+      "url": "https://api.seerapi.com/v1/skill/29134/"
+    },
+    {
+      "id": 36728,
+      "url": "https://api.seerapi.com/v1/skill/36728/"
+    },
+    {
+      "id": 37211,
+      "url": "https://api.seerapi.com/v1/skill/37211/"
+    },
+    {
+      "id": 37958,
+      "url": "https://api.seerapi.com/v1/skill/37958/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    }
+  ],
+  "hash": "9298fd38"
+}

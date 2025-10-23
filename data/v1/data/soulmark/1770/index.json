@@ -1,0 +1,43 @@
+{
+  "id": 1770,
+  "desc": "回合开始时若对手处于能力下降状态则令对手中毒，对手处于中毒时改为令对手寄生，若不处于能力下降状态则回合结束后自身攻击、速度+1并恢复350点体力；|双方任意一方处于异常状态时对手属性技能命中效果失效，触发成功则令对手随机2个技能PP归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则<color=#64F9FA>令对手中毒</color>，对手已处于中毒时改为寄生\r\n<indent=32><sprite=4><indent=48>若不处于能力下降状态则回合结束后自身攻击、速度+1并<color=#64F9FA>恢复</color>350点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>双方任意一方处于异常状态时对手使用的<b>属性技能<color=#64F9FA></b>附加效果失效</color>\r\n<indent=32><sprite=4><indent=48>触发成功则令对手随机2个技能<b>PP<color=#64F9FA></b>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4559,
+      "url": "https://api.seerapi.com/v1/pet/4559/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      350,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 2164,
+      "url": "https://api.seerapi.com/v1/eid_effect/2164/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c7744411"
+}

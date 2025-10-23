@@ -1,0 +1,43 @@
+{
+  "id": 863,
+  "desc": "5%秒杀对手（若自身拥有瞬杀特性，则进行2次判定，先判定自身专属特性，再判定瞬杀特性）；首次受到的攻击伤害减少20%，之后每次受到的攻击伤害减少量增加5%，最高减少50%（BOSS有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3558,
+      "url": "https://api.seerapi.com/v1/pet/3558/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      20,
+      5,
+      50
+    ],
+    "effect": {
+      "id": 1147,
+      "url": "https://api.seerapi.com/v1/eid_effect/1147/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1a2287bf"
+}

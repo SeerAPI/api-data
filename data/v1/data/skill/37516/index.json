@@ -1,0 +1,74 @@
+{
+  "id": 37516,
+  "name": "迪迦·复合踢",
+  "power": 90,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "args": [],
+      "effect": {
+        "id": 2220,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2220/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 805,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/805/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1114,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1114/"
+      }
+    },
+    {
+      "info": "遇到天敌时附加500点固定伤害",
+      "args": [
+        500
+      ],
+      "effect": {
+        "id": 428,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/428/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "22935f20"
+}

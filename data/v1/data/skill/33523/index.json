@@ -1,0 +1,43 @@
+{
+  "id": 33523,
+  "name": "缚灵火柱",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 101,
+    "url": "https://api.seerapi.com/v1/element_type_combination/101/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "遇到天敌时先制+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 610,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/610/"
+      }
+    },
+    {
+      "info": "若先出手则当回合闪避对手的攻击技能",
+      "args": [],
+      "effect": {
+        "id": 720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/720/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ab664fd"
+}

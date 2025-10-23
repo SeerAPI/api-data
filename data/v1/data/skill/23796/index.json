@@ -1,0 +1,49 @@
+{
+  "id": 23796,
+  "name": "恶灵附体",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "使对手的随机1项技能PP值变0；攻击附加固定伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "100%的概率令对手随机1项技能PP值归零",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 656,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/656/"
+      }
+    },
+    {
+      "info": "3回合，每回合附加自身的攻击值的15%的百分比伤害",
+      "args": [
+        3,
+        0,
+        0,
+        15
+      ],
+      "effect": {
+        "id": 670,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/670/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "95c44880"
+}

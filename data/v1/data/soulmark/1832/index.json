@@ -1,0 +1,42 @@
+{
+  "id": 1832,
+  "desc": "自身使用攻击技能时攻击、防御、特防等级+1；回合开始时，若自身处于能力提升状态则当回合攻击必定打出致命一击且造成伤害提升50%，若自身不处于能力提升状态则当回合受到的攻击伤害减少200点",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时自身攻击、防御、特防等级+1\r\n\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合<b>攻击技能</b>必定<color=#64F9FA>打出致命一击</color>且造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>200点",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4626,
+      "url": "https://api.seerapi.com/v1/pet/4626/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50,
+      200
+    ],
+    "effect": {
+      "id": 2228,
+      "url": "https://api.seerapi.com/v1/eid_effect/2228/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c27860be"
+}

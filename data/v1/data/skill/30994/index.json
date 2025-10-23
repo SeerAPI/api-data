@@ -1,0 +1,43 @@
+{
+  "id": 30994,
+  "name": "烈火净世击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 222,
+    "url": "https://api.seerapi.com/v1/element_type_combination/222/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手不处于能力提升状态时造成的伤害提高100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1021,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1021/"
+      }
+    },
+    {
+      "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+      "args": [],
+      "effect": {
+        "id": 1216,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1216/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e84c3a19"
+}

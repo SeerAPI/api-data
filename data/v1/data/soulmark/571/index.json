@@ -1,0 +1,39 @@
+{
+  "id": 571,
+  "desc": "回合开始时若对手不处于能力提升状态，则自身攻击使对手随机3项能力-1；回合开始时若对手处于能力下降状态，则自身攻击使对手40%概率麻痹（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3246,
+      "url": "https://api.seerapi.com/v1/pet/3246/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      40,
+      1
+    ],
+    "effect": {
+      "id": 859,
+      "url": "https://api.seerapi.com/v1/eid_effect/859/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1093b48d"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 34790,
+  "name": "万象归一诀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 104,
+    "url": "https://api.seerapi.com/v1/element_type_combination/104/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "连续使用每次威力增加20，最高威力100",
+      "args": [
+        20,
+        100
+      ],
+      "effect": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/9/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1048,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1048/"
+      }
+    },
+    {
+      "info": "当回合击败对手则下回合开始后随机附加1种异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 826,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/826/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2775bdca"
+}

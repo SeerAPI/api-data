@@ -1,0 +1,47 @@
+{
+  "id": 33751,
+  "name": "秋实之音",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 108,
+    "url": "https://api.seerapi.com/v1/element_type_combination/108/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "攻击对手时若对手处于烧伤状态，则100%使对手睡眠",
+      "args": [
+        2,
+        100,
+        8
+      ],
+      "effect": {
+        "id": 572,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/572/"
+      }
+    },
+    {
+      "info": "附加200点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 1084,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1084/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "64c1d4e0"
+}

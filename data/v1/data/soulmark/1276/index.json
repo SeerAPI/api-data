@@ -1,0 +1,36 @@
+{
+  "id": 1276,
+  "desc": "自身攻击命中后30%令对手冻伤，每次使用提升10%，最高50%；回合开始时，若对手处于冻伤状态则当回合无法处于能力提升状态且命中-2（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后30%<color=#64F9FA>令对手冻伤</color>，每次使用提升10%，最高50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于冻伤状态则对手当回合<color=#64F9FA>无法处于能力提升状态</color>且命中-2",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4018,
+      "url": "https://api.seerapi.com/v1/pet/4018/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      10,
+      50,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1612,
+      "url": "https://api.seerapi.com/v1/eid_effect/1612/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "3cf84f0c"
+}

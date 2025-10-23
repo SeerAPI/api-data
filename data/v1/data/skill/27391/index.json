@@ -1,0 +1,47 @@
+{
+  "id": 27391,
+  "name": "身形虚化",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "自身先出手则免疫当回合伤害并且恢复自身一定体力；每回合开始附带一定固伤了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若先出手，则免疫当回合伤害并回复1/4的最大体力值",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 170,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/170/"
+      }
+    },
+    {
+      "info": "100%概率令对手在3回合内每回合受到100点固定伤害",
+      "args": [
+        100,
+        3,
+        100
+      ],
+      "effect": {
+        "id": 76,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/76/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dd417aba"
+}

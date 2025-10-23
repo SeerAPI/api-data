@@ -1,0 +1,58 @@
+{
+  "id": 24533,
+  "name": "狂暴戾气",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击变得更快；每次攻击将附加固定伤害；直接攻击将降低对手HP；",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下2回合自身攻击先制+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 481,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/481/"
+      }
+    },
+    {
+      "info": "3回合内每回合都能附加80点固定伤害",
+      "args": [
+        3,
+        80
+      ],
+      "effect": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/60/"
+      }
+    },
+    {
+      "info": "3回合内所有直接攻击都将降低对手1/5的HP",
+      "args": [
+        3,
+        5
+      ],
+      "effect": {
+        "id": 502,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/502/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4d6245eb"
+}

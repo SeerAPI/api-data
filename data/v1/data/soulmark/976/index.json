@@ -1,0 +1,47 @@
+{
+  "id": 976,
+  "desc": "所有对于速度的强化同时应用于体力（刻印，学习力）；自身背包内每死亡一只精灵则自身技能先制+1，最高先制+5；回合开始时，若自身体力高于对手则当回合免疫异常状态且50%使对手全属性-1，若自身体力低于对手则当回合受到的伤害减少50%（包括攻击伤害和固定伤害）且100%使对手全属性-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>刻印、学习力对于速度的强化同时应用于体力\r\n<indent=16><sprite=3><indent=32>自身背包内每有一只精灵阵亡则自身技能<b>先制</b>+1，最高先制+5\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力高于对手则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且50%使对手<color=#64F9FA>全属性-1</color>\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力低于对手则当回合受到的<b>攻击伤害、固定伤害</b><color=#64F9FA>减少</color>50%且100%使对手<color=#64F9FA>全属性-1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3697,
+      "url": "https://api.seerapi.com/v1/pet/3697/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      5,
+      50,
+      1,
+      50,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1272,
+      "url": "https://api.seerapi.com/v1/eid_effect/1272/"
+    }
+  },
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "81d61e0c"
+}

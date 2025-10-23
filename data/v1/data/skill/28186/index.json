@@ -1,0 +1,43 @@
+{
+  "id": 28186,
+  "name": "跪地求饶",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 1,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "饶了我吧！饶了我吧！",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后100%秒杀对手",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 691,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/691/"
+      }
+    },
+    {
+      "info": "若没有命中对手则自己失去全部体力",
+      "args": [],
+      "effect": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/72/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4c202136"
+}

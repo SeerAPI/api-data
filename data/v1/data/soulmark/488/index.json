@@ -1,0 +1,36 @@
+{
+  "id": 488,
+  "desc": "回合开始时，若对手处于烧伤状态，则当回合自身所有技能先制+1；|回合开始时若自身体力低于1/2,则下2次技能先制+3，且100%使对手烧伤（登场后仅触发1次，重复登场无效，BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3146,
+      "url": "https://api.seerapi.com/v1/pet/3146/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      2,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 793,
+      "url": "https://api.seerapi.com/v1/eid_effect/793/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a9186535"
+}

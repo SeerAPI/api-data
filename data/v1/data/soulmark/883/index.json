@@ -1,0 +1,33 @@
+{
+  "id": 883,
+  "desc": "自身死亡时30%的概率重生，重生时解除自身能力下降状态且消除对手能力提升状态",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3585,
+      "url": "https://api.seerapi.com/v1/pet/3585/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      0
+    ],
+    "effect": {
+      "id": 1170,
+      "url": "https://api.seerapi.com/v1/eid_effect/1170/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "140987a"
+}

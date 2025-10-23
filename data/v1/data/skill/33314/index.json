@@ -1,0 +1,58 @@
+{
+  "id": 33314,
+  "name": "暗·沟壑纵横",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 42,
+    "url": "https://api.seerapi.com/v1/element_type_combination/42/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈成功则自身全属性+1，反馈失败则解除自身能力下降状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1359,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1359/"
+      }
+    },
+    {
+      "info": "3回合内免疫大于300的攻击伤害",
+      "args": [
+        3,
+        300
+      ],
+      "effect": {
+        "id": 741,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/741/"
+      }
+    },
+    {
+      "info": "3回合内若对手造成的伤害低于300，则对手害怕",
+      "args": [
+        3,
+        300,
+        6
+      ],
+      "effect": {
+        "id": 742,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/742/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "dc026160"
+}

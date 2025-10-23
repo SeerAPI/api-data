@@ -1,0 +1,47 @@
+{
+  "id": 36556,
+  "name": "诸神黎明",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/element_type_combination/20/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中对手后有50%使对手臣服，先出手时概率翻倍",
+      "args": [
+        50,
+        31
+      ],
+      "effect": {
+        "id": 968,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/968/"
+      }
+    },
+    {
+      "info": "自身处于能力提升状态时造成伤害的100%恢复自身体力值，当前体力低于最大体力的1/2时附加等量百分比伤害",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1641,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1641/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b7774b53"
+}

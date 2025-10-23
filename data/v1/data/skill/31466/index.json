@@ -1,0 +1,44 @@
+{
+  "id": 31466,
+  "name": "斩空裂破",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 57,
+    "url": "https://api.seerapi.com/v1/element_type_combination/57/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则下回合受到的伤害转化为自身体力",
+      "args": [],
+      "effect": {
+        "id": 1219,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1219/"
+      }
+    },
+    {
+      "info": "2回合内每回合所受的伤害减少300",
+      "args": [
+        2,
+        300
+      ],
+      "effect": {
+        "id": 408,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/408/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bc6be905"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 37416,
+  "name": "物理升阶",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 61,
+    "url": "https://api.seerapi.com/v1/element_type_combination/61/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身下2次攻击必定致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1204,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1204/"
+      }
+    },
+    {
+      "info": "下2回合若打出致命一击则必定恢复全部体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 702,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/702/"
+      }
+    },
+    {
+      "info": "下2回合攻击技能打出致命一击后自身免疫下1次受到的异常状态",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 2054,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2054/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "abd75698"
+}

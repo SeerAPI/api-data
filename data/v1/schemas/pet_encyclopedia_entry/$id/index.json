@@ -1,0 +1,101 @@
+{
+  "$defs": {
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "精灵图鉴ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "精灵名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "has_sound": {
+      "description": "精灵是否存在叫声",
+      "title": "Has Sound",
+      "type": "boolean"
+    },
+    "height": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "精灵身高，当这个值在图鉴中为'未知'时，这个值为null",
+      "title": "Height"
+    },
+    "weight": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "精灵重量，当这个值在图鉴中为'未知'时，这个值为null",
+      "title": "Weight"
+    },
+    "foundin": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "精灵发现地点",
+      "title": "Foundin"
+    },
+    "food": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "精灵喜爱的食物",
+      "title": "Food"
+    },
+    "introduction": {
+      "description": "精灵介绍",
+      "title": "Introduction",
+      "type": "string"
+    },
+    "pet": {
+      "$ref": "#/$defs/ResourceRef_Pet_",
+      "description": "精灵"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "has_sound",
+    "introduction",
+    "pet",
+    "hash"
+  ],
+  "title": "PetEncyclopediaEntry",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

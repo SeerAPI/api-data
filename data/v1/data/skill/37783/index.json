@@ -1,0 +1,60 @@
+{
+  "id": 37783,
+  "name": "魔影千重阵",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，若对手不处于回合类效果则100%令对手束缚",
+      "args": [
+        100,
+        28
+      ],
+      "effect": {
+        "id": 1777,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1777/"
+      }
+    },
+    {
+      "info": "解除自身能力下降状态，解除成功则自身下2回合受到的伤害减少300点",
+      "args": [
+        2,
+        300
+      ],
+      "effect": {
+        "id": 1153,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1153/"
+      }
+    },
+    {
+      "info": "2回合内100%闪避对手攻击，若本次技能造成的伤害高于300则闪避效果延长2回合",
+      "args": [
+        2,
+        100,
+        300,
+        2
+      ],
+      "effect": {
+        "id": 1832,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1832/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "33a39542"
+}

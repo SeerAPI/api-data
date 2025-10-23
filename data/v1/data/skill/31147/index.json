@@ -1,0 +1,55 @@
+{
+  "id": 31147,
+  "name": "混沌领军斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 93,
+    "url": "https://api.seerapi.com/v1/element_type_combination/93/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1062,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1062/"
+      }
+    },
+    {
+      "info": "未击败对手则下回合造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 920,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/920/"
+      }
+    },
+    {
+      "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 67,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/67/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "55720db5"
+}

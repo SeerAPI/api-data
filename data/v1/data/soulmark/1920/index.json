@@ -1,0 +1,37 @@
+{
+  "id": 1920,
+  "desc": "自身登场首回合受到的固定伤害、百分比伤害不超过70点，若自身存在技能pp值为满则自身1回合内先制+1，每额外有1个技能pp值为满此效果延长1回合|自身主动下场时恢复等同于护盾、护罩值之和的体力，若自身存在技能pp值为0则场下后1回合内恢复所有技能1点pp值，每额外有1个技能pp值为0此效果延长1回合|自身技能命中后触发1次神祭：消耗该技能1点pp值，消耗成功后有20%*已损失pp值的概率令双方麻痹3回合，自身处于麻痹状态时为自身附加的麻痹改为使之回合数+1，为对手附加的麻痹未触发则附加70点固定伤害|回合结束后，若自身处于麻痹或超频则将自身所处的所有异常状态转化为超频，然后自身每有1回合超频受到70点真实伤害，最高为自身的体力值-1|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场首回合受到的每次<b>固定伤害、百分比伤害</b><color=#64F9FA>无法超过</color>70点\r\n<indent=16><sprite=3><indent=32>自身登场时若有技能PP值为满则自身1回合内<b>先制</b>+1，每额外有1个技能PP值为满此效果延长1回合\r\n\r\n<indent=0><sprite=0><indent=16>下场效果：\r\n<indent=16><sprite=3><indent=32>自身主动下场时<color=#64F9FA>恢复</color>等同于护盾、护罩之和的<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身主动下场时若存在技能pp值为0则下场后1回合内<color=#64F9FA>恢复</color>所有技能1点<b>PP值</b>，每额外有1个技能PP值为0此效果延长1回合\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身技能命中后触发1次神祭：消耗该技能1点<b>PP值</b>，消耗成功后有20%*已损失PP值的概率<color=#64F9FA>令双方麻痹</color>\r\n<indent=32><sprite=4><indent=48>自身处于麻痹时对自身附加的麻痹改为使之回合数+1\r\n<indent=32><sprite=4><indent=48>对对手附加的麻痹未触发则<color=#64F9FA>附加</color>70点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，若自身处于麻痹或超频则将自身所处的所有异常状态<color=#64F9FA>转化</color>为超频\r\n<indent=32><sprite=4><indent=48>然后自身每有1回合超频受到70点<b>真实伤害</b>，最高不超过自身的体力值",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4716,
+      "url": "https://api.seerapi.com/v1/pet/4716/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2336,
+      "url": "https://api.seerapi.com/v1/eid_effect/2336/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6a41ba31"
+}

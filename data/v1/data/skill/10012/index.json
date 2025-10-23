@@ -1,0 +1,33 @@
+{
+  "id": 10012,
+  "name": "强力吸取",
+  "power": 40,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "给予对方损伤的一半会回复自己的体力",
+      "args": [],
+      "effect": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e9a41b5d"
+}

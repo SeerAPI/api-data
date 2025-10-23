@@ -1,0 +1,37 @@
+{
+  "id": 36515,
+  "name": "星汉璀璨",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 117,
+    "url": "https://api.seerapi.com/v1/element_type_combination/117/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机附加烧伤，冻伤，失明，失神中的2种异常状态，未触发则自身下1回合造成的伤害提升100%",
+      "args": [
+        2,
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1498,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1498/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d86855db"
+}

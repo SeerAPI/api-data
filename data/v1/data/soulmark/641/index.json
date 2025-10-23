@@ -1,0 +1,38 @@
+{
+  "id": 641,
+  "desc": "自身使用攻击技能则清除对手回合类效果；自身使用属性技能则下2回合自身先制+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3316,
+      "url": "https://api.seerapi.com/v1/pet/3316/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 925,
+      "url": "https://api.seerapi.com/v1/eid_effect/925/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "bb5d58af"
+}

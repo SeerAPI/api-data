@@ -1,0 +1,43 @@
+{
+  "id": 30464,
+  "name": "明光盛世耀",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将自身的能力下降状态双倍反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 813,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/813/"
+      }
+    },
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7b01b027"
+}

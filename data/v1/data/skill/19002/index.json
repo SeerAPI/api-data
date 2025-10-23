@@ -1,0 +1,51 @@
+{
+  "id": 19002,
+  "name": "焱皇烈焰",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33/"
+      }
+    },
+    {
+      "info": "将能力下降状态反馈给对手",
+      "args": [],
+      "effect": {
+        "id": 63,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/63/"
+      }
+    },
+    {
+      "info": "使用时若有一方处于烧伤状态，则必定威力翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 758,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/758/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8c08516a"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 27989,
+  "name": "衍生怨灵",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "使自身随机3项属性提升",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机使自身3项能力值+1，先出手时提升效果翻倍",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 1467,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1467/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "34afdf22"
+}

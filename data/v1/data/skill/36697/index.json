@@ -1,0 +1,52 @@
+{
+  "id": 36697,
+  "name": "醇香调制",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 83,
+    "url": "https://api.seerapi.com/v1/element_type_combination/83/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能无效时，免疫下1次受到的攻击，免疫成功则令对手全属性+1",
+      "args": [],
+      "effect": {
+        "id": 2006,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2006/"
+      }
+    },
+    {
+      "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+      "args": [],
+      "effect": {
+        "id": 1164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1164/"
+      }
+    },
+    {
+      "info": "10%的概率秒杀对手，未触发则令对手全属性-1",
+      "args": [
+        10,
+        1
+      ],
+      "effect": {
+        "id": 1318,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1318/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "387157b0"
+}

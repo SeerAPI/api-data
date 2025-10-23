@@ -1,0 +1,35 @@
+{
+  "id": 159,
+  "desc": "自身处于能力提升状态时使用攻击技能50%概率威力翻倍；对手每回合减少100HP",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2803,
+      "url": "https://api.seerapi.com/v1/pet/2803/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      50,
+      100,
+      100
+    ],
+    "effect": {
+      "id": 380,
+      "url": "https://api.seerapi.com/v1/eid_effect/380/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1fc44eeb"
+}

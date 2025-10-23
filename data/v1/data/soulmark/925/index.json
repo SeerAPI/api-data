@@ -1,0 +1,43 @@
+{
+  "id": 925,
+  "desc": "回合开始时，若自身体力高于对手则当回合受到攻击100%令对手害怕，若自身体力低于对手则当回合必定打出致命一击且战斗阶段结束时恢复自身最大体力的1/3（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3636,
+      "url": "https://api.seerapi.com/v1/pet/3636/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      6,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1212,
+      "url": "https://api.seerapi.com/v1/eid_effect/1212/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4f62e90e"
+}

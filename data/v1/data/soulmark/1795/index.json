@@ -1,0 +1,44 @@
+{
+  "id": 1795,
+  "desc": "奇数回合对手攻击时70%闪避对手的攻击，偶数回合自身受到攻击后70%令对手麻痹；自身先出手时下回合攻击技能先制+1且必定打出致命一击，自身后出手时造成伤害提升50%且无视对手能力提升状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场后：\r\n<indent=32><sprite=4><indent=48>奇数回合70%<color=#64F9FA>闪避</color>对手的攻击\r\n<indent=32><sprite=4><indent=48>偶数回合受到攻击后70%<color=#64F9FA>令对手麻痹</color>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时下回合攻击技能<b>先制</b>+1且必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身后出手时造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%且无视对手能力提升状态",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4587,
+      "url": "https://api.seerapi.com/v1/pet/4587/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      70,
+      1,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 2187,
+      "url": "https://api.seerapi.com/v1/eid_effect/2187/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "666f34fd"
+}

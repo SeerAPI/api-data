@@ -1,0 +1,45 @@
+{
+  "id": 36674,
+  "name": "慵懒沉眠",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下1回合自身造成的攻击伤害翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776/"
+      }
+    },
+    {
+      "info": "为自身附加200点护盾",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 847,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/847/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "545b8c1"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 23445,
+  "name": "一骑当千",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击变得更加凌厉，浑身被激烈的斗气包围了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "下2回合自身攻击技能必定打出致命一击",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58/"
+      }
+    },
+    {
+      "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/3",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 138,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/138/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f9782f0c"
+}

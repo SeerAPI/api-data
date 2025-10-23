@@ -1,0 +1,46 @@
+{
+  "id": 37625,
+  "name": "幽凝",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 84,
+    "url": "https://api.seerapi.com/v1/element_type_combination/84/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 736,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/736/"
+      }
+    },
+    {
+      "info": "40%令对手冰封，自身处于能力提升状态时概率翻倍",
+      "args": [
+        40,
+        15
+      ],
+      "effect": {
+        "id": 1424,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1424/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9a0b951a"
+}

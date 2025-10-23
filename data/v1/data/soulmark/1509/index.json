@@ -1,0 +1,41 @@
+{
+  "id": 1509,
+  "desc": "每次登场时若场上没有龙械图腾，则启动龙械图腾，图腾在龙仪·机械塔克林下场后可以独立存在2回合；战斗阶段结束时若龙仪·机械塔克林满足以下条件，则图腾开启对应庇护直到图腾消失或技能解放：|①.处于控制类异常状态时，开启贤之庇护；|②.处于能力下降状态时，开启威之庇护；|③.第五技能外存在技能PP值为0时，开启霸之庇护；|同种庇护不会重复开启，当庇护开启于登场首回合时，令对手下回合先制效果失效，且最近一次启动的龙械图腾存在期间自身若未使用过第五技能仪·英魂不朽，则每个战斗阶段结束时恢复自身所有技能1点PP值|（所有特效boss无效）|龙械图腾：己方在场精灵受到的攻击克制倍数最高为2倍；|贤之庇护：开启时解除自身当前所处的所有控制类异常状态，己方在场精灵开始免疫其中的随机3种控制类异常状态，且每个战斗阶段结束时恢复300点体力；|威之庇护：开启后对手下回合使用的所有技能先制-1，且己方在场精灵每回合开始时获得300点护罩；|霸之庇护：开启后令对手下回合无法主动切换精灵（该效果为回合类效果），且己方在场精灵每回合开始时获得300点护盾",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果： \r\n<indent=16><sprite=3><indent=32>登场时若己方场上没有龙械图腾则启动<b>龙械图腾</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果： \r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若龙仪·机械塔克林满足以下条件，则龙械图腾触发对应效果并获得对应的庇护：\r\n<indent=32><sprite=4><indent=48>贤之庇护：处于控制类异常状态时，<color=#64F9FA>解除</color>己方在场精灵所处的<b>控制类异常状态</b>并随机记录其中的至多3种\r\n<indent=32><sprite=4><indent=48>威之庇护：处于能力下降状态时，令对手下回合所有技能<b>先制</b>-1\r\n<indent=32><sprite=4><indent=48>霸之庇护：第五技能外存在技能PP为0时，令对方下回合<color=#64F9FA>无法主动切换精灵</color>\r\n<indent=16><sprite=3><indent=32>庇护开启于自身登场首回合时令对手下回合<color=#64F9FA>先制效果失效</color>，且自身每个战斗阶段结束时<color=#64F9FA>恢复</color>所有技能1点<b>PP值</b>直到自身下场或庇护消失\r\n\r\n<indent=0><sprite=5><indent=16>龙械图腾： \r\n<indent=16><sprite=6><indent=32>己方所受攻击<b>克制倍数</b>不高于2\r\n<indent=16><sprite=6><indent=32>机械塔克林不在场2回合后龙械图腾消失 \r\n\r\n<indent=0><sprite=5><indent=16>贤之庇护： \r\n<indent=16><sprite=6><indent=32>己方在场精灵免疫龙械图腾记录的异常状态且每个战斗阶段结束时<color=#64F9FA>恢复</color>300点<b>体力 </b>\r\n\r\n<indent=0><sprite=5><indent=16>威之庇护： \r\n<indent=16><sprite=6><indent=32>己方在场精灵每个回合开始时<color=#64F9FA>获得</color>300点<b>护罩</b>\r\n\r\n<indent=0><sprite=5><indent=16>霸之庇护： \r\n<indent=16><sprite=6><indent=32>己方在场精灵每个回合开始时<color=#64F9FA>获得</color>300点<b>护盾</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4288,
+      "url": "https://api.seerapi.com/v1/pet/4288/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1874,
+      "url": "https://api.seerapi.com/v1/eid_effect/1874/"
+    }
+  },
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b734c942"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 16425,
+  "name": "元素弹",
+  "power": 80,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时100%自身攻击等级+1",
+      "args": [
+        0,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 474,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/474/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8114a833"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 989,
+  "desc": "自身攻击技能50%的概率打出致命一击且50%的概率附加对手最大体力1/3的固定伤害，自身受到攻击则下1次攻击技能100%的概率打出致命一击且100%的概率附加对手最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3712,
+      "url": "https://api.seerapi.com/v1/pet/3712/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      3,
+      1,
+      100,
+      100,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1288,
+      "url": "https://api.seerapi.com/v1/eid_effect/1288/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "622793a5"
+}

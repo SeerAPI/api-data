@@ -1,0 +1,47 @@
+{
+  "id": 16274,
+  "name": "苍白月瀑",
+  "power": 120,
+  "max_pp": 15,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 46,
+    "url": "https://api.seerapi.com/v1/element_type_combination/46/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，25%改变对手防御等级-1",
+      "args": [
+        1,
+        25,
+        -1
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "命中后25%令对手睡眠",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 16,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/16/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4424f2e4"
+}

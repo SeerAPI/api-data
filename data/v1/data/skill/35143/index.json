@@ -1,0 +1,46 @@
+{
+  "id": 35143,
+  "name": "寒龙调",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 43,
+    "url": "https://api.seerapi.com/v1/element_type_combination/43/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 928,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/928/"
+      }
+    },
+    {
+      "info": "3回合内若对手使用攻击技能，则使用攻击技能后的下2回合属性技能命中效果失效",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 1165,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1165/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ccb109d7"
+}

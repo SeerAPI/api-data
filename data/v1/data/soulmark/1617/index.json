@@ -1,0 +1,43 @@
+{
+  "id": 1617,
+  "desc": "1.作为至序圣华发动处决的力量之源，圣律剑灵每次登场时对手每存在1层处决印记，则登场2回合内自身受到的伤害减少20%（包括固定伤害、百分比伤害），同时为对手在场精灵附加1层处决印记（最多2层）；|2.作为至序圣华召唤圣剑的力量之源，圣律剑灵每次登场时都会根据双方场上的圣剑总数开启如下效果，持续到自身下场：|1柄：造成的攻击伤害提升10%，每增加1柄额外提升10%；|2柄：受到的攻击伤害减少10%，每增加1柄额外减少10%；|3柄：所有技能先制额外+1；|4柄及以上：免疫所有异常状态；|3.圣律剑灵在场且处于己方圣剑重铸期间时，令对手所有体力恢复效果减少100%且使用体力药剂时效果变成减少相应的体力，同时所有技能造成的攻击伤害不会出现微弱且对手每存在1层处决印记额外附加100点真实伤害；|4.圣律剑灵每次击败对手时，若对手存在处决印记则令自身全属性+1，若对手不存在处决印记则为对手下只出战精灵附加1层处决印记|（所有特效boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>作为至序圣华的神力之源，圣律剑灵每次登场时：\r\n<indent=32><sprite=4><indent=48>根据对手所处的处决印记数量触发<color=#64F9FA>对应</color>的效果：\r\n<indent=32><sprite=4><sprite=4><indent=64>0层：为对手附加1层<b>处决印记</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>1层：为对手附加1层<b>处决印记</b>；2回合内受到的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>减少</color>20% \r\n<indent=32><sprite=4><sprite=4><indent=64>2层：为对手附加1层<b>处决印记</b>；2回合内受到的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>减少</color>40% \r\n<indent=32><sprite=4><indent=48>根据双方场上的圣剑数量总和触发<color=#64F9FA>累计</color>的效果：\r\n<indent=32><sprite=4><sprite=4><indent=64>1柄：造成的<b>攻击伤害<color=#64F9FA></b>提升</color>10%，每超出1柄都额外提升10%\r\n<indent=32><sprite=4><sprite=4><indent=64>2柄：受到的<b>攻击伤害<color=#64F9FA></b>减少</color>10%，每超出1柄都额外减少10%\r\n<indent=32><sprite=4><sprite=4><indent=64>3柄：所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><sprite=4><indent=64>4柄及以上：<color=#64F9FA>免疫</color>所有<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>圣律剑灵在场且处于己方圣剑重铸期间时：\r\n<indent=32><sprite=4><indent=48>令对手<b>体力恢复效果<color=#64F9FA></b>减少</color>100%且<color=#64F9FA>药剂效果中的体力增加变为体力减少</color>\r\n<indent=32><sprite=4><indent=48>自身所有技能<color=#64F9FA>附加</color>等同于对手所处的处决印记数量*100的<b>真实伤害</b>且造成的<b>攻击伤害<color=#64F9FA></b>不会出现微弱</color>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>圣律剑灵每次击败对手时：\r\n<indent=32><sprite=4><indent=48>若对手存在处决印记则令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>若对手不存在处决印记则为对手下只出战精灵附加1层处决印记\r\n\r\n<indent=0><sprite=5><indent=15>处决印记（上限2层，下场保留）：\r\n<indent=16><sprite=6><indent=32>至序圣华、圣律剑灵用以触发额外效果的条件\r\n<indent=16><sprite=6><indent=32>持有精灵被击败时清空",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4400,
+      "url": "https://api.seerapi.com/v1/pet/4400/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      100,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1972,
+      "url": "https://api.seerapi.com/v1/eid_effect/1972/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6b4a7dde"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1556,
+  "desc": "自身每次使用攻击技能额外附加等同于敌我双方当前体力值之差的固定伤害，若体力值之差低于300则100%令对手失明，若体力值之差高于300则100%令对手失神；|回合开始时若自身体力低于对手则所有技能额外先制+1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能<color=#64F9FA>附加</color>等同于双方当前体力值之差的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若体力值之差低于300则100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>若体力值之差高于300则100%<color=#64F9FA>令对手失神</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则所有技能额外<b>先制</b>+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4330,
+      "url": "https://api.seerapi.com/v1/pet/4330/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      100,
+      300,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1915,
+      "url": "https://api.seerapi.com/v1/eid_effect/1915/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "be88fff2"
+}

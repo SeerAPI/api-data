@@ -1,0 +1,67 @@
+{
+  "id": 36471,
+  "name": "镜·灼渊龙息",
+  "power": 240,
+  "max_pp": 3,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/element_type_combination/28/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "将对手攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "args": [],
+      "effect": {
+        "id": 1538,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1538/"
+      }
+    },
+    {
+      "info": "使对手全属性-1，未触发则对手烧伤",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1122,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1122/"
+      }
+    },
+    {
+      "info": "100%令对手焚烬，未触发则令对手2回合内使用的属性技能无效",
+      "args": [
+        100,
+        22,
+        2
+      ],
+      "effect": {
+        "id": 936,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/936/"
+      }
+    },
+    {
+      "info": "连续使用时威力提升50%，最高提升100%",
+      "args": [
+        50,
+        100
+      ],
+      "effect": {
+        "id": 1443,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1443/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "34a12be8"
+}

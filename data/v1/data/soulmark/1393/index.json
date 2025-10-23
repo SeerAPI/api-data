@@ -1,0 +1,41 @@
+{
+  "id": 1393,
+  "desc": "回合开始时若对手处于烧伤状态则当回合自身攻击50%打出致命一击；自身造成的攻击伤害小于200则100%令对手烧伤，自身造成的攻击伤害大于200则50%令对手害怕（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于烧伤状态则当回合自身攻击50%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害小于200则100%<color=#64F9FA>令对手烧伤</color>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害大于200则50%<color=#64F9FA>令对手害怕</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4168,
+      "url": "https://api.seerapi.com/v1/pet/4168/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      200,
+      100,
+      200,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1758,
+      "url": "https://api.seerapi.com/v1/eid_effect/1758/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "da884275"
+}

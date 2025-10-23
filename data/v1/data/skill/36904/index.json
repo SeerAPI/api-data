@@ -1,0 +1,49 @@
+{
+  "id": 36904,
+  "name": "光影明灭",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手疲惫，未触发则吸取对手能力提升状态",
+      "args": [
+        50,
+        7
+      ],
+      "effect": {
+        "id": 1482,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1482/"
+      }
+    },
+    {
+      "info": "50%令对手害怕，未触发则1回合内每回合50%闪避对手攻击",
+      "args": [
+        50,
+        6,
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1390,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1390/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "68330398"
+}

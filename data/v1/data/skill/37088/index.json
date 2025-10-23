@@ -1,0 +1,58 @@
+{
+  "id": 37088,
+  "name": "往生虚冥叹",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 224,
+    "url": "https://api.seerapi.com/v1/element_type_combination/224/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 797,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/797/"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的20%，每次使用增加5%，最高40%",
+      "args": [
+        20,
+        5,
+        40
+      ],
+      "effect": {
+        "id": 1233,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1233/"
+      }
+    },
+    {
+      "info": "交换命起、魂落的层数，未击败对手自身每有1层命起下次攻击威力提升40点，每有1层魂落下次攻击先制+1",
+      "args": [
+        40,
+        1
+      ],
+      "effect": {
+        "id": 2108,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2108/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a702e1aa"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 34511,
+  "name": "凌霜之白",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 64,
+    "url": "https://api.seerapi.com/v1/element_type_combination/64/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "当回合未击败对手则有30%将对手所有技能PP值降为0",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 739,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/739/"
+      }
+    },
+    {
+      "info": "若本回合击败对手，下回合对方出场精灵攻击",
+      "args": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "effect": {
+        "id": 601,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/601/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "fc547921"
+}

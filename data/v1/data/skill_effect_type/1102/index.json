@@ -1,0 +1,69 @@
+{
+  "id": 1102,
+  "args_num": 3,
+  "info": "{0}回合内若对手使用属性技能则{1}，未触发则减少对手1/{2}最大体力",
+  "info_formatting_adjustment": "{0}回合内，<condition>若对手使用属性技能</condition>则{1}\r\n--><condition>未触发</condition>则减少对手1/{2}最大体力",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 25303,
+      "url": "https://api.seerapi.com/v1/skill/25303/"
+    },
+    {
+      "id": 25738,
+      "url": "https://api.seerapi.com/v1/skill/25738/"
+    },
+    {
+      "id": 26317,
+      "url": "https://api.seerapi.com/v1/skill/26317/"
+    },
+    {
+      "id": 27513,
+      "url": "https://api.seerapi.com/v1/skill/27513/"
+    },
+    {
+      "id": 27544,
+      "url": "https://api.seerapi.com/v1/skill/27544/"
+    },
+    {
+      "id": 27625,
+      "url": "https://api.seerapi.com/v1/skill/27625/"
+    },
+    {
+      "id": 27679,
+      "url": "https://api.seerapi.com/v1/skill/27679/"
+    },
+    {
+      "id": 27685,
+      "url": "https://api.seerapi.com/v1/skill/27685/"
+    },
+    {
+      "id": 28576,
+      "url": "https://api.seerapi.com/v1/skill/28576/"
+    },
+    {
+      "id": 28793,
+      "url": "https://api.seerapi.com/v1/skill/28793/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "63338a8"
+}

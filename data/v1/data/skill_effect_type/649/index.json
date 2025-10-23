@@ -1,0 +1,36 @@
+{
+  "id": 649,
+  "args_num": 4,
+  "info": "{0}回合内受到攻击则有{1}%概率{2}{3}",
+  "info_formatting_adjustment": null,
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 0,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/0/"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/14/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 23501,
+      "url": "https://api.seerapi.com/v1/skill/23501/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "361caf19"
+}

@@ -1,0 +1,38 @@
+{
+  "id": 444,
+  "desc": "每回合开始时都有50%的概率使自身先制额外+2；先出手时，使对手随机1个技能的PP值归零",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3097,
+      "url": "https://api.seerapi.com/v1/pet/3097/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 759,
+      "url": "https://api.seerapi.com/v1/eid_effect/759/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2eefd360"
+}

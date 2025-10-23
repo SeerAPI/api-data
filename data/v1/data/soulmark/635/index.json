@@ -1,0 +1,42 @@
+{
+  "id": 635,
+  "desc": "自身不处于双防强化状态时免疫异常状态；若自身先出手则使对手随机1个技能的PP值归零，若自身后出手则附加自身双防能力值总和25%的固定伤害并恢复等量体力（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3308,
+      "url": "https://api.seerapi.com/v1/pet/3308/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      25,
+      1
+    ],
+    "effect": {
+      "id": 918,
+      "url": "https://api.seerapi.com/v1/eid_effect/918/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c8a175e8"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 1316,
+  "desc": "对手每次恢复体力则自身在战斗阶段结束时获得等量的体力恢复值，当前体力低于最大体力的1/3时恢复效果提升50%",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次恢复体力则自身在战斗阶段结束时<color=#64F9FA>受到</color>等量的体力恢复\r\n<indent=32><sprite=4><indent=48>体力低于最大体力的1/3时恢复效果提升50%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4070,
+      "url": "https://api.seerapi.com/v1/pet/4070/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      50
+    ],
+    "effect": {
+      "id": 1661,
+      "url": "https://api.seerapi.com/v1/eid_effect/1661/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7f11e2a1"
+}

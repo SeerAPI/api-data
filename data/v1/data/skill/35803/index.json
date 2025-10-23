@@ -1,0 +1,56 @@
+{
+  "id": 35803,
+  "name": "原野桩木触",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 22,
+    "url": "https://api.seerapi.com/v1/element_type_combination/22/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则随机附加1种异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1332,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1332/"
+      }
+    },
+    {
+      "info": "攻击结束时附加对手双防之和40%的百分比伤害",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 967,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/967/"
+      }
+    },
+    {
+      "info": "当回合击败对手时，对方下只精灵出战时100%中毒",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 698,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/698/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "aab832aa"
+}

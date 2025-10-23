@@ -1,0 +1,56 @@
+{
+  "id": 25898,
+  "name": "轮回之狱",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "轮回之狱开启，对手将被囚禁；对手使用攻击技能则减少对方所有精灵体力，对手使用属性技能则恢复己方所有精灵体力；自身回合类效果开始无法被消除，受到的伤害也大幅度减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每次对手造成的攻击伤害低于300则减少对手所有不在场精灵100点体力，每次对手使用属性技能则恢复己方所有不在场精灵100点体力，使对手不在场精灵死亡时令其残留1点体力",
+      "args": [],
+      "effect": {
+        "id": 1299,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1299/"
+      }
+    },
+    {
+      "info": "3回合内自身的回合类效果无法被消除，后出手时回合数+1",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 821,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/821/"
+      }
+    },
+    {
+      "info": "3回合内受到的攻击伤害减少50%，受到的伤害高于280时随机附加2种异常状态，未触发则消除对手回合类效果",
+      "args": [
+        3,
+        50,
+        280,
+        2
+      ],
+      "effect": {
+        "id": 1300,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1300/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7e428b32"
+}

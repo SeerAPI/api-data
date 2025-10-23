@@ -1,0 +1,33 @@
+{
+  "id": 116,
+  "desc": "若本回合自身造成的攻击伤害为0，则本战斗阶段结束时{吸取}对手最大{体力}的1/3",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2702,
+      "url": "https://api.seerapi.com/v1/pet/2702/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      3
+    ],
+    "effect": {
+      "id": 341,
+      "url": "https://api.seerapi.com/v1/eid_effect/341/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "64a245"
+}

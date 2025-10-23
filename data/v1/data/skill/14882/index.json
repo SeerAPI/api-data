@@ -1,0 +1,35 @@
+{
+  "id": 14882,
+  "name": "麻痹毒气",
+  "power": 120,
+  "max_pp": 15,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后40%令对方中毒",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/11/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5d8c6a8e"
+}

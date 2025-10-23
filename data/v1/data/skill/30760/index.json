@@ -1,0 +1,45 @@
+{
+  "id": 30760,
+  "name": "赤红爆破",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 47,
+    "url": "https://api.seerapi.com/v1/element_type_combination/47/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令对手烧伤",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 889,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/889/"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则附加200点固定伤害",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 1170,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1170/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c4090e8b"
+}

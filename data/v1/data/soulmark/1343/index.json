@@ -1,0 +1,43 @@
+{
+  "id": 1343,
+  "desc": "后出手时自身当回合受到的攻击伤害减少200点且战斗阶段结束时恢复200点体力；|自身每使用一次攻击技能则从下回合起自身在本场战斗中造成的攻击伤害提高20%，最高可叠加至100%（boss有效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>后出手时自身当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>200点且战斗阶段结束时<color=#64F9FA>恢复</color>200点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每使用一次攻击技能则从下回合起自身本场战斗造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%，最高可叠加至100%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4110,
+      "url": "https://api.seerapi.com/v1/pet/4110/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      200,
+      20,
+      100
+    ],
+    "effect": {
+      "id": 1695,
+      "url": "https://api.seerapi.com/v1/eid_effect/1695/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "71f9d0b2"
+}

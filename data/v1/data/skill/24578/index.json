@@ -1,0 +1,48 @@
+{
+  "id": 24578,
+  "name": "强袭月光",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击变得更加暴戾；每回合特攻都会得到提高；",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合都能附加150点固定伤害",
+      "args": [
+        3,
+        150
+      ],
+      "effect": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/60/"
+      }
+    },
+    {
+      "info": "下回合起，每回合特攻等级+1，持续3回合",
+      "args": [
+        2,
+        1,
+        3
+      ],
+      "effect": {
+        "id": 407,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/407/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5d4f1b22"
+}

@@ -1,0 +1,47 @@
+{
+  "id": 34300,
+  "name": "影随暗香",
+  "power": 5,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 92,
+    "url": "https://api.seerapi.com/v1/element_type_combination/92/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1199/"
+      }
+    },
+    {
+      "info": "1回合做15-30次攻击，自身体力低于对手时连击上限为40",
+      "args": [
+        15,
+        30,
+        40
+      ],
+      "effect": {
+        "id": 1593,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1593/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9b0b205a"
+}

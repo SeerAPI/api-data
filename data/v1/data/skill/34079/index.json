@@ -1,0 +1,37 @@
+{
+  "id": 34079,
+  "name": "禁灵之咒",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 98,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 97,
+    "url": "https://api.seerapi.com/v1/element_type_combination/97/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "造成的伤害高于300则100%随机附加1种异常状态",
+      "args": [
+        300,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 1291,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1291/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4f36b9b9"
+}

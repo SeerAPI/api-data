@@ -1,0 +1,35 @@
+{
+  "id": 15693,
+  "name": "幽蓝幻光",
+  "power": 70,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 1,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后25%令对方害怕",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f5f8b184"
+}

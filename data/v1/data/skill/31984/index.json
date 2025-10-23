@@ -1,0 +1,38 @@
+{
+  "id": 31984,
+  "name": "浮光掠影",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 90,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 72,
+    "url": "https://api.seerapi.com/v1/element_type_combination/72/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手是雄性则造成伤害提升80%,若对手不是雄性，则有80%概率使对手害怕",
+      "args": [
+        1,
+        80,
+        80,
+        6
+      ],
+      "effect": {
+        "id": 600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/600/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6af489fb"
+}

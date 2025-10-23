@@ -1,0 +1,45 @@
+{
+  "id": 28618,
+  "name": "萧风扬尘",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "恢复了一定的体力；自身攻击开始慢慢提升",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复自身n点体力（n=双方当前护盾值总和）",
+      "args": [],
+      "effect": {
+        "id": 1497,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1497/"
+      }
+    },
+    {
+      "info": "下回合起，每回合攻击等级+1，持续3回合",
+      "args": [
+        0,
+        1,
+        3
+      ],
+      "effect": {
+        "id": 407,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/407/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "67676feb"
+}

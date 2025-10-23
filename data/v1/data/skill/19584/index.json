@@ -1,0 +1,35 @@
+{
+  "id": 19584,
+  "name": "巨浪淹沉",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/element_type_combination/2/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手全属性-1，先出手时效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 938,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/938/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6db5f40d"
+}

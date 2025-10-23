@@ -1,0 +1,56 @@
+{
+  "id": 35105,
+  "name": "跨时空漫步",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 38,
+    "url": "https://api.seerapi.com/v1/element_type_combination/38/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则自身下1回合造成的攻击伤害额外提升100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1124,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1124/"
+      }
+    },
+    {
+      "info": "使对手全属性-1，先出手时效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 938,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/938/"
+      }
+    },
+    {
+      "info": "造成的伤害提升，伤害提升的倍数等于对手能力下降等级总和乘以10%",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 858,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/858/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "75f0ad8c"
+}

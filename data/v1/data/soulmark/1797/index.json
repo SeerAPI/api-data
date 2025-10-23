@@ -1,0 +1,41 @@
+{
+  "id": 1797,
+  "desc": "自身登场时若对手体力为满则令对手烧伤1回合，对手每有1个技能PP值为满烧伤的回合数+1，对手处于烧伤状态时无法消除自身的能力提升状态，自身处于烧伤状态时抵挡对手的攻击；|自身使用攻击技能后令对手烧伤，若对手已处于烧伤则改为失明，若本次攻击未造成伤害或自身处于烧伤状态则额外令对手焚烬（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场时若对手体力为满则<color=#64F9FA>令对手烧伤</color>1回合，对手每有1个技能PP值为满烧伤的回合数+1\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手处于烧伤状态时<color=#64F9FA>无法消除</color>自身的<b>能力提升状态</b>\r\n<indent=16><sprite=3><indent=32>自身处于烧伤状态时<color=#64F9FA>抵挡</color>对手的<b>攻击</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>若对手已处于烧伤则改为失明\r\n<indent=32><sprite=4><indent=48>若本次攻击未造成伤害或自身处于烧伤状态则额外<color=#64F9FA>令对手焚烬</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4589,
+      "url": "https://api.seerapi.com/v1/pet/4589/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2190,
+      "url": "https://api.seerapi.com/v1/eid_effect/2190/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1864,
+    "url": "https://api.seerapi.com/v1/soulmark/1864/"
+  },
+  "from": null,
+  "hash": "35b0b79a"
+}

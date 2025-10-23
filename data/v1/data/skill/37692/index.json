@@ -1,0 +1,57 @@
+{
+  "id": 37692,
+  "name": "嚣尘两袖却",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 2,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 48,
+    "url": "https://api.seerapi.com/v1/element_type_combination/48/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手全属性-1，未触发则对手害怕",
+      "args": [
+        1,
+        6
+      ],
+      "effect": {
+        "id": 1122,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1122/"
+      }
+    },
+    {
+      "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1355,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1355/"
+      }
+    },
+    {
+      "info": "下2回合攻击技能打出致命一击后自身免疫下1次受到的异常状态",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 2054,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2054/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "77962a34"
+}

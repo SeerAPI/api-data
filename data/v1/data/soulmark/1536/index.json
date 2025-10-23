@@ -1,0 +1,45 @@
+{
+  "id": 1536,
+  "desc": "回合开始时，对手每处于1种能力下降状态则自身造成的攻击伤害提升10%，若对手不处于能力下降状态则自身攻击命中后50%令对手石化；|自身死亡后反转对手能力提升状态，反转成功则令对手下回合所有技能先制-1，若对手不处于能力提升状态则令对手全属性-1（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时对手每处于1种能力下降状态则自身当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%\r\n<indent=32><sprite=4><indent=48>若对手不处于能力下降状态则自身攻击命中后50%<color=#64F9FA>令对手石化</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后<color=#64F9FA>反转</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>反转成功则令对手下回合所有技能<b>先制</b>-1\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则令对手<color=#64F9FA>全属性-1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4316,
+      "url": "https://api.seerapi.com/v1/pet/4316/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      10,
+      50,
+      1,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1900,
+      "url": "https://api.seerapi.com/v1/eid_effect/1900/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4eb291da"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 763,
+  "desc": "先出手时使自身特攻+1速度+1且战斗阶段结束时恢复自身最大体力的1/4，后出手时使对手特特防-1速度-1且战斗阶段结束时附加对手最大体力1/4的固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3451,
+      "url": "https://api.seerapi.com/v1/pet/3451/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      4,
+      1,
+      1,
+      4,
+      1
+    ],
+    "effect": {
+      "id": 1044,
+      "url": "https://api.seerapi.com/v1/eid_effect/1044/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "603e724b"
+}

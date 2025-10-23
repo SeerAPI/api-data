@@ -1,0 +1,46 @@
+{
+  "id": 797,
+  "desc": "攻击有50%概率附加对手最大体力1/3的固定伤害，未触发则自身下1次攻击必定致命一击；受到攻击时有50%的概率减少250点受到的攻击伤害，未触发则战斗阶段结束时{吸取}对手最大{体力}的1/3（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3487,
+      "url": "https://api.seerapi.com/v1/pet/3487/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      3,
+      1,
+      50,
+      250,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1084,
+      "url": "https://api.seerapi.com/v1/eid_effect/1084/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b73f0b89"
+}

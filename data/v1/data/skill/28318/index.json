@@ -1,0 +1,33 @@
+{
+  "id": 28318,
+  "name": "岳·命寻星叹",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 3,
+  "must_hit": true,
+  "info": "穹明号，与我同在！",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，消除对手回合类效果，消除成功则令己方下只精灵出战时恢复全部体力，消除对手能力提升状态，消除成功则令己方下只精灵出战时恢复所有技能PP值",
+      "args": [],
+      "effect": {
+        "id": 1979,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1979/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e62560a1"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 991,
+  "desc": "增加20点攻击上限和20点特攻上限；在战斗中，攻击和特攻等于其中较高的一项；自身体力低于对手时，若使用物理攻击则必定打出致命一击，若使用特殊攻击则附加自身最大体力1/3的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3713,
+      "url": "https://api.seerapi.com/v1/pet/3713/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      20,
+      20,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1289,
+      "url": "https://api.seerapi.com/v1/eid_effect/1289/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "6bf4867a"
+}

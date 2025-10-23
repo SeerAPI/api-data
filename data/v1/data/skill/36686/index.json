@@ -1,0 +1,45 @@
+{
+  "id": 36686,
+  "name": "暴雨倾泻",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1114,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1114/"
+      }
+    },
+    {
+      "info": "附加对手当前已损失技能PP值总和×25的固定伤害，若对手未受到固定伤害则额外附加等量的真实伤害",
+      "args": [
+        25
+      ],
+      "effect": {
+        "id": 1668,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1668/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "19db5982"
+}

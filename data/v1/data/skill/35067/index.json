@@ -1,0 +1,57 @@
+{
+  "id": 35067,
+  "name": "鎏光火雨",
+  "power": 15,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 108,
+    "url": "https://api.seerapi.com/v1/element_type_combination/108/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后100%令对方烧伤",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/12/"
+      }
+    },
+    {
+      "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1108,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1108/"
+      }
+    },
+    {
+      "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "args": [
+        2,
+        -2
+      ],
+      "effect": {
+        "id": 425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/425/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d8c84d01"
+}

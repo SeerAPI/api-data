@@ -1,0 +1,33 @@
+{
+  "id": 1788,
+  "args_num": 3,
+  "info": "{0}%令对手{1}，未触发则附加自身最大体力{2}%的百分比伤害，若对手免疫百分比伤害则转变为真实伤害",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则附加自身最大体力{2}%的百分比伤害\r\n---><condition>若对手免疫百分比伤害</condition>则转变为真实伤害",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 35793,
+      "url": "https://api.seerapi.com/v1/skill/35793/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "627b7a2d"
+}

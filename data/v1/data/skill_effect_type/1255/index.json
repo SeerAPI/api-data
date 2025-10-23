@@ -1,0 +1,81 @@
+{
+  "id": 1255,
+  "args_num": 4,
+  "info": "{0}回合内每回合使用技能则{1}%令对手{2}，未触发则附加对手最大体力1/{3}的百分比伤害",
+  "info_formatting_adjustment": "{0}回合内每回合使用技能{1}%令对手{2}\r\n--><condition>未触发</condition>则附加对手最大体力1/{3}的百分比伤害",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 25744,
+      "url": "https://api.seerapi.com/v1/skill/25744/"
+    },
+    {
+      "id": 25977,
+      "url": "https://api.seerapi.com/v1/skill/25977/"
+    },
+    {
+      "id": 25995,
+      "url": "https://api.seerapi.com/v1/skill/25995/"
+    },
+    {
+      "id": 26031,
+      "url": "https://api.seerapi.com/v1/skill/26031/"
+    },
+    {
+      "id": 26323,
+      "url": "https://api.seerapi.com/v1/skill/26323/"
+    },
+    {
+      "id": 27010,
+      "url": "https://api.seerapi.com/v1/skill/27010/"
+    },
+    {
+      "id": 27871,
+      "url": "https://api.seerapi.com/v1/skill/27871/"
+    },
+    {
+      "id": 28566,
+      "url": "https://api.seerapi.com/v1/skill/28566/"
+    },
+    {
+      "id": 28819,
+      "url": "https://api.seerapi.com/v1/skill/28819/"
+    },
+    {
+      "id": 29017,
+      "url": "https://api.seerapi.com/v1/skill/29017/"
+    },
+    {
+      "id": 29057,
+      "url": "https://api.seerapi.com/v1/skill/29057/"
+    },
+    {
+      "id": 29169,
+      "url": "https://api.seerapi.com/v1/skill/29169/"
+    },
+    {
+      "id": 36297,
+      "url": "https://api.seerapi.com/v1/skill/36297/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "bb13b1"
+}

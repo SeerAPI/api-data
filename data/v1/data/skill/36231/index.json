@@ -1,0 +1,43 @@
+{
+  "id": 36231,
+  "name": "银空剑决",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 104,
+    "url": "https://api.seerapi.com/v1/element_type_combination/104/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则先制+1",
+      "args": [],
+      "effect": {
+        "id": 828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/828/"
+      }
+    },
+    {
+      "info": "先出手时使对手2回合属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1284,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1284/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f364a490"
+}

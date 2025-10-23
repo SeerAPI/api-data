@@ -1,0 +1,49 @@
+{
+  "id": 37333,
+  "name": "光羽回芒喙",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 31,
+    "url": "https://api.seerapi.com/v1/element_type_combination/31/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果并为双方附加3回合烧伤，自身烧伤状态解除后则恢复自身所有体力",
+      "args": [
+        3,
+        2,
+        2
+      ],
+      "effect": {
+        "id": 1139,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1139/"
+      }
+    },
+    {
+      "info": "10%的概率威力3倍，若未触发则下回合自身先制+3",
+      "args": [
+        10,
+        3,
+        3
+      ],
+      "effect": {
+        "id": 975,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/975/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1ffca8d3"
+}

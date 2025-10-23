@@ -1,0 +1,41 @@
+{
+  "id": 1837,
+  "args_num": 3,
+  "info": "{0}%令对手{1}，未触发则令自身全属性-{2}",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则令自身全属性-{2}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28032,
+      "url": "https://api.seerapi.com/v1/skill/28032/"
+    },
+    {
+      "id": 36670,
+      "url": "https://api.seerapi.com/v1/skill/36670/"
+    },
+    {
+      "id": 38076,
+      "url": "https://api.seerapi.com/v1/skill/38076/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    },
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "479a055c"
+}

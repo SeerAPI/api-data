@@ -1,0 +1,57 @@
+{
+  "id": 36748,
+  "name": "逝洪荒",
+  "power": 100,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": "山河凋逝，绝息洪荒！",
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 98,
+    "url": "https://api.seerapi.com/v1/element_type_combination/98/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则令自身下回合所有技能先制+3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 880,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/880/"
+      }
+    },
+    {
+      "info": "若对手为自身天敌则100%令对手害怕，未触发则对手2回合内属性技能命中效果失效",
+      "args": [
+        100,
+        6,
+        2
+      ],
+      "effect": {
+        "id": 1490,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1490/"
+      }
+    },
+    {
+      "info": "若对手处于能力提升状态则造成的攻击伤害额外提升100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1103,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1103/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ff504f2b"
+}

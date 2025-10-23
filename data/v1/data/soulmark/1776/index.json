@@ -1,0 +1,40 @@
+{
+  "id": 1776,
+  "desc": "对手使用攻击技能后己方场下体力最低的首位精灵恢复此次攻击伤害值等量的体力，然后己方每有1只精灵体力为满该技能PP值-1|自身被击败时恢复己方场下体力为满的精灵所有技能2点PP值，未被击败时吸取对手所有技能1点PP值（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后为场下体力最低的首位精灵<color=#64F9FA>恢复</color>此次伤害值等量的<b>体力</b>，然后：\r\n<indent=32><sprite=4><indent=48>己方每有1个精灵体力为满对手当回合所使用的技能<b>PP值<color=#64F9FA></b>-1</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身被对手击败时<color=#64F9FA>恢复</color>己方场下体力为满的精灵所有技能2点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>自身未被击败时<color=#64F9FA>吸取</color>对手所有技能1点<b>PP值</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4566,
+      "url": "https://api.seerapi.com/v1/pet/4566/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2169,
+      "url": "https://api.seerapi.com/v1/eid_effect/2169/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "edbbad78"
+}

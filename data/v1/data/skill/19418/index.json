@@ -1,0 +1,43 @@
+{
+  "id": 19418,
+  "name": "暗金弥撒",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吞噬对手的能力提升效果并双倍转移到自己身上",
+      "args": [],
+      "effect": {
+        "id": 569,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/569/"
+      }
+    },
+    {
+      "info": "使对手随机1项技能的PP值归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 583,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/583/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e6726f34"
+}

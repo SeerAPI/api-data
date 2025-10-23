@@ -1,0 +1,39 @@
+{
+  "id": 432,
+  "desc": "先出手时附加200点固定伤害，后出手时下回合受到的伤害减少50%；受到的伤害超过300则对手下次攻击技能无效(BOSS无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3091,
+      "url": "https://api.seerapi.com/v1/pet/3091/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      200,
+      50,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 756,
+      "url": "https://api.seerapi.com/v1/eid_effect/756/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5653fd39"
+}

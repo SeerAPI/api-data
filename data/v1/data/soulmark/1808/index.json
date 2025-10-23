@@ -1,0 +1,45 @@
+{
+  "id": 1808,
+  "desc": "己方场下每有一个精灵存活自身受到的攻击伤害减少10%，己方场下每有一个精灵阵亡自身使用技能后附加对手最大体力7%的百分比伤害|回合开始时若自身处于异常状态则随机令对手2个技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>己方场下每有一个精灵存活自身受到的<b>攻击伤害<color=#64F9FA></b>减少</color>10%\r\n<indent=16><sprite=3><indent=32>己方场下每有一个精灵阵亡自身使用技能后<color=#64F9FA>附加</color>对手最大体力7%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于异常状态则随机令对手2个技能<b>PP值<color=#64F9FA></b>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4603,
+      "url": "https://api.seerapi.com/v1/pet/4603/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      7,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 2200,
+      "url": "https://api.seerapi.com/v1/eid_effect/2200/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1865,
+    "url": "https://api.seerapi.com/v1/soulmark/1865/"
+  },
+  "from": null,
+  "hash": "ab609442"
+}

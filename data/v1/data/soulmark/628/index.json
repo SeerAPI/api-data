@@ -1,0 +1,38 @@
+{
+  "id": 628,
+  "desc": "对手处于异常状态时自身造成的伤害提高50%；对手不处于异常状态时自身先制+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3299,
+      "url": "https://api.seerapi.com/v1/pet/3299/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 914,
+      "url": "https://api.seerapi.com/v1/eid_effect/914/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "15235d5a"
+}

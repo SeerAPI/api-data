@@ -1,0 +1,41 @@
+{
+  "id": 697,
+  "desc": "回合开始时，若体力低于对手则消除对手回合类效果，消除成功则免疫下2次异常状态；击败对手则恢复自身全部体力以及PP值；|奇迹之力buff说明：攻击有50%概率伤害翻倍；所有攻击先制+1；攻击附带自身最大体力1/3的固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3383,
+      "url": "https://api.seerapi.com/v1/pet/3383/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      0
+    ],
+    "effect": {
+      "id": 982,
+      "url": "https://api.seerapi.com/v1/eid_effect/982/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "91036829"
+}

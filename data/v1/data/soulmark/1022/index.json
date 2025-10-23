@@ -1,0 +1,45 @@
+{
+  "id": 1022,
+  "desc": "每回合开始时令对手速度-1；自身使用攻击技能则战斗阶段结束时{吸取}对手最大{体力}的1/4，连续使用攻击技能时则{吸取}对手最大{体力}的1/3；自身使用属性技能则40%令对手害怕，连续使用属性技能时则80%令对手害怕（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3745,
+      "url": "https://api.seerapi.com/v1/pet/3745/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      4,
+      3,
+      40,
+      80,
+      1
+    ],
+    "effect": {
+      "id": 1321,
+      "url": "https://api.seerapi.com/v1/eid_effect/1321/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "9bf730c4"
+}

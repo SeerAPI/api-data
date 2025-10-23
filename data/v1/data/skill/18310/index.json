@@ -1,0 +1,36 @@
+{
+  "id": 18310,
+  "name": "顽皮攻击",
+  "power": 80,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则附加150点固定伤害",
+      "args": [
+        0,
+        150
+      ],
+      "effect": {
+        "id": 657,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/657/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "11f0dcec"
+}

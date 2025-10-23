@@ -1,0 +1,65 @@
+{
+  "id": 28033,
+  "name": "或跃在渊",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "虚弱状态下会快速重拾斗志并让自身行动变得更加迅捷；全属性都提升了；对手受到的固定伤害和百分比伤害开始增加了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于能力下降时先制+2",
+      "args": [],
+      "effect": {
+        "id": 1807,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1807/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则下1回合先制+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 926,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/926/"
+      }
+    },
+    {
+      "info": "全属性+1，若自身当前体力低于对手则强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 946,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/946/"
+      }
+    },
+    {
+      "info": "2回合内自身造成的固定伤害、百分比伤害提升30%",
+      "args": [
+        2,
+        30
+      ],
+      "effect": {
+        "id": 1469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1469/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a21e7ded"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 22984,
+  "name": "绝灵幻境",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "防御、速度降低了，特防提升了，命中降低了许多",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手防御等级-1",
+      "args": [
+        1,
+        100,
+        -1
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身特防等级+1",
+      "args": [
+        3,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手速度等级-1",
+      "args": [
+        4,
+        100,
+        -1
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变对手命中等级-2",
+      "args": [
+        5,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "5回合内若对手MISS则自身恢复1/2的最大体力值",
+      "args": [
+        5,
+        2
+      ],
+      "effect": {
+        "id": 177,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/177/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e9be2d9d"
+}

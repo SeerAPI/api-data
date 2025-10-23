@@ -1,0 +1,46 @@
+{
+  "id": 34105,
+  "name": "魔翼枷锁",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/element_type_combination/14/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "附加对手已损失生命值20%的百分比伤害 ",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 514,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/514/"
+      }
+    },
+    {
+      "info": "未击败对手下1回合自身攻击先制+1",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 820,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/820/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "24aa215a"
+}

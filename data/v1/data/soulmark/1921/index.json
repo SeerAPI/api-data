@@ -1,0 +1,37 @@
+{
+  "id": 1921,
+  "desc": "使用技能时50%令对手害怕，之后本次在场该概率提升5%，最高提升至100%|自身被击败后，若对手处于能力提升状态，则己方下只出战精灵2回合内获得上述所有效果，并继承自身被击败时累计的概率|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用技能时50%<color=#64F9FA>令对手害怕</color>且本次在场该概率提升5%，最高提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后若对手处于能力提升状态，则己方下只出战精灵2回合内获得上述效果，并继承自身被击败时累计的概率",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4718,
+      "url": "https://api.seerapi.com/v1/pet/4718/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2337,
+      "url": "https://api.seerapi.com/v1/eid_effect/2337/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "367ca866"
+}

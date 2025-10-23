@@ -1,0 +1,38 @@
+{
+  "id": 204,
+  "desc": "若对手处于烧伤状态时则每回合恢复200HP;若对手不处于烧伤状态则每回合附加200点固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2869,
+      "url": "https://api.seerapi.com/v1/pet/2869/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      200,
+      200
+    ],
+    "effect": {
+      "id": 618,
+      "url": "https://api.seerapi.com/v1/eid_effect/618/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "972954fa"
+}

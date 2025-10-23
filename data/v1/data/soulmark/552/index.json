@@ -1,0 +1,41 @@
+{
+  "id": 552,
+  "desc": "攻击附加对手双防之和50%的固定伤害；攻击恢复自身双防之和50%的体力（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3227,
+      "url": "https://api.seerapi.com/v1/pet/3227/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 844,
+      "url": "https://api.seerapi.com/v1/eid_effect/844/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": {
+    "id": 553,
+    "url": "https://api.seerapi.com/v1/soulmark/553/"
+  },
+  "from": null,
+  "hash": "9d9e9a36"
+}

@@ -1,0 +1,55 @@
+{
+  "id": 35321,
+  "name": "罹罪血龙吟",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "双方任意一方处于能力下降状态均会附加350点固定伤害，同时解除自身能力下降状态",
+      "args": [
+        350
+      ],
+      "effect": {
+        "id": 684,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/684/"
+      }
+    },
+    {
+      "info": "对手存在护盾则附加对手护盾值50%的真实伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1720,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1720/"
+      }
+    },
+    {
+      "info": "对手不存在护盾则令自身下1次攻击造成的伤害翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1721,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1721/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6850a34f"
+}

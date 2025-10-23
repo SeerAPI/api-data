@@ -1,0 +1,41 @@
+{
+  "id": 1494,
+  "desc": "回合开始时若自身处于能力提升状态则攻击命中后60%令对手冰封，战斗阶段结束时若自身处于能力下降状态则反转自身能力下降状态且附加400点固定伤害（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升状态则攻击命中后60%<color=#64F9FA>令对手冰封</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身处于能力下降状态则<color=#64F9FA>反转</color>自身<b>能力下降状态</b>且<color=#64F9FA>附加</color>400点<b>固定伤害</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4203,
+      "url": "https://api.seerapi.com/v1/pet/4203/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      60,
+      400,
+      1
+    ],
+    "effect": {
+      "id": 1796,
+      "url": "https://api.seerapi.com/v1/eid_effect/1796/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1425,
+    "url": "https://api.seerapi.com/v1/soulmark/1425/"
+  },
+  "hash": "c09d6714"
+}

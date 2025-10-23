@@ -1,0 +1,43 @@
+{
+  "id": 880,
+  "desc": "自身处于能力下降状态则受到的攻击伤害减少50％；战斗阶段结束时若自身处于能力提升状态则下回合攻击技能先制+2且{吸取}对手200点{体力}（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3583,
+      "url": "https://api.seerapi.com/v1/pet/3583/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      2,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 1168,
+      "url": "https://api.seerapi.com/v1/eid_effect/1168/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "96786795"
+}

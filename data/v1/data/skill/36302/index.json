@@ -1,0 +1,65 @@
+{
+  "id": 36302,
+  "name": "彼空·真理重塑",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 118,
+    "url": "https://api.seerapi.com/v1/element_type_combination/118/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手300点体力，若对手未受到固定伤害则100%令对手害怕",
+      "args": [
+        300,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1895,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1895/"
+      }
+    },
+    {
+      "info": "清除对手被解析技能的PP值，若对手不存在技能被解析则解析对手当回合选择的技能（覆盖原本被解析的技能）",
+      "args": [],
+      "effect": {
+        "id": 1896,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1896/"
+      }
+    },
+    {
+      "info": "未击败对手则下回合自身所有技能先制+2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 984,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/984/"
+      }
+    },
+    {
+      "info": "当回合击败对手则令自身3回合内回合类效果无法被消除",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1811,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1811/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b8178700"
+}

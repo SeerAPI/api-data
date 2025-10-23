@@ -1,0 +1,44 @@
+{
+  "id": 827,
+  "desc": "首次登场时消除对手回合类效果且免疫下1次攻击；自身体力高于1/2则自身回合类效果无法被消除，自身体力低于1/2则自身所有技能先制+1（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3518,
+      "url": "https://api.seerapi.com/v1/pet/3518/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1112,
+      "url": "https://api.seerapi.com/v1/eid_effect/1112/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5281d3d3"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 35313,
+  "name": "淬火断痕",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 58,
+    "url": "https://api.seerapi.com/v1/element_type_combination/58/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手存在护盾时先制+1",
+      "args": [],
+      "effect": {
+        "id": 1544,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1544/"
+      }
+    },
+    {
+      "info": "无视护盾效果",
+      "args": [],
+      "effect": {
+        "id": 1568,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1568/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ab973dfa"
+}

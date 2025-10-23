@@ -1,0 +1,44 @@
+{
+  "id": 1510,
+  "desc": "对手每次主动切换精灵则令登场精灵随机1个技能PP值归零且自身下2次攻击必定打出致命一击；|自身攻击技能打出致命一击则令对手随机1个技能PP值归零，自身攻击技能未打出致命一击则附加对手最大体力1/3的固定伤害，对手处于异常状态时恢复等量体力值（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次主动切换精灵则令登场精灵随机1个技能<b>PP值</b><color=#64F9FA>归零</color>且自身下2次攻击必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能打出致命一击则令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能未打出致命一击则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>对手处于异常状态时<color=#64F9FA>恢复</color>等量体力值",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4289,
+      "url": "https://api.seerapi.com/v1/pet/4289/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      1,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1872,
+      "url": "https://api.seerapi.com/v1/eid_effect/1872/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2ac37356"
+}

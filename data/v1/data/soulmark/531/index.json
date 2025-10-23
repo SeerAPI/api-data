@@ -1,0 +1,46 @@
+{
+  "id": 531,
+  "desc": "受到攻击时有70%的概率闪避对手攻击，触发闪避则下回合自身攻击有65%的概率使对手害怕，同时无视对手双防强化状态；攻击附加自身攻击值30%的固定伤害（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3190,
+      "url": "https://api.seerapi.com/v1/pet/3190/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      70,
+      65,
+      30,
+      1
+    ],
+    "effect": {
+      "id": 821,
+      "url": "https://api.seerapi.com/v1/eid_effect/821/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 516,
+    "url": "https://api.seerapi.com/v1/soulmark/516/"
+  },
+  "hash": "4dffafca"
+}

@@ -1,0 +1,61 @@
+{
+  "id": 37512,
+  "name": "星合",
+  "power": 90,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 123,
+    "url": "https://api.seerapi.com/v1/element_type_combination/123/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699/"
+      }
+    },
+    {
+      "info": "无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 697,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/697/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则下1回合对手攻击技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1060,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1060/"
+      }
+    },
+    {
+      "info": "自身星盘每转动1刻技能提升15点威力，回返期间提升效果翻倍",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 2208,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2208/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4955fe6a"
+}

@@ -1,0 +1,58 @@
+{
+  "id": 37829,
+  "name": "霆明双闪",
+  "power": 95,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 5,
+    "url": "https://api.seerapi.com/v1/element_type_combination/5/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%的概率伤害为2倍，未触发则令敌我双方全属性-1且下次翻倍概率额外提升50%",
+      "args": [
+        50,
+        2,
+        1,
+        50
+      ],
+      "effect": {
+        "id": 1682,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1682/"
+      }
+    },
+    {
+      "info": "附加对手能力下降等级总和X60的固定伤害",
+      "args": [
+        60
+      ],
+      "effect": {
+        "id": 1772,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1772/"
+      }
+    },
+    {
+      "info": "未击败对手则己方下1次攻击技能必定打出致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "8fdb2966"
+}

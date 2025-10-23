@@ -1,0 +1,63 @@
+{
+  "id": 35175,
+  "name": "天罚·泯灭之锋",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 99,
+    "url": "https://api.seerapi.com/v1/element_type_combination/99/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881/"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则对手诅咒",
+      "args": [
+        23
+      ],
+      "effect": {
+        "id": 1054,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1054/"
+      }
+    },
+    {
+      "info": "对手每存在1层致命裂痕则附加100点真实伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1643,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1643/"
+      }
+    },
+    {
+      "info": "对手不存在致命裂痕则令对手随机1个技能PP值归零",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1696,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1696/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5a8b21f8"
+}

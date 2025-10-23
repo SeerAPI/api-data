@@ -1,0 +1,38 @@
+{
+  "id": 942,
+  "desc": "使敌我双方受到的攻击伤害提升150%；自身受到致命伤害时反弹给对手造成伤害值2倍的固定伤害（boss无效，双方同时死亡则对手残留1点血）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3655,
+      "url": "https://api.seerapi.com/v1/pet/3655/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      150,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1230,
+      "url": "https://api.seerapi.com/v1/eid_effect/1230/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "203c4b50"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 36598,
+  "name": "合金重压",
+  "power": 180,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.3125,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则先制+1",
+      "args": [],
+      "effect": {
+        "id": 828,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/828/"
+      }
+    },
+    {
+      "info": "自身每处于一种能力提升状态，此技能威力提升20",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 882,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/882/"
+      }
+    },
+    {
+      "info": "100%令对手束缚，未触发则令对手2回合内使用的属性技能无效",
+      "args": [
+        100,
+        28,
+        2
+      ],
+      "effect": {
+        "id": 936,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/936/"
+      }
+    },
+    {
+      "info": "100%令自身全属性-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1191/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9e174f06"
+}

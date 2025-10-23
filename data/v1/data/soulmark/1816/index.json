@@ -1,0 +1,51 @@
+{
+  "id": 1816,
+  "desc": "自身首次登场时触发山祇恩怜：当回合免疫并反弹受到的异常状态且将对手下次攻击造成的伤害转化为体力恢复，若转化触发于登场首回合则下次登场时将再次触发山祇恩怜，否则之后每次登场时获得300点护盾（boss有效）|己方场下每有一只精灵存活自身攻击伤害提升20%，对方场下每有一只精灵阵亡自身闪避率提升20%；|战斗阶段结束时，若自身体力高于对手则2回合内免疫并反弹受到的异常状态，若低于对手则恢复最大体力的1/3并造成等量百分比伤害，此效果触发时若自身已无法触发山祇恩怜，则自身的护盾、护罩一并计入体力与最大体力的计算（标注部分boss有效，其余无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身登场时触发山祇恩怜：当回合自身<color=#64F9FA>免疫</color>受到的<b>异常状态</b>并将对手下次攻击造成的伤害<color=#64F9FA>转化</color>为体力恢复\r\n<indent=32><sprite=4><indent=48>若登场首回合未触发此转化，则之后登场不再触发山祇之怜，改为获得300点护盾\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>己方场下每有一只存活精灵自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>20%\r\n<indent=16><sprite=3><indent=32>对方场下每有一只阵亡精灵自身<b>闪避率<color=#64F9FA></b>提升</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则2回合内<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若低于对手则<color=#64F9FA>恢复</color>最大体力的1/3并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身不再触发山祇恩怜后，上述效果触发时将自身的护盾值计入体力值与体力上限",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3763,
+      "url": "https://api.seerapi.com/v1/pet/3763/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      20,
+      20,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2206,
+      "url": "https://api.seerapi.com/v1/eid_effect/2206/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1043,
+    "url": "https://api.seerapi.com/v1/soulmark/1043/"
+  },
+  "hash": "46b9b3a2"
+}

@@ -1,0 +1,54 @@
+{
+  "id": 35744,
+  "name": "琬璧之泣",
+  "power": 85,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": true,
+  "info": "卡卡托斯之神，请回应我的心声！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 100,
+    "url": "https://api.seerapi.com/v1/element_type_combination/100/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+      "args": [],
+      "effect": {
+        "id": 1216,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1216/"
+      }
+    },
+    {
+      "info": "当回合未击败对手则有100%将对手所有技能PP值降为0",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 739,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/739/"
+      }
+    },
+    {
+      "info": "若自身拥有的护盾值高于600则令自身下2回合回合类效果无法被消除",
+      "args": [
+        600,
+        2
+      ],
+      "effect": {
+        "id": 1781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1781/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f6ee3a"
+}

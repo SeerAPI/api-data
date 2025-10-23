@@ -1,0 +1,47 @@
+{
+  "id": 35317,
+  "name": "炼狱九重",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 70,
+    "url": "https://api.seerapi.com/v1/element_type_combination/70/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则2回合内对手属性技能无效，若对手不处于能力提升状态则自身下1回合先制+1",
+      "args": [
+        2,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1445,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1445/"
+      }
+    },
+    {
+      "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 833,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/833/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "87baf3a5"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 28425,
+  "name": "骇浪映空",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始恢复体力并造成一些固伤了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内每回合使用技能恢复自身最大体力的1/3并造成等量百分比伤害，恢复体力时若自身体力低于最大体力的1/2则恢复效果翻倍",
+      "args": [
+        4,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 1875,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1875/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "2ed4da0"
+}

@@ -1,0 +1,50 @@
+{
+  "id": 1935,
+  "desc": "对手使用攻击技能后，若对手造成的攻击伤害不高于300则吸取对手所有技能1点PP值且下1次造成的攻击伤害提升100%，若对手造成的攻击伤害高于300则吸取对手所有技能2点PP值且下次所受攻击的伤害减少50%|自身使用技能后，50%令对手睡眠，触发成功则此效果的触发概率减少至0%，未触发则此效果的触发概率提升至100%|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能后：\r\n<indent=32><sprite=4><indent=48>若对手造成的攻击伤害不高于300则<color=#64F9FA>吸取</color>对手所有技能1点<b>PP值</b>且下1次造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若对手造成的攻击伤害高于300则<color=#64F9FA>吸取</color>对手所有技能2点<b>PP值</b>且下次所受攻击的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后，50%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>触发成功则此效果的触发概率减少至0%\r\n<indent=32><sprite=4><indent=48>未触发则此效果的触发概率提升至100%\r\n",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3667,
+      "url": "https://api.seerapi.com/v1/pet/3667/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      1,
+      300,
+      2,
+      50,
+      0,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2348,
+      "url": "https://api.seerapi.com/v1/eid_effect/2348/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 955,
+    "url": "https://api.seerapi.com/v1/soulmark/955/"
+  },
+  "hash": "8dabcdbe"
+}

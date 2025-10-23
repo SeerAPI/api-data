@@ -1,0 +1,35 @@
+{
+  "id": 33103,
+  "name": "冰翼重击",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 87,
+    "url": "https://api.seerapi.com/v1/element_type_combination/87/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "遇到天敌时附加250点固定伤害",
+      "args": [
+        250
+      ],
+      "effect": {
+        "id": 428,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/428/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "216c405e"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 537,
+  "args_num": 6,
+  "info": "自身攻击{0}，若对手处于能力提升状态则强化效果翻倍",
+  "info_formatting_adjustment": "自身攻击{0}\r\n--><condition>若对手处于能力提升状态</condition>则强化效果翻倍",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 0,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/0/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 22768,
+      "url": "https://api.seerapi.com/v1/skill/22768/"
+    },
+    {
+      "id": 24897,
+      "url": "https://api.seerapi.com/v1/skill/24897/"
+    },
+    {
+      "id": 25302,
+      "url": "https://api.seerapi.com/v1/skill/25302/"
+    },
+    {
+      "id": 25321,
+      "url": "https://api.seerapi.com/v1/skill/25321/"
+    },
+    {
+      "id": 27830,
+      "url": "https://api.seerapi.com/v1/skill/27830/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44951,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951/"
+    }
+  ],
+  "hash": "9a48f79f"
+}

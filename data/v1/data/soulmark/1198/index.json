@@ -1,0 +1,40 @@
+{
+  "id": 1198,
+  "desc": "对手为雌性精灵则攻击命中后50%令对手失明，对手为雄性精灵则攻击命中后50%令对手睡眠，未触发异常状态则战斗阶段结束时100%令对手随机1个技能PP值归零（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>对手为雌性精灵则攻击命中后50%<color=#64F9FA>令对手失明</color>\r\n<indent=16><sprite=3><indent=32>对手为雄性精灵则攻击命中后50%<color=#64F9FA>令对手睡眠</color>\r\n<indent=16><sprite=3><indent=32>上述效果未触发则战斗阶段结束时100%令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3933,
+      "url": "https://api.seerapi.com/v1/pet/3933/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1529,
+      "url": "https://api.seerapi.com/v1/eid_effect/1529/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fe25d8c6"
+}

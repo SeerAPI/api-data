@@ -1,0 +1,57 @@
+{
+  "id": 35152,
+  "name": "茉茉芳草心",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 21,
+    "url": "https://api.seerapi.com/v1/element_type_combination/21/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果并为双方附加3回合中毒，自身中毒状态解除后则恢复自身所有体力",
+      "args": [
+        3,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1139,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1139/"
+      }
+    },
+    {
+      "info": "自己出手时若自身体力高于对手则造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1360,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1360/"
+      }
+    },
+    {
+      "info": "若对手处于异常状态则恢复造成伤害的50%的体力",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 671,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/671/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bb7a2f3a"
+}

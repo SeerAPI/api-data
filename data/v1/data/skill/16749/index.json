@@ -1,0 +1,36 @@
+{
+  "id": 16749,
+  "name": "万棘贯穿刺",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 23,
+    "url": "https://api.seerapi.com/v1/element_type_combination/23/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手处于中毒状态则附加100点固定伤害 ",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 467,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/467/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "42c1cd8c"
+}

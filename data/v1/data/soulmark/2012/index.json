@@ -1,0 +1,37 @@
+{
+  "id": 2012,
+  "desc": "对手使用攻击技能时，若对手不处于异常状态则受到伤害减少20%且受到攻击后令对手烧伤，若对手处于烧伤状态则受到攻击后50%令对手害怕，未触发则恢复300点体力，自身处于烧伤状态时改为抵挡本次攻击且受到攻击后令对手害怕",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>20%且受到攻击后<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤则受到攻击后50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>恢复</color>300点<b>体力</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>自身处于烧伤状态时改为<color=#64F9FA>抵挡</color>本次<b>攻击</b>且受到攻击后<color=#64F9FA>令对手害怕</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4820,
+      "url": "https://api.seerapi.com/v1/pet/4820/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2437,
+      "url": "https://api.seerapi.com/v1/eid_effect/2437/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "aae2da7d"
+}

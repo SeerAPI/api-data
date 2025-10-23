@@ -1,0 +1,39 @@
+{
+  "id": 1063,
+  "desc": "回合开始时，若自身处于能力提升状态则当回合免疫低于250的攻击伤害，若自身不处于能力提升状态则当回合攻击随机令对手3项能力值-1，并将该能力值附加给自己（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3787,
+      "url": "https://api.seerapi.com/v1/pet/3787/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      250,
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1363,
+      "url": "https://api.seerapi.com/v1/eid_effect/1363/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1f63cd24"
+}

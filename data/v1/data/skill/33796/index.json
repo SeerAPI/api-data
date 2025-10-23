@@ -1,0 +1,60 @@
+{
+  "id": 33796,
+  "name": "耀晶虹吸",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 112,
+    "url": "https://api.seerapi.com/v1/element_type_combination/112/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 1012,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1012/"
+      }
+    },
+    {
+      "info": "若打出致命一击则自身2回合内免疫异常状态",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 555,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/555/"
+      }
+    },
+    {
+      "info": "本回合若没有打出致命一击则攻击",
+      "args": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 732,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/732/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "9db15a9d"
+}

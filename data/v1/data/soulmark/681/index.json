@@ -1,0 +1,38 @@
+{
+  "id": 681,
+  "desc": "自身攻击技能打出致命一击则50%令对手焚烬；使用属性技能后则自身下1次攻击必定致命（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3363,
+      "url": "https://api.seerapi.com/v1/pet/3363/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 963,
+      "url": "https://api.seerapi.com/v1/eid_effect/963/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "fc2771fb"
+}

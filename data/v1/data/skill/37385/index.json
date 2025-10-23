@@ -1,0 +1,47 @@
+{
+  "id": 37385,
+  "name": "星光·克制",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": -6,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反弹2倍的伤害给对手并使自身恢复等量体力",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 929,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/929/"
+      }
+    },
+    {
+      "info": "造成的伤害低于200则自身下1次受到的伤害降低300点",
+      "args": [
+        200,
+        1,
+        300
+      ],
+      "effect": {
+        "id": 1202,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1202/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1be3bc7f"
+}

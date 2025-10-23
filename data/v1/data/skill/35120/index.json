@@ -1,0 +1,48 @@
+{
+  "id": 35120,
+  "name": "流沙土遁击",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/element_type_combination/7/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "30%令对手石化，每次使用概率增加10%，最高概率60%",
+      "args": [
+        30,
+        9,
+        10,
+        60
+      ],
+      "effect": {
+        "id": 782,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/782/"
+      }
+    },
+    {
+      "info": "后出手时吸取对手200点体力",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 1189,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1189/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b7b6a7d0"
+}

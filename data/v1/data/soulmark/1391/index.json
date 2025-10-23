@@ -1,0 +1,42 @@
+{
+  "id": 1391,
+  "desc": "回合开始时，若对手处于冻伤状态则当回合令对手无法进行能力提升且自身攻击命中后{吸取}对手最大{体力}的1/3；自身攻击造成的伤害低于300则下回合攻击造成的伤害进行提升，造成的伤害越低则提升的伤害越高（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于冻伤状态则当回合令对手<color=#64F9FA>无法进行能力提升</color>且自身攻击命中后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害低于300则下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>，造成的伤害越低则提升的额度越高",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4166,
+      "url": "https://api.seerapi.com/v1/pet/4166/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1755,
+      "url": "https://api.seerapi.com/v1/eid_effect/1755/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1d10c79"
+}

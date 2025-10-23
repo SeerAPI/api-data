@@ -1,0 +1,53 @@
+{
+  "id": 28168,
+  "name": "许愿时刻",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": -1,
+  "must_hit": true,
+  "info": "双方的能力提升和下降状态都被清除了，体力也完全恢复了；开始吸取对手所有技能的PP值了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方能力提升、下降状态",
+      "args": [],
+      "effect": {
+        "id": 533,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/533/"
+      }
+    },
+    {
+      "info": "恢复双方所有体力",
+      "args": [],
+      "effect": {
+        "id": 404,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/404/"
+      }
+    },
+    {
+      "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+      "args": [
+        2,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1655,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1655/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "165c0a61"
+}

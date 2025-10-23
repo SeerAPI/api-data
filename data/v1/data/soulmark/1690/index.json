@@ -1,0 +1,50 @@
+{
+  "id": 1690,
+  "desc": "登场时自身防御、特防+1，之后每个战斗阶段结束时若自身不处于能力提升则解除自身所处的异常状态；自身能力提升状态被消除或吸取则100%令对手石化，未触发则消除对手回合类效果并为自身附加一个等同于自身最大体力值1/3的护盾；自身使用攻击技能后附加自身能力提升等级总段数x30的固定伤害，自身处于护盾状态时附加前述固定伤害前额外{吸取}对手等同于自身护盾值70%的{体力}并70%令对手石化，未触发石化则令自身全属性+1|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时防御、特防+1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身不处于能力提升状态则<color=#64F9FA>解除</color>自身所处的<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身能力提升状态被消除或吸取则100%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>且为自身<color=#64F9FA>附加</color>一个等同于自身最大体力值1/3的<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后<color=#64F9FA>附加</color>自身能力提升等级总段数*30的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>自身处于护盾状态则于附加前述固定伤害前额外<color=#64F9FA>吸取</color>对手等同于自身护盾值70%的体力且70%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发石化则令自身<color=#64F9FA>全属性+1</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4163,
+      "url": "https://api.seerapi.com/v1/pet/4163/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      100,
+      3,
+      30,
+      70,
+      70,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 2077,
+      "url": "https://api.seerapi.com/v1/eid_effect/2077/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 1389,
+    "url": "https://api.seerapi.com/v1/soulmark/1389/"
+  },
+  "hash": "6bb5b351"
+}

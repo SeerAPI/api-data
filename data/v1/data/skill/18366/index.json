@@ -1,0 +1,44 @@
+{
+  "id": 18366,
+  "name": "幻妙清风斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/element_type_combination/1/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合内所有直接攻击都将降低对手1/6的HP",
+      "args": [
+        1,
+        6
+      ],
+      "effect": {
+        "id": 502,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/502/"
+      }
+    },
+    {
+      "info": "吞噬对手的能力提升效果并双倍转移到自己身上",
+      "args": [],
+      "effect": {
+        "id": 569,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/569/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a0bc0319"
+}

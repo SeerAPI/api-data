@@ -1,0 +1,35 @@
+{
+  "id": 33321,
+  "name": "富贵在天",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 22,
+    "url": "https://api.seerapi.com/v1/element_type_combination/22/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "未击败对手则己方下1次攻击技能必定打出致命一击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 933,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/933/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "94759cdd"
+}

@@ -1,0 +1,41 @@
+{
+  "id": 1716,
+  "desc": "每次登场首回合自身使用技能无视对手能力提升状态且对手的先制等级最高为3；回合结束后若自身死亡，则反转对手能力提升状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场首回合自身使用技能<color=#64F9FA>无视</color>对手<b>能力提升状态</b>且对手的<b>先制</b>等级最高为3\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时<color=#64F9FA>反转</color>对手<b>能力提升状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4502,
+      "url": "https://api.seerapi.com/v1/pet/4502/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1
+    ],
+    "effect": {
+      "id": 2106,
+      "url": "https://api.seerapi.com/v1/eid_effect/2106/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5/"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "20ee64"
+}

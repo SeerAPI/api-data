@@ -1,0 +1,48 @@
+{
+  "id": 34549,
+  "name": "爆炎猛击",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手命中等级-2",
+      "args": [
+        5,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5/"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若低于250则恢复自身250点体力",
+      "args": [
+        250,
+        250
+      ],
+      "effect": {
+        "id": 541,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/541/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f47116af"
+}

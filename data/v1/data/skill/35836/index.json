@@ -1,0 +1,45 @@
+{
+  "id": 35836,
+  "name": "千刃剜心舞",
+  "power": 80,
+  "max_pp": 3,
+  "accuracy": 96,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 222,
+    "url": "https://api.seerapi.com/v1/element_type_combination/222/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，后出手时自身强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1344,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1344/"
+      }
+    },
+    {
+      "info": "自身每处于一种能力提升状态，此技能威力提升20",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 882,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/882/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a191398"
+}

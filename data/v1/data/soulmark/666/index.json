@@ -1,0 +1,42 @@
+{
+  "id": 666,
+  "desc": "回合开始时若自身体力高于对手则自身全属性+1（BOSS无效）；战斗阶段结束时恢复200点体力并造成等量固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3346,
+      "url": "https://api.seerapi.com/v1/pet/3346/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      200,
+      1
+    ],
+    "effect": {
+      "id": 951,
+      "url": "https://api.seerapi.com/v1/eid_effect/951/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "2dc4a857"
+}

@@ -1,0 +1,56 @@
+{
+  "id": 28568,
+  "name": "寒灯映水",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "消除了双方的回合类效果并令双方凝滞；反转了对手的能力提升效果；消耗了自身的体力值并造成百分比伤害",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果，消除成功则双方凝滞",
+      "args": [
+        32
+      ],
+      "effect": {
+        "id": 1414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1414/"
+      }
+    },
+    {
+      "info": "反转对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1495,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1495/"
+      }
+    },
+    {
+      "info": "消耗自身当前最大体力的1/2并使对手受到等量百分比伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1185,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1185/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d2a10d5d"
+}

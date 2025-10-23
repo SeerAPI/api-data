@@ -1,0 +1,37 @@
+{
+  "id": 380,
+  "desc": "每回合双防加1;攻击技能附加自身防御和特防能力提升总段数乘以50的固定伤害",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3007,
+      "url": "https://api.seerapi.com/v1/pet/3007/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      50
+    ],
+    "effect": {
+      "id": 707,
+      "url": "https://api.seerapi.com/v1/eid_effect/707/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a9dbbac2"
+}

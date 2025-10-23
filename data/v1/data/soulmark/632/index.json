@@ -1,0 +1,42 @@
+{
+  "id": 632,
+  "desc": "在神的庇佑下，自身不处于能力提升状态则免疫异常状态；伤害抗性减免额外提高25%；自身处于能力下降状态时先制+2（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3305,
+      "url": "https://api.seerapi.com/v1/pet/3305/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      25,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 916,
+      "url": "https://api.seerapi.com/v1/eid_effect/916/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "76b50f1f"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 343,
+  "desc": "回合开始时,若对方血量高于自身,则本回合内自身技能威力提升30%,对方技能威力下降20%(BOSS无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2946,
+      "url": "https://api.seerapi.com/v1/pet/2946/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      20,
+      1
+    ],
+    "effect": {
+      "id": 669,
+      "url": "https://api.seerapi.com/v1/eid_effect/669/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "f35badc1"
+}

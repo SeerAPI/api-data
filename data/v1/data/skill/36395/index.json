@@ -1,0 +1,35 @@
+{
+  "id": 36395,
+  "name": "包包之助",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 96,
+  "crit_rate": 0.1875,
+  "priority": 0,
+  "must_hit": false,
+  "info": "奶黄馅的包子，限时限量哦！",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "后出手时造成的伤害提高100%",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1357,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1357/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c46da3d8"
+}

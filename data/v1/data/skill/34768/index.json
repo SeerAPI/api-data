@@ -1,0 +1,44 @@
+{
+  "id": 34768,
+  "name": "影之龙威",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 55,
+    "url": "https://api.seerapi.com/v1/element_type_combination/55/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 485,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/485/"
+      }
+    },
+    {
+      "info": "下2回合造成的攻击伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ab0b24b6"
+}

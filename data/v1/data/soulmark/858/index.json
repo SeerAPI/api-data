@@ -1,0 +1,40 @@
+{
+  "id": 858,
+  "desc": "受到攻击时50%使对手害怕，未触发则有50%概率令对手焚烬；对手处于异常状态时自身使用攻击技能随机附加200-300点固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3557,
+      "url": "https://api.seerapi.com/v1/pet/3557/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      200,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1142,
+      "url": "https://api.seerapi.com/v1/eid_effect/1142/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e98a86dc"
+}

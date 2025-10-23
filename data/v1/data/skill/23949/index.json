@@ -1,0 +1,63 @@
+{
+  "id": 23949,
+  "name": "死寂虚空",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "消除对手回合内效果；攻击变得更加犀利了；可完全抵挡攻击；免疫并反弹所有异常状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果",
+      "args": [],
+      "effect": {
+        "id": 180,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/180/"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定致命、必定命中",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 681,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/681/"
+      }
+    },
+    {
+      "info": "抵挡下1次对手的攻击",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 46,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/46/"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "352b2dc9"
+}

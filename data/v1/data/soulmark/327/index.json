@@ -1,0 +1,34 @@
+{
+  "id": 327,
+  "desc": "每次使用技能都有30%令对手麻痹（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2906,
+      "url": "https://api.seerapi.com/v1/pet/2906/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      0,
+      1
+    ],
+    "effect": {
+      "id": 628,
+      "url": "https://api.seerapi.com/v1/eid_effect/628/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d6171a46"
+}

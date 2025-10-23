@@ -1,0 +1,38 @@
+{
+  "id": 373,
+  "desc": "所有对于速度能力的强化同时应用于体力(刻印,学习力);回合开始时,若自身体力高于对手则免疫受到的异常状态;回合开始时,若自身体力低于对手则减少50%受到的攻击伤害(包括固定伤害)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2988,
+      "url": "https://api.seerapi.com/v1/pet/2988/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      4,
+      5,
+      50
+    ],
+    "effect": {
+      "id": 697,
+      "url": "https://api.seerapi.com/v1/eid_effect/697/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8ce9c3d3"
+}

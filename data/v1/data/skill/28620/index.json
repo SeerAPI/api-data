@@ -1,0 +1,57 @@
+{
+  "id": 28620,
+  "name": "浊沙之躯",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；开始恢复体力并造成等量百分比伤害了；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，对手处于能力下降状态时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1338,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1338/"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能恢复自身500点体力并造成等量固定伤害",
+      "args": [
+        4,
+        500
+      ],
+      "effect": {
+        "id": 1924,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1924/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7b9b727"
+}

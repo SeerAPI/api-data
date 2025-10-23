@@ -1,0 +1,36 @@
+{
+  "id": 1021,
+  "desc": "自身体力低于对手时使用攻击技能则50%令对手冻伤，未触发则50%令对手烧伤；自身体力低于对手时受到攻击伤害则50%令对手冰封，未触发则50%令对手焚烬（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3744,
+      "url": "https://api.seerapi.com/v1/pet/3744/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      50,
+      50,
+      1
+    ],
+    "effect": {
+      "id": 1320,
+      "url": "https://api.seerapi.com/v1/eid_effect/1320/"
+    }
+  },
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "4480018b"
+}

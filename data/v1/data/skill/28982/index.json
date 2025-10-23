@@ -1,0 +1,69 @@
+{
+  "id": 28982,
+  "name": "锋锐坚塔",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；做好了反击的准备，获得了自然庇佑；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身当前体力高于对手时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 885,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/885/"
+      }
+    },
+    {
+      "info": "3回合内若对手攻击技能命中则己方在场精灵100%做出绝对反击",
+      "args": [
+        3,
+        100,
+        4
+      ],
+      "effect": {
+        "id": 642,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/642/"
+      }
+    },
+    {
+      "info": "3回合内受到攻击100%进入自然庇佑",
+      "args": [
+        3,
+        100
+      ],
+      "effect": {
+        "id": 1296,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1296/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "bb1c3770"
+}

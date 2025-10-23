@@ -1,0 +1,31 @@
+{
+  "id": 926,
+  "desc": "自身属性技能命中时有60%的概率使对手流血，攻击技能命中时有60%的概率使对手烧伤（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": null,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3635,
+      "url": "https://api.seerapi.com/v1/pet/3635/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      60,
+      16,
+      60,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1211,
+      "url": "https://api.seerapi.com/v1/eid_effect/1211/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "975e8d8c"
+}

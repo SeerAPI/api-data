@@ -1,0 +1,45 @@
+{
+  "id": 2230,
+  "args_num": 4,
+  "info": "{0}回合内使用技能则恢复自身最大体力的1/{1}，若未恢复体力则{2}%令对手{3}",
+  "info_formatting_adjustment": "{0}回合内使用技能则恢复自身最大体力的1/{1}\r\n--><condition>若未恢复体力</condition>则{2}%令对手{3}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28867,
+      "url": "https://api.seerapi.com/v1/skill/28867/"
+    },
+    {
+      "id": 28969,
+      "url": "https://api.seerapi.com/v1/skill/28969/"
+    },
+    {
+      "id": 29003,
+      "url": "https://api.seerapi.com/v1/skill/29003/"
+    },
+    {
+      "id": 29166,
+      "url": "https://api.seerapi.com/v1/skill/29166/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813/"
+    }
+  ],
+  "hash": "304e584b"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 15665,
+  "name": "惊骇怒啸",
+  "power": 110,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "命中后40%令对方害怕",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15/"
+      }
+    },
+    {
+      "info": "额外附加50点固定伤害",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 29,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/29/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "90cf9971"
+}

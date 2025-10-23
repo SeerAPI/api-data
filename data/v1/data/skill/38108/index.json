@@ -1,0 +1,45 @@
+{
+  "id": 38108,
+  "name": "炽热爆炎",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 99,
+  "crit_rate": 0.75,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "打出致命一击时令对手随机2个技能PP值归0",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2308,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2308/"
+      }
+    },
+    {
+      "info": "若打出致命一击则造成的攻击伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 1840,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1840/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4eddb802"
+}

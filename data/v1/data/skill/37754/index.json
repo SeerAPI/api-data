@@ -1,0 +1,56 @@
+{
+  "id": 37754,
+  "name": "折钢棱锋",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身每处于1种能力提升状态，造成的伤害提升20%",
+      "args": [
+        1,
+        20
+      ],
+      "effect": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/999/"
+      }
+    },
+    {
+      "info": "若自身不处于能力提升或下降状态时则恢复300点体力",
+      "args": [
+        300
+      ],
+      "effect": {
+        "id": 558,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/558/"
+      }
+    },
+    {
+      "info": "未击败对手则降低对手所有技能2点PP值",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2033,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2033/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "eff1177b"
+}

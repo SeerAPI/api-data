@@ -1,0 +1,69 @@
+{
+  "id": 28676,
+  "name": "光耀坚铠",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫受到的异常状态了；对手处于异常状态则害怕了；开始免疫较低的伤害了；自身的回合类效果得到了保护",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    },
+    {
+      "info": "对手处于异常状态时100%令对手害怕",
+      "args": [
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1248,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1248/"
+      }
+    },
+    {
+      "info": "4回合内免疫低于400的攻击伤害",
+      "args": [
+        4,
+        400
+      ],
+      "effect": {
+        "id": 576,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/576/"
+      }
+    },
+    {
+      "info": "4回合内若自身回合类效果被消除则对手下2回合造成的攻击伤害额外减少50%",
+      "args": [
+        4,
+        2,
+        50
+      ],
+      "effect": {
+        "id": 1886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1886/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7bfe8fab"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 1515,
+  "args_num": 5,
+  "info": "对手体力上限高于{0}则造成的攻击伤害提升{1}%，对手体力上限低于{2}则附加自身{3}值{4}%的百分比伤害",
+  "info_formatting_adjustment": "<condition>对手体力上限高于</condition>{0}则造成的攻击伤害提升{1}%\r\n<condition>对手体力上限低于</condition>{2}则附加自身{3}值{4}%的百分比伤害",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 3,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 33805,
+      "url": "https://api.seerapi.com/v1/skill/33805/"
+    },
+    {
+      "id": 37645,
+      "url": "https://api.seerapi.com/v1/skill/37645/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 18673,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673/"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    }
+  ],
+  "hash": "c63689a1"
+}

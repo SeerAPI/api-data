@@ -1,0 +1,44 @@
+{
+  "id": 1426,
+  "desc": "回合开始时，若对手不处于异常状态则令自身防御+1、特防+1，令对手防御-1、特防-1；|当回合自身受到的攻击伤害低于300则100%令对手害怕，当回合自身受到的攻击伤害高于300则战斗阶段结束时{吸取}对手最大{体力}的1/3（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手不处于异常状态则令自身防御+1、特防+1，令对手防御-1、特防-1；\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于300则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4206,
+      "url": "https://api.seerapi.com/v1/pet/4206/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      100,
+      300,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 1797,
+      "url": "https://api.seerapi.com/v1/eid_effect/1797/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "a82ec4fe"
+}

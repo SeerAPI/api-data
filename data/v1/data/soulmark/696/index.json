@@ -1,0 +1,38 @@
+{
+  "id": 696,
+  "desc": "自身处于速度能力提升状态时所有技能先制+1；先出手时对手2回合内无法通过自身技能恢复体力同时属性技能失效(boss无效)",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3381,
+      "url": "https://api.seerapi.com/v1/pet/3381/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 979,
+      "url": "https://api.seerapi.com/v1/eid_effect/979/"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "c8098b5d"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 37329,
+  "name": "奥瑞亚之息",
+  "power": 10,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 121,
+    "url": "https://api.seerapi.com/v1/element_type_combination/121/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合做15-20次攻击，自身处于护盾状态下连击上限为25",
+      "args": [
+        15,
+        20,
+        25
+      ],
+      "effect": {
+        "id": 1500,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1500/"
+      }
+    },
+    {
+      "info": "消耗自身所有护盾值并附加等量固定伤害，若对手体力未变化则恢复自身等量体力值",
+      "args": [],
+      "effect": {
+        "id": 1662,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1662/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "143c0c"
+}

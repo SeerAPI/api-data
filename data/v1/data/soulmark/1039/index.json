@@ -1,0 +1,42 @@
+{
+  "id": 1039,
+  "desc": "每回合开始时令对手速度-2、命中-2；自身受到攻击伤害时，若该攻击伤害高于自身最大体力的1/2则开启虚空之缝：使对手下1回合攻击技能无效；若该攻击伤害低于自身最大体力的1/2则开启虚空之隙：使对手下1回合属性技能无效（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3760,
+      "url": "https://api.seerapi.com/v1/pet/3760/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1337,
+      "url": "https://api.seerapi.com/v1/eid_effect/1337/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d70cbb83"
+}

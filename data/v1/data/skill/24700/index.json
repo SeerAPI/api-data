@@ -1,0 +1,46 @@
+{
+  "id": 24700,
+  "name": "光明之灾",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "抵抗能力下降；每次使用攻击技能都有概率使对手进入任意一种异常状态",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47/"
+      }
+    },
+    {
+      "info": "3回合内使用攻击技能50%随机附加1种异常状态",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 771,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/771/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1700dc87"
+}

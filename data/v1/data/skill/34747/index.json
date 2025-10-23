@@ -1,0 +1,58 @@
+{
+  "id": 34747,
+  "name": "深海军团阵",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 66,
+    "url": "https://api.seerapi.com/v1/element_type_combination/66/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除双方回合类效果并为双方附加3回合冻伤，自身冻伤状态解除后则恢复自身所有体力",
+      "args": [
+        3,
+        5,
+        5
+      ],
+      "effect": {
+        "id": 1139,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1139/"
+      }
+    },
+    {
+      "info": "连续使用时威力提升10%，最高提升40%",
+      "args": [
+        10,
+        40
+      ],
+      "effect": {
+        "id": 1443,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1443/"
+      }
+    },
+    {
+      "info": "若自身当前体力高于对手则附加对手最大体力1/4的百分比伤害",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 774,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/774/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "333d6a18"
+}

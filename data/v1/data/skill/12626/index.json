@@ -1,0 +1,35 @@
+{
+  "id": 12626,
+  "name": "烈气波",
+  "power": 70,
+  "max_pp": 25,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使用后2回合攻击击中对象要害概率增加1/16",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 32,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/32/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "12801308"
+}

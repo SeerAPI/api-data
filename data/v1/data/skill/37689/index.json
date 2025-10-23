@@ -1,0 +1,59 @@
+{
+  "id": 37689,
+  "name": "十二月的碎花",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 112,
+    "url": "https://api.seerapi.com/v1/element_type_combination/112/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "反转对手能力提升状态，反转成功则2回合内对手的能力下降状态无法被解除或反转",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1771,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1771/"
+      }
+    },
+    {
+      "info": "随机附加150-300点固伤，对手处于能力下降状态时固伤变为250-400点",
+      "args": [
+        150,
+        300,
+        250,
+        400
+      ],
+      "effect": {
+        "id": 1244,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1244/"
+      }
+    },
+    {
+      "info": "3回合内对手使用属性技能后，自身恢复最大体力的1/3并造成等量百分比伤害",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 2099,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2099/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f6b70ff7"
+}

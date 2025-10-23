@@ -1,0 +1,43 @@
+{
+  "id": 943,
+  "desc": "本回合若自身的属性技能失效，则当回合受到的攻击伤害减少50%（减伤效果仅boss有效）；自身使用攻击技能50%的概率造成的伤害翻倍，未触发则下回合攻击技能先制+1且无视对手防御提升效果（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3653,
+      "url": "https://api.seerapi.com/v1/pet/3653/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      50,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 1228,
+      "url": "https://api.seerapi.com/v1/eid_effect/1228/"
+    }
+  },
+  "tag": [
+    {
+      "id": 1,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/1/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ebfa30af"
+}

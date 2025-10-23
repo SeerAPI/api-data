@@ -1,0 +1,47 @@
+{
+  "id": 956,
+  "desc": "在圣光天马的祝福下，黄金天马的潜能得到了极限激发，每回合结束后若对手任意一项能力等级高于回合开始时则召唤持续1回合的圣辉之羽庇护自身；|回合开始时50%令自身全属性+1，未触发则100%令对手全属性-1且当回合自身攻击技能必定打出致命一击|（boss无效）|圣辉之羽：圣耀之光·黄金天马持有时免疫受到的异常状态和能力下降状态且将受到的攻击伤害转化为自身体力，下场不保留",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>未被击败时，若对手<color=#64F9FA>任意一项</color>能力等级高于<color=#64F9FA>回合开始</color>时则召唤持续1回合的<b>圣辉之羽</b>庇护自身\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时50%令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手全属性-1</color>且当回合自身攻击技能<color=#64F9FA>必定打出致命一击</color>\r\n\r\n<indent=0><sprite=5><indent=15>圣辉之羽（下场不保留）：\r\n<indent=16><sprite=6><indent=32>圣耀之光·黄金天马持有时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>受到的<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>将受到的<b>攻击伤害</b><color=#64F9FA>转化</color>为自身体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3670,
+      "url": "https://api.seerapi.com/v1/pet/3670/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1245,
+      "url": "https://api.seerapi.com/v1/eid_effect/1245/"
+    }
+  },
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1710,
+    "url": "https://api.seerapi.com/v1/soulmark/1710/"
+  },
+  "from": null,
+  "hash": "1f9b248b"
+}

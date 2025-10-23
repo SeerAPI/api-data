@@ -1,0 +1,45 @@
+{
+  "id": 1439,
+  "desc": "回合开始时，若对手处于异常状态则当回合造成的攻击伤害降低50%；|自身攻击命中后100%令对手随机进入1种异常状态，若为控制类异常状态则战斗阶段结束时附加300点固定伤害，若为弱化类异常状态则战斗阶段结束时恢复自身300点体力（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于异常状态则当回合造成的<b>攻击伤害</b><color=#64F9FA>降低</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后100%随机<color=#64F9FA>附加</color>1种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若为控制类异常状态则战斗阶段结束时<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若为弱化类异常状态则战斗阶段结束时<color=#64F9FA>恢复</color>自身300点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4220,
+      "url": "https://api.seerapi.com/v1/pet/4220/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      100,
+      1,
+      300,
+      300,
+      1
+    ],
+    "effect": {
+      "id": 1808,
+      "url": "https://api.seerapi.com/v1/eid_effect/1808/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8d9bba1b"
+}

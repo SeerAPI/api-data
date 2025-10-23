@@ -1,0 +1,36 @@
+{
+  "id": 28154,
+  "name": "对成霜",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "恢复了一些体力，且一定回合后恢复自身所有体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "立刻恢复自身350点体力，2回合后恢复自身全部体力",
+      "args": [
+        350,
+        2
+      ],
+      "effect": {
+        "id": 1635,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1635/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "523658d7"
+}

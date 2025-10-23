@@ -1,0 +1,44 @@
+{
+  "id": 19536,
+  "name": "风雷影息",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 36,
+    "url": "https://api.seerapi.com/v1/element_type_combination/36/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使对手的能力提升效果转化到自己身上",
+      "args": [],
+      "effect": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/85/"
+      }
+    },
+    {
+      "info": "4回合内每回合80%闪避对手攻击",
+      "args": [
+        4,
+        80
+      ],
+      "effect": {
+        "id": 426,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/426/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "52ca6c17"
+}

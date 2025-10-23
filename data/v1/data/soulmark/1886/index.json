@@ -1,0 +1,41 @@
+{
+  "id": 1886,
+  "desc": "自身每次登场时，为自身附加三种附属诅咒3回合，之后自身每次进入的控制类异常状态转化为2回合的诅咒|回合开始时，若自身处于诅咒或附属诅咒，则当回合双方任意一方使用技能时将自身所处的诅咒与附属诅咒附加给对手，未触发则当回合自身受到的攻击伤害减少50%，若对手处于诅咒或附属诅咒，则每有一种当回合结束后自身恢复200点体力，然后若自身体力为满则下回合造成的攻击伤害提升100%|自身击败处于诅咒或附属诅咒的对手后，令对方下只出战精灵诅咒，且对手每处于一种诅咒或附属诅咒自身提升50点体力上限（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场时，为自身<color=#64F9FA>附加</color>三种<b>附属诅咒</b>3回合，之后自身每次进入的控制类<b>异常状态</b><color=#64F9FA>转化</color>为2回合的诅咒\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于诅咒或附属诅咒，则当回合双方任意一方使用技能时将自身所处的诅咒附加给对手\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则当回合自身受到的<b>攻击伤害</b>减少50%\r\n<indent=32><sprite=4><indent=48>若对手处于诅咒或附属诅咒，则每有一种当回合结束后自身<color=#64F9FA>恢复</color>200点<b>体力</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>恢复后若自身体力为满则下回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败处于诅咒或附属诅咒的对手后，令对方下只出战精灵诅咒，且对手每处于一种诅咒或附属诅咒自身<color=#64F9FA>提升</color>50点<b>体力上限</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4680,
+      "url": "https://api.seerapi.com/v1/pet/4680/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      2,
+      50,
+      200,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2270,
+      "url": "https://api.seerapi.com/v1/eid_effect/2270/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5661d90b"
+}

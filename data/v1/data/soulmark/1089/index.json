@@ -1,0 +1,44 @@
+{
+  "id": 1089,
+  "desc": "首次登场时消除对手回合类效果，消除成功则令对手随机进入1种异常状态，未触发异常状态则对手当回合技能无效；|回合开始时，若自身体力低于对手则当回合受到攻击后消除对手回合类效果，消除成功则{吸取}对手最大{体力}的1/3；回合开始时，若自身体力高于对手则当回合受到的攻击后100%令对手随机进入1种异常状态，未触发则下回合自身攻击100%令对手随机进入1种异常状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果：\r\n<indent=16><sprite=3><indent=32>首次登场时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>消除成功则随机<color=#64F9FA>附加</color>1种<b>异常状态</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则对手当回合<b>技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合受到攻击后<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>消除成功则<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合受到的攻击后100%随机<color=#64F9FA>附加</color>1种<b>异常状态</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下回合自身攻击100%随机<color=#64F9FA>附加</color>1种<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3814,
+      "url": "https://api.seerapi.com/v1/pet/3814/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      3,
+      100,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1397,
+      "url": "https://api.seerapi.com/v1/eid_effect/1397/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "32c189f3"
+}

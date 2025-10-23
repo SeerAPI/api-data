@@ -1,0 +1,37 @@
+{
+  "id": 613,
+  "desc": "回合开始时若自身体力低于对手则当回合自身有50%的概率闪避对手攻击；回合开始时若自身体力高于对手则当回合对手属性技能无效（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3283,
+      "url": "https://api.seerapi.com/v1/pet/3283/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1
+    ],
+    "effect": {
+      "id": 897,
+      "url": "https://api.seerapi.com/v1/eid_effect/897/"
+    }
+  },
+  "tag": [
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d1f1f8af"
+}

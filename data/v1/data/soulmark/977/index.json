@@ -1,0 +1,42 @@
+{
+  "id": 977,
+  "desc": "攻击技能造成伤害的50%恢复自身体力，若自身当前体力低于对手则使 对手受到自身恢复体力值等量的固定伤害；先出手时使自身下回合免疫异常状态，后出手时使自身下回合先制+1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3698,
+      "url": "https://api.seerapi.com/v1/pet/3698/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      50,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 1273,
+      "url": "https://api.seerapi.com/v1/eid_effect/1273/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "91b61b3e"
+}

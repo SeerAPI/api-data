@@ -1,0 +1,47 @@
+{
+  "id": 24343,
+  "name": "魅色玫瑰",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "攻击变得更加犀利了；随机能力提升",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内致命一击概率上升1/6",
+      "args": [
+        3,
+        6
+      ],
+      "effect": {
+        "id": 498,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/498/"
+      }
+    },
+    {
+      "info": "随机使自己2项能力+1",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 626,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/626/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7b4d23b6"
+}

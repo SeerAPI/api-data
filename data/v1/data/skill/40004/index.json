@@ -1,0 +1,33 @@
+{
+  "id": 40004,
+  "name": "测试技能2",
+  "power": 85,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": " ",
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 221,
+    "url": "https://api.seerapi.com/v1/element_type_combination/221/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "未击败对手则将对手标记为狩杀之的",
+      "args": [],
+      "effect": {
+        "id": 2275,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2275/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5444c8e1"
+}

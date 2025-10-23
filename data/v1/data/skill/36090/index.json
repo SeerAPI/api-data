@@ -1,0 +1,38 @@
+{
+  "id": 36090,
+  "name": "乾坤之灵",
+  "power": 140,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 79,
+    "url": "https://api.seerapi.com/v1/element_type_combination/79/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合50%令自身全属性+1，未触发则令对手全属性-1",
+      "args": [
+        3,
+        50,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1346,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1346/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6404d55f"
+}

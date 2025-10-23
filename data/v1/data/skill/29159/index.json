@@ -1,0 +1,80 @@
+{
+  "id": 29159,
+  "name": "毅武天眷",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；恢复了一定的体力；开始免疫异常状态了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身当前体力高于对手时强化效果翻倍",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 885,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/885/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身防御等级+2",
+      "args": [
+        1,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身特防等级+2",
+      "args": [
+        3,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4/"
+      }
+    },
+    {
+      "info": "恢复650点体力，若当前体力低于650则直接回满",
+      "args": [
+        650,
+        650
+      ],
+      "effect": {
+        "id": 704,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/704/"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "7f0512c4"
+}

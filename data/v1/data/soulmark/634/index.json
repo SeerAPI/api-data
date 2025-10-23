@@ -1,0 +1,44 @@
+{
+  "id": 634,
+  "desc": "每次出场时为自身附加300点护盾；自身带有护盾时每次攻击有25%的概率威力翻倍，若护盾被击破则回合结束后{吸取}对方最大{体力}的1/4（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3309,
+      "url": "https://api.seerapi.com/v1/pet/3309/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      300,
+      25,
+      100,
+      4,
+      1
+    ],
+    "effect": {
+      "id": 917,
+      "url": "https://api.seerapi.com/v1/eid_effect/917/"
+    }
+  },
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "d8797586"
+}

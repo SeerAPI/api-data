@@ -1,0 +1,46 @@
+{
+  "id": 993,
+  "desc": "战斗阶段结束时若自身当前体力低于对手，则附加自身最大体力1/3的百分比伤害并恢复等量体力；|自身攻击技能命中前开启暗影护盾：当回合及下回合闪避对手使用的物理攻击；|自身属性技能命中前开启幽冥之盾：当回合及下回合闪避对手使用的特殊攻击|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3，自身体力低于对手时<color=#64F9FA>附加</color>等量<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则开启暗影护盾：2回合内<color=#64F9FA>闪避</color>对手的物理攻击\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则开启幽冥护盾：2回合内<color=#64F9FA>闪避</color>对手的特殊攻击",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3716,
+      "url": "https://api.seerapi.com/v1/pet/3716/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      2,
+      2,
+      1
+    ],
+    "effect": {
+      "id": 1292,
+      "url": "https://api.seerapi.com/v1/eid_effect/1292/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    },
+    {
+      "id": 18,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/18/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1769,
+    "url": "https://api.seerapi.com/v1/soulmark/1769/"
+  },
+  "from": null,
+  "hash": "805de020"
+}

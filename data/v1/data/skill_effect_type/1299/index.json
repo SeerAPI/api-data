@@ -1,0 +1,25 @@
+{
+  "id": 1299,
+  "args_num": 0,
+  "info": "3回合内每次对手造成的攻击伤害低于300则减少对手所有不在场精灵100点体力，每次对手使用属性技能则恢复己方所有不在场精灵100点体力，使对手不在场精灵死亡时令其残留1点体力",
+  "info_formatting_adjustment": "3回合内<condition>每次对手造成的攻击伤害低于300</condition>则减少对手所有不在场精灵100点体力\r\n--><condition>使对手不在场精灵死亡时</condition>令其残留1点体力\r\n<condition>每次对手使用属性技能</condition>则恢复己方所有不在场精灵100点体力",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 25898,
+      "url": "https://api.seerapi.com/v1/skill/25898/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828/"
+    },
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    }
+  ],
+  "hash": "2d023b9c"
+}

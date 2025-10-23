@@ -1,0 +1,60 @@
+{
+  "id": 25915,
+  "name": "混沌灾厄",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "使自身获得了一个护盾，同时自身输出能力提升了，出手更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "获得400点护盾，护盾消失时对对手造成400点固定伤害且有50%的概率使对手疲惫",
+      "args": [
+        400,
+        400,
+        50,
+        7
+      ],
+      "effect": {
+        "id": 1751,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1751/"
+      }
+    },
+    {
+      "info": "下2回合造成的攻击伤害额外提升100%",
+      "args": [
+        2,
+        100
+      ],
+      "effect": {
+        "id": 693,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/693/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "ed1b29b0"
+}

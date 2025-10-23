@@ -1,0 +1,43 @@
+{
+  "id": 1172,
+  "desc": "首次登场首回合，若自身体力高于对手则攻击附加自身最大体力1/2的固定伤害，若自身体力低于对手则当回合免疫受到的伤害（包括固定伤害和百分比伤害）；自身每次受到攻击则40%的概率令对手感染，未触发则下次触发概率提升20%（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场之后当回合开始：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合攻击<color=#64F9FA>附加</color>自身最大体力1/2的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合<color=#64F9FA>免疫</color>受到的<b>攻击伤害、固定伤害、百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次受到攻击则40%<color=#64F9FA>令对手感染</color>，未触发则下次触发概率提升20%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3905,
+      "url": "https://api.seerapi.com/v1/pet/3905/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      2,
+      40,
+      20,
+      1
+    ],
+    "effect": {
+      "id": 1495,
+      "url": "https://api.seerapi.com/v1/eid_effect/1495/"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "7060d036"
+}

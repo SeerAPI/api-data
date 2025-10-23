@@ -1,0 +1,38 @@
+{
+  "id": 678,
+  "desc": "先出手时{吸取}对手最大{体力}的1/4；后出手时恢复自身最大体力的1/3并造成等量固伤（BOSS无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3359,
+      "url": "https://api.seerapi.com/v1/pet/3359/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      4,
+      3,
+      1
+    ],
+    "effect": {
+      "id": 962,
+      "url": "https://api.seerapi.com/v1/eid_effect/962/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ad760eaa"
+}

@@ -1,0 +1,45 @@
+{
+  "id": 28755,
+  "name": "固化力场",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "info": "双方的状态更难改变了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内自身的能力提升状态无法被消除或吸取",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1683,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1683/"
+      }
+    },
+    {
+      "info": "3回合内对手的能力下降状态无法被解除或反转",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1684,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1684/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1d1ed70e"
+}

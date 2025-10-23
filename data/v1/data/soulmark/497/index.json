@@ -1,0 +1,45 @@
+{
+  "id": 497,
+  "desc": "受到伤害时使对手随机三项能力-1；回合开始时若对手处于全属性下降状态则消除对手回合类效果并使对手害怕（BOSS无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到伤害时使对手随机三项能力-1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于全属性下降状态则<color=#64F9FA>消除</color>对手<b>回合类效果</b>并<color=#64F9FA>使对手害怕</color>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3156,
+      "url": "https://api.seerapi.com/v1/pet/3156/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      1,
+      1
+    ],
+    "effect": {
+      "id": 801,
+      "url": "https://api.seerapi.com/v1/eid_effect/801/"
+    }
+  },
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9/"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11/"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    }
+  ],
+  "intensified_to": {
+    "id": 1819,
+    "url": "https://api.seerapi.com/v1/soulmark/1819/"
+  },
+  "from": null,
+  "hash": "879acf0e"
+}

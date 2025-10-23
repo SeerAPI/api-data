@@ -1,0 +1,33 @@
+{
+  "id": 1984,
+  "desc": "对手使用技能后自身消除自身回合类效果，消除成功则下1回合免疫受到的攻击，若自身不处于回合类效果则自身恢复最大体力的1/3（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能后：\r\n<indent=32><sprite=4><indent=48>自身<color=#64F9FA>消除</color>自身<b>回合类效果</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>消除成功则下1回合<color=#64F9FA>免疫</color>受到的<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>若自身不处于回合类效果则自身<color=#64F9FA>恢复</color>最大体力的1/3",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4788,
+      "url": "https://api.seerapi.com/v1/pet/4788/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2408,
+      "url": "https://api.seerapi.com/v1/eid_effect/2408/"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "1b8247ea"
+}

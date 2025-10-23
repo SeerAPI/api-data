@@ -1,0 +1,56 @@
+{
+  "id": 2067,
+  "args_num": 4,
+  "info": "{0}回合内{1}%闪避对手的攻击，效果结束后恢复自身所有技能{2}PP值{3}体力",
+  "info_formatting_adjustment": "{0}回合内{1}%闪避对手的攻击\r\n--><condition>效果结束后</condition>恢复自身所有技能{2}PP值{3}体力",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 20,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/20/"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/21/"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 28418,
+      "url": "https://api.seerapi.com/v1/skill/28418/"
+    },
+    {
+      "id": 28441,
+      "url": "https://api.seerapi.com/v1/skill/28441/"
+    },
+    {
+      "id": 28721,
+      "url": "https://api.seerapi.com/v1/skill/28721/"
+    },
+    {
+      "id": 37418,
+      "url": "https://api.seerapi.com/v1/skill/37418/"
+    },
+    {
+      "id": 38117,
+      "url": "https://api.seerapi.com/v1/skill/38117/"
+    }
+  ],
+  "tag": [
+    {
+      "id": 59570,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/59570/"
+    },
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114/"
+    }
+  ],
+  "hash": "780d5786"
+}
