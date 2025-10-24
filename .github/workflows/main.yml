@@ -44,14 +44,14 @@ jobs:
     
     - name: Clone config sources
       run: |
-        git clone ${{ env.SOLARIS_DATA_SOURCE }} config-sources
+        git clone ${{ env.SOLARIS_DATA_SOURCE }} source
         git clone ${{ env.SOLARIS_PATCH_SOURCE }} patch-sources
         mkdir -p config-sources/patch
-        mv patch-sources/patches/* config-sources/patch
+        mv patch-sources/patches/* source/patch
 
     - name: Analyze config
       run: |
-        solaris analyze -w config-sources -o json \
+        solaris analyze -o json \
         --json-output-dir data --schema-output-dir schemas \
         --base-json-url https://api.seerapi.com/v1 \
         --base-schema-url https://api.seerapi.com/v1/schemas
