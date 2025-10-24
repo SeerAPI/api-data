@@ -46,7 +46,7 @@ jobs:
       run: |
         git clone ${{ env.SOLARIS_DATA_SOURCE }} source
         git clone ${{ env.SOLARIS_PATCH_SOURCE }} patch-sources
-        mkdir -p config-sources/patch
+        mkdir -p source/patch
         mv patch-sources/patches/* source/patch
 
     - name: Analyze config
