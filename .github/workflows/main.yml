@@ -1,0 +1,66 @@
+name: Auto Update Config
+
+on:
+  workflow_dispatch:
+    inputs:
+      debug_enabled:
+        type: boolean
+        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
+        required: false
+        default: false
+
+  repository_dispatch:
+    types: [config-source-update, patch-source-update]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    env:
+      SOLARIS_API_VERSION: v1
+      SOLARIS_API_URL: https://api.seerapi.com
+      SOLARIS_DATA_SOURCE: https://github.com/SeerAPI/config-sources.git
+      SOLARIS_PATCH_SOURCE: https://github.com/SeerAPI/patch-sources.git
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Set up uv
+      uses: astral-sh/setup-uv@v1
+      with:
+        uv-version: 'latest'
+
+    - name: Install solaris
+      run: uv tool install https://github.com/SeerAPI/solaris
+
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
+      if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
+    
+    - name: Clone config sources
+      run: |
+        git clone ${{ env.SOLARIS_DATA_SOURCE }} config-sources
+        git clone ${{ env.SOLARIS_PATCH_SOURCE }} patch-sources
+        mkdir -p config-sources/patch
+        mv patch-sources/patches/* config-sources/patch
+
+    - name: Analyze config
+      run: |
+        solaris analyze -w config-sources -o json \
+        --json-output-dir data --schema-output-dir schemas \
+        --base-json-url https://api.seerapi.com/v1 \
+        --base-schema-url https://api.seerapi.com/v1/schemas \
+        mv v1/* data/v1 -f
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data
+        git diff --staged --quiet || git commit -m "Auto update config $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
+        git push
