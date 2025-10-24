@@ -54,7 +54,7 @@ jobs:
         solaris analyze -w config-sources -o json \
         --json-output-dir data --schema-output-dir schemas \
         --base-json-url https://api.seerapi.com/v1 \
-        --base-schema-url https://api.seerapi.com/v1/schemas \
+        --base-schema-url https://api.seerapi.com/v1/schemas
         mv v1/* data/v1 -f
 
     - name: Commit and push changes
