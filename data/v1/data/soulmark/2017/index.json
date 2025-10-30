@@ -1,0 +1,37 @@
+{
+  "id": 2017,
+  "desc": "自身每次登场之后2回合内每回合开始时令对手速度、命中-2，效果结束后本次在场忽略对手特防值的25%；对手使用技能时若处于能力下降状态则消除对手能力提升状态，若不处于能力下降状态则令对手束缚3回合（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场之后2回合内每回合开始时令对手速度、命中-2\r\n<indent=32><sprite=4><indent=48>效果结束后本次在场<color=#64F9FA>忽略</color>对手特防值的25%；\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能时：\r\n<indent=32><sprite=4><indent=48>若处于能力下降状态则<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若不处于能力下降状态则<color=#64F9FA>令对手束缚</color>3回合",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4827,
+      "url": "https://api.seerapi.com/v1/pet/4827/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2440,
+      "url": "https://api.seerapi.com/v1/eid_effect/2440/"
+    }
+  },
+  "tag": [
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13/"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "74d0b8aa"
+}
