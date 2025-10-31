@@ -1,7 +1,7 @@
 {
   "id": 1057,
   "desc": "自身攻击技能命中后消除对手回合类效果，消除成功则50%令对手冰封；|回合开始时，对手处于能力下降状态则攻击技能使对手随机1个技能的PP归零，自身处于能力下降状态则攻击技能先制+1且解除自身能力下降状态（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>消除成功则50%<color=#64F9FA>令对手冰封</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>对手处于能力下降状态则攻击技能使对手随机1个技能的<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><indent=48>自身处于能力下降状态则攻击技能<color=#64F9FA>解除</color>自身<b>能力下降状态</b>且<b>先制</b>+1",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手体力高于最大体力的1/2则自身：\r\n<indent=32><sprite=4><sprite=4><indent=64>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><sprite=4><indent=64>造成的攻击伤害高于300则80%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>若对手体力低于最大体力的1/2则自身攻击命中后令对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -42,5 +42,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1650/"
   },
   "from": null,
-  "hash": "ef4fdb88"
+  "hash": "96c77d27"
 }

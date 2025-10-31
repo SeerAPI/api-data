@@ -1,7 +1,7 @@
 {
   "id": 1606,
-  "desc": "回合开始时若对手处于异常状态则自身所有技能先制+1，若对手不处于异常状态则降低对手所有技能PP值1点；|回合结束后若自身任意1项技能PP值为0则恢复自身所有技能PP值1点且恢复自身最大体力的1/3并造成等量百分比伤害，若自身≥3项技能PP值为0则额外消除对手回合类效果且100%令对手沉默（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则自身所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则<color=#64F9FA>降低</color>对手所有技能PP值1点\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后：\r\n<indent=32><sprite=4><indent=48>若自身任意1项技能PP值为0则<color=#64F9FA>恢复</color>自身所有技能PP值1点且<color=#64F9FA>恢复</color>自身最大体力的1/3并造成等量<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身≥3项技能PP值为0则额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>且100%<color=#64F9FA>令对手沉默</color>",
+  "desc": "回合开始时若对手处于异常状态则自身所有技能先制+1，若对手不处于异常状态则降低对手所有技能PP值1点；|回合结束时若自身任意1项技能PP值为0则恢复自身所有技能PP值1点且恢复自身最大体力的1/3并造成等量百分比伤害，若自身≥3项技能PP值为0则额外消除对手回合类效果且100%令对手沉默（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则自身所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则<color=#64F9FA>降低</color>对手所有技能<b>PP值</b>1点\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束时：\r\n<indent=32><sprite=4><indent=48>若自身任意1项技能PP值为0则<color=#64F9FA>恢复</color>自身所有技能<b>PP值</b>1点且<color=#64F9FA>恢复</color>自身最大体力的1/3并造成等量<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身≥3项技能PP值为0则额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>且100%<color=#64F9FA>令对手沉默</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +41,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "f4007866"
+  "hash": "9f4595e7"
 }

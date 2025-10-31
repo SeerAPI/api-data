@@ -1,0 +1,65 @@
+{
+  "id": 38137,
+  "name": "断金鳍锋斩",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 60,
+    "url": "https://api.seerapi.com/v1/element_type_combination/60/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则自身全属性+2",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1352,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1352/"
+      }
+    },
+    {
+      "info": "将自身的能力下降状态双倍反馈给对手，反馈成功则对手下2次技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1289,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1289/"
+      }
+    },
+    {
+      "info": "先出手时免疫当回合受到的攻击伤害，若对手为自身天敌则免疫并反弹给对手造成伤害值100%的百分比伤害",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1511,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1511/"
+      }
+    },
+    {
+      "info": "下次击败对手时，令对方下只出战精灵流血",
+      "args": [
+        16
+      ],
+      "effect": {
+        "id": 2162,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2162/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "302d05bb"
+}

@@ -1,7 +1,7 @@
 {
   "id": 1752,
   "desc": "每次登场后闪避对手的首次攻击，闪避成功本局游戏自身先制+1且造成的固定伤害、百分比伤害增加15%（最高叠加3次）；|回合开始时，若自身体力高于最大体力的1/2则本回合将自身的特攻、速度、命中视为额外+1，若低于1/2则重新激活自身的登场效果且当回合对手攻击无效后100%令对手瘫痪|（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场后闪避对手的首次攻击\r\n<indent=32><sprite=4><indent=48>闪避成功本局游戏自身<b>先制</b>+1且造成的<b>固定伤害、百分比伤害<color=#64F9FA></b>增加</color>15%（可叠加，最高叠加3次）\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则本回合将自身的特攻、速度、命中视为+1\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则重新激活自身的登场效果且当回合对手攻击失效后100%<color=#64F9FA>令对手瘫痪</color>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场后闪避对手的首次攻击\r\n<indent=32><sprite=4><indent=48>闪避成功则本场战斗自身<b>先制</b>+1且造成的<b>固定伤害、百分比伤害<color=#64F9FA></b>增加</color>15%，可叠加3次\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则本回合将自身的特攻、速度、命中<color=#64F9FA>视为</color>+1\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则重新激活自身的登场效果且当回合对手攻击失效后100%<color=#64F9FA>令对手瘫痪</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -43,5 +43,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "1c29cea2"
+  "hash": "28c1a6a0"
 }

@@ -1,0 +1,44 @@
+{
+  "id": 2020,
+  "desc": "登场时，对手每有30%的体力令对手流血1回合，对手已处于流血时改为每有30%的体力令对手的流血状态回合数+1且1回合内免疫能力下降状态|对手不处于流血状态时自身受到的攻击伤害、固定伤害、百分比伤害减少25%，每回合受到上述类型伤害达到2种后剩余的类型所对应的减伤效果当回合翻倍；对手处于流血状态时自身免疫控制类异常状态，每回合前2次触发后令对手的流血状态回合数+1|战斗阶段结束时吸取对手100点体力，对手所处的流血状态每有1回合效果增加100，对手免疫固定伤害则消除对手回合类效果|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时，对手每有30%的体力，<color=#64F9FA>令对手流血</color>1回合\r\n<indent=32><sprite=4><indent=48>对手已处于流血时改为每有30%的体力令对手的流血状态回合数+1且1回合内<color=#64F9FA>免疫</color><b>能力下降状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手不处于流血状态时自身受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=32><sprite=4><indent=48>每回合受到上述类型伤害达到2种后剩余的类型所对应的减伤效果当回合翻倍\r\n<indent=16><sprite=3><indent=32>对手处于流血状态时自身<color=#64F9FA>免疫</color>受到的<b>控制类异常状态</b>\r\n<indent=32><sprite=4><indent=48>每回合前2次触发后令对手的流血状态回合数+1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>吸取</color>对手100点<b>体力</b>，对手所处的流血状态每有1回合效果增加100\r\n<indent=32><sprite=4><indent=48>对手免疫固定伤害则<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4830,
+      "url": "https://api.seerapi.com/v1/pet/4830/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      25,
+      2,
+      100,
+      1
+    ],
+    "effect": {
+      "id": 2442,
+      "url": "https://api.seerapi.com/v1/eid_effect/2442/"
+    }
+  },
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4/"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6/"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15/"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "caac48fa"
+}

@@ -1,7 +1,7 @@
 {
   "id": 1054,
   "desc": "对手不处于能力下降状态时自身所有技能先制+1；自身体力高于最大体力的1/2时被击败则使对手受到等同于自身最大体力70%的固定伤害，自身体力低于最大体力的1/2时被击败则消除对手回合类效果和能力提升状态（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手不处于能力下降状态时自身所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能时若：\r\n<indent=32><sprite=4><indent=48>自身体力高于最大体力的1/2，则当回合自身被击败时<color=#64F9FA>附加</color>自身最大体力70%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身体力不高于最大体力的1/2，则当回合被击败时<color=#64F9FA>消除</color>对手<b>回合类效果</b>和<b>能力提升状态</b>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -40,5 +40,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "17c060be"
+  "hash": "61dcf7d2"
 }

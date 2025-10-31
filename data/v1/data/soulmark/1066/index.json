@@ -1,8 +1,8 @@
 {
   "id": 1066,
   "desc": "受到攻击时使50%令自身随机3项能力值+1，未触发则令对手随机3项能力值+1；若使自身能力值增加则下回合自身攻击造成的伤害提升100%，若使对手能力值增加则下回合自身攻击先制+3同时消除对手能力提升状态（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到攻击时使50%令自身随机3项能力+1\r\n<indent=32><sprite=4><indent=48>未触发则令对手随机3项能力+1\r\n<indent=16><sprite=3><indent=32>上述效果若使自身能力提升则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=16><sprite=3><indent=32>上述效果若使对手能力提升则下回合自身攻击先制+3且<color=#64F9FA>消除</color>对手<b>能力提升状态</b>",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -43,5 +43,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "bda0d4d8"
+  "hash": "ad841139"
 }

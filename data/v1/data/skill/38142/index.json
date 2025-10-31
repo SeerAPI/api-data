@@ -1,0 +1,60 @@
+{
+  "id": 38142,
+  "name": "绝境孤袭",
+  "power": 10,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合做13-16次攻击，自身体力低于对手时连击上限为18",
+      "args": [
+        13,
+        16,
+        18
+      ],
+      "effect": {
+        "id": 1593,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1593/"
+      }
+    },
+    {
+      "info": "造成的伤害高于300则获得300点护盾",
+      "args": [
+        300,
+        300
+      ],
+      "effect": {
+        "id": 1008,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1008/"
+      }
+    },
+    {
+      "info": "损失自身250点体力，给对手造成350点固定伤害，若自身体力不足300则损失全部体力且造成的固定伤害翻倍",
+      "args": [
+        250,
+        350,
+        300
+      ],
+      "effect": {
+        "id": 1563,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1563/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "885e6201"
+}
