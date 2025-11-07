@@ -1,7 +1,7 @@
 {
   "id": 1043,
   "desc": "回合开始时，若当回合为首次登场首回合，则当回合自身免疫异常状态且将受到的攻击伤害转化为体力（每场战斗仅触发1次，boss有效）；|己方场下每有一只精灵存活则造成的伤害提升20%，对方场下每有一只精灵阵亡则自身闪避率提升20%；|战斗阶段结束时，若自身体力高于对手则直至下回合结束免疫并反弹异常状态，若自身体力低于对手则恢复自身最大体力的1/3并造成等量百分比伤害（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次，boss有效）：\r\n<indent=16><sprite=3><indent=32>登场首回合<color=#64F9FA>免疫<b></color>异常状态</b>且将受到的<b>攻击伤害</b><color=#64F9FA>转化</color>为体力\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身背包内每有一只其他存活精灵则自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>20%\r\n<indent=16><sprite=3><indent=32>对手背包内每有一只阵亡精灵则自身<b>闪避率<color=#64F9FA></b>提升</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则下回合<color=#64F9FA>免疫并反弹<b></color>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则<color=#64F9FA>恢复</color>自身最大体力的1/3并<color=#64F9FA>附加</color>等量<b>固定伤害</b>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次，boss有效）：\r\n<indent=16><sprite=3><indent=32>登场首回合<color=#64F9FA>免疫<b></color>异常状态</b>且将受到的<b>攻击伤害</b><color=#64F9FA>转化</color>为体力恢复\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>己方场下每有一只其他存活精灵则自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>20%\r\n<indent=16><sprite=3><indent=32>对方场下每有一只阵亡精灵则自身<b>闪避率<color=#64F9FA></b>提升</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则下回合<color=#64F9FA>免疫并反弹<b></color>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则<color=#64F9FA>恢复</color>自身最大体力的1/3并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -42,5 +42,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1816/"
   },
   "from": null,
-  "hash": "f8ea6b31"
+  "hash": "33ceb77c"
 }

@@ -1,0 +1,57 @@
+{
+  "id": 38146,
+  "name": "眼镜蛇鞭打",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1/"
+  },
+  "type": {
+    "id": 48,
+    "url": "https://api.seerapi.com/v1/element_type_combination/48/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则100%令对手害怕",
+      "args": [
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1711,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1711/"
+      }
+    },
+    {
+      "info": "无视对手能力提升状态，无视成功则100%令对手害怕",
+      "args": [
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1952,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1952/"
+      }
+    },
+    {
+      "info": "附加200点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "args": [
+        200
+      ],
+      "effect": {
+        "id": 1084,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1084/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f1d3398d"
+}
