@@ -1,0 +1,28 @@
+{
+  "id": 2026,
+  "desc": "回合开始时若自身体力低于对手则当回合受到的攻击伤害不超过400（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则当回合受到的<b>攻击伤害</b><color=#64F9FA>无法超过</color>400",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4836,
+      "url": "https://api.seerapi.com/v1/pet/4836/"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      400,
+      1
+    ],
+    "effect": {
+      "id": 766,
+      "url": "https://api.seerapi.com/v1/eid_effect/766/"
+    }
+  },
+  "tag": [],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b4f248a2"
+}

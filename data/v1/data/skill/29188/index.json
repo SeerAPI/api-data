@@ -1,0 +1,80 @@
+{
+  "id": 29188,
+  "name": "真血神湮",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "全属性提升了；开始免疫并反弹狂暴以外的异常状态了；开始附加真实伤害了；开始忽略对手的防御了；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4/"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身背包内每阵亡1只精灵则20%的概率强化效果翻倍",
+      "args": [
+        1,
+        20
+      ],
+      "effect": {
+        "id": 1665,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1665/"
+      }
+    },
+    {
+      "info": "5回合内免疫并反弹除狂暴外所有受到的异常状态",
+      "args": [
+        5,
+        14
+      ],
+      "effect": {
+        "id": 1932,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1932/"
+      }
+    },
+    {
+      "info": "下次攻击忽略对手双防值的50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 886,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/886/"
+      }
+    },
+    {
+      "info": "5回合内每回合使用技能附加20%最大体力的真实伤害",
+      "args": [
+        5,
+        20,
+        1
+      ],
+      "effect": {
+        "id": 1531,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1531/"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cf3757c1"
+}

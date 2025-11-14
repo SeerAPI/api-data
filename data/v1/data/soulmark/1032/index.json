@@ -1,7 +1,7 @@
 {
   "id": 1032,
   "desc": "自身使用技能时50%的概率不消耗技能PP值，对手使用技能时50%的概率消耗2倍技能PP值；回合开始时，若对手体力高于最大体力的1/2则当回合自身受到的攻击伤害减少50%，若对手体力低于最大体力的1/2则当回合自身攻击技能随机附加200-400点固定伤害（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能时50%的概率<color=#64F9FA>不消耗技能PP值</color>\r\n<indent=16><sprite=3><indent=32>对手使用技能时50%的概率消耗2倍技能PP值\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手体力高于最大体力的1/2则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><indent=48>若对手体力低于最大体力的1/2则当回合自身攻击技能随机<color=#64F9FA>附加</color>200-400点<b>固定伤害</b>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -39,5 +39,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "5682f1e0"
+  "hash": "409f166b"
 }

@@ -1,8 +1,8 @@
 {
   "id": 1040,
   "desc": "自身攻击命中对手时50%的概率附加对手最大体力1/4的固定伤害，未触发则附加自身攻击值50%的固定伤害；每次击败对手后自身免疫下1次受到的攻击伤害，同时3回合内攻击50%的概率打出致命一击（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中对手时50%<color=#64F9FA>附加</color>对手最大体力1/4的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>自身攻击值50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>每次击败对手后：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>下1次受到的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>3回合内攻击50%<color=#64F9FA>打出致命一击</color>",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -42,5 +42,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "f2913f0c"
+  "hash": "d5d7c3d1"
 }

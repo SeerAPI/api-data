@@ -1,0 +1,69 @@
+{
+  "id": 38148,
+  "name": "金鳞开天",
+  "power": 90,
+  "max_pp": 9,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "金祖之龙阵亡时不受PP值限制、无视对手的攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 2359,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2359/"
+      }
+    },
+    {
+      "info": "出手时若自身满体力则100%打出致命一击",
+      "args": [],
+      "effect": {
+        "id": 1640,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1640/"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则令对手臣服",
+      "args": [
+        31
+      ],
+      "effect": {
+        "id": 889,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/889/"
+      }
+    },
+    {
+      "info": "对手体力为满时造成伤害提升20%",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 2222,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2222/"
+      }
+    },
+    {
+      "info": "未击败对手则自身能力提升状态翻倍",
+      "args": [],
+      "effect": {
+        "id": 964,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/964/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "42a669cd"
+}

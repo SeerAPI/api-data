@@ -1,0 +1,71 @@
+{
+  "id": 38147,
+  "name": "玄羽悼唁",
+  "power": 90,
+  "max_pp": 9,
+  "accuracy": 100,
+  "crit_rate": 0.0625,
+  "priority": 3,
+  "must_hit": false,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 15,
+    "url": "https://api.seerapi.com/v1/element_type_combination/15/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "玄祖之龙阵亡时不受PP值限制、无视对手的能力提升效果",
+      "args": [],
+      "effect": {
+        "id": 2358,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2358/"
+      }
+    },
+    {
+      "info": "若自身未满体力则吸取对手最大体力的1/5",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 1371,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1371/"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功使自身狂暴",
+      "args": [
+        14
+      ],
+      "effect": {
+        "id": 2361,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2361/"
+      }
+    },
+    {
+      "info": "附加自身最大体力20%的百分比伤害",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 831,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/831/"
+      }
+    },
+    {
+      "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+      "args": [],
+      "effect": {
+        "id": 2105,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2105/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "461d934d"
+}

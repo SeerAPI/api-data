@@ -1,0 +1,58 @@
+{
+  "id": 38153,
+  "name": "空与幻之辉",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0625,
+  "priority": 0,
+  "must_hit": true,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2/"
+  },
+  "type": {
+    "id": 124,
+    "url": "https://api.seerapi.com/v1/element_type_combination/124/"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "1回合内令对手使用的属性技能无效",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/478/"
+      }
+    },
+    {
+      "info": "将下次受到的伤害100%反馈给对手 ",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 855,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/855/"
+      }
+    },
+    {
+      "info": "100%令对手睡眠，未触发则1回合内自身造成的攻击伤害额外提升100%",
+      "args": [
+        100,
+        8,
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1111,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1111/"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3f56cf59"
+}
