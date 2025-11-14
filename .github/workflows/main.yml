@@ -66,3 +66,12 @@ jobs:
         git add data
         git diff --staged --quiet || git commit -m "Auto update config $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
         git push
+    
+    - name: Push to cnb.cool Git Repository
+      run: |
+        # 配置 cnb.cool 远程仓库
+        git remote add cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git || true
+        git remote set-url cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git
+
+        # 推送到 cnb.cool 仓库
+        git push cnb main --force
