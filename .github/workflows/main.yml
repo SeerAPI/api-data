@@ -51,7 +51,7 @@ jobs:
 
     - name: Analyze config
       run: |
-        solaris analyze -m json \
+        solaris analyze -m all --db-url sqlite:///seerapi-data.sqlite \
         --base-output-dir output \
         --json-output-dir data --schema-output-dir schemas \
         --base-json-url https://api.seerapi.com/v1 \
