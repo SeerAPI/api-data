@@ -1,10 +1,12 @@
 {
   "$defs": {
     "ResourceRef_PetSkinCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_skin_category"
     },
     "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet"
     }
   },
   "properties": {

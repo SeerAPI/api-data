@@ -12,13 +12,11 @@
       "type": "string"
     },
     "generator_name": {
-      "default": "solaris",
       "description": "生成器名称",
       "title": "Generator Name",
       "type": "string"
     },
     "generator_version": {
-      "default": "0.1.0",
       "description": "生成器版本",
       "title": "Generator Version",
       "type": "string"
@@ -62,9 +60,11 @@
   "required": [
     "api_url",
     "api_version",
+    "generator_name",
+    "generator_version",
     "hash"
   ],
-  "title": "ApiMetadata",
+  "title": "ApiMetadataSettings",
   "type": "object",
   "$schema": "https://json-schema.org/draft/2020-12/schema"
 }

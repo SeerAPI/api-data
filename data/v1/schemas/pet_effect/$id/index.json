@@ -1,10 +1,11 @@
 {
   "$defs": {
     "EidEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
     },
     "ResourceRef_PetEffectGroup_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_effect_group"
     }
   },
   "properties": {

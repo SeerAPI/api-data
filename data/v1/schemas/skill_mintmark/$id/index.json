@@ -1,16 +1,20 @@
 {
   "$defs": {
     "ResourceRef_MintmarkRarityCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "mintmark_rarity"
     },
     "ResourceRef_MintmarkTypeCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "mintmark_type"
     },
     "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet"
     },
     "ResourceRef_Skill_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill"
     },
     "SkillMintmarkEffect": {
       "properties": {

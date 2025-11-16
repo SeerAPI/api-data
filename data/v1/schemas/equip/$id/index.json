@@ -1,7 +1,7 @@
 {
   "$defs": {
     "EidEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
     },
     "EquipBonus": {
       "properties": {
@@ -29,6 +29,18 @@
           ],
           "default": null,
           "description": "部件效果，一部分套装使用该字段来表示效果"
+        },
+        "id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
         },
         "desc": {
           "description": "部件描述",
@@ -118,26 +130,33 @@
       "type": "object"
     },
     "ResourceRef_EquipEffectiveOccasion_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "equip_effective_occasion"
     },
     "ResourceRef_EquipType_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "equip_type"
+    },
+    "ResourceRef_Item_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "item"
     },
     "ResourceRef_Suit_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "suit"
     },
     "SixAttributes": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
     }
   },
   "properties": {
     "id": {
-      "description": "资源ID",
+      "description": "部件ID",
       "title": "Id",
       "type": "integer"
     },
     "name": {
-      "description": "名称",
+      "description": "部件名称",
       "title": "Name",
       "type": "string"
     },
@@ -153,6 +172,10 @@
       "default": null,
       "description": "部件速度移动加成，一般只有脚部部件提供",
       "title": "Speed"
+    },
+    "item": {
+      "$ref": "#/$defs/ResourceRef_Item_",
+      "description": "装备部件物品资源引用"
     },
     "bonus": {
       "anyOf": [
@@ -215,6 +238,7 @@
   "required": [
     "id",
     "name",
+    "item",
     "part_type",
     "hash"
   ],

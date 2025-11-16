@@ -1,16 +1,31 @@
 {
   "$defs": {
     "ResourceRef_SkillEffectParam_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill_effect_param"
     },
     "ResourceRef_SkillEffectTypeTag_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill_effect_type_tag"
     },
     "ResourceRef_Skill_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill"
     },
     "SkillEffectParamInType": {
       "properties": {
+        "id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
+        },
         "position": {
           "description": "参数位置",
           "title": "Position",

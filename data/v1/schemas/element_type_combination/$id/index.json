@@ -1,7 +1,8 @@
 {
   "$defs": {
     "ResourceRef_ElementType_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "element_type"
     }
   },
   "properties": {
@@ -36,12 +37,6 @@
       "default": null,
       "description": "副属性"
     },
-    "is_double": {
-      "description": "是否是双属性",
-      "readOnly": true,
-      "title": "Is Double",
-      "type": "boolean"
-    },
     "hash": {
       "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
@@ -53,7 +48,6 @@
     "name",
     "name_en",
     "primary",
-    "is_double",
     "hash"
   ],
   "title": "TypeCombination",

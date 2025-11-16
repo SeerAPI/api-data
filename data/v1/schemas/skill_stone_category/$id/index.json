@@ -1,10 +1,12 @@
 {
   "$defs": {
     "ResourceRef_SkillStone_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill_stone"
     },
     "ResourceRef_TypeCombination_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "element_type_combination"
     }
   },
   "properties": {

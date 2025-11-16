@@ -1,6 +1,6 @@
 {
   "$defs": {
-    "DiyStats": {
+    "DiyStatsRange": {
       "properties": {
         "min": {
           "$ref": "#/$defs/SixAttributes",
@@ -15,41 +15,51 @@
         "min",
         "max"
       ],
-      "title": "DiyStats",
+      "title": "DiyStatsRange",
       "type": "object"
     },
     "ResourceRef_PetArchiveStoryEntry_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_archive_story_entry"
     },
     "ResourceRef_PetClass_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_class"
     },
     "ResourceRef_PetEncyclopediaEntry_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_encyclopedia_entry"
     },
     "ResourceRef_PetGenderCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_gender"
     },
     "ResourceRef_PetMountTypeCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_mount_type"
     },
     "ResourceRef_PetVipBuffCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_vipbuff"
     },
     "ResourceRef_SkillActivationItem_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill_activation_item"
     },
     "ResourceRef_Skill_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill"
     },
     "ResourceRef_Soulmark_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "soulmark"
     },
     "ResourceRef_TypeCombination_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "element_type_combination"
     },
     "SixAttributes": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
     },
     "SkillInPet": {
       "properties": {
@@ -240,7 +250,7 @@
     "diy_stats": {
       "anyOf": [
         {
-          "$ref": "#/$defs/DiyStats"
+          "$ref": "#/$defs/DiyStatsRange"
         },
         {
           "type": "null"

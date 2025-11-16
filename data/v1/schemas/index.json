@@ -20,12 +20,8 @@
       "title": "pet_variation Path",
       "type": "string"
     },
-    "element_type": {
-      "title": "element_type Path",
-      "type": "string"
-    },
-    "element_type_combination": {
-      "title": "element_type_combination Path",
+    "energy_bead": {
+      "title": "energy_bead Path",
       "type": "string"
     },
     "equip": {
@@ -44,8 +40,40 @@
       "title": "equip_effective_occasion Path",
       "type": "string"
     },
-    "energy_bead": {
-      "title": "energy_bead Path",
+    "soulmark": {
+      "title": "soulmark Path",
+      "type": "string"
+    },
+    "soulmark_tag": {
+      "title": "soulmark_tag Path",
+      "type": "string"
+    },
+    "element_type": {
+      "title": "element_type Path",
+      "type": "string"
+    },
+    "element_type_combination": {
+      "title": "element_type_combination Path",
+      "type": "string"
+    },
+    "item": {
+      "title": "item Path",
+      "type": "string"
+    },
+    "item_category": {
+      "title": "item_category Path",
+      "type": "string"
+    },
+    "gem": {
+      "title": "gem Path",
+      "type": "string"
+    },
+    "gem_category": {
+      "title": "gem_category Path",
+      "type": "string"
+    },
+    "gem_generation_category": {
+      "title": "gem_generation_category Path",
       "type": "string"
     },
     "skill_activation_item": {
@@ -88,18 +116,6 @@
       "title": "mintmark_rarity Path",
       "type": "string"
     },
-    "gem": {
-      "title": "gem Path",
-      "type": "string"
-    },
-    "gem_category": {
-      "title": "gem_category Path",
-      "type": "string"
-    },
-    "gem_generation_category": {
-      "title": "gem_generation_category Path",
-      "type": "string"
-    },
     "pet": {
       "title": "pet Path",
       "type": "string"
@@ -140,14 +156,6 @@
       "title": "pet_encyclopedia_entry Path",
       "type": "string"
     },
-    "soulmark": {
-      "title": "soulmark Path",
-      "type": "string"
-    },
-    "soulmark_tag": {
-      "title": "soulmark_tag Path",
-      "type": "string"
-    },
     "skill": {
       "title": "skill Path",
       "type": "string"
@@ -172,6 +180,10 @@
       "title": "skill_effect_type_tag Path",
       "type": "string"
     },
+    "eid_effect": {
+      "title": "eid_effect Path",
+      "type": "string"
+    },
     "hash": {
       "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
@@ -184,13 +196,20 @@
     "pet_effect",
     "pet_effect_group",
     "pet_variation",
-    "element_type",
-    "element_type_combination",
+    "energy_bead",
     "equip",
     "suit",
     "equip_type",
     "equip_effective_occasion",
-    "energy_bead",
+    "soulmark",
+    "soulmark_tag",
+    "element_type",
+    "element_type_combination",
+    "item",
+    "item_category",
+    "gem",
+    "gem_category",
+    "gem_generation_category",
     "skill_activation_item",
     "skill_stone",
     "skill_stone_category",
@@ -201,9 +220,6 @@
     "mintmark_class",
     "mintmark_type",
     "mintmark_rarity",
-    "gem",
-    "gem_category",
-    "gem_generation_category",
     "pet",
     "pet_class",
     "pet_gender",
@@ -214,17 +230,15 @@
     "pet_archive_story_entry",
     "pet_archive_story_book",
     "pet_encyclopedia_entry",
-    "soulmark",
-    "soulmark_tag",
     "skill",
     "skill_effect_type",
     "skill_effect_param",
     "skill_hide_effect",
     "skill_category",
     "skill_effect_type_tag",
+    "eid_effect",
     "hash"
   ],
   "title": "Index",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  "type": "object"
 }

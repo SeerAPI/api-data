@@ -1,0 +1,57 @@
+{
+  "$defs": {
+    "ResourceRef_ItemCategory_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "item_category"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "物品名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "desc": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "物品描述，可能为空（在游戏内显示为默认描述）",
+      "title": "Desc"
+    },
+    "max": {
+      "description": "物品最大数量",
+      "title": "Max",
+      "type": "integer"
+    },
+    "category": {
+      "$ref": "#/$defs/ResourceRef_ItemCategory_",
+      "description": "物品分类"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "max",
+    "category",
+    "hash"
+  ],
+  "title": "Item",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

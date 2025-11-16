@@ -1,13 +1,19 @@
 {
   "$defs": {
     "ResourceRef_GemCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "gem_category"
     },
     "ResourceRef_Gem_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "gem"
+    },
+    "ResourceRef_Item_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "item"
     },
     "SkillEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use"
     }
   },
   "properties": {
@@ -35,8 +41,12 @@
       "title": "Effect",
       "type": "array"
     },
+    "item": {
+      "$ref": "#/$defs/ResourceRef_Item_",
+      "description": "宝石物品资源引用"
+    },
     "id": {
-      "description": "资源ID",
+      "description": "宝石ID",
       "title": "Id",
       "type": "integer"
     },
@@ -69,6 +79,7 @@
   "required": [
     "category",
     "effect",
+    "item",
     "id",
     "name",
     "level",

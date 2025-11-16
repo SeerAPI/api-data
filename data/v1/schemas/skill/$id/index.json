@@ -1,19 +1,23 @@
 {
   "$defs": {
-    "ResourceRef": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet"
     },
     "ResourceRef_SkillCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill_category"
     },
     "ResourceRef_SkillHideEffect_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "skill_hide_effect"
     },
     "ResourceRef_TypeCombination_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "element_type_combination"
     },
     "SkillEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use"
     }
   },
   "properties": {
@@ -88,7 +92,7 @@
     "learned_by_pet": {
       "description": "可学习该技能的精灵列表",
       "items": {
-        "$ref": "#/$defs/ResourceRef"
+        "$ref": "#/$defs/ResourceRef_Pet_"
       },
       "title": "Learned By Pet",
       "type": "array"

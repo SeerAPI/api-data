@@ -1,16 +1,19 @@
 {
   "$defs": {
     "EidEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
     },
-    "ResourceRef": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+    "ResourceRef_Pet_": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet"
     },
     "ResourceRef_SoulmarkTagCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "soulmark_tag"
     },
     "ResourceRef_Soulmark_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "soulmark"
     }
   },
   "properties": {
@@ -63,7 +66,7 @@
     "pet": {
       "description": "可持有该魂印的精灵ID",
       "items": {
-        "$ref": "#/$defs/ResourceRef"
+        "$ref": "#/$defs/ResourceRef_Pet_"
       },
       "title": "Pet",
       "type": "array"

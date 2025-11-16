@@ -1,10 +1,12 @@
 {
   "$defs": {
     "ResourceRef_PetArchiveStoryBook_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet_archive_story_book"
     },
     "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref/"
+      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+      "x-model-name": "pet"
     }
   },
   "properties": {
