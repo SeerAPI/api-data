@@ -1,5 +1,8 @@
 name: Auto Update Config
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -75,3 +78,18 @@ jobs:
 
         # 推送到 cnb.cool 仓库
         git push cnb main --force
+
+    - name: Upload database to release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: latest
+        name: Data Update - ${{ github.event.head_commit.timestamp }}
+        body: |
+          最新的 SeerAPI 数据库
+          更新时间: ${{ github.event.head_commit.timestamp }}
+        files: seerapi-data.sqlite
+        token: ${{ secrets.GITHUB_TOKEN }}
+        prerelease: false
+        draft: false
+        make_latest: true
+        fail_on_unmatched_files: true
