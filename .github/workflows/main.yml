@@ -104,6 +104,7 @@ jobs:
           最新的 SeerAPI 数据库
           更新时间: ${{ steps.commit.outputs.timestamp }}
           SHA256 校验和: ${{ steps.db_checksum.outputs.sha256 }}
+          **注意，该效验和仅用于验证数据库文件的完整性，不能用于验证数据库内容是否有更新**
         files: |
           seerapi-data.sqlite
           seerapi-data.sqlite.sha256
