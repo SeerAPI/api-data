@@ -65,12 +65,15 @@ jobs:
         mv output/v1/* data/v1/
 
     - name: Commit and push changes
+      id: commit
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add data
-        git diff --staged --quiet || git commit -m "Auto update config $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')"
+        timestamp=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')
+        git diff --staged --quiet || git commit -m "Auto update config $timestamp"
         git push
+        echo "timestamp=$timestamp" >> $GITHUB_OUTPUT
     
     - name: Push to cnb.cool Git Repository
       run: |
@@ -81,15 +84,31 @@ jobs:
         # 推送到 cnb.cool 仓库
         git push cnb main --force
 
+    - name: Generate database checksum
+      id: db_checksum
+      run: |
+        # 生成 SHA256 校验和文件
+        sha256sum seerapi-data.sqlite > seerapi-data.sqlite.sha256
+        
+        # 显示校验和信息
+        echo "=== 数据库文件 SHA256 校验和 ==="
+        cat seerapi-data.sqlite.sha256
+        
+        # 将校验和传递到下一个step
+        echo "sha256=$(cat seerapi-data.sqlite.sha256)" >> $GITHUB_OUTPUT
+
     - name: Upload database to release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         tag_name: latest
-        name: Data Update - ${{ github.event.head_commit.timestamp }}
+        name: Data Update - ${{ steps.commit.outputs.timestamp }}
         body: |
           最新的 SeerAPI 数据库
-          更新时间: ${{ github.event.head_commit.timestamp }}
-        files: seerapi-data.sqlite
+          更新时间: ${{ steps.commit.outputs.timestamp }}
+          SHA256 校验和: ${{ steps.db_checksum.outputs.sha256 }}
+        files: |
+          seerapi-data.sqlite
+          seerapi-data.sqlite.sha256
         token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: false
         draft: false
