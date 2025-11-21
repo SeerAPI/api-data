@@ -1,0 +1,29 @@
+{
+  "id": 2368,
+  "args_num": 2,
+  "info": "下{0}次攻击将自身防御、特防最低的能力值视为对手的能力值进行攻击，若未造成伤害则令对手{1}",
+  "info_formatting_adjustment": "下{0}次攻击：\r\n-->将自身防御、特防最低的能力值视为对手的能力值进行攻击\r\n--><condition>若未造成伤害</condition>则令对手{1}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29193,
+      "url": "https://api.seerapi.com/v1/skill/29193"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "74687bfc"
+}

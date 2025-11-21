@@ -1,8 +1,8 @@
 {
   "id": 1019,
   "desc": "自身攻击50%的概率打出致命一击，未触发则下1次攻击100%的概率打出致命一击；每次登场后造成的攻击伤害提升100%且受到的攻击伤害减少50%，之后每回合造成的攻击伤害减少20%且受到的攻击伤害减少10%，最多减少到0%（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未触发则下1次攻击100%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场后，自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%且受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>每回合上述增伤效果降低20%且上述减伤效果减少10%，直至效果归0",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -39,5 +39,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "2ad74b94"
+  "hash": "a2d8380"
 }

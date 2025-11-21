@@ -1,8 +1,8 @@
 {
   "id": 1028,
   "desc": "登场后自身首次使用攻击技能100%的概率打出致命一击，之后致命概率每次降低25%；自身攻击技能打出致命一击则令对手随机1个技能PP值归零，未打出致命一击则下回合自身攻击技能先制+1（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场后，自身使用攻击技能100%<color=#64F9FA>打出致命一击</color>，每次使用后概率降低25%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能打出致命一击则令对手随机1个技能PP值<color=#64F9FA>归0</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能未打出致命一击则下回合自身攻击技能<b>先制</b>+1",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -40,5 +40,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "606c9bbd"
+  "hash": "cb18a2db"
 }

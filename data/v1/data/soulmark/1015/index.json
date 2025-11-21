@@ -1,8 +1,8 @@
 {
   "id": 1015,
   "desc": "回合开始时50%令对手烧伤，50%令己方烧伤；对手处于烧伤状态时我方使用攻击技能附加对手最大体力1/3的固定伤害，我方处于烧伤状态时自身攻击技能先制+1且造成的攻击伤害提升100%（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时50%<color=#64F9FA>令对手烧伤</color>，50%<color=#64F9FA>令自身烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手处于烧伤状态则自身使用攻击技能<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>若自身处于烧伤状态则自身攻击技能<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -41,5 +41,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "d89a39b5"
+  "hash": "32cf30f1"
 }

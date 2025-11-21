@@ -1,0 +1,33 @@
+{
+  "id": 2029,
+  "desc": "自身使用攻击技能后消耗1点pp值并获得200点护盾（可叠加，上限400），使用属性技能后消耗1点pp值并获得200点护罩（可叠加，上限400），自身护盾或护罩消失时吸取对手所有2点pp值（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后消耗1点<b>PP值</b>并<color=#64F9FA>获得</color>200点<b>护盾</b>，护盾可叠加且上限400\r\n<indent=16><sprite=3><indent=32>使用属性技能后消耗1点<b>PP值</b>并<color=#64F9FA>获得</color>200点<b>护罩</b>，护盾可叠加且上限400\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身护盾或护罩消失时<color=#64F9FA>吸取</color>对手所有2点<b>PP值</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4838,
+      "url": "https://api.seerapi.com/v1/pet/4838"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2449,
+      "url": "https://api.seerapi.com/v1/eid_effect/2449"
+    }
+  },
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "78153d97"
+}

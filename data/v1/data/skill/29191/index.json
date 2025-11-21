@@ -1,0 +1,58 @@
+{
+  "id": 29191,
+  "name": "数据加载",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "info": "开始免疫并反弹受到的异常状态了；获得了护盾，对手开始变得沉重",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "获得300点护盾，护盾消失时吸取对手300点体力且令对手随机1个技能的PP值归零",
+      "args": [
+        300,
+        300,
+        1
+      ],
+      "effect": {
+        "id": 1160,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1160"
+      }
+    },
+    {
+      "info": "2回合内对手使用技能消耗的PP值变为6倍",
+      "args": [
+        2,
+        6
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "a77194b2"
+}

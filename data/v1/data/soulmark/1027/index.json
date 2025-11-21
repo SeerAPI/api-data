@@ -1,7 +1,7 @@
 {
   "id": 1027,
   "desc": "回合开始时，若自身体力高于对手则50%闪避对手攻击技能，若自身体力低于对手则80%闪避对手攻击技能；若对手攻击技能未命中则100%令对手冻伤，未触发则50%令对手冰封（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则50%<color=#64F9FA>闪避</color>对手<b>攻击技能</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则80%<color=#64F9FA>闪避</color>对手<b>攻击技能</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能未命中时100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手冰封</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -36,5 +36,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "cd1f1bb3"
+  "hash": "2a3f787e"
 }

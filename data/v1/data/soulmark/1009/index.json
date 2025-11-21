@@ -1,7 +1,7 @@
 {
   "id": 1009,
   "desc": "回合开始时50%令对手中毒，50%令己方中毒；对手处于中毒状态时当回合50%的概率属性技能无效，我方处于中毒状态时则当回合受到的攻击伤害减少50%且战斗阶段结束时恢复自身最大体力的1/3（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时50%<color=#64F9FA>令对手中毒</color>，50%<color=#64F9FA>令自身中毒</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手处于中毒状态则50%<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=16><sprite=3><indent=32>若自身处于中毒状态则受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +41,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "5d665702"
+  "hash": "4c92969b"
 }
