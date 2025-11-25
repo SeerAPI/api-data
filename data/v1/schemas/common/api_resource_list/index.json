@@ -1,0 +1,82 @@
+{
+  "$defs": {
+    "NamedResourceRef": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/named_resource_ref"
+    }
+  },
+  "description": "API资源列表，兼容RFC 5988的Link标准",
+  "properties": {
+    "count": {
+      "description": "资源数量",
+      "title": "Count",
+      "type": "integer"
+    },
+    "next": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "下一页URL",
+      "title": "Next"
+    },
+    "previous": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "上一页URL",
+      "title": "Previous"
+    },
+    "first": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "第一页URL",
+      "title": "First"
+    },
+    "last": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "最后一页URL",
+      "title": "Last"
+    },
+    "results": {
+      "description": "资源列表",
+      "items": {
+        "$ref": "#/$defs/NamedResourceRef"
+      },
+      "title": "Results",
+      "type": "array"
+    }
+  },
+  "required": [
+    "count",
+    "results"
+  ],
+  "title": "ApiResourceList",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

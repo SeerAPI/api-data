@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "args_num": {
+      "description": "效果需要的参数数量，该值是从使用该效果的资源中推测得出的",
+      "title": "Args Num",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "args_num"
+  ],
+  "title": "EidEffectORM",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

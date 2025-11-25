@@ -1,0 +1,50 @@
+{
+  "$defs": {
+    "SixAttributes": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
+    }
+  },
+  "description": "精灵性格修正模型",
+  "properties": {
+    "id": {
+      "description": "资源ID",
+      "title": "Id",
+      "type": "integer"
+    },
+    "name": {
+      "description": "性格名称",
+      "title": "Name",
+      "type": "string"
+    },
+    "des": {
+      "description": "性格描述",
+      "title": "Des",
+      "type": "string"
+    },
+    "des2": {
+      "description": "性格描述2",
+      "title": "Des2",
+      "type": "string"
+    },
+    "attributes": {
+      "$ref": "#/$defs/SixAttributes",
+      "description": "性格修正属性"
+    },
+    "hash": {
+      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "title": "Hash",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "des",
+    "des2",
+    "attributes",
+    "hash"
+  ],
+  "title": "Nature",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}
