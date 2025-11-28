@@ -1,7 +1,7 @@
 {
   "id": 1825,
   "desc": "回合开始时，若本回合对手选择了攻击技能则对手随机1个技能PP值归零且当回合造成的攻击伤害无法超过自身最大体力的1/3，若对手选择了属性技能则自身当回合免疫受到的异常状态与能力下降状态，若对手未选择技能则自身获得1点灵茉之芯|自身被击败后，使下只精灵获得芳馨祝福：获得500点护盾、500点护罩、500点临时体力上限且1回合免疫受到的异常状态，芳馨祝福的免疫效果下场保留，免疫效果结束后失去临时体力上限（boss有效）|灵茉之芯：每有1点自身造成的固定伤害、百分比伤害提升10%，且芳馨祝福免疫效果回合数+1，最高3点，下场保留|（标注部分boss有效，其余无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若当回合对手选择使用攻击技能，则：\r\n<indent=32><sprite=4><sprite=4><indent=64>使对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>当回合自身受到的<b>攻击伤害</b><color=#64F9FA>无法超过</color>最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若当回合对手选择使用属性技能，则当回合自身<color=#64F9FA>免疫</color>所有<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>若当回合对手未选择技能，则自身获得1点<b>灵茉之芯</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身被击败后，使己方下只精灵出战时获得<b>芳馨之祝</b>\r\n\r\n<indent=0><sprite=5><indent=15>灵茉之芯（上限3点，下场保留）：\r\n<indent=16><sprite=6><indent=32>每有1点：\r\n<indent=32><sprite=4><indent=48>自身造成的<b>固定伤害、百分比伤害</b><color=#64F9FA>提升</color>10%\r\n<indent=32><sprite=4><indent=48>所获得芳馨之祝内的回合计数效果，持续回合+1\r\n\r\n<indent=0><sprite=5><indent=15>芳馨之祝：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>获得</color>500点<b>护盾</b>和500点<b>护罩</b>\r\n<indent=16><sprite=6><indent=32>1回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且<color=#64F9FA>获得</color>500点<b>临时体力上限</b>（下场保留）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若当回合对手选择使用攻击技能，则：\r\n<indent=32><sprite=4><sprite=4><indent=64>使对手随机1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>当回合自身受到的<b>攻击伤害</b><color=#64F9FA>无法超过</color>最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若当回合对手选择使用属性技能，则当回合自身<color=#64F9FA>免疫</color>所有<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>若当回合对手未选择技能，则自身获得1点<color=#FFF779>灵茉之芯</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身被击败后，使己方下只精灵出战时获得<color=#FFF779>芳馨之祝</color>\r\n\r\n<indent=0><sprite=5><indent=15>灵茉之芯（上限3点，下场保留）：\r\n<indent=16><sprite=6><indent=32>每有1点：\r\n<indent=32><sprite=4><indent=48>自身造成的<b>固定伤害、百分比伤害</b><color=#64F9FA>提升</color>10%\r\n<indent=32><sprite=4><indent=48>所获得芳馨之祝内的回合计数效果，持续回合+1\r\n\r\n<indent=0><sprite=5><indent=15>芳馨之祝：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>获得</color>500点<b>护盾</b>和500点<b>护罩</b>\r\n<indent=16><sprite=6><indent=32>1回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且<color=#64F9FA>获得</color>500点<b>临时体力上限</b>（下场保留）",
   "pve_effective": true,
   "intensified": false,
   "is_adv": true,
@@ -42,5 +42,5 @@
     "id": 909,
     "url": "https://api.seerapi.com/v1/soulmark/909"
   },
-  "hash": "caf7b739"
+  "hash": "f77d7354"
 }

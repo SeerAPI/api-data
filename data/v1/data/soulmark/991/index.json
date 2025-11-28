@@ -1,8 +1,8 @@
 {
   "id": 991,
   "desc": "增加20点攻击上限和20点特攻上限；在战斗中，攻击和特攻等于其中较高的一项；自身体力低于对手时，若使用物理攻击则必定打出致命一击，若使用特殊攻击则附加自身最大体力1/3的固定伤害（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>增加</color>自身20点攻击值、20点特攻值\r\n<indent=16><sprite=3><indent=32>在战斗中，攻击值和特攻值等于其中最高的一项\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身体力低于对手时\r\n<indent=32><sprite=4><indent=48>若使用物理攻击则必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若使用特殊攻击则<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -39,5 +39,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "44638500"
+  "hash": "5d3aebd7"
 }

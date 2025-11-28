@@ -1,7 +1,7 @@
 {
   "id": 1714,
   "desc": "每次登场时根据双方当前场下的阵亡精灵总数获得如下效果：|≥2只：为自身附加持续3回合的回体Ⅰ（若自身已持有回体Ⅰ则将回合数刷新至3回合），为对手附加持续3回合的失体Ⅰ（若对手已持有失体Ⅰ则将回合数刷新至3回合）；|≥4只：当回合免疫受到的能力下降状态；|≥6只：当回合免疫受到的异常状态；|≥8只：当回合所有技能必定先出手；|≥10只：当回合令对手使用的技能无效；|回合开始时若自身持有回体Ⅰ，则当前己方场下每有一只精灵阵亡，当回合自身造成的攻击伤害提升20%，若当回合结束后自身持有的回体Ⅰ消失则消除对手回合类效果，消除成功则令对手下回合使用的攻击技能无效；|回合开始时若对手持有失体Ⅰ，则当前对方场下每有一只精灵阵亡，当回合自身造成的固定伤害、百分比伤害提升10%，若当回合结束后对手持有的失体Ⅰ消失则消除对手能力提升状态，消除成功则令对手下回合使用的属性技能无效|（所有特效boss无效）|回体Ⅰ：持有精灵使用技能后恢复自身100点体力，下场不保留|失体Ⅰ：持有精灵使用技能后受到100点固定伤害，下场不保留",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时根据双方当前场下的阵亡精灵总数获得如下效果：\r\n<indent=32><sprite=4><indent=48>≥2只：为自身附加持续3回合的<b>回体</b>，为对手附加持续3回合的<b>失体</b>\r\n<indent=32><sprite=4><indent=48>≥4只：当回合<color=#64F9FA>免疫</color>受到的<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>≥6只：当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>≥8只：当回合<b>所有技能</b><color=#64F9FA>必定先出手</color>\r\n<indent=32><sprite=4><indent=48>≥10只：当回合令对手使用的技能<color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身持有回体，则当前己方场下每有一只精灵阵亡，当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%\r\n<indent=32><sprite=4><indent=48>若当回合结束后自身持有的回体消失则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n\r\n<indent=0><sprite=5><indent=15>回体：\r\n<indent=16><sprite=6><indent=32>使用技能后<color=#64F9FA>恢复</color>100点<b>体力</b>\r\n\r\n<indent=0><sprite=5><indent=15>失体：\r\n<indent=16><sprite=6><indent=32>使用技能后<color=#64F9FA>受到</color>100点<b>固定伤害</b>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时根据双方当前场下的阵亡精灵总数获得如下效果：\r\n<indent=32><sprite=4><indent=48>≥2只：为自身附加持续3回合的<color=#FFF779>回体</color>，为对手附加持续3回合的<color=#FFF779>失体</color>\r\n<indent=32><sprite=4><indent=48>≥4只：当回合<color=#64F9FA>免疫</color>受到的<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>≥6只：当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>≥8只：当回合<b>所有技能</b><color=#64F9FA>必定先出手</color>\r\n<indent=32><sprite=4><indent=48>≥10只：当回合令对手使用的技能<color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身持有回体，则当前己方场下每有一只精灵阵亡，当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%\r\n<indent=32><sprite=4><indent=48>若当回合结束后自身持有的回体消失则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n\r\n<indent=0><sprite=5><indent=15>回体：\r\n<indent=16><sprite=6><indent=32>使用技能后<color=#64F9FA>恢复</color>100点<b>体力</b>\r\n\r\n<indent=0><sprite=5><indent=15>失体：\r\n<indent=16><sprite=6><indent=32>使用技能后<color=#64F9FA>受到</color>100点<b>固定伤害</b>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -37,5 +37,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "725ce65d"
+  "hash": "8e0e4eff"
 }

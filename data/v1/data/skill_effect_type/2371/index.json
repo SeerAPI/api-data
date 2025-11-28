@@ -1,0 +1,33 @@
+{
+  "id": 2371,
+  "args_num": 3,
+  "info": "{0}%令自身{1}，触发成功自身免疫下{2}次对手的攻击",
+  "info_formatting_adjustment": "{0}%令自身{1}\r\n--><condition>触发成功</condition>自身免疫下{2}次受到的攻击",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29196,
+      "url": "https://api.seerapi.com/v1/skill/29196"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
+    }
+  ],
+  "hash": "2517ab99"
+}

@@ -1,7 +1,7 @@
 {
   "id": 992,
   "desc": "自身不处于能力提升状态时则回合结束消除对手能力提升状态；自身处于能力提升状态时造成伤害的50%恢复体力，若自身体力低于对手则恢复效果翻倍且附加恢复体力值等量的固定伤害（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身不处于能力提升状态时对手<color=#64F9FA>无法处于能力提升状态</color>\r\n<indent=16><sprite=3><indent=32>自身处于能力提升状态时造成的攻击伤害50%额外恢复至自身体力\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则恢复效果翻倍且<color=#64F9FA>附加</color>恢复体力值等量的<b>百分比伤害</b>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -37,5 +37,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "3a181028"
+  "hash": "15459ce8"
 }

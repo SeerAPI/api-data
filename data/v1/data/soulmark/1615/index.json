@@ -1,7 +1,7 @@
 {
   "id": 1615,
   "desc": "自身每次受到攻击伤害时，都会为己方场下伊莱附加1枚凄骨之印(最多3枚），凄骨之印会在伊莱死亡时被消耗1枚，使其当次复活概率提升至100%且复活后解除所有异常状态；|每次登场时，自身会根据己方场下伊莱持有的凄骨之印数量获得如下效果，数量越少，获得的效果越多（存在多只伊莱时按持有最多者计算）：|≤3枚：免疫等同于当前伊莱持有凄骨之印数量所对应次数的异常状态|≤2枚：自身受到的固定伤害、百分比伤害减少30%|≤1枚：自身造成的固定伤害、百分比伤害提升30%|自身被击败时，对手下3回合无法通过技能恢复体力，且下1只登场精灵前n次攻击100%令对手冰封且造成伤害的100%恢复自身体力（n＝自身死亡时本场战斗中己方伊莱所消耗的凄骨之印数，最多3次）|（所有特效boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次受到攻击伤害时，都会为己方场下的伊莱附加1枚<b>凄骨之印</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时，会根据己方场下伊莱持有的凄骨之印数量获得以下<color=#64F9FA>累计</color>的效果（存在多只伊莱时按持有最多者计算）：\r\n<indent=32><sprite=4><indent=48>≤3枚：<color=#64F9FA>免疫</color>n次受到的<b>异常状态</b>，n=当前伊莱所持凄骨之印数量\r\n<indent=32><sprite=4><indent=48>≤2枚：自身受到的<b>固定伤害、百分比伤害<color=#64F9FA></b>减少</color>30%\r\n<indent=32><sprite=4><indent=48>≤1枚：自身造成的<b>固定伤害、百分比伤害<color=#64F9FA></b>提升</color>30%\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后：\r\n<indent=32><sprite=4><indent=48>对手下3回合<color=#64F9FA>无法通过自身技能恢复体力</color>\r\n<indent=32><sprite=4><indent=48>己方下1只登场精灵前m次<b>攻击</b>100%<color=#64F9FA>令对手冰封</color>且造成的攻击伤害100%额外恢复至自身体力，m＝本场战斗中己方消耗的凄骨之印数，上限为3\r\n\r\n<indent=0><sprite=5><indent=15>凄骨之印（上限3枚，下场保留）：\r\n<indent=16><sprite=6><indent=32>当持有者是伊莱时，在其死亡时将消耗1枚以触发以下效果：\r\n<indent=32><sprite=4><indent=48>伊莱专属特性中的复活概率提升至100%\r\n<indent=32><sprite=4><indent=48>伊莱复活后<color=#64F9FA>解除</color>所有<b>异常状态</b>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次受到攻击伤害时，都会为己方场下的伊莱附加1枚<color=#FFF779>凄骨之印</color>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时，会根据己方场下伊莱持有的凄骨之印数量获得以下<color=#64F9FA>累计</color>的效果（存在多只伊莱时按持有最多者计算）：\r\n<indent=32><sprite=4><indent=48>≤3枚：<color=#64F9FA>免疫</color>n次受到的<b>异常状态</b>，n=当前伊莱所持凄骨之印数量\r\n<indent=32><sprite=4><indent=48>≤2枚：自身受到的<b>固定伤害、百分比伤害<color=#64F9FA></b>减少</color>30%\r\n<indent=32><sprite=4><indent=48>≤1枚：自身造成的<b>固定伤害、百分比伤害<color=#64F9FA></b>提升</color>30%\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后：\r\n<indent=32><sprite=4><indent=48>对手下3回合<color=#64F9FA>无法通过自身技能恢复体力</color>\r\n<indent=32><sprite=4><indent=48>己方下1只登场精灵前m次<b>攻击</b>100%<color=#64F9FA>令对手冰封</color>且造成的攻击伤害100%额外恢复至自身体力，m＝本场战斗中己方消耗的凄骨之印数，上限为3\r\n\r\n<indent=0><sprite=5><indent=15>凄骨之印（上限3枚，下场保留）：\r\n<indent=16><sprite=6><indent=32>当持有者是伊莱时，在其死亡时将消耗1枚以触发以下效果：\r\n<indent=32><sprite=4><indent=48>伊莱专属特性中的复活概率提升至100%\r\n<indent=32><sprite=4><indent=48>伊莱复活后<color=#64F9FA>解除</color>所有<b>异常状态</b>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -37,5 +37,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "4a405ef"
+  "hash": "6ccd61da"
 }

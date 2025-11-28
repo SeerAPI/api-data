@@ -1,7 +1,7 @@
 {
   "id": 1545,
   "desc": "回合开始时令自身防御+1、特防+1，若防御、特防提升后自身能力等级总和低于对手，则防御、特防提升效果翻倍且令对手当回合攻击技能必定MISS，若防御、特防提升后自身能力等级总和高于对手则令对手速度-1，未触发则为自身附加200点护罩（护罩无法叠加）；|对手威力高于140的攻击技能命中自身时触发天寒雪崩：消除自身能力提升状态并附加给对手，那之后对手每有1级能力提升则当回合战斗阶段结束时附加给对手30点固定伤害并恢复等量体力，能力提升状态附加后若对手全属性均处于能力提升状态则额外消除对手回合类效果且100%令对手冻伤（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时令自身防御+1、特防+1\r\n<indent=32><sprite=4><indent=48>若自身能力等级总和低于对手则防御、特防额外+1且当回合<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>\r\n<indent=32><sprite=4><indent=48>若自身能力等级总和高于对手则令对手速度-1\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则为自身<color=#64F9FA>附加</color>200点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中且技能威力高于140则自身触发<b>天寒雪崩</b>\r\n\r\n<indent=0><sprite=5><indent=15>天寒雪崩：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>消除</color>自身<b>能力提升状态</b>并<color=#64F9FA>附加给</color>对手，然后：\r\n<indent=32><sprite=4><indent=48>对手每有1级能力提升使自身当回合战斗阶段结束时<color=#64F9FA>吸取</color>对手x30点<b>体力</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手所有能力均有提升等级则额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>并100%<color=#64F9FA>令对手冻伤</color>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时令自身防御+1、特防+1\r\n<indent=32><sprite=4><indent=48>若自身能力等级总和低于对手则防御、特防额外+1且当回合<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>\r\n<indent=32><sprite=4><indent=48>若自身能力等级总和高于对手则令对手速度-1\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则为自身<color=#64F9FA>附加</color>200点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中且技能威力高于140则自身触发<color=#FFF779>天寒雪崩</color>\r\n\r\n<indent=0><sprite=5><indent=15>天寒雪崩：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>消除</color>自身<b>能力提升状态</b>并<color=#64F9FA>附加给</color>对手，然后：\r\n<indent=32><sprite=4><indent=48>对手每有1级能力提升使自身当回合战斗阶段结束时<color=#64F9FA>吸取</color>对手x30点<b>体力</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手所有能力均有提升等级则额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>并100%<color=#64F9FA>令对手冻伤</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -46,5 +46,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1903"
   },
   "from": null,
-  "hash": "e6788df4"
+  "hash": "b782f5c7"
 }

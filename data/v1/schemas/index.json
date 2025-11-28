@@ -1,5 +1,25 @@
 {
   "properties": {
+    "achievement": {
+      "title": "achievement Path",
+      "type": "string"
+    },
+    "achievement_branch": {
+      "title": "achievement_branch Path",
+      "type": "string"
+    },
+    "achievement_type": {
+      "title": "achievement_type Path",
+      "type": "string"
+    },
+    "achievement_category": {
+      "title": "achievement_category Path",
+      "type": "string"
+    },
+    "title": {
+      "title": "title Path",
+      "type": "string"
+    },
     "battle_effect": {
       "title": "battle_effect Path",
       "type": "string"
@@ -195,6 +215,11 @@
     }
   },
   "required": [
+    "achievement",
+    "achievement_branch",
+    "achievement_type",
+    "achievement_category",
+    "title",
     "battle_effect",
     "battle_effect_type",
     "pet_effect",

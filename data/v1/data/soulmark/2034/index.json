@@ -1,0 +1,41 @@
+{
+  "id": 2034,
+  "desc": "自身使用物理攻击时2回合内所有技能先制+2，使用特殊攻击时附加对手最大体力1/3的百分比伤害，使用属性技能时1回合内抵挡受到的攻击；击败对手后，自身下1次使用技能时以上效果全部触发",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用物理攻击时2回合内所有技能<b>先制</b>+2\r\n<indent=16><sprite=3><indent=32>自身使用特殊攻击时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>自身使用属性技能时1回合内<color=#64F9FA>抵挡</color>受到的<b>攻击</b>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>击败对手后，自身下1次使用技能时上述触发效果全部触发",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4843,
+      "url": "https://api.seerapi.com/v1/pet/4843"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2453,
+      "url": "https://api.seerapi.com/v1/eid_effect/2453"
+    }
+  },
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "8d44a75c"
+}

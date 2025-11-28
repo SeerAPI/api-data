@@ -1,0 +1,60 @@
+{
+  "id": 29201,
+  "name": "亮银之靴",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始恢复体力并附加固定伤害了；对手的体力恢复效果减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内每回合使用技能恢复自身400点体力并造成等量固定伤害",
+      "args": [
+        3,
+        400
+      ],
+      "effect": {
+        "id": 1924,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1924"
+      }
+    },
+    {
+      "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 1449,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1449"
+      }
+    },
+    {
+      "info": "3回合内对手回合类效果被消除后沉默3回合",
+      "args": [
+        3,
+        30,
+        3
+      ],
+      "effect": {
+        "id": 2355,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2355"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6bd0f4d4"
+}

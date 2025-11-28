@@ -1,0 +1,41 @@
+{
+  "id": 2032,
+  "desc": "自身免疫低于500的伤害，触发成功则阈值降低100点且本场战斗造成的攻击伤害提升10%；上述阈值不高于300时自身每次攻击后附加300点固定伤害，上述阈值为0时每次攻击必定致命一击|每场战斗限一次，回合开始时若自身处于异常状态且体力低于最大体力的1/3，则降低100点阈值并解除自身所处的异常状态（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身<color=#64F9FA>免疫</color>低于500的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>触发成功则阈值降低100点且本场战斗造成的攻击伤害<color=#64F9FA>提升</color>10%\r\n<indent=32><sprite=4><indent=48>上述阈值不高于300时自身每次攻击后<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>上述阈值为0时每次攻击必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于异常状态且体力低于最大体力的1/3，则<color=#64F9FA>解除</color>自身所处的<b>异常状态</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4839,
+      "url": "https://api.seerapi.com/v1/pet/4839"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2452,
+      "url": "https://api.seerapi.com/v1/eid_effect/2452"
+    }
+  },
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "ccfd2537"
+}

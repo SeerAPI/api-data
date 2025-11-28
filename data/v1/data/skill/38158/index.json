@@ -1,0 +1,59 @@
+{
+  "id": 38158,
+  "name": "开道利斧",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/element_type_combination/7"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+      "args": [
+        2,
+        300
+      ],
+      "effect": {
+        "id": 766,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+      }
+    },
+    {
+      "info": "30%概率威力翻倍 体力低于1/2时概率增加30%",
+      "args": [
+        30,
+        2,
+        30
+      ],
+      "effect": {
+        "id": 511,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/511"
+      }
+    },
+    {
+      "info": "附加对手已损失体力值30%的百分比伤害",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 1844,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1844"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "cffeb44f"
+}

@@ -1,7 +1,7 @@
 {
   "id": 1274,
   "desc": "自身攻击技能命中后50%触发百刃斩（随机1-100刃，每1刃可提升2%的攻击伤害和1%的疲惫控场概率），未触发百刃斩则下次触发概率提升25%；自身每次登场首回合攻击先制+3且100%触发百刃斩，造成的伤害值低于对手最大体力的1/2则附加等量固定伤害（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后50%触发<b>百刃斩</b>，未触发则下次攻击触发概率提升25%\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场首回合：\r\n<indent=32><sprite=4><indent=48>攻击技能<b>先制</b>+3且100%触发百刃斩\r\n<indent=32><sprite=4><indent=48>造成的攻击伤害低于对手最大体力的1/2则<color=#64F9FA>附加</color>等同于伤害量的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>百刃斩：\r\n<indent=16><sprite=6><indent=32>触发时随机斩出1-100刃，每斩出1刃使本次攻击：\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>2%\r\n<indent=32><sprite=4><indent=48>1%<color=#64F9FA>令对手疲惫</color>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后50%触发<color=#FFF779>百刃斩</color>，未触发则下次攻击触发概率提升25%\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场首回合：\r\n<indent=32><sprite=4><indent=48>攻击技能<b>先制</b>+3且100%触发百刃斩\r\n<indent=32><sprite=4><indent=48>造成的攻击伤害低于对手最大体力的1/2则<color=#64F9FA>附加</color>等同于伤害量的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>百刃斩：\r\n<indent=16><sprite=6><indent=32>触发时随机斩出1-100刃，每斩出1刃使本次攻击：\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>2%\r\n<indent=32><sprite=4><indent=48>1%<color=#64F9FA>令对手疲惫</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -43,5 +43,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "713626dd"
+  "hash": "4804f861"
 }
