@@ -1,7 +1,7 @@
 {
   "id": 1418,
   "desc": "回合开始时，若自身体力高于最大体力1/2则攻击命中后100%令对手进入烧伤状态，未触发则随机附加150-300点固定伤害；|回合开始时，若自身体力低于最大体力的1/2则当回合自身攻击造成的攻击伤害提升100%且造成伤害的100%恢复自身体力值（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力1/2则攻击命中后100%<color=#64F9FA>令对手烧伤</color>\r\n未触发则随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则当回合自身攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%且造成伤害的100%恢复自身体力值",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力1/2则攻击命中后100%<color=#64F9FA>令对手烧伤</color>\r\n未触发则随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则当回合自身攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%且伤害量的100%额外<color=#64F9FA>恢复</color>至自身体力",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -43,5 +43,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "9da26844"
+  "hash": "70038502"
 }

@@ -18,8 +18,39 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/82"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做10~15次攻击",
+      "args": [
+        10,
+        15
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "命中后50%令对手害怕，若对手为甜甜粽则概率翻倍",
+      "args": [],
+      "effect": {
+        "id": 1598,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1598"
+      }
+    },
+    {
+      "info": "获得300点护盾，护盾消失时附加300点固定伤害",
+      "args": [
+        300,
+        300
+      ],
+      "effect": {
+        "id": 1387,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1387"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8bc7cda2"
+  "hash": "9f5b518c"
 }

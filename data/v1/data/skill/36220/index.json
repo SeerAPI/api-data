@@ -18,8 +18,31 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/58"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做7~28次攻击",
+      "args": [
+        7,
+        28
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "随机恢复70到280点生命值",
+      "args": [
+        70,
+        280
+      ],
+      "effect": {
+        "id": 450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a164f996"
+  "hash": "7aa3dead"
 }

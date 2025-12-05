@@ -18,8 +18,47 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能恢复自身最大体力的1/3",
+      "args": [
+        4,
+        3
+      ],
+      "effect": {
+        "id": 57,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+      }
+    },
+    {
+      "info": "作用2~3回合，每回合反弹对手1/3的伤害",
+      "args": [
+        2,
+        3,
+        3
+      ],
+      "effect": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/21"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f8b54c05"
+  "hash": "67c8730c"
 }

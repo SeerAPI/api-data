@@ -1,7 +1,7 @@
 {
   "id": 740,
   "desc": "每次攻击造成伤害的50%恢复自身体力，若恢复的体力低于300则下回合自身造成的攻击伤害提升50%同时恢复百分比翻倍；50%使对手的属性技能失效，未触发则下回合100%令对手的属性技能失效（BOSS无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>造成的攻击伤害50%额外恢复至自身体力\r\n<indent=32><sprite=4><indent=48>若未恢复300体力则下回合上述恢复比例翻倍且自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>50%令对手的<b>属性技能</b><color=#64F9FA>无效</color>，未触发则下回合100%令对手的<b>属性技能</b><color=#64F9FA>无效</color>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若未恢复300体力则下回合上述恢复比例翻倍且自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>50%令对手的<b>属性技能</b><color=#64F9FA>无效</color>，未触发则下回合100%令对手的<b>属性技能</b><color=#64F9FA>无效</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -44,5 +44,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1030"
   },
   "from": null,
-  "hash": "690ae05f"
+  "hash": "e49c703"
 }

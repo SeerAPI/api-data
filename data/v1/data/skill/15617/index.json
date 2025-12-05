@@ -18,8 +18,30 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/11"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做14~18次攻击",
+      "args": [
+        14,
+        18
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "命中后15%令对方害怕",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1083be04"
+  "hash": "ca9cc24a"
 }

@@ -18,8 +18,31 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/73"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做10~25次攻击",
+      "args": [
+        10,
+        25
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%",
+      "args": [
+        1,
+        100
+      ],
+      "effect": {
+        "id": 1010,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1010"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3eaed3e3"
+  "hash": "6aad5242"
 }

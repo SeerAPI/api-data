@@ -18,8 +18,54 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 585,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态",
+      "args": [],
+      "effect": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+      }
+    },
+    {
+      "info": "4回合内免疫能力下降状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+      }
+    },
+    {
+      "info": "作用2~4回合，每回合反弹对手1/3的伤害",
+      "args": [
+        2,
+        4,
+        3
+      ],
+      "effect": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/21"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c5cbceb0"
+  "hash": "eda5ecd3"
 }

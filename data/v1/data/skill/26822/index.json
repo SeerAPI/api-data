@@ -18,8 +18,40 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "3回合内免疫所有受到的异常状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+      }
+    },
+    {
+      "info": "3回合内免疫能力下降状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+      }
+    },
+    {
+      "info": "3回合内每次直接攻击都会使对手防御和特防-1",
+      "args": [
+        3,
+        -1
+      ],
+      "effect": {
+        "id": 427,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/427"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e6df2b6b"
+  "hash": "ed079580"
 }

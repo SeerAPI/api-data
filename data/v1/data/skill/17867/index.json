@@ -20,7 +20,7 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "攻击结束时自身防御",
+      "info": "攻击结束时自身攻击+1",
       "args": [
         1,
         0,
@@ -35,7 +35,7 @@
       }
     },
     {
-      "info": "若本回合击败对手，下回合对方出场精灵攻击",
+      "info": "若本回合击败对手，下回合对方出场精灵命中-2",
       "args": [
         0,
         0,
@@ -52,5 +52,5 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cc850c69"
+  "hash": "dd77d054"
 }

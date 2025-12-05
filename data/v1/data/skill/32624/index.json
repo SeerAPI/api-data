@@ -18,8 +18,39 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/35"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做20~60次攻击",
+      "args": [
+        20,
+        60
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 835,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/835"
+      }
+    },
+    {
+      "info": "命中对手后有45%使对手麻痹，先出手时概率翻倍",
+      "args": [
+        45,
+        0
+      ],
+      "effect": {
+        "id": 968,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/968"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b8e2e276"
+  "hash": "f09f665f"
 }

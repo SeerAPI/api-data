@@ -18,8 +18,30 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/31"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做5~7次攻击",
+      "args": [
+        5,
+        7
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "30%概率随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+      "args": [
+        30
+      ],
+      "effect": {
+        "id": 176,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/176"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4e3fd0cf"
+  "hash": "2418b56b"
 }

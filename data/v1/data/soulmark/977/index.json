@@ -1,7 +1,7 @@
 {
   "id": 977,
   "desc": "攻击技能造成伤害的50%恢复自身体力，若自身当前体力低于对手则使 对手受到自身恢复体力值等量的固定伤害；先出手时使自身下回合免疫异常状态，后出手时使自身下回合先制+1（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则<color=#64F9FA>附加</color>等量的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时使自身下回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>后出手时使自身下回合<b>先制</b>+1",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -38,5 +38,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "66757c1"
+  "hash": "ccadebc9"
 }

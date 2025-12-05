@@ -18,8 +18,30 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/10"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 995,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/995"
+      }
+    },
+    {
+      "info": "1回合做5~10次攻击",
+      "args": [
+        5,
+        10
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "803e1141"
+  "hash": "96ebaab6"
 }

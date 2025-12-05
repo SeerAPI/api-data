@@ -18,8 +18,40 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做20~100次攻击",
+      "args": [
+        20,
+        100
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+      "args": [],
+      "effect": {
+        "id": 945,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+      }
+    },
+    {
+      "info": "附加自身最大体力值与速度值总和20%的百分比伤害，每次使用增加10%，最高40%",
+      "args": [
+        20,
+        10,
+        40
+      ],
+      "effect": {
+        "id": 853,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/853"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d34a80c7"
+  "hash": "f69dd990"
 }

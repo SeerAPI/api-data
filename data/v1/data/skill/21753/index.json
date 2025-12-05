@@ -18,8 +18,35 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变对手命中等级-2",
+      "args": [
+        5,
+        100,
+        -2
+      ],
+      "effect": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+      }
+    },
+    {
+      "info": "3回合内，若对手使用属性攻击则100%自身特攻和速度等级+1",
+      "args": [
+        3,
+        2,
+        4,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 174,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/174"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "10658edb"
+  "hash": "9daebe2c"
 }

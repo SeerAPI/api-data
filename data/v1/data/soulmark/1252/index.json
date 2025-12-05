@@ -1,7 +1,7 @@
 {
   "id": 1252,
   "desc": "自身当回合受到的攻击伤害低于300则战斗阶段结束时令对手受到300点固定伤害，受到的攻击伤害高于300则为自身附加1个300点的护盾；回合开始时若自身存在护盾则当回合造成伤害的50%恢复自身体力（boss有效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到了低于300的攻击伤害则当回合战斗阶段结束时令对手<color=#64F9FA>受到</color>300点<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身受到了高于300的攻击伤害则为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身存在护盾则当回合造成的攻击伤害50%额外恢复至自身体力",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到了低于300的攻击伤害则当回合战斗阶段结束时令对手<color=#64F9FA>受到</color>300点<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身受到了高于300的攻击伤害则为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身存在护盾则当回合造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -40,5 +40,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "161bd4aa"
+  "hash": "168454c6"
 }

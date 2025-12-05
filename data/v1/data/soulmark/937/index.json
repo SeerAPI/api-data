@@ -1,7 +1,7 @@
 {
   "id": 937,
   "desc": "自身攻击技能有50%的概率打出致命一击，未触发则下回合所有技能先制+1且100%的概率打出致命一击（boss有效）；|造成伤害的50%恢复自身体力，若恢复的体力低于200则{吸取}对手最大{体力}的1/4（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>攻击技能有50%的概率<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合所有技能<b>先制</b>+1且100%的概率<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>造成伤害的50%<color=#64F9FA>恢复自身体力</color>\r\n<indent=32><sprite=4><indent=48>若恢复的体力低于200则<color=#64F9FA>吸取</color>对手最大体力的1/4",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>攻击技能有50%的概率<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合所有技能<b>先制</b>+1且100%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若恢复的体力低于200则<color=#64F9FA>吸取</color>对手最大体力的1/4",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -45,5 +45,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1475"
   },
   "from": null,
-  "hash": "c1eab55"
+  "hash": "9a584ac5"
 }

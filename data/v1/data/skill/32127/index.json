@@ -18,8 +18,39 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+      }
+    },
+    {
+      "info": "1回合做12~20次攻击",
+      "args": [
+        12,
+        20
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "附加自身最大体力30%的百分比伤害并恢复等量体力，恢复体力时若自身体力低于最大体力的1/3则恢复效果和百分比伤害翻倍",
+      "args": [
+        30,
+        3
+      ],
+      "effect": {
+        "id": 852,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/852"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f45d4c3d"
+  "hash": "9286d837"
 }

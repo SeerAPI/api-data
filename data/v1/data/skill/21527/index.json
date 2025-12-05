@@ -18,8 +18,21 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "作用3回合，每回合反弹对手1/3的伤害",
+      "args": [
+        3,
+        3,
+        3
+      ],
+      "effect": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/21"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5d749cea"
+  "hash": "f26727b7"
 }

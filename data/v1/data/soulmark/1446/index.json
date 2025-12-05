@@ -1,7 +1,7 @@
 {
   "id": 1446,
   "desc": "自身攻击造成伤害的50%会恢复自身体力；|每个战斗阶段结束时有1次机会，若当回合开始时自身体力低于最大体力的1/2，则附加上次攻击造成伤害50%的百分比伤害；|回合开始时，若敌我双方中任意一方处于能力提升状态则自身当回合所有技能先制+2且造成的攻击伤害提升100%，若敌我双方皆不处于能力提升状态则自身当回合攻击100%打出致命一击且当回合战斗阶段结束时自身随机3项能力值+1（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害50%额外恢复至自身体力\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若当回合开始时自身体力低于最大体力的1/2则<color=#64F9FA>附加</color>自身上次攻击造成伤害50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若敌我双方任意一方处于能力提升状态则自身所有技能<b>先制</b>+2且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若敌我双方皆不处于能力提升状态则自身当回合攻击100%<color=#64F9FA>打出致命一击</color>且战斗阶段结束时自身随机3项能力等级+1",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若当回合开始时自身体力低于最大体力的1/2则<color=#64F9FA>附加</color>自身上次攻击造成伤害50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若敌我双方任意一方处于能力提升状态则自身所有技能<b>先制</b>+2且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若敌我双方均不处于能力提升状态则自身当回合攻击100%<color=#64F9FA>打出致命一击</color>且战斗阶段结束时自身随机3项能力等级+1",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -46,5 +46,5 @@
     "id": 1145,
     "url": "https://api.seerapi.com/v1/soulmark/1145"
   },
-  "hash": "aeaa130b"
+  "hash": "86621bee"
 }

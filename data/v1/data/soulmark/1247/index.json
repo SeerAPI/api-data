@@ -1,7 +1,7 @@
 {
   "id": 1247,
   "desc": "回合开始时，若自身满体力则自身所有技能命中后50%令对手疲惫，若自身体力低于最大体力的80%则额外恢复造成伤害值50%的体力，若自身体力低于最大体力的50%则控场概率额外提升30%，自身体力低于30%则所有技能额外先制+1（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则自身所有技能命中后50%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的80%则造成的攻击伤害50%额外恢复至自身体力\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的50%则疲惫概率额外提升30%\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的30%则所有技能额外<b>先制</b>+1",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则自身所有技能命中后50%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的80%则造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的50%则疲惫概率额外提升30%\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的30%则所有技能额外<b>先制</b>+1",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -43,5 +43,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "822460cd"
+  "hash": "5f0a30ff"
 }

@@ -18,8 +18,33 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/104"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做1~3次攻击",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "50%使对手全属性-1，若先出手则100%使对手全属性-1",
+      "args": [
+        50,
+        1,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 857,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/857"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a1981cfb"
+  "hash": "2fddffc5"
 }

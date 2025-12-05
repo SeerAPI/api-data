@@ -1,8 +1,8 @@
 {
   "id": 970,
   "desc": "自身使用攻击技能时若为连续2回合使用则先制+1且造成的伤害提升100%；自身使用攻击技能则附加等同于自身攻击值60%的百分比伤害，若自身使用攻击技能时未造成伤害则附加的伤害量转换为自身攻击值120%的百分比伤害（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>连续使用攻击技能时<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则<color=#64F9FA>附加</color>自身攻击值60%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害为0则改为附加攻击值120%的百分比伤害",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -40,5 +40,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "ecaad5a7"
+  "hash": "8b2f8caf"
 }

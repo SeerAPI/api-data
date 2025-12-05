@@ -18,8 +18,31 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/24"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做10~50次攻击",
+      "args": [
+        10,
+        50
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "获得250点护盾，护盾消失时附加250点固定伤害",
+      "args": [
+        250,
+        250
+      ],
+      "effect": {
+        "id": 1387,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1387"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1156e688"
+  "hash": "83399c53"
 }

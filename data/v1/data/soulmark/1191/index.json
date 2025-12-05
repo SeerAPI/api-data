@@ -1,7 +1,7 @@
 {
   "id": 1191,
   "desc": "回合开始时，若自身满体力则当回合免疫异常状态，若自身未满体力则战斗阶段结束时恢复自身最大体力的1/3并造成等量固伤；自身攻击造成伤害的50%恢复自身体力，若回合开始时对手处于异常状态则附加等量固定伤害（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身未满体力则当回合战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3并造成等量<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害70%额外恢复至自身体力\r\n<indent=32><sprite=4><indent=48>若当回合开始时对手处于异常状态则<color=#64F9FA>附加</color>等量<b>固定伤害</b>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身未满体力则当回合战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3并造成等量<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害70%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若当回合开始时对手处于异常状态则<color=#64F9FA>附加</color>等量<b>固定伤害</b>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +41,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1268"
   },
   "from": null,
-  "hash": "d223e229"
+  "hash": "684bf371"
 }

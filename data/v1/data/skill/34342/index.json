@@ -18,8 +18,39 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/82"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "1回合做10~15次攻击",
+      "args": [
+        10,
+        15
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    },
+    {
+      "info": "命中后50%令对手睡眠，若对手为咸咸粽则概率翻倍",
+      "args": [],
+      "effect": {
+        "id": 1597,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1597"
+      }
+    },
+    {
+      "info": "获得300点护罩，护罩消失时恢复自身300点体力",
+      "args": [
+        300,
+        300
+      ],
+      "effect": {
+        "id": 1422,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1422"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8dccae65"
+  "hash": "2094d5c7"
 }

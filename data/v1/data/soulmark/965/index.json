@@ -1,8 +1,8 @@
 {
   "id": 965,
   "desc": "自身使用攻击技能有30%的概率造成2-4倍伤害，未触发则下1次攻击技能先制+1且翻倍概率额外提升20%；攻击造成的伤害高于300则附加自身最大体力1/3的百分比伤害并恢复等量体力，造成的伤害低于300则{吸取}对手最大{体力}的1/3（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身的攻击技能30%造成2-4倍<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则下1次攻击技能<b>先制</b>+1且上述概率提升20%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后：\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害高于300则<color=#64F9FA>恢复</color>自身最大体力的1/3并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害低于300则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -43,5 +43,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "be5d5ff"
+  "hash": "47a07d23"
 }

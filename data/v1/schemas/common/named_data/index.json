@@ -1,0 +1,24 @@
+{
+  "$defs": {
+    "TResModel": {
+      "$dynamicAnchor": "TResModel"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "data": {
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[0-9]+$": {
+          "$dynamicRef": "#TResModel"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "required": [
+    "data"
+  ],
+  "title": "NamedData",
+  "type": "object"
+}

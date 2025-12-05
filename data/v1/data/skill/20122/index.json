@@ -18,8 +18,20 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "2回合自己使用电招式伤害×2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/42"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2e64bea9"
+  "hash": "b14ff50e"
 }

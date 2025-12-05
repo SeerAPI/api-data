@@ -18,8 +18,30 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/11"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "附加所造成伤害值10%的固定伤害",
+      "args": [
+        10
+      ],
+      "effect": {
+        "id": 422,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/422"
+      }
+    },
+    {
+      "info": "1回合做5~8次攻击",
+      "args": [
+        5,
+        8
+      ],
+      "effect": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8d8ec4d0"
+  "hash": "159ea13d"
 }

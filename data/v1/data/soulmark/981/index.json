@@ -1,7 +1,7 @@
 {
   "id": 981,
   "desc": "回合开始时若自身不处于能力提升状态则当回合对手无法通过自身技能恢复体力（该效果为回合类效果）；|自身使用攻击技能则{吸取}对手最大{体力}的20%，每次使用额外增加5%，最高30%，若吸取数值叠加到最高，则下次使用的攻击技能令对手随机3个技能PP值归零同时吸取数值恢复到初始状态（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身不处于能力提升状态则对手以回合类效果形式1回合内<color=#64F9FA>无法通过自身技能恢复体力</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能时<color=#64F9FA>吸取</color>对手最大体力的20%，每次使用额外增加5%，最高30%\r\n<indent=32><sprite=4><indent=48>当回合战斗阶段结束时若自身吸取数值叠加到最高，则下回合攻击技能：\r\n<indent=32><sprite=4><sprite=4><indent=64>令对手随机3个技能<b>PP</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>重置吸取数值",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -36,5 +36,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "21301f8e"
+  "hash": "b9c64d4a"
 }

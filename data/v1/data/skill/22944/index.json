@@ -18,8 +18,68 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "技能使用成功时，100%改变自身防御等级+1",
+      "args": [
+        1,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身特攻等级+1",
+      "args": [
+        2,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身特防等级+1",
+      "args": [
+        3,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+      }
+    },
+    {
+      "info": "技能使用成功时，100%改变自身命中等级+1",
+      "args": [
+        5,
+        100,
+        1
+      ],
+      "effect": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+      }
+    },
+    {
+      "info": "1回合自己使用电招式伤害×2",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/42"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8659581d"
+  "hash": "3e355023"
 }

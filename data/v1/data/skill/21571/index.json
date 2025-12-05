@@ -18,8 +18,20 @@
     "url": "https://api.seerapi.com/v1/element_type_combination/8"
   },
   "learned_by_pet": [],
-  "skill_effect": [],
+  "skill_effect": [
+    {
+      "info": "5回合本方受到的火系攻击伤害减半",
+      "args": [
+        5,
+        5
+      ],
+      "effect": {
+        "id": 41,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/41"
+      }
+    }
+  ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1491a57c"
+  "hash": "efa756f9"
 }
