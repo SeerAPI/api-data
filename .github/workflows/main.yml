@@ -66,7 +66,7 @@ jobs:
         openapi_desc=$(cat .github/workflows/openapi-desc.md)
         detail_version="1.0.0"
         solaris analyze openapi --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o openapi.json \
-        --description $openapi_desc --detail-version $detail_version --output-named-data
+        --description "$openapi_desc" --detail-version "$detail_version" --output-named-data
 
     - name: Commit and push changes
       id: commit
