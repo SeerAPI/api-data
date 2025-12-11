@@ -1,0 +1,51 @@
+{
+  "data": {
+    "28063": {
+      "id": 28063,
+      "name": "偃武休兵",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 2,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "赋予对手与自身能力提升等同的能力下降；养精蓄锐，一举破敌！",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1245,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1245"
+          }
+        },
+        {
+          "info": "消耗自身全部体力，使己方下只出战精灵登场时立即恢复300点体力且首次使用技能后恢复300点体力",
+          "args": [
+            300,
+            300
+          ],
+          "effect": {
+            "id": 1847,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1847"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "272a1916"
+}

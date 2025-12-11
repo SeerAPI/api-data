@@ -1,0 +1,53 @@
+{
+  "data": {
+    "32312": {
+      "id": 32312,
+      "name": "邪·混沌之瞳",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于害怕状态，则30%概率秒杀对手",
+          "args": [
+            6,
+            30
+          ],
+          "effect": {
+            "id": 495,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/495"
+          }
+        },
+        {
+          "info": "造成的伤害低于280则80%令对手害怕，未触发则消除对手回合类效果",
+          "args": [
+            280,
+            80,
+            6
+          ],
+          "effect": {
+            "id": 1363,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1363"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9ff20a75"
+}

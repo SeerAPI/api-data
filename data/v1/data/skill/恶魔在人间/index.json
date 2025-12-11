@@ -1,0 +1,71 @@
+{
+  "data": {
+    "31863": {
+      "id": 31863,
+      "name": "恶魔在人间",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 90,
+        "url": "https://api.seerapi.com/v1/element_type_combination/90"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1114,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1114"
+          }
+        },
+        {
+          "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 833,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/833"
+          }
+        },
+        {
+          "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+          "args": [
+            1,
+            50
+          ],
+          "effect": {
+            "id": 897,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/897"
+          }
+        },
+        {
+          "info": "击败对手则自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1049,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1049"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f651967"
+}

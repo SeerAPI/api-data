@@ -1,0 +1,48 @@
+{
+  "data": {
+    "36506": {
+      "id": 36506,
+      "name": "无为·魂切",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 50,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/element_type_combination/69"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中时100%的概率秒杀对方",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 36,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/36"
+          }
+        },
+        {
+          "info": "若没有命中对手则自己失去全部体力",
+          "args": [],
+          "effect": {
+            "id": 72,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/72"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9342e66c"
+}

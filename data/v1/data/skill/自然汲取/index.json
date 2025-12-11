@@ -1,0 +1,52 @@
+{
+  "data": {
+    "34630": {
+      "id": 34630,
+      "name": "自然汲取",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 112,
+        "url": "https://api.seerapi.com/v1/element_type_combination/112"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%恢复自己所有技能PP值1点",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 598,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/598"
+          }
+        },
+        {
+          "info": "若当前体力高于对手，则造成伤害的100%恢复体力",
+          "args": [
+            1,
+            100
+          ],
+          "effect": {
+            "id": 634,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/634"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e1221312"
+}

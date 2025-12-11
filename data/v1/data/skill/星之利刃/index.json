@@ -1,0 +1,41 @@
+{
+  "data": {
+    "13414": {
+      "id": 13414,
+      "name": "星之利刃",
+      "power": 100,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "10%概率伤害为2倍",
+          "args": [
+            10,
+            2
+          ],
+          "effect": {
+            "id": 88,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/88"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7e7afff2"
+}

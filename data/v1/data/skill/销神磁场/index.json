@@ -1,0 +1,42 @@
+{
+  "data": {
+    "28793": {
+      "id": 28793,
+      "name": "销神磁场",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "为对手的属性技能附加了限制",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若对手使用属性技能则麻痹，未触发则减少对手1/3最大体力",
+          "args": [
+            3,
+            0,
+            3
+          ],
+          "effect": {
+            "id": 1102,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1102"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7bece26e"
+}

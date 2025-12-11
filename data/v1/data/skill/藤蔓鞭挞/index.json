@@ -1,0 +1,40 @@
+{
+  "data": {
+    "13402": {
+      "id": 13402,
+      "name": "藤蔓鞭挞",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时，额外附加50点固定伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 405,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/405"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b7a20f21"
+}

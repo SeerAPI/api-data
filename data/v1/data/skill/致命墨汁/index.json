@@ -1,0 +1,53 @@
+{
+  "data": {
+    "33480": {
+      "id": 33480,
+      "name": "致命墨汁",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下1次攻击附加300点固定伤害",
+          "args": [
+            1,
+            300
+          ],
+          "effect": {
+            "id": 1036,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1036"
+          }
+        },
+        {
+          "info": "未击败对手则下2次使用技能后令对手50%害怕",
+          "args": [
+            2,
+            50,
+            6
+          ],
+          "effect": {
+            "id": 1050,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1050"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1ff75b9d"
+}

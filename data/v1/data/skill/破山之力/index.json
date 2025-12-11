@@ -1,0 +1,62 @@
+{
+  "data": {
+    "19166": {
+      "id": 19166,
+      "name": "破山之力",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/element_type_combination/7"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手的能力提升效果反转成能力下降效果",
+          "args": [],
+          "effect": {
+            "id": 143,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/143"
+          }
+        },
+        {
+          "info": "若造成的伤害不足300，则自身防御等级+1",
+          "args": [
+            300,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 473,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/473"
+          }
+        },
+        {
+          "info": "若造成的伤害不足300，则自身特防等级+1",
+          "args": [
+            300,
+            3,
+            1
+          ],
+          "effect": {
+            "id": 473,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/473"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d7ae68bd"
+}

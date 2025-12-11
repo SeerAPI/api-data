@@ -1,0 +1,73 @@
+{
+  "data": {
+    "27429": {
+      "id": 27429,
+      "name": "雪径独行",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；自身受到攻击则全属性+1；自身未受到攻击伤害则对手全属性-1；自身出手更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内若对手使用攻击技能则使用后令自身全属性+1",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 806,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/806"
+          }
+        },
+        {
+          "info": "3回合内若自身未受到攻击伤害则令对手全属性-1",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 1638,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1638"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c2513f44"
+}

@@ -1,0 +1,71 @@
+{
+  "data": {
+    "28583": {
+      "id": 28583,
+      "name": "命诞如虚",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "命起获得了提升；开始免疫并反弹受到的异常状态；对方的离场受到了限制；己方的离场获得了加持",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "为自身增加1层命起，然后若自身的命起高于魂落则使自身恢复最大体力的1/1并造成等量百分比伤害",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2106,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2106"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "对手下2次主动切换或死亡切换精灵时，在场精灵吸取对手下只出场精灵最大体力的1/3",
+          "args": [
+            2,
+            3
+          ],
+          "effect": {
+            "id": 1779,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1779"
+          }
+        },
+        {
+          "info": "自身主动切换下场后令己方下只精灵出战时恢复300点体力",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1702,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1702"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9f8366c8"
+}

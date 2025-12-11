@@ -1,0 +1,45 @@
+{
+  "data": {
+    "19774": {
+      "id": 19774,
+      "name": "魔之扼杀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 71,
+        "url": "https://api.seerapi.com/v1/element_type_combination/71"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，若消除成功则自身攻击+2",
+          "args": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "effect": {
+            "id": 538,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/538"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1435dd0"
+}

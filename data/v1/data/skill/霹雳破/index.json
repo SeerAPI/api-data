@@ -1,0 +1,54 @@
+{
+  "data": {
+    "32836": {
+      "id": 32836,
+      "name": "霹雳破",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 104,
+        "url": "https://api.seerapi.com/v1/element_type_combination/104"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过200点",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        },
+        {
+          "info": "命中后40%令对手流血，未触发则下1回合自身攻击技能先制+1",
+          "args": [
+            40,
+            16,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1079,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1079"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2658c00f"
+}

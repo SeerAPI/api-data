@@ -1,0 +1,49 @@
+{
+  "data": {
+    "32301": {
+      "id": 32301,
+      "name": "飞扇击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "先出手时令自身随机2项属性+1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 1316,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1316"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2493553a"
+}

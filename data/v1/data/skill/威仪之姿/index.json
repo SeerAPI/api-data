@@ -1,0 +1,63 @@
+{
+  "data": {
+    "28068": {
+      "id": 28068,
+      "name": "威仪之姿",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "威仪之姿展现，双方的能力提升与下降状态全部被消除；开始慢慢吸取对手体力了；开始慢慢附加固定伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除双方能力提升、下降状态，消除任意一方成功则自身下1次攻击技能附加对手最大体力1/2的百分比伤害",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1849"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手最大体力的1/3",
+          "args": [
+            4,
+            3
+          ],
+          "effect": {
+            "id": 597,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/597"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能附加对手最大体力1/3的百分比伤害",
+          "args": [
+            4,
+            3
+          ],
+          "effect": {
+            "id": 1213,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1213"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2031b2ef"
+}

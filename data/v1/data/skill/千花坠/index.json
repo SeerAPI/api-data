@@ -1,0 +1,48 @@
+{
+  "data": {
+    "32259": {
+      "id": 32259,
+      "name": "千花坠",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/element_type_combination/21"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 485,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/485"
+          }
+        },
+        {
+          "info": "若自身为满体力则技能威力提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 925,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/925"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "13ace751"
+}

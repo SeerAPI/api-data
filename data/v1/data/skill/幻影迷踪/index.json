@@ -1,0 +1,52 @@
+{
+  "data": {
+    "28128": {
+      "id": 28128,
+      "name": "幻影迷踪",
+      "power": 0,
+      "max_pp": 14,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "高几率令对手陷入烧伤和束缚状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后70%令对手烧伤",
+          "args": [
+            70,
+            2
+          ],
+          "effect": {
+            "id": 756,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/756"
+          }
+        },
+        {
+          "info": "命中后70%令对手束缚",
+          "args": [
+            70,
+            28
+          ],
+          "effect": {
+            "id": 756,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/756"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "84e35def"
+}

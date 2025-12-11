@@ -1,0 +1,50 @@
+{
+  "data": {
+    "23116": {
+      "id": 23116,
+      "name": "无限战力",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "恢复了全部体力，进攻更凌厉了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "恢复自身最大体力的1/1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6550199b"
+}

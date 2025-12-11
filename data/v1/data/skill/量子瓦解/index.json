@@ -1,0 +1,49 @@
+{
+  "data": {
+    "33458": {
+      "id": 33458,
+      "name": "量子瓦解",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+          "args": [],
+          "effect": {
+            "id": 1164,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1164"
+          }
+        },
+        {
+          "info": "吸取对手200点固定体力，自身体力低于1/2时吸取效果翻倍",
+          "args": [
+            200,
+            2
+          ],
+          "effect": {
+            "id": 1241,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1241"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c7196725"
+}

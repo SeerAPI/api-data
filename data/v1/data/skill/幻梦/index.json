@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36985": {
+      "id": 36985,
+      "name": "幻梦",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 109,
+        "url": "https://api.seerapi.com/v1/element_type_combination/109"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则100%令对手失神，未触发则100%令对手睡眠",
+          "args": [
+            100,
+            29,
+            100,
+            8
+          ],
+          "effect": {
+            "id": 1138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1138"
+          }
+        },
+        {
+          "info": "对手处于异常状态则吸取对手260点体力",
+          "args": [
+            260
+          ],
+          "effect": {
+            "id": 1214,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1214"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c7662363"
+}

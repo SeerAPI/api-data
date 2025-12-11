@@ -1,0 +1,43 @@
+{
+  "data": {
+    "35442": {
+      "id": 35442,
+      "name": "仪·英魂不朽",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/element_type_combination/39"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解放自身所有的图腾庇护并获得英魂的祝福：解放贤之庇护时，2回合内对手属性技能命中效果失效，解放威之庇护时，2回合内对手攻击技能命中效果失效，解放霸之庇护时，清除对手2个技能PP，若自身无图腾庇护可解放，则消除对手回合类效果，消除成功恢复自身最大体力的1/3",
+          "args": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "effect": {
+            "id": 1739,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1739"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "811a98ac"
+}

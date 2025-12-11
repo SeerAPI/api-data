@@ -1,0 +1,50 @@
+{
+  "data": {
+    "38011": {
+      "id": 38011,
+      "name": "旋缚",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合使用技能吸取对手能力提升状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 677,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/677"
+          }
+        },
+        {
+          "info": "3回合内自身的能力提升状态无法被消除或吸取",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1683,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1683"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "90553f5f"
+}

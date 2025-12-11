@@ -1,0 +1,52 @@
+{
+  "data": {
+    "34823": {
+      "id": 34823,
+      "name": "雪夜魅影",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 84,
+        "url": "https://api.seerapi.com/v1/element_type_combination/84"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则附加300点固定伤害",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 990,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/990"
+          }
+        },
+        {
+          "info": "攻击对手时若对手处于冻伤状态，则100%使对手冰封",
+          "args": [
+            5,
+            100,
+            15
+          ],
+          "effect": {
+            "id": 572,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/572"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "28be6bb6"
+}

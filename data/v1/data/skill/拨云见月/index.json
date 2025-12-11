@@ -1,0 +1,41 @@
+{
+  "data": {
+    "36396": {
+      "id": 36396,
+      "name": "拨云见月",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 18.75,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/element_type_combination/22"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手体力高于400则将对手体力减少到400",
+          "args": [
+            400,
+            400
+          ],
+          "effect": {
+            "id": 1051,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1051"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c28810f2"
+}

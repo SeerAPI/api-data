@@ -1,0 +1,42 @@
+{
+  "data": {
+    "12170": {
+      "id": 12170,
+      "name": "天际之光",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/element_type_combination/31"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时，50%改变对方命中等级-2",
+          "args": [
+            5,
+            50,
+            -2
+          ],
+          "effect": {
+            "id": 122,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/122"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9ce18bd5"
+}

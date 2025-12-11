@@ -1,0 +1,52 @@
+{
+  "data": {
+    "30804": {
+      "id": 30804,
+      "name": "疲劳扫射",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 931,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/931"
+          }
+        },
+        {
+          "info": "2回合内每回合额外附加60%概率令对手疲惫",
+          "args": [
+            2,
+            60,
+            7
+          ],
+          "effect": {
+            "id": 169,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/169"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "92c23d84"
+}

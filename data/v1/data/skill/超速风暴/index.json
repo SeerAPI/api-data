@@ -1,0 +1,40 @@
+{
+  "data": {
+    "15888": {
+      "id": 15888,
+      "name": "超速风暴",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/element_type_combination/30"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合自身受到物理攻击伤害减半",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 50,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/50"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "79a8f60f"
+}

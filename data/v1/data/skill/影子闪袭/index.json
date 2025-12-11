@@ -1,0 +1,42 @@
+{
+  "data": {
+    "31651": {
+      "id": 31651,
+      "name": "影子闪袭",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加自身的攻击值的30%的百分比伤害",
+          "args": [
+            0,
+            0,
+            30
+          ],
+          "effect": {
+            "id": 593,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/593"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b4da387"
+}

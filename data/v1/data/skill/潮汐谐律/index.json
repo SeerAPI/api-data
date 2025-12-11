@@ -1,0 +1,58 @@
+{
+  "data": {
+    "33701": {
+      "id": 33701,
+      "name": "潮汐谐律",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于护盾状态下先制+1",
+          "args": [],
+          "effect": {
+            "id": 1487,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1487"
+          }
+        },
+        {
+          "info": "消耗自身所有护盾值，造成等量固定伤害",
+          "args": [],
+          "effect": {
+            "id": 1017,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1017"
+          }
+        },
+        {
+          "info": "消耗自身全部体力，使自身下只出场精灵获得300点的护盾且3回合内每回合结束时恢复300点体力",
+          "args": [
+            300,
+            3,
+            300
+          ],
+          "effect": {
+            "id": 1496,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1496"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "34e61f41"
+}

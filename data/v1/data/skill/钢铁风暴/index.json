@@ -1,0 +1,41 @@
+{
+  "data": {
+    "30888": {
+      "id": 30888,
+      "name": "钢铁风暴",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/element_type_combination/38"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%概率额外附加200点固定伤害",
+          "args": [
+            50,
+            200
+          ],
+          "effect": {
+            "id": 93,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/93"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "788cd0d3"
+}

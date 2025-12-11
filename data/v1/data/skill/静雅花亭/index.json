@@ -1,0 +1,61 @@
+{
+  "data": {
+    "27947": {
+      "id": 27947,
+      "name": "静雅花亭",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "吸取对手能力提升状态；自身攻击开始令对手进入任意1种异常状态；自身攻击开始必定打出致命一击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则吸取对手250点体力",
+          "args": [
+            250
+          ],
+          "effect": {
+            "id": 1022,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1022"
+          }
+        },
+        {
+          "info": "3回合内使用攻击技能100%随机附加1种异常状态",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 771,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/771"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6abcaef2"
+}

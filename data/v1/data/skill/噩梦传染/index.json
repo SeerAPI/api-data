@@ -1,0 +1,66 @@
+{
+  "data": {
+    "27114": {
+      "id": 27114,
+      "name": "噩梦传染",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 98,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始恢复自身体力了；有一定几率令对手害怕",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "80%令对手害怕，触发后3回合内对手主动切换精灵则若当回合开始后80%令对手害怕",
+          "args": [
+            80,
+            6,
+            3,
+            80,
+            6
+          ],
+          "effect": {
+            "id": 1562,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1562"
+          }
+        },
+        {
+          "info": "损失自身200点体力，给对手造成300点固定伤害，若自身体力不足200则损失全部体力且造成的固定伤害翻倍",
+          "args": [
+            200,
+            300,
+            200
+          ],
+          "effect": {
+            "id": 1563,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1563"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8344a44b"
+}

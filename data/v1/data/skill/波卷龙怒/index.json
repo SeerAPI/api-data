@@ -1,0 +1,56 @@
+{
+  "data": {
+    "23726": {
+      "id": 23726,
+      "name": "波卷龙怒",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "对手命中、速度降低了，有一定概率弱化效果翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手速度-1，命中-2，50%弱化效果翻倍",
+          "args": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -2,
+            50
+          ],
+          "effect": {
+            "id": 590,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/590"
+          }
+        },
+        {
+          "info": "命中后50%令对方冻伤",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 14,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/14"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b6b32214"
+}

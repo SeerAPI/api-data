@@ -1,0 +1,48 @@
+{
+  "data": {
+    "36824": {
+      "id": 36824,
+      "name": "猫双斩",
+      "power": 85,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时2回合内免疫并反弹异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1295,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1295"
+          }
+        },
+        {
+          "info": "先出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 40,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/40"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4feaf93"
+}

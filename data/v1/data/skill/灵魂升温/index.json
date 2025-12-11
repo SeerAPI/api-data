@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28518": {
+      "id": 28518,
+      "name": "灵魂升温",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "身边的温度升高了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于能力提升状态则有50%概率使对手焚烬，先出手时概率翻倍",
+          "args": [
+            50,
+            22
+          ],
+          "effect": {
+            "id": 1227,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1227"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5bb8ff0d"
+}

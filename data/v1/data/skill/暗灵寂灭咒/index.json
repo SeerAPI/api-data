@@ -1,0 +1,56 @@
+{
+  "data": {
+    "32369": {
+      "id": 32369,
+      "name": "暗灵寂灭咒",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 97,
+        "url": "https://api.seerapi.com/v1/element_type_combination/97"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下1回合对手攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1060,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1060"
+          }
+        },
+        {
+          "info": "先出手时对手当回合属性技能无效",
+          "args": [],
+          "effect": {
+            "id": 980,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/980"
+          }
+        },
+        {
+          "info": "后出手时使对手下回合属性技能失效",
+          "args": [],
+          "effect": {
+            "id": 919,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/919"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "86b67b71"
+}

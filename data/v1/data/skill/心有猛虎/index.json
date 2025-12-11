@@ -1,0 +1,61 @@
+{
+  "data": {
+    "33001": {
+      "id": 33001,
+      "name": "心有猛虎",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则令自身下回合所有技能先制+2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 880,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/880"
+          }
+        },
+        {
+          "info": "2回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        },
+        {
+          "info": "2回合内对手无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 679,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/679"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fcba49ba"
+}

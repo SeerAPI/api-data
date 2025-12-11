@@ -1,0 +1,51 @@
+{
+  "data": {
+    "18363": {
+      "id": 18363,
+      "name": "树影千重",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功对手下1回合受到的伤害翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 789,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/789"
+          }
+        },
+        {
+          "info": "随机使对手2种能力等级-1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 198,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/198"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c899940b"
+}

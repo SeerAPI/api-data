@@ -1,0 +1,51 @@
+{
+  "data": {
+    "36776": {
+      "id": 36776,
+      "name": "雅剑闪",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/element_type_combination/68"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手不处于异常状态则80%令自身沉默",
+          "args": [
+            80,
+            30
+          ],
+          "effect": {
+            "id": 2026,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2026"
+          }
+        },
+        {
+          "info": "若对手处于异常状态则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2009,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2009"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "420d24bc"
+}

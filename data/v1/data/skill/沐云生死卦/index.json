@@ -1,0 +1,42 @@
+{
+  "data": {
+    "35362": {
+      "id": 35362,
+      "name": "沐云生死卦",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 40,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%秒杀对手，技能无效时消耗自身全部体力且对手下3回合先制-2",
+          "args": [
+            100,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 1724,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1724"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e0f81a4d"
+}

@@ -1,0 +1,80 @@
+{
+  "data": {
+    "28442": {
+      "id": 28442,
+      "name": "神明送葬",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "进入了邪魇形态；全属性提升了；开始吸取对手的体力；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "切换为邪魇形态",
+          "args": [],
+          "effect": {
+            "id": 2064,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2064"
+          }
+        },
+        {
+          "info": "全属性+1，50%概率强化效果翻倍，未触发则3回合内每回合攻击+1，速度+1，命中+1",
+          "args": [
+            1,
+            50,
+            3,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1378,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1378"
+          }
+        },
+        {
+          "info": "5回合内使用技能吸取对手280点体力，自身体力低于1/2时效果翻倍，吸取后若对手体力减少值低于180则附加180点真实伤害与1层自身所处形态相应的圣告/邪诲",
+          "args": [
+            5,
+            280,
+            2,
+            180
+          ],
+          "effect": {
+            "id": 2077,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2077"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2202e350"
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "300046": {
+      "id": 300046,
+      "name": "强效特防能量珠",
+      "desc": "对战时增加精灵特防30，使用次数20次。注意：赛尔间对战无效",
+      "idx": 1047,
+      "use_times": 20,
+      "item": {
+        "id": 300046,
+        "url": "https://api.seerapi.com/v1/item/300046"
+      },
+      "effect": {
+        "effect_args": [
+          4,
+          30
+        ],
+        "effect": {
+          "id": 26,
+          "url": "https://api.seerapi.com/v1/eid_effect/26"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 30,
+        "spd": 0,
+        "hp": 0,
+        "percent": false,
+        "total": 30
+      }
+    }
+  },
+  "hash": "9301707f"
+}

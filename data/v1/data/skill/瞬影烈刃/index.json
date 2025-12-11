@@ -1,0 +1,42 @@
+{
+  "data": {
+    "10406": {
+      "id": 10406,
+      "name": "瞬影烈刃",
+      "power": 115,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，15%改变对手防御等级-1",
+          "args": [
+            1,
+            15,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9fecfd71"
+}

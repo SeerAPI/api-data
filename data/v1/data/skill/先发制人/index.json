@@ -1,0 +1,38 @@
+{
+  "data": {
+    "12046": {
+      "id": 12046,
+      "name": "先发制人",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 40,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/40"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "98243a49"
+}

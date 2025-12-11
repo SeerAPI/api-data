@@ -1,0 +1,48 @@
+{
+  "data": {
+    "31398": {
+      "id": 31398,
+      "name": "电威雷刃",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/element_type_combination/33"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 959,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/959"
+          }
+        },
+        {
+          "info": "对手处于任意异常状态时造成的伤害将全额恢复体力",
+          "args": [],
+          "effect": {
+            "id": 575,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/575"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8c879138"
+}

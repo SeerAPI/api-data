@@ -1,0 +1,61 @@
+{
+  "data": {
+    "25343": {
+      "id": 25343,
+      "name": "天赐福缘",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "免疫并反弹异常状态；开始吸取对手能力提升状态了；攻击变得更犀利了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能吸取对手能力提升状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 677,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/677"
+          }
+        },
+        {
+          "info": "下3回合每回合使用攻击技能附加自身防御、特防值总和30%的百分比伤害",
+          "args": [
+            3,
+            30
+          ],
+          "effect": {
+            "id": 676,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/676"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5dba72a8"
+}

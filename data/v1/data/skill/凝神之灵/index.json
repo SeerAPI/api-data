@@ -1,0 +1,65 @@
+{
+  "data": {
+    "27240": {
+      "id": 27240,
+      "name": "凝神之灵",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身攻击和速度提升了；下回合出手更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "args": [
+            0,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+2",
+          "args": [
+            4,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "下1回合自身攻击先制+1",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 481,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/481"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4a57f62"
+}

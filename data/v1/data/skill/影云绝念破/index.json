@@ -1,0 +1,40 @@
+{
+  "data": {
+    "15574": {
+      "id": 15574,
+      "name": "影云绝念破",
+      "power": 150,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/element_type_combination/48"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于害怕状态则每次攻击造成的伤害都将恢复自身体力",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 472,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/472"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e05bd60f"
+}

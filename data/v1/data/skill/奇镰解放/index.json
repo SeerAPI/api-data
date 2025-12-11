@@ -1,0 +1,72 @@
+{
+  "data": {
+    "36481": {
+      "id": 36481,
+      "name": "奇镰解放",
+      "power": 200,
+      "max_pp": 3,
+      "accuracy": 95,
+      "crit_rate": 50.0,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "解除自身的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 3,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/3"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "恢复自身所有PP值",
+          "args": [],
+          "effect": {
+            "id": 87,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/87"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e5a6b036"
+}

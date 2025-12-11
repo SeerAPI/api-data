@@ -1,0 +1,49 @@
+{
+  "data": {
+    "31118": {
+      "id": 31118,
+      "name": "盈月涤尘",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/element_type_combination/14"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下1回合自身所有技能先制+2",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1123,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1123"
+          }
+        },
+        {
+          "info": "后出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 30,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/30"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4710d6"
+}

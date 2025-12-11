@@ -1,0 +1,140 @@
+{
+  "data": {
+    "1": {
+      "id": 1,
+      "name": "D级草系技能石",
+      "rank": 1,
+      "power": 40,
+      "max_pp": 30,
+      "accuracy": 100,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_stone_category/1"
+      },
+      "item": {
+        "id": 1100001,
+        "url": "https://api.seerapi.com/v1/item/1100001"
+      },
+      "effect": [
+        {
+          "prob": 0.18,
+          "effect": [
+            {
+              "info": "命中后15%令对方中毒",
+              "args": [
+                15
+              ],
+              "effect": {
+                "id": 11,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/11"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.08,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身攻击等级+1",
+              "args": [
+                0,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.08,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身防御等级+1",
+              "args": [
+                1,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.08,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身特攻等级+1",
+              "args": [
+                2,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.08,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身特防等级+1",
+              "args": [
+                3,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.08,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身速度等级+1",
+              "args": [
+                4,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.08,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身命中等级+1",
+              "args": [
+                5,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "d0e02452"
+}

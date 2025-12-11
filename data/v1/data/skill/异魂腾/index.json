@@ -1,0 +1,50 @@
+{
+  "data": {
+    "36768": {
+      "id": 36768,
+      "name": "异魂腾",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 97,
+        "url": "https://api.seerapi.com/v1/element_type_combination/97"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 1061,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1061"
+          }
+        },
+        {
+          "info": "造成的伤害低于300则附加200点固定伤害，若先出手则固定伤害提高150点",
+          "args": [
+            300,
+            200,
+            150
+          ],
+          "effect": {
+            "id": 1066,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1066"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "241b4b6c"
+}

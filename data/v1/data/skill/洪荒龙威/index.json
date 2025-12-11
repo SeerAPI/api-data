@@ -1,0 +1,60 @@
+{
+  "data": {
+    "25892": {
+      "id": 25892,
+      "name": "洪荒龙威",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "将自身的弱化状态反馈给对手了，同时令对手1次技能无效；吸取对手一定的体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身处于能力下降状态则先制+3",
+          "args": [],
+          "effect": {
+            "id": 881,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/881"
+          }
+        },
+        {
+          "info": "将自身的能力下降状态双倍反馈给对手，反馈成功则对手下1次技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1289,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1289"
+          }
+        },
+        {
+          "info": "吸取对手250点固定体力，每次使用额外附加100点，最高450点",
+          "args": [
+            250,
+            100,
+            450
+          ],
+          "effect": {
+            "id": 837,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/837"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "41c6e653"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36397": {
+      "id": 36397,
+      "name": "掩手肱锤",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 96,
+      "crit_rate": 18.75,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/element_type_combination/22"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成伤害的50%恢复自身体力，若打出致命一击则附加恢复体力值等量的百分比伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1323,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1323"
+          }
+        },
+        {
+          "info": "未击败对手则50%自身全属性+1，50%对手全属性-1",
+          "args": [
+            50,
+            1,
+            50,
+            1
+          ],
+          "effect": {
+            "id": 1107,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1107"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2f6f7943"
+}

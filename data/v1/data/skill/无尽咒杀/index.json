@@ -1,0 +1,77 @@
+{
+  "data": {
+    "29076": {
+      "id": 29076,
+      "name": "无尽咒杀",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "诅咒了对手；开始吸取对手的体力了；攻击变得更加锋利",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后100%使对手诅咒，未触发则对手下2回合先制-2",
+          "args": [
+            100,
+            23,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 937,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/937"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+          "args": [
+            4,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 971,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/971"
+          }
+        },
+        {
+          "info": "下2次技能无效时令对手诅咒，若为攻击技能则造成的伤害不少于300",
+          "args": [
+            2,
+            23,
+            300
+          ],
+          "effect": {
+            "id": 2306,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2306"
+          }
+        },
+        {
+          "info": "下次攻击忽略对手双防值的50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 886,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/886"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "14b52ea9"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33063": {
+      "id": 33063,
+      "name": "星芒斩",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/element_type_combination/68"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机使自己2项能力+1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 626,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/626"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7af08fcd"
+}

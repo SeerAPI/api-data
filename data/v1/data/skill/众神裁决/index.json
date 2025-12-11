@@ -1,0 +1,42 @@
+{
+  "data": {
+    "22563": {
+      "id": 22563,
+      "name": "众神裁决",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "65%概率使对手害怕，每损失5%体力，害怕概率提升5%",
+          "args": [
+            65,
+            5,
+            5
+          ],
+          "effect": {
+            "id": 517,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/517"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2c29d9b3"
+}

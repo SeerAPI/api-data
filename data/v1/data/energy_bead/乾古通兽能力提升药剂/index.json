@@ -1,0 +1,40 @@
+{
+  "data": {
+    "300884": {
+      "id": 300884,
+      "name": "乾古通兽能力提升药剂",
+      "desc": "对战时增加精灵所有属性100点，使用次数1次。赛尔间对战无效！",
+      "idx": 1111,
+      "use_times": 1,
+      "item": {
+        "id": 300884,
+        "url": "https://api.seerapi.com/v1/item/300884"
+      },
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          100,
+          100,
+          100,
+          100
+        ],
+        "effect": {
+          "id": 137,
+          "url": "https://api.seerapi.com/v1/eid_effect/137"
+        }
+      },
+      "ability_buff": {
+        "atk": 100,
+        "def": 100,
+        "sp_atk": 100,
+        "sp_def": 100,
+        "spd": 100,
+        "hp": 100,
+        "percent": false,
+        "total": 600
+      }
+    }
+  },
+  "hash": "50a7a6cf"
+}

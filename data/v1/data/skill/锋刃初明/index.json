@@ -1,0 +1,48 @@
+{
+  "data": {
+    "31042": {
+      "id": 31042,
+      "name": "锋刃初明",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 51,
+        "url": "https://api.seerapi.com/v1/element_type_combination/51"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下回合受到的伤害转化为自身体力",
+          "args": [],
+          "effect": {
+            "id": 1219,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1219"
+          }
+        },
+        {
+          "info": "将自身能力下降状态反馈给对手，反馈成功则对手害怕",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 1030,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1030"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "73a9bda6"
+}

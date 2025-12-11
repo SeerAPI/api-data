@@ -1,0 +1,46 @@
+{
+  "data": {
+    "23993": {
+      "id": 23993,
+      "name": "振翼强风",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身双防提升了，对手睡眠时强化效果翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身防御+2，特防+2，对手睡眠时强化效果翻倍",
+          "args": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            8
+          ],
+          "effect": {
+            "id": 562,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/562"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bdf1c06c"
+}

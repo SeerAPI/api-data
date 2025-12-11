@@ -1,0 +1,75 @@
+{
+  "data": {
+    "28340": {
+      "id": 28340,
+      "name": "魑刹火行",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；对手在魑刹之火的灼烧下陷入烧伤和流血状态，同时使用技能所消耗的PP值也变多了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，若强化前自身处于能力下降状态则额外获得等同的能力提升状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1856,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1856"
+          }
+        },
+        {
+          "info": "100%令对手烧伤，未触发则降低自身所有技能2点PP值",
+          "args": [
+            100,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1862,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1862"
+          }
+        },
+        {
+          "info": "100%令对手流血，未触发则降低对手所有技能2点PP值",
+          "args": [
+            100,
+            16,
+            2
+          ],
+          "effect": {
+            "id": 1660,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1660"
+          }
+        },
+        {
+          "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2301ee77"
+}

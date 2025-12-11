@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36607": {
+      "id": 36607,
+      "name": "暗之起源",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "魔琪！你的作业是不是又忘交了！",
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/element_type_combination/14"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于能力提升状态时80%打出致命一击",
+          "args": [],
+          "effect": {
+            "id": 1349,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1349"
+          }
+        },
+        {
+          "info": "自身不处于能力提升状态时则特攻+2，速度+2",
+          "args": [
+            0,
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          "effect": {
+            "id": 763,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/763"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "324d0d57"
+}

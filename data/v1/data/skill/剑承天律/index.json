@@ -1,0 +1,50 @@
+{
+  "data": {
+    "27839": {
+      "id": 27839,
+      "name": "剑承天律",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 99,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "获得圣剑之力，自身的攻击威力开始提升了；免疫对手下1次高威力攻击技能",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下2回合自身造成的攻击伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 776,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+          }
+        },
+        {
+          "info": "令对手下1次使用的威力高于120的攻击技能无效",
+          "args": [
+            120
+          ],
+          "effect": {
+            "id": 854,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/854"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bed2e649"
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "17522": {
+      "id": 17522,
+      "name": "魔爪掏心",
+      "power": 120,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/element_type_combination/48"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变对手防御等级-1",
+          "args": [
+            1,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变对手命中等级-1",
+          "args": [
+            5,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3e83501b"
+}

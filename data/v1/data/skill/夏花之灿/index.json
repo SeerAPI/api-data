@@ -1,0 +1,73 @@
+{
+  "data": {
+    "26805": {
+      "id": 26805,
+      "name": "夏花之灿",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "下一次受到的任何伤害都减少了；自身出手更快了且攻击开始打出致命一击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下1次受到的攻击伤害减少50%",
+          "args": [
+            1,
+            50
+          ],
+          "effect": {
+            "id": 1265,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1265"
+          }
+        },
+        {
+          "info": "下1次受到的固定伤害和百分比伤害减少50%",
+          "args": [
+            1,
+            50
+          ],
+          "effect": {
+            "id": 1121,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1121"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定致命、必定命中",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 681,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/681"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1287031c"
+}

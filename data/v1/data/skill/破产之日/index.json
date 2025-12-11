@@ -1,0 +1,58 @@
+{
+  "data": {
+    "36495": {
+      "id": 36495,
+      "name": "破产之日",
+      "power": 85,
+      "max_pp": 10,
+      "accuracy": 97,
+      "crit_rate": 18.75,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "看样子你好像快破产了，需要一点资助吗？我给你优惠。",
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时无视攻击免疫效果",
+          "args": [],
+          "effect": {
+            "id": 1508,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1508"
+          }
+        },
+        {
+          "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和100%的百分比伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1828,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1828"
+          }
+        },
+        {
+          "info": "附加对手能力下降等级总和X50的固定伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1772,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1772"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a11e4a42"
+}

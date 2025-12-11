@@ -1,0 +1,78 @@
+{
+  "data": {
+    "23451": {
+      "id": 23451,
+      "name": "重剑觉醒",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击、速度上升了很多，命中上升了，体力开始渐渐恢复",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "args": [
+            0,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+2",
+          "args": [
+            4,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身命中等级+1",
+          "args": [
+            5,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "3回合内使用技能恢复150点体力，体力低于1/4时恢复至满",
+          "args": [
+            3,
+            150,
+            4
+          ],
+          "effect": {
+            "id": 615,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/615"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e98f5248"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "17486": {
+      "id": 17486,
+      "name": "霹雳狂攻",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时3回合内免疫异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 471,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/471"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8e1f2e57"
+}

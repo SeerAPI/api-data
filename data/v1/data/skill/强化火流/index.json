@@ -1,0 +1,77 @@
+{
+  "data": {
+    "24110": {
+      "id": 24110,
+      "name": "强化火流",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身特攻、双防、速度、命中提升了；体力恢复了；若对手使用属性技能则有概率麻痹；抵抗能力下降",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "args": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 585,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "3回合内若对手使用属性技能则50%概率令对手麻痹",
+          "args": [
+            3,
+            50,
+            0
+          ],
+          "effect": {
+            "id": 469,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/469"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9defc9de"
+}

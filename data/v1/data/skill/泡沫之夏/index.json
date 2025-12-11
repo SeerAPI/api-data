@@ -1,0 +1,62 @@
+{
+  "data": {
+    "26252": {
+      "id": 26252,
+      "name": "泡沫之夏",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态和能力下降状态；为自身创造一个抵抗攻击伤害的护盾",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内每回合结束后解除并反馈自身能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 922,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/922"
+          }
+        },
+        {
+          "info": "获得500点护盾，护盾消失时附加250点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+          "args": [
+            500,
+            250,
+            1
+          ],
+          "effect": {
+            "id": 1754,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1754"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a2445fef"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "36299": {
+      "id": 36299,
+      "name": "神明反叛",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 118,
+        "url": "https://api.seerapi.com/v1/element_type_combination/118"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身HP小于1/2时威力为2倍",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 37,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/37"
+          }
+        },
+        {
+          "info": "造成伤害的50%恢复自身体力，若打出致命一击则附加恢复体力值等量的百分比伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1323,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1323"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f2c0b85f"
+}

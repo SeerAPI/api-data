@@ -1,0 +1,51 @@
+{
+  "data": {
+    "23188": {
+      "id": 23188,
+      "name": "邪恶思维",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "的对手会受到一些伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "额外附加100点固定伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 29,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/29"
+          }
+        },
+        {
+          "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/2",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/138"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4152c837"
+}

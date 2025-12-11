@@ -1,0 +1,50 @@
+{
+  "data": {
+    "35407": {
+      "id": 35407,
+      "name": "充能臂甲",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功后恢复200点体力",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 548,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/548"
+          }
+        },
+        {
+          "info": "若属性相同则技能威力提升40",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 179,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/179"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "515addc"
+}

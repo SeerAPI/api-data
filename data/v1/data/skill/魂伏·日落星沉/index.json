@@ -1,0 +1,66 @@
+{
+  "data": {
+    "34812": {
+      "id": 34812,
+      "name": "魂伏·日落星沉",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 114,
+        "url": "https://api.seerapi.com/v1/element_type_combination/114"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "20%概率造成的攻击伤害为2倍，对手每存在1层致命裂痕则概率提升10%，未触发则2回合内令对手使用的属性技能无效",
+          "args": [
+            20,
+            2,
+            10,
+            2
+          ],
+          "effect": {
+            "id": 1649,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1649"
+          }
+        },
+        {
+          "info": "命中后100%随机为对手任意技能散布1枚致命印记，若对手当前精灵致命裂痕≥2层则额外散布1枚致命印记",
+          "args": [
+            100,
+            1,
+            2,
+            1
+          ],
+          "effect": {
+            "id": 1650,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1650"
+          }
+        },
+        {
+          "info": "当回合击败对手则令对手下只登场精灵首次使用的技能所附加的效果失效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1654,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1654"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ff6f1b7a"
+}

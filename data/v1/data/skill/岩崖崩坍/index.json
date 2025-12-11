@@ -1,0 +1,90 @@
+{
+  "data": {
+    "29074": {
+      "id": 29074,
+      "name": "岩崖崩坍",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；恢复了全部的体力；自身的能力提升得到了保护；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，30%概率强化效果翻倍，未触发则2回合内每回合防御+1，特攻+1，特防+1",
+          "args": [
+            1,
+            30,
+            2,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "effect": {
+            "id": 1378,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1378"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "3回合内若自身能力提升状态被消除则吸取对手最大体力的1/3",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 1109,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1109"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        },
+        {
+          "info": "下1回合使用技能不受PP值限制",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2232,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2232"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b910cf62"
+}

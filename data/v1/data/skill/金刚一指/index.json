@@ -1,0 +1,41 @@
+{
+  "data": {
+    "13444": {
+      "id": 13444,
+      "name": "金刚一指",
+      "power": 70,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态则对方防御等级-1",
+          "args": [
+            1,
+            -1
+          ],
+          "effect": {
+            "id": 418,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/418"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a232d11a"
+}

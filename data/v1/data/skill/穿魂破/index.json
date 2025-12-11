@@ -1,0 +1,42 @@
+{
+  "data": {
+    "32372": {
+      "id": 32372,
+      "name": "穿魂破",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/element_type_combination/60"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "暴击率提升40%，每次使用额外提升10%，最高概率100%",
+          "args": [
+            40,
+            10,
+            100
+          ],
+          "effect": {
+            "id": 696,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/696"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dca18476"
+}

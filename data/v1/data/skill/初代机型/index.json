@@ -1,0 +1,62 @@
+{
+  "data": {
+    "27952": {
+      "id": 27952,
+      "name": "初代机型",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态了；自身受到过高的伤害则恢复自身全部体力并造成等同于恢复量的固定伤害；对手受到的伤害开始提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内受到的伤害大于300则主动恢复自身全部体力并造成等同于恢复量的固定伤害",
+          "args": [
+            3,
+            300
+          ],
+          "effect": {
+            "id": 1073,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1073"
+          }
+        },
+        {
+          "info": "下2回合造成的攻击伤害额外提升100%",
+          "args": [
+            2,
+            100
+          ],
+          "effect": {
+            "id": 693,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/693"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7f4fba2c"
+}

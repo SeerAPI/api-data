@@ -1,0 +1,41 @@
+{
+  "data": {
+    "15920": {
+      "id": 15920,
+      "name": "水龙甩尾",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/element_type_combination/15"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "20%令对手疲惫3回合",
+          "args": [
+            20,
+            2
+          ],
+          "effect": {
+            "id": 22,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/22"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bc01ed8a"
+}

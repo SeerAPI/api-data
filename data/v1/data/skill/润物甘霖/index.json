@@ -1,0 +1,54 @@
+{
+  "data": {
+    "27615": {
+      "id": 27615,
+      "name": "润物甘霖",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身的双防提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+1",
+          "args": [
+            1,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+1",
+          "args": [
+            3,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c89b858c"
+}

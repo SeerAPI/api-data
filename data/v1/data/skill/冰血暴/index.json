@@ -1,0 +1,45 @@
+{
+  "data": {
+    "16649": {
+      "id": 16649,
+      "name": "冰血暴",
+      "power": 80,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 46,
+        "url": "https://api.seerapi.com/v1/element_type_combination/46"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "40%令对方命中等级-1；若先出手，则80%使对方命中等级-2",
+          "args": [
+            5,
+            40,
+            -1,
+            5,
+            80,
+            -2
+          ],
+          "effect": {
+            "id": 196,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/196"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "165cdc12"
+}

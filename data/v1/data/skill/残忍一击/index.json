@@ -1,0 +1,48 @@
+{
+  "data": {
+    "33904": {
+      "id": 33904,
+      "name": "残忍一击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 62,
+        "url": "https://api.seerapi.com/v1/element_type_combination/62"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则附加300点固定伤害",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1261,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1261"
+          }
+        },
+        {
+          "info": "对手为自身天敌时造成的伤害翻倍",
+          "args": [],
+          "effect": {
+            "id": 567,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/567"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "57239319"
+}

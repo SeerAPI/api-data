@@ -1,0 +1,41 @@
+{
+  "data": {
+    "16538": {
+      "id": 16538,
+      "name": "万物之灾",
+      "power": 80,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 34,
+        "url": "https://api.seerapi.com/v1/element_type_combination/34"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内每回合50%闪避对手攻击",
+          "args": [
+            2,
+            50
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "430df492"
+}

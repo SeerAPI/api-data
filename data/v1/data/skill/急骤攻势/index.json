@@ -1,0 +1,52 @@
+{
+  "data": {
+    "34146": {
+      "id": 34146,
+      "name": "急骤攻势",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/element_type_combination/31"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1495,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1495"
+          }
+        },
+        {
+          "info": "吸取对手250点固定体力，自身体力低于1/2时吸取效果翻倍",
+          "args": [
+            250,
+            2
+          ],
+          "effect": {
+            "id": 1241,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1241"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dc7a6447"
+}

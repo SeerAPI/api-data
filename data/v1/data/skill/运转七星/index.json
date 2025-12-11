@@ -1,0 +1,65 @@
+{
+  "data": {
+    "24777": {
+      "id": 24777,
+      "name": "运转七星",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使对手全属性都降低了；攻击变得更加犀利了；抵抗能力下降",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手攻击-1，防御-1，特攻-1，特防-1，速度-1，命中-1，对手处于异常状态时弱化效果翻倍",
+          "args": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "effect": {
+            "id": 745,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/745"
+          }
+        },
+        {
+          "info": "下2回合自身造成的攻击伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 776,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2c0e92ba"
+}

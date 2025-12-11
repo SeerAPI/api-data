@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28509": {
+      "id": 28509,
+      "name": "凉凉雪色",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始抵挡较高的攻击伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内免疫大于280的攻击伤害",
+          "args": [
+            2,
+            280
+          ],
+          "effect": {
+            "id": 741,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/741"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d822d5bb"
+}

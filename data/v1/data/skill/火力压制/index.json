@@ -1,0 +1,102 @@
+{
+  "data": {
+    "12557": {
+      "id": 12557,
+      "name": "火力压制",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后10%令对方害怕",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "28691": {
+      "id": 28691,
+      "name": "火力压制",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；开始恢复体力并造成等量百分比伤害了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，攻击+1，防御+1，特攻+2，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            2,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 585,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能恢复自身最大体力的1/4并造成等量百分比伤害",
+          "args": [
+            3,
+            4
+          ],
+          "effect": {
+            "id": 532,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/532"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dbe01733"
+}

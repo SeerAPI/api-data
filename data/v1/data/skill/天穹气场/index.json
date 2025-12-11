@@ -1,0 +1,51 @@
+{
+  "data": {
+    "27786": {
+      "id": 27786,
+      "name": "天穹气场",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身的双防开始提升了；自身受到致死攻击则余下1点体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合防御和特防等级+1",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 165,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/165"
+          }
+        },
+        {
+          "info": "1回合内受到致死攻击时则余下1点体力",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 68,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/68"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "af2353a7"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "36747": {
+      "id": 36747,
+      "name": "万生已寂",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 66,
+      "crit_rate": 37.5,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "不该存在的东西，就不要存在啊！",
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 98,
+        "url": "https://api.seerapi.com/v1/element_type_combination/98"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后6%的概率秒杀对手，未触发则造成的伤害不少于666",
+          "args": [
+            6,
+            666
+          ],
+          "effect": {
+            "id": 1673,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1673"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "43026062"
+}

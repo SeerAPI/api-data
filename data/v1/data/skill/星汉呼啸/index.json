@@ -1,0 +1,42 @@
+{
+  "data": {
+    "36414": {
+      "id": 36414,
+      "name": "星汉呼啸",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 32,
+        "url": "https://api.seerapi.com/v1/element_type_combination/32"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "击败对手则下1回合自身造成的攻击伤害提升50%，若以致命一击击败对手则伤害再提升50%",
+          "args": [
+            1,
+            50,
+            50
+          ],
+          "effect": {
+            "id": 1719,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1719"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c9d40154"
+}

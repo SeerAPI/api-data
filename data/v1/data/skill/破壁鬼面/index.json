@@ -1,0 +1,71 @@
+{
+  "data": {
+    "27682": {
+      "id": 27682,
+      "name": "破壁鬼面",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态了；开始免疫能力下降状态了；对手使用攻击技能则自身全属性+1；自身攻击开始必定致命、必定命中了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "3回合内若对手使用攻击技能则自身全属性+1",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 1151,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1151"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定致命、必定命中",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 681,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/681"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dd01408c"
+}

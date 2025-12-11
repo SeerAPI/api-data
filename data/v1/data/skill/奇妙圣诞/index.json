@@ -1,0 +1,40 @@
+{
+  "data": {
+    "36305": {
+      "id": 36305,
+      "name": "奇妙圣诞",
+      "power": 140,
+      "max_pp": 1,
+      "accuracy": 0,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 44,
+        "url": "https://api.seerapi.com/v1/element_type_combination/44"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后使对手受到300点固定伤害，未命中则自身死亡，同时使对手下次施放的技能无效（包括必中技能）",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1313,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1313"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f179cc88"
+}

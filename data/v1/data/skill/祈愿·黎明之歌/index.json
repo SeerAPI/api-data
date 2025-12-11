@@ -1,0 +1,88 @@
+{
+  "data": {
+    "37835": {
+      "id": 37835,
+      "name": "祈愿·黎明之歌",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 127,
+        "url": "https://api.seerapi.com/v1/element_type_combination/127"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身为己方最后一只存活精灵时先制+1",
+          "args": [],
+          "effect": {
+            "id": 2247,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2247"
+          }
+        },
+        {
+          "info": "己方有其他精灵存活时造成的攻击伤害提升50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 2272,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2272"
+          }
+        },
+        {
+          "info": "若自身处于能力下降状态则先制+3",
+          "args": [],
+          "effect": {
+            "id": 881,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/881"
+          }
+        },
+        {
+          "info": "反转自身能力下降状态，反转成功则对手麻痹",
+          "args": [
+            0
+          ],
+          "effect": {
+            "id": 733,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/733"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/3并给对手造成等量百分比伤害，自身体力低于1/2时效果翻倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 799,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/799"
+          }
+        },
+        {
+          "info": "己方每有一只精灵阵亡则为自身附加100点护盾、100点护罩",
+          "args": [
+            100,
+            100
+          ],
+          "effect": {
+            "id": 2245,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2245"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "77ae4676"
+}

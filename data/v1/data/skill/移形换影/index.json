@@ -1,0 +1,71 @@
+{
+  "data": {
+    "20272": {
+      "id": 20272,
+      "name": "移形换影",
+      "power": 0,
+      "max_pp": 30,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "能力下降效果反馈给了对方",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将能力下降状态反馈给对手",
+          "args": [],
+          "effect": {
+            "id": 63,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/63"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "32339": {
+      "id": 32339,
+      "name": "移形换影",
+      "power": 140,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使自身体力百分比与对手体力百分比对调",
+          "args": [],
+          "effect": {
+            "id": 529,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/529"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "58917b10"
+}

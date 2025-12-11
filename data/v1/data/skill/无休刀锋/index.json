@@ -1,0 +1,50 @@
+{
+  "data": {
+    "22836": {
+      "id": 22836,
+      "name": "无休刀锋",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击更凌厉了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若受到攻击，对手攻击等级-1、特攻等级-1",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 189,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/189"
+          }
+        },
+        {
+          "info": "下1回合自身攻击技能必定打出致命一击",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "983d3705"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "36920": {
+      "id": 36920,
+      "name": "聚能爆破",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 57,
+        "url": "https://api.seerapi.com/v1/element_type_combination/57"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则附加400点固定伤害",
+          "args": [
+            400
+          ],
+          "effect": {
+            "id": 1170,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1170"
+          }
+        },
+        {
+          "info": "3回合内对手使用攻击技能后随机附加给对手2种异常状态",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 1089,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1089"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6e2ba9fb"
+}

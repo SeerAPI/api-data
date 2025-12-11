@@ -1,0 +1,42 @@
+{
+  "data": {
+    "30565": {
+      "id": 30565,
+      "name": "能源轰炸",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 62,
+        "url": "https://api.seerapi.com/v1/element_type_combination/62"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "15%的概率威力3倍，若未触发则下回合自身先制+2",
+          "args": [
+            15,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 975,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/975"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "988b4fb4"
+}

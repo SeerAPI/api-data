@@ -1,0 +1,52 @@
+{
+  "data": {
+    "32238": {
+      "id": 32238,
+      "name": "怒霆瞬斩",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则使自身下2回合必定致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1224,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1224"
+          }
+        },
+        {
+          "info": "若造成的伤害低于250，则下2回合每回合造成150点固定伤害",
+          "args": [
+            250,
+            2,
+            150
+          ],
+          "effect": {
+            "id": 793,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/793"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f4e2c6ee"
+}

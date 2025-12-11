@@ -1,0 +1,84 @@
+{
+  "data": {
+    "31276": {
+      "id": 31276,
+      "name": "波澜怒起",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/element_type_combination/25"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%概率额外附加200点固定伤害",
+          "args": [
+            50,
+            200
+          ],
+          "effect": {
+            "id": 93,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/93"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "35177": {
+      "id": 35177,
+      "name": "波澜怒起",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 26,
+        "url": "https://api.seerapi.com/v1/element_type_combination/26"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "附加自身最大体力25%的百分比伤害，若对手免疫百分比伤害则额外附加等量的真实伤害",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 1697,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1697"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dadde7c3"
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "13223": {
+      "id": 13223,
+      "name": "冰魄急袭",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "若和对手属性相同，则技能威力翻倍",
+          "args": [],
+          "effect": {
+            "id": 401,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/401"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3f6ee889"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "34997": {
+      "id": 34997,
+      "name": "灵魂守望",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 90,
+        "url": "https://api.seerapi.com/v1/element_type_combination/90"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机附加150~300点固定伤害",
+          "args": [
+            150,
+            300
+          ],
+          "effect": {
+            "id": 683,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/683"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1a332787"
+}

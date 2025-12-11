@@ -1,0 +1,38 @@
+{
+  "data": {
+    "31507": {
+      "id": 31507,
+      "name": "神谕涤罪曲",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若体力大于对手，则消耗自身体力至残留1点HP给对手造成350-550点伤害；若体力小于对手，则消耗自身全部体力给对手等同于消耗量的固定伤害并使对手瘫痪2回合，若对手受到致命伤害时残留1点体力",
+          "args": [],
+          "effect": {
+            "id": 1277,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1277"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f76909df"
+}

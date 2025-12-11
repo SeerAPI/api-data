@@ -1,0 +1,42 @@
+{
+  "data": {
+    "36665": {
+      "id": 36665,
+      "name": "威震群英",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/element_type_combination/47"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手200点体力，对手≥1项技能PP值为零时额外吸取100点体力",
+          "args": [
+            200,
+            1,
+            100
+          ],
+          "effect": {
+            "id": 1723,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1723"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e44807de"
+}

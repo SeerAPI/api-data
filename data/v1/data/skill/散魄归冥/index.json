@@ -1,0 +1,62 @@
+{
+  "data": {
+    "28197": {
+      "id": 28197,
+      "name": "散魄归冥",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始慢慢恢复自身体力了；反转自身能力下降状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "5回合内每回合随机恢复200-300点体力",
+          "args": [
+            5,
+            200,
+            300
+          ],
+          "effect": {
+            "id": 651,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/651"
+          }
+        },
+        {
+          "info": "反转自身能力下降状态，反转成功则吸取对手350点体力",
+          "args": [
+            350
+          ],
+          "effect": {
+            "id": 955,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/955"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "41886180"
+}

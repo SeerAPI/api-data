@@ -1,0 +1,63 @@
+{
+  "data": {
+    "35274": {
+      "id": 35274,
+      "name": "林间烟火气",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 29,
+        "url": "https://api.seerapi.com/v1/element_type_combination/29"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除双方回合类效果并为双方附加3回合烧伤，自身烧伤状态解除后则恢复自身所有体力",
+          "args": [
+            3,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1139,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1139"
+          }
+        },
+        {
+          "info": "对手处于异常状态时60%令对手焚烬",
+          "args": [
+            60,
+            22
+          ],
+          "effect": {
+            "id": 1248,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1248"
+          }
+        },
+        {
+          "info": "攻击结束时附加对手双防之和40%的百分比伤害",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 967,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/967"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2b9e31ca"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "33127": {
+      "id": 33127,
+      "name": "梦魇随身",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/element_type_combination/56"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时使对手2回合属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1284,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1284"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e3d087e7"
+}

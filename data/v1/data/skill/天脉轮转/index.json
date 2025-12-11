@@ -1,0 +1,52 @@
+{
+  "data": {
+    "28576": {
+      "id": 28576,
+      "name": "天脉轮转",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "对手的能力提升开始失效；对对手的属性技能进行了限制",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内使得对手所有能力增强效果失效",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/156"
+          }
+        },
+        {
+          "info": "3回合内若对手使用属性技能则睡眠，未触发则减少对手1/3最大体力",
+          "args": [
+            3,
+            8,
+            3
+          ],
+          "effect": {
+            "id": 1102,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1102"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dc2c2d58"
+}

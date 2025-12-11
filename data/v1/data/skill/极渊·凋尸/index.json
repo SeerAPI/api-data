@@ -1,0 +1,75 @@
+{
+  "data": {
+    "29107": {
+      "id": 29107,
+      "name": "极渊·凋尸",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "自身为满体力时消耗自身最大体力的1/2并令对手流血，自身不为满体力时吸取对手最大体力的1/3并令对手所有技能PP值-2",
+          "args": [
+            2,
+            16,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 2303,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2303"
+          }
+        },
+        {
+          "info": "己方每有一只精灵阵亡则为自身附加125点护盾、125点护罩",
+          "args": [
+            125,
+            125
+          ],
+          "effect": {
+            "id": 2245,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2245"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2aeec42b"
+}

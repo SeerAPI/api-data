@@ -1,0 +1,59 @@
+{
+  "data": {
+    "33806": {
+      "id": 33806,
+      "name": "混沌·八荒逝",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 18.75,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 222,
+        "url": "https://api.seerapi.com/v1/element_type_combination/222"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "汇聚无尽的怨气，使用后下3回合自身获得八荒之力效果",
+          "args": [],
+          "effect": {
+            "id": 1516,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1516"
+          }
+        },
+        {
+          "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 833,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/833"
+          }
+        },
+        {
+          "info": "当回合击败对手则50%恢复自身全部体力，未触发则全属性+1",
+          "args": [
+            50,
+            1
+          ],
+          "effect": {
+            "id": 1436,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1436"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3c5f11f2"
+}

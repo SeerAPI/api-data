@@ -1,0 +1,49 @@
+{
+  "data": {
+    "36781": {
+      "id": 36781,
+      "name": "攫取",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 75,
+        "url": "https://api.seerapi.com/v1/element_type_combination/75"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 494,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/494"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功100%令对手沉默，未触发则造成的攻击伤害翻倍",
+          "args": [
+            100,
+            30
+          ],
+          "effect": {
+            "id": 1959,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1959"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1757e0a9"
+}

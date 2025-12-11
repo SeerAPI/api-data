@@ -1,0 +1,62 @@
+{
+  "data": {
+    "33865": {
+      "id": 33865,
+      "name": "秘·炼魂之瞳",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 71,
+        "url": "https://api.seerapi.com/v1/element_type_combination/71"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 797,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/797"
+          }
+        },
+        {
+          "info": "4回合内若自身攻击技能命中则50%令对手睡眠",
+          "args": [
+            3,
+            50,
+            8
+          ],
+          "effect": {
+            "id": 470,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/470"
+          }
+        },
+        {
+          "info": "若对手处于异常状态则回合结束时减少对手1/3最大体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 752,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/752"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c749a431"
+}

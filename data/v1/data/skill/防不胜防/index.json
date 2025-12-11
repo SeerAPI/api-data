@@ -1,0 +1,41 @@
+{
+  "data": {
+    "20895": {
+      "id": 20895,
+      "name": "防不胜防",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始将造成的伤害转化为一部分体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每次造成伤害的1/4会恢复自己的HP",
+          "args": [
+            3,
+            4
+          ],
+          "effect": {
+            "id": 89,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/89"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f9f3fe52"
+}

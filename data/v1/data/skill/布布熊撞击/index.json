@@ -1,0 +1,51 @@
+{
+  "data": {
+    "34458": {
+      "id": 34458,
+      "name": "布布熊撞击",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过200点",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        },
+        {
+          "info": "后出手时附加自身当前体力30%的百分比伤害",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 815,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/815"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2d4c658d"
+}

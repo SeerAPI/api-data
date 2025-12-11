@@ -1,0 +1,27 @@
+{
+  "data": {
+    "300607": {
+      "id": 300607,
+      "name": "草系技能强化剂",
+      "desc": "精灵使用该物品后，草系技能威力提升10%(使用战斗场次:10,赛尔之间对抗有效)",
+      "idx": 1098,
+      "use_times": 10,
+      "item": {
+        "id": 300607,
+        "url": "https://api.seerapi.com/v1/item/300607"
+      },
+      "effect": {
+        "effect_args": [
+          1,
+          10
+        ],
+        "effect": {
+          "id": 28,
+          "url": "https://api.seerapi.com/v1/eid_effect/28"
+        }
+      },
+      "ability_buff": null
+    }
+  },
+  "hash": "1299fb0e"
+}

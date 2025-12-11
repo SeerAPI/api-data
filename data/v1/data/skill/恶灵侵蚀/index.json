@@ -1,0 +1,51 @@
+{
+  "data": {
+    "34907": {
+      "id": 34907,
+      "name": "恶灵侵蚀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 75,
+        "url": "https://api.seerapi.com/v1/element_type_combination/75"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成的攻击伤害不低于200，若对手处于能力提升状态则造成的攻击伤害不低于300",
+          "args": [
+            200,
+            300
+          ],
+          "effect": {
+            "id": 1671,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1671"
+          }
+        },
+        {
+          "info": "属性相同时，额外附加200点固定伤害",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 581,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/581"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "96ce33af"
+}

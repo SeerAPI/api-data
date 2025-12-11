@@ -1,0 +1,50 @@
+{
+  "data": {
+    "31882": {
+      "id": 31882,
+      "name": "猛兽撕咬",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 97,
+        "url": "https://api.seerapi.com/v1/element_type_combination/97"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 797,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/797"
+          }
+        },
+        {
+          "info": "造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1249,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1249"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "73cf71d3"
+}

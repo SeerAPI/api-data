@@ -1,0 +1,56 @@
+{
+  "data": {
+    "35889": {
+      "id": 35889,
+      "name": "九尾幻念殇",
+      "power": 120,
+      "max_pp": 9,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若命中前对手不处于异常状态则造成的伤害翻倍",
+          "args": [],
+          "effect": {
+            "id": 1805,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1805"
+          }
+        },
+        {
+          "info": "对手不处于能力下降状态则造成的伤害提高100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1198,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1198"
+          }
+        },
+        {
+          "info": "击败对手则恢复自身全部体力和所有技能PP值",
+          "args": [],
+          "effect": {
+            "id": 1156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1156"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "521447bc"
+}

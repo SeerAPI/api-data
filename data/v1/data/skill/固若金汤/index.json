@@ -1,0 +1,40 @@
+{
+  "data": {
+    "20279": {
+      "id": 20279,
+      "name": "固若金汤",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "可以吸收一些伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "可以抵挡150点伤害",
+          "args": [
+            150
+          ],
+          "effect": {
+            "id": 49,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/49"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a8ac4a31"
+}

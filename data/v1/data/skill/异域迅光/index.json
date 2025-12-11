@@ -1,0 +1,41 @@
+{
+  "data": {
+    "34595": {
+      "id": 34595,
+      "name": "异域迅光",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/element_type_combination/5"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "40%概率先制+1",
+          "args": [
+            40,
+            1
+          ],
+          "effect": {
+            "id": 482,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/482"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e7f00853"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "34646": {
+      "id": 34646,
+      "name": "午夜恐吓",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下2回合攻击有50%使对手害怕",
+          "args": [
+            2,
+            50,
+            6
+          ],
+          "effect": {
+            "id": 915,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/915"
+          }
+        },
+        {
+          "info": "25%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+          "args": [
+            25,
+            2
+          ],
+          "effect": {
+            "id": 1129,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1129"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6691fe12"
+}

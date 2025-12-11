@@ -1,0 +1,54 @@
+{
+  "data": {
+    "34397": {
+      "id": 34397,
+      "name": "净尘法球",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 37,
+        "url": "https://api.seerapi.com/v1/element_type_combination/37"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 1061,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1061"
+          }
+        },
+        {
+          "info": "造成的伤害低于250则自身防御+1，特防+1",
+          "args": [
+            250,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "effect": {
+            "id": 1425,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1425"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a9d2933a"
+}

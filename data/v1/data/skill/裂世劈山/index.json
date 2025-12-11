@@ -1,0 +1,48 @@
+{
+  "data": {
+    "18066": {
+      "id": 18066,
+      "name": "裂世劈山",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/element_type_combination/33"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "命中后50%令对方烧伤",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 12,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/12"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "10c09bf2"
+}

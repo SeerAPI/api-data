@@ -1,0 +1,47 @@
+{
+  "data": {
+    "28739": {
+      "id": 28739,
+      "name": "星光·压迫",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "对手的攻击、特攻、速度、命中开始降低了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后3回合内每回合使对手攻击-2，特攻-2，速度-2，命中-2，若未触发则减少对手最大体力的1/3",
+          "args": [
+            3,
+            -2,
+            0,
+            -2,
+            0,
+            -2,
+            -2,
+            3
+          ],
+          "effect": {
+            "id": 1028,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1028"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9f987379"
+}

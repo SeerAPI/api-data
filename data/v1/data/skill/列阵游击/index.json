@@ -1,0 +1,53 @@
+{
+  "data": {
+    "34743": {
+      "id": 34743,
+      "name": "列阵游击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 66,
+        "url": "https://api.seerapi.com/v1/element_type_combination/66"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则100%令对手随机1个技能PP值归零",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 1495,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1495"
+          }
+        },
+        {
+          "info": "10%概率伤害为3倍，未触发则附加200点固定伤害",
+          "args": [
+            10,
+            3,
+            200
+          ],
+          "effect": {
+            "id": 1176,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1176"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1b6d1b50"
+}

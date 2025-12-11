@@ -1,0 +1,40 @@
+{
+  "data": {
+    "14709": {
+      "id": 14709,
+      "name": "幽魂魔杖",
+      "power": 120,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后25%令对方害怕",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6c2ac2b"
+}

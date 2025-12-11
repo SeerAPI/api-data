@@ -1,0 +1,57 @@
+{
+  "data": {
+    "37997": {
+      "id": 37997,
+      "name": "云伏野阔",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 121,
+        "url": "https://api.seerapi.com/v1/element_type_combination/121"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身每有1回合异常状态造成伤害提升30%，最高90%",
+          "args": [
+            30,
+            90
+          ],
+          "effect": {
+            "id": 2137,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2137"
+          }
+        },
+        {
+          "info": "解除自身所处的异常状态",
+          "args": [],
+          "effect": {
+            "id": 2181,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2181"
+          }
+        },
+        {
+          "info": "解除自身的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 3,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/3"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e6bedcdc"
+}

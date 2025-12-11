@@ -1,0 +1,50 @@
+{
+  "data": {
+    "16766": {
+      "id": 16766,
+      "name": "邪念缠绕",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/element_type_combination/69"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后30%令对方烧伤",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 12,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/12"
+          }
+        },
+        {
+          "info": "命中后20%令对方害怕",
+          "args": [
+            20
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c506fe8c"
+}

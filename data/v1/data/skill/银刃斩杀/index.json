@@ -1,0 +1,50 @@
+{
+  "data": {
+    "30612": {
+      "id": 30612,
+      "name": "银刃斩杀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，若消除成功，则对手疲惫",
+          "args": [
+            7
+          ],
+          "effect": {
+            "id": 453,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/453"
+          }
+        },
+        {
+          "info": "若对手体力不足250则直接秒杀",
+          "args": [
+            250
+          ],
+          "effect": {
+            "id": 456,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/456"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "acfb8af1"
+}

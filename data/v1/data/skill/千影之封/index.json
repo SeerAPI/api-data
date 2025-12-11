@@ -1,0 +1,55 @@
+{
+  "data": {
+    "35809": {
+      "id": 35809,
+      "name": "千影之封",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/element_type_combination/30"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则100%令对手混乱，未触发则50%令对手麻痹",
+          "args": [
+            100,
+            10,
+            50,
+            0
+          ],
+          "effect": {
+            "id": 1398,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1398"
+          }
+        },
+        {
+          "info": "吸取对手最大体力的20%，每次使用增加10%，最高40%",
+          "args": [
+            20,
+            10,
+            40
+          ],
+          "effect": {
+            "id": 1233,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1233"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d626c4e9"
+}

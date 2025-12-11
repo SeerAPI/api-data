@@ -1,0 +1,52 @@
+{
+  "data": {
+    "19865": {
+      "id": 19865,
+      "name": "死亡弥撒",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/element_type_combination/69"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则对手2回合内攻击技能MISS",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 950,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/950"
+          }
+        },
+        {
+          "info": "造成伤害高于250，则造成伤害的50%恢复体力",
+          "args": [
+            1,
+            250,
+            50
+          ],
+          "effect": {
+            "id": 633,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/633"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2fedfc58"
+}

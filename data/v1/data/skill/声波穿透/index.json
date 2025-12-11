@@ -1,0 +1,41 @@
+{
+  "data": {
+    "12309": {
+      "id": 12309,
+      "name": "声波穿透",
+      "power": 115,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5%概率伤害为2倍",
+          "args": [
+            5,
+            2
+          ],
+          "effect": {
+            "id": 88,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/88"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c9bd3872"
+}

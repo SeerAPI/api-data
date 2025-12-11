@@ -1,0 +1,43 @@
+{
+  "data": {
+    "13997": {
+      "id": 13997,
+      "name": "盾牌猛击",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "40%令对手疲惫2回合，每次使用概率提升10%，最高100%",
+          "args": [
+            40,
+            2,
+            10,
+            100
+          ],
+          "effect": {
+            "id": 465,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/465"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1991405d"
+}

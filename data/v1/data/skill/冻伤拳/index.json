@@ -1,0 +1,50 @@
+{
+  "data": {
+    "37839": {
+      "id": 37839,
+      "name": "冻伤拳",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 68.75,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手冻伤 ",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 948,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/948"
+          }
+        },
+        {
+          "info": "对手处于异常状态则吸取对手240点体力",
+          "args": [
+            240
+          ],
+          "effect": {
+            "id": 1214,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1214"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f23b9ffc"
+}

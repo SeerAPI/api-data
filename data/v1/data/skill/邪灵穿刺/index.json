@@ -1,0 +1,51 @@
+{
+  "data": {
+    "33643": {
+      "id": 33643,
+      "name": "邪灵穿刺",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则恢复自身最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1025,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1025"
+          }
+        },
+        {
+          "info": "自身处于能力提升状态时，使对手命中能力-1",
+          "args": [
+            5,
+            -1
+          ],
+          "effect": {
+            "id": 577,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/577"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "38179cc3"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "21574": {
+      "id": 21574,
+      "name": "冰棱镜",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "抵抗特殊攻击的能力提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内特殊攻击对自身必定miss",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 106,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/106"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8a37b1cb"
+}

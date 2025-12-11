@@ -1,0 +1,69 @@
+{
+  "data": {
+    "24016": {
+      "id": 24016,
+      "name": "炽焰三昧",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "抵抗异常状态的能力提升了；消除对手回合类效果；攻击变得更加犀利了；对手恢复效果减弱",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内免疫所有受到的异常状态",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "下1回合自身攻击技能必定打出致命一击",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        },
+        {
+          "info": "5回合内对手恢复体力时恢复效果减少50%",
+          "args": [
+            5,
+            50
+          ],
+          "effect": {
+            "id": 761,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/761"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b3876759"
+}

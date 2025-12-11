@@ -1,0 +1,49 @@
+{
+  "data": {
+    "34296": {
+      "id": 34296,
+      "name": "呼啸寒风",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 91,
+        "url": "https://api.seerapi.com/v1/element_type_combination/91"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 835,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/835"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/4，自身体力低于1/4时造成等量百分比伤害",
+          "args": [
+            4,
+            4
+          ],
+          "effect": {
+            "id": 1239,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1239"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ecde68d2"
+}

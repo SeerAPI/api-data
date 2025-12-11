@@ -1,0 +1,51 @@
+{
+  "data": {
+    "30088": {
+      "id": 30088,
+      "name": "古炎魄光",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/element_type_combination/77"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手时使对手下回合属性技能失效",
+          "args": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4,
+            3,
+            2,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 919,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/919"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c05411f4"
+}

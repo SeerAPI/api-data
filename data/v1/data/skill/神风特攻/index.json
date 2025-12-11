@@ -1,0 +1,43 @@
+{
+  "data": {
+    "23297": {
+      "id": 23297,
+      "name": "神风特攻",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "受到了很多的伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "损失自身250点体力，给对手造成300点固定伤害，若自身体力不足250则剩下1点体力",
+          "args": [
+            250,
+            300,
+            250,
+            1
+          ],
+          "effect": {
+            "id": 479,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/479"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2cfd7dd5"
+}

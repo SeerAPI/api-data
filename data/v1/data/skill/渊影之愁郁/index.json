@@ -1,0 +1,42 @@
+{
+  "data": {
+    "38005": {
+      "id": 38005,
+      "name": "渊影之愁郁",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 84,
+        "url": "https://api.seerapi.com/v1/element_type_combination/84"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "40%令对手害怕，未触发则降低对手所有技能1点PP值",
+          "args": [
+            40,
+            6,
+            1
+          ],
+          "effect": {
+            "id": 1660,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1660"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "db4196bd"
+}

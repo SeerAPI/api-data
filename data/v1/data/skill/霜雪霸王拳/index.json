@@ -1,0 +1,49 @@
+{
+  "data": {
+    "18358": {
+      "id": 18358,
+      "name": "霜雪霸王拳",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 46,
+        "url": "https://api.seerapi.com/v1/element_type_combination/46"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "3回合内每回合自身攻击和速度提高1个等级",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 126,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/126"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6501a59c"
+}

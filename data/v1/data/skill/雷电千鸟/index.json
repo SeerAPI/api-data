@@ -1,0 +1,40 @@
+{
+  "data": {
+    "15646": {
+      "id": 15646,
+      "name": "雷电千鸟",
+      "power": 120,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/element_type_combination/5"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后25%令对方麻痹",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 10,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/10"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "27eede4b"
+}

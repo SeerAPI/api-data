@@ -1,0 +1,51 @@
+{
+  "data": {
+    "32670": {
+      "id": 32670,
+      "name": "横扫大荒",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1180"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/2，自身体力低于1/2时造成等量百分比伤害",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1239,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1239"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9a0558c"
+}

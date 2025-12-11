@@ -1,0 +1,65 @@
+{
+  "data": {
+    "29000": {
+      "id": 29000,
+      "name": "地面守护",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；开始保护自己了；束缚了对手",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内免疫并反弹除石化外所有受到的异常状态",
+          "args": [
+            5,
+            9
+          ],
+          "effect": {
+            "id": 1932,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1932"
+          }
+        },
+        {
+          "info": "3回合内对手使用攻击技能则100%石化，未触发则消除对手回合类效果",
+          "args": [
+            3,
+            100,
+            9
+          ],
+          "effect": {
+            "id": 1372,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1372"
+          }
+        },
+        {
+          "info": "100%令对手束缚，未触发则为对手附加200点护盾",
+          "args": [
+            100,
+            28,
+            200
+          ],
+          "effect": {
+            "id": 2005,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2005"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "42bc2303"
+}

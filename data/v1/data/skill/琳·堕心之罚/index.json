@@ -1,0 +1,63 @@
+{
+  "data": {
+    "35952": {
+      "id": 35952,
+      "name": "琳·堕心之罚",
+      "power": 135,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 494,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/494"
+          }
+        },
+        {
+          "info": "反转对手能力提升状态，反转成功则己方免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 951,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/951"
+          }
+        },
+        {
+          "info": "消除对手能力上升状态，消除成功对手攻击+1，速度+1",
+          "args": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 1150,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1150"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8710a34"
+}

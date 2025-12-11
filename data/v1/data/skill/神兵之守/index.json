@@ -1,0 +1,59 @@
+{
+  "data": {
+    "27564": {
+      "id": 27564,
+      "name": "神兵之守",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "本回合自身死亡则立刻恢复自身所有体力并解除自身异常状态和能力下降状态，后出手无效；自身攻击开始必定致命、必定命中了；自身出手更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时本回合自身下次死亡时恢复全部体力并解除自身的异常状态和能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 1463,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1463"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定致命、必定命中",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 681,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/681"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "66347348"
+}

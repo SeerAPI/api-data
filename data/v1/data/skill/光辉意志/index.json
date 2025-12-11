@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28029": {
+      "id": 28029,
+      "name": "光辉意志",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身全属性都提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，对手存在处决印记则强化效果翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1760,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1760"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7804f3ad"
+}

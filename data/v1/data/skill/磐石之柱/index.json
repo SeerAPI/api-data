@@ -1,0 +1,52 @@
+{
+  "data": {
+    "35632": {
+      "id": 35632,
+      "name": "磐石之柱",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 100,
+        "url": "https://api.seerapi.com/v1/element_type_combination/100"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%",
+          "args": [
+            1,
+            100
+          ],
+          "effect": {
+            "id": 1010,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1010"
+          }
+        },
+        {
+          "info": "3回合内自身受到的固定伤害和百分比伤害减少30%",
+          "args": [
+            3,
+            30
+          ],
+          "effect": {
+            "id": 1475,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1475"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8cdbd6c"
+}

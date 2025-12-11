@@ -1,0 +1,59 @@
+{
+  "data": {
+    "35463": {
+      "id": 35463,
+      "name": "踏尘撼地击",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/element_type_combination/81"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则吸取对手300点体力",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1523,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1523"
+          }
+        },
+        {
+          "info": "50%的概率造成的攻击伤害提升100%，若出手时自身为满体力则概率翻倍",
+          "args": [
+            50,
+            100
+          ],
+          "effect": {
+            "id": 1525,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1525"
+          }
+        },
+        {
+          "info": "当回合击败对手则下回合自身攻击先制+1",
+          "args": [],
+          "effect": {
+            "id": 669,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/669"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "22a14c8a"
+}

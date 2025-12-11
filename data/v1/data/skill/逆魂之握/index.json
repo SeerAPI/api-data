@@ -1,0 +1,51 @@
+{
+  "data": {
+    "34774": {
+      "id": 34774,
+      "name": "逆魂之握",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 96,
+        "url": "https://api.seerapi.com/v1/element_type_combination/96"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则免疫下1回合受到的攻击伤害",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1034,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1034"
+          }
+        },
+        {
+          "info": "自身处于能力提升状态时造成伤害的50%恢复自身体力值，当前体力低于最大体力的1/2时附加等量百分比伤害",
+          "args": [
+            50,
+            2
+          ],
+          "effect": {
+            "id": 1641,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1641"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f639932b"
+}

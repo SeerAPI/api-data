@@ -1,0 +1,65 @@
+{
+  "data": {
+    "27616": {
+      "id": 27616,
+      "name": "古树庇护",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹控制类异常状态了；有一定概率令对手感染，有一定概率令自身中毒；每回合结束时使对手随机1个技能PP值归零",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 1687,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1687"
+          }
+        },
+        {
+          "info": "50%令对手感染，50%令自身中毒，均未触发则为自身附加300点护盾",
+          "args": [
+            50,
+            27,
+            50,
+            1,
+            300
+          ],
+          "effect": {
+            "id": 1582,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1582"
+          }
+        },
+        {
+          "info": "3回合内每回合结束时使对手随机1个技能PP归零",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 1565,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1565"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "eea7dc4c"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "38089": {
+      "id": 38089,
+      "name": "朔望",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 44,
+        "url": "https://api.seerapi.com/v1/element_type_combination/44"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 781,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+          }
+        },
+        {
+          "info": "2回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+          "args": [
+            2,
+            3
+          ],
+          "effect": {
+            "id": 1449,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1449"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "661a57e"
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "300783": {
+      "id": 300783,
+      "name": "奇效速度能量珠",
+      "desc": "对战时增加精灵速度45，使用次数10。注意：赛尔之间对战无效",
+      "idx": 1108,
+      "use_times": 10,
+      "item": {
+        "id": 300783,
+        "url": "https://api.seerapi.com/v1/item/300783"
+      },
+      "effect": {
+        "effect_args": [
+          5,
+          45
+        ],
+        "effect": {
+          "id": 26,
+          "url": "https://api.seerapi.com/v1/eid_effect/26"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "spd": 45,
+        "hp": 0,
+        "percent": false,
+        "total": 45
+      }
+    }
+  },
+  "hash": "909b5f93"
+}

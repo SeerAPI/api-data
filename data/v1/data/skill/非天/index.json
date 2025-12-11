@@ -1,0 +1,90 @@
+{
+  "data": {
+    "13743": {
+      "id": 13743,
+      "name": "非天",
+      "power": 0,
+      "max_pp": 0,
+      "accuracy": 0,
+      "crit_rate": 0.0,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若属性相同则技能威力提升420",
+          "args": [
+            420
+          ],
+          "effect": {
+            "id": 179,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/179"
+          }
+        },
+        {
+          "info": "100%降低对手所有PP值1点",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 1603,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1603"
+          }
+        },
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1925,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1925"
+          }
+        },
+        {
+          "info": "100%令对手臣服",
+          "args": [
+            100,
+            31
+          ],
+          "effect": {
+            "id": 1605,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1605"
+          }
+        },
+        {
+          "info": "若对手体力不足300则直接秒杀",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 456,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/456"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "60e8cf11"
+}

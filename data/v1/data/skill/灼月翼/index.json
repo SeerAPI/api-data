@@ -1,0 +1,59 @@
+{
+  "data": {
+    "37529": {
+      "id": 37529,
+      "name": "灼月翼",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/element_type_combination/31"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若先出手则必定打出致命一击",
+          "args": [],
+          "effect": {
+            "id": 1395,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+          "args": [
+            0,
+            300
+          ],
+          "effect": {
+            "id": 657,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/657"
+          }
+        },
+        {
+          "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1356,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1356"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dd78c401"
+}

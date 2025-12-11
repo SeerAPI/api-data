@@ -1,0 +1,40 @@
+{
+  "data": {
+    "21242": {
+      "id": 21242,
+      "name": "摇摆催眠",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 60,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后100%令对手睡眠",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 16,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/16"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2f9e3e7e"
+}

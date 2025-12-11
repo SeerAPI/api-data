@@ -1,0 +1,40 @@
+{
+  "data": {
+    "11208": {
+      "id": 11208,
+      "name": "超重力领域",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 3,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后15%令对方害怕",
+          "args": [
+            15
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7c9632fa"
+}

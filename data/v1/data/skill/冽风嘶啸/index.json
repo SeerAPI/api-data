@@ -1,0 +1,53 @@
+{
+  "data": {
+    "34031": {
+      "id": 34031,
+      "name": "冽风嘶啸",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 87,
+        "url": "https://api.seerapi.com/v1/element_type_combination/87"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则100%令对手冰封，未触发则恢复自身最大体力的1/3",
+          "args": [
+            100,
+            15,
+            3
+          ],
+          "effect": {
+            "id": 1423,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1423"
+          }
+        },
+        {
+          "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 1449,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1449"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8243adf7"
+}

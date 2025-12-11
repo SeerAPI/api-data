@@ -1,0 +1,63 @@
+{
+  "data": {
+    "27524": {
+      "id": 27524,
+      "name": "藤蔓屏障",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；自身受到攻击则对手感染；开始每回合吸取对手能力值并附加给自己",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内对手使用攻击技能后使对手感染，未触发则对手下2回合属性技能命中效果失效",
+          "args": [
+            4,
+            27,
+            2
+          ],
+          "effect": {
+            "id": 1077,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1077"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/849"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "190a53d0"
+}

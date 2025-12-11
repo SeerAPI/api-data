@@ -1,0 +1,81 @@
+{
+  "data": {
+    "37990": {
+      "id": 37990,
+      "name": "素苒风拭月",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 91,
+        "url": "https://api.seerapi.com/v1/element_type_combination/91"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若当前体力低于对手则先制+1",
+          "args": [],
+          "effect": {
+            "id": 954,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/954"
+          }
+        },
+        {
+          "info": "遇到天敌时附加200点真实伤害",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 1530,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1530"
+          }
+        },
+        {
+          "info": "若对手不处于异常状态则造成的攻击伤害额外提升50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 769,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/769"
+          }
+        },
+        {
+          "info": "若对手处于异常状态则令对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1589,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1589"
+          }
+        },
+        {
+          "info": "若对手当回合切换精灵则100%令对手冻伤，未触发则100%令对手冰封",
+          "args": [
+            100,
+            5,
+            100,
+            15
+          ],
+          "effect": {
+            "id": 1868,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1868"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d1d2cb1c"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "15698": {
+      "id": 15698,
+      "name": "毁灭之伤",
+      "power": 60,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/element_type_combination/38"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "连击2次，每次命中后连击数+1，最高连击6次 ",
+          "args": [
+            2,
+            1,
+            6
+          ],
+          "effect": {
+            "id": 484,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/484"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "59c90e67"
+}

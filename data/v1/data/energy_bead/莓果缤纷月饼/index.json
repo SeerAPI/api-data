@@ -1,0 +1,40 @@
+{
+  "data": {
+    "300905": {
+      "id": 300905,
+      "name": "莓果缤纷月饼",
+      "desc": "对战时增加精灵特攻100点，体力100点，使用次数1次。注意：赛尔间对战无效！",
+      "idx": 1118,
+      "use_times": 1,
+      "item": {
+        "id": 300905,
+        "url": "https://api.seerapi.com/v1/item/300905"
+      },
+      "effect": {
+        "effect_args": [
+          100,
+          0,
+          0,
+          100,
+          0,
+          0
+        ],
+        "effect": {
+          "id": 137,
+          "url": "https://api.seerapi.com/v1/eid_effect/137"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 100,
+        "sp_def": 0,
+        "spd": 0,
+        "hp": 100,
+        "percent": false,
+        "total": 200
+      }
+    }
+  },
+  "hash": "2a0536dd"
+}

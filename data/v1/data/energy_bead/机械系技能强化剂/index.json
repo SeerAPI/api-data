@@ -1,0 +1,27 @@
+{
+  "data": {
+    "300608": {
+      "id": 300608,
+      "name": "机械系技能强化剂",
+      "desc": "精灵使用该物品后，机械技能威力提升10%(使用战斗场次:10,赛尔之间对抗有效)。",
+      "idx": 1099,
+      "use_times": 10,
+      "item": {
+        "id": 300608,
+        "url": "https://api.seerapi.com/v1/item/300608"
+      },
+      "effect": {
+        "effect_args": [
+          6,
+          10
+        ],
+        "effect": {
+          "id": 28,
+          "url": "https://api.seerapi.com/v1/eid_effect/28"
+        }
+      },
+      "ability_buff": null
+    }
+  },
+  "hash": "4150cdab"
+}

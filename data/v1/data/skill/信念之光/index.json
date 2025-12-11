@@ -1,0 +1,102 @@
+{
+  "data": {
+    "26640": {
+      "id": 26640,
+      "name": "信念之光",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身攻击能力和双防能力提升了许多",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "args": [
+            0,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+2",
+          "args": [
+            1,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+2",
+          "args": [
+            3,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "32089": {
+      "id": 32089,
+      "name": "信念之光",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "10%的概率，2回合内受到的伤害减半",
+          "args": [
+            10,
+            2
+          ],
+          "effect": {
+            "id": 127,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/127"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "31e64613"
+}

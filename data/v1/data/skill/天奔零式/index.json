@@ -1,0 +1,46 @@
+{
+  "data": {
+    "36133": {
+      "id": 36133,
+      "name": "天奔零式",
+      "power": 0,
+      "max_pp": 7,
+      "accuracy": 0,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身不处于能力提升状态时先制+1且必定命中",
+          "args": [],
+          "effect": {
+            "id": 1860,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1860"
+          }
+        },
+        {
+          "info": "直接造成等同于对手防御值的固定伤害",
+          "args": [],
+          "effect": {
+            "id": 423,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/423"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4bbabb74"
+}

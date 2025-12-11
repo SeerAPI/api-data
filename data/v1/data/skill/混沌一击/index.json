@@ -1,0 +1,38 @@
+{
+  "data": {
+    "16012": {
+      "id": 16012,
+      "name": "混沌一击",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 485,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/485"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a6efb4ee"
+}

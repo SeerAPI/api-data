@@ -1,0 +1,50 @@
+{
+  "data": {
+    "38102": {
+      "id": 38102,
+      "name": "宣武寰埏",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 129,
+        "url": "https://api.seerapi.com/v1/element_type_combination/129"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身主动切换下场后令己方下只精灵出战时获得350点护盾",
+          "args": [
+            350
+          ],
+          "effect": {
+            "id": 1937,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1937"
+          }
+        },
+        {
+          "info": "自身主动切换下场后令己方下只精灵出战时获得350点护罩",
+          "args": [
+            350
+          ],
+          "effect": {
+            "id": 1911,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1911"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ed4c7954"
+}

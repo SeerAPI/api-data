@@ -1,0 +1,49 @@
+{
+  "data": {
+    "37657": {
+      "id": 37657,
+      "name": "撼天动地",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则附加220点固定伤害",
+          "args": [
+            0,
+            220
+          ],
+          "effect": {
+            "id": 657,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/657"
+          }
+        },
+        {
+          "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "args": [],
+          "effect": {
+            "id": 444,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/444"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "884070fb"
+}

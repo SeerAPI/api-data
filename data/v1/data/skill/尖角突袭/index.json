@@ -1,0 +1,54 @@
+{
+  "data": {
+    "32175": {
+      "id": 32175,
+      "name": "尖角突袭",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 41,
+        "url": "https://api.seerapi.com/v1/element_type_combination/41"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则50%令对手害怕，未触发则100%令对手疲惫",
+          "args": [
+            50,
+            6,
+            100,
+            7
+          ],
+          "effect": {
+            "id": 1138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1138"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/2，自身体力低于1/2时造成等量百分比伤害",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1239,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1239"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "89060872"
+}

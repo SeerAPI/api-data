@@ -1,0 +1,51 @@
+{
+  "data": {
+    "31144": {
+      "id": 31144,
+      "name": "嗜血斩杀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 93,
+        "url": "https://api.seerapi.com/v1/element_type_combination/93"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 959,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/959"
+          }
+        },
+        {
+          "info": "每次使用则当回合造成的攻击伤害额外提升15%，最高额外提升60%",
+          "args": [
+            15,
+            60
+          ],
+          "effect": {
+            "id": 795,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/795"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a0d141ae"
+}

@@ -1,0 +1,66 @@
+{
+  "data": {
+    "27606": {
+      "id": 27606,
+      "name": "幽冥火种",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；有一定概率令对手焚烬；对手使用属性技能则自身下1次受到的攻击伤害降低",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "命中后70%使对手焚烬，未触发则下2回合攻击有100%概率使对手烧伤",
+          "args": [
+            70,
+            22,
+            2,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1035,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1035"
+          }
+        },
+        {
+          "info": "3回合内对手使用属性技能时自身下1次受到的攻击伤害减少50%",
+          "args": [
+            3,
+            1,
+            50
+          ],
+          "effect": {
+            "id": 1645,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1645"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "42da4a71"
+}

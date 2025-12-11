@@ -1,0 +1,53 @@
+{
+  "data": {
+    "34040": {
+      "id": 34040,
+      "name": "流光一击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 61,
+        "url": "https://api.seerapi.com/v1/element_type_combination/61"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下1回合令对手使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1032,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1032"
+          }
+        },
+        {
+          "info": "随机附加100-300点固伤，对手处于能力下降状态时固伤变为200-300点",
+          "args": [
+            100,
+            300,
+            200,
+            300
+          ],
+          "effect": {
+            "id": 1244,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1244"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "47fdf5fb"
+}

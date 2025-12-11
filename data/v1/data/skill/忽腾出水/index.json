@@ -1,0 +1,38 @@
+{
+  "data": {
+    "30880": {
+      "id": 30880,
+      "name": "忽腾出水",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 83,
+        "url": "https://api.seerapi.com/v1/element_type_combination/83"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 485,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/485"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2cba3127"
+}

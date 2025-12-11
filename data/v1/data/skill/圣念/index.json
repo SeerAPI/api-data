@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33887": {
+      "id": 33887,
+      "name": "圣念",
+      "power": 35,
+      "max_pp": 40,
+      "accuracy": 90,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 223,
+        "url": "https://api.seerapi.com/v1/element_type_combination/223"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "10%的概率恢复自身体力的1/10",
+          "args": [
+            10,
+            10
+          ],
+          "effect": {
+            "id": 438,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/438"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ad8e41f5"
+}

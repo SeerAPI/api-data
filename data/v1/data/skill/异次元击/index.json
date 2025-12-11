@@ -1,0 +1,41 @@
+{
+  "data": {
+    "31982": {
+      "id": 31982,
+      "name": "异次元击",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "30%的概率恢复自身体力的1/3",
+          "args": [
+            30,
+            3
+          ],
+          "effect": {
+            "id": 438,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/438"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d27e5f4d"
+}

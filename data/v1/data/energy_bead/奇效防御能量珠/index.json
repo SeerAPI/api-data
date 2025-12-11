@@ -1,0 +1,36 @@
+{
+  "data": {
+    "300780": {
+      "id": 300780,
+      "name": "奇效防御能量珠",
+      "desc": "对战时增加精灵防御80，使用次数10。注意：赛尔之间对战无效",
+      "idx": 1105,
+      "use_times": 10,
+      "item": {
+        "id": 300780,
+        "url": "https://api.seerapi.com/v1/item/300780"
+      },
+      "effect": {
+        "effect_args": [
+          2,
+          80
+        ],
+        "effect": {
+          "id": 26,
+          "url": "https://api.seerapi.com/v1/eid_effect/26"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 80,
+        "sp_atk": 0,
+        "sp_def": 0,
+        "spd": 0,
+        "hp": 0,
+        "percent": false,
+        "total": 80
+      }
+    }
+  },
+  "hash": "edb7ca30"
+}

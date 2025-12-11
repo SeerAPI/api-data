@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28209": {
+      "id": 28209,
+      "name": "王之冥想",
+      "power": 0,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "解除了自身的能力下降状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身能力下降状态，解除成功则自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1352,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1352"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "79c81406"
+}

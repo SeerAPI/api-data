@@ -1,0 +1,53 @@
+{
+  "data": {
+    "34248": {
+      "id": 34248,
+      "name": "飒空利刺",
+      "power": 10,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 20,
+        "url": "https://api.seerapi.com/v1/element_type_combination/20"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做6-12次攻击，每次攻击有20%的概率附加50点固定伤害",
+          "args": [
+            6,
+            12,
+            20,
+            50
+          ],
+          "effect": {
+            "id": 1454,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1454"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 736,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/736"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "581eeef"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35602": {
+      "id": 35602,
+      "name": "蛮力扑倒",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/element_type_combination/81"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1249,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1249"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d9cd195f"
+}

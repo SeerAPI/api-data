@@ -1,0 +1,50 @@
+{
+  "data": {
+    "23652": {
+      "id": 23652,
+      "name": "无上光芒",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "受到的伤害转化为体力；受到攻击消除对手能力提升",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 128,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/128"
+          }
+        },
+        {
+          "info": "1回合内若受到攻击，消除对手能力提升状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 190,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/190"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e094bf93"
+}

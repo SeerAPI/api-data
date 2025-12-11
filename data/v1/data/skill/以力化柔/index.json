@@ -1,0 +1,63 @@
+{
+  "data": {
+    "25844": {
+      "id": 25844,
+      "name": "以力化柔",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "免疫并反弹异常状态；受到攻击则自身全属性提升；受到伤害过低则附加固定伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内若对手使用攻击技能则使用后令自身全属性+1",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 806,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/806"
+          }
+        },
+        {
+          "info": "3回合内受到的伤害低于300则附加300点固定伤害",
+          "args": [
+            3,
+            300,
+            300
+          ],
+          "effect": {
+            "id": 1085,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1085"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a50f9fd2"
+}

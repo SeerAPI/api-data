@@ -1,0 +1,64 @@
+{
+  "data": {
+    "25910": {
+      "id": 25910,
+      "name": "空间重构",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "免疫并反弹异常状态；开始慢慢吸取吸取对手的能力；自身强化消失则对手瘫痪",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/849"
+          }
+        },
+        {
+          "info": "3回合内若自身能力提升状态被消除或吸取则100%使对手瘫痪2回合",
+          "args": [
+            3,
+            100,
+            19,
+            2
+          ],
+          "effect": {
+            "id": 573,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/573"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "577e9ce"
+}

@@ -1,0 +1,61 @@
+{
+  "data": {
+    "34862": {
+      "id": 34862,
+      "name": "月·惊梦曲",
+      "power": 20,
+      "max_pp": 5,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 102,
+        "url": "https://api.seerapi.com/v1/element_type_combination/102"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 913,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/913"
+          }
+        },
+        {
+          "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1108,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1108"
+          }
+        },
+        {
+          "info": "当回合击败对手则下回合自身攻击先制+2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1587,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1587"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dd9337e1"
+}

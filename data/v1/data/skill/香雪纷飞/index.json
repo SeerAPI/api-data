@@ -1,0 +1,53 @@
+{
+  "data": {
+    "33913": {
+      "id": 33913,
+      "name": "香雪纷飞",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 84,
+        "url": "https://api.seerapi.com/v1/element_type_combination/84"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过200点",
+          "args": [
+            2,
+            200
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        },
+        {
+          "info": "造成的攻击伤害若高于200则令自身下2回合所有技能先制+1",
+          "args": [
+            200,
+            2,
+            1
+          ],
+          "effect": {
+            "id": 1223,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1223"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "734fc248"
+}

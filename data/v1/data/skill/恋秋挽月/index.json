@@ -1,0 +1,50 @@
+{
+  "data": {
+    "35300": {
+      "id": 35300,
+      "name": "恋秋挽月",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 86,
+        "url": "https://api.seerapi.com/v1/element_type_combination/86"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1199,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1199"
+          }
+        },
+        {
+          "info": "若对手处于异常状态则回合结束时减少对手1/3最大体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 752,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/752"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "aae63c52"
+}

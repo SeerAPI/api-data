@@ -1,0 +1,53 @@
+{
+  "data": {
+    "35094": {
+      "id": 35094,
+      "name": "流水不腐",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/element_type_combination/25"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+          "args": [],
+          "effect": {
+            "id": 1216,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1216"
+          }
+        },
+        {
+          "info": "使对手攻击-1，特攻-1，命中-1，对手处于异常状态时弱化效果翻倍",
+          "args": [
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "effect": {
+            "id": 745,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/745"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "908e3cae"
+}

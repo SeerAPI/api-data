@@ -1,0 +1,49 @@
+{
+  "data": {
+    "36034": {
+      "id": 36034,
+      "name": "哐当击",
+      "power": 30,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做2~3次攻击",
+          "args": [
+            2,
+            3
+          ],
+          "effect": {
+            "id": 31,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+          }
+        },
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8f37130b"
+}

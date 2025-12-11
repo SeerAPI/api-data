@@ -1,0 +1,126 @@
+{
+  "data": {
+    "21805": {
+      "id": 21805,
+      "name": "荆棘藤甲",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "防御和特防提升了，将反弹部分受到的伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+1",
+          "args": [
+            1,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+1",
+          "args": [
+            3,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "作用2回合，每回合反弹对手1/2的伤害",
+          "args": [
+            2,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 21,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/21"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "27523": {
+      "id": 27523,
+      "name": "荆棘藤甲",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身的双防提升了；开始免疫火系伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+2",
+          "args": [
+            1,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+2",
+          "args": [
+            3,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "5回合内自身令对手使用的火系攻击技能无效",
+          "args": [
+            5,
+            3
+          ],
+          "effect": {
+            "id": 613,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/613"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "10c333c1"
+}

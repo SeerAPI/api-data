@@ -1,0 +1,41 @@
+{
+  "data": {
+    "10830": {
+      "id": 10830,
+      "name": "微核轰击炮",
+      "power": 150,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身HP小于1/4时威力为2倍",
+          "args": [
+            4,
+            2
+          ],
+          "effect": {
+            "id": 37,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/37"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "39174177"
+}

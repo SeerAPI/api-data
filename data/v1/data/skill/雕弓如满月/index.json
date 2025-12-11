@@ -1,0 +1,48 @@
+{
+  "data": {
+    "31518": {
+      "id": 31518,
+      "name": "雕弓如满月",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/element_type_combination/73"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若未击败对手则下2回合攻击必定致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 582,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/582"
+          }
+        },
+        {
+          "info": "若打出致命一击则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 496,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/496"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "514b81d7"
+}

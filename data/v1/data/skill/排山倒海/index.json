@@ -1,0 +1,96 @@
+{
+  "data": {
+    "11015": {
+      "id": 11015,
+      "name": "排山倒海",
+      "power": 75,
+      "max_pp": 25,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对方体力小于1/2时威力加倍",
+          "args": [],
+          "effect": {
+            "id": 2,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "38034": {
+      "id": 38034,
+      "name": "排山倒海",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令自身混乱",
+          "args": [
+            100,
+            10
+          ],
+          "effect": {
+            "id": 2196,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2196"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合对手所有技能先制-3，若对手不处于能力提升状态则令对手全属性-1",
+          "args": [
+            2,
+            3,
+            1
+          ],
+          "effect": {
+            "id": 1726,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1726"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定致命、必定命中",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 681,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/681"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a55dfdc5"
+}

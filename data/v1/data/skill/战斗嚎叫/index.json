@@ -1,0 +1,41 @@
+{
+  "data": {
+    "20972": {
+      "id": 20972,
+      "name": "战斗嚎叫",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "能造成更多的伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内自身造成的伤害为2倍 ",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 90,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/90"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dce4c423"
+}

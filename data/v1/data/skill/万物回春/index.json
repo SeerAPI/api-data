@@ -1,0 +1,41 @@
+{
+  "data": {
+    "22722": {
+      "id": 22722,
+      "name": "万物回春",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "逐渐恢复了体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内每回合使用技能恢复自身最大体力的1/4",
+          "args": [
+            5,
+            4
+          ],
+          "effect": {
+            "id": 57,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f9436711"
+}

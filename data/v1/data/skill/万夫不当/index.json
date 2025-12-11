@@ -1,0 +1,40 @@
+{
+  "data": {
+    "23514": {
+      "id": 23514,
+      "name": "万夫不当",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 2,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "变得热血沸腾",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下次受到攻击伤害后于对手出手流程结束反馈伤害值100%的百分比伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 658,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/658"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bd7ccbde"
+}

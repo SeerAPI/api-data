@@ -1,0 +1,40 @@
+{
+  "data": {
+    "16894": {
+      "id": 16894,
+      "name": "猛虎抓击",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后20%令对方麻痹",
+          "args": [
+            20
+          ],
+          "effect": {
+            "id": 10,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/10"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2769175c"
+}

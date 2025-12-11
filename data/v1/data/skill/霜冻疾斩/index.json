@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36526": {
+      "id": 36526,
+      "name": "霜冻疾斩",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 84,
+        "url": "https://api.seerapi.com/v1/element_type_combination/84"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 905,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/905"
+          }
+        },
+        {
+          "info": "获得200点护罩，若自身双防总和高于对手则额外获得200点，护罩消失时100%令对手害怕",
+          "args": [
+            200,
+            200,
+            100,
+            6
+          ],
+          "effect": {
+            "id": 1879,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1879"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f1f055f"
+}

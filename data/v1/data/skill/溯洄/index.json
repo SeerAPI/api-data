@@ -1,0 +1,95 @@
+{
+  "data": {
+    "28882": {
+      "id": 28882,
+      "name": "溯洄",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始治愈自身",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内受到攻击50%恢复1/1体力",
+          "args": [
+            4,
+            50,
+            1
+          ],
+          "effect": {
+            "id": 724,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/724"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "37110": {
+      "id": 37110,
+      "name": "溯洄",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 116,
+        "url": "https://api.seerapi.com/v1/element_type_combination/116"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则己方免疫下2次受到的异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/928"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则2回合内对手攻击技能无法造成伤害且命中效果失效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1776,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1776"
+          }
+        },
+        {
+          "info": "崩溃：对手直到下场属性技能无效",
+          "args": [],
+          "effect": {
+            "id": 2111,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2111"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "54f3b8c6"
+}

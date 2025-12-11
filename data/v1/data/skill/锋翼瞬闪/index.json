@@ -1,0 +1,51 @@
+{
+  "data": {
+    "33250": {
+      "id": 33250,
+      "name": "锋翼瞬闪",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 225,
+        "url": "https://api.seerapi.com/v1/element_type_combination/225"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功后恢复200点体力",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 548,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/548"
+          }
+        },
+        {
+          "info": "3回合内每回合若先出手则吸取对手100点体力",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 923,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/923"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b83d349c"
+}

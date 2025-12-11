@@ -1,0 +1,61 @@
+{
+  "data": {
+    "29125": {
+      "id": 29125,
+      "name": "邪恶尖啸",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；附加了百分比伤害、附加了异常状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "出手时本回合若未受到攻击伤害，则附加自身攻击值50%的百分比伤害，并恢复等量体力",
+          "args": [
+            0,
+            50
+          ],
+          "effect": {
+            "id": 819,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/819"
+          }
+        },
+        {
+          "info": "随机附加3种弱化类异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 2061,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2061"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "16a96ae4"
+}

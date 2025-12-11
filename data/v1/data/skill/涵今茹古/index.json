@@ -1,0 +1,51 @@
+{
+  "data": {
+    "34035": {
+      "id": 34035,
+      "name": "涵今茹古",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 931,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/931"
+          }
+        },
+        {
+          "info": "2回合内免疫大于250的攻击伤害",
+          "args": [
+            2,
+            250
+          ],
+          "effect": {
+            "id": 741,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/741"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8a592031"
+}

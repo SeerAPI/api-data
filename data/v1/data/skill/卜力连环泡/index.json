@@ -1,0 +1,41 @@
+{
+  "data": {
+    "14292": {
+      "id": 14292,
+      "name": "卜力连环泡",
+      "power": 25,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做3~6次攻击",
+          "args": [
+            3,
+            6
+          ],
+          "effect": {
+            "id": 31,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2ff5b4c1"
+}

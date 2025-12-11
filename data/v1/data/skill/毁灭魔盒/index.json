@@ -1,0 +1,48 @@
+{
+  "data": {
+    "18359": {
+      "id": 18359,
+      "name": "毁灭魔盒",
+      "power": 95,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 50.0,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 62,
+        "url": "https://api.seerapi.com/v1/element_type_combination/62"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手的能力提升效果转化到自己身上",
+          "args": [],
+          "effect": {
+            "id": 85,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/85"
+          }
+        },
+        {
+          "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 101,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/101"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c4063d52"
+}

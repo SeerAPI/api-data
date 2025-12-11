@@ -1,0 +1,42 @@
+{
+  "data": {
+    "16397": {
+      "id": 16397,
+      "name": "狂怒龙牙弹",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/element_type_combination/15"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加自身的防御值的20%的百分比伤害",
+          "args": [
+            0,
+            1,
+            20
+          ],
+          "effect": {
+            "id": 593,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/593"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fa903311"
+}

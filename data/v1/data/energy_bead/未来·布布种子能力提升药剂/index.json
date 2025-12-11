@@ -1,0 +1,40 @@
+{
+  "data": {
+    "300887": {
+      "id": 300887,
+      "name": "未来·布布种子能力提升药剂",
+      "desc": "对战时增加防御50点、特防50点、体力150点，使用次数1次。赛尔间对战无效！",
+      "idx": 1114,
+      "use_times": 1,
+      "item": {
+        "id": 300887,
+        "url": "https://api.seerapi.com/v1/item/300887"
+      },
+      "effect": {
+        "effect_args": [
+          150,
+          0,
+          50,
+          0,
+          50,
+          0
+        ],
+        "effect": {
+          "id": 137,
+          "url": "https://api.seerapi.com/v1/eid_effect/137"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 50,
+        "sp_atk": 0,
+        "sp_def": 50,
+        "spd": 0,
+        "hp": 150,
+        "percent": false,
+        "total": 250
+      }
+    }
+  },
+  "hash": "97c03723"
+}

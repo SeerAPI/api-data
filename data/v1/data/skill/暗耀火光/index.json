@@ -1,0 +1,65 @@
+{
+  "data": {
+    "28256": {
+      "id": 28256,
+      "name": "暗耀火光",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "一定回合内有几率令自身全属性提升，未触发则令对手全属性下降；使用技能开始附加百分比伤害了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合50%令自身全属性+1，未触发则令对手全属性-1",
+          "args": [
+            3,
+            50,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1346,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1346"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能附加对手最大体力1/3的百分比伤害",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 1213,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1213"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cfc8c917"
+}

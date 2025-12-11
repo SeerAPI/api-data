@@ -1,0 +1,76 @@
+{
+  "data": {
+    "12570": {
+      "id": 12570,
+      "name": "魔影袭",
+      "power": 60,
+      "max_pp": 30,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后10%令对方害怕",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "33126": {
+      "id": 33126,
+      "name": "魔影袭",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/element_type_combination/56"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态则对方命中等级-2",
+          "args": [
+            5,
+            -2
+          ],
+          "effect": {
+            "id": 418,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/418"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c508a6a1"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "37007": {
+      "id": 37007,
+      "name": "破坏龙音",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 55,
+        "url": "https://api.seerapi.com/v1/element_type_combination/55"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视攻击免疫效果",
+          "args": [],
+          "effect": {
+            "id": 699,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+          }
+        },
+        {
+          "info": "3回合内每次直接攻击都会使对手防御和特防-2",
+          "args": [
+            3,
+            -2
+          ],
+          "effect": {
+            "id": 427,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/427"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "334c045c"
+}

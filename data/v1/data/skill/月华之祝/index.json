@@ -1,0 +1,61 @@
+{
+  "data": {
+    "24407": {
+      "id": 24407,
+      "name": "月华之祝",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "抵抗异常状态的能力提升了；造成伤害恢复自身体力；受到致命伤害时残留1点体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "2回合内每次造成伤害的1/2会恢复自己的HP",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 89,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/89"
+          }
+        },
+        {
+          "info": "下回合受到致命伤害时残留1点体力 ",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 506,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/506"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b8e52703"
+}

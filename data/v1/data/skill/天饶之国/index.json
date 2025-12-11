@@ -1,0 +1,63 @@
+{
+  "data": {
+    "28287": {
+      "id": 28287,
+      "name": "天饶之国",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 98,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "消除对手回合类效果；降低对手所有技能一些PP值；开始持续吸取对手技能PP值了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身最大体力的1/1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 856,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/856"
+          }
+        },
+        {
+          "info": "100%令对手所有技能PP值-2，自身满体力时效果翻倍",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1621,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1621"
+          }
+        },
+        {
+          "info": "3回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+          "args": [
+            3,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bd90df0f"
+}

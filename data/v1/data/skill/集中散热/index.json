@@ -1,0 +1,40 @@
+{
+  "data": {
+    "37923": {
+      "id": 37923,
+      "name": "集中散热",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 125,
+        "url": "https://api.seerapi.com/v1/element_type_combination/125"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身所处的异常状态，解除成功令对手焚烬",
+          "args": [
+            22
+          ],
+          "effect": {
+            "id": 2158,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2158"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "396ffd58"
+}

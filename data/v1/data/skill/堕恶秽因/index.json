@@ -1,0 +1,63 @@
+{
+  "data": {
+    "37239": {
+      "id": 37239,
+      "name": "堕恶秽因",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则防御+1，特攻+2，特防+1，速度+2，命中+1",
+          "args": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            1
+          ],
+          "effect": {
+            "id": 901,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/901"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1044,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1044"
+          }
+        },
+        {
+          "info": "为对手种下晦暗之因，若对手的晦暗之因已成熟则收割晦暗之因转化为自身的1层晦暗之根",
+          "args": [],
+          "effect": {
+            "id": 2138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2138"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "de4f7c8"
+}

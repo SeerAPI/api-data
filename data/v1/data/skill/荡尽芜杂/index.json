@@ -1,0 +1,49 @@
+{
+  "data": {
+    "35617": {
+      "id": 35617,
+      "name": "荡尽芜杂",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 224,
+        "url": "https://api.seerapi.com/v1/element_type_combination/224"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视护盾效果",
+          "args": [],
+          "effect": {
+            "id": 1568,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1568"
+          }
+        },
+        {
+          "info": "先出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则伤害额外提升50%",
+          "args": [
+            100,
+            50
+          ],
+          "effect": {
+            "id": 1686,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1686"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bdcd8e98"
+}

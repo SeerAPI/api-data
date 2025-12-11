@@ -1,0 +1,53 @@
+{
+  "data": {
+    "21880": {
+      "id": 21880,
+      "name": "破甲之风",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击提升了许多，每次直接攻击对手的防御和特防都会降低",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "args": [
+            0,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "3回合内每次直接攻击都会使对手防御和特防-1",
+          "args": [
+            3,
+            -1
+          ],
+          "effect": {
+            "id": 427,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/427"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "be5140a6"
+}

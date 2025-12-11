@@ -1,0 +1,48 @@
+{
+  "data": {
+    "31555": {
+      "id": 31555,
+      "name": "幻灵破碎",
+      "power": 0,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 17,
+        "url": "https://api.seerapi.com/v1/element_type_combination/17"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1099,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1099"
+          }
+        },
+        {
+          "info": "直接造成等同于对手防御值的固定伤害",
+          "args": [],
+          "effect": {
+            "id": 423,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/423"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "40e31d37"
+}

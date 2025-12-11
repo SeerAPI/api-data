@@ -1,0 +1,51 @@
+{
+  "data": {
+    "23449": {
+      "id": 23449,
+      "name": "冲阵之势",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "能从对手的攻击中汲取体力了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每次直接攻击都会使对手防御和特防-1",
+          "args": [
+            3,
+            -1
+          ],
+          "effect": {
+            "id": 427,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/427"
+          }
+        },
+        {
+          "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 128,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/128"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "29b248bc"
+}

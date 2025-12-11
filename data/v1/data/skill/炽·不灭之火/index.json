@@ -1,0 +1,56 @@
+{
+  "data": {
+    "24274": {
+      "id": 24274,
+      "name": "炽·不灭之火",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身攻击、防御、特防、速度提升了；抵抗能力下降",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身攻击+1，防御+1，特防+1，速度+1，对手烧伤时强化效果翻倍",
+          "args": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            2
+          ],
+          "effect": {
+            "id": 562,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/562"
+          }
+        },
+        {
+          "info": "3回合内免疫能力下降状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "42dc5e9e"
+}

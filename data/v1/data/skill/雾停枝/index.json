@@ -1,0 +1,38 @@
+{
+  "data": {
+    "36277": {
+      "id": 36277,
+      "name": "雾停枝",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 91,
+        "url": "https://api.seerapi.com/v1/element_type_combination/91"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手当回合使用的技能为攻击技能则自身额外先制+1",
+          "args": [],
+          "effect": {
+            "id": 1774,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1774"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3897a09f"
+}

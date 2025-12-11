@@ -1,0 +1,61 @@
+{
+  "data": {
+    "38039": {
+      "id": 38039,
+      "name": "妄语",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态则先制+1",
+          "args": [],
+          "effect": {
+            "id": 1081,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1081"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手诅咒 ",
+          "args": [
+            23
+          ],
+          "effect": {
+            "id": 948,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/948"
+          }
+        },
+        {
+          "info": "随机吸取对手200-300点体力，若自身处于能力提升状态则效果转变为300-400点",
+          "args": [
+            200,
+            300,
+            300,
+            400
+          ],
+          "effect": {
+            "id": 1694,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1694"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "442427b1"
+}

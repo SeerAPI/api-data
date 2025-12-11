@@ -1,0 +1,64 @@
+{
+  "data": {
+    "21172": {
+      "id": 21172,
+      "name": "安详之歌",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "防御和特防降低了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变对手防御等级-1",
+          "args": [
+            1,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变对手特防等级-1",
+          "args": [
+            3,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "命中后60%令对手睡眠",
+          "args": [
+            60
+          ],
+          "effect": {
+            "id": 16,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/16"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a4654f32"
+}

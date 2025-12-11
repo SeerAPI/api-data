@@ -1,0 +1,52 @@
+{
+  "data": {
+    "23075": {
+      "id": 23075,
+      "name": "岩壁保护",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开启了岩壁防御",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若先出手，则免疫当回合伤害并回复1/2的最大体力值",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 170,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/170"
+          }
+        },
+        {
+          "info": "后出手时，100%改变对方速度等级-2",
+          "args": [
+            4,
+            100,
+            -2
+          ],
+          "effect": {
+            "id": 148,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/148"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "df11f183"
+}

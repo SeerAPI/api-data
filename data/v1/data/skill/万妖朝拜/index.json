@@ -1,0 +1,48 @@
+{
+  "data": {
+    "30145": {
+      "id": 30145,
+      "name": "万妖朝拜",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合对手属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 985,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/985"
+          }
+        },
+        {
+          "info": "若当前HP低于对手，则技能威力翻倍",
+          "args": [],
+          "effect": {
+            "id": 132,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/132"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8d609b93"
+}

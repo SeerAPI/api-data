@@ -1,0 +1,75 @@
+{
+  "data": {
+    "27941": {
+      "id": 27941,
+      "name": "神权忤逆",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；令对手进入害怕；对手使用攻击技能则下2回合无法使用属性技能；对手使用属性技能则自身下1次受到的攻击伤害减少",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "100%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+          "args": [
+            100,
+            6,
+            3
+          ],
+          "effect": {
+            "id": 1231,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1231"
+          }
+        },
+        {
+          "info": "4回合内若对手使用攻击技能，则使用攻击技能后的下2回合属性技能命中效果失效",
+          "args": [
+            4,
+            2
+          ],
+          "effect": {
+            "id": 1165,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1165"
+          }
+        },
+        {
+          "info": "4回合内对手使用属性技能时自身下1次受到的攻击伤害减少50%",
+          "args": [
+            4,
+            1,
+            50
+          ],
+          "effect": {
+            "id": 1645,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1645"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "857fdb05"
+}

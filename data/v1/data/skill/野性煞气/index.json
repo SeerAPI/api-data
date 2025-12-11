@@ -1,0 +1,51 @@
+{
+  "data": {
+    "25059": {
+      "id": 25059,
+      "name": "野性煞气",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "受到攻击则自身双防提升；受到攻击则恢复自身体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内若受到攻击则自身防御+1 特防+1",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 535,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/535"
+          }
+        },
+        {
+          "info": "6回合内自身攻击技能造成伤害的50%会恢复自身体力",
+          "args": [
+            5,
+            50
+          ],
+          "effect": {
+            "id": 417,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/417"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b2f84d77"
+}

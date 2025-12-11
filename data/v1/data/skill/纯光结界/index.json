@@ -1,0 +1,50 @@
+{
+  "data": {
+    "24639": {
+      "id": 24639,
+      "name": "纯光结界",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "受到的伤害转化为恢复自身体力；若对手体力过低则秒杀对手",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 128,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/128"
+          }
+        },
+        {
+          "info": "若对手体力不足260则直接秒杀",
+          "args": [
+            260
+          ],
+          "effect": {
+            "id": 456,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/456"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1ae2413b"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28210": {
+      "id": 28210,
+      "name": "王之觖望",
+      "power": 0,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "消除了对手的能力提升状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则对手全属性-1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1009,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1009"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "94162f85"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "38168": {
+      "id": 38168,
+      "name": "灰耀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，若对手不处于回合类效果则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1878,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1878"
+          }
+        },
+        {
+          "info": "当回合若自身先出手则令对手使用的威力低于160的攻击技能无效，若击败对手则攻击无效效果延续至下回合",
+          "args": [
+            160
+          ],
+          "effect": {
+            "id": 1664,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1664"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fb99ba08"
+}

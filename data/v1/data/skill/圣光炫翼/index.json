@@ -1,0 +1,41 @@
+{
+  "data": {
+    "15975": {
+      "id": 15975,
+      "name": "圣光炫翼",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/element_type_combination/31"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合内每回合被攻击所受到的伤害不超过200",
+          "args": [
+            1,
+            200
+          ],
+          "effect": {
+            "id": 125,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/125"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "111c2a68"
+}

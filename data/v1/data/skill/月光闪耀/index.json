@@ -1,0 +1,53 @@
+{
+  "data": {
+    "31720": {
+      "id": 31720,
+      "name": "月光闪耀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则100%令对手失明，未触发则100%令对手冻伤",
+          "args": [
+            100,
+            20,
+            100,
+            5
+          ],
+          "effect": {
+            "id": 1138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1138"
+          }
+        },
+        {
+          "info": "造成的伤害不少于260",
+          "args": [
+            260
+          ],
+          "effect": {
+            "id": 447,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/447"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "db68e7c2"
+}

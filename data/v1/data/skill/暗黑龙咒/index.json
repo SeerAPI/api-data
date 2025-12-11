@@ -1,0 +1,45 @@
+{
+  "data": {
+    "28650": {
+      "id": 28650,
+      "name": "暗黑龙咒",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "对手的能力下降了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手攻击-1，特攻-1，命中-1,后出手时弱化效果翻倍",
+          "args": [
+            -1,
+            0,
+            -1,
+            0,
+            0,
+            -1
+          ],
+          "effect": {
+            "id": 483,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/483"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "58a99358"
+}

@@ -1,0 +1,62 @@
+{
+  "data": {
+    "37616": {
+      "id": 37616,
+      "name": "徜彷",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 105,
+        "url": "https://api.seerapi.com/v1/element_type_combination/105"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手不处于能力提升状态时造成的伤害提高50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1021,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1021"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功对手下1回合无法主动切换精灵",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2227,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2227"
+          }
+        },
+        {
+          "info": "消除对手护盾效果，消除成功100%令对手麻痹，未触发则自身获得300点护盾",
+          "args": [
+            100,
+            0,
+            300
+          ],
+          "effect": {
+            "id": 2156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2156"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a7f17733"
+}

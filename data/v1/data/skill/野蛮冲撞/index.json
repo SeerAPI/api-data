@@ -1,0 +1,77 @@
+{
+  "data": {
+    "12860": {
+      "id": 12860,
+      "name": "野蛮冲撞",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手时，50%改变对方命中等级-1",
+          "args": [
+            5,
+            50,
+            -1
+          ],
+          "effect": {
+            "id": 148,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/148"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "30741": {
+      "id": 30741,
+      "name": "野蛮冲撞",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手随机1项技能的PP值归零",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 583,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/583"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a06f1c79"
+}

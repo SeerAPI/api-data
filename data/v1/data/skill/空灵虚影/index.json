@@ -1,0 +1,115 @@
+{
+  "data": {
+    "27135": {
+      "id": 27135,
+      "name": "空灵虚影",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；令对手害怕未触发减少其体力；开始闪避对手攻击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "80%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+          "args": [
+            80,
+            6,
+            3
+          ],
+          "effect": {
+            "id": 1231,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1231"
+          }
+        },
+        {
+          "info": "3回合内每回合80%闪避对手攻击，自身为圣念状态则回合数延长1回合，自身为邪念状态则闪避率提升至100%",
+          "args": [],
+          "effect": {
+            "id": 1572,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1572"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "27488": {
+      "id": 27488,
+      "name": "空灵虚影",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；令对手害怕未触发减少其体力；开始闪避对手攻击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "80%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+          "args": [
+            80,
+            6,
+            3
+          ],
+          "effect": {
+            "id": 1231,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1231"
+          }
+        },
+        {
+          "info": "3回合内每回合80%闪避对手攻击，未触发时自身处于圣念状态则使对手随机1项技能PP值归零，自身处于邪念状态则使对手失明",
+          "args": [],
+          "effect": {
+            "id": 1658,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1658"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dc0b1499"
+}

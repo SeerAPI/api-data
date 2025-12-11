@@ -1,0 +1,50 @@
+{
+  "data": {
+    "35111": {
+      "id": 35111,
+      "name": "落日山崩",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 57,
+        "url": "https://api.seerapi.com/v1/element_type_combination/57"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1052,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1052"
+          }
+        },
+        {
+          "info": "3回合内对手无法通过自身技能恢复体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 679,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/679"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ccfcc2c0"
+}

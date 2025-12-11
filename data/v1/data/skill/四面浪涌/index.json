@@ -1,0 +1,41 @@
+{
+  "data": {
+    "12087": {
+      "id": 12087,
+      "name": "四面浪涌",
+      "power": 35,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做3~5次攻击",
+          "args": [
+            3,
+            5
+          ],
+          "effect": {
+            "id": 31,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cf2a94ef"
+}

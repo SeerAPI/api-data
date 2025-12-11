@@ -1,0 +1,45 @@
+{
+  "data": {
+    "28536": {
+      "id": 28536,
+      "name": "午夜帷幕",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身攻击、防御、特攻、特防、速度提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身不处于能力提升状态时则攻击+1，防御+1，特攻+2，特防+1，速度+2",
+          "args": [
+            1,
+            1,
+            2,
+            1,
+            2,
+            0
+          ],
+          "effect": {
+            "id": 763,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/763"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6b67afce"
+}

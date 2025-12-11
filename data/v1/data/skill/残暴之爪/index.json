@@ -1,0 +1,41 @@
+{
+  "data": {
+    "17052": {
+      "id": 17052,
+      "name": "残暴之爪",
+      "power": 120,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%的概率，2回合内受到的伤害减半",
+          "args": [
+            50,
+            2
+          ],
+          "effect": {
+            "id": 127,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/127"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "287b754a"
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "25542": {
+      "id": 25542,
+      "name": "罪恶祈祷",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使对手全属性降低；使对手随机进入异常状态，未触发则自身属性技能出手更快；为自身附加护盾",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令对手全属性-1",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 749,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/749"
+          }
+        },
+        {
+          "info": "随机附加2种异常状态，未触发则下1回合自身属性技能先制+2",
+          "args": [
+            2,
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1078,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1078"
+          }
+        },
+        {
+          "info": "为自身附加300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 847,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/847"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5859b3e5"
+}

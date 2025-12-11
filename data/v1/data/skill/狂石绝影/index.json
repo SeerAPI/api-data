@@ -1,0 +1,50 @@
+{
+  "data": {
+    "30271": {
+      "id": 30271,
+      "name": "狂石绝影",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下1回合令对手使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1032,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1032"
+          }
+        },
+        {
+          "info": "2回合内对手无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 679,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/679"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d35f7a9c"
+}

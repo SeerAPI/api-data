@@ -1,0 +1,113 @@
+{
+  "data": {
+    "29050": {
+      "id": 29050,
+      "name": "神怒霆闪",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；攻击变得更加犀利了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1014,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1014"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        },
+        {
+          "info": "下2回合若打出致命一击则必定恢复全部体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 702,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/702"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "29070": {
+      "id": 29070,
+      "name": "神怒霆闪",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "args": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 433,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/433"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "63927306"
+}

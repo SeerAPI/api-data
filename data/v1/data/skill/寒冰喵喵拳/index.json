@@ -1,0 +1,49 @@
+{
+  "data": {
+    "33499": {
+      "id": 33499,
+      "name": "寒冰喵喵拳",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 485,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/485"
+          }
+        },
+        {
+          "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/2",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/138"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "92477760"
+}

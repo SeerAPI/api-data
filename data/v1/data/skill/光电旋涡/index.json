@@ -1,0 +1,52 @@
+{
+  "data": {
+    "34926": {
+      "id": 34926,
+      "name": "光电旋涡",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 76,
+        "url": "https://api.seerapi.com/v1/element_type_combination/76"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升，反转成功下2回合先制+1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 743,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/743"
+          }
+        },
+        {
+          "info": "2回合后对对手造成300点固定伤害 重复使用无法叠加",
+          "args": [
+            2,
+            300
+          ],
+          "effect": {
+            "id": 571,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/571"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "62fb35af"
+}

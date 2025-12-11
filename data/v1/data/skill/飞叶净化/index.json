@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33660": {
+      "id": 33660,
+      "name": "飞叶净化",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/element_type_combination/7"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过250点",
+          "args": [
+            3,
+            250
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "86283d94"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "27838": {
+      "id": 27838,
+      "name": "秩序重建",
+      "power": 0,
+      "max_pp": 15,
+      "accuracy": 97,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身每处于能力强化状态或弱化状态都会恢复自身一定体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内自身每处于一种能力提升或下降状态时都会回复100点体力",
+          "args": [
+            5,
+            100
+          ],
+          "effect": {
+            "id": 519,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/519"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e354f703"
+}

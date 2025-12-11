@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35589": {
+      "id": 35589,
+      "name": "深境恐吓",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 71,
+        "url": "https://api.seerapi.com/v1/element_type_combination/71"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手时下回合攻击技能先制+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1549,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1549"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "769b96a2"
+}

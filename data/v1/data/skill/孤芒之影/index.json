@@ -1,0 +1,60 @@
+{
+  "data": {
+    "32539": {
+      "id": 32539,
+      "name": "孤芒之影",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 84,
+        "url": "https://api.seerapi.com/v1/element_type_combination/84"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手冰封 ",
+          "args": [
+            15
+          ],
+          "effect": {
+            "id": 948,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/948"
+          }
+        },
+        {
+          "info": "先出手时恢复1/4体力",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 565,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/565"
+          }
+        },
+        {
+          "info": "后出手时造成的伤害提高50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1357,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1357"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "32f5bf1f"
+}

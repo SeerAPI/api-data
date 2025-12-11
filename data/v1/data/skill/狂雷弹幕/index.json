@@ -1,0 +1,56 @@
+{
+  "data": {
+    "38135": {
+      "id": 38135,
+      "name": "狂雷弹幕",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/element_type_combination/60"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "攻击时将对手的能力提升状态视为相应的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 1767,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1767"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 879,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/879"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则对手下1次攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1217,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1217"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f4ae9280"
+}

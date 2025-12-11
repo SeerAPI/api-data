@@ -1,0 +1,45 @@
+{
+  "data": {
+    "24346": {
+      "id": 24346,
+      "name": "生命沦陷",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使对手攻击、特攻、特防、命中降低了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手攻击-1，特攻-1，特防-1，命中-1，若对手处于弱化状态，弱化效果翻倍 ",
+          "args": [
+            -1,
+            0,
+            -1,
+            -1,
+            0,
+            -1
+          ],
+          "effect": {
+            "id": 625,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/625"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d9f64553"
+}

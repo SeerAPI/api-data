@@ -1,0 +1,56 @@
+{
+  "data": {
+    "28883": {
+      "id": 28883,
+      "name": "时之弦",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "能力开始提升了；开始消除对手的能力提升状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合防御+1，特攻+1，特防+1，速度+1",
+          "args": [
+            3,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 433,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/433"
+          }
+        },
+        {
+          "info": "3回合内使得对手所有能力增强效果失效",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/156"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "eef45f9b"
+}

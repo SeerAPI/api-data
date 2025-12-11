@@ -1,0 +1,40 @@
+{
+  "data": {
+    "15756": {
+      "id": 15756,
+      "name": "哀愁百转",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/element_type_combination/24"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后30%令对方害怕",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "74f7c3a1"
+}

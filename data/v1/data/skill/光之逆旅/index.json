@@ -1,0 +1,52 @@
+{
+  "data": {
+    "24600": {
+      "id": 24600,
+      "name": "光之逆旅",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "有几率免疫对手的攻击伤害；对手释放技能所消耗的PP翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内有50%概率免疫对手的攻击伤害",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 525,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/525"
+          }
+        },
+        {
+          "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "67887e0a"
+}

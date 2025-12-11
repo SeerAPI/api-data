@@ -1,0 +1,42 @@
+{
+  "data": {
+    "37643": {
+      "id": 37643,
+      "name": "极化",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 127,
+        "url": "https://api.seerapi.com/v1/element_type_combination/127"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手全属性-1，若对手处于疲惫状态则自身额外全属性+1",
+          "args": [
+            1,
+            7,
+            1
+          ],
+          "effect": {
+            "id": 957,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/957"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bfd92a64"
+}

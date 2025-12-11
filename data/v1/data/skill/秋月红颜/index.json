@@ -1,0 +1,54 @@
+{
+  "data": {
+    "34585": {
+      "id": 34585,
+      "name": "秋月红颜",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 82,
+        "url": "https://api.seerapi.com/v1/element_type_combination/82"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力上升状态，消除成功则2回合内对手每回合命中-2",
+          "args": [
+            2,
+            5,
+            -2
+          ],
+          "effect": {
+            "id": 759,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/759"
+          }
+        },
+        {
+          "info": "造成的伤害低于200则2回合内自身受到的伤害减少200",
+          "args": [
+            200,
+            2,
+            200
+          ],
+          "effect": {
+            "id": 665,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/665"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5af0dc78"
+}

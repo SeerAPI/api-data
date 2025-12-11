@@ -1,0 +1,62 @@
+{
+  "data": {
+    "27006": {
+      "id": 27006,
+      "name": "情报收集",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性+1；开始降低对手PP值了；自身受到攻击后令对手受到的伤害提高",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，对手不处于能力提升状态时强化效果翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1020,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1020"
+          }
+        },
+        {
+          "info": "3回合内对手使用攻击技能，则使对手随机2个技能的PP值归零",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 716,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/716"
+          }
+        },
+        {
+          "info": "3回合内对手使用攻击技能后随机附加给对手2种异常状态",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 1089,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1089"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "63876963"
+}

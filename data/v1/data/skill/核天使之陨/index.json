@@ -1,0 +1,48 @@
+{
+  "data": {
+    "27322": {
+      "id": 27322,
+      "name": "核天使之陨",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使对手随机2项技能pp值归零；消耗自身全部体力并且消除对手的能力提升效果和回合类效果，使己方下一只出场精灵出手更快、必定命中、伤害翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手随机2项技能的PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 583,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/583"
+          }
+        },
+        {
+          "info": "消耗自身全部体力，消除对手能力提升状态和回合类效果，使己方下只出场精灵下次攻击必定先手、必定命中且造成的伤害翻倍",
+          "args": [],
+          "effect": {
+            "id": 873,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/873"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "65f26dbe"
+}

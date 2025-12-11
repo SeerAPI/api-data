@@ -1,0 +1,53 @@
+{
+  "data": {
+    "23484": {
+      "id": 23484,
+      "name": "魔灵之咒",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性下降了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 3,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/3"
+          }
+        },
+        {
+          "info": "使对手攻击-1，防御-1，特攻-1，特防-1，速度-1，命中-1，若对手处于弱化状态，弱化效果翻倍 ",
+          "args": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "effect": {
+            "id": 625,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/625"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "876eb22a"
+}

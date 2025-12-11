@@ -1,0 +1,42 @@
+{
+  "data": {
+    "35965": {
+      "id": 35965,
+      "name": "五彩水域",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/element_type_combination/24"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成的伤害低于300则下1回合自身先制+1",
+          "args": [
+            300,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1029,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1029"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5e3e1893"
+}

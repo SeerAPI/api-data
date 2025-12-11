@@ -1,0 +1,48 @@
+{
+  "data": {
+    "35761": {
+      "id": 35761,
+      "name": "身献黑暗",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 36,
+        "url": "https://api.seerapi.com/v1/element_type_combination/36"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸收对手的能力提升同时反转对手的能力提升",
+          "args": [],
+          "effect": {
+            "id": 822,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/822"
+          }
+        },
+        {
+          "info": "对手每处于一种能力下降状态附加70点固定伤害",
+          "args": [
+            70
+          ],
+          "effect": {
+            "id": 848,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/848"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b836be80"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "26502": {
+      "id": 26502,
+      "name": "启明祝愿",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身攻击开始令对手防御能力降低了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每次直接攻击都会使对手防御和特防-1",
+          "args": [
+            3,
+            -1
+          ],
+          "effect": {
+            "id": 427,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/427"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2530b801"
+}

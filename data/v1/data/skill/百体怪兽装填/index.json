@@ -1,0 +1,75 @@
+{
+  "data": {
+    "28815": {
+      "id": 28815,
+      "name": "百体怪兽装填",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；开始吸取对手的体力了；自身的能力提升开始无法被消除、吸取；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身背包内每阵亡1只精灵则30%的概率强化效果翻倍",
+          "args": [
+            1,
+            30
+          ],
+          "effect": {
+            "id": 1665,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1665"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍，对手免疫百分比伤害时额外附加240点真实伤害",
+          "args": [
+            4,
+            3,
+            2,
+            240
+          ],
+          "effect": {
+            "id": 1647,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1647"
+          }
+        },
+        {
+          "info": "2回合内自身的能力提升状态无法被消除或吸取",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1683,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1683"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5d8ac2c0"
+}

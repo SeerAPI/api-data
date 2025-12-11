@@ -1,0 +1,51 @@
+{
+  "data": {
+    "22824": {
+      "id": 22824,
+      "name": "创世之甲",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "可以回避所有的特殊攻击，开始逐渐恢复体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若使用技能则恢复100点体力值",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 77,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/77"
+          }
+        },
+        {
+          "info": "3回合内特殊攻击对自身必定miss",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 106,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/106"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4c0ee46a"
+}

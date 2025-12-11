@@ -1,0 +1,50 @@
+{
+  "data": {
+    "30341": {
+      "id": 30341,
+      "name": "天灾群魔战",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/element_type_combination/48"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身体力低于对手时造成的伤害提高50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1086,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1086"
+          }
+        },
+        {
+          "info": "未击败对手则自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 983,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/983"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3b47493a"
+}

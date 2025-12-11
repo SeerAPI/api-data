@@ -1,0 +1,63 @@
+{
+  "data": {
+    "25318": {
+      "id": 25318,
+      "name": "天焚寰宇",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "有几率使对手烧伤，未触发则提升自身全属性；免疫并反弹异常状态；自身能力提升状态被消除则减少对手最大体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "80%的概率使对手烧伤，未触发则自身全属性+1",
+          "args": [
+            80,
+            2,
+            1
+          ],
+          "effect": {
+            "id": 966,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/966"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内自身能力提升状态被消除或吸取时附加对手最大体力1/2的百分比伤害",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 783,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/783"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b9c74463"
+}

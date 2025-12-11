@@ -1,0 +1,66 @@
+{
+  "data": {
+    "23618": {
+      "id": 23618,
+      "name": "百发百中",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "速度、命中提升了；对方使用属性技能会麻痹",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+2",
+          "args": [
+            4,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身命中等级+2",
+          "args": [
+            5,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "2回合内若对方使用属性技能，则50%使对方麻痹",
+          "args": [
+            2,
+            50,
+            0
+          ],
+          "effect": {
+            "id": 152,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/152"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "185f114f"
+}

@@ -1,0 +1,36 @@
+{
+  "data": {
+    "300033": {
+      "id": 300033,
+      "name": "特攻能量珠",
+      "desc": "增加精灵特攻能力20点（赛尔间对战无效）",
+      "idx": 1004,
+      "use_times": 20,
+      "item": {
+        "id": 300033,
+        "url": "https://api.seerapi.com/v1/item/300033"
+      },
+      "effect": {
+        "effect_args": [
+          4,
+          20
+        ],
+        "effect": {
+          "id": 26,
+          "url": "https://api.seerapi.com/v1/eid_effect/26"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 20,
+        "sp_def": 0,
+        "spd": 0,
+        "hp": 0,
+        "percent": false,
+        "total": 20
+      }
+    }
+  },
+  "hash": "99cec43c"
+}

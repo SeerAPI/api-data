@@ -1,0 +1,40 @@
+{
+  "data": {
+    "10698": {
+      "id": 10698,
+      "name": "魔法天蓝泡",
+      "power": 75,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后10%令对方冻伤",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 14,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/14"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4691330b"
+}

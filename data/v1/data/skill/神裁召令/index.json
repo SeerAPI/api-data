@@ -1,0 +1,78 @@
+{
+  "data": {
+    "28002": {
+      "id": 28002,
+      "name": "神裁召令",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "无视对手速度以及防御能力强化状态；开始与对手反转战斗属性了；若自身先出手则免疫当回合伤害并恢复一些体力；有一定概率令对手瘫痪",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 494,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/494"
+          }
+        },
+        {
+          "info": "5回合内自身与对方反转战斗时属性",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 55,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/55"
+          }
+        },
+        {
+          "info": "若先出手，则免疫当回合伤害并回复1/2的最大体力值",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 170,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/170"
+          }
+        },
+        {
+          "info": "50%令对手瘫痪，未触发则100%令对手束缚，均未触发则令对手攻击+1，速度+1",
+          "args": [
+            50,
+            19,
+            100,
+            28,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 1823,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1823"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fe9cb342"
+}

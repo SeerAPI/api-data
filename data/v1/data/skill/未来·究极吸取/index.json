@@ -1,0 +1,50 @@
+{
+  "data": {
+    "33417": {
+      "id": 33417,
+      "name": "未来·究极吸取",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1012,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1012"
+          }
+        },
+        {
+          "info": "造成伤害的100%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1249,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1249"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ce0e71a2"
+}

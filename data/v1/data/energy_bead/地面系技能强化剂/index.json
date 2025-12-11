@@ -1,0 +1,27 @@
+{
+  "data": {
+    "300685": {
+      "id": 300685,
+      "name": "地面系技能强化剂",
+      "desc": "精灵使用该物品后，地面系技能威力提升10%（使用战斗次数10，赛尔间对抗有效）",
+      "idx": 1102,
+      "use_times": 10,
+      "item": {
+        "id": 300685,
+        "url": "https://api.seerapi.com/v1/item/300685"
+      },
+      "effect": {
+        "effect_args": [
+          7,
+          10
+        ],
+        "effect": {
+          "id": 28,
+          "url": "https://api.seerapi.com/v1/eid_effect/28"
+        }
+      },
+      "ability_buff": null
+    }
+  },
+  "hash": "3e883578"
+}

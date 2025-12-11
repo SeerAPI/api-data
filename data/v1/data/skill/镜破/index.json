@@ -1,0 +1,40 @@
+{
+  "data": {
+    "33006": {
+      "id": 33006,
+      "name": "镜破",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加10%当前体力值的伤害",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 192,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/192"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cfbda1d0"
+}

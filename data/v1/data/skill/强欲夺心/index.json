@@ -1,0 +1,52 @@
+{
+  "data": {
+    "17651": {
+      "id": 17651,
+      "name": "强欲夺心",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若先出手则造成攻击伤害的50%恢复自身体力",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 458,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/458"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特攻等级+1",
+          "args": [
+            2,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2b5ff1b3"
+}

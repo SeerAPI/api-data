@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28073": {
+      "id": 28073,
+      "name": "永黯月辉",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始将自身的能力下降状态反馈给对手了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内每回合自身的能力下降状态都会反馈到对手身上",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 740,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/740"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cc4f0694"
+}

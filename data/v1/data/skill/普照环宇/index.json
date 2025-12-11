@@ -1,0 +1,49 @@
+{
+  "data": {
+    "16686": {
+      "id": 16686,
+      "name": "普照环宇",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "100%降低对手所有技能2点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 39,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/39"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fc4325b2"
+}

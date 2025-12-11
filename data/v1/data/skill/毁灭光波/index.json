@@ -1,0 +1,41 @@
+{
+  "data": {
+    "19775": {
+      "id": 19775,
+      "name": "毁灭光波",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 71,
+        "url": "https://api.seerapi.com/v1/element_type_combination/71"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机恢复100到300点生命值",
+          "args": [
+            100,
+            300
+          ],
+          "effect": {
+            "id": 450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "abb9bbb9"
+}

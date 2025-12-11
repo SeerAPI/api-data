@@ -1,0 +1,76 @@
+{
+  "data": {
+    "27100": {
+      "id": 27100,
+      "name": "地脉充盈",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 98,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "使自身攻击+2、防御+1、特防+1;受到致命一击残留1点体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "args": [
+            0,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+1",
+          "args": [
+            1,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+1",
+          "args": [
+            3,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "下回合受到致命伤害时残留1点体力 ",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 506,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/506"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fc82825f"
+}

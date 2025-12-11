@@ -1,0 +1,67 @@
+{
+  "data": {
+    "37969": {
+      "id": 37969,
+      "name": "高压光栅炮",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/element_type_combination/24"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "为自身附加300点护罩",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1342,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1342"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 879,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/879"
+          }
+        },
+        {
+          "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "args": [],
+          "effect": {
+            "id": 1247,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1247"
+          }
+        },
+        {
+          "info": "击败对手则100%令自身疲惫",
+          "args": [
+            100,
+            7
+          ],
+          "effect": {
+            "id": 1933,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1933"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d79718a9"
+}

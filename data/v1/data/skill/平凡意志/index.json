@@ -1,0 +1,63 @@
+{
+  "data": {
+    "29113": {
+      "id": 29113,
+      "name": "平凡意志",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；获得了护盾；获得了护罩",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "获得300点护盾，护盾消失时附加300点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+          "args": [
+            300,
+            300,
+            1
+          ],
+          "effect": {
+            "id": 1197,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1197"
+          }
+        },
+        {
+          "info": "获得300点护罩，护罩消失时使对手1回合攻击技能无效",
+          "args": [
+            300,
+            1
+          ],
+          "effect": {
+            "id": 1388,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1388"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "36d94771"
+}

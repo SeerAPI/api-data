@@ -1,0 +1,68 @@
+{
+  "data": {
+    "37241": {
+      "id": 37241,
+      "name": "王·魂乎归寂",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "args": [],
+          "effect": {
+            "id": 760,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/760"
+          }
+        },
+        {
+          "info": "吸取对手最大体力的25%，对手每有1级晦暗之因提升5%，吸取后若对手体力未减少则对手下1回合无法主动切换精灵",
+          "args": [
+            25,
+            5,
+            1
+          ],
+          "effect": {
+            "id": 2140,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2140"
+          }
+        },
+        {
+          "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1056,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1056"
+          }
+        },
+        {
+          "info": "击败拥有晦暗之因的对手时自身获得1层晦暗之根",
+          "args": [],
+          "effect": {
+            "id": 2141,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2141"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3a307dd3"
+}

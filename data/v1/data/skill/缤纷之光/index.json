@@ -1,0 +1,60 @@
+{
+  "data": {
+    "26299": {
+      "id": 26299,
+      "name": "缤纷之光",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态和能力下降状态了；自身受到攻击则下回合对手受到的伤害提升",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "4回合内受到攻击则对手下回合受到的伤害翻倍",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 817,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/817"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ea39c7c3"
+}

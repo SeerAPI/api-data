@@ -1,0 +1,72 @@
+{
+  "data": {
+    "36681": {
+      "id": 36681,
+      "name": "暗刃追魂猎",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若本次技能微弱对手则先制+1",
+          "args": [],
+          "effect": {
+            "id": 2030,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2030"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1062,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1062"
+          }
+        },
+        {
+          "info": "令双方所有技能PP值等于此技能剩余PP值，若对手变化值达到10则令对手混乱，若自身变化值达到10则令对手害怕",
+          "args": [
+            10,
+            10,
+            10,
+            6
+          ],
+          "effect": {
+            "id": 2031,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2031"
+          }
+        },
+        {
+          "info": "2回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+          "args": [
+            2,
+            3
+          ],
+          "effect": {
+            "id": 1449,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1449"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "24fbf375"
+}

@@ -1,0 +1,66 @@
+{
+  "data": {
+    "36086": {
+      "id": 36086,
+      "name": "三相聚能炮",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "元素能量，汇集完毕！",
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "攻击对手时若对手处于烧伤状态，则100%使对手焚烬",
+          "args": [
+            2,
+            100,
+            22
+          ],
+          "effect": {
+            "id": 572,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/572"
+          }
+        },
+        {
+          "info": "攻击对手时若对手处于冻伤状态，则100%使对手冰封",
+          "args": [
+            5,
+            100,
+            15
+          ],
+          "effect": {
+            "id": 572,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/572"
+          }
+        },
+        {
+          "info": "攻击对手时若对手处于中毒状态，则100%使对手感染",
+          "args": [
+            1,
+            100,
+            27
+          ],
+          "effect": {
+            "id": 572,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/572"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f46e12b2"
+}

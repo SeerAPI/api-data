@@ -1,0 +1,49 @@
+{
+  "data": {
+    "37128": {
+      "id": 37128,
+      "name": "游隼猛冲",
+      "power": 10,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 116,
+        "url": "https://api.seerapi.com/v1/element_type_combination/116"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做8~12次攻击，每次攻击都有20%的概率令自身攻击+1，速度+1",
+          "args": [
+            1,
+            8,
+            12,
+            20,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 1172,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1172"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7b1df33c"
+}

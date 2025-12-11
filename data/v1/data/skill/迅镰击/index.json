@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36500": {
+      "id": 36500,
+      "name": "迅镰击",
+      "power": 70,
+      "max_pp": 25,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "暴击率提升20%，每次使用额外提升10%，最高概率50%",
+          "args": [
+            20,
+            10,
+            50
+          ],
+          "effect": {
+            "id": 696,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/696"
+          }
+        },
+        {
+          "info": "技能威力提升50%，对手任意1项技能PP值小于2点则提升效果翻倍",
+          "args": [
+            50,
+            2
+          ],
+          "effect": {
+            "id": 1857,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1857"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a165f188"
+}

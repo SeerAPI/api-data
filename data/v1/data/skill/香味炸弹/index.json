@@ -1,0 +1,40 @@
+{
+  "data": {
+    "10671": {
+      "id": 10671,
+      "name": "香味炸弹",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "降低对方10点战斗时的最高HP",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 38,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/38"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a38d90c5"
+}

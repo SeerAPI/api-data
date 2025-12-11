@@ -1,0 +1,141 @@
+{
+  "data": {
+    "77": {
+      "id": 77,
+      "name": "C级圣灵系技能石",
+      "rank": 2,
+      "power": 60,
+      "max_pp": 25,
+      "accuracy": 100,
+      "category": {
+        "id": 16,
+        "url": "https://api.seerapi.com/v1/skill_stone_category/16"
+      },
+      "item": {
+        "id": 1100077,
+        "url": "https://api.seerapi.com/v1/item/1100077"
+      },
+      "effect": [
+        {
+          "prob": 0.15,
+          "effect": [
+            {
+              "info": "10%的概率，1回合内受到的伤害减半",
+              "args": [
+                10,
+                1
+              ],
+              "effect": {
+                "id": 127,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/127"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.06,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身攻击等级+1",
+              "args": [
+                0,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.06,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身防御等级+1",
+              "args": [
+                1,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.06,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身特攻等级+1",
+              "args": [
+                2,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.06,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身特防等级+1",
+              "args": [
+                3,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.06,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身速度等级+1",
+              "args": [
+                4,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.06,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身命中等级+1",
+              "args": [
+                5,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "4f89aed2"
+}

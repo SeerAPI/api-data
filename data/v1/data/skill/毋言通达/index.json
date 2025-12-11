@@ -1,0 +1,74 @@
+{
+  "data": {
+    "29121": {
+      "id": 29121,
+      "name": "毋言通达",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；开始免疫能力下降了；令对手诅咒了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "100%令对手诅咒，未触发则吸取对手最大体力的1/3",
+          "args": [
+            100,
+            23,
+            3
+          ],
+          "effect": {
+            "id": 1047,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1047"
+          }
+        },
+        {
+          "info": "令己方下只出战精灵抵挡下1次对手的攻击，且出战时100%诅咒",
+          "args": [
+            1,
+            100,
+            23
+          ],
+          "effect": {
+            "id": 1882,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1882"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8eacee9b"
+}

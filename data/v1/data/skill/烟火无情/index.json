@@ -1,0 +1,51 @@
+{
+  "data": {
+    "31714": {
+      "id": 31714,
+      "name": "烟火无情",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 29,
+        "url": "https://api.seerapi.com/v1/element_type_combination/29"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则令对手焚烬",
+          "args": [
+            22
+          ],
+          "effect": {
+            "id": 889,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/889"
+          }
+        },
+        {
+          "info": "自身体力低于1/2时，恢复自身最大体力的1/4并造成等量百分比伤害",
+          "args": [
+            2,
+            4
+          ],
+          "effect": {
+            "id": 997,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/997"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3b4f90e6"
+}

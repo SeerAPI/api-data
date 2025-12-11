@@ -1,0 +1,40 @@
+{
+  "data": {
+    "37121": {
+      "id": 37121,
+      "name": "共生链接",
+      "power": 90,
+      "max_pp": 15,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 121,
+        "url": "https://api.seerapi.com/v1/element_type_combination/121"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "恢复己方所有不在场精灵100点体力",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1955,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1955"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "db4ce968"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "23526": {
+      "id": 23526,
+      "name": "暗夜恩赐",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "身影渐渐的消失了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合30%闪避对手攻击",
+          "args": [
+            3,
+            30
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        },
+        {
+          "info": "3回合内若受到攻击则有50%概率令对手中毒",
+          "args": [
+            3,
+            50,
+            1
+          ],
+          "effect": {
+            "id": 164,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/164"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c3a2cd56"
+}

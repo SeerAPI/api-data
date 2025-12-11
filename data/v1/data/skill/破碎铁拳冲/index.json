@@ -1,0 +1,48 @@
+{
+  "data": {
+    "31285": {
+      "id": 31285,
+      "name": "破碎铁拳冲",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则免疫下1回合受到的攻击伤害",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1034,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1034"
+          }
+        },
+        {
+          "info": "若当前HP低于对手，则技能威力翻倍",
+          "args": [],
+          "effect": {
+            "id": 132,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/132"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "35ee0ab7"
+}

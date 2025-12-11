@@ -1,0 +1,63 @@
+{
+  "data": {
+    "26903": {
+      "id": 26903,
+      "name": "俗尘清梦",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；恢复一些体力；自身受到攻击则令对手随机1个技能PP值归零",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身满体力时强化效果翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 893,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/893"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/3，体力少于1/3时恢复效果翻倍",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 900,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/900"
+          }
+        },
+        {
+          "info": "3回合内受到攻击则100%令对手随机1个技能PP值归零",
+          "args": [
+            3,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 780,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/780"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4c54b27a"
+}

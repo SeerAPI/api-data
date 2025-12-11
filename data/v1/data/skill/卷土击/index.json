@@ -1,0 +1,50 @@
+{
+  "data": {
+    "37341": {
+      "id": 37341,
+      "name": "卷土击",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 225,
+        "url": "https://api.seerapi.com/v1/element_type_combination/225"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 913,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/913"
+          }
+        },
+        {
+          "info": "若打出致命一击，则造成伤害值的100%恢复自身体力 ",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 505,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/505"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c1a6acd9"
+}

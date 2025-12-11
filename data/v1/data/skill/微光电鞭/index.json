@@ -1,0 +1,41 @@
+{
+  "data": {
+    "35079": {
+      "id": 35079,
+      "name": "微光电鞭",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 104,
+        "url": "https://api.seerapi.com/v1/element_type_combination/104"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下1回合自身攻击先制+1",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 481,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/481"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f3d8b9b6"
+}

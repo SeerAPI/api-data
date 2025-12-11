@@ -1,0 +1,46 @@
+{
+  "data": {
+    "15422": {
+      "id": 15422,
+      "name": "灵羽打击",
+      "power": 120,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/element_type_combination/4"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合对手速度-1",
+          "args": [
+            3,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0
+          ],
+          "effect": {
+            "id": 448,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/448"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a6c8d2df"
+}

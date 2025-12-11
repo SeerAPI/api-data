@@ -1,0 +1,60 @@
+{
+  "data": {
+    "33601": {
+      "id": 33601,
+      "name": "灵魂碎灭",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/element_type_combination/60"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "攻击时忽略对手25%的防御值",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 566,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/566"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 868,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/868"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功使对手下回合先制-2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 867,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/867"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ca1a3ceb"
+}

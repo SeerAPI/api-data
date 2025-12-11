@@ -1,0 +1,40 @@
+{
+  "data": {
+    "33262": {
+      "id": 33262,
+      "name": "机械撞击",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 103,
+        "url": "https://api.seerapi.com/v1/element_type_combination/103"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成的伤害不会低于120",
+          "args": [
+            120
+          ],
+          "effect": {
+            "id": 135,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/135"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "65a16ac6"
+}

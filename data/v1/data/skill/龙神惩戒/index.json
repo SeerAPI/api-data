@@ -1,0 +1,41 @@
+{
+  "data": {
+    "31567": {
+      "id": 31567,
+      "name": "龙神惩戒",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 63,
+        "url": "https://api.seerapi.com/v1/element_type_combination/63"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "每次命中对手会降低对手下只出战精灵最大体力的10%，最多降低40%",
+          "args": [
+            10,
+            40
+          ],
+          "effect": {
+            "id": 883,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/883"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "80df8cd9"
+}

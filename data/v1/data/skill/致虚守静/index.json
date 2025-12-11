@@ -1,0 +1,52 @@
+{
+  "data": {
+    "28777": {
+      "id": 28777,
+      "name": "致虚守静",
+      "power": 0,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "对攻击技能的抗性提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内受到物理攻击伤害减少100%",
+          "args": [
+            2,
+            0,
+            100
+          ],
+          "effect": {
+            "id": 599,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/599"
+          }
+        },
+        {
+          "info": "2回合内特殊攻击对自身必定miss",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 106,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/106"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ae2cfdd0"
+}

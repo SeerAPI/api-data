@@ -1,0 +1,63 @@
+{
+  "data": {
+    "37224": {
+      "id": 37224,
+      "name": "烈刃砂锋",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 40,
+        "url": "https://api.seerapi.com/v1/element_type_combination/40"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 976,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/976"
+          }
+        },
+        {
+          "info": "每损失2点体力则额外附加1点固定伤害",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 455,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/455"
+          }
+        },
+        {
+          "info": "击败对手则下2回合自身造成的攻击伤害提升50%，若以致命一击击败对手则伤害再提升100%",
+          "args": [
+            2,
+            50,
+            100
+          ],
+          "effect": {
+            "id": 1719,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1719"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "34256dfc"
+}

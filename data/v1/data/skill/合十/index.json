@@ -1,0 +1,58 @@
+{
+  "data": {
+    "36465": {
+      "id": 36465,
+      "name": "合十",
+      "power": 15,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 62,
+        "url": "https://api.seerapi.com/v1/element_type_combination/62"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 1254,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1254"
+          }
+        },
+        {
+          "info": "吸取并反转对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 978,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/978"
+          }
+        },
+        {
+          "info": "1回合做5-10次攻击，若本回合攻击次数达到最大则必定秒杀对手",
+          "args": [
+            1,
+            5,
+            10
+          ],
+          "effect": {
+            "id": 1627,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1627"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5f1d7131"
+}

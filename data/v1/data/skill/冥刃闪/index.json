@@ -1,0 +1,52 @@
+{
+  "data": {
+    "16206": {
+      "id": 16206,
+      "name": "冥刃闪",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 50,
+        "url": "https://api.seerapi.com/v1/element_type_combination/50"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内每回合55%闪避对手攻击",
+          "args": [
+            2,
+            55
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        },
+        {
+          "info": "当自身血量少于1/2时先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 454,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/454"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c34870e1"
+}

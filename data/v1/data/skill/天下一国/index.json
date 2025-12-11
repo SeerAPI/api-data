@@ -1,0 +1,73 @@
+{
+  "data": {
+    "28212": {
+      "id": 28212,
+      "name": "天下一国",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；获得2方永昌玺并吸取对手大量体力；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身拥有的永昌玺数量≥3方时强化效果翻倍",
+          "args": [
+            1,
+            3
+          ],
+          "effect": {
+            "id": 1901,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1901"
+          }
+        },
+        {
+          "info": "获得2方永昌玺",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1902,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1902"
+          }
+        },
+        {
+          "info": "自身每拥有2方永昌玺则吸取对手221点体力",
+          "args": [
+            2,
+            221
+          ],
+          "effect": {
+            "id": 1903,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1903"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4e0d22a6"
+}

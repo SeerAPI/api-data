@@ -1,0 +1,90 @@
+{
+  "data": {
+    "10675": {
+      "id": 10675,
+      "name": "纠缠",
+      "power": 80,
+      "max_pp": 15,
+      "accuracy": 80,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，50%改变对手速度等级-1",
+          "args": [
+            4,
+            50,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "37485": {
+      "id": 37485,
+      "name": "纠缠",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/element_type_combination/39"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令对手束缚，未触发则吸取对手最大体力的1/3",
+          "args": [
+            100,
+            28,
+            3
+          ],
+          "effect": {
+            "id": 1047,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1047"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+          "args": [
+            2,
+            300
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7189a9f5"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "18186": {
+      "id": 18186,
+      "name": "苍白之瀑",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 49,
+        "url": "https://api.seerapi.com/v1/element_type_combination/49"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "40%令本方疲惫，2回合无法攻击",
+          "args": [
+            40,
+            2
+          ],
+          "effect": {
+            "id": 20,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/20"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b7f33118"
+}

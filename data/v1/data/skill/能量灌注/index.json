@@ -1,0 +1,41 @@
+{
+  "data": {
+    "20264": {
+      "id": 20264,
+      "name": "能量灌注",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "能量开始转移了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消耗自身全部体力(体力降到0)，使下一只出战精灵的防御和特攻能力提升1个等级",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 59,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/59"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8591d5b8"
+}

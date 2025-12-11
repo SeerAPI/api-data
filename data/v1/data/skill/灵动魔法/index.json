@@ -1,0 +1,52 @@
+{
+  "data": {
+    "31370": {
+      "id": 31370,
+      "name": "灵动魔法",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/928"
+          }
+        },
+        {
+          "info": "造成的伤害低于200时100%令对手烧伤",
+          "args": [
+            200,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 594,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/594"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6fedf8e2"
+}

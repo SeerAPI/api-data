@@ -1,0 +1,40 @@
+{
+  "data": {
+    "36270": {
+      "id": 36270,
+      "name": "涸荒百川",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 96,
+        "url": "https://api.seerapi.com/v1/element_type_combination/96"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "出手时若自身未满体力则吸取对手350点体力",
+          "args": [
+            350
+          ],
+          "effect": {
+            "id": 1672,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1672"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e4b9d360"
+}

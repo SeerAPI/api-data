@@ -1,0 +1,41 @@
+{
+  "data": {
+    "31187": {
+      "id": 31187,
+      "name": "蓝色魔石",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若造成的伤害高于200，则恢复自身1/4最大体力",
+          "args": [
+            200,
+            4
+          ],
+          "effect": {
+            "id": 689,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/689"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e1f1477e"
+}

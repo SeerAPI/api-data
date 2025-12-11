@@ -1,0 +1,75 @@
+{
+  "data": {
+    "28837": {
+      "id": 28837,
+      "name": "海啸·太阳能",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；受到的固定伤害、百分比伤害开始减少了；开始减少对手的PP值并恢复自身的PP值了；附加了一定的固定伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "4回合内自身受到的固定伤害和百分比伤害减少60%",
+          "args": [
+            4,
+            60
+          ],
+          "effect": {
+            "id": 1475,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1475"
+          }
+        },
+        {
+          "info": "4回合内每回合结束后降低对手所有技能2点PP值并恢复自身所有技能2点PP值",
+          "args": [
+            4,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        },
+        {
+          "info": "附加200点固定伤害，每次使用额外附加50点，最高350点，遇到天敌时效果翻倍",
+          "args": [
+            200,
+            50,
+            350
+          ],
+          "effect": {
+            "id": 497,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/497"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d3d270a"
+}

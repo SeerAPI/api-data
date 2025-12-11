@@ -1,0 +1,41 @@
+{
+  "data": {
+    "13604": {
+      "id": 13604,
+      "name": "履带碾压",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "15%令本方疲惫，1回合无法攻击",
+          "args": [
+            15,
+            1
+          ],
+          "effect": {
+            "id": 20,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/20"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2975758e"
+}

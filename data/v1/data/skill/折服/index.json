@@ -1,0 +1,66 @@
+{
+  "data": {
+    "36622": {
+      "id": 36622,
+      "name": "折服",
+      "power": 85,
+      "max_pp": 6,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 45,
+        "url": "https://api.seerapi.com/v1/element_type_combination/45"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态则先制+1且必定命中",
+          "args": [],
+          "effect": {
+            "id": 2000,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2000"
+          }
+        },
+        {
+          "info": "若对手处于能力提升状态则消除对手回合类效果且100%令对手臣服3回合",
+          "args": [],
+          "effect": {
+            "id": 2001,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2001"
+          }
+        },
+        {
+          "info": "若对手不处于能力提升状态则消除对手回合类效果，消除成功则令对手臣服",
+          "args": [
+            31
+          ],
+          "effect": {
+            "id": 2002,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2002"
+          }
+        },
+        {
+          "info": "若对手处于能力提升状态则造成的攻击伤害提升60%，先出手时提升效果翻倍",
+          "args": [
+            60
+          ],
+          "effect": {
+            "id": 2003,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2003"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5907c5a2"
+}

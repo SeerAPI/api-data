@@ -1,0 +1,58 @@
+{
+  "data": {
+    "37461": {
+      "id": 37461,
+      "name": "霞纱胧影",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/element_type_combination/69"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 1061,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1061"
+          }
+        },
+        {
+          "info": "2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 478,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/478"
+          }
+        },
+        {
+          "info": "自身携带技能中含有的光系多于暗影系时60%令对手疲惫，暗影系多于光系时60%令对手害怕",
+          "args": [
+            60
+          ],
+          "effect": {
+            "id": 2201,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2201"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cd2f8e79"
+}

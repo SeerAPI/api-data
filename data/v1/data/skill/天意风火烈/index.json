@@ -1,0 +1,56 @@
+{
+  "data": {
+    "30399": {
+      "id": 30399,
+      "name": "天意风火烈",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 27,
+        "url": "https://api.seerapi.com/v1/element_type_combination/27"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则特攻+2，速度+2",
+          "args": [
+            0,
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          "effect": {
+            "id": 901,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/901"
+          }
+        },
+        {
+          "info": "造成的伤害低于300则吸取对手1/3最大体力",
+          "args": [
+            300,
+            3
+          ],
+          "effect": {
+            "id": 1104,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1104"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "befd2520"
+}

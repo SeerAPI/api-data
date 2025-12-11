@@ -1,0 +1,49 @@
+{
+  "data": {
+    "35711": {
+      "id": 35711,
+      "name": "拥荧入怀",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于能力提升状态时100%打出致命一击",
+          "args": [],
+          "effect": {
+            "id": 1639,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1639"
+          }
+        },
+        {
+          "info": "未击败对手则对方下1次攻击技能将100%被己方闪避",
+          "args": [
+            1,
+            100
+          ],
+          "effect": {
+            "id": 991,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/991"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "699356c9"
+}

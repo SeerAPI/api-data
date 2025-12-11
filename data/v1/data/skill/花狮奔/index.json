@@ -1,0 +1,53 @@
+{
+  "data": {
+    "33062": {
+      "id": 33062,
+      "name": "花狮奔",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/element_type_combination/68"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过300点",
+          "args": [
+            3,
+            300
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        },
+        {
+          "info": "命中后50%使对手烧伤2回合,遇到天敌概率翻倍",
+          "args": [
+            50,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 640,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/640"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a8dc55af"
+}

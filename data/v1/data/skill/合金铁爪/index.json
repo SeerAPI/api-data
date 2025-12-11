@@ -1,0 +1,41 @@
+{
+  "data": {
+    "31872": {
+      "id": 31872,
+      "name": "合金铁爪",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/element_type_combination/39"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "每次使用则当回合造成的攻击伤害额外提升20%，最高额外提升60%",
+          "args": [
+            20,
+            60
+          ],
+          "effect": {
+            "id": 795,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/795"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f7294b6b"
+}

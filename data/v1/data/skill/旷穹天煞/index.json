@@ -1,0 +1,52 @@
+{
+  "data": {
+    "34240": {
+      "id": 34240,
+      "name": "旷穹天煞",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 85,
+        "url": "https://api.seerapi.com/v1/element_type_combination/85"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下2回合所有技能先制+1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 979,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/979"
+          }
+        },
+        {
+          "info": "40%概率令对手害怕，若对手处于能力提升状态则额外附加20%概率",
+          "args": [
+            40,
+            20
+          ],
+          "effect": {
+            "id": 460,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/460"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6d29e5a4"
+}

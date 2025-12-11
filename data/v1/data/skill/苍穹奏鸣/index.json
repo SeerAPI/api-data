@@ -1,0 +1,75 @@
+{
+  "data": {
+    "28463": {
+      "id": 28463,
+      "name": "苍穹奏鸣",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；开始限制对手的属性技能；受到的伤害开始降低了；吸取了对手的体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内若对手使用属性技能则100%概率令对手麻痹",
+          "args": [
+            3,
+            100,
+            0
+          ],
+          "effect": {
+            "id": 469,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/469"
+          }
+        },
+        {
+          "info": "3回合内自身受到的攻击伤害额外减少50%",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 1984,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1984"
+          }
+        },
+        {
+          "info": "吸取对手250点固定体力，每次使用额外附加50点，最高400点",
+          "args": [
+            250,
+            50,
+            400
+          ],
+          "effect": {
+            "id": 837,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/837"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6e91cf56"
+}

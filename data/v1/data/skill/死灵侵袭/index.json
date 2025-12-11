@@ -1,0 +1,41 @@
+{
+  "data": {
+    "30587": {
+      "id": 30587,
+      "name": "死灵侵袭",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 90,
+        "url": "https://api.seerapi.com/v1/element_type_combination/90"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成的攻击伤害若低于300则恢复自身200点体力",
+          "args": [
+            300,
+            200
+          ],
+          "effect": {
+            "id": 541,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/541"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "80f76092"
+}

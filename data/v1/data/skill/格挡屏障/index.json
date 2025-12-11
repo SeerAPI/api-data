@@ -1,0 +1,40 @@
+{
+  "data": {
+    "36510": {
+      "id": 36510,
+      "name": "格挡屏障",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 96,
+      "crit_rate": 12.5,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "免疫下1次对手的攻击",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 570,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/570"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "86510501"
+}

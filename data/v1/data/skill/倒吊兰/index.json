@@ -1,0 +1,61 @@
+{
+  "data": {
+    "36880": {
+      "id": 36880,
+      "name": "倒吊兰",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则自身下2次技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 994,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/994"
+          }
+        },
+        {
+          "info": "对手处于异常状态则吸取对手350点体力",
+          "args": [
+            350
+          ],
+          "effect": {
+            "id": 1214,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1214"
+          }
+        },
+        {
+          "info": "对手不处于异常状态时令对手随机1个技能PP值归零",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2081,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2081"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "97552532"
+}

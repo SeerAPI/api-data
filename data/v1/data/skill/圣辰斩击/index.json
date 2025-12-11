@@ -1,0 +1,60 @@
+{
+  "data": {
+    "34046": {
+      "id": 34046,
+      "name": "圣辰斩击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 16,
+        "url": "https://api.seerapi.com/v1/element_type_combination/16"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升，消除成功可以抵挡2回合内对手的攻击伤害",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 794,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/794"
+          }
+        },
+        {
+          "info": "先出手时造成的攻击伤害额外提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 986,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/986"
+          }
+        },
+        {
+          "info": "后出手时下回合攻击技能先制+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1549,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1549"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b8b4d811"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "28439": {
+      "id": 28439,
+      "name": "无终痴念",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "提高了警戒",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内若自身回合类效果被消除则对手下2回合造成的攻击伤害额外减少50%",
+          "args": [
+            5,
+            2,
+            50
+          ],
+          "effect": {
+            "id": 1886,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1886"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fa60d6f1"
+}

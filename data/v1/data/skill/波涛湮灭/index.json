@@ -1,0 +1,65 @@
+{
+  "data": {
+    "24561": {
+      "id": 24561,
+      "name": "波涛湮灭",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "对手变得更加脆弱；对手使用属性技能降低自身学血量；锁定受到的伤害；",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%概率使对手3回合内特防能力每回合变化-2",
+          "args": [
+            100,
+            3,
+            3,
+            -2
+          ],
+          "effect": {
+            "id": 643,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/643"
+          }
+        },
+        {
+          "info": "3回合内若对手成功使用属性技能则受到200点固定伤害",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 526,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/526"
+          }
+        },
+        {
+          "info": "4回合内每回合被攻击所受到的伤害不超过280",
+          "args": [
+            4,
+            280
+          ],
+          "effect": {
+            "id": 125,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/125"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1053cd84"
+}

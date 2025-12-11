@@ -1,0 +1,53 @@
+{
+  "data": {
+    "404": {
+      "id": 404,
+      "name": "毒液战甲",
+      "transform": false,
+      "tran_speed": 0.0,
+      "suit_desc": "赛尔们在冒险中获得的套装，能够改变外观或者增强力量",
+      "equips": [
+        {
+          "id": 1300843,
+          "url": "https://api.seerapi.com/v1/equip/1300843"
+        },
+        {
+          "id": 1300844,
+          "url": "https://api.seerapi.com/v1/equip/1300844"
+        },
+        {
+          "id": 1300845,
+          "url": "https://api.seerapi.com/v1/equip/1300845"
+        },
+        {
+          "id": 1300846,
+          "url": "https://api.seerapi.com/v1/equip/1300846"
+        }
+      ],
+      "bonus": {
+        "newse_id": 7750,
+        "eid_effect": {
+          "effect_args": [
+            15,
+            15,
+            10,
+            30,
+            30,
+            15,
+            30,
+            1
+          ],
+          "effect": {
+            "id": 1494,
+            "url": "https://api.seerapi.com/v1/eid_effect/1494"
+          }
+        },
+        "id": 404,
+        "desc": "游戏首回合开始时，令对手背包内精灵本场战斗防御值-15%、特防值-15%、速度-10%；令对手在场精灵恢复体力时恢复效果减少30%(体力药剂除外)；己方精灵使用攻击技能30%附加对手最大体力15%的百分比伤害，若对手未受到该百分比伤害则当回合造成的攻击伤害提升30%（仅限赛尔与赛尔间对战）",
+        "effective_pets": [],
+        "attribute": null
+      }
+    }
+  },
+  "hash": "627c243"
+}

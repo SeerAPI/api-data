@@ -1,0 +1,51 @@
+{
+  "data": {
+    "28326": {
+      "id": 28326,
+      "name": "蓝之初释",
+      "power": 0,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "双方一同进入了全属性下降状态，从而自身的蓝色龙鳞得到了释放",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令自身全属性-1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1191"
+          }
+        },
+        {
+          "info": "100%令对手全属性-1",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 749,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/749"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8951b042"
+}

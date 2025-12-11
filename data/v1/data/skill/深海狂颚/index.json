@@ -1,0 +1,63 @@
+{
+  "data": {
+    "38023": {
+      "id": 38023,
+      "name": "深海狂颚",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下1次攻击技能造成的伤害额外提升100%",
+          "args": [
+            1,
+            100
+          ],
+          "effect": {
+            "id": 1179,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1179"
+          }
+        },
+        {
+          "info": "自身不处于能力提升状态则造成的伤害提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1152,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1152"
+          }
+        },
+        {
+          "info": "未击败对手则下2次使用技能后令对手100%冻伤",
+          "args": [
+            2,
+            100,
+            5
+          ],
+          "effect": {
+            "id": 1050,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1050"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7a7ec738"
+}

@@ -1,0 +1,74 @@
+{
+  "data": {
+    "36147": {
+      "id": 36147,
+      "name": "辉·沧天逆流拳",
+      "power": 7,
+      "max_pp": 7,
+      "accuracy": 95,
+      "crit_rate": 18.75,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "静若处子，动如脱兔；天奔奥义，沧天逆流！",
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 116,
+        "url": "https://api.seerapi.com/v1/element_type_combination/116"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身不处于能力提升状态时则攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 763,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/763"
+          }
+        },
+        {
+          "info": "1回合做7次攻击，自身每有1项技能PP值不为满则连击次数+7",
+          "args": [
+            7,
+            7
+          ],
+          "effect": {
+            "id": 1863,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1863"
+          }
+        },
+        {
+          "info": "附加自身已损失PP值总和x40的固定伤害，对手免疫固定伤害时额外附加等量的真实伤害",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 1737,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1737"
+          }
+        },
+        {
+          "info": "击败对手则恢复自身全部体力和所有技能PP值",
+          "args": [],
+          "effect": {
+            "id": 1156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1156"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a9f31e11"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "21408": {
+      "id": 21408,
+      "name": "烈焰之径",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "速度提升了，体力开始慢慢恢复了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+1",
+          "args": [
+            4,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能恢复自身最大体力的1/5",
+          "args": [
+            3,
+            5
+          ],
+          "effect": {
+            "id": 57,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ecaaa157"
+}

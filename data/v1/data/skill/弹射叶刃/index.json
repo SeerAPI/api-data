@@ -1,0 +1,41 @@
+{
+  "data": {
+    "10674": {
+      "id": 10674,
+      "name": "弹射叶刃",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5%令对手疲惫2回合",
+          "args": [
+            5,
+            1
+          ],
+          "effect": {
+            "id": 22,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/22"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a38347c3"
+}

@@ -1,0 +1,78 @@
+{
+  "data": {
+    "37964": {
+      "id": 37964,
+      "name": "魂·岳鉴诸天",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 100,
+        "url": "https://api.seerapi.com/v1/element_type_combination/100"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过200点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少100%",
+          "args": [
+            2,
+            200,
+            2,
+            100
+          ],
+          "effect": {
+            "id": 1897,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1897"
+          }
+        },
+        {
+          "info": "自身天赋值越高则技能威力越大",
+          "args": [],
+          "effect": {
+            "id": 1470,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1470"
+          }
+        },
+        {
+          "info": "将对手攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+          "args": [],
+          "effect": {
+            "id": 1538,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1538"
+          }
+        },
+        {
+          "info": "先出手时对手当回合属性技能无效",
+          "args": [],
+          "effect": {
+            "id": 980,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/980"
+          }
+        },
+        {
+          "info": "后出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则伤害额外提升50%",
+          "args": [
+            100,
+            50
+          ],
+          "effect": {
+            "id": 1718,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1718"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4aba180e"
+}

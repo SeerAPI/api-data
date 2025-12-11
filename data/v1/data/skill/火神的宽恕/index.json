@@ -1,0 +1,40 @@
+{
+  "data": {
+    "11333": {
+      "id": 11333,
+      "name": "火神的宽恕",
+      "power": 115,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/element_type_combination/3"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "当次攻击击败对方出战精灵时恢复自身最大体力的1/6",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 66,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/66"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "98c89c2"
+}

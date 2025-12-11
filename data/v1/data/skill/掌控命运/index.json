@@ -1,0 +1,50 @@
+{
+  "data": {
+    "30816": {
+      "id": 30816,
+      "name": "掌控命运",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 478,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/478"
+          }
+        },
+        {
+          "info": "吸取对手250点体力，体力低于对手时吸取效果翻倍",
+          "args": [
+            250
+          ],
+          "effect": {
+            "id": 894,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/894"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "907191f0"
+}

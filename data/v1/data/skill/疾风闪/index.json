@@ -1,0 +1,41 @@
+{
+  "data": {
+    "15221": {
+      "id": 15221,
+      "name": "疾风闪",
+      "power": 70,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/element_type_combination/4"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%概率附加速度的1/8伤害",
+          "args": [
+            100,
+            8
+          ],
+          "effect": {
+            "id": 115,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/115"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "af1a0ba"
+}

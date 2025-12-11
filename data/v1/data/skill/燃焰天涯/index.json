@@ -1,0 +1,42 @@
+{
+  "data": {
+    "23222": {
+      "id": 23222,
+      "name": "燃焰天涯",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "接下来的攻击可能使对手烧伤",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "6回合内若自身攻击技能命中则60%令对手烧伤",
+          "args": [
+            5,
+            60,
+            2
+          ],
+          "effect": {
+            "id": 470,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/470"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a3b182e7"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "36258": {
+      "id": 36258,
+      "name": "香茗半盏",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 12.5,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 82,
+        "url": "https://api.seerapi.com/v1/element_type_combination/82"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时造成的攻击伤害额外提升60%",
+          "args": [
+            60
+          ],
+          "effect": {
+            "id": 986,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/986"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "51d35c72"
+}

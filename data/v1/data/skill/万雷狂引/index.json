@@ -1,0 +1,52 @@
+{
+  "data": {
+    "32830": {
+      "id": 32830,
+      "name": "万雷狂引",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 34,
+        "url": "https://api.seerapi.com/v1/element_type_combination/34"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身3回合内免疫并反弹异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1381,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1381"
+          }
+        },
+        {
+          "info": "50%的概率打出致命一击，未触发则下2回合自身先制+1",
+          "args": [
+            50,
+            2,
+            1
+          ],
+          "effect": {
+            "id": 1413,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1413"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "44656ee8"
+}

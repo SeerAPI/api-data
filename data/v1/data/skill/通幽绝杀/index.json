@@ -1,0 +1,49 @@
+{
+  "data": {
+    "33696": {
+      "id": 33696,
+      "name": "通幽绝杀",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于害怕状态，则10%概率秒杀对手",
+          "args": [
+            6,
+            10
+          ],
+          "effect": {
+            "id": 495,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/495"
+          }
+        },
+        {
+          "info": "清除对手身上的黑暗之种，清除成功则令对手随机受到1-500点固定伤害",
+          "args": [],
+          "effect": {
+            "id": 1503,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1503"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "777695bb"
+}

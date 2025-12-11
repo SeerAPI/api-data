@@ -1,0 +1,48 @@
+{
+  "data": {
+    "32248": {
+      "id": 32248,
+      "name": "雪鹿凝冰踏",
+      "power": 240,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "每次命中对手后此技能威力下降40点",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 810,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/810"
+          }
+        },
+        {
+          "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "args": [],
+          "effect": {
+            "id": 811,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/811"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2abab9e4"
+}

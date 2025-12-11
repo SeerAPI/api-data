@@ -1,0 +1,73 @@
+{
+  "data": {
+    "28285": {
+      "id": 28285,
+      "name": "诸行无常",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "若自身持有回体标记则自身的回合类效果开始无法被消除；为对手附加失体Ⅰ标记；开始免疫并反弹异常状态了；开始吸取对手体力了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身持有回体标记则2回合内自身回合类效果无法被消除（后出手则延续1回合）",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1967,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1967"
+          }
+        },
+        {
+          "info": "若对手未持有失体Ⅰ则为对手附加持续3回合的失体Ⅰ，若对手已持有失体Ⅰ则将回合数刷新至3回合",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 1968,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1968"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+          "args": [
+            4,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 971,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/971"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a1ac8c57"
+}

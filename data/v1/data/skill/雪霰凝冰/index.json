@@ -1,0 +1,51 @@
+{
+  "data": {
+    "36729": {
+      "id": 36729,
+      "name": "雪霰凝冰",
+      "power": 85,
+      "max_pp": 15,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 91,
+        "url": "https://api.seerapi.com/v1/element_type_combination/91"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视攻击免疫效果",
+          "args": [],
+          "effect": {
+            "id": 699,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则50%令对手睡眠，未触发则100%令对手冰封",
+          "args": [
+            50,
+            8,
+            100,
+            15
+          ],
+          "effect": {
+            "id": 1138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1138"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d69532df"
+}

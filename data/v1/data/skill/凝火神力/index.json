@@ -1,0 +1,77 @@
+{
+  "data": {
+    "23633": {
+      "id": 23633,
+      "name": "凝火神力",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "双防提升了；体力开始慢慢恢复了；受到攻击对手有一定几率烧伤",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+1",
+          "args": [
+            1,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+1",
+          "args": [
+            3,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "4回合内若受到攻击则有60%概率令对手烧伤",
+          "args": [
+            4,
+            60,
+            2
+          ],
+          "effect": {
+            "id": 164,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/164"
+          }
+        },
+        {
+          "info": "3回合内若使用技能则恢复150点体力值",
+          "args": [
+            3,
+            150
+          ],
+          "effect": {
+            "id": 77,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/77"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ef81fb42"
+}

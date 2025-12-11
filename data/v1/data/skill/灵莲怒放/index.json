@@ -1,0 +1,51 @@
+{
+  "data": {
+    "26785": {
+      "id": 26785,
+      "name": "灵莲怒放",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身致命率提升了；自身打出致命则恢复所有体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内致命一击率上升5/16",
+          "args": [
+            2,
+            5
+          ],
+          "effect": {
+            "id": 620,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/620"
+          }
+        },
+        {
+          "info": "下2回合若打出致命一击则必定恢复全部体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 702,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/702"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e9c02036"
+}

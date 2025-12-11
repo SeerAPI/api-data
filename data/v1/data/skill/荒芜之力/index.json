@@ -1,0 +1,53 @@
+{
+  "data": {
+    "23268": {
+      "id": 23268,
+      "name": "荒芜之力",
+      "power": 0,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "每次直接攻击对手的防御和特防都会降低；对手会受到额外伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%概率令对手在2回合内每回合受到100点固定伤害",
+          "args": [
+            100,
+            2,
+            100
+          ],
+          "effect": {
+            "id": 76,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/76"
+          }
+        },
+        {
+          "info": "2回合内每次直接攻击都会使对手防御和特防-1",
+          "args": [
+            2,
+            -1
+          ],
+          "effect": {
+            "id": 427,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/427"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "570ebb8e"
+}

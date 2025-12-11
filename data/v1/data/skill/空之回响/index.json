@@ -1,0 +1,59 @@
+{
+  "data": {
+    "27346": {
+      "id": 27346,
+      "name": "空之回响",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "使对手全属性都下降了；开始每回合令对手速度和命中-1；对手使用属性技能则进入害怕",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%使对手全属性-1，3回合内每回合对手速度-1，命中-1",
+          "args": [
+            100,
+            3,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "effect": {
+            "id": 1428,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1428"
+          }
+        },
+        {
+          "info": "3回合内若对手使用属性技能则100%概率令对手害怕",
+          "args": [
+            3,
+            100,
+            6
+          ],
+          "effect": {
+            "id": 469,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/469"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "73466569"
+}

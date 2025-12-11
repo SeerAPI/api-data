@@ -1,0 +1,50 @@
+{
+  "data": {
+    "17859": {
+      "id": 17859,
+      "name": "致命怒火",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/element_type_combination/47"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手的能力提升效果转化到自己身上",
+          "args": [],
+          "effect": {
+            "id": 85,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/85"
+          }
+        },
+        {
+          "info": "攻击对手时若对手处于烧伤状态，则50%使对手害怕",
+          "args": [
+            2,
+            50,
+            6
+          ],
+          "effect": {
+            "id": 572,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/572"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b1264184"
+}

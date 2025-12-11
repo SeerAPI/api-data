@@ -1,0 +1,51 @@
+{
+  "data": {
+    "17569": {
+      "id": 17569,
+      "name": "巨岩爆破",
+      "power": 80,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 54,
+        "url": "https://api.seerapi.com/v1/element_type_combination/54"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时恢复1/5体力",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 565,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/565"
+          }
+        },
+        {
+          "info": "100%随机附加烧伤，冻伤，中毒中的1种",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 451,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/451"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4db29735"
+}

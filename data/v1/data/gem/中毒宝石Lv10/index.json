@@ -1,0 +1,39 @@
+{
+  "data": {
+    "1800030": {
+      "next_level_gem": null,
+      "category": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/gem_category/3"
+      },
+      "effect": [
+        {
+          "info": "命中后30%令对方中毒",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 11,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/11"
+          }
+        }
+      ],
+      "item": {
+        "id": 1800030,
+        "url": "https://api.seerapi.com/v1/item/1800030"
+      },
+      "id": 1800030,
+      "name": "中毒宝石Lv10",
+      "level": 10,
+      "generation_id": 1,
+      "inlay_rate": 30.0,
+      "equivalent_level1_count": 28672000,
+      "fail_compensate_range": [
+        1,
+        10
+      ],
+      "upgrade_cost": null
+    }
+  },
+  "hash": "e86c629c"
+}

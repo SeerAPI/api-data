@@ -1,0 +1,51 @@
+{
+  "data": {
+    "33255": {
+      "id": 33255,
+      "name": "赤射火雨",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 27,
+        "url": "https://api.seerapi.com/v1/element_type_combination/27"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下2回合造成的攻击伤害额外提升100%",
+          "args": [
+            2,
+            100
+          ],
+          "effect": {
+            "id": 1124,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1124"
+          }
+        },
+        {
+          "info": "先出手时2回合内免疫异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 471,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/471"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "25a072f7"
+}

@@ -1,0 +1,27 @@
+{
+  "data": {
+    "300683": {
+      "id": 300683,
+      "name": "电系技能强化剂",
+      "desc": "精灵使用该物品后，电系技能威力提升10%（使用战斗次数10，赛尔间对抗有效）",
+      "idx": 1100,
+      "use_times": 10,
+      "item": {
+        "id": 300683,
+        "url": "https://api.seerapi.com/v1/item/300683"
+      },
+      "effect": {
+        "effect_args": [
+          5,
+          10
+        ],
+        "effect": {
+          "id": 28,
+          "url": "https://api.seerapi.com/v1/eid_effect/28"
+        }
+      },
+      "ability_buff": null
+    }
+  },
+  "hash": "c816be11"
+}

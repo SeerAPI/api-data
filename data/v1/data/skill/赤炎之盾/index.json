@@ -1,0 +1,63 @@
+{
+  "data": {
+    "28444": {
+      "id": 28444,
+      "name": "赤炎之盾",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫受到的异常状态；使对手烧伤了；开始免疫并反弹受到的致命一击伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "100%令对手烧伤，若对手已处于烧伤状态则将此状态刷新至3回合",
+          "args": [
+            100,
+            2,
+            2,
+            3
+          ],
+          "effect": {
+            "id": 1586,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1586"
+          }
+        },
+        {
+          "info": "3回合内免疫受到的致命一击伤害并直接扣除对手等量体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 692,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/692"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e2bcf156"
+}

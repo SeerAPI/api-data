@@ -1,0 +1,52 @@
+{
+  "data": {
+    "24212": {
+      "id": 24212,
+      "name": "结界诅咒",
+      "power": 0,
+      "max_pp": 3,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始慢慢吸取对手体力了；受到的伤害减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内每回合吸取对手当前体力的1/4",
+          "args": [
+            4,
+            4
+          ],
+          "effect": {
+            "id": 796,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/796"
+          }
+        },
+        {
+          "info": "4回合内每回合所受的伤害减少120",
+          "args": [
+            4,
+            120
+          ],
+          "effect": {
+            "id": 408,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/408"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "acb1360c"
+}

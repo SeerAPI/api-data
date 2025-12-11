@@ -1,0 +1,41 @@
+{
+  "data": {
+    "16822": {
+      "id": 16822,
+      "name": "光辉一击",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 59,
+        "url": "https://api.seerapi.com/v1/element_type_combination/59"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力上升状态，消除成功对手命中-2",
+          "args": [
+            5,
+            -2
+          ],
+          "effect": {
+            "id": 621,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/621"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bdbf63b4"
+}

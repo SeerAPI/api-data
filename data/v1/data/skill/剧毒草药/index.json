@@ -1,0 +1,54 @@
+{
+  "data": {
+    "35147": {
+      "id": 35147,
+      "name": "剧毒草药",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/element_type_combination/21"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则50%令对手感染，未触发则100%令对手中毒",
+          "args": [
+            50,
+            27,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 1398,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1398"
+          }
+        },
+        {
+          "info": "造成的伤害低于300则为自身附加300点护盾",
+          "args": [
+            300,
+            300
+          ],
+          "effect": {
+            "id": 1120,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1120"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7b68bd8f"
+}

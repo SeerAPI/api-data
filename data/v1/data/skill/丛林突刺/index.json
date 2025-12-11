@@ -1,0 +1,50 @@
+{
+  "data": {
+    "17393": {
+      "id": 17393,
+      "name": "丛林突刺",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/element_type_combination/22"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "恢复自身已损失体力值的1/2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 509,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/509"
+          }
+        },
+        {
+          "info": "减少100点下回合所受的伤害 ",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 508,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/508"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d47e4fa6"
+}

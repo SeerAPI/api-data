@@ -1,0 +1,50 @@
+{
+  "data": {
+    "30569": {
+      "id": 30569,
+      "name": "碧叶连天",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升，消除成功3回合内对手无法通过自身技能恢复体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 905,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/905"
+          }
+        },
+        {
+          "info": "后出手时下回合受到的伤害降低200点",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 969,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/969"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e1d7fb1"
+}

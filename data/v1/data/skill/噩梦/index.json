@@ -1,0 +1,40 @@
+{
+  "data": {
+    "10976": {
+      "id": 10976,
+      "name": "噩梦",
+      "power": 80,
+      "max_pp": 25,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后10%令对手睡眠",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 16,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/16"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ee0c7c55"
+}

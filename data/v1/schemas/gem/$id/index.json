@@ -65,13 +65,70 @@
       "title": "Generation Id",
       "type": "integer"
     },
+    "inlay_rate": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "镶嵌成功率",
+      "title": "Inlay Rate"
+    },
+    "equivalent_level1_count": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "相当于多少个1级宝石",
+      "title": "Equivalent Level1 Count"
+    },
+    "fail_compensate_range": {
+      "anyOf": [
+        {
+          "maxItems": 2,
+          "minItems": 2,
+          "prefixItems": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "当镶嵌失败时返还的宝石的等级范围，仅在1代宝石中有效",
+      "title": "Fail Compensate Range"
+    },
     "upgrade_cost": {
-      "description": "升级到该等级需要的石之砂数量",
-      "title": "Upgrade Cost",
-      "type": "integer"
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "升级到该等级需要的石之砂数量，仅在2代宝石中有效",
+      "title": "Upgrade Cost"
     },
     "hash": {
-      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
       "type": "string"
     }
@@ -84,10 +141,9 @@
     "name",
     "level",
     "generation_id",
-    "upgrade_cost",
     "hash"
   ],
-  "title": "GemGen2",
+  "title": "Gem",
   "type": "object",
   "$schema": "https://json-schema.org/draft/2020-12/schema"
 }

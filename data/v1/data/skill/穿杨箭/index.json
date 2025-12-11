@@ -1,0 +1,46 @@
+{
+  "data": {
+    "16557": {
+      "id": 16557,
+      "name": "穿杨箭",
+      "power": 80,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视对手双防能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 195,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/195"
+          }
+        },
+        {
+          "info": "无视对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 494,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/494"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d054fa4c"
+}

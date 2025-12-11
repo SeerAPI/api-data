@@ -1,0 +1,73 @@
+{
+  "data": {
+    "29193": {
+      "id": 29193,
+      "name": "蜃阙余尘",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "消除了双方的回合类效果；全属性提升了并解除了双方的异常状态；将自己的能力给予了对手；恢复了体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手时消除双方回合类效果，消除成功对手下2回合属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2369,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2369"
+          }
+        },
+        {
+          "info": "全属性+1，双方处于异常状态时效果翻倍，对手处于时将其解除且对手2回合内无法主动切换精灵，自身处于时将其解除并恢复己方所有精灵自身最大体力的1/3",
+          "args": [
+            1,
+            2,
+            3
+          ],
+          "effect": {
+            "id": 2367,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2367"
+          }
+        },
+        {
+          "info": "下2次攻击将自身防御、特防最低的能力值视为对手的能力值进行攻击，若未造成伤害则令对手石化",
+          "args": [
+            2,
+            9
+          ],
+          "effect": {
+            "id": 2368,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2368"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/1，技能无效时恢复自身最大体力的1/3并令对手石化",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2370,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2370"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5e95a0de"
+}

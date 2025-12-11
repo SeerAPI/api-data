@@ -1,0 +1,73 @@
+{
+  "data": {
+    "37357": {
+      "id": 37357,
+      "name": "协议IV·解",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 122,
+        "url": "https://api.seerapi.com/v1/element_type_combination/122"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "构造IV：先出手时造成的攻击伤害提升50%",
+          "args": [],
+          "effect": {
+            "id": 2152,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2152"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1747,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1747"
+          }
+        },
+        {
+          "info": "100%令对手麻痹，未触发则自身下2回合攻击必定致命一击，触发后2回合内若对手主动切换精灵则当回合开始后100%令对手麻痹",
+          "args": [
+            100,
+            0,
+            2,
+            2,
+            100,
+            0
+          ],
+          "effect": {
+            "id": 1600,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1600"
+          }
+        },
+        {
+          "info": "造成伤害的100%恢复自身体力，若打出致命一击则附加恢复体力值等量的百分比伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1323,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1323"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6bfb7e79"
+}

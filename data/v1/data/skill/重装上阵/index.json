@@ -1,0 +1,87 @@
+{
+  "data": {
+    "22272": {
+      "id": 22272,
+      "name": "重装上阵",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "体力恢复了一些，受到的伤害减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "恢复自身最大体力的1/2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "100%的概率，1回合内受到的伤害减半",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 127,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/127"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "28938": {
+      "id": 28938,
+      "name": "重装上阵",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "获得了护盾值",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身每处于1种能力提升状态，则为自身附加160点护盾",
+          "args": [
+            1,
+            160
+          ],
+          "effect": {
+            "id": 1013,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1013"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "98ec367a"
+}

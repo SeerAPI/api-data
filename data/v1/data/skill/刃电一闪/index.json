@@ -1,0 +1,49 @@
+{
+  "data": {
+    "19505": {
+      "id": 19505,
+      "name": "刃电一闪",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 36,
+        "url": "https://api.seerapi.com/v1/element_type_combination/36"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "4回合内每回合70%闪避对手攻击",
+          "args": [
+            4,
+            70
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "eacb42fe"
+}

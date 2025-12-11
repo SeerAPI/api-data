@@ -1,0 +1,41 @@
+{
+  "data": {
+    "27964": {
+      "id": 27964,
+      "name": "僧守方阵",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "对手恢复体力时的恢复效果开始减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内对手恢复体力时恢复效果减少50%",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 761,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/761"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4ba5c3e2"
+}

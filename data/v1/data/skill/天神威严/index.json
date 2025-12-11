@@ -1,0 +1,51 @@
+{
+  "data": {
+    "26557": {
+      "id": 26557,
+      "name": "天神威严",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "恢复自身一些体力；开始闪避对手的攻击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "恢复自身已损失体力值的1/2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 509,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/509"
+          }
+        },
+        {
+          "info": "2回合内每回合50%闪避对手攻击",
+          "args": [
+            2,
+            50
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3be42d8b"
+}

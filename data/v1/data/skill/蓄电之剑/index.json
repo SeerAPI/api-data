@@ -1,0 +1,40 @@
+{
+  "data": {
+    "26449": {
+      "id": 26449,
+      "name": "蓄电之剑",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身攻击威力提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内自身所有攻击威力为两倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 480,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/480"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e0e874b5"
+}

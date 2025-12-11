@@ -1,0 +1,52 @@
+{
+  "data": {
+    "36951": {
+      "id": 36951,
+      "name": "嗜血回旋",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 106,
+        "url": "https://api.seerapi.com/v1/element_type_combination/106"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "遇到天敌时70%令对手失明",
+          "args": [
+            70,
+            20
+          ],
+          "effect": {
+            "id": 1488,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1488"
+          }
+        },
+        {
+          "info": "遇到天敌时70%令对手沉默",
+          "args": [
+            70,
+            30
+          ],
+          "effect": {
+            "id": 1488,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1488"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a9e3381b"
+}

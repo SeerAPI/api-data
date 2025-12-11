@@ -1,0 +1,62 @@
+{
+  "data": {
+    "391": {
+      "id": 391,
+      "name": "时空战甲套装",
+      "transform": false,
+      "tran_speed": 0.0,
+      "suit_desc": "赛尔们在冒险中获得的套装，能够改变外观或者增强力量",
+      "equips": [
+        {
+          "id": 1300786,
+          "url": "https://api.seerapi.com/v1/equip/1300786"
+        },
+        {
+          "id": 1300787,
+          "url": "https://api.seerapi.com/v1/equip/1300787"
+        },
+        {
+          "id": 1300788,
+          "url": "https://api.seerapi.com/v1/equip/1300788"
+        },
+        {
+          "id": 1300789,
+          "url": "https://api.seerapi.com/v1/equip/1300789"
+        }
+      ],
+      "bonus": {
+        "newse_id": 7743,
+        "eid_effect": {
+          "effect_args": [
+            11,
+            10,
+            1,
+            30,
+            5,
+            30,
+            5,
+            1
+          ],
+          "effect": {
+            "id": 1208,
+            "url": "https://api.seerapi.com/v1/eid_effect/1208"
+          }
+        },
+        "id": 391,
+        "desc": "速度+11%；每回合有10%的几率使登场精灵免疫异常状态，未触发则使自身下1次受到的攻击伤害、固定伤害和百分比伤害减少30%同时使自身本次战斗免疫异常状态的几率提高5%（最高30%）；受到攻击时吸取对手当前体力的1/5（仅限赛尔与赛尔间对战）",
+        "effective_pets": [],
+        "attribute": {
+          "atk": 0,
+          "def": 0,
+          "sp_atk": 0,
+          "sp_def": 0,
+          "spd": 11,
+          "hp": 0,
+          "percent": true,
+          "total": 11
+        }
+      }
+    }
+  },
+  "hash": "5bde9931"
+}

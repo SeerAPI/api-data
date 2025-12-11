@@ -1,0 +1,75 @@
+{
+  "data": {
+    "24089": {
+      "id": 24089,
+      "name": "次元扭转",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；消除对手能力提升；免疫能力下降；反弹对手伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 585,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "作用2~4回合，每回合反弹对手1/3的伤害",
+          "args": [
+            2,
+            4,
+            3
+          ],
+          "effect": {
+            "id": 21,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/21"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d6a2854d"
+}

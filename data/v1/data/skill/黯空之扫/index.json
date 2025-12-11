@@ -1,0 +1,52 @@
+{
+  "data": {
+    "35073": {
+      "id": 35073,
+      "name": "黯空之扫",
+      "power": 15,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 70,
+        "url": "https://api.seerapi.com/v1/element_type_combination/70"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做4-8次攻击，对手处于异常状态时连击上限为10",
+          "args": [
+            4,
+            8,
+            10
+          ],
+          "effect": {
+            "id": 1685,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1685"
+          }
+        },
+        {
+          "info": "反转对手能力提升状态，反转成功则令对手害怕，反转失败则消除对手能力提升状态",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 1347,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1347"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "71451d5d"
+}

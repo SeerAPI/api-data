@@ -1,0 +1,63 @@
+{
+  "data": {
+    "32589": {
+      "id": 32589,
+      "name": "邪念余烬",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 99,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 106,
+        "url": "https://api.seerapi.com/v1/element_type_combination/106"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+          "args": [
+            150,
+            300,
+            30,
+            300
+          ],
+          "effect": {
+            "id": 604,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/604"
+          }
+        },
+        {
+          "info": "命中后75%令对方害怕",
+          "args": [
+            75
+          ],
+          "effect": {
+            "id": 15,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/15"
+          }
+        },
+        {
+          "info": "命中后75%令对方烧伤",
+          "args": [
+            75
+          ],
+          "effect": {
+            "id": 12,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/12"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "beec61c2"
+}

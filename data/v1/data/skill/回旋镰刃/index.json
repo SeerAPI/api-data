@@ -1,0 +1,54 @@
+{
+  "data": {
+    "36502": {
+      "id": 36502,
+      "name": "回旋镰刃",
+      "power": 135,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "15%的概率威力2倍，若未触发则下回合自身先制+3",
+          "args": [
+            15,
+            2,
+            3
+          ],
+          "effect": {
+            "id": 975,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/975"
+          }
+        },
+        {
+          "info": "3回合内若对手恢复体力（药剂恢复除外），则2回合内自身攻击附加250点固定伤害",
+          "args": [
+            3,
+            2,
+            250
+          ],
+          "effect": {
+            "id": 1071,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1071"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c48ea7ea"
+}

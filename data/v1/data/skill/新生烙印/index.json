@@ -1,0 +1,72 @@
+{
+  "data": {
+    "28791": {
+      "id": 28791,
+      "name": "新生烙印",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；获得了护盾、护罩；为对手的属性技能附加了限制",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹除狂暴外所有受到的异常状态",
+          "args": [
+            4,
+            14
+          ],
+          "effect": {
+            "id": 1932,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1932"
+          }
+        },
+        {
+          "info": "为自身附加300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 847,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/847"
+          }
+        },
+        {
+          "info": "为自身附加300点护罩",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1342,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1342"
+          }
+        },
+        {
+          "info": "3回合内若对手成功使用属性技能则受到300点固定伤害",
+          "args": [
+            3,
+            300
+          ],
+          "effect": {
+            "id": 526,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/526"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9c359e3a"
+}

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "19209": {
+      "id": 19209,
+      "name": "封灭决",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，若消除成功则自身攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 538,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/538"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "edbede9f"
+}

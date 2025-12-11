@@ -1,0 +1,52 @@
+{
+  "data": {
+    "23430": {
+      "id": 23430,
+      "name": "微臭腐乳",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "抵抗异常状态的能力上升了，被奇怪的力量保护了起来",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内免疫所有受到的异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "2回合内若受到伤害高于250则对手中毒",
+          "args": [
+            2,
+            250,
+            1
+          ],
+          "effect": {
+            "id": 545,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/545"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "94329b03"
+}

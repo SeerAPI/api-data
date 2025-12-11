@@ -1,0 +1,53 @@
+{
+  "data": {
+    "35078": {
+      "id": 35078,
+      "name": "电扫云空",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 104,
+        "url": "https://api.seerapi.com/v1/element_type_combination/104"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 913,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/913"
+          }
+        },
+        {
+          "info": "50%使对手全属性-1，若先出手则100%使对手全属性-1",
+          "args": [
+            50,
+            1,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 857,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/857"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f0196a21"
+}

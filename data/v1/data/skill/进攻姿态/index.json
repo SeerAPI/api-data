@@ -1,0 +1,113 @@
+{
+  "data": {
+    "27008": {
+      "id": 27008,
+      "name": "进攻姿态",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始闪避对手攻击了；开始造成固定伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合50%闪避对手攻击，未触发则回合结束时50%令对手感染",
+          "args": [
+            3,
+            50,
+            50,
+            27
+          ],
+          "effect": {
+            "id": 1442,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1442"
+          }
+        },
+        {
+          "info": "3回合内使用技能附加200点固定伤害，若自身体力低于对手则效果翻倍",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 1154,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1154"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "28843": {
+      "id": 28843,
+      "name": "进攻姿态",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "改变了战斗姿态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身攻击等级+6",
+          "args": [
+            0,
+            100,
+            6
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身防御等级-6",
+          "args": [
+            1,
+            100,
+            -6
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a69a8f42"
+}

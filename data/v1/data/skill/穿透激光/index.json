@@ -1,0 +1,40 @@
+{
+  "data": {
+    "32498": {
+      "id": 32498,
+      "name": "穿透激光",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手时下回合受到的伤害降低200点",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 969,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/969"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b78fafbf"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "19309": {
+      "id": 19309,
+      "name": "踏碎虚空",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手的能力提升效果转化到自己身上",
+          "args": [],
+          "effect": {
+            "id": 85,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/85"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d0ea9e7c"
+}

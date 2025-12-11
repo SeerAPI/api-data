@@ -1,0 +1,71 @@
+{
+  "data": {
+    "18038": {
+      "id": 18038,
+      "name": "幻夜奔龙闪",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 55,
+        "url": "https://api.seerapi.com/v1/element_type_combination/55"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "当次攻击击败对手，则自身攻击+2",
+          "args": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "effect": {
+            "id": 650,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/650"
+          }
+        },
+        {
+          "info": "当回合击败对手则下回合自身攻击先制+1",
+          "args": [],
+          "effect": {
+            "id": 669,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/669"
+          }
+        },
+        {
+          "info": "附加自身最大体力30%的百分比伤害",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 831,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/831"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "aa3d2adf"
+}

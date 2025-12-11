@@ -1,0 +1,66 @@
+{
+  "data": {
+    "37834": {
+      "id": 37834,
+      "name": "遗颂",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 99,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 127,
+        "url": "https://api.seerapi.com/v1/element_type_combination/127"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 976,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/976"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+          "args": [],
+          "effect": {
+            "id": 1974,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1974"
+          }
+        },
+        {
+          "info": "技能无效时，消除对手回合类效果并免疫下次对手的攻击",
+          "args": [],
+          "effect": {
+            "id": 2269,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2269"
+          }
+        },
+        {
+          "info": "未击败对手则下回合自身所有技能先制+2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 984,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/984"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5fe30064"
+}

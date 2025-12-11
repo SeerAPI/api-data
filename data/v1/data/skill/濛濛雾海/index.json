@@ -1,0 +1,74 @@
+{
+  "data": {
+    "28656": {
+      "id": 28656,
+      "name": "濛濛雾海",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；使对手的攻击无效了；开始变得冰冷；开始附加固定伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "1回合内令对手使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1923,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1923"
+          }
+        },
+        {
+          "info": "3回合内对手若使用攻击技能则100%冻伤，若使用属性技能则全属性-1",
+          "args": [
+            3,
+            100,
+            5,
+            1
+          ],
+          "effect": {
+            "id": 1118,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1118"
+          }
+        },
+        {
+          "info": "3回合内使用技能附加200点固定伤害，若自身体力低于对手则效果翻倍",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 1154,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1154"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d2f4c34a"
+}

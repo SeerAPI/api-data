@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35295": {
+      "id": 35295,
+      "name": "困兽之斗",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 90,
+        "url": "https://api.seerapi.com/v1/element_type_combination/90"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手时恢复200点体力",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 476,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/476"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d848d040"
+}

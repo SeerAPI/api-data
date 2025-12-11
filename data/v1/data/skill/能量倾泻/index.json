@@ -1,0 +1,52 @@
+{
+  "data": {
+    "24096": {
+      "id": 24096,
+      "name": "能量倾泻",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击降低对手HP；有几率免疫对手的攻击伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内所有直接攻击都将降低对手1/5的HP",
+          "args": [
+            3,
+            5
+          ],
+          "effect": {
+            "id": 502,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/502"
+          }
+        },
+        {
+          "info": "3回合内有30%概率免疫对手的攻击伤害",
+          "args": [
+            3,
+            30
+          ],
+          "effect": {
+            "id": 525,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/525"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ed6868c6"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "19982": {
+      "id": 19982,
+      "name": "幽蝶幻灭",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则恢复自身最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1025,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1025"
+          }
+        },
+        {
+          "info": "附加对手已损失生命值25%的百分比伤害 ",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 514,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/514"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2a6392f1"
+}

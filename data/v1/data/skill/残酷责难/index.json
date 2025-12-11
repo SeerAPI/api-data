@@ -1,0 +1,45 @@
+{
+  "data": {
+    "23881": {
+      "id": 23881,
+      "name": "残酷责难",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使对手特防、命中、速度降低了，若对手处于弱化状态，弱化效果翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手特防-1，速度-1，命中-1，若对手处于弱化状态，弱化效果翻倍 ",
+          "args": [
+            0,
+            0,
+            0,
+            -1,
+            -1,
+            -1
+          ],
+          "effect": {
+            "id": 625,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/625"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "57c46a41"
+}

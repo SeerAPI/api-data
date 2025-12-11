@@ -1,0 +1,51 @@
+{
+  "data": {
+    "31547": {
+      "id": 31547,
+      "name": "胜利无双破",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 53,
+        "url": "https://api.seerapi.com/v1/element_type_combination/53"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转自身能力下降状态，反转成功则使对手随机2个技能PP归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 907,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/907"
+          }
+        },
+        {
+          "info": "100%令对手全属性-1",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 749,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/749"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "db8c9f3b"
+}

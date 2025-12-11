@@ -1,0 +1,52 @@
+{
+  "data": {
+    "26510": {
+      "id": 26510,
+      "name": "幻化雷影",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始闪避对手的攻击了；自身受到的伤害减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内每回合50%闪避对手攻击",
+          "args": [
+            2,
+            50
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        },
+        {
+          "info": "2回合内每回合所受的伤害减少150点",
+          "args": [
+            2,
+            150
+          ],
+          "effect": {
+            "id": 463,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/463"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "75725a91"
+}

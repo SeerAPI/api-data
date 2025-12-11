@@ -1,0 +1,71 @@
+{
+  "data": {
+    "28265": {
+      "id": 28265,
+      "name": "天下之赜",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；解放双方的回能Ⅰ与失能Ⅰ标记并令对手进入异常状态；下回合自身出手将更加迅捷",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，后出手时自身强化效果翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1344,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1344"
+          }
+        },
+        {
+          "info": "解放自身当前持有的回能Ⅰ，解放成功则随机附加麻痹、害怕、疲惫中的1种异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1942,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1942"
+          }
+        },
+        {
+          "info": "解放对手当前持有的失能Ⅰ，解放成功则随机附加冰封、焚烬、感染中的1种异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1943,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1943"
+          }
+        },
+        {
+          "info": "下1回合令自身所有技能先制+3",
+          "args": [
+            1,
+            3
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3ac0024b"
+}

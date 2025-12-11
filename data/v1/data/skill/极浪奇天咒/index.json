@@ -1,0 +1,42 @@
+{
+  "data": {
+    "30354": {
+      "id": 30354,
+      "name": "极浪奇天咒",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后80%使对手冰封，未触发则使对手全属性-1",
+          "args": [
+            80,
+            15,
+            1
+          ],
+          "effect": {
+            "id": 1003,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1003"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f24a6e43"
+}

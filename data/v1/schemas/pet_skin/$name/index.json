@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "data": {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/named_data"
+    }
+  },
+  "$defs": {
+    "TResModel": {
+      "$dynamicAnchor": "TResModel",
+      "type": "object",
+      "$ref": "https://api.seerapi.com/v1/schemas/pet_skin/$id"
+    }
+  },
+  "required": [
+    "data"
+  ]
+}

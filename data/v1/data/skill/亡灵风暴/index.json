@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28742": {
+      "id": 28742,
+      "name": "亡灵风暴",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始无效对手的属性技能了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内令对手使用的属性技能无效",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 478,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/478"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2043539b"
+}

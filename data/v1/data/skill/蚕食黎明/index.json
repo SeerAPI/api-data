@@ -1,0 +1,66 @@
+{
+  "data": {
+    "28074": {
+      "id": 28074,
+      "name": "蚕食黎明",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；攻击开始附加一些固定伤害了；每回合都有一定几率令对手害怕",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合攻击附加自身双防值总和30%的百分比伤害",
+          "args": [
+            3,
+            30
+          ],
+          "effect": {
+            "id": 1186,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1186"
+          }
+        },
+        {
+          "info": "3回合内每回合都有50%概率令对手害怕，未触发害怕则下1次受到的伤害减少200点",
+          "args": [
+            3,
+            50,
+            6,
+            6,
+            1,
+            200
+          ],
+          "effect": {
+            "id": 1162,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1162"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4557285b"
+}

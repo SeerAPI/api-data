@@ -1,0 +1,62 @@
+{
+  "data": {
+    "27776": {
+      "id": 27776,
+      "name": "核动械甲",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态了；吸取对手一定体力；出手时若本回合未受到攻击伤害则令对手下2回合属性技能无效",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "吸取对手250点体力，若对手任意1项技能PP值小于3点则额外吸取100点体力",
+          "args": [
+            250,
+            3,
+            100
+          ],
+          "effect": {
+            "id": 1632,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1632"
+          }
+        },
+        {
+          "info": "出手时本回合若未受到伤害则对手下2回合属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1031,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1031"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3b468c76"
+}

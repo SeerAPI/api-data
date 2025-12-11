@@ -1,0 +1,62 @@
+{
+  "data": {
+    "36006": {
+      "id": 36006,
+      "name": "沐花释离愁",
+      "power": 160,
+      "max_pp": 4,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 45,
+        "url": "https://api.seerapi.com/v1/element_type_combination/45"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身下1次受到的攻击伤害不超过300，并反弹给对手原本超出部分100%的百分比伤害",
+          "args": [
+            1,
+            300,
+            100
+          ],
+          "effect": {
+            "id": 1834,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1834"
+          }
+        },
+        {
+          "info": "造成伤害不足300则恢复自身全部体力",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 949,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/949"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定致命、必定命中",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 681,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/681"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "710b6e3f"
+}

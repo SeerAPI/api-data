@@ -1,0 +1,70 @@
+{
+  "data": {
+    "26498": {
+      "id": 26498,
+      "name": "浑浊水雾",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态和能力下降状态了；自身开始模仿对手的攻击能力；下1回合受到致命伤害时残留1点体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "4回合内免疫能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "4回合自身的攻击力和对手相同",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 51,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/51"
+          }
+        },
+        {
+          "info": "下回合受到致命伤害时残留1点体力 ",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 506,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/506"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "54354d4"
+}

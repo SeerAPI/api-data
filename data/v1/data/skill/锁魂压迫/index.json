@@ -1,0 +1,50 @@
+{
+  "data": {
+    "32507": {
+      "id": 32507,
+      "name": "锁魂压迫",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身3回合内免疫并反弹异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1381,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1381"
+          }
+        },
+        {
+          "info": "3回合对手无法使自身能力出现提升状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 765,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/765"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "84a6e9e5"
+}

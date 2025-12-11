@@ -1,0 +1,72 @@
+{
+  "data": {
+    "38074": {
+      "id": 38074,
+      "name": "衔烛启曙",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 63,
+        "url": "https://api.seerapi.com/v1/element_type_combination/63"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身每有1级能力下降状态吸取对手45点体力，对手处于能力提升状态时效果翻倍",
+          "args": [
+            45
+          ],
+          "effect": {
+            "id": 2171,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2171"
+          }
+        },
+        {
+          "info": "无视对手能力提升效果，无视成功吸取对手最大体力的1/4，自身体力未恢复至满时令对手焚烬",
+          "args": [
+            4,
+            22
+          ],
+          "effect": {
+            "id": 2327,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2327"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 872,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/872"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bab15038"
+}

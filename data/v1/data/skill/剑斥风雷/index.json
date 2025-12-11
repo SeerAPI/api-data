@@ -1,0 +1,60 @@
+{
+  "data": {
+    "33605": {
+      "id": 33605,
+      "name": "剑斥风雷",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 34,
+        "url": "https://api.seerapi.com/v1/element_type_combination/34"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转自身能力下降状态，反转成功则对手冰封",
+          "args": [
+            15
+          ],
+          "effect": {
+            "id": 733,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/733"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手麻痹 ",
+          "args": [
+            0
+          ],
+          "effect": {
+            "id": 948,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/948"
+          }
+        },
+        {
+          "info": "若打出致命一击则自身2回合内免疫异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 555,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/555"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "56a270fd"
+}

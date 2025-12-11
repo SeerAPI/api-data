@@ -1,0 +1,48 @@
+{
+  "data": {
+    "19332": {
+      "id": 19332,
+      "name": "白羽长舒",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/element_type_combination/31"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手的能力提升效果反转成能力下降效果",
+          "args": [],
+          "effect": {
+            "id": 143,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/143"
+          }
+        },
+        {
+          "info": "50%概率随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 176,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/176"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e64a428"
+}

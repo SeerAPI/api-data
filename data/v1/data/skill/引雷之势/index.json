@@ -1,0 +1,57 @@
+{
+  "data": {
+    "27326": {
+      "id": 27326,
+      "name": "引雷之势",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "吸取对手能力提升效果；自身致命一击率提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态则先制+1",
+          "args": [],
+          "effect": {
+            "id": 1081,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1081"
+          }
+        },
+        {
+          "info": "使对手的能力提升效果转化到自己身上",
+          "args": [],
+          "effect": {
+            "id": 85,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/85"
+          }
+        },
+        {
+          "info": "3回合内致命一击率上升5/16",
+          "args": [
+            3,
+            5
+          ],
+          "effect": {
+            "id": 620,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/620"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "47a219f4"
+}

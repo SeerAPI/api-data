@@ -1,0 +1,75 @@
+{
+  "data": {
+    "28967": {
+      "id": 28967,
+      "name": "奇迹光谱",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；自身回合类效果得到了保护；开始附加固定伤害了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身体力低于1/3时强化效果翻倍",
+          "args": [
+            1,
+            3
+          ],
+          "effect": {
+            "id": 1397,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1397"
+          }
+        },
+        {
+          "info": "3回合内若自身回合类效果被消除则100%令对手烧伤",
+          "args": [
+            3,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1400,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1400"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能附加300点固定伤害，附加时若自身不处于能力提升状态则固定伤害翻倍",
+          "args": [
+            3,
+            300
+          ],
+          "effect": {
+            "id": 1462,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1462"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6cbdb683"
+}

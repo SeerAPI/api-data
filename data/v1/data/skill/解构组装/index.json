@@ -1,0 +1,56 @@
+{
+  "data": {
+    "28001": {
+      "id": 28001,
+      "name": "解构组装",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身的攻击和速度开始提升了；自身攻击开始必定打出致命一击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合攻击+1，速度+1",
+          "args": [
+            3,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 433,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/433"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ec919683"
+}

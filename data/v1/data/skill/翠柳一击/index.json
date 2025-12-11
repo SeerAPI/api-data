@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33268": {
+      "id": 33268,
+      "name": "翠柳一击",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 66,
+        "url": "https://api.seerapi.com/v1/element_type_combination/66"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "15%回复自身1/4体力值",
+          "args": [
+            15,
+            4
+          ],
+          "effect": {
+            "id": 410,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/410"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2de02ae9"
+}

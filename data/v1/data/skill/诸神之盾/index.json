@@ -1,0 +1,76 @@
+{
+  "data": {
+    "23278": {
+      "id": 23278,
+      "name": "诸神之盾",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "能免疫并反弹异常状态，防御、特防提升了很多，受到了诸神的庇护",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身防御等级+2",
+          "args": [
+            1,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+2",
+          "args": [
+            3,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "3回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内受到攻击100%概率回复120点体力",
+          "args": [
+            3,
+            100,
+            120
+          ],
+          "effect": {
+            "id": 406,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/406"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e0d8f436"
+}

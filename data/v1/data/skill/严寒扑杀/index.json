@@ -1,0 +1,40 @@
+{
+  "data": {
+    "31645": {
+      "id": 31645,
+      "name": "严寒扑杀",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 43,
+        "url": "https://api.seerapi.com/v1/element_type_combination/43"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后100%令对方冻伤",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 14,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/14"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9cf624d3"
+}

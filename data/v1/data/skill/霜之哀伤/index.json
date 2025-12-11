@@ -1,0 +1,98 @@
+{
+  "data": {
+    "12849": {
+      "id": 12849,
+      "name": "霜之哀伤",
+      "power": 120,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后30%令对方冻伤",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 14,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/14"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "25596": {
+      "id": 25596,
+      "name": "霜之哀伤",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "有几率使对手害怕，未触发则对手无法使用属性技能；免疫并反弹异常状态；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "70%令对手害怕，未触发则令对手2回合内使用的属性技能无效",
+          "args": [
+            70,
+            6,
+            2
+          ],
+          "effect": {
+            "id": 936,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/936"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7e8cdbcc"
+}

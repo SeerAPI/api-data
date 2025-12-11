@@ -1,0 +1,60 @@
+{
+  "data": {
+    "32310": {
+      "id": 32310,
+      "name": "九幽天蛇",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 781,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+          }
+        },
+        {
+          "info": "3回合内对手无法通过自身技能恢复体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 679,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/679"
+          }
+        },
+        {
+          "info": "3回合内免疫受到的致命一击伤害并直接扣除对手等量体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 692,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/692"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "656cdc28"
+}

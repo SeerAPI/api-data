@@ -1,0 +1,41 @@
+{
+  "data": {
+    "13749": {
+      "id": 13749,
+      "name": "摸摸",
+      "power": 0,
+      "max_pp": 40,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机恢复88到331点生命值",
+          "args": [
+            88,
+            331
+          ],
+          "effect": {
+            "id": 450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5615a794"
+}

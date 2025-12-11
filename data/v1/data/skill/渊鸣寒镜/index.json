@@ -1,0 +1,52 @@
+{
+  "data": {
+    "24121": {
+      "id": 24121,
+      "name": "渊鸣寒镜",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "随机使对手能力下降；造成的伤害恢复自身体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机使对手2种能力等级-2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 198,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/198"
+          }
+        },
+        {
+          "info": "3回合内每回合对对方造成伤害的1/3恢复自身体力",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 153,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/153"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d49ec7e8"
+}

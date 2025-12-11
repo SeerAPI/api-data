@@ -1,0 +1,58 @@
+{
+  "data": {
+    "37300": {
+      "id": 37300,
+      "name": "纳垢",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 99,
+        "url": "https://api.seerapi.com/v1/element_type_combination/99"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1012,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1012"
+          }
+        },
+        {
+          "info": "将对手所处的异常状态转移给自身，每转移一项吸取对手300点体力",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 2165,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2165"
+          }
+        },
+        {
+          "info": "处在烧伤、中毒、冻伤状态时威力翻倍，命中后解除这些异常状态 ",
+          "args": [],
+          "effect": {
+            "id": 513,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/513"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a3922e10"
+}

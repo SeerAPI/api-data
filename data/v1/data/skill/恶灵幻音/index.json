@@ -1,0 +1,62 @@
+{
+  "data": {
+    "25593": {
+      "id": 25593,
+      "name": "恶灵幻音",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始抵抗异常状态了；有几率免疫对手攻击；对手使用攻击技能则受到固定伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内每回合有50%的概率免疫当回合受到的攻击伤害",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 850,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/850"
+          }
+        },
+        {
+          "info": "下3回合每回合使用攻击技能附加自身防御、特防值总和30%的百分比伤害",
+          "args": [
+            3,
+            30
+          ],
+          "effect": {
+            "id": 676,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/676"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2ed52516"
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "18090": {
+      "id": 18090,
+      "name": "断天巨力",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 57,
+        "url": "https://api.seerapi.com/v1/element_type_combination/57"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "3回合对手无法使自身能力出现提升状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 765,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/765"
+          }
+        },
+        {
+          "info": "2回合内免疫大于280的攻击伤害",
+          "args": [
+            2,
+            280
+          ],
+          "effect": {
+            "id": 741,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/741"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f1d604"
+}

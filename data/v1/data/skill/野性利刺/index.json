@@ -1,0 +1,51 @@
+{
+  "data": {
+    "35555": {
+      "id": 35555,
+      "name": "野性利刺",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/element_type_combination/73"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1044,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1044"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/849"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a0111455"
+}

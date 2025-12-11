@@ -1,0 +1,60 @@
+{
+  "data": {
+    "37930": {
+      "id": 37930,
+      "name": "无觉之长梦",
+      "power": 160,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 71,
+        "url": "https://api.seerapi.com/v1/element_type_combination/71"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "双方的此条效果本场战斗只能生效1次，若己方存在希望之花则消耗自身全部体力并使己方的危机感+1，若己方的希望之花已被摧毁则使自身获得10层魔王咒怨",
+          "args": [],
+          "effect": {
+            "id": 2305,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2305"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则100%令对手睡眠，未触发或对手回合类效果无法被消除则下1次对手使用的属性技能无效",
+          "args": [
+            100,
+            8,
+            1
+          ],
+          "effect": {
+            "id": 1756,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1756"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 805,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/805"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "44a9b62a"
+}

@@ -110,10 +110,10 @@
           "type": "null"
         }
       ],
-      "description": "魂印资源，该字段仅在该魂印是强化/觉醒魂印时有效"
+      "description": "强化前的魂印资源，该字段仅在该魂印是强化/觉醒魂印时有效"
     },
     "hash": {
-      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
       "type": "string"
     }

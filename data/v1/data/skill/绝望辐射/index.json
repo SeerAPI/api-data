@@ -1,0 +1,84 @@
+{
+  "data": {
+    "28768": {
+      "id": 28768,
+      "name": "绝望辐射",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态；消除了对手的回合类效果；获得了400点护盾；己方下只精灵将产生异变",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 781,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+          }
+        },
+        {
+          "info": "获得400点护盾，护盾消失时100%的概率使对手诅咒",
+          "args": [
+            400,
+            100,
+            23
+          ],
+          "effect": {
+            "id": 1661,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1661"
+          }
+        },
+        {
+          "info": "自身主动切换下场后令己方下只精灵出战时恢复400点体力",
+          "args": [
+            400
+          ],
+          "effect": {
+            "id": 1702,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1702"
+          }
+        },
+        {
+          "info": "令己方下只出战精灵抵挡下1次对手的攻击，且出战时100%诅咒",
+          "args": [
+            1,
+            100,
+            23
+          ],
+          "effect": {
+            "id": 1882,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1882"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f84f9e42"
+}

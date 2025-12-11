@@ -1,0 +1,51 @@
+{
+  "data": {
+    "32502": {
+      "id": 32502,
+      "name": "飞花舞",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/element_type_combination/21"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1170,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1170"
+          }
+        },
+        {
+          "info": "随机恢复150到200点生命值",
+          "args": [
+            150,
+            200
+          ],
+          "effect": {
+            "id": 450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "48c7ead3"
+}

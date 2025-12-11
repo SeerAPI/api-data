@@ -1,0 +1,56 @@
+{
+  "data": {
+    "35159": {
+      "id": 35159,
+      "name": "腐朽纹路",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，若消除成功则自身攻击+2，速度+2",
+          "args": [
+            2,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "effect": {
+            "id": 538,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/538"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/849"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a9cb7795"
+}

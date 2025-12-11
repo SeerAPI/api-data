@@ -1,0 +1,48 @@
+{
+  "data": {
+    "30244": {
+      "id": 30244,
+      "name": "天影释魂冲",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 67,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/67"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "14bbf6ef"
+}

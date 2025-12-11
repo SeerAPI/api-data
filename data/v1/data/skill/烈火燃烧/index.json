@@ -1,0 +1,73 @@
+{
+  "data": {
+    "14090": {
+      "id": 14090,
+      "name": "烈火燃烧",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/element_type_combination/3"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "33257": {
+      "id": 33257,
+      "name": "烈火燃烧",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 27,
+        "url": "https://api.seerapi.com/v1/element_type_combination/27"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将自身的能力下降状态2倍返还给对手",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 706,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/706"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bc2792ec"
+}

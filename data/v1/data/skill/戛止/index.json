@@ -1,0 +1,50 @@
+{
+  "data": {
+    "28828": {
+      "id": 28828,
+      "name": "戛止",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "免疫当回合受到的异常状态与攻击伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合内免疫所有受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "若先出手，则免疫当回合伤害并回复1/3的最大体力值",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 170,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/170"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6961ce9"
+}

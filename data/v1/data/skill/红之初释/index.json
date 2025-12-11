@@ -1,0 +1,43 @@
+{
+  "data": {
+    "28324": {
+      "id": 28324,
+      "name": "红之初释",
+      "power": 0,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "双方一同受到了一些固定伤害，从而自身的红色龙鳞得到了释放",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "损失自身300点体力，给对手造成300点固定伤害，若自身体力不足300则剩下1点体力",
+          "args": [
+            300,
+            300,
+            300,
+            1
+          ],
+          "effect": {
+            "id": 479,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/479"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ca27044b"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "32909": {
+      "id": 32909,
+      "name": "星辰腐朽",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 110,
+        "url": "https://api.seerapi.com/v1/element_type_combination/110"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "10%的概率造成3倍伤害，每次使用概率增加10%，最高概率30%",
+          "args": [
+            10,
+            3,
+            10,
+            30
+          ],
+          "effect": {
+            "id": 1328,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1328"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9abe3c43"
+}

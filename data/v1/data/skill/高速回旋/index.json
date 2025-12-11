@@ -1,0 +1,65 @@
+{
+  "data": {
+    "27336": {
+      "id": 27336,
+      "name": "高速回旋",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身的速度和命中提升了；自身的能力强化被消除则减少对手一定体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+1",
+          "args": [
+            4,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身命中等级+2",
+          "args": [
+            5,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "3回合内自身能力提升状态被消除或吸取时附加对手最大体力1/3的百分比伤害",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 783,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/783"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e00db26c"
+}

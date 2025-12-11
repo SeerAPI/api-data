@@ -1,0 +1,51 @@
+{
+  "data": {
+    "36332": {
+      "id": 36332,
+      "name": "永结之咒",
+      "power": 140,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 111,
+        "url": "https://api.seerapi.com/v1/element_type_combination/111"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使敌我双方同时冰封3回合",
+          "args": [
+            15,
+            3
+          ],
+          "effect": {
+            "id": 547,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/547"
+          }
+        },
+        {
+          "info": "下2回合令对手无法主动切换精灵",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1478,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1478"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "812d0bc6"
+}

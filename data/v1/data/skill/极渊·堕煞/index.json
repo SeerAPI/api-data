@@ -1,0 +1,72 @@
+{
+  "data": {
+    "38018": {
+      "id": 38018,
+      "name": "极渊·堕煞",
+      "power": 100,
+      "max_pp": 10,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功使对手下回合先制-3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 867,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/867"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1220,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1220"
+          }
+        },
+        {
+          "info": "将对手所处的流血转化为诅咒",
+          "args": [
+            16,
+            23
+          ],
+          "effect": {
+            "id": 2117,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2117"
+          }
+        },
+        {
+          "info": "造成的攻击伤害低于200则令对手2回合内属性技能无效",
+          "args": [
+            200,
+            2
+          ],
+          "effect": {
+            "id": 2321,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2321"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e3ff8cf6"
+}

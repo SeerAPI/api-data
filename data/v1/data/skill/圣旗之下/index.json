@@ -1,0 +1,51 @@
+{
+  "data": {
+    "30439": {
+      "id": 30439,
+      "name": "圣旗之下",
+      "power": 90,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则令对手下1次属性技能失效，反转失败则消除对手能力提升状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1110,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1110"
+          }
+        },
+        {
+          "info": "2回合内每回合70%闪避对手攻击",
+          "args": [
+            2,
+            70
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1ccf7501"
+}

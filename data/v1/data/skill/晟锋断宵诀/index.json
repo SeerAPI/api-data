@@ -1,0 +1,73 @@
+{
+  "data": {
+    "37039": {
+      "id": 37039,
+      "name": "晟锋断宵诀",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/element_type_combination/68"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 942,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/942"
+          }
+        },
+        {
+          "info": "2回合内对手主动切换精灵出战时100%烧伤",
+          "args": [
+            2,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 2040,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2040"
+          }
+        },
+        {
+          "info": "未击败对手则自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 983,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/983"
+          }
+        },
+        {
+          "info": "击败对手则100%令自身烧伤",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1933,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1933"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8d9296f9"
+}

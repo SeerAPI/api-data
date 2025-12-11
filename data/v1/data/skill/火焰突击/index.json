@@ -1,0 +1,41 @@
+{
+  "data": {
+    "31932": {
+      "id": 31932,
+      "name": "火焰突击",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 90,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/element_type_combination/3"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成伤害的1/4回复自身体力，若属性相同则造成伤害的1/2回复自身体力",
+          "args": [
+            4,
+            2
+          ],
+          "effect": {
+            "id": 178,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/178"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "30a9629b"
+}

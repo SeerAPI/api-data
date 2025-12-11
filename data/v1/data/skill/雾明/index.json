@@ -1,0 +1,51 @@
+{
+  "data": {
+    "37213": {
+      "id": 37213,
+      "name": "雾明",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 90,
+        "url": "https://api.seerapi.com/v1/element_type_combination/90"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+          "args": [
+            2,
+            300
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        },
+        {
+          "info": "下2回合自身造成的攻击伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 776,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1878fbe9"
+}

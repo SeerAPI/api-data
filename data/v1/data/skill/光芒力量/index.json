@@ -1,0 +1,45 @@
+{
+  "data": {
+    "23037": {
+      "id": 23037,
+      "name": "光芒力量",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击、防御、速度、命中提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身攻击+1，防御+1，速度+1，命中+1,40%概率强化翻倍",
+          "args": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 512,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/512"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3e8bedb6"
+}

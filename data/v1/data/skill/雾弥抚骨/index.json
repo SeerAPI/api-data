@@ -1,0 +1,43 @@
+{
+  "data": {
+    "28235": {
+      "id": 28235,
+      "name": "雾弥抚骨",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "遇到天敌时令对手束缚",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手为自身天敌则100%令对手束缚，未触发则令自身2回合内70%闪避对手攻击",
+          "args": [
+            100,
+            28,
+            2,
+            70
+          ],
+          "effect": {
+            "id": 1489,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1489"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1b341a17"
+}

@@ -1,0 +1,70 @@
+{
+  "data": {
+    "24384": {
+      "id": 24384,
+      "name": "队长之魂",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "免疫并反弹异常状态；恢复体力；受到的伤害转化为自身的体力；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "恢复250点体力",
+          "args": [
+            250
+          ],
+          "effect": {
+            "id": 466,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/466"
+          }
+        },
+        {
+          "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 128,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/128"
+          }
+        },
+        {
+          "info": "下2回合攻击必定先出手",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 694,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/694"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7581f07b"
+}

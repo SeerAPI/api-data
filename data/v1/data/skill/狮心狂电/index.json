@@ -1,0 +1,51 @@
+{
+  "data": {
+    "17289": {
+      "id": 17289,
+      "name": "狮心狂电",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        },
+        {
+          "info": "额外附加150点固定伤害",
+          "args": [
+            150
+          ],
+          "effect": {
+            "id": 29,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/29"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "637bdabf"
+}

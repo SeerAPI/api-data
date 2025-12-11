@@ -1,0 +1,73 @@
+{
+  "data": {
+    "28464": {
+      "id": 28464,
+      "name": "煌之凯歌",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；开始吸取对手一些体力；奏响天霆之律；自身出手更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1014,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1014"
+          }
+        },
+        {
+          "info": "4回合内每回合吸取对手最大体力的1/3，自身体力低于最大体力的1/2时转变为吸取对手最大体力的1/2",
+          "args": [
+            4,
+            3,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1396,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1396"
+          }
+        },
+        {
+          "info": "为对手附加1道天霆之律",
+          "args": [],
+          "effect": {
+            "id": 2082,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2082"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cfaa5610"
+}

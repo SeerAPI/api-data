@@ -1,0 +1,50 @@
+{
+  "data": {
+    "18303": {
+      "id": 18303,
+      "name": "暗冰霜雪",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 45,
+        "url": "https://api.seerapi.com/v1/element_type_combination/45"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后80%令对方冻伤",
+          "args": [
+            80
+          ],
+          "effect": {
+            "id": 14,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/14"
+          }
+        },
+        {
+          "info": "额外附加100点固定伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 29,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/29"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "72d80c94"
+}

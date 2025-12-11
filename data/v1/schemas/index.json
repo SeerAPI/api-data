@@ -40,6 +40,10 @@
       "title": "pet_variation Path",
       "type": "string"
     },
+    "eid_effect": {
+      "title": "eid_effect Path",
+      "type": "string"
+    },
     "energy_bead": {
       "title": "energy_bead Path",
       "type": "string"
@@ -76,16 +80,36 @@
       "title": "element_type_combination Path",
       "type": "string"
     },
-    "item": {
-      "title": "item Path",
+    "gem": {
+      "title": "gem Path",
       "type": "string"
     },
-    "item_category": {
-      "title": "item_category Path",
+    "gem_category": {
+      "title": "gem_category Path",
+      "type": "string"
+    },
+    "gem_generation_category": {
+      "title": "gem_generation_category Path",
+      "type": "string"
+    },
+    "gem_gen1": {
+      "title": "gem_gen1 Path",
+      "type": "string"
+    },
+    "gem_gen2": {
+      "title": "gem_gen2 Path",
       "type": "string"
     },
     "skill_activation_item": {
       "title": "skill_activation_item Path",
+      "type": "string"
+    },
+    "skill_stone": {
+      "title": "skill_stone Path",
+      "type": "string"
+    },
+    "skill_stone_category": {
+      "title": "skill_stone_category Path",
       "type": "string"
     },
     "mintmark": {
@@ -148,40 +172,12 @@
       "title": "pet_skin_category Path",
       "type": "string"
     },
-    "pet_archive_story_entry": {
-      "title": "pet_archive_story_entry Path",
-      "type": "string"
-    },
-    "pet_archive_story_book": {
-      "title": "pet_archive_story_book Path",
-      "type": "string"
-    },
     "pet_encyclopedia_entry": {
       "title": "pet_encyclopedia_entry Path",
       "type": "string"
     },
-    "eid_effect": {
-      "title": "eid_effect Path",
-      "type": "string"
-    },
-    "gem": {
-      "title": "gem Path",
-      "type": "string"
-    },
-    "gem_category": {
-      "title": "gem_category Path",
-      "type": "string"
-    },
-    "gem_generation_category": {
-      "title": "gem_generation_category Path",
-      "type": "string"
-    },
-    "skill_stone": {
-      "title": "skill_stone Path",
-      "type": "string"
-    },
-    "skill_stone_category": {
-      "title": "skill_stone_category Path",
+    "pet_archive_story_book": {
+      "title": "pet_archive_story_book Path",
       "type": "string"
     },
     "skill": {
@@ -209,7 +205,7 @@
       "type": "string"
     },
     "hash": {
-      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
       "type": "string"
     }
@@ -225,6 +221,7 @@
     "pet_effect",
     "pet_effect_group",
     "pet_variation",
+    "eid_effect",
     "energy_bead",
     "equip",
     "suit",
@@ -234,9 +231,14 @@
     "soulmark_tag",
     "element_type",
     "element_type_combination",
-    "item",
-    "item_category",
+    "gem",
+    "gem_category",
+    "gem_generation_category",
+    "gem_gen1",
+    "gem_gen2",
     "skill_activation_item",
+    "skill_stone",
+    "skill_stone_category",
     "mintmark",
     "ability_mintmark",
     "skill_mintmark",
@@ -252,15 +254,8 @@
     "pet_mount_type",
     "pet_skin",
     "pet_skin_category",
-    "pet_archive_story_entry",
-    "pet_archive_story_book",
     "pet_encyclopedia_entry",
-    "eid_effect",
-    "gem",
-    "gem_category",
-    "gem_generation_category",
-    "skill_stone",
-    "skill_stone_category",
+    "pet_archive_story_book",
     "skill",
     "skill_effect_type",
     "skill_effect_param",

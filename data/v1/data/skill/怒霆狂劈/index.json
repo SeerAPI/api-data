@@ -1,0 +1,40 @@
+{
+  "data": {
+    "34596": {
+      "id": 34596,
+      "name": "怒霆狂劈",
+      "power": 200,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/element_type_combination/5"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "每次命中对手后此技能威力下降20点",
+          "args": [
+            20
+          ],
+          "effect": {
+            "id": 810,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/810"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8c2f63aa"
+}

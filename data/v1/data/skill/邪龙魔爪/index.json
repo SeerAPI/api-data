@@ -1,0 +1,46 @@
+{
+  "data": {
+    "31822": {
+      "id": 31822,
+      "name": "邪龙魔爪",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/element_type_combination/73"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "随机自身3项属性+1",
+          "args": [],
+          "effect": {
+            "id": 446,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/446"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9a45a3f6"
+}

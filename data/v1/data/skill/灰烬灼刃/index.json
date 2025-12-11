@@ -1,0 +1,72 @@
+{
+  "data": {
+    "28550": {
+      "id": 28550,
+      "name": "灰烬灼刃",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；开始吸取对手的体力了；出手变得更快了；下一次攻击变得更加凌厉",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，若自身当前体力低于对手则强化效果翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 946,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/946"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手280点体力",
+          "args": [
+            4,
+            280
+          ],
+          "effect": {
+            "id": 1983,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1983"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        },
+        {
+          "info": "自身下1次攻击必定致命一击",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1204,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1204"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cb263b6c"
+}

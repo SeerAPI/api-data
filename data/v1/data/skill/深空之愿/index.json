@@ -1,0 +1,42 @@
+{
+  "data": {
+    "28978": {
+      "id": 28978,
+      "name": "深空之愿",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "下一击将竭尽全力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下1次攻击命中时消耗所使用攻击技能的全部PP值，每消耗1点威力提升10%",
+          "args": [
+            1,
+            1,
+            10
+          ],
+          "effect": {
+            "id": 2182,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2182"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d8aec8c"
+}

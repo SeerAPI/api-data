@@ -1,0 +1,48 @@
+{
+  "data": {
+    "36616": {
+      "id": 36616,
+      "name": "不破一式",
+      "power": 11,
+      "max_pp": 6,
+      "accuracy": 11,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态则先制+1且必定命中",
+          "args": [],
+          "effect": {
+            "id": 2000,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2000"
+          }
+        },
+        {
+          "info": "下1回合攻击必定先出手",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 694,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/694"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e02fb23c"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "38095": {
+      "id": 38095,
+      "name": "皎华",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 102,
+        "url": "https://api.seerapi.com/v1/element_type_combination/102"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手全属性-1，未触发则对手失明",
+          "args": [
+            1,
+            20
+          ],
+          "effect": {
+            "id": 1122,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1122"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内对手体力恢复效果减少30%",
+          "args": [
+            2,
+            30
+          ],
+          "effect": {
+            "id": 2241,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2241"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f27e25d9"
+}

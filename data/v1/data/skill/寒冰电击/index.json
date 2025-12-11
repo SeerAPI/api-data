@@ -1,0 +1,40 @@
+{
+  "data": {
+    "14488": {
+      "id": 14488,
+      "name": "寒冰电击",
+      "power": 110,
+      "max_pp": 15,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 34,
+        "url": "https://api.seerapi.com/v1/element_type_combination/34"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "额外附加30点固定伤害",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 29,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/29"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "84cd9910"
+}

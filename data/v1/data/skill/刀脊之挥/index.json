@@ -1,0 +1,41 @@
+{
+  "data": {
+    "35503": {
+      "id": 35503,
+      "name": "刀脊之挥",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 76,
+        "url": "https://api.seerapi.com/v1/element_type_combination/76"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机附加150~300点固定伤害",
+          "args": [
+            150,
+            300
+          ],
+          "effect": {
+            "id": 683,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/683"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c143e6d3"
+}

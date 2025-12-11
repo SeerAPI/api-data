@@ -58,10 +58,10 @@
     },
     "max_attr_value": {
       "$ref": "#/$defs/SixAttributes",
-      "description": "刻印满级属性值，仅当该刻印为能力刻印或全能刻印时有效"
+      "description": "刻印属性值"
     },
     "hash": {
-      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
       "type": "string"
     }

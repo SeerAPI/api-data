@@ -1,0 +1,53 @@
+{
+  "data": {
+    "33456": {
+      "id": 33456,
+      "name": "蔚蓝流星",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时降低对手所有PP1点",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 700,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/700"
+          }
+        },
+        {
+          "info": "40%令对手睡眠，每次使用概率增加10%，最高概率80%",
+          "args": [
+            40,
+            8,
+            10,
+            80
+          ],
+          "effect": {
+            "id": 782,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/782"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1bd21350"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "34136": {
+      "id": 34136,
+      "name": "幽闭呓语",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 98,
+        "url": "https://api.seerapi.com/v1/element_type_combination/98"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机附加150~250点固定伤害",
+          "args": [
+            150,
+            250
+          ],
+          "effect": {
+            "id": 683,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/683"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "24a2e176"
+}

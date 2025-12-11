@@ -1,0 +1,74 @@
+{
+  "data": {
+    "26958": {
+      "id": 26958,
+      "name": "破壁谥语",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 96,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始有几率使自身全属性提升、使对手全属性降低了；攻击无视对手伤害限制效果；出手更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合50%令自身全属性+1，未触发则令对手全属性-1",
+          "args": [
+            3,
+            50,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1346,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1346"
+          }
+        },
+        {
+          "info": "下2回合若自身选择使用技能则无视对手能力提升状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 486,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/486"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dc977e18"
+}

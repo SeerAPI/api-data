@@ -1,0 +1,51 @@
+{
+  "data": {
+    "24233": {
+      "id": 24233,
+      "name": "梦·寄生种子",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击变得更加犀利了；对手使用技能消耗的PP翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下2回合若自身选择使用技能则无视对手能力提升状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 486,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/486"
+          }
+        },
+        {
+          "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8ad823f0"
+}

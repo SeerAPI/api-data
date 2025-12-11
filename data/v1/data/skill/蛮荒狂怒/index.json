@@ -1,0 +1,51 @@
+{
+  "data": {
+    "31613": {
+      "id": 31613,
+      "name": "蛮荒狂怒",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 98,
+        "url": "https://api.seerapi.com/v1/element_type_combination/98"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/928"
+          }
+        },
+        {
+          "info": "造成的伤害低于250则为自身附加200点护盾",
+          "args": [
+            250,
+            200
+          ],
+          "effect": {
+            "id": 1120,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1120"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1e93cdc4"
+}

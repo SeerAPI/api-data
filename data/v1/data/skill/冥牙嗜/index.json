@@ -1,0 +1,51 @@
+{
+  "data": {
+    "33836": {
+      "id": 33836,
+      "name": "冥牙嗜",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 97,
+        "url": "https://api.seerapi.com/v1/element_type_combination/97"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则对手2回合内攻击技能MISS",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 950,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/950"
+          }
+        },
+        {
+          "info": "50%的概率造成的攻击伤害提升100%，若出手时自身为满体力则概率翻倍",
+          "args": [
+            50,
+            100
+          ],
+          "effect": {
+            "id": 1525,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1525"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c489247e"
+}

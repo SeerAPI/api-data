@@ -1,0 +1,63 @@
+{
+  "data": {
+    "33973": {
+      "id": 33973,
+      "name": "噬电处刑",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 36,
+        "url": "https://api.seerapi.com/v1/element_type_combination/36"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 1449,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1449"
+          }
+        },
+        {
+          "info": "自身体力低于最大体力的1/2时造成的伤害提升100%",
+          "args": [
+            2,
+            100
+          ],
+          "effect": {
+            "id": 1448,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1448"
+          }
+        },
+        {
+          "info": "自身体力高于最大体力的1/2时吸取对手200点体力",
+          "args": [
+            2,
+            200
+          ],
+          "effect": {
+            "id": 1540,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1540"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "62593676"
+}

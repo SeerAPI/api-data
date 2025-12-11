@@ -1,0 +1,50 @@
+{
+  "data": {
+    "31649": {
+      "id": 31649,
+      "name": "夜洛乌泽",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 92,
+        "url": "https://api.seerapi.com/v1/element_type_combination/92"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则自身下1回合必定先出手",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1310,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1310"
+          }
+        },
+        {
+          "info": "将自身能力下降状态反馈给对手，反馈成功则对手害怕",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 1030,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1030"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "79705e09"
+}

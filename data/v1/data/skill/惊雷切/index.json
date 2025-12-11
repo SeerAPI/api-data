@@ -1,0 +1,65 @@
+{
+  "data": {
+    "10168": {
+      "id": 10168,
+      "name": "惊雷切",
+      "power": 55,
+      "max_pp": 25,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/element_type_combination/5"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身HP小于1/2时威力为2倍",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 37,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/37"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "14561": {
+      "id": 14561,
+      "name": "惊雷切",
+      "power": 70,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/element_type_combination/5"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8d9164c3"
+}

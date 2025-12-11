@@ -1,0 +1,42 @@
+{
+  "data": {
+    "28092": {
+      "id": 28092,
+      "name": "净野之焰",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "双方的能力提升状态和回合类效果都被消除了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除敌我双方能力提升状态和回合类效果，消除任意一项成功则吸取对手最大体力的1/3且100%令对手烧伤",
+          "args": [
+            3,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1688,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1688"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "803db318"
+}

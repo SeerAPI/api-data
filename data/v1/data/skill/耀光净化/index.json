@@ -1,0 +1,51 @@
+{
+  "data": {
+    "33934": {
+      "id": 33934,
+      "name": "耀光净化",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则附加250点固定伤害",
+          "args": [
+            250
+          ],
+          "effect": {
+            "id": 1170,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1170"
+          }
+        },
+        {
+          "info": "获得250点护盾，护盾消失时附加250点固定伤害",
+          "args": [
+            250,
+            250
+          ],
+          "effect": {
+            "id": 1387,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1387"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ea2b616e"
+}

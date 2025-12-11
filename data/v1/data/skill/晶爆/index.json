@@ -1,0 +1,56 @@
+{
+  "data": {
+    "37668": {
+      "id": 37668,
+      "name": "晶爆",
+      "power": 10,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/element_type_combination/81"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做5~10次攻击，每次攻击30%令对手流血，攻击低于7次则每次攻击60%令对手流血",
+          "args": [
+            5,
+            10,
+            30,
+            16,
+            7,
+            60,
+            16
+          ],
+          "effect": {
+            "id": 1141,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1141"
+          }
+        },
+        {
+          "info": "若自身体力小于1/2，则每次攻击不消耗PP值",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 412,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/412"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f2dbbeb5"
+}

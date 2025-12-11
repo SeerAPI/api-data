@@ -1,0 +1,52 @@
+{
+  "data": {
+    "17718": {
+      "id": 17718,
+      "name": "沐世圣光",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合所受的伤害减少200",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 408,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/408"
+          }
+        },
+        {
+          "info": "3回合内每回合都能附加100点固定伤害",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 60,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/60"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bf78694e"
+}

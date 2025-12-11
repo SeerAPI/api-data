@@ -1,0 +1,50 @@
+{
+  "data": {
+    "22328": {
+      "id": 22328,
+      "name": "神经毒素",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 60,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后100%令对方中毒",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 11,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/11"
+          }
+        },
+        {
+          "info": "命中后50%令对方麻痹",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 10,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/10"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "52fd226e"
+}

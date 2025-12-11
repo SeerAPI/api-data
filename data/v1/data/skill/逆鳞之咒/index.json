@@ -1,0 +1,62 @@
+{
+  "data": {
+    "32483": {
+      "id": 32483,
+      "name": "逆鳞之咒",
+      "power": 85,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 70,
+        "url": "https://api.seerapi.com/v1/element_type_combination/70"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中对手后有40%使对手诅咒，先出手时概率翻倍",
+          "args": [
+            40,
+            23
+          ],
+          "effect": {
+            "id": 968,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/968"
+          }
+        },
+        {
+          "info": "2回合内每回合若先出手则吸取对手150点体力",
+          "args": [
+            2,
+            150
+          ],
+          "effect": {
+            "id": 923,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/923"
+          }
+        },
+        {
+          "info": "使自身下2次攻击技能必定触发邪龙之噬",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1330,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1330"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f634ddf9"
+}

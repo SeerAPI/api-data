@@ -1,0 +1,42 @@
+{
+  "data": {
+    "35717": {
+      "id": 35717,
+      "name": "怒火岩爆",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/element_type_combination/77"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%使对手焚烬，未触发则自身下2回合攻击必定致命一击",
+          "args": [
+            50,
+            22,
+            2
+          ],
+          "effect": {
+            "id": 1033,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1033"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bab48ad"
+}

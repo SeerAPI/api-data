@@ -1,0 +1,49 @@
+{
+  "data": {
+    "36772": {
+      "id": 36772,
+      "name": "翠石射线",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 54,
+        "url": "https://api.seerapi.com/v1/element_type_combination/54"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 1232,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1232"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/3，自身体力低于1/3时造成等量百分比伤害",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 1239,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1239"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5d7cbead"
+}

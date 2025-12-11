@@ -1,0 +1,38 @@
+{
+  "data": {
+    "37243": {
+      "id": 37243,
+      "name": "碎灭处决",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 41,
+        "url": "https://api.seerapi.com/v1/element_type_combination/41"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "当回合击败对手则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 672,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/672"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d712dc2e"
+}

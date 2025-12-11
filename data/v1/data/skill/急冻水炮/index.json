@@ -1,0 +1,56 @@
+{
+  "data": {
+    "37888": {
+      "id": 37888,
+      "name": "急冻水炮",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视攻击免疫效果",
+          "args": [],
+          "effect": {
+            "id": 699,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手冰封 ",
+          "args": [
+            15
+          ],
+          "effect": {
+            "id": 948,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/948"
+          }
+        },
+        {
+          "info": "消除对手护盾、护罩类效果",
+          "args": [],
+          "effect": {
+            "id": 1989,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1989"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9b2cee3"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "13239": {
+      "id": 13239,
+      "name": "糖果弹",
+      "power": 70,
+      "max_pp": 25,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "10%概率额外附加50点固定伤害",
+          "args": [
+            10,
+            50
+          ],
+          "effect": {
+            "id": 93,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/93"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4181dd7d"
+}

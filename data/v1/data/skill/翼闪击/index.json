@@ -1,0 +1,40 @@
+{
+  "data": {
+    "14982": {
+      "id": 14982,
+      "name": "翼闪击",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/element_type_combination/4"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时，额外附加100点固定伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 405,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/405"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "137b10c1"
+}

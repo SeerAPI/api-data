@@ -1,0 +1,49 @@
+{
+  "data": {
+    "34728": {
+      "id": 34728,
+      "name": "岁晚云寒",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/element_type_combination/25"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下2回合造成的攻击伤害额外提升100%",
+          "args": [
+            2,
+            100
+          ],
+          "effect": {
+            "id": 1124,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1124"
+          }
+        },
+        {
+          "info": "若先出手则必定打出致命一击",
+          "args": [],
+          "effect": {
+            "id": 1395,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e071330e"
+}

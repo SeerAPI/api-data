@@ -1,0 +1,53 @@
+{
+  "data": {
+    "31810": {
+      "id": 31810,
+      "name": "天幕翱翔",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 90,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/element_type_combination/30"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下1次攻击技能造成的伤害额外提升100%",
+          "args": [
+            1,
+            100
+          ],
+          "effect": {
+            "id": 1179,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1179"
+          }
+        },
+        {
+          "info": "40%使对手害怕，未触发则自身下2回合攻击必定致命一击",
+          "args": [
+            40,
+            6,
+            2
+          ],
+          "effect": {
+            "id": 1033,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1033"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4d6df321"
+}

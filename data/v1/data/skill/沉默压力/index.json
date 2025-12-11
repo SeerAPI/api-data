@@ -1,0 +1,75 @@
+{
+  "data": {
+    "29139": {
+      "id": 29139,
+      "name": "沉默压力",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始获得对手的能力等级了；开始恢复体力了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身每处于1种能力提升状态，则为自身附加100点护盾",
+          "args": [
+            1,
+            100
+          ],
+          "effect": {
+            "id": 1013,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1013"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/849"
+          }
+        },
+        {
+          "info": "3回合内每回合随机恢复200-350点体力",
+          "args": [
+            3,
+            200,
+            350
+          ],
+          "effect": {
+            "id": 651,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/651"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9525bec0"
+}

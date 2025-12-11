@@ -1,0 +1,62 @@
+{
+  "data": {
+    "34635": {
+      "id": 34635,
+      "name": "腾云雷鸣",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 104,
+        "url": "https://api.seerapi.com/v1/element_type_combination/104"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 40,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/40"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变对手防御等级-2",
+          "args": [
+            1,
+            100,
+            -2
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变对手特防等级-2",
+          "args": [
+            3,
+            100,
+            -2
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "eaf8cf9"
+}

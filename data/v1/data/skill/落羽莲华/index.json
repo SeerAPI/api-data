@@ -1,0 +1,60 @@
+{
+  "data": {
+    "25020": {
+      "id": 25020,
+      "name": "落羽莲华",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "免疫并反弹异常状态；受到攻击则消除对手能力提升状态；遇到天敌则附加伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "5回合内若受到攻击，消除对手能力提升状态",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 190,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/190"
+          }
+        },
+        {
+          "info": "遇到天敌时附加300点固定伤害",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 428,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/428"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c8c8d91d"
+}

@@ -1,0 +1,69 @@
+{
+  "data": {
+    "37355": {
+      "id": 37355,
+      "name": "歼灭式·崩解律",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 122,
+        "url": "https://api.seerapi.com/v1/element_type_combination/122"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "损失自身150点体力，给对手造成300点固定伤害，若自身体力不足150则损失全部体力且造成的固定伤害翻倍",
+          "args": [
+            150,
+            300,
+            150
+          ],
+          "effect": {
+            "id": 1563,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1563"
+          }
+        },
+        {
+          "info": "使对手全属性-1，未触发则对手麻痹",
+          "args": [
+            1,
+            0
+          ],
+          "effect": {
+            "id": 1122,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1122"
+          }
+        },
+        {
+          "info": "威力根据自身体力变化，当前剩余体力越少则威力越大",
+          "args": [],
+          "effect": {
+            "id": 1444,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1444"
+          }
+        },
+        {
+          "info": "令德莱赫默进行一次额外行动",
+          "args": [],
+          "effect": {
+            "id": 2154,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2154"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d7979e7f"
+}

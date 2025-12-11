@@ -1,0 +1,43 @@
+{
+  "data": {
+    "17260": {
+      "id": 17260,
+      "name": "邪冥光斩",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成伤害低于250，则下4回合所有技能附带50点固定伤害",
+          "args": [
+            0,
+            250,
+            4,
+            50
+          ],
+          "effect": {
+            "id": 639,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/639"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d077d24d"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "19931": {
+      "id": 19931,
+      "name": "明月光喑舞",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身每处于一种能力提升状态则附加60点固定伤害",
+          "args": [
+            60
+          ],
+          "effect": {
+            "id": 808,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/808"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4e0ca2c1"
+}

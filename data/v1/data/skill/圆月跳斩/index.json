@@ -1,0 +1,51 @@
+{
+  "data": {
+    "35501": {
+      "id": 35501,
+      "name": "圆月跳斩",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 76,
+        "url": "https://api.seerapi.com/v1/element_type_combination/76"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1180"
+          }
+        },
+        {
+          "info": "吸取对手200点固定体力，自身体力低于1/2时吸取效果翻倍",
+          "args": [
+            200,
+            2
+          ],
+          "effect": {
+            "id": 1241,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1241"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "49c5b530"
+}

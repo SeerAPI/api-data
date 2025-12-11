@@ -1,0 +1,53 @@
+{
+  "data": {
+    "21641": {
+      "id": 21641,
+      "name": "绿光祈愿",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "特防提升了许多，体力开始慢慢恢复了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身特防等级+2",
+          "args": [
+            3,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能恢复自身最大体力的1/6",
+          "args": [
+            3,
+            6
+          ],
+          "effect": {
+            "id": 57,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "84ba22d"
+}

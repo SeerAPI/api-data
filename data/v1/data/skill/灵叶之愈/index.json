@@ -1,0 +1,41 @@
+{
+  "data": {
+    "17527": {
+      "id": 17527,
+      "name": "灵叶之愈",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/element_type_combination/21"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机恢复150到250点生命值",
+          "args": [
+            150,
+            250
+          ],
+          "effect": {
+            "id": 450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d2f34f29"
+}

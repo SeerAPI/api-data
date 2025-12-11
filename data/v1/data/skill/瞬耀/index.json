@@ -1,0 +1,56 @@
+{
+  "data": {
+    "36792": {
+      "id": 36792,
+      "name": "瞬耀",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身3回合内免疫并反弹异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1381,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1381"
+          }
+        },
+        {
+          "info": "若先出手则当回合对手无法造成攻击伤害",
+          "args": [],
+          "effect": {
+            "id": 664,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/664"
+          }
+        },
+        {
+          "info": "附加自身当前护盾值等量的固定伤害",
+          "args": [],
+          "effect": {
+            "id": 1272,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1272"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "da698c7a"
+}

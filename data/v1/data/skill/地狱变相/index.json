@@ -1,0 +1,48 @@
+{
+  "data": {
+    "21699": {
+      "id": 21699,
+      "name": "地狱变相",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "属性交换了，体力恢复了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内自身与对方反转战斗时属性",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 55,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/55"
+          }
+        },
+        {
+          "info": "恢复双方所有体力",
+          "args": [],
+          "effect": {
+            "id": 404,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/404"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "987f0969"
+}

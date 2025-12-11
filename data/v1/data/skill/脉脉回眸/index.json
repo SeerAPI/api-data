@@ -1,0 +1,48 @@
+{
+  "data": {
+    "36612": {
+      "id": 36612,
+      "name": "脉脉回眸",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "未击败对手则消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 1963,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1963"
+          }
+        },
+        {
+          "info": "击败对手则令对手下1次使用的属性技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1827,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1827"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2389cae4"
+}

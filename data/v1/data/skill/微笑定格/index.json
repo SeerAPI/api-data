@@ -1,0 +1,62 @@
+{
+  "data": {
+    "28580": {
+      "id": 28580,
+      "name": "微笑定格",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫受到的异常状态；后出手时恢复全部体力并造成伤害；开始对对手的攻击技能进行限制",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "若后出手则附加自身最大体力1/2的百分比伤害并恢复等量体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 939,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/939"
+          }
+        },
+        {
+          "info": "3回合内若对手使用攻击技能则100%使对手瘫痪",
+          "args": [
+            3,
+            100,
+            19
+          ],
+          "effect": {
+            "id": 663,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/663"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e9aaee3a"
+}

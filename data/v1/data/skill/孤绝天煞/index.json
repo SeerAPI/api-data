@@ -1,0 +1,58 @@
+{
+  "data": {
+    "32306": {
+      "id": 32306,
+      "name": "孤绝天煞",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 94,
+        "url": "https://api.seerapi.com/v1/element_type_combination/94"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1099,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1099"
+          }
+        },
+        {
+          "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 1167,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1167"
+          }
+        },
+        {
+          "info": "下2回合若对手先出手，则令对手当回合使用的攻击技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 726,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/726"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "53ae47ec"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35987": {
+      "id": 35987,
+      "name": "心魂驯化",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时造成的攻击伤害额外提升50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 986,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/986"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b621bd7f"
+}

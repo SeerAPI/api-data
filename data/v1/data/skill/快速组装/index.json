@@ -1,0 +1,46 @@
+{
+  "data": {
+    "24622": {
+      "id": 24622,
+      "name": "快速组装",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使自身特攻、速度提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合特攻+1，速度+1",
+          "args": [
+            3,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 433,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/433"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fb5c0fc9"
+}

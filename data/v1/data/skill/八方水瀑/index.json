@@ -1,0 +1,42 @@
+{
+  "data": {
+    "35179": {
+      "id": 35179,
+      "name": "八方水瀑",
+      "power": 20,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做5-8次攻击，自身处于护盾状态下连击上限为10",
+          "args": [
+            5,
+            8,
+            10
+          ],
+          "effect": {
+            "id": 1500,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1500"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2fdcdd98"
+}

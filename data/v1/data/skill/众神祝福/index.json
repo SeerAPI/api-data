@@ -1,0 +1,38 @@
+{
+  "data": {
+    "23108": {
+      "id": 23108,
+      "name": "众神祝福",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "赐予了精灵神界的力量",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消耗自身全部体力，令己方下次使用的技能必定先手、必定命中，下次命中的攻击技能必定打出致命一击",
+          "args": [],
+          "effect": {
+            "id": 574,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/574"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "12603d2c"
+}

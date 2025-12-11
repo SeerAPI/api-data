@@ -1,0 +1,51 @@
+{
+  "data": {
+    "37662": {
+      "id": 37662,
+      "name": "蚀魂之雾",
+      "power": 110,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令对手中毒",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 1605,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1605"
+          }
+        },
+        {
+          "info": "若对手处于异常状态则令对手随机3项技能PP值归零",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1589,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1589"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b9b99b86"
+}

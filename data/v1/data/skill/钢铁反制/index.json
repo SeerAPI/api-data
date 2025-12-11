@@ -1,0 +1,40 @@
+{
+  "data": {
+    "23111": {
+      "id": 23111,
+      "name": "钢铁反制",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": -6,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将所受的伤害2倍反馈给对手",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 34,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/34"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c11b084f"
+}

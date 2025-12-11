@@ -1,0 +1,63 @@
+{
+  "data": {
+    "27369": {
+      "id": 27369,
+      "name": "天佑勇者",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；解除自身能力下降状态并将能力下降状态反弹给对手；对手使用攻击技能则进入疲惫",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内每回合结束后解除并反馈自身能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 922,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/922"
+          }
+        },
+        {
+          "info": "4回合内对手使用攻击技能后100%令对手疲惫，未触发则令对手全属性-1",
+          "args": [
+            4,
+            100,
+            7,
+            1
+          ],
+          "effect": {
+            "id": 1614,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1614"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "54f47445"
+}

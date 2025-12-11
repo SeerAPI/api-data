@@ -1,0 +1,50 @@
+{
+  "data": {
+    "19362": {
+      "id": 19362,
+      "name": "一箭追命",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸收对手能力上升状态，吸收成功，下回合先制+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 635,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/635"
+          }
+        },
+        {
+          "info": "命中后30%令对方麻痹",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 10,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/10"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "36ae1a1d"
+}

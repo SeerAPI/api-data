@@ -1,0 +1,54 @@
+{
+  "data": {
+    "36750": {
+      "id": 36750,
+      "name": "燃脂牛气堡",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令对手烧伤，未触发则1回合内自身造成的攻击伤害额外提升50%",
+          "args": [
+            100,
+            2,
+            1,
+            50
+          ],
+          "effect": {
+            "id": 1111,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1111"
+          }
+        },
+        {
+          "info": "造成的伤害高于300则获得200点护盾",
+          "args": [
+            300,
+            200
+          ],
+          "effect": {
+            "id": 1008,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1008"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8c8a46f4"
+}

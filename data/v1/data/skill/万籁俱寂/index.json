@@ -1,0 +1,60 @@
+{
+  "data": {
+    "32516": {
+      "id": 32516,
+      "name": "万籁俱寂",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 88,
+        "url": "https://api.seerapi.com/v1/element_type_combination/88"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 736,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/736"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "命中后获得1层自然祝福，若造成的伤害高于250则额外获得1层自然祝福",
+          "args": [
+            1,
+            250,
+            1
+          ],
+          "effect": {
+            "id": 1382,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1382"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7a93a31a"
+}

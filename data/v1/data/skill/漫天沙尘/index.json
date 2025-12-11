@@ -1,0 +1,48 @@
+{
+  "data": {
+    "17250": {
+      "id": 17250,
+      "name": "漫天沙尘",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/element_type_combination/7"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 3,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/3"
+          }
+        },
+        {
+          "info": "后出手时使对手下1回合攻击技能MISS",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 721,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/721"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "91e1c841"
+}

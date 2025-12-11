@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28162": {
+      "id": 28162,
+      "name": "视界",
+      "power": 0,
+      "max_pp": 40,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "攻击开始必定命中对手了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下2回合自身攻击技能必定命中",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 81,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/81"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c5f4f761"
+}

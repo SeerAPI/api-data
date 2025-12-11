@@ -1,0 +1,53 @@
+{
+  "data": {
+    "35630": {
+      "id": 35630,
+      "name": "狂怒奋战",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/element_type_combination/23"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "每次使用则当回合造成的攻击伤害额外提升20%，最高额外提升100%",
+          "args": [
+            20,
+            100
+          ],
+          "effect": {
+            "id": 795,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/795"
+          }
+        },
+        {
+          "info": "吸取对手200点固定体力，每次使用额外附加50点，最高350点",
+          "args": [
+            200,
+            50,
+            350
+          ],
+          "effect": {
+            "id": 837,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/837"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c9072def"
+}

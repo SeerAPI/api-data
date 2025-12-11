@@ -1,0 +1,54 @@
+{
+  "data": {
+    "28606": {
+      "id": 28606,
+      "name": "散热环流",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始提升对对手攻击的抵抗力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内受到物理攻击伤害减少75%",
+          "args": [
+            3,
+            0,
+            75
+          ],
+          "effect": {
+            "id": 599,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/599"
+          }
+        },
+        {
+          "info": "3回合内100%的概率使对手特殊攻击Miss",
+          "args": [
+            3,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 654,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/654"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8bd595d0"
+}

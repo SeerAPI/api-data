@@ -1,0 +1,65 @@
+{
+  "data": {
+    "303": {
+      "id": 303,
+      "name": "御龙战甲",
+      "transform": false,
+      "tran_speed": 0.0,
+      "suit_desc": "赛尔们在冒险中获得的套装，能够改变外观或者增强力量",
+      "equips": [
+        {
+          "id": 1300401,
+          "url": "https://api.seerapi.com/v1/equip/1300401"
+        },
+        {
+          "id": 1300402,
+          "url": "https://api.seerapi.com/v1/equip/1300402"
+        },
+        {
+          "id": 1300403,
+          "url": "https://api.seerapi.com/v1/equip/1300403"
+        },
+        {
+          "id": 1300404,
+          "url": "https://api.seerapi.com/v1/equip/1300404"
+        }
+      ],
+      "bonus": {
+        "newse_id": 7705,
+        "eid_effect": {
+          "effect_args": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "effect": {
+            "id": 630,
+            "url": "https://api.seerapi.com/v1/eid_effect/630"
+          }
+        },
+        "id": 303,
+        "desc": "背包内哈克萨斯全属性+5%，赛尔与赛尔之间对战无效",
+        "effective_pets": [
+          {
+            "id": 1791,
+            "url": "https://api.seerapi.com/v1/pet/1791"
+          }
+        ],
+        "attribute": {
+          "atk": 5,
+          "def": 5,
+          "sp_atk": 5,
+          "sp_def": 5,
+          "spd": 5,
+          "hp": 5,
+          "percent": true,
+          "total": 30
+        }
+      }
+    }
+  },
+  "hash": "20217ccf"
+}

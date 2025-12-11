@@ -1,0 +1,58 @@
+{
+  "data": {
+    "28987": {
+      "id": 28987,
+      "name": "星云腾浪",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态了；自身属性技能的出手变快了；反馈了能力下降状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内免疫所有受到的异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内自身使用属性技能时能较快出手",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 171,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/171"
+          }
+        },
+        {
+          "info": "将能力下降状态反馈给对手",
+          "args": [],
+          "effect": {
+            "id": 63,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/63"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b4ecd2ec"
+}

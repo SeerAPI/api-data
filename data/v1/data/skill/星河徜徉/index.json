@@ -1,0 +1,73 @@
+{
+  "data": {
+    "27216": {
+      "id": 27216,
+      "name": "星河徜徉",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫异常状态了；有几率闪避对手的攻击；对手MISS则自身攻击打出致命了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内每回合50%闪避对手攻击，未触发则回合结束时100%令对手失明",
+          "args": [
+            3,
+            50,
+            100,
+            20
+          ],
+          "effect": {
+            "id": 1442,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1442"
+          }
+        },
+        {
+          "info": "3回合内若对手MISS则下回合自身必定致命一击",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 160,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/160"
+          }
+        },
+        {
+          "info": "下3回合自身攻击技能必定命中",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 81,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/81"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d043df11"
+}

@@ -1,0 +1,71 @@
+{
+  "data": {
+    "38117": {
+      "id": 38117,
+      "name": "死祸咒返",
+      "power": 85,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手处于能力下降状态时先制+3",
+          "args": [],
+          "effect": {
+            "id": 2349,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2349"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1180"
+          }
+        },
+        {
+          "info": "附加自身最大体力40%的百分比伤害，若对手免疫百分比伤害则额外附加等量的真实伤害",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 1697,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1697"
+          }
+        },
+        {
+          "info": "1回合内100%闪避对手的攻击，效果结束后恢复自身所有技能1点PP值与全部体力",
+          "args": [
+            1,
+            100,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2067,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2067"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5663bb84"
+}

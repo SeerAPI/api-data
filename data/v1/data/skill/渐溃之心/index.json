@@ -1,0 +1,74 @@
+{
+  "data": {
+    "28701": {
+      "id": 28701,
+      "name": "渐溃之心",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "能力开始持续变化，开始提供养分了，附加了异常状态；吸取了对手的体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合防御+1，特攻+1，特防+1，速度-1，命中+1",
+          "args": [
+            3,
+            0,
+            1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "effect": {
+            "id": 433,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/433"
+          }
+        },
+        {
+          "info": "随机附加烧伤、冻伤、中毒、焚烬、冰封、感染中的2种异常状态，未触发控制类异常状态则2回合内令对手使用的属性技能无效",
+          "args": [],
+          "effect": {
+            "id": 1364,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1364"
+          }
+        },
+        {
+          "info": "吸取对手300点体力，若对手未受到固定伤害则100%令对手诅咒",
+          "args": [
+            300,
+            100,
+            23
+          ],
+          "effect": {
+            "id": 1895,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1895"
+          }
+        },
+        {
+          "info": "若后出手则消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 1083,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1083"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c7d5a2e8"
+}

@@ -1,0 +1,68 @@
+{
+  "data": {
+    "36130": {
+      "id": 36130,
+      "name": "孤胆映青釭",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "孤胆越阵，龙舞力却群英",
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视攻击免疫效果",
+          "args": [],
+          "effect": {
+            "id": 699,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+          }
+        },
+        {
+          "info": "无视对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 494,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/494"
+          }
+        },
+        {
+          "info": "吸取对手250点体力，若对手任意1项技能PP值小于2点则吸取效果翻倍",
+          "args": [
+            250,
+            2
+          ],
+          "effect": {
+            "id": 1450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1450"
+          }
+        },
+        {
+          "info": "技能威力提升50%，对手任意1项技能PP值小于2点则提升效果翻倍",
+          "args": [
+            50,
+            2
+          ],
+          "effect": {
+            "id": 1857,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1857"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "910fed64"
+}

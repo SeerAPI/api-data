@@ -1,0 +1,66 @@
+{
+  "data": {
+    "28810": {
+      "id": 28810,
+      "name": "魂·天忤太虚",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 123,
+        "url": "https://api.seerapi.com/v1/element_type_combination/123"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身处于星赐且不处于星哲则将此技能转化为物理攻击，若自身处于星哲且不处于星赐则将此技能转化为特殊攻击，转化后此技能系别与自身相同且自身天赋值越高技能威力越大",
+          "args": [],
+          "effect": {
+            "id": 2210,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2210"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 976,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/976"
+          }
+        },
+        {
+          "info": "若自身体力高于对手则使对手束缚",
+          "args": [
+            28
+          ],
+          "effect": {
+            "id": 935,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/935"
+          }
+        },
+        {
+          "info": "若自身体力低于对手则与对手互换体力",
+          "args": [],
+          "effect": {
+            "id": 773,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/773"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7258a6d7"
+}

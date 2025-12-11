@@ -1,0 +1,41 @@
+{
+  "data": {
+    "18138": {
+      "id": 18138,
+      "name": "狂战之勇",
+      "power": 140,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/element_type_combination/14"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机恢复100到200点生命值",
+          "args": [
+            100,
+            200
+          ],
+          "effect": {
+            "id": 450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "41828445"
+}

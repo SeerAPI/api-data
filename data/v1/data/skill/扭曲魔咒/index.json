@@ -1,0 +1,46 @@
+{
+  "data": {
+    "37932": {
+      "id": 37932,
+      "name": "扭曲魔咒",
+      "power": 150,
+      "max_pp": 1,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "令对手下次使用的技能无效",
+          "args": [],
+          "effect": {
+            "id": 884,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/884"
+          }
+        },
+        {
+          "info": "若先出手则必定打出致命一击",
+          "args": [],
+          "effect": {
+            "id": 1395,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "55d9929"
+}

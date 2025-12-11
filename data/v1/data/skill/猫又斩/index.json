@@ -1,0 +1,50 @@
+{
+  "data": {
+    "36823": {
+      "id": 36823,
+      "name": "猫又斩",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时70%使对手焚烬2回合",
+          "args": [
+            70,
+            22,
+            2
+          ],
+          "effect": {
+            "id": 680,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/680"
+          }
+        },
+        {
+          "info": "使对手的能力提升效果转化到自己身上",
+          "args": [],
+          "effect": {
+            "id": 85,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/85"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9ef59d56"
+}

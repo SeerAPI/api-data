@@ -1,0 +1,41 @@
+{
+  "data": {
+    "32008": {
+      "id": 32008,
+      "name": "凶狠碾压",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/element_type_combination/81"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "25%令对手全属性-1",
+          "args": [
+            25,
+            1
+          ],
+          "effect": {
+            "id": 749,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/749"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "af48bc7a"
+}

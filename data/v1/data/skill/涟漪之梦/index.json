@@ -1,0 +1,48 @@
+{
+  "data": {
+    "31014": {
+      "id": 31014,
+      "name": "涟漪之梦",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/element_type_combination/24"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/928"
+          }
+        },
+        {
+          "info": "若当前HP低于对手，则技能威力翻倍",
+          "args": [],
+          "effect": {
+            "id": 132,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/132"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "96a7717a"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "11953": {
+      "id": 11953,
+      "name": "复苏之光",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若使用技能则恢复40点体力值",
+          "args": [
+            3,
+            40
+          ],
+          "effect": {
+            "id": 77,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/77"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ac9aa1ff"
+}

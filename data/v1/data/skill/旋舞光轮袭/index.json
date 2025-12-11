@@ -1,0 +1,48 @@
+{
+  "data": {
+    "16479": {
+      "id": 16479,
+      "name": "旋舞光轮袭",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 59,
+        "url": "https://api.seerapi.com/v1/element_type_combination/59"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "后出手时恢复130点体力",
+          "args": [
+            130
+          ],
+          "effect": {
+            "id": 476,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/476"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2b12b8f4"
+}

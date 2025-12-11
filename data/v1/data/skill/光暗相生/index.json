@@ -1,0 +1,62 @@
+{
+  "data": {
+    "23818": {
+      "id": 23818,
+      "name": "光暗相生",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "有一定几率回避对手攻击；随机吸取对手属性；抵抗异常状态的能力提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内每回合70%闪避对手攻击",
+          "args": [
+            2,
+            70
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        },
+        {
+          "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+          "args": [
+            2,
+            -2
+          ],
+          "effect": {
+            "id": 425,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/425"
+          }
+        },
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f431e07c"
+}

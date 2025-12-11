@@ -1,0 +1,56 @@
+{
+  "data": {
+    "28328": {
+      "id": 28328,
+      "name": "婵·命定星缘",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "我会守护瓏域的繁荣，也会奔赴群星的闪耀！",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "该技能在战斗中需要通过武心婵专属特性解封后才可选择使用；解放自身当前持有的全部龙鳞：每解放成功一种三色龙鳞则令自身1回合内的回合类效果无法被消除、令自身1回合内的能力提升状态无法被消除或吸取、令对手1回合内的能力下降状态无法被解除或反转；若解放成功白色龙鳞则令自身下1次攻击技能造成的伤害提升100%、附加给对手300点固定伤害、附加自身最大体力30%的百分比伤害、随机附加2种控制类异常状态、令对手全属性-2",
+          "args": [],
+          "effect": {
+            "id": 1995,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1995"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "恢复自身所有PP值",
+          "args": [],
+          "effect": {
+            "id": 87,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/87"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9a376070"
+}

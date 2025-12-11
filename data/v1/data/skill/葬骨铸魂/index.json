@@ -1,0 +1,70 @@
+{
+  "data": {
+    "28026": {
+      "id": 28026,
+      "name": "葬骨铸魂",
+      "power": 0,
+      "max_pp": 4,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "对手使用属性技能则无法使用属性技能；对手使用攻击技能则无法使用攻击技能；自身仿佛焕发了新生",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内若对手使用属性技能，则使用属性技能后的下1回合属性技能命中效果失效",
+          "args": [
+            4,
+            1
+          ],
+          "effect": {
+            "id": 1637,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1637"
+          }
+        },
+        {
+          "info": "4回合内若对手使用攻击技能，则使用攻击技能后的下1回合攻击技能无法造成伤害且命中效果失效",
+          "args": [
+            4,
+            1
+          ],
+          "effect": {
+            "id": 1833,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1833"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 43,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/43"
+          }
+        },
+        {
+          "info": "恢复自身所有PP值",
+          "args": [],
+          "effect": {
+            "id": 87,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/87"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f6ce1887"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "23321": {
+      "id": 23321,
+      "name": "远古图腾",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "体力开始恢复；受到的伤害减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若使用技能则恢复200点体力值",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 77,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/77"
+          }
+        },
+        {
+          "info": "2回合内每回合被攻击所受到的伤害不超过250",
+          "args": [
+            2,
+            250
+          ],
+          "effect": {
+            "id": 125,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/125"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3a23c001"
+}

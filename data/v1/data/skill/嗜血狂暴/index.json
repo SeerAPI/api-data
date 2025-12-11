@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33780": {
+      "id": 33780,
+      "name": "嗜血狂暴",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 83,
+        "url": "https://api.seerapi.com/v1/element_type_combination/83"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%的概率恢复自身体力的1/3",
+          "args": [
+            50,
+            3
+          ],
+          "effect": {
+            "id": 438,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/438"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "641d8e74"
+}

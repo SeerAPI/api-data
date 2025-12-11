@@ -1,0 +1,51 @@
+{
+  "data": {
+    "37410": {
+      "id": 37410,
+      "name": "强腕拦截",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 66,
+        "url": "https://api.seerapi.com/v1/element_type_combination/66"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内自身受到的攻击伤害额外减少30%",
+          "args": [
+            2,
+            30
+          ],
+          "effect": {
+            "id": 1984,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1984"
+          }
+        },
+        {
+          "info": "2回合内受到攻击则对手下回合受到的伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 817,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/817"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c917e5b7"
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "30500": {
+      "id": 30500,
+      "name": "业火红莲",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 27,
+        "url": "https://api.seerapi.com/v1/element_type_combination/27"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则50%令对手睡眠，未触发则100%令对手烧伤",
+          "args": [
+            50,
+            8,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1138"
+          }
+        },
+        {
+          "info": "3回合内每回合80%闪避对手攻击",
+          "args": [
+            3,
+            80
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "85d04442"
+}

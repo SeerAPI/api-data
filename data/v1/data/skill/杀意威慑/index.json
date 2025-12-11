@@ -1,0 +1,43 @@
+{
+  "data": {
+    "36677": {
+      "id": 36677,
+      "name": "杀意威慑",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内每回合50%对手属性技能无效，未触发则下1次受到的攻击伤害减少50%",
+          "args": [
+            2,
+            50,
+            1,
+            50
+          ],
+          "effect": {
+            "id": 1622,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1622"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f2d65153"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "37106": {
+      "id": 37106,
+      "name": "繁馨一隅",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 112,
+        "url": "https://api.seerapi.com/v1/element_type_combination/112"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身主动切换下场后令己方下只精灵出战时恢复300点体力",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1702,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1702"
+          }
+        },
+        {
+          "info": "自身主动切换下场后令己方下只精灵出战时获得300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1937,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1937"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7e5d927d"
+}

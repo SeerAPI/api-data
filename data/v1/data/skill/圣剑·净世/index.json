@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36016": {
+      "id": 36016,
+      "name": "圣剑·净世",
+      "power": 100,
+      "max_pp": 7,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 117,
+        "url": "https://api.seerapi.com/v1/element_type_combination/117"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则自身下2回合造成的攻击伤害额外提升100%",
+          "args": [
+            2,
+            100
+          ],
+          "effect": {
+            "id": 1124,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1124"
+          }
+        },
+        {
+          "info": "100%令对手害怕，未触发则对手每存在1层处决印记自身免疫1次受到的异常状态",
+          "args": [
+            100,
+            6,
+            1
+          ],
+          "effect": {
+            "id": 1824,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1824"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "71013c92"
+}

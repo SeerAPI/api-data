@@ -1,0 +1,140 @@
+{
+  "data": {
+    "45": {
+      "id": 45,
+      "name": "S级冰系技能石",
+      "rank": 5,
+      "power": 160,
+      "max_pp": 2,
+      "accuracy": 100,
+      "category": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/skill_stone_category/9"
+      },
+      "item": {
+        "id": 1100045,
+        "url": "https://api.seerapi.com/v1/item/1100045"
+      },
+      "effect": [
+        {
+          "prob": 0.07,
+          "effect": [
+            {
+              "info": "命中后15%令对方冻伤",
+              "args": [
+                15
+              ],
+              "effect": {
+                "id": 14,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/14"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.02,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身攻击等级+1",
+              "args": [
+                0,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.02,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身防御等级+1",
+              "args": [
+                1,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.02,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身特攻等级+1",
+              "args": [
+                2,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.02,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身特防等级+1",
+              "args": [
+                3,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.02,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身速度等级+1",
+              "args": [
+                4,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        },
+        {
+          "prob": 0.02,
+          "effect": [
+            {
+              "info": "技能使用成功时，15%改变自身命中等级+1",
+              "args": [
+                5,
+                15,
+                1
+              ],
+              "effect": {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "d50ea357"
+}

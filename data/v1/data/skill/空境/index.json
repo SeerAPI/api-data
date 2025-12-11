@@ -1,0 +1,40 @@
+{
+  "data": {
+    "28833": {
+      "id": 28833,
+      "name": "空境",
+      "power": 0,
+      "max_pp": 40,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "消除了双方的能力提升、能力下降",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除双方能力提升、下降状态",
+          "args": [
+            0
+          ],
+          "effect": {
+            "id": 533,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/533"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3912bcab"
+}

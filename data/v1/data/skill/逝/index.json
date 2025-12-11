@@ -1,0 +1,52 @@
+{
+  "data": {
+    "36572": {
+      "id": 36572,
+      "name": "逝",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手为自身天敌则50%令对手害怕，未触发则对手1回合内属性技能命中效果失效",
+          "args": [
+            50,
+            6,
+            1
+          ],
+          "effect": {
+            "id": 1490,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1490"
+          }
+        },
+        {
+          "info": "若对手处于能力提升状态则造成的攻击伤害额外提升75%",
+          "args": [
+            75
+          ],
+          "effect": {
+            "id": 1103,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1103"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "942f149d"
+}

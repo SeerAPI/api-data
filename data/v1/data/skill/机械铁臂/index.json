@@ -1,0 +1,38 @@
+{
+  "data": {
+    "34318": {
+      "id": 34318,
+      "name": "机械铁臂",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/element_type_combination/39"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将自身的能力下降状态双倍反馈给对手",
+          "args": [],
+          "effect": {
+            "id": 813,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/813"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e644fc73"
+}

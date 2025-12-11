@@ -1,0 +1,41 @@
+{
+  "data": {
+    "18094": {
+      "id": 18094,
+      "name": "天芒焚体",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力上升状态，消除成功2回合内受到伤害减少200点",
+          "args": [
+            2,
+            200
+          ],
+          "effect": {
+            "id": 624,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/624"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f86b7623"
+}

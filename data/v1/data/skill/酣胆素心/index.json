@@ -1,0 +1,69 @@
+{
+  "data": {
+    "28910": {
+      "id": 28910,
+      "name": "酣胆素心",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "解除了自身能力下降状态；全属性提升了；附加的百分比伤害提升了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身能力下降状态，解除成功则令对手下1次使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1115,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1115"
+          }
+        },
+        {
+          "info": "全属性+1，30%概率强化效果翻倍，未触发则2回合内每回合攻击+1，速度+1",
+          "args": [
+            1,
+            30,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 1378,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1378"
+          }
+        },
+        {
+          "info": "下2回合令对手所有技能先制-2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 619,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/619"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cce8dca2"
+}

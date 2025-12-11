@@ -1,0 +1,52 @@
+{
+  "data": {
+    "37846": {
+      "id": 37846,
+      "name": "悬河",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 36,
+        "url": "https://api.seerapi.com/v1/element_type_combination/36"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，若对手不处于能力提升状态则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1928"
+          }
+        },
+        {
+          "info": "2回合内若自身先出手则100%令对手沉默，未触发则消除对手回合类效果",
+          "args": [
+            2,
+            100,
+            30
+          ],
+          "effect": {
+            "id": 1353,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1353"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5c0db82d"
+}

@@ -1,0 +1,70 @@
+{
+  "data": {
+    "37748": {
+      "id": 37748,
+      "name": "终结·审判日",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 118,
+        "url": "https://api.seerapi.com/v1/element_type_combination/118"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反馈自身能力下降状态，反馈成功则恢复自身全部PP值",
+          "args": [],
+          "effect": {
+            "id": 2249,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2249"
+          }
+        },
+        {
+          "info": "平均自身的能力等级，然后自身每减少了1项能力的等级附加80点真实伤害，每增加了1项能力的等级令对手下次攻击造成的伤害减少10%",
+          "args": [
+            80,
+            1,
+            10
+          ],
+          "effect": {
+            "id": 2250,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2250"
+          }
+        },
+        {
+          "info": "自身所有能力等级均为6级时，激活所有技能对应的体力上限提升效果并附加自身最大体力25%的百分比伤害",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 2251,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2251"
+          }
+        },
+        {
+          "info": "击败对手后自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2252,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dc17370a"
+}

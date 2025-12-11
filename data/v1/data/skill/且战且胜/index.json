@@ -1,0 +1,76 @@
+{
+  "data": {
+    "23584": {
+      "id": 23584,
+      "name": "且战且胜",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": " 对手的攻击、特攻、命中下降了；致命一击的概率提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变对手攻击等级-1",
+          "args": [
+            0,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变对手特攻等级-1",
+          "args": [
+            2,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变对手命中等级-1",
+          "args": [
+            5,
+            100,
+            -1
+          ],
+          "effect": {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/5"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f2c4dc92"
+}

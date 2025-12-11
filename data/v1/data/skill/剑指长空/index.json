@@ -1,0 +1,40 @@
+{
+  "data": {
+    "30506": {
+      "id": 30506,
+      "name": "剑指长空",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下2回合若对手先出手，则令对手当回合使用的攻击技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 726,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/726"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "de6fd9a9"
+}

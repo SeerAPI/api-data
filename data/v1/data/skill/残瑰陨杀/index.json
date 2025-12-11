@@ -1,0 +1,41 @@
+{
+  "data": {
+    "35656": {
+      "id": 35656,
+      "name": "残瑰陨杀",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/element_type_combination/3"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手全属性-1，未触发则对手烧伤",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1122,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1122"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "845ab767"
+}

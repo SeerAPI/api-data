@@ -1,0 +1,49 @@
+{
+  "data": {
+    "36372": {
+      "id": 36372,
+      "name": "伶仃孤月",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 99,
+        "url": "https://api.seerapi.com/v1/element_type_combination/99"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+          "args": [
+            2,
+            300
+          ],
+          "effect": {
+            "id": 766,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+          }
+        },
+        {
+          "info": "若当前HP低于对手，则技能威力翻倍",
+          "args": [],
+          "effect": {
+            "id": 132,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/132"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "adcbd84c"
+}

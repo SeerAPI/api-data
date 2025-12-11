@@ -1,0 +1,53 @@
+{
+  "data": {
+    "36595": {
+      "id": 36595,
+      "name": "紧急飞爪",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1123,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1123"
+          }
+        },
+        {
+          "info": "100%令对手混乱，未触发则吸取对手最大体力的1/3",
+          "args": [
+            100,
+            10,
+            3
+          ],
+          "effect": {
+            "id": 1047,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1047"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4e6c17fb"
+}

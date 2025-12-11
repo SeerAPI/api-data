@@ -1,0 +1,38 @@
+{
+  "data": {
+    "28485": {
+      "id": 28485,
+      "name": "虚浮悲叹",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "与对手交换了生命",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身体力低于对手则与对手互换体力",
+          "args": [],
+          "effect": {
+            "id": 773,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/773"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "64b1bdea"
+}

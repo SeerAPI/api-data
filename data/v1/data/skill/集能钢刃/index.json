@@ -1,0 +1,51 @@
+{
+  "data": {
+    "33500": {
+      "id": 33500,
+      "name": "集能钢刃",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 103,
+        "url": "https://api.seerapi.com/v1/element_type_combination/103"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则附加300点固定伤害",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1261,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1261"
+          }
+        },
+        {
+          "info": "连续使用时威力提升20%，最高提升100%",
+          "args": [
+            20,
+            100
+          ],
+          "effect": {
+            "id": 1443,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1443"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a1643a6a"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "36337": {
+      "id": 36337,
+      "name": "嗜血搏击",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 93,
+        "url": "https://api.seerapi.com/v1/element_type_combination/93"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "释放技能时自身每损失10%的体力值则此技能威力提升10点",
+          "args": [
+            10,
+            10
+          ],
+          "effect": {
+            "id": 1652,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1652"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bcdf0c43"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "37228": {
+      "id": 37228,
+      "name": "角突",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 225,
+        "url": "https://api.seerapi.com/v1/element_type_combination/225"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%给予对手冻伤、中毒、烧伤中任意一种异常状态",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 596,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/596"
+          }
+        },
+        {
+          "info": "若本回合击败对手则将对手的能力提升效果转移到自己身上",
+          "args": [],
+          "effect": {
+            "id": 784,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/784"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bd38038"
+}

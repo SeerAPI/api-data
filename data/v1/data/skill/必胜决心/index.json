@@ -1,0 +1,52 @@
+{
+  "data": {
+    "27515": {
+      "id": 27515,
+      "name": "必胜决心",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "随机恢复一定体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合自身攻击和速度提高1个等级",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 126,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/126"
+          }
+        },
+        {
+          "info": "随机恢复200到500点生命值",
+          "args": [
+            200,
+            500
+          ],
+          "effect": {
+            "id": 450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "63fc1ce7"
+}

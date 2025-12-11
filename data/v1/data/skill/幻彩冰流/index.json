@@ -1,0 +1,41 @@
+{
+  "data": {
+    "11667": {
+      "id": 11667,
+      "name": "幻彩冰流",
+      "power": 105,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 46,
+        "url": "https://api.seerapi.com/v1/element_type_combination/46"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合使用技能恢复自身最大体力的1/10",
+          "args": [
+            3,
+            10
+          ],
+          "effect": {
+            "id": 57,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ba8ad6ad"
+}

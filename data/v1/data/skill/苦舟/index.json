@@ -1,0 +1,51 @@
+{
+  "data": {
+    "37934": {
+      "id": 37934,
+      "name": "苦舟",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 53,
+        "url": "https://api.seerapi.com/v1/element_type_combination/53"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则免疫下1回合受到的攻击伤害",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1034,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1034"
+          }
+        },
+        {
+          "info": "3回合内对手使用属性技能，则自身下1回合必定暴击",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 718,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/718"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ad01020d"
+}

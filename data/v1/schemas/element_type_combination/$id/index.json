@@ -23,7 +23,7 @@
     },
     "primary": {
       "$ref": "#/$defs/ResourceRef_ElementType_",
-      "description": "主属性"
+      "description": "第一属性"
     },
     "secondary": {
       "anyOf": [
@@ -35,10 +35,10 @@
         }
       ],
       "default": null,
-      "description": "副属性"
+      "description": "第二属性，仅在该属性为双属性时有效"
     },
     "hash": {
-      "description": "数据哈希值，目前pydantic不支持对key进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
       "title": "Hash",
       "type": "string"
     }

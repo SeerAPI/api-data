@@ -1,0 +1,58 @@
+{
+  "data": {
+    "36319": {
+      "id": 36319,
+      "name": "煌龙堕心杀",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 25.0,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 28,
+        "url": "https://api.seerapi.com/v1/element_type_combination/28"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 1061,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1061"
+          }
+        },
+        {
+          "info": "若打出致命一击则造成的攻击伤害提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1840,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1840"
+          }
+        },
+        {
+          "info": "对手每处于一种能力下降状态附加100点固定伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 848,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/848"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "28bad604"
+}

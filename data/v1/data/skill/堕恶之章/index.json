@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28170": {
+      "id": 28170,
+      "name": "堕恶之章",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "一定回合内被击败则令对手疲惫",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若被对手击败则对手疲惫2回合 ",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 524,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/524"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6c874b75"
+}

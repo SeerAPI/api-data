@@ -1,0 +1,53 @@
+{
+  "data": {
+    "17655": {
+      "id": 17655,
+      "name": "迅捷狂热",
+      "power": 85,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/element_type_combination/47"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%概率使对手陷入烧伤状态2回合",
+          "args": [
+            50,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 603,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/603"
+          }
+        },
+        {
+          "info": "2回合内免疫低于300的攻击伤害",
+          "args": [
+            2,
+            300
+          ],
+          "effect": {
+            "id": 576,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/576"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "397d918e"
+}

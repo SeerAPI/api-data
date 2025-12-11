@@ -1,0 +1,64 @@
+{
+  "data": {
+    "25678": {
+      "id": 25678,
+      "name": "圣光吟诵",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "圣光开始吟诵，在神威下对手会陷入疲惫，否则属性技能将被封印；受到攻击则减少对手体力；凝聚的神灵之力使得自身的输出大幅度提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "100%令对手疲惫，未触发则令对手2回合内使用的属性技能无效",
+          "args": [
+            100,
+            7,
+            2
+          ],
+          "effect": {
+            "id": 936,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/936"
+          }
+        },
+        {
+          "info": "4回合内若对手使用攻击技能则造成伤害前附加对手最大体力1/3的百分比伤害",
+          "args": [
+            4,
+            3
+          ],
+          "effect": {
+            "id": 1236,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1236"
+          }
+        },
+        {
+          "info": "下2回合造成的攻击伤害额外提升150%",
+          "args": [
+            2,
+            150
+          ],
+          "effect": {
+            "id": 693,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/693"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "42d60cc8"
+}

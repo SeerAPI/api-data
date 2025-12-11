@@ -1,0 +1,48 @@
+{
+  "data": {
+    "36148": {
+      "id": 36148,
+      "name": "焰淬",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/element_type_combination/68"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 781,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+          }
+        },
+        {
+          "info": "附加自身当前护盾值等量的固定伤害",
+          "args": [],
+          "effect": {
+            "id": 1272,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1272"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b7fcb0e2"
+}

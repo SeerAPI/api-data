@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35558": {
+      "id": 35558,
+      "name": "灼热拳风",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/element_type_combination/73"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1356,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1356"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b90aa2f2"
+}

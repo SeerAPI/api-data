@@ -1,0 +1,58 @@
+{
+  "data": {
+    "37393": {
+      "id": 37393,
+      "name": "龙翼风散",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/element_type_combination/15"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 931,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/931"
+          }
+        },
+        {
+          "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1355,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1355"
+          }
+        },
+        {
+          "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "args": [],
+          "effect": {
+            "id": 444,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/444"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "18596bf0"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "36285": {
+      "id": 36285,
+      "name": "慧语",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 93,
+      "crit_rate": 12.5,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/element_type_combination/60"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "6%的概率秒杀对手，未触发则令对手全属性-1",
+          "args": [
+            6,
+            1
+          ],
+          "effect": {
+            "id": 1318,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1318"
+          }
+        },
+        {
+          "info": "3回合内每回合有60%的概率免疫当回合受到的攻击伤害",
+          "args": [
+            3,
+            60
+          ],
+          "effect": {
+            "id": 850,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/850"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fc834580"
+}

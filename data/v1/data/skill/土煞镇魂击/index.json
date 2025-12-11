@@ -1,0 +1,52 @@
+{
+  "data": {
+    "33217": {
+      "id": 33217,
+      "name": "土煞镇魂击",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 40,
+        "url": "https://api.seerapi.com/v1/element_type_combination/40"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身能力下降状态，解除成功则自身下2回合受到的伤害减少250点",
+          "args": [
+            2,
+            250
+          ],
+          "effect": {
+            "id": 1153,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1153"
+          }
+        },
+        {
+          "info": "造成的伤害低于250则附加自身最大体力25%的百分比伤害",
+          "args": [
+            250,
+            25
+          ],
+          "effect": {
+            "id": 1082,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1082"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "949a8a8c"
+}

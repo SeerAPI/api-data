@@ -1,0 +1,59 @@
+{
+  "data": {
+    "36680": {
+      "id": 36680,
+      "name": "野性伏击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身为对手天敌则对手下次使用的攻击技能必定MISS",
+          "args": [],
+          "effect": {
+            "id": 2029,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2029"
+          }
+        },
+        {
+          "info": "若造成的伤害低于300，则所有技能的PP值恢复10点",
+          "args": [
+            300,
+            10
+          ],
+          "effect": {
+            "id": 134,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/134"
+          }
+        },
+        {
+          "info": "若对手下次使用的攻击技能未命中则令对手害怕",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 648,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/648"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d15b3ef0"
+}

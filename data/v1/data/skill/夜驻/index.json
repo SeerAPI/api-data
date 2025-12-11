@@ -1,0 +1,51 @@
+{
+  "data": {
+    "36407": {
+      "id": 36407,
+      "name": "夜驻",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 110,
+        "url": "https://api.seerapi.com/v1/element_type_combination/110"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升，消除成功可以抵挡2回合内对手的攻击伤害",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 794,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/794"
+          }
+        },
+        {
+          "info": "使对手随机1项技能PP值归零，若当回合受到攻击则额外使对手随机1项技能PP值归零",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1126,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1126"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6126c0c3"
+}

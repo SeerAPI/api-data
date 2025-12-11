@@ -1,0 +1,85 @@
+{
+  "data": {
+    "28646": {
+      "id": 28646,
+      "name": "繁荫入卷",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；开始解除并反馈能力下降状态了；开始吸取对手的能力等级了；身边被花草环绕",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内每回合结束后解除并反馈自身能力下降状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 922,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/922"
+          }
+        },
+        {
+          "info": "3回合内每回合结束后恢复自身所有技能1点PP值",
+          "args": [
+            3,
+            0,
+            1
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 849,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/849"
+          }
+        },
+        {
+          "info": "3回合内若对手使用攻击技能则100%使对手感染",
+          "args": [
+            3,
+            100,
+            27
+          ],
+          "effect": {
+            "id": 663,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/663"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5b99178f"
+}

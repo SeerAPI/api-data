@@ -1,0 +1,56 @@
+{
+  "data": {
+    "37933": {
+      "id": 37933,
+      "name": "湮灭灌注",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 1167,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1167"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则对手2回合内攻击技能MISS",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 950,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/950"
+          }
+        },
+        {
+          "info": "若自身先出手，则本回合对手释放的属性技能失效",
+          "args": [],
+          "effect": {
+            "id": 899,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/899"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "62c9adc2"
+}

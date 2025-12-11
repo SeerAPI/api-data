@@ -1,0 +1,52 @@
+{
+  "data": {
+    "22611": {
+      "id": 22611,
+      "name": "屹立不倒",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始逐渐恢复体力，在异常状态时能抵抗一些伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合使用技能恢复自身最大体力的1/3",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 57,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+          }
+        },
+        {
+          "info": "5回合内若自身处于异常状态则受到伤害减少250点",
+          "args": [
+            5,
+            250
+          ],
+          "effect": {
+            "id": 522,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/522"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "26ff86b1"
+}

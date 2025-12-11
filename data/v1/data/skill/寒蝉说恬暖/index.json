@@ -1,0 +1,60 @@
+{
+  "data": {
+    "37758": {
+      "id": 37758,
+      "name": "寒蝉说恬暖",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 87,
+        "url": "https://api.seerapi.com/v1/element_type_combination/87"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视自身负先制等级",
+          "args": [],
+          "effect": {
+            "id": 2143,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2143"
+          }
+        },
+        {
+          "info": "解除自身能力下降状态，解除成功则100%令对手冻伤",
+          "args": [
+            100,
+            5
+          ],
+          "effect": {
+            "id": 1711,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1711"
+          }
+        },
+        {
+          "info": "技能威力减少25%，对手处于异常状态时改为提升50%",
+          "args": [
+            25,
+            50
+          ],
+          "effect": {
+            "id": 2204,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2204"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "77bfbd01"
+}

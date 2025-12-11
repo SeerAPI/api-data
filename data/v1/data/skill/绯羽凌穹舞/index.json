@@ -1,0 +1,59 @@
+{
+  "data": {
+    "36934": {
+      "id": 36934,
+      "name": "绯羽凌穹舞",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 104,
+        "url": "https://api.seerapi.com/v1/element_type_combination/104"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则下2回合造成的伤害提高50%",
+          "args": [
+            2,
+            50
+          ],
+          "effect": {
+            "id": 1010,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1010"
+          }
+        },
+        {
+          "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1355,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1355"
+          }
+        },
+        {
+          "info": "击败对手则恢复自身全部体力和所有技能PP值",
+          "args": [],
+          "effect": {
+            "id": 1156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1156"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d660ebff"
+}

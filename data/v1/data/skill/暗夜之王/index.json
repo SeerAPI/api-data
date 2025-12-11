@@ -1,0 +1,65 @@
+{
+  "data": {
+    "23334": {
+      "id": 23334,
+      "name": "暗夜之王",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击、防御、命中、特防、速度上升了，攻击变得更加凌厉了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 478,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/478"
+          }
+        },
+        {
+          "info": "技能使用成功时，攻击+1，防御+1，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 585,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9dc225a8"
+}

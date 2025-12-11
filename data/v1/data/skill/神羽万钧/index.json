@@ -1,0 +1,51 @@
+{
+  "data": {
+    "22977": {
+      "id": 22977,
+      "name": "神羽万钧",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "在下回合能更快出手",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 478,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/478"
+          }
+        },
+        {
+          "info": "下1回合自身攻击先制+1",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 481,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/481"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5565d1d6"
+}

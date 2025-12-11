@@ -1,0 +1,41 @@
+{
+  "data": {
+    "23447": {
+      "id": 23447,
+      "name": "绝缘屏障",
+      "power": 0,
+      "max_pp": 3,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "身体周围充满了绝缘物质",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内自身令对手使用的电系攻击技能无效",
+          "args": [
+            2,
+            5
+          ],
+          "effect": {
+            "id": 613,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/613"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "efb2f7ea"
+}

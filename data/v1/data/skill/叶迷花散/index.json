@@ -1,0 +1,45 @@
+{
+  "data": {
+    "36917": {
+      "id": 36917,
+      "name": "叶迷花散",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 82,
+        "url": "https://api.seerapi.com/v1/element_type_combination/82"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手命中-2，对手处于异常状态时弱化效果翻倍",
+          "args": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            -2
+          ],
+          "effect": {
+            "id": 745,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/745"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d0c1978d"
+}

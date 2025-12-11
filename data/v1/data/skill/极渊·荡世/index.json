@@ -1,0 +1,73 @@
+{
+  "data": {
+    "38019": {
+      "id": 38019,
+      "name": "极渊·荡世",
+      "power": 100,
+      "max_pp": 10,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于回合类效果则造成伤害提升100%并消除对手回合类效果",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1808,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1808"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1012,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1012"
+          }
+        },
+        {
+          "info": "自身每处于一种能力提升状态，此技能威力提升20",
+          "args": [
+            20
+          ],
+          "effect": {
+            "id": 882,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/882"
+          }
+        },
+        {
+          "info": "造成的伤害高于400则100%令对手流血，未触发则吸取对手最大体力的1/3",
+          "args": [
+            400,
+            100,
+            16,
+            3
+          ],
+          "effect": {
+            "id": 1679,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1679"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "976a005a"
+}

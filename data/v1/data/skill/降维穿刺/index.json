@@ -1,0 +1,48 @@
+{
+  "data": {
+    "34196": {
+      "id": 34196,
+      "name": "降维穿刺",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/element_type_combination/38"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将自身的能力下降状态双倍反馈给对手",
+          "args": [],
+          "effect": {
+            "id": 813,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/813"
+          }
+        },
+        {
+          "info": "命中后10%秒杀对手",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 691,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/691"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ee9f882a"
+}

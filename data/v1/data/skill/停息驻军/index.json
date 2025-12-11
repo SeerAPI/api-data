@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35476": {
+      "id": 35476,
+      "name": "停息驻军",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身不处于能力提升或下降状态时则恢复200点体力",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 558,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/558"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cae36fbb"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "33181": {
+      "id": 33181,
+      "name": "魔力圈圈",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/element_type_combination/21"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则50%令对手失明，未触发则50%令对手失神",
+          "args": [
+            50,
+            20,
+            50,
+            29
+          ],
+          "effect": {
+            "id": 1138,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1138"
+          }
+        },
+        {
+          "info": "恢复自身最大体力的1/3，体力低于对手时附加等量百分比伤害",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1461,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1461"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6238038c"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28151": {
+      "id": 28151,
+      "name": "荒冢之铠",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "为自身附加1个护盾",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "获得300点护盾，护盾消失时恢复自身最大体力的1/3",
+          "args": [
+            300,
+            3
+          ],
+          "effect": {
+            "id": 1753,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1753"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "98e34fda"
+}

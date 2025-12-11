@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28163": {
+      "id": 28163,
+      "name": "银妆",
+      "power": 0,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始免疫对手的攻击伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内有100%概率免疫对手的攻击伤害",
+          "args": [
+            5,
+            100
+          ],
+          "effect": {
+            "id": 525,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/525"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "71c3c10b"
+}

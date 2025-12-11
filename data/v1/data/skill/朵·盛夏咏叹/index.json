@@ -1,0 +1,55 @@
+{
+  "data": {
+    "35916": {
+      "id": 35916,
+      "name": "朵·盛夏咏叹",
+      "power": 130,
+      "max_pp": 13,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升130%",
+          "args": [
+            130
+          ],
+          "effect": {
+            "id": 913,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/913"
+          }
+        },
+        {
+          "info": "获得130点护盾与130点护罩，若己方场地效果不为星璨舞台，则护盾效果翻倍且吸取对手130点体力并于下回合开始时将己方场地变为星璨舞台，持续5回合，若己方场地效果为星璨舞台，则护罩效果翻倍且造成伤害的130%恢复自身体力并于下回合开始时将己方场地变为灵籁泳馆，持续5回合",
+          "args": [
+            130,
+            130,
+            130,
+            5,
+            130,
+            5
+          ],
+          "effect": {
+            "id": 1813,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1813"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c7f37e13"
+}

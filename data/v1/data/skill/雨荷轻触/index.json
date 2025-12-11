@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33414": {
+      "id": 33414,
+      "name": "雨荷轻触",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 112,
+        "url": "https://api.seerapi.com/v1/element_type_combination/112"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机使自己3项能力+1",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 626,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/626"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d85c1cee"
+}

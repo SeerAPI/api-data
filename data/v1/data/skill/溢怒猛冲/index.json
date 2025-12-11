@@ -1,0 +1,40 @@
+{
+  "data": {
+    "33820": {
+      "id": 33820,
+      "name": "溢怒猛冲",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 26,
+        "url": "https://api.seerapi.com/v1/element_type_combination/26"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "未击败对手则下回合自身所有技能先制+2",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 984,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/984"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "518fa1e9"
+}

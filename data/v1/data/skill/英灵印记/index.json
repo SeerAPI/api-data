@@ -1,0 +1,52 @@
+{
+  "data": {
+    "16928": {
+      "id": 16928,
+      "name": "英灵印记",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 53,
+        "url": "https://api.seerapi.com/v1/element_type_combination/53"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "15%概率攻击3次",
+          "args": [
+            15,
+            3
+          ],
+          "effect": {
+            "id": 612,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/612"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则附加200点固定伤害",
+          "args": [
+            0,
+            200
+          ],
+          "effect": {
+            "id": 657,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/657"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cc80e1bf"
+}

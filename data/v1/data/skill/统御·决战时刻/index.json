@@ -1,0 +1,72 @@
+{
+  "data": {
+    "36092": {
+      "id": 36092,
+      "name": "统御·决战时刻",
+      "power": 160,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "随我号令，扬帆，启航！",
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 79,
+        "url": "https://api.seerapi.com/v1/element_type_combination/79"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身同时不存在回合类效果与能力提升状态则100%随机附加2种控制类异常状态",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1851,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1851"
+          }
+        },
+        {
+          "info": "若自身不处于能力提升状态则全属性+1，若自身处于能力提升状态则消除自身能力提升状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1852,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1852"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fc4222d"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "28889": {
+      "id": 28889,
+      "name": "骇浪飘摇",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "令对手感到冰冷",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手为自身天敌则70%令对手冰封，未触发则令自身3回合内70%闪避对手攻击",
+          "args": [
+            70,
+            15,
+            3,
+            70
+          ],
+          "effect": {
+            "id": 1489,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1489"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "7d93c86d"
+}

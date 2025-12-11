@@ -1,0 +1,42 @@
+{
+  "data": {
+    "34356": {
+      "id": 34356,
+      "name": "水炮轰击",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/element_type_combination/2"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于异常状态，则100%自身速度等级+1",
+          "args": [
+            4,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 175,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/175"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "aa48608d"
+}

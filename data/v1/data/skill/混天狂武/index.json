@@ -1,0 +1,52 @@
+{
+  "data": {
+    "30071": {
+      "id": 30071,
+      "name": "混天狂武",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则恢复自身最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1025,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1025"
+          }
+        },
+        {
+          "info": "若造成的伤害低于200，则下2回合每回合造成150点固定伤害",
+          "args": [
+            200,
+            2,
+            150
+          ],
+          "effect": {
+            "id": 793,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/793"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d6669595"
+}

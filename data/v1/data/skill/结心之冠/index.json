@@ -1,0 +1,42 @@
+{
+  "data": {
+    "36447": {
+      "id": 36447,
+      "name": "结心之冠",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 87,
+        "url": "https://api.seerapi.com/v1/element_type_combination/87"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加150点固定伤害，每次使用额外附加50点，最高300点",
+          "args": [
+            150,
+            50,
+            300
+          ],
+          "effect": {
+            "id": 1480,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1480"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c1a9de57"
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "33771": {
+      "id": 33771,
+      "name": "式仗飞临",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力提升状态，30%概率令对手麻痹",
+          "args": [
+            30,
+            0
+          ],
+          "effect": {
+            "id": 200,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/200"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5208c600"
+}

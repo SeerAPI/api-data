@@ -1,0 +1,62 @@
+{
+  "data": {
+    "26331": {
+      "id": 26331,
+      "name": "秘法之境",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；开始恢复一些体力并造成等量固伤了；开始免疫较低的攻击伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，自身满体力时强化效果翻倍",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 893,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/893"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能恢复自身最大体力的1/3并造成等量百分比伤害",
+          "args": [
+            4,
+            3
+          ],
+          "effect": {
+            "id": 532,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/532"
+          }
+        },
+        {
+          "info": "3回合内若对手造成的伤害低于300则免疫该伤害",
+          "args": [
+            3,
+            300
+          ],
+          "effect": {
+            "id": 874,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/874"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4686526c"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "36129": {
+      "id": 36129,
+      "name": "薪胆铸武烈",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "薪胆铸身，誓守广厦不倾",
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成的伤害低于300时100%令对手疲惫",
+          "args": [
+            300,
+            100,
+            7
+          ],
+          "effect": {
+            "id": 594,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/594"
+          }
+        },
+        {
+          "info": "先出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 40,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/40"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "679e817a"
+}

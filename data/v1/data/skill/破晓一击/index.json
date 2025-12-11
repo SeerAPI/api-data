@@ -1,0 +1,87 @@
+{
+  "data": {
+    "16524": {
+      "id": 16524,
+      "name": "破晓一击",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "30%概率伤害为2倍",
+          "args": [
+            30,
+            2
+          ],
+          "effect": {
+            "id": 88,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/88"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "34306": {
+      "id": 34306,
+      "name": "破晓一击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 49,
+        "url": "https://api.seerapi.com/v1/element_type_combination/49"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则为自身附加200点护盾",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 1012,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1012"
+          }
+        },
+        {
+          "info": "若自身体力高于对手则获得200点护盾，若自身体力低于对手则恢复自身最大体力的1/4",
+          "args": [
+            200,
+            4
+          ],
+          "effect": {
+            "id": 1451,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1451"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e9171d74"
+}

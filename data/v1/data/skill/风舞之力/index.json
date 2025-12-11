@@ -1,0 +1,63 @@
+{
+  "data": {
+    "27280": {
+      "id": 27280,
+      "name": "风舞之力",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "自身速度能力提升了；自身受到的伤害减少了；自身先出手则吸取对手少量体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+2",
+          "args": [
+            4,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "减少150点下回合所受的伤害 ",
+          "args": [
+            150
+          ],
+          "effect": {
+            "id": 508,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/508"
+          }
+        },
+        {
+          "info": "3回合内每回合若先出手则吸取对手150点体力",
+          "args": [
+            3,
+            150
+          ],
+          "effect": {
+            "id": 923,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/923"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d0f09e1d"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "24113": {
+      "id": 24113,
+      "name": "环绕力场",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "被击败时损失对手体力；对手释放技能所消耗的PP翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内若被对手击败则对手损失350点体力，造成致命伤害时，对手剩余1点体力",
+          "args": [
+            2,
+            350
+          ],
+          "effect": {
+            "id": 587,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/587"
+          }
+        },
+        {
+          "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "48b234e9"
+}

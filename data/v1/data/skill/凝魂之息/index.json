@@ -1,0 +1,40 @@
+{
+  "data": {
+    "37085": {
+      "id": 37085,
+      "name": "凝魂之息",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 224,
+        "url": "https://api.seerapi.com/v1/element_type_combination/224"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3合内自身所有攻击造成的伤害都将为自己恢复体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 452,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/452"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "761b93ee"
+}

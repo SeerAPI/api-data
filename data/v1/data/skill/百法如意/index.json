@@ -1,0 +1,76 @@
+{
+  "data": {
+    "28360": {
+      "id": 28360,
+      "name": "百法如意",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始持续附加给对手固定伤害了；一定回合内受到攻击则使对手焚烬；免疫下1次受到的攻击",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能附加300点固定伤害，若对手未受到固定伤害则额外附加等量的真实伤害",
+          "args": [
+            3,
+            300,
+            0
+          ],
+          "effect": {
+            "id": 1531,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1531"
+          }
+        },
+        {
+          "info": "3回合内对手使用攻击技能后使对手焚烬，未触发则对手下2回合属性技能命中效果失效",
+          "args": [
+            3,
+            22,
+            2
+          ],
+          "effect": {
+            "id": 1077,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1077"
+          }
+        },
+        {
+          "info": "免疫下1次对手的攻击，未触发则100%令对手焚烬",
+          "args": [
+            1,
+            100,
+            22
+          ],
+          "effect": {
+            "id": 1288,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1288"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6dd9744c"
+}

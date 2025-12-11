@@ -1,0 +1,42 @@
+{
+  "data": {
+    "17521": {
+      "id": 17521,
+      "name": "爆裂斩",
+      "power": 80,
+      "max_pp": 15,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/element_type_combination/48"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内对手使用正先制的技能时100%令对手害怕",
+          "args": [
+            3,
+            100,
+            6
+          ],
+          "effect": {
+            "id": 557,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/557"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "39b31891"
+}

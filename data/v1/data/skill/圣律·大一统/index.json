@@ -1,0 +1,63 @@
+{
+  "data": {
+    "28031": {
+      "id": 28031,
+      "name": "圣律·大一统",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始以神秘能量裁决对手了；活力开始快速恢复了；若对手被裁决则其后继之人的属性技能也将遭受封印",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使对手直接受到200点神秘系伤害，双方场上每有1柄圣剑则造成的伤害提升10%，若未命中则造成的伤害额外翻倍",
+          "args": [
+            200,
+            10
+          ],
+          "effect": {
+            "id": 1826,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1826"
+          }
+        },
+        {
+          "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+          "args": [
+            2,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        },
+        {
+          "info": "击败对手则令对手下1次使用的属性技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1827,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1827"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bbe49f06"
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "19361": {
+      "id": 19361,
+      "name": "寰宇天芒斩",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 221,
+        "url": "https://api.seerapi.com/v1/element_type_combination/221"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身每处于一种能力提升状态则附加80点固定伤害",
+          "args": [
+            80
+          ],
+          "effect": {
+            "id": 808,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/808"
+          }
+        },
+        {
+          "info": "消除对手回合类效果",
+          "args": [],
+          "effect": {
+            "id": 180,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/180"
+          }
+        },
+        {
+          "info": "将自身相应的能力提升赋予给对手相应的能力下降",
+          "args": [],
+          "effect": {
+            "id": 722,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/722"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9283845f"
+}

@@ -1,0 +1,71 @@
+{
+  "data": {
+    "37749": {
+      "id": 37749,
+      "name": "深梦归芜",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 226,
+        "url": "https://api.seerapi.com/v1/element_type_combination/226"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合使用技能吸取对手能力提升状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 677,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/677"
+          }
+        },
+        {
+          "info": "3回合内免疫所有受到的异常状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内免疫能力下降状态",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "3回合后对对手造成500点固定伤害 重复使用无法叠加",
+          "args": [
+            3,
+            500
+          ],
+          "effect": {
+            "id": 571,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/571"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a700dad2"
+}

@@ -1,0 +1,70 @@
+{
+  "data": {
+    "37809": {
+      "id": 37809,
+      "name": "凝寒止喧",
+      "power": 1,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于能力下降时先制+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 747,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/747"
+          }
+        },
+        {
+          "info": "攻击时将自身的能力下降状态视为相应的能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 1874,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1874"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 781,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+          }
+        },
+        {
+          "info": "连续攻击对手90次，对手每有50点肃霜之禁额外攻击10次，自身处于能力提升状态时效果翻倍",
+          "args": [
+            90,
+            50,
+            10
+          ],
+          "effect": {
+            "id": 2268,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2268"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6f1f2821"
+}

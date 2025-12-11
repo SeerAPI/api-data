@@ -1,0 +1,55 @@
+{
+  "data": {
+    "17083": {
+      "id": 17083,
+      "name": "绝影孤现",
+      "power": 85,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/element_type_combination/30"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内若自身攻击技能命中则30%令对手睡眠",
+          "args": [
+            3,
+            30,
+            8
+          ],
+          "effect": {
+            "id": 470,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/470"
+          }
+        },
+        {
+          "info": "100%概率使对手3回合内命中能力每回合变化-1",
+          "args": [
+            100,
+            3,
+            5,
+            -1
+          ],
+          "effect": {
+            "id": 643,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/643"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2a564010"
+}

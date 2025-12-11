@@ -1,0 +1,52 @@
+{
+  "data": {
+    "34392": {
+      "id": 34392,
+      "name": "尖葱突刺",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1052,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1052"
+          }
+        },
+        {
+          "info": "吸取对手150点固定体力，每次使用额外附加50点，最高250点",
+          "args": [
+            150,
+            50,
+            250
+          ],
+          "effect": {
+            "id": 837,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/837"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8e74dbb6"
+}

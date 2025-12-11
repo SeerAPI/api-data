@@ -1,0 +1,54 @@
+{
+  "data": {
+    "31439": {
+      "id": 31439,
+      "name": "天梦雪泪寒",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手是雄性则造成伤害提升100%,若对手不是雄性，则有100%概率使对手害怕",
+          "args": [
+            1,
+            100,
+            100,
+            6
+          ],
+          "effect": {
+            "id": 600,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/600"
+          }
+        },
+        {
+          "info": "双方每处于1种能力提升状态则附加40点固定伤害",
+          "args": [
+            1,
+            40
+          ],
+          "effect": {
+            "id": 1146,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1146"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cee96e33"
+}

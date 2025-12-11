@@ -1,0 +1,133 @@
+{
+  "data": {
+    "23962": {
+      "id": 23962,
+      "name": "异能爆发",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "攻击变得更加犀利了；抵抗异常状态的能力提升了；有几率闪避对手攻击",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下2回合攻击必定先出手",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 694,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/694"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定打出致命一击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 58,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+          }
+        },
+        {
+          "info": "5回合内免疫所有受到的异常状态",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内每回合75%闪避对手攻击",
+          "args": [
+            3,
+            75
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "25112": {
+      "id": 25112,
+      "name": "异能爆发",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性都提升了；开始慢慢恢复体力了；受到的伤害减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 585,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能恢复自身最大体力的1/3",
+          "args": [
+            4,
+            3
+          ],
+          "effect": {
+            "id": 57,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/57"
+          }
+        },
+        {
+          "info": "3回合内每回合所受的伤害减少200",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 408,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/408"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "465b3037"
+}

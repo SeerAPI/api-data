@@ -1,0 +1,41 @@
+{
+  "data": {
+    "15401": {
+      "id": 15401,
+      "name": "烈火百连",
+      "power": 1,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/element_type_combination/3"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做40~100次攻击",
+          "args": [
+            40,
+            100
+          ],
+          "effect": {
+            "id": 31,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a8d7d22b"
+}

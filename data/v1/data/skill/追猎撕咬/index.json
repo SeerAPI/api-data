@@ -1,0 +1,62 @@
+{
+  "data": {
+    "37982": {
+      "id": 37982,
+      "name": "追猎撕咬",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/element_type_combination/73"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加已损失体力值25%的百分比伤害",
+          "args": [
+            25
+          ],
+          "effect": {
+            "id": 436,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/436"
+          }
+        },
+        {
+          "info": "若造成的伤害低于300，则所有技能的PP值恢复1点",
+          "args": [
+            300,
+            1
+          ],
+          "effect": {
+            "id": 134,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/134"
+          }
+        },
+        {
+          "info": "造成的伤害高于300则恢复自身最大体力的1/2",
+          "args": [
+            300,
+            2
+          ],
+          "effect": {
+            "id": 1341,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1341"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fa178456"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "36575": {
+      "id": 36575,
+      "name": "残戮砍杀",
+      "power": 90,
+      "max_pp": 6,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "库坦要做的，就是把你们都打飞！",
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/element_type_combination/48"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以50的固定伤害",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1209,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1209"
+          }
+        },
+        {
+          "info": "附加自身已损失PP值总和x30的固定伤害，对手免疫固定伤害时额外附加等量的真实伤害",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 1737,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1737"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "b043d910"
+}

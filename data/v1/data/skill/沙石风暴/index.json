@@ -1,0 +1,75 @@
+{
+  "data": {
+    "12590": {
+      "id": 12590,
+      "name": "沙石风暴",
+      "power": 145,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/element_type_combination/7"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，10%改变自身防御等级+1",
+          "args": [
+            1,
+            10,
+            1
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "31994": {
+      "id": 31994,
+      "name": "沙石风暴",
+      "power": 140,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/element_type_combination/7"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 40,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/40"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2e86f4d8"
+}

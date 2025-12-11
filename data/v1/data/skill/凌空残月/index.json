@@ -1,0 +1,50 @@
+{
+  "data": {
+    "37167": {
+      "id": 37167,
+      "name": "凌空残月",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取并反转对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 978,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/978"
+          }
+        },
+        {
+          "info": "吸取对手最大体力的1/3，若对手免疫百分比伤害则100%令对手诅咒",
+          "args": [
+            3,
+            100,
+            23
+          ],
+          "effect": {
+            "id": 1885,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1885"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "75bc68f7"
+}

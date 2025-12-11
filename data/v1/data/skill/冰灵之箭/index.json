@@ -1,0 +1,51 @@
+{
+  "data": {
+    "31376": {
+      "id": 31376,
+      "name": "冰灵之箭",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 44,
+        "url": "https://api.seerapi.com/v1/element_type_combination/44"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则对手下1回合技能失效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 988,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/988"
+          }
+        },
+        {
+          "info": "造成的伤害低于250则吸取对手1/4最大体力",
+          "args": [
+            250,
+            4
+          ],
+          "effect": {
+            "id": 1104,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1104"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8db76a6d"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "33200": {
+      "id": 33200,
+      "name": "杏花涌动",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 74,
+        "url": "https://api.seerapi.com/v1/element_type_combination/74"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "附加对手当前体力值25%的百分比伤害，连续使用每次增加5%，最高40%",
+          "args": [
+            25,
+            5,
+            40
+          ],
+          "effect": {
+            "id": 411,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/411"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "65f2bd5a"
+}

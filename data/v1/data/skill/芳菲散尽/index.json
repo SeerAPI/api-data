@@ -1,0 +1,40 @@
+{
+  "data": {
+    "31016": {
+      "id": 31016,
+      "name": "芳菲散尽",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/element_type_combination/24"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时恢复1/3体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 565,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/565"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "446a43f5"
+}

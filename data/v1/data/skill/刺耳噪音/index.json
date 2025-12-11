@@ -1,0 +1,52 @@
+{
+  "data": {
+    "28624": {
+      "id": 28624,
+      "name": "刺耳噪音",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "受到的伤害减少了；开始令对手麻痹了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "减少200点下回合所受的伤害 ",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 508,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/508"
+          }
+        },
+        {
+          "info": "3回合内每回合额外附加30%概率令对手麻痹",
+          "args": [
+            3,
+            30,
+            0
+          ],
+          "effect": {
+            "id": 169,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/169"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8de545f"
+}

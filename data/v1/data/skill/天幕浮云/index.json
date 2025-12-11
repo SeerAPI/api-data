@@ -1,0 +1,73 @@
+{
+  "data": {
+    "28418": {
+      "id": 28418,
+      "name": "天幕浮云",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始闪避对手的攻击；获得了护盾、护罩",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内70%闪避对手的攻击，效果结束后恢复自身所有技能1点PP值与1/3最大体力",
+          "args": [
+            3,
+            70,
+            1,
+            3
+          ],
+          "effect": {
+            "id": 2067,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2067"
+          }
+        },
+        {
+          "info": "为自身附加300点护盾",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 847,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/847"
+          }
+        },
+        {
+          "info": "为自身附加300点护罩",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1342,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1342"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e6ef2f82"
+}

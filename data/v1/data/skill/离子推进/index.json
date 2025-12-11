@@ -1,0 +1,62 @@
+{
+  "data": {
+    "34890": {
+      "id": 34890,
+      "name": "离子推进",
+      "power": 10,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 72,
+        "url": "https://api.seerapi.com/v1/element_type_combination/72"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做5-10次攻击，自身处于领域效果下连击上限为15",
+          "args": [
+            5,
+            10,
+            15
+          ],
+          "effect": {
+            "id": 1666,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1666"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则令对手疲惫",
+          "args": [
+            7
+          ],
+          "effect": {
+            "id": 889,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/889"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则对手麻痹 ",
+          "args": [
+            0
+          ],
+          "effect": {
+            "id": 948,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/948"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f1f0f68d"
+}

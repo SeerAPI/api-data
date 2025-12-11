@@ -1,0 +1,75 @@
+{
+  "data": {
+    "29073": {
+      "id": 29073,
+      "name": "地质勘定",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的控制类异常状态；吸取了对手的能力提升；开始转化伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 1687,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1687"
+          }
+        },
+        {
+          "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+          "args": [
+            2,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合对手所有技能先制-2，若对手不处于能力提升状态则令对手全属性-1",
+          "args": [
+            2,
+            2,
+            1
+          ],
+          "effect": {
+            "id": 1726,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1726"
+          }
+        },
+        {
+          "info": "将自身下1次受到的攻击伤害转化为等量护盾，最多获得300点",
+          "args": [
+            1,
+            300
+          ],
+          "effect": {
+            "id": 1768,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1768"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9d106d07"
+}

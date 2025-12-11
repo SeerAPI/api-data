@@ -1,0 +1,48 @@
+{
+  "data": {
+    "24546": {
+      "id": 24546,
+      "name": "雪峰之威",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "抵抗异常状态的能力开始提升；反转对手能力提升的状态；",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "使对手的能力提升效果反转成能力下降效果",
+          "args": [],
+          "effect": {
+            "id": 143,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/143"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "48b4c12c"
+}

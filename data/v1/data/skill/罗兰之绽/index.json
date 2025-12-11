@@ -1,0 +1,73 @@
+{
+  "data": {
+    "27654": {
+      "id": 27654,
+      "name": "罗兰之绽",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；使自身获得一个护盾和一个护罩；自身出手更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "获得400点护盾，护盾消失时附加200点固定伤害",
+          "args": [
+            400,
+            200
+          ],
+          "effect": {
+            "id": 1387,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1387"
+          }
+        },
+        {
+          "info": "获得400点护罩，护罩消失时恢复自身200点体力",
+          "args": [
+            400,
+            200
+          ],
+          "effect": {
+            "id": 1422,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1422"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6b10766e"
+}

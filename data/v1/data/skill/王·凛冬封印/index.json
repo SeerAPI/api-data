@@ -1,0 +1,52 @@
+{
+  "data": {
+    "33403": {
+      "id": 33403,
+      "name": "王·凛冬封印",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加自身的攻击值的50%的百分比伤害",
+          "args": [
+            0,
+            0,
+            50
+          ],
+          "effect": {
+            "id": 593,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/593"
+          }
+        },
+        {
+          "info": "牺牲自己，消除对手能力提升状态、回合类效果、护盾效果、护罩效果、神耀能量、自然祝福，同时令对手3回合内属性技能无效",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1479,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1479"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bc858f72"
+}

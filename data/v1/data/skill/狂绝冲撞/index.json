@@ -1,0 +1,50 @@
+{
+  "data": {
+    "19366": {
+      "id": 19366,
+      "name": "狂绝冲撞",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸收对手能力提升，吸收成功减少对手1/3最大体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 859,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/859"
+          }
+        },
+        {
+          "info": "下2回合自身造成的攻击伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 776,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5276c420"
+}

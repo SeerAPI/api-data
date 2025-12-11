@@ -1,0 +1,75 @@
+{
+  "data": {
+    "28135": {
+      "id": 28135,
+      "name": "雷裁之心",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；对手使用攻击技能则降低对手PP值；对手使用属性技能会有概率失效，未触发则陷入麻痹；自身受到的固定伤害和百分比伤害开始减少了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "2回合内若对手使用攻击技能则令对手所有技能PP值-2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1884,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1884"
+          }
+        },
+        {
+          "info": "2回合内每回合50%对手属性技能无效，未触发则100%令对手麻痹",
+          "args": [
+            2,
+            50,
+            100,
+            0
+          ],
+          "effect": {
+            "id": 1458,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1458"
+          }
+        },
+        {
+          "info": "3回合内自身受到的固定伤害和百分比伤害减少25%",
+          "args": [
+            3,
+            25
+          ],
+          "effect": {
+            "id": 1475,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1475"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c7a124cd"
+}

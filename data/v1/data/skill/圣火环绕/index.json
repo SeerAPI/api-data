@@ -1,0 +1,63 @@
+{
+  "data": {
+    "23871": {
+      "id": 23871,
+      "name": "圣火环绕",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "消除对手能力提升；自身攻击、双防+1、速度、命中提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "技能使用成功时，攻击+1，防御+1，特防+1，速度+1，命中+1",
+          "args": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 585,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/585"
+          }
+        },
+        {
+          "info": "若对手处于能力提升状态则先制额外+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 668,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/668"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9cac7c27"
+}

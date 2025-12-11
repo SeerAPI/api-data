@@ -1,0 +1,40 @@
+{
+  "data": {
+    "18205": {
+      "id": 18205,
+      "name": "巨臂挥舞",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时，额外附加120点固定伤害",
+          "args": [
+            120
+          ],
+          "effect": {
+            "id": 405,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/405"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "88b08387"
+}

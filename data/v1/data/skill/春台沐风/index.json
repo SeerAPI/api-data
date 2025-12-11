@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28638": {
+      "id": 28638,
+      "name": "春台沐风",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始恢复体力了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内自身每处于一种能力提升或下降状态时都会回复100点体力",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 519,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/519"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "fc9175c6"
+}

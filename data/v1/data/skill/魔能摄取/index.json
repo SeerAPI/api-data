@@ -1,0 +1,40 @@
+{
+  "data": {
+    "32553": {
+      "id": 32553,
+      "name": "魔能摄取",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 50,
+        "url": "https://api.seerapi.com/v1/element_type_combination/50"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加自身防御、特防总和30%的百分比伤害",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 943,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/943"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "39a22e07"
+}

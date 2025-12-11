@@ -1,0 +1,49 @@
+{
+  "data": {
+    "32024": {
+      "id": 32024,
+      "name": "斩魔戟",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 61,
+        "url": "https://api.seerapi.com/v1/element_type_combination/61"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 945,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/945"
+          }
+        },
+        {
+          "info": "下2回合造成的攻击伤害额外提升100%",
+          "args": [
+            2,
+            100
+          ],
+          "effect": {
+            "id": 693,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/693"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "dad45224"
+}

@@ -1,0 +1,67 @@
+{
+  "data": {
+    "28353": {
+      "id": 28353,
+      "name": "福泽千秋",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；开始慢慢恢复自身体力并滋补队友了；令对手进入冻伤状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "5回合内每回合使用技能恢复自身最大体力的1/3，恢复体力时若自身为满体力则恢复己方所有不在场精灵100点体力",
+          "args": [
+            5,
+            3,
+            100
+          ],
+          "effect": {
+            "id": 1602,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1602"
+          }
+        },
+        {
+          "info": "100%令对手冻伤，未触发则自身下2回合攻击必定致命一击，触发后3回合内若对手主动切换精灵则当回合开始后100%令对手冻伤",
+          "args": [
+            100,
+            5,
+            2,
+            3,
+            100,
+            5
+          ],
+          "effect": {
+            "id": 1600,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1600"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d40d39b5"
+}

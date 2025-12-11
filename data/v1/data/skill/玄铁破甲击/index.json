@@ -1,0 +1,48 @@
+{
+  "data": {
+    "32283": {
+      "id": 32283,
+      "name": "玄铁破甲击",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转自身能力下降状态，反转成功则令对手下1次使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1208,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1208"
+          }
+        },
+        {
+          "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "args": [],
+          "effect": {
+            "id": 811,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/811"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "209ed8a0"
+}

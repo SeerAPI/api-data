@@ -1,0 +1,41 @@
+{
+  "data": {
+    "15308": {
+      "id": 15308,
+      "name": "半月斩",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若打出致命一击则对手100%概率害怕",
+          "args": [
+            100,
+            6
+          ],
+          "effect": {
+            "id": 553,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/553"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3633cfd6"
+}

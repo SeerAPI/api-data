@@ -1,0 +1,51 @@
+{
+  "data": {
+    "34073": {
+      "id": 34073,
+      "name": "惊啸落锤",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 59,
+        "url": "https://api.seerapi.com/v1/element_type_combination/59"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 736,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/736"
+          }
+        },
+        {
+          "info": "吸取对手200点体力，若对手任意1项技能PP值小于2点则吸取效果翻倍",
+          "args": [
+            200,
+            2
+          ],
+          "effect": {
+            "id": 1450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c09b6504"
+}

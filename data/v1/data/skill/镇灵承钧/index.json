@@ -1,0 +1,60 @@
+{
+  "data": {
+    "27902": {
+      "id": 27902,
+      "name": "镇灵承钧",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "消除敌我双方回合类效果，消除任意一项成功则双方同时进入石化状态；对手使用属性技能，则下3回合无法使用攻击技能",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身存在护盾则先制+2",
+          "args": [],
+          "effect": {
+            "id": 1782,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1782"
+          }
+        },
+        {
+          "info": "消除双方回合类效果，消除任意一项成功则双方石化，若任意一方回合类效果无法被消除则令对手下2回合无法主动切换精灵",
+          "args": [
+            9,
+            2
+          ],
+          "effect": {
+            "id": 1783,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1783"
+          }
+        },
+        {
+          "info": "2回合内若对手使用属性技能，则使用属性技能后的下3回合攻击技能无法造成伤害且命中效果失效",
+          "args": [
+            2,
+            3
+          ],
+          "effect": {
+            "id": 738,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/738"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "595191b8"
+}

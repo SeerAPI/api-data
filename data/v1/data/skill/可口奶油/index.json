@@ -1,0 +1,68 @@
+{
+  "data": {
+    "27398": {
+      "id": 27398,
+      "name": "可口奶油",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身攻击、双防、速度提升了；自身受到的攻击伤害降低了；被对手击败则使对手进入疲惫",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身攻击+1，防御+1，特防+1，速度+1,40%概率强化翻倍",
+          "args": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "effect": {
+            "id": 512,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/512"
+          }
+        },
+        {
+          "info": "3回合内受到攻击伤害降低300点，回合结束时若当回合未受到攻击伤害则吸取对手300点体力",
+          "args": [
+            3,
+            300,
+            300
+          ],
+          "effect": {
+            "id": 1226,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1226"
+          }
+        },
+        {
+          "info": "3回合内若被对手击败则对手疲惫2回合 ",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 524,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/524"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8428d552"
+}

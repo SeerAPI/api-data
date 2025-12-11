@@ -1,0 +1,43 @@
+{
+  "data": {
+    "36850": {
+      "id": 36850,
+      "name": "配平",
+      "power": 100,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "令双方所有技能PP值等于此技能剩余PP值，若对手变化值达到10则令对手失明，若自身变化值达到10则令对手失神",
+          "args": [
+            10,
+            20,
+            10,
+            29
+          ],
+          "effect": {
+            "id": 2031,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2031"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d691ae4d"
+}

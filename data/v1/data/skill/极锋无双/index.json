@@ -1,0 +1,59 @@
+{
+  "data": {
+    "32465": {
+      "id": 32465,
+      "name": "极锋无双",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 103,
+        "url": "https://api.seerapi.com/v1/element_type_combination/103"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 781,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+          }
+        },
+        {
+          "info": "若打出致命一击则对手100%概率疲惫",
+          "args": [
+            100,
+            7
+          ],
+          "effect": {
+            "id": 553,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/553"
+          }
+        },
+        {
+          "info": "若打出致命一击则恢复自身所有体力",
+          "args": [],
+          "effect": {
+            "id": 496,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/496"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a3e7c4e5"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "37111": {
+      "id": 37111,
+      "name": "破壁蚀崖",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 116,
+        "url": "https://api.seerapi.com/v1/element_type_combination/116"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手每处于一种异常状态则附加200点固定伤害",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 768,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/768"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ad035704"
+}

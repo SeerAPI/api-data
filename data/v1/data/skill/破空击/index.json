@@ -1,0 +1,40 @@
+{
+  "data": {
+    "14590": {
+      "id": 14590,
+      "name": "破空击",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/element_type_combination/30"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若打出致命一击，则造成伤害值的50%恢复自身体力 ",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 505,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/505"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a8f89506"
+}

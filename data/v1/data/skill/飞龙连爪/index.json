@@ -1,0 +1,51 @@
+{
+  "data": {
+    "16403": {
+      "id": 16403,
+      "name": "飞龙连爪",
+      "power": 30,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 63,
+        "url": "https://api.seerapi.com/v1/element_type_combination/63"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合做3~4次攻击",
+          "args": [
+            3,
+            4
+          ],
+          "effect": {
+            "id": 31,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/31"
+          }
+        },
+        {
+          "info": "额外附加10点固定伤害",
+          "args": [
+            10
+          ],
+          "effect": {
+            "id": 29,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/29"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3abf4b48"
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "32998": {
+      "id": 32998,
+      "name": "葬·苍茫冰影",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 84,
+        "url": "https://api.seerapi.com/v1/element_type_combination/84"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 797,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/797"
+          }
+        },
+        {
+          "info": "当回合造成的攻击伤害若高于300则100%令对手冰封",
+          "args": [
+            300,
+            100,
+            15
+          ],
+          "effect": {
+            "id": 1106,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1106"
+          }
+        },
+        {
+          "info": "造成的伤害低于300则附加自身最大体力30%的百分比伤害",
+          "args": [
+            300,
+            30
+          ],
+          "effect": {
+            "id": 1082,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1082"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "66b9e14b"
+}

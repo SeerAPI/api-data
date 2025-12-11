@@ -1,0 +1,53 @@
+{
+  "data": {
+    "35389": {
+      "id": 35389,
+      "name": "至高裁决",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 52,
+        "url": "https://api.seerapi.com/v1/element_type_combination/52"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "双倍吸取对手能力提升状态，吸取成功则使对手下1回合先制-2",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 1207,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1207"
+          }
+        },
+        {
+          "info": "附加自身最大体力20%的百分比伤害，每次使用增加10%，最高40%",
+          "args": [
+            20,
+            10,
+            40
+          ],
+          "effect": {
+            "id": 1206,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1206"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "675501b6"
+}

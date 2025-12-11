@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35601": {
+      "id": 35601,
+      "name": "露露弹弓",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 81,
+        "url": "https://api.seerapi.com/v1/element_type_combination/81"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "附加已损失体力值30%的百分比伤害",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 436,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/436"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "79c0c73f"
+}

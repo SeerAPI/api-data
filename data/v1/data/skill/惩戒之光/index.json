@@ -1,0 +1,41 @@
+{
+  "data": {
+    "21342": {
+      "id": 21342,
+      "name": "惩戒之光",
+      "power": 0,
+      "max_pp": 3,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "随机降低对手1/8至1/2的当前体力值",
+          "args": [
+            8,
+            2
+          ],
+          "effect": {
+            "id": 140,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/140"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1f2287ae"
+}

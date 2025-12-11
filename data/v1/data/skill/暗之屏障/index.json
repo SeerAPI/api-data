@@ -1,0 +1,51 @@
+{
+  "data": {
+    "23203": {
+      "id": 23203,
+      "name": "暗之屏障",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "抵抗异常状态的能力提升了，下回合使对手的伤害降低",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内免疫所有受到的异常状态",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "1回合使对方攻击伤害是正常状态下的1/2倍",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 54,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/54"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "29c7c617"
+}

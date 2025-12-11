@@ -1,0 +1,41 @@
+{
+  "data": {
+    "27399": {
+      "id": 27399,
+      "name": "誓言之约",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 96,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "恢复自身一定体力，5回合后恢复自身全部体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "立刻恢复自身200点体力，5回合后恢复自身全部体力",
+          "args": [
+            200,
+            5
+          ],
+          "effect": {
+            "id": 1635,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1635"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "984535b"
+}

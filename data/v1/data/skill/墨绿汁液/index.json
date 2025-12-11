@@ -1,0 +1,38 @@
+{
+  "data": {
+    "35578": {
+      "id": 35578,
+      "name": "墨绿汁液",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "args": [],
+          "effect": {
+            "id": 444,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/444"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cff55cf5"
+}

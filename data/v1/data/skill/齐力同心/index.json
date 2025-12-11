@@ -1,0 +1,63 @@
+{
+  "data": {
+    "28263": {
+      "id": 28263,
+      "name": "齐力同心",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身攻击和速度开始逐渐提升；一定回合内若自身受到的攻击伤害低于300则附加一些固定伤害；吸取对手一些体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合自身攻击和速度提高1个等级",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 126,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/126"
+          }
+        },
+        {
+          "info": "3回合内受到的伤害低于300则附加200点固定伤害",
+          "args": [
+            3,
+            300,
+            200
+          ],
+          "effect": {
+            "id": 1085,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1085"
+          }
+        },
+        {
+          "info": "吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1925,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1925"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a3492f15"
+}

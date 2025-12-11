@@ -1,0 +1,75 @@
+{
+  "data": {
+    "11549": {
+      "id": 11549,
+      "name": "飞蛾扑火",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/element_type_combination/4"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "后出手的话威力为2倍",
+          "args": [],
+          "effect": {
+            "id": 30,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/30"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "35648": {
+      "id": 35648,
+      "name": "飞蛾扑火",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 225,
+        "url": "https://api.seerapi.com/v1/element_type_combination/225"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消耗自身全部体力，使对手受到自身最大体力1/3的百分比伤害，同时使自身下只出场精灵前3回合70%闪避对手的攻击技能",
+          "args": [
+            3,
+            3,
+            70
+          ],
+          "effect": {
+            "id": 1416,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1416"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "cedc413f"
+}

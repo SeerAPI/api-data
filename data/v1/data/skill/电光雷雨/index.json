@@ -1,0 +1,108 @@
+{
+  "data": {
+    "18235": {
+      "id": 18235,
+      "name": "电光雷雨",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/element_type_combination/4"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于能力下降状态则附加100点伤害",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 167,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/167"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    },
+    "24338": {
+      "id": 24338,
+      "name": "电光雷雨",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "反馈对手伤害；若对手使用属性技能，则恢复自身最大体力；抵抗异常状态的能力提升了；对手释放技能所消耗的PP翻倍",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内自身受到直接攻击伤害的50%反馈给对手",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 580,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/580"
+          }
+        },
+        {
+          "info": "3回合内若对手使用属性技能，则自身恢复1/3最大体力值",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 187,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/187"
+          }
+        },
+        {
+          "info": "4回合内免疫所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3b130f0b"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "22628": {
+      "id": 22628,
+      "name": "次元刀锋",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "命中提升了许多，下回合能较快出手",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身命中等级+2",
+          "args": [
+            5,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "下1回合自身攻击先制+1",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 481,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/481"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "25c9ac6e"
+}

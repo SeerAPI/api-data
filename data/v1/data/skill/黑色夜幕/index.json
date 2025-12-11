@@ -1,0 +1,69 @@
+{
+  "data": {
+    "27379": {
+      "id": 27379,
+      "name": "黑色夜幕",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；有一定概率令对手进入害怕；令对手全属性-1，接下来3回合对手每回合速度-1、命中-1",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "80%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+          "args": [
+            80,
+            6,
+            3
+          ],
+          "effect": {
+            "id": 1231,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1231"
+          }
+        },
+        {
+          "info": "100%使对手全属性-1，3回合内每回合对手速度-1，命中-1",
+          "args": [
+            100,
+            3,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            -1
+          ],
+          "effect": {
+            "id": 1428,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1428"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4df826d2"
+}

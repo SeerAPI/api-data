@@ -1,0 +1,42 @@
+{
+  "data": {
+    "30387": {
+      "id": 30387,
+      "name": "忘川极地",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 30,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/element_type_combination/9"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "命中后100%秒杀对方，若MISS则自身死亡，使对手随机3个技能的PP值归零且全属性-1",
+          "args": [
+            100,
+            3,
+            1
+          ],
+          "effect": {
+            "id": 1101,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1101"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d6f28a1d"
+}

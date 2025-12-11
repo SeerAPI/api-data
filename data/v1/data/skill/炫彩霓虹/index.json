@@ -1,0 +1,40 @@
+{
+  "data": {
+    "35913": {
+      "id": 35913,
+      "name": "炫彩霓虹",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/element_type_combination/64"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 128,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/128"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9f5aaacd"
+}

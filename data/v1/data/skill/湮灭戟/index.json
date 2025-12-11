@@ -1,0 +1,49 @@
+{
+  "data": {
+    "15784": {
+      "id": 15784,
+      "name": "湮灭戟",
+      "power": 80,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 26,
+        "url": "https://api.seerapi.com/v1/element_type_combination/26"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态",
+          "args": [],
+          "effect": {
+            "id": 33,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/33"
+          }
+        },
+        {
+          "info": "1回合内每回合被攻击所受到的伤害不超过200",
+          "args": [
+            1,
+            200
+          ],
+          "effect": {
+            "id": 125,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/125"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f820136c"
+}

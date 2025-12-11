@@ -1,0 +1,74 @@
+{
+  "data": {
+    "28784": {
+      "id": 28784,
+      "name": "银牙斥夜",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；解除了自身的能力下降状态；后出手时令对手麻痹了；对手开始失去活力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "解除自身能力下降状态，解除成功则令对手下1次使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1115,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1115"
+          }
+        },
+        {
+          "info": "后出手时100%令对手对手麻痹，未触发则使自身下2回合必定致命一击",
+          "args": [
+            100,
+            0,
+            2
+          ],
+          "effect": {
+            "id": 1401,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1401"
+          }
+        },
+        {
+          "info": "4回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+          "args": [
+            4,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a329e8d1"
+}

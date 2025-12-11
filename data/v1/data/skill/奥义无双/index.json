@@ -1,0 +1,64 @@
+{
+  "data": {
+    "25869": {
+      "id": 25869,
+      "name": "奥义无双",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始抵抗并反弹异常状态；有几率反弹受到的伤害；受到攻击时令对手害怕，未触发则对手受到固定伤害",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内有60%的概率免疫对手攻击技能造成的伤害并直接扣除对手等量体力",
+          "args": [
+            4,
+            60
+          ],
+          "effect": {
+            "id": 1011,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1011"
+          }
+        },
+        {
+          "info": "4回合内自身受到攻击100%使对手害怕，若未触发则对手受到300点固定伤害",
+          "args": [
+            4,
+            100,
+            6,
+            300
+          ],
+          "effect": {
+            "id": 1195,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1195"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ddd22767"
+}

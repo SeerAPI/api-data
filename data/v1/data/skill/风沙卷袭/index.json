@@ -1,0 +1,50 @@
+{
+  "data": {
+    "35804": {
+      "id": 35804,
+      "name": "风沙卷袭",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/element_type_combination/38"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则附加300点固定伤害",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 990,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/990"
+          }
+        },
+        {
+          "info": "若对手处于异常状态则恢复造成伤害的100%的体力",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 671,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/671"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "97f01356"
+}

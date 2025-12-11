@@ -1,0 +1,53 @@
+{
+  "data": {
+    "35199": {
+      "id": 35199,
+      "name": "流沙碎石",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 77,
+        "url": "https://api.seerapi.com/v1/element_type_combination/77"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功恢复50%的体力",
+          "args": [
+            0,
+            50
+          ],
+          "effect": {
+            "id": 660,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/660"
+          }
+        },
+        {
+          "info": "造成的伤害低于300则2回合内自身受到的伤害减少200",
+          "args": [
+            300,
+            2,
+            200
+          ],
+          "effect": {
+            "id": 665,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/665"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "eec2417c"
+}

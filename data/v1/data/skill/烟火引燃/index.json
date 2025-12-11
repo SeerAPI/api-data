@@ -1,0 +1,49 @@
+{
+  "data": {
+    "37269": {
+      "id": 37269,
+      "name": "烟火引燃",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 75.0,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/element_type_combination/3"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "args": [],
+          "effect": {
+            "id": 1247,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1247"
+          }
+        },
+        {
+          "info": "若打出致命一击则对手100%概率烧伤",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 553,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/553"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "27332911"
+}

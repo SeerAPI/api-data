@@ -1,0 +1,64 @@
+{
+  "data": {
+    "34592": {
+      "id": 34592,
+      "name": "王·时移世易",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "连续使用时先制+1",
+          "args": [],
+          "effect": {
+            "id": 1080,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1080"
+          }
+        },
+        {
+          "info": "随机附加100-300点固定伤害，自身处于能力提升状态时变为200-400点固定伤害",
+          "args": [
+            100,
+            300,
+            200,
+            400
+          ],
+          "effect": {
+            "id": 1131,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1131"
+          }
+        },
+        {
+          "info": "随机恢复自身100-300点体力，自身不处于能力提升状态时变为200-400点体力",
+          "args": [
+            100,
+            300,
+            200,
+            400
+          ],
+          "effect": {
+            "id": 1132,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1132"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "670f186a"
+}

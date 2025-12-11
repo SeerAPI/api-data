@@ -1,0 +1,48 @@
+{
+  "data": {
+    "40008": {
+      "id": 40008,
+      "name": "测试技能6",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": " ",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 221,
+        "url": "https://api.seerapi.com/v1/element_type_combination/221"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身击败狩杀之的时，对方下只精灵出战时将被标记为狩杀之的，且自身每有1层狩杀之魂，自身下次攻击造成的伤害提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 2279,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2279"
+          }
+        },
+        {
+          "info": "技能无效时，对手下回合无法主动切换精灵",
+          "args": [],
+          "effect": {
+            "id": 2280,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2280"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "68fb2c7f"
+}

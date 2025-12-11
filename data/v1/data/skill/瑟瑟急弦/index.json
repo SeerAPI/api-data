@@ -1,0 +1,51 @@
+{
+  "data": {
+    "34857": {
+      "id": 34857,
+      "name": "瑟瑟急弦",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 102,
+        "url": "https://api.seerapi.com/v1/element_type_combination/102"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合对手属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 985,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/985"
+          }
+        },
+        {
+          "info": "吸取对手200点固定体力，自身体力低于1/2时吸取效果翻倍",
+          "args": [
+            200,
+            2
+          ],
+          "effect": {
+            "id": 1241,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1241"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c03a16e"
+}

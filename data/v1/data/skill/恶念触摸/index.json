@@ -1,0 +1,41 @@
+{
+  "data": {
+    "36203": {
+      "id": 36203,
+      "name": "恶念触摸",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 51,
+        "url": "https://api.seerapi.com/v1/element_type_combination/51"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内致命一击概率上升1/3",
+          "args": [
+            5,
+            3
+          ],
+          "effect": {
+            "id": 498,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/498"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "64c79bda"
+}

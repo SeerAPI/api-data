@@ -1,0 +1,41 @@
+{
+  "data": {
+    "37027": {
+      "id": 37027,
+      "name": "聚雷刃破",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若造成的伤害不足300，则下2回合的攻击必定致命一击 ",
+          "args": [
+            300,
+            2
+          ],
+          "effect": {
+            "id": 475,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/475"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "33c89f0"
+}

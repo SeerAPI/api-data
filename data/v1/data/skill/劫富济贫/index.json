@@ -1,0 +1,40 @@
+{
+  "data": {
+    "19257": {
+      "id": 19257,
+      "name": "劫富济贫",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "50%概率随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 176,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/176"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "594f6012"
+}

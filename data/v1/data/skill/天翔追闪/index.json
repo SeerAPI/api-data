@@ -1,0 +1,63 @@
+{
+  "data": {
+    "37838": {
+      "id": 37838,
+      "name": "天翔追闪",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/element_type_combination/4"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 942,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/942"
+          }
+        },
+        {
+          "info": "本回合未击败对手则下2回合反弹受到伤害的1/1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 864,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/864"
+          }
+        },
+        {
+          "info": "消除双方护盾并附加护盾值70%的百分比伤害，若护盾值总和超过300点则转变为附加护盾值140%的百分比伤害",
+          "args": [
+            70,
+            300,
+            140
+          ],
+          "effect": {
+            "id": 1791,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1791"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ba6c8d67"
+}

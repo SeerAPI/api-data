@@ -1,0 +1,43 @@
+{
+  "data": {
+    "37079": {
+      "id": 37079,
+      "name": "曝光瞬间",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "造成的伤害低于280时令对手疲惫，未触发则自身下1次攻击造成的伤害额外提升100%",
+          "args": [
+            280,
+            7,
+            1,
+            100
+          ],
+          "effect": {
+            "id": 1256,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1256"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6d99e525"
+}

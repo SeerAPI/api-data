@@ -1,0 +1,42 @@
+{
+  "data": {
+    "36343": {
+      "id": 36343,
+      "name": "作弊球棍",
+      "power": 130,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/element_type_combination/35"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若打出的伤害在150至300之间则对手麻痹",
+          "args": [
+            150,
+            300,
+            0
+          ],
+          "effect": {
+            "id": 748,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/748"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3ac6766c"
+}

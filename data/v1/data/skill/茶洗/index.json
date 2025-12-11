@@ -1,0 +1,41 @@
+{
+  "data": {
+    "28773": {
+      "id": 28773,
+      "name": "茶洗",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "洗去了辛辣",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内有100%概率免疫对手的攻击伤害",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 525,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/525"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d2196866"
+}

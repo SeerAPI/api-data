@@ -1,0 +1,41 @@
+{
+  "data": {
+    "18137": {
+      "id": 18137,
+      "name": "利刃穿心",
+      "power": 80,
+      "max_pp": 10,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/element_type_combination/14"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功恢复100%的体力",
+          "args": [
+            0,
+            100
+          ],
+          "effect": {
+            "id": 660,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/660"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "304d84cb"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "35100": {
+      "id": 35100,
+      "name": "时零结界",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 96,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/element_type_combination/38"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升，反转成功下2回合先制+1",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 743,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/743"
+          }
+        },
+        {
+          "info": "吸取对手200点固定体力，每次使用额外附加50点，最高300点",
+          "args": [
+            200,
+            50,
+            300
+          ],
+          "effect": {
+            "id": 837,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/837"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "973db6b6"
+}

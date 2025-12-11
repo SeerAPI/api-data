@@ -1,0 +1,51 @@
+{
+  "data": {
+    "32775": {
+      "id": 32775,
+      "name": "喵喵怪拳",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 104,
+        "url": "https://api.seerapi.com/v1/element_type_combination/104"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则对手全属性-1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1234,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1234"
+          }
+        },
+        {
+          "info": "连续使用每次威力增加20，最高威力80",
+          "args": [
+            20,
+            80
+          ],
+          "effect": {
+            "id": 9,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/9"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "366e668"
+}

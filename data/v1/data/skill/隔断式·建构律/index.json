@@ -1,0 +1,58 @@
+{
+  "data": {
+    "28724": {
+      "id": 28724,
+      "name": "隔断式·建构律",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "可以抵挡一次对手的攻击；吸取了对手的体力；下达了指示",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "抵挡下1次对手的攻击",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 46,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/46"
+          }
+        },
+        {
+          "info": "出手时若自身未满体力则吸取对手300点体力",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1672,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1672"
+          }
+        },
+        {
+          "info": "令德莱赫默进行一次额外行动",
+          "args": [],
+          "effect": {
+            "id": 2154,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2154"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "27388620"
+}

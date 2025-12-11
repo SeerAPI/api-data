@@ -1,0 +1,63 @@
+{
+  "data": {
+    "34523": {
+      "id": 34523,
+      "name": "无念无忧散",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 53,
+        "url": "https://api.seerapi.com/v1/element_type_combination/53"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于能力提升状态则有40%概率使对手睡眠，先出手时概率翻倍",
+          "args": [
+            40,
+            8
+          ],
+          "effect": {
+            "id": 1227,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1227"
+          }
+        },
+        {
+          "info": "吸取对手150点固定体力，每次使用额外附加100点，最高350点",
+          "args": [
+            150,
+            100,
+            350
+          ],
+          "effect": {
+            "id": 837,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/837"
+          }
+        },
+        {
+          "info": "当回合击败对手则下回合自身攻击先制+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1587,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1587"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3e78910"
+}

@@ -1,0 +1,63 @@
+{
+  "data": {
+    "38140": {
+      "id": 38140,
+      "name": "鲎爪回旋镖",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身能力下降状态，解除成功则使对手随机2个技能PP值归零",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1441,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1441"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则100%令对手疲惫，未触发则恢复自身最大体力的1/3",
+          "args": [
+            100,
+            7,
+            3
+          ],
+          "effect": {
+            "id": 1423,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1423"
+          }
+        },
+        {
+          "info": "造成的攻击伤害提升50%，若未击败对手则对手回合结束后其恢复最大体力的1/3",
+          "args": [
+            50,
+            3
+          ],
+          "effect": {
+            "id": 1883,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1883"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bd29a727"
+}

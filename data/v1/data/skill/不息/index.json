@@ -1,0 +1,62 @@
+{
+  "data": {
+    "37891": {
+      "id": 37891,
+      "name": "不息",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/element_type_combination/30"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 942,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/942"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 995,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/995"
+          }
+        },
+        {
+          "info": "3回合内每回合结束后恢复自身所有技能2点PP值",
+          "args": [
+            3,
+            0,
+            2
+          ],
+          "effect": {
+            "id": 1655,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "d60df8d2"
+}

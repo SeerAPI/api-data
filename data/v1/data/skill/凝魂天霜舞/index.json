@@ -1,0 +1,60 @@
+{
+  "data": {
+    "34380": {
+      "id": 34380,
+      "name": "凝魂天霜舞",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 87,
+        "url": "https://api.seerapi.com/v1/element_type_combination/87"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 942,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/942"
+          }
+        },
+        {
+          "info": "当回合击败对手则下回合自身攻击先制+1",
+          "args": [],
+          "effect": {
+            "id": 669,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/669"
+          }
+        },
+        {
+          "info": "当回合若未击败对手则70%令对手冰封，未触发则令自身全属性+1",
+          "args": [
+            70,
+            15,
+            1
+          ],
+          "effect": {
+            "id": 1040,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1040"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "30e91be"
+}

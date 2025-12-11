@@ -1,0 +1,51 @@
+{
+  "data": {
+    "23246": {
+      "id": 23246,
+      "name": "撕裂之翼",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "下回合能够较快出手，能够闪避大部分物理攻击",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "2回合内物理攻击对自身必定miss",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 78,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/78"
+          }
+        },
+        {
+          "info": "下1回合自身攻击先制+2",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 481,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/481"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "790cf36"
+}

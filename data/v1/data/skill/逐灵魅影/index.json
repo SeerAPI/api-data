@@ -1,0 +1,40 @@
+{
+  "data": {
+    "36364": {
+      "id": 36364,
+      "name": "逐灵魅影",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/element_type_combination/19"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时附加自身双防值总和40%的百分比伤害",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 814,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/814"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "bc607da9"
+}

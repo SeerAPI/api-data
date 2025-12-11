@@ -1,0 +1,36 @@
+{
+  "data": {
+    "300031": {
+      "id": 300031,
+      "name": "特防能量珠",
+      "desc": "增加精灵特防能力20点（赛尔间对战无效）",
+      "idx": 1002,
+      "use_times": 20,
+      "item": {
+        "id": 300031,
+        "url": "https://api.seerapi.com/v1/item/300031"
+      },
+      "effect": {
+        "effect_args": [
+          2,
+          20
+        ],
+        "effect": {
+          "id": 26,
+          "url": "https://api.seerapi.com/v1/eid_effect/26"
+        }
+      },
+      "ability_buff": {
+        "atk": 0,
+        "def": 0,
+        "sp_atk": 0,
+        "sp_def": 20,
+        "spd": 0,
+        "hp": 0,
+        "percent": false,
+        "total": 20
+      }
+    }
+  },
+  "hash": "1d552573"
+}

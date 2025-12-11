@@ -1,0 +1,50 @@
+{
+  "data": {
+    "35528": {
+      "id": 35528,
+      "name": "圣魔两重",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 98,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/element_type_combination/56"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有体力，若对手不处于能力提升状态则3回合内对手无法通过自身技能恢复体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1361,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1361"
+          }
+        },
+        {
+          "info": "若自身为满体力则技能威力提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 925,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/925"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e990098c"
+}

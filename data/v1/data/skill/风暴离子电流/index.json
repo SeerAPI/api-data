@@ -1,0 +1,49 @@
+{
+  "data": {
+    "17953": {
+      "id": 17953,
+      "name": "风暴离子电流",
+      "power": 50,
+      "max_pp": 3,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": -1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/element_type_combination/6"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "出手时本回合若受到伤害，则将伤害反馈给对手",
+          "args": [],
+          "effect": {
+            "id": 818,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/818"
+          }
+        },
+        {
+          "info": "出手时本回合若未受到攻击伤害，则附加自身特攻值50%的百分比伤害，并恢复等量体力",
+          "args": [
+            2,
+            50
+          ],
+          "effect": {
+            "id": 819,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/819"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "6961a7f0"
+}

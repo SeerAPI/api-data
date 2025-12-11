@@ -1,0 +1,38 @@
+{
+  "data": {
+    "25294": {
+      "id": 25294,
+      "name": "瀚空之门",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "对手使用属性技能则减少PP值；对手使用攻击技能则减少体力；抵抗异常状态的能力提升了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内若对手使用属性技能则命中前令对手所有技能随机降低1-3点PP值；3回合内若对手使用攻击技能则使用后受到对手最大体力1/3的百分比伤害；己方免疫下2次受到的异常状态;技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒（星皇之怒：令自身2回合内回合类效果无法被消除（后出手则延续至下2回合）；下2回合自身所有技能先制+2）",
+          "args": [],
+          "effect": {
+            "id": 1095,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1095"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "8eb40d43"
+}

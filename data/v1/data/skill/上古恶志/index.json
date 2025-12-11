@@ -1,0 +1,62 @@
+{
+  "data": {
+    "24750": {
+      "id": 24750,
+      "name": "上古恶志",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "损失自身体力给对手造成更大的伤害；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "损失自身250点体力，给对手造成400点固定伤害，若自身体力不足250则剩下1点体力",
+          "args": [
+            250,
+            400,
+            250,
+            1
+          ],
+          "effect": {
+            "id": 479,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/479"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        },
+        {
+          "info": "若自身攻击对手时克制关系为微弱则先制+2",
+          "args": [],
+          "effect": {
+            "id": 785,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/785"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "2ee2e8d7"
+}
