@@ -23,6 +23,7 @@ jobs:
       SOLARIS_API_URL: https://api.seerapi.com
       SOLARIS_DATA_SOURCE: https://github.com/SeerAPI/config-sources.git
       SOLARIS_PATCH_SOURCE: https://github.com/SeerAPI/patch-sources.git
+      BASE_OUTPUT_DIR: data
 
     steps:
     - name: Checkout repository
@@ -54,13 +55,18 @@ jobs:
 
     - name: Analyze config
       run: |
-        solaris analyze -m all --db-url sqlite:///seerapi-data.sqlite \
-        --base-output-dir output \
-        --json-output-dir data --schema-output-dir schemas \
+        solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o data \
         --base-json-url https://api.seerapi.com/v1 \
-        --base-schema-url https://api.seerapi.com/v1/schemas
-        rm -rf data/v1/*
-        mv output/v1/* data/v1/
+        --db-url sqlite:///seerapi-data.sqlite \
+        -m all --output-named-data
+
+        solaris analyze schemas --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o schemas \
+        --base-url https://api.seerapi.com/v1/schemas --output-named-data
+
+        openapi_desc=$(cat .github/workflows/openapi-desc.md)
+        detail_version="1.0.0"
+        solaris analyze openapi --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o openapi.json \
+        --description $openapi_desc --detail-version $detail_version --output-named-data
 
     - name: Commit and push changes
       id: commit
