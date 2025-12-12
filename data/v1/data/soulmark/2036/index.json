@@ -1,0 +1,41 @@
+{
+  "id": 2036,
+  "desc": "回合开始时，若对手不处于异常状态，则当回合受到攻击伤害后令对手失明、失神|回合结束时若自身当回合未受到攻击伤害，下回合自身攻击技能命中时吸取对手最大体力的1/3、属性技能命中时吸取对手所有技能1点pp|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手不处于异常状态，则当回合受到攻击伤害后<color=#64F9FA>令对手失明、失神</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束时，若自身当回合未受到攻击伤害，下回合：\r\n<indent=32><sprite=4><indent=48>自身攻击技能命中后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>自身属性技能命中后<color=#64F9FA>吸取</color>对手所有技能1点<b>pp</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4845,
+      "url": "https://api.seerapi.com/v1/pet/4845"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2457,
+      "url": "https://api.seerapi.com/v1/eid_effect/2457"
+    }
+  },
+  "tag": [
+    {
+      "id": 16,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cec97bfa"
+}

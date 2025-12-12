@@ -1,0 +1,41 @@
+{
+  "id": 2037,
+  "desc": "自身攻击时若对手处于冻伤状态则30%令对手冰封；自身处于冻伤时受到攻击伤害后吸取对手200点体力",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击时若对手处于冻伤状态则30%<color=#64F9FA>令对手冰封</color>\r\n<indent=16><sprite=3><indent=32>自身处于冻伤时受到攻击伤害后<color=#64F9FA>吸取</color>对手200点<b>体力</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4846,
+      "url": "https://api.seerapi.com/v1/pet/4846"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      30,
+      15,
+      5,
+      200,
+      5,
+      1
+    ],
+    "effect": {
+      "id": 2458,
+      "url": "https://api.seerapi.com/v1/eid_effect/2458"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cce8ec93"
+}

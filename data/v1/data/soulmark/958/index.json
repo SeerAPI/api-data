@@ -1,7 +1,7 @@
 {
   "id": 958,
   "desc": "受到攻击时25%的概率令对手的攻击技能失效，未触发则自身双防+1；若自身处于能力提升状态则当回合免疫异常状态，若自身不处于能力提升状态则战斗阶段结束时恢复自身最大体力的1/3（boss无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>25%令对手的<b>攻击技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身双防+1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -39,5 +39,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "a713bd7c"
+  "hash": "49cbafc9"
 }

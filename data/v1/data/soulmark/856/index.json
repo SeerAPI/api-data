@@ -1,7 +1,7 @@
 {
   "id": 856,
   "desc": "回合开始时令对手速度-1命中-1；当回合若自身未受到攻击伤害则下回合自身所有技能先制+3，当回合若自身受到攻击伤害则自身下回合免疫对手的攻击伤害（BOSS无效）",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时令对手速度-1、命中-1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害时，下回合自身<color=#64F9FA>免疫</color>对手的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束时若本回合自身未受到攻击伤害，则下回合自身<b>先制</b>+3",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -39,5 +39,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "ea6fb126"
+  "hash": "de760278"
 }

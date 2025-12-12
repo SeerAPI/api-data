@@ -1,0 +1,37 @@
+{
+  "id": 2038,
+  "desc": "",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>永沐：\r\n<indent=16><sprite=3><indent=32>自身位于出战背包时，双方精灵不高于50%概率的<b>异常状态附加效果</b><color=#64F9FA>失效</color>\r\n<indent=32><sprite=4><indent=48>若失效的效果源自对方精灵，自身下次登场时<color=#64F9FA>恢复</color>全部<b>体力值</b>与<b>PP值</b>并为对手附加<color=#FFF779>曝</color>\r\n\r\n<indent=0><sprite=0><indent=16>朝曦：\r\n<indent=16><sprite=3><indent=32>自身主动切换的回合，自身选择1号位的技能并获得1句技能对应的<color=#FFF779>唱词</color>\r\n<indent=32><sprite=4><indent=48>若对手拥有曝则自身登场之后1回合内<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>眷颂：\r\n<indent=16><sprite=3><indent=32>自身使用技能的当回合结束后，若使用的技能拥有唱词且当回合对手没有使用技能，则自身获得1句此唱词\r\n\r\n<indent=0><sprite=0><indent=16>炽耀：\r\n<indent=16><sprite=3><indent=32>回合开始时，自身每有1句唱词，当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>15%\r\n<indent=16><sprite=3><indent=32>自身行动阶段结束后，若自身的唱词达到了4句，则进行一次额外行动以触发破黯穿穹：为对手附加曝，消耗所有唱词，每消耗一句不同的唱词附加50点远古·光系伤害，每消耗一句与别句相同的唱词，己方不在场精灵<color=#64F9FA>恢复</color>50点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>余晖：\r\n<indent=16><sprite=3><indent=32>自身下场时，若对手拥有曝，己方下只精灵登场之后1回合内<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n\r\n<indent=0><sprite=5><indent=16>曝:\r\n<indent=16><sprite=6><indent=32>所有不高于50%的<b>异常状态抗性</b><color=#64F9FA>减少</color>10%\r\n\r\n<indent=0><sprite=5><indent=16>唱词：\r\n<indent=16><sprite=6><indent=32>拥有唱词时，自身额外获得唱词对应的效果\r\n<indent=16><sprite=6><indent=32>相同的唱词效果叠加\r\n<indent=16><sprite=6><indent=32>不同的唱词效果之间共享触发时点、触发条件",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4999,
+      "url": "https://api.seerapi.com/v1/pet/4999"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2456,
+      "url": "https://api.seerapi.com/v1/eid_effect/2456"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "469c6eaa"
+}

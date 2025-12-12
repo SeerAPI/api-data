@@ -1,0 +1,46 @@
+{
+  "id": 38178,
+  "name": "符文冲击",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升，消除成功可以抵挡1回合内对手的攻击伤害",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 794,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/794"
+      }
+    },
+    {
+      "info": "附加自身最大体力20%的百分比伤害并恢复等量体力",
+      "args": [
+        20
+      ],
+      "effect": {
+        "id": 839,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/839"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "347ca7b9"
+}

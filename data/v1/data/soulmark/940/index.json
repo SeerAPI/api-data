@@ -1,8 +1,8 @@
 {
   "id": 940,
   "desc": "先出手时{吸取}对手最大{体力}的1/4，自身体力低于最大体力的1/2时转变为{吸取}对手最大{体力}的1/3；后出手时必定打出致命一击且下回合所有技能先制+1（boss无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>吸取</color>对手最大体力的1/4，自身体力低于最大体力的1/2时改为吸取1/3\r\n<indent=16><sprite=3><indent=32>后出手时必定<color=#64F9FA>打出致命一击</color>且下回合所有技能<b>先制</b>+1",
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -40,5 +40,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "6a75ffd2"
+  "hash": "3309c340"
 }

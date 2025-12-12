@@ -1,0 +1,80 @@
+{
+  "data": {
+    "38172": {
+      "id": 38172,
+      "name": "灼目天星",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "待添加",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "己方免疫下2次受到的异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2148,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2148"
+          }
+        },
+        {
+          "info": "命中后100%使对手焚烬，未触发则使对手全属性-1",
+          "args": [
+            100,
+            22,
+            1
+          ],
+          "effect": {
+            "id": 1003,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1003"
+          }
+        },
+        {
+          "info": "3回合内对手的能力下降状态无法被解除或反转",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1684,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1684"
+          }
+        },
+        {
+          "info": "2回合内任意一方处于能力下降状态时自身免疫对手的攻击",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2316,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2316"
+          }
+        },
+        {
+          "info": "霍尔希德的欢歌:战斗阶段结束时，若自身的体力低于对手，则恢复自身所有技能1点PP值",
+          "args": [],
+          "effect": {
+            "id": 2373,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2373"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "febdccba"
+}

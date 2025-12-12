@@ -1,0 +1,75 @@
+{
+  "id": 29214,
+  "name": "合奏·常昼大诰",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "获得了1句唱词；带来了太阳的赐福",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机获得1句自身未获得过的唱词",
+      "args": [],
+      "effect": {
+        "id": 2378,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2378"
+      }
+    },
+    {
+      "info": "下2回合攻击忽略对手25%的双防值",
+      "args": [
+        2,
+        25
+      ],
+      "effect": {
+        "id": 1304,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1304"
+      }
+    },
+    {
+      "info": "自身下次被击败后，下只精灵所有伤害抗性提升15%",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 2379,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2379"
+      }
+    },
+    {
+      "info": "自身下2次致命一击视为命中并制执行命中效果",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2380,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2380"
+      }
+    },
+    {
+      "info": "下次击败对手时，令对方下只出战精灵焚烬",
+      "args": [
+        22
+      ],
+      "effect": {
+        "id": 2162,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2162"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "24f8c19c"
+}
