@@ -1,60 +1,62 @@
 {
-  "$defs": {
-    "ResourceRef_AchievementBranch_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "achievement_branch"
-    },
-    "ResourceRef_Achievement_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "achievement"
-    }
-  },
-  "description": "成就类型资源",
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "成就类型名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "point_total": {
-      "description": "该类型下成就点数总和",
-      "title": "Point Total",
-      "type": "integer"
-    },
-    "achievement": {
-      "description": "该类型下的成就",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_Achievement_"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_AchievementBranch_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement_branch"
+        },
+        "ResourceRef_Achievement_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement"
+        }
       },
-      "title": "Achievement",
-      "type": "array"
-    },
-    "branch": {
-      "description": "该类型下的成就分支",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_AchievementBranch_"
+      "description": "成就类型资源",
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "成就类型名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "point_total": {
+          "description": "该类型下成就点数总和",
+          "title": "Point Total",
+          "type": "integer"
+        },
+        "achievement": {
+          "description": "该类型下的成就",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Achievement_"
+          },
+          "title": "Achievement",
+          "type": "array"
+        },
+        "branch": {
+          "description": "该类型下的成就分支",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_AchievementBranch_"
+          },
+          "title": "Branch",
+          "type": "array"
+        }
       },
-      "title": "Branch",
-      "type": "array"
+      "required": [
+        "id",
+        "name",
+        "point_total"
+      ],
+      "title": "AchievementType",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "point_total",
-    "hash"
-  ],
-  "title": "AchievementType",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

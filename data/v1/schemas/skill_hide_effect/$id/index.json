@@ -1,47 +1,49 @@
 {
-  "$defs": {
-    "ResourceRef_Skill_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "skill"
-    }
-  },
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "技能隐藏效果名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "description": {
-      "description": "技能隐藏效果描述",
-      "title": "Description",
-      "type": "string"
-    },
-    "skill": {
-      "description": "使用该隐藏效果的技能列表",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_Skill_"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Skill_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "skill"
+        }
       },
-      "title": "Skill",
-      "type": "array"
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "技能隐藏效果名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "description": "技能隐藏效果描述",
+          "title": "Description",
+          "type": "string"
+        },
+        "skill": {
+          "description": "使用该隐藏效果的技能列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Skill_"
+          },
+          "title": "Skill",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description"
+      ],
+      "title": "SkillHideEffect",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "description",
-    "hash"
-  ],
-  "title": "SkillHideEffect",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

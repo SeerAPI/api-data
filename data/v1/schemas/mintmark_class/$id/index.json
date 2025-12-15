@@ -1,41 +1,43 @@
 {
-  "$defs": {
-    "ResourceRef_UniversalMintmark_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "universal_mintmark"
-    }
-  },
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "mintmark": {
-      "description": "刻印列表",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_UniversalMintmark_"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_UniversalMintmark_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "universal_mintmark"
+        }
       },
-      "title": "Mintmark",
-      "type": "array"
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "mintmark": {
+          "description": "刻印列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_UniversalMintmark_"
+          },
+          "title": "Mintmark",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "MintmarkClassCategory",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "hash"
-  ],
-  "title": "MintmarkClassCategory",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

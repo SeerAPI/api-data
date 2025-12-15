@@ -1,187 +1,189 @@
 {
-  "$defs": {
-    "ResourceRef_MintmarkClassCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "mintmark_class"
-    },
-    "ResourceRef_MintmarkRarityCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "mintmark_rarity"
-    },
-    "ResourceRef_MintmarkTypeCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "mintmark_type"
-    },
-    "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "pet"
-    },
-    "ResourceRef_Skill_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "skill"
-    },
-    "SixAttributes": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
-    },
-    "SkillMintmarkEffect": {
-      "properties": {
-        "effect": {
-          "description": "增幅效果ID",
-          "title": "Effect",
-          "type": "integer"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_MintmarkClassCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark_class"
         },
-        "arg": {
+        "ResourceRef_MintmarkRarityCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark_rarity"
+        },
+        "ResourceRef_MintmarkTypeCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark_type"
+        },
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        },
+        "ResourceRef_Skill_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "skill"
+        },
+        "SixAttributes": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
+        },
+        "SkillMintmarkEffect": {
+          "properties": {
+            "effect": {
+              "description": "增幅效果ID",
+              "title": "Effect",
+              "type": "integer"
+            },
+            "arg": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "description": "增幅效果参数",
+              "title": "Arg"
+            }
+          },
+          "required": [
+            "effect",
+            "arg"
+          ],
+          "title": "SkillMintmarkEffect",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/ResourceRef_MintmarkTypeCategory_",
+          "description": "刻印类型"
+        },
+        "rarity": {
+          "$ref": "#/$defs/ResourceRef_MintmarkRarityCategory_",
+          "description": "刻印稀有度"
+        },
+        "pet": {
           "anyOf": [
             {
-              "type": "integer"
+              "items": {
+                "$ref": "#/$defs/ResourceRef_Pet_"
+              },
+              "type": "array"
             },
             {
               "type": "null"
             }
           ],
-          "description": "增幅效果参数",
-          "title": "Arg"
+          "default": null,
+          "description": "表示该刻印仅能安装在这些精灵上，null表示无精灵限制",
+          "title": "Pet"
+        },
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "description": "刻印描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "effect": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SkillMintmarkEffect"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "技能刻印效果，仅当刻印类型为技能刻印时有效"
+        },
+        "mintmark_class": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_MintmarkClassCategory_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "刻印所属系列，仅当该刻印为全能刻印时有效"
+        },
+        "base_attr_value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SixAttributes"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "刻印基础属性值，仅当该刻印为全能刻印时有效"
+        },
+        "max_attr_value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SixAttributes"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "刻印满级属性值，仅当该刻印为能力刻印或全能刻印时有效"
+        },
+        "extra_attr_value": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SixAttributes"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "刻印隐藏属性值，仅当该刻印为全能刻印并具有隐藏属性时有效"
+        },
+        "skill": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ResourceRef_Skill_"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该刻印所绑定的技能列表，仅当该刻印为技能刻印时有效",
+          "title": "Skill"
         }
       },
       "required": [
-        "effect",
-        "arg"
+        "type",
+        "rarity",
+        "id",
+        "name",
+        "desc"
       ],
-      "title": "SkillMintmarkEffect",
-      "type": "object"
+      "title": "Mintmark",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "properties": {
-    "type": {
-      "$ref": "#/$defs/ResourceRef_MintmarkTypeCategory_",
-      "description": "刻印类型"
-    },
-    "rarity": {
-      "$ref": "#/$defs/ResourceRef_MintmarkRarityCategory_",
-      "description": "刻印稀有度"
-    },
-    "pet": {
-      "anyOf": [
-        {
-          "items": {
-            "$ref": "#/$defs/ResourceRef_Pet_"
-          },
-          "type": "array"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "表示该刻印仅能安装在这些精灵上，null表示无精灵限制",
-      "title": "Pet"
-    },
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "desc": {
-      "description": "刻印描述",
-      "title": "Desc",
-      "type": "string"
-    },
-    "effect": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/SkillMintmarkEffect"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "技能刻印效果，仅当刻印类型为技能刻印时有效"
-    },
-    "mintmark_class": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_MintmarkClassCategory_"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "刻印所属系列，仅当该刻印为全能刻印时有效"
-    },
-    "base_attr_value": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/SixAttributes"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "刻印基础属性值，仅当该刻印为全能刻印时有效"
-    },
-    "max_attr_value": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/SixAttributes"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "刻印满级属性值，仅当该刻印为能力刻印或全能刻印时有效"
-    },
-    "extra_attr_value": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/SixAttributes"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "刻印隐藏属性值，仅当该刻印为全能刻印并具有隐藏属性时有效"
-    },
-    "skill": {
-      "anyOf": [
-        {
-          "items": {
-            "$ref": "#/$defs/ResourceRef_Skill_"
-          },
-          "type": "array"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "该刻印所绑定的技能列表，仅当该刻印为技能刻印时有效",
-      "title": "Skill"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
-    }
-  },
-  "required": [
-    "type",
-    "rarity",
-    "id",
-    "name",
-    "desc",
-    "hash"
-  ],
-  "title": "Mintmark",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

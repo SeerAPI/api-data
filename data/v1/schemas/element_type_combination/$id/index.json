@@ -1,56 +1,58 @@
 {
-  "$defs": {
-    "ResourceRef_ElementType_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "element_type"
-    }
-  },
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "组合类型中文名",
-      "title": "Name",
-      "type": "string"
-    },
-    "name_en": {
-      "description": "组合类型英文名",
-      "title": "Name En",
-      "type": "string"
-    },
-    "primary": {
-      "$ref": "#/$defs/ResourceRef_ElementType_",
-      "description": "第一属性"
-    },
-    "secondary": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_ElementType_"
-        },
-        {
-          "type": "null"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_ElementType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "element_type"
         }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "组合类型中文名",
+          "title": "Name",
+          "type": "string"
+        },
+        "name_en": {
+          "description": "组合类型英文名",
+          "title": "Name En",
+          "type": "string"
+        },
+        "primary": {
+          "$ref": "#/$defs/ResourceRef_ElementType_",
+          "description": "第一属性"
+        },
+        "secondary": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_ElementType_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "第二属性，仅在该属性为双属性时有效"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "name_en",
+        "primary"
       ],
-      "default": null,
-      "description": "第二属性，仅在该属性为双属性时有效"
+      "title": "TypeCombination",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "name_en",
-    "primary",
-    "hash"
-  ],
-  "title": "TypeCombination",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

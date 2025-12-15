@@ -1,5 +1,13 @@
 {
-  "$ref": "https://api.seerapi.com/v1/schemas/common/api_resource_list",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "x-model-name": "gem_generation_category"
+  "allOf": [
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/common/api_resource_list",
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "x-model-name": "gem_generation_category"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
 }

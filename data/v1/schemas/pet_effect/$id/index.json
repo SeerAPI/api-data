@@ -1,58 +1,60 @@
 {
-  "$defs": {
-    "EidEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
+  "allOf": [
+    {
+      "$defs": {
+        "EidEffectInUse": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
+        },
+        "ResourceRef_PetEffectGroup_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_effect_group"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "description": "描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "effect": {
+          "$ref": "#/$defs/EidEffectInUse",
+          "description": "效果"
+        },
+        "star_level": {
+          "description": "特性星级",
+          "title": "Star Level",
+          "type": "integer"
+        },
+        "effect_group": {
+          "$ref": "#/$defs/ResourceRef_PetEffectGroup_",
+          "description": "特性组资源引用，同特性的不同星级属于同一组"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "effect",
+        "star_level",
+        "effect_group"
+      ],
+      "title": "PetEffect",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "ResourceRef_PetEffectGroup_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "pet_effect_group"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "desc": {
-      "description": "描述",
-      "title": "Desc",
-      "type": "string"
-    },
-    "effect": {
-      "$ref": "#/$defs/EidEffectInUse",
-      "description": "效果"
-    },
-    "star_level": {
-      "description": "特性星级",
-      "title": "Star Level",
-      "type": "integer"
-    },
-    "effect_group": {
-      "$ref": "#/$defs/ResourceRef_PetEffectGroup_",
-      "description": "特性组资源引用，同特性的不同星级属于同一组"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
-    }
-  },
-  "required": [
-    "id",
-    "name",
-    "desc",
-    "effect",
-    "star_level",
-    "effect_group",
-    "hash"
-  ],
-  "title": "PetEffect",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

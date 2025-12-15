@@ -1,269 +1,271 @@
 {
-  "properties": {
-    "achievement": {
-      "title": "achievement Path",
-      "type": "string"
+  "allOf": [
+    {
+      "properties": {
+        "achievement": {
+          "title": "achievement Path",
+          "type": "string"
+        },
+        "achievement_branch": {
+          "title": "achievement_branch Path",
+          "type": "string"
+        },
+        "achievement_type": {
+          "title": "achievement_type Path",
+          "type": "string"
+        },
+        "achievement_category": {
+          "title": "achievement_category Path",
+          "type": "string"
+        },
+        "title": {
+          "title": "title Path",
+          "type": "string"
+        },
+        "battle_effect": {
+          "title": "battle_effect Path",
+          "type": "string"
+        },
+        "battle_effect_type": {
+          "title": "battle_effect_type Path",
+          "type": "string"
+        },
+        "pet_effect": {
+          "title": "pet_effect Path",
+          "type": "string"
+        },
+        "pet_effect_group": {
+          "title": "pet_effect_group Path",
+          "type": "string"
+        },
+        "pet_variation": {
+          "title": "pet_variation Path",
+          "type": "string"
+        },
+        "eid_effect": {
+          "title": "eid_effect Path",
+          "type": "string"
+        },
+        "energy_bead": {
+          "title": "energy_bead Path",
+          "type": "string"
+        },
+        "equip": {
+          "title": "equip Path",
+          "type": "string"
+        },
+        "suit": {
+          "title": "suit Path",
+          "type": "string"
+        },
+        "equip_type": {
+          "title": "equip_type Path",
+          "type": "string"
+        },
+        "equip_effective_occasion": {
+          "title": "equip_effective_occasion Path",
+          "type": "string"
+        },
+        "soulmark": {
+          "title": "soulmark Path",
+          "type": "string"
+        },
+        "soulmark_tag": {
+          "title": "soulmark_tag Path",
+          "type": "string"
+        },
+        "element_type": {
+          "title": "element_type Path",
+          "type": "string"
+        },
+        "element_type_combination": {
+          "title": "element_type_combination Path",
+          "type": "string"
+        },
+        "gem": {
+          "title": "gem Path",
+          "type": "string"
+        },
+        "gem_category": {
+          "title": "gem_category Path",
+          "type": "string"
+        },
+        "gem_generation_category": {
+          "title": "gem_generation_category Path",
+          "type": "string"
+        },
+        "gem_gen1": {
+          "title": "gem_gen1 Path",
+          "type": "string"
+        },
+        "gem_gen2": {
+          "title": "gem_gen2 Path",
+          "type": "string"
+        },
+        "skill_activation_item": {
+          "title": "skill_activation_item Path",
+          "type": "string"
+        },
+        "skill_stone": {
+          "title": "skill_stone Path",
+          "type": "string"
+        },
+        "skill_stone_category": {
+          "title": "skill_stone_category Path",
+          "type": "string"
+        },
+        "mintmark": {
+          "title": "mintmark Path",
+          "type": "string"
+        },
+        "ability_mintmark": {
+          "title": "ability_mintmark Path",
+          "type": "string"
+        },
+        "skill_mintmark": {
+          "title": "skill_mintmark Path",
+          "type": "string"
+        },
+        "universal_mintmark": {
+          "title": "universal_mintmark Path",
+          "type": "string"
+        },
+        "mintmark_class": {
+          "title": "mintmark_class Path",
+          "type": "string"
+        },
+        "mintmark_type": {
+          "title": "mintmark_type Path",
+          "type": "string"
+        },
+        "mintmark_rarity": {
+          "title": "mintmark_rarity Path",
+          "type": "string"
+        },
+        "nature": {
+          "title": "nature Path",
+          "type": "string"
+        },
+        "pet": {
+          "title": "pet Path",
+          "type": "string"
+        },
+        "pet_class": {
+          "title": "pet_class Path",
+          "type": "string"
+        },
+        "pet_gender": {
+          "title": "pet_gender Path",
+          "type": "string"
+        },
+        "pet_vipbuff": {
+          "title": "pet_vipbuff Path",
+          "type": "string"
+        },
+        "pet_mount_type": {
+          "title": "pet_mount_type Path",
+          "type": "string"
+        },
+        "pet_skin": {
+          "title": "pet_skin Path",
+          "type": "string"
+        },
+        "pet_skin_category": {
+          "title": "pet_skin_category Path",
+          "type": "string"
+        },
+        "pet_encyclopedia_entry": {
+          "title": "pet_encyclopedia_entry Path",
+          "type": "string"
+        },
+        "pet_archive_story_book": {
+          "title": "pet_archive_story_book Path",
+          "type": "string"
+        },
+        "skill": {
+          "title": "skill Path",
+          "type": "string"
+        },
+        "skill_effect_type": {
+          "title": "skill_effect_type Path",
+          "type": "string"
+        },
+        "skill_effect_param": {
+          "title": "skill_effect_param Path",
+          "type": "string"
+        },
+        "skill_hide_effect": {
+          "title": "skill_hide_effect Path",
+          "type": "string"
+        },
+        "skill_category": {
+          "title": "skill_category Path",
+          "type": "string"
+        },
+        "skill_effect_type_tag": {
+          "title": "skill_effect_type_tag Path",
+          "type": "string"
+        }
+      },
+      "required": [
+        "achievement",
+        "achievement_branch",
+        "achievement_type",
+        "achievement_category",
+        "title",
+        "battle_effect",
+        "battle_effect_type",
+        "pet_effect",
+        "pet_effect_group",
+        "pet_variation",
+        "eid_effect",
+        "energy_bead",
+        "equip",
+        "suit",
+        "equip_type",
+        "equip_effective_occasion",
+        "soulmark",
+        "soulmark_tag",
+        "element_type",
+        "element_type_combination",
+        "gem",
+        "gem_category",
+        "gem_generation_category",
+        "gem_gen1",
+        "gem_gen2",
+        "skill_activation_item",
+        "skill_stone",
+        "skill_stone_category",
+        "mintmark",
+        "ability_mintmark",
+        "skill_mintmark",
+        "universal_mintmark",
+        "mintmark_class",
+        "mintmark_type",
+        "mintmark_rarity",
+        "nature",
+        "pet",
+        "pet_class",
+        "pet_gender",
+        "pet_vipbuff",
+        "pet_mount_type",
+        "pet_skin",
+        "pet_skin_category",
+        "pet_encyclopedia_entry",
+        "pet_archive_story_book",
+        "skill",
+        "skill_effect_type",
+        "skill_effect_param",
+        "skill_hide_effect",
+        "skill_category",
+        "skill_effect_type_tag"
+      ],
+      "title": "Index",
+      "type": "object"
     },
-    "achievement_branch": {
-      "title": "achievement_branch Path",
-      "type": "string"
-    },
-    "achievement_type": {
-      "title": "achievement_type Path",
-      "type": "string"
-    },
-    "achievement_category": {
-      "title": "achievement_category Path",
-      "type": "string"
-    },
-    "title": {
-      "title": "title Path",
-      "type": "string"
-    },
-    "battle_effect": {
-      "title": "battle_effect Path",
-      "type": "string"
-    },
-    "battle_effect_type": {
-      "title": "battle_effect_type Path",
-      "type": "string"
-    },
-    "pet_effect": {
-      "title": "pet_effect Path",
-      "type": "string"
-    },
-    "pet_effect_group": {
-      "title": "pet_effect_group Path",
-      "type": "string"
-    },
-    "pet_variation": {
-      "title": "pet_variation Path",
-      "type": "string"
-    },
-    "eid_effect": {
-      "title": "eid_effect Path",
-      "type": "string"
-    },
-    "energy_bead": {
-      "title": "energy_bead Path",
-      "type": "string"
-    },
-    "equip": {
-      "title": "equip Path",
-      "type": "string"
-    },
-    "suit": {
-      "title": "suit Path",
-      "type": "string"
-    },
-    "equip_type": {
-      "title": "equip_type Path",
-      "type": "string"
-    },
-    "equip_effective_occasion": {
-      "title": "equip_effective_occasion Path",
-      "type": "string"
-    },
-    "soulmark": {
-      "title": "soulmark Path",
-      "type": "string"
-    },
-    "soulmark_tag": {
-      "title": "soulmark_tag Path",
-      "type": "string"
-    },
-    "element_type": {
-      "title": "element_type Path",
-      "type": "string"
-    },
-    "element_type_combination": {
-      "title": "element_type_combination Path",
-      "type": "string"
-    },
-    "gem": {
-      "title": "gem Path",
-      "type": "string"
-    },
-    "gem_category": {
-      "title": "gem_category Path",
-      "type": "string"
-    },
-    "gem_generation_category": {
-      "title": "gem_generation_category Path",
-      "type": "string"
-    },
-    "gem_gen1": {
-      "title": "gem_gen1 Path",
-      "type": "string"
-    },
-    "gem_gen2": {
-      "title": "gem_gen2 Path",
-      "type": "string"
-    },
-    "skill_activation_item": {
-      "title": "skill_activation_item Path",
-      "type": "string"
-    },
-    "skill_stone": {
-      "title": "skill_stone Path",
-      "type": "string"
-    },
-    "skill_stone_category": {
-      "title": "skill_stone_category Path",
-      "type": "string"
-    },
-    "mintmark": {
-      "title": "mintmark Path",
-      "type": "string"
-    },
-    "ability_mintmark": {
-      "title": "ability_mintmark Path",
-      "type": "string"
-    },
-    "skill_mintmark": {
-      "title": "skill_mintmark Path",
-      "type": "string"
-    },
-    "universal_mintmark": {
-      "title": "universal_mintmark Path",
-      "type": "string"
-    },
-    "mintmark_class": {
-      "title": "mintmark_class Path",
-      "type": "string"
-    },
-    "mintmark_type": {
-      "title": "mintmark_type Path",
-      "type": "string"
-    },
-    "mintmark_rarity": {
-      "title": "mintmark_rarity Path",
-      "type": "string"
-    },
-    "nature": {
-      "title": "nature Path",
-      "type": "string"
-    },
-    "pet": {
-      "title": "pet Path",
-      "type": "string"
-    },
-    "pet_class": {
-      "title": "pet_class Path",
-      "type": "string"
-    },
-    "pet_gender": {
-      "title": "pet_gender Path",
-      "type": "string"
-    },
-    "pet_vipbuff": {
-      "title": "pet_vipbuff Path",
-      "type": "string"
-    },
-    "pet_mount_type": {
-      "title": "pet_mount_type Path",
-      "type": "string"
-    },
-    "pet_skin": {
-      "title": "pet_skin Path",
-      "type": "string"
-    },
-    "pet_skin_category": {
-      "title": "pet_skin_category Path",
-      "type": "string"
-    },
-    "pet_encyclopedia_entry": {
-      "title": "pet_encyclopedia_entry Path",
-      "type": "string"
-    },
-    "pet_archive_story_book": {
-      "title": "pet_archive_story_book Path",
-      "type": "string"
-    },
-    "skill": {
-      "title": "skill Path",
-      "type": "string"
-    },
-    "skill_effect_type": {
-      "title": "skill_effect_type Path",
-      "type": "string"
-    },
-    "skill_effect_param": {
-      "title": "skill_effect_param Path",
-      "type": "string"
-    },
-    "skill_hide_effect": {
-      "title": "skill_hide_effect Path",
-      "type": "string"
-    },
-    "skill_category": {
-      "title": "skill_category Path",
-      "type": "string"
-    },
-    "skill_effect_type_tag": {
-      "title": "skill_effect_type_tag Path",
-      "type": "string"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "achievement",
-    "achievement_branch",
-    "achievement_type",
-    "achievement_category",
-    "title",
-    "battle_effect",
-    "battle_effect_type",
-    "pet_effect",
-    "pet_effect_group",
-    "pet_variation",
-    "eid_effect",
-    "energy_bead",
-    "equip",
-    "suit",
-    "equip_type",
-    "equip_effective_occasion",
-    "soulmark",
-    "soulmark_tag",
-    "element_type",
-    "element_type_combination",
-    "gem",
-    "gem_category",
-    "gem_generation_category",
-    "gem_gen1",
-    "gem_gen2",
-    "skill_activation_item",
-    "skill_stone",
-    "skill_stone_category",
-    "mintmark",
-    "ability_mintmark",
-    "skill_mintmark",
-    "universal_mintmark",
-    "mintmark_class",
-    "mintmark_type",
-    "mintmark_rarity",
-    "nature",
-    "pet",
-    "pet_class",
-    "pet_gender",
-    "pet_vipbuff",
-    "pet_mount_type",
-    "pet_skin",
-    "pet_skin_category",
-    "pet_encyclopedia_entry",
-    "pet_archive_story_book",
-    "skill",
-    "skill_effect_type",
-    "skill_effect_param",
-    "skill_hide_effect",
-    "skill_category",
-    "skill_effect_type_tag",
-    "hash"
-  ],
-  "title": "Index",
-  "type": "object"
+  ]
 }

@@ -1,48 +1,50 @@
 {
-  "$defs": {
-    "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "pet"
-    }
-  },
-  "properties": {
-    "pet": {
-      "description": "精灵列表",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_Pet_"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        }
       },
-      "title": "Pet",
-      "type": "array"
+      "properties": {
+        "pet": {
+          "description": "精灵列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Pet_"
+          },
+          "title": "Pet",
+          "type": "array"
+        },
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "description": "描述",
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "pet",
+        "id",
+        "name",
+        "description"
+      ],
+      "title": "PetVipBuffCategory",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "description": {
-      "description": "描述",
-      "title": "Description",
-      "type": "string"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "pet",
-    "id",
-    "name",
-    "description",
-    "hash"
-  ],
-  "title": "PetVipBuffCategory",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

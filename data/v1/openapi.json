@@ -17,7 +17,7 @@
           "成就"
         ],
         "summary": "获取成就资源",
-        "description": "成就资源，该资源的ID字段由分析器生成，游戏内不存在对应的字段。",
+        "description": "成就资源。该模型同时集成了具有能力加成的成就称号数据，通过is_ability_bonus字段区分。",
         "operationId": "get_achievement_by_id",
         "parameters": [
           {
@@ -61,7 +61,7 @@
           "成就"
         ],
         "summary": "通过名称获取成就资源",
-        "description": "成就资源，该资源的ID字段由分析器生成，游戏内不存在对应的字段。",
+        "description": "成就资源。该模型同时集成了具有能力加成的成就称号数据，通过is_ability_bonus字段区分。",
         "operationId": "get_achievement_by_name",
         "parameters": [
           {
@@ -105,7 +105,7 @@
           "成就"
         ],
         "summary": "获取成就资源列表",
-        "description": "成就资源，该资源的ID字段由分析器生成，游戏内不存在对应的字段。",
+        "description": "成就资源。该模型同时集成了具有能力加成的成就称号数据，通过is_ability_bonus字段区分。",
         "operationId": "get_achievement_list",
         "parameters": [
           {
@@ -426,7 +426,7 @@
           "分类"
         ],
         "summary": "获取成就分类资源",
-        "description": "成就分类资源，用于在API中筛选能力加成/隐藏成就。",
+        "description": "成就分类，目前只有一个隐藏成就的分类。",
         "operationId": "get_achievement_category_by_id",
         "parameters": [
           {
@@ -471,7 +471,7 @@
           "分类"
         ],
         "summary": "通过名称获取成就分类资源",
-        "description": "成就分类资源，用于在API中筛选能力加成/隐藏成就。",
+        "description": "成就分类，目前只有一个隐藏成就的分类。",
         "operationId": "get_achievement_category_by_name",
         "parameters": [
           {
@@ -516,7 +516,7 @@
           "分类"
         ],
         "summary": "获取成就分类资源列表",
-        "description": "成就分类资源，用于在API中筛选能力加成/隐藏成就。",
+        "description": "成就分类，目前只有一个隐藏成就的分类。",
         "operationId": "get_achievement_category_list",
         "parameters": [
           {
@@ -564,7 +564,7 @@
           "称号"
         ],
         "summary": "获取成就称号资源",
-        "description": "成就称号资源，用于表示成就的称号，该资源的ID字段为游戏内的称号ID，这与成就不同。",
+        "description": "成就称号资源，包含具有能力加成的成就称号数据。",
         "operationId": "get_title_by_id",
         "parameters": [
           {
@@ -609,7 +609,7 @@
           "称号"
         ],
         "summary": "通过名称获取成就称号资源",
-        "description": "成就称号资源，用于表示成就的称号，该资源的ID字段为游戏内的称号ID，这与成就不同。",
+        "description": "成就称号资源，包含具有能力加成的成就称号数据。",
         "operationId": "get_title_by_name",
         "parameters": [
           {
@@ -654,7 +654,7 @@
           "称号"
         ],
         "summary": "获取成就称号资源列表",
-        "description": "成就称号资源，用于表示成就的称号，该资源的ID字段为游戏内的称号ID，这与成就不同。",
+        "description": "成就称号资源，包含具有能力加成的成就称号数据。",
         "operationId": "get_title_list",
         "parameters": [
           {
@@ -1120,7 +1120,7 @@
           "分类"
         ],
         "summary": "获取特性组资源",
-        "description": "精灵特性组，不同等级的同一特性属于同一组。",
+        "description": "特性组，用于分组同名特性（0~5星）。",
         "operationId": "get_pet_effect_group_by_id",
         "parameters": [
           {
@@ -1166,7 +1166,7 @@
           "分类"
         ],
         "summary": "通过名称获取特性组资源",
-        "description": "精灵特性组，不同等级的同一特性属于同一组。",
+        "description": "特性组，用于分组同名特性（0~5星）。",
         "operationId": "get_pet_effect_group_by_name",
         "parameters": [
           {
@@ -1212,7 +1212,7 @@
           "分类"
         ],
         "summary": "获取特性组资源列表",
-        "description": "精灵特性组，不同等级的同一特性属于同一组。",
+        "description": "特性组，用于分组同名特性（0~5星）。",
         "operationId": "get_pet_effect_group_list",
         "parameters": [
           {
@@ -1488,11 +1488,11 @@
     "v1/energy_bead/{id}": {
       "get": {
         "tags": [
-          "道具",
-          "能量珠"
+          "能量珠",
+          "道具"
         ],
         "summary": "获取能量珠资源",
-        "description": "能量珠资源，注意：这类资源中不包含非加成类战斗道具（例如学习力双倍器）。",
+        "description": "能量珠资源。",
         "operationId": "get_energy_bead_by_id",
         "parameters": [
           {
@@ -1533,11 +1533,11 @@
     "v1/energy_bead/{name}": {
       "get": {
         "tags": [
-          "道具",
-          "能量珠"
+          "能量珠",
+          "道具"
         ],
         "summary": "通过名称获取能量珠资源",
-        "description": "能量珠资源，注意：这类资源中不包含非加成类战斗道具（例如学习力双倍器）。",
+        "description": "能量珠资源。",
         "operationId": "get_energy_bead_by_name",
         "parameters": [
           {
@@ -1578,11 +1578,11 @@
     "v1/energy_bead/": {
       "get": {
         "tags": [
-          "道具",
-          "能量珠"
+          "能量珠",
+          "道具"
         ],
         "summary": "获取能量珠资源列表",
-        "description": "能量珠资源，注意：这类资源中不包含非加成类战斗道具（例如学习力双倍器）。",
+        "description": "能量珠资源。",
         "operationId": "get_energy_bead_list",
         "parameters": [
           {
@@ -1630,7 +1630,7 @@
           "部件"
         ],
         "summary": "获取部件资源",
-        "description": "赛尔装备部件。",
+        "description": "赛尔装备部件资源。",
         "operationId": "get_equip_by_id",
         "parameters": [
           {
@@ -1675,7 +1675,7 @@
           "部件"
         ],
         "summary": "通过名称获取部件资源",
-        "description": "赛尔装备部件。",
+        "description": "赛尔装备部件资源。",
         "operationId": "get_equip_by_name",
         "parameters": [
           {
@@ -1720,7 +1720,7 @@
           "部件"
         ],
         "summary": "获取部件资源列表",
-        "description": "赛尔装备部件。",
+        "description": "赛尔装备部件资源。",
         "operationId": "get_equip_list",
         "parameters": [
           {
@@ -1768,7 +1768,7 @@
           "套装"
         ],
         "summary": "获取套装资源",
-        "description": "赛尔套装。",
+        "description": "赛尔套装资源。",
         "operationId": "get_suit_by_id",
         "parameters": [
           {
@@ -1813,7 +1813,7 @@
           "套装"
         ],
         "summary": "通过名称获取套装资源",
-        "description": "赛尔套装。",
+        "description": "赛尔套装资源。",
         "operationId": "get_suit_by_name",
         "parameters": [
           {
@@ -1858,7 +1858,7 @@
           "套装"
         ],
         "summary": "获取套装资源列表",
-        "description": "赛尔套装。",
+        "description": "赛尔套装资源。",
         "operationId": "get_suit_list",
         "parameters": [
           {
@@ -2511,7 +2511,7 @@
           "组合"
         ],
         "summary": "获取属性组合资源",
-        "description": "属性组合资源，所有包含所有的单属性和双属性数据。注意“第一属性”和“第二属性”仅为了区分两个属性，游戏内并无主次之分。",
+        "description": "属性组合资源，所有包含所有的单属性和双属性数据。注意\"第一属性\"和\"第二属性\"仅为了区分两个属性，游戏内并无主次之分。",
         "operationId": "get_element_type_combination_by_id",
         "parameters": [
           {
@@ -2556,7 +2556,7 @@
           "组合"
         ],
         "summary": "通过名称获取属性组合资源",
-        "description": "属性组合资源，所有包含所有的单属性和双属性数据。注意“第一属性”和“第二属性”仅为了区分两个属性，游戏内并无主次之分。",
+        "description": "属性组合资源，所有包含所有的单属性和双属性数据。注意\"第一属性\"和\"第二属性\"仅为了区分两个属性，游戏内并无主次之分。",
         "operationId": "get_element_type_combination_by_name",
         "parameters": [
           {
@@ -2601,7 +2601,7 @@
           "组合"
         ],
         "summary": "获取属性组合资源列表",
-        "description": "属性组合资源，所有包含所有的单属性和双属性数据。注意“第一属性”和“第二属性”仅为了区分两个属性，游戏内并无主次之分。",
+        "description": "属性组合资源，所有包含所有的单属性和双属性数据。注意\"第一属性\"和\"第二属性\"仅为了区分两个属性，游戏内并无主次之分。",
         "operationId": "get_element_type_combination_list",
         "parameters": [
           {
@@ -2792,7 +2792,7 @@
           "分类"
         ],
         "summary": "获取宝石类别资源",
-        "description": "宝石种类分类，用于快速获取不同种类的宝石。",
+        "description": "宝石类别，用于分类同一效果的不同等级宝石。",
         "operationId": "get_gem_category_by_id",
         "parameters": [
           {
@@ -2839,7 +2839,7 @@
           "分类"
         ],
         "summary": "通过名称获取宝石类别资源",
-        "description": "宝石种类分类，用于快速获取不同种类的宝石。",
+        "description": "宝石类别，用于分类同一效果的不同等级宝石。",
         "operationId": "get_gem_category_by_name",
         "parameters": [
           {
@@ -2886,7 +2886,7 @@
           "分类"
         ],
         "summary": "获取宝石类别资源列表",
-        "description": "宝石种类分类，用于快速获取不同种类的宝石。",
+        "description": "宝石类别，用于分类同一效果的不同等级宝石。",
         "operationId": "get_gem_category_list",
         "parameters": [
           {
@@ -3032,7 +3032,7 @@
           "道具"
         ],
         "summary": "获取一代刻印宝石资源",
-        "description": "一代刻印宝石，返回的模型中仅包含1代宝石的相关字段。",
+        "description": "一代刻印宝石资源。",
         "operationId": "get_gem_gen1_by_id",
         "parameters": [
           {
@@ -3078,7 +3078,7 @@
           "道具"
         ],
         "summary": "通过名称获取一代刻印宝石资源",
-        "description": "一代刻印宝石，返回的模型中仅包含1代宝石的相关字段。",
+        "description": "一代刻印宝石资源。",
         "operationId": "get_gem_gen1_by_name",
         "parameters": [
           {
@@ -3124,7 +3124,7 @@
           "道具"
         ],
         "summary": "获取一代刻印宝石资源列表",
-        "description": "一代刻印宝石，返回的模型中仅包含1代宝石的相关字段。",
+        "description": "一代刻印宝石资源。",
         "operationId": "get_gem_gen1_list",
         "parameters": [
           {
@@ -3173,7 +3173,7 @@
           "道具"
         ],
         "summary": "获取二代刻印宝石资源",
-        "description": "二代刻印宝石，返回的模型中仅包含二代宝石的相关字段。",
+        "description": "二代刻印宝石资源。",
         "operationId": "get_gem_gen2_by_id",
         "parameters": [
           {
@@ -3219,7 +3219,7 @@
           "道具"
         ],
         "summary": "通过名称获取二代刻印宝石资源",
-        "description": "二代刻印宝石，返回的模型中仅包含二代宝石的相关字段。",
+        "description": "二代刻印宝石资源。",
         "operationId": "get_gem_gen2_by_name",
         "parameters": [
           {
@@ -3265,7 +3265,7 @@
           "道具"
         ],
         "summary": "获取二代刻印宝石资源列表",
-        "description": "二代刻印宝石，返回的模型中仅包含二代宝石的相关字段。",
+        "description": "二代刻印宝石资源。",
         "operationId": "get_gem_gen2_list",
         "parameters": [
           {
@@ -3454,11 +3454,10 @@
       "get": {
         "tags": [
           "技能石",
-          "技能",
           "道具"
         ],
         "summary": "获取技能石资源",
-        "description": "技能石资源，包含完美技能石的特殊效果和获得概率。",
+        "description": "技能石资源。",
         "operationId": "get_skill_stone_by_id",
         "parameters": [
           {
@@ -3500,11 +3499,10 @@
       "get": {
         "tags": [
           "技能石",
-          "技能",
           "道具"
         ],
         "summary": "通过名称获取技能石资源",
-        "description": "技能石资源，包含完美技能石的特殊效果和获得概率。",
+        "description": "技能石资源。",
         "operationId": "get_skill_stone_by_name",
         "parameters": [
           {
@@ -3546,11 +3544,10 @@
       "get": {
         "tags": [
           "技能石",
-          "技能",
           "道具"
         ],
         "summary": "获取技能石资源列表",
-        "description": "技能石资源，包含完美技能石的特殊效果和获得概率。",
+        "description": "技能石资源。",
         "operationId": "get_skill_stone_list",
         "parameters": [
           {
@@ -3595,12 +3592,11 @@
       "get": {
         "tags": [
           "技能石",
-          "技能",
           "道具",
           "分类"
         ],
         "summary": "获取技能石分类资源",
-        "description": "技能石分类，用于分类不同属性的技能石。注意该资源的 ID 字段值为该技能石的属性的 ID",
+        "description": "技能石分类，按属性分类。",
         "operationId": "get_skill_stone_category_by_id",
         "parameters": [
           {
@@ -3642,12 +3638,11 @@
       "get": {
         "tags": [
           "技能石",
-          "技能",
           "道具",
           "分类"
         ],
         "summary": "通过名称获取技能石分类资源",
-        "description": "技能石分类，用于分类不同属性的技能石。注意该资源的 ID 字段值为该技能石的属性的 ID",
+        "description": "技能石分类，按属性分类。",
         "operationId": "get_skill_stone_category_by_name",
         "parameters": [
           {
@@ -3689,12 +3684,11 @@
       "get": {
         "tags": [
           "技能石",
-          "技能",
           "道具",
           "分类"
         ],
         "summary": "获取技能石分类资源列表",
-        "description": "技能石分类，用于分类不同属性的技能石。注意该资源的 ID 字段值为该技能石的属性的 ID",
+        "description": "技能石分类，按属性分类。",
         "operationId": "get_skill_stone_category_list",
         "parameters": [
           {
@@ -3741,7 +3735,7 @@
           "刻印"
         ],
         "summary": "获取刻印资源",
-        "description": "刻印资源，返回的模型中同时包含能力/技能/全能刻印的相关字段，可通过type字段区分刻印类型。",
+        "description": "刻印资源。该模型同时集成了能力刻印、技能刻印和全能刻印三种类型的刻印数据，通过type字段区分，使用时请参考对应的细分模型。",
         "operationId": "get_mintmark_by_id",
         "parameters": [
           {
@@ -3785,7 +3779,7 @@
           "刻印"
         ],
         "summary": "通过名称获取刻印资源",
-        "description": "刻印资源，返回的模型中同时包含能力/技能/全能刻印的相关字段，可通过type字段区分刻印类型。",
+        "description": "刻印资源。该模型同时集成了能力刻印、技能刻印和全能刻印三种类型的刻印数据，通过type字段区分，使用时请参考对应的细分模型。",
         "operationId": "get_mintmark_by_name",
         "parameters": [
           {
@@ -3829,7 +3823,7 @@
           "刻印"
         ],
         "summary": "获取刻印资源列表",
-        "description": "刻印资源，返回的模型中同时包含能力/技能/全能刻印的相关字段，可通过type字段区分刻印类型。",
+        "description": "刻印资源。该模型同时集成了能力刻印、技能刻印和全能刻印三种类型的刻印数据，通过type字段区分，使用时请参考对应的细分模型。",
         "operationId": "get_mintmark_list",
         "parameters": [
           {
@@ -3873,7 +3867,8 @@
     "v1/ability_mintmark/{id}": {
       "get": {
         "tags": [
-          "刻印"
+          "刻印",
+          "能力"
         ],
         "summary": "获取能力刻印资源",
         "description": "能力刻印资源。",
@@ -3917,7 +3912,8 @@
     "v1/ability_mintmark/{name}": {
       "get": {
         "tags": [
-          "刻印"
+          "刻印",
+          "能力"
         ],
         "summary": "通过名称获取能力刻印资源",
         "description": "能力刻印资源。",
@@ -3961,7 +3957,8 @@
     "v1/ability_mintmark/": {
       "get": {
         "tags": [
-          "刻印"
+          "刻印",
+          "能力"
         ],
         "summary": "获取能力刻印资源列表",
         "description": "能力刻印资源。",
@@ -4147,7 +4144,7 @@
       "get": {
         "tags": [
           "刻印",
-          "全能刻印"
+          "全能"
         ],
         "summary": "获取全能刻印资源",
         "description": "全能刻印资源。",
@@ -4192,7 +4189,7 @@
       "get": {
         "tags": [
           "刻印",
-          "全能刻印"
+          "全能"
         ],
         "summary": "通过名称获取全能刻印资源",
         "description": "全能刻印资源。",
@@ -4237,7 +4234,7 @@
       "get": {
         "tags": [
           "刻印",
-          "全能刻印"
+          "全能"
         ],
         "summary": "获取全能刻印资源列表",
         "description": "全能刻印资源。",
@@ -4285,11 +4282,11 @@
       "get": {
         "tags": [
           "刻印",
-          "全能刻印",
+          "系列",
           "分类"
         ],
         "summary": "获取刻印系列分类资源",
-        "description": "刻印系列分类，用于分类全能刻印系列。",
+        "description": "刻印系列分类，用于分类全能刻印系列，例如和平星系列、创世兵魂系列等。",
         "operationId": "get_mintmark_class_by_id",
         "parameters": [
           {
@@ -4331,11 +4328,11 @@
       "get": {
         "tags": [
           "刻印",
-          "全能刻印",
+          "系列",
           "分类"
         ],
         "summary": "通过名称获取刻印系列分类资源",
-        "description": "刻印系列分类，用于分类全能刻印系列。",
+        "description": "刻印系列分类，用于分类全能刻印系列，例如和平星系列、创世兵魂系列等。",
         "operationId": "get_mintmark_class_by_name",
         "parameters": [
           {
@@ -4377,11 +4374,11 @@
       "get": {
         "tags": [
           "刻印",
-          "全能刻印",
+          "系列",
           "分类"
         ],
         "summary": "获取刻印系列分类资源列表",
-        "description": "刻印系列分类，用于分类全能刻印系列。",
+        "description": "刻印系列分类，用于分类全能刻印系列，例如和平星系列、创世兵魂系列等。",
         "operationId": "get_mintmark_class_list",
         "parameters": [
           {
@@ -4567,7 +4564,7 @@
           "分类"
         ],
         "summary": "获取刻印稀有度分类资源",
-        "description": "刻印稀有度分类。",
+        "description": "刻印稀有度分类，分为1~5星。",
         "operationId": "get_mintmark_rarity_by_id",
         "parameters": [
           {
@@ -4612,7 +4609,7 @@
           "分类"
         ],
         "summary": "获取刻印稀有度分类资源列表",
-        "description": "刻印稀有度分类。",
+        "description": "刻印稀有度分类，分为1~5星。",
         "operationId": "get_mintmark_rarity_list",
         "parameters": [
           {
@@ -4659,7 +4656,7 @@
           "性格"
         ],
         "summary": "获取性格资源",
-        "description": "性格修正资源。",
+        "description": "精灵性格，包含性格对属性的影响。",
         "operationId": "get_nature_by_id",
         "parameters": [
           {
@@ -4703,7 +4700,7 @@
           "性格"
         ],
         "summary": "通过名称获取性格资源",
-        "description": "性格修正资源。",
+        "description": "精灵性格，包含性格对属性的影响。",
         "operationId": "get_nature_by_name",
         "parameters": [
           {
@@ -4747,7 +4744,7 @@
           "性格"
         ],
         "summary": "获取性格资源列表",
-        "description": "性格修正资源。",
+        "description": "精灵性格，包含性格对属性的影响。",
         "operationId": "get_nature_list",
         "parameters": [
           {
@@ -4794,7 +4791,7 @@
           "精灵"
         ],
         "summary": "获取精灵资源",
-        "description": "精灵资源",
+        "description": "精灵资源，如果要通过该资源获取立绘/头像等，请使用 resource_id 字段作为资源ID。",
         "operationId": "get_pet_by_id",
         "parameters": [
           {
@@ -4838,7 +4835,7 @@
           "精灵"
         ],
         "summary": "通过名称获取精灵资源",
-        "description": "精灵资源",
+        "description": "精灵资源，如果要通过该资源获取立绘/头像等，请使用 resource_id 字段作为资源ID。",
         "operationId": "get_pet_by_name",
         "parameters": [
           {
@@ -4882,7 +4879,7 @@
           "精灵"
         ],
         "summary": "获取精灵资源列表",
-        "description": "精灵资源",
+        "description": "精灵资源，如果要通过该资源获取立绘/头像等，请使用 resource_id 字段作为资源ID。",
         "operationId": "get_pet_list",
         "parameters": [
           {
@@ -4931,7 +4928,7 @@
           "分类"
         ],
         "summary": "获取精灵类别资源",
-        "description": "精灵类别，这个资源用于分类同一“进化链”的精灵。（这里的进化链是指官方数据定义中一个已经停止维护的特殊字段，例如[索拉，赫拉斯，阿克希亚，阿克妮丝]属于同一个进化链，但女皇阿克希亚与冰之契约阿克希亚不在该进化链中）",
+        "description": "精灵类别，这个资源用于分类同一\"进化链\"的精灵。（这里的进化链是指官方数据定义中一个已经停止维护的特殊字段，例如[索拉，赫拉斯，阿克希亚，阿克妮丝]属于同一个进化链，但女皇阿克希亚与冰之契约阿克希亚不在该进化链中）",
         "operationId": "get_pet_class_by_id",
         "parameters": [
           {
@@ -4977,7 +4974,7 @@
           "分类"
         ],
         "summary": "获取精灵类别资源列表",
-        "description": "精灵类别，这个资源用于分类同一“进化链”的精灵。（这里的进化链是指官方数据定义中一个已经停止维护的特殊字段，例如[索拉，赫拉斯，阿克希亚，阿克妮丝]属于同一个进化链，但女皇阿克希亚与冰之契约阿克希亚不在该进化链中）",
+        "description": "精灵类别，这个资源用于分类同一\"进化链\"的精灵。（这里的进化链是指官方数据定义中一个已经停止维护的特殊字段，例如[索拉，赫拉斯，阿克希亚，阿克妮丝]属于同一个进化链，但女皇阿克希亚与冰之契约阿克希亚不在该进化链中）",
         "operationId": "get_pet_class_list",
         "parameters": [
           {
@@ -5959,7 +5956,7 @@
           "技能"
         ],
         "summary": "获取技能资源",
-        "description": "技能资源，包含所有技能数据。",
+        "description": "技能资源。",
         "operationId": "get_skill_by_id",
         "parameters": [
           {
@@ -6003,7 +6000,7 @@
           "技能"
         ],
         "summary": "通过名称获取技能资源",
-        "description": "技能资源，包含所有技能数据。",
+        "description": "技能资源。",
         "operationId": "get_skill_by_name",
         "parameters": [
           {
@@ -6047,7 +6044,7 @@
           "技能"
         ],
         "summary": "获取技能资源列表",
-        "description": "技能资源，包含所有技能数据。",
+        "description": "技能资源。",
         "operationId": "get_skill_list",
         "parameters": [
           {
@@ -6095,7 +6092,7 @@
           "技能效果"
         ],
         "summary": "获取技能效果资源",
-        "description": "技能效果。",
+        "description": "技能效果资源，描述技能的额外效果。",
         "operationId": "get_skill_effect_type_by_id",
         "parameters": [
           {
@@ -6140,7 +6137,7 @@
           "技能效果"
         ],
         "summary": "获取技能效果资源列表",
-        "description": "技能效果。",
+        "description": "技能效果资源，描述技能的额外效果。",
         "operationId": "get_skill_effect_type_list",
         "parameters": [
           {
@@ -6188,7 +6185,7 @@
           "技能效果"
         ],
         "summary": "获取技能效果参数资源",
-        "description": "技能效果参数，该资源描述了用于格式化技能效果描述的内部参数。",
+        "description": "技能效果参数资源，该资源用于解析技能效果参数。",
         "operationId": "get_skill_effect_param_by_id",
         "parameters": [
           {
@@ -6233,7 +6230,7 @@
           "技能效果"
         ],
         "summary": "获取技能效果参数资源列表",
-        "description": "技能效果参数，该资源描述了用于格式化技能效果描述的内部参数。",
+        "description": "技能效果参数资源，该资源用于解析技能效果参数。",
         "operationId": "get_skill_effect_param_list",
         "parameters": [
           {
@@ -6281,7 +6278,7 @@
           "技能效果"
         ],
         "summary": "获取技能隐藏效果资源",
-        "description": "技能隐藏效果，该资源描述了技能的特殊隐藏效果，例如精灵“速度史莱姆”的技能“迅捷撞击”，效果为“若先出手则必定打出致命一击（CritAtkFirst）”。",
+        "description": "技能隐藏效果，该资源描述了技能的特殊隐藏效果，例如精灵\"速度史莱姆\"的技能\"迅捷撞击\"，效果为\"若先出手则必定打出致命一击（CritAtkFirst）\"。",
         "operationId": "get_skill_hide_effect_by_id",
         "parameters": [
           {
@@ -6326,7 +6323,7 @@
           "技能效果"
         ],
         "summary": "通过名称获取技能隐藏效果资源",
-        "description": "技能隐藏效果，该资源描述了技能的特殊隐藏效果，例如精灵“速度史莱姆”的技能“迅捷撞击”，效果为“若先出手则必定打出致命一击（CritAtkFirst）”。",
+        "description": "技能隐藏效果，该资源描述了技能的特殊隐藏效果，例如精灵\"速度史莱姆\"的技能\"迅捷撞击\"，效果为\"若先出手则必定打出致命一击（CritAtkFirst）\"。",
         "operationId": "get_skill_hide_effect_by_name",
         "parameters": [
           {
@@ -6371,7 +6368,7 @@
           "技能效果"
         ],
         "summary": "获取技能隐藏效果资源列表",
-        "description": "技能隐藏效果，该资源描述了技能的特殊隐藏效果，例如精灵“速度史莱姆”的技能“迅捷撞击”，效果为“若先出手则必定打出致命一击（CritAtkFirst）”。",
+        "description": "技能隐藏效果，该资源描述了技能的特殊隐藏效果，例如精灵\"速度史莱姆\"的技能\"迅捷撞击\"，效果为\"若先出手则必定打出致命一击（CritAtkFirst）\"。",
         "operationId": "get_skill_hide_effect_list",
         "parameters": [
           {
@@ -6555,10 +6552,10 @@
         "tags": [
           "技能",
           "技能效果",
-          "分类"
+          "标签"
         ],
         "summary": "获取技能效果类型标签资源",
-        "description": "技能效果类型标签，该资源的ID字段是分析器自行生成的，在数据中并不存在。",
+        "description": "技能效果类型标签，用于标记技能效果的类型。",
         "operationId": "get_skill_effect_type_tag_by_id",
         "parameters": [
           {
@@ -6601,10 +6598,10 @@
         "tags": [
           "技能",
           "技能效果",
-          "分类"
+          "标签"
         ],
         "summary": "通过名称获取技能效果类型标签资源",
-        "description": "技能效果类型标签，该资源的ID字段是分析器自行生成的，在数据中并不存在。",
+        "description": "技能效果类型标签，用于标记技能效果的类型。",
         "operationId": "get_skill_effect_type_tag_by_name",
         "parameters": [
           {
@@ -6647,10 +6644,10 @@
         "tags": [
           "技能",
           "技能效果",
-          "分类"
+          "标签"
         ],
         "summary": "获取技能效果类型标签资源列表",
-        "description": "技能效果类型标签，该资源的ID字段是分析器自行生成的，在数据中并不存在。",
+        "description": "技能效果类型标签，用于标记技能效果的类型。",
         "operationId": "get_skill_effect_type_tag_list",
         "parameters": [
           {
@@ -6698,15 +6695,18 @@
         "properties": {
           "hash": {
             "type": "string",
-            "title": "CRC16 Hash",
-            "description": "该对象的哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-            "example": "abb7l9d6"
+            "title": "Hash",
+            "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
+            "examples": [
+              "abb7l9d6"
+            ]
           }
         },
         "type": "object",
         "required": [
           "hash"
-        ]
+        ],
+        "title": "HashPartial"
       },
       "common_resource_ref": {
         "properties": {
@@ -7184,31 +7184,31 @@
             "is_ability_bonus": false,
             "ability_desc": null,
             "type": {
-              "id": 0,
-              "url": "https://api.seerapi.com/v1/achievement_type/0"
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_type/1"
             },
             "branch": {
-              "id": 11,
-              "url": "https://api.seerapi.com/v1/achievement_branch/11"
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_branch/1"
             },
             "next_level_achievement": {
-              "id": 3,
-              "url": "https://api.seerapi.com/v1/achievement/3"
+              "id": 163,
+              "url": "https://api.seerapi.com/v1/achievement/163"
             },
             "prev_level_achievement": {
-              "id": 1,
-              "url": "https://api.seerapi.com/v1/achievement/1"
+              "id": 161,
+              "url": "https://api.seerapi.com/v1/achievement/161"
             },
             "attr_bonus": null,
-            "id": 2,
-            "name": "要塞保卫战（二）",
+            "id": 162,
+            "name": "收集精灵（二）",
             "point": 10,
-            "desc": "保卫战获得10胜",
+            "desc": "收集10只精灵",
             "is_hide": false,
             "title_id": null,
             "title": null,
             "original_title": null,
-            "hash": "a2670b41"
+            "hash": "e23640c8"
           }
         ]
       },
@@ -7241,31 +7241,31 @@
             "is_ability_bonus": false,
             "ability_desc": null,
             "type": {
-              "id": 0,
-              "url": "https://api.seerapi.com/v1/achievement_type/0"
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_type/1"
             },
             "branch": {
-              "id": 11,
-              "url": "https://api.seerapi.com/v1/achievement_branch/11"
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_branch/1"
             },
             "next_level_achievement": {
-              "id": 3,
-              "url": "https://api.seerapi.com/v1/achievement/3"
+              "id": 163,
+              "url": "https://api.seerapi.com/v1/achievement/163"
             },
             "prev_level_achievement": {
-              "id": 1,
-              "url": "https://api.seerapi.com/v1/achievement/1"
+              "id": 161,
+              "url": "https://api.seerapi.com/v1/achievement/161"
             },
             "attr_bonus": null,
-            "id": 2,
-            "name": "要塞保卫战（二）",
+            "id": 162,
+            "name": "收集精灵（二）",
             "point": 10,
-            "desc": "保卫战获得10胜",
+            "desc": "收集10只精灵",
             "is_hide": false,
             "title_id": null,
             "title": null,
             "original_title": null,
-            "hash": "a2670b41"
+            "hash": "e23640c8"
           }
         ]
       },
@@ -7282,31 +7282,31 @@
             "is_ability_bonus": false,
             "ability_desc": null,
             "type": {
-              "id": 0,
-              "url": "https://api.seerapi.com/v1/achievement_type/0"
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_type/1"
             },
             "branch": {
-              "id": 11,
-              "url": "https://api.seerapi.com/v1/achievement_branch/11"
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_branch/1"
             },
             "next_level_achievement": {
-              "id": 3,
-              "url": "https://api.seerapi.com/v1/achievement/3"
+              "id": 163,
+              "url": "https://api.seerapi.com/v1/achievement/163"
             },
             "prev_level_achievement": {
-              "id": 1,
-              "url": "https://api.seerapi.com/v1/achievement/1"
+              "id": 161,
+              "url": "https://api.seerapi.com/v1/achievement/161"
             },
             "attr_bonus": null,
-            "id": 2,
-            "name": "要塞保卫战（二）",
+            "id": 162,
+            "name": "收集精灵（二）",
             "point": 10,
-            "desc": "保卫战获得10胜",
+            "desc": "收集10只精灵",
             "is_hide": false,
             "title_id": null,
             "title": null,
             "original_title": null,
-            "hash": "a2670b41"
+            "hash": "e23640c8"
           }
         ]
       },
@@ -7364,7 +7364,61 @@
           }
         ],
         "title": "成就分支资源",
-        "examples": []
+        "examples": [
+          {
+            "id": 62,
+            "name": "特殊精灵收集",
+            "point_total": 200,
+            "is_series": false,
+            "achievement": [
+              {
+                "id": 173,
+                "url": "https://api.seerapi.com/v1/achievement/173"
+              },
+              {
+                "id": 174,
+                "url": "https://api.seerapi.com/v1/achievement/174"
+              },
+              {
+                "id": 175,
+                "url": "https://api.seerapi.com/v1/achievement/175"
+              },
+              {
+                "id": 176,
+                "url": "https://api.seerapi.com/v1/achievement/176"
+              },
+              {
+                "id": 177,
+                "url": "https://api.seerapi.com/v1/achievement/177"
+              },
+              {
+                "id": 178,
+                "url": "https://api.seerapi.com/v1/achievement/178"
+              },
+              {
+                "id": 179,
+                "url": "https://api.seerapi.com/v1/achievement/179"
+              },
+              {
+                "id": 180,
+                "url": "https://api.seerapi.com/v1/achievement/180"
+              },
+              {
+                "id": 181,
+                "url": "https://api.seerapi.com/v1/achievement/181"
+              },
+              {
+                "id": 182,
+                "url": "https://api.seerapi.com/v1/achievement/182"
+              }
+            ],
+            "type": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_type/1"
+            },
+            "hash": "ae0c1d8"
+          }
+        ]
       },
       "achievement_branch_NamedData": {
         "allOf": [
@@ -7390,7 +7444,61 @@
           }
         ],
         "title": "名称映射成就分支资源",
-        "examples": []
+        "examples": [
+          {
+            "id": 62,
+            "name": "特殊精灵收集",
+            "point_total": 200,
+            "is_series": false,
+            "achievement": [
+              {
+                "id": 173,
+                "url": "https://api.seerapi.com/v1/achievement/173"
+              },
+              {
+                "id": 174,
+                "url": "https://api.seerapi.com/v1/achievement/174"
+              },
+              {
+                "id": 175,
+                "url": "https://api.seerapi.com/v1/achievement/175"
+              },
+              {
+                "id": 176,
+                "url": "https://api.seerapi.com/v1/achievement/176"
+              },
+              {
+                "id": 177,
+                "url": "https://api.seerapi.com/v1/achievement/177"
+              },
+              {
+                "id": 178,
+                "url": "https://api.seerapi.com/v1/achievement/178"
+              },
+              {
+                "id": 179,
+                "url": "https://api.seerapi.com/v1/achievement/179"
+              },
+              {
+                "id": 180,
+                "url": "https://api.seerapi.com/v1/achievement/180"
+              },
+              {
+                "id": 181,
+                "url": "https://api.seerapi.com/v1/achievement/181"
+              },
+              {
+                "id": 182,
+                "url": "https://api.seerapi.com/v1/achievement/182"
+              }
+            ],
+            "type": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_type/1"
+            },
+            "hash": "ae0c1d8"
+          }
+        ]
       },
       "achievement_branch_List": {
         "allOf": [
@@ -7400,7 +7508,61 @@
           }
         ],
         "title": "成就分支资源列表",
-        "examples": []
+        "examples": [
+          {
+            "id": 62,
+            "name": "特殊精灵收集",
+            "point_total": 200,
+            "is_series": false,
+            "achievement": [
+              {
+                "id": 173,
+                "url": "https://api.seerapi.com/v1/achievement/173"
+              },
+              {
+                "id": 174,
+                "url": "https://api.seerapi.com/v1/achievement/174"
+              },
+              {
+                "id": 175,
+                "url": "https://api.seerapi.com/v1/achievement/175"
+              },
+              {
+                "id": 176,
+                "url": "https://api.seerapi.com/v1/achievement/176"
+              },
+              {
+                "id": 177,
+                "url": "https://api.seerapi.com/v1/achievement/177"
+              },
+              {
+                "id": 178,
+                "url": "https://api.seerapi.com/v1/achievement/178"
+              },
+              {
+                "id": 179,
+                "url": "https://api.seerapi.com/v1/achievement/179"
+              },
+              {
+                "id": 180,
+                "url": "https://api.seerapi.com/v1/achievement/180"
+              },
+              {
+                "id": 181,
+                "url": "https://api.seerapi.com/v1/achievement/181"
+              },
+              {
+                "id": 182,
+                "url": "https://api.seerapi.com/v1/achievement/182"
+              }
+            ],
+            "type": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/achievement_type/1"
+            },
+            "hash": "ae0c1d8"
+          }
+        ]
       },
       "achievement_type": {
         "allOf": [
@@ -7454,7 +7616,61 @@
           }
         ],
         "title": "成就类型资源",
-        "examples": []
+        "examples": [
+          {
+            "id": 1,
+            "name": "精灵类",
+            "point_total": 795,
+            "achievement": [],
+            "branch": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/achievement_branch/1"
+              },
+              {
+                "id": 49,
+                "url": "https://api.seerapi.com/v1/achievement_branch/49"
+              },
+              {
+                "id": 62,
+                "url": "https://api.seerapi.com/v1/achievement_branch/62"
+              },
+              {
+                "id": 100,
+                "url": "https://api.seerapi.com/v1/achievement_branch/100"
+              },
+              {
+                "id": 101,
+                "url": "https://api.seerapi.com/v1/achievement_branch/101"
+              },
+              {
+                "id": 102,
+                "url": "https://api.seerapi.com/v1/achievement_branch/102"
+              },
+              {
+                "id": 9,
+                "url": "https://api.seerapi.com/v1/achievement_branch/9"
+              },
+              {
+                "id": 55,
+                "url": "https://api.seerapi.com/v1/achievement_branch/55"
+              },
+              {
+                "id": 108,
+                "url": "https://api.seerapi.com/v1/achievement_branch/108"
+              },
+              {
+                "id": 121,
+                "url": "https://api.seerapi.com/v1/achievement_branch/121"
+              },
+              {
+                "id": 167,
+                "url": "https://api.seerapi.com/v1/achievement_branch/167"
+              }
+            ],
+            "hash": "6da999fa"
+          }
+        ]
       },
       "achievement_type_NamedData": {
         "allOf": [
@@ -7480,7 +7696,61 @@
           }
         ],
         "title": "名称映射成就类型资源",
-        "examples": []
+        "examples": [
+          {
+            "id": 1,
+            "name": "精灵类",
+            "point_total": 795,
+            "achievement": [],
+            "branch": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/achievement_branch/1"
+              },
+              {
+                "id": 49,
+                "url": "https://api.seerapi.com/v1/achievement_branch/49"
+              },
+              {
+                "id": 62,
+                "url": "https://api.seerapi.com/v1/achievement_branch/62"
+              },
+              {
+                "id": 100,
+                "url": "https://api.seerapi.com/v1/achievement_branch/100"
+              },
+              {
+                "id": 101,
+                "url": "https://api.seerapi.com/v1/achievement_branch/101"
+              },
+              {
+                "id": 102,
+                "url": "https://api.seerapi.com/v1/achievement_branch/102"
+              },
+              {
+                "id": 9,
+                "url": "https://api.seerapi.com/v1/achievement_branch/9"
+              },
+              {
+                "id": 55,
+                "url": "https://api.seerapi.com/v1/achievement_branch/55"
+              },
+              {
+                "id": 108,
+                "url": "https://api.seerapi.com/v1/achievement_branch/108"
+              },
+              {
+                "id": 121,
+                "url": "https://api.seerapi.com/v1/achievement_branch/121"
+              },
+              {
+                "id": 167,
+                "url": "https://api.seerapi.com/v1/achievement_branch/167"
+              }
+            ],
+            "hash": "6da999fa"
+          }
+        ]
       },
       "achievement_type_List": {
         "allOf": [
@@ -7490,7 +7760,61 @@
           }
         ],
         "title": "成就类型资源列表",
-        "examples": []
+        "examples": [
+          {
+            "id": 1,
+            "name": "精灵类",
+            "point_total": 795,
+            "achievement": [],
+            "branch": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/achievement_branch/1"
+              },
+              {
+                "id": 49,
+                "url": "https://api.seerapi.com/v1/achievement_branch/49"
+              },
+              {
+                "id": 62,
+                "url": "https://api.seerapi.com/v1/achievement_branch/62"
+              },
+              {
+                "id": 100,
+                "url": "https://api.seerapi.com/v1/achievement_branch/100"
+              },
+              {
+                "id": 101,
+                "url": "https://api.seerapi.com/v1/achievement_branch/101"
+              },
+              {
+                "id": 102,
+                "url": "https://api.seerapi.com/v1/achievement_branch/102"
+              },
+              {
+                "id": 9,
+                "url": "https://api.seerapi.com/v1/achievement_branch/9"
+              },
+              {
+                "id": 55,
+                "url": "https://api.seerapi.com/v1/achievement_branch/55"
+              },
+              {
+                "id": 108,
+                "url": "https://api.seerapi.com/v1/achievement_branch/108"
+              },
+              {
+                "id": 121,
+                "url": "https://api.seerapi.com/v1/achievement_branch/121"
+              },
+              {
+                "id": 167,
+                "url": "https://api.seerapi.com/v1/achievement_branch/167"
+              }
+            ],
+            "hash": "6da999fa"
+          }
+        ]
       },
       "achievement_category": {
         "allOf": [
@@ -7548,25 +7872,9 @@
               {
                 "id": 320,
                 "url": "https://api.seerapi.com/v1/achievement/320"
-              },
-              {
-                "id": 321,
-                "url": "https://api.seerapi.com/v1/achievement/321"
-              },
-              {
-                "id": 322,
-                "url": "https://api.seerapi.com/v1/achievement/322"
-              },
-              {
-                "id": 907,
-                "url": "https://api.seerapi.com/v1/achievement/907"
-              },
-              {
-                "id": 908,
-                "url": "https://api.seerapi.com/v1/achievement/908"
               }
             ],
-            "hash": "59669272"
+            "hash": "3e9da18f"
           }
         ]
       },
@@ -7610,25 +7918,9 @@
               {
                 "id": 320,
                 "url": "https://api.seerapi.com/v1/achievement/320"
-              },
-              {
-                "id": 321,
-                "url": "https://api.seerapi.com/v1/achievement/321"
-              },
-              {
-                "id": 322,
-                "url": "https://api.seerapi.com/v1/achievement/322"
-              },
-              {
-                "id": 907,
-                "url": "https://api.seerapi.com/v1/achievement/907"
-              },
-              {
-                "id": 908,
-                "url": "https://api.seerapi.com/v1/achievement/908"
               }
             ],
-            "hash": "59669272"
+            "hash": "3e9da18f"
           }
         ]
       },
@@ -7656,25 +7948,9 @@
               {
                 "id": 320,
                 "url": "https://api.seerapi.com/v1/achievement/320"
-              },
-              {
-                "id": 321,
-                "url": "https://api.seerapi.com/v1/achievement/321"
-              },
-              {
-                "id": 322,
-                "url": "https://api.seerapi.com/v1/achievement/322"
-              },
-              {
-                "id": 907,
-                "url": "https://api.seerapi.com/v1/achievement/907"
-              },
-              {
-                "id": 908,
-                "url": "https://api.seerapi.com/v1/achievement/908"
               }
             ],
-            "hash": "59669272"
+            "hash": "3e9da18f"
           }
         ]
       },
@@ -7811,32 +8087,32 @@
               "url": "https://api.seerapi.com/v1/achievement_type/5"
             },
             "branch": {
-              "id": 166,
-              "url": "https://api.seerapi.com/v1/achievement_branch/166"
+              "id": 129,
+              "url": "https://api.seerapi.com/v1/achievement_branch/129"
             },
             "next_level_achievement": null,
             "prev_level_achievement": null,
             "attr_bonus": {
-              "atk": 45,
-              "def": 30,
-              "sp_atk": 45,
-              "sp_def": 0,
+              "atk": 0,
+              "def": 25,
+              "sp_atk": 0,
+              "sp_def": 25,
               "spd": 0,
-              "hp": 0,
+              "hp": 100,
               "percent": false,
-              "total": 120
+              "total": 150
             },
             "is_ability_bonus": true,
-            "ability_desc": "攻击+45，特攻+45，防御+30",
-            "id": 528,
-            "name": "气旋斗者",
+            "ability_desc": "体力+100，防御+25，特防+25",
+            "id": 300,
+            "name": "神话",
             "point": 10,
-            "desc": "完成闭锁空间的气团对决挑战获得",
+            "desc": "成为2018年年费VIP",
             "is_hide": false,
-            "achievement_id": 1134,
-            "achievement_name": "气旋斗者",
-            "original_name": "气旋斗者",
-            "hash": "e09ff996"
+            "achievement_id": 1013,
+            "achievement_name": "神话",
+            "original_name": "神话",
+            "hash": "8388d45"
           }
         ]
       },
@@ -7871,32 +8147,32 @@
               "url": "https://api.seerapi.com/v1/achievement_type/5"
             },
             "branch": {
-              "id": 166,
-              "url": "https://api.seerapi.com/v1/achievement_branch/166"
+              "id": 129,
+              "url": "https://api.seerapi.com/v1/achievement_branch/129"
             },
             "next_level_achievement": null,
             "prev_level_achievement": null,
             "attr_bonus": {
-              "atk": 45,
-              "def": 30,
-              "sp_atk": 45,
-              "sp_def": 0,
+              "atk": 0,
+              "def": 25,
+              "sp_atk": 0,
+              "sp_def": 25,
               "spd": 0,
-              "hp": 0,
+              "hp": 100,
               "percent": false,
-              "total": 120
+              "total": 150
             },
             "is_ability_bonus": true,
-            "ability_desc": "攻击+45，特攻+45，防御+30",
-            "id": 528,
-            "name": "气旋斗者",
+            "ability_desc": "体力+100，防御+25，特防+25",
+            "id": 300,
+            "name": "神话",
             "point": 10,
-            "desc": "完成闭锁空间的气团对决挑战获得",
+            "desc": "成为2018年年费VIP",
             "is_hide": false,
-            "achievement_id": 1134,
-            "achievement_name": "气旋斗者",
-            "original_name": "气旋斗者",
-            "hash": "e09ff996"
+            "achievement_id": 1013,
+            "achievement_name": "神话",
+            "original_name": "神话",
+            "hash": "8388d45"
           }
         ]
       },
@@ -7915,32 +8191,32 @@
               "url": "https://api.seerapi.com/v1/achievement_type/5"
             },
             "branch": {
-              "id": 166,
-              "url": "https://api.seerapi.com/v1/achievement_branch/166"
+              "id": 129,
+              "url": "https://api.seerapi.com/v1/achievement_branch/129"
             },
             "next_level_achievement": null,
             "prev_level_achievement": null,
             "attr_bonus": {
-              "atk": 45,
-              "def": 30,
-              "sp_atk": 45,
-              "sp_def": 0,
+              "atk": 0,
+              "def": 25,
+              "sp_atk": 0,
+              "sp_def": 25,
               "spd": 0,
-              "hp": 0,
+              "hp": 100,
               "percent": false,
-              "total": 120
+              "total": 150
             },
             "is_ability_bonus": true,
-            "ability_desc": "攻击+45，特攻+45，防御+30",
-            "id": 528,
-            "name": "气旋斗者",
+            "ability_desc": "体力+100，防御+25，特防+25",
+            "id": 300,
+            "name": "神话",
             "point": 10,
-            "desc": "完成闭锁空间的气团对决挑战获得",
+            "desc": "成为2018年年费VIP",
             "is_hide": false,
-            "achievement_id": 1134,
-            "achievement_name": "气旋斗者",
-            "original_name": "气旋斗者",
-            "hash": "e09ff996"
+            "achievement_id": 1013,
+            "achievement_name": "神话",
+            "original_name": "神话",
+            "hash": "8388d45"
           }
         ]
       },
@@ -8415,7 +8691,7 @@
                 "url": "https://api.seerapi.com/v1/pet_effect/2076"
               }
             ],
-            "hash": "da81f2c6"
+            "hash": "67yh89pk"
           }
         ]
       },
@@ -8473,7 +8749,7 @@
                 "url": "https://api.seerapi.com/v1/pet_effect/2076"
               }
             ],
-            "hash": "da81f2c6"
+            "hash": "67yh89pk"
           }
         ]
       },
@@ -8515,7 +8791,7 @@
                 "url": "https://api.seerapi.com/v1/pet_effect/2076"
               }
             ],
-            "hash": "da81f2c6"
+            "hash": "67yh89pk"
           }
         ]
       },
@@ -8673,7 +8949,13 @@
           }
         ],
         "title": "eid效果资源",
-        "examples": []
+        "examples": [
+          {
+            "id": 400,
+            "args_num": 6,
+            "hash": "6a210819"
+          }
+        ]
       },
       "eid_effect_List": {
         "allOf": [
@@ -8683,7 +8965,13 @@
           }
         ],
         "title": "eid效果资源列表",
-        "examples": []
+        "examples": [
+          {
+            "id": 400,
+            "args_num": 6,
+            "hash": "6a210819"
+          }
+        ]
       },
       "energy_bead": {
         "allOf": [
@@ -8781,7 +9069,7 @@
               "percent": false,
               "total": 20
             },
-            "hash": "b937afd"
+            "hash": "f8d9c3eb"
           }
         ]
       },
@@ -8840,7 +9128,7 @@
               "percent": false,
               "total": 20
             },
-            "hash": "b937afd"
+            "hash": "f8d9c3eb"
           }
         ]
       },
@@ -8883,7 +9171,7 @@
               "percent": false,
               "total": 20
             },
-            "hash": "b937afd"
+            "hash": "f8d9c3eb"
           }
         ]
       },
@@ -9120,27 +9408,26 @@
               "other_attribute": {
                 "hit_rate": 4,
                 "dodge_rate": 0,
-                "crit_rate": 0
+                "crit_rate": 0,
+                "resistance": 0,
+                "remark": ""
               }
             },
-            "occasion": {
-              "id": 0,
-              "url": "https://api.seerapi.com/v1/equip_effective_occasion/0"
-            },
-            "suit": {
-              "id": 370,
-              "url": "https://api.seerapi.com/v1/suit/370"
-            },
-            "part_type": {
+            "type": {
               "id": 0,
               "url": "https://api.seerapi.com/v1/equip_type/0"
             },
-            "pk_attribute": {
-              "pk_hp": 60,
-              "pk_atk": 25,
-              "pk_fire_range": 0
+            "effective_occasion": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/equip_effective_occasion/0"
             },
-            "hash": "557fce0f"
+            "suit": [
+              {
+                "id": 208,
+                "url": "https://api.seerapi.com/v1/suit/208"
+              }
+            ],
+            "hash": "d6e0c3f9"
           }
         ]
       },
@@ -9194,27 +9481,26 @@
               "other_attribute": {
                 "hit_rate": 4,
                 "dodge_rate": 0,
-                "crit_rate": 0
+                "crit_rate": 0,
+                "resistance": 0,
+                "remark": ""
               }
             },
-            "occasion": {
-              "id": 0,
-              "url": "https://api.seerapi.com/v1/equip_effective_occasion/0"
-            },
-            "suit": {
-              "id": 370,
-              "url": "https://api.seerapi.com/v1/suit/370"
-            },
-            "part_type": {
+            "type": {
               "id": 0,
               "url": "https://api.seerapi.com/v1/equip_type/0"
             },
-            "pk_attribute": {
-              "pk_hp": 60,
-              "pk_atk": 25,
-              "pk_fire_range": 0
+            "effective_occasion": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/equip_effective_occasion/0"
             },
-            "hash": "557fce0f"
+            "suit": [
+              {
+                "id": 208,
+                "url": "https://api.seerapi.com/v1/suit/208"
+              }
+            ],
+            "hash": "d6e0c3f9"
           }
         ]
       },
@@ -9252,27 +9538,26 @@
               "other_attribute": {
                 "hit_rate": 4,
                 "dodge_rate": 0,
-                "crit_rate": 0
+                "crit_rate": 0,
+                "resistance": 0,
+                "remark": ""
               }
             },
-            "occasion": {
-              "id": 0,
-              "url": "https://api.seerapi.com/v1/equip_effective_occasion/0"
-            },
-            "suit": {
-              "id": 370,
-              "url": "https://api.seerapi.com/v1/suit/370"
-            },
-            "part_type": {
+            "type": {
               "id": 0,
               "url": "https://api.seerapi.com/v1/equip_type/0"
             },
-            "pk_attribute": {
-              "pk_hp": 60,
-              "pk_atk": 25,
-              "pk_fire_range": 0
+            "effective_occasion": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/equip_effective_occasion/0"
             },
-            "hash": "557fce0f"
+            "suit": [
+              {
+                "id": 208,
+                "url": "https://api.seerapi.com/v1/suit/208"
+              }
+            ],
+            "hash": "d6e0c3f9"
           }
         ]
       },
@@ -9441,36 +9726,27 @@
             ],
             "bonus": {
               "newse_id": 7745,
-              "eid_effect": {
-                "effect_args": [
-                  10,
-                  15,
-                  1,
-                  1,
-                  4,
-                  13,
-                  1
-                ],
-                "effect": {
-                  "id": 1271,
-                  "url": "https://api.seerapi.com/v1/eid_effect/1271"
-                }
-              },
-              "id": 393,
-              "desc": "背包内精灵全属性+10%；己方精灵造成的致命一击伤害提升15%；攻击技能有1/16的几率打出致命一击，每次使用增加1/16，最高4/16，未打出致命一击则造成伤害前附加自身最大体力13%的百分比伤害（仅限赛尔与赛尔间对战）",
-              "effective_pets": [],
+              "eid_effect": null,
+              "desc": "战斗力+2000",
               "attribute": {
-                "atk": 10,
-                "def": 10,
-                "sp_atk": 10,
-                "sp_def": 10,
-                "spd": 10,
-                "hp": 10,
+                "atk": 0,
+                "def": 0,
+                "sp_atk": 0,
+                "sp_def": 0,
+                "spd": 0,
+                "hp": 0,
                 "percent": false,
-                "total": 60
+                "total": 0
+              },
+              "other_attribute": {
+                "hit_rate": 0,
+                "dodge_rate": 0,
+                "crit_rate": 0,
+                "resistance": 0,
+                "remark": ""
               }
             },
-            "hash": "c0fe9e5"
+            "hash": "c73f4be8"
           }
         ]
       },
@@ -9525,36 +9801,27 @@
             ],
             "bonus": {
               "newse_id": 7745,
-              "eid_effect": {
-                "effect_args": [
-                  10,
-                  15,
-                  1,
-                  1,
-                  4,
-                  13,
-                  1
-                ],
-                "effect": {
-                  "id": 1271,
-                  "url": "https://api.seerapi.com/v1/eid_effect/1271"
-                }
-              },
-              "id": 393,
-              "desc": "背包内精灵全属性+10%；己方精灵造成的致命一击伤害提升15%；攻击技能有1/16的几率打出致命一击，每次使用增加1/16，最高4/16，未打出致命一击则造成伤害前附加自身最大体力13%的百分比伤害（仅限赛尔与赛尔间对战）",
-              "effective_pets": [],
+              "eid_effect": null,
+              "desc": "战斗力+2000",
               "attribute": {
-                "atk": 10,
-                "def": 10,
-                "sp_atk": 10,
-                "sp_def": 10,
-                "spd": 10,
-                "hp": 10,
+                "atk": 0,
+                "def": 0,
+                "sp_atk": 0,
+                "sp_def": 0,
+                "spd": 0,
+                "hp": 0,
                 "percent": false,
-                "total": 60
+                "total": 0
+              },
+              "other_attribute": {
+                "hit_rate": 0,
+                "dodge_rate": 0,
+                "crit_rate": 0,
+                "resistance": 0,
+                "remark": ""
               }
             },
-            "hash": "c0fe9e5"
+            "hash": "c73f4be8"
           }
         ]
       },
@@ -9593,36 +9860,27 @@
             ],
             "bonus": {
               "newse_id": 7745,
-              "eid_effect": {
-                "effect_args": [
-                  10,
-                  15,
-                  1,
-                  1,
-                  4,
-                  13,
-                  1
-                ],
-                "effect": {
-                  "id": 1271,
-                  "url": "https://api.seerapi.com/v1/eid_effect/1271"
-                }
-              },
-              "id": 393,
-              "desc": "背包内精灵全属性+10%；己方精灵造成的致命一击伤害提升15%；攻击技能有1/16的几率打出致命一击，每次使用增加1/16，最高4/16，未打出致命一击则造成伤害前附加自身最大体力13%的百分比伤害（仅限赛尔与赛尔间对战）",
-              "effective_pets": [],
+              "eid_effect": null,
+              "desc": "战斗力+2000",
               "attribute": {
-                "atk": 10,
-                "def": 10,
-                "sp_atk": 10,
-                "sp_def": 10,
-                "spd": 10,
-                "hp": 10,
+                "atk": 0,
+                "def": 0,
+                "sp_atk": 0,
+                "sp_def": 0,
+                "spd": 0,
+                "hp": 0,
                 "percent": false,
-                "total": 60
+                "total": 0
+              },
+              "other_attribute": {
+                "hit_rate": 0,
+                "dodge_rate": 0,
+                "crit_rate": 0,
+                "resistance": 0,
+                "remark": ""
               }
             },
-            "hash": "c0fe9e5"
+            "hash": "c73f4be8"
           }
         ]
       },
@@ -10512,7 +10770,43 @@
           }
         ],
         "title": "宝石资源",
-        "examples": []
+        "examples": [
+          {
+            "next_level_gem": {
+              "id": 1800203,
+              "url": "https://api.seerapi.com/v1/gem/1800203"
+            },
+            "category": {
+              "id": 101,
+              "url": "https://api.seerapi.com/v1/gem_category/101"
+            },
+            "effect": [
+              {
+                "info": "使用技能10%不消耗PP值",
+                "args": [
+                  10
+                ],
+                "effect": {
+                  "id": 1703,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1703"
+                }
+              }
+            ],
+            "item": {
+              "id": 1800202,
+              "url": "https://api.seerapi.com/v1/item/1800202"
+            },
+            "id": 1800202,
+            "name": "活力维持宝石Ⅱ",
+            "level": 2,
+            "generation_id": 2,
+            "inlay_rate": 100,
+            "equivalent_level1_count": null,
+            "fail_compensate_range": null,
+            "upgrade_cost": 10000,
+            "hash": "fd6c4a6a"
+          }
+        ]
       },
       "gem_NamedData": {
         "allOf": [
@@ -10538,7 +10832,43 @@
           }
         ],
         "title": "名称映射宝石资源",
-        "examples": []
+        "examples": [
+          {
+            "next_level_gem": {
+              "id": 1800203,
+              "url": "https://api.seerapi.com/v1/gem/1800203"
+            },
+            "category": {
+              "id": 101,
+              "url": "https://api.seerapi.com/v1/gem_category/101"
+            },
+            "effect": [
+              {
+                "info": "使用技能10%不消耗PP值",
+                "args": [
+                  10
+                ],
+                "effect": {
+                  "id": 1703,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1703"
+                }
+              }
+            ],
+            "item": {
+              "id": 1800202,
+              "url": "https://api.seerapi.com/v1/item/1800202"
+            },
+            "id": 1800202,
+            "name": "活力维持宝石Ⅱ",
+            "level": 2,
+            "generation_id": 2,
+            "inlay_rate": 100,
+            "equivalent_level1_count": null,
+            "fail_compensate_range": null,
+            "upgrade_cost": 10000,
+            "hash": "fd6c4a6a"
+          }
+        ]
       },
       "gem_List": {
         "allOf": [
@@ -10548,7 +10878,43 @@
           }
         ],
         "title": "宝石资源列表",
-        "examples": []
+        "examples": [
+          {
+            "next_level_gem": {
+              "id": 1800203,
+              "url": "https://api.seerapi.com/v1/gem/1800203"
+            },
+            "category": {
+              "id": 101,
+              "url": "https://api.seerapi.com/v1/gem_category/101"
+            },
+            "effect": [
+              {
+                "info": "使用技能10%不消耗PP值",
+                "args": [
+                  10
+                ],
+                "effect": {
+                  "id": 1703,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1703"
+                }
+              }
+            ],
+            "item": {
+              "id": 1800202,
+              "url": "https://api.seerapi.com/v1/item/1800202"
+            },
+            "id": 1800202,
+            "name": "活力维持宝石Ⅱ",
+            "level": 2,
+            "generation_id": 2,
+            "inlay_rate": 100,
+            "equivalent_level1_count": null,
+            "fail_compensate_range": null,
+            "upgrade_cost": 10000,
+            "hash": "fd6c4a6a"
+          }
+        ]
       },
       "gem_category": {
         "allOf": [
@@ -10616,29 +10982,9 @@
               {
                 "id": 1800005,
                 "url": "https://api.seerapi.com/v1/gem/1800005"
-              },
-              {
-                "id": 1800006,
-                "url": "https://api.seerapi.com/v1/gem/1800006"
-              },
-              {
-                "id": 1800007,
-                "url": "https://api.seerapi.com/v1/gem/1800007"
-              },
-              {
-                "id": 1800008,
-                "url": "https://api.seerapi.com/v1/gem/1800008"
-              },
-              {
-                "id": 1800009,
-                "url": "https://api.seerapi.com/v1/gem/1800009"
-              },
-              {
-                "id": 1800010,
-                "url": "https://api.seerapi.com/v1/gem/1800010"
               }
             ],
-            "hash": "541054c1"
+            "hash": "e9c0d3f7"
           }
         ]
       },
@@ -10691,29 +11037,9 @@
               {
                 "id": 1800005,
                 "url": "https://api.seerapi.com/v1/gem/1800005"
-              },
-              {
-                "id": 1800006,
-                "url": "https://api.seerapi.com/v1/gem/1800006"
-              },
-              {
-                "id": 1800007,
-                "url": "https://api.seerapi.com/v1/gem/1800007"
-              },
-              {
-                "id": 1800008,
-                "url": "https://api.seerapi.com/v1/gem/1800008"
-              },
-              {
-                "id": 1800009,
-                "url": "https://api.seerapi.com/v1/gem/1800009"
-              },
-              {
-                "id": 1800010,
-                "url": "https://api.seerapi.com/v1/gem/1800010"
               }
             ],
-            "hash": "541054c1"
+            "hash": "e9c0d3f7"
           }
         ]
       },
@@ -10750,29 +11076,9 @@
               {
                 "id": 1800005,
                 "url": "https://api.seerapi.com/v1/gem/1800005"
-              },
-              {
-                "id": 1800006,
-                "url": "https://api.seerapi.com/v1/gem/1800006"
-              },
-              {
-                "id": 1800007,
-                "url": "https://api.seerapi.com/v1/gem/1800007"
-              },
-              {
-                "id": 1800008,
-                "url": "https://api.seerapi.com/v1/gem/1800008"
-              },
-              {
-                "id": 1800009,
-                "url": "https://api.seerapi.com/v1/gem/1800009"
-              },
-              {
-                "id": 1800010,
-                "url": "https://api.seerapi.com/v1/gem/1800010"
               }
             ],
-            "hash": "541054c1"
+            "hash": "e9c0d3f7"
           }
         ]
       },
@@ -10982,14 +11288,13 @@
             "id": 1800001,
             "name": "冻伤宝石Lv1",
             "level": 1,
-            "generation_id": 1,
-            "inlay_rate": 100,
+            "inlay_rate": 0.85,
             "equivalent_level1_count": 1,
             "fail_compensate_range": [
               1,
               1
             ],
-            "hash": "6744fe70"
+            "hash": "c9a7b3ed"
           }
         ]
       },
@@ -11046,14 +11351,13 @@
             "id": 1800001,
             "name": "冻伤宝石Lv1",
             "level": 1,
-            "generation_id": 1,
-            "inlay_rate": 100,
+            "inlay_rate": 0.85,
             "equivalent_level1_count": 1,
             "fail_compensate_range": [
               1,
               1
             ],
-            "hash": "6744fe70"
+            "hash": "c9a7b3ed"
           }
         ]
       },
@@ -11094,14 +11398,13 @@
             "id": 1800001,
             "name": "冻伤宝石Lv1",
             "level": 1,
-            "generation_id": 1,
-            "inlay_rate": 100,
+            "inlay_rate": 0.85,
             "equivalent_level1_count": 1,
             "fail_compensate_range": [
               1,
               1
             ],
-            "hash": "6744fe70"
+            "hash": "c9a7b3ed"
           }
         ]
       },
@@ -11184,8 +11487,8 @@
         "examples": [
           {
             "next_level_gem": {
-              "id": 1800202,
-              "url": "https://api.seerapi.com/v1/gem/1800202"
+              "id": 1800203,
+              "url": "https://api.seerapi.com/v1/gem/1800203"
             },
             "category": {
               "id": 101,
@@ -11193,9 +11496,9 @@
             },
             "effect": [
               {
-                "info": "使用技能5%不消耗PP值",
+                "info": "使用技能10%不消耗PP值",
                 "args": [
-                  5
+                  10
                 ],
                 "effect": {
                   "id": 1703,
@@ -11204,15 +11507,15 @@
               }
             ],
             "item": {
-              "id": 1800201,
-              "url": "https://api.seerapi.com/v1/item/1800201"
+              "id": 1800202,
+              "url": "https://api.seerapi.com/v1/item/1800202"
             },
-            "id": 1800201,
-            "name": "活力维持宝石Ⅰ",
-            "level": 1,
+            "id": 1800202,
+            "name": "活力维持宝石Ⅱ",
+            "level": 2,
             "generation_id": 2,
-            "upgrade_cost": 0,
-            "hash": "1020b156"
+            "upgrade_cost": 10000,
+            "hash": "51a1a1"
           }
         ]
       },
@@ -11243,8 +11546,8 @@
         "examples": [
           {
             "next_level_gem": {
-              "id": 1800202,
-              "url": "https://api.seerapi.com/v1/gem/1800202"
+              "id": 1800203,
+              "url": "https://api.seerapi.com/v1/gem/1800203"
             },
             "category": {
               "id": 101,
@@ -11252,9 +11555,9 @@
             },
             "effect": [
               {
-                "info": "使用技能5%不消耗PP值",
+                "info": "使用技能10%不消耗PP值",
                 "args": [
-                  5
+                  10
                 ],
                 "effect": {
                   "id": 1703,
@@ -11263,15 +11566,15 @@
               }
             ],
             "item": {
-              "id": 1800201,
-              "url": "https://api.seerapi.com/v1/item/1800201"
+              "id": 1800202,
+              "url": "https://api.seerapi.com/v1/item/1800202"
             },
-            "id": 1800201,
-            "name": "活力维持宝石Ⅰ",
-            "level": 1,
+            "id": 1800202,
+            "name": "活力维持宝石Ⅱ",
+            "level": 2,
             "generation_id": 2,
-            "upgrade_cost": 0,
-            "hash": "1020b156"
+            "upgrade_cost": 10000,
+            "hash": "51a1a1"
           }
         ]
       },
@@ -11286,8 +11589,8 @@
         "examples": [
           {
             "next_level_gem": {
-              "id": 1800202,
-              "url": "https://api.seerapi.com/v1/gem/1800202"
+              "id": 1800203,
+              "url": "https://api.seerapi.com/v1/gem/1800203"
             },
             "category": {
               "id": 101,
@@ -11295,9 +11598,9 @@
             },
             "effect": [
               {
-                "info": "使用技能5%不消耗PP值",
+                "info": "使用技能10%不消耗PP值",
                 "args": [
-                  5
+                  10
                 ],
                 "effect": {
                   "id": 1703,
@@ -11306,15 +11609,15 @@
               }
             ],
             "item": {
-              "id": 1800201,
-              "url": "https://api.seerapi.com/v1/item/1800201"
+              "id": 1800202,
+              "url": "https://api.seerapi.com/v1/item/1800202"
             },
-            "id": 1800201,
-            "name": "活力维持宝石Ⅰ",
-            "level": 1,
+            "id": 1800202,
+            "name": "活力维持宝石Ⅱ",
+            "level": 2,
             "generation_id": 2,
-            "upgrade_cost": 0,
-            "hash": "1020b156"
+            "upgrade_cost": 10000,
+            "hash": "51a1a1"
           }
         ]
       },
@@ -11594,111 +11897,9 @@
                     }
                   }
                 ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身攻击等级+1",
-                    "args": [
-                      0,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身防御等级+1",
-                    "args": [
-                      1,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身特攻等级+1",
-                    "args": [
-                      2,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身特防等级+1",
-                    "args": [
-                      3,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身速度等级+1",
-                    "args": [
-                      4,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身命中等级+1",
-                    "args": [
-                      5,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
               }
             ],
-            "hash": "103a6f69"
+            "hash": "f9ea0bc4"
           }
         ]
       },
@@ -11758,111 +11959,9 @@
                     }
                   }
                 ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身攻击等级+1",
-                    "args": [
-                      0,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身防御等级+1",
-                    "args": [
-                      1,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身特攻等级+1",
-                    "args": [
-                      2,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身特防等级+1",
-                    "args": [
-                      3,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身速度等级+1",
-                    "args": [
-                      4,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身命中等级+1",
-                    "args": [
-                      5,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
               }
             ],
-            "hash": "103a6f69"
+            "hash": "f9ea0bc4"
           }
         ]
       },
@@ -11906,111 +12005,9 @@
                     }
                   }
                 ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身攻击等级+1",
-                    "args": [
-                      0,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身防御等级+1",
-                    "args": [
-                      1,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身特攻等级+1",
-                    "args": [
-                      2,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身特防等级+1",
-                    "args": [
-                      3,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身速度等级+1",
-                    "args": [
-                      4,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
-              },
-              {
-                "prob": 0.06,
-                "effect": [
-                  {
-                    "info": "技能使用成功时，15%改变自身命中等级+1",
-                    "args": [
-                      5,
-                      15,
-                      1
-                    ],
-                    "effect": {
-                      "id": 4,
-                      "url": "https://api.seerapi.com/v1/skill_effect_type/4"
-                    }
-                  }
-                ]
               }
             ],
-            "hash": "103a6f69"
+            "hash": "f9ea0bc4"
           }
         ]
       },
@@ -12082,10 +12079,10 @@
               }
             ],
             "type": {
-              "id": 225,
-              "url": "https://api.seerapi.com/v1/element_type_combination/225"
+              "id": 12,
+              "url": "https://api.seerapi.com/v1/element_type_combination/12"
             },
-            "hash": "6c9c1de"
+            "hash": "e7b9c0d4"
           }
         ]
       },
@@ -12140,10 +12137,10 @@
               }
             ],
             "type": {
-              "id": 225,
-              "url": "https://api.seerapi.com/v1/element_type_combination/225"
+              "id": 12,
+              "url": "https://api.seerapi.com/v1/element_type_combination/12"
             },
-            "hash": "6c9c1de"
+            "hash": "e7b9c0d4"
           }
         ]
       },
@@ -12182,10 +12179,10 @@
               }
             ],
             "type": {
-              "id": 225,
-              "url": "https://api.seerapi.com/v1/element_type_combination/225"
+              "id": 12,
+              "url": "https://api.seerapi.com/v1/element_type_combination/12"
             },
-            "hash": "6c9c1de"
+            "hash": "e7b9c0d4"
           }
         ]
       },
@@ -12371,9 +12368,8 @@
               "percent": false,
               "total": 10
             },
-            "extra_attr_value": null,
-            "skill": null,
-            "hash": "35f335c7"
+            "skill": [],
+            "hash": "7d5f8c9e"
           }
         ]
       },
@@ -12428,9 +12424,8 @@
               "percent": false,
               "total": 10
             },
-            "extra_attr_value": null,
-            "skill": null,
-            "hash": "35f335c7"
+            "skill": [],
+            "hash": "7d5f8c9e"
           }
         ]
       },
@@ -12469,9 +12464,8 @@
               "percent": false,
               "total": 10
             },
-            "extra_attr_value": null,
-            "skill": null,
-            "hash": "35f335c7"
+            "skill": [],
+            "hash": "7d5f8c9e"
           }
         ]
       },
@@ -13021,8 +13015,7 @@
               "percent": false,
               "total": 260
             },
-            "extra_attr_value": null,
-            "hash": "7d529730"
+            "hash": "84g9d7ak"
           }
         ]
       },
@@ -13088,8 +13081,7 @@
               "percent": false,
               "total": 260
             },
-            "extra_attr_value": null,
-            "hash": "7d529730"
+            "hash": "84g9d7ak"
           }
         ]
       },
@@ -13139,8 +13131,7 @@
               "percent": false,
               "total": 260
             },
-            "extra_attr_value": null,
-            "hash": "7d529730"
+            "hash": "84g9d7ak"
           }
         ]
       },
@@ -13208,37 +13199,9 @@
               {
                 "id": 42600,
                 "url": "https://api.seerapi.com/v1/mintmark/42600"
-              },
-              {
-                "id": 42601,
-                "url": "https://api.seerapi.com/v1/mintmark/42601"
-              },
-              {
-                "id": 42602,
-                "url": "https://api.seerapi.com/v1/mintmark/42602"
-              },
-              {
-                "id": 42603,
-                "url": "https://api.seerapi.com/v1/mintmark/42603"
-              },
-              {
-                "id": 42604,
-                "url": "https://api.seerapi.com/v1/mintmark/42604"
-              },
-              {
-                "id": 42605,
-                "url": "https://api.seerapi.com/v1/mintmark/42605"
-              },
-              {
-                "id": 42606,
-                "url": "https://api.seerapi.com/v1/mintmark/42606"
-              },
-              {
-                "id": 42607,
-                "url": "https://api.seerapi.com/v1/mintmark/42607"
               }
             ],
-            "hash": "e36f8cd2"
+            "hash": "6d34ib2k"
           }
         ]
       },
@@ -13294,37 +13257,9 @@
               {
                 "id": 42600,
                 "url": "https://api.seerapi.com/v1/mintmark/42600"
-              },
-              {
-                "id": 42601,
-                "url": "https://api.seerapi.com/v1/mintmark/42601"
-              },
-              {
-                "id": 42602,
-                "url": "https://api.seerapi.com/v1/mintmark/42602"
-              },
-              {
-                "id": 42603,
-                "url": "https://api.seerapi.com/v1/mintmark/42603"
-              },
-              {
-                "id": 42604,
-                "url": "https://api.seerapi.com/v1/mintmark/42604"
-              },
-              {
-                "id": 42605,
-                "url": "https://api.seerapi.com/v1/mintmark/42605"
-              },
-              {
-                "id": 42606,
-                "url": "https://api.seerapi.com/v1/mintmark/42606"
-              },
-              {
-                "id": 42607,
-                "url": "https://api.seerapi.com/v1/mintmark/42607"
               }
             ],
-            "hash": "e36f8cd2"
+            "hash": "6d34ib2k"
           }
         ]
       },
@@ -13364,37 +13299,9 @@
               {
                 "id": 42600,
                 "url": "https://api.seerapi.com/v1/mintmark/42600"
-              },
-              {
-                "id": 42601,
-                "url": "https://api.seerapi.com/v1/mintmark/42601"
-              },
-              {
-                "id": 42602,
-                "url": "https://api.seerapi.com/v1/mintmark/42602"
-              },
-              {
-                "id": 42603,
-                "url": "https://api.seerapi.com/v1/mintmark/42603"
-              },
-              {
-                "id": 42604,
-                "url": "https://api.seerapi.com/v1/mintmark/42604"
-              },
-              {
-                "id": 42605,
-                "url": "https://api.seerapi.com/v1/mintmark/42605"
-              },
-              {
-                "id": 42606,
-                "url": "https://api.seerapi.com/v1/mintmark/42606"
-              },
-              {
-                "id": 42607,
-                "url": "https://api.seerapi.com/v1/mintmark/42607"
               }
             ],
-            "hash": "e36f8cd2"
+            "hash": "6d34ib2k"
           }
         ]
       },
@@ -14069,349 +13976,39 @@
               "sp_atk": 138,
               "sp_def": 116,
               "spd": 135,
-              "hp": 175,
+              "hp": 125,
               "percent": false,
-              "total": 750
+              "total": 700
             },
-            "pet_class": {
-              "id": 2846,
-              "url": "https://api.seerapi.com/v1/pet_class/2846"
-            },
-            "evolution_chain_index": 0,
             "yielding_ev": {
               "atk": 0,
               "def": 0,
-              "sp_atk": 0,
+              "sp_atk": 3,
               "sp_def": 0,
               "spd": 0,
               "hp": 0,
               "percent": false,
-              "total": 0
+              "total": 3
+            },
+            "pet_class": {
+              "id": 2174,
+              "url": "https://api.seerapi.com/v1/pet_class/2174"
             },
             "vipbuff": null,
             "mount_type": null,
+            "evolution_from": null,
+            "evolution_to": [],
+            "learned_skill": [],
+            "recommended_skill": [],
+            "recommended_nature": [],
+            "effect": [],
+            "soulmark": [],
+            "mintmark": [],
+            "skin": [],
+            "encyclopedia": null,
+            "archive_story": [],
             "diy_stats": null,
-            "skill": [
-              {
-                "learning_level": 1,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10004,
-                  "url": "https://api.seerapi.com/v1/skill/10004"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 5,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20065,
-                  "url": "https://api.seerapi.com/v1/skill/20065"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 9,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10614,
-                  "url": "https://api.seerapi.com/v1/skill/10614"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 13,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20041,
-                  "url": "https://api.seerapi.com/v1/skill/20041"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 17,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10302,
-                  "url": "https://api.seerapi.com/v1/skill/10302"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 21,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19287,
-                  "url": "https://api.seerapi.com/v1/skill/19287"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 25,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20660,
-                  "url": "https://api.seerapi.com/v1/skill/20660"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 29,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10761,
-                  "url": "https://api.seerapi.com/v1/skill/10761"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 33,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24738,
-                  "url": "https://api.seerapi.com/v1/skill/24738"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 37,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10977,
-                  "url": "https://api.seerapi.com/v1/skill/10977"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 41,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24739,
-                  "url": "https://api.seerapi.com/v1/skill/24739"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 45,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19288,
-                  "url": "https://api.seerapi.com/v1/skill/19288"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 49,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19289,
-                  "url": "https://api.seerapi.com/v1/skill/19289"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 53,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24740,
-                  "url": "https://api.seerapi.com/v1/skill/24740"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 57,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19290,
-                  "url": "https://api.seerapi.com/v1/skill/19290"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 61,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19291,
-                  "url": "https://api.seerapi.com/v1/skill/19291"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 71,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34897,
-                  "url": "https://api.seerapi.com/v1/skill/34897"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 72,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 27496,
-                  "url": "https://api.seerapi.com/v1/skill/27496"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 73,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34898,
-                  "url": "https://api.seerapi.com/v1/skill/34898"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 74,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 27497,
-                  "url": "https://api.seerapi.com/v1/skill/27497"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 75,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34899,
-                  "url": "https://api.seerapi.com/v1/skill/34899"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 29187,
-                  "url": "https://api.seerapi.com/v1/skill/29187"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 29188,
-                  "url": "https://api.seerapi.com/v1/skill/29188"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 38147,
-                  "url": "https://api.seerapi.com/v1/skill/38147"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 38148,
-                  "url": "https://api.seerapi.com/v1/skill/38148"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 76,
-                "is_special": true,
-                "is_advanced": false,
-                "is_fifth": true,
-                "skill": {
-                  "id": 34900,
-                  "url": "https://api.seerapi.com/v1/skill/34900"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 76,
-                "is_special": true,
-                "is_advanced": false,
-                "is_fifth": true,
-                "skill": {
-                  "id": 37295,
-                  "url": "https://api.seerapi.com/v1/skill/37295"
-                },
-                "skill_activation_item": {
-                  "id": 1725959,
-                  "url": "https://api.seerapi.com/v1/skill_activation_item/1725959"
-                }
-              }
-            ],
-            "soulmark": [
-              {
-                "id": 1409,
-                "url": "https://api.seerapi.com/v1/soulmark/1409"
-              },
-              {
-                "id": 2028,
-                "url": "https://api.seerapi.com/v1/soulmark/2028"
-              }
-            ],
-            "encyclopedia_entry": {
-              "id": 4186,
-              "url": "https://api.seerapi.com/v1/pet_encyclopedia_entry/4186"
-            },
-            "archive_story_entry": {
-              "id": 371,
-              "url": "https://api.seerapi.com/v1/pet_archive_story_entry/371"
-            },
-            "hash": "e7bfbaf3"
+            "hash": "3cb9d0bc"
           }
         ]
       },
@@ -14466,349 +14063,39 @@
               "sp_atk": 138,
               "sp_def": 116,
               "spd": 135,
-              "hp": 175,
+              "hp": 125,
               "percent": false,
-              "total": 750
+              "total": 700
             },
-            "pet_class": {
-              "id": 2846,
-              "url": "https://api.seerapi.com/v1/pet_class/2846"
-            },
-            "evolution_chain_index": 0,
             "yielding_ev": {
               "atk": 0,
               "def": 0,
-              "sp_atk": 0,
+              "sp_atk": 3,
               "sp_def": 0,
               "spd": 0,
               "hp": 0,
               "percent": false,
-              "total": 0
+              "total": 3
+            },
+            "pet_class": {
+              "id": 2174,
+              "url": "https://api.seerapi.com/v1/pet_class/2174"
             },
             "vipbuff": null,
             "mount_type": null,
+            "evolution_from": null,
+            "evolution_to": [],
+            "learned_skill": [],
+            "recommended_skill": [],
+            "recommended_nature": [],
+            "effect": [],
+            "soulmark": [],
+            "mintmark": [],
+            "skin": [],
+            "encyclopedia": null,
+            "archive_story": [],
             "diy_stats": null,
-            "skill": [
-              {
-                "learning_level": 1,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10004,
-                  "url": "https://api.seerapi.com/v1/skill/10004"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 5,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20065,
-                  "url": "https://api.seerapi.com/v1/skill/20065"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 9,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10614,
-                  "url": "https://api.seerapi.com/v1/skill/10614"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 13,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20041,
-                  "url": "https://api.seerapi.com/v1/skill/20041"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 17,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10302,
-                  "url": "https://api.seerapi.com/v1/skill/10302"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 21,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19287,
-                  "url": "https://api.seerapi.com/v1/skill/19287"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 25,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20660,
-                  "url": "https://api.seerapi.com/v1/skill/20660"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 29,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10761,
-                  "url": "https://api.seerapi.com/v1/skill/10761"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 33,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24738,
-                  "url": "https://api.seerapi.com/v1/skill/24738"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 37,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10977,
-                  "url": "https://api.seerapi.com/v1/skill/10977"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 41,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24739,
-                  "url": "https://api.seerapi.com/v1/skill/24739"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 45,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19288,
-                  "url": "https://api.seerapi.com/v1/skill/19288"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 49,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19289,
-                  "url": "https://api.seerapi.com/v1/skill/19289"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 53,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24740,
-                  "url": "https://api.seerapi.com/v1/skill/24740"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 57,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19290,
-                  "url": "https://api.seerapi.com/v1/skill/19290"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 61,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19291,
-                  "url": "https://api.seerapi.com/v1/skill/19291"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 71,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34897,
-                  "url": "https://api.seerapi.com/v1/skill/34897"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 72,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 27496,
-                  "url": "https://api.seerapi.com/v1/skill/27496"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 73,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34898,
-                  "url": "https://api.seerapi.com/v1/skill/34898"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 74,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 27497,
-                  "url": "https://api.seerapi.com/v1/skill/27497"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 75,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34899,
-                  "url": "https://api.seerapi.com/v1/skill/34899"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 29187,
-                  "url": "https://api.seerapi.com/v1/skill/29187"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 29188,
-                  "url": "https://api.seerapi.com/v1/skill/29188"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 38147,
-                  "url": "https://api.seerapi.com/v1/skill/38147"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 38148,
-                  "url": "https://api.seerapi.com/v1/skill/38148"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 76,
-                "is_special": true,
-                "is_advanced": false,
-                "is_fifth": true,
-                "skill": {
-                  "id": 34900,
-                  "url": "https://api.seerapi.com/v1/skill/34900"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 76,
-                "is_special": true,
-                "is_advanced": false,
-                "is_fifth": true,
-                "skill": {
-                  "id": 37295,
-                  "url": "https://api.seerapi.com/v1/skill/37295"
-                },
-                "skill_activation_item": {
-                  "id": 1725959,
-                  "url": "https://api.seerapi.com/v1/skill_activation_item/1725959"
-                }
-              }
-            ],
-            "soulmark": [
-              {
-                "id": 1409,
-                "url": "https://api.seerapi.com/v1/soulmark/1409"
-              },
-              {
-                "id": 2028,
-                "url": "https://api.seerapi.com/v1/soulmark/2028"
-              }
-            ],
-            "encyclopedia_entry": {
-              "id": 4186,
-              "url": "https://api.seerapi.com/v1/pet_encyclopedia_entry/4186"
-            },
-            "archive_story_entry": {
-              "id": 371,
-              "url": "https://api.seerapi.com/v1/pet_archive_story_entry/371"
-            },
-            "hash": "e7bfbaf3"
+            "hash": "3cb9d0bc"
           }
         ]
       },
@@ -14847,349 +14134,39 @@
               "sp_atk": 138,
               "sp_def": 116,
               "spd": 135,
-              "hp": 175,
+              "hp": 125,
               "percent": false,
-              "total": 750
+              "total": 700
             },
-            "pet_class": {
-              "id": 2846,
-              "url": "https://api.seerapi.com/v1/pet_class/2846"
-            },
-            "evolution_chain_index": 0,
             "yielding_ev": {
               "atk": 0,
               "def": 0,
-              "sp_atk": 0,
+              "sp_atk": 3,
               "sp_def": 0,
               "spd": 0,
               "hp": 0,
               "percent": false,
-              "total": 0
+              "total": 3
+            },
+            "pet_class": {
+              "id": 2174,
+              "url": "https://api.seerapi.com/v1/pet_class/2174"
             },
             "vipbuff": null,
             "mount_type": null,
+            "evolution_from": null,
+            "evolution_to": [],
+            "learned_skill": [],
+            "recommended_skill": [],
+            "recommended_nature": [],
+            "effect": [],
+            "soulmark": [],
+            "mintmark": [],
+            "skin": [],
+            "encyclopedia": null,
+            "archive_story": [],
             "diy_stats": null,
-            "skill": [
-              {
-                "learning_level": 1,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10004,
-                  "url": "https://api.seerapi.com/v1/skill/10004"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 5,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20065,
-                  "url": "https://api.seerapi.com/v1/skill/20065"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 9,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10614,
-                  "url": "https://api.seerapi.com/v1/skill/10614"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 13,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20041,
-                  "url": "https://api.seerapi.com/v1/skill/20041"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 17,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10302,
-                  "url": "https://api.seerapi.com/v1/skill/10302"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 21,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19287,
-                  "url": "https://api.seerapi.com/v1/skill/19287"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 25,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 20660,
-                  "url": "https://api.seerapi.com/v1/skill/20660"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 29,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10761,
-                  "url": "https://api.seerapi.com/v1/skill/10761"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 33,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24738,
-                  "url": "https://api.seerapi.com/v1/skill/24738"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 37,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 10977,
-                  "url": "https://api.seerapi.com/v1/skill/10977"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 41,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24739,
-                  "url": "https://api.seerapi.com/v1/skill/24739"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 45,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19288,
-                  "url": "https://api.seerapi.com/v1/skill/19288"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 49,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19289,
-                  "url": "https://api.seerapi.com/v1/skill/19289"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 53,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 24740,
-                  "url": "https://api.seerapi.com/v1/skill/24740"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 57,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19290,
-                  "url": "https://api.seerapi.com/v1/skill/19290"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 61,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 19291,
-                  "url": "https://api.seerapi.com/v1/skill/19291"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 71,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34897,
-                  "url": "https://api.seerapi.com/v1/skill/34897"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 72,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 27496,
-                  "url": "https://api.seerapi.com/v1/skill/27496"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 73,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34898,
-                  "url": "https://api.seerapi.com/v1/skill/34898"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 74,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 27497,
-                  "url": "https://api.seerapi.com/v1/skill/27497"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 75,
-                "is_special": false,
-                "is_advanced": false,
-                "is_fifth": false,
-                "skill": {
-                  "id": 34899,
-                  "url": "https://api.seerapi.com/v1/skill/34899"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 29187,
-                  "url": "https://api.seerapi.com/v1/skill/29187"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 29188,
-                  "url": "https://api.seerapi.com/v1/skill/29188"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 38147,
-                  "url": "https://api.seerapi.com/v1/skill/38147"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": null,
-                "is_special": false,
-                "is_advanced": true,
-                "is_fifth": false,
-                "skill": {
-                  "id": 38148,
-                  "url": "https://api.seerapi.com/v1/skill/38148"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 76,
-                "is_special": true,
-                "is_advanced": false,
-                "is_fifth": true,
-                "skill": {
-                  "id": 34900,
-                  "url": "https://api.seerapi.com/v1/skill/34900"
-                },
-                "skill_activation_item": null
-              },
-              {
-                "learning_level": 76,
-                "is_special": true,
-                "is_advanced": false,
-                "is_fifth": true,
-                "skill": {
-                  "id": 37295,
-                  "url": "https://api.seerapi.com/v1/skill/37295"
-                },
-                "skill_activation_item": {
-                  "id": 1725959,
-                  "url": "https://api.seerapi.com/v1/skill_activation_item/1725959"
-                }
-              }
-            ],
-            "soulmark": [
-              {
-                "id": 1409,
-                "url": "https://api.seerapi.com/v1/soulmark/1409"
-              },
-              {
-                "id": 2028,
-                "url": "https://api.seerapi.com/v1/soulmark/2028"
-              }
-            ],
-            "encyclopedia_entry": {
-              "id": 4186,
-              "url": "https://api.seerapi.com/v1/pet_encyclopedia_entry/4186"
-            },
-            "archive_story_entry": {
-              "id": 371,
-              "url": "https://api.seerapi.com/v1/pet_archive_story_entry/371"
-            },
-            "hash": "e7bfbaf3"
+            "hash": "3cb9d0bc"
           }
         ]
       },
@@ -16596,57 +15573,9 @@
               "url": "https://api.seerapi.com/v1/element_type_combination/129"
             },
             "learned_by_pet": [],
-            "skill_effect": [
-              {
-                "info": "若先出手则必定打出致命一击",
-                "args": [],
-                "effect": {
-                  "id": 1395,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
-                }
-              },
-              {
-                "info": "对手每处于1回合的威怯1回合内令对手技能无效",
-                "args": [],
-                "effect": {
-                  "id": 2343,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/2343"
-                }
-              },
-              {
-                "info": "下1回合自身造成的攻击伤害翻倍",
-                "args": [
-                  1
-                ],
-                "effect": {
-                  "id": 776,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/776"
-                }
-              },
-              {
-                "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
-                "args": [
-                  3
-                ],
-                "effect": {
-                  "id": 1709,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/1709"
-                }
-              },
-              {
-                "info": "击败对手后自身免疫下2次受到的异常状态",
-                "args": [
-                  2
-                ],
-                "effect": {
-                  "id": 2252,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
-                }
-              }
-            ],
-            "friend_skill_effect": [],
-            "hide_effect": null,
-            "hash": "5254529c"
+            "skill_effect": [],
+            "hide_effect": [],
+            "hash": "c9e0b3d6"
           }
         ]
       },
@@ -16695,57 +15624,9 @@
               "url": "https://api.seerapi.com/v1/element_type_combination/129"
             },
             "learned_by_pet": [],
-            "skill_effect": [
-              {
-                "info": "若先出手则必定打出致命一击",
-                "args": [],
-                "effect": {
-                  "id": 1395,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
-                }
-              },
-              {
-                "info": "对手每处于1回合的威怯1回合内令对手技能无效",
-                "args": [],
-                "effect": {
-                  "id": 2343,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/2343"
-                }
-              },
-              {
-                "info": "下1回合自身造成的攻击伤害翻倍",
-                "args": [
-                  1
-                ],
-                "effect": {
-                  "id": 776,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/776"
-                }
-              },
-              {
-                "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
-                "args": [
-                  3
-                ],
-                "effect": {
-                  "id": 1709,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/1709"
-                }
-              },
-              {
-                "info": "击败对手后自身免疫下2次受到的异常状态",
-                "args": [
-                  2
-                ],
-                "effect": {
-                  "id": 2252,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
-                }
-              }
-            ],
-            "friend_skill_effect": [],
-            "hide_effect": null,
-            "hash": "5254529c"
+            "skill_effect": [],
+            "hide_effect": [],
+            "hash": "c9e0b3d6"
           }
         ]
       },
@@ -16778,57 +15659,9 @@
               "url": "https://api.seerapi.com/v1/element_type_combination/129"
             },
             "learned_by_pet": [],
-            "skill_effect": [
-              {
-                "info": "若先出手则必定打出致命一击",
-                "args": [],
-                "effect": {
-                  "id": 1395,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
-                }
-              },
-              {
-                "info": "对手每处于1回合的威怯1回合内令对手技能无效",
-                "args": [],
-                "effect": {
-                  "id": 2343,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/2343"
-                }
-              },
-              {
-                "info": "下1回合自身造成的攻击伤害翻倍",
-                "args": [
-                  1
-                ],
-                "effect": {
-                  "id": 776,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/776"
-                }
-              },
-              {
-                "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
-                "args": [
-                  3
-                ],
-                "effect": {
-                  "id": 1709,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/1709"
-                }
-              },
-              {
-                "info": "击败对手后自身免疫下2次受到的异常状态",
-                "args": [
-                  2
-                ],
-                "effect": {
-                  "id": 2252,
-                  "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
-                }
-              }
-            ],
-            "friend_skill_effect": [],
-            "hide_effect": null,
-            "hash": "5254529c"
+            "skill_effect": [],
+            "hide_effect": [],
+            "hash": "c9e0b3d6"
           }
         ]
       },
@@ -16959,59 +15792,9 @@
                 }
               }
             ],
-            "skill": [
-              {
-                "id": 25004,
-                "url": "https://api.seerapi.com/v1/skill/25004"
-              },
-              {
-                "id": 25570,
-                "url": "https://api.seerapi.com/v1/skill/25570"
-              },
-              {
-                "id": 30018,
-                "url": "https://api.seerapi.com/v1/skill/30018"
-              },
-              {
-                "id": 32113,
-                "url": "https://api.seerapi.com/v1/skill/32113"
-              },
-              {
-                "id": 32975,
-                "url": "https://api.seerapi.com/v1/skill/32975"
-              },
-              {
-                "id": 33419,
-                "url": "https://api.seerapi.com/v1/skill/33419"
-              },
-              {
-                "id": 33845,
-                "url": "https://api.seerapi.com/v1/skill/33845"
-              },
-              {
-                "id": 36125,
-                "url": "https://api.seerapi.com/v1/skill/36125"
-              },
-              {
-                "id": 37377,
-                "url": "https://api.seerapi.com/v1/skill/37377"
-              },
-              {
-                "id": 37895,
-                "url": "https://api.seerapi.com/v1/skill/37895"
-              }
-            ],
-            "tag": [
-              {
-                "id": 813,
-                "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
-              },
-              {
-                "id": 60828,
-                "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
-              }
-            ],
-            "hash": "fbb4ef75"
+            "skill": [],
+            "tag": [],
+            "hash": "e73d9b1e"
           }
         ]
       },
@@ -17039,59 +15822,9 @@
                 }
               }
             ],
-            "skill": [
-              {
-                "id": 25004,
-                "url": "https://api.seerapi.com/v1/skill/25004"
-              },
-              {
-                "id": 25570,
-                "url": "https://api.seerapi.com/v1/skill/25570"
-              },
-              {
-                "id": 30018,
-                "url": "https://api.seerapi.com/v1/skill/30018"
-              },
-              {
-                "id": 32113,
-                "url": "https://api.seerapi.com/v1/skill/32113"
-              },
-              {
-                "id": 32975,
-                "url": "https://api.seerapi.com/v1/skill/32975"
-              },
-              {
-                "id": 33419,
-                "url": "https://api.seerapi.com/v1/skill/33419"
-              },
-              {
-                "id": 33845,
-                "url": "https://api.seerapi.com/v1/skill/33845"
-              },
-              {
-                "id": 36125,
-                "url": "https://api.seerapi.com/v1/skill/36125"
-              },
-              {
-                "id": 37377,
-                "url": "https://api.seerapi.com/v1/skill/37377"
-              },
-              {
-                "id": 37895,
-                "url": "https://api.seerapi.com/v1/skill/37895"
-              }
-            ],
-            "tag": [
-              {
-                "id": 813,
-                "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
-              },
-              {
-                "id": 60828,
-                "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
-              }
-            ],
-            "hash": "fbb4ef75"
+            "skill": [],
+            "tag": [],
+            "hash": "e73d9b1e"
           }
         ]
       },
@@ -17148,35 +15881,16 @@
               "混乱",
               "衰弱",
               "山神守护",
-              "易燃",
-              "狂暴",
-              "冰封",
-              "流血",
-              "XX",
-              "XX",
-              "瘫痪",
-              "失明",
-              "XX",
-              "焚烬",
+              "致命",
+              "冰冻",
               "诅咒",
-              "烈焰诅咒",
-              "致命诅咒",
-              "虚弱诅咒",
-              "感染",
+              "灼烧",
+              "失明",
               "束缚",
-              "失神",
-              "沉默",
-              "臣服",
-              "凝滞",
-              "星赐",
-              "星哲",
-              "超频",
-              "沸涌",
-              "砥砺",
-              "星赎",
-              "神游"
+              "虚弱",
+              "血誓"
             ],
-            "hash": "50e3ccd1"
+            "hash": "9ad7c3f4"
           }
         ]
       },
@@ -17205,35 +15919,16 @@
               "混乱",
               "衰弱",
               "山神守护",
-              "易燃",
-              "狂暴",
-              "冰封",
-              "流血",
-              "XX",
-              "XX",
-              "瘫痪",
-              "失明",
-              "XX",
-              "焚烬",
+              "致命",
+              "冰冻",
               "诅咒",
-              "烈焰诅咒",
-              "致命诅咒",
-              "虚弱诅咒",
-              "感染",
+              "灼烧",
+              "失明",
               "束缚",
-              "失神",
-              "沉默",
-              "臣服",
-              "凝滞",
-              "星赐",
-              "星哲",
-              "超频",
-              "沸涌",
-              "砥砺",
-              "星赎",
-              "神游"
+              "虚弱",
+              "血誓"
             ],
-            "hash": "50e3ccd1"
+            "hash": "9ad7c3f4"
           }
         ]
       },
@@ -17580,7 +16275,7 @@
                 "url": "https://api.seerapi.com/v1/skill_effect_type/2311"
               }
             ],
-            "hash": "1a4fb8eb"
+            "hash": "c8a9b0d3"
           }
         ]
       },
@@ -17626,7 +16321,7 @@
                 "url": "https://api.seerapi.com/v1/skill_effect_type/2311"
               }
             ],
-            "hash": "1a4fb8eb"
+            "hash": "c8a9b0d3"
           }
         ]
       },
@@ -17656,7 +16351,7 @@
                 "url": "https://api.seerapi.com/v1/skill_effect_type/2311"
               }
             ],
-            "hash": "1a4fb8eb"
+            "hash": "c8a9b0d3"
           }
         ]
       },

@@ -1,149 +1,151 @@
 {
-  "$defs": {
-    "ResourceRef_GemCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "gem_category"
-    },
-    "ResourceRef_Gem_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "gem"
-    },
-    "ResourceRef_Item_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "item"
-    },
-    "SkillEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use"
-    }
-  },
-  "properties": {
-    "next_level_gem": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_Gem_"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_GemCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "gem_category"
         },
-        {
-          "type": "null"
+        "ResourceRef_Gem_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "gem"
+        },
+        "ResourceRef_Item_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "item"
+        },
+        "SkillEffectInUse": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/skill_effect_in_use"
         }
-      ],
-      "default": null,
-      "description": "该宝石的下一等级的引用，当为None时表示该宝石为最高等级"
-    },
-    "category": {
-      "$ref": "#/$defs/ResourceRef_GemCategory_",
-      "description": "宝石类型引用"
-    },
-    "effect": {
-      "description": "宝石效果",
-      "items": {
-        "$ref": "#/$defs/SkillEffectInUse"
       },
-      "title": "Effect",
-      "type": "array"
-    },
-    "item": {
-      "$ref": "#/$defs/ResourceRef_Item_",
-      "description": "宝石物品资源引用"
-    },
-    "id": {
-      "description": "宝石ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "宝石名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "level": {
-      "description": "宝石等级",
-      "title": "Level",
-      "type": "integer"
-    },
-    "generation_id": {
-      "description": "宝石世代",
-      "title": "Generation Id",
-      "type": "integer"
-    },
-    "inlay_rate": {
-      "anyOf": [
-        {
-          "type": "number"
+      "properties": {
+        "next_level_gem": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Gem_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该宝石的下一等级的引用，当为None时表示该宝石为最高等级"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "镶嵌成功率",
-      "title": "Inlay Rate"
-    },
-    "equivalent_level1_count": {
-      "anyOf": [
-        {
+        "category": {
+          "$ref": "#/$defs/ResourceRef_GemCategory_",
+          "description": "宝石类型引用"
+        },
+        "effect": {
+          "description": "宝石效果",
+          "items": {
+            "$ref": "#/$defs/SkillEffectInUse"
+          },
+          "title": "Effect",
+          "type": "array"
+        },
+        "item": {
+          "$ref": "#/$defs/ResourceRef_Item_",
+          "description": "宝石物品资源引用"
+        },
+        "id": {
+          "description": "宝石ID",
+          "title": "Id",
           "type": "integer"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "相当于多少个1级宝石",
-      "title": "Equivalent Level1 Count"
-    },
-    "fail_compensate_range": {
-      "anyOf": [
-        {
-          "maxItems": 2,
-          "minItems": 2,
-          "prefixItems": [
+        "name": {
+          "description": "宝石名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "level": {
+          "description": "宝石等级",
+          "title": "Level",
+          "type": "integer"
+        },
+        "generation_id": {
+          "description": "宝石世代",
+          "title": "Generation Id",
+          "type": "integer"
+        },
+        "inlay_rate": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "镶嵌成功率",
+          "title": "Inlay Rate"
+        },
+        "equivalent_level1_count": {
+          "anyOf": [
             {
               "type": "integer"
             },
             {
-              "type": "integer"
+              "type": "null"
             }
           ],
-          "type": "array"
+          "default": null,
+          "description": "相当于多少个1级宝石",
+          "title": "Equivalent Level1 Count"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "当镶嵌失败时返还的宝石的等级范围，仅在1代宝石中有效",
-      "title": "Fail Compensate Range"
-    },
-    "upgrade_cost": {
-      "anyOf": [
-        {
-          "type": "integer"
+        "fail_compensate_range": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "integer"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "当镶嵌失败时返还的宝石的等级范围，仅在1代宝石中有效",
+          "title": "Fail Compensate Range"
         },
-        {
-          "type": "null"
+        "upgrade_cost": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "升级到该等级需要的石之砂数量，仅在2代宝石中有效",
+          "title": "Upgrade Cost"
         }
+      },
+      "required": [
+        "category",
+        "effect",
+        "item",
+        "id",
+        "name",
+        "level",
+        "generation_id"
       ],
-      "default": null,
-      "description": "升级到该等级需要的石之砂数量，仅在2代宝石中有效",
-      "title": "Upgrade Cost"
+      "title": "Gem",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "category",
-    "effect",
-    "item",
-    "id",
-    "name",
-    "level",
-    "generation_id",
-    "hash"
-  ],
-  "title": "Gem",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

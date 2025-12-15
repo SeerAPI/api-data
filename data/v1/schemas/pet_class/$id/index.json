@@ -1,73 +1,75 @@
 {
-  "$defs": {
-    "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "pet"
-    }
-  },
-  "description": "描述一个精灵类别，所有第一形态为同一ID的精灵为一类",
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "is_variant_pet": {
-      "default": false,
-      "description": "是否是异能精灵",
-      "title": "Is Variant Pet",
-      "type": "boolean"
-    },
-    "is_dark_pet": {
-      "default": false,
-      "description": "是否是暗黑精灵",
-      "title": "Is Dark Pet",
-      "type": "boolean"
-    },
-    "is_shine_pet": {
-      "default": false,
-      "description": "是否是闪光精灵",
-      "title": "Is Shine Pet",
-      "type": "boolean"
-    },
-    "is_rare_pet": {
-      "default": false,
-      "description": "是否是稀有精灵",
-      "title": "Is Rare Pet",
-      "type": "boolean"
-    },
-    "is_breeding_pet": {
-      "default": false,
-      "description": "是否是繁殖二代精灵",
-      "title": "Is Breeding Pet",
-      "type": "boolean"
-    },
-    "is_fusion_pet": {
-      "default": false,
-      "description": "是否是融合二代精灵",
-      "title": "Is Fusion Pet",
-      "type": "boolean"
-    },
-    "evolution_chain": {
-      "description": "精灵进化链，从第一形态到最终形态的精灵列表",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_Pet_"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        }
       },
-      "title": "Evolution Chain",
-      "type": "array"
+      "description": "描述一个精灵类别，所有第一形态为同一ID的精灵为一类",
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "is_variant_pet": {
+          "default": false,
+          "description": "是否是异能精灵",
+          "title": "Is Variant Pet",
+          "type": "boolean"
+        },
+        "is_dark_pet": {
+          "default": false,
+          "description": "是否是暗黑精灵",
+          "title": "Is Dark Pet",
+          "type": "boolean"
+        },
+        "is_shine_pet": {
+          "default": false,
+          "description": "是否是闪光精灵",
+          "title": "Is Shine Pet",
+          "type": "boolean"
+        },
+        "is_rare_pet": {
+          "default": false,
+          "description": "是否是稀有精灵",
+          "title": "Is Rare Pet",
+          "type": "boolean"
+        },
+        "is_breeding_pet": {
+          "default": false,
+          "description": "是否是繁殖二代精灵",
+          "title": "Is Breeding Pet",
+          "type": "boolean"
+        },
+        "is_fusion_pet": {
+          "default": false,
+          "description": "是否是融合二代精灵",
+          "title": "Is Fusion Pet",
+          "type": "boolean"
+        },
+        "evolution_chain": {
+          "description": "精灵进化链，从第一形态到最终形态的精灵列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Pet_"
+          },
+          "title": "Evolution Chain",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "evolution_chain"
+      ],
+      "title": "PetClass",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "evolution_chain",
-    "hash"
-  ],
-  "title": "PetClass",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

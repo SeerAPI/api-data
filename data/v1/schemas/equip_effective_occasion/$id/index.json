@@ -1,40 +1,42 @@
 {
-  "$defs": {
-    "ResourceRef": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref"
-    }
-  },
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "description": {
-      "description": "部件生效场合描述",
-      "title": "Description",
-      "type": "string"
-    },
-    "equip": {
-      "description": "部件列表",
-      "items": {
-        "$ref": "#/$defs/ResourceRef"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref"
+        }
       },
-      "title": "Equip",
-      "type": "array"
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "description": {
+          "description": "部件生效场合描述",
+          "title": "Description",
+          "type": "string"
+        },
+        "equip": {
+          "description": "部件列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef"
+          },
+          "title": "Equip",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "description"
+      ],
+      "title": "EquipEffectiveOccasion",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "description",
-    "hash"
-  ],
-  "title": "EquipEffectiveOccasion",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

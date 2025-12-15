@@ -1,248 +1,250 @@
 {
-  "$defs": {
-    "EidEffectInUse": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
-    },
-    "EquipBonus": {
+  "allOf": [
+    {
+      "$defs": {
+        "EidEffectInUse": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
+        },
+        "EquipBonus": {
+          "properties": {
+            "newse_id": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "部件特性ID，一部分套装使用该字段来表示效果",
+              "title": "Newse Id"
+            },
+            "eid_effect": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/EidEffectInUse"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "部件效果，一部分套装使用该字段来表示效果"
+            },
+            "id": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Id"
+            },
+            "desc": {
+              "description": "部件描述",
+              "title": "Desc",
+              "type": "string"
+            },
+            "attribute": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/SixAttributes"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "属性加成，仅在部件有属性加成时有效"
+            },
+            "other_attribute": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/OtherAttribute"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "其他属性加成，仅在部件有命中/闪避/暴击加成时有效"
+            }
+          },
+          "required": [
+            "desc"
+          ],
+          "title": "EquipBonus",
+          "type": "object"
+        },
+        "OtherAttribute": {
+          "properties": {
+            "hit_rate": {
+              "default": 0,
+              "description": "命中加成",
+              "title": "Hit Rate",
+              "type": "integer"
+            },
+            "dodge_rate": {
+              "default": 0,
+              "description": "闪避加成",
+              "title": "Dodge Rate",
+              "type": "integer"
+            },
+            "crit_rate": {
+              "default": 0,
+              "description": "暴击加成",
+              "title": "Crit Rate",
+              "type": "integer"
+            }
+          },
+          "title": "OtherAttribute",
+          "type": "object"
+        },
+        "PkAttribute": {
+          "description": "装备PK加成（战队保卫战等远古活动使用）",
+          "properties": {
+            "pk_hp": {
+              "description": "装备提供的血量加成",
+              "title": "Pk Hp",
+              "type": "integer"
+            },
+            "pk_atk": {
+              "description": "装备提供的攻击力加成",
+              "title": "Pk Atk",
+              "type": "integer"
+            },
+            "pk_fire_range": {
+              "description": "装备提供的射击范围加成",
+              "title": "Pk Fire Range",
+              "type": "integer"
+            }
+          },
+          "required": [
+            "pk_hp",
+            "pk_atk",
+            "pk_fire_range"
+          ],
+          "title": "PkAttribute",
+          "type": "object"
+        },
+        "ResourceRef_EquipEffectiveOccasion_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "equip_effective_occasion"
+        },
+        "ResourceRef_EquipType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "equip_type"
+        },
+        "ResourceRef_Item_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "item"
+        },
+        "ResourceRef_Suit_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "suit"
+        },
+        "SixAttributes": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
+        }
+      },
       "properties": {
-        "newse_id": {
-          "anyOf": [
-            {
-              "type": "integer"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "description": "部件特性ID，一部分套装使用该字段来表示效果",
-          "title": "Newse Id"
-        },
-        "eid_effect": {
-          "anyOf": [
-            {
-              "$ref": "#/$defs/EidEffectInUse"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "description": "部件效果，一部分套装使用该字段来表示效果"
-        },
         "id": {
-          "anyOf": [
-            {
-              "type": "integer"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Id"
+          "description": "部件ID",
+          "title": "Id",
+          "type": "integer"
         },
-        "desc": {
-          "description": "部件描述",
-          "title": "Desc",
+        "name": {
+          "description": "部件名称",
+          "title": "Name",
           "type": "string"
         },
-        "attribute": {
+        "speed": {
           "anyOf": [
             {
-              "$ref": "#/$defs/SixAttributes"
+              "type": "number"
             },
             {
               "type": "null"
             }
           ],
           "default": null,
-          "description": "属性加成，仅在部件有属性加成时有效"
+          "description": "部件速度移动加成，一般只有脚部部件提供",
+          "title": "Speed"
         },
-        "other_attribute": {
+        "item": {
+          "$ref": "#/$defs/ResourceRef_Item_",
+          "description": "装备部件物品资源引用"
+        },
+        "bonus": {
           "anyOf": [
             {
-              "$ref": "#/$defs/OtherAttribute"
+              "$ref": "#/$defs/EquipBonus"
             },
             {
               "type": "null"
             }
           ],
           "default": null,
-          "description": "其他属性加成，仅在部件有命中/闪避/暴击加成时有效"
+          "description": "部件效果，仅当该部件为能力加成部件时有效"
+        },
+        "occasion": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_EquipEffectiveOccasion_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "部件生效场合，仅当该部件为能力加成部件时有效"
+        },
+        "suit": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Suit_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "部件所属套装，仅当该部件有套装时有效"
+        },
+        "part_type": {
+          "$ref": "#/$defs/ResourceRef_EquipType_",
+          "description": "部件类型"
+        },
+        "pk_attribute": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/PkAttribute"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "部件PK加成，战队保卫战等老玩法使用，当三个加成项都为0时为null"
         }
       },
       "required": [
-        "desc"
+        "id",
+        "name",
+        "item",
+        "part_type"
       ],
-      "title": "EquipBonus",
-      "type": "object"
+      "title": "Equip",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "OtherAttribute": {
-      "properties": {
-        "hit_rate": {
-          "default": 0,
-          "description": "命中加成",
-          "title": "Hit Rate",
-          "type": "integer"
-        },
-        "dodge_rate": {
-          "default": 0,
-          "description": "闪避加成",
-          "title": "Dodge Rate",
-          "type": "integer"
-        },
-        "crit_rate": {
-          "default": 0,
-          "description": "暴击加成",
-          "title": "Crit Rate",
-          "type": "integer"
-        }
-      },
-      "title": "OtherAttribute",
-      "type": "object"
-    },
-    "PkAttribute": {
-      "description": "装备PK加成（战队保卫战等远古活动使用）",
-      "properties": {
-        "pk_hp": {
-          "description": "装备提供的血量加成",
-          "title": "Pk Hp",
-          "type": "integer"
-        },
-        "pk_atk": {
-          "description": "装备提供的攻击力加成",
-          "title": "Pk Atk",
-          "type": "integer"
-        },
-        "pk_fire_range": {
-          "description": "装备提供的射击范围加成",
-          "title": "Pk Fire Range",
-          "type": "integer"
-        }
-      },
-      "required": [
-        "pk_hp",
-        "pk_atk",
-        "pk_fire_range"
-      ],
-      "title": "PkAttribute",
-      "type": "object"
-    },
-    "ResourceRef_EquipEffectiveOccasion_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "equip_effective_occasion"
-    },
-    "ResourceRef_EquipType_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "equip_type"
-    },
-    "ResourceRef_Item_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "item"
-    },
-    "ResourceRef_Suit_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "suit"
-    },
-    "SixAttributes": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "properties": {
-    "id": {
-      "description": "部件ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "部件名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "speed": {
-      "anyOf": [
-        {
-          "type": "number"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "部件速度移动加成，一般只有脚部部件提供",
-      "title": "Speed"
-    },
-    "item": {
-      "$ref": "#/$defs/ResourceRef_Item_",
-      "description": "装备部件物品资源引用"
-    },
-    "bonus": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/EquipBonus"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "部件效果，仅当该部件为能力加成部件时有效"
-    },
-    "occasion": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_EquipEffectiveOccasion_"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "部件生效场合，仅当该部件为能力加成部件时有效"
-    },
-    "suit": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_Suit_"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "部件所属套装，仅当该部件有套装时有效"
-    },
-    "part_type": {
-      "$ref": "#/$defs/ResourceRef_EquipType_",
-      "description": "部件类型"
-    },
-    "pk_attribute": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/PkAttribute"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "部件PK加成，战队保卫战等老玩法使用，当三个加成项都为0时为null"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
-    }
-  },
-  "required": [
-    "id",
-    "name",
-    "item",
-    "part_type",
-    "hash"
-  ],
-  "title": "Equip",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

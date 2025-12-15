@@ -1,40 +1,42 @@
 {
-  "$defs": {
-    "ResourceRef": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref"
-    }
-  },
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "魂印标签名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "soulmark": {
-      "description": "魂印列表",
-      "items": {
-        "$ref": "#/$defs/ResourceRef"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref"
+        }
       },
-      "title": "Soulmark",
-      "type": "array"
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "魂印标签名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "soulmark": {
+          "description": "魂印列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef"
+          },
+          "title": "Soulmark",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "SoulmarkTagCategory",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "hash"
-  ],
-  "title": "SoulmarkTagCategory",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

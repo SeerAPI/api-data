@@ -1,81 +1,83 @@
 {
-  "$defs": {
-    "ResourceRef_MintmarkRarityCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "mintmark_rarity"
-    },
-    "ResourceRef_MintmarkTypeCategory_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "mintmark_type"
-    },
-    "ResourceRef_Pet_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "pet"
-    },
-    "SixAttributes": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
-    }
-  },
-  "properties": {
-    "type": {
-      "$ref": "#/$defs/ResourceRef_MintmarkTypeCategory_",
-      "description": "刻印类型"
-    },
-    "rarity": {
-      "$ref": "#/$defs/ResourceRef_MintmarkRarityCategory_",
-      "description": "刻印稀有度"
-    },
-    "pet": {
-      "anyOf": [
-        {
-          "items": {
-            "$ref": "#/$defs/ResourceRef_Pet_"
-          },
-          "type": "array"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_MintmarkRarityCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark_rarity"
         },
-        {
-          "type": "null"
+        "ResourceRef_MintmarkTypeCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark_type"
+        },
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        },
+        "SixAttributes": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
         }
+      },
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/ResourceRef_MintmarkTypeCategory_",
+          "description": "刻印类型"
+        },
+        "rarity": {
+          "$ref": "#/$defs/ResourceRef_MintmarkRarityCategory_",
+          "description": "刻印稀有度"
+        },
+        "pet": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ResourceRef_Pet_"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "表示该刻印仅能安装在这些精灵上，null表示无精灵限制",
+          "title": "Pet"
+        },
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "description": "刻印描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "max_attr_value": {
+          "$ref": "#/$defs/SixAttributes",
+          "description": "刻印属性值"
+        }
+      },
+      "required": [
+        "type",
+        "rarity",
+        "id",
+        "name",
+        "desc",
+        "max_attr_value"
       ],
-      "default": null,
-      "description": "表示该刻印仅能安装在这些精灵上，null表示无精灵限制",
-      "title": "Pet"
+      "title": "AbilityMintmark",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "desc": {
-      "description": "刻印描述",
-      "title": "Desc",
-      "type": "string"
-    },
-    "max_attr_value": {
-      "$ref": "#/$defs/SixAttributes",
-      "description": "刻印属性值"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "type",
-    "rarity",
-    "id",
-    "name",
-    "desc",
-    "max_attr_value",
-    "hash"
-  ],
-  "title": "AbilityMintmark",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

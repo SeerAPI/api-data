@@ -1,27 +1,29 @@
 {
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
+  "allOf": [
+    {
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "args_num": {
+          "description": "效果需要的参数数量，该值是从使用该效果的资源中推测得出的",
+          "title": "Args Num",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "args_num"
+      ],
+      "title": "EidEffect",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "args_num": {
-      "description": "效果需要的参数数量，该值是从使用该效果的资源中推测得出的",
-      "title": "Args Num",
-      "type": "integer"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "args_num",
-    "hash"
-  ],
-  "title": "EidEffect",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

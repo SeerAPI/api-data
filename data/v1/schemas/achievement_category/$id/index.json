@@ -1,49 +1,51 @@
 {
-  "$defs": {
-    "AchievementCategoryNameEnum": {
-      "enum": [
-        "ability_achievement",
-        "hide_achievement"
-      ],
-      "title": "AchievementCategoryNameEnum",
-      "type": "string"
-    },
-    "ResourceRef_Achievement_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "achievement"
-    }
-  },
-  "description": "成就分类资源，用于在API中便捷地获取成就",
-  "properties": {
-    "id": {
-      "description": "资源ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "$ref": "#/$defs/AchievementCategoryNameEnum",
-      "description": "成就分类名称，`hide_achievement`表示分类下隐藏成就，`ability_achievement`表示仅包含能力加成成就"
-    },
-    "achievement": {
-      "description": "该分类下的成就",
-      "items": {
-        "$ref": "#/$defs/ResourceRef_Achievement_"
+  "allOf": [
+    {
+      "$defs": {
+        "AchievementCategoryNameEnum": {
+          "enum": [
+            "ability_achievement",
+            "hide_achievement"
+          ],
+          "title": "AchievementCategoryNameEnum",
+          "type": "string"
+        },
+        "ResourceRef_Achievement_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement"
+        }
       },
-      "title": "Achievement",
-      "type": "array"
+      "description": "成就分类资源，用于在API中便捷地获取成就",
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "$ref": "#/$defs/AchievementCategoryNameEnum",
+          "description": "成就分类名称，`hide_achievement`表示分类下隐藏成就，`ability_achievement`表示仅包含能力加成成就"
+        },
+        "achievement": {
+          "description": "该分类下的成就",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Achievement_"
+          },
+          "title": "Achievement",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "AchievementCategory",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "id",
-    "name",
-    "hash"
-  ],
-  "title": "AchievementCategory",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

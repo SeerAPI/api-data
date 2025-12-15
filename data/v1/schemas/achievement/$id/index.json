@@ -1,167 +1,169 @@
 {
-  "$defs": {
-    "ResourceRef_AchievementBranch_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "achievement_branch"
-    },
-    "ResourceRef_AchievementType_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "achievement_type"
-    },
-    "ResourceRef_Achievement_": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
-      "x-model-name": "achievement"
-    },
-    "SixAttributes": {
-      "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
-    }
-  },
-  "description": "成就资源",
-  "properties": {
-    "is_ability_bonus": {
-      "description": "是否是能力加成成就",
-      "title": "Is Ability Bonus",
-      "type": "boolean"
-    },
-    "ability_desc": {
-      "anyOf": [
-        {
-          "type": "string"
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_AchievementBranch_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement_branch"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "能力加成描述",
-      "title": "Ability Desc"
-    },
-    "type": {
-      "$ref": "#/$defs/ResourceRef_AchievementType_",
-      "description": "成就类型"
-    },
-    "branch": {
-      "$ref": "#/$defs/ResourceRef_AchievementBranch_",
-      "description": "成就所属的分支"
-    },
-    "next_level_achievement": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_Achievement_"
+        "ResourceRef_AchievementType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement_type"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "下一级成就"
-    },
-    "prev_level_achievement": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/ResourceRef_Achievement_"
+        "ResourceRef_Achievement_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement"
         },
-        {
-          "type": "null"
+        "SixAttributes": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
         }
-      ],
-      "default": null,
-      "description": "上一级成就"
-    },
-    "attr_bonus": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/SixAttributes"
+      },
+      "description": "成就资源",
+      "properties": {
+        "is_ability_bonus": {
+          "description": "是否是能力加成成就",
+          "title": "Is Ability Bonus",
+          "type": "boolean"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "成就能力加成属性，该值仅在成就有能力加成且为数值加成时不为空"
-    },
-    "id": {
-      "description": "成就ID，由 SeerAPI 生成，游戏内不存在该ID",
-      "title": "Id",
-      "type": "integer"
-    },
-    "name": {
-      "description": "成就名称",
-      "title": "Name",
-      "type": "string"
-    },
-    "point": {
-      "description": "成就点数",
-      "title": "Point",
-      "type": "integer"
-    },
-    "desc": {
-      "description": "成就描述",
-      "title": "Desc",
-      "type": "string"
-    },
-    "is_hide": {
-      "description": "是否是隐藏成就，隐藏成就在游戏成就列表中不会显示",
-      "title": "Is Hide",
-      "type": "boolean"
-    },
-    "title_id": {
-      "anyOf": [
-        {
+        "ability_desc": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "能力加成描述",
+          "title": "Ability Desc"
+        },
+        "type": {
+          "$ref": "#/$defs/ResourceRef_AchievementType_",
+          "description": "成就类型"
+        },
+        "branch": {
+          "$ref": "#/$defs/ResourceRef_AchievementBranch_",
+          "description": "成就所属的分支"
+        },
+        "next_level_achievement": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Achievement_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "下一级成就"
+        },
+        "prev_level_achievement": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Achievement_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "上一级成就"
+        },
+        "attr_bonus": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/SixAttributes"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "成就能力加成属性，该值仅在成就有能力加成且为数值加成时不为空"
+        },
+        "id": {
+          "description": "成就ID，由 SeerAPI 生成，游戏内不存在该ID",
+          "title": "Id",
           "type": "integer"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "称号ID",
-      "title": "Title Id"
-    },
-    "title": {
-      "anyOf": [
-        {
+        "name": {
+          "description": "成就名称",
+          "title": "Name",
           "type": "string"
         },
-        {
-          "type": "null"
-        }
-      ],
-      "default": null,
-      "description": "成就称号",
-      "title": "Title"
-    },
-    "original_title": {
-      "anyOf": [
-        {
+        "point": {
+          "description": "成就点数",
+          "title": "Point",
+          "type": "integer"
+        },
+        "desc": {
+          "description": "成就描述",
+          "title": "Desc",
           "type": "string"
         },
-        {
-          "type": "null"
+        "is_hide": {
+          "description": "是否是隐藏成就，隐藏成就在游戏成就列表中不会显示",
+          "title": "Is Hide",
+          "type": "boolean"
+        },
+        "title_id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "称号ID",
+          "title": "Title Id"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "成就称号",
+          "title": "Title"
+        },
+        "original_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "成就称号原始名称，包含分隔符",
+          "title": "Original Title"
         }
+      },
+      "required": [
+        "is_ability_bonus",
+        "type",
+        "branch",
+        "id",
+        "name",
+        "point",
+        "desc",
+        "is_hide"
       ],
-      "default": null,
-      "description": "成就称号原始名称，包含分隔符",
-      "title": "Original Title"
+      "title": "Achievement",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "is_ability_bonus",
-    "type",
-    "branch",
-    "id",
-    "name",
-    "point",
-    "desc",
-    "is_hide",
-    "hash"
-  ],
-  "title": "Achievement",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }

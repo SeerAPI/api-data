@@ -1,70 +1,72 @@
 {
-  "additionalProperties": false,
-  "properties": {
-    "api_url": {
-      "description": "当前API的URL",
-      "title": "Api Url",
-      "type": "string"
+  "allOf": [
+    {
+      "additionalProperties": false,
+      "properties": {
+        "api_url": {
+          "description": "当前API的URL",
+          "title": "Api Url",
+          "type": "string"
+        },
+        "api_version": {
+          "description": "API版本",
+          "title": "Api Version",
+          "type": "string"
+        },
+        "generator_name": {
+          "description": "生成器名称",
+          "title": "Generator Name",
+          "type": "string"
+        },
+        "generator_version": {
+          "description": "生成器版本",
+          "title": "Generator Version",
+          "type": "string"
+        },
+        "generate_time": {
+          "description": "生成时间",
+          "format": "date-time",
+          "title": "Generate Time",
+          "type": "string"
+        },
+        "data_source": {
+          "default": "",
+          "description": "数据源，可填写git仓库地址或url",
+          "title": "Data Source",
+          "type": "string"
+        },
+        "data_version": {
+          "default": "",
+          "description": "数据版本",
+          "title": "Data Version",
+          "type": "string"
+        },
+        "patch_source": {
+          "default": "",
+          "description": "补丁源，可填写git仓库地址或url",
+          "title": "Patch Source",
+          "type": "string"
+        },
+        "patch_version": {
+          "default": "",
+          "description": "补丁版本",
+          "title": "Patch Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "api_url",
+        "api_version",
+        "generator_name",
+        "generator_version"
+      ],
+      "title": "ApiMetadataSettings",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     },
-    "api_version": {
-      "description": "API版本",
-      "title": "Api Version",
-      "type": "string"
-    },
-    "generator_name": {
-      "description": "生成器名称",
-      "title": "Generator Name",
-      "type": "string"
-    },
-    "generator_version": {
-      "description": "生成器版本",
-      "title": "Generator Version",
-      "type": "string"
-    },
-    "generate_time": {
-      "description": "生成时间",
-      "format": "date-time",
-      "title": "Generate Time",
-      "type": "string"
-    },
-    "data_source": {
-      "default": "",
-      "description": "数据源，可填写git仓库地址或url",
-      "title": "Data Source",
-      "type": "string"
-    },
-    "data_version": {
-      "default": "",
-      "description": "数据版本",
-      "title": "Data Version",
-      "type": "string"
-    },
-    "patch_source": {
-      "default": "",
-      "description": "补丁源，可填写git仓库地址或url",
-      "title": "Patch Source",
-      "type": "string"
-    },
-    "patch_version": {
-      "default": "",
-      "description": "补丁版本",
-      "title": "Patch Version",
-      "type": "string"
-    },
-    "hash": {
-      "description": "数据哈希值，目前 pydantic 不支持对 key 进行排序，所以哈希值变化可能意味着数据结构变化而非数据值变化",
-      "title": "Hash",
-      "type": "string"
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
     }
-  },
-  "required": [
-    "api_url",
-    "api_version",
-    "generator_name",
-    "generator_version",
-    "hash"
-  ],
-  "title": "ApiMetadataSettings",
-  "type": "object",
-  "$schema": "https://json-schema.org/draft/2020-12/schema"
+  ]
 }
