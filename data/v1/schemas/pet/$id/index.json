@@ -20,6 +20,14 @@
           "title": "DiyStatsRange",
           "type": "object"
         },
+        "ResourceRef_PeakExpertPool_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "peak_expert_pool"
+        },
+        "ResourceRef_PeakPool_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "peak_pool"
+        },
         "ResourceRef_PetArchiveStoryEntry_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet_archive_story_entry"
@@ -308,6 +316,30 @@
           ],
           "default": null,
           "description": "精灵故事条目"
+        },
+        "peak_pool": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PeakPool_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "精灵所属巅峰池"
+        },
+        "peak_expert_pool": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PeakExpertPool_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "精灵所属巅峰专家池"
         }
       },
       "required": [

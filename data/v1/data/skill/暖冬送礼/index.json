@@ -1,0 +1,50 @@
+{
+  "data": {
+    "38191": {
+      "id": 38191,
+      "name": "暖冬送礼",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 87,
+        "url": "https://api.seerapi.com/v1/element_type_combination/87"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1052,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1052"
+          }
+        },
+        {
+          "info": "随机附加2种非限制类异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2074,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2074"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "1864ffcd"
+}

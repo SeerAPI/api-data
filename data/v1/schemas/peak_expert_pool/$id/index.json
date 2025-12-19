@@ -1,0 +1,57 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "count": {
+          "description": "该池内精灵最大可携带数量",
+          "title": "Count",
+          "type": "integer"
+        },
+        "start_time": {
+          "description": "该池的开始时间",
+          "format": "date-time",
+          "title": "Start Time",
+          "type": "string"
+        },
+        "end_time": {
+          "description": "该池的结束时间，由 `start_time` 加上固定时长计算得出",
+          "format": "date-time",
+          "title": "End Time",
+          "type": "string"
+        },
+        "pet": {
+          "description": "该池内的精灵",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Pet_"
+          },
+          "title": "Pet",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "count",
+        "start_time",
+        "end_time"
+      ],
+      "title": "PeakExpertPool",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

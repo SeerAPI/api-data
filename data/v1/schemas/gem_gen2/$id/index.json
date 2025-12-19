@@ -19,6 +19,18 @@
         }
       },
       "properties": {
+        "prev_level_gem": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Gem_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该宝石的上一等级的引用，当为None时表示该宝石为最低等级"
+        },
         "next_level_gem": {
           "anyOf": [
             {

@@ -1,0 +1,79 @@
+{
+  "id": 38190,
+  "name": "寄予无名之枪",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 49,
+    "url": "https://api.seerapi.com/v1/element_type_combination/49"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+      }
+    },
+    {
+      "info": "对手每存在250点护盾则造成的攻击伤害提升1倍",
+      "args": [
+        250,
+        1
+      ],
+      "effect": {
+        "id": 2010,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2010"
+      }
+    },
+    {
+      "info": "出手时自身护盾值高于250则自身下回合攻击技能先制+1",
+      "args": [
+        250,
+        1
+      ],
+      "effect": {
+        "id": 1578,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1578"
+      }
+    },
+    {
+      "info": "出手时自身护盾值低于250则下回合属性技能先制+1",
+      "args": [
+        250,
+        1
+      ],
+      "effect": {
+        "id": 1579,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1579"
+      }
+    },
+    {
+      "info": "附加所造成伤害值75%的固定伤害",
+      "args": [
+        75
+      ],
+      "effect": {
+        "id": 422,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/422"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "e6ed6b7b"
+}

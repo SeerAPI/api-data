@@ -1,7 +1,7 @@
 {
   "id": 912,
   "desc": "回合开始时，若对手处于能力提升状态则消除对手能力提升状态并有70%概率使对手焚烬，若对手不处于能力提升状态则自身所有技能先制+1；自身使用攻击技能造成的伤害40%概率提升150%，未触发则对手2回合内无法使用属性技能（boss无效)",
-  "desc_formatting_adjustment": null,
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则<color=#64F9FA>消除</color>对手<b>能力提升状态</b>并有70%<color=#64F9FA>使对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则自身当回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能造成的<b>攻击伤害</b>有40%概率<color=#64F9FA>提升</color>150%\r\n<indent=32><sprite=4><indent=48>未触发则对手2回合内<b>属性技能</b><color=#64F9FA>命中效果失效</color>",
   "pve_effective": false,
   "intensified": true,
   "is_adv": false,
@@ -44,5 +44,5 @@
     "id": 864,
     "url": "https://api.seerapi.com/v1/soulmark/864"
   },
-  "hash": "ddcc36c5"
+  "hash": "af09591c"
 }

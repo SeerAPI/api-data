@@ -20,6 +20,14 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
+      "info": "对手拥有曝时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2382,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2382"
+      }
+    },
+    {
       "info": "消除对手回合类效果，消除成功则100%令对手烧伤，未触发则2回合内自身受到的攻击伤害减少50%",
       "args": [
         100,
@@ -33,28 +41,20 @@
       }
     },
     {
-      "info": "消除对手能力提升状态，消除成功对手下1回合无法主动切换精灵",
+      "info": "反转对手能力提升状态，反转成功则令对手烧伤，反转失败则消除对手能力提升状态",
       "args": [
-        1
+        2
       ],
       "effect": {
-        "id": 2227,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2227"
-      }
-    },
-    {
-      "info": "若打出致命一击则自身免疫下1次受到的异常状态",
-      "args": [
-        1
-      ],
-      "effect": {
-        "id": 1355,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/1355"
+        "id": 1347,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1347"
       }
     },
     {
       "info": "莎木斯的赞颂:自身使用技能后，若对手处于异常状态，则自身全属性+1",
-      "args": [],
+      "args": [
+        1
+      ],
       "effect": {
         "id": 2372,
         "url": "https://api.seerapi.com/v1/skill_effect_type/2372"
@@ -63,5 +63,5 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "398ab012"
+  "hash": "a133b00f"
 }
