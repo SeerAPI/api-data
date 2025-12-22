@@ -1,8 +1,8 @@
 {
   "id": 1372,
   "args_num": 3,
-  "info": "{0}回合内对手使用攻击技能则{1}%{2}，未触发则消除对手回合类效果",
-  "info_formatting_adjustment": "{0}回合内<condition>对手使用攻击技能</condition>则{1}%{2}\r\n--><condition>未触发</condition>则消除对手回合类效果",
+  "info": "{0}回合内对手使用攻击技能后{1}%令对手{2}，未触发则消除对手回合类效果",
+  "info_formatting_adjustment": "{0}回合内<condition>对手使用攻击技能后</condition>{1}%令对手{2}\r\n--><condition>未触发</condition>则消除对手回合类效果",
   "pve_effective": false,
   "param": [
     {
@@ -43,6 +43,10 @@
       "url": "https://api.seerapi.com/v1/skill/29000"
     },
     {
+      "id": 29214,
+      "url": "https://api.seerapi.com/v1/skill/29214"
+    },
+    {
       "id": 37984,
       "url": "https://api.seerapi.com/v1/skill/37984"
     }
@@ -57,5 +61,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442"
     }
   ],
-  "hash": "1b5fded3"
+  "hash": "1bea10cd"
 }

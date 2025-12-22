@@ -52,6 +52,18 @@
           }
         },
         {
+          "info": "3回合内对手使用攻击技能后100%令对手焚烬，未触发则消除对手回合类效果",
+          "args": [
+            3,
+            100,
+            22
+          ],
+          "effect": {
+            "id": 1372,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1372"
+          }
+        },
+        {
           "info": "自身下次被击败后，下只精灵所有伤害抗性提升15%",
           "args": [
             15
@@ -76,5 +88,5 @@
       "hide_effect": null
     }
   },
-  "hash": "a12960e0"
+  "hash": "97b7f60d"
 }
