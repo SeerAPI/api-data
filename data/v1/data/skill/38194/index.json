@@ -1,0 +1,55 @@
+{
+  "id": 38194,
+  "name": "碎岩劈",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 41,
+    "url": "https://api.seerapi.com/v1/element_type_combination/41"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身处于异常状态时先制+1且必定命中",
+      "args": [],
+      "effect": {
+        "id": 2072,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2072"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/868"
+      }
+    },
+    {
+      "info": "100%令自身流血",
+      "args": [
+        100,
+        16
+      ],
+      "effect": {
+        "id": 2196,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2196"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3dbb672"
+}

@@ -1,0 +1,46 @@
+{
+  "id": 38212,
+  "name": "三月无辉",
+  "power": 130,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 130,
+    "url": "https://api.seerapi.com/v1/element_type_combination/130"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力提升状态则造成的攻击伤害额外提升150%",
+      "args": [
+        150
+      ],
+      "effect": {
+        "id": 842,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/842"
+      }
+    },
+    {
+      "info": "自身体力低于对手时恢复自身最大体力的1/3",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1015,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1015"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "f016d863"
+}

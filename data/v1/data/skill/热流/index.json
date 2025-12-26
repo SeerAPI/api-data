@@ -1,0 +1,41 @@
+{
+  "data": {
+    "38207": {
+      "id": 38207,
+      "name": "热流",
+      "power": 60,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若对手处于焚烬状态则2回合内属性技能命中效果失效",
+          "args": [
+            22,
+            2
+          ],
+          "effect": {
+            "id": 2022,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2022"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "f1624c7d"
+}

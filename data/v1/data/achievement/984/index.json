@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "体力+100，防御+20，特防+20",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 0,
+    "def": 20,
+    "sp_atk": 0,
+    "sp_def": 20,
+    "spd": 0,
+    "hp": 100,
+    "percent": false,
+    "total": 140
+  },
   "id": 984,
-  "name": "八方真武帝",
+  "name": "皇帝的意志",
   "point": 10,
-  "desc": "获得万世北溟·玄武",
+  "desc": "成为2017年年费VIP",
   "is_hide": false,
-  "title_id": 270,
-  "title": "八方真武帝",
-  "original_title": "八方真武帝",
-  "hash": "e3f89b39"
+  "title_id": 268,
+  "title": "皇帝的意志",
+  "original_title": "皇帝的意志",
+  "hash": "b9adb11b"
 }

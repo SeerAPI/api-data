@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "攻击+30，特攻+30，防御+30，特防+30，速度+25，体力+40",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 30,
+    "def": 30,
+    "sp_atk": 30,
+    "sp_def": 30,
+    "spd": 25,
+    "hp": 40,
+    "percent": false,
+    "total": 185
+  },
   "id": 1126,
-  "name": "群星的复调",
-  "point": 20,
-  "desc": "15周年庆活动中，收集“群星的复调”系列周年皮肤获得",
+  "name": "星光之旅",
+  "point": 15,
+  "desc": "15年前的星光，我又看到了。",
   "is_hide": false,
-  "title_id": 499,
-  "title": "群星的复调",
-  "original_title": "群星的复调",
-  "hash": "2a6d6085"
+  "title_id": 494,
+  "title": "星光之旅",
+  "original_title": "星光之旅",
+  "hash": "2838b138"
 }

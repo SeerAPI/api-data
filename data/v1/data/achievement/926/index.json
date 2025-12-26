@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "速度+15",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 0,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 15,
+    "hp": 0,
+    "percent": false,
+    "total": 15
+  },
   "id": 926,
-  "name": "毁灭之海守护者",
+  "name": "闪耀之星",
   "point": 10,
-  "desc": "成功在毁灭之海击败绝灭魔龙",
+  "desc": "哇，好多星星啊！",
   "is_hide": false,
-  "title_id": 213,
-  "title": "毁灭之海守护者",
-  "original_title": "毁灭之海|守护者",
-  "hash": "67de29ba"
+  "title_id": 210,
+  "title": "闪耀之星",
+  "original_title": "闪耀之星",
+  "hash": "276b7018"
 }

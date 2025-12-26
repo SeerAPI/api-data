@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "攻击+50，特攻+50，速度+25",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 50,
+    "def": 0,
+    "sp_atk": 50,
+    "sp_def": 0,
+    "spd": 25,
+    "hp": 0,
+    "percent": false,
+    "total": 125
+  },
   "id": 1075,
-  "name": "真正的男子汉",
-  "point": 10,
-  "desc": "活动【桑谷的试炼】中获得",
+  "name": "钢铁玫瑰",
+  "point": 20,
+  "desc": "购买贝狄薇尔至尊礼包",
   "is_hide": false,
-  "title_id": 372,
-  "title": "真正的男子汉",
-  "original_title": "真正的男子汉",
-  "hash": "7978b25"
+  "title_id": 368,
+  "title": "钢铁玫瑰",
+  "original_title": "钢铁玫瑰",
+  "hash": "8c07d77a"
 }

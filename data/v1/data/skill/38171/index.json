@@ -20,7 +20,7 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "对手拥有曝时先制+1且必定命中",
+      "info": "对手拥有曝时此技能先制+1且必定命中",
       "args": [],
       "effect": {
         "id": 2382,
@@ -51,10 +51,16 @@
       }
     },
     {
+      "info": "对手拥有曝时将对手的烧伤转化为焚烬",
+      "args": [],
+      "effect": {
+        "id": 2384,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2384"
+      }
+    },
+    {
       "info": "莎木斯的赞颂:自身使用技能后，若对手处于异常状态，则自身全属性+1",
-      "args": [
-        1
-      ],
+      "args": [],
       "effect": {
         "id": 2372,
         "url": "https://api.seerapi.com/v1/skill_effect_type/2372"
@@ -63,5 +69,5 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a133b00f"
+  "hash": "d25a0b74"
 }

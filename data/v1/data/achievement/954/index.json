@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "体力+50",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 0,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 50,
+    "percent": false,
+    "total": 50
+  },
   "id": 954,
-  "name": "高级护卫队",
-  "point": 10,
-  "desc": "参与【雄伟巨龙】活动获得",
+  "name": "金甲猴王",
+  "point": 5,
+  "desc": "参与2016年春节活动获得",
   "is_hide": false,
-  "title_id": 241,
-  "title": "龙族战将",
-  "original_title": "龙族战将",
-  "hash": "862636c"
+  "title_id": 235,
+  "title": "金甲猴王",
+  "original_title": "金甲猴王",
+  "hash": "b9584c95"
 }

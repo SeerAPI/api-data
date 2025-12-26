@@ -1,0 +1,47 @@
+{
+  "id": 29232,
+  "name": "永佑恒阳",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": "恢复了己方的体力；令对手失明了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "恢复己方所有不在场精灵100点体力",
+      "args": [
+        100
+      ],
+      "effect": {
+        "id": 1955,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1955"
+      }
+    },
+    {
+      "info": "命中后100%使对手失明，若未触发则恢复自身全部体力",
+      "args": [
+        100,
+        20
+      ],
+      "effect": {
+        "id": 916,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/916"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5fa9dfc5"
+}

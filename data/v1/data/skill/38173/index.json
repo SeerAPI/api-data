@@ -1,76 +1,88 @@
 {
   "id": 38173,
-  "name": "七重沙海",
-  "power": 0,
+  "name": "合奏·常昼大诰",
+  "power": 160,
   "max_pp": 5,
   "accuracy": 95,
-  "crit_rate": null,
+  "crit_rate": 6.25,
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "待添加",
+  "info": "获得了1句唱词；带来了太阳的赐福",
   "category": {
-    "id": 4,
-    "url": "https://api.seerapi.com/v1/skill_category/4"
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
   },
   "type": {
-    "id": 8,
-    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+    "id": 130,
+    "url": "https://api.seerapi.com/v1/element_type_combination/130"
   },
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "全属性+1，自身没有唱词时强化效果翻倍",
+      "info": "随机获得1句自身未获得过的唱词",
       "args": [],
       "effect": {
-        "id": 2376,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2376"
+        "id": 2378,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2378"
       }
     },
     {
-      "info": "4回合内每回合使用技能吸取对手300点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍，若对手未受到固定伤害则额外附加300点真实伤害",
+      "info": "无视对手护盾承伤效果，每无视50点自身下次攻击造成的伤害提升25%",
       "args": [
-        4,
-        300,
-        2,
-        300
+        50,
+        25
       ],
       "effect": {
-        "id": 1892,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/1892"
+        "id": 2383,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2383"
       }
     },
     {
-      "info": "3回合内自身的能力提升状态无法被消除或吸取",
-      "args": [
-        3
-      ],
-      "effect": {
-        "id": 1683,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/1683"
-      }
-    },
-    {
-      "info": "下2回合令自身所有技能先制+2",
+      "info": "下2回合攻击忽略对手25%的双防值",
       "args": [
         2,
-        2
+        25
       ],
       "effect": {
-        "id": 843,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+        "id": 1304,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1304"
       }
     },
     {
-      "info": "拉的叙事诗:自身受到攻击伤害后，若对手处于能力提升状态，则下回合令对手的技能先制-1",
-      "args": [],
+      "info": "3回合内对手使用攻击技能后100%令对手焚烬，未触发则消除对手回合类效果",
+      "args": [
+        3,
+        100,
+        22
+      ],
       "effect": {
-        "id": 2374,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2374"
+        "id": 1372,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1372"
+      }
+    },
+    {
+      "info": "自身下次被击败后，下只精灵所有伤害抗性提升15%",
+      "args": [
+        15
+      ],
+      "effect": {
+        "id": 2379,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2379"
+      }
+    },
+    {
+      "info": "下次击败对手时，令对方下只出战精灵焚烬",
+      "args": [
+        22
+      ],
+      "effect": {
+        "id": 2162,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2162"
       }
     }
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d1127916"
+  "hash": "83701540"
 }

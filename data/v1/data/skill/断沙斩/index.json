@@ -1,0 +1,59 @@
+{
+  "data": {
+    "38195": {
+      "id": 38195,
+      "name": "断沙斩",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 41,
+        "url": "https://api.seerapi.com/v1/element_type_combination/41"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身处于能力下降状态则先制+3",
+          "args": [],
+          "effect": {
+            "id": 881,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/881"
+          }
+        },
+        {
+          "info": "消除自身能力下降状态，消除成功下1回合自身直接攻击必定暴击",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 623,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/623"
+          }
+        },
+        {
+          "info": "自身每有1回合异常状态造成伤害提升25%，最高150%",
+          "args": [
+            25,
+            150
+          ],
+          "effect": {
+            "id": 2137,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2137"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "370984d5"
+}

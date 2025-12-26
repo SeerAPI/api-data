@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "防御+25，特防+25，体力+45",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 0,
+    "def": 25,
+    "sp_atk": 0,
+    "sp_def": 25,
+    "spd": 0,
+    "hp": 45,
+    "percent": false,
+    "total": 95
+  },
   "id": 1009,
-  "name": "神捕",
+  "name": "混沌领军",
   "point": 10,
-  "desc": "在VIP八周年庆中抓捕5次小偷",
+  "desc": "参与【圣灵混沌大备战】活动获得",
   "is_hide": false,
-  "title_id": 296,
-  "title": "神捕",
-  "original_title": "神捕",
-  "hash": "5ca75546"
+  "title_id": 293,
+  "title": "混沌领军",
+  "original_title": "混沌领军",
+  "hash": "57fdced4"
 }

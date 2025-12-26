@@ -1,24 +1,33 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "攻击+45 特攻+45 特防+30",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
   },
   "branch": {
-    "id": 166,
-    "url": "https://api.seerapi.com/v1/achievement_branch/166"
+    "id": 152,
+    "url": "https://api.seerapi.com/v1/achievement_branch/152"
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 45,
+    "def": 0,
+    "sp_atk": 45,
+    "sp_def": 30,
+    "spd": 0,
+    "hp": 0,
+    "percent": false,
+    "total": 120
+  },
   "id": 1122,
-  "name": "苍夜传说",
+  "name": "宴会贵客",
   "point": 10,
-  "desc": "参与春节活动【新春VIP回馈】获得",
+  "desc": "参与春节活动【今夜的菜单】获得",
   "is_hide": false,
-  "title_id": 481,
-  "title": "苍夜传说",
-  "original_title": "苍夜传说",
-  "hash": "7316e9bc"
+  "title_id": 479,
+  "title": "宴会贵客",
+  "original_title": "宴会贵客",
+  "hash": "3aef7c81"
 }

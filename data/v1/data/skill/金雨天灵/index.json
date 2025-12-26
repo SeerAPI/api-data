@@ -1,0 +1,51 @@
+{
+  "data": {
+    "38211": {
+      "id": 38211,
+      "name": "金雨天灵",
+      "power": 120,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 130,
+        "url": "https://api.seerapi.com/v1/element_type_combination/130"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手处于能力下降状态则威力提升50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1953,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1953"
+          }
+        },
+        {
+          "info": "恢复300点体力，若当前体力低于300则直接回满",
+          "args": [
+            300,
+            300
+          ],
+          "effect": {
+            "id": 704,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/704"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "5396e783"
+}

@@ -1,24 +1,33 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "体力+60，攻击+40，速度+20",
   "type": {
     "id": 2,
     "url": "https://api.seerapi.com/v1/achievement_type/2"
   },
   "branch": {
-    "id": 145,
-    "url": "https://api.seerapi.com/v1/achievement_branch/145"
+    "id": 142,
+    "url": "https://api.seerapi.com/v1/achievement_branch/142"
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 40,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 20,
+    "hp": 60,
+    "percent": false,
+    "total": 120
+  },
   "id": 456,
-  "name": "时光铸匠",
-  "point": 10,
-  "desc": "通关S霍瑞洛吉【地狱难度】关卡获得",
+  "name": "魔界守护者",
+  "point": 20,
+  "desc": "收集满SPT副本中魔界的所有星星",
   "is_hide": false,
-  "title_id": 371,
-  "title": "时光铸匠",
-  "original_title": "时光铸匠",
-  "hash": "9be8323"
+  "title_id": 401,
+  "title": "魔界守护者",
+  "original_title": "魔界守护者",
+  "hash": "2e7af2b0"
 }

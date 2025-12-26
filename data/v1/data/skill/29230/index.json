@@ -1,0 +1,48 @@
+{
+  "id": 29230,
+  "name": "回响",
+  "power": 0,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": "受到的伤害开始减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内受到攻击伤害降低200点，回合结束时若当回合未受到攻击伤害则吸取对手200点体力",
+      "args": [
+        3,
+        200,
+        200
+      ],
+      "effect": {
+        "id": 1226,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1226"
+      }
+    },
+    {
+      "info": "命中后2回合内若对手受到特攻伤害则100%烧伤",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 563,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/563"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "5a755f2a"
+}

@@ -1,0 +1,37 @@
+{
+  "id": 2043,
+  "desc": "自身背包内每存活1只精灵则自身受到的伤害减少5%且属性技能命中后吸取对手50点体力|自身受到攻击伤害时，若该伤害不高于300则100%令对手中毒，若已处于中毒状态则改为吸取对手300点体力|回合开始时，若己方存在图特摩斯且对手处于中毒状态，则获得300点护盾|（boss无效）",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身背包内每存活1只精灵则自身受到的攻击伤害<color=#64F9FA>减少</color>5%且属性技能命中后<color=#64F9FA>吸取</color>对手50点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害时，若该伤害不高于300则100%<color=#64F9FA>令对手中毒</color>\r\n<indent=32><sprite=4><indent=48>若已处于中毒状态则改为<color=#64F9FA>吸取</color>对手300点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若己方存在图特摩斯且对手处于中毒状态，则<color=#64F9FA>获得</color>300点<b>护盾</b>",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4854,
+      "url": "https://api.seerapi.com/v1/pet/4854"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2463,
+      "url": "https://api.seerapi.com/v1/eid_effect/2463"
+    }
+  },
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b4bc2805"
+}

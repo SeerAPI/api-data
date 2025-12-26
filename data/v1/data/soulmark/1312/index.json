@@ -2,7 +2,7 @@
   "id": 1312,
   "desc": "战斗阶段结束时，任意一方处于异常状态则附加自身已损失体力值50%的固定伤害并恢复等量体力值，双方均不处于异常状态则自身下回合受到的攻击伤害减少50%（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>任意一方处于异常状态则<color=#64F9FA>附加</color>自身已损失体力值50%的<b>百分比伤害</b>并<color=#64F9FA>恢复</color>等量<b>体力</b>\r\n<indent=32><sprite=4><indent=48>双方均不处于异常状态则自身下回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%",
-  "pve_effective": true,
+  "pve_effective": false,
   "intensified": false,
   "is_adv": false,
   "pet": [
@@ -38,5 +38,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "51a663c4"
+  "hash": "5f72a2ce"
 }

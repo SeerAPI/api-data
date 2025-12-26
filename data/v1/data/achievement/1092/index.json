@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "速度+25，攻击+30，特攻+30，体力+60",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 30,
+    "def": 0,
+    "sp_atk": 30,
+    "sp_def": 0,
+    "spd": 25,
+    "hp": 60,
+    "percent": false,
+    "total": 145
+  },
   "id": 1092,
-  "name": "“除夕”勇士",
+  "name": "耀世者",
   "point": 10,
-  "desc": "2022春节限定称号",
+  "desc": "成为2022年费VIP",
   "is_hide": false,
-  "title_id": 410,
-  "title": "“除夕”勇士",
-  "original_title": "“除夕”勇士",
-  "hash": "c2a5b2d1"
+  "title_id": 405,
+  "title": "耀世者",
+  "original_title": "耀世者",
+  "hash": "45ffd255"
 }

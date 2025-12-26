@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "体力+100",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 0,
+    "def": 0,
+    "sp_atk": 0,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 100,
+    "percent": false,
+    "total": 100
+  },
   "id": 955,
-  "name": "鬼灵精挚友",
+  "name": "齐天小圣",
   "point": 10,
-  "desc": "鬼灵精挚友",
+  "desc": "参与2016年春节活动获得",
   "is_hide": false,
-  "title_id": 242,
-  "title": "鬼灵精挚友",
-  "original_title": "鬼灵精挚友",
-  "hash": "d48faa2e"
+  "title_id": 236,
+  "title": "齐天小圣",
+  "original_title": "齐天小圣",
+  "hash": "eca66a35"
 }

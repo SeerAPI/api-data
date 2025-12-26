@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "全属性+10",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 10,
+    "def": 10,
+    "sp_atk": 10,
+    "sp_def": 10,
+    "spd": 10,
+    "hp": 10,
+    "percent": false,
+    "total": 60
+  },
   "id": 871,
-  "name": "友谊万岁",
-  "point": 10,
-  "desc": "参与限时活动获得",
+  "name": "周年庆小贵族",
+  "point": 15,
+  "desc": "参与VIP限时活动获得",
   "is_hide": false,
-  "title_id": 168,
-  "title": "友谊万岁",
-  "original_title": "友谊万岁",
-  "hash": "80a0ce39"
+  "title_id": 165,
+  "title": "周年庆小贵族",
+  "original_title": "周年庆|小贵族",
+  "hash": "8c04f299"
 }

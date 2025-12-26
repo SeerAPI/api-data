@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "攻击+40，特攻+40",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 40,
+    "def": 0,
+    "sp_atk": 40,
+    "sp_def": 0,
+    "spd": 0,
+    "hp": 0,
+    "percent": false,
+    "total": 80
+  },
   "id": 974,
-  "name": "战王之王",
+  "name": "战斗王者",
   "point": 10,
-  "desc": "见证盖亚封王",
+  "desc": "参与【称号升级】活动获得",
   "is_hide": false,
-  "title_id": 261,
-  "title": "战王之王",
-  "original_title": "战王之王",
-  "hash": "db5d40e8"
+  "title_id": 259,
+  "title": "战斗王者",
+  "original_title": "战斗王者",
+  "hash": "db5c23a7"
 }

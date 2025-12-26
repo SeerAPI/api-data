@@ -1,7 +1,7 @@
 {
   "data": {
-    "38172": {
-      "id": 38172,
+    "29215": {
+      "id": 29215,
       "name": "灼目天星",
       "power": 0,
       "max_pp": 5,
@@ -10,7 +10,7 @@
       "priority": 0,
       "must_hit": true,
       "atk_num": 1,
-      "info": "待添加",
+      "info": "开始免疫异常状态了；令对手焚烬了",
       "category": {
         "id": 4,
         "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -32,15 +32,16 @@
           }
         },
         {
-          "info": "命中后100%使对手焚烬，未触发则使对手全属性-1",
+          "info": "100%令对手焚烬，未触发或对手处于烧伤状态则2回合内免疫对手的攻击",
           "args": [
             100,
             22,
-            1
+            2,
+            2
           ],
           "effect": {
-            "id": 1003,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/1003"
+            "id": 2096,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2096"
           }
         },
         {
@@ -54,13 +55,14 @@
           }
         },
         {
-          "info": "2回合内任意一方处于能力下降状态时自身免疫对手的攻击",
+          "info": "3回合内对手使用属性技能则对手全属性-1",
           "args": [
-            2
+            3,
+            1
           ],
           "effect": {
-            "id": 2316,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2316"
+            "id": 1311,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1311"
           }
         },
         {
@@ -76,5 +78,5 @@
       "hide_effect": null
     }
   },
-  "hash": "6d88f615"
+  "hash": "319aa1f2"
 }

@@ -1,6 +1,6 @@
 {
-  "is_ability_bonus": false,
-  "ability_desc": null,
+  "is_ability_bonus": true,
+  "ability_desc": "全属性+20",
   "type": {
     "id": 5,
     "url": "https://api.seerapi.com/v1/achievement_type/5"
@@ -11,14 +11,23 @@
   },
   "next_level_achievement": null,
   "prev_level_achievement": null,
-  "attr_bonus": null,
+  "attr_bonus": {
+    "atk": 20,
+    "def": 20,
+    "sp_atk": 20,
+    "sp_def": 20,
+    "spd": 20,
+    "hp": 20,
+    "percent": false,
+    "total": 120
+  },
   "id": 978,
-  "name": "青之驭龙使",
+  "name": "狂战士",
   "point": 10,
-  "desc": "获得天苍玄魂·青龙",
+  "desc": "参与【绝版称号】活动获得",
   "is_hide": false,
-  "title_id": 265,
-  "title": "青之驭龙使",
-  "original_title": "青之驭龙使",
-  "hash": "ac615098"
+  "title_id": 263,
+  "title": "狂战士",
+  "original_title": "狂战士",
+  "hash": "49bd4478"
 }
