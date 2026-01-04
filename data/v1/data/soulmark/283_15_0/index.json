@@ -1,0 +1,41 @@
+{
+  "data": {
+    "39": {
+      "id": 39,
+      "desc": "致命一击造成的伤害提升20%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2524,
+          "url": "https://api.seerapi.com/v1/pet/2524"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          0
+        ],
+        "effect": {
+          "id": 283,
+          "url": "https://api.seerapi.com/v1/eid_effect/283"
+        }
+      },
+      "effect_alias": "283_15_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 38,
+        "url": "https://api.seerapi.com/v1/soulmark/38"
+      }
+    }
+  },
+  "hash": "7a450f9"
+}

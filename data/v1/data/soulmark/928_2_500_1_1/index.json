@@ -1,0 +1,44 @@
+{
+  "data": {
+    "647": {
+      "id": 647,
+      "desc": "回合开始时，若对手使用攻击技能则造成的攻击伤害不超过自身最大体力的一半，若对手使用属性技能则当回合免疫异常状态且回合结束后解除自身能力下降状态（BOSS无效）；自身死亡后则下只登场精灵获得500点护盾且免疫1次异常状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3322,
+          "url": "https://api.seerapi.com/v1/pet/3322"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          500,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 928,
+          "url": "https://api.seerapi.com/v1/eid_effect/928"
+        }
+      },
+      "effect_alias": "928_2_500_1_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "13d9e5b"
+}

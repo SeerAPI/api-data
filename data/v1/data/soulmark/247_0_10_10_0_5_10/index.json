@@ -1,0 +1,49 @@
+{
+  "data": {
+    "296": {
+      "id": 296,
+      "desc": "洛奇亚专属特性 特攻+10，防御+10，体力+10 ，速度+5",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2320,
+          "url": "https://api.seerapi.com/v1/pet/2320"
+        },
+        {
+          "id": 2321,
+          "url": "https://api.seerapi.com/v1/pet/2321"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          10,
+          10,
+          0,
+          5,
+          10
+        ],
+        "effect": {
+          "id": 247,
+          "url": "https://api.seerapi.com/v1/eid_effect/247"
+        }
+      },
+      "effect_alias": "247_0_10_10_0_5_10",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 295,
+        "url": "https://api.seerapi.com/v1/soulmark/295"
+      }
+    }
+  },
+  "hash": "6a035fdf"
+}

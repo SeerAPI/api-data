@@ -1,0 +1,49 @@
+{
+  "data": {
+    "312": {
+      "id": 312,
+      "desc": "每回合特攻+1、速度+1，每回合附加150点固定伤害(boss无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2852,
+          "url": "https://api.seerapi.com/v1/pet/2852"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          4,
+          1,
+          150,
+          1
+        ],
+        "effect": {
+          "id": 642,
+          "url": "https://api.seerapi.com/v1/eid_effect/642"
+        }
+      },
+      "effect_alias": "642_2_1_4_1_150_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 192,
+        "url": "https://api.seerapi.com/v1/soulmark/192"
+      }
+    }
+  },
+  "hash": "d9f93cb"
+}

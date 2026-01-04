@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1267": {
+      "id": 1267,
+      "desc": "自身先出手时附加对手最大体力1/3的固定伤害，自身后出手时下回合受到的攻击伤害降低50%；回合开始时，若自身处于冰封状态则战斗阶段结束时恢复自身全部体力，若对手处于冰封状态则战斗阶段结束时令自身全属性+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>后出手时下回合受到的<b>攻击伤害</b><color=#64F9FA>降低</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于冰封状态则当回合战斗阶段结束时<color=#64F9FA>恢复</color>自身全部<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若对手处于冰封状态则当回合战斗阶段结束时令自身<color=#64F9FA>全属性+1</color>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4014,
+          "url": "https://api.seerapi.com/v1/pet/4014"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1606,
+          "url": "https://api.seerapi.com/v1/eid_effect/1606"
+        }
+      },
+      "effect_alias": "1606_3_50_1_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f0613fc1"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "490": {
+      "id": 490,
+      "desc": "自身处于能力强化状态时，所有技能使自身恢复最大体力的1/4（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3151,
+          "url": "https://api.seerapi.com/v1/pet/3151"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          4,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 249,
+          "url": "https://api.seerapi.com/v1/eid_effect/249"
+        }
+      },
+      "effect_alias": "249_1_4_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9bc30903"
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1230": {
+      "id": 1230,
+      "desc": "首次登场时，若对手为雄性精灵则100%消除对手回合类效果和能力提升状态；对手为雄性精灵时，当回合自身造成的攻击伤害提升50%且造成的伤害低于300时附加伤害值100%的固定伤害，当回合自身受到的攻击伤害降低50%且受到的伤害高于400时100%令对手害怕（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场时，若对手为雄性精灵则100%<color=#64F9FA>消除</color>对手<b>回合类效果</b>和<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手为雄性精灵时：\r\n<indent=32><sprite=4><indent=48>自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%且造成的伤害低于300时<color=#64F9FA>附加</color>伤害值100%的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>自身受到的<b>攻击伤害</b><color=#64F9FA>降低</color>50%且受到的伤害高于400时100%<color=#64F9FA>令对手害怕</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3965,
+          "url": "https://api.seerapi.com/v1/pet/3965"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          50,
+          300,
+          100,
+          50,
+          400,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1565,
+          "url": "https://api.seerapi.com/v1/eid_effect/1565"
+        }
+      },
+      "effect_alias": "1565_100_50_300_100_50_400_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1242,
+        "url": "https://api.seerapi.com/v1/soulmark/1242"
+      },
+      "from": null
+    }
+  },
+  "hash": "4101372c"
+}

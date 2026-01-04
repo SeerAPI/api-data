@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1732": {
+      "id": 1732,
+      "desc": "自身受到攻击后{吸取}对手最大{体力}的1/3，若受到的攻击伤害低于300则下回合令对手使用的属性技能无效；|战斗阶段结束时双方每损失1点PP值，则下回合自身造成的攻击伤害提升2%，受到的攻击伤害减少1%|（增伤上限为100%，减伤上限为50%，所有特效boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若受到的攻击伤害低于300则下回合对手使用的<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时双方每损失1点PP值，下回合都有：\r\n<indent=32><sprite=4><indent=48>自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>2%，上限100%\r\n<indent=32><sprite=4><indent=48>自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>1%，上限50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4519,
+          "url": "https://api.seerapi.com/v1/pet/4519"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          300,
+          1,
+          2,
+          1,
+          100,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2123,
+          "url": "https://api.seerapi.com/v1/eid_effect/2123"
+        }
+      },
+      "effect_alias": "2123_3_300_1_2_1_100_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "90d81a2e"
+}

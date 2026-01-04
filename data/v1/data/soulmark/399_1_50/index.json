@@ -1,0 +1,38 @@
+{
+  "data": {
+    "183": {
+      "id": 183,
+      "desc": "每次使用攻击技能有50%概率消除对手回合类效果",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2831,
+          "url": "https://api.seerapi.com/v1/pet/2831"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50
+        ],
+        "effect": {
+          "id": 399,
+          "url": "https://api.seerapi.com/v1/eid_effect/399"
+        }
+      },
+      "effect_alias": "399_1_50",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "54365c"
+}

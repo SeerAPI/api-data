@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1784": {
+      "id": 1784,
+      "desc": "回合开始时，若自身处于能力提升状态则自身攻击忽略对手25%的防御值，若自身不处于能力提升状态则自身使用技能时吸取对手200点体力；回合结束后若自身体力高于最大体力的1/2则下回合攻击必定打出致命一击（所有效果boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则自身攻击<color=#64F9FA>忽略</color>对手25%的<b>防御值</b>\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则自身使用技能时<color=#64F9FA>吸取</color>对手200点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后若自身体力高于最大体力的1/2则下回合攻击必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4575,
+          "url": "https://api.seerapi.com/v1/pet/4575"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          200,
+          2
+        ],
+        "effect": {
+          "id": 2178,
+          "url": "https://api.seerapi.com/v1/eid_effect/2178"
+        }
+      },
+      "effect_alias": "2178_25_200_2",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ffc424e1"
+}

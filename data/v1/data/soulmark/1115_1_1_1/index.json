@@ -1,0 +1,47 @@
+{
+  "data": {
+    "829": {
+      "id": 829,
+      "desc": "自身攻击造成致命一击时恢复自身全部体力，未打出致命一击则下回合自身攻击必定致命一击；本回合受到攻击则下回合免疫对手造成的攻击伤害，未受到攻击则使自身特攻+1、速度+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3520,
+          "url": "https://api.seerapi.com/v1/pet/3520"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1115,
+          "url": "https://api.seerapi.com/v1/eid_effect/1115"
+        }
+      },
+      "effect_alias": "1115_1_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "799a7ec1"
+}

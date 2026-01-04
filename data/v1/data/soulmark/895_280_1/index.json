@@ -1,0 +1,38 @@
+{
+  "data": {
+    "607": {
+      "id": 607,
+      "desc": "对手使用攻击技能造成的伤害低于280则使对手冰封（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3281,
+          "url": "https://api.seerapi.com/v1/pet/3281"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          280,
+          1
+        ],
+        "effect": {
+          "id": 895,
+          "url": "https://api.seerapi.com/v1/eid_effect/895"
+        }
+      },
+      "effect_alias": "895_280_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e60713f3"
+}

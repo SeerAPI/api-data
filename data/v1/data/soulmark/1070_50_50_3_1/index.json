@@ -1,0 +1,44 @@
+{
+  "data": {
+    "786": {
+      "id": 786,
+      "desc": "受到攻击时有50%概率使对手烧伤，同时有50%概率使对手焚烬；攻击时若对手处于异常状态则附加对手最大体力1/3的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3472,
+          "url": "https://api.seerapi.com/v1/pet/3472"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1070,
+          "url": "https://api.seerapi.com/v1/eid_effect/1070"
+        }
+      },
+      "effect_alias": "1070_50_50_3_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "aadf2345"
+}

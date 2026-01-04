@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1094": {
+      "id": 1094,
+      "desc": "自身所有攻击无视对手的防御和特防能力提升状态；若被对手击败则使自身下1只登场精灵前3回合每个战斗阶段结束时恢复自身所有技能1点PP值（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身所有攻击<color=#64F9FA>无视</color>对手的防御和特防<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>被击败时使自身下1只登场精灵前3回合每个战斗阶段结束时<color=#64F9FA>恢复</color>自身所有技能1点<b>PP值</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3819,
+          "url": "https://api.seerapi.com/v1/pet/3819"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1402,
+          "url": "https://api.seerapi.com/v1/eid_effect/1402"
+        }
+      },
+      "effect_alias": "1402_3_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "eca7da1d"
+}

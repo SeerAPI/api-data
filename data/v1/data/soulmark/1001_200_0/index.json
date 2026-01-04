@@ -1,0 +1,38 @@
+{
+  "data": {
+    "714": {
+      "id": 714,
+      "desc": "当回合攻击未击败对手则为自身附加200点护盾",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3401,
+          "url": "https://api.seerapi.com/v1/pet/3401"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          0
+        ],
+        "effect": {
+          "id": 1001,
+          "url": "https://api.seerapi.com/v1/eid_effect/1001"
+        }
+      },
+      "effect_alias": "1001_200_0",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6d1ef56c"
+}

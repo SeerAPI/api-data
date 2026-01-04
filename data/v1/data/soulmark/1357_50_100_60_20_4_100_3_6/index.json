@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1061": {
+      "id": 1061,
+      "desc": "1.自身作为首发精灵时，登场首回合令对手无法主动切换精灵且50%驱逐对手（boss无效）；|2.自身首次出战时召唤“辛”，“辛”的初始体力等同于自身的最大体力值且代替自身承受60%受到的伤害（包括固定伤害、百分比伤害），“辛”体力为0或自身死亡时，“辛”死亡（boss有效）；|3.回合开始时若“辛”死亡，则不再代替自身承受伤害，若“辛”存活，则自身获得如下效果：|①.“辛”每损失20%的体力，当回合自身造成的攻击伤害提升10%（boss有效）；|②.自身处于异常状态，则令对手随机1个技能PP值归零（boss无效）；|③.自身处于能力下降状态，则当回合战斗阶段结束时附加对手最大体力1/4的百分比伤害（boss无效）；|4.“辛”死亡的当回合结束后，自身开始免疫所有固定伤害、百分比伤害以及能力下降状态并将固定伤害和百分比伤害抗性视为100%，且下回合100%驱逐对手（boss无效）；|5、自身死亡的当回合结束后，为己方所有精灵加持辛之印记（boss有效）；|6、己方每有一只精灵死亡则当回合自身有6%的概率闪避对手技能，若对手为英雄圣殿成员则闪避率翻倍（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身作为首发精灵时，登场首回合令对手<color=#64F9FA>无法主动切换精灵</color>且50%驱逐对手\r\n\r\n<indent=0><sprite=0><indent=16>辛之契约（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身首次出战时召唤初始体力等同于自身的最大体力的“辛”，“辛”将<color=#64F9FA>代替自身承受</color>60%受到的<b>攻击伤害</b>、<b>固定伤害</b>、<b>百分比伤害</b>，“辛”体力为0或自身死亡时，“辛”死亡\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若“辛”死亡，则不再代替自身承受伤害，若“辛”存活，则自身获得如下效果：\r\n<indent=32><sprite=4><indent=48>“辛”每损失20%的体力，当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%（boss有效）\r\n<indent=32><sprite=4><indent=48>自身处于异常状态，则令对手随机1个技能PP值<color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><indent=48>自身处于能力下降状态，则当回合战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力1/4的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>荒神融合：\r\n<indent=16><sprite=3><indent=32>“辛”死亡时，本场战斗自身自当回合结束后起：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有<b>固定伤害</b>、<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>在战斗中将固定伤害和百分比伤害抗性视为100%\r\n<indent=16><sprite=3><indent=32>“辛”死亡时，下回合自身100%驱逐对手\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身被击败后，为己方加持<color=#FFF779>辛之印记</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>己方每有一只精灵阵亡则当回合自身有6%的概率<color=#64F9FA>闪避</color>对手技能\r\n<indent=32><sprite=4><indent=48>若对手为<b>英雄圣殿成员</b>则概率翻倍\r\n\r\n<indent=0><sprite=5><indent=15>辛之印记：\r\n<indent=16><sprite=6><indent=32>每场战斗限1次\r\n<indent=16><sprite=6><indent=32>下3回合期间<b>己方精灵</b>：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有<b>固定伤害</b>、<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>将固定伤害和百分比伤害抗性视为100%\r\n<indent=32><sprite=4><indent=48>攻击技能<color=#64F9FA>必定致命一击</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3788,
+          "url": "https://api.seerapi.com/v1/pet/3788"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          60,
+          20,
+          4,
+          100,
+          3,
+          6
+        ],
+        "effect": {
+          "id": 1357,
+          "url": "https://api.seerapi.com/v1/eid_effect/1357"
+        }
+      },
+      "effect_alias": "1357_50_100_60_20_4_100_3_6",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f4630d6d"
+}

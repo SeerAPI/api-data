@@ -1,0 +1,50 @@
+{
+  "data": {
+    "766": {
+      "id": 766,
+      "desc": "使用攻击技能时伤害提升30%，每次使用增加30%，最高120%，当回合对手未受到攻击伤害则战斗阶段结束时50%令对手焚烬，未触发则下回合先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3454,
+          "url": "https://api.seerapi.com/v1/pet/3454"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          30,
+          120,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1050,
+          "url": "https://api.seerapi.com/v1/eid_effect/1050"
+        }
+      },
+      "effect_alias": "1050_30_30_120_50_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "241ed6fb"
+}

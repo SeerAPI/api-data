@@ -1,0 +1,53 @@
+{
+  "data": {
+    "928": {
+      "id": 928,
+      "desc": "回合开始时令自身防御+1、特防+1、速度+1，令对手防御-1、特防-1、速度-1；|自身受到的攻击伤害大于350则恢复自身所有体力，自身受到的攻击伤害小于350则反弹给对手造成伤害50%的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>令自身防御+1、特防+1、速度+1\r\n<indent=32><sprite=4><indent=48>令对手防御-1、特防-1、速度-1\r\n\r\n<indent=0><sprite=0><indent=16>受击额外效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害大于350则<color=#64F9FA>恢复</color><b>自身所有体力</b>\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害小于350则<color=#64F9FA>反弹</color>给对手造成伤害50%的<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3637,
+          "url": "https://api.seerapi.com/v1/pet/3637"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          350,
+          350,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1217,
+          "url": "https://api.seerapi.com/v1/eid_effect/1217"
+        }
+      },
+      "effect_alias": "1217_1_1_350_350_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": {
+        "id": 1474,
+        "url": "https://api.seerapi.com/v1/soulmark/1474"
+      },
+      "from": null
+    }
+  },
+  "hash": "19b066e0"
+}

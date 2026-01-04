@@ -1,0 +1,41 @@
+{
+  "data": {
+    "500": {
+      "id": 500,
+      "desc": "受到攻击时50%使对手冰封，若不触发则有50%概率令对手麻痹（BOSS无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击后50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手麻痹</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3171,
+          "url": "https://api.seerapi.com/v1/pet/3171"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50
+        ],
+        "effect": {
+          "id": 804,
+          "url": "https://api.seerapi.com/v1/eid_effect/804"
+        }
+      },
+      "effect_alias": "804_50_50",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1918,
+        "url": "https://api.seerapi.com/v1/soulmark/1918"
+      },
+      "from": null
+    }
+  },
+  "hash": "72fbe86b"
+}

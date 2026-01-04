@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1411": {
+      "id": 1411,
+      "desc": "当回合使用的技能类型与上次相同则随机附加200-400点固定伤害，自身体力低于最大体力的1/2时转变为随机{吸取}对手200-400点{体力}；|当回合使用的技能类型与上次不同则50%令对手冰封，未触发则下回合自身所有技能先制+1；|自身死亡时，若对手当前体力值≤300则触发寒晶之护：解除自身异常状态和能力下降状态，自身无法死亡且恢复与对手当前同等的体力值(boss无效)",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用的技能类型与上次相同则随机<color=#64F9FA>附加</color>200-400点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于最大体力的1/2时转变为随机<color=#64F9FA>吸取</color>对手200-400点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>使用的技能类型与上次不同则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合自身所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身死亡时，若对手当前体力值≤300则触发寒晶之护：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>解除</color>自身<b>异常状态和能力下降</b>状态\r\n<indent=32><sprite=4><indent=48>自身<color=#64F9FA>保留</color>1点<b>体力</b>且<color=#64F9FA>恢复</color>与对手当前同等的<b>体力</b>值",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4189,
+          "url": "https://api.seerapi.com/v1/pet/4189"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          400,
+          2,
+          50,
+          1,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1782,
+          "url": "https://api.seerapi.com/v1/eid_effect/1782"
+        }
+      },
+      "effect_alias": "1782_200_400_2_50_1_300_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "61b7755e"
+}

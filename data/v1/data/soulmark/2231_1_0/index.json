@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1845": {
+      "id": 1845,
+      "desc": "克雷弗德在场期间德莱赫默与其一同战斗，克雷弗德技能中的构造效果每次在场首次生效时德莱赫默获得对应构造，德莱赫默初始为守备状态，构造数不低于2时转变为激发状态，构造数下场重置|回合开始时若德莱赫默处于守备状态则每空缺一种构造克雷弗德受到的攻击伤害减少10%且回合结束后恢复所有攻击技能1点PP值，若德莱赫默处于激发状态则每拥有1种构造克雷弗德造成的攻击伤害提升15%且攻击技能先制+1|克雷弗德选择了技能且无法行动的回合，德莱赫默会在行动阶段结束后根据所处状态进行一次额外行动：|激发状态使用核威强袭：以电系、机械系、电机械系中对对手克制倍数最高的系别造成300点伤害|守备状态使用激鸣雷封：100%令对手麻痹并为克雷弗德附加300点护盾|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>克雷弗德在场期间，<b>德莱赫默</b>与其一同战斗：\r\n<indent=32><sprite=4><indent=48>克雷弗德技能中的<b>构造</b>效果每次在场首次<color=#64F9FA>生效</color>时德莱赫默获得<b>对应构造</b>\r\n<indent=32><sprite=4><indent=48>德莱赫默初始为<b>守备状态</b>，构造数不低于2时转变为<b>激发状态</b>，构造数下场重置\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若德莱赫默处于守备状态则每空缺1种构造克雷弗德受到的<b>攻击伤害</b><color=#64F9FA>减少</color>10%且回合结束后<color=#64F9FA>恢复</color>所有攻击技能1点PP值\r\n<indent=32><sprite=4><indent=48>若德莱赫默处于激发状态则每拥有1种构造克雷弗德造成的<b>攻击伤害</b><color=#64F9FA>提升</color>15%且攻击技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>追击效果：\r\n<indent=16><sprite=3><indent=32>克雷弗德选择了技能且无法行动的回合，德莱赫默会在行动阶段结束后根据所处状态进行一次<b>额外行动</b>：\r\n<indent=32><sprite=4><indent=48>处于激发状态：使用核威强袭，以电系、机械系、电机械系中对对手<b>克制倍数</b>最高的系别造成300点伤害\r\n<indent=32><sprite=4><indent=48>处于守备状态：使用激鸣雷封，100%<color=#64F9FA>令对手麻痹</color>并为克雷弗德<color=#64F9FA>附加</color>300点<b>护盾</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4644,
+          "url": "https://api.seerapi.com/v1/pet/4644"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2231,
+          "url": "https://api.seerapi.com/v1/eid_effect/2231"
+        }
+      },
+      "effect_alias": "2231_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a8604c2"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "323": {
+      "id": 323,
+      "desc": "对手处于害怕状态时攻击威力翻倍；每回合恢复150HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2915,
+          "url": "https://api.seerapi.com/v1/pet/2915"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          6,
+          2,
+          150
+        ],
+        "effect": {
+          "id": 652,
+          "url": "https://api.seerapi.com/v1/eid_effect/652"
+        }
+      },
+      "effect_alias": "652_6_2_150",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a8054d36"
+}

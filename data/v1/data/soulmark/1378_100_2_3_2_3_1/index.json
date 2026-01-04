@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1076": {
+      "id": 1076,
+      "desc": "首次登场100%令对手烧伤；回合开始时，若自身体力低于最大体力的1/2则当回合攻击命中后{吸取}对手最大{体力}的1/3；战斗阶段结束时，若自身体力高于最大体力的1/2则下回合攻击命中后{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场100%<color=#64F9FA>令对手烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力低于最大体力的1/2则当回合攻击命中后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身体力高于最大体力的1/2则下回合攻击命中后<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3800,
+          "url": "https://api.seerapi.com/v1/pet/3800"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          2,
+          3,
+          2,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1378,
+          "url": "https://api.seerapi.com/v1/eid_effect/1378"
+        }
+      },
+      "effect_alias": "1378_100_2_3_2_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bdd9fda4"
+}

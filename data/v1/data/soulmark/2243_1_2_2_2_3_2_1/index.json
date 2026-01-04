@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1843": {
+      "id": 1843,
+      "desc": "回合开始时若自身未满体力则战斗阶段结束时令自身防御、特防、命中+1，战斗阶段结束时若对手处于睡眠或失神状态则令对手下回合无法主动切换精灵|自身选择属性技能时下回合攻击技能必定打出致命一击且命中后令对手失神，自身使用属性技能时2回合内额外令对手无法恢复体力，自身连续2回合使用属性技能时2回合内额外免疫受到的异常状态，自身连续3回合使用属性技能时2回合内额外抵挡对手的攻击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身为未满体力则战斗阶段结束时令自身防御、特防、命中+1 \r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若对手处于睡眠或失神状态则令对手下回合<color=#64F9FA>无法主动切换精灵</color>\r\n\r\n<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身选择属性技能时下回合<b>攻击技能</b>必定<color=#64F9FA>打出致命一击</color>且命中后<color=#64F9FA>令对手失神</color>\r\n<indent=16><sprite=3><indent=32>自身使用属性技能时2回合内额外令对手<color=#64F9FA>无法恢复体力</color>\r\n<indent=16><sprite=3><indent=32>自身连续2回合使用属性技能时2回合内额外<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>自身连续3回合以上使用属性技能时2回合内额外<color=#64F9FA>抵挡</color>受到的<b>攻击</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4642,
+          "url": "https://api.seerapi.com/v1/pet/4642"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          2,
+          2,
+          3,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2243,
+          "url": "https://api.seerapi.com/v1/eid_effect/2243"
+        }
+      },
+      "effect_alias": "2243_1_2_2_2_3_2_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6da24165"
+}

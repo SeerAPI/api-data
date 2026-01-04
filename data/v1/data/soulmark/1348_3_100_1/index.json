@@ -1,0 +1,39 @@
+{
+  "data": {
+    "1048": {
+      "id": 1048,
+      "desc": "桃桃每经过3回合会进行一次桃桃蓄力：当回合攻击技能100%的概率打出致命一击！（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>桃桃蓄力：\r\n<indent=16><sprite=3><indent=32>桃桃每逢第3回合会进行一次桃桃蓄力：当回合攻击技能100%的概率<color=#64F9FA>打出致命一击</color>！",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3771,
+          "url": "https://api.seerapi.com/v1/pet/3771"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1348,
+          "url": "https://api.seerapi.com/v1/eid_effect/1348"
+        }
+      },
+      "effect_alias": "1348_3_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4d523fe5"
+}

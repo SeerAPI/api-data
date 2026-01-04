@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1102": {
+      "id": 1102,
+      "desc": "连续使用攻击技能时50%的概率附加等同于对手防御值的固定伤害，未触发则自身随机2个技能恢复1点PP值；连续使用属性技能时50%的概率附加等同于自身防御值的固定伤害，未触发则对手随机2个技能PP值-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>连续使用攻击技能时50%<color=#64F9FA>附加</color>等同于对手防御值的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则自身随机2个技能<b>PP值</b>+1\r\n<indent=16><sprite=3><indent=32>连续使用属性技能时50%<color=#64F9FA>附加</color>等同于自身防御值的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则对手随机2个技能<b>PP值</b>-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3827,
+          "url": "https://api.seerapi.com/v1/pet/3827"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1413,
+          "url": "https://api.seerapi.com/v1/eid_effect/1413"
+        }
+      },
+      "effect_alias": "1413_50_2_1_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "453b5f4f"
+}

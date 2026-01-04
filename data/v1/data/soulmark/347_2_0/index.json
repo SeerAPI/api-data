@@ -1,0 +1,38 @@
+{
+  "data": {
+    "119": {
+      "id": 119,
+      "desc": "①战斗阶段结束时，若自身体力低于对手体力，则下回合所有技能先制+2；|②出战时，若首回合受到致命伤害则保留1点体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2713,
+          "url": "https://api.seerapi.com/v1/pet/2713"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          0
+        ],
+        "effect": {
+          "id": 347,
+          "url": "https://api.seerapi.com/v1/eid_effect/347"
+        }
+      },
+      "effect_alias": "347_2_0",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "102b70dc"
+}

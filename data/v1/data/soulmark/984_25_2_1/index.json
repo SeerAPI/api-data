@@ -1,0 +1,43 @@
+{
+  "data": {
+    "704": {
+      "id": 704,
+      "desc": "自身受到的攻击伤害降低25%；对手使用攻击技能时所有PP-2（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3386,
+          "url": "https://api.seerapi.com/v1/pet/3386"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 984,
+          "url": "https://api.seerapi.com/v1/eid_effect/984"
+        }
+      },
+      "effect_alias": "984_25_2_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b6e35efc"
+}

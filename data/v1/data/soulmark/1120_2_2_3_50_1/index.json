@@ -1,0 +1,45 @@
+{
+  "data": {
+    "838": {
+      "id": 838,
+      "desc": "回合开始时随机令对手2项属性-2，若对手处于能力下降状态则变为随机令对手2项属性-3；回合开始时和战斗阶段结束时若对手能力等级发生变化则下回合自身攻击50%令对手害怕（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3528,
+          "url": "https://api.seerapi.com/v1/pet/3528"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          3,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1120,
+          "url": "https://api.seerapi.com/v1/eid_effect/1120"
+        }
+      },
+      "effect_alias": "1120_2_2_3_50_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e3d780c8"
+}

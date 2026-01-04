@@ -1,38 +1,65 @@
 {
-  "id": 263,
-  "desc": "天府星守护者阿苏亚专属特性 攻击+10，防御+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": true,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2236,
-      "url": "https://api.seerapi.com/v1/pet/2236"
+  "data": {
+    "11": {
+      "id": 11,
+      "desc": "开场两回合内所有直接攻击都会使对手防御-1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2452,
+          "url": "https://api.seerapi.com/v1/pet/2452"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 263,
+          "url": "https://api.seerapi.com/v1/eid_effect/263"
+        }
+      },
+      "effect_alias": "263",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     },
-    {
-      "id": 2237,
-      "url": "https://api.seerapi.com/v1/pet/2237"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      0,
-      10,
-      10
-    ],
-    "effect": {
-      "id": 247,
-      "url": "https://api.seerapi.com/v1/eid_effect/247"
+    "12": {
+      "id": 12,
+      "desc": "开场两回合内所有直接攻击都会使对手防御-1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2453,
+          "url": "https://api.seerapi.com/v1/pet/2453"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 263,
+          "url": "https://api.seerapi.com/v1/eid_effect/263"
+        }
+      },
+      "effect_alias": "263",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "787e22e3"
+  "hash": "6c08fbdf"
 }

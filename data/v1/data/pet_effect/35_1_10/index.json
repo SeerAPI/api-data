@@ -1,0 +1,26 @@
+{
+  "data": {
+    "1382": {
+      "id": 1382,
+      "name": "抵抗",
+      "desc": "受到任何攻击时有10%几率使自身防御提升1个等级",
+      "effect": {
+        "effect_args": [
+          1,
+          10
+        ],
+        "effect": {
+          "id": 35,
+          "url": "https://api.seerapi.com/v1/eid_effect/35"
+        }
+      },
+      "effect_alias": "35_1_10",
+      "star_level": 3,
+      "effect_group": {
+        "id": 33,
+        "url": "https://api.seerapi.com/v1/pet_effect_group/33"
+      }
+    }
+  },
+  "hash": "f707b1e5"
+}

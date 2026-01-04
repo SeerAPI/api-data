@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1820": {
+      "id": 1820,
+      "desc": "双方每次使用技能后，自身吸取对手所有技能1点PP值，然后若自身所有技能PP值为满则获得300点护盾；回合开始时，若自身处于能力提升则消除双方回合类效果与能力提升，消除任意一项成功当回合自身免疫受到的异常状态且自身每有300点护盾造成伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>双方每次使用技能后，自身<color=#64F9FA>吸取</color>对手所有技能1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>然后若自身所有技能PP值为满则<color=#64F9FA>获得</color>300点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于能力提升则<color=#64F9FA>消除</color>双方<b>能力提升</b>与<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>消除任意一项成功当回合自身<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且自身每有300点护盾造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4612,
+          "url": "https://api.seerapi.com/v1/pet/4612"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          300,
+          300,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2208,
+          "url": "https://api.seerapi.com/v1/eid_effect/2208"
+        }
+      },
+      "effect_alias": "2208_1_300_300_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8b36efd4"
+}

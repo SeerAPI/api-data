@@ -1,0 +1,48 @@
+{
+  "data": {
+    "800": {
+      "id": 800,
+      "desc": "对手处于烧伤状态时每回合自身受到的伤害减少250点；对手处于冻伤状态时每回合{吸取}对手250点{体力}；对手处于中毒状态时每回合附加300点固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3485,
+          "url": "https://api.seerapi.com/v1/pet/3485"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          250,
+          250,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1081,
+          "url": "https://api.seerapi.com/v1/eid_effect/1081"
+        }
+      },
+      "effect_alias": "1081_250_250_300_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "36abcf69"
+}

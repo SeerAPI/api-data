@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1188": {
+      "id": 1188,
+      "desc": "每次受到攻击伤害的50%转化为自身体力，自身当前体力低于最大体力的1/2时附加给对手恢复体力等量固定伤害；回合开始时，若对手处于能力提升状态则自身当回合免疫异常状态，若自身处于能力提升状态则自身当回合所有技能先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每次受到攻击伤害的50%<color=#64F9FA>转化</color>为自身<b>体力</b>\r\n<indent=32><sprite=4><indent=48>自身当前体力低于最大体力的1/2时<color=#64F9FA>附加</color>给对手等量<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则自身当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则自身当回合所有技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3923,
+          "url": "https://api.seerapi.com/v1/pet/3923"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1516,
+          "url": "https://api.seerapi.com/v1/eid_effect/1516"
+        }
+      },
+      "effect_alias": "1516_50_2_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ac19c227"
+}

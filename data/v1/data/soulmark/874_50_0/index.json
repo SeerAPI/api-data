@@ -1,0 +1,42 @@
+{
+  "data": {
+    "585": {
+      "id": 585,
+      "desc": "出手时根据自身已损失体力百分比提升自身伤害；每回合恢复自身已损失体力的50%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3259,
+          "url": "https://api.seerapi.com/v1/pet/3259"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          0
+        ],
+        "effect": {
+          "id": 874,
+          "url": "https://api.seerapi.com/v1/eid_effect/874"
+        }
+      },
+      "effect_alias": "874_50_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "68d1e3c"
+}

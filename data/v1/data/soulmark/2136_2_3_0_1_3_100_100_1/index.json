@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1745": {
+      "id": 1745,
+      "desc": "每次登场2回合内自身使用技能无视对手能力提升状态且对手的先制等级最高为3，若本次登场为首次登场，则登场时额外为对手附加痕；|自身使用技能后会根据双方当回合先制等级总和n触发如下效果：|n≤0：若当回合自身未受到攻击伤害则令对手全属性-1，若当回合自身受到攻击伤害则令己方免疫下1次受到的异常状态；|n≥3：若使用的为攻击技能则附加给对手n×100点固定伤害，若使用的为属性技能则恢复自身n×100点体力；|回合结束后若自身死亡，则反转对手能力提升状态且己方下只精灵出战时为其附加刻|（刻、痕下场后保留，所有特效boss无效）|刻：持有精灵使用攻击技能后消失并为对手附加痕，若对手已持有痕则免疫下1次受到的攻击|痕：持有精灵无法使用威力为0的攻击技能，触发无法使用后消失；若持有精灵被击败，则之后的下只精灵出战时随机受到疲惫或害怕中的1种异常状态",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场2回合内自身使用技能无视对手能力提升状态且对手的<b>先制等级</b><color=#64F9FA>最高为3</color>\r\n<indent=32><sprite=4><indent=48>若本次登场为首次登场，则登场时额外为对手附加<color=#FFF779>痕</color>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后会根据双方当回合<b>先制等级总和</b>n触发如下效果：\r\n<indent=32><sprite=4><indent=48>n≤0：\r\n<indent=32><sprite=4><sprite=4><indent=64>若当回合自身未受到攻击伤害则令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>若当回合自身受到攻击伤害则令己方<color=#64F9FA>免疫</color>下1次受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>n≥3：\r\n<indent=32><sprite=4><sprite=4><indent=64>若使用的为攻击技能则<color=#64F9FA>附加</color>给对手n×100点<b>固定伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若使用的为属性技能则<color=#64F9FA>恢复</color>自身n×100点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，<color=#64F9FA>反转</color>对手<b>能力提升状态</b>且己方下只精灵出战时为其附加<color=#FFF779>刻</color>\r\n\r\n<indent=0><sprite=5><indent=15>刻（下场保留）：\r\n<indent=16><sprite=6><indent=32>持有精灵使用攻击技能后为对手附加痕，触发后消失\r\n<indent=32><sprite=4><indent=48>若对手已持有痕则<color=#64F9FA>免疫</color>下1次受到的<b>攻击</b>\r\n\r\n<indent=0><sprite=5><indent=15>痕（下场保留）：\r\n<indent=16><sprite=6><indent=32>持有精灵威力为0的攻击技能<color=#64F9FA>命中效果失效</color>，触发后消失\r\n<indent=32><sprite=4><indent=48>若持有精灵被击败，则下只精灵出战时随机<color=#64F9FA>受到</color>疲惫或害怕中的1种<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4532,
+          "url": "https://api.seerapi.com/v1/pet/4532"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          3,
+          0,
+          1,
+          3,
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2136,
+          "url": "https://api.seerapi.com/v1/eid_effect/2136"
+        }
+      },
+      "effect_alias": "2136_2_3_0_1_3_100_100_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c7685b99"
+}

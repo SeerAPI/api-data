@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1842": {
+      "id": 1842,
+      "desc": "每次登场时为自身附加2回合的寄生、流血，双方每阵亡一只精灵回合数+1，然后双方恢复全部PP值与等同于所恢复PP值*50的体力；之后自身每处于一种异常状态，自身受到的攻击伤害、固定伤害、百分比伤害减少20%|战斗阶段结束时，自身每处于1种弱化类异常状态令所处的控制类异常状态回合数-1，最多减少至1，若自身所处的异常状态不低于4种则消除对手回合类效果并触发枫落殇思：解除自身所处的异常状态，下回合自身使用技能不受PP值限制，使用攻击技能无视免疫效果、伤害限制效果|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时：\r\n<indent=32><sprite=4><indent=48>为<b>自身</b><color=#64F9FA>附加</color>2回合的寄生、流血，双方每阵亡一只精灵回合数+1\r\n<indent=32><sprite=4><indent=48><b>双方</b><color=#64F9FA>恢复</color>全部PP值与等同于所恢复PP值*50的体力\r\n<indent=16><sprite=3><indent=32>登场之后自身每处于一种<b>异常状态</b>，自身受到的攻击伤害、固定伤害、百分比伤害<color=#64F9FA>减少</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，自身每处于1种<b>弱化类异常状态</b>令所处的控制类异常状态回合数-1，最多减少至1\r\n<indent=32><sprite=4><indent=48>若此时自身所处的异常状态不低于4种则<color=#64F9FA>消除</color>对手回合类效果并触发<color=#FFF779>枫落殇思</color>\r\n\r\n<indent=0><sprite=5><indent=15>枫落殇思：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>解除</color>自身所处的异常状态\r\n<indent=16><sprite=6><indent=32>下回合自身使用技能<color=#64F9FA>不受PP值限制</color>\r\n<indent=16><sprite=6><indent=32>使用攻击技能<color=#64F9FA>无视</color>攻击免疫效果、伤害限制效果",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4635,
+          "url": "https://api.seerapi.com/v1/pet/4635"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          20,
+          1,
+          1,
+          1,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 2240,
+          "url": "https://api.seerapi.com/v1/eid_effect/2240"
+        }
+      },
+      "effect_alias": "2240_2_1_20_1_1_1_4_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5ae572c5"
+}

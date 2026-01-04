@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1739": {
+      "id": 1739,
+      "desc": "二郎神所有技能必定命中且使用攻击技能后恢复伤害值等量的体力，若恢复的体力值为0则100%令对手害怕；|回合开始时若自身不处于能力提升状态则当回合自身攻击值额外提升对手防御值等量的数值（提升的部分不受能力提升、下降影响），若自身处于能力提升状态则当回合对手使用的属性技能无效；|每场战斗限一次，自身击败对手时触发法天象地：|法天象地：触发时重置自身的体力值、PP值、所处异常状态，3回合内（含当回合及下2回合）自身免疫异常状态、所有技能先制+1且攻击技能使用后{吸取}对手300点{体力}，下场消失|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>二郎神所有技能<color=#64F9FA>必定命中</color>且造成攻击伤害后<color=#64F9FA>恢复</color>伤害值等量的<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若恢复的体力值为0则100%<color=#64F9FA>令对手害怕</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合自身攻击值额外提升对手防御值等量的数值，提升的部分不受能力提升、下降影响\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升则当回合对手<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身击败对手时触发<color=#FFF779>法天象地</color>\r\n\r\n<indent=0><sprite=5><indent=15>法天象地：\r\n<indent=16><sprite=6><indent=32>触发时<color=#64F9FA>重置</color>自身的<b>体力值、PP值、所处异常状态</b>\r\n<indent=16><sprite=6><indent=32>3回合内（含当回合及下2回合）自身<color=#64F9FA>免疫</color><b>异常状态</b>、所有技能<b>先制+1且攻击技能使用后<color=#64F9FA>吸取</color>对手300点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4525,
+          "url": "https://api.seerapi.com/v1/pet/4525"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2120,
+          "url": "https://api.seerapi.com/v1/eid_effect/2120"
+        }
+      },
+      "effect_alias": "2120_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": {
+        "id": 1939,
+        "url": "https://api.seerapi.com/v1/soulmark/1939"
+      },
+      "from": null
+    }
+  },
+  "hash": "eda1cf25"
+}

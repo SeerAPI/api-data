@@ -1,0 +1,46 @@
+{
+  "data": {
+    "554": {
+      "id": 554,
+      "desc": "伙伴特性 若造成伤害小于对手体力的1/2,则追加350点固定伤害;若伤害大于对手体力1/2,则造成伤害的60%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2939,
+          "url": "https://api.seerapi.com/v1/pet/2939"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          350,
+          60
+        ],
+        "effect": {
+          "id": 663,
+          "url": "https://api.seerapi.com/v1/eid_effect/663"
+        }
+      },
+      "effect_alias": "663_2_350_60",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 338,
+        "url": "https://api.seerapi.com/v1/soulmark/338"
+      }
+    }
+  },
+  "hash": "41f29543"
+}

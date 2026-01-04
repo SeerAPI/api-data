@@ -1,0 +1,52 @@
+{
+  "data": {
+    "660": {
+      "id": 660,
+      "desc": "先出手时50%概率使对手技能失效，出手时若自身处于能力提升状态则概率提升至65%，未触发则为自身附加300点护盾；后出手时50%概率使自身造成的伤害随机提升50%~150%，未触发则战斗阶段结束时自身全属性+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3340,
+          "url": "https://api.seerapi.com/v1/pet/3340"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          65,
+          300,
+          50,
+          50,
+          150,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 943,
+          "url": "https://api.seerapi.com/v1/eid_effect/943"
+        }
+      },
+      "effect_alias": "943_50_65_300_50_50_150_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b7ea531e"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1733": {
+      "id": 1733,
+      "desc": "自身使用攻击技能造成伤害前50%令对手害怕，未触发则当次攻击造成的伤害提升100%且令自身下次攻击触发害怕概率翻倍；|对手使用攻击技能造成伤害前50%令对手冰封，未触发则{吸取}对手最大{体力}的1/3且令对手下次攻击触发冰封概率翻倍；|每次击败处于异常状态的对手则本场战斗中自身所有技能先制+1|（先制提升效果可以叠加，下场后保留，所有特效boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能造成伤害前50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则当次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%且令自身下次攻击触发害怕概率翻倍\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能造成伤害前50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>主动吸取</color>对手最大体力的1/3且令对手下次攻击触发冰封概率翻倍\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>每次击败处于异常状态的对手则本场战斗中自身所有技能<b>先制</b>+1，可叠加",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4521,
+          "url": "https://api.seerapi.com/v1/pet/4521"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          50,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2129,
+          "url": "https://api.seerapi.com/v1/eid_effect/2129"
+        }
+      },
+      "effect_alias": "2129_50_100_50_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1bd9db7d"
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1480": {
+      "id": 1480,
+      "desc": "对手每次主动切换精灵时100%的概率令对手登场精灵进入烧伤状态；|自身当回合造成的攻击伤害高于300则70%令对手害怕，未触发则100%令对手烧伤，若回合开始时对手处于烧伤状态则造成的攻击伤害高于200即可触发效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次主动切换精灵时100%令对手登场精灵烧伤\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300则70%<color=#64F9FA>令对手害怕</color>，若回合开始时对手处于烧伤状态则当回合该阈值改为200\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手烧伤</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4254,
+          "url": "https://api.seerapi.com/v1/pet/4254"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          300,
+          70,
+          100,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 1842,
+          "url": "https://api.seerapi.com/v1/eid_effect/1842"
+        }
+      },
+      "effect_alias": "1842_100_300_70_100_200_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d81af71c"
+}

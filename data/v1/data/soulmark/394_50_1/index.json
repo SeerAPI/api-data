@@ -1,0 +1,41 @@
+{
+  "data": {
+    "168": {
+      "id": 168,
+      "desc": "每回合若自身后出手则有50%的概率使对手所有PP降低1点（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2817,
+          "url": "https://api.seerapi.com/v1/pet/2817"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1
+        ],
+        "effect": {
+          "id": 394,
+          "url": "https://api.seerapi.com/v1/eid_effect/394"
+        }
+      },
+      "effect_alias": "394_50_1",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": {
+        "id": 313,
+        "url": "https://api.seerapi.com/v1/soulmark/313"
+      },
+      "from": null
+    }
+  },
+  "hash": "e6f09cfc"
+}

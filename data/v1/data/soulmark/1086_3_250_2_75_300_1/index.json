@@ -1,0 +1,53 @@
+{
+  "data": {
+    "804": {
+      "id": 804,
+      "desc": "回合开始时若自身体力低于1/3则当回合无效对手的攻击同时战斗阶段结束时恢复250点体力；回合开始时若自身体力高于1/2则当回合受到的攻击伤害减少75%，减少之前的伤害若低于300则使对手进入睡眠（BOSS无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于1/3则当回合<color=#64F9FA>无效</color>对手的<b>攻击</b>且战斗阶段结束时<color=#64F9FA>恢复</color>自身300点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若自身体力高于1/2则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>75%\r\n<indent=32><sprite=4><sprite=4><indent=64>减少之前的伤害若低于300则<color=#64F9FA>使对手睡眠</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3491,
+          "url": "https://api.seerapi.com/v1/pet/3491"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          250,
+          2,
+          75,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1086,
+          "url": "https://api.seerapi.com/v1/eid_effect/1086"
+        }
+      },
+      "effect_alias": "1086_3_250_2_75_300_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1736,
+        "url": "https://api.seerapi.com/v1/soulmark/1736"
+      },
+      "from": null
+    }
+  },
+  "hash": "94454d47"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "768": {
+      "id": 768,
+      "desc": "每次对手使用攻击技能则自身下回合令对手使用的物理攻击失效，每次对手使用属性技能则自身下回合令对手使用的特殊攻击失效；|回合开始时若对手处于异常状态则当回合自身造成的攻击伤害提升50%，若自身体力高于对手则增伤效果额外提升至100%；|回合开始时，若自身体力高于最大体力的1/2，则当回合自身技能命中前80%令对手害怕，未触发则消除对手回合类效果|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3455,
+          "url": "https://api.seerapi.com/v1/pet/3455"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          2,
+          80,
+          1
+        ],
+        "effect": {
+          "id": 1053,
+          "url": "https://api.seerapi.com/v1/eid_effect/1053"
+        }
+      },
+      "effect_alias": "1053_50_100_2_80_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "64406b46"
+}

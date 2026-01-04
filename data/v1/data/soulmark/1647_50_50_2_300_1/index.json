@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1306": {
+      "id": 1306,
+      "desc": "在风神的庇护下，自身天生免疫能力下降状态；自身连续使用攻击技能则50%令对手睡眠，未触发则消除对手回合类效果；自身连续使用属性技能则下回合50%先制+2，未触发则战斗阶段结束时{吸取}对手300点{体力}（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在风神的庇护下，自身天生<color=#64F9FA>免疫</color><b>能力下降状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身连续使用攻击技能则50%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=16><sprite=3><indent=32>自身连续使用属性技能则下回合50%<b>先制</b>+2\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>吸取</color>对手300点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4059,
+          "url": "https://api.seerapi.com/v1/pet/4059"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          2,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1647,
+          "url": "https://api.seerapi.com/v1/eid_effect/1647"
+        }
+      },
+      "effect_alias": "1647_50_50_2_300_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cdf296d1"
+}

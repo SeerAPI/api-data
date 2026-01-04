@@ -1,28 +1,39 @@
 {
-  "id": 277,
-  "desc": "南斗雷诺西专属特性 攻击+10，速度+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2267,
-      "url": "https://api.seerapi.com/v1/pet/2267"
-    },
-    {
-      "id": 2268,
-      "url": "https://api.seerapi.com/v1/pet/2268"
+  "data": {
+    "29": {
+      "id": 29,
+      "desc": "登场首回合所有攻击先制+1,并且增加10%致命一击概率",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2500,
+          "url": "https://api.seerapi.com/v1/pet/2500"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 277,
+          "url": "https://api.seerapi.com/v1/eid_effect/277"
+        }
+      },
+      "effect_alias": "277",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "1f803add"
+  },
+  "hash": "c1074895"
 }

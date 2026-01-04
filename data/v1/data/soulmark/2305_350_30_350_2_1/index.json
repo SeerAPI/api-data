@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1906": {
+      "id": 1906,
+      "desc": "对手/自身先出手时，令自身/对手凝滞|自身造成的攻击伤害高于350时令对手冰封，未触发则吸取对手自身最大体力30%；自身造成的攻击伤害低于350时自身攻击、速度+2|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手/自身先出手时，<color=#64F9FA>令自身/对手凝滞</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300时<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手自身最大体力30%\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于300时自身攻击、速度+2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4702,
+          "url": "https://api.seerapi.com/v1/pet/4702"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          350,
+          30,
+          350,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2305,
+          "url": "https://api.seerapi.com/v1/eid_effect/2305"
+        }
+      },
+      "effect_alias": "2305_350_30_350_2_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7192d69c"
+}

@@ -1,43 +1,38 @@
 {
-  "id": 734,
-  "desc": "攻击技能50%令对手睡眠，未触发则使自身特攻+1、速度+1且下回合攻击必定致命一击（BOSS无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 3420,
-      "url": "https://api.seerapi.com/v1/pet/3420"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      50,
-      1,
-      1,
-      1
-    ],
-    "effect": {
-      "id": 1021,
-      "url": "https://api.seerapi.com/v1/eid_effect/1021"
+  "data": {
+    "409": {
+      "id": 409,
+      "desc": "击败对手时恢复自身所有体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3055,
+          "url": "https://api.seerapi.com/v1/pet/3055"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 734,
+          "url": "https://api.seerapi.com/v1/eid_effect/734"
+        }
+      },
+      "effect_alias": "734",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": {
+        "id": 462,
+        "url": "https://api.seerapi.com/v1/soulmark/462"
+      },
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 2,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
-    },
-    {
-      "id": 11,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
-    },
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "8ec98ba9"
+  "hash": "8dbf8c95"
 }

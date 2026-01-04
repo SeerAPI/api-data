@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1741": {
+      "id": 1741,
+      "desc": "战斗阶段结束时双方每处于一项异常状态{吸取}对手200点{体力}，若至少处于一项则下回合自身使用技能后80%令对手睡眠，若双方均不处于异常状态则下回合自身所有技能先制+1|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若双方任意一方处于异常状态则下回合自身使用技能后80%<color=#64F9FA>令对手睡眠</color>，且每处于一项<color=#64F9FA>吸取</color>对手200点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若双方均不处于异常状态则下回合自身所有技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4528,
+          "url": "https://api.seerapi.com/v1/pet/4528"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          80,
+          200,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2131,
+          "url": "https://api.seerapi.com/v1/eid_effect/2131"
+        }
+      },
+      "effect_alias": "2131_80_200_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7ec9cd9"
+}

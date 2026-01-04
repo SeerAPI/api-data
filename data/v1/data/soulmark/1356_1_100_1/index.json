@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1056": {
+      "id": 1056,
+      "desc": "自身攻击技能命中后吸取对手的能力提升状态；若对手处于能力提升状态则自身攻击先制+1且造成的伤害提升100%，若对手不处于能力提升状态则将自身相应的能力提升状态赋予给对手相应的能力下降状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后<color=#64F9FA>吸取</color>对手的<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手处于能力提升状态则自身攻击<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=16><sprite=3><indent=32>若对手不处于能力提升状态则自身攻击<color=#64F9FA>附加</color>给对手等同于自身能力提升状态的<b>能力下降状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3779,
+          "url": "https://api.seerapi.com/v1/pet/3779"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1356,
+          "url": "https://api.seerapi.com/v1/eid_effect/1356"
+        }
+      },
+      "effect_alias": "1356_1_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "526d2232"
+}

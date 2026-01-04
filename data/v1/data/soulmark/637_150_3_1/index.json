@@ -1,0 +1,39 @@
+{
+  "data": {
+    "307": {
+      "id": 307,
+      "desc": "每回合恢复150HP;反弹1/3对手造成的伤害（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2892,
+          "url": "https://api.seerapi.com/v1/pet/2892"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 637,
+          "url": "https://api.seerapi.com/v1/eid_effect/637"
+        }
+      },
+      "effect_alias": "637_150_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cf51bd94"
+}

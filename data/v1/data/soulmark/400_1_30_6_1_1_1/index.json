@@ -1,0 +1,45 @@
+{
+  "data": {
+    "182": {
+      "id": 182,
+      "desc": "每次使用攻击技能都有30%概率令对手害怕；受到致命伤害时有1次机会残留1点体力（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2833,
+          "url": "https://api.seerapi.com/v1/pet/2833"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          30,
+          6,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 400,
+          "url": "https://api.seerapi.com/v1/eid_effect/400"
+        }
+      },
+      "effect_alias": "400_1_30_6_1_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 311,
+        "url": "https://api.seerapi.com/v1/soulmark/311"
+      },
+      "from": null
+    }
+  },
+  "hash": "ec320dff"
+}

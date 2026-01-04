@@ -1,0 +1,38 @@
+{
+  "data": {
+    "2022": {
+      "id": 2022,
+      "desc": "对手使用攻击技能时，自身当回合50%闪避对手攻击，未触发则受到攻击后恢复300点体力且下回合闪避概率提升至100%；自身攻击技能先出手时50%的概率打出致命一击；自身攻击技能打出致命一击时连击效果必定达到连击上限（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时，自身当回合50%<color=#64F9FA>闪避</color>对手<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>未触发则受到攻击后恢复300点<b>体力</b>且下回合闪避概率提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能先出手时50%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能打出致命一击时连击效果必定<color=#64F9FA>达到连击上限</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4832,
+          "url": "https://api.seerapi.com/v1/pet/4832"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2445,
+          "url": "https://api.seerapi.com/v1/eid_effect/2445"
+        }
+      },
+      "effect_alias": "2445_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "68188a97"
+}

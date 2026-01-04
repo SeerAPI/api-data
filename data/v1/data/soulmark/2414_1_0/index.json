@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1987": {
+      "id": 1987,
+      "desc": "登场时，自身获得获得100点算力并获得算力限制，之后每回合开始时，自身消耗50点算力以触发算力乱流，然后若对方与自身均拥有算力限制中的同一个特性，则额外触发算力共振|回合结束时，20%解除自身所处的异常状态、20%令自身所有技能PP值+1、20%令对手所有技能PP值-1、20%使自身全属性+1、20%恢复200点体力并附加等量固定伤害，若所有项目均未随机到，则获得20点算力",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时，自身获得100点<color=#FFF779>算力</color>并受到<color=#FFF779>算力限制</color>\r\n<indent=32><sprite=4><indent=48>之后每回合开始时自身消耗50点算力以触发<color=#FFF779>算力乱流</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>然后若对方与自身均拥有算力限制中的同一个特性，则触发<color=#FFF779>算力共振</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束时：\r\n<indent=32><sprite=4><indent=48>20%<color=#64F9FA>解除</color>自身所处的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>20%令自身所有技能<b>PP值</b>+1\r\n<indent=32><sprite=4><indent=48>20%令对手所有技能<b>PP值</b>-1\r\n<indent=32><sprite=4><indent=48>20%使自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>20%<color=#64F9FA>恢复</color>200点<b>体力</b>并<color=#64F9FA>附加</color>等量<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若以上所有项目均未随机到，则获得20点算力\r\n\r\n<indent=0><sprite=5><indent=15>算力：\r\n<indent=16><sprite=6><indent=32>极渊DS-001用以触发部分效果的条件\r\n\r\n<indent=0><sprite=5><indent=15>算力限制：\r\n<indent=16><sprite=6><indent=32>自身的瞬杀、回神、顽强特性失效\r\n\r\n<indent=0><sprite=5><indent=15>算力乱流：\r\n<indent=16><sprite=6><indent=32>自身拥有的<b>所有特性</b>中，所有触发率不高于20%的效果本回合概率至100%\r\n\r\n<indent=0><sprite=5><indent=15>算力共振：\r\n<indent=16><sprite=6><indent=32>本次在场解除自身的算力限制以<color=#64F9FA>增加</color>最大体力10%的<b>临时体力上限</b>直到下场",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4797,
+          "url": "https://api.seerapi.com/v1/pet/4797"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2414,
+          "url": "https://api.seerapi.com/v1/eid_effect/2414"
+        }
+      },
+      "effect_alias": "2414_1_0",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5cf2e1f5"
+}

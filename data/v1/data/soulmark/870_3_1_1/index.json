@@ -1,0 +1,46 @@
+{
+  "data": {
+    "609": {
+      "id": 609,
+      "desc": "出场时若自身体力低于对手，则出场前3回合免疫并反弹异常状态；每次受到伤害时双防+1，自身体力低于对手时提升效果翻倍（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3256,
+          "url": "https://api.seerapi.com/v1/pet/3256"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 870,
+          "url": "https://api.seerapi.com/v1/eid_effect/870"
+        }
+      },
+      "effect_alias": "870_3_1_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 580,
+        "url": "https://api.seerapi.com/v1/soulmark/580"
+      }
+    }
+  },
+  "hash": "915046fb"
+}

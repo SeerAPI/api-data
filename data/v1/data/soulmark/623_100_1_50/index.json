@@ -1,0 +1,43 @@
+{
+  "data": {
+    "207": {
+      "id": 207,
+      "desc": "100%重生一次,重生时清除敌我双方的能力上升和下降状态,重生后2回合内所有技能威力提升50%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2873,
+          "url": "https://api.seerapi.com/v1/pet/2873"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1,
+          50
+        ],
+        "effect": {
+          "id": 623,
+          "url": "https://api.seerapi.com/v1/eid_effect/623"
+        }
+      },
+      "effect_alias": "623_100_1_50",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1172d96d"
+}

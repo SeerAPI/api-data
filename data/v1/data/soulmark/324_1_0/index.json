@@ -1,0 +1,38 @@
+{
+  "data": {
+    "102": {
+      "id": 102,
+      "desc": "若被对手击败则将对手的体力降为1点，并清除双方所有能力提升状态（对BOSS无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2667,
+          "url": "https://api.seerapi.com/v1/pet/2667"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 324,
+          "url": "https://api.seerapi.com/v1/eid_effect/324"
+        }
+      },
+      "effect_alias": "324_1_0",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3ccb9974"
+}

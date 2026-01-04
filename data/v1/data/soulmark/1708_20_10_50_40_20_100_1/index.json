@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1350": {
+      "id": 1350,
+      "desc": "自身登场后，使用属性技能则附加对手防御和特防能力值总和20%的固定伤害，每次增加10%，最高50%；|使用攻击技能则造成的伤害提升40%，每次增加20%，最高100%（切换下场后效果重置，boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则<color=#64F9FA>附加</color>对手防御和特防能力值总和20%的<b>百分比伤害</b>，每次增加10%，最高50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%，每次增加20%，最高100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4118,
+          "url": "https://api.seerapi.com/v1/pet/4118"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          10,
+          50,
+          40,
+          20,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1708,
+          "url": "https://api.seerapi.com/v1/eid_effect/1708"
+        }
+      },
+      "effect_alias": "1708_20_10_50_40_20_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "58dc9031"
+}

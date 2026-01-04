@@ -1,0 +1,42 @@
+{
+  "data": {
+    "542": {
+      "id": 542,
+      "desc": "使用攻击技能后下回合造成的伤害提高50%；使用属性技能后2回合内免疫异常状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3209,
+          "url": "https://api.seerapi.com/v1/pet/3209"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2
+        ],
+        "effect": {
+          "id": 831,
+          "url": "https://api.seerapi.com/v1/eid_effect/831"
+        }
+      },
+      "effect_alias": "831_50_2",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "26d49e99"
+}

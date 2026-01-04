@@ -1,0 +1,26 @@
+{
+  "data": {
+    "1439": {
+      "id": 1439,
+      "name": "强攻",
+      "desc": "物理攻击有10%几率使伤害提高60点",
+      "effect": {
+        "effect_args": [
+          10,
+          60
+        ],
+        "effect": {
+          "id": 62,
+          "url": "https://api.seerapi.com/v1/eid_effect/62"
+        }
+      },
+      "effect_alias": "62_10_60",
+      "star_level": 3,
+      "effect_group": {
+        "id": 39,
+        "url": "https://api.seerapi.com/v1/pet_effect_group/39"
+      }
+    }
+  },
+  "hash": "28c5bb2b"
+}

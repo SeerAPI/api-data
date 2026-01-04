@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1399": {
+      "id": 1399,
+      "desc": "对手攻击技能命中时自身有30%的概率免疫该伤害，未触发则战斗阶段结束时为自身附加一个300点的护盾（护盾值无法叠加）和一个300点的护罩（护罩值无法叠加）；|战斗阶段结束时，若当回合自身未受到攻击伤害则50%令对手冰封，未触发则100%令对手束缚（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果:\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中时自身30%<color=#64F9FA>免疫</color>该技能的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>获得</color>300点<b>护盾</b>和300点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若当回合自身未受到攻击伤害则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手束缚</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4175,
+          "url": "https://api.seerapi.com/v1/pet/4175"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          300,
+          300,
+          50,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1766,
+          "url": "https://api.seerapi.com/v1/eid_effect/1766"
+        }
+      },
+      "effect_alias": "1766_30_300_300_50_100_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f7a884ef"
+}

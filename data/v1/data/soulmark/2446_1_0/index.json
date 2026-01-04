@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2023": {
+      "id": 2023,
+      "desc": "战斗阶段结束时，令对手攻击、特攻下降至-1|自身使用攻击技能后附加对手最大体力1/3的百分比伤害，自身登场时此效果1回合内改为吸取对手最大体力的1/3|自身的体力恢复效果提升80%，对手登场时此效果1回合内改为对手的体力恢复效果减少80%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，令对手攻击、特攻<color=#64F9FA>下降至</color>-1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身登场时此效果1回合内改为<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身的<b>体力恢复效果</b><color=#64F9FA>提升</color>80%\r\n<indent=32><sprite=4><indent=48>对手登场时此效果1回合内改为对手的<b>体力恢复效果</b><color=#64F9FA>减少</color>80%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4833,
+          "url": "https://api.seerapi.com/v1/pet/4833"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2446,
+          "url": "https://api.seerapi.com/v1/eid_effect/2446"
+        }
+      },
+      "effect_alias": "2446_1_0",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "47a2fe5d"
+}

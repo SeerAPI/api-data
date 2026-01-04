@@ -1,0 +1,51 @@
+{
+  "data": {
+    "480": {
+      "id": 480,
+      "desc": "回合开始时若自身体力低于对手则当回合所有技能先制+2，同时当回合受到攻击时使对手害怕（害怕效果boss无效）；|登场首回合受到致命伤害时残留1点血，同时下回合自身攻击技能先制+2且附加对手最大体力1/3的固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3141,
+          "url": "https://api.seerapi.com/v1/pet/3141"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          2,
+          3
+        ],
+        "effect": {
+          "id": 790,
+          "url": "https://api.seerapi.com/v1/eid_effect/790"
+        }
+      },
+      "effect_alias": "790_2_1_2_3",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": {
+        "id": 611,
+        "url": "https://api.seerapi.com/v1/soulmark/611"
+      },
+      "from": null
+    }
+  },
+  "hash": "aad17dd8"
+}

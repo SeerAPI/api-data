@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1719": {
+      "id": 1719,
+      "desc": "回合开始时令对手命中-2，之后根据对手当前的净能力变化值n获得如下效果：|n≥2：100%令对手寄生；|n≥6：若对手处于全属性提升状态则令对手全属性+1，若对手处于全属性下降状态则令对手全属性-1，之后二者中任意一项效果满足触发条件则复制对手当前的能力等级状态；|n≥12：双方任意一方使用技能后重置对手当前的能力等级状态，每重置1级则当回合战斗阶段结束时{吸取}对手100点{体力}|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时令对手命中-2，然后根据对手当前的净能力变化值n获得如下效果：\r\n<indent=32><sprite=4><indent=48>n≥2：100%<color=#64F9FA>令对手寄生</color>\r\n<indent=32><sprite=4><indent=48>n≥6：若对手处于全属性提升状态则<color=#64F9FA>令对手全属性+1</color>，若对手处于全属性下降状态则令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>然后上述任意一项效果满足触发条件则<color=#64F9FA>复制</color>对手当前的<b>能力等级</b>状态\r\n<indent=32><sprite=4><indent=48>n≥12：双方任意一方使用技能后<color=#64F9FA>重置</color>对手当前的<b>能力等级</b>状态\r\n<indent=32><sprite=4><sprite=4><indent=64>每变化1级则当回合战斗阶段结束时<color=#64F9FA>吸取</color>对手100点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4505,
+          "url": "https://api.seerapi.com/v1/pet/4505"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2110,
+          "url": "https://api.seerapi.com/v1/eid_effect/2110"
+        }
+      },
+      "effect_alias": "2110_1_0",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2440391b"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "408": {
+      "id": 408,
+      "desc": "每一次恢复体力,使自身下回合造成的伤害提升30%,并且下回合解除并免疫异常状态和能力下降；对手使用属性技能消耗的PP翻倍",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3054,
+          "url": "https://api.seerapi.com/v1/pet/3054"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          2
+        ],
+        "effect": {
+          "id": 729,
+          "url": "https://api.seerapi.com/v1/eid_effect/729"
+        }
+      },
+      "effect_alias": "729_30_2",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "43835721"
+}

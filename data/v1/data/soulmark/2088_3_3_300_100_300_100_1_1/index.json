@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1700": {
+      "id": 1700,
+      "desc": "每次登场时若自身属性克制对手则为自身附加持续3回合的回能Ⅰ（若自身已持有回能Ⅰ则将回合数刷新至3回合），若对手属性微弱自身则为对手附加持续3回合的失能Ⅰ（若对手已持有失能Ⅰ则将回合数刷新至3回合）；|回合开始时若自身持有回能Ⅰ，则当回合自身免疫受到的麻痹、害怕、疲惫异常状态且战斗阶段结束时恢复自身300点体力，若当回合结束后自身持有的回能Ⅰ消失则下回合自身造成的攻击伤害提升100%；|回合开始时若对手持有失能Ⅰ，则当回合自身免疫受到的冰封、焚烬、感染异常状态且战斗阶段结束时附加给对手300点固定伤害，若当回合结束后对手持有的失能Ⅰ消失则下回合自身造成的固定伤害、百分比伤害提升100%|（所有特效boss无效）|回能Ⅰ：持有精灵使用技能后恢复所有技能1点PP值，下场不保留|失能Ⅰ：持有精灵使用技能后降低所有技能1点PP值，下场不保留",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时：\r\n<indent=32><sprite=4><indent=48>若自身属性克制对手则为自身附加持续3回合的<color=#FFF779>回能</color>\r\n<indent=32><sprite=4><indent=48>若对手属性微弱自身则为对手附加持续3回合的<color=#FFF779>失能</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身持有回能，则当回合自身<color=#64F9FA>免疫</color>受到的麻痹、害怕、疲惫异常状态且战斗阶段结束时<color=#64F9FA>恢复</color>自身300点<b>体力</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若当回合结束后自身持有的回能消失则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若对手持有失能，则当回合自身<color=#64F9FA>免疫</color>受到的冰封、焚烬、感染异常状态且战斗阶段结束时<color=#64F9FA>附加</color>给对手300点<b>固定伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若当回合结束后对手持有的失能消失则下回合自身造成的<b>固定伤害、百分比伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=5><indent=15>回能：\r\n<indent=16><sprite=6><indent=32>使用技能后<color=#64F9FA>恢复</color>所有技能1点<b>PP值</b>\r\n\r\n<indent=0><sprite=5><indent=15>失能：\r\n<indent=16><sprite=6><indent=32>使用技能后<color=#64F9FA>降低</color>所有技能1点<b>PP值</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4489,
+          "url": "https://api.seerapi.com/v1/pet/4489"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          300,
+          100,
+          300,
+          100,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2088,
+          "url": "https://api.seerapi.com/v1/eid_effect/2088"
+        }
+      },
+      "effect_alias": "2088_3_3_300_100_300_100_1_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c02453cc"
+}

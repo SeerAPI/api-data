@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1096": {
+      "id": 1096,
+      "desc": "对手攻击技能命中自身后25%的概率触发虚空黑洞：吸取此回合受到的攻击伤害，未触发则下次概率提升15%，最高概率提升30%；自身攻击技能命中对手后50%令对手随机进入1种异常状态，未触发则下次概率提升15%，最高概率提升30%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中自身时25%的概率触发虚空黑洞：<color=#64F9FA>抵挡</color>此回合受到的<b>攻击</b>，未触发则下次概率提升15%，最高提升30%\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中对手后50%随机<color=#64F9FA>附加</color>1种<b>异常状态</b>，未触发则下次概率提升15%，最高提升30%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3821,
+          "url": "https://api.seerapi.com/v1/pet/3821"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          15,
+          30,
+          50,
+          1,
+          15,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 1407,
+          "url": "https://api.seerapi.com/v1/eid_effect/1407"
+        }
+      },
+      "effect_alias": "1407_25_15_30_50_1_15_30_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "edafbd"
+}

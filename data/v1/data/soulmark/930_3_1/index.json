@@ -1,0 +1,38 @@
+{
+  "data": {
+    "644": {
+      "id": 644,
+      "desc": "自身处于能力提升状态时，所有技能附加自身最大体力1/3的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3319,
+          "url": "https://api.seerapi.com/v1/pet/3319"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1
+        ],
+        "effect": {
+          "id": 930,
+          "url": "https://api.seerapi.com/v1/eid_effect/930"
+        }
+      },
+      "effect_alias": "930_3_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "250864f7"
+}

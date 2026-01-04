@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1220": {
+      "id": 1220,
+      "desc": "在战斗中增加自身60点体力值、40点防御值、40点特防值；自身受到的攻击伤害高于400则战斗阶段结束时恢复400点体力且自身防御、特防+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在战斗中增加自身60点体力值、40点防御值、40点特防值\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于400则战斗阶段结束时<color=#64F9FA>恢复</color>400点体力且自身防御、特防+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3956,
+          "url": "https://api.seerapi.com/v1/pet/3956"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          40,
+          40,
+          400,
+          400,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1555,
+          "url": "https://api.seerapi.com/v1/eid_effect/1555"
+        }
+      },
+      "effect_alias": "1555_60_40_40_400_400_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9052c8ce"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1767": {
+      "id": 1767,
+      "desc": "自身选择攻击技能的回合，每次受到固定伤害、百分比伤害后对手随机1个技能PP-2；自身选择属性技能的回合，每次受到固定伤害、百分比伤害后对手随机1项能力等级-1；战斗阶段结束时若自身体力为满则2回合内免疫受到的异常状态，若不为满则下回合所有技能先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身选择攻击技能的回合，每次受到固定伤害、百分比伤害后对手随机1个技能PP-2\r\n<indent=16><sprite=3><indent=32>自身选择属性技能的回合，每次受到固定伤害、百分比伤害后对手随机1项能力等级-1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力为满则2回合内<color=#64F9FA>免疫<b></color>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力不为满则下回合<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4557,
+          "url": "https://api.seerapi.com/v1/pet/4557"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2161,
+          "url": "https://api.seerapi.com/v1/eid_effect/2161"
+        }
+      },
+      "effect_alias": "2161_1_2_1_1_2_1_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "897ac2d9"
+}

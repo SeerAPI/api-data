@@ -1,0 +1,45 @@
+{
+  "data": {
+    "205": {
+      "id": 205,
+      "desc": "50%概率打出致命一击;造成伤害的40%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2866,
+          "url": "https://api.seerapi.com/v1/pet/2866"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          40
+        ],
+        "effect": {
+          "id": 619,
+          "url": "https://api.seerapi.com/v1/eid_effect/619"
+        }
+      },
+      "effect_alias": "619_50_40",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": {
+        "id": 437,
+        "url": "https://api.seerapi.com/v1/soulmark/437"
+      },
+      "from": null
+    }
+  },
+  "hash": "b32f7d2a"
+}

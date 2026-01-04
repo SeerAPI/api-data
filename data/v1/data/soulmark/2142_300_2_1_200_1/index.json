@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1751": {
+      "id": 1751,
+      "desc": "登场时获得300点护罩，回合开始时若此护罩存在则当回合自身免疫异常状态且对手攻击后速度-2，若对手不处于回合类效果则额外进入束缚，若对手处于回合类效果则自身全属性+1；|当回合未击败对手时若对手处于能力下降则令对手害怕，击败对手时重新触发自身登场时效果并抵挡下次受到的攻击|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时<color=#64F9FA>获得</color>300点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若上述护罩存在则当回合自身<color=#64F9FA>免疫<b></color>异常状态</b>且对手攻击后速度-2，然后：\r\n<indent=32><sprite=4><indent=48>若对手不处于回合类效果则额外<color=#64F9FA>令对手束缚</color>\r\n<indent=32><sprite=4><indent=48>若对手处于回合类效果则额外令自身<color=#64F9FA>全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>当回合未击败对手时若对手处于能力下降则<color=#64F9FA>令对手害怕</color>\r\n<indent=16><sprite=3><indent=32>当回合击败对手时重新触发自身登场时效果并<color=#64F9FA>抵挡</color>下次受到的<b>攻击</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4541,
+          "url": "https://api.seerapi.com/v1/pet/4541"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          2,
+          1,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 2142,
+          "url": "https://api.seerapi.com/v1/eid_effect/2142"
+        }
+      },
+      "effect_alias": "2142_300_2_1_200_1",
+      "tag": [
+        {
+          "id": 17,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/17"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "75824c55"
+}

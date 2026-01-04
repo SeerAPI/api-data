@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1672": {
+      "id": 1672,
+      "desc": "战斗阶段结束时随机附加2种弱化类异常状态，未触发则{吸取}对手最大{体力}的1/3；回合开始时对手每处于1种异常状态则当回合自身使用技能后{吸取}对手100点{体力}（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时随机附加2种弱化类<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时对手每处于1种异常状态则当回合自身使用技能后<color=#64F9FA>吸取</color>对手100点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4459,
+          "url": "https://api.seerapi.com/v1/pet/4459"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          3,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2058,
+          "url": "https://api.seerapi.com/v1/eid_effect/2058"
+        }
+      },
+      "effect_alias": "2058_2_3_1_100_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "48bda9a0"
+}

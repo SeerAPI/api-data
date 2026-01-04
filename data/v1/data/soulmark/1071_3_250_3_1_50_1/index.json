@@ -1,0 +1,50 @@
+{
+  "data": {
+    "788": {
+      "id": 788,
+      "desc": "击败对手则恢复自身最大体力的1/3并造成等量固定伤害同时减少对手下只出场精灵250点体力；未击败对手则自身随机3项属性+1并有50%概率使对手害怕（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3475,
+          "url": "https://api.seerapi.com/v1/pet/3475"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          250,
+          3,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1071,
+          "url": "https://api.seerapi.com/v1/eid_effect/1071"
+        }
+      },
+      "effect_alias": "1071_3_250_3_1_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "17623029"
+}

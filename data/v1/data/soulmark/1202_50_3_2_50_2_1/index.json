@@ -1,0 +1,50 @@
+{
+  "data": {
+    "918": {
+      "id": 918,
+      "desc": "使用攻击时50%附加对手最大体力1/3的固定伤害，未触发则令对手进入中毒、冻伤、烧伤、流血中的2种异常状态；受到攻击时50%消除对手回合类效果，未触发则令对手进入感染、冰封、焚烬、疲惫中的2种异常状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击时50%<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则随机<color=#64F9FA>附加</color>中毒、冻伤、烧伤、流血中的2种<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到攻击时50%<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>未触发则随机<color=#64F9FA>附加</color>感染、冰封、焚烬、疲惫中的2种<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3624,
+          "url": "https://api.seerapi.com/v1/pet/3624"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          2,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1202,
+          "url": "https://api.seerapi.com/v1/eid_effect/1202"
+        }
+      },
+      "effect_alias": "1202_50_3_2_50_2_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2bfe374d"
+}

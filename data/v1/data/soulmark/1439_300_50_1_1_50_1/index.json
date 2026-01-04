@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1122": {
+      "id": 1122,
+      "desc": "自身受到的攻击伤害高于300则50%令对手石化，未触发则自身防御+1、特防+1；自身受到的攻击伤害低于300则50%免疫此次受到的攻击伤害，未触发则自身防御+1、特防+1；攻击命中后附加自身防御和特防能力提升总段数乘以50的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则50%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身防御+1、特防+1\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于300则50%<color=#64F9FA>免疫</color>此次受到的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则自身防御+1、特防+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击命中后<color=#64F9FA>附加</color>自身防御和特防能力提升总段数乘以50的<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3849,
+          "url": "https://api.seerapi.com/v1/pet/3849"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          50,
+          1,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1439,
+          "url": "https://api.seerapi.com/v1/eid_effect/1439"
+        }
+      },
+      "effect_alias": "1439_300_50_1_1_50_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d6176253"
+}

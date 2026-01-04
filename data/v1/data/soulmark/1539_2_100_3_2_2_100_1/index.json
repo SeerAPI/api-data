@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1204": {
+      "id": 1204,
+      "desc": "战斗阶段结束时，若自身体力低于最大体力的1/2则100%令对手害怕，未触发害怕则{吸取}对手最大{体力}的1/3，若自身体力高于最大体力的1/2则直至下回合结束免疫并反弹异常状态，若战斗阶段中断则上述所有效果改为于当回合结束时触发；|黑暗之种存在期间，若对手被自身击败则下只精灵登场后随机2个技能PP值归零，若自身被对手击败则100%令对手害怕（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发害怕则<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则2回合内<color=#64F9FA>免疫并反弹</color>异常状态\r\n<indent=32><sprite=4><indent=48>若当回合战斗阶段被中断，则于回合结束后判定上述效果\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手处于黑暗之种影响时：\r\n<indent=32><sprite=4><indent=48>若对手被自身击败则下只精灵登场后随机2个技能PP值<color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><indent=48>若自身被对手击败则100%<color=#64F9FA>令对手害怕</color>\r\n\r\n<indent=0><sprite=5><indent=15>黑暗之种（上限4级）：\r\n<indent=16><sprite=6><indent=32>黑暗之种从被附加的次回合起，每回合结束后成长1级，达到4级时成熟\r\n<indent=16><sprite=6><indent=32>成长期时，黑暗之种每回合使拥有者随机1个技能PP值-1\r\n<indent=16><sprite=6><indent=32>成熟后，黑暗之种每回合使拥有者所有技能PP值-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3941,
+          "url": "https://api.seerapi.com/v1/pet/3941"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100,
+          3,
+          2,
+          2,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1539,
+          "url": "https://api.seerapi.com/v1/eid_effect/1539"
+        }
+      },
+      "effect_alias": "1539_2_100_3_2_2_100_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1834,
+        "url": "https://api.seerapi.com/v1/soulmark/1834"
+      },
+      "from": null
+    }
+  },
+  "hash": "337c5414"
+}

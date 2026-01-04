@@ -1,0 +1,43 @@
+{
+  "data": {
+    "662": {
+      "id": 662,
+      "desc": "每回合自身速度+2；自身每处于一级速度能力提升则攻击附加100点固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3337,
+          "url": "https://api.seerapi.com/v1/pet/3337"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 946,
+          "url": "https://api.seerapi.com/v1/eid_effect/946"
+        }
+      },
+      "effect_alias": "946_2_100_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3bfe1cf0"
+}

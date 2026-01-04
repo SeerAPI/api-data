@@ -1,0 +1,46 @@
+{
+  "data": {
+    "884": {
+      "id": 884,
+      "desc": "自身处于异常状态时当回合受到的攻击伤害减少60%；回合开始时自身防御+1、特防+1，若自身处于能力提升状态则效果翻倍（boss有效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3582,
+          "url": "https://api.seerapi.com/v1/pet/3582"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          1
+        ],
+        "effect": {
+          "id": 1167,
+          "url": "https://api.seerapi.com/v1/eid_effect/1167"
+        }
+      },
+      "effect_alias": "1167_60_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "895927f2"
+}

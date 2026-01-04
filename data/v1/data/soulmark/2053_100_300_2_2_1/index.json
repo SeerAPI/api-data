@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1669": {
+      "id": 1669,
+      "desc": "回合开始时若对手处于全属性下降状态则100%令对手焚烬，未触发则令对手当回合使用的属性技能无效；战斗阶段结束时为自身附加300点护罩，若自身已拥有护罩则额外令对手防御-2、特防-2（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于全属性下降状态则100%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手当回合使用的<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时为自身<color=#64F9FA>附加</color>300点<b>护罩</b>，若自身已拥有护罩则额外令对手防御-2、特防-2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4455,
+          "url": "https://api.seerapi.com/v1/pet/4455"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          300,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2053,
+          "url": "https://api.seerapi.com/v1/eid_effect/2053"
+        }
+      },
+      "effect_alias": "2053_100_300_2_2_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 17,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/17"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "22e454d9"
+}

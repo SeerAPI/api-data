@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1378": {
+      "id": 1378,
+      "desc": "回合开始时，若自身处于能力提升状态则当回合自身50%闪避对手攻击，自身满体力时概率额外提升20%（奇米奈在背包时额外提升的概率变为30%）；|战斗阶段结束时，若对手体力高于最大体力的1/2则下回合自身造成的攻击伤害提升50%，对手处于异常状态时攻击伤害额外提升20%（奇米奈在背包时攻击伤害额外提升变为30%）（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于能力提升状态则当回合自身50%<color=#64F9FA>闪避</color>对手<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>自身满体力时上述概率提升20%，奇米奈存在于出战背包时变为提升30%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若对手体力高于最大体力的1/2则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>对手处于异常状态时上述效果提升20%，奇米奈存在于出战背包时变为提升30%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4151,
+          "url": "https://api.seerapi.com/v1/pet/4151"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          20,
+          30,
+          2,
+          50,
+          20,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 1739,
+          "url": "https://api.seerapi.com/v1/eid_effect/1739"
+        }
+      },
+      "effect_alias": "1739_50_20_30_2_50_20_30_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6d975089"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1522": {
+      "id": 1522,
+      "desc": "自身伤害抗性减免额外提高15%，回合开始时若自身体力低于最大体力1/2则效果翻倍；|自身受到的攻击伤害高于自身最大体力的1/3则战斗阶段结束时恢复自身最大体力的1/2，高于自身最大体力的1/2则额外消除对手回合类效果，高于自身最大体力则50%令对手瘫痪，未触发则100%令对手石化（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身<b>伤害抗性减免</b>额外<color=#64F9FA>提高</color>15%，回合开始时若自身体力低于最大体力1/2则效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于自身最大体力的1/3则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/2\r\n<indent=32><sprite=4><indent=48>高于自身最大体力的1/2则额外<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>高于自身最大体力则50%<color=#64F9FA>令对手瘫痪</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则100%<color=#64F9FA>令对手石化</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4299,
+          "url": "https://api.seerapi.com/v1/pet/4299"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          2,
+          3,
+          2,
+          2,
+          50,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1885,
+          "url": "https://api.seerapi.com/v1/eid_effect/1885"
+        }
+      },
+      "effect_alias": "1885_15_2_3_2_2_50_100_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2e9c2fde"
+}

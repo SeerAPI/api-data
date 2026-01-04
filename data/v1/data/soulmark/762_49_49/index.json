@@ -1,0 +1,42 @@
+{
+  "data": {
+    "448": {
+      "id": 448,
+      "desc": "回合开始时，自身体力高于对方则造成伤害增加49%，自身体力低于对方则受到伤害减少49%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3106,
+          "url": "https://api.seerapi.com/v1/pet/3106"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          49,
+          49
+        ],
+        "effect": {
+          "id": 762,
+          "url": "https://api.seerapi.com/v1/eid_effect/762"
+        }
+      },
+      "effect_alias": "762_49_49",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e64c8bc7"
+}

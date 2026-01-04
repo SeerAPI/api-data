@@ -1,0 +1,52 @@
+{
+  "data": {
+    "913": {
+      "id": 913,
+      "desc": "每回合有40%的概率闪避对手的攻击技能，自身体力低于对手时概率提升至70%，未触发闪避则自身下1次受到的攻击伤害减少40％；后出手时自身下1回合攻击技能先制+1且造成的伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>40%<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>，自身体力低于对手时概率提升至70%\r\n<indent=32><sprite=4><indent=48>若被对手攻击技能命中则自身下1次受到的<b>攻击伤害</b><color=#64F9FA>减少</color>40％\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>后出手时自身下1回合攻击技能<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3619,
+          "url": "https://api.seerapi.com/v1/pet/3619"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          70,
+          1,
+          40,
+          1,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1198,
+          "url": "https://api.seerapi.com/v1/eid_effect/1198"
+        }
+      },
+      "effect_alias": "1198_40_70_1_40_1_1_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "60946fc"
+}

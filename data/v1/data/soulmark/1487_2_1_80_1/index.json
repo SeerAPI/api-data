@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1165": {
+      "id": 1165,
+      "desc": "登场首回合免疫受到的致命一击伤害和能力下降状态（每场战斗仅触发2次）；回合开始时，若自身体力低于对手则当回合攻击先制+1且附加双方当前体力之差的体力的固定伤害，若自身体力高于对手则当回合攻击命中后80%令对手害怕，未触发则消除对手回合类效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限2次）：\r\n<indent=16><sprite=3><indent=32>自身登场首回合<color=#64F9FA>抵挡</color>受到的<b>致命一击</b>且<color=#64F9FA>免疫</color>受到的<b>能力下降状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合攻击<b>先制</b>+1且<color=#64F9FA>附加</color>回合开始时双方体力之差的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合攻击后80%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3896,
+          "url": "https://api.seerapi.com/v1/pet/3896"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          80,
+          1
+        ],
+        "effect": {
+          "id": 1487,
+          "url": "https://api.seerapi.com/v1/eid_effect/1487"
+        }
+      },
+      "effect_alias": "1487_2_1_80_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1959,
+        "url": "https://api.seerapi.com/v1/soulmark/1959"
+      },
+      "from": null
+    }
+  },
+  "hash": "ca3d03e1"
+}

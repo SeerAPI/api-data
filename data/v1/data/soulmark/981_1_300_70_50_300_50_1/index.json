@@ -1,0 +1,51 @@
+{
+  "data": {
+    "699": {
+      "id": 699,
+      "desc": "回合开始时若对手处于异常状态则自身全属性+1；当回合受到的伤害大于300则给对手附加自身受到攻击伤害70%的固定伤害，同时消除对手回合类效果并有50%概率令对手疲惫；当回合受到的伤害小于300则下回合自身造成的攻击伤害提升50%（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3382,
+          "url": "https://api.seerapi.com/v1/pet/3382"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          300,
+          70,
+          50,
+          300,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 981,
+          "url": "https://api.seerapi.com/v1/eid_effect/981"
+        }
+      },
+      "effect_alias": "981_1_300_70_50_300_50_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5caaa052"
+}

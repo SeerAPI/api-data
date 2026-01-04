@@ -1,19 +1,39 @@
 {
-  "id": 227,
-  "desc": "每回合10%概率令对手烧伤",
-  "desc_formatting_adjustment": null,
-  "pve_effective": null,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 1238,
-      "url": "https://api.seerapi.com/v1/pet/1238"
+  "data": {
+    "238": {
+      "id": 238,
+      "desc": "登场后每三回合，必定获得一次致命一击效果",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 1909,
+          "url": "https://api.seerapi.com/v1/pet/1909"
+        },
+        {
+          "id": 1910,
+          "url": "https://api.seerapi.com/v1/pet/1910"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 227,
+          "url": "https://api.seerapi.com/v1/eid_effect/227"
+        }
+      },
+      "effect_alias": "227",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [],
-  "intensified_to": null,
-  "from": null,
-  "hash": "1eb4f9fa"
+  },
+  "hash": "7b81af31"
 }

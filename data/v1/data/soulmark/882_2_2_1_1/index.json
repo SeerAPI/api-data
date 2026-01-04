@@ -1,0 +1,48 @@
+{
+  "data": {
+    "595": {
+      "id": 595,
+      "desc": "受到攻击时吸取对手能力提升状态，若对手不处于能力提升状态则使对手下2回合属性技能无效，吸取成功则自身下2回合先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3268,
+          "url": "https://api.seerapi.com/v1/pet/3268"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 882,
+          "url": "https://api.seerapi.com/v1/eid_effect/882"
+        }
+      },
+      "effect_alias": "882_2_2_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9fcfd4f0"
+}

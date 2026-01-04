@@ -1,0 +1,50 @@
+{
+  "data": {
+    "721": {
+      "id": 721,
+      "desc": "回合开始时若自身体力高于对手则当回合自身攻击先制+1且50%的概率附加300点固定伤害，若当回合对手造成的伤害低于300则令对手随机进入1种异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3404,
+          "url": "https://api.seerapi.com/v1/pet/3404"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          300,
+          300,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1004,
+          "url": "https://api.seerapi.com/v1/eid_effect/1004"
+        }
+      },
+      "effect_alias": "1004_1_50_300_300_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "13db3153"
+}

@@ -1,28 +1,80 @@
 {
-  "id": 265,
-  "desc": "天枢星守护者拉奥斯专属特性 攻击+10，特防+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2234,
-      "url": "https://api.seerapi.com/v1/pet/2234"
+  "data": {
+    "14": {
+      "id": 14,
+      "desc": "开场2回合内所有直接攻击都将额外附带30%概率使对手冻伤",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2458,
+          "url": "https://api.seerapi.com/v1/pet/2458"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 265,
+          "url": "https://api.seerapi.com/v1/eid_effect/265"
+        }
+      },
+      "effect_alias": "265",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     },
-    {
-      "id": 2235,
-      "url": "https://api.seerapi.com/v1/pet/2235"
+    "15": {
+      "id": 15,
+      "desc": "开场2回合内所有直接攻击都将额外附带30%概率使对手冻伤",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2459,
+          "url": "https://api.seerapi.com/v1/pet/2459"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 265,
+          "url": "https://api.seerapi.com/v1/eid_effect/265"
+        }
+      },
+      "effect_alias": "265",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
+    },
+    "61": {
+      "id": 61,
+      "desc": "每次直接攻击都有25%概率使对手流血",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2562,
+          "url": "https://api.seerapi.com/v1/pet/2562"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 265,
+          "url": "https://api.seerapi.com/v1/eid_effect/265"
+        }
+      },
+      "effect_alias": "265",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "9e810514"
+  },
+  "hash": "9b57ae38"
 }

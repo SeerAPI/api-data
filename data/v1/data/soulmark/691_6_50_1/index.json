@@ -1,0 +1,47 @@
+{
+  "data": {
+    "364": {
+      "id": 364,
+      "desc": "所有技能都能吸收对手能力提升，吸收成功50%概率使对手害怕(boss无效);|登场后，每3回合触发致命一击",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2982,
+          "url": "https://api.seerapi.com/v1/pet/2982"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          6,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 691,
+          "url": "https://api.seerapi.com/v1/eid_effect/691"
+        }
+      },
+      "effect_alias": "691_6_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e1e7b728"
+}

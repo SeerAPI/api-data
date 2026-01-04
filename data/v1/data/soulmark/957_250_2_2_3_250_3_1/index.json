@@ -1,0 +1,51 @@
+{
+  "data": {
+    "675": {
+      "id": 675,
+      "desc": "回合类效果无法被消除；|自身造成的攻击伤害高于250则令对手速度-2命中-2，未触发则战斗阶段结束时恢复自身最大体力的1/3；|自身受到的攻击伤害低于250则令对手害怕，未触发则战斗阶段结束时附加对手最大体力的1/3的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3358,
+          "url": "https://api.seerapi.com/v1/pet/3358"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          250,
+          2,
+          2,
+          3,
+          250,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 957,
+          "url": "https://api.seerapi.com/v1/eid_effect/957"
+        }
+      },
+      "effect_alias": "957_250_2_2_3_250_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4976f6f2"
+}

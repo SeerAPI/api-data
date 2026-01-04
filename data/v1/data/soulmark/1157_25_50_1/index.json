@@ -1,0 +1,47 @@
+{
+  "data": {
+    "868": {
+      "id": 868,
+      "desc": "受到的伤害减少25%（包括攻击伤害、固定伤害和百分比伤害）；回合开始时若对手为雄性则50%令对手冰封，若对手为雌性则自身每次攻击必定打出致命一击（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3570,
+          "url": "https://api.seerapi.com/v1/pet/3570"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1157,
+          "url": "https://api.seerapi.com/v1/eid_effect/1157"
+        }
+      },
+      "effect_alias": "1157_25_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "32cac3a5"
+}

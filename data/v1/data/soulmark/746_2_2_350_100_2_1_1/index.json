@@ -1,0 +1,51 @@
+{
+  "data": {
+    "424": {
+      "id": 424,
+      "desc": "登场后两回合内对手的属性技能无效（每场战斗只能触发2次，首次出场触发1次，切换再次上场时触发第2次），上场后2回合内若对手使用属性技能则立即对自身造成350点固定伤害，且下1次受到的伤害增加100%；对手每回合随机两项属性-1（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3082,
+          "url": "https://api.seerapi.com/v1/pet/3082"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          350,
+          100,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 746,
+          "url": "https://api.seerapi.com/v1/eid_effect/746"
+        }
+      },
+      "effect_alias": "746_2_2_350_100_2_1_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f34100c"
+}

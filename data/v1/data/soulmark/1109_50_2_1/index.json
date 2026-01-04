@@ -1,0 +1,47 @@
+{
+  "data": {
+    "825": {
+      "id": 825,
+      "desc": "对手使用攻击技能时有50%概率使对手疲惫，未触发则使对手随机2项属性-2并附加给自己（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3511,
+          "url": "https://api.seerapi.com/v1/pet/3511"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1109,
+          "url": "https://api.seerapi.com/v1/eid_effect/1109"
+        }
+      },
+      "effect_alias": "1109_50_2_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a7a2ab32"
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "591": {
+      "id": 591,
+      "desc": "属性技能命中时有30%的概率使对手麻痹；攻击技能命中时有40%的概率使对手烧伤（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3265,
+          "url": "https://api.seerapi.com/v1/pet/3265"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          40,
+          1
+        ],
+        "effect": {
+          "id": 879,
+          "url": "https://api.seerapi.com/v1/eid_effect/879"
+        }
+      },
+      "effect_alias": "879_30_40_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "15480cf7"
+}

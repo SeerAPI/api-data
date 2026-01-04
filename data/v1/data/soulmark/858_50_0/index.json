@@ -1,0 +1,42 @@
+{
+  "data": {
+    "563": {
+      "id": 563,
+      "desc": "所有攻击技能造成的伤害的50%恢复自身体力；当回合若先出手则下回合免疫异常状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3243,
+          "url": "https://api.seerapi.com/v1/pet/3243"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          0
+        ],
+        "effect": {
+          "id": 858,
+          "url": "https://api.seerapi.com/v1/eid_effect/858"
+        }
+      },
+      "effect_alias": "858_50_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "fb12d43d"
+}

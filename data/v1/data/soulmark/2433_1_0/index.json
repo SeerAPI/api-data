@@ -1,0 +1,38 @@
+{
+  "data": {
+    "2007": {
+      "id": 2007,
+      "desc": "回合开始时，若自身处于异常状态则将其解除（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于异常状态则将其<color=#64F9FA>解除</color>！",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4815,
+          "url": "https://api.seerapi.com/v1/pet/4815"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2433,
+          "url": "https://api.seerapi.com/v1/eid_effect/2433"
+        }
+      },
+      "effect_alias": "2433_1_0",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "fd1a7ae5"
+}

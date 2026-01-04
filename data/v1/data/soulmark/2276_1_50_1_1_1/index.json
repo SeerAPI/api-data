@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1876": {
+      "id": 1876,
+      "desc": "自身登场首回合令对手的攻击技能附加效果失效|回合开始时，若自身为满体力则当回合自身所有技能先制+1，若自身不为满体力则当回合受到的攻击伤害额外减少50%，每减少1点攻击伤害，自身下次攻击附加1点固定伤害|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场首回合令对手的<b>攻击技能<color=#64F9FA></b>命中效果失效</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身为满体力则当回合自身所有技能<b>先制</b>+1；若自身不为满体力则当回合受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%，每减少1点，自身下次攻击<color=#64F9FA>附加</color>1点<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4674,
+          "url": "https://api.seerapi.com/v1/pet/4674"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2276,
+          "url": "https://api.seerapi.com/v1/eid_effect/2276"
+        }
+      },
+      "effect_alias": "2276_1_50_1_1_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "227b5e40"
+}

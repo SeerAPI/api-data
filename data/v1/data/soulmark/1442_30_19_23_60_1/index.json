@@ -1,0 +1,41 @@
+{
+  "data": {
+    "1125": {
+      "id": 1125,
+      "desc": "攻击技能命中后30%令对手瘫痪，每天20:00-24:00期间，收割机能量灌注，攻击技能命中后60%令对手瘫痪（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果：\r\n<indent=16><sprite=3><indent=32>攻击技能命中后30%<color=#64F9FA>令对手瘫痪</color>\r\n<indent=32><sprite=4><indent=48>每天20:00-24:00期间收割机能量灌注，改为60%令对手瘫痪",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3852,
+          "url": "https://api.seerapi.com/v1/pet/3852"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          19,
+          23,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 1442,
+          "url": "https://api.seerapi.com/v1/eid_effect/1442"
+        }
+      },
+      "effect_alias": "1442_30_19_23_60_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8af4dad8"
+}

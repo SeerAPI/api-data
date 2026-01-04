@@ -1,0 +1,26 @@
+{
+  "data": {
+    "1062": {
+      "id": 1062,
+      "name": "强念",
+      "desc": "特殊攻击有5%几率使伤害提高35点",
+      "effect": {
+        "effect_args": [
+          5,
+          35
+        ],
+        "effect": {
+          "id": 63,
+          "url": "https://api.seerapi.com/v1/eid_effect/63"
+        }
+      },
+      "effect_alias": "63_5_35",
+      "star_level": 0,
+      "effect_group": {
+        "id": 40,
+        "url": "https://api.seerapi.com/v1/pet_effect_group/40"
+      }
+    }
+  },
+  "hash": "d16fbacc"
+}

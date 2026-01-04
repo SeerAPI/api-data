@@ -1,0 +1,53 @@
+{
+  "data": {
+    "1519": {
+      "id": 1519,
+      "desc": "每回合随机吸取对手2-6项属性-1（boss无效）；自身死亡时消除对手能力提升状态，同时将自身能力提升状态附加给己方下只出战精灵，且令己方下只出战精灵2回合内受到的伤害减少50%（包括固定伤害、百分比伤害，boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时随机<color=#64F9FA>吸取</color>对手2~6项<b>能力等级</b>-1\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身被击败时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>将自身能力提升状态附加给己方下只出战精灵\r\n<indent=32><sprite=4><indent=48>令己方下只出战精灵2回合内受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>50%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3540,
+          "url": "https://api.seerapi.com/v1/pet/3540"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          6,
+          1,
+          2,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1883,
+          "url": "https://api.seerapi.com/v1/eid_effect/1883"
+        }
+      },
+      "effect_alias": "1883_2_6_1_2_50_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 844,
+        "url": "https://api.seerapi.com/v1/soulmark/844"
+      }
+    }
+  },
+  "hash": "95e6b57f"
+}

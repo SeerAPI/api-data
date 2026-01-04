@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1168": {
+      "id": 1168,
+      "desc": "回合开始时，若自身体力低于对手则当回合攻击附加对手最大体力1/3的固定伤害；战斗阶段结束时，若自身体力高于对手则下回合自身攻击命中后50%令对手睡眠，未触发则令对手所有技能PP值-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力低于对手则当回合攻击<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身体力高于对手则下回合自身攻击命中后50%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手所有技能<b>PP值</b>-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3899,
+          "url": "https://api.seerapi.com/v1/pet/3899"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1490,
+          "url": "https://api.seerapi.com/v1/eid_effect/1490"
+        }
+      },
+      "effect_alias": "1490_3_50_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "32eb2434"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1128": {
+      "id": 1128,
+      "desc": "自身攻击技能命中后有自身当前体力百分比的概率令对手烧伤，未触发则有自身当前体力百分比一半的概率令对手焚烬；回合开始时，若对手处于烧伤状态则当回合自身攻击随机附加150-300点固定伤害，若对手不处于烧伤状态则所有技能命中率随机降低30%-50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后有自身当前体力百分比的概率<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>未触发则有自身当前体力百分比一半的概率<color=#64F9FA>令对手焚烬</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则当回合自身攻击随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于烧伤状态则所有技能命中率随机<color=#64F9FA>降低</color>30%-50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3857,
+          "url": "https://api.seerapi.com/v1/pet/3857"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          300,
+          30,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1447,
+          "url": "https://api.seerapi.com/v1/eid_effect/1447"
+        }
+      },
+      "effect_alias": "1447_150_300_30_50_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "26219429"
+}

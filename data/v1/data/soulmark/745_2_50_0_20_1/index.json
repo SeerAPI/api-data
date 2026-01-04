@@ -1,0 +1,45 @@
+{
+  "data": {
+    "425": {
+      "id": 425,
+      "desc": "自身体力高于1/2时所有技能50%使对手麻痹；攻击技能{吸取}对手最大{体力}的20%,自身体力低于1/2时效果翻倍（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3079,
+          "url": "https://api.seerapi.com/v1/pet/3079"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          50,
+          0,
+          20,
+          1
+        ],
+        "effect": {
+          "id": 745,
+          "url": "https://api.seerapi.com/v1/eid_effect/745"
+        }
+      },
+      "effect_alias": "745_2_50_0_20_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ae40de20"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "656": {
+      "id": 656,
+      "desc": "自身攻击有50%概率造成的伤害翻倍，未触发则自身下次技能先制+2",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3334,
+          "url": "https://api.seerapi.com/v1/pet/3334"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          2
+        ],
+        "effect": {
+          "id": 940,
+          "url": "https://api.seerapi.com/v1/eid_effect/940"
+        }
+      },
+      "effect_alias": "940_50_100_2",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "492a1b0a"
+}

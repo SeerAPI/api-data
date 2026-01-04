@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1652": {
+      "id": 1652,
+      "desc": "双方每次使用技能命中时，自身都会令对手随机2项能力值-1，每次未触发则自身下回合所有技能先制+1且造成的攻击伤害提升50%；|回合开始时，若对手处于全能力下降状态则50%令对手害怕2回合，未触发则令对手所处的能力下降等级翻倍|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>双方每次使用技能命中时，自身都会令对手随机2项能力值-1\r\n<indent=32><sprite=4><indent=48>每次未触发则自身下回合所有技能先制+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于全能力下降状态则50%<color=#64F9FA>令对手害怕</color>2回合\r\n<indent=32><sprite=4><indent=48>未触发则令对手所处的能力下降等级翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4433,
+          "url": "https://api.seerapi.com/v1/pet/4433"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          1,
+          50,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2034,
+          "url": "https://api.seerapi.com/v1/eid_effect/2034"
+        }
+      },
+      "effect_alias": "2034_2_1_1_50_50_2_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1e7212c7"
+}

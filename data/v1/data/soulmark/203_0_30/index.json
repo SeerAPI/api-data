@@ -1,0 +1,38 @@
+{
+  "data": {
+    "357": {
+      "id": 357,
+      "desc": "自身受到伤害减少30%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2968,
+          "url": "https://api.seerapi.com/v1/pet/2968"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          30
+        ],
+        "effect": {
+          "id": 203,
+          "url": "https://api.seerapi.com/v1/eid_effect/203"
+        }
+      },
+      "effect_alias": "203_0_30",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c5aec7b9"
+}

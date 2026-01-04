@@ -1,0 +1,44 @@
+{
+  "data": {
+    "597": {
+      "id": 597,
+      "desc": "先出手时有50%的概率使对手冰封，未触发则自身下1次技能先制+2（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3269,
+          "url": "https://api.seerapi.com/v1/pet/3269"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 881,
+          "url": "https://api.seerapi.com/v1/eid_effect/881"
+        }
+      },
+      "effect_alias": "881_50_1_2_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "14a301e5"
+}

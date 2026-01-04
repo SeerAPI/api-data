@@ -1,0 +1,42 @@
+{
+  "data": {
+    "25": {
+      "id": 25,
+      "desc": "50%概率免疫异常状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2496,
+          "url": "https://api.seerapi.com/v1/pet/2496"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          50
+        ],
+        "effect": {
+          "id": 274,
+          "url": "https://api.seerapi.com/v1/eid_effect/274"
+        }
+      },
+      "effect_alias": "274_100_100_50",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": {
+        "id": 28,
+        "url": "https://api.seerapi.com/v1/soulmark/28"
+      },
+      "from": null
+    }
+  },
+  "hash": "1504c9b2"
+}

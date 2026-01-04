@@ -1,0 +1,44 @@
+{
+  "data": {
+    "855": {
+      "id": 855,
+      "desc": "自身使用攻击技能时伤害提升30%，每次使用增加30%，最高120%（boss有效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3546,
+          "url": "https://api.seerapi.com/v1/pet/3546"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          30,
+          120,
+          1
+        ],
+        "effect": {
+          "id": 1140,
+          "url": "https://api.seerapi.com/v1/eid_effect/1140"
+        }
+      },
+      "effect_alias": "1140_30_30_120_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a82a2e85"
+}

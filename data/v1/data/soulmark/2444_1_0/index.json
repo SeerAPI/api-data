@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2021": {
+      "id": 2021,
+      "desc": "自身受到攻击伤害时若该伤害超过自身最大体力1/3则使自身易燃3回合，未满足或未触发时吸取对手最大体力的1/3；自身处于易燃状态时自身受到的攻击伤害减少50%，对手处于易燃状态时自身造成的攻击伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害时若该伤害超过自身最大体力1/3则<color=#64F9FA>使自身易燃</color>3回合\r\n<indent=32><sprite=4><indent=48>未满足或未触发时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身处于易燃状态时自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>对手处于易燃状态时自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4831,
+          "url": "https://api.seerapi.com/v1/pet/4831"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2444,
+          "url": "https://api.seerapi.com/v1/eid_effect/2444"
+        }
+      },
+      "effect_alias": "2444_1_0",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "637c81e8"
+}

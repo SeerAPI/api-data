@@ -1,0 +1,47 @@
+{
+  "data": {
+    "812": {
+      "id": 812,
+      "desc": "受到攻击时50%概率使对手害怕，未触发则附加300点固定伤害；先出手时吸取对手能力提升状态，对手不处于能力提升状态则消除对手回合类效果，后出手时自身攻击、速度、命中+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3503,
+          "url": "https://api.seerapi.com/v1/pet/3503"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1101,
+          "url": "https://api.seerapi.com/v1/eid_effect/1101"
+        }
+      },
+      "effect_alias": "1101_50_300_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e7b54513"
+}

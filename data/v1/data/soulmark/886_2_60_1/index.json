@@ -1,0 +1,43 @@
+{
+  "data": {
+    "601": {
+      "id": 601,
+      "desc": "若自身后出手则出手后自身速度+2；若自身先出手则60%概率使对手睡眠（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3275,
+          "url": "https://api.seerapi.com/v1/pet/3275"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 886,
+          "url": "https://api.seerapi.com/v1/eid_effect/886"
+        }
+      },
+      "effect_alias": "886_2_60_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7bd4112a"
+}

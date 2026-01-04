@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1802": {
+      "id": 1802,
+      "desc": "自身每次使用攻击技能致命一击的概率提升25%，最高100%（boss有效）|自身使用攻击技能后若自身攻击打出致命一击的概率叠加到最高，则重置致命一击的概率且下次攻击技能命中后100%令对手瘫痪（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身使用<b>攻击技能</b>25%<color=#64F9FA>打出致命一击</color>，每次使用概率额外增加25%，最高100%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后若自身攻击打出致命一击的概率叠加到最高，则重置致命一击的概率且下次攻击技能命中后100%<color=#64F9FA>令对手瘫痪</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4595,
+          "url": "https://api.seerapi.com/v1/pet/4595"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          25,
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2194,
+          "url": "https://api.seerapi.com/v1/eid_effect/2194"
+        }
+      },
+      "effect_alias": "2194_25_25_100_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "382f8b3d"
+}

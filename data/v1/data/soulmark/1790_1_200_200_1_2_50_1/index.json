@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1419": {
+      "id": 1419,
+      "desc": "当回合自身每损失1点PP技能值则战斗阶段结束时恢复自身200点体力值；|回合开始时，自身体力值每超过200点则令对手随机减少1点技能PP值，自身体力低于最大体力的1/2则自身受到的攻击伤害减少50%且释放技能所消耗的PP值翻倍（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>自身每损失1点PP技能值则战斗阶段结束时<color=#64F9FA>恢复</color>自身200点<b>体力</b>值\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>自身体力值每超过200点则令对手随机<color=#64F9FA>减少</color>1点技能<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于最大体力的1/2则自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且释放技能所消耗的PP值翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4197,
+          "url": "https://api.seerapi.com/v1/pet/4197"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          200,
+          200,
+          1,
+          2,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1790,
+          "url": "https://api.seerapi.com/v1/eid_effect/1790"
+        }
+      },
+      "effect_alias": "1790_1_200_200_1_2_50_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "463f61c9"
+}

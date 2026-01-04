@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1743": {
+      "id": 1743,
+      "desc": "自身受到攻击伤害后随机恢复100~300点体力，造成攻击伤害后随机附加100~300点固定伤害；|战斗阶段结束时若自身体力低于对手，则下回合自身忽略对手30%的速度值与特防值|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后随机<color=#64F9FA>恢复</color>100~300点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身造成攻击伤害后随机<color=#64F9FA>附加</color>100~300点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于对手，则下回合自身<color=#64F9FA>忽略</color>对手30%的<b>速度值</b>与<b>特防值</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4530,
+          "url": "https://api.seerapi.com/v1/pet/4530"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          300,
+          100,
+          300,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 2134,
+          "url": "https://api.seerapi.com/v1/eid_effect/2134"
+        }
+      },
+      "effect_alias": "2134_100_300_100_300_30_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "17ced3ef"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "137": {
+      "id": 137,
+      "desc": "自身攻击类技能有10%的概率使对手疲惫2回合",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2747,
+          "url": "https://api.seerapi.com/v1/pet/2747"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          10,
+          7
+        ],
+        "effect": {
+          "id": 358,
+          "url": "https://api.seerapi.com/v1/eid_effect/358"
+        }
+      },
+      "effect_alias": "358_1_1_10_7",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1375cb3"
+}

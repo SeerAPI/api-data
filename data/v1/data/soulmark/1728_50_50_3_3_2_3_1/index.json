@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1367": {
+      "id": 1367,
+      "desc": "自身受到攻击时50%的概率令自身当回合受到的攻击伤害减少50%，未触发则战斗阶段结束时恢复自身最大体力的1/3且令自身防御+2、特防+2；|自身攻击技能命中后额外附加自身最大体力1/3的百分比伤害，若攻击技能命中后自身体力低于最大体力的1/2则转化为{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时50%令自身当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3且令自身防御+2、特防+2\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中时<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于最大体力的1/2时改为<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3945,
+          "url": "https://api.seerapi.com/v1/pet/3945"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          3,
+          3,
+          2,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1728,
+          "url": "https://api.seerapi.com/v1/eid_effect/1728"
+        }
+      },
+      "effect_alias": "1728_50_50_3_3_2_3_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1208,
+        "url": "https://api.seerapi.com/v1/soulmark/1208"
+      }
+    }
+  },
+  "hash": "a195e99f"
+}

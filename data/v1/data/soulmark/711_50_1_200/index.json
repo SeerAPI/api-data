@@ -1,0 +1,43 @@
+{
+  "data": {
+    "382": {
+      "id": 382,
+      "desc": "每回合使用攻击技能时附加自身上回合受到伤害数值的50%固定伤害（boss无效）;战斗阶段结束时恢复200HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3014,
+          "url": "https://api.seerapi.com/v1/pet/3014"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          200
+        ],
+        "effect": {
+          "id": 711,
+          "url": "https://api.seerapi.com/v1/eid_effect/711"
+        }
+      },
+      "effect_alias": "711_50_1_200",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "28d6c81f"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1255": {
+      "id": 1255,
+      "desc": "自身受到攻击有（2020/最大体力值）%的概率免疫此次攻击伤害（100级触发，boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（限100级触发）：\r\n<indent=16><sprite=3><indent=32>自身受到攻击有（2020/最大体力值）%的概率<color=#64F9FA>免疫</color>此次<b>攻击伤害</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3998,
+          "url": "https://api.seerapi.com/v1/pet/3998"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2020,
+          100
+        ],
+        "effect": {
+          "id": 1592,
+          "url": "https://api.seerapi.com/v1/eid_effect/1592"
+        }
+      },
+      "effect_alias": "1592_2020_100",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e59517a6"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1521": {
+      "id": 1521,
+      "desc": "回合开始时若自身体力高于对手则自身攻击技能命中后100%令对手随机进入1种异常状态，若自身体力低于对手则当回合自身受到的攻击伤害降低30%；|战斗阶段结束时若自身体力低于最大体力的1/2则恢复200点体力（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则自身攻击技能命中后100%随机<color=#64F9FA>附加</color>1种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合自身受到的<b>攻击伤害</b><color=#64F9FA></color>降低30%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于最大体力的1/2则<color=#64F9FA>恢复</color>200点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4298,
+          "url": "https://api.seerapi.com/v1/pet/4298"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1,
+          30,
+          2,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 1884,
+          "url": "https://api.seerapi.com/v1/eid_effect/1884"
+        }
+      },
+      "effect_alias": "1884_100_1_30_2_200_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cc3ecf99"
+}

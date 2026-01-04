@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1717": {
+      "id": 1717,
+      "desc": "回合开始时令自身攻击+2、防御+2，战斗阶段结束时若自身不处于能力提升状态则令对手下回合无法主动切换精灵；|双方任意一方使用技能后若自身存在技能PP值为0则100%令对手流血，未触发则恢复自身所有技能PP值且令对手下回合使用的技能附加效果失效|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时令自身攻击+2、防御+2\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身不处于能力提升状态则令对手下回合<color=#64F9FA>无法主动切换精灵</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>双方任意一方使用技能后若自身存在技能PP值为0则100%<color=#64F9FA>令对手流血</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>恢复</color>自身所有技能<b>PP值</b>且令对手下回合<b>所有技能</b><color=#64F9FA>命中效果失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4503,
+          "url": "https://api.seerapi.com/v1/pet/4503"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          0,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2108,
+          "url": "https://api.seerapi.com/v1/eid_effect/2108"
+        }
+      },
+      "effect_alias": "2108_2_2_0_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b6304d42"
+}

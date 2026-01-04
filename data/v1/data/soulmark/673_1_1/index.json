@@ -1,0 +1,38 @@
+{
+  "data": {
+    "346": {
+      "id": 346,
+      "desc": "登场后,第一次攻击必定致命一击;若攻击技能未造成致命一击或未造成伤害则下回合必定致命一击;",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2952,
+          "url": "https://api.seerapi.com/v1/pet/2952"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1
+        ],
+        "effect": {
+          "id": 673,
+          "url": "https://api.seerapi.com/v1/eid_effect/673"
+        }
+      },
+      "effect_alias": "673_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6e42e9dd"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1854": {
+      "id": 1854,
+      "desc": "自身每次在场首次使用攻击技能之后，本次在场每回合结束后自身恢复携带技能威力之和的体力|自身每次受到攻击伤害后附加给对手200点固定伤害，每次触发提升100，最高400，对手技能微弱自身时效果翻倍|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>自身每次在场首次使用攻击技能后，本次在场：\r\n<indent=32><sprite=4><indent=48>每回合结束后自身<color=#64F9FA>恢复</color>携带技能威力之和的<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每次受到攻击伤害后<color=#64F9FA>附加</color>给对手200点<b>固定伤害</b>，每次触发提升100，最高400\r\n<indent=32><sprite=4><indent=48>对手技能微弱自身时效果翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4652,
+          "url": "https://api.seerapi.com/v1/pet/4652"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          100,
+          400,
+          1
+        ],
+        "effect": {
+          "id": 2248,
+          "url": "https://api.seerapi.com/v1/eid_effect/2248"
+        }
+      },
+      "effect_alias": "2248_200_100_400_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c63d806b"
+}

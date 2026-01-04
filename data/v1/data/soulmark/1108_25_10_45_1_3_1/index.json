@@ -1,0 +1,53 @@
+{
+  "data": {
+    "822": {
+      "id": 822,
+      "desc": "自身使用攻击技能会忽略对手双防值的25%，连续使用则叠加10%，最高忽略45%；|回合开始时若自身体力高于对手则当回合所有技能先制+1且直至下回合开始时免疫所有异常状态（下场后保留），战斗阶段结束时若自身体力低于对手则{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能会<color=#64F9FA>忽略</color>对手<b>双防值</b>的25%，连续使用则叠加10%，最高忽略45%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力高于对手则：\r\n<indent=32><sprite=4><indent=48>当回合所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>直至下回合开始时<color=#64F9FA>免疫</color>所有<b>异常状态</b>（下场后保留）\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于对手则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3514,
+          "url": "https://api.seerapi.com/v1/pet/3514"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          10,
+          45,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1108,
+          "url": "https://api.seerapi.com/v1/eid_effect/1108"
+        }
+      },
+      "effect_alias": "1108_25_10_45_1_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": {
+        "id": 1646,
+        "url": "https://api.seerapi.com/v1/soulmark/1646"
+      },
+      "from": null
+    }
+  },
+  "hash": "7f6957aa"
+}

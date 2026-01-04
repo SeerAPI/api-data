@@ -1,0 +1,39 @@
+{
+  "data": {
+    "90": {
+      "id": 90,
+      "desc": "对手处于烧伤状态时附加100点固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2640,
+          "url": "https://api.seerapi.com/v1/pet/2640"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100,
+          100
+        ],
+        "effect": {
+          "id": 293,
+          "url": "https://api.seerapi.com/v1/eid_effect/293"
+        }
+      },
+      "effect_alias": "293_2_100_100",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4ae032b2"
+}

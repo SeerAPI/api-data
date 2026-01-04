@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1514": {
+      "id": 1514,
+      "desc": "战斗阶段结束时若自身体力低于对手则恢复自身已损失体力的50%；|自身攻击造成的伤害高于350则100%令对手失明，自身攻击造成的伤害低于350则下回合必定打出致命一击，若回合开始时自身体力高于对手则伤害判定改为250（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于对手则<color=#64F9FA>恢复</color>自身已损失体力的50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能造成的伤害高于350则100%<color=#64F9FA>令对手失明</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能造成的伤害低于350则下回合必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>若回合开始时自身体力高于对手则上述所有效果的伤害判定改为250",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4293,
+          "url": "https://api.seerapi.com/v1/pet/4293"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          350,
+          100,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 1878,
+          "url": "https://api.seerapi.com/v1/eid_effect/1878"
+        }
+      },
+      "effect_alias": "1878_50_350_100_250_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8fde5c49"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1677": {
+      "id": 1677,
+      "desc": "每次对手主动切换下场则对方下只精灵出战时自身恢复所有技能1点PP值，若自身所有技能PP值均为满则恢复己方所有精灵100点体力；|回合结束后若自身未击败对手则下回合攻击技能100%打出致命一击并为场下体力最低的首位精灵恢复1/4的最大体力，若自身击败对手则下回合攻击技能先制+1并为场下体力最低的首位精灵恢复1/2的最大体力|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每次对手主动切换下场则对方下只精灵出战时自身<color=#64F9FA>恢复</color>所有技能1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>若自身所有技能PP值均为满则<color=#64F9FA>恢复</color>己方所有精灵100点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身未击败对手则下回合攻击技能100%<color=#64F9FA>打出致命一击</color>并为场下体力最低的精灵<color=#64F9FA>恢复</color>1/4的最大体力\r\n<indent=16><sprite=3><indent=32>若自身击败对手则下回合攻击技能先制+1并为场下体力最低的精灵<color=#64F9FA>恢复</color>1/2的最大体力",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4467,
+          "url": "https://api.seerapi.com/v1/pet/4467"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          100,
+          4,
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2063,
+          "url": "https://api.seerapi.com/v1/eid_effect/2063"
+        }
+      },
+      "effect_alias": "2063_1_100_100_4_1_2_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7b00699c"
+}

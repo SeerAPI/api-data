@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1923": {
+      "id": 1923,
+      "desc": "双方任意一方不处于护盾时自身免疫受到的异常状态，双方任意一方处于护盾时每回合开始为双方附加200点护盾，最高400点|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>双方任意一方不处于护盾时自身免疫受到的异常状态\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>双方任意一方处于护盾时每回合开始为双方附加200点护盾，最高400",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4720,
+          "url": "https://api.seerapi.com/v1/pet/4720"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          400,
+          1
+        ],
+        "effect": {
+          "id": 2335,
+          "url": "https://api.seerapi.com/v1/eid_effect/2335"
+        }
+      },
+      "effect_alias": "2335_200_400_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c1bf4c0b"
+}

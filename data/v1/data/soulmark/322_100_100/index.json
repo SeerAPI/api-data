@@ -1,0 +1,38 @@
+{
+  "data": {
+    "1013": {
+      "id": 1013,
+      "desc": "造成致命一击时恢复自身所有体力！",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2651,
+          "url": "https://api.seerapi.com/v1/pet/2651"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100
+        ],
+        "effect": {
+          "id": 322,
+          "url": "https://api.seerapi.com/v1/eid_effect/322"
+        }
+      },
+      "effect_alias": "322_100_100",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "12ec6733"
+}

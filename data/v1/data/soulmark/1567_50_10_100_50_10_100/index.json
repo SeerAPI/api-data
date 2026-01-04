@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1232": {
+      "id": 1232,
+      "desc": "登场后首回合造成攻击伤害的50%恢复自身体力，之后每回合恢复量提升10%，最高100%；登场后首回合受到攻击则战斗阶段结束时附加自身防御值50%的固定伤害，之后每回合固伤量提升10%，最高100%（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场后首回合造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力，之后每回合效果提升10%，最高100%\r\n<indent=16><sprite=3><indent=32>登场后首回合受到攻击则战斗阶段结束时<color=#64F9FA>附加</color>自身防御值50%的<b>百分比伤害</b>，之后每回合效果提升10%，最高100%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3967,
+          "url": "https://api.seerapi.com/v1/pet/3967"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          10,
+          100,
+          50,
+          10,
+          100
+        ],
+        "effect": {
+          "id": 1567,
+          "url": "https://api.seerapi.com/v1/eid_effect/1567"
+        }
+      },
+      "effect_alias": "1567_50_10_100_50_10_100",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "aa0fc8f8"
+}

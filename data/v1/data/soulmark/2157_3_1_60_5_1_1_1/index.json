@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1763": {
+      "id": 1763,
+      "desc": "每次登场时令双方混乱2回合且自身下次进入异常状态时记录此异常状态并将之转化为3回合的混乱，自身没有此异常状态记录时，受到的攻击伤害减少30%，自身拥有此异常状态记录时，使用攻击技能后令对手进入所记录的异常状态，未触发则2回合内对手使用的属性技能无效|战斗阶段结束时，双方每处于1回合的异常状态自身恢复60点体力，若总回合数超过5则触发万里春啼：解除双方所处的异常状态，每解除1项令对手全属性-1且下回合对手精灵出战时受到同等数量的非限制类异常状态，异常状态触发成功时若自身在场，则清除自身所记录异常状态并附加给对手|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时令双方混乱2回合且自身下次进入异常状态时记录此异常状态并将之<color=#64F9FA>转化为</color>3回合的<b>混乱</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身没有上述异常状态记录时，受到的<b>攻击伤害<color=#64F9FA></b>减少</color>30%\r\n<indent=16><sprite=3><indent=32>自身拥有上述异常状态记录时，使用攻击技能后<color=#64F9FA>附加</color>对手所记录的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则2回合内对手使用的<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，双方每处于1回合的异常状态自身<color=#64F9FA>恢复</color>60点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若总回合数超过5则触发<color=#FFF779>万里春啼</color>\r\n\r\n<indent=0><sprite=5><indent=15>万里春啼：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>解除</color>双方所处的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>每解除1项：\r\n<indent=32><sprite=4><sprite=4><indent=64>令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>下回合对手精灵出战时<color=#64F9FA>受到</color>1种非限制类<b>异常状态</b>\r\n<indent=32><sprite=4><sprite=4><sprite=4><indent=80>异常状态触发成功时若自身在场，则额外清除自身所记录异常状态并附加给对手",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4553,
+          "url": "https://api.seerapi.com/v1/pet/4553"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          60,
+          5,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2157,
+          "url": "https://api.seerapi.com/v1/eid_effect/2157"
+        }
+      },
+      "effect_alias": "2157_3_1_60_5_1_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8149e91"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1332": {
+      "id": 1332,
+      "desc": "自身出手时根据自身当前已损失体力百分比提升攻击伤害，造成的伤害低于300则附加等同于自身特攻值50%的固定伤害；每个战斗阶段结束时恢复自身已损失体力的50%，恢复的体力值低于300则额外恢复自身所有技能1点PP值（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身出手时每损失1%体力造成的<b>攻击伤害</b><color=#64F9FA>提升</color>1%\r\n<indent=32><sprite=4><indent=48>若造成的伤害低于300则<color=#64F9FA>附加</color>等同于自身特攻值50%的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>恢复</color>自身已损失体力的50%\r\n<indent=32><sprite=4><indent=48>若恢复的体力低于300则<color=#64F9FA>恢复</color>自身所有技能1点<b>PP值</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4092,
+          "url": "https://api.seerapi.com/v1/pet/4092"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          50,
+          50,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1683,
+          "url": "https://api.seerapi.com/v1/eid_effect/1683"
+        }
+      },
+      "effect_alias": "1683_300_50_50_300_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "517e8102"
+}

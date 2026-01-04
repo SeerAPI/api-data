@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1755": {
+      "id": 1755,
+      "desc": "战斗中自身额外增加200点体力上限，回合开始时若自身体力高于对手则造成的攻击伤害提升50%|自身受到攻击后，吸取对手的能力提升，吸取成功则消除对手护盾、护罩效果并令对手所有攻击技能PP-2，未触发吸取则自身获得300点护盾、300点护罩（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>战斗中自身额外增加200点体力上限\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力高于对手则造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后，<color=#64F9FA>吸取</color>对手的<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>吸取成功则<color=#64F9FA>消除</color>对手<b>护盾</b>、<b>护罩</b>效果并令对手所有攻击技能<b>PP<color=#64F9FA></b>-2</color>\r\n<indent=32><sprite=4><indent=48>未触发吸取则自身<color=#64F9FA>获得</color>200点<b>护盾</b>、200点<b>护罩</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4546,
+          "url": "https://api.seerapi.com/v1/pet/4546"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 2149,
+          "url": "https://api.seerapi.com/v1/eid_effect/2149"
+        }
+      },
+      "effect_alias": "2149_50_300_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "677a568a"
+}

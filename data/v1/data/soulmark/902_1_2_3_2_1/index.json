@@ -1,0 +1,49 @@
+{
+  "data": {
+    "618": {
+      "id": 618,
+      "desc": "首次登场当回合自身无效对手的攻击技能，那之后每次登场后对手当前在场精灵2回合内属性技能失效；|对手使用攻击技能后若自身体力低于对手则附加自身最大体力1/3的百分比伤害并恢复等量体力，若自身体力高于对手则附加自身当前体力1/2的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场后当回合自身<color=#64F9FA>免疫</color>对手的<b>攻击技能</b>，\r\n<indent=16><sprite=3><indent=32>非首次登场后对手当前在场精灵2回合内<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能后：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>并恢复等量体力\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则<color=#64F9FA>附加</color>自身当前体力1/2的<b>百分比伤害",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3289,
+          "url": "https://api.seerapi.com/v1/pet/3289"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 902,
+          "url": "https://api.seerapi.com/v1/eid_effect/902"
+        }
+      },
+      "effect_alias": "902_1_2_3_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8ae7af51"
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1203": {
+      "id": 1203,
+      "desc": "回合开始时，若自身满体力则当回合自身免疫异常状态和能力下降状态，同时攻击100%打出致命一击，若自身未满体力则当回合攻击造成伤害的50%恢复自身体力；战斗阶段结束时若自身体力低于最大体力的1/3则触发横扫千军：解除自身异常状态和能力下降状态，使自身下3回合攻击先制+3且造成的伤害提升100%（每场战斗仅触发1次，boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力，则当回合：\r\n<indent=32><sprite=4><sprite=4><indent=64><color=#64F9FA>免疫</color>受到的<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>攻击100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>若自身未满体力则当回合造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n\r\n<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于最大体力的1/3则触发<color=#FFF779>横扫千军</color>\r\n\r\n<indent=0><sprite=5><indent=15>横扫千军：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>解除</color>自身所处的<b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=16><sprite=6><indent=32>自身下回合攻击先制+3且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3940,
+          "url": "https://api.seerapi.com/v1/pet/3940"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          50,
+          3,
+          3,
+          3,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1538,
+          "url": "https://api.seerapi.com/v1/eid_effect/1538"
+        }
+      },
+      "effect_alias": "1538_100_50_3_3_3_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": {
+        "id": 1241,
+        "url": "https://api.seerapi.com/v1/soulmark/1241"
+      },
+      "from": null
+    }
+  },
+  "hash": "6354c335"
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "1907": {
+      "id": 1907,
+      "desc": "自身使用攻击技能后令对手随机3项能力等级-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能后使对手随机3项能力-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4703,
+          "url": "https://api.seerapi.com/v1/pet/4703"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 893,
+          "url": "https://api.seerapi.com/v1/eid_effect/893"
+        }
+      },
+      "effect_alias": "893_3_1_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3700cb09"
+}

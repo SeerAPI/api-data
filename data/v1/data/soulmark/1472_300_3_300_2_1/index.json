@@ -1,0 +1,41 @@
+{
+  "data": {
+    "1154": {
+      "id": 1154,
+      "desc": "自身被击败时触发摇滚兔的音乐魔咒：当回合受到的攻击伤害高于300则令对手当前精灵3回合内属性转变为普通系，当回合受到的攻击伤害低于300则令对手随机2个技能PP值归零（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时触发摇滚兔的音乐魔咒：\r\n<indent=32><sprite=4><indent=48>当回合受到的攻击伤害高于300则令对手当前精灵3回合内系别变为普通系\r\n<indent=32><sprite=4><indent=48>当回合受到的攻击伤害低于300则令对手随机2个技能<b>PP值</b><color=#64F9FA>归零</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3885,
+          "url": "https://api.seerapi.com/v1/pet/3885"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          3,
+          300,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1472,
+          "url": "https://api.seerapi.com/v1/eid_effect/1472"
+        }
+      },
+      "effect_alias": "1472_300_3_300_2_1",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "294835c9"
+}

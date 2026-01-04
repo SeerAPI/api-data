@@ -1,0 +1,41 @@
+{
+  "data": {
+    "508": {
+      "id": 508,
+      "desc": "回合开始时，若对手处于能力提升状态，则当回合自身攻击反转对手能力提升状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3178,
+          "url": "https://api.seerapi.com/v1/pet/3178"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 812,
+          "url": "https://api.seerapi.com/v1/eid_effect/812"
+        }
+      },
+      "effect_alias": "812_1_0",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": {
+        "id": 509,
+        "url": "https://api.seerapi.com/v1/soulmark/509"
+      },
+      "from": null
+    }
+  },
+  "hash": "3115150b"
+}

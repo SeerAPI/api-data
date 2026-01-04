@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1849": {
+      "id": 1849,
+      "desc": "每次登场时，若自身为对手天敌则为对手附加3回合的星火之灼，自身每次使用攻击后附加3回合的星火之灼|战斗中自身攻击、特攻等于原本二者最高值；自身使用物理攻击后恢复自身最大体力的1/3，自身使用特殊攻击后附加自身最大体力1/3的百分比伤害|星火之灼：体力恢复效果减少100%，每次受到攻击伤害后拥有者额外受到伤害值50%的百分比伤害，若对手为水系则星火之灼消失并额外附加伤害值100%的真实伤害|（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时，若自身为对手天敌则为对手附加3回合的<color=#FFF779>星火之灼</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击后附加3回合的星火之灼\r\n<indent=16><sprite=3><indent=32>自身使用物理攻击后<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n<indent=16><sprite=3><indent=32>自身使用特殊攻击后<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>战斗中自身攻击、特攻等于<b>原本二者最高值</b>\r\n\r\n<indent=0><sprite=5><indent=15>星火之灼：\r\n<indent=16><sprite=6><indent=32><b>体力恢复效果</b><color=#64F9FA>减少</color>100%\r\n<indent=16><sprite=6><indent=32>每次受到攻击伤害后，额外受到伤害值50%的百分比伤害\r\n<indent=32><sprite=4><indent=48>若对手为水系，星火之灼消失，并额外附加伤害值100%的真实伤害",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4649,
+          "url": "https://api.seerapi.com/v1/pet/4649"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "effect": {
+          "id": 2237,
+          "url": "https://api.seerapi.com/v1/eid_effect/2237"
+        }
+      },
+      "effect_alias": "2237_3_3_3_3",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f36f89e2"
+}

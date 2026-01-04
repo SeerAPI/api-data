@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1251": {
+      "id": 1251,
+      "desc": "欧维帕德出场后急剧消耗自身能量：本场战斗首次造成的攻击伤害提升120%，之后每次额外造成的攻击伤害降低20%；战斗阶段结束时，若自身体力高于或等于回合开始时则下回合自身攻击命中后令对手全属性-1，若自身体力低于回合开始时则下回合自身攻击命中后有100%概率造成的伤害翻倍（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>欧维帕德登场后急剧消耗自身能量：本场战斗首次造成的<b>攻击伤害</b><color=#64F9FA>提升</color>120%，每次触发后额度降低20%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于或等于回合开始时则下回合自身攻击命中后令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于回合开始时则下回合自身攻击命中后100%造成的<b>攻击伤害</b><color=#64F9FA>翻倍</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3991,
+          "url": "https://api.seerapi.com/v1/pet/3991"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          120,
+          20,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1588,
+          "url": "https://api.seerapi.com/v1/eid_effect/1588"
+        }
+      },
+      "effect_alias": "1588_120_20_1_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "54601435"
+}

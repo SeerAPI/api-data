@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1867": {
+      "id": 1867,
+      "desc": "战斗阶段结束时，若当回合对手未受到攻击伤害则50%令对手焚烬，未触发自身下回合先制+1且使用攻击技能时100%令对手烧伤|使用攻击技能时本次在场造成的伤害提升40%，每次使用增加40%，最高120%，若已叠加至最高则本场战斗内上述焚烬附加概率提升10%，最高100%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若当回合对手未受到攻击伤害则50%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发自身下回合<b>先制</b>+1且使用攻击技能时100%<color=#64F9FA>令对手烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能时本次在场造成的<b>攻击伤害<color=#64F9FA></b>提升</color>40%，每次使用增加40%，最高120%\r\n<indent=32><sprite=4><indent=48>若已叠加至最高则本场战斗内上述焚烬附加概率提升10%，最高100% ",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4663,
+          "url": "https://api.seerapi.com/v1/pet/4663"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          40,
+          40,
+          120,
+          1
+        ],
+        "effect": {
+          "id": 2262,
+          "url": "https://api.seerapi.com/v1/eid_effect/2262"
+        }
+      },
+      "effect_alias": "2262_100_40_40_120_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7dcb368a"
+}

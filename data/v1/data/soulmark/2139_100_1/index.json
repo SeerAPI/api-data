@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1746": {
+      "id": 1746,
+      "desc": "每次登场时100%令对手沉默，未触发则当回合战斗阶段结束时反转对手能力提升状态|回合开始时若对手处于沉默状态则当回合自身攻击技能必定打出致命一击，且免疫对手造成的致命一击伤害；|对手攻击技能打出致命一击后令对手麻痹|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时100%<color=#64F9FA>令对手沉默</color>\r\n<indent=32><sprite=4><indent=48>未触发则当回合战斗阶段结束时<color=#64F9FA>反转</color>对手<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于沉默状态则当回合自身攻击技能必定<color=#64F9FA>打出致命一击</color>，且<color=#64F9FA>免疫</color>对手造成的<b>致命一击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能打出致命一击后令对手麻痹",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4534,
+          "url": "https://api.seerapi.com/v1/pet/4534"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2139,
+          "url": "https://api.seerapi.com/v1/eid_effect/2139"
+        }
+      },
+      "effect_alias": "2139_100_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6afd870"
+}

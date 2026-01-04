@@ -1,0 +1,47 @@
+{
+  "data": {
+    "735": {
+      "id": 735,
+      "desc": "先出手时附加对手最大体力1/4的固定伤害，若附加固定伤害高于200则恢复自身最大体力的1/3；后出手时附加自身攻击值50%的固定伤害，若附加固定伤害高于250则{吸取}对手最大{体力}的1/4（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3417,
+          "url": "https://api.seerapi.com/v1/pet/3417"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          4,
+          200,
+          3,
+          50,
+          250,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 1019,
+          "url": "https://api.seerapi.com/v1/eid_effect/1019"
+        }
+      },
+      "effect_alias": "1019_4_200_3_50_250_4_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8424f95f"
+}

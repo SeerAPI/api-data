@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1572": {
+      "id": 1572,
+      "desc": "当回合自身使用属性技能则下回合起自身造成的攻击伤害额外提升50%，最多可叠加5次，当回合自身使用攻击技能则清除攻击伤害额外提升效果且令自身防御+1、特防+1（伤害提升效果下场重置，boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>当回合自身使用属性技能则下回合起自身造成的<b>攻击伤害</b>额外<color=#64F9FA>提升</color>50%，最多可叠加5次\r\n<indent=16><sprite=3><indent=32>当回合自身使用攻击技能则重置上述效果且令自身防御+1、特防+1",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4348,
+          "url": "https://api.seerapi.com/v1/pet/4348"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          5,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1931,
+          "url": "https://api.seerapi.com/v1/eid_effect/1931"
+        }
+      },
+      "effect_alias": "1931_50_5_1_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8850c225"
+}

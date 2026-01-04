@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1225": {
+      "id": 1225,
+      "desc": "所有攻击无视对手双防能力提升状态；每个月的5日，冠绝火龙神力爆发：攻击值增加200点；每个月的10日，冠绝飞龙神力爆发：速度值增加100点；每个月的15日，冠绝岩龙神力爆发：双防值增加100点；每个月的20日，冠绝冰龙神力爆发：体力值增加400点！（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身所有攻击<color=#64F9FA>无视</color>对手双防<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>限定效果：\r\n<indent=16><sprite=3><indent=32>根据每月的不同日期，自身获得以下效果：\r\n<indent=32><sprite=4><indent=48>每月的5日冠绝火龙神力爆发：自身在战斗中攻击值增加200点\r\n<indent=32><sprite=4><indent=48>每月的10日冠绝飞龙神力爆发：自身在战斗中速度值增加100点\r\n<indent=32><sprite=4><indent=48>每月的15日冠绝岩龙神力爆发：自身在战斗中双防值增加100点\r\n<indent=32><sprite=4><indent=48>每月的20日冠绝冰龙神力爆发：自身在战斗中体力值增加400点",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3960,
+          "url": "https://api.seerapi.com/v1/pet/3960"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          200,
+          10,
+          100,
+          15,
+          100,
+          20,
+          400
+        ],
+        "effect": {
+          "id": 1560,
+          "url": "https://api.seerapi.com/v1/eid_effect/1560"
+        }
+      },
+      "effect_alias": "1560_5_200_10_100_15_100_20_400",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "65cad59d"
+}

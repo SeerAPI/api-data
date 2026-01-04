@@ -1,0 +1,48 @@
+{
+  "data": {
+    "724": {
+      "id": 724,
+      "desc": "每回合自身攻击附加自身上回合造成伤害值50%的等量固定伤害；当回合造成的伤害低于300则自身下回合攻击造成的伤害翻倍且有50%概率使对手瘫痪（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3408,
+          "url": "https://api.seerapi.com/v1/pet/3408"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1006,
+          "url": "https://api.seerapi.com/v1/eid_effect/1006"
+        }
+      },
+      "effect_alias": "1006_50_300_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f3af431"
+}

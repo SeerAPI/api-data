@@ -1,0 +1,47 @@
+{
+  "data": {
+    "813": {
+      "id": 813,
+      "desc": "登场后，攻击技能附加150点固伤，自身每次使用攻击技能额外增加150点固伤，最高附加对手最大体力1/2的固定伤害；登场后，受到的攻击伤害减少75%，自身每次使用攻击技能则百分比减少25%，最多减少到0（下场后重置，BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3504,
+          "url": "https://api.seerapi.com/v1/pet/3504"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          150,
+          2,
+          75,
+          25,
+          0,
+          1
+        ],
+        "effect": {
+          "id": 1098,
+          "url": "https://api.seerapi.com/v1/eid_effect/1098"
+        }
+      },
+      "effect_alias": "1098_150_150_2_75_25_0_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "124f0dd5"
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "1012": {
+      "id": 1012,
+      "desc": "每个月的25日，它将爆发出惊人的力量：自身所有能力值+50！",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果：\r\n<indent=16><sprite=3><indent=32>每个月的25日，它将爆发出惊人的力量：自身所有<b>能力值</b>+50！",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3732,
+          "url": "https://api.seerapi.com/v1/pet/3732"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          50
+        ],
+        "effect": {
+          "id": 1307,
+          "url": "https://api.seerapi.com/v1/eid_effect/1307"
+        }
+      },
+      "effect_alias": "1307_25_50",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bc521d15"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "567": {
+      "id": 567,
+      "desc": "回合开始时若自身处于异常状态则对手2项属性-1且造成的伤害减少50%；每回合恢复自身已损失体力的30%，攻击时有自身已损失体力百分比的概率威力翻倍（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3242,
+          "url": "https://api.seerapi.com/v1/pet/3242"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          50,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 856,
+          "url": "https://api.seerapi.com/v1/eid_effect/856"
+        }
+      },
+      "effect_alias": "856_2_1_50_30_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": {
+        "id": 568,
+        "url": "https://api.seerapi.com/v1/soulmark/568"
+      },
+      "from": null
+    }
+  },
+  "hash": "b8d16268"
+}

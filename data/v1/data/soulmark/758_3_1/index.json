@@ -1,0 +1,46 @@
+{
+  "data": {
+    "442": {
+      "id": 442,
+      "desc": "受到伤害时回复自身最大体力的1/3并使自身双防+1；攻击技能附加自身最大体力值1/3的固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3096,
+          "url": "https://api.seerapi.com/v1/pet/3096"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1
+        ],
+        "effect": {
+          "id": 758,
+          "url": "https://api.seerapi.com/v1/eid_effect/758"
+        }
+      },
+      "effect_alias": "758_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "787a9b22"
+}

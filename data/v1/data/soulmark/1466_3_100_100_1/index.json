@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1148": {
+      "id": 1148,
+      "desc": "自身使用攻击技能则反转对手能力提升状态，反转失败则吸取对手能力提升状态且自身下回合所有技能先制+3；|回合开始时，若自身体力高于对手则当回合受到攻击后100%消除对手回合类效果，若自身体力低于对手则当回合受到攻击后100%使对手麻痹（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则<color=#64F9FA>反转</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>反转失败则<color=#64F9FA>吸取</color>对手<b>能力提升状态</b>且自身下回合所有技能<b>先制</b>+3\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合受到攻击后100%<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合受到攻击后100%<color=#64F9FA>使对手麻痹</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3879,
+          "url": "https://api.seerapi.com/v1/pet/3879"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1466,
+          "url": "https://api.seerapi.com/v1/eid_effect/1466"
+        }
+      },
+      "effect_alias": "1466_3_100_100_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": {
+        "id": 1445,
+        "url": "https://api.seerapi.com/v1/soulmark/1445"
+      },
+      "from": null
+    }
+  },
+  "hash": "906725e0"
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1263": {
+      "id": 1263,
+      "desc": "每回合开始时为自身附加200点护罩，战斗阶段结束时若自身不存在护罩则恢复自身200点体力并造成等量固定伤害（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时为自身<color=#64F9FA>附加</color>200点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身不存在护罩则<color=#64F9FA>恢复</color>自身200点<b>体力</b>并<color=#64F9FA>附加</color>等量<b>固定伤害</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4008,
+          "url": "https://api.seerapi.com/v1/pet/4008"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          200
+        ],
+        "effect": {
+          "id": 1602,
+          "url": "https://api.seerapi.com/v1/eid_effect/1602"
+        }
+      },
+      "effect_alias": "1602_200_200",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 17,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/17"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ce2cedb1"
+}

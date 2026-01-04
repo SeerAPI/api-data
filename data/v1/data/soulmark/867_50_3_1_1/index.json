@@ -1,0 +1,48 @@
+{
+  "data": {
+    "579": {
+      "id": 579,
+      "desc": "自身先出手时伤害提升50%，体力低于对手时提升效果翻倍；自身后出手时{吸取}对手1/3最大{体力}且自身下次攻击先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3249,
+          "url": "https://api.seerapi.com/v1/pet/3249"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 867,
+          "url": "https://api.seerapi.com/v1/eid_effect/867"
+        }
+      },
+      "effect_alias": "867_50_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6e7bab72"
+}

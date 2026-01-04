@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1415": {
+      "id": 1415,
+      "desc": "回合开始时，若自身体力高于对手则当回合令对手无法通过技能恢复体力；|当回合若对手攻击技能打出致命一击则令该技能PP值随机消耗1-5倍，若对手攻击技能未打出致命一击则战斗阶段结束时恢复自身已损失体力的1/2并造成等量固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力高于对手则当回合对手<color=#64F9FA>无法通过技能恢复体力</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手攻击技能打出致命一击则令该技能PP值随机消耗1-5倍\r\n<indent=16><sprite=3><indent=32>若对手攻击技能未打出致命一击则战斗阶段结束时<color=#64F9FA>恢复</color>自身已损失体力的1/2并造成等量<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4193,
+          "url": "https://api.seerapi.com/v1/pet/4193"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          5,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1786,
+          "url": "https://api.seerapi.com/v1/eid_effect/1786"
+        }
+      },
+      "effect_alias": "1786_1_5_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a5966eb3"
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "202": {
+      "id": 202,
+      "desc": "免疫能力下降，每回合使自身随机属性+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2871,
+          "url": "https://api.seerapi.com/v1/pet/2871"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 622,
+          "url": "https://api.seerapi.com/v1/eid_effect/622"
+        }
+      },
+      "effect_alias": "622_1_0",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "636ecf1f"
+}

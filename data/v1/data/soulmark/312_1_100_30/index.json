@@ -1,0 +1,39 @@
+{
+  "data": {
+    "85": {
+      "id": 85,
+      "desc": "混沌大天使 自身处于能力提升状态时，造成伤害的30%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2626,
+          "url": "https://api.seerapi.com/v1/pet/2626"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          30
+        ],
+        "effect": {
+          "id": 312,
+          "url": "https://api.seerapi.com/v1/eid_effect/312"
+        }
+      },
+      "effect_alias": "312_1_100_30",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "882d2961"
+}

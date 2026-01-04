@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1131": {
+      "id": 1131,
+      "desc": "每场战斗前3次攻击附加自身最大体力1/3的固定伤害；自身受到攻击伤害后使自身下回合造成的攻击伤害翻倍，自身使用攻击技能未击败对手则下回合必定打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限3次）：\r\n<indent=16><sprite=3><indent=32>攻击技能<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后使自身下回合造成的<b>攻击伤害</b><color=#64F9FA>翻倍</color>\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能未击败对手则下回合必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3858,
+          "url": "https://api.seerapi.com/v1/pet/3858"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1448,
+          "url": "https://api.seerapi.com/v1/eid_effect/1448"
+        }
+      },
+      "effect_alias": "1448_3_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e8d56006"
+}

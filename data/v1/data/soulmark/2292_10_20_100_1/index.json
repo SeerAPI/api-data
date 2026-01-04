@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1892": {
+      "id": 1892,
+      "desc": "自身击败对手后，所有能力值提升10%|回合开始时，自身每有一种能力值高于对手，当回合自身造成的攻击伤害、固定伤害、百分比伤害提升20%，自身每有一种能力值低于对手，回合结束后自身恢复100点体力|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手后，所有<b>能力值<color=#64F9FA></b>提升</color>10%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=16><sprite=3><indent=32>自身每有一种能力值高于对手，当回合自身造成的<b>攻击伤害、固定伤害、百分比伤害<color=#64F9FA></b>提升</color>20%\r\n<indent=16><sprite=3><indent=32>自身每有一种能力值低于对手，回合结束后自身<color=#64F9FA>恢复</color>100点体力",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4690,
+          "url": "https://api.seerapi.com/v1/pet/4690"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          10,
+          20,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2292,
+          "url": "https://api.seerapi.com/v1/eid_effect/2292"
+        }
+      },
+      "effect_alias": "2292_10_20_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b13c650b"
+}

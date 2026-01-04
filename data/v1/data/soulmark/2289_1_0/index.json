@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1891": {
+      "id": 1891,
+      "desc": "回合结束后恢复100点体力，每次触发后本场战斗此效果提升50点，最高不超过自身最大体力的1/2|回合开始时，若自身为满体力则当回合免疫能力下降状态，若自身不为满体力则自身有等同于当前体力百分比的概率使自身当回合免疫受到的异常状态|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后<color=#64F9FA>恢复</color>100点体力，每次触发本场战斗此效果提升50点，最高不超过自身最大体力的1/2\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身为满体力，则当回合<color=#64F9FA>免疫<b></color>能力下降</b>状态\r\n<indent=32><sprite=4><indent=48>若自身不为满体力，则自身有等同于当前体力百分比的概率使自身当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4689,
+          "url": "https://api.seerapi.com/v1/pet/4689"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2289,
+          "url": "https://api.seerapi.com/v1/eid_effect/2289"
+        }
+      },
+      "effect_alias": "2289_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8bbacf21"
+}

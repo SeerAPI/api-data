@@ -1,41 +1,43 @@
 {
-  "id": 1964,
-  "desc": "回合开始时若对手不处于能力提升则当回合自身受到的攻击伤害减少50%，若对手处于能力提升则反转对手的能力提升；战斗阶段结束时，若对手处于能力下降状态则随机令对手1个技能PP值归0，若对手不处于能力下降状态则自身所处的异常状态减少1回合，自身所有技能恢复1点PP值（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升则<color=#64F9FA>反转</color>对手的<b>能力提升</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则随机令对手1个技能<b>PP值</b><color=#64F9FA>归0</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力下降状态则自身所处的异常状态减少1回合，自身所有技能<b>PP值</b>+1",
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 4756,
-      "url": "https://api.seerapi.com/v1/pet/4756"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      1,
-      0
-    ],
-    "effect": {
-      "id": 2380,
-      "url": "https://api.seerapi.com/v1/eid_effect/2380"
+  "data": {
+    "1601": {
+      "id": 1601,
+      "desc": "蒂朵拥有着神奇的次元之琴，可以在战斗中释放力量，将己方场地变为灵籁泳馆或星璨舞台，蒂朵奇数回合登场时若己方无场地效果，则次元之琴会将己方场地变为灵籁泳馆，持续5回合，偶数回合登场时若己方无场地效果，则次元之琴会将己方场地变为星璨舞台，持续5回合；（boss有效）|蒂朵每次下场时会消除我方的灵籁泳馆或星璨舞台场地；（boss无效）|灵籁泳馆场地效果说明：精灵战斗时所有技能必定命中且每个战斗阶段结束时恢复自身300点体力；|星璨舞台场地效果说明：精灵战斗时造成的攻击伤害提升130%且每个战斗阶段结束时会恢复自身所有技能1点PP值",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>蒂朵登场时，若己方未处于灵籁泳馆或星璨舞台，则开始弹奏次元之琴：\r\n<indent=32><sprite=4><indent=48>若处于奇数回合则己方开启<color=#FFF779>灵籁泳馆</color>，持续5回合\r\n<indent=32><sprite=4><indent=48>若处于偶数回合则己方开启<color=#FFF779>星璨舞台</color>，持续5回合\r\n<indent=16><sprite=3><indent=32>非boss战中蒂朵下场时，次元之琴演奏结束：\r\n<indent=32><sprite=4><indent=48>消除我方的灵籁泳馆、星璨舞台效果\r\n\r\n<indent=0><sprite=5><indent=15>灵籁泳馆：\r\n<indent=16><sprite=6><indent=32>所有技能<color=#64F9FA>必定命中</color>且每个战斗阶段结束时<color=#64F9FA>恢复</color>自身300点<b>体力</b>\r\n\r\n<indent=0><sprite=5><indent=15>星璨舞台：\r\n<indent=16><sprite=6><indent=32>造成的<b>攻击伤害</b><color=#64F9FA>额外提升</color>130%且每个战斗阶段结束时会<color=#64F9FA>恢复</color>自身所有技能1点<b>PP值</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4377,
+          "url": "https://api.seerapi.com/v1/pet/4377"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 1964,
+          "url": "https://api.seerapi.com/v1/eid_effect/1964"
+        }
+      },
+      "effect_alias": "1964",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 4,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
-    },
-    {
-      "id": 13,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/13"
-    },
-    {
-      "id": 16,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/16"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "c89d2014"
+  "hash": "769d4893"
 }

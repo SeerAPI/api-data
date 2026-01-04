@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1884": {
+      "id": 1884,
+      "desc": "首次登场起3回合内免疫受到的异常状态与能力下降状态且每回合开始时自身恢复200点体力与所有技能1点PP值，自身使用技能迪拉修姆光流时，2回合内自身所有技能造成的攻击伤害提升100%，自身使用技能兰帕尔特光弹时，2回合内自身使用技能后附加对手最大体力10%的百分比伤害，最高不超过自身速度值的150%（所有效果boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>迪迦首次登场起3回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>与<b>能力下降状态</b> 每回合结束后自身<color=#64F9FA>恢复</color>300点<b>体力</b>与所有技能2点<b>PP值</b>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>迪迦使用技能“迪拉修姆光流”时 2回合内自身所有技能造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n<indent=16><sprite=3><indent=32>迪迦使用技能“兰帕尔特光弹”时 2回合内自身所有技能<color=#64F9FA>附加</color>对手最大体力10%的<b>百分比伤害</b> 最高不超过自身速度值的200%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4678,
+          "url": "https://api.seerapi.com/v1/pet/4678"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          2,
+          100,
+          2,
+          10,
+          150
+        ],
+        "effect": {
+          "id": 2265,
+          "url": "https://api.seerapi.com/v1/eid_effect/2265"
+        }
+      },
+      "effect_alias": "2265_3_2_100_2_10_150",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c82c6f04"
+}

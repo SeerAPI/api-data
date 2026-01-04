@@ -1,0 +1,49 @@
+{
+  "data": {
+    "449": {
+      "id": 449,
+      "desc": "自身攻击技能命中后则令对手当回合及下回合使用的属性技能失效（该效果为回合类效果）；|回合开始时若自身体力高于对手，则当回合造成的攻击伤害提升100%；回合开始时若自身体力低于对手，则下1次使用技能造成的攻击伤害会恢复自身体力，之后下1次使用技能给对手造成等同于恢复量的固定伤害（boss有效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3102,
+          "url": "https://api.seerapi.com/v1/pet/3102"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100
+        ],
+        "effect": {
+          "id": 764,
+          "url": "https://api.seerapi.com/v1/eid_effect/764"
+        }
+      },
+      "effect_alias": "764_2_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": {
+        "id": 456,
+        "url": "https://api.seerapi.com/v1/soulmark/456"
+      },
+      "from": null
+    }
+  },
+  "hash": "45c1cd18"
+}

@@ -1,30 +1,35 @@
 {
-  "id": 7,
-  "desc": "每回合恢复1/10最大体力",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2431,
-      "url": "https://api.seerapi.com/v1/pet/2431"
-    }
-  ],
-  "effect": {
-    "effect_args": null,
-    "effect": {
-      "id": 261,
-      "url": "https://api.seerapi.com/v1/eid_effect/261"
+  "data": {
+    "56": {
+      "id": 56,
+      "desc": "使对手的命中率-6%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2553,
+          "url": "https://api.seerapi.com/v1/pet/2553"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/eid_effect/7"
+        }
+      },
+      "effect_alias": "7",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 6,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "ec5afc77"
+  "hash": "bd3cf2cd"
 }

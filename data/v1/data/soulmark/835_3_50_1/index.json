@@ -1,0 +1,43 @@
+{
+  "data": {
+    "537": {
+      "id": 537,
+      "desc": "回合开始时若对手处于烧伤状态，则自身攻击{吸取}对手最大{体力}的1/3；回合开始时若对手不处于烧伤状态，则自身受到攻击时50%免疫攻击伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3213,
+          "url": "https://api.seerapi.com/v1/pet/3213"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 835,
+          "url": "https://api.seerapi.com/v1/eid_effect/835"
+        }
+      },
+      "effect_alias": "835_3_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "764fe5b1"
+}

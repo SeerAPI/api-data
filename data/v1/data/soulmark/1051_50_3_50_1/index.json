@@ -1,0 +1,40 @@
+{
+  "data": {
+    "767": {
+      "id": 767,
+      "desc": "攻击有50%概率附加自身最大体力1/3的固定伤害，未触发则附加自身攻击值50%的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3457,
+          "url": "https://api.seerapi.com/v1/pet/3457"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1051,
+          "url": "https://api.seerapi.com/v1/eid_effect/1051"
+        }
+      },
+      "effect_alias": "1051_50_3_50_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ee02c19a"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "745": {
+      "id": 745,
+      "desc": "自身先出手时有50%概率使对手疲惫，未触发则下次先出手时概率提升至80%；后出手时自身下次出手先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3428,
+          "url": "https://api.seerapi.com/v1/pet/3428"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          80,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1028,
+          "url": "https://api.seerapi.com/v1/eid_effect/1028"
+        }
+      },
+      "effect_alias": "1028_50_80_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d966a8d2"
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "92": {
+      "id": 92,
+      "desc": "自身处于强化状态时，每次攻击都有15%的概率使对手麻痹",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2639,
+          "url": "https://api.seerapi.com/v1/pet/2639"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          15
+        ],
+        "effect": {
+          "id": 316,
+          "url": "https://api.seerapi.com/v1/eid_effect/316"
+        }
+      },
+      "effect_alias": "316_2_15",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c10e1987"
+}

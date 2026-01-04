@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1073": {
+      "id": 1073,
+      "desc": "当回合自身受到攻击伤害则反弹300点固定伤害并恢复等量体力，当回合未受到攻击伤害则战斗阶段结束时50%令对手害怕；|先出手时当回合自身80%的概率闪避对手的攻击技能且50%的概率打出致命一击，后出手时下回合自身先制+1且当回合100%打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>当回合自身受到攻击伤害则<color=#64F9FA>附加</color>300点<b>固定伤害</b>并<color=#64F9FA>恢复</color>等量体力\r\n<indent=16><sprite=3><indent=32>当回合自身未受到技能伤害则战斗阶段结束时50%<color=#64F9FA>令对手害怕</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时当回合100%<color=#64F9FA>闪避</color>对手的攻击且50%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>后出手时自身下回合<b>先制</b>+1且当回合100%<color=#64F9FA>打出致命一击</color>\r\n",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3797,
+          "url": "https://api.seerapi.com/v1/pet/3797"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          50,
+          80,
+          50,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1375,
+          "url": "https://api.seerapi.com/v1/eid_effect/1375"
+        }
+      },
+      "effect_alias": "1375_300_50_80_50_1_100_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": {
+        "id": 1936,
+        "url": "https://api.seerapi.com/v1/soulmark/1936"
+      },
+      "from": null
+    }
+  },
+  "hash": "8a7423b8"
+}

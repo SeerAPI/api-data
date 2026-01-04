@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1318": {
+      "id": 1318,
+      "desc": "己方背包内每有一只精灵死亡则卡巴咔吧即可从中汲取力量：使自身造成的攻击伤害提高10%且回合结束恢复50点体力，每天20:00-22:00期间卡巴咔吧开始活跃，所吸取的力量增强后可使触发的效果翻倍（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>己方背包内每有一只精灵阵亡则卡巴咔吧即可从中汲取力量：造成的攻击伤害<color=#64F9FA>提升</color>10%且战斗阶段结束时<color=#64F9FA>恢复</color>50点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>限定效果：\r\n<indent=16><sprite=3><indent=32>每天20:00-22:00期间卡巴咔吧开始活跃：自身的常驻效果翻倍",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4073,
+          "url": "https://api.seerapi.com/v1/pet/4073"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          10,
+          50,
+          20,
+          22
+        ],
+        "effect": {
+          "id": 1666,
+          "url": "https://api.seerapi.com/v1/eid_effect/1666"
+        }
+      },
+      "effect_alias": "1666_10_50_20_22",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "35b7d33"
+}

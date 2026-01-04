@@ -1,0 +1,53 @@
+{
+  "data": {
+    "828": {
+      "id": 828,
+      "desc": "回合开始时，若自身处于能力提升状态则为自身附加300点护盾（不可叠加），若自身不处于能力提升状态则战斗阶段结束时{吸取}对手最大{体力}的1/3并为自身附加等量的护盾（吸取体力产生的护盾上限为400）；|每次对手出手后，若自身存在的上述护盾消失，则附加对手最大体力1/3的百分比伤害，同时对手下1次使用攻击技能时，自身受到的攻击伤害减少50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3并为自身<color=#64F9FA>附加</color>等量的<b>护盾</b>，上限400\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每次对手出手后，若自身存在的上述护盾消失，则：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>对手下1次使用攻击技能时，自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3516,
+          "url": "https://api.seerapi.com/v1/pet/3516"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          3,
+          3,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1113,
+          "url": "https://api.seerapi.com/v1/eid_effect/1113"
+        }
+      },
+      "effect_alias": "1113_300_3_3_1_50_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": {
+        "id": 1985,
+        "url": "https://api.seerapi.com/v1/soulmark/1985"
+      },
+      "from": null
+    }
+  },
+  "hash": "79ee4aff"
+}

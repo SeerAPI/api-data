@@ -1,0 +1,43 @@
+{
+  "data": {
+    "569": {
+      "id": 569,
+      "desc": "当回合自身属性技能命中则在回合结束后{吸取}对手最大{体力}的1/4；当回合自身攻击技能命中则在回合结束后有30%的概率使对手随机进入一种异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3245,
+          "url": "https://api.seerapi.com/v1/pet/3245"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          4,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 862,
+          "url": "https://api.seerapi.com/v1/eid_effect/862"
+        }
+      },
+      "effect_alias": "862_4_30_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "efff167f"
+}

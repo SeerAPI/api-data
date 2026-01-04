@@ -1,0 +1,38 @@
+{
+  "data": {
+    "122": {
+      "id": 122,
+      "desc": "若打出致命一击则对手30%概率害怕",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2709,
+          "url": "https://api.seerapi.com/v1/pet/2709"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          6
+        ],
+        "effect": {
+          "id": 344,
+          "url": "https://api.seerapi.com/v1/eid_effect/344"
+        }
+      },
+      "effect_alias": "344_30_6",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6ca70e71"
+}

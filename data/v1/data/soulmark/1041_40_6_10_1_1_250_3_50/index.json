@@ -1,0 +1,52 @@
+{
+  "data": {
+    "758": {
+      "id": 758,
+      "desc": "自身攻击技能有40%概率令对手害怕,每回合开始时概率增加10%,若未触发害怕则战斗阶段结束时恢复自身最大体力1/3并造成等量固定伤害(BOSS无效);下场时使己方下一只出场精灵登场首回合免疫异常状态且下1次受到的伤害不超过250(包括正常切换和死亡切换);自身特殊技能必定命中,且命中后使对手下回合属性技能有50%概率失效(BOSS无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3443,
+          "url": "https://api.seerapi.com/v1/pet/3443"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          6,
+          10,
+          1,
+          1,
+          250,
+          3,
+          50
+        ],
+        "effect": {
+          "id": 1041,
+          "url": "https://api.seerapi.com/v1/eid_effect/1041"
+        }
+      },
+      "effect_alias": "1041_40_6_10_1_1_250_3_50",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "aa75fbb6"
+}

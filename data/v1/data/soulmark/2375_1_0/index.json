@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1959": {
+      "id": 1959,
+      "desc": "自身登场之后抵挡首次受到的致命一击且直到抵挡触发自身免疫受到的能力下降状态，抵挡触发时自身解除所处的异常状态并为自身附加3回合超频；自身处于超频时，每次受到致死伤害保留1点体力并解除超频外的所有异常状态|回合开始时，若自身体力低于对手则当回合攻击先制+1且使用时附加双方体力之差70%的真实伤害，若自身体力高于对手则当回合攻击后100%令对手害怕，未触发则消除对手回合类效果，若本回合自身无法主动切换精灵，则重新执行自身的登场效果、附加并解除对手自身所处的异常状态|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场之后<color=#64F9FA>抵挡</color>首次受到的<b>致命一击</b>且直到抵挡触发自身<color=#64F9FA>免疫</color>受到的<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>抵挡触发时自身<color=#64F9FA>解除</color>所处的<b>异常状态</b>并为自身附加3回合超频\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身处于超频状态时，每次受到致死伤害<color=#64F9FA>保留</color>1点<b>体力</b>并<color=#64F9FA>解除</color>超频外的所有<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合攻击<b>先制</b>+1且使用时<color=#64F9FA>附加</color>双方体力之差70%的<b>真实伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合攻击使用后100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>若本回合自身无法主动切换精灵，则：\r\n<indent=32><sprite=4><sprite=4><indent=64>重新执行自身的<b>登场效果</b>\r\n<indent=32><sprite=4><sprite=4><indent=64><color=#64F9FA>附加</color>并<color=#64F9FA>解除</color>自身所处的<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3896,
+          "url": "https://api.seerapi.com/v1/pet/3896"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2375,
+          "url": "https://api.seerapi.com/v1/eid_effect/2375"
+        }
+      },
+      "effect_alias": "2375_1_0",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1165,
+        "url": "https://api.seerapi.com/v1/soulmark/1165"
+      }
+    }
+  },
+  "hash": "a64bac3c"
+}

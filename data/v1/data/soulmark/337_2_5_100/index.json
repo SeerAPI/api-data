@@ -1,0 +1,39 @@
+{
+  "data": {
+    "112": {
+      "id": 112,
+      "desc": "若对手处于冻伤状态，则自身本回合受到的伤害减少100点",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2683,
+          "url": "https://api.seerapi.com/v1/pet/2683"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          5,
+          100
+        ],
+        "effect": {
+          "id": 337,
+          "url": "https://api.seerapi.com/v1/eid_effect/337"
+        }
+      },
+      "effect_alias": "337_2_5_100",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2d8d820a"
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1571": {
+      "id": 1571,
+      "desc": "回合开始时自身体力每损失1%则当回合攻击造成的伤害提升1%，若自身体力低于最大体力的1/2则转变为伤害提升2%，战斗阶段结束时对手体力每剩余1%，则下回合自身受到的固定伤害和百分比伤害降低0.4%；|自身攻击技能命中后若造成的伤害低于对手最大体力的1/3则附加对手最大体力1/3的百分比伤害；自身攻击技能命中后若造成的伤害高于对手最大体力的1/3则恢复自身最大体力的1/3并造成等量百分比伤害且令自身下回合攻击技能先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身体力每损失1%则当回合攻击造成的伤害<color=#64F9FA>提升</color>1%\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则改为提升2%\r\n<indent=16><sprite=3><indent=32>回合开始时对手体力每剩余1%，则当回合自身受到的<b>固定伤害</b>和<b>百分比伤害</b><color=#64F9FA>降低</color>0.5%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后若造成的伤害低于350则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>且下回合属性技能<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后若造成的伤害高于350则<color=#64F9FA>恢复</color>自身最大体力的1/3并造成等量<b>百分比伤害</b>且下回合攻击技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4347,
+          "url": "https://api.seerapi.com/v1/pet/4347"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1930,
+          "url": "https://api.seerapi.com/v1/eid_effect/1930"
+        }
+      },
+      "effect_alias": "1930_1_2_3_3_3_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": {
+        "id": 1786,
+        "url": "https://api.seerapi.com/v1/soulmark/1786"
+      },
+      "from": null
+    }
+  },
+  "hash": "1f162f67"
+}

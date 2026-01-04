@@ -1,0 +1,45 @@
+{
+  "data": {
+    "2015": {
+      "id": 2015,
+      "desc": "回合开始时，若对手不处于能力提升状态则当回合造成的攻击伤害提升40%，若对手不处于回合类效果则当回合所有技能先制+1；自身使用技能后吸取对手最大体力的20%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%\r\n<indent=32><sprite=4><indent=48>若对手不处于回合类效果则当回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后<color=#64F9FA>吸取</color>对手最大体力的20%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4825,
+          "url": "https://api.seerapi.com/v1/pet/4825"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          40,
+          0,
+          0,
+          1
+        ],
+        "effect": {
+          "id": 2441,
+          "url": "https://api.seerapi.com/v1/eid_effect/2441"
+        }
+      },
+      "effect_alias": "2441_0_40_0_0_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "14c1bea6"
+}

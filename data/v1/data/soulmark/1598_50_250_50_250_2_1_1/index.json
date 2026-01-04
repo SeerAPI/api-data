@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1261": {
+      "id": 1261,
+      "desc": "对手使用攻击技能则战斗阶段结束时有50%的概率恢复自身250点体力，对手使用属性技能则战斗阶段结束时有50%的概率受到250点固定伤害，未触发则令对手随机2项能力值-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能则战斗阶段结束时50%<color=#64F9FA>恢复</color>自身250点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>对手使用属性技能则战斗阶段结束时50%<color=#64F9FA>受到</color>250点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则令对手随机2项能力值-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4005,
+          "url": "https://api.seerapi.com/v1/pet/4005"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          250,
+          50,
+          250,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1598,
+          "url": "https://api.seerapi.com/v1/eid_effect/1598"
+        }
+      },
+      "effect_alias": "1598_50_250_50_250_2_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bfb280e0"
+}

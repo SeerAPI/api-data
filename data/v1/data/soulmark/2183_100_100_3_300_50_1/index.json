@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1792": {
+      "id": 1792,
+      "desc": "自身登场后首次使用攻击技能时消除对手回合类效果，消除成功则当回合造成的攻击伤害提升100%且此效果延续至下1次攻击；自身登场后首次属性技能使用后100%令对手睡眠，触发成功则附加对手最大体力1/3的百分比伤害且此效果延续至下1次属性技能；上述效果至少有一个存在时，回合结束后自身恢复300点体力，若自身体力值为满则转变为使自身下回合造成的攻击伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场后，首次使用攻击技能时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>消除成功则当回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%且此效果延续至下1次攻击\r\n<indent=16><sprite=3><indent=32>自身登场后，首次属性技能使用后100%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>触发成功则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>且此效果延续至下1次属性技能\r\n<indent=16><sprite=3><indent=32>上述效果至少有一个存在时，回合结束后自身<color=#64F9FA>恢复</color>300点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若自身体力值为满则效果转变为使自身下回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4582,
+          "url": "https://api.seerapi.com/v1/pet/4582"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          3,
+          300,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2183,
+          "url": "https://api.seerapi.com/v1/eid_effect/2183"
+        }
+      },
+      "effect_alias": "2183_100_100_3_300_50_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bfbc793"
+}

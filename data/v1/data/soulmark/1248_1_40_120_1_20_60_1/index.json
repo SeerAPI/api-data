@@ -1,0 +1,51 @@
+{
+  "data": {
+    "957": {
+      "id": 957,
+      "desc": "每次登场当回合若对手使用属性技能则下回合无法使用攻击技能，若对手使用攻击技能则下回合无法使用属性技能；自身每使用1次攻击技能则本次战斗中造成的伤害提高40%，最高120%；自身每使用1次属性技能则本次战斗中受到的伤害减少20%，最高60%（下场后保留，boss无效)",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场当回合：\r\n<indent=32><sprite=4><indent=48>若对手使用属性技能则下回合<b>攻击技能</b><color=#64F9FA>无法造成伤害且命中效果失效</color>\r\n<indent=32><sprite=4><indent=48>若对手使用攻击技能则下回合<b>属性技能</b><color=#64F9FA>命中效果失效</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时本场战斗自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%，最高120%\r\n<indent=16><sprite=3><indent=32>自身使用属性技能时本场战斗自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>20%，最高60%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3672,
+          "url": "https://api.seerapi.com/v1/pet/3672"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          40,
+          120,
+          1,
+          20,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 1248,
+          "url": "https://api.seerapi.com/v1/eid_effect/1248"
+        }
+      },
+      "effect_alias": "1248_1_40_120_1_20_60_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7d0aace2"
+}

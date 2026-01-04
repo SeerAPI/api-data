@@ -1,0 +1,45 @@
+{
+  "data": {
+    "349": {
+      "id": 349,
+      "desc": "攻击技能随机附加15~35点威力;若对对手造成伤害超过250,则2回合内免疫并反弹异常状态(当回合生效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2960,
+          "url": "https://api.seerapi.com/v1/pet/2960"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          15,
+          21,
+          250,
+          2
+        ],
+        "effect": {
+          "id": 675,
+          "url": "https://api.seerapi.com/v1/eid_effect/675"
+        }
+      },
+      "effect_alias": "675_1_15_21_250_2",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7bfb6e12"
+}

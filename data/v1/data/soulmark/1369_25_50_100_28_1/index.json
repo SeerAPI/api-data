@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1069": {
+      "id": 1069,
+      "desc": "若对手为自身天敌则受到的攻击伤害随机减少25%-50%；回合开始时若自身体力低于对手，若当回合受到攻击伤害后免疫下回合受到的攻击伤害，若当回合未受到攻击伤害则战斗阶段结束时100%令对手束缚（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>若对手为自身天敌则受到的攻击伤害随机<color=#64F9FA>减少</color>25%-50%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手：\r\n<indent=32><sprite=4><indent=48>若当回合受到攻击伤害后下回合<color=#64F9FA>抵挡</color>受到的<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>若当回合未受到攻击伤害则战斗阶段结束时100%<color=#64F9FA>令对手束缚</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3793,
+          "url": "https://api.seerapi.com/v1/pet/3793"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          50,
+          100,
+          28,
+          1
+        ],
+        "effect": {
+          "id": 1369,
+          "url": "https://api.seerapi.com/v1/eid_effect/1369"
+        }
+      },
+      "effect_alias": "1369_25_50_100_28_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3f93ec67"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "451": {
+      "id": 451,
+      "desc": "本回合若未受到攻击伤害则战斗阶段结束时自身恢复200点HP；|本回合若受到伤害则使自身免疫下次受到的攻击伤害；|每次自身攻击技能命中时，伤害的20%会附加到自身攻击伤害中，每次造成伤害时附加百分比增加20%，最高累积100%（再次登场则需要重新累积，BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3105,
+          "url": "https://api.seerapi.com/v1/pet/3105"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          1,
+          20,
+          100
+        ],
+        "effect": {
+          "id": 767,
+          "url": "https://api.seerapi.com/v1/eid_effect/767"
+        }
+      },
+      "effect_alias": "767_200_1_20_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "69d03088"
+}

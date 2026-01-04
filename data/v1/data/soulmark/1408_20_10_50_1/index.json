@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1097": {
+      "id": 1097,
+      "desc": "对手处于疲惫状态下自身造成的伤害翻倍；自身使用攻击技能20%令对手疲惫，每次增加10%，概率最高50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手处于疲惫状态下自身造成的<b>攻击伤害</b><color=#64F9FA>翻倍</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能20%<color=#64F9FA>令对手疲惫</color>，每次增加10%，概率最高50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3822,
+          "url": "https://api.seerapi.com/v1/pet/3822"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          10,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1408,
+          "url": "https://api.seerapi.com/v1/eid_effect/1408"
+        }
+      },
+      "effect_alias": "1408_20_10_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "66059f8b"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "755": {
+      "id": 755,
+      "desc": "每次登场时若自身体力低于对手则免疫受到的1次异常状态（每场战斗最多触发2次）；每次攻击造成的伤害随机提升50%-100%，造成的伤害低于300则战斗阶段结束时附加对手最大体力1/3的固定伤害，造成的伤害高于300则战斗阶段结束时恢复自身最大体力的1/3（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3438,
+          "url": "https://api.seerapi.com/v1/pet/3438"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          50,
+          100,
+          300,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1037,
+          "url": "https://api.seerapi.com/v1/eid_effect/1037"
+        }
+      },
+      "effect_alias": "1037_1_2_50_100_300_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8f2d2a57"
+}

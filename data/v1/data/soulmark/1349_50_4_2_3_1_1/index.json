@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1050": {
+      "id": 1050,
+      "desc": "自身使用攻击技能50%的概率附加对手当前体力值1/4-1/2的固定伤害，未触发则令自身随机3项能力值+1；战斗阶段结束时若自身体力低于对手则下回合自身使用攻击技能附加n点固定伤害并恢复等量体力（n=双方当回合体力差，boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能50%<color=#64F9FA>附加</color>对手当前体力1/4-1/2的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则令自身随机3项能力值+1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于对手则下回合自身使用攻击技能<color=#64F9FA>附加</color>n点<b>固定伤害</b>并<color=#64F9FA>恢复</color>等量<b>体力</b>，n=双方当回合体力之差",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3772,
+          "url": "https://api.seerapi.com/v1/pet/3772"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1349,
+          "url": "https://api.seerapi.com/v1/eid_effect/1349"
+        }
+      },
+      "effect_alias": "1349_50_4_2_3_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1cf480d3"
+}

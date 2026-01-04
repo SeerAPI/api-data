@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1864": {
+      "id": 1864,
+      "desc": "自身登场时若对手体力为满则令对手烧伤1回合，对手每有1个技能PP值为满烧伤的回合数+1，对手处于烧伤状态时无法消除、吸取自身的能力提升状态，自身处于烧伤状态时抵挡对手的攻击，若自身的体力低于对手则恢复等同于伤害量的体力|自身使用攻击技能后令对手烧伤，若对手已处于烧伤则改为失明，若本次攻击未造成伤害或自身处于烧伤状态则额外令对手焚烬，然后对手每处于1种异常状态，自身吸取对手200点体力（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场时若对手体力为满则<color=#64F9FA>令对手烧伤</color>1回合，对手每有1个技能PP值为满烧伤的回合数+1\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手处于烧伤状态时<color=#64F9FA>无法消除、吸取</color>自身的<b>能力提升状态</b>\r\n<indent=16><sprite=3><indent=32>自身处于烧伤状态时<color=#64F9FA>抵挡</color>对手的攻击，若自身的体力低于对手则<color=#64F9FA>主动恢复</color>等同于伤害量的<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>若对手已处于烧伤则改为失明\r\n<indent=32><sprite=4><indent=48>若本次攻击未造成伤害或自身处于烧伤状态则额外<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>然后对手每处于1种异常状态，自身<color=#64F9FA>吸取</color>对手200点<b>体力</b> ",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4589,
+          "url": "https://api.seerapi.com/v1/pet/4589"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 2259,
+          "url": "https://api.seerapi.com/v1/eid_effect/2259"
+        }
+      },
+      "effect_alias": "2259_1_1_200_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1797,
+        "url": "https://api.seerapi.com/v1/soulmark/1797"
+      }
+    }
+  },
+  "hash": "b428adbb"
+}

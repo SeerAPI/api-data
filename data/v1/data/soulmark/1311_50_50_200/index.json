@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1011": {
+      "id": 1011,
+      "desc": "回合开始时，若自身体力低于对手则当回合攻击技能50%的概率打出致命一击，若自身高于对手则当回合攻击技能50%的概率附加200点固定伤害（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合攻击技能50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身高于对手则当回合攻击技能50%<color=#64F9FA>附加</color>200点<b>固定伤害</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3736,
+          "url": "https://api.seerapi.com/v1/pet/3736"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          200
+        ],
+        "effect": {
+          "id": 1311,
+          "url": "https://api.seerapi.com/v1/eid_effect/1311"
+        }
+      },
+      "effect_alias": "1311_50_50_200",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "37718cca"
+}

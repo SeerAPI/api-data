@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1275": {
+      "id": 1275,
+      "desc": "回合开始时，若自身体力低于对手且攻击技能先出手时当回合50%免疫异常状态，造成的伤害高于300时概率提升至100%，若自身体力高于对手且攻击技能先出手时当回合50%令对手属性技能失效，造成的伤害高于300时概率提升至100%；自身受到攻击后下1次使用攻击造成的伤害提升100%（灵·辰坤星魂在出战背包时伤害提升为150%，boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手且攻击技能先出手时当回合50%<color=#64F9FA>免疫</color>受到的<b>异常状态</b>，造成的攻击伤害高于300时概率提升至100%\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手且攻击技能先出手时当回合50%令对手<b>属性技能</b><color=#64F9FA>无效</color>，造成的攻击伤害高于300时概率提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后下1次攻击技能造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>灵·辰坤星魂存在于出战背包时效果提升为150%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4017,
+          "url": "https://api.seerapi.com/v1/pet/4017"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300,
+          100,
+          50,
+          300,
+          100,
+          1,
+          100
+        ],
+        "effect": {
+          "id": 1611,
+          "url": "https://api.seerapi.com/v1/eid_effect/1611"
+        }
+      },
+      "effect_alias": "1611_50_300_100_50_300_100_1_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "72466e6b"
+}

@@ -1,63 +1,34 @@
 {
-  "id": 217,
-  "desc": "无限战意",
-  "desc_formatting_adjustment": null,
-  "pve_effective": null,
-  "intensified": true,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 1446,
-      "url": "https://api.seerapi.com/v1/pet/1446"
-    },
-    {
-      "id": 1447,
-      "url": "https://api.seerapi.com/v1/pet/1447"
-    },
-    {
-      "id": 1394,
-      "url": "https://api.seerapi.com/v1/pet/1394"
-    },
-    {
-      "id": 1395,
-      "url": "https://api.seerapi.com/v1/pet/1395"
-    },
-    {
-      "id": 1587,
-      "url": "https://api.seerapi.com/v1/pet/1587"
-    },
-    {
-      "id": 1588,
-      "url": "https://api.seerapi.com/v1/pet/1588"
-    },
-    {
-      "id": 1483,
-      "url": "https://api.seerapi.com/v1/pet/1483"
-    },
-    {
-      "id": 1484,
-      "url": "https://api.seerapi.com/v1/pet/1484"
-    },
-    {
-      "id": 1689,
-      "url": "https://api.seerapi.com/v1/pet/1689"
-    },
-    {
-      "id": 1688,
-      "url": "https://api.seerapi.com/v1/pet/1688"
-    },
-    {
-      "id": 1755,
-      "url": "https://api.seerapi.com/v1/pet/1755"
-    },
-    {
-      "id": 1756,
-      "url": "https://api.seerapi.com/v1/pet/1756"
+  "data": {
+    "236": {
+      "id": 236,
+      "desc": "出战时，若首回合受到致命伤害则保留1点体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 1731,
+          "url": "https://api.seerapi.com/v1/pet/1731"
+        },
+        {
+          "id": 1732,
+          "url": "https://api.seerapi.com/v1/pet/1732"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 217,
+          "url": "https://api.seerapi.com/v1/eid_effect/217"
+        }
+      },
+      "effect_alias": "217",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [],
-  "intensified_to": null,
-  "from": null,
-  "hash": "21336657"
+  },
+  "hash": "2a6ce63c"
 }

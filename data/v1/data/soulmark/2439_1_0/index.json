@@ -1,0 +1,46 @@
+{
+  "data": {
+    "2014": {
+      "id": 2014,
+      "desc": "登场时为自身附加10回合的冻伤，之后对手每次使用攻击技能时自身所处的冻伤回合数减半，每减少1回合当回合自身受到的攻击伤害、固定伤害、百分比伤害减少10%，对手每次使用属性技能时消除对手的护盾、护罩，每消除1种自身所处的冻伤回合数+1|   回合结束后，若自身所处的冻伤回合数高于回合开始，则消除对手回合类效果、能力提升状态并令对手冰封，若自身所处的冻伤回合数低于回合开始，则每减少1回合令对手冻伤1次，每触发成功1次对手全属性-1，每未触发1次恢复自身100点体力，若相等，则恢复自身全部PP值",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时为自身<color=#64F9FA>附加</color>10回合的冻伤，之后：\r\n<indent=32><sprite=4><indent=48>对手每次使用攻击技能时自身所处的冻伤回合数减半\r\n<indent=32><sprite=4><sprite=4><indent=64>每减少1回合当回合自身受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>10%\r\n<indent=32><sprite=4><indent=48>对手每次使用属性技能时<color=#64F9FA>消除</color>对手的<b>护盾、护罩</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>每消除1种自身所处的冻伤回合数+1\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，若自身所处的冻伤回合数：\r\n<indent=32><sprite=4><indent=48>高于回合开始，则<color=#64F9FA>消除</color>对手<b>回合类效果、能力提升状态</b>并<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>低于回合开始，则每减少1回合<color=#64F9FA>令对手冻伤</color>1次\r\n<indent=32><sprite=4><sprite=4><indent=64>每触发成功1次对手<color=#64F9FA>全属性-1</color>，每未触发1次<color=#64F9FA>恢复</color>自身100点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>等于回合开始，则<color=#64F9FA>恢复</color>自身全部<b>PP值</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4823,
+          "url": "https://api.seerapi.com/v1/pet/4823"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2439,
+          "url": "https://api.seerapi.com/v1/eid_effect/2439"
+        }
+      },
+      "effect_alias": "2439_1_0",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4b5080d8"
+}

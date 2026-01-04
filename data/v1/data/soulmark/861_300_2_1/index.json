@@ -1,0 +1,43 @@
+{
+  "data": {
+    "570": {
+      "id": 570,
+      "desc": "自身受到的伤害减少，减少的比例与回合开始时自身已损失体力百分比相同；当回合受到的伤害超过300则对手下2回合属性技能无效（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3244,
+          "url": "https://api.seerapi.com/v1/pet/3244"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 861,
+          "url": "https://api.seerapi.com/v1/eid_effect/861"
+        }
+      },
+      "effect_alias": "861_300_2_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c4ce3bbd"
+}

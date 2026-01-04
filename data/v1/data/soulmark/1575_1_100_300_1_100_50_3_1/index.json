@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1238": {
+      "id": 1238,
+      "desc": "自身使用属性技能则下1次攻击100%打出致命一击，自身使用攻击技能造成的伤害低于300则下1次攻击100%打出致命一击；若攻击打出致命一击则50%令对手焚烬，未触发则附加对手最大体力1/3的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则下1次攻击100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能造成的伤害低于300则下1次攻击100%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若攻击打出致命一击则50%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3975,
+          "url": "https://api.seerapi.com/v1/pet/3975"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          300,
+          1,
+          100,
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1575,
+          "url": "https://api.seerapi.com/v1/eid_effect/1575"
+        }
+      },
+      "effect_alias": "1575_1_100_300_1_100_50_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": {
+        "id": 2031,
+        "url": "https://api.seerapi.com/v1/soulmark/2031"
+      },
+      "from": null
+    }
+  },
+  "hash": "122821f5"
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1299": {
+      "id": 1299,
+      "desc": "自身受到的攻击伤害≥自身当前体力值时触发时空跃迁：免疫本次受到的攻击伤害且解除自身异常状态，下3回合起自身闪避率提升至100%（每场战斗仅触发1次）；|回合开始时，若自身体力高于最大体力的1/2则当回合攻击必定打出致命一击且随机令对手1个技能PP值归零，若自身体力低于最大体力的1/2则当回合所有技能先制+1且{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害≥自身当前体力值时触发时空跃迁：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>本次受到的<b>攻击伤害</b>且<color=#64F9FA>解除</color>自身<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>下3回合自身<b>闪避率</b>提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则当回合攻击必定<color=#64F9FA>打出致命一击</color>且随机令对手1个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则当回合所有技能<b>先制</b>+1且<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4050,
+          "url": "https://api.seerapi.com/v1/pet/4050"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          100,
+          2,
+          1,
+          2,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1639,
+          "url": "https://api.seerapi.com/v1/eid_effect/1639"
+        }
+      },
+      "effect_alias": "1639_3_100_2_1_2_1_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": {
+        "id": 1543,
+        "url": "https://api.seerapi.com/v1/soulmark/1543"
+      },
+      "from": null
+    }
+  },
+  "hash": "4724504f"
+}

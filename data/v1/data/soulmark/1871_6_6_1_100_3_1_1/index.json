@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1508": {
+      "id": 1508,
+      "desc": "自身先出手则令对手当回合无法通过技能恢复自身体力，对手先出手且当回合自身未受到攻击伤害则战斗阶段结束时消除对手回合类效果；|自身登场后获得逝者亡语，根据双方当前阵亡精灵个数计算，每阵亡1只精灵则逝者亡语层数叠加1层，最多6层，达到6层时自身所有技能额外先制+1；|自身被击败后消除对手能力提升状态，消除成功则100%令对手石化，若逝者亡语层数≥3层则额外令对手1回合内无法主动切换精灵（boss无效）|逝者亡语：每1层令自身攻击技能威力提升10%，属性技能10%令对手进入诅咒",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手则令对手当回合<color=#64F9FA>无法通过技能恢复自身体力</color>\r\n<indent=16><sprite=3><indent=32>对手先出手且当回合自身未受到攻击伤害则战斗阶段结束时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场后根据已阵亡精灵数量获得<b>逝者亡语</b>，双方当前每阵亡1只精灵都获得1层逝者亡语\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>逝者亡语达到6层时自身所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>消除成功则100%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><indent=48>逝者亡语达到3层时对手下1回合<color=#64F9FA>无法主动切换精灵</color>\r\n\r\n<indent=0><sprite=5><indent=16>逝者亡语（上限6层）：\r\n<indent=16><sprite=6><indent=32>每有1层，自身的：\r\n<indent=32><sprite=4><indent=48><b>攻击技能</b>威力<color=#64F9FA>提升</color>10%\r\n<indent=32><sprite=4><indent=48><b>属性技能</b>10%<color=#64F9FA>令对手诅咒</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4287,
+          "url": "https://api.seerapi.com/v1/pet/4287"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          6,
+          6,
+          1,
+          100,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1871,
+          "url": "https://api.seerapi.com/v1/eid_effect/1871"
+        }
+      },
+      "effect_alias": "1871_6_6_1_100_3_1_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ef3f064b"
+}

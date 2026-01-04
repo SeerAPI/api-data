@@ -1,0 +1,43 @@
+{
+  "data": {
+    "359": {
+      "id": 359,
+      "desc": "血量低于1/3时免疫一切攻击技能（boss无效）;每个战斗阶段结束时恢复150HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2970,
+          "url": "https://api.seerapi.com/v1/pet/2970"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          150
+        ],
+        "effect": {
+          "id": 684,
+          "url": "https://api.seerapi.com/v1/eid_effect/684"
+        }
+      },
+      "effect_alias": "684_3_1_150",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c05615cd"
+}

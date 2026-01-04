@@ -1,0 +1,46 @@
+{
+  "data": {
+    "478": {
+      "id": 478,
+      "desc": "后出手时，受到伤害减少60%（包括固定伤害）并解除自身异常状态；被对手击败则反转对手能力提升状态（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3121,
+          "url": "https://api.seerapi.com/v1/pet/3121"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          1
+        ],
+        "effect": {
+          "id": 774,
+          "url": "https://api.seerapi.com/v1/eid_effect/774"
+        }
+      },
+      "effect_alias": "774_60_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8991af34"
+}

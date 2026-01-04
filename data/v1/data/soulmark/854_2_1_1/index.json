@@ -1,0 +1,43 @@
+{
+  "data": {
+    "561": {
+      "id": 561,
+      "desc": "击败对手则下回合自身先制+2；未击败对手则自身攻击+1、速度+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3241,
+          "url": "https://api.seerapi.com/v1/pet/3241"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 854,
+          "url": "https://api.seerapi.com/v1/eid_effect/854"
+        }
+      },
+      "effect_alias": "854_2_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6248f69a"
+}

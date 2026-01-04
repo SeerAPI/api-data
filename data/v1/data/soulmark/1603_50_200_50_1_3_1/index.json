@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1264": {
+      "id": 1264,
+      "desc": "首次登场令对手当回合属性技能失效；自身使用攻击造成伤害的50%恢复自身体力，若恢复的体力值低于200则下回合自身攻击必定打出致命一击；自身受到伤害后50%使对手全属性-1，未触发则战斗阶段结束时减少对手最大体力的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场令对手当回合<b>属性技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若恢复的体力值低于200则下回合自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后50%使对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力的1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4009,
+          "url": "https://api.seerapi.com/v1/pet/4009"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          200,
+          50,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1603,
+          "url": "https://api.seerapi.com/v1/eid_effect/1603"
+        }
+      },
+      "effect_alias": "1603_50_200_50_1_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b44b08bf"
+}

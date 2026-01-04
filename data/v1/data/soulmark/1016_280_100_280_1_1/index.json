@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1308": {
+      "id": 1308,
+      "desc": "自身攻击造成的伤害超过280则100%令对手冰封，低于280则使自身下回合所有技能先制+1且攻击必定致命一击（BOSS无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于280则100%<color=#64F9FA>令对手冰封</color>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于280则使自身下回合所有技能<b>先制</b>+1且攻击必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3418,
+          "url": "https://api.seerapi.com/v1/pet/3418"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          280,
+          100,
+          280,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1016,
+          "url": "https://api.seerapi.com/v1/eid_effect/1016"
+        }
+      },
+      "effect_alias": "1016_280_100_280_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 733,
+        "url": "https://api.seerapi.com/v1/soulmark/733"
+      }
+    }
+  },
+  "hash": "6ef18be7"
+}

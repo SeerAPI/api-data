@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1459": {
+      "id": 1459,
+      "desc": "对手每次主动切换精灵则令登场精灵随机1个技能PP值归零；|自身攻击技能打出致命一击则令对手随机1个技能PP值归零，自身攻击技能未打出致命一击则附加对手1/3最大体力的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次主动切换精灵则令登场精灵随机1个技能PP值<color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能打出致命一击则令对手随机1个技能PP值<color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>自身攻击技能未打出致命一击则<color=#64F9FA>附加</color>对手1/3最大体力的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4240,
+          "url": "https://api.seerapi.com/v1/pet/4240"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1826,
+          "url": "https://api.seerapi.com/v1/eid_effect/1826"
+        }
+      },
+      "effect_alias": "1826_1_3_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "649e1f92"
+}

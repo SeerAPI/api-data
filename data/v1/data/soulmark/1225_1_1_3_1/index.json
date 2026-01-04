@@ -1,0 +1,48 @@
+{
+  "data": {
+    "936": {
+      "id": 936,
+      "desc": "登场后每回合自身特攻+1、速度+1；连续使用攻击技能时必定打出致命一击，连续使用属性技能时附加自身最大体力1/3的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场之后自身每回合开始时特攻+1、速度+1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>连续使用攻击技能时必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>连续使用属性技能时<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3650,
+          "url": "https://api.seerapi.com/v1/pet/3650"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1225,
+          "url": "https://api.seerapi.com/v1/eid_effect/1225"
+        }
+      },
+      "effect_alias": "1225_1_1_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7288980b"
+}

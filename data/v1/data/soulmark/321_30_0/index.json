@@ -1,0 +1,38 @@
+{
+  "data": {
+    "101": {
+      "id": 101,
+      "desc": "若打出致命一击，则造成伤害值的30%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2661,
+          "url": "https://api.seerapi.com/v1/pet/2661"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          0
+        ],
+        "effect": {
+          "id": 321,
+          "url": "https://api.seerapi.com/v1/eid_effect/321"
+        }
+      },
+      "effect_alias": "321_30_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f4b9c6ad"
+}

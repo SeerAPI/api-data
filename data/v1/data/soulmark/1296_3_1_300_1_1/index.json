@@ -1,0 +1,49 @@
+{
+  "data": {
+    "997": {
+      "id": 997,
+      "desc": "回合开始时若自身体力低于对手则开启天魔灵阵:当回合自身受到攻击则战斗阶段结束时{吸取}对手最大{体力}的1/3；战斗阶段结束时若自身处于能力提升状态则开启人鬼灵阵：使对手全属性-1；自身攻击时开启地煞灵阵：造成的伤害低于300则使对手随机进入1种异常状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则开启天魔灵阵：当回合自身受到攻击则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身处于能力提升状态则开启人鬼灵阵：使对手<color=#64F9FA>全属性-1</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击时开启地煞灵阵：造成的攻击伤害低于300则随机<color=#64F9FA>附加</color>1种<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3720,
+          "url": "https://api.seerapi.com/v1/pet/3720"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          300,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1296,
+          "url": "https://api.seerapi.com/v1/eid_effect/1296"
+        }
+      },
+      "effect_alias": "1296_3_1_300_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7c59220c"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1153": {
+      "id": 1153,
+      "desc": "在战斗中，自身攻击和特攻等于其中较高的一项；自身特殊攻击命中后50%的概率令自身全属性+1，未触发则50%令对手冰封；自身物理攻击命中后50%的概率令对手全属性-1，未触发则50%令对手焚烬（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在战斗中，自身攻击和特攻等于其中最高的一项\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身特殊攻击命中后50%令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=16><sprite=3><indent=32>自身物理攻击命中后50%令对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手焚烬</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3884,
+          "url": "https://api.seerapi.com/v1/pet/3884"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          50,
+          50,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1471,
+          "url": "https://api.seerapi.com/v1/eid_effect/1471"
+        }
+      },
+      "effect_alias": "1471_50_1_50_50_1_50_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1a395318"
+}

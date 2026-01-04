@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1762": {
+      "id": 1762,
+      "desc": "当回合若自身先出手则攻击技能100%打出致命一击且战斗阶段结束时自身攻击+2、速度+2，当回合若自身后出手则下回合自身所有技能额外先制+1；|回合开始时，若上回合自身受到了当前对手造成的攻击伤害，则该伤害每有自身最大体力的1%，当回合自身造成的攻击伤害提升2%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>当回合若自身先出手则攻击技能100%<color=#64F9FA>打出致命一击</color>且战斗阶段结束时自身攻击+2、速度+2\r\n<indent=16><sprite=3><indent=32>当回合若自身后出手则下回合自身所有技能额外<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若上回合自身受到了当前对手造成的攻击伤害，则该伤害每有自身最大体力的1%，当回合自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>2%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4200,
+          "url": "https://api.seerapi.com/v1/pet/4200"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          2,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2151,
+          "url": "https://api.seerapi.com/v1/eid_effect/2151"
+        }
+      },
+      "effect_alias": "2151_100_2_2_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1422,
+        "url": "https://api.seerapi.com/v1/soulmark/1422"
+      }
+    }
+  },
+  "hash": "b6e7f79e"
+}

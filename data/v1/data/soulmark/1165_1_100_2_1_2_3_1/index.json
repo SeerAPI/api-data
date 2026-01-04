@@ -1,0 +1,51 @@
+{
+  "data": {
+    "882": {
+      "id": 882,
+      "desc": "受到攻击伤害时自身下1次造成的攻击伤害提升100%；回合开始时若自身体力高于最大体力的1/2则攻击+1、速度+1，战斗阶段结束时若自身体力低于最大体力的1/2则下回合自身所有技能先制+2且{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3578,
+          "url": "https://api.seerapi.com/v1/pet/3578"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          2,
+          1,
+          2,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1165,
+          "url": "https://api.seerapi.com/v1/eid_effect/1165"
+        }
+      },
+      "effect_alias": "1165_1_100_2_1_2_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9989f277"
+}

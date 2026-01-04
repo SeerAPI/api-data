@@ -1,0 +1,45 @@
+{
+  "data": {
+    "576": {
+      "id": 576,
+      "desc": "攻击随机附加1-450点固定伤害且有50%的概率使自身回合结束后特攻+2（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3252,
+          "url": "https://api.seerapi.com/v1/pet/3252"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          450,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 865,
+          "url": "https://api.seerapi.com/v1/eid_effect/865"
+        }
+      },
+      "effect_alias": "865_1_450_50_2_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "64a8b54"
+}

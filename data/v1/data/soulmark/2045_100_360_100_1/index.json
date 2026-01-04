@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1660": {
+      "id": 1660,
+      "desc": "回合开始时100%令对手中毒，未触发则解除自身异常状态且恢复自身360点体力；战斗阶段结束时若对手处于中毒状态则100%令对手寄生，若对手不处于中毒状态则消除对手回合类效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时100%<color=#64F9FA>令对手中毒</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>解除</color>自身<b>所处的异常状态</b>且<color=#64F9FA>恢复</color>自身360点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于中毒状态则100%<color=#64F9FA>令对手寄生</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于中毒状态则<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4445,
+          "url": "https://api.seerapi.com/v1/pet/4445"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          360,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2045,
+          "url": "https://api.seerapi.com/v1/eid_effect/2045"
+        }
+      },
+      "effect_alias": "2045_100_360_100_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3aa5fc79"
+}

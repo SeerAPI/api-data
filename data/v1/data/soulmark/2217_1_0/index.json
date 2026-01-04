@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1829": {
+      "id": 1829,
+      "desc": "回合开始时100%令对手烧伤；|对手处于烧伤状态时无法恢复体力且每回合结束后受到战意层数*10的真实伤害|回合结束后获得2层战意，己方场下每有1只系别中带有火系的精灵层数+1，战意达到10层时获得命运庇护效果（层数下场保留，最多持有20层,所有效果boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手处于烧伤状态时<color=#64F9FA>无法恢复体力</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时100%<color=#64F9FA>令对手烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤则<color=#64F9FA>受到</color>战意层数*10的<b>真实伤害</b>\r\n<indent=32><sprite=4><indent=48>获得2层<color=#FFF779>战意</color>\r\n<indent=32><sprite=4><indent=48>己方场下每有1只火属性衍生系精灵层数+1，战意达到10层时额外获得<color=#FFF779>命运庇护</color>效果\r\n\r\n<indent=0><sprite=5><indent=15>战意（限20层，下场保留）：\r\n<indent=16><sprite=6><indent=32>每持有一层则：\r\n<indent=32><sprite=4><indent=48>受到的<b>固定伤害</b>、<b>百分比伤害<color=#64F9FA></b>减少</color>4%\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害<color=#64F9FA></b>提升</color>5%；\r\n\r\n<indent=0><sprite=5><indent=15>命运庇护（下场保留）：\r\n<indent=16><sprite=6><indent=32>所有<b>异常抗性<color=#64F9FA></b>必定触发</color>\r\n<indent=16><sprite=6><indent=32>失去<b>全免抗性</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4622,
+          "url": "https://api.seerapi.com/v1/pet/4622"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2217,
+          "url": "https://api.seerapi.com/v1/eid_effect/2217"
+        }
+      },
+      "effect_alias": "2217_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6375d726"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "659": {
+      "id": 659,
+      "desc": "每回合恢复自身最大体力的1/3；自身死亡后下只登场精灵3回合内免疫异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3333,
+          "url": "https://api.seerapi.com/v1/pet/3333"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 942,
+          "url": "https://api.seerapi.com/v1/eid_effect/942"
+        }
+      },
+      "effect_alias": "942_3_3_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "43dcb96f"
+}

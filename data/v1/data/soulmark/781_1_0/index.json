@@ -1,0 +1,38 @@
+{
+  "data": {
+    "473": {
+      "id": 473,
+      "desc": "回合开始时，对手处于烧伤状态时，自身免疫异常状态和能力下降（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3128,
+          "url": "https://api.seerapi.com/v1/pet/3128"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 781,
+          "url": "https://api.seerapi.com/v1/eid_effect/781"
+        }
+      },
+      "effect_alias": "781_1_0",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c1538601"
+}

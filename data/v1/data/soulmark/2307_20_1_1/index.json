@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1915": {
+      "id": 1915,
+      "desc": "战斗开始时自身每有1个满PP值的技能自身体力上限提升20%，之后每回合开始时若自身存在技能pp值为0则取消该技能对应的体力上限提升效果|自身任意技能pp值为满时，自身的能力提升状态无法被消除、吸取且回合开始时每有1项技能pp值为满随机1项能力等级提升一级|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时每有1个满PP值的技能使自身<b>体力上限</b><color=#64F9FA>提升</color>20%，之后每个回合开始时若自身有技能pp值为0则在本次战斗中取消该技能对应的体力上限提升效果\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身任意技能pp值为满时：\r\n<indent=32><sprite=4><indent=48>自身的<color=#64F9FA>能力提升状态无法被消除、吸取</color>\r\n<indent=32><sprite=4><indent=48>回合开始时每有1项技能pp值为满使自身随机1项能力等级提升一级",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4714,
+          "url": "https://api.seerapi.com/v1/pet/4714"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2307,
+          "url": "https://api.seerapi.com/v1/eid_effect/2307"
+        }
+      },
+      "effect_alias": "2307_20_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c7ae0004"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "816": {
+      "id": 816,
+      "desc": "每回合自身双防+1；受到攻击时双防+1，若自身双防已达到最高等级则其他随机两项能力+1；攻击技能 附加自身能力提升等级总段数乘以35的固定伤害（能力提升BOSS有效，固定伤害BOSS无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3505,
+          "url": "https://api.seerapi.com/v1/pet/3505"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          1,
+          35,
+          1
+        ],
+        "effect": {
+          "id": 1097,
+          "url": "https://api.seerapi.com/v1/eid_effect/1097"
+        }
+      },
+      "effect_alias": "1097_1_1_1_35_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "696a2a04"
+}

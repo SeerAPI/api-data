@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1798": {
+      "id": 1798,
+      "desc": "回合开始时自身根据双方体力上限值之差n触发如下效果：|①.当回合受到的攻击伤害减少n点；|②.恢复n点体力；|③.若n≥200则当回合攻击必定打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身根据双方体力上限值之差n触发如下效果：\r\n<indent=32><sprite=4><indent=48>当回合受到的<b>攻击伤害<color=#64F9FA></b>减少</color>n点\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>n点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若n≥200则当回合攻击必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4590,
+          "url": "https://api.seerapi.com/v1/pet/4590"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          1
+        ],
+        "effect": {
+          "id": 2191,
+          "url": "https://api.seerapi.com/v1/eid_effect/2191"
+        }
+      },
+      "effect_alias": "2191_200_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "aa0d2d06"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "303": {
+      "id": 303,
+      "desc": "体力+10 防御+8 特防+8 速度+4",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2371,
+          "url": "https://api.seerapi.com/v1/pet/2371"
+        },
+        {
+          "id": 2372,
+          "url": "https://api.seerapi.com/v1/pet/2372"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          8,
+          0,
+          8,
+          4,
+          10
+        ],
+        "effect": {
+          "id": 247,
+          "url": "https://api.seerapi.com/v1/eid_effect/247"
+        }
+      },
+      "effect_alias": "247_0_8_0_8_4_10",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 302,
+        "url": "https://api.seerapi.com/v1/soulmark/302"
+      }
+    }
+  },
+  "hash": "15c05ba2"
+}

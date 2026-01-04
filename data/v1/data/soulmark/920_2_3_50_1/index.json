@@ -1,0 +1,48 @@
+{
+  "data": {
+    "639": {
+      "id": 639,
+      "desc": "登场时消除对手能力提升状态，消除成功则对手2回合内无法处于能力提升状态（BOSS无效）；对手所有能力等级不能超过自身（BOSS无效）；自身处于能力提升状态时每回合恢复自身1/3最大体力，自身不处于能力提升状态时受到的伤害减少50%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3312,
+          "url": "https://api.seerapi.com/v1/pet/3312"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          3,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 920,
+          "url": "https://api.seerapi.com/v1/eid_effect/920"
+        }
+      },
+      "effect_alias": "920_2_3_50_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "421f7620"
+}

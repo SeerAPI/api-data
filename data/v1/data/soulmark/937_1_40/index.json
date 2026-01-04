@@ -1,0 +1,42 @@
+{
+  "data": {
+    "654": {
+      "id": 654,
+      "desc": "每回合双防+1；每次攻击附带自身双防能力值总和40%的固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3330,
+          "url": "https://api.seerapi.com/v1/pet/3330"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          40
+        ],
+        "effect": {
+          "id": 937,
+          "url": "https://api.seerapi.com/v1/eid_effect/937"
+        }
+      },
+      "effect_alias": "937_1_40",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "27d83079"
+}

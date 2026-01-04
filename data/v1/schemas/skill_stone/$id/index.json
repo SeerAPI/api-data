@@ -27,6 +27,11 @@
               "default": null,
               "title": "Id"
             },
+            "inner_id": {
+              "description": "技能石效果的内部ID，当技能石为完美技能石时，会使用此ID表示效果",
+              "title": "Inner Id",
+              "type": "integer"
+            },
             "prob": {
               "description": "技能石效果激活概率，0到1之间",
               "title": "Prob",
@@ -42,6 +47,7 @@
             }
           },
           "required": [
+            "inner_id",
             "prob",
             "effect"
           ],

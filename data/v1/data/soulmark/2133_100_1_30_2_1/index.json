@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1742": {
+      "id": 1742,
+      "desc": "自身攻击技能命中前若处于能力提升状态则当次攻击无视对手双防能力提升状态，若不处于能力提升状态则100%令对手冰封；|战斗阶段结束时若对手不处于冻伤状态则令自身全属性+1，若对手处于冻伤状态则30%令对手凝滞2回合，未触发则对手下回合使用的属性技能无效|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若处于能力提升状态则当次攻击<color=#64F9FA>无视</color>对手<b>双防能力提升</b>状态\r\n<indent=32><sprite=4><indent=48>若不处于能力提升状态则100%<color=#64F9FA>令对手冰封</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手不处于冻伤状态则令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤状态则30%<color=#64F9FA>令对手凝滞</color>2回合\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则对手下回合使用的<b>属性技能</b><color=#64F9FA>无效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4529,
+          "url": "https://api.seerapi.com/v1/pet/4529"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1,
+          30,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2133,
+          "url": "https://api.seerapi.com/v1/eid_effect/2133"
+        }
+      },
+      "effect_alias": "2133_100_1_30_2_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "67d23cb6"
+}

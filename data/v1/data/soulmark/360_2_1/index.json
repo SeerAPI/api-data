@@ -1,0 +1,38 @@
+{
+  "data": {
+    "142": {
+      "id": 142,
+      "desc": "每回合降低对手所有PP一点（boss免疫)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2760,
+          "url": "https://api.seerapi.com/v1/pet/2760"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1
+        ],
+        "effect": {
+          "id": 360,
+          "url": "https://api.seerapi.com/v1/eid_effect/360"
+        }
+      },
+      "effect_alias": "360_2_1",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "829fe900"
+}

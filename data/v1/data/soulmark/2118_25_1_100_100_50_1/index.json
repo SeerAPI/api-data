@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1728": {
+      "id": 1728,
+      "desc": "自身使用属性技能后附加自身双防值总和25%的百分比伤害，每连续使用1回合则附加的百分比系数提升25%，最高提升至100%；|回合开始时，若自身处于异常状态则当回合受到的百分比伤害减少100%，若对手处于异常状态则当回合受到的百分比伤害提升50%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能后<color=#64F9FA>附加</color>自身双防值总和25%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>每连续使用1回合则附加的百分比系数提升25%，最高提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于异常状态则当回合受到的百分比伤害<color=#64F9FA>减少</color>100%\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则当回合受到的百分比伤害<color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4516,
+          "url": "https://api.seerapi.com/v1/pet/4516"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          1,
+          100,
+          100,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2118,
+          "url": "https://api.seerapi.com/v1/eid_effect/2118"
+        }
+      },
+      "effect_alias": "2118_25_1_100_100_50_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5fc53a4b"
+}

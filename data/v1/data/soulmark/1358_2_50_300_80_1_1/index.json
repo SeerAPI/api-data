@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1060": {
+      "id": 1060,
+      "desc": "回合开始时，若对手体力高于最大体力的1/2则自身造成的攻击伤害提升50%，造成的伤害高于300则80%令对手睡眠，若对手体力低于最大体力的1/2则自身攻击命中后令对手随机1个技能PP值归零（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3781,
+          "url": "https://api.seerapi.com/v1/pet/3781"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          50,
+          300,
+          80,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1358,
+          "url": "https://api.seerapi.com/v1/eid_effect/1358"
+        }
+      },
+      "effect_alias": "1358_2_50_300_80_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3bac0d83"
+}

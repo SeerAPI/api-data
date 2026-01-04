@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1542": {
+      "id": 1542,
+      "desc": "自身受到的固定伤害或百分比伤害≥自身当前体力值时触发群星逆转：免疫本次受到的伤害并将其150%转化为自身体力值，下3回合起自身致命率提升至100%（每场战斗仅触发1次）；|自身在本场战斗中攻击技能命中后{吸取}对手最大{体力}的25%，每次叠加5%，最高40%；自身在本场战斗中属性技能命中后下回合受到的攻击伤害减少25%，每次叠加5%，最高40%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身受到的固定伤害或百分比伤害≥自身当前体力值时触发群星逆转：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>本次受到的伤害并将其150%<color=#64F9FA>转化</color>为自身<b>体力</b>值\r\n<indent=32><sprite=4><indent=48>下3回合自身<b>致命一击率</b>提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后<color=#64F9FA>吸取</color>对手最大体力的25%\r\n<indent=32><sprite=4><indent=48>每次使用攻击技能后本场战斗中上述效果提升5%，最高40%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4048,
+          "url": "https://api.seerapi.com/v1/pet/4048"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          3,
+          25,
+          5,
+          40,
+          25,
+          5,
+          40
+        ],
+        "effect": {
+          "id": 1638,
+          "url": "https://api.seerapi.com/v1/eid_effect/1638"
+        }
+      },
+      "effect_alias": "1638_150_3_25_5_40_25_5_40",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1298,
+        "url": "https://api.seerapi.com/v1/soulmark/1298"
+      }
+    }
+  },
+  "hash": "c699ca9b"
+}

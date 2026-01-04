@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1354": {
+      "id": 1354,
+      "desc": "自身所有攻击50%的概率打出致命一击，未打出致命一击则战斗阶段结束时令敌我双方随机2项属性+1；回合开始时，若对手处于能力提升状态则当回合自身受到攻击伤害100%令对手麻痹，未触发则消除对手回合类效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身所有攻击50% <color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未打出致命一击则战斗阶段结束时令敌我双方随机2项属性+1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于能力提升状态则当回合自身受到攻击伤害时100%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4123,
+          "url": "https://api.seerapi.com/v1/pet/4123"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1712,
+          "url": "https://api.seerapi.com/v1/eid_effect/1712"
+        }
+      },
+      "effect_alias": "1712_50_2_1_100_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9b97ccb3"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "798": {
+      "id": 798,
+      "desc": "首次登场后首次攻击先制+3且造成的伤害提高150%，同时消除对手回合类效果，造成的伤害低于300则减少对手最大体力的1/2（每场战斗仅触发1次，BOSS无效）；攻击有30%的概率使对手冰封，未触发则下次冰封的概率提升10%，最高100%（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3486,
+          "url": "https://api.seerapi.com/v1/pet/3486"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          150,
+          300,
+          2,
+          30,
+          10,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1082,
+          "url": "https://api.seerapi.com/v1/eid_effect/1082"
+        }
+      },
+      "effect_alias": "1082_3_150_300_2_30_10_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ba89212a"
+}

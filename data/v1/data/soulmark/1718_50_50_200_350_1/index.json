@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1359": {
+      "id": 1359,
+      "desc": "辛克斯善于蛊惑心智：若对手为雄性精灵则每回合开始时50%令对手失神，若对手为雌性精灵则每回合开始时50%令对手失明，未触发则当回合技能命中后随机{吸取}对手200-350点{体力}；|战斗阶段结束时，若对手体力值高于回合开始时则下回合自身攻击必定打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>辛克斯善于蛊惑心智，回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手为雄性精灵则50%<color=#64F9FA>令对手失神</color>，若对手为雌性精灵则50%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则战斗阶段结束时随机<color=#64F9FA>吸取</color>对手200-350点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若对手体力值高于回合开始时则下回合自身攻击必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4132,
+          "url": "https://api.seerapi.com/v1/pet/4132"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          200,
+          350,
+          1
+        ],
+        "effect": {
+          "id": 1718,
+          "url": "https://api.seerapi.com/v1/eid_effect/1718"
+        }
+      },
+      "effect_alias": "1718_50_50_200_350_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5556a66d"
+}

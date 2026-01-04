@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1926": {
+      "id": 1926,
+      "desc": "每场战斗限一次，自身受到攻击伤害后减少对手双攻值较高的一项的10%，减少值不会超过对手双攻值之差|双方任意一方使用技能后，自身双攻值之差每大于对手1点吸取对手1点体力，对手的体力每因此减少2点体力自身获得1点护盾，每因此减少8点下回合自身造成的攻击伤害提升1%，可叠加|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后<color=#64F9FA>减少</color>对手双攻值较高的一项的10%，减少值不会超过对手双攻值之差\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>双方任意一方使用技能后，自身双攻值之差每大于对手1点<color=#64F9FA>吸取</color>对手1点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>对手的体力每因此减少2点自身<color=#64F9FA>获得</color>1点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>对手的体力每因此减少8点下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>1%，可叠加",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4726,
+          "url": "https://api.seerapi.com/v1/pet/4726"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          10,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2339,
+          "url": "https://api.seerapi.com/v1/eid_effect/2339"
+        }
+      },
+      "effect_alias": "2339_10_1_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c5a72bad"
+}

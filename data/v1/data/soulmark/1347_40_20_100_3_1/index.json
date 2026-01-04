@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1047": {
+      "id": 1047,
+      "desc": "自身先出手时40%打出致命一击，未触发则下回合触发概率提升20%；回合开始时，若自身满体力则当回合受到攻击伤害则100%令对手害怕，若自身未满体力则战斗阶段结束时恢复自身最大体力的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时40%<color=#64F9FA>打出致命一击</color>，未触发则下回合触发概率提升20%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身满体力则当回合受到攻击伤害则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>若自身未满体力则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3769,
+          "url": "https://api.seerapi.com/v1/pet/3769"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          20,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1347,
+          "url": "https://api.seerapi.com/v1/eid_effect/1347"
+        }
+      },
+      "effect_alias": "1347_40_20_100_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4b9420fd"
+}

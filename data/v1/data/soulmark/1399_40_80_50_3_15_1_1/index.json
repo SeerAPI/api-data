@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1091": {
+      "id": 1091,
+      "desc": "自身使用攻击技能初始致命率为40%，每次使用概率叠加10%，最高概率80%；自身使用攻击技能则50%使对手睡眠，未触发则{吸取}对手最大{体力}的1/3且下次触发概率提升15%；对手使用攻击技能则50%使对手睡眠，未触发则对手全属性-1且下次触发概率提升15%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能40%<color=#64F9FA>打出致命一击</color>，每次使用提升10%，最高80%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则50%<color=#64F9FA>使对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手最大体力的1/3且下次触发概率提升15%\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能则50%<color=#64F9FA>使对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则对手<color=#64F9FA>全属性-1</color>且下次触发概率提升15%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3816,
+          "url": "https://api.seerapi.com/v1/pet/3816"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          80,
+          50,
+          3,
+          15,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1399,
+          "url": "https://api.seerapi.com/v1/eid_effect/1399"
+        }
+      },
+      "effect_alias": "1399_40_80_50_3_15_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d5d17b35"
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1475": {
+      "id": 1475,
+      "desc": "自身攻击技能有70%的概率打出致命一击，未触发则下回合所有技能先制+1且100%的概率打出致命一击（boss有效）；|造成伤害的50%恢复自身体力，若恢复的体力低于200则吸取对手最大体力的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>攻击技能有70%的概率<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合所有技能<b>先制</b>+1且100%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若恢复的体力低于200则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3652,
+          "url": "https://api.seerapi.com/v1/pet/3652"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          70,
+          1,
+          100,
+          50,
+          200,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1227,
+          "url": "https://api.seerapi.com/v1/eid_effect/1227"
+        }
+      },
+      "effect_alias": "1227_70_1_100_50_200_3_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 937,
+        "url": "https://api.seerapi.com/v1/soulmark/937"
+      }
+    }
+  },
+  "hash": "f0683740"
+}

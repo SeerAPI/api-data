@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1586": {
+      "id": 1586,
+      "desc": "洛基在背包中且存活时，若对手当回合使用攻击技能，则洛基对对手在场精灵发动1次诡计神罚：对手精灵出手后受到相当于洛基特攻值20%的真实伤害；若对手当前体力低于最大体力的1/5则效果转化为令对手该攻击技能PP值归零；洛基在背包中每发动1次诡计神罚则获得1层堕恶神祇（最高获得3层，达到3层后不再发动诡计神罚）；|洛基每次登场时若堕恶神祇层数达到1层则触发效果：获得堕恶神祇层数*100点的护盾和护罩，若堕恶神祇层数达到3层且2回合内此护盾或护罩任意一个消失则触发额外效果：令对手下1次攻击技能失效（额外效果触发后之后登场不再触发），洛基每次下场后若此护盾和护罩均消失则堕恶神祇层数重置，重置层数初始为0；|回合开始时若护盾和护罩均存在将当回合自身受到的所有异常状态转化为流血（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>洛基存活于场下时，对方使用攻击技能则洛基获得1层<color=#FFF779>堕恶神祇</color>以对对方在场精灵发动1次诡计神罚：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>等同于洛基特攻值20%的<b>真实伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手当前体力低于最大体力的1/5则效果转化为令对手该攻击技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果： \r\n<indent=16><sprite=3><indent=32>洛基登场时，根据堕恶神祇的层数触发累计的效果：\r\n<indent=32><sprite=4><indent=48>达到1层：<color=#64F9FA>获得</color>堕恶神祇层数*100的<b>护盾</b>与<b>护罩</b>；若二者均存在则每回合开始使自身当回合受到的异常状态<color=#64F9FA>转化</color>为流血，若二者均消失则洛基离场后堕恶神祇层数重置\r\n<indent=32><sprite=4><indent=48>达到3层：登场之后2回合内，每个回合开始时与战斗阶段结束时若自身未拥有上述效果中的护盾或护罩其一，则触发以下效果： \r\n<indent=32><sprite=4><sprite=4><indent=64>对手的下1次<b>攻击技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>本场战斗不再触发上述判定 \r\n\r\n<indent=0><sprite=5><indent=15>堕恶神祇（上限3层，下场保留）：\r\n<indent=16><sprite=6><indent=32>洛基用以触发部分效果的判定依据",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4361,
+          "url": "https://api.seerapi.com/v1/pet/4361"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          2,
+          1,
+          2,
+          2,
+          2,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1944,
+          "url": "https://api.seerapi.com/v1/eid_effect/1944"
+        }
+      },
+      "effect_alias": "1944_100_2_1_2_2_2_3_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 17,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/17"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9629ca5d"
+}

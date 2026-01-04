@@ -1,28 +1,55 @@
 {
-  "id": 262,
-  "desc": "天府星守护者阿苏亚专属特性 攻击+10，防御+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2236,
-      "url": "https://api.seerapi.com/v1/pet/2236"
+  "data": {
+    "9": {
+      "id": 9,
+      "desc": "受到攻击20%的概率使对手中毒",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2439,
+          "url": "https://api.seerapi.com/v1/pet/2439"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 262,
+          "url": "https://api.seerapi.com/v1/eid_effect/262"
+        }
+      },
+      "effect_alias": "262",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     },
-    {
-      "id": 2237,
-      "url": "https://api.seerapi.com/v1/pet/2237"
+    "10": {
+      "id": 10,
+      "desc": "受到攻击20%的概率使对手中毒",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2440,
+          "url": "https://api.seerapi.com/v1/pet/2440"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 262,
+          "url": "https://api.seerapi.com/v1/eid_effect/262"
+        }
+      },
+      "effect_alias": "262",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "a2103693"
+  },
+  "hash": "8a64624b"
 }

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "670": {
+      "id": 670,
+      "desc": "首次登场后第1回合所有技能先制+2，之后每次登场后第1回合所有技能先制+1；自身先出手时50%使自身造成的攻击伤害翻倍，未触发则{吸取}对手250点{体力}；自身后出手时50%使自身受到的攻击伤害减半，未触发则为自身附加250点护盾（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3347,
+          "url": "https://api.seerapi.com/v1/pet/3347"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          50,
+          100,
+          250,
+          50,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 953,
+          "url": "https://api.seerapi.com/v1/eid_effect/953"
+        }
+      },
+      "effect_alias": "953_2_1_50_100_250_50_250_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "39b02d2c"
+}

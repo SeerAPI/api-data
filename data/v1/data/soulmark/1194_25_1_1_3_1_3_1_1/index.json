@@ -1,0 +1,52 @@
+{
+  "data": {
+    "905": {
+      "id": 905,
+      "desc": "自身使用攻击技能25%令对手烧伤、25%令对手冻伤、25%令对手中毒、25%令对手害怕、25%令对手疲惫，未触发异常状态则自身全属性+1且对手全属性-1，触发1-3种异常状态时自身全属性+1，触发3种以上异常状态对手全属性-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时25%<color=#64F9FA>令对手烧伤</color>、25%<color=#64F9FA>令对手冻伤</color>、25%<color=#64F9FA>令对手中毒</color>、25%<color=#64F9FA>令对手害怕</color>、25%<color=#64F9FA>令对手疲惫</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身<color=#64F9FA>全属性+1</color>且对手<color=#64F9FA>全属性-1</color>\r\n<indent=32><sprite=4><indent=48>触发1-3种异常状态时自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>触发3种以上异常状态时对手<color=#64F9FA>全属性-1</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3616,
+          "url": "https://api.seerapi.com/v1/pet/3616"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1194,
+          "url": "https://api.seerapi.com/v1/eid_effect/1194"
+        }
+      },
+      "effect_alias": "1194_25_1_1_3_1_3_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5b1d14a6"
+}

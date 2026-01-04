@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1775": {
+      "id": 1775,
+      "desc": "自身连续先出手时100%令对手冻伤, 自身攻击技能命中时若对手处于冻伤状态则攻击后恢复造成伤害值50%的体力，若恢复的体力值高于150则附加等量的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身连续先出手时100%<color=#64F9FA>令对手冻伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中时：\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤状态则攻击后<color=#64F9FA>恢复</color>造成伤害值50%的<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若恢复的体力值高于150则<color=#64F9FA>附加</color>等量的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4565,
+          "url": "https://api.seerapi.com/v1/pet/4565"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          50,
+          150,
+          1
+        ],
+        "effect": {
+          "id": 2168,
+          "url": "https://api.seerapi.com/v1/eid_effect/2168"
+        }
+      },
+      "effect_alias": "2168_100_50_150_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "26f30ed0"
+}

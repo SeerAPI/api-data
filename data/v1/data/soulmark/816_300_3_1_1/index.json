@@ -1,0 +1,44 @@
+{
+  "data": {
+    "512": {
+      "id": 512,
+      "desc": "自身攻击技能造成的伤害不足300则附加对手最大体力1/3的固定伤害且自身下回合先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3184,
+          "url": "https://api.seerapi.com/v1/pet/3184"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 816,
+          "url": "https://api.seerapi.com/v1/eid_effect/816"
+        }
+      },
+      "effect_alias": "816_300_3_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b1d326f"
+}

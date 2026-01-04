@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1673": {
+      "id": 1673,
+      "desc": "每次登场时解除自身异常状态，解除成功则自身2回合内免疫受到的异常状态、100%闪避对手的攻击且受到的伤害减少100%（包括固定伤害、百分比伤害）；|战斗阶段结束时若自身体力等于回合开始时则下回合攻击技能必定打出致命一击，若自身体力不等于回合开始时则下回合攻击技能先制+1|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时<color=#64F9FA>解除</color>自身<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>解除成功则自身2回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>、100%<color=#64F9FA>闪避</color>对手的攻击且受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>减少</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力等于回合开始时则下回合攻击技能必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身体力不等于回合开始时则下回合攻击技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4461,
+          "url": "https://api.seerapi.com/v1/pet/4461"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100,
+          100,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2062,
+          "url": "https://api.seerapi.com/v1/eid_effect/2062"
+        }
+      },
+      "effect_alias": "2062_2_100_100_1_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a915a114"
+}

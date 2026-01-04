@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1629": {
+      "id": 1629,
+      "desc": "每次登场首回合若对手使用攻击技能，则使用后自身吸取并反转对手的能力提升状态，若对手未使用攻击技能，则战斗阶段结束时令对手下回合开始时速度-1，命中-3；|自身被击败时，若自身不处于能力提升状态，则令己方下只出战精灵登场时获得200点护盾和200点护罩，若自身处于能力提升状态，则令己方下只出战精灵首次使用的攻击技能先制+1且附加造成伤害100%的百分比伤害|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场首回合：\r\n<indent=32><sprite=4><indent=48>若对手使用攻击技能，则使用后自身<color=#64F9FA>吸取并反转</color>对手的<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若对手未使用攻击技能，则下回合开始时令对手速度-1，命中-3\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>若自身被击败时不处于能力提升状态，则令己方下只出战精灵登场时<color=#64F9FA>获得</color>200点<b>护盾</b>和200点<b>护罩</b>\r\n<indent=16><sprite=3><indent=32>若自身被击败时处于能力提升状态，则令己方下只出战精灵首次使用的攻击技能<b>先制</b>+1且<color=#64F9FA>附加</color>造成伤害100%的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4412,
+          "url": "https://api.seerapi.com/v1/pet/4412"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          3,
+          200,
+          200,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2015,
+          "url": "https://api.seerapi.com/v1/eid_effect/2015"
+        }
+      },
+      "effect_alias": "2015_1_3_200_200_1_100_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d1c15163"
+}

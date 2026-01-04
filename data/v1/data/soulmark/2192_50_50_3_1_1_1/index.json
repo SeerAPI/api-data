@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1799": {
+      "id": 1799,
+      "desc": "自身受到攻击后，若自身的体力低于对手则50%令对手石化，未触发则令对手随机3项能力等级-1且50%害怕|回合开始时，若对手的速度、命中能力等级处于下降状态则当回合对手属性技能无效，若对手的攻击、特攻处于下降状态则当回合自身先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后，若自身的体力低于对手则50%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手害怕</color>且随机3项能力等级-1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手的速度、命中能力等级处于下降状态，则当回合对手<b>属性技能<color=#64F9FA></b>无效</color>\r\n<indent=32><sprite=4><indent=48>若对手的攻击、特攻处于下降状态，则当回合自身<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4592,
+          "url": "https://api.seerapi.com/v1/pet/4592"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          3,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2192,
+          "url": "https://api.seerapi.com/v1/eid_effect/2192"
+        }
+      },
+      "effect_alias": "2192_50_50_3_1_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a7f7cbbf"
+}

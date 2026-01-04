@@ -1,0 +1,51 @@
+{
+  "data": {
+    "742": {
+      "id": 742,
+      "desc": "回合开始时50%令自身攻击+1、特攻+1、速度+1，未触发则令对手攻击-1、特攻-1、速度-1；自身每处于一种能力提升状态则攻击附加80点固定伤害，对手每处于一种能力下降状态则回合结束自身恢复80点体力（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3424,
+          "url": "https://api.seerapi.com/v1/pet/3424"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          1,
+          1,
+          80,
+          80,
+          1
+        ],
+        "effect": {
+          "id": 1025,
+          "url": "https://api.seerapi.com/v1/eid_effect/1025"
+        }
+      },
+      "effect_alias": "1025_50_1_1_1_80_80_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e1975446"
+}

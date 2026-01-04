@@ -1,0 +1,45 @@
+{
+  "data": {
+    "998": {
+      "id": 998,
+      "desc": "首次登场时自身全属性+1；回合开始时若自身处于能力提升状态则当回合使用攻击技能80%令对手害怕，自身不处于能力提升状态则当回合使用攻击技能后自身全属性+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场时自身<color=#64F9FA>全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合使用攻击技能80%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合使用攻击技能后自身<color=#64F9FA>全属性+1</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3717,
+          "url": "https://api.seerapi.com/v1/pet/3717"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          80,
+          6,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1293,
+          "url": "https://api.seerapi.com/v1/eid_effect/1293"
+        }
+      },
+      "effect_alias": "1293_1_80_6_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "fd09ddd6"
+}

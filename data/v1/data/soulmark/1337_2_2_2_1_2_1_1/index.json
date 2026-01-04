@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1039": {
+      "id": 1039,
+      "desc": "每回合开始时令对手速度-2、命中-2；自身受到攻击伤害时，若该攻击伤害高于自身最大体力的1/2则开启虚空之缝：使对手下1回合攻击技能无效；若该攻击伤害低于自身最大体力的1/2则开启虚空之隙：使对手下1回合属性技能无效（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时令对手速度-2、命中-2\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用了攻击技能时：\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害高于自身最大体力的1/2则开启虚空之缝：使对手下1回合<b>攻击技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害低于自身最大体力的1/2则开启虚空之隙：使对手下1回合<b>属性技能</b><color=#64F9FA>无效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3760,
+          "url": "https://api.seerapi.com/v1/pet/3760"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          2,
+          1,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1337,
+          "url": "https://api.seerapi.com/v1/eid_effect/1337"
+        }
+      },
+      "effect_alias": "1337_2_2_2_1_2_1_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "46f8ce41"
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "737": {
+      "id": 737,
+      "desc": "增加200点体力上限，每回合自身技能附加对手与自身最大体力差值的固定伤害，连续使用属性技能时附加的固定伤害翻倍；连续使用攻击技能时先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3419,
+          "url": "https://api.seerapi.com/v1/pet/3419"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          0
+        ],
+        "effect": {
+          "id": 1018,
+          "url": "https://api.seerapi.com/v1/eid_effect/1018"
+        }
+      },
+      "effect_alias": "1018_200_0",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6b2ff0ce"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "760": {
+      "id": 760,
+      "desc": "攻击附加自身当前体力1/3的固定伤害；当回合自身攻击命中对手则战斗阶段结束时恢复自身最大体力的1/3",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3445,
+          "url": "https://api.seerapi.com/v1/pet/3445"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3
+        ],
+        "effect": {
+          "id": 1045,
+          "url": "https://api.seerapi.com/v1/eid_effect/1045"
+        }
+      },
+      "effect_alias": "1045_3_3",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "edb4a8ae"
+}

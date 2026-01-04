@@ -1,34 +1,65 @@
 {
-  "id": 260,
-  "desc": "对手体力低于1/3时自身技能威力翻倍",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2204,
-      "url": "https://api.seerapi.com/v1/pet/2204"
+  "data": {
+    "3": {
+      "id": 3,
+      "desc": "受到的所有攻击伤害减少10%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2424,
+          "url": "https://api.seerapi.com/v1/pet/2424"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 260,
+          "url": "https://api.seerapi.com/v1/eid_effect/260"
+        }
+      },
+      "effect_alias": "260",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     },
-    {
-      "id": 2205,
-      "url": "https://api.seerapi.com/v1/pet/2205"
-    }
-  ],
-  "effect": {
-    "effect_args": null,
-    "effect": {
-      "id": 242,
-      "url": "https://api.seerapi.com/v1/eid_effect/242"
+    "4": {
+      "id": 4,
+      "desc": "10%闪避对手的攻击",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2425,
+          "url": "https://api.seerapi.com/v1/pet/2425"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 260,
+          "url": "https://api.seerapi.com/v1/eid_effect/260"
+        }
+      },
+      "effect_alias": "260",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 2,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "513cce42"
+  "hash": "1b6b4fa4"
 }

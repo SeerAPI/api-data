@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1111": {
+      "id": 1111,
+      "desc": "恶魔男爵每次登场时为自身附加400点护盾，护盾消失时令对手立刻受到400点固定伤害且下3回合内每回合{吸取}对手150点{体力}；对手的体力低于最大体力的1/3时自身攻击先制+3且100%打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>恶魔男爵每次登场时为自身<color=#64F9FA>附加</color>400点<b>护盾</b>，此护盾消失的当回合对手行动结束时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>400点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>3回合内每回合战斗阶段结束时<color=#64F9FA>吸取</color>对手150点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手的体力低于最大体力的1/3时自身攻击<b>先制</b>+3且100%<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3837,
+          "url": "https://api.seerapi.com/v1/pet/3837"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          400,
+          400,
+          3,
+          150,
+          3,
+          3,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1425,
+          "url": "https://api.seerapi.com/v1/eid_effect/1425"
+        }
+      },
+      "effect_alias": "1425_400_400_3_150_3_3_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "645ece5d"
+}

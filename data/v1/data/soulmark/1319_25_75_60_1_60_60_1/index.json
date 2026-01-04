@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1020": {
+      "id": 1020,
+      "desc": "攻击技能附加对手防御值25%的固定伤害，每次使用增加25%，最高75%；回合开始时，若自身不处于能力提升状态则当回合攻击技能60%的概率先制+1,未触发则造成的伤害提升60%；回合开始时，若自身处于能力提升状态则当回合60%的概率免疫异常状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能<color=#64F9FA>附加</color>对手防御值25%的<b>百分比伤害</b>，每次使用效果提升25%，最高75%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合攻击技能60%<b>先制</b>+1\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>60%\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合60%<color=#64F9FA>免疫</color>受到的<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3743,
+          "url": "https://api.seerapi.com/v1/pet/3743"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          75,
+          60,
+          1,
+          60,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 1319,
+          "url": "https://api.seerapi.com/v1/eid_effect/1319"
+        }
+      },
+      "effect_alias": "1319_25_75_60_1_60_60_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "dc6273c5"
+}

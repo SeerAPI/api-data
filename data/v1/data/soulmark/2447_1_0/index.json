@@ -1,0 +1,46 @@
+{
+  "data": {
+    "2028": {
+      "id": 2028,
+      "desc": "战斗开始时，金祖之龍、玄源之㡣加入己方，之后己方精灵每有1只存活或系别带龙系自身登场时获得100点护盾，每有1只阵亡或系别带龙系自身造成的攻击伤害提升10%|自身受到异常状态的回合，回合结束后恢复最大体力的20%；自身未受到异常状态的回合，被攻击时附加最大体力20%的百分比伤害；任意一项执行后自身吸取对手所有技能1点PP值，对手技能PP值因本次吸取归0时对手1回合内攻击技能无效|金祖之龍：龙系额外精灵；己方受到臣服的回合免疫受到的异常状态，自身阵亡时仅对乔特鲁德生效且减少其20%的所受非真实伤害；乔特鲁德受到致死伤害时若伤害高于其登场可获得的护盾则自身死亡以保留其20%的体力|玄源之㡣：龙系额外精灵；己方受到疲惫的回合免疫受到的异常状态，自身阵亡时仅对乔特鲁德生效且增加其20%的体力上限；乔特鲁德造成非致死伤害时若其最大体力的20%高于对手的体力则自身死亡以消耗对手全部体力|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时，金祖之龍、玄源之㡣加入己方，之后：\r\n<indent=32><sprite=4><indent=48>己方精灵每有1只存活或系别带龙系自身每次登场时<color=#64F9FA>获得</color>100点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>己方精灵每有1只阵亡或系别带龙系自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到异常状态的回合，回合结束后<color=#64F9FA>恢复</color>最大体力的20%\r\n<indent=16><sprite=3><indent=32>自身未受到异常状态的回合，被攻击时<color=#64F9FA>附加</color>最大体力20%的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>任何一项执行后，自身<color=#64F9FA>吸取</color>对手所有技能1点<b>PP值</b>，对手技能PP值因本次吸取归0时对手1回合内<b>攻击技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=5><indent=16>金祖之龍：\r\n<indent=16><sprite=6><indent=32>龙系额外精灵\r\n<indent=16><sprite=6><indent=32>己方受到臣服的回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>自身阵亡时仅对乔特鲁德生效且<color=#64F9FA>减少</color>其20%的所受<b>非真实伤害</b>\r\n<indent=16><sprite=6><indent=32>乔特鲁德受到致死伤害时若伤害高于其登场可获得的护盾则自身死亡以<color=#64F9FA>保留</color>其20%的<b>体力</b>\r\n\r\n<indent=0><sprite=5><indent=16>玄源之㡣：\r\n<indent=16><sprite=6><indent=32>龙系额外精灵\r\n<indent=16><sprite=6><indent=32>己方受到疲惫的回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>自身阵亡时仅对乔特鲁德生效且<color=#64F9FA>增加</color>其20%的<b>体力上限</b>\r\n<indent=16><sprite=6><indent=32>乔特鲁德造成非致死伤害时若其最大体力的20%高于对手的体力则自身死亡以<color=#64F9FA>消耗</color>对手全部<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": true,
+      "pet": [
+        {
+          "id": 4186,
+          "url": "https://api.seerapi.com/v1/pet/4186"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2447,
+          "url": "https://api.seerapi.com/v1/eid_effect/2447"
+        }
+      },
+      "effect_alias": "2447_1_0",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "344643f0"
+}

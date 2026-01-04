@@ -1,0 +1,38 @@
+{
+  "data": {
+    "194": {
+      "id": 194,
+      "desc": "每回合恢复1/5体力，体力少于1/3时恢复效果翻倍",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2849,
+          "url": "https://api.seerapi.com/v1/pet/2849"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          3
+        ],
+        "effect": {
+          "id": 610,
+          "url": "https://api.seerapi.com/v1/eid_effect/610"
+        }
+      },
+      "effect_alias": "610_5_3",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1d1f1e8c"
+}

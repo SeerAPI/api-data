@@ -1,0 +1,38 @@
+{
+  "data": {
+    "51": {
+      "id": 51,
+      "desc": "首次登场3回合内所有直接攻击附加50点固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2422,
+          "url": "https://api.seerapi.com/v1/pet/2422"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          50
+        ],
+        "effect": {
+          "id": 288,
+          "url": "https://api.seerapi.com/v1/eid_effect/288"
+        }
+      },
+      "effect_alias": "288_3_50",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "397969e7"
+}

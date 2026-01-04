@@ -1,0 +1,39 @@
+{
+  "data": {
+    "469": {
+      "id": 469,
+      "desc": "每次使用技能时，40%概率使对手损失1/3的最大体力，40%概率使自身损失1/3的最大体力，均未触发则下回合先制+2",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3120,
+          "url": "https://api.seerapi.com/v1/pet/3120"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          3,
+          2
+        ],
+        "effect": {
+          "id": 773,
+          "url": "https://api.seerapi.com/v1/eid_effect/773"
+        }
+      },
+      "effect_alias": "773_40_3_2",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f4c677a5"
+}

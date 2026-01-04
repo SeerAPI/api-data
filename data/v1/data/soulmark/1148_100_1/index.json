@@ -1,0 +1,49 @@
+{
+  "data": {
+    "911": {
+      "id": 911,
+      "desc": "回合开始时若对手处于能力提升状态，则当回合自身攻击消除对手能力提升状态；回合开始时若对手不处于能力提升状态，则当回合自身攻击造成的伤害提高100%（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态，则当回合自身攻击<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态，则当回合自身攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+      "pve_effective": true,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3560,
+          "url": "https://api.seerapi.com/v1/pet/3560"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1148,
+          "url": "https://api.seerapi.com/v1/eid_effect/1148"
+        }
+      },
+      "effect_alias": "1148_100_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 860,
+        "url": "https://api.seerapi.com/v1/soulmark/860"
+      }
+    }
+  },
+  "hash": "75b24c0"
+}

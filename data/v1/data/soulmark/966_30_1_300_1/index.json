@@ -1,0 +1,44 @@
+{
+  "data": {
+    "683": {
+      "id": 683,
+      "desc": "回合开始时若自身体力高于对手则本回合对手技能威力下降30%；战斗阶段结束时随机{吸取}对手1~300点{体力}（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3364,
+          "url": "https://api.seerapi.com/v1/pet/3364"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          1,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 966,
+          "url": "https://api.seerapi.com/v1/eid_effect/966"
+        }
+      },
+      "effect_alias": "966_30_1_300_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5f0b3aea"
+}

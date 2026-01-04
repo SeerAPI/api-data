@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1283": {
+      "id": 1283,
+      "desc": "哀影疾风以血液滋养蝙蝠进行战斗：当回合使用攻击技能则战斗阶段结束时消耗自身最大体力的15%且附加2倍的固定伤害；战斗阶段结束时，若自身体力高于对手触发残杀效果：下回合自身攻击必定打出致命一击，若自身体力低于对手触发迅影效果：下回合自身攻击先制+3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能的当回合战斗阶段结束时消耗自身最大体力的15%且<color=#64F9FA>附加</color>2倍的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手触发残杀效果：下回合自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手触发迅影效果：下回合自身攻击<b>先制</b>+3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4025,
+          "url": "https://api.seerapi.com/v1/pet/4025"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          2,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1619,
+          "url": "https://api.seerapi.com/v1/eid_effect/1619"
+        }
+      },
+      "effect_alias": "1619_15_2_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b1450e4e"
+}

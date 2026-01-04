@@ -1,0 +1,51 @@
+{
+  "data": {
+    "919": {
+      "id": 919,
+      "desc": "登场后首回合，对手使用攻击技能则自身受到的攻击伤害减少50%且对手下1次属性技能失效，对手使用属性技能则自身免疫异常状态且对手下1次攻击技能失效（每场战斗只能触发2次，首次出场触发1次，切换再次上场时触发第2次）；自身使用属性技>能则50%令对手害怕，未触发则消除对手回合类效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限2次）：\r\n<indent=16><sprite=3><indent=32>登场之后1回合内：\r\n<indent=32><sprite=4><indent=48>对手使用攻击技能时自身1回合内受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且对手下1次<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>对手使用属性技能时自身1回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且对手下1次<b>攻击技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3626,
+          "url": "https://api.seerapi.com/v1/pet/3626"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          1,
+          2,
+          50,
+          6,
+          1
+        ],
+        "effect": {
+          "id": 1204,
+          "url": "https://api.seerapi.com/v1/eid_effect/1204"
+        }
+      },
+      "effect_alias": "1204_50_1_1_2_50_6_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "25f8feb2"
+}

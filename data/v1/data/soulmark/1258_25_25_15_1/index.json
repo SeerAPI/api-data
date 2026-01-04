@@ -1,0 +1,44 @@
+{
+  "data": {
+    "966": {
+      "id": 966,
+      "desc": "25%的概率免疫本回合受到的攻击伤害，若自身体力低于对手则概率翻倍；自身攻击技能25%的概率令对手冰封，若自身体力低于对手则概率翻倍（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>25%<color=#64F9FA>免疫</color>受到的<b>攻击伤害</b>，若自身体力低于对手则概率翻倍\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能25%<color=#64F9FA>令对手冰封</color>，若自身体力低于对手则概率翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3681,
+          "url": "https://api.seerapi.com/v1/pet/3681"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          25,
+          15,
+          1
+        ],
+        "effect": {
+          "id": 1258,
+          "url": "https://api.seerapi.com/v1/eid_effect/1258"
+        }
+      },
+      "effect_alias": "1258_25_25_15_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a6369dc8"
+}

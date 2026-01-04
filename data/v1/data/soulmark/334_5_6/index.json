@@ -1,0 +1,33 @@
+{
+  "data": {
+    "109": {
+      "id": 109,
+      "desc": "速度处于提升状态时，回合结束减少对手1/6最大HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2676,
+          "url": "https://api.seerapi.com/v1/pet/2676"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          6
+        ],
+        "effect": {
+          "id": 334,
+          "url": "https://api.seerapi.com/v1/eid_effect/334"
+        }
+      },
+      "effect_alias": "334_5_6",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4c71803c"
+}

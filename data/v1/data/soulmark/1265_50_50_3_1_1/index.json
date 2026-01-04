@@ -1,0 +1,49 @@
+{
+  "data": {
+    "969": {
+      "id": 969,
+      "desc": "自身特殊攻击必定命中且造成伤害的50%恢复自身体力；|自身先出手时造成的攻击伤害提升50%，自身体力低于对手时提升效果翻倍；|对手出手前若自身体力低于对手则自身额外全属性+1；|对手先出手时立即附加对手最大体力1/3的百分比伤害（若附加伤害后对手体力为0，则消除对手回合类效果同时令对手当回合无法使用技能）|（特殊攻击必定命中boss有效，其他效果boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身特殊攻击<color=#64F9FA>必定命中</color>且造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，自身体力低于对手时提升效果翻倍\r\n<indent=16><sprite=3><indent=32>对手先出手时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>，自身体力低于对手时额外<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>对手因此体力归0时，<color=#64F9FA>消除</color>对手<b>回合类效果</b>并令对手1回合内<b>技能</b><color=#64F9FA>无法造成攻击伤害且命中效果失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3686,
+          "url": "https://api.seerapi.com/v1/pet/3686"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1265,
+          "url": "https://api.seerapi.com/v1/eid_effect/1265"
+        }
+      },
+      "effect_alias": "1265_50_50_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e637ef6"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1793": {
+      "id": 1793,
+      "desc": "对手使用攻击技能时，若自身处于能力提升状态则50%闪避对手的攻击且当回合受到的攻击伤害减少50%，若自身不处于能力提升状态则自身下回合攻击造成伤害提升100%；自身造成的攻击伤害高于250时50%令对手害怕，伤害每高出2点概率提升1%，达到100%时将害怕转变为诅咒（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则有50%概率<color=#64F9FA>闪避</color>对手的攻击且当回合受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则自身下回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于200时有50%概率<color=#64F9FA>令对手害怕</color>，伤害每高出1点概率提升1%\r\n<indent=32><sprite=4><indent=48>概率达到100%时将害怕效果转变为诅咒",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4583,
+          "url": "https://api.seerapi.com/v1/pet/4583"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          100,
+          250,
+          50,
+          2,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2185,
+          "url": "https://api.seerapi.com/v1/eid_effect/2185"
+        }
+      },
+      "effect_alias": "2185_50_50_100_250_50_2_100_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ee6494d"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1179": {
+      "id": 1179,
+      "desc": "自身处于能力提升状态时阿尔法熊开启攻击模式：攻击50%的概率打出致命一击，未触发则造成的攻击伤害提升100%；阿尔法熊受到攻击后开启防御模式：为自身附加300点护盾和300点护罩（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击模式：\r\n<indent=16><sprite=3><indent=32>自身处于能力提升状态时阿尔法熊开启攻击模式：攻击50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未触发则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>防御模式：\r\n<indent=16><sprite=3><indent=32>阿尔法熊受到攻击后开启防御模式：为自身<color=#64F9FA>附加</color>300点<b>护盾</b>和300点<b>护罩</b>",
+      "pve_effective": true,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3912,
+          "url": "https://api.seerapi.com/v1/pet/3912"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          300,
+          300
+        ],
+        "effect": {
+          "id": 1504,
+          "url": "https://api.seerapi.com/v1/eid_effect/1504"
+        }
+      },
+      "effect_alias": "1504_50_100_300_300",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1178,
+        "url": "https://api.seerapi.com/v1/soulmark/1178"
+      }
+    }
+  },
+  "hash": "f8d089f3"
+}

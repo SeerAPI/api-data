@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1373": {
+      "id": 1373,
+      "desc": "自身攻击技能命中后100%令对手失明，未触发则令对手下回合使用技能所消耗的PP值为5倍，自身属性技能命中后则下回合攻击先制+1且50%打出致命一击；|若对手当回合使用的攻击技能对自身造成伤害则该技能下回合必定失效（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手下回合使用技能所消耗的PP值为5倍\r\n<indent=16><sprite=3><indent=32>自身属性技能命中后则下回合自攻击<b>先制</b>+1且50%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手当回合使用的技能对自身造成了攻击伤害则<b>该技能</b>下回合<color=#64F9FA>失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4143,
+          "url": "https://api.seerapi.com/v1/pet/4143"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          5,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1734,
+          "url": "https://api.seerapi.com/v1/eid_effect/1734"
+        }
+      },
+      "effect_alias": "1734_100_5_1_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bd76db6c"
+}

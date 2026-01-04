@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1070": {
+      "id": 1070,
+      "desc": "先出手时恢复自身最大体力的1/4并造成等量固伤，自身体力低于1/2时转变为恢复自身最大体力的1/3并造成等量固伤；后出手时为自身附加最大体力1/4的护盾，自身体力低于1/2时转变为附加最大体力1/3的护盾（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>恢复</color>自身最大体力的1/4并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于1/2时改为恢复自身最大体力的1/3并附加等量百分比伤害\r\n<indent=16><sprite=3><indent=32>后出手时为自身<color=#64F9FA>附加</color>最大体力1/4的<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>自身体力低于1/2时改为附加最大体力1/3的护盾",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3794,
+          "url": "https://api.seerapi.com/v1/pet/3794"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          4,
+          2,
+          3,
+          4,
+          2,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1370,
+          "url": "https://api.seerapi.com/v1/eid_effect/1370"
+        }
+      },
+      "effect_alias": "1370_4_2_3_4_2_3_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "23d22c5a"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1109": {
+      "id": 1109,
+      "desc": "回合开始时50%令对手冻伤，50%令己方冻伤；对手处于冻伤状态时我方攻击命中后则对手全属性-1，己方处于冻伤状态时我方攻击命中后则为自身附加250点护盾和护罩（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时50%<color=#64F9FA>令对手冻伤</color>，50%<color=#64F9FA>令自身冻伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手处于冻伤状态时我方攻击命中后则对手<color=#64F9FA>全属性-1</color>\r\n<indent=16><sprite=3><indent=32>自身处于冻伤状态时我方攻击命中后则为自身<color=#64F9FA>附加</color>250点<b>护盾</b>和<b>护罩</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3834,
+          "url": "https://api.seerapi.com/v1/pet/3834"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 1423,
+          "url": "https://api.seerapi.com/v1/eid_effect/1423"
+        }
+      },
+      "effect_alias": "1423_50_1_250_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 17,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/17"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9429379d"
+}

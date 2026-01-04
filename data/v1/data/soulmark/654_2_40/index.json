@@ -1,0 +1,38 @@
+{
+  "data": {
+    "332": {
+      "id": 332,
+      "desc": "血量低于1/2时,技能威力提升40%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2921,
+          "url": "https://api.seerapi.com/v1/pet/2921"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          40
+        ],
+        "effect": {
+          "id": 654,
+          "url": "https://api.seerapi.com/v1/eid_effect/654"
+        }
+      },
+      "effect_alias": "654_2_40",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5ce9294c"
+}

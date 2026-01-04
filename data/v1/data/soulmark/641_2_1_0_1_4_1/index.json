@@ -1,0 +1,46 @@
+{
+  "data": {
+    "314": {
+      "id": 314,
+      "desc": "若对手处于烧伤状态则对手无法使用属性技能（boss无效）；每回合攻击+1、速度+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2899,
+          "url": "https://api.seerapi.com/v1/pet/2899"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          0,
+          1,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 641,
+          "url": "https://api.seerapi.com/v1/eid_effect/641"
+        }
+      },
+      "effect_alias": "641_2_1_0_1_4_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d997a1e3"
+}

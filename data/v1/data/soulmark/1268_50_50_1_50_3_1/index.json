@@ -1,0 +1,50 @@
+{
+  "data": {
+    "972": {
+      "id": 972,
+      "desc": "回合开始时若对手不处于异常状态则当回合自身攻击50%打出致命一击，自身体力低于对手时概率翻倍；对手使用攻击技能则50%使对手睡眠，未触发则对手全属性-1；自身使用攻击技能则50%使对手睡眠，未触发则{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手不处于异常状态则当回合自身攻击50%<color=#64F9FA>打出致命一击</color>，自身体力低于对手时概率翻倍\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能则50%<color=#64F9FA>使对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则对手<color=#64F9FA>全属性-1</color>\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则50%<color=#64F9FA>使对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3645,
+          "url": "https://api.seerapi.com/v1/pet/3645"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          1,
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1268,
+          "url": "https://api.seerapi.com/v1/eid_effect/1268"
+        }
+      },
+      "effect_alias": "1268_50_50_1_50_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "65f59071"
+}

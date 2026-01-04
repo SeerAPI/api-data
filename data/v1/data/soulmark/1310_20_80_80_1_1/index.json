@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1010": {
+      "id": 1010,
+      "desc": "自身每使用1次攻击技能则本次战斗中造成的伤害提升20%，最高80%；战斗阶段结束时，若自身体力低于对手则80%的概率使对手害怕，未触发则下回合攻击先制+1且必定打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用1次攻击技能后本次战斗中造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%，最高叠加至80%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身体力低于对手则80%<color=#64F9FA>使对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合攻击<b>先制</b>+1且必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3735,
+          "url": "https://api.seerapi.com/v1/pet/3735"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          80,
+          80,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1310,
+          "url": "https://api.seerapi.com/v1/eid_effect/1310"
+        }
+      },
+      "effect_alias": "1310_20_80_80_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "789499a1"
+}

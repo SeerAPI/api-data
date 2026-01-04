@@ -1,0 +1,39 @@
+{
+  "data": {
+    "617": {
+      "id": 617,
+      "desc": "造成的伤害低于300则使对手冻伤；回合开始时若对手处于异常状态时自身技能威力翻倍（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3286,
+          "url": "https://api.seerapi.com/v1/pet/3286"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 899,
+          "url": "https://api.seerapi.com/v1/eid_effect/899"
+        }
+      },
+      "effect_alias": "899_300_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4fa23fb2"
+}

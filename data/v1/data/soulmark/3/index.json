@@ -1,30 +1,95 @@
 {
-  "id": 3,
-  "desc": "受到的所有攻击伤害减少10%",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2424,
-      "url": "https://api.seerapi.com/v1/pet/2424"
-    }
-  ],
-  "effect": {
-    "effect_args": null,
-    "effect": {
-      "id": 260,
-      "url": "https://api.seerapi.com/v1/eid_effect/260"
+  "data": {
+    "1": {
+      "id": 1,
+      "desc": "受到的所有攻击伤害减少10%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2419,
+          "url": "https://api.seerapi.com/v1/pet/2419"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/eid_effect/3"
+        }
+      },
+      "effect_alias": "3",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    },
+    "2": {
+      "id": 2,
+      "desc": "受到的所有攻击伤害减少10%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2418,
+          "url": "https://api.seerapi.com/v1/pet/2418"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/eid_effect/3"
+        }
+      },
+      "effect_alias": "3",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    },
+    "8": {
+      "id": 8,
+      "desc": "减少15%受到伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2438,
+          "url": "https://api.seerapi.com/v1/pet/2438"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/eid_effect/3"
+        }
+      },
+      "effect_alias": "3",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 4,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "8c044e32"
+  "hash": "ed57add9"
 }

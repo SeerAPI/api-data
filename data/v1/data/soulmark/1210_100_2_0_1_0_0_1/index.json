@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1812": {
+      "id": 1812,
+      "desc": "自身的所有技能额外有100%的概率令对手烧伤；对手使用攻击技能额外有100%的概率全属性-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身的所有技能额外有100%的概率<color=#64F9FA>令对手烧伤</color>\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能额外有100%的概率全属性-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4607,
+          "url": "https://api.seerapi.com/v1/pet/4607"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          2,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "effect": {
+          "id": 1210,
+          "url": "https://api.seerapi.com/v1/eid_effect/1210"
+        }
+      },
+      "effect_alias": "1210_100_2_0_1_0_0_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6590fecb"
+}

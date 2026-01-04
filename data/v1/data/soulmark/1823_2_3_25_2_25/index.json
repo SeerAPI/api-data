@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1456": {
+      "id": 1456,
+      "desc": "回合开始时，自身体力高于最大体力的1/2则自身技能命中后附加自身最大体力1/3的固定伤害；|自身受到攻击时有25%的概率免疫此次攻击伤害，自身体力低于最大体力的1/2时概率翻倍，未触发则受到的攻击伤害减少25%（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，自身体力高于最大体力的1/2则自身技能命中后<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时有25%的概率<color=#64F9FA>免疫</color>此次<b>攻击伤害</b>，自身体力低于最大体力的1/2时概率翻倍\r\n<indent=32><sprite=4><indent=48>未触发则受到的<b>攻击伤害</b><color=#64F9FA>减少</color>25%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4237,
+          "url": "https://api.seerapi.com/v1/pet/4237"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          3,
+          25,
+          2,
+          25
+        ],
+        "effect": {
+          "id": 1823,
+          "url": "https://api.seerapi.com/v1/eid_effect/1823"
+        }
+      },
+      "effect_alias": "1823_2_3_25_2_25",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7882dfd0"
+}

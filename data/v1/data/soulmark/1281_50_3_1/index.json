@@ -1,0 +1,47 @@
+{
+  "data": {
+    "980": {
+      "id": 980,
+      "desc": "攻击技能50%概率打出致命一击；若当回合攻击没有打出致命一击则下回合攻击必定打出致命一击，若当回合攻击打出致命一击则自身随机3项能力值+1（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能50%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若攻击未打出致命一击则下回合攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>若攻击打出致命一击则自身随机3项能力等级+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3703,
+          "url": "https://api.seerapi.com/v1/pet/3703"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1281,
+          "url": "https://api.seerapi.com/v1/eid_effect/1281"
+        }
+      },
+      "effect_alias": "1281_50_3_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f39fa876"
+}

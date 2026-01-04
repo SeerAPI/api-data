@@ -1,0 +1,54 @@
+{
+  "data": {
+    "917": {
+      "id": 917,
+      "desc": "回合开始时，若自身体力高于或等于对手则当回合50%的概率闪避对手攻击，若自身体力低于对手则闪避概率提升至80%，若对手攻击命中则自身当回合受到的攻击伤害减少50%；|回合开始时，若当回合自身选择使用攻击技能则随机令自身2项属性+1，若提升的能力中含有特攻则自身额外攻击+2、速度+2；回合开始时，若当回合自身选择使用属性技能则令自身下回合所有技能先制+2（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>50%的概率<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>，自身体力低于对手时概率提升至80%\r\n<indent=32><sprite=4><indent=48>未触发闪避则自身当回合受到的<b>攻击伤害</b>减少50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能则随机令自身2项属性+1\r\n<indent=32><sprite=4><indent=48>若提升的能力中含有特攻能力则自身额外攻击+2、速度+2\r\n<indent=16><sprite=3><indent=32>使用属性技能则令自身下回合所有技能<b>先制</b>+2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3623,
+          "url": "https://api.seerapi.com/v1/pet/3623"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          80,
+          50,
+          2,
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1201,
+          "url": "https://api.seerapi.com/v1/eid_effect/1201"
+        }
+      },
+      "effect_alias": "1201_50_80_50_2_1_2_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": {
+        "id": 1863,
+        "url": "https://api.seerapi.com/v1/soulmark/1863"
+      },
+      "from": null
+    }
+  },
+  "hash": "b789b22e"
+}

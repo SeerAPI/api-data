@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1696": {
+      "id": 1696,
+      "desc": "回合开始时释放1支灵烁之箭攻击对手场下满体力的首位精灵，直接扣除其100点体力；|自身攻击技能命中前，若对手不为满体力则当次攻击造成的伤害提升50%，本场战斗中若自身灵烁之箭已释放完毕则增伤效果提升至100%；|自身属性技能命中前，若对手不为满体力则附加给对手150点固定伤害，本场战斗中若自身灵烁之箭已释放完毕则固伤效果提升至300点|（灵烁之箭每场战斗中最多可释放10支，若对手场下无满体力精灵则该效果不触发，对方精灵因灵烁之箭效果死亡时会残留1点体力，所有特效boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限10次）：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手场下存在满体力的精灵则对其中的首位精灵释放1支灵烁之箭：直接扣除其100点体力，致其体力归0时<color=#64F9FA>保留</color>1点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中前，若对手不为满体力则本次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>本场战斗中若自身灵烁之箭已释放完毕则增伤效果提升至100%\r\n\r\n<indent=0><sprite=0><indent=16>属性技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身属性技能命中前，若对手不为满体力则<color=#64F9FA>附加</color>给对手150点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>本场战斗中若自身灵烁之箭已释放完毕则固伤效果提升至300点",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4484,
+          "url": "https://api.seerapi.com/v1/pet/4484"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          50,
+          100,
+          150,
+          300,
+          10,
+          1
+        ],
+        "effect": {
+          "id": 2081,
+          "url": "https://api.seerapi.com/v1/eid_effect/2081"
+        }
+      },
+      "effect_alias": "2081_1_100_50_100_150_300_10_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "29d93127"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1068": {
+      "id": 1068,
+      "desc": "回合开始时，若自身体力高于最大的1/2则攻击命中后使对手攻击-1、特攻-1，若自身体力低于最大的1/2则当回合造成的攻击伤害翻倍；攻击造成的伤害高于300则{吸取}对手最大{体力}的1/3，造成的伤害低于300则特攻+1、速度+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大的1/2则攻击命中后使对手攻击-1、特攻-1\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大的1/2则当回合造成的<b>攻击伤害</b><color=#64F9FA>翻倍</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>攻击造成的攻击伤害高于300则<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=16><sprite=3><indent=32>攻击造成的攻击伤害低于300则特攻+1、速度+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3792,
+          "url": "https://api.seerapi.com/v1/pet/3792"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          300,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1368,
+          "url": "https://api.seerapi.com/v1/eid_effect/1368"
+        }
+      },
+      "effect_alias": "1368_2_1_300_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "72bd558a"
+}

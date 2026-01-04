@@ -1,0 +1,44 @@
+{
+  "data": {
+    "452": {
+      "id": 452,
+      "desc": "每回合先出手时使对手本回合造成的伤害减少20%；每回合若对手处于烧伤状态则自身造成的伤害翻倍（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3108,
+          "url": "https://api.seerapi.com/v1/pet/3108"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          2,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 763,
+          "url": "https://api.seerapi.com/v1/eid_effect/763"
+        }
+      },
+      "effect_alias": "763_20_2_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "48b5df5c"
+}

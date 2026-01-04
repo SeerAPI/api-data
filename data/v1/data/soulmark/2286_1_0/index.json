@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1888": {
+      "id": 1888,
+      "desc": "回合开始时，若自身未于上回合受到攻击则触发氤氲蛰影：在场期间自身先制+1、造成的伤害提升25%且回合结束后恢复最大体力的10%，每次在场最多触发3次，下场重置，重置前每触发1次，下次登场时令对手混乱1回合|自身受到攻击后重置自身的氤氲蛰影并附加给对手本次伤害150%的百分比伤害，重置前自身每触发过1次氤氲蛰影令对手随机一个技能PP值归0且百分比伤害的附加额度减少25%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果： \r\n<indent=16><sprite=3><indent=32>回合开始时，若自身未于上回合受到攻击则触发氤氲蛰影，最高可叠加3次，每叠加1次都有：\r\n<indent=32><sprite=4><indent=48>自身<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害<color=#64F9FA></b>提升</color>25%\r\n<indent=32><sprite=4><indent=48>回合结束后<color=#64F9FA>恢复</color>最大体力的10% \r\n\r\n<indent=0><sprite=0><indent=16>下场效果：\r\n<indent=16><sprite=3><indent=32>下场时重置自身的氤氲蛰影\r\n<indent=32><sprite=4><indent=48>重置前每叠加1次，下次登场时<color=#64F9FA>令对手混乱</color>1回合\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后重置自身的氤氲蛰影并<color=#64F9FA>附加</color>给对手本次伤害150%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>重置前自身每叠加了1次氤氲蛰影都令对手随机一个技能<b>PP值</b><color=#64F9FA>归0</color>且附加的百分比伤害额度减少25%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4685,
+          "url": "https://api.seerapi.com/v1/pet/4685"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2286,
+          "url": "https://api.seerapi.com/v1/eid_effect/2286"
+        }
+      },
+      "effect_alias": "2286_1_0",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d62a3a49"
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "114": {
+      "id": 114,
+      "desc": "若对手处于睡眠状态，则100%附加100点固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2697,
+          "url": "https://api.seerapi.com/v1/pet/2697"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          8,
+          100,
+          100
+        ],
+        "effect": {
+          "id": 293,
+          "url": "https://api.seerapi.com/v1/eid_effect/293"
+        }
+      },
+      "effect_alias": "293_8_100_100",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cee8ad54"
+}

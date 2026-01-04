@@ -1,0 +1,38 @@
+{
+  "data": {
+    "2027": {
+      "id": 2027,
+      "desc": "60%免疫受到的致命一击伤害（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>60%<color=#64F9FA>免疫</color>受到的<b>致命一击伤害</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4837,
+          "url": "https://api.seerapi.com/v1/pet/4837"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          600,
+          0
+        ],
+        "effect": {
+          "id": 150,
+          "url": "https://api.seerapi.com/v1/eid_effect/150"
+        }
+      },
+      "effect_alias": "150_600_0",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7449992a"
+}

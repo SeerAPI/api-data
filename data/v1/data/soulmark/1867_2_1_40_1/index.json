@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1504": {
+      "id": 1504,
+      "desc": "自身受到攻击则随机吸取对手2项属性-1，并将该属性附加给自己；回合开始时，若自身处于能力提升状态则当回合40%的概率闪避对手攻击，若对手处于能力下降状态则闪避概率翻倍（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击则令对手随机2项属性-1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升状态则当回合40%的概率<color=#64F9FA>闪避</color>对手攻击，若对手处于能力下降状态则闪避概率翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4283,
+          "url": "https://api.seerapi.com/v1/pet/4283"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          40,
+          1
+        ],
+        "effect": {
+          "id": 1867,
+          "url": "https://api.seerapi.com/v1/eid_effect/1867"
+        }
+      },
+      "effect_alias": "1867_2_1_40_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2853f8c0"
+}

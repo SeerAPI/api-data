@@ -1,0 +1,47 @@
+{
+  "data": {
+    "213": {
+      "id": 213,
+      "desc": "所有技能有25%概率令对手麻痹（boss无效）;造成伤害的25%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2887,
+          "url": "https://api.seerapi.com/v1/pet/2887"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          0,
+          1,
+          25
+        ],
+        "effect": {
+          "id": 628,
+          "url": "https://api.seerapi.com/v1/eid_effect/628"
+        }
+      },
+      "effect_alias": "628_25_0_1_25",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 310,
+        "url": "https://api.seerapi.com/v1/soulmark/310"
+      },
+      "from": null
+    }
+  },
+  "hash": "8bd7d8ef"
+}

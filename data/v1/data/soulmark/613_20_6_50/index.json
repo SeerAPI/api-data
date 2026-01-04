@@ -1,0 +1,43 @@
+{
+  "data": {
+    "196": {
+      "id": 196,
+      "desc": "受到的伤害减少20%，对手处于害怕状态时所有技能威力提升50%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2857,
+          "url": "https://api.seerapi.com/v1/pet/2857"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          6,
+          50
+        ],
+        "effect": {
+          "id": 613,
+          "url": "https://api.seerapi.com/v1/eid_effect/613"
+        }
+      },
+      "effect_alias": "613_20_6_50",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "653cfdd3"
+}

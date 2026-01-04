@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1322": {
+      "id": 1322,
+      "desc": "回合开始时，若自身处于速度能力提升状态则当回合攻击命中后50%令对手睡眠，若对手处于速度能力提升状态则当回合攻击先制+1且战斗阶段结束时反转对手速度能力提升状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于速度能力提升状态则当回合攻击命中后50%<color=#64F9FA>令对手睡眠</color>\r\n<indent=32><sprite=4><indent=48>若对手处于速度能力提升状态则当回合攻击先制+1且战斗阶段结束时<color=#64F9FA>反转</color>对手速度<b>能力提升状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4079,
+          "url": "https://api.seerapi.com/v1/pet/4079"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1670,
+          "url": "https://api.seerapi.com/v1/eid_effect/1670"
+        }
+      },
+      "effect_alias": "1670_50_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ddac250e"
+}

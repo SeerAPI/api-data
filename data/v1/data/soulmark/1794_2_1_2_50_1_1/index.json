@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1423": {
+      "id": 1423,
+      "desc": "每回合开始时令对手命中-2、速度-1；回合开始时，若自身体力低于最大体力的1/2则当回合自身攻击50%打出致命一击且战斗阶段结束时令自身全属性+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>令对手命中-2、速度-1\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则当回合自身攻击50%<color=#64F9FA>打出致命一击</color>且战斗阶段结束时<color=#64F9FA>全属性+1</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4201,
+          "url": "https://api.seerapi.com/v1/pet/4201"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          2,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1794,
+          "url": "https://api.seerapi.com/v1/eid_effect/1794"
+        }
+      },
+      "effect_alias": "1794_2_1_2_50_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "49f4592"
+}

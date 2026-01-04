@@ -1,0 +1,42 @@
+{
+  "data": {
+    "631": {
+      "id": 631,
+      "desc": "在战斗中，攻击和特攻等于其中较高的一项且每次攻击无视对手的防御和特防能力提升状态；当回合受到攻击则60%令对手麻痹，未受到攻击则自身下次攻击必定致命（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3301,
+          "url": "https://api.seerapi.com/v1/pet/3301"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          1
+        ],
+        "effect": {
+          "id": 912,
+          "url": "https://api.seerapi.com/v1/eid_effect/912"
+        }
+      },
+      "effect_alias": "912_60_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d5558482"
+}

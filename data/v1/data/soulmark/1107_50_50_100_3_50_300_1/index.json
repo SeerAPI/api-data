@@ -1,0 +1,51 @@
+{
+  "data": {
+    "823": {
+      "id": 823,
+      "desc": "每回合有50%概率闪避对手的攻击技能，若对手攻击命中则当回合受到的攻击伤害减少50%，且下1次闪避概率提升至100%；|自身攻击技能命中后若体力低于对手则附加对手最大体力1/3的百分比伤害，自身攻击技能命中前若体力高于对手则当次攻击必定打出致命一击；先出手时所有技能命中后有50%概率使对手害怕，后出手时属性技能命中后{吸取}对手300点{体力}|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3515,
+          "url": "https://api.seerapi.com/v1/pet/3515"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          100,
+          3,
+          50,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1107,
+          "url": "https://api.seerapi.com/v1/eid_effect/1107"
+        }
+      },
+      "effect_alias": "1107_50_50_100_3_50_300_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4af08241"
+}

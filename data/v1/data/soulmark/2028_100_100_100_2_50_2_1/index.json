@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1642": {
+      "id": 1642,
+      "desc": "自身使用攻击技能后，双方每处于1种异常状态则附加给对手100点固定伤害；|战斗阶段结束时，若自身不处于异常状态，则100%令对手烧伤，之后100%令自身冻伤；若自身处于异常状态且数量≤2，则恢复自身已损失体力的50%；若自身处于异常状态且数量＞2，则解除自身随机n项异常状态并附加给对手等同的异常状态（n=当前异常状态数量-2）|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后，双方每处于1种异常状态则<color=#64F9FA>附加</color>100点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身不处于异常状态则100%<color=#64F9FA>使对手烧伤</color>，然后100%<color=#64F9FA>使自身冻伤</color>\r\n<indent=32><sprite=4><indent=48>若自身处于异常状态且数量≤2，则<color=#64F9FA>恢复</color>自身已损失体力的50%\r\n<indent=32><sprite=4><indent=48>若自身处于异常状态且数量＞2，则<color=#64F9FA>解除并附加</color>自身随机n项<b>异常状态</b>，n=所处异常状态数量-2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4426,
+          "url": "https://api.seerapi.com/v1/pet/4426"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          100,
+          2,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2028,
+          "url": "https://api.seerapi.com/v1/eid_effect/2028"
+        }
+      },
+      "effect_alias": "2028_100_100_100_2_50_2_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f8f04726"
+}

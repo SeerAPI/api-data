@@ -1,0 +1,48 @@
+{
+  "data": {
+    "754": {
+      "id": 754,
+      "desc": "自身不处于能力提升状态时先制+1且造成的伤害提高50%；自身处于能力提升状态时受到的伤害降低50%且免疫异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3440,
+          "url": "https://api.seerapi.com/v1/pet/3440"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1039,
+          "url": "https://api.seerapi.com/v1/eid_effect/1039"
+        }
+      },
+      "effect_alias": "1039_1_50_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9d3f1b5a"
+}

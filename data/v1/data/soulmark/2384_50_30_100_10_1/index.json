@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1968": {
+      "id": 1968,
+      "desc": "自身造成攻击伤害的50%恢复至体力，若自身体力值为满则改为30%令对手麻痹，每造成100点伤害，概率提升10%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成攻击伤害的50%恢复至体力\r\n<indent=32><sprite=4><indent=48>若自身体力值为满则改为30%<color=#64F9FA>令对手麻痹</color>，每造成了100点攻击伤害，概率提升10%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4757,
+          "url": "https://api.seerapi.com/v1/pet/4757"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          30,
+          100,
+          10,
+          1
+        ],
+        "effect": {
+          "id": 2384,
+          "url": "https://api.seerapi.com/v1/eid_effect/2384"
+        }
+      },
+      "effect_alias": "2384_50_30_100_10_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a3e2259"
+}

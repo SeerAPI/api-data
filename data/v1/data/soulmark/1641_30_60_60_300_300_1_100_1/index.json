@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1301": {
+      "id": 1301,
+      "desc": "回合开始时若自身体力高于对手则30%免疫当回合受到的攻击伤害；自身攻击技能命中后则战斗阶段结束时附加60点固定伤害并恢复自身等量体力值，每次叠加60点，最高可叠加至300点，数值叠加至最高后下1次触发时造成的固定伤害值提升100%，之后重置此效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力高于对手则30%<color=#64F9FA>免疫</color>当回合受到的<b>攻击伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后则战斗阶段结束时<color=#64F9FA>附加</color>60点<b>固定伤害</b>并<color=#64F9FA>恢复</color>自身等量<b>体力</b>，每次叠加60点，上限300点\r\n<indent=32><sprite=4><indent=48>叠加到300点后下1次此效果造成的固定伤害提升100%，然后重置此效果",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4053,
+          "url": "https://api.seerapi.com/v1/pet/4053"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          60,
+          60,
+          300,
+          300,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1641,
+          "url": "https://api.seerapi.com/v1/eid_effect/1641"
+        }
+      },
+      "effect_alias": "1641_30_60_60_300_300_1_100_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9054f909"
+}

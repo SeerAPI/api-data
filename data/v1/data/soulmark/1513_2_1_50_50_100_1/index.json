@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1185": {
+      "id": 1185,
+      "desc": "每回合开始时令对手随机2项能力值-1并将该属性附加给自己；战斗阶段结束时若对手处于能力下降状态则50%令对手失神，未触发则50%令对手失明；战斗阶段结束时若对手不处于能力下降状态则下回合自身攻击造成的伤害提升100%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>吸取</color>对手2项能力1级\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若对手处于能力下降状态则50%<color=#64F9FA>令对手失神</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手失明</color>\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若对手不处于能力下降状态则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3920,
+          "url": "https://api.seerapi.com/v1/pet/3920"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          50,
+          50,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1513,
+          "url": "https://api.seerapi.com/v1/eid_effect/1513"
+        }
+      },
+      "effect_alias": "1513_2_1_50_50_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "47b38031"
+}

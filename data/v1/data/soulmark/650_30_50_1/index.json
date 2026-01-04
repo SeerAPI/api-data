@@ -1,0 +1,43 @@
+{
+  "data": {
+    "326": {
+      "id": 326,
+      "desc": "造成伤害的30%恢复自身体力;50%概率使对手的属性技能失效（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2916,
+          "url": "https://api.seerapi.com/v1/pet/2916"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 650,
+          "url": "https://api.seerapi.com/v1/eid_effect/650"
+        }
+      },
+      "effect_alias": "650_30_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e5cac911"
+}

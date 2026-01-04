@@ -1,0 +1,43 @@
+{
+  "data": {
+    "934": {
+      "id": 934,
+      "desc": "回合开始时，若自身处于异常状态，则当回合战斗阶段结束时{吸取}对手最大{体力}的1/3；|自身使用攻击技能时附加自身防御和特防总和30%的百分比伤害，后出手时附加的百分比伤害翻倍（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身处于异常状态则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能则<color=#64F9FA>附加</color>自身防御值和特防值之和30%的<b>百分比伤害</b>，后出手时效果翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3651,
+          "url": "https://api.seerapi.com/v1/pet/3651"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 1226,
+          "url": "https://api.seerapi.com/v1/eid_effect/1226"
+        }
+      },
+      "effect_alias": "1226_3_30_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d6ab46e1"
+}

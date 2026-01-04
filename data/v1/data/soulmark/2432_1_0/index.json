@@ -1,0 +1,46 @@
+{
+  "data": {
+    "2008": {
+      "id": 2008,
+      "desc": "战斗开始时，自身为己方配置一个赛博共振器|自身每次登场时开启赛博共振器，之后每回合开始时若赛博共振器处于开启状态则令自身沸涌2回合，自身处于沸涌时改为使回合数+2，然后若沸涌回合数高于3则自身受到300点真实伤害|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时，自身为己方配置一个<color=#FFF779>赛博共振器</color>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场时开启赛博共振器\r\n<indent=32><sprite=4><indent=48>之后每回合开始时若赛博共振器处于开启状态则<color=#64F9FA>令自身沸涌</color>2回合，自身处于沸涌时改为使回合数+2\r\n<indent=32><sprite=4><sprite=4><indent=64>然后若沸涌回合数高于3则当回合战斗阶段结束时自身<color=#64F9FA>受到</color>300点<b>真实伤害</b>\r\n\r\n<indent=0><sprite=5><indent=15>赛博共振器：\r\n<indent=16><sprite=6><indent=32>己方的<b>回合开始效果先制</b>+1\r\n<indent=16><sprite=6><indent=32>开启时双方的<b>技能</b><color=#64F9FA>无效 </color>\r\n<indent=16><sprite=6><indent=32>开启的每回合结束时，若在场的己方伊芙存在技能PP值为0，则<color=#64F9FA>恢复</color>此技能的<b>PP值</b>并<color=#64F9FA>反转</color>对手的<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>每恢复1点<color=#64F9FA>吸取</color>对手50点<b>体力</b>并<color=#64F9FA>获得</color>等量的<b>护盾、护罩</b>\r\n<indent=16><sprite=6><indent=32>双方任意一方使用第五技能时或自身下场时赛博共振器关闭\r\n\r\n<indent=0><sprite=5><indent=15>沸涌：\r\n<indent=16><sprite=6><indent=32>弱化类异常状态，处于该状态的精灵受到的攻击伤害至少为其最大体力的30%，对手打出致命一击时效果提升至50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4816,
+          "url": "https://api.seerapi.com/v1/pet/4816"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2432,
+          "url": "https://api.seerapi.com/v1/eid_effect/2432"
+        }
+      },
+      "effect_alias": "2432_1_0",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "95994efa"
+}

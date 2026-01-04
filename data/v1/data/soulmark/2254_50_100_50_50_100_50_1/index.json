@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1859": {
+      "id": 1859,
+      "desc": "每次登场时，吸取对手的护盾、护罩；自身使用攻击技能后，若对手处于异常状态，则消耗自身所有护盾、护罩并造成等量固定伤害|对手使用必中攻击技能时，若自身拥有护罩则50%触发霜浮之刃：100%令对手冰封且当回合受到的攻击伤害减少50%|自身使用必中攻击技能时，若自身拥有护盾则50%触发灼掠之刃：100%令对手焚烬且当回合造成的攻击伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时，<color=#64F9FA>吸取</color>对手的<b>护盾、护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后若对手处于异常状态，则<color=#64F9FA>消耗</color>自身所有<b>护盾、护罩</b>并<color=#64F9FA>造成</color>等量<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用必中攻击技能时，若自身拥有护罩则50%触发霜浮之刃：100%<color=#64F9FA>令对手冰封</color>且当回合受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%\r\n<indent=16><sprite=3><indent=32>自身使用必中攻击技能时，若自身拥有护盾则50%触发灼掠之刃：100%<color=#64F9FA>令对手焚烬</color>且当回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4657,
+          "url": "https://api.seerapi.com/v1/pet/4657"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          50,
+          50,
+          100,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2254,
+          "url": "https://api.seerapi.com/v1/eid_effect/2254"
+        }
+      },
+      "effect_alias": "2254_50_100_50_50_100_50_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8cfd567c"
+}

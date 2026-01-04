@@ -1,0 +1,41 @@
+{
+  "data": {
+    "331": {
+      "id": 331,
+      "desc": "每次使用攻击技能减少对手1/3当前体力（boss无效）;每次使用属性技能恢复200HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2923,
+          "url": "https://api.seerapi.com/v1/pet/2923"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          3,
+          1,
+          2,
+          200
+        ],
+        "effect": {
+          "id": 653,
+          "url": "https://api.seerapi.com/v1/eid_effect/653"
+        }
+      },
+      "effect_alias": "653_1_3_1_2_200",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "90dee095"
+}

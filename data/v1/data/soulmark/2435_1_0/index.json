@@ -1,0 +1,38 @@
+{
+  "data": {
+    "2010": {
+      "id": 2010,
+      "desc": "自身使用必中技能后对手下1次受到的非必中技能必定命中，可叠加至2次|自身使用非必中技能后对手下1次使用的非必中技能必定MISS，可叠加至2次|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用必中技能后对手下1次受到的<b>非必中技能</b><color=#64F9FA>必定命中</color>，可叠加至2次\r\n<indent=16><sprite=3><indent=32>自身使用非必中技能后对手下1次使用的<b>非必中技能</b><color=#64F9FA>必定MISS</color>，可叠加至2次",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4817,
+          "url": "https://api.seerapi.com/v1/pet/4817"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2435,
+          "url": "https://api.seerapi.com/v1/eid_effect/2435"
+        }
+      },
+      "effect_alias": "2435_1_0",
+      "tag": [
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9bf8bfe2"
+}

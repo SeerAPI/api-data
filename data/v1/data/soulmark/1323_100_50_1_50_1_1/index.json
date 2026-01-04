@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1025": {
+      "id": 1025,
+      "desc": "自身死亡时，若自身处于烧伤状态则100%的概率浴火重生，同时消除对手能力提升状态和回合类状态（每场战斗仅触发1次）；自身使用攻击技能50%令对手烧伤，未触发则令对手全属性-1；自身受到攻击伤害50%令对手焚烬，未触发则自身下回合先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身死亡时，若自身处于烧伤状态则100%的概率浴火<color=#64F9FA>重生</color>\r\n<indent=32><sprite=4><indent=48>重生时<color=#64F9FA>消除</color>对手<b>能力提升状态</b>和<b>回合类状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能50%<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>未触发则令对手<color=#64F9FA>全属性-1</color>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害50%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身下回合<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3748,
+          "url": "https://api.seerapi.com/v1/pet/3748"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          50,
+          1,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1323,
+          "url": "https://api.seerapi.com/v1/eid_effect/1323"
+        }
+      },
+      "effect_alias": "1323_100_50_1_50_1_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b04f48e4"
+}

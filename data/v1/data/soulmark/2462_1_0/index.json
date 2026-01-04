@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2041": {
+      "id": 2041,
+      "desc": "回合结束后，对手当回合每恢复1次体力，自身恢复1次两百点体力，最高3次；自身恢复体力时，一回合内造成的攻击伤害提升20%，最多叠加3次（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，对手当回合每恢复1次体力，自身<color=#64F9FA>恢复</color>1次二百点<b>体力</b>，最高3次\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身恢复体力时，一回合内造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%，最多叠加3次",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4851,
+          "url": "https://api.seerapi.com/v1/pet/4851"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2462,
+          "url": "https://api.seerapi.com/v1/eid_effect/2462"
+        }
+      },
+      "effect_alias": "2462_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "282ff8ce"
+}

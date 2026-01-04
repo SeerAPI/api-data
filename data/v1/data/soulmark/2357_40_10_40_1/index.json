@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1943": {
+      "id": 1943,
+      "desc": "自身登场之后，对手每次使用属性技能后吸取对手最大体力的40%，然后若对手因此受到了百分比伤害则本效果比例减少10%|登场效果的比例减少后，自身使用攻击技能时吸取对手最大体力，登场效果比例每减少过一次吸取的比例增加10%，最高40%|若对手未因上述任一效果受到百分比伤害则消除对手回合类效果，消除成功则令对手混乱且重置自身登场效果的比例（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场之后，对手每次使用属性技能后<color=#64F9FA>吸取</color>对手最大体力的40%\r\n<indent=32><sprite=4><indent=48>然后若对手因此受到了百分比伤害则本效果比例减少10%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>登场效果的比例减少后，自身使用攻击技能时<color=#64F9FA>吸取</color>对手最大体力\r\n<indent=32><sprite=4><indent=48>登场效果比例每减少过一次吸取的比例增加10%，最高40%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若对手未因上述任一效果受到百分比伤害则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>消除成功则<color=#64F9FA>令对手混乱</color>且重置自身登场效果的比例",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4740,
+          "url": "https://api.seerapi.com/v1/pet/4740"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          10,
+          40,
+          1
+        ],
+        "effect": {
+          "id": 2357,
+          "url": "https://api.seerapi.com/v1/eid_effect/2357"
+        }
+      },
+      "effect_alias": "2357_40_10_40_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "dd1c5f59"
+}

@@ -1,37 +1,39 @@
 {
-  "id": 257,
-  "desc": "圣皇 有35%概率免疫对手致命一击造成的伤害",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2378,
-      "url": "https://api.seerapi.com/v1/pet/2378"
-    },
-    {
-      "id": 2379,
-      "url": "https://api.seerapi.com/v1/pet/2379"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      350,
-      0
-    ],
-    "effect": {
-      "id": 150,
-      "url": "https://api.seerapi.com/v1/eid_effect/150"
+  "data": {
+    "304": {
+      "id": 304,
+      "desc": "出战首回合所有技能必中,出战首回合攻击技能造成的伤害提升15%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2389,
+          "url": "https://api.seerapi.com/v1/pet/2389"
+        },
+        {
+          "id": 2390,
+          "url": "https://api.seerapi.com/v1/pet/2390"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 257,
+          "url": "https://api.seerapi.com/v1/eid_effect/257"
+        }
+      },
+      "effect_alias": "257",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 7,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/7"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "aac7370a"
+  "hash": "a3b8815a"
 }

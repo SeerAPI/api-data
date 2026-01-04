@@ -1,0 +1,38 @@
+{
+  "data": {
+    "193": {
+      "id": 193,
+      "desc": "受到的伤害减少20%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2848,
+          "url": "https://api.seerapi.com/v1/pet/2848"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          20
+        ],
+        "effect": {
+          "id": 203,
+          "url": "https://api.seerapi.com/v1/eid_effect/203"
+        }
+      },
+      "effect_alias": "203_0_20",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "441e114d"
+}

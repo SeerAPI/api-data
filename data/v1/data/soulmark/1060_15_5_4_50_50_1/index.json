@@ -1,0 +1,46 @@
+{
+  "data": {
+    "773": {
+      "id": 773,
+      "desc": "15%的概率造成5倍伤害，对手每有一只精灵存活，概率提高4%；每回合恢复50点体力，己方每有一只精灵存活则额外恢复50点体力（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3459,
+          "url": "https://api.seerapi.com/v1/pet/3459"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          5,
+          4,
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1060,
+          "url": "https://api.seerapi.com/v1/eid_effect/1060"
+        }
+      },
+      "effect_alias": "1060_15_5_4_50_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e1cd7ad6"
+}

@@ -1,0 +1,50 @@
+{
+  "data": {
+    "885": {
+      "id": 885,
+      "desc": "在战斗中增加自身200点体力上限；自身使用攻击技能时50%令对手害怕，未触发则战斗阶段结束时附加自身最大体力1/3的百分比伤害；对手使用攻击技能时50％令对手害怕，未触发则战斗阶段结束时附加自身最大体力1/3的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>增加</color>200点<b>体力上限</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害50％<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3584,
+          "url": "https://api.seerapi.com/v1/pet/3584"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          50,
+          3,
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1169,
+          "url": "https://api.seerapi.com/v1/eid_effect/1169"
+        }
+      },
+      "effect_alias": "1169_200_50_3_50_3_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7045cf86"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1461": {
+      "id": 1461,
+      "desc": "回合开始时若对手处于能力下降状态则当回合自身攻击命中后30%令对手冰封,若自身先出手则冰封概率转变为60%;|回合开始时对手不处于能力下降状态则战斗阶段结束时反转对手能力提升状态，对手不处于能力提升状态则令对手特防、速度-1(boss无效)",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于能力下降状态则当回合自身攻击命中后30%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>若自身先出手则冰封概率转变为60%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，对手不处于能力下降状态则战斗阶段结束时<color=#64F9FA>反转</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>对手不处于能力提升状态则令对手特防、速度-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4242,
+          "url": "https://api.seerapi.com/v1/pet/4242"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          60,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1829,
+          "url": "https://api.seerapi.com/v1/eid_effect/1829"
+        }
+      },
+      "effect_alias": "1829_30_60_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ee88171"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1768": {
+      "id": 1768,
+      "desc": "自身攻击打出致命一击时恢复200点体力值且随机附加中毒、烧伤、冻伤、感染、焚烬、冰封中的1种异常状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身打出致命一击时<color=#64F9FA>恢复</color>200点<b>体力</b>值且随机附加中毒、烧伤、冻伤、感染、焚烬、冰封中的1种<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4558,
+          "url": "https://api.seerapi.com/v1/pet/4558"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2162,
+          "url": "https://api.seerapi.com/v1/eid_effect/2162"
+        }
+      },
+      "effect_alias": "2162_200_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "47f2378"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1815": {
+      "id": 1815,
+      "desc": "自身使用攻击技能时50%令对手疲惫，自身每失去100点体力概率提升10%，最高100%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时50%<color=#64F9FA>令对手疲惫</color>，自身每失去100点体力概率提升10%，最高100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4610,
+          "url": "https://api.seerapi.com/v1/pet/4610"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          7,
+          100,
+          10,
+          100
+        ],
+        "effect": {
+          "id": 662,
+          "url": "https://api.seerapi.com/v1/eid_effect/662"
+        }
+      },
+      "effect_alias": "662_1_50_7_100_10_100",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6fabc14f"
+}

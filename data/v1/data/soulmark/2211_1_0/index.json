@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1822": {
+      "id": 1822,
+      "desc": "自身受到攻击伤害后恢复最大体力的1/3,然后若自身体力低于对手则下回合攻击技能额外提升等同于双方最大体力差50%的威力值（最高200点）；|连续5个回合开始时自身体力低于对手则当回合攻击额外触发佩斯莉幸运卡牌：附加666点真实伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后<color=#64F9FA>恢复</color>最大体力的1/3\r\n<indent=32><sprite=4><indent=48>然后若自身体力低于对手则下回合攻击技能额外<color=#64F9FA>提升</color>等同于双方最大体力差50%的<b>威力</b>值，最高200点\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>连续5个回合开始时自身体力低于对手则当回合攻击额外触发佩斯莉幸运卡牌：<color=#64F9FA>附加</color>666点<b>真实伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4616,
+          "url": "https://api.seerapi.com/v1/pet/4616"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2211,
+          "url": "https://api.seerapi.com/v1/eid_effect/2211"
+        }
+      },
+      "effect_alias": "2211_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9975dea6"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1382": {
+      "id": 1382,
+      "desc": "自身受到的固定伤害和百分比伤害减少20%，回合开始时若自身体力低于最大体力的1/3时减免效果翻倍；|自身受到的攻击伤害高于300则下回合对手使用的攻击技能威力减少50%，自身受到的攻击伤害低于300则战斗阶段结束时令对手防御-1、特防-1，令自身防御+1、特防+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身受到的<b>固定伤害</b>和<b>百分比伤害</b><color=#64F9FA>减少</color>20%，回合开始时若自身体力低于最大体力的1/3时效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到了高于300的攻击伤害则下回合对手使用的攻击技能<b>威力</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>自身受到了低于300的攻击伤害则战斗阶段结束时令对手防御-1、特防-1，令自身防御+1、特防+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4155,
+          "url": "https://api.seerapi.com/v1/pet/4155"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          3,
+          300,
+          50,
+          300,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1743,
+          "url": "https://api.seerapi.com/v1/eid_effect/1743"
+        }
+      },
+      "effect_alias": "1743_20_3_300_50_300_1_1_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "fca49b37"
+}

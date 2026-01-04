@@ -1,0 +1,49 @@
+{
+  "data": {
+    "809": {
+      "id": 809,
+      "desc": "50%闪避对手攻击，未触发则当回合所受到的攻击伤害减少50%，且下次闪避触发概率提升至100%；自身体力低于对手时，攻击附加对手最大体力1/3的固伤；自身体力高于对手时，攻击技能必定致命一击（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3494,
+          "url": "https://api.seerapi.com/v1/pet/3494"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1093,
+          "url": "https://api.seerapi.com/v1/eid_effect/1093"
+        }
+      },
+      "effect_alias": "1093_50_50_100_3_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2d4a4ea"
+}

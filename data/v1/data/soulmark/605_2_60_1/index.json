@@ -1,0 +1,39 @@
+{
+  "data": {
+    "189": {
+      "id": 189,
+      "desc": "当受到的伤害大于自身体力的1/2时，该伤害自动抵消60%（boss无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2844,
+          "url": "https://api.seerapi.com/v1/pet/2844"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 605,
+          "url": "https://api.seerapi.com/v1/eid_effect/605"
+        }
+      },
+      "effect_alias": "605_2_60_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b225a81d"
+}

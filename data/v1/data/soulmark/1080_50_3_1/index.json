@@ -1,0 +1,43 @@
+{
+  "data": {
+    "799": {
+      "id": 799,
+      "desc": "50%概率闪避对手攻击，未触发则下次触发概率提升至100%；自身体力低于对手时，攻击附加对手最大体力1/3的固定伤害（ BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3484,
+          "url": "https://api.seerapi.com/v1/pet/3484"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1080,
+          "url": "https://api.seerapi.com/v1/eid_effect/1080"
+        }
+      },
+      "effect_alias": "1080_50_3_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ac801e7b"
+}

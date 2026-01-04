@@ -1,0 +1,47 @@
+{
+  "data": {
+    "893": {
+      "id": 893,
+      "desc": "攻击技能造成的伤害高于400则80%令对手瘫痪，若自身体力低于对手则伤害判定改为300；受到的攻击伤害低于300则下回合对手受到的伤害提升80%，若自身体力低于对手则伤害判定改为400（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能造成的伤害高于400则80%<color=#64F9FA>令对手瘫痪</color>，若自身体力低于对手则伤害判定改为300；\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到的攻击伤害低于300则下回合对手受到的<b>攻击伤害</b><color=#64F9FA>提升</color>80%，若自身体力低于对手则伤害判定改为400",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3597,
+          "url": "https://api.seerapi.com/v1/pet/3597"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          400,
+          80,
+          300,
+          300,
+          80,
+          400,
+          1
+        ],
+        "effect": {
+          "id": 1179,
+          "url": "https://api.seerapi.com/v1/eid_effect/1179"
+        }
+      },
+      "effect_alias": "1179_400_80_300_300_80_400_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e8d88edd"
+}

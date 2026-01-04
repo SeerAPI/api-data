@@ -1,0 +1,41 @@
+{
+  "data": {
+    "97": {
+      "id": 97,
+      "desc": "对手处于异常状态时则自身速度+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2660,
+          "url": "https://api.seerapi.com/v1/pet/2660"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          1,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 320,
+          "url": "https://api.seerapi.com/v1/eid_effect/320"
+        }
+      },
+      "effect_alias": "320_2_1_1_4_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ff92581d"
+}

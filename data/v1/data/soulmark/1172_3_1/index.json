@@ -1,0 +1,46 @@
+{
+  "data": {
+    "888": {
+      "id": 888,
+      "desc": "受到攻击伤害则反转对手能力提升状态；战斗阶段结束时若对手处于能力下降状态则消除对手回合类效果，若对手不处于处于能力下降状态则附加对手最大体力1/3的固定伤害（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3587,
+          "url": "https://api.seerapi.com/v1/pet/3587"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1172,
+          "url": "https://api.seerapi.com/v1/eid_effect/1172"
+        }
+      },
+      "effect_alias": "1172_3_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "fd95f3a0"
+}

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1389": {
+      "id": 1389,
+      "desc": "自身能力提升状态被消除或吸取则100%令对手石化，未触发则消除对手回合类效果且为自身附加一个等同于自身最大体力值1/3的护盾；|自身使用攻击技能附加自身能力提升等级总段数x25的固定伤害，自身处于护盾状态时转变为自身能力提升等级总段数x30的固定伤害且50%令对手石化，未触发石化则令自身全属性+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身能力提升状态被消除或吸取则100%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>且为自身<color=#64F9FA>附加</color>一个等同于自身最大体力值1/3的<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能<color=#64F9FA>附加</color>自身能力提升等级总段数*25的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>自身处于护盾状态时转变为自身能力提升等级总段数*30的固定伤害且50%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发石化则令自身<color=#64F9FA>全属性+1</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4163,
+          "url": "https://api.seerapi.com/v1/pet/4163"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          3,
+          25,
+          30,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1753,
+          "url": "https://api.seerapi.com/v1/eid_effect/1753"
+        }
+      },
+      "effect_alias": "1753_100_3_25_30_50_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1690,
+        "url": "https://api.seerapi.com/v1/soulmark/1690"
+      },
+      "from": null
+    }
+  },
+  "hash": "f75b07e3"
+}

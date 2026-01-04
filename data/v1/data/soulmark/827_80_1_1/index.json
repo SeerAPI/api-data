@@ -1,0 +1,43 @@
+{
+  "data": {
+    "536": {
+      "id": 536,
+      "desc": "若对手处于烧伤或冻伤状态，则攻击技能命中时使其80%概率被冰封；若对手不处于异常状态，则属性技能命中时消除对手回合类效果（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3212,
+          "url": "https://api.seerapi.com/v1/pet/3212"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          80,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 827,
+          "url": "https://api.seerapi.com/v1/eid_effect/827"
+        }
+      },
+      "effect_alias": "827_80_1_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bf6376c"
+}

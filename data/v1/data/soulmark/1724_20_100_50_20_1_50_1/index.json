@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1361": {
+      "id": 1361,
+      "desc": "自身所有攻击命中后均有20%的概率使当回合造成的伤害提升100%，未触发则附加自身攻击值50%的固定伤害且下次攻击命中后触发概率提升20%；|当回合攻击击败对手则免疫下1次受到的攻击伤害，同时令自身本场战斗中触发伤害提升时造成的伤害额外提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后20%使当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>自身攻击值50%的<b>百分比伤害</b>且下次触发概率提升20%\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身攻击击败对手则：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>下1次受到的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>令自身本场战斗中触发上述伤害提升时额度额外提升50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4134,
+          "url": "https://api.seerapi.com/v1/pet/4134"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          100,
+          50,
+          20,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1724,
+          "url": "https://api.seerapi.com/v1/eid_effect/1724"
+        }
+      },
+      "effect_alias": "1724_20_100_50_20_1_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b39a0e51"
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "251": {
+      "id": 251,
+      "desc": "攻击时有10%的概率烧伤对手  组合加成已激活",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2163,
+          "url": "https://api.seerapi.com/v1/pet/2163"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          10,
+          2
+        ],
+        "effect": {
+          "id": 116,
+          "url": "https://api.seerapi.com/v1/eid_effect/116"
+        }
+      },
+      "effect_alias": "116_10_2",
+      "tag": [],
+      "intensified_to": {
+        "id": 252,
+        "url": "https://api.seerapi.com/v1/soulmark/252"
+      },
+      "from": {
+        "id": 250,
+        "url": "https://api.seerapi.com/v1/soulmark/250"
+      }
+    }
+  },
+  "hash": "43a99e76"
+}

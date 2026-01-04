@@ -1,0 +1,38 @@
+{
+  "data": {
+    "559": {
+      "id": 559,
+      "desc": "每次登场时若自身体力大于1/2则使对手所有技能PP值减少2点",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3236,
+          "url": "https://api.seerapi.com/v1/pet/3236"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2
+        ],
+        "effect": {
+          "id": 848,
+          "url": "https://api.seerapi.com/v1/eid_effect/848"
+        }
+      },
+      "effect_alias": "848_2_2",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2a3c4fd0"
+}

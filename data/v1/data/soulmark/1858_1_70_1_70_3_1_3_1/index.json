@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1496": {
+      "id": 1496,
+      "desc": "自身当回合使用攻击技能则对手下回合使用攻击技能先制-1且70%的概率进入睡眠，自身当回合使用属性技能则对手下回合使用属性技能先制-1且70%的概率进入疲惫，未触发前述异常状态则战斗阶段结束时附加对手最大体力1/3的固定伤害且令对手随机1项属性-3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则对手下回合使用攻击技能<b>先制</b>-1且70%睡眠\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则对手下回合使用属性技能<b>先制</b>-1且70%疲惫\r\n<indent=16><sprite=3><indent=32>若上述效果中的异常状态未触发，则战斗阶段结束时对手<color=#64F9FA>受到</color>最大体力1/3的<b>百分比伤害</b>且随机1项属性-3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4272,
+          "url": "https://api.seerapi.com/v1/pet/4272"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          70,
+          1,
+          70,
+          3,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1858,
+          "url": "https://api.seerapi.com/v1/eid_effect/1858"
+        }
+      },
+      "effect_alias": "1858_1_70_1_70_3_1_3_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a2b35a1e"
+}

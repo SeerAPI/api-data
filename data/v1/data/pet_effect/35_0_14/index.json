@@ -1,0 +1,26 @@
+{
+  "data": {
+    "2084": {
+      "id": 2084,
+      "name": "反击",
+      "desc": "受到任何攻击时有14%几率使自身攻击提升1个等级",
+      "effect": {
+        "effect_args": [
+          0,
+          14
+        ],
+        "effect": {
+          "id": 35,
+          "url": "https://api.seerapi.com/v1/eid_effect/35"
+        }
+      },
+      "effect_alias": "35_0_14",
+      "star_level": 5,
+      "effect_group": {
+        "id": 32,
+        "url": "https://api.seerapi.com/v1/pet_effect_group/32"
+      }
+    }
+  },
+  "hash": "59fe7888"
+}

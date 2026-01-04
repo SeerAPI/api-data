@@ -1,0 +1,38 @@
+{
+  "data": {
+    "151": {
+      "id": 151,
+      "desc": "若对手先出手则立即减少1/3HP（boss无效）；若自己先出手则造成的伤害提升20%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2777,
+          "url": "https://api.seerapi.com/v1/pet/2777"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          20
+        ],
+        "effect": {
+          "id": 369,
+          "url": "https://api.seerapi.com/v1/eid_effect/369"
+        }
+      },
+      "effect_alias": "369_3_20",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "62703f6c"
+}

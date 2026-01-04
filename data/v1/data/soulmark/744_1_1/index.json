@@ -1,0 +1,33 @@
+{
+  "data": {
+    "420": {
+      "id": 420,
+      "desc": "回合开始时自身处于异常状态时对手所有技能失效；首次出场首次死亡时残留1点体力（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3074,
+          "url": "https://api.seerapi.com/v1/pet/3074"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1
+        ],
+        "effect": {
+          "id": 744,
+          "url": "https://api.seerapi.com/v1/eid_effect/744"
+        }
+      },
+      "effect_alias": "744_1_1",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "87b08a88"
+}

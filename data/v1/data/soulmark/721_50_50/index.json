@@ -1,0 +1,46 @@
+{
+  "data": {
+    "400": {
+      "id": 400,
+      "desc": "回合开始时满体力时免疫异常状态,免疫能力下降,伤害提升50%;造成伤害的50%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3031,
+          "url": "https://api.seerapi.com/v1/pet/3031"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50
+        ],
+        "effect": {
+          "id": 721,
+          "url": "https://api.seerapi.com/v1/eid_effect/721"
+        }
+      },
+      "effect_alias": "721_50_50",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4f9e8eef"
+}

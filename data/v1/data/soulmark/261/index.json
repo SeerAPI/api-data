@@ -1,89 +1,65 @@
 {
-  "id": 261,
-  "desc": "创世六神兵合体特效，六项能力值全部+5",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 1948,
-      "url": "https://api.seerapi.com/v1/pet/1948"
+  "data": {
+    "6": {
+      "id": 6,
+      "desc": "每回合恢复1/10最大体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2430,
+          "url": "https://api.seerapi.com/v1/pet/2430"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 261,
+          "url": "https://api.seerapi.com/v1/eid_effect/261"
+        }
+      },
+      "effect_alias": "261",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     },
-    {
-      "id": 1949,
-      "url": "https://api.seerapi.com/v1/pet/1949"
-    },
-    {
-      "id": 2052,
-      "url": "https://api.seerapi.com/v1/pet/2052"
-    },
-    {
-      "id": 2053,
-      "url": "https://api.seerapi.com/v1/pet/2053"
-    },
-    {
-      "id": 2012,
-      "url": "https://api.seerapi.com/v1/pet/2012"
-    },
-    {
-      "id": 2013,
-      "url": "https://api.seerapi.com/v1/pet/2013"
-    },
-    {
-      "id": 2034,
-      "url": "https://api.seerapi.com/v1/pet/2034"
-    },
-    {
-      "id": 2035,
-      "url": "https://api.seerapi.com/v1/pet/2035"
-    },
-    {
-      "id": 2052,
-      "url": "https://api.seerapi.com/v1/pet/2052"
-    },
-    {
-      "id": 2053,
-      "url": "https://api.seerapi.com/v1/pet/2053"
-    },
-    {
-      "id": 2099,
-      "url": "https://api.seerapi.com/v1/pet/2099"
-    },
-    {
-      "id": 2100,
-      "url": "https://api.seerapi.com/v1/pet/2100"
-    },
-    {
-      "id": 2125,
-      "url": "https://api.seerapi.com/v1/pet/2125"
-    },
-    {
-      "id": 2126,
-      "url": "https://api.seerapi.com/v1/pet/2126"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      5,
-      5,
-      5,
-      5,
-      5,
-      5
-    ],
-    "effect": {
-      "id": 137,
-      "url": "https://api.seerapi.com/v1/eid_effect/137"
+    "7": {
+      "id": 7,
+      "desc": "每回合恢复1/10最大体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2431,
+          "url": "https://api.seerapi.com/v1/pet/2431"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 261,
+          "url": "https://api.seerapi.com/v1/eid_effect/261"
+        }
+      },
+      "effect_alias": "261",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "e0eb660e"
+  "hash": "4bf3dead"
 }

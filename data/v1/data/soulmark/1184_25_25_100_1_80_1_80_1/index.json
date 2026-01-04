@@ -1,0 +1,52 @@
+{
+  "data": {
+    "898": {
+      "id": 898,
+      "desc": "自身使用攻击技能时伤害提升25%，每次使用增加25%，最高100%；战斗阶段结束时若自身体力高于对手则下1回合免疫并反弹异常状态，战斗阶段结束时若自己体力低于对手则80%令对手害怕，未触发则下1回合攻击80%令对手焚烬（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时本次在场造成的<b>攻击伤害</b><color=#64F9FA>提升</color>25%，最高提升100%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则下1回合<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自己体力低于对手则80%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下1回合攻击80%<color=#64F9FA>令对手焚烬</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3605,
+          "url": "https://api.seerapi.com/v1/pet/3605"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          25,
+          100,
+          1,
+          80,
+          1,
+          80,
+          1
+        ],
+        "effect": {
+          "id": 1184,
+          "url": "https://api.seerapi.com/v1/eid_effect/1184"
+        }
+      },
+      "effect_alias": "1184_25_25_100_1_80_1_80_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "299d79b8"
+}

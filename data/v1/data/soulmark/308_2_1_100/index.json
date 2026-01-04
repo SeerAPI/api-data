@@ -1,0 +1,39 @@
+{
+  "data": {
+    "162": {
+      "id": 162,
+      "desc": "若对手中毒则攻击技能威力翻倍",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2798,
+          "url": "https://api.seerapi.com/v1/pet/2798"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          100
+        ],
+        "effect": {
+          "id": 308,
+          "url": "https://api.seerapi.com/v1/eid_effect/308"
+        }
+      },
+      "effect_alias": "308_2_1_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e5b7640e"
+}

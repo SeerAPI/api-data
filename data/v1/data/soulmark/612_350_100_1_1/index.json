@@ -1,0 +1,47 @@
+{
+  "data": {
+    "195": {
+      "id": 195,
+      "desc": "受到的伤害大于350，则恢复自身所有体力（boss无效）;每回合双防+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2856,
+          "url": "https://api.seerapi.com/v1/pet/2856"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          350,
+          100,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 612,
+          "url": "https://api.seerapi.com/v1/eid_effect/612"
+        }
+      },
+      "effect_alias": "612_350_100_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": {
+        "id": 439,
+        "url": "https://api.seerapi.com/v1/soulmark/439"
+      },
+      "from": null
+    }
+  },
+  "hash": "c1449732"
+}

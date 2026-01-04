@@ -1,0 +1,35 @@
+{
+  "data": {
+    "152": {
+      "id": 152,
+      "desc": "每次使用攻击技能都有50%概率减少对手1/3当前体力(boss无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2784,
+          "url": "https://api.seerapi.com/v1/pet/2784"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          33,
+          1
+        ],
+        "effect": {
+          "id": 371,
+          "url": "https://api.seerapi.com/v1/eid_effect/371"
+        }
+      },
+      "effect_alias": "371_1_50_33_1",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e4461bd3"
+}

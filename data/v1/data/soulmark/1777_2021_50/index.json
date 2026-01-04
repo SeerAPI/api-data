@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1407": {
+      "id": 1407,
+      "desc": "若自身基础能力值值总和（攻击值+防御值+特攻值+特防值+速度值+体力值）≥2021则使用攻击技能50%威力翻倍（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>若自身攻击值、防御值、特攻值、特防值、速度值、体力值的总和≥2021则使用攻击技能50%<b>威力</b>翻倍",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4183,
+          "url": "https://api.seerapi.com/v1/pet/4183"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2021,
+          50
+        ],
+        "effect": {
+          "id": 1777,
+          "url": "https://api.seerapi.com/v1/eid_effect/1777"
+        }
+      },
+      "effect_alias": "1777_2021_50",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c4f6ec3a"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "539": {
+      "id": 539,
+      "desc": "受到致死攻击伤害时，若伤害不超过300则自身重生并使对手烧伤；回合开始时若对手处于烧伤状态，则战斗阶段结束时随机恢复200-400点体力并附加等量固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3218,
+          "url": "https://api.seerapi.com/v1/pet/3218"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          200,
+          400,
+          1
+        ],
+        "effect": {
+          "id": 841,
+          "url": "https://api.seerapi.com/v1/eid_effect/841"
+        }
+      },
+      "effect_alias": "841_300_200_400_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "73713ca1"
+}

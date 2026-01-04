@@ -1,0 +1,38 @@
+{
+  "data": {
+    "627": {
+      "id": 627,
+      "desc": "双方每处于一种能力提升状态则自身攻击附加60点固定伤害；战斗阶段结束时若自身处于能力下降状态则解除自身能力下降（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3303,
+          "url": "https://api.seerapi.com/v1/pet/3303"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          1
+        ],
+        "effect": {
+          "id": 911,
+          "url": "https://api.seerapi.com/v1/eid_effect/911"
+        }
+      },
+      "effect_alias": "911_60_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "53360646"
+}

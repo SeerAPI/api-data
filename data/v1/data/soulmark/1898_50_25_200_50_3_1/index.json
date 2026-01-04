@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1534": {
+      "id": 1534,
+      "desc": "自身每回合有50%概率闪避对手攻击技能，若回合开始时自身体力低于对手则闪避概率额外提升25%；|战斗阶段结束时，若自身当前体力与当回合开始时体力值差大于200则50%令对手害怕，未触发则附加对手最大体力1/3的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身50%概率<color=#64F9FA>闪避</color>对手攻击技能\r\n<indent=32><sprite=4><indent=48>若回合开始时自身体力低于对手则上述概率提升25%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身当前体力与当回合开始时体力值差大于200则50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4312,
+          "url": "https://api.seerapi.com/v1/pet/4312"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          25,
+          200,
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1898,
+          "url": "https://api.seerapi.com/v1/eid_effect/1898"
+        }
+      },
+      "effect_alias": "1898_50_25_200_50_3_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ac20cd3"
+}

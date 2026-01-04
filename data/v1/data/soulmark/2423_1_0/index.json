@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1998": {
+      "id": 1998,
+      "desc": "对手为雄性精灵时自身受到的攻击伤害减少30%并在受到攻击伤害后令对手混乱|自身使用攻击技能时，若对手处于混乱状态则令对手随机2个技能PP值归0，若对手不处于混乱状态则吸取对手最大体力的25%且当回合免疫受到的异常状态|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手为雄性精灵时自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>30%并在受到攻击伤害后<color=#64F9FA>令对手混乱</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若对手处于混乱状态则令对手随机2个技能<b>PP值</b><color=#64F9FA>归0</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于混乱状态则<color=#64F9FA>吸取</color>对手最大体力的25%且当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4807,
+          "url": "https://api.seerapi.com/v1/pet/4807"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2423,
+          "url": "https://api.seerapi.com/v1/eid_effect/2423"
+        }
+      },
+      "effect_alias": "2423_1_0",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6b5373ac"
+}

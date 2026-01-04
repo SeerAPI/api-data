@@ -1,39 +1,43 @@
 {
-  "id": 134,
-  "desc": "当回合若自身处于烧伤状态，则自身造成的伤害提升50%;|当回合若对手处于烧伤状态，则当回合结束后自身恢复1/3最大HP",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2739,
-      "url": "https://api.seerapi.com/v1/pet/2739"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      2,
-      50,
-      2,
-      3
-    ],
-    "effect": {
-      "id": 355,
-      "url": "https://api.seerapi.com/v1/eid_effect/355"
+  "data": {
+    "231": {
+      "id": 231,
+      "desc": "草系技能威力提升5%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 809,
+          "url": "https://api.seerapi.com/v1/pet/809"
+        },
+        {
+          "id": 810,
+          "url": "https://api.seerapi.com/v1/pet/810"
+        },
+        {
+          "id": 811,
+          "url": "https://api.seerapi.com/v1/pet/811"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 134,
+          "url": "https://api.seerapi.com/v1/eid_effect/134"
+        }
+      },
+      "effect_alias": "134",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 2,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
-    },
-    {
-      "id": 6,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "a8946018"
+  "hash": "77a739fe"
 }

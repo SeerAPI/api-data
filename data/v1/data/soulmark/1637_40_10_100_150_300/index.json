@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1297": {
+      "id": 1297,
+      "desc": "自身所有攻击技能40%打出致命一击，未触发则下回合攻击打出致命一击的概率提升10%（最高100%），打出致命一击则随机附加150-300点固定伤害且恢复自身等量体力值（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身所有攻击技能40%<color=#64F9FA>打出致命一击</color>，未触发则下回合概率提升10%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身打出致命一击则随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b>且<color=#64F9FA>恢复</color>自身等量<b>体力</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4047,
+          "url": "https://api.seerapi.com/v1/pet/4047"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          10,
+          100,
+          150,
+          300
+        ],
+        "effect": {
+          "id": 1637,
+          "url": "https://api.seerapi.com/v1/eid_effect/1637"
+        }
+      },
+      "effect_alias": "1637_40_10_100_150_300",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5806e1f8"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1934": {
+      "id": 1934,
+      "desc": "自身使用技能时，若此技能的类型本次登场未使用过则消除对手回合类效果并70%令对手诅咒|回合开始时，若对手处于异常状态，自身所有技能恢复1点PP值且当回合造成的攻击伤害提升70%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能时，若此技能的类型本次登场未使用过则<color=#64F9FA>消除</color>对手<b>回合类效果</b>并70%<color=#64F9FA>令对手诅咒</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于异常状态则自身所有技能<color=#64F9FA>恢复</color>1点<b>PP值</b>且当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>70% \r\n",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4735,
+          "url": "https://api.seerapi.com/v1/pet/4735"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          70,
+          1,
+          70,
+          1
+        ],
+        "effect": {
+          "id": 2351,
+          "url": "https://api.seerapi.com/v1/eid_effect/2351"
+        }
+      },
+      "effect_alias": "2351_70_1_70_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9b43c74c"
+}

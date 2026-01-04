@@ -1,0 +1,26 @@
+{
+  "data": {
+    "1059": {
+      "id": 1059,
+      "name": "吸收",
+      "desc": "受到攻击时5%几率使受到的伤害降低35点",
+      "effect": {
+        "effect_args": [
+          5,
+          35
+        ],
+        "effect": {
+          "id": 60,
+          "url": "https://api.seerapi.com/v1/eid_effect/60"
+        }
+      },
+      "effect_alias": "60_5_35",
+      "star_level": 0,
+      "effect_group": {
+        "id": 37,
+        "url": "https://api.seerapi.com/v1/pet_effect_group/37"
+      }
+    }
+  },
+  "hash": "583478c7"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "680": {
+      "id": 680,
+      "desc": "战斗阶段结束时，若自身体力低于250则消除对手回合类效果并使对手下2次技能无效（每场战斗只能触发1次）；自身使用攻击技能时附加双方当前体力差的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3362,
+          "url": "https://api.seerapi.com/v1/pet/3362"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          250,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 964,
+          "url": "https://api.seerapi.com/v1/eid_effect/964"
+        }
+      },
+      "effect_alias": "964_250_2_1_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bdfc08ad"
+}

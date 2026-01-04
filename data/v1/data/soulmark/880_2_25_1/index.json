@@ -1,0 +1,43 @@
+{
+  "data": {
+    "594": {
+      "id": 594,
+      "desc": "先出手时自身特攻+2；后出手时附加对手最大体力25%的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3266,
+          "url": "https://api.seerapi.com/v1/pet/3266"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          25,
+          1
+        ],
+        "effect": {
+          "id": 880,
+          "url": "https://api.seerapi.com/v1/eid_effect/880"
+        }
+      },
+      "effect_alias": "880_2_25_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7f7ba4b"
+}

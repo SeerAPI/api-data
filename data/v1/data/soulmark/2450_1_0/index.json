@@ -1,0 +1,45 @@
+{
+  "data": {
+    "2031": {
+      "id": 2031,
+      "desc": "每回合开始时为自身附加350点护盾；战斗阶段结束时，若自身存在护盾则下回合攻击技能必定打出致命一击且吸取对手最大体力的1/3，造成的攻击伤害为0时额外令对手焚烬，若自身不存在护盾则100%令对手焚烬且下回合开始时附加的护盾改为450点（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时为自身<color=#64F9FA>附加</color>350点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身存在护盾则下回合攻击技能必定<color=#64F9FA>打出致命一击</color>且攻击后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><sprite=4><indent=64>若造成的攻击伤害为0则额外<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>若自身不存在护盾则100%<color=#64F9FA>令对手焚烬</color>且上述回合开始效果在下回合改为<color=#64F9FA>附加</color>450点<b>护盾</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3915,
+          "url": "https://api.seerapi.com/v1/pet/3915"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2450,
+          "url": "https://api.seerapi.com/v1/eid_effect/2450"
+        }
+      },
+      "effect_alias": "2450_1_0",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1238,
+        "url": "https://api.seerapi.com/v1/soulmark/1238"
+      }
+    }
+  },
+  "hash": "b815853e"
+}

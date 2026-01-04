@@ -1,0 +1,38 @@
+{
+  "data": {
+    "78": {
+      "id": 78,
+      "desc": "对手处于能力下降 附加100点伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2605,
+          "url": "https://api.seerapi.com/v1/pet/2605"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100
+        ],
+        "effect": {
+          "id": 303,
+          "url": "https://api.seerapi.com/v1/eid_effect/303"
+        }
+      },
+      "effect_alias": "303_2_100",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "51be9d2d"
+}

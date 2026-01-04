@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1143": {
+      "id": 1143,
+      "desc": "自身不处于能力提升状态时使用技能不消耗PP值；使用攻击技能打出致命一击则随机恢复自身150-300点体力，使用属性技能则自身下回合攻击50%打出致命一击（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身不处于能力提升状态时<color=#64F9FA>释放技能不消耗PP值</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能若打出致命一击则随机<color=#64F9FA>恢复</color>自身150-300点<b>体力</b>\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则自身下回合攻击50%<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3873,
+          "url": "https://api.seerapi.com/v1/pet/3873"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          300,
+          50
+        ],
+        "effect": {
+          "id": 1461,
+          "url": "https://api.seerapi.com/v1/eid_effect/1461"
+        }
+      },
+      "effect_alias": "1461_150_300_50",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5a8b30c4"
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "984": {
+      "id": 984,
+      "desc": "先出手时附加自身速度值50%的固定伤害，后出手时下回合所有技能先制+2；自身使用技能则随机获得以下效果其中的1种：令对手全属性-1、令自身全属性+1、60%令对手害怕、为自身附加300点护盾、100%打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>附加</color>自身速度值50%的<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>后出手时下回合所有技能<b>先制</b>+2\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能则随机获得以下效果其中的1种：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>令对手全属性-1</color>\r\n<indent=32><sprite=4><indent=48>令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>60%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>100%<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3705,
+          "url": "https://api.seerapi.com/v1/pet/3705"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1,
+          1,
+          60,
+          300,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1284,
+          "url": "https://api.seerapi.com/v1/eid_effect/1284"
+        }
+      },
+      "effect_alias": "1284_50_2_1_1_60_300_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": {
+        "id": 1781,
+        "url": "https://api.seerapi.com/v1/soulmark/1781"
+      },
+      "from": null
+    }
+  },
+  "hash": "8ff2c366"
+}

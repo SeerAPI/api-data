@@ -1,0 +1,47 @@
+{
+  "data": {
+    "313": {
+      "id": 313,
+      "desc": "每回合若自身后出手则100%使对手所有PP降低2点，并恢复自身已损失体力的1/2(boss无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2817,
+          "url": "https://api.seerapi.com/v1/pet/2817"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 643,
+          "url": "https://api.seerapi.com/v1/eid_effect/643"
+        }
+      },
+      "effect_alias": "643_100_2_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 168,
+        "url": "https://api.seerapi.com/v1/soulmark/168"
+      }
+    }
+  },
+  "hash": "5b68059c"
+}

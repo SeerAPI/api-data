@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1773": {
+      "id": 1773,
+      "desc": "自身连续使用同一技能时造成的攻击伤害提升30%，每次触发增加30%，最高叠加至150%，每叠加1次，自身下次使用不同的技能后吸取对手250点体力与所有技能1点PP值|自身选择的技能类型与对手相同时先制+1，不为相同时不消耗技能PP值（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身连续使用同一技能时本次在场自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>30%，每次触发增加30%，最高150%\r\n<indent=32><sprite=4><indent=48>自身使用与上回合不同的技能后此伤害提升重置，每重置30%<color=#64F9FA>吸取</color>对手250点<b>体力</b>与所有技能1点<b>PP</b>\r\n<indent=16><sprite=3><indent=32>自身选择的技能类型与对手相同时<b>先制</b>+1，不为相同时不消耗技能PP值",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4562,
+          "url": "https://api.seerapi.com/v1/pet/4562"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          30,
+          150,
+          30,
+          250,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2166,
+          "url": "https://api.seerapi.com/v1/eid_effect/2166"
+        }
+      },
+      "effect_alias": "2166_30_30_150_30_250_1_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4ad07236"
+}

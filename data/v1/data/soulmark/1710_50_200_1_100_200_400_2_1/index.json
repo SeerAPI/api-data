@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1352": {
+      "id": 1352,
+      "desc": "自身所有攻击造成伤害的50%恢复自身体力，若恢复的体力值低于200则下1次攻击造成伤害的100%恢复自身体力；|当回合受到攻击则战斗阶段结束时恢复200点体力（每次恢复值增加100点，最高400点），若体力低于最大体力的1/2则附加等量固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身所有攻击造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若恢复的体力值低于200则下1次攻击改为造成的攻击伤害100%额外恢复至自身体力\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击则战斗阶段结束时<color=#64F9FA>恢复</color>200点<b>体力</b>，每次恢复值增加100点，最高400点\r\n<indent=32><sprite=4><indent=48>若体力低于最大体力的1/2则<color=#64F9FA>附加</color>等量<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4120,
+          "url": "https://api.seerapi.com/v1/pet/4120"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          200,
+          1,
+          100,
+          200,
+          400,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1710,
+          "url": "https://api.seerapi.com/v1/eid_effect/1710"
+        }
+      },
+      "effect_alias": "1710_50_200_1_100_200_400_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a1a8894e"
+}

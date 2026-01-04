@@ -1,0 +1,47 @@
+{
+  "data": {
+    "562": {
+      "id": 562,
+      "desc": "回合开始时若自身体力低于对手则属性技能恢复自身最大体力的1/3；对手处于能力提升状态时自身技能先制+1且攻击技能消除对手回合类效果（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3238,
+          "url": "https://api.seerapi.com/v1/pet/3238"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 852,
+          "url": "https://api.seerapi.com/v1/eid_effect/852"
+        }
+      },
+      "effect_alias": "852_3_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f45418"
+}

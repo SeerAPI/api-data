@@ -1,0 +1,48 @@
+{
+  "data": {
+    "871": {
+      "id": 871,
+      "desc": "回合开始时若自身体力低于对手则令对手全属性-1；自身使用攻击技能时若对手处于能力下降状态则造成的伤害提升100%，若对手不处于能力下降状态则战斗阶段结束时{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则<color=#64F9FA>令对手全属性-1</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则造成的伤害<color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若对手不处于能力下降状态则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3567,
+          "url": "https://api.seerapi.com/v1/pet/3567"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1154,
+          "url": "https://api.seerapi.com/v1/eid_effect/1154"
+        }
+      },
+      "effect_alias": "1154_1_100_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1959d4c3"
+}

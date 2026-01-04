@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1349": {
+      "id": 1349,
+      "desc": "自身受到的攻击伤害超过最大体力的25%则100%令对手陷入易燃状态且战斗阶段结束时令自身防御+1、特防+1；|当回合攻击击败对手则恢自身最大体力25%的体力值，未击败对手则附加自身最大体力25%的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害超过最大体力的25%则100%<color=#64F9FA>令对手易燃</color>且战斗阶段结束时令自身防御+1、特防+1\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身攻击击败对手时<color=#64F9FA>恢复</color>自身最大体力25%的<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>未击败效果：\r\n<indent=16><sprite=3><indent=32>自身攻击未击败对手时<color=#64F9FA>附加</color>自身最大体力25%的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4117,
+          "url": "https://api.seerapi.com/v1/pet/4117"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          100,
+          1,
+          1,
+          25,
+          25,
+          1
+        ],
+        "effect": {
+          "id": 1707,
+          "url": "https://api.seerapi.com/v1/eid_effect/1707"
+        }
+      },
+      "effect_alias": "1707_25_100_1_1_25_25_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ddfc16a0"
+}

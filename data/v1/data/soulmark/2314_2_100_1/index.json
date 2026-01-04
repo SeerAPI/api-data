@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1912": {
+      "id": 1912,
+      "desc": "回合开始时，若自身体力低于1/2则当回合所有技能使用时100%令对手麻痹，未触发则与对手交换体力百分比，自身击败对手时，若对手处于麻痹状态，则令对手下场后所有的异常状态转移给下只出战精灵（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力低于1/2则当回合所有技能使用时100%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则与对手交换体力百分比\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时，若对手处于麻痹状态，则令对手下场后所有的<b>异常状态</b>转移给下只出战精灵",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4709,
+          "url": "https://api.seerapi.com/v1/pet/4709"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2314,
+          "url": "https://api.seerapi.com/v1/eid_effect/2314"
+        }
+      },
+      "effect_alias": "2314_2_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "486b7210"
+}

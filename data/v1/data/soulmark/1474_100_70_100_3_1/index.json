@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1961": {
+      "id": 1961,
+      "desc": "回合开始时若对手处于异常状态则当回合自身造成的伤害提升100%；自身使用攻击时有70%几率令对手焚烬，未触发则自身下回合攻击必定致命一击；自身受到攻击时有100%几率令对手烧伤，未触发则战斗阶段结束时附加自身最大体力的1/3的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于异常状态则当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击时70%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身下回合攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身受到攻击时100%<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>附加</color>自身最大体力的1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3887,
+          "url": "https://api.seerapi.com/v1/pet/3887"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          70,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1474,
+          "url": "https://api.seerapi.com/v1/eid_effect/1474"
+        }
+      },
+      "effect_alias": "1474_100_70_100_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1156,
+        "url": "https://api.seerapi.com/v1/soulmark/1156"
+      }
+    }
+  },
+  "hash": "b7e210e4"
+}

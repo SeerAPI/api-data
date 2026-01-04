@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1082": {
+      "id": 1082,
+      "desc": "自身所有技能先出手时100%使对手当回合技能失效，每触发1次则概率下降25%，每下降25%则自身在整场战斗中造成的攻击伤害提升25%，概率降低为0%的当回合使对手随机2项技能PP值归零；|回合开始时若自身不处于能力提升状态则当回合所有技能先制+1，若自身处于能力提升状态则当回合攻击造成的伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身所有技能先出手时100%使对手当回合<b>技能</b><color=#64F9FA>无效</color>，每触发1次则概率下降25%\r\n<indent=32><sprite=4><indent=48>概率每下降25%则自身本场战斗造成的<b>攻击伤害</b><color=#64F9FA>提升</color>25%\r\n<indent=32><sprite=4><indent=48>概率降低为0%的当回合使对手随机2项技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3807,
+          "url": "https://api.seerapi.com/v1/pet/3807"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          25,
+          25,
+          2,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1390,
+          "url": "https://api.seerapi.com/v1/eid_effect/1390"
+        }
+      },
+      "effect_alias": "1390_100_25_25_2_1_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "78b9a805"
+}

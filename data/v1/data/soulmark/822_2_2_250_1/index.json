@@ -1,0 +1,48 @@
+{
+  "data": {
+    "520": {
+      "id": 520,
+      "desc": "回合开始时，若自身体力大于1/2，则当回合免疫异常状态且令对手下回合先制-2；回合开始时若自身处于能力提升状态，则回合结束后{吸取}对手250{体力}（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3196,
+          "url": "https://api.seerapi.com/v1/pet/3196"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 822,
+          "url": "https://api.seerapi.com/v1/eid_effect/822"
+        }
+      },
+      "effect_alias": "822_2_2_250_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4c0d443a"
+}

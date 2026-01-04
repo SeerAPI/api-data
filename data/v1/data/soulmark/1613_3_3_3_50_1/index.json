@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1277": {
+      "id": 1277,
+      "desc": "自身使用属性技能后下回合使用攻击技能附加自身当前体力1/3的固定伤害，自身使用攻击技能后下回合使用属性技能{吸取}对手已损失{体力}的1/3；自身体力低于最大体力的1/3时，50%闪避对手攻击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能后下回合使用<b>攻击技能</b><color=#64F9FA>附加</color>自身当前体力1/3的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后下回合使用<b>属性技能</b><color=#64F9FA>吸取</color>对手已损失体力的1/3\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身体力低于最大体力的1/3时，50%<color=#64F9FA>闪避</color>对手<b>攻击</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4019,
+          "url": "https://api.seerapi.com/v1/pet/4019"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          3,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1613,
+          "url": "https://api.seerapi.com/v1/eid_effect/1613"
+        }
+      },
+      "effect_alias": "1613_3_3_3_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1ceb3337"
+}

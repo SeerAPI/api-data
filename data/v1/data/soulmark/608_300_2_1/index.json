@@ -1,0 +1,42 @@
+{
+  "data": {
+    "441": {
+      "id": 441,
+      "desc": "伙伴效果 :免疫低于300的攻击伤害；反弹1/2受到的伤害给对手(boss无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2851,
+          "url": "https://api.seerapi.com/v1/pet/2851"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 608,
+          "url": "https://api.seerapi.com/v1/eid_effect/608"
+        }
+      },
+      "effect_alias": "608_300_2_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/soulmark/191"
+      }
+    }
+  },
+  "hash": "f8962aa5"
+}

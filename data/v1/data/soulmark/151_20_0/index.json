@@ -1,0 +1,44 @@
+{
+  "data": {
+    "248": {
+      "id": 248,
+      "desc": "攻击时有2%的概率秒杀对手  组合加成已激活",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2132,
+          "url": "https://api.seerapi.com/v1/pet/2132"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          0
+        ],
+        "effect": {
+          "id": 151,
+          "url": "https://api.seerapi.com/v1/eid_effect/151"
+        }
+      },
+      "effect_alias": "151_20_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": {
+        "id": 249,
+        "url": "https://api.seerapi.com/v1/soulmark/249"
+      },
+      "from": {
+        "id": 247,
+        "url": "https://api.seerapi.com/v1/soulmark/247"
+      }
+    }
+  },
+  "hash": "9a0e61d7"
+}

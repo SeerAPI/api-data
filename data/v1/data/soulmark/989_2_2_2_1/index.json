@@ -1,0 +1,44 @@
+{
+  "data": {
+    "707": {
+      "id": 707,
+      "desc": "自身死亡时使己方下只出战精灵下2次技能先制+2且造成的攻击伤害翻倍，使对手下2回合技能先制-2且造成的攻击伤害减少50%（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3389,
+          "url": "https://api.seerapi.com/v1/pet/3389"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 989,
+          "url": "https://api.seerapi.com/v1/eid_effect/989"
+        }
+      },
+      "effect_alias": "989_2_2_2_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c5ce9ce"
+}

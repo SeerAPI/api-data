@@ -84,6 +84,19 @@
           ],
           "description": "魂印效果"
         },
+        "effect_alias": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "效果别名，命名规则为：[效果名称]_[参数1]_[参数2]_…",
+          "title": "Effect Alias"
+        },
         "tag": {
           "description": "魂印标签，例如强攻，断回合等",
           "items": {

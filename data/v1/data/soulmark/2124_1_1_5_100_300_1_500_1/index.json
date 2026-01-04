@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1729": {
+      "id": 1729,
+      "desc": "回合开始时降低双方所有技能1点PP值，之后双方当前每损失1点技能PP值则为自身附加5点护盾和护罩；|战斗阶段结束时若对手处于烧伤状态则下回合自身造成的攻击伤害提升100%，若对手处于流血状态则下回合自身使用攻击技能后附加给对手300点固定伤害，若对手不处于上述两种异常状态则对手直至下回合结束无法通过自身技能恢复体力（该效果为回合类效果）且防御、特防、速度+1|（护盾、护罩值上限为500，所有特效boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>降低</color>双方所有技能1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>然后双方当前每损失1点技能PP值则<color=#64F9FA>获得</color>5点<b>护盾</b>和<b>护罩</b>，上限均为500\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则下回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若对手处于流血状态则下回合自身使用攻击技能后<color=#64F9FA>附加</color>给对手300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于上述两种异常状态则：\r\n<indent=32><sprite=4><sprite=4><indent=64>令对手防御、特防、速度+1\r\n<indent=32><sprite=4><sprite=4><indent=64>对手2回合内以回合类效果形式<color=#64F9FA>无法通过自身技能恢复体力</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4517,
+          "url": "https://api.seerapi.com/v1/pet/4517"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          5,
+          100,
+          300,
+          1,
+          500,
+          1
+        ],
+        "effect": {
+          "id": 2124,
+          "url": "https://api.seerapi.com/v1/eid_effect/2124"
+        }
+      },
+      "effect_alias": "2124_1_1_5_100_300_1_500_1",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bdbe525d"
+}

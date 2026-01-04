@@ -1,0 +1,38 @@
+{
+  "data": {
+    "468": {
+      "id": 468,
+      "desc": "若被对手击败则清除对手强化状态且两回合内对手攻击伤害减半",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>对手<color=#64F9FA>能力提升</color>状态\r\n<indent=32><sprite=4><indent=48>对手2回合内造成的<b>攻击伤害</b><color=#64F9FA>减半</color>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3118,
+          "url": "https://api.seerapi.com/v1/pet/3118"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          0
+        ],
+        "effect": {
+          "id": 777,
+          "url": "https://api.seerapi.com/v1/eid_effect/777"
+        }
+      },
+      "effect_alias": "777_2_0",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "16375d3d"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "616": {
+      "id": 616,
+      "desc": "回合开始时若自身体力低于对手，则当回合对手攻击100%miss；回合开始时若自身体力高于对手，则攻击技能有60%的概率降低对手最大体力的1/3",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3290,
+          "url": "https://api.seerapi.com/v1/pet/3290"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          60,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 900,
+          "url": "https://api.seerapi.com/v1/eid_effect/900"
+        }
+      },
+      "effect_alias": "900_100_60_3_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "35605dc2"
+}

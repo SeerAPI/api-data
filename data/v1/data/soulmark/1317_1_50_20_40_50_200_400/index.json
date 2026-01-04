@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1016": {
+      "id": 1016,
+      "desc": "回合开始时若自身处于异常状态，则当回合自身死亡时残留1点体力并立即解除自身异常状态（boss无效）；|回合开始时，若自身体力高于对手则当回合自身造成的攻击伤害提升50%且使用技能时随机附加对手已损失体力20%-40%的百分比伤害，若自身体力低于对手则当回合自身受到的攻击伤害减少50%且战斗阶段结束时随机恢复自身200-400点体力（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于异常状态，则当回合受到致死攻击时<color=#64F9FA>保留</color>1点<b>体力</b>并<color=#64F9FA>解除</color>自身所处的<b>异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%且随机<color=#64F9FA>附加</color>自身已损失体力20%-40%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且战斗阶段结束时随机<color=#64F9FA>恢复</color>自身200-400点<b>体力</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3741,
+          "url": "https://api.seerapi.com/v1/pet/3741"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          20,
+          40,
+          50,
+          200,
+          400
+        ],
+        "effect": {
+          "id": 1317,
+          "url": "https://api.seerapi.com/v1/eid_effect/1317"
+        }
+      },
+      "effect_alias": "1317_1_50_20_40_50_200_400",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2df5a22f"
+}

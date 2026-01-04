@@ -1,0 +1,47 @@
+{
+  "data": {
+    "384": {
+      "id": 384,
+      "desc": "每次使用攻击技能有50%概率使对手烧伤,有30%概率使对手麻痹（boss无效）;若对手处于异常状态则威力翻倍",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3012,
+          "url": "https://api.seerapi.com/v1/pet/3012"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          2,
+          30,
+          0,
+          1,
+          2
+        ],
+        "effect": {
+          "id": 709,
+          "url": "https://api.seerapi.com/v1/eid_effect/709"
+        }
+      },
+      "effect_alias": "709_1_50_2_30_0_1_2",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "611cd558"
+}

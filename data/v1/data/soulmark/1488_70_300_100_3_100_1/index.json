@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1166": {
+      "id": 1166,
+      "desc": "自身每回合有70%的概率闪避对手的攻击技能，若当回合受到的攻击伤害超过300则100%令对手害怕；回合开始时，若前3个回合中对手使用的攻击技能均未命中，则当回合自身攻击100%秒杀对手，若对手被击败或触发秒杀则重置该回合数（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身70%<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>\r\n<indent=16><sprite=3><indent=32>自身受到超过300的攻击伤害时100%<color=#64F9FA>令对手害怕</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若前3个回合中对手使用的所有攻击技能均被无效，则：\r\n<indent=32><sprite=4><indent=48>当回合自身<b>攻击技能</b>100%<color=#64F9FA>秒杀</color>对手\r\n<indent=32><sprite=4><indent=48>重置该效果所记录的回合",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3897,
+          "url": "https://api.seerapi.com/v1/pet/3897"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          70,
+          300,
+          100,
+          3,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1488,
+          "url": "https://api.seerapi.com/v1/eid_effect/1488"
+        }
+      },
+      "effect_alias": "1488_70_300_100_3_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c9a1e494"
+}

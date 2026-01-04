@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1532": {
+      "id": 1532,
+      "desc": "自身使用攻击技能时若未满体力则本次造成攻击伤害的50%恢复自身体力，若体力低于最大体力的1/2则附加等量固定伤害；|回合开始时，若自身处于能力下降状态则当回合攻击必定打出致命一击且战斗阶段结束时反转自身能力下降状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时若未满体力则本次造成攻击伤害的50%<color=#64F9FA>恢复</color>自身体力\r\n<indent=32><sprite=4><indent=48>若体力低于最大体力的1/2则<color=#64F9FA>附加</color>等量<b>固定伤害\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身处于能力下降状态则当回合攻击必定<color=#64F9FA>打出致命一击</color>且战斗阶段结束时<color=#64F9FA>反转</color>自身<b>能力下降状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4310,
+          "url": "https://api.seerapi.com/v1/pet/4310"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1895,
+          "url": "https://api.seerapi.com/v1/eid_effect/1895"
+        }
+      },
+      "effect_alias": "1895_50_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1513a10f"
+}

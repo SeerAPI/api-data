@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1893": {
+      "id": 1893,
+      "desc": "自身攻击技能命中后1回合内对手造成的攻击伤害减少50%，可叠加|回合结束后，若本回合对手未造成攻击伤害，自身恢复最大体力的1/3且1回合内造成的攻击伤害提升100%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后1回合内对手造成的<b>攻击伤害<color=#64F9FA></b>减少</color>50%，可叠加\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，若本回合对手未造成攻击伤害，自身<color=#64F9FA>恢复</color>最大体力的1/3且1回合内造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4691,
+          "url": "https://api.seerapi.com/v1/pet/4691"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2293,
+          "url": "https://api.seerapi.com/v1/eid_effect/2293"
+        }
+      },
+      "effect_alias": "2293_50_3_100_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8f636e9a"
+}

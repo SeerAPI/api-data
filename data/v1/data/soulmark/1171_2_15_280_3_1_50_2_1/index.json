@@ -1,0 +1,52 @@
+{
+  "data": {
+    "879": {
+      "id": 879,
+      "desc": "出场时进入战之狂热形态:自身受到的攻击克制倍数最高为2倍，伤害抗性减免额外提高15%，免疫所有异常状态；（boss无效）|对手使用攻击技能时，若自身受到的攻击伤害低于280则自身随机3项属性+1且使对手随机1项技能PP值归零，自身受到的攻击伤害高于280则对手随机3项属性-1且下回合自身受到的攻击伤害减少50%；（boss无效）|自身死亡时100%的概率得到1次圣战祝福：恢复自身最大体力的1/2并造成等量百分比伤害，同时消除对手能力提升状态和回合类效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时开启战之狂热形态：\r\n<indent=32><sprite=4><indent=48>受到的<b>攻击克制系数</b>最高为2倍\r\n<indent=32><sprite=4><indent=48><b>伤害抗性减免</b><color=#64F9FA>提高</color>15%\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有异常状态\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害低于280则自身随机3项属性+1且使对手随机1项技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于280则对手随机3项属性-1且下回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身受到致命伤害时触发<color=#FFF779>圣战祝福</color>且1回合内每次受到致命伤害时<color=#64F9FA>保留</color>最大体力1/2的<b>体力</b>\r\n\r\n<indent=0><sprite=5><indent=15>圣战祝福：\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>附加</color>自身最大体力1/2的<b>百分比伤害</b>\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>消除</color>对手<b>能力提升状态</b>和<b>回合类效果</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3586,
+          "url": "https://api.seerapi.com/v1/pet/3586"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          15,
+          280,
+          3,
+          1,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1171,
+          "url": "https://api.seerapi.com/v1/eid_effect/1171"
+        }
+      },
+      "effect_alias": "1171_2_15_280_3_1_50_2_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "317a764"
+}

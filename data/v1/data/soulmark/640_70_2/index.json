@@ -1,0 +1,42 @@
+{
+  "data": {
+    "316": {
+      "id": 316,
+      "desc": "若对手处于能力提升状态受到伤害减少70%;首次上场两回合免疫异常状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2900,
+          "url": "https://api.seerapi.com/v1/pet/2900"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          70,
+          2
+        ],
+        "effect": {
+          "id": 640,
+          "url": "https://api.seerapi.com/v1/eid_effect/640"
+        }
+      },
+      "effect_alias": "640_70_2",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "fd8a1689"
+}

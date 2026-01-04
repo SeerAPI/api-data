@@ -1,0 +1,50 @@
+{
+  "data": {
+    "347": {
+      "id": 347,
+      "desc": "每次受到攻击则自身双防+1,且战斗阶段结束时恢复自身1/5HP(BOSS有效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2947,
+          "url": "https://api.seerapi.com/v1/pet/2947"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          1,
+          3,
+          1,
+          5
+        ],
+        "effect": {
+          "id": 672,
+          "url": "https://api.seerapi.com/v1/eid_effect/672"
+        }
+      },
+      "effect_alias": "672_1_1_1_3_1_5",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b64ccb4b"
+}

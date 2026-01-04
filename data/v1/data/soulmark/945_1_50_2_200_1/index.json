@@ -1,0 +1,49 @@
+{
+  "data": {
+    "661": {
+      "id": 661,
+      "desc": "首次登场时当回合所有技能先制+1；每次攻击都有50%的概率令对手防御-2，未触发则附加200点固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3342,
+          "url": "https://api.seerapi.com/v1/pet/3342"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          2,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 945,
+          "url": "https://api.seerapi.com/v1/eid_effect/945"
+        }
+      },
+      "effect_alias": "945_1_50_2_200_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "98062406"
+}

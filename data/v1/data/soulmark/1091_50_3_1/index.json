@@ -1,0 +1,47 @@
+{
+  "data": {
+    "810": {
+      "id": 810,
+      "desc": "攻击有50%概率打出致命一击（BOSS有效）；若攻击打出致命一击则恢复自身最大体力的1/3并造成等量固定伤害，未打出致命一击则消除对手回合类效果（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3497,
+          "url": "https://api.seerapi.com/v1/pet/3497"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1091,
+          "url": "https://api.seerapi.com/v1/eid_effect/1091"
+        }
+      },
+      "effect_alias": "1091_50_3_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1a3e8dc1"
+}

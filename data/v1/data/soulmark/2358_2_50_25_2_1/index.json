@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1944": {
+      "id": 1944,
+      "desc": "双方任意一方使用技能时若对手处于回合类效果，则对手2回合内受到的攻击伤害提升50%且造成的攻击伤害减少25%|对手的回合类效果被消除时，2回合内技能无法附加异常状态|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>双方任意一方使用技能时若对手处于回合类效果，则对手2回合内受到的<b>攻击伤害</b><color=#64F9FA>提升</color>50%且造成的<b>攻击伤害</b><color=#64F9FA>减少</color>25%\r\n<indent=16><sprite=3><indent=32>对手的回合类效果被消除时，对手2回合内技能<color=#64F9FA>无法附加</color><b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4741,
+          "url": "https://api.seerapi.com/v1/pet/4741"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          50,
+          25,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2358,
+          "url": "https://api.seerapi.com/v1/eid_effect/2358"
+        }
+      },
+      "effect_alias": "2358_2_50_25_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c9f8c73d"
+}

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "720": {
+      "id": 720,
+      "desc": "自身先出手时50%附加200点固定伤害，自身后出手时50%下1次受到的伤害减少200点攻击伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3405,
+          "url": "https://api.seerapi.com/v1/pet/3405"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          200,
+          50,
+          1,
+          200
+        ],
+        "effect": {
+          "id": 1002,
+          "url": "https://api.seerapi.com/v1/eid_effect/1002"
+        }
+      },
+      "effect_alias": "1002_50_200_50_1_200",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d35a8964"
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "658": {
+      "id": 658,
+      "desc": "每次攻击50%概率令对手烧伤；回合开始时若对手处于烧伤状态则使自身速度+1命中+1，对手速度-1命中-1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3335,
+          "url": "https://api.seerapi.com/v1/pet/3335"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 939,
+          "url": "https://api.seerapi.com/v1/eid_effect/939"
+        }
+      },
+      "effect_alias": "939_50_1_1_1_1_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b95217c4"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "942": {
+      "id": 942,
+      "desc": "使敌我双方受到的攻击伤害提升150%；自身受到致命伤害时反弹给对手造成伤害值2倍的固定伤害（boss无效，双方同时死亡则对手残留1点血）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>使敌我双方受到的<b>攻击伤害</b><color=#64F9FA>提升</color>150%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到致命伤害时<color=#64F9FA>反弹</color>给对手造成伤害值2倍的<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3655,
+          "url": "https://api.seerapi.com/v1/pet/3655"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1230,
+          "url": "https://api.seerapi.com/v1/eid_effect/1230"
+        }
+      },
+      "effect_alias": "1230_150_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c1314412"
+}

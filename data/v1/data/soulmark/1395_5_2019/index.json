@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1087": {
+      "id": 1087,
+      "desc": "自身所有攻击技能5%的概率附加2019点固定伤害（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能5%<color=#64F9FA>附加</color>2019点<b>固定伤害</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3812,
+          "url": "https://api.seerapi.com/v1/pet/3812"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          2019
+        ],
+        "effect": {
+          "id": 1395,
+          "url": "https://api.seerapi.com/v1/eid_effect/1395"
+        }
+      },
+      "effect_alias": "1395_5_2019",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4a522526"
+}

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1216": {
+      "id": 1216,
+      "desc": "在战斗中增加自身60点体力值、60点攻击值、20点速度值；回合开始时若对手处于冻伤状态则自身攻击50%的概率打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在战斗中增加自身60点体力值、60点攻击值、20点速度值\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手处于冻伤状态则自身攻击50%<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3952,
+          "url": "https://api.seerapi.com/v1/pet/3952"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          60,
+          20,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1550,
+          "url": "https://api.seerapi.com/v1/eid_effect/1550"
+        }
+      },
+      "effect_alias": "1550_60_60_20_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c839e8f7"
+}

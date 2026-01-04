@@ -1,0 +1,47 @@
+{
+  "data": {
+    "850": {
+      "id": 850,
+      "desc": "回合开始时若对手处于能力提升状态则反转对手能力提升状态，反转失败则消除对手能力提升状态，回合开始时若对手不处于能力提升状态则自身攻击技能附加200点固定伤害；对手处于能力下降状态时，自身所有技能先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3547,
+          "url": "https://api.seerapi.com/v1/pet/3547"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1135,
+          "url": "https://api.seerapi.com/v1/eid_effect/1135"
+        }
+      },
+      "effect_alias": "1135_200_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cdc3f12d"
+}

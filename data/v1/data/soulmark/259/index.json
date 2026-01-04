@@ -1,34 +1,35 @@
 {
-  "id": 259,
-  "desc": "上场第一回合免疫并反弹所有异常状态(每场战斗只能触发一次)",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2166,
-      "url": "https://api.seerapi.com/v1/pet/2166"
-    },
-    {
-      "id": 2167,
-      "url": "https://api.seerapi.com/v1/pet/2167"
-    }
-  ],
-  "effect": {
-    "effect_args": null,
-    "effect": {
-      "id": 418,
-      "url": "https://api.seerapi.com/v1/eid_effect/418"
+  "data": {
+    "5": {
+      "id": 5,
+      "desc": "每次攻击都附加对手当前体力值10%的固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2428,
+          "url": "https://api.seerapi.com/v1/pet/2428"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 259,
+          "url": "https://api.seerapi.com/v1/eid_effect/259"
+        }
+      },
+      "effect_alias": "259",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 8,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/8"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "5298490a"
+  "hash": "1a761c07"
 }

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1303": {
+      "id": 1303,
+      "desc": "当回合自身先出手且攻击命中后50%令对手麻痹，后出手且攻击命中后100%令对手烧伤；回合开始时，对手处于异常状态则自身攻击命中后附加对手最大体力1/3的固定伤害，对手不处于异常状态则自身攻击命中后消除对手回合类效果（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手则攻击命中后50%<color=#64F9FA>令对手麻痹</color>\r\n<indent=16><sprite=3><indent=32>自身后出手则攻击命中后100%<color=#64F9FA>令对手烧伤</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则自身攻击命中后<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则自身攻击命中后<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4055,
+          "url": "https://api.seerapi.com/v1/pet/4055"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1644,
+          "url": "https://api.seerapi.com/v1/eid_effect/1644"
+        }
+      },
+      "effect_alias": "1644_50_100_3_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bdb619f1"
+}

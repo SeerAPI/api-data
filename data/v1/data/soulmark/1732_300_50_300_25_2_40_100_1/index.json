@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1371": {
+      "id": 1371,
+      "desc": "自身造成的攻击伤害低于300则50%令对手害怕，未触发则附加300点固定伤害；|回合开始时，若自身体力低于对手则当回合对手使用的攻击技能威力降低25%，自身体力低于1/2时当回合对手使用的攻击技能威力降低40%并在战斗阶段结束时附加对手当回合造成攻击伤害值100%的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于300则50%<color=#64F9FA>令对手害怕</color>\r\n未触发则<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合对手使用的攻击技能<b>威力</b><color=#64F9FA>降低</color>25%\r\n<indent=32><sprite=4><indent=48>若自身体力低于1/2时当回合对手使用的攻击技能<b>威力</b><color=#64F9FA>降低</color>40%并在战斗阶段结束时<color=#64F9FA>附加</color>对手当回合造成攻击伤害值100%的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4141,
+          "url": "https://api.seerapi.com/v1/pet/4141"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          50,
+          300,
+          25,
+          2,
+          40,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1732,
+          "url": "https://api.seerapi.com/v1/eid_effect/1732"
+        }
+      },
+      "effect_alias": "1732_300_50_300_25_2_40_100_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b556ff6c"
+}

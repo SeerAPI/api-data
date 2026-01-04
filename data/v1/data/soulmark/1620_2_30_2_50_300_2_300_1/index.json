@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1284": {
+      "id": 1284,
+      "desc": "回合开始时，若自身高于最大体力的1/2则当回合受到的攻击伤害减少30%，若自身低于最大体力的1/2则当回合受到的攻击伤害转变为减少50%；自身受到的攻击伤害高于300则令对手随机2个技能PP值归零且战斗阶段结束时附加300点固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身高于最大体力的1/2则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>30%\r\n<indent=32><sprite=4><indent=48>若自身低于最大体力的1/2则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则令对手随机2个技能<b>PP值</b><color=#64F9FA>归零</color>且战斗阶段结束时<color=#64F9FA>附加</color>300点<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4027,
+          "url": "https://api.seerapi.com/v1/pet/4027"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          30,
+          2,
+          50,
+          300,
+          2,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1620,
+          "url": "https://api.seerapi.com/v1/eid_effect/1620"
+        }
+      },
+      "effect_alias": "1620_2_30_2_50_300_2_300_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "aa079698"
+}

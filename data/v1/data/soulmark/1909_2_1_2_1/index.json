@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1550": {
+      "id": 1550,
+      "desc": "当回合自身受到攻击且战斗阶段结束时自身体力低于最大体力的1/2则下回合自身所有技能额外先制+1，当回合自身未受到攻击且战斗阶段结束时自身体力高于最大体力的1/2则令对手下回合属性技能失效（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：：\r\n<indent=16><sprite=3><indent=32>当回合自身受到攻击且战斗阶段结束时自身体力低于最大体力的1/2则下回合自身所有技能额外<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>当回合自身未受到攻击且战斗阶段结束时自身体力高于最大体力的1/2则令对手下回合<b>属性技能</b><color=#64F9FA>失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4324,
+          "url": "https://api.seerapi.com/v1/pet/4324"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1909,
+          "url": "https://api.seerapi.com/v1/eid_effect/1909"
+        }
+      },
+      "effect_alias": "1909_2_1_2_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5c20a2"
+}

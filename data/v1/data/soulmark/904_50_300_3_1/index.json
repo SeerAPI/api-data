@@ -1,0 +1,44 @@
+{
+  "data": {
+    "621": {
+      "id": 621,
+      "desc": "将对手的攻击伤害50%反馈给对手（双方同时死亡时对手残留1点体力）；若自身受到的伤害不足300则恢复自身最大体力1/3并造成等量固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3292,
+          "url": "https://api.seerapi.com/v1/pet/3292"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 904,
+          "url": "https://api.seerapi.com/v1/eid_effect/904"
+        }
+      },
+      "effect_alias": "904_50_300_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "53711337"
+}

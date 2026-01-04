@@ -1,0 +1,46 @@
+{
+  "data": {
+    "484": {
+      "id": 484,
+      "desc": "每回合开始和结束时吸取对手能力提升状态；回合开始时对手所有回合类效果的回合数变为1回合；|回合开始时若自身体力高于对手则战斗阶段结束时自身攻击+2，回合开始时若自身体力低于对手，则当回合自身回合类效果无法被消除（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3142,
+          "url": "https://api.seerapi.com/v1/pet/3142"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 791,
+          "url": "https://api.seerapi.com/v1/eid_effect/791"
+        }
+      },
+      "effect_alias": "791_1_2_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": {
+        "id": 527,
+        "url": "https://api.seerapi.com/v1/soulmark/527"
+      },
+      "from": null
+    }
+  },
+  "hash": "837751b2"
+}

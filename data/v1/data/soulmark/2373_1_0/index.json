@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1957": {
+      "id": 1957,
+      "desc": "回合开始时，令对手与自身速度-1，其余能力等级+1，然后若自身拥有的能力总级数高于对手则当回合受到的攻击伤害减少50%且当回合对手属性技能无效，若自身拥有的能力总级数低于对手则令对手所有能力等级下降等同于自身速度能力的等级，未触发则令对手麻痹、睡眠|战斗阶段结束时，若自身所有能力等级之和为36，则本场战斗上述效果将取消触发条件，若对手所有能力等级之和为36，则本场战斗自身失去专属特性（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，令对手与自身速度-1，其余能力等级+1，然后：\r\n<indent=32><sprite=4><indent=48>若自身拥有的能力总级数高于对手则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且当回合对手<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>若自身拥有的能力总级数低于对手则令对手所有能力等级下降等同于自身速度能力的等级\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>令对手麻痹、睡眠</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身所有能力等级之和为36，则本场战斗上述效果将取消触发条件\r\n<indent=32><sprite=4><indent=48>若对手所有能力等级之和为36，则本场战斗自身失去专属特性",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4753,
+          "url": "https://api.seerapi.com/v1/pet/4753"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2373,
+          "url": "https://api.seerapi.com/v1/eid_effect/2373"
+        }
+      },
+      "effect_alias": "2373_1_0",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e5b17b2c"
+}

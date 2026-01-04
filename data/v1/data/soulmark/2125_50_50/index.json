@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1731": {
+      "id": 1731,
+      "desc": "在战斗中自身攻击技能无视对手戒备效果；自身使用攻击技能则造成伤害的50%恢复自身体力，若自身为对手天敌则额外附加造成伤害值50%的百分比伤害（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在战斗中自身攻击技能<color=#64F9FA>无视</color>对手的<b>戒备</b>效果\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若自身为对手天敌则额外<color=#64F9FA>附加</color>造成伤害值50%的<b>百分比伤害</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4518,
+          "url": "https://api.seerapi.com/v1/pet/4518"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50
+        ],
+        "effect": {
+          "id": 2125,
+          "url": "https://api.seerapi.com/v1/eid_effect/2125"
+        }
+      },
+      "effect_alias": "2125_50_50",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "427a90a7"
+}

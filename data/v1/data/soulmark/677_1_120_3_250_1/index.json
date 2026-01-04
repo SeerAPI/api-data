@@ -1,0 +1,49 @@
+{
+  "data": {
+    "350": {
+      "id": 350,
+      "desc": "攻击特攻等于较高的一项;|使用物理攻击追加120点固定伤害,|使用特殊攻击恢复250点固定HP;(固定伤害对BOSS无效,回血对BOSS有效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2958,
+          "url": "https://api.seerapi.com/v1/pet/2958"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          120,
+          3,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 677,
+          "url": "https://api.seerapi.com/v1/eid_effect/677"
+        }
+      },
+      "effect_alias": "677_1_120_3_250_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "533e4cf"
+}

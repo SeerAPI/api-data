@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1211": {
+      "id": 1211,
+      "desc": "对手连续使用相同的技能时所消耗的PP值为2倍；自身上场后每2战斗阶段结束时{吸取}对手最大{体力}的1/3，触发效果后若自身体力高于对手则额外使自身防御+1、特防+1，若自身体力低于对手则额外使自身防御+2、特防+2（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手连续使用相同的技能时所消耗的PP值为2倍\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>自身登场后每逢第2回合的战斗阶段结束时都<color=#64F9FA>吸取</color>对手最大体力的1/3，然后：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则额外使自身防御+1、特防+1\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则额外使自身防御+2、特防+2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3947,
+          "url": "https://api.seerapi.com/v1/pet/3947"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          3,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1545,
+          "url": "https://api.seerapi.com/v1/eid_effect/1545"
+        }
+      },
+      "effect_alias": "1545_2_2_3_1_1_2_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9003284"
+}

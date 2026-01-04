@@ -1,0 +1,43 @@
+{
+  "data": {
+    "367": {
+      "id": 367,
+      "desc": "自己出手时,若体力高于对手,则所有攻击技能威力翻倍;|自己出手时,若体力低于对手,则所有技能吸收对手1/4最大HP（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2993,
+          "url": "https://api.seerapi.com/v1/pet/2993"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 696,
+          "url": "https://api.seerapi.com/v1/eid_effect/696"
+        }
+      },
+      "effect_alias": "696_2_4_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "71e9a606"
+}

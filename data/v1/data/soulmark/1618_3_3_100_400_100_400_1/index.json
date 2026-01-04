@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1539": {
+      "id": 1539,
+      "desc": "自身所有技能先出手时{吸取}对手最大{体力}的1/3，后出手时恢复自身最大体力的1/3并造成等量百分比伤害；|自身受到攻击伤害后利用大地将其转换为自身的力量:战斗阶段结束时为自身附加所受攻击伤害值100%的等量护盾（最高400点），下回合自身使用攻击技能时附加所受攻击伤害值100%的百分比伤害（最高400点）（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=16><sprite=3><indent=32>自身后出手时<color=#64F9FA>恢复</color>自身最大体力的1/3并造成等量<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身受到攻击伤害后利用大地将其转换为自身的力量：\r\n<indent=32><sprite=4><indent=48>当回合战斗阶段结束时<color=#64F9FA>获得</color>等同于该伤害量100%的<b>护盾</b>，最高400点\r\n<indent=32><sprite=4><indent=48>下回合自身攻击技能<color=#64F9FA>附加</color>等同于该伤害量100%的<b>固定伤害</b>，最高400点",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4024,
+          "url": "https://api.seerapi.com/v1/pet/4024"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          100,
+          400,
+          100,
+          400,
+          1
+        ],
+        "effect": {
+          "id": 1618,
+          "url": "https://api.seerapi.com/v1/eid_effect/1618"
+        }
+      },
+      "effect_alias": "1618_3_3_100_400_100_400_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1282,
+        "url": "https://api.seerapi.com/v1/soulmark/1282"
+      }
+    }
+  },
+  "hash": "a5c7fcc1"
+}

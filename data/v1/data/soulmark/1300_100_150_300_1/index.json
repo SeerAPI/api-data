@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1002": {
+      "id": 1002,
+      "desc": "自身先出手时，令对手当回合攻击技能必定MISS；使用攻击技能则有100%的概率令对手随机进入烧伤、冻伤、疲惫、害怕中的一种异常状态，未触发则随机附加150-300点固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时，令对手当回合攻击技能<color=#64F9FA>必定MISS</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能则有100%随机<color=#64F9FA>附加</color>烧伤、冻伤、疲惫、害怕中的1种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>未触发则随机<color=#64F9FA>附加</color>150-300点<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3725,
+          "url": "https://api.seerapi.com/v1/pet/3725"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          150,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1300,
+          "url": "https://api.seerapi.com/v1/eid_effect/1300"
+        }
+      },
+      "effect_alias": "1300_100_150_300_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5ed6d742"
+}

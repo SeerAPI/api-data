@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1293": {
+      "id": 1293,
+      "desc": "自身首次登场受到的伤害高于200则下回合50%令对手攻击技能无效，未触发战斗阶段结束时附加对手最大体力1/3的固定伤害，之后每次登场首回合受到的伤害判断值转变为300；自身攻击命中后附加已损失体力值100%的固定伤害，回合开始时若自身体力低于最大体力的1/2则当回合攻击技能先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身首次登场受到的伤害高于200则下回合50%令对手<b>攻击技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>未触发战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>之后每次登场判断阈值改为300\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能自身攻击命中后<color=#64F9FA>附加</color>已损失体力值100%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于最大体力的1/2则当回合攻击技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4038,
+          "url": "https://api.seerapi.com/v1/pet/4038"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          50,
+          3,
+          300,
+          100,
+          2,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1631,
+          "url": "https://api.seerapi.com/v1/eid_effect/1631"
+        }
+      },
+      "effect_alias": "1631_200_50_3_300_100_2_1_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "47929528"
+}

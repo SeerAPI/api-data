@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1973": {
+      "id": 1973,
+      "desc": "战斗开始时，对方每有1个拥有瞬杀特性的精灵自身获得1层魔王咒怨；自身位于出战背包时，对方的秒杀效果改为使自身获得1层魔王咒怨|对手使用技能时，若自身为满体力则消除对手回合类效果与能力提升状态，若自身不为满体力则获得等同于已损失体力值50%的护盾、护罩且战斗阶段结束时自身恢复所拥有护盾、护罩之和的体力|自身击败对手时自身所有能力值提升35点并获得2层魔王咒怨；自身被击败时，令对手的体力上限减少35%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>战斗开始时，对方每有1个拥有瞬杀特性的精灵自身获得1层<color=#FFF779>魔王咒怨</color>\r\n<indent=16><sprite=3><indent=32>自身位于出战背包时，对方的秒杀效果改为使自身获得1层魔王咒怨\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能时：\r\n<indent=32><sprite=4><indent=48>若自身为满体力则<color=#64F9FA>消除</color>对手<b>回合类效果</b>与<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若自身不为满体力则<color=#64F9FA>获得</color>等同于已损失体力值50%的<b>护盾、护罩</b>且战斗阶段结束时自身<color=#64F9FA>恢复</color>所拥有护盾、护罩之和的<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时自身所有能力值提升35点并获得2层魔王咒怨\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，令对手的<b>体力上限</b><color=#64F9FA>减少</color>35%\r\n\r\n<indent=0><sprite=5><indent=15>魔王咒怨（下场保留）：\r\n<indent=16><sprite=6><indent=32>自身触发秒杀时，额外选择对方所有体力与原本秒杀目标相等的精灵为目标\r\n<indent=16><sprite=6><indent=32>达到10层时，自身<color=#64F9FA>免疫</color>受到的<b>控制类异常状态</b>\r\n<indent=16><sprite=6><indent=32>每有1层，自身：\r\n<indent=32><sprite=4><indent=48>受到的<b>攻击伤害</b><color=#64F9FA>减少</color>5%\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>5%\r\n<indent=32><sprite=4><indent=48>攻击有3%的概率造成的伤害不低于对手的最大体力值",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4762,
+          "url": "https://api.seerapi.com/v1/pet/4762"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2378,
+          "url": "https://api.seerapi.com/v1/eid_effect/2378"
+        }
+      },
+      "effect_alias": "2378_1_0",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "eaf9b18b"
+}

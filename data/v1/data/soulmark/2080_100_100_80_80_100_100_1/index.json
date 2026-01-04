@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1695": {
+      "id": 1695,
+      "desc": "自身技能命中前100%令对手冻伤，若未触发冻伤且本次使用的技能为攻击技能则造成伤害前100%令对手害怕，未触发害怕则当次攻击造成的伤害提升80%；|战斗阶段结束时若自身处于冻伤状态则恢复己方所有存活精灵80点体力，若己方所有存活精灵均为满体力则100%令自身冰封；|战斗阶段结束时若对手不处于冻伤状态则下回合自身100%闪避对手的攻击|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身技能命中前100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=32><sprite=4><indent=48>若未触发冻伤且本次使用的技能为攻击技能则造成伤害前100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>若未触发害怕则当次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>80%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身处于冻伤状态则<color=#64F9FA>恢复</color>己方所有存活精灵80点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若己方所有存活精灵均为满体力则100%<color=#64F9FA>令自身冰封</color>\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若对手不处于冻伤状态则下回合自身100%<color=#64F9FA>闪避</color>对手的<b>攻击技能</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4483,
+          "url": "https://api.seerapi.com/v1/pet/4483"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          80,
+          80,
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2080,
+          "url": "https://api.seerapi.com/v1/eid_effect/2080"
+        }
+      },
+      "effect_alias": "2080_100_100_80_80_100_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2800d53f"
+}

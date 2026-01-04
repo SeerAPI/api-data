@@ -1,0 +1,52 @@
+{
+  "data": {
+    "790": {
+      "id": 790,
+      "desc": "自身体力高于1/2时所有技能先制+1且攻击技能造成的伤害提升50%，自身体力低于1/2时所用技能先制+2且当回合受到的攻击伤害减少50%（BOSS无效）；每次直接攻击都有25%概率使对手随机进入1种异常状态，未触发则自身攻击+1、速度+1；先出手时消除对手回合类效果",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3477,
+          "url": "https://api.seerapi.com/v1/pet/3477"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          50,
+          2,
+          25,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1074,
+          "url": "https://api.seerapi.com/v1/eid_effect/1074"
+        }
+      },
+      "effect_alias": "1074_2_1_50_2_25_1_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c8e36921"
+}

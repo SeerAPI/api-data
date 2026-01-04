@@ -1,0 +1,39 @@
+{
+  "data": {
+    "727": {
+      "id": 727,
+      "desc": "每次使用攻击技能50%令对手烧伤，未触发则50%令对手失明（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3413,
+          "url": "https://api.seerapi.com/v1/pet/3413"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1015,
+          "url": "https://api.seerapi.com/v1/eid_effect/1015"
+        }
+      },
+      "effect_alias": "1015_50_50_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "150a3d4c"
+}

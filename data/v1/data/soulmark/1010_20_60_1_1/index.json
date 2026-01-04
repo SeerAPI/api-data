@@ -1,0 +1,48 @@
+{
+  "data": {
+    "726": {
+      "id": 726,
+      "desc": "出场后每回合开始时自身造成的伤害增加20%，最高增加60%(下场保留)；自身攻击技能命中则对手下1次属性技能无效，自身属性技能命中则附加对手上次造成伤害数值一半的固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3411,
+          "url": "https://api.seerapi.com/v1/pet/3411"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          60,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1010,
+          "url": "https://api.seerapi.com/v1/eid_effect/1010"
+        }
+      },
+      "effect_alias": "1010_20_60_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6a640dbc"
+}

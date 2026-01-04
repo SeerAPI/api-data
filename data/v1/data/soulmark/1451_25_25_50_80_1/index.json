@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1134": {
+      "id": 1134,
+      "desc": "自身攻击造成的致命一击伤害提升25%，自身受到的致命一击伤害减少25%；回合开始时，若自身体力低于对手则当回合攻击无视对手特防能力提升状态且50%的概率打出致命一击，若自身体力高于对手则当回合受到攻击伤害则80%令对手冰封（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的<b>致命一击伤害</b><color=#64F9FA>提升</color>25%\r\n<indent=16><sprite=3><indent=32>自身受到的<b>致命一击伤害</b><color=#64F9FA>减少</color>25%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合攻击无视对手特防能力强化状态且50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合受到攻击伤害则80%<color=#64F9FA>令对手冰封</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3861,
+          "url": "https://api.seerapi.com/v1/pet/3861"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          25,
+          50,
+          80,
+          1
+        ],
+        "effect": {
+          "id": 1451,
+          "url": "https://api.seerapi.com/v1/eid_effect/1451"
+        }
+      },
+      "effect_alias": "1451_25_25_50_80_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "664ec18b"
+}

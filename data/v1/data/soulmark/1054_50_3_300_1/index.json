@@ -1,0 +1,48 @@
+{
+  "data": {
+    "771": {
+      "id": 771,
+      "desc": "自身攻击有50%概率使对手烧伤，未触发则消除对手回合类效果且下回合自身先制+3；造成的伤害高于300则使对手焚烬（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3462,
+          "url": "https://api.seerapi.com/v1/pet/3462"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          3,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1054,
+          "url": "https://api.seerapi.com/v1/eid_effect/1054"
+        }
+      },
+      "effect_alias": "1054_50_3_300_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "90a7d009"
+}

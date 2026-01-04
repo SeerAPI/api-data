@@ -1,0 +1,41 @@
+{
+  "data": {
+    "1922": {
+      "id": 1922,
+      "desc": "自身每使用1次攻击技能则本次战斗中造成的伤害提升40%，最高160%；战斗阶段结束时，若自身体力低于对手则下回合攻击必定打出致命一击|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身每使用1次攻击技能则本次战斗中造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%，最高160%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若自身体力低于对手则下回合攻击必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4719,
+          "url": "https://api.seerapi.com/v1/pet/4719"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          160,
+          0,
+          0,
+          1
+        ],
+        "effect": {
+          "id": 1310,
+          "url": "https://api.seerapi.com/v1/eid_effect/1310"
+        }
+      },
+      "effect_alias": "1310_40_160_0_0_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a85fd24c"
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1379": {
+      "id": 1379,
+      "desc": "每次登场后首次使用第五技能“花舞猩红雨”则下回合令自身触发玫瑰绽放卡牌效果，再次使用第五技能则下回合令对手触发玫瑰枯萎卡牌效果（之后使用循环上述效果，boss无效）|玫瑰绽放卡牌：造成的攻击伤害提升50%；造成的伤害高于300则100%令对手疲惫 |玫瑰枯萎卡牌：造成的攻击伤害减少50%；造成的伤害低于300则100%令对手睡眠",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场后：\r\n<indent=32><sprite=4><indent=48>奇数次使用的第五技能则令自身下回合触发<color=#FFF779>玫瑰绽放卡牌</color>\r\n<indent=32><sprite=4><indent=48>偶数次使用的第五技能则令对手下回合触发<color=#FFF779>玫瑰枯萎卡牌</color>\r\n\r\n<indent=0><sprite=5><indent=15>玫瑰绽放卡牌：\r\n<indent=16><sprite=6><indent=32>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=6><indent=32>造成的伤害高于300则100%<color=#64F9FA>令对手疲惫</color>\r\n\r\n<indent=0><sprite=5><indent=15>玫瑰枯萎卡牌：\r\n<indent=16><sprite=6><indent=32>造成的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=6><indent=32>造成的伤害低于300则100%<color=#64F9FA>令自身睡眠</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4152,
+          "url": "https://api.seerapi.com/v1/pet/4152"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300,
+          100,
+          50,
+          300,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1740,
+          "url": "https://api.seerapi.com/v1/eid_effect/1740"
+        }
+      },
+      "effect_alias": "1740_50_300_100_50_300_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9aa26d7d"
+}

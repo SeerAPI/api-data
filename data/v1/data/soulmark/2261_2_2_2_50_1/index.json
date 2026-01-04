@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1866": {
+      "id": 1866,
+      "desc": "若当回合自身攻击打出了致命一击，则下回合攻击必定打出致命一击且回合开始时解除所处的异常状态，若当回合对手攻击未打出致命一击，则下回合开始时令对手冻伤2回合，未触发则凝滞2回合|自身使用攻击技能时，若对手处于异常状态，则本次攻击不会造成攻击伤害并在使用后附加威力值2倍的真实伤害，若对手不处于异常状态则本次攻击造成的伤害提升50%，本次攻击微弱对手时效果翻倍|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身打出致命一击后，下回合必定<color=#64F9FA>打出致命一击</color>且回合开始<color=#64F9FA>解除</color>所处的<b>异常状态</b>\r\n<indent=16><sprite=3><indent=32>自身受到非致命一击后，则下回合开始时<color=#64F9FA>令对手冻伤</color>2回合\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>令对手凝滞</color>2回合\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态，则本次攻击不会造成攻击伤害并在使用后<color=#64F9FA>附加</color>威力值2倍的<b>真实伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于异常状态则本次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，自身微弱对手时效果翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4662,
+          "url": "https://api.seerapi.com/v1/pet/4662"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          2,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2261,
+          "url": "https://api.seerapi.com/v1/eid_effect/2261"
+        }
+      },
+      "effect_alias": "2261_2_2_2_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b0c20bed"
+}

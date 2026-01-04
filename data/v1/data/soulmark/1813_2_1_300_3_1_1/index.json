@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1443": {
+      "id": 1443,
+      "desc": "回合开始时若自身体力低于最大体力的1/2则令对手随机1个攻击技能PP值归零；|每回合开始时为自身附加一个300点的护盾，若战斗阶段结束时护盾消失则恢复自身最大体力的1/3并附加等量固定伤害，若战斗阶段结束时护盾存在则使对手全属性-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于最大体力的1/2则令对手随机1个攻击技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>回合开始时为自身<color=#64F9FA>附加</color>一个300点的<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>若战斗阶段结束时护盾消失则恢复自身最大体力的1/3并<color=#64F9FA>附加</color>等量<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若战斗阶段结束时护盾存在则使对手<color=#64F9FA>全属性-1</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4224,
+          "url": "https://api.seerapi.com/v1/pet/4224"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          300,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1813,
+          "url": "https://api.seerapi.com/v1/eid_effect/1813"
+        }
+      },
+      "effect_alias": "1813_2_1_300_3_1_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "9d3598b3"
+}

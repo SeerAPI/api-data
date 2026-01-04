@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1315": {
+      "id": 1315,
+      "desc": "当回合攻击未击败对手则100%令对手失明且附加对手最大体力1/3的固定伤害，当回合攻击击败对手则100%令对手下只登场精灵失神且随机2个技能PP值归零；|死亡后恢复己方所有不在场且存活精灵1点技能PP值，同时使己方下只精灵登场后获得幽冥之荷的庇护：首次攻击先制+1且造成的伤害提升100%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能的回合：\r\n<indent=32><sprite=4><indent=48>若未击败对手则100%<color=#64F9FA>令对手失明</color>且<color=#64F9FA>附加</color>对手最大体力的1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若击败对手则100%令对手下只登场精灵失神且随机2个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>恢复</color>己方所有不在场且存活精灵1点技能<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>使己方下只精灵登场后获得幽冥之荷的庇护：首次攻击<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4069,
+          "url": "https://api.seerapi.com/v1/pet/4069"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          3,
+          100,
+          2,
+          1,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1663,
+          "url": "https://api.seerapi.com/v1/eid_effect/1663"
+        }
+      },
+      "effect_alias": "1663_100_3_100_2_1_1_100_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": {
+        "id": 1562,
+        "url": "https://api.seerapi.com/v1/soulmark/1562"
+      },
+      "from": null
+    }
+  },
+  "hash": "bc4a80e0"
+}

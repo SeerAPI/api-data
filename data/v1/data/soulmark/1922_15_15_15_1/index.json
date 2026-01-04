@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1564": {
+      "id": 1564,
+      "desc": "自身造成伤害提升15%，受到的伤害减少15%，战斗阶段结束时恢复自身15%的最大体力，对手属性微弱自身或自身属性克制对手时效果翻倍；|回合开始时若自身不处于全能力提升状态则令自身全属性+1，若自身处于全能力提升状态则自身攻击无视对手能力提升状态（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害<color=#64F9FA>提升</color>15%、受到的攻击伤害<color=#64F9FA>减少</color>15%、战斗阶段结束时<color=#64F9FA>恢复</color>自身15%的最大体力\r\n<indent=32><sprite=4><indent=48>对手属性微弱自身或自身属性克制对手时上述所有效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身不处于全能力提升状态则令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>若自身处于全能力提升状态则自身<b>攻击技能</b><color=#64F9FA>无视</color>对手<b>能力提升状态</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4338,
+          "url": "https://api.seerapi.com/v1/pet/4338"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          15,
+          15,
+          1
+        ],
+        "effect": {
+          "id": 1922,
+          "url": "https://api.seerapi.com/v1/eid_effect/1922"
+        }
+      },
+      "effect_alias": "1922_15_15_15_1",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6546f72"
+}

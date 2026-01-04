@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1804": {
+      "id": 1804,
+      "desc": "每次登场之后记录首次受到的攻击伤害，直到下场自身每回合结束后恢复此记录值的体力，最高不超过自身的体力值；|每次登场之后记录首次造成的攻击伤害，直到下场自身使用攻击技能后附加此记录值的固定伤害，最高不超过自身的特攻值（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>每次登场之后记录首次受到的攻击伤害，直到下场自身每回合结束后<color=#64F9FA>恢复</color>此记录值的<b>体力</b>，最高不超过自身的体力值\r\n<indent=16><sprite=3><indent=32>每次登场之后记录首次造成的攻击伤害，直到下场自身使用攻击技能后<color=#64F9FA>附加</color>此记录值的<b>固定伤害</b>，最高不超过自身的特攻值",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4598,
+          "url": "https://api.seerapi.com/v1/pet/4598"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2199,
+          "url": "https://api.seerapi.com/v1/eid_effect/2199"
+        }
+      },
+      "effect_alias": "2199_1_0",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "63dfb0cb"
+}

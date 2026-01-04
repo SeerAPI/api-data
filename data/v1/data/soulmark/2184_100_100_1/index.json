@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1794": {
+      "id": 1794,
+      "desc": "回合开始时，若自身处于冻伤状态则当回合对手攻击后自身恢复受到攻击伤害100%的体力值，若对手处于冻伤状态则当回合自身攻击后附加造成攻击伤害100%的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时\r\n<indent=32><sprite=4><indent=48>若自身处于冻伤状态则回合结束后<color=#64F9FA>恢复</color>自身当回合受到攻击伤害100%的<b>体力</b>值\r\n<indent=32><sprite=4><indent=48>若对手处于冻伤状态则回合结束后<color=#64F9FA>附加</color>自身当回合造成攻击伤害100%的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4585,
+          "url": "https://api.seerapi.com/v1/pet/4585"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2184,
+          "url": "https://api.seerapi.com/v1/eid_effect/2184"
+        }
+      },
+      "effect_alias": "2184_100_100_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "23fdc63e"
+}

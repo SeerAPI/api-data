@@ -1,0 +1,46 @@
+{
+  "data": {
+    "564": {
+      "id": 564,
+      "desc": "自身攻击技能造成的伤害不足280则自身下次技能先制+3；自身造成攻击伤害的40%恢复自身体力，自身体力低于1/2时恢复比例>提升至60%（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3240,
+          "url": "https://api.seerapi.com/v1/pet/3240"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          280,
+          3,
+          40,
+          2,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 857,
+          "url": "https://api.seerapi.com/v1/eid_effect/857"
+        }
+      },
+      "effect_alias": "857_280_3_40_2_60_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e21c31ff"
+}

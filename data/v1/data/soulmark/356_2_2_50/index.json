@@ -1,0 +1,39 @@
+{
+  "data": {
+    "136": {
+      "id": 136,
+      "desc": "攻击时若对手当前体力小于自身最大HP的1/2，则对手受到的伤害提升50%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2746,
+          "url": "https://api.seerapi.com/v1/pet/2746"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          50
+        ],
+        "effect": {
+          "id": 356,
+          "url": "https://api.seerapi.com/v1/eid_effect/356"
+        }
+      },
+      "effect_alias": "356_2_2_50",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d3c9b91"
+}

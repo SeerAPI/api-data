@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1080": {
+      "id": 1080,
+      "desc": "自身体力低于最大体力的1/2时攻击致命率提升30%；自身攻击造成的伤害高于300则附加150点固定伤害，自身攻击造成的伤害低于300则下回合攻击造成的伤害提升50%（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身体力低于最大体力的1/2时攻击30%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害高于300则<color=#64F9FA>附加</color>150点<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害低于300则下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3805,
+          "url": "https://api.seerapi.com/v1/pet/3805"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          30,
+          300,
+          150,
+          300,
+          50
+        ],
+        "effect": {
+          "id": 1384,
+          "url": "https://api.seerapi.com/v1/eid_effect/1384"
+        }
+      },
+      "effect_alias": "1384_2_30_300_150_300_50",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7ba9dd25"
+}

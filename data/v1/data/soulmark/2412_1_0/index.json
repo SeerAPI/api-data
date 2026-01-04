@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1986": {
+      "id": 1986,
+      "desc": "对手使用物理攻击技能后令对手束缚，对手使用特殊攻击技能后吸取对手最大体力的1/3，对手使用属性技能后令对手随机1个技能PP值归0；自身被击败时，对手1回合内技能无效（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用物理攻击技能后<color=#64F9FA>令对手束缚</color>\r\n<indent=16><sprite=3><indent=32>对手使用特殊攻击技能后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=16><sprite=3><indent=32>对手使用属性技能后令对手随机1个技能<b>PP值</b><color=#64F9FA>归0</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，对手1回合内<b>技能</b><color=#64F9FA>无效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4793,
+          "url": "https://api.seerapi.com/v1/pet/4793"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2412,
+          "url": "https://api.seerapi.com/v1/eid_effect/2412"
+        }
+      },
+      "effect_alias": "2412_1_0",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "81682587"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "308": {
+      "id": 308,
+      "desc": "对手处于异常状态时自身攻击威力翻倍;每回合自身攻击+1、速度+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2891,
+          "url": "https://api.seerapi.com/v1/pet/2891"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          0,
+          1,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 636,
+          "url": "https://api.seerapi.com/v1/eid_effect/636"
+        }
+      },
+      "effect_alias": "636_2_0_1_4_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/soulmark/440"
+      },
+      "from": null
+    }
+  },
+  "hash": "78470a65"
+}

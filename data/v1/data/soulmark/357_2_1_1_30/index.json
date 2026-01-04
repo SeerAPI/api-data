@@ -1,0 +1,40 @@
+{
+  "data": {
+    "138": {
+      "id": 138,
+      "desc": "对手处于能力下降状态时，所有攻击技能有30%概率使对手麻痹（boss免疫)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2744,
+          "url": "https://api.seerapi.com/v1/pet/2744"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          1,
+          30
+        ],
+        "effect": {
+          "id": 357,
+          "url": "https://api.seerapi.com/v1/eid_effect/357"
+        }
+      },
+      "effect_alias": "357_2_1_1_30",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "96797478"
+}

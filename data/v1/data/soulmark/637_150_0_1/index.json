@@ -1,0 +1,39 @@
+{
+  "data": {
+    "320": {
+      "id": 320,
+      "desc": "每回合恢复150HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2905,
+          "url": "https://api.seerapi.com/v1/pet/2905"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          0,
+          1
+        ],
+        "effect": {
+          "id": 637,
+          "url": "https://api.seerapi.com/v1/eid_effect/637"
+        }
+      },
+      "effect_alias": "637_150_0_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4cd88700"
+}

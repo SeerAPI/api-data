@@ -1,0 +1,50 @@
+{
+  "data": {
+    "802": {
+      "id": 802,
+      "desc": "攻击有35%的概率使对手麻痹，35%的概率使对手焚烬，仅触发麻痹时额外使自身全属性+1，仅触发焚烬时使自身免疫下1次受到的攻击伤害，均未触发时{吸取}对手最大{体力}的1/3（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3490,
+          "url": "https://api.seerapi.com/v1/pet/3490"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          35,
+          35,
+          1,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1085,
+          "url": "https://api.seerapi.com/v1/eid_effect/1085"
+        }
+      },
+      "effect_alias": "1085_35_35_1_1_3_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4fe141f1"
+}

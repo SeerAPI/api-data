@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1967": {
+      "id": 1967,
+      "desc": "登场时自身开启武道，初始为血之道,武道会以血、邪、天、血的轨迹进行衍化，每完成一次完成轨迹的衍化，自身恢复全部PP值|回合结束时自身恢复最大体力的1/6，自身处于血之道时效果翻倍；自身使用技能时附加对手最大体力1/6的百分比伤害，自身处于邪之道时效果翻倍；自身造成的攻击伤害提升50%，自身处于天之道时效果翻倍|血之道：自身抵挡本场战斗自身在场的前10回合受到的攻击，触发后衍化|邪之道：自身抵挡本次在场超过2回合的精灵的攻击，触发后衍化|天之道：自身抵挡非致命一击，触发后衍化|逆转轨迹：武道中的抵挡攻击效果改为以百分比伤害形式反弹受到的攻击伤害|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>武道：\r\n<indent=16><sprite=3><indent=32>登场时盖亚开启武道，初始为<color=#FFF779>血之道</color>，武道会以血、邪、天、血的轨迹进行衍化\r\n<indent=32><sprite=4><indent=48>每完成一次完整轨迹的衍化，自身<color=#64F9FA>恢复</color>全部<b>PP值</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>回合结束时自身<color=#64F9FA>恢复</color>最大体力的1/6，自身处于血之道时效果翻倍\r\n<indent=16><sprite=3><indent=32>自身使用技能时<color=#64F9FA>附加</color>对手最大体力1/6的<b>百分比伤害</b>，自身处于邪之道时效果翻倍\r\n<indent=16><sprite=3><indent=32>自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，自身处于天之道时效果翻倍\r\n\r\n<indent=0><sprite=5><indent=15>血之道：\r\n<indent=16><sprite=6><indent=32>自身<color=#64F9FA>抵挡</color>本场战斗自身在场的前10回合受到的攻击，触发后衍化\r\n\r\n<indent=0><sprite=5><indent=15>邪之道：\r\n<indent=16><sprite=6><indent=32>自身<color=#64F9FA>抵挡</color>本次在场超过2回合的精灵的<b>攻击</b>，触发后衍化\r\n\r\n<indent=0><sprite=5><indent=15>天之道：\r\n<indent=16><sprite=6><indent=32>自身<color=#64F9FA>抵挡</color>非致命一击，触发后衍化\r\n\r\n<indent=0><sprite=5><indent=15>逆转轨迹：\r\n<indent=16><sprite=6><indent=32>武道中的抵挡攻击效果改为以百分比伤害形式<color=#64F9FA>反弹</color>受到的<b>攻击伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4766,
+          "url": "https://api.seerapi.com/v1/pet/4766"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          6,
+          6,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2377,
+          "url": "https://api.seerapi.com/v1/eid_effect/2377"
+        }
+      },
+      "effect_alias": "2377_6_6_50_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3d9b8893"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1966": {
+      "id": 1966,
+      "desc": "自身登场后，1~4号位技能分别对应雷辰·东、雷辰·南、雷辰·西、雷辰·北；自身每次使用以“雷”冠名的技能时点亮对应的未被点亮的雷辰|雷辰每次点亮后将与上一颗被点亮的雷辰连接并令对手麻痹且自身所有技能恢复1点PP值，当自身点亮四颗雷辰时，若连接的雷辰呈“ㄣ”形则回合结束后自身解除所处的异常状态与能力下降状态并进入3回合的觉醒状态，否则恢复自身全部体力值并重置自身的雷辰进度|回合开始时，若自身处于麻痹状态，则解除自身所处的麻痹状态且下回合所有技能先制+1|觉醒状态：自身免疫受到的异常状态与能力下降状态、所有技能先制+1、无视对手先制等级、必定打出致命一击、造成的技能伤害额外恢复至自身体力、使用技能不受PP值限制、技能必定命中且命中效果强制生效，效果结束时重置自身的雷辰进度|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>雷辰：\r\n<indent=16><sprite=3><indent=32>自身登场后：\r\n<indent=32><sprite=4><indent=48>1~4号位技能分别对应雷辰·东、雷辰·南、雷辰·西、雷辰·北，自身每次使用以“雷”冠名的技能时点亮对应的未被点亮的雷辰\r\n<indent=32><sprite=4><indent=48>雷辰每次点亮后将与上一颗被点亮的雷辰连接并<color=#64F9FA>令对手麻痹</color>且所有技能<color=#64F9FA>恢复</color>1点<b>PP值</b>\r\n<indent=32><sprite=4><indent=48>当自身点亮四颗雷辰时，若连接的雷辰呈“ㄣ”形则当回合结束后自身<color=#64F9FA>解除</color>所处的<b>异常状态</b>与<b>能力下降状态</b>并进入3回合的<color=#FFF779>觉醒</color>状态\r\n<indent=32><sprite=4><sprite=4><indent=64>否则<color=#64F9FA>恢复</color>自身全部<b>体力</b>并重置自身的雷辰进度\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于麻痹状态，则<color=#64F9FA>解除</color>自身所处的麻痹状态且当回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=5><indent=15>觉醒：\r\n<indent=16><sprite=6><indent=32>自身<color=#64F9FA>免疫</color>受到的<b>异常状态</b>与<b>能力下降状态</b>\r\n<indent=16><sprite=6><indent=32>所有技能<b>先制</b>+1\r\n<indent=16><sprite=6><indent=32><color=#64F9FA>无视对手先制等级</color>\r\n<indent=16><sprite=6><indent=32>必定<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=6><indent=32>造成的技能伤害额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=16><sprite=6><indent=32>使用<color=#64F9FA>技能不受PP值限制</color>\r\n<indent=16><sprite=6><indent=32>技能<color=#64F9FA>必定命中且命中效果强制生效</color>\r\n<indent=16><sprite=6><indent=32>效果结束时重置自身的雷辰进度",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4765,
+          "url": "https://api.seerapi.com/v1/pet/4765"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2376,
+          "url": "https://api.seerapi.com/v1/eid_effect/2376"
+        }
+      },
+      "effect_alias": "2376_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5711b9d5"
+}

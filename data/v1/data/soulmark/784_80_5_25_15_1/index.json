@@ -1,0 +1,41 @@
+{
+  "data": {
+    "474": {
+      "id": 474,
+      "desc": "攻击技能80%使对手冻伤；受到攻击25%使对手冰封（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3132,
+          "url": "https://api.seerapi.com/v1/pet/3132"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          80,
+          5,
+          25,
+          15,
+          1
+        ],
+        "effect": {
+          "id": 784,
+          "url": "https://api.seerapi.com/v1/eid_effect/784"
+        }
+      },
+      "effect_alias": "784_80_5_25_15_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f2fdcc96"
+}

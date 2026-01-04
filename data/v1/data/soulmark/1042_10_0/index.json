@@ -1,0 +1,38 @@
+{
+  "data": {
+    "757": {
+      "id": 757,
+      "desc": "每回合开始时反转自身能力下降状态；战斗阶段结束时自身每处于1种能力提升状态则下回合受到的伤害减少10%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3444,
+          "url": "https://api.seerapi.com/v1/pet/3444"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          10,
+          0
+        ],
+        "effect": {
+          "id": 1042,
+          "url": "https://api.seerapi.com/v1/eid_effect/1042"
+        }
+      },
+      "effect_alias": "1042_10_0",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "944ad66d"
+}

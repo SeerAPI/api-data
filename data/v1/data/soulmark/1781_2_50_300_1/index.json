@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1410": {
+      "id": 1410,
+      "desc": "回合开始时，若自身处于异常状态则吸取对手能力提升状态，若对手不处于能力提升状态则令对手随机进入2种异常状态；|回合开始时，若自身不处于异常状态则当回合自身受到的攻击伤害减少50%，若受到的攻击伤害大于300则使对手进入失明状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于异常状态则<color=#64F9FA>吸取</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则令对手随机<color=#64F9FA>受到</color>2种<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身不处于异常状态则当回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><sprite=4><indent=64>若受到的攻击伤害大于300则<color=#64F9FA>令对手失明</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4187,
+          "url": "https://api.seerapi.com/v1/pet/4187"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          50,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1781,
+          "url": "https://api.seerapi.com/v1/eid_effect/1781"
+        }
+      },
+      "effect_alias": "1781_2_50_300_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a4a018d1"
+}

@@ -1,0 +1,40 @@
+{
+  "data": {
+    "1119": {
+      "id": 1119,
+      "desc": "对手每次提升能力时触发效果：50%令对手随机2个技能PP值归零，未触发则战斗阶段结束时令对手损失250点体力（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手每次提升能力时50%令对手随机2个技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>附加</color>250点<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3846,
+          "url": "https://api.seerapi.com/v1/pet/3846"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 1435,
+          "url": "https://api.seerapi.com/v1/eid_effect/1435"
+        }
+      },
+      "effect_alias": "1435_50_2_250_1",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8feff999"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "743": {
+      "id": 743,
+      "desc": "受到攻击时有50%概率miss，自身体力低于对手时概率变为100%，未触发miss时下回合自身免疫异常状态；战斗阶段结束时，若当回合自身受到的伤害低于300则{吸取}对手最大{体力}的1/4（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3429,
+          "url": "https://api.seerapi.com/v1/pet/3429"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          100,
+          300,
+          4,
+          1
+        ],
+        "effect": {
+          "id": 1027,
+          "url": "https://api.seerapi.com/v1/eid_effect/1027"
+        }
+      },
+      "effect_alias": "1027_50_100_300_4_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b1a6481a"
+}

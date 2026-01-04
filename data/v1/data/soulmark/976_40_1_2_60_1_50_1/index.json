@@ -1,0 +1,47 @@
+{
+  "data": {
+    "692": {
+      "id": 692,
+      "desc": "自身攻击技能40%概率使对手随机进入1-2种异常状态，先出手时概率变为60%，未触发则下回合自身所有技能先制+1；对手处于异常状态时，所有技能有50%概率无效（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3379,
+          "url": "https://api.seerapi.com/v1/pet/3379"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          1,
+          2,
+          60,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 976,
+          "url": "https://api.seerapi.com/v1/eid_effect/976"
+        }
+      },
+      "effect_alias": "976_40_1_2_60_1_50_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "66cc848d"
+}

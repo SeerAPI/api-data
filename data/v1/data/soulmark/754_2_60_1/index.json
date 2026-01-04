@@ -1,0 +1,46 @@
+{
+  "data": {
+    "461": {
+      "id": 461,
+      "desc": "伙伴效果:使用攻击技能后下回合所有技能额外先制+2；使用属性技能后下回合攻击技能致命一击概率提升60%（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3092,
+          "url": "https://api.seerapi.com/v1/pet/3092"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 754,
+          "url": "https://api.seerapi.com/v1/eid_effect/754"
+        }
+      },
+      "effect_alias": "754_2_60_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 434,
+        "url": "https://api.seerapi.com/v1/soulmark/434"
+      }
+    }
+  },
+  "hash": "7520c19c"
+}

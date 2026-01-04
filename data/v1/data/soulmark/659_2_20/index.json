@@ -1,0 +1,38 @@
+{
+  "data": {
+    "333": {
+      "id": 333,
+      "desc": "自身处于能力提升状态,则自身伤害提升20%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2930,
+          "url": "https://api.seerapi.com/v1/pet/2930"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          20
+        ],
+        "effect": {
+          "id": 659,
+          "url": "https://api.seerapi.com/v1/eid_effect/659"
+        }
+      },
+      "effect_alias": "659_2_20",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "12c3ac4f"
+}

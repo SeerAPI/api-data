@@ -1,0 +1,38 @@
+{
+  "data": {
+    "341": {
+      "id": 341,
+      "desc": "每次使用伤害技能都能使自身技能威力提升5%,最高30%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2943,
+          "url": "https://api.seerapi.com/v1/pet/2943"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          30
+        ],
+        "effect": {
+          "id": 667,
+          "url": "https://api.seerapi.com/v1/eid_effect/667"
+        }
+      },
+      "effect_alias": "667_5_30",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "56d92da"
+}

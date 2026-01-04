@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1442": {
+      "id": 1442,
+      "desc": "回合开始时，若对手处于异常状态则当回合自身攻击必定打出致命一击；|战斗阶段结束时，若对手不处于失明状态则下回合自身攻击命中后100%令对手失明，若对手处于失明状态则下回合自身攻击命中后100%令对手害怕（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于异常状态则当回合自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手不处于失明状态则下回合自身攻击命中后100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>若对手处于失明状态则下回合自身攻击命中后100%<color=#64F9FA>令对手害怕</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4223,
+          "url": "https://api.seerapi.com/v1/pet/4223"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1812,
+          "url": "https://api.seerapi.com/v1/eid_effect/1812"
+        }
+      },
+      "effect_alias": "1812_100_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c24511e9"
+}

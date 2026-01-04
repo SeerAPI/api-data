@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1144": {
+      "id": 1144,
+      "desc": "每经过3回合，冰之妖兽会爆发出强烈的寒冰能量：当回合攻击100%打出致命一击且50%令对手冰封，未触发冰封则战斗阶段结束时附加当回合攻击造成伤害值50%的固定伤害；回合开始时，若对手处于异常状态则当回合攻击命中附加对手最大体力1/3的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场后每逢第3回合，冰之妖兽会爆发出强烈的寒冰能量：当回合攻击100%<color=#64F9FA>打出致命一击</color>且50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发冰封则战斗阶段结束时<color=#64F9FA>附加</color>当回合攻击造成伤害值50%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若对手处于异常状态则当回合攻击<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3874,
+          "url": "https://api.seerapi.com/v1/pet/3874"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          100,
+          50,
+          50,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1462,
+          "url": "https://api.seerapi.com/v1/eid_effect/1462"
+        }
+      },
+      "effect_alias": "1462_3_100_50_50_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "69333cb9"
+}

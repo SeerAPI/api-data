@@ -1,0 +1,47 @@
+{
+  "data": {
+    "764": {
+      "id": 764,
+      "desc": "首次登场时免疫下1次受到的攻击；当回合使用属性技能则下回合自身攻击无视对手双防能力提升状态且下回合造成的伤害恢复自身体力；当回合使用攻击技能则下回合自身技能先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3452,
+          "url": "https://api.seerapi.com/v1/pet/3452"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1047,
+          "url": "https://api.seerapi.com/v1/eid_effect/1047"
+        }
+      },
+      "effect_alias": "1047_1_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bad11a70"
+}

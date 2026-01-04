@@ -1,0 +1,38 @@
+{
+  "data": {
+    "493": {
+      "id": 493,
+      "desc": "回合开始时，若对手不处于异常状态，则当回合自身攻击技能消除对手回合类效果",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3157,
+          "url": "https://api.seerapi.com/v1/pet/3157"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          0
+        ],
+        "effect": {
+          "id": 802,
+          "url": "https://api.seerapi.com/v1/eid_effect/802"
+        }
+      },
+      "effect_alias": "802_0_0",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cc4d1934"
+}

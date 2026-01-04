@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1336": {
+      "id": 1336,
+      "desc": "自身每次登场首回合攻击100%打出致命一击且100%令对手失明，当回合未使用攻击技能则令自身全属性+1；|自身攻击造成的伤害低于300则下回合攻击100%打出致命一击，自身攻击造成的伤害高于300则附加对手最大体力1/3的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场首回合攻击100%<color=#64F9FA>打出致命一击</color>且100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>若当回合未使用攻击技能则令自身<color=#64F9FA>全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害低于300则下回合攻击100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害高于300则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4096,
+          "url": "https://api.seerapi.com/v1/pet/4096"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          1,
+          300,
+          100,
+          300,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1688,
+          "url": "https://api.seerapi.com/v1/eid_effect/1688"
+        }
+      },
+      "effect_alias": "1688_100_100_1_300_100_300_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bcf733d6"
+}

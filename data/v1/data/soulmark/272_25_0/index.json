@@ -1,0 +1,41 @@
+{
+  "data": {
+    "24": {
+      "id": 24,
+      "desc": "减少25%来自雄性精灵的攻击伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2479,
+          "url": "https://api.seerapi.com/v1/pet/2479"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          0
+        ],
+        "effect": {
+          "id": 272,
+          "url": "https://api.seerapi.com/v1/eid_effect/272"
+        }
+      },
+      "effect_alias": "272_25_0",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/soulmark/23"
+      }
+    }
+  },
+  "hash": "cf1aa804"
+}

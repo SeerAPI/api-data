@@ -1,0 +1,52 @@
+{
+  "data": {
+    "608": {
+      "id": 608,
+      "desc": "首次登场免疫并反弹下3次受到的异常状态，首次登场3回合内免疫能力下降状态；自身攻击技能使对手随机进入烧伤、冻伤、中毒中的一种异常状态，未触发则消除对手回合类效果且下2回合自身攻击有60%的概率使对手随机进入害怕、麻痹、疲惫中的一种异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3276,
+          "url": "https://api.seerapi.com/v1/pet/3276"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          2,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 888,
+          "url": "https://api.seerapi.com/v1/eid_effect/888"
+        }
+      },
+      "effect_alias": "888_3_3_2_60_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 603,
+        "url": "https://api.seerapi.com/v1/soulmark/603"
+      }
+    }
+  },
+  "hash": "ee73a9b0"
+}

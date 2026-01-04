@@ -1,0 +1,47 @@
+{
+  "data": {
+    "615": {
+      "id": 615,
+      "desc": "攻击命中处于能力提升状态的对手时有50%的概率使对手麻痹，未触发则消除对手回合类效果且下2回合自身攻击无视对手防御和特防提升效果（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3285,
+          "url": "https://api.seerapi.com/v1/pet/3285"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 896,
+          "url": "https://api.seerapi.com/v1/eid_effect/896"
+        }
+      },
+      "effect_alias": "896_50_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a0cdd19b"
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "900": {
+      "id": 900,
+      "desc": "受到攻击时随机令对手3项属性-1，未触发则战斗阶段结束时{吸取}对手最大{体力}的1/3；自身使用攻击时随机令自身3项属性+1，若触发的能力提升中含有攻击能力则自身额外特攻+2、速度+2且下回合必定打出致命一击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>受到攻击时随机令对手3项能力-1\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=16><sprite=3><indent=32>自身使用攻击时随机令自身3项能力+1\r\n<indent=32><sprite=4><indent=48>若触发的能力提升中含有攻击能力则自身额外特攻+2、速度+2且下回合必定<color=#64F9FA>打出致命一击</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3608,
+          "url": "https://api.seerapi.com/v1/pet/3608"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          3,
+          3,
+          1,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1187,
+          "url": "https://api.seerapi.com/v1/eid_effect/1187"
+        }
+      },
+      "effect_alias": "1187_3_1_3_3_1_2_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ecfa3c43"
+}

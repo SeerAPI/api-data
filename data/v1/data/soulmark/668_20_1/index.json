@@ -1,0 +1,38 @@
+{
+  "data": {
+    "342": {
+      "id": 342,
+      "desc": "无视对手20%的防御属性;(BOSS无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2945,
+          "url": "https://api.seerapi.com/v1/pet/2945"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          1
+        ],
+        "effect": {
+          "id": 668,
+          "url": "https://api.seerapi.com/v1/eid_effect/668"
+        }
+      },
+      "effect_alias": "668_20_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a2d352ee"
+}

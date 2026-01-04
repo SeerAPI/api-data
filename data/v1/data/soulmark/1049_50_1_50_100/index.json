@@ -1,0 +1,44 @@
+{
+  "data": {
+    "765": {
+      "id": 765,
+      "desc": "回合开始时有50%的概率使自身当回合先制+1且造成的伤害提高50%，未触发则战斗阶段结束时自身损失100点体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3447,
+          "url": "https://api.seerapi.com/v1/pet/3447"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          50,
+          100
+        ],
+        "effect": {
+          "id": 1049,
+          "url": "https://api.seerapi.com/v1/eid_effect/1049"
+        }
+      },
+      "effect_alias": "1049_50_1_50_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "66f4c79c"
+}

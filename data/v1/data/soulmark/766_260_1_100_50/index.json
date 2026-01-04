@@ -1,0 +1,40 @@
+{
+  "data": {
+    "450": {
+      "id": 450,
+      "desc": "自身体力低于对手时，受到的伤害不超过260（boss无效）；|攻击技能附加造成伤害一定比例的固定伤害，对手体力越高，附加的比例越高，满体力时比例为100%，最低50%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3107,
+          "url": "https://api.seerapi.com/v1/pet/3107"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          260,
+          1,
+          100,
+          50
+        ],
+        "effect": {
+          "id": 766,
+          "url": "https://api.seerapi.com/v1/eid_effect/766"
+        }
+      },
+      "effect_alias": "766_260_1_100_50",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1c1e3069"
+}

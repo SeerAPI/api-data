@@ -1,0 +1,42 @@
+{
+  "data": {
+    "35": {
+      "id": 35,
+      "desc": "受到伤害减少15%，增加5%的闪避率",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2508,
+          "url": "https://api.seerapi.com/v1/pet/2508"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          5
+        ],
+        "effect": {
+          "id": 280,
+          "url": "https://api.seerapi.com/v1/eid_effect/280"
+        }
+      },
+      "effect_alias": "280_15_5",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d1012c70"
+}

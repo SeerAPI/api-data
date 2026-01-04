@@ -1,0 +1,38 @@
+{
+  "data": {
+    "1871": {
+      "id": 1871,
+      "desc": "每回合开始时使自身束缚，未触发则50%令对手害怕；对手使用攻击技能时，若自身处于束缚状态，则附加给对手自身所处的所有异常状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时<color=#64F9FA>使自身束缚</color>，未触发则50%<color=#64F9FA>令对手害怕</color>\r\n\r\n<indent=0><sprite=0><indent=16>对手技能额外效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时，若自身处于束缚状态，则附加给对手自身所处的所有异常状态",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4668,
+          "url": "https://api.seerapi.com/v1/pet/4668"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1
+        ],
+        "effect": {
+          "id": 2269,
+          "url": "https://api.seerapi.com/v1/eid_effect/2269"
+        }
+      },
+      "effect_alias": "2269_50_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8f6d3d96"
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "338": {
+      "id": 338,
+      "desc": "若造成伤害小于对手体力的1/2,则追加250点固定伤害;|若伤害大于对手体力1/2,则造成伤害的50%恢复自身体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2939,
+          "url": "https://api.seerapi.com/v1/pet/2939"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          250,
+          50
+        ],
+        "effect": {
+          "id": 663,
+          "url": "https://api.seerapi.com/v1/eid_effect/663"
+        }
+      },
+      "effect_alias": "663_2_250_50",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": {
+        "id": 554,
+        "url": "https://api.seerapi.com/v1/soulmark/554"
+      },
+      "from": null
+    }
+  },
+  "hash": "b5a4f915"
+}

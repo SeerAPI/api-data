@@ -1,0 +1,49 @@
+{
+  "data": {
+    "663": {
+      "id": 663,
+      "desc": "攻击技能命中时使对手随机进入1种异常状态；回合开始时若自身处于能力提升状态则当回合结束后有50%概率{吸取}对手300点{体力}，未触发则下回合先制+2；回合开始时若自身不处于能力提升状态则当回合战斗阶段结束时解除自身异常状态并附加给对手同等的异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3336,
+          "url": "https://api.seerapi.com/v1/pet/3336"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          300,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 944,
+          "url": "https://api.seerapi.com/v1/eid_effect/944"
+        }
+      },
+      "effect_alias": "944_1_50_300_2_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d4e41557"
+}

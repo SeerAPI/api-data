@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1778": {
+      "id": 1778,
+      "desc": "回合开始时若自身体力低于对手则令对手全属性-1，然后若对手处于能力提升、下降状态则每有1段本回合自身造成的攻击伤害提升10%，若不处于能力提升、下降状态则解除自身所处的异常状态且本回合所有技能先制+1;|自身受到攻击后吸取对手最大体力的20%，若受到的攻击伤害低于300则效果翻倍，若高于300则抵挡下1次对手的攻击（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则<color=#64F9FA>令对手全属性-1</color>，然后：\r\n<indent=32><sprite=4><indent=48>对手每处于1段能力提升、能力下降本回合自身造成的<b>攻击伤害<color=#64F9FA></b>提升</color>10%\r\n<indent=32><sprite=4><indent=48>若对手同时不处于异常状态、能力下降状态则<color=#64F9FA>解除</color>自身所处的<b>异常状态</b>且本回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击后<color=#64F9FA>吸取</color>对手最大体力的20%\r\n<indent=32><sprite=4><indent=48>若受到的攻击伤害低于300则效果翻倍\r\n<indent=32><sprite=4><indent=48>若受到的攻击伤害高于300则<color=#64F9FA>抵挡</color>下1次受到的<b>攻击</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4568,
+          "url": "https://api.seerapi.com/v1/pet/4568"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          10,
+          1,
+          20,
+          300,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2171,
+          "url": "https://api.seerapi.com/v1/eid_effect/2171"
+        }
+      },
+      "effect_alias": "2171_1_1_10_1_20_300_1_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "d5dcb30b"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "729": {
+      "id": 729,
+      "desc": "每回合自身技能有25%概率使对手害怕；使用属性技能时附加250点固定伤害（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3416,
+          "url": "https://api.seerapi.com/v1/pet/3416"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 1013,
+          "url": "https://api.seerapi.com/v1/eid_effect/1013"
+        }
+      },
+      "effect_alias": "1013_25_250_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4285a6ff"
+}

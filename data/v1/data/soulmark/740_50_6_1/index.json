@@ -1,0 +1,43 @@
+{
+  "data": {
+    "417": {
+      "id": 417,
+      "desc": "每次使用攻击技能都有50%概率使对手害怕；击败对手则免疫对手下一次攻击伤害（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3067,
+          "url": "https://api.seerapi.com/v1/pet/3067"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          6,
+          1
+        ],
+        "effect": {
+          "id": 740,
+          "url": "https://api.seerapi.com/v1/eid_effect/740"
+        }
+      },
+      "effect_alias": "740_50_6_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "76896d52"
+}

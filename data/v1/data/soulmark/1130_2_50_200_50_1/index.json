@@ -1,0 +1,49 @@
+{
+  "data": {
+    "845": {
+      "id": 845,
+      "desc": "自身受到攻击伤害时消除对手能力提升状态，受到攻击伤害时若对手不处于能力提升状态则自身特攻+2；自身使用技能时造成伤害的50%会恢复自身体力，若恢复的体力值低于200则下回合造成的攻击伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3536,
+          "url": "https://api.seerapi.com/v1/pet/3536"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          50,
+          200,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1130,
+          "url": "https://api.seerapi.com/v1/eid_effect/1130"
+        }
+      },
+      "effect_alias": "1130_2_50_200_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1932d4ed"
+}

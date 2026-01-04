@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1942": {
+      "id": 1942,
+      "desc": "自身使用技能后80%令对手冰封，每次触发后，将下列条件中首个未加入过的条件加入到触发条件中：打出致命一击、造成的伤害高于300、所使用技能PP值为1|回合开始时，自身的上述效果每有一个追加触发条件，自身造成的攻击伤害提升25%，使用技能后吸取对手200点体力（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能后80%<color=#64F9FA>令对手冰封</color>，每次触发后，将下列条件中首个未加入过的条件加入到触发条件中：\r\n<indent=32><sprite=4><indent=48>打出致命一击\r\n<indent=32><sprite=4><indent=48>造成的伤害高于300\r\n<indent=32><sprite=4><indent=48>所使用技能PP值为1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，自身的技能额外效果每有一个追加触发条件，自身：\r\n<indent=32><sprite=4><indent=48>造成的攻击伤害<color=#64F9FA>提升</color>25%\r\n<indent=32><sprite=4><indent=48>使用技能后<color=#64F9FA>吸取</color>对手200点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4739,
+          "url": "https://api.seerapi.com/v1/pet/4739"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          80,
+          300,
+          1,
+          25,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 2356,
+          "url": "https://api.seerapi.com/v1/eid_effect/2356"
+        }
+      },
+      "effect_alias": "2356_80_300_1_25_200_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "902d5824"
+}

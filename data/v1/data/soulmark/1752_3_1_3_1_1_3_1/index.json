@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1388": {
+      "id": 1388,
+      "desc": "自身攻击造成的伤害高于对手最大体力的1/3则令对手随机1项技能PP值归零，自身攻击造成的伤害低于对手最大体力的1/3则令自身攻击+1，速度+1，自身攻击造成的伤害等于对手最大体力的1/3则直接秒杀对手（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于对手最大体力的1/3则令对手随机1项技能<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于对手最大体力的1/3则令自身攻击+1，速度+1\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害等于对手最大体力的1/3则<color=#64F9FA>秒杀对手</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4162,
+          "url": "https://api.seerapi.com/v1/pet/4162"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1752,
+          "url": "https://api.seerapi.com/v1/eid_effect/1752"
+        }
+      },
+      "effect_alias": "1752_3_1_3_1_1_3_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6ae241d1"
+}

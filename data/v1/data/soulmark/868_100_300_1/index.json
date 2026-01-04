@@ -1,0 +1,39 @@
+{
+  "data": {
+    "581": {
+      "id": 581,
+      "desc": "回合开始时若对手不处于烧伤状态则当回合自身造成的伤害翻倍，若造成的伤害超过300使对手烧伤（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3254,
+          "url": "https://api.seerapi.com/v1/pet/3254"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 868,
+          "url": "https://api.seerapi.com/v1/eid_effect/868"
+        }
+      },
+      "effect_alias": "868_100_300_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "80a0f6ea"
+}

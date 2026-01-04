@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1574": {
+      "id": 1574,
+      "desc": "回合开始时自身每项能力值都有50%的概率+1，若当回合提升的能力值数量＞3项则为自身附加当回合提升的能力值数量*60点的护盾（不可叠加），若提升的能力值数量≤3项则自身技能命中后{吸取}对手300点{体力}；|战斗阶段结束时若自身不处于能力提升状态则下回合自身受到的攻击伤害降低50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身每项能力等级都有50%的概率+1\r\n<indent=32><sprite=4><indent=48>若提升的能力等级＞3项则为自身<color=#64F9FA>附加</color>当回合提升的能力等级项数*60点的<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>若提升的能力等级≤3项则自身技能命中后<color=#64F9FA>吸取</color>对手300点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身不处于能力提升状态则下回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4350,
+          "url": "https://api.seerapi.com/v1/pet/4350"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          1,
+          3,
+          60,
+          3,
+          300,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1933,
+          "url": "https://api.seerapi.com/v1/eid_effect/1933"
+        }
+      },
+      "effect_alias": "1933_50_1_3_60_3_300_50_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c9353e9"
+}

@@ -1,30 +1,59 @@
 {
-  "id": 11,
-  "desc": "开场两回合内所有直接攻击都会使对手防御-1",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2452,
-      "url": "https://api.seerapi.com/v1/pet/2452"
-    }
-  ],
-  "effect": {
-    "effect_args": null,
-    "effect": {
-      "id": 263,
-      "url": "https://api.seerapi.com/v1/eid_effect/263"
+  "data": {
+    "64": {
+      "id": 64,
+      "desc": "每次收到攻击都会反馈给对手1/6的伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2580,
+          "url": "https://api.seerapi.com/v1/pet/2580"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/eid_effect/11"
+        }
+      },
+      "effect_alias": "11",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
+    },
+    "232": {
+      "id": 232,
+      "desc": "反弹1/8伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 1203,
+          "url": "https://api.seerapi.com/v1/pet/1203"
+        },
+        {
+          "id": 1204,
+          "url": "https://api.seerapi.com/v1/pet/1204"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/eid_effect/11"
+        }
+      },
+      "effect_alias": "11",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 13,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/13"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "281d3135"
+  "hash": "70891407"
 }

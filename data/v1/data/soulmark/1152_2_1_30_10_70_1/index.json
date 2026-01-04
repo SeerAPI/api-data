@@ -1,0 +1,46 @@
+{
+  "data": {
+    "866": {
+      "id": 866,
+      "desc": "首次登场后可以抵挡两次攻击伤害，之后每次登场后可以抵挡一次攻击伤害；自身使用攻击技能30%的概率使对手害怕，未触发则下次害怕的概率提升10%，最高70%（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3565,
+          "url": "https://api.seerapi.com/v1/pet/3565"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          1,
+          30,
+          10,
+          70,
+          1
+        ],
+        "effect": {
+          "id": 1152,
+          "url": "https://api.seerapi.com/v1/eid_effect/1152"
+        }
+      },
+      "effect_alias": "1152_2_1_30_10_70_1",
+      "tag": [
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a39c5582"
+}

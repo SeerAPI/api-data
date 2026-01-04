@@ -1,0 +1,49 @@
+{
+  "data": {
+    "940": {
+      "id": 940,
+      "desc": "先出手时{吸取}对手最大{体力}的1/4，自身体力低于最大体力的1/2时转变为{吸取}对手最大{体力}的1/3；后出手时必定打出致命一击且下回合所有技能先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>吸取</color>对手最大体力的1/4，自身体力低于最大体力的1/2时改为吸取1/3\r\n<indent=16><sprite=3><indent=32>后出手时必定<color=#64F9FA>打出致命一击</color>且下回合所有技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3654,
+          "url": "https://api.seerapi.com/v1/pet/3654"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          4,
+          2,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1229,
+          "url": "https://api.seerapi.com/v1/eid_effect/1229"
+        }
+      },
+      "effect_alias": "1229_4_2_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5b88f1e5"
+}

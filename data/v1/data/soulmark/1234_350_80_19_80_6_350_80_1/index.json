@@ -1,0 +1,52 @@
+{
+  "data": {
+    "945": {
+      "id": 945,
+      "desc": "战斗阶段结束时若对手处于能力提升状态则反转对手的能力提升状态；自身造成的攻击伤害高于350则80%令对手瘫痪，未触发瘫痪则下回合攻击80%令对手害怕；自身受到的攻击伤害低于350则下回合对手受到的伤害提升80%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若对手处于能力提升状态则<color=#64F9FA>反转</color>对手的<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身的攻击技能对对手造成的攻击伤害高于350则80%<color=#64F9FA>令对手瘫痪</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合攻击80%<color=#64F9FA>令对手害怕</color>\r\n<indent=16><sprite=3><indent=32>对手的攻击技能令自身受到的攻击伤害低于350则下回合对手受到的<b>攻击伤害</b><color=#64F9FA>提升</color>80%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3659,
+          "url": "https://api.seerapi.com/v1/pet/3659"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          350,
+          80,
+          19,
+          80,
+          6,
+          350,
+          80,
+          1
+        ],
+        "effect": {
+          "id": 1234,
+          "url": "https://api.seerapi.com/v1/eid_effect/1234"
+        }
+      },
+      "effect_alias": "1234_350_80_19_80_6_350_80_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "255c8975"
+}

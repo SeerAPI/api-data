@@ -1,0 +1,40 @@
+{
+  "data": {
+    "374": {
+      "id": 374,
+      "desc": "攻击20%使对手冰封,对手每处于一种能力提升状态,冰封概率提升10%（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2995,
+          "url": "https://api.seerapi.com/v1/pet/2995"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          15,
+          10,
+          1
+        ],
+        "effect": {
+          "id": 698,
+          "url": "https://api.seerapi.com/v1/eid_effect/698"
+        }
+      },
+      "effect_alias": "698_20_15_10_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "53453569"
+}

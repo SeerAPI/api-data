@@ -1,0 +1,39 @@
+{
+  "data": {
+    "1919": {
+      "id": 1919,
+      "desc": "自身免疫对手的攻击技能且每回合开始时提升1%的体力上限；当自身首次受到技能伤害后，或回合开始时自身体力上限不低于己方所有精灵体力上限之和的一半，本场战斗自身失去上述效果且每回合开始时减少自身10%的体力上限|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身<color=#64F9FA>免疫</color>对手的<b>攻击技能</b>且每回合开始时<color=#64F9FA>提升</color>1%的<b>体力上限</b>\r\n<indent=16><sprite=3><indent=32>当自身首次受到技能伤害后，或回合开始时自身体力上限不低于己方所有精灵体力上限之和的一半：\r\n<indent=32><sprite=4><indent=48>本场战斗自身失去上述效果\r\n<indent=32><sprite=4><indent=48>每回合开始时<color=#64F9FA>减少</color>自身10%的<b>体力上限</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4717,
+          "url": "https://api.seerapi.com/v1/pet/4717"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          10,
+          1
+        ],
+        "effect": {
+          "id": 2306,
+          "url": "https://api.seerapi.com/v1/eid_effect/2306"
+        }
+      },
+      "effect_alias": "2306_1_10_1",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8ced551"
+}

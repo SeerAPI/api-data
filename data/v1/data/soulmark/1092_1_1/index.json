@@ -1,0 +1,46 @@
+{
+  "data": {
+    "808": {
+      "id": 808,
+      "desc": "登场时令自身第1次受到的攻击伤害转化为自身体力（每场战斗仅触发1次）；自身死亡时消除对手回合类效果，同时使己方下只出战精灵下1次受到的攻击伤害转化为自身体力（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3495,
+          "url": "https://api.seerapi.com/v1/pet/3495"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1092,
+          "url": "https://api.seerapi.com/v1/eid_effect/1092"
+        }
+      },
+      "effect_alias": "1092_1_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bdb2b018"
+}

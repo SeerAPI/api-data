@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1980": {
+      "id": 1980,
+      "desc": "自身攻击命中时50%令对手束缚，触发成功当回合造成的攻击伤害提升50%|自身受到的攻击伤害高于300时，若自身的体力上限高于600则失去200点体力上限并主动恢复全部体力|自身被击败时，消除对手的能力提升状态并令对手失明|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中时50%<color=#64F9FA>令对手束缚</color>\r\n<indent=32><sprite=4><indent=48>触发成功当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300时，若自身的体力上限高于600则失去200点<b>体力上限</b>并<color=#64F9FA>主动恢复</color>全部<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，<color=#64F9FA>消除</color>对手的<b>能力提升状态</b>并<color=#64F9FA>令对手失明</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4783,
+          "url": "https://api.seerapi.com/v1/pet/4783"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          300,
+          600,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 2406,
+          "url": "https://api.seerapi.com/v1/eid_effect/2406"
+        }
+      },
+      "effect_alias": "2406_50_50_300_600_200_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "59c429b7"
+}

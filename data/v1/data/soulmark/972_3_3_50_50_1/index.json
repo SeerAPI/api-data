@@ -1,0 +1,45 @@
+{
+  "data": {
+    "690": {
+      "id": 690,
+      "desc": "首次登场时，若对手不处于能力提升状态则自身3回合内免疫异常状态，若对手处于能力提升状态则自身3回合内造成的伤害提升50%（无法被消回合）；每回合自身出手时有50%概率令对手烧伤（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3374,
+          "url": "https://api.seerapi.com/v1/pet/3374"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 972,
+          "url": "https://api.seerapi.com/v1/eid_effect/972"
+        }
+      },
+      "effect_alias": "972_3_3_50_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "eb1db480"
+}

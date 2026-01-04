@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1585": {
+      "id": 1585,
+      "desc": "自身攻击命中后若造成的伤害高于300则100%令对手冻伤，未触发则附加对手最大体力1/3的百分比伤害，自身攻击命中后若造成的伤害低于300则50%令对手冰封，未触发则自身特攻+2、速度+2（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后：\r\n<indent=32><sprite=4><indent=48>若造成的伤害高于300则100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若造成的伤害低于300则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则自身特攻+2、速度+2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4360,
+          "url": "https://api.seerapi.com/v1/pet/4360"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          100,
+          3,
+          300,
+          50,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1947,
+          "url": "https://api.seerapi.com/v1/eid_effect/1947"
+        }
+      },
+      "effect_alias": "1947_300_100_3_300_50_2_2_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "75176e74"
+}

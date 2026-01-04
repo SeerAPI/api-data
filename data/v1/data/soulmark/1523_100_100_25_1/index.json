@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1192": {
+      "id": 1192,
+      "desc": "回合开始时，若对手不处于能力提升状态则当回合自身受到攻击时100%令对手焚烬，若对手处于能力提升状态则当回合自身攻击100%打出致命一击；自身攻击附加造成伤害值25%的固定伤害，若回合开始时对手处于异常状态则恢复等量体力（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则当回合自身受到攻击时100%<color=#64F9FA>令对手焚烬</color>\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则当回合自身攻击50%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击<color=#64F9FA>附加</color>造成伤害值25%的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若当回合开始时对手处于异常状态则<color=#64F9FA>恢复</color>等量<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3927,
+          "url": "https://api.seerapi.com/v1/pet/3927"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          100,
+          25,
+          1
+        ],
+        "effect": {
+          "id": 1523,
+          "url": "https://api.seerapi.com/v1/eid_effect/1523"
+        }
+      },
+      "effect_alias": "1523_100_100_25_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 1269,
+        "url": "https://api.seerapi.com/v1/soulmark/1269"
+      },
+      "from": null
+    }
+  },
+  "hash": "a1cf221e"
+}

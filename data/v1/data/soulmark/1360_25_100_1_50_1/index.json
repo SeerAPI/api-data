@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1059": {
+      "id": 1059,
+      "desc": "攻击技能附加对手防御值25%的固定伤害，每次使用增加25%，最高100%；回合开始时，若自身不处于能力提升状态则当回合攻击技能先制+1且造成的伤害提升50%，若自身处于能力提升状态则当回合免疫异常状态（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能<color=#64F9FA>附加</color>对手防御值25%的<b>固定伤害</b>，每次使用增加25%，最高100%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合攻击技能<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3783,
+          "url": "https://api.seerapi.com/v1/pet/3783"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          100,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1360,
+          "url": "https://api.seerapi.com/v1/eid_effect/1360"
+        }
+      },
+      "effect_alias": "1360_25_100_1_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "146b1f45"
+}

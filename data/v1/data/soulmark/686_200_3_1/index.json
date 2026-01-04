@@ -1,0 +1,43 @@
+{
+  "data": {
+    "361": {
+      "id": 361,
+      "desc": "每个战斗阶段结束时恢复200HP,随机使自身3项属性+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2976,
+          "url": "https://api.seerapi.com/v1/pet/2976"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 686,
+          "url": "https://api.seerapi.com/v1/eid_effect/686"
+        }
+      },
+      "effect_alias": "686_200_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "487e6bf8"
+}

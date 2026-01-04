@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1551": {
+      "id": 1551,
+      "desc": "自身攻击技能造成伤害的50%恢复自身体力，若自身体力低于对手则转变为造成伤害的75%恢复自身体力并附加等量固定伤害；|回合开始时，若自身体力高于最大体力的1/2则造成的攻击伤害提升50%，若自身为满体力则攻击伤害额外提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则改为造成的攻击伤害75%额外恢复至自身体力并<color=#64F9FA>附加</color>等量<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力高于最大体力的1/2则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身为满体力则攻击伤害额外提升50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4325,
+          "url": "https://api.seerapi.com/v1/pet/4325"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          75,
+          2,
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1910,
+          "url": "https://api.seerapi.com/v1/eid_effect/1910"
+        }
+      },
+      "effect_alias": "1910_50_75_2_50_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e9b7887"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1035": {
+      "id": 1035,
+      "desc": "自身使用攻击技能则战斗阶段结束时随机附加对手已损失体力15%-30%的固定伤害，对手使用攻击技能则战斗阶段结束时随机恢复自身150-300点体力（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则战斗阶段结束时随机<color=#64F9FA>附加</color>对手已损失体力15%-30%的<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能则战斗阶段结束时随机<color=#64F9FA>恢复</color>自身150-300点<b>体力</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3753,
+          "url": "https://api.seerapi.com/v1/pet/3753"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          30,
+          150,
+          300
+        ],
+        "effect": {
+          "id": 1329,
+          "url": "https://api.seerapi.com/v1/eid_effect/1329"
+        }
+      },
+      "effect_alias": "1329_15_30_150_300",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2fb8d44f"
+}

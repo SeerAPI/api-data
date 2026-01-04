@@ -1,0 +1,47 @@
+{
+  "data": {
+    "921": {
+      "id": 921,
+      "desc": "自身攻击技能命中前消除对手回合类效果；|若对手先出手则对手技能命中前直至当回合结束后自身免疫异常状态且当回合受到的攻击伤害减少50%；|若自身先出手则自身技能命中前直至当回合结束后自身免疫能力下降状态且当回合造成的攻击伤害提升50%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手先出手时自身1回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=16><sprite=3><indent=32>自身先出手时自身1回合内<color=#64F9FA>免疫</color><b>能力下降状态</b>且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3627,
+          "url": "https://api.seerapi.com/v1/pet/3627"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1205,
+          "url": "https://api.seerapi.com/v1/eid_effect/1205"
+        }
+      },
+      "effect_alias": "1205_50_50_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "554b772f"
+}

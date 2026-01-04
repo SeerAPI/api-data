@@ -1,0 +1,44 @@
+{
+  "data": {
+    "427": {
+      "id": 427,
+      "desc": "对手使用攻击技能则50%概率麻痹；对手使用属性技能则随机1个技能pp归零（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3073,
+          "url": "https://api.seerapi.com/v1/pet/3073"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          0,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 743,
+          "url": "https://api.seerapi.com/v1/eid_effect/743"
+        }
+      },
+      "effect_alias": "743_50_0_1_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ded45d10"
+}

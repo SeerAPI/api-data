@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1800": {
+      "id": 1800,
+      "desc": "自身连续使用攻击技能时，消耗自身100点体力且当回合造成的攻击伤害提升150%，自身连续使用属性技能时，吸取对手最大体力的1/3且下回合攻击技能先制+1|自身使用技能后，若体力低于回合开始则100%令对手害怕，若高于回合开始则附加差值100%的百分比伤害，若本次触发的项目与上次不同，则额外使当次使用的技能不消耗PP值（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身连续使用攻击技能时，对自身<color=#64F9FA>附加</color>100点<b>固定伤害</b>且当回合造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n<indent=16><sprite=3><indent=32>自身连续使用属性技能时，<color=#64F9FA>吸取</color>对手最大体力的1/3且下回合攻击技能<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>自身使用技能后：\r\n<indent=32><sprite=4><indent=48>触发对应的效果：\r\n<indent=32><sprite=4><sprite=4><indent=64>若自身体力低于回合开始则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>若自身高于回合开始则<color=#64F9FA>附加</color>差值100%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若本次触发的上述项目与上次不同，则额外使当次使用的技能不消耗PP值",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4593,
+          "url": "https://api.seerapi.com/v1/pet/4593"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          150,
+          3,
+          1,
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2189,
+          "url": "https://api.seerapi.com/v1/eid_effect/2189"
+        }
+      },
+      "effect_alias": "2189_100_150_3_1_100_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a78b5e5b"
+}

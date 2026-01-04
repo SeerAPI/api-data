@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1882": {
+      "id": 1882,
+      "desc": "自身免疫对手的水系攻击，每次免疫成功后自身下次造成的攻击伤害提升100%，对手使用其他系别的攻击技能时，自身减少所有技能2点PP以消除对手的能力提升状态|回合开始时，若自身处于能力提升状态则当回合受到的攻击伤害减少50%，若自身不处于能力提升状态则当回合所有技能使用后100%令对手冻伤（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身<color=#64F9FA>免疫</color>对手的<b>水系攻击</b>，每次免疫成功后，自身下次造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用其他系别的攻击技能时，自身<color=#64F9FA>减少</color>所有技能2点<b>PP</b>以<color=#64F9FA>消除</color>对手的<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合使用技能后100%<color=#64F9FA>令对手冻伤</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4683,
+          "url": "https://api.seerapi.com/v1/pet/4683"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          2,
+          50,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2281,
+          "url": "https://api.seerapi.com/v1/eid_effect/2281"
+        }
+      },
+      "effect_alias": "2281_100_2_50_100_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "19676499"
+}

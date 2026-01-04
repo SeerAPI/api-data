@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1796": {
+      "id": 1796,
+      "desc": "首次登场时自身获得350点护盾、350点护罩，对手使用攻击技能后令对手中毒，对手使用属性技能后令对手寄生|回合开始时记录双方所处的异常状态，若本次在场自身已记录过中毒、寄生各1次则开启绿茵庇护：5回合内双方在场精灵免疫控制类异常状态（绿茵庇护每场战斗限1次，所有效果boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场时自身<color=#64F9FA>获得</color>350点<b>护盾</b>、350点<b>护罩</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能后<color=#64F9FA>令对手中毒</color>\r\n<indent=16><sprite=3><indent=32>对手使用属性技能后<color=#64F9FA>令对手寄生</color>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>记录双方所处的异常状态\r\n<indent=32><sprite=4><indent=48>若本次战斗首次记录过中毒、寄生至少各1次，则开启绿茵庇护：\r\n<indent=32><sprite=4><sprite=4><indent=64>5回合内双方在场精灵<color=#64F9FA>免疫<b></color>控制类异常状态</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4588,
+          "url": "https://api.seerapi.com/v1/pet/4588"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          350,
+          350,
+          1,
+          5,
+          1
+        ],
+        "effect": {
+          "id": 2188,
+          "url": "https://api.seerapi.com/v1/eid_effect/2188"
+        }
+      },
+      "effect_alias": "2188_350_350_1_5_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "29094722"
+}

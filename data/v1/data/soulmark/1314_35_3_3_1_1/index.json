@@ -1,0 +1,45 @@
+{
+  "data": {
+    "1018": {
+      "id": 1018,
+      "desc": "对手使用攻击技能命中率降低35%；若对手攻击命中则自身战斗阶段结束时恢复自身最大体力的1/3，若对手未命中则战斗阶段结束时令对手随机3项能力值-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能<b>命中率</b><color=#64F9FA>降低</color>35%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击命中的回合战斗阶段结束时自身<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n<indent=16><sprite=3><indent=32>对手未命中的回合战斗阶段结束时令对手随机3项<b>能力等级</b>-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3738,
+          "url": "https://api.seerapi.com/v1/pet/3738"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          35,
+          3,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1314,
+          "url": "https://api.seerapi.com/v1/eid_effect/1314"
+        }
+      },
+      "effect_alias": "1314_35_3_3_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "420ef280"
+}

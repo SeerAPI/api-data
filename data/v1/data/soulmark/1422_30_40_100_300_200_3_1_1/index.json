@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1622": {
+      "id": 1622,
+      "desc": "回合开始时，若自身体力高于对手则受到的攻击伤害减少30%，若自身体力低于对手则受到的攻击伤害减少40%；战斗阶段结束时随机{吸取}对手100-300点{体力}，若{吸取}的{体力}低于200点则对手随机3项能力值-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则受到的<b>攻击伤害<color=#64F9FA></b>减少</color>30%\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则受到的<b>攻击伤害<color=#64F9FA></b>减少</color>40%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时随机<color=#64F9FA>吸取</color>对手100~300点<b>体力</b>\r\n<indent=32><sprite=4><indent=48>若吸取的体力低于200点则对手随机3项能力值-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3833,
+          "url": "https://api.seerapi.com/v1/pet/3833"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          40,
+          100,
+          300,
+          200,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1422,
+          "url": "https://api.seerapi.com/v1/eid_effect/1422"
+        }
+      },
+      "effect_alias": "1422_30_40_100_300_200_3_1_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1108,
+        "url": "https://api.seerapi.com/v1/soulmark/1108"
+      }
+    }
+  },
+  "hash": "4a54f704"
+}

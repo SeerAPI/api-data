@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1645": {
+      "id": 1645,
+      "desc": "回合开始时若自身体力低于对手，则当回合自身使用攻击技能额外提升等同于双方最大体力差值的威力（最高200点）；|自身使用攻击技能则造成伤害的50%恢复自身体力，若未击败对手则自身特攻+2，若击败对手则对方下只出战精灵首次使用的属性技能无效|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手，则当回合自身使用攻击技能额外<color=#64F9FA>提升</color>等同于双方最大体力差值的<b>威力</b>，最高200点\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则造成的攻击伤害50%额外<color=#64F9FA>恢复</color>至自身体力\r\n<indent=32><sprite=4><indent=48>若未击败对手则自身特攻+2\r\n<indent=32><sprite=4><indent=48>若击败对手则对手下只登场精灵首次使用的<b>属性技能</b><color=#64F9FA>失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4430,
+          "url": "https://api.seerapi.com/v1/pet/4430"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2031,
+          "url": "https://api.seerapi.com/v1/eid_effect/2031"
+        }
+      },
+      "effect_alias": "2031_200_50_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6ef090cc"
+}

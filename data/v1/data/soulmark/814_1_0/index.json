@@ -1,0 +1,33 @@
+{
+  "data": {
+    "511": {
+      "id": 511,
+      "desc": "攻击技能使对手两合无法通过自身技能恢复体力（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3181,
+          "url": "https://api.seerapi.com/v1/pet/3181"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 814,
+          "url": "https://api.seerapi.com/v1/eid_effect/814"
+        }
+      },
+      "effect_alias": "814_1_0",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "f51672a9"
+}

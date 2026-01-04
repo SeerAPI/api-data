@@ -1,0 +1,51 @@
+{
+  "data": {
+    "995": {
+      "id": 995,
+      "desc": "自身使用攻击技能50%的概率附加200点固定伤害，未触发则50%令对手疲惫；自身使用属性技能50%的概率获得一个200点的护盾，未触发则50%令对手害怕（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能50%<color=#64F9FA>附加</color>200点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手疲惫</color>\r\n<indent=16><sprite=3><indent=32>自身使用属性技能50%<color=#64F9FA>获得</color>200点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手害怕</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3719,
+          "url": "https://api.seerapi.com/v1/pet/3719"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          200,
+          50,
+          50,
+          200,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1295,
+          "url": "https://api.seerapi.com/v1/eid_effect/1295"
+        }
+      },
+      "effect_alias": "1295_50_200_50_50_200_50_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6fc6c24"
+}

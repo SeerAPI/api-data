@@ -1,0 +1,48 @@
+{
+  "data": {
+    "851": {
+      "id": 851,
+      "desc": "攻击技能连续命中2次则70%概率使对手冰封；先出手时使对手当回合内无法通过技能恢复自身体力，后出手时恢复自身200点体力并造成等量固伤（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3548,
+          "url": "https://api.seerapi.com/v1/pet/3548"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          70,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 1141,
+          "url": "https://api.seerapi.com/v1/eid_effect/1141"
+        }
+      },
+      "effect_alias": "1141_2_70_200_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "dd22b050"
+}

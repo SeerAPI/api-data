@@ -1,41 +1,35 @@
 {
-  "id": 281,
-  "desc": "北斗纳斯里专属特性 防御+10 特防+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": true,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2278,
-      "url": "https://api.seerapi.com/v1/pet/2278"
-    },
-    {
-      "id": 2279,
-      "url": "https://api.seerapi.com/v1/pet/2279"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      10,
-      0,
-      0,
-      0,
-      10,
-      0
-    ],
-    "effect": {
-      "id": 247,
-      "url": "https://api.seerapi.com/v1/eid_effect/247"
+  "data": {
+    "33": {
+      "id": 33,
+      "desc": "若回合内没有受到伤害，则恢复100点体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2518,
+          "url": "https://api.seerapi.com/v1/pet/2518"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 281,
+          "url": "https://api.seerapi.com/v1/eid_effect/281"
+        }
+      },
+      "effect_alias": "281",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "a5a1a099"
+  "hash": "d8b8a4a8"
 }

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "1368": {
+      "id": 1368,
+      "desc": "自身出手后则当回合对手无法通过自身技能恢复体力（该效果为回合类效果），若自身先出手则当回合受到的伤害减少30%（包括固定伤害和百分比伤害），若自身后出手则下回合所有技能先制+1；|回合开始时，若对手处于烧伤状态则自身造成的攻击伤害提升120%，若对手不处于烧伤状态则自身攻击命中后100%令对手烧伤（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能时对手以回合类效果形式1回合内无法通过技能恢复体力，然后：\r\n<indent=32><sprite=4><indent=48>若自身为先出手则当回合受到的<b>攻击伤害、固定伤害</b>和<b>百分比伤害</b><color=#64F9FA>减少</color>30%\r\n<indent=32><sprite=4><indent=48>若自身为后出手则下回合所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于烧伤状态则自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>120%\r\n<indent=32><sprite=4><indent=48>若对手不处于烧伤状态则攻击命中后100%<color=#64F9FA>令对手烧伤</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3979,
+          "url": "https://api.seerapi.com/v1/pet/3979"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          1,
+          120,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1579,
+          "url": "https://api.seerapi.com/v1/eid_effect/1579"
+        }
+      },
+      "effect_alias": "1579_30_1_120_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1243,
+        "url": "https://api.seerapi.com/v1/soulmark/1243"
+      }
+    }
+  },
+  "hash": "c1811b4f"
+}

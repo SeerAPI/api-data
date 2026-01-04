@@ -1,41 +1,39 @@
 {
-  "id": 264,
-  "desc": "天府星守护者阿苏亚专属特性 进化 攻击+10 速度+10 防御+10 特防+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": true,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2236,
-      "url": "https://api.seerapi.com/v1/pet/2236"
-    },
-    {
-      "id": 2237,
-      "url": "https://api.seerapi.com/v1/pet/2237"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      10,
-      10,
-      0,
-      10,
-      10,
-      0
-    ],
-    "effect": {
-      "id": 247,
-      "url": "https://api.seerapi.com/v1/eid_effect/247"
+  "data": {
+    "13": {
+      "id": 13,
+      "desc": "首回合受到伤害减半，2回合内任何攻击技能都将附带100点固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2447,
+          "url": "https://api.seerapi.com/v1/pet/2447"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 264,
+          "url": "https://api.seerapi.com/v1/eid_effect/264"
+        }
+      },
+      "effect_alias": "264",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "5cee1eb3"
+  "hash": "d151977e"
 }

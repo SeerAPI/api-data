@@ -1,0 +1,46 @@
+{
+  "data": {
+    "523": {
+      "id": 523,
+      "desc": "战斗阶段结束时，若自身体力小于1/2则使对手害怕；战斗阶段结束时，若自身体力大于1/2则下回合自身免疫异常状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3200,
+          "url": "https://api.seerapi.com/v1/pet/3200"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 826,
+          "url": "https://api.seerapi.com/v1/eid_effect/826"
+        }
+      },
+      "effect_alias": "826_2_2_1",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": {
+        "id": 532,
+        "url": "https://api.seerapi.com/v1/soulmark/532"
+      },
+      "from": null
+    }
+  },
+  "hash": "390779e"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "843": {
+      "id": 843,
+      "desc": "回合开始时随机令对手或自身随机3项属性+1；若对手处于能力提升状态则自身受到的攻击伤害减少50%且自身攻击技能附加150点固定伤害，若自身处于能力提升状态则自身造成的攻击伤害提升50%且且自身攻击技能附加150点固定伤害（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3537,
+          "url": "https://api.seerapi.com/v1/pet/3537"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1,
+          50,
+          150,
+          50,
+          150,
+          1
+        ],
+        "effect": {
+          "id": 1131,
+          "url": "https://api.seerapi.com/v1/eid_effect/1131"
+        }
+      },
+      "effect_alias": "1131_3_1_50_150_50_150_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "81172879"
+}

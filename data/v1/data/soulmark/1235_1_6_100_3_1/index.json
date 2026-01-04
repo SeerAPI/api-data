@@ -1,0 +1,49 @@
+{
+  "data": {
+    "946": {
+      "id": 946,
+      "desc": "攻击命中时随机触发1-6道剑光（每道剑光附加100点固定伤害）；战斗阶段结束时若自身体力高于对手则下回合免疫并反弹异常状态，战斗阶段结束时若自身体力低于对手则{吸取}对手最大{体力}的1/3（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击命中时随机触发1-6道剑光，每道剑光<color=#64F9FA>附加</color>100点<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则下回合<color=#64F9FA>免疫并反弹</color>受到的<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3660,
+          "url": "https://api.seerapi.com/v1/pet/3660"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          6,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1235,
+          "url": "https://api.seerapi.com/v1/eid_effect/1235"
+        }
+      },
+      "effect_alias": "1235_1_6_100_3_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "50d84f07"
+}

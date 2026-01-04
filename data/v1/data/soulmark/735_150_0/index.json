@@ -1,0 +1,38 @@
+{
+  "data": {
+    "411": {
+      "id": 411,
+      "desc": "每个战斗阶段结束时{吸取}对手150点{体力}",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3050,
+          "url": "https://api.seerapi.com/v1/pet/3050"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          0
+        ],
+        "effect": {
+          "id": 735,
+          "url": "https://api.seerapi.com/v1/eid_effect/735"
+        }
+      },
+      "effect_alias": "735_150_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7911ba8a"
+}

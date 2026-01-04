@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1369": {
+      "id": 1369,
+      "desc": "自身攻击命中后附加对手已损失技能PP值x30点的固定伤害；每个战斗阶段结束时都有50%的概率令对手随机1个属性技能的PP值归零，未触发则下回合自身受到的攻击伤害减少50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后<color=#64F9FA>附加</color>对手已损失技能PP值x30点的<b>固定伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时50%令对手随机1个属性技能的<b>PP值</b><color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><indent=48>未触发则下回合自身受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4139,
+          "url": "https://api.seerapi.com/v1/pet/4139"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          50,
+          1,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1730,
+          "url": "https://api.seerapi.com/v1/eid_effect/1730"
+        }
+      },
+      "effect_alias": "1730_30_50_1_50_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ee051cde"
+}

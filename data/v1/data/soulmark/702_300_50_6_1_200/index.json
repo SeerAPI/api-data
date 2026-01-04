@@ -1,0 +1,45 @@
+{
+  "data": {
+    "377": {
+      "id": 377,
+      "desc": "造成伤害大于300则50%概率使对手害怕（boss无效）;造成伤害小于300则恢复200HP",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3000,
+          "url": "https://api.seerapi.com/v1/pet/3000"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          50,
+          6,
+          1,
+          200
+        ],
+        "effect": {
+          "id": 702,
+          "url": "https://api.seerapi.com/v1/eid_effect/702"
+        }
+      },
+      "effect_alias": "702_300_50_6_1_200",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1d52d5d4"
+}

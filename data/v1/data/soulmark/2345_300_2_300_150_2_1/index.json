@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1931": {
+      "id": 1931,
+      "desc": "对手使用攻击技能后若自身受到的攻击伤害低于300，则2回合内自身使用技能后附加300固定伤害，附加后若对手体力减少值低于150则对手2回合内属性技能命中效果失效|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能后若自身受到的攻击伤害低于300，则2回合内自身使用技能后<color=#64F9FA>附加</color>300<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>附加后若对手体力减少值低于150则对手2回合内<b>属性技能</b><color=#64F9FA>命中效果失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4733,
+          "url": "https://api.seerapi.com/v1/pet/4733"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          2,
+          300,
+          150,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 2345,
+          "url": "https://api.seerapi.com/v1/eid_effect/2345"
+        }
+      },
+      "effect_alias": "2345_300_2_300_150_2_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c5de708a"
+}

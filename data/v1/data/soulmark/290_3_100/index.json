@@ -1,0 +1,38 @@
+{
+  "data": {
+    "575": {
+      "id": 575,
+      "desc": "对手处于能力下降状态时自身攻击必定致命一击",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3248,
+          "url": "https://api.seerapi.com/v1/pet/3248"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          100
+        ],
+        "effect": {
+          "id": 290,
+          "url": "https://api.seerapi.com/v1/eid_effect/290"
+        }
+      },
+      "effect_alias": "290_3_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "33c8210a"
+}

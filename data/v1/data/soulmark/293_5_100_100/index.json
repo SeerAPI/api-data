@@ -1,0 +1,39 @@
+{
+  "data": {
+    "62": {
+      "id": 62,
+      "desc": "若对手处于冻伤状态，则附加100点伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2568,
+          "url": "https://api.seerapi.com/v1/pet/2568"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          100,
+          100
+        ],
+        "effect": {
+          "id": 293,
+          "url": "https://api.seerapi.com/v1/eid_effect/293"
+        }
+      },
+      "effect_alias": "293_5_100_100",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "ca796d48"
+}

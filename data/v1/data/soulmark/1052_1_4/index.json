@@ -1,0 +1,42 @@
+{
+  "data": {
+    "770": {
+      "id": 770,
+      "desc": "受到攻击时自身双防+1；当回合未受到攻击则恢复自身最大体力的1/4",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3453,
+          "url": "https://api.seerapi.com/v1/pet/3453"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          4
+        ],
+        "effect": {
+          "id": 1052,
+          "url": "https://api.seerapi.com/v1/eid_effect/1052"
+        }
+      },
+      "effect_alias": "1052_1_4",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e46c1eec"
+}

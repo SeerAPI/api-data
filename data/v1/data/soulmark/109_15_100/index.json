@@ -1,0 +1,38 @@
+{
+  "data": {
+    "117": {
+      "id": 117,
+      "desc": "自身每次攻击都有15%概率附加100点固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2703,
+          "url": "https://api.seerapi.com/v1/pet/2703"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          15,
+          100
+        ],
+        "effect": {
+          "id": 109,
+          "url": "https://api.seerapi.com/v1/eid_effect/109"
+        }
+      },
+      "effect_alias": "109_15_100",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b609c8f1"
+}

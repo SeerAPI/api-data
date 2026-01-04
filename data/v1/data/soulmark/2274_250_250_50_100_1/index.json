@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1874": {
+      "id": 1874,
+      "desc": "对手使用技能后吸取对手250点体力，自身使用技能后获得250点护盾；每月21日，阿尔莫尼将会触发灼月之羽：天生所有能力+50、免疫所有异常状态、攻击技能造成的伤害提升100%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能后<color=#64F9FA>吸取</color>对手250点<b>体力</b>，自身使用技能后<color=#64F9FA>获得</color>250点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>限定效果：\r\n<indent=16><sprite=3><indent=32>每月21日，阿尔莫尼将会触发灼月之羽：\r\n<indent=32><sprite=4><indent=48>天生所有<b>能力值</b>+50\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>所有<b>异常状态</b>\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害<color=#64F9FA></b>提升</color>100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4672,
+          "url": "https://api.seerapi.com/v1/pet/4672"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          250,
+          250,
+          50,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2274,
+          "url": "https://api.seerapi.com/v1/eid_effect/2274"
+        }
+      },
+      "effect_alias": "2274_250_250_50_100_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "defa0720"
+}

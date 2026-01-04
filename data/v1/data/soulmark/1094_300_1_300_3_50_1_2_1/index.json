@@ -1,0 +1,48 @@
+{
+  "data": {
+    "806": {
+      "id": 806,
+      "desc": "每次登场第一次攻击必定致命一击；自身攻击造成的伤害低于300则下1次攻击必定致命一击，高于300则减少对手1/3最大体力；自身攻击若打出致命一击则有50%概率使对手失明且自身下1次攻击先制+2（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3499,
+          "url": "https://api.seerapi.com/v1/pet/3499"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          1,
+          300,
+          3,
+          50,
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1094,
+          "url": "https://api.seerapi.com/v1/eid_effect/1094"
+        }
+      },
+      "effect_alias": "1094_300_1_300_3_50_1_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "96ce397e"
+}

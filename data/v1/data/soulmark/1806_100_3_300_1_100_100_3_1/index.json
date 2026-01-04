@@ -1,0 +1,55 @@
+{
+  "data": {
+    "1437": {
+      "id": 1437,
+      "desc": "登场前2回合开始时，令自身当回合内回合类效果无法被消除，同时免疫异常状态和能力下降状态且攻击100%打出致命一击（每场战斗触发3次）；|自身攻击技能命中后，若造成的伤害低于300则下1回合攻击100%打出致命一击；|自身攻击打出致命一击则100%令对手失明，未触发则附加自身最大体力1/3的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限3次）：\r\n<indent=16><sprite=3><indent=32>登场前2回合的回合开始时，令自身当回合：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>回合类效果无法被消除</color>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color><b>异常状态</b>和<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>攻击<color=#64F9FA>100%打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后，若造成的伤害低于300则下1回合攻击<color=#64F9FA>100%打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身攻击打出致命一击则100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>自身最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3866,
+          "url": "https://api.seerapi.com/v1/pet/3866"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          3,
+          300,
+          1,
+          100,
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1806,
+          "url": "https://api.seerapi.com/v1/eid_effect/1806"
+        }
+      },
+      "effect_alias": "1806_100_3_300_1_100_100_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1138,
+        "url": "https://api.seerapi.com/v1/soulmark/1138"
+      }
+    }
+  },
+  "hash": "bf278e62"
+}

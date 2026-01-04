@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1074": {
+      "id": 1074,
+      "desc": "防御能力值和特防能力值在战斗中额外提升20%；受到攻击时5%的概率抵挡当回合受到的攻击伤害（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战斗开始效果：\r\n<indent=16><sprite=3><indent=32>在战斗中，防御值和特防值<color=#64F9FA>提升</color>20%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>5%<color=#64F9FA>抵挡</color>受到的<b>攻击</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3798,
+          "url": "https://api.seerapi.com/v1/pet/3798"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          5
+        ],
+        "effect": {
+          "id": 1376,
+          "url": "https://api.seerapi.com/v1/eid_effect/1376"
+        }
+      },
+      "effect_alias": "1376_20_5",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2e7b0527"
+}

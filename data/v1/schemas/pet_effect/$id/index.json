@@ -30,6 +30,11 @@
           "$ref": "#/$defs/EidEffectInUse",
           "description": "效果"
         },
+        "effect_alias": {
+          "description": "效果别名，命名规则为：[效果名称]_[参数1]_[参数2]_…",
+          "title": "Effect Alias",
+          "type": "string"
+        },
         "star_level": {
           "description": "特性星级",
           "title": "Star Level",
@@ -45,6 +50,7 @@
         "name",
         "desc",
         "effect",
+        "effect_alias",
         "star_level",
         "effect_group"
       ],

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "842": {
+      "id": 842,
+      "desc": "使用攻击技能40%的概率使对手冰封，未触发则下次冰封的概率提升10%，最高70%；使用属性技能则自身下回合先制+1（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3533,
+          "url": "https://api.seerapi.com/v1/pet/3533"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          40,
+          10,
+          70,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1126,
+          "url": "https://api.seerapi.com/v1/eid_effect/1126"
+        }
+      },
+      "effect_alias": "1126_40_10_70_1_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "31cbea41"
+}

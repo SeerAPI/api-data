@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1181": {
+      "id": 1181,
+      "desc": "本场战斗中，自身每受到一次攻击则自身造成的攻击伤害提升25%，最高100%（切换保留，夕颜在出战背包时概率最高150%）；战斗阶段结束时，若当回合自身未受到攻击则{吸取}对手最大{体力}的1/3且下回合自身所有技能先制+1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身每受到一次攻击，自身本场战斗造成的<b>攻击伤害</b>都<color=#64F9FA>提升</color>25%，最高100%，出战背包存在夕颜改为最高150%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，若当回合自身未受到攻击则<color=#64F9FA>吸取</color>对手最大体力的1/3且下回合自身所有技能<b>先制</b>+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3914,
+          "url": "https://api.seerapi.com/v1/pet/3914"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          100,
+          150,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1506,
+          "url": "https://api.seerapi.com/v1/eid_effect/1506"
+        }
+      },
+      "effect_alias": "1506_25_100_150_3_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "e3c6b4a4"
+}

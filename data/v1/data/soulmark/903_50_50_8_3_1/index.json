@@ -1,0 +1,49 @@
+{
+  "data": {
+    "622": {
+      "id": 622,
+      "desc": "自身免疫受到的固定伤害、百分比伤害、能力下降状态且固定伤害和百分比伤害抗性始终视为100%（免疫能力下降状态boss有效，其余效果boss无效）|自身技能无效时，若本次技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒|自身位于出战背包时，己方精灵拥有星皇之赐，己方精灵首发精灵拥有星皇之佑（boss有效）|星皇之怒：以技能50%的威力额外进行1次攻击并执行技能对应的星皇之怒效果，本次攻击拥有原本技能所有的伤害提升效果且不会被其他效果响应，体力因此归0的对手无法触发任何效果（无法触发任何效果boss无效，其他效果boss有效）|星皇之赐：自身每回合行动结束后恢复其最大体力的1/8|星皇之佑：战斗开始时，自身3回合内免疫受到的异常状态和能力下降状态",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>免疫</color>所有<b>固定伤害</b>、<b>百分比伤害</b>\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>免疫</color><b>能力下降状态</b>（boss有效）\r\n<indent=16><sprite=3><indent=32>在战斗中将固定伤害和百分比伤害抗性始终视为100%\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身位于出战背包时，己方精灵将拥有<color=#FFF779>星皇之赐</color>，己方首发精灵拥有<color=#FFF779>星皇之佑</color>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身技能无效时，若本次技能结束后对手体力值高于0，则50%进行一次额外行动以触发<b>星皇之怒</b>\r\n\r\n<indent=0><sprite=5><indent=15>星皇之怒：\r\n<indent=16><sprite=6><indent=32>瀚宇星皇特定技能中的效果，不随技能的命中而直接生效\r\n<indent=16><sprite=6><indent=32>瀚宇星皇进行额外行动以触发星皇之怒时，以所使用技能50%的威力额外进行1次攻击并执行所使用技能的星皇之怒效果\r\n<indent=32><sprite=4><indent=48>本次额外攻击<color=#64F9FA>拥有</color>原本技能所有的<b>伤害提升效果</b>且<color=#64F9FA>不会被其他效果响应</color>（boss有效）\r\n<indent=32><sprite=4><indent=48>体力因此本次额外攻击归0的对手<color=#64F9FA>无法触发任何效果</color>\r\n\r\n<indent=0><sprite=5><indent=15>星皇之赐：\r\n<indent=16><sprite=6><indent=32>自身每回合行动结束后<color=#64F9FA>恢复</color>最大体力的1/8\r\n\r\n<indent=0><sprite=5><indent=15>星皇之佑：\r\n<indent=16><sprite=6><indent=32>自身3回合内<color=#64F9FA>免疫</color>受到的<b>异常状态</b>和<b>能力下降状态</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3291,
+          "url": "https://api.seerapi.com/v1/pet/3291"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          8,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 903,
+          "url": "https://api.seerapi.com/v1/eid_effect/903"
+        }
+      },
+      "effect_alias": "903_50_50_8_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 7,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2d8b53c5"
+}

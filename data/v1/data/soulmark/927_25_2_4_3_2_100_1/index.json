@@ -1,0 +1,47 @@
+{
+  "data": {
+    "646": {
+      "id": 646,
+      "desc": "攻击有25%的概率造成2-4倍伤害，未触发则自身下次攻击附加自身最大体力1/3的固定伤害，同时无视对手双防提升状态；首次登场时附加对手已损失体力1/2的固定伤害，且当回合内攻击伤害翻倍效果触发概率变为100%（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3317,
+          "url": "https://api.seerapi.com/v1/pet/3317"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          2,
+          4,
+          3,
+          2,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 927,
+          "url": "https://api.seerapi.com/v1/eid_effect/927"
+        }
+      },
+      "effect_alias": "927_25_2_4_3_2_100_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "72cb16e9"
+}

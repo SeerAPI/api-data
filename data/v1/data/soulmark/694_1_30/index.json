@@ -1,0 +1,38 @@
+{
+  "data": {
+    "371": {
+      "id": 371,
+      "desc": "攻击附加对手双防值之和30%的固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2986,
+          "url": "https://api.seerapi.com/v1/pet/2986"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          30
+        ],
+        "effect": {
+          "id": 694,
+          "url": "https://api.seerapi.com/v1/eid_effect/694"
+        }
+      },
+      "effect_alias": "694_1_30",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7c0591f2"
+}

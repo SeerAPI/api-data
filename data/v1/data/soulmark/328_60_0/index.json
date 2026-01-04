@@ -1,0 +1,38 @@
+{
+  "data": {
+    "106": {
+      "id": 106,
+      "desc": "每次受到伤害则反弹对手60点固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2672,
+          "url": "https://api.seerapi.com/v1/pet/2672"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          0
+        ],
+        "effect": {
+          "id": 328,
+          "url": "https://api.seerapi.com/v1/eid_effect/328"
+        }
+      },
+      "effect_alias": "328_60_0",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "688cfdbd"
+}

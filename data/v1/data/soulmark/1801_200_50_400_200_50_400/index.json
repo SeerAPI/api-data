@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1430": {
+      "id": 1430,
+      "desc": "自身受到攻击时减少200点攻击伤害，每次增加50点，最高400点；|自身攻击技能命中后附加200点固定伤害，每次增加50点，最高400点（切换下场后效果重置，boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时<color=#64F9FA>减少</color>200点<b>攻击伤害</b>，每次增加50点，最高400点\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后<color=#64F9FA>附加</color>200点<b>固定伤害</b>，每次增加50点，最高400点",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4211,
+          "url": "https://api.seerapi.com/v1/pet/4211"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          50,
+          400,
+          200,
+          50,
+          400
+        ],
+        "effect": {
+          "id": 1801,
+          "url": "https://api.seerapi.com/v1/eid_effect/1801"
+        }
+      },
+      "effect_alias": "1801_200_50_400_200_50_400",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5845a873"
+}

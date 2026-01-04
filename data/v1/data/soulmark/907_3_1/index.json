@@ -1,0 +1,38 @@
+{
+  "data": {
+    "625": {
+      "id": 625,
+      "desc": "回合开始时若自身速度处于能力提升状态，则当回合自身出手后减少对手1/3最大体力；回合开始时若对手处于速度能力提升状态，则回合结束后吸取对手速度能力提升状态并使对手烧伤（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3296,
+          "url": "https://api.seerapi.com/v1/pet/3296"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          1
+        ],
+        "effect": {
+          "id": 907,
+          "url": "https://api.seerapi.com/v1/eid_effect/907"
+        }
+      },
+      "effect_alias": "907_3_1",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "877708d7"
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1495": {
+      "id": 1495,
+      "desc": "回合开始时，若对手处于能力下降状态则对手造成的攻击伤害降低30%，若对手不处于能力下降状态则令对手攻击-1、特攻-1、速度-1；|对手恢复体力时每处于1种能力下降状态则恢复效果减少10%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则对手造成的<b>攻击伤害</b><color=#64F9FA>降低</color>30%\r\n<indent=32><sprite=4><indent=48>若对手不处于能力下降状态则令对手攻击-1、特攻-1、速度-1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手恢复体力时每处于1种能力下降状态则<b>体力恢复效果</b><color=#64F9FA>减少</color>10%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4271,
+          "url": "https://api.seerapi.com/v1/pet/4271"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          1,
+          1,
+          1,
+          1,
+          10,
+          1
+        ],
+        "effect": {
+          "id": 1857,
+          "url": "https://api.seerapi.com/v1/eid_effect/1857"
+        }
+      },
+      "effect_alias": "1857_30_1_1_1_1_10_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "bc64365a"
+}

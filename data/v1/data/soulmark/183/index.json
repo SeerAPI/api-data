@@ -1,33 +1,30 @@
 {
-  "id": 183,
-  "desc": "每次使用攻击技能有50%概率消除对手回合类效果",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2831,
-      "url": "https://api.seerapi.com/v1/pet/2831"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      1,
-      50
-    ],
-    "effect": {
-      "id": 399,
-      "url": "https://api.seerapi.com/v1/eid_effect/399"
+  "data": {
+    "110": {
+      "id": 110,
+      "desc": "反弹对手给予的能力下降",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2681,
+          "url": "https://api.seerapi.com/v1/pet/2681"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 183,
+          "url": "https://api.seerapi.com/v1/eid_effect/183"
+        }
+      },
+      "effect_alias": "183",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 9,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/9"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "3452c154"
+  "hash": "5fe4033f"
 }

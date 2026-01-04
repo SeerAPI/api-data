@@ -1,0 +1,41 @@
+{
+  "data": {
+    "1285": {
+      "id": 1285,
+      "desc": "每回合开始时为自身附加一个抵抗攻击伤害的护盾，数值随着自身的体力的百分比而定（满体力时为200点，体力每降低20%则增加100点），攻击命中对手时若自身存在护盾则100%令对手冻伤（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>获得</color>200点<b>护盾</b>，每损失20%体力多获得100点\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击命中对手时若自身存在护盾则100%<color=#64F9FA>令对手冻伤</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4029,
+          "url": "https://api.seerapi.com/v1/pet/4029"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          20,
+          100,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1623,
+          "url": "https://api.seerapi.com/v1/eid_effect/1623"
+        }
+      },
+      "effect_alias": "1623_200_20_100_100_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b93bbb3b"
+}

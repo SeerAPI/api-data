@@ -1,0 +1,43 @@
+{
+  "data": {
+    "815": {
+      "id": 815,
+      "desc": "使用攻击技能后恢复自身200点体力；使用属性技能则对手有50%的概率进入冰封状态（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3500,
+          "url": "https://api.seerapi.com/v1/pet/3500"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          200,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1100,
+          "url": "https://api.seerapi.com/v1/eid_effect/1100"
+        }
+      },
+      "effect_alias": "1100_200_50_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5b4e79dc"
+}

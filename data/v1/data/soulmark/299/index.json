@@ -1,24 +1,30 @@
 {
-  "id": 299,
-  "desc": "当对手体力大于300时，所有攻击暴击概率提升25%",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2354,
-      "url": "https://api.seerapi.com/v1/pet/2354"
+  "data": {
+    "71": {
+      "id": 71,
+      "desc": "若对手处于害怕状态则烧伤",
+      "desc_formatting_adjustment": null,
+      "pve_effective": null,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2594,
+          "url": "https://api.seerapi.com/v1/pet/2594"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 299,
+          "url": "https://api.seerapi.com/v1/eid_effect/299"
+        }
+      },
+      "effect_alias": "299",
+      "tag": [],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [
-    {
-      "id": 2,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "4c8b6b16"
+  },
+  "hash": "786b254c"
 }

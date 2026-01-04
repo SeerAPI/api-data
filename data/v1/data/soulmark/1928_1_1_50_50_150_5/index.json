@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1569": {
+      "id": 1569,
+      "desc": "回合开始时使自身随机2项能力值+1，自身体力低于对手时转变为随机3项能力值+1；|自身阵亡后为对手附加鬼火缠绕：对手每个战斗阶段结束时受到自身攻击值50%的百分比伤害，且每次受到攻击时，受到的攻击伤害提升50%，最高提升150%，持续5回合（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时使自身随机2项能力值+1，自身体力低于对手时转变为随机3项能力值+1\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后为对手附加5回合的<color=#FFF779>鬼火缠绕</color>\r\n\r\n<indent=0><sprite=5><indent=15>鬼火缠绕：\r\n<indent=16><sprite=6><indent=32>战斗阶段结束时<color=#64F9FA>受到</color>潘克多斯攻击值50%的<b>百分比伤害</b>\r\n<indent=16><sprite=6><indent=32>每次受到攻击后，受到的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，最高提升150%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4344,
+          "url": "https://api.seerapi.com/v1/pet/4344"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          1,
+          50,
+          50,
+          150,
+          5
+        ],
+        "effect": {
+          "id": 1928,
+          "url": "https://api.seerapi.com/v1/eid_effect/1928"
+        }
+      },
+      "effect_alias": "1928_1_1_50_50_150_5",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1053a400"
+}

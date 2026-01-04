@@ -1,0 +1,54 @@
+{
+  "data": {
+    "1781": {
+      "id": 1781,
+      "desc": "自身先出手时吸取对手等同于自身速度值50%的体力，后出手时下回合所有技能先制+2|每回合开始时自身展开千灭雷翼：依次进行如下判断并在满足条件后获得后续效果，己方已有精灵阵亡时千灭雷翼的前n条效果无视触发条件，n为己方已阵亡的精灵数：|1.若自身为满体力则本回合攻击必定打出致命一击|2.若自身体力值低于对手则本回合使用技能时获得300点护盾|3.若自身处于能力提升状态则本回合使用技能时自身全属性+1|4.若对手处于异常状态则本回合使用技能时对手全属性-1|5.若对手处于能力下降状态则本回合使用技能后使对手害怕|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>吸取</color>对手等同于自身速度值50%的<b>体力</b>\r\n<indent=16><sprite=3><indent=32>后出手时下回合所有技能<b>先制</b>+2\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时展开千灭雷翼，自身将依次进行如下判断并在满足条件后获得后续效果；己方已有精灵阵亡时千灭雷翼的前n条效果无视触发条件，n为己方已阵亡的精灵数：\r\n<indent=32><sprite=4><indent=48>若自身为满体力则本回合攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身体力值低于对手则本回合使用技能时<color=#64F9FA>获得</color>300点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则本回合使用技能时令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>若对手处于异常状态则本回合使用技能时<color=#64F9FA>令对手全属性-1</color>\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则本回合使用技能后100%<color=#64F9FA>使对手害怕</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": true,
+      "pet": [
+        {
+          "id": 3705,
+          "url": "https://api.seerapi.com/v1/pet/3705"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          2,
+          300,
+          1,
+          1,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 2174,
+          "url": "https://api.seerapi.com/v1/eid_effect/2174"
+        }
+      },
+      "effect_alias": "2174_50_2_300_1_1_100_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 984,
+        "url": "https://api.seerapi.com/v1/soulmark/984"
+      }
+    }
+  },
+  "hash": "4c5264e1"
+}

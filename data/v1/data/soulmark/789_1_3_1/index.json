@@ -1,0 +1,39 @@
+{
+  "data": {
+    "483": {
+      "id": 483,
+      "desc": "每次自身使用攻击技能或被攻击时，自身先制额外+1，最多+3，先制效果持续到被击败或切换下场（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3139,
+          "url": "https://api.seerapi.com/v1/pet/3139"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 789,
+          "url": "https://api.seerapi.com/v1/eid_effect/789"
+        }
+      },
+      "effect_alias": "789_1_3_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4fc7a036"
+}

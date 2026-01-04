@@ -1,0 +1,38 @@
+{
+  "data": {
+    "2035": {
+      "id": 2035,
+      "desc": "登场时记录对手的系别并令自身3回合内造成的伤害提升50%，若自身克制此记录的系别，则伤害提升效果增加25%，若自身微弱此记录的系别，则伤害提升效果增加50%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场时记录对手的<b>系别</b>并令自身3回合内造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身克制该系别，则该伤害提升效果增加25%\r\n<indent=32><sprite=4><indent=48>若自身微弱该系别，则该伤害提升效果增加50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4844,
+          "url": "https://api.seerapi.com/v1/pet/4844"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2455,
+          "url": "https://api.seerapi.com/v1/eid_effect/2455"
+        }
+      },
+      "effect_alias": "2455_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c9655220"
+}

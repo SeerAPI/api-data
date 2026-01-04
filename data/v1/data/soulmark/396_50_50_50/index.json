@@ -1,0 +1,39 @@
+{
+  "data": {
+    "172": {
+      "id": 172,
+      "desc": "体力小于1/2时50%概率反弹对手的攻击伤害；体力小于1/2时免疫异常状态（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2824,
+          "url": "https://api.seerapi.com/v1/pet/2824"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          50
+        ],
+        "effect": {
+          "id": 396,
+          "url": "https://api.seerapi.com/v1/eid_effect/396"
+        }
+      },
+      "effect_alias": "396_50_50_50",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b8bd6a20"
+}

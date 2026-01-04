@@ -1,0 +1,53 @@
+{
+  "data": {
+    "1142": {
+      "id": 1142,
+      "desc": "每回合开始时解除自身能力下降状态，解除成功则当回合攻击先制+1且造成的伤害提升50%；|自身攻击技能命中后，若对手每处于一种能力提升状态则附加80点固定伤害，若对手不处于能力提升状态则有50%的概率令对手石化，未触发则下回合造成的伤害提升50%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>解除</color>自身<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>解除成功则当回合攻击<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后：\r\n<indent=32><sprite=4><indent=48>若对手每处于一种能力提升状态则<color=#64F9FA>附加</color>80点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则50%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3870,
+          "url": "https://api.seerapi.com/v1/pet/3870"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          50,
+          80,
+          50,
+          50,
+          1
+        ],
+        "effect": {
+          "id": 1460,
+          "url": "https://api.seerapi.com/v1/eid_effect/1460"
+        }
+      },
+      "effect_alias": "1460_1_50_80_50_50_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": {
+        "id": 1449,
+        "url": "https://api.seerapi.com/v1/soulmark/1449"
+      },
+      "from": null
+    }
+  },
+  "hash": "151f5050"
+}

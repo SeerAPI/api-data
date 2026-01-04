@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1603": {
+      "id": 1603,
+      "desc": "自身死亡时若当回合自身未出手则100%重生1次，若成功重生则令对手当回合使用的技能PP值归零且下2回合造成的攻击伤害降低50%，若未成功重生则令对手随机2个技能PP值归零且令己方下只登场精灵全属性+1（每场战斗仅触发1次）；|自身使用技能则恢复自身最大体力的1/3，若自身满体力则附加对手最大体力1/3的百分比伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身死亡时若当回合自身未出手则100%<color=#64F9FA>重生</color>1次\r\n<indent=32><sprite=4><indent=48>若成功重生则令对手当回合使用的技能<b>PP值</b>归零且下2回合造成的<b>攻击伤害</b><color=#64F9FA>降低</color>50%\r\n<indent=32><sprite=4><indent=48>若未成功重生则令对手随机2个技能<b>PP值</b>归零且令己方下只登场精灵<color=#64F9FA>全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能则<color=#64F9FA>恢复</color>自身最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若自身满体力则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4384,
+          "url": "https://api.seerapi.com/v1/pet/4384"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 1965,
+          "url": "https://api.seerapi.com/v1/eid_effect/1965"
+        }
+      },
+      "effect_alias": "1965_3_3_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "184a70af"
+}

@@ -1,0 +1,38 @@
+{
+  "data": {
+    "521": {
+      "id": 521,
+      "desc": "若对手处于烧伤或冻伤状态，则攻击技能命中时使其80%概率被冰封（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3203,
+          "url": "https://api.seerapi.com/v1/pet/3203"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          80,
+          1
+        ],
+        "effect": {
+          "id": 827,
+          "url": "https://api.seerapi.com/v1/eid_effect/827"
+        }
+      },
+      "effect_alias": "827_80_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "53c3a986"
+}

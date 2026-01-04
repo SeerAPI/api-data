@@ -1,0 +1,49 @@
+{
+  "data": {
+    "820": {
+      "id": 820,
+      "desc": "首次登场后自身第1次成功使用的技能命中后100%令对手进入睡眠状态，未触发则消除对手回合类效果，那之后从自身第3次成功使用的技能起，每次技能命中后100%令对手进入睡眠状态；|之后每次登场后从自身第2次成功使用的技能起，每次技能命中后100%令对手进入睡眠状态；|回合开始时令自身随机3项能力值+1，若对手为雄性则额外附加给对手相同属性的能力下降（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3508,
+          "url": "https://api.seerapi.com/v1/pet/3508"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          100,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1105,
+          "url": "https://api.seerapi.com/v1/eid_effect/1105"
+        }
+      },
+      "effect_alias": "1105_1_100_1_1_1",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2abe875d"
+}

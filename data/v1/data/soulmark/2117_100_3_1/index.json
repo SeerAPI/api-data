@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1726": {
+      "id": 1726,
+      "desc": "回合开始时若对手不处于烧伤状态则当回合自身攻击技能命中前100%令对手混乱，未触发则无视攻击免疫效果；|战斗阶段结束时若对手处于烧伤状态则{吸取}对手最大{体力}的1/3，之后若未击败对手则额外令对手当回合使用类型的技能PP值归零|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手不处于烧伤状态则当回合自身攻击技能命中前100%<color=#64F9FA>令对手混乱</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>无视</color><b>攻击免疫效果</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若对手处于烧伤状态则<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>然后若未击败对手则额外令对手当回合所使用技能同类型的技能<b>PP值</b><color=#64F9FA>归零</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4514,
+          "url": "https://api.seerapi.com/v1/pet/4514"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 2117,
+          "url": "https://api.seerapi.com/v1/eid_effect/2117"
+        }
+      },
+      "effect_alias": "2117_100_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "2c14b305"
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "710": {
+      "id": 710,
+      "desc": "自身打出致命一击时附加300点固定伤害；初始致命概率30%，每回合致命概率增加10%，最高100%（下场保留）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3395,
+          "url": "https://api.seerapi.com/v1/pet/3395"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          30,
+          10,
+          100
+        ],
+        "effect": {
+          "id": 995,
+          "url": "https://api.seerapi.com/v1/eid_effect/995"
+        }
+      },
+      "effect_alias": "995_300_30_10_100",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cd2b23d8"
+}

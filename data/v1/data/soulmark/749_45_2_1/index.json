@@ -1,0 +1,39 @@
+{
+  "data": {
+    "430": {
+      "id": 430,
+      "desc": "每回合开始时，都有45%的概率使自身先制额外+2（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3090,
+          "url": "https://api.seerapi.com/v1/pet/3090"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          45,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 749,
+          "url": "https://api.seerapi.com/v1/eid_effect/749"
+        }
+      },
+      "effect_alias": "749_45_2_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "88fa5638"
+}

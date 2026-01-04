@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1451": {
+      "id": 1451,
+      "desc": "自身每次登场后首次使用攻击技能20%的概率伤害提升200%，之后每次使用触发概率增加10%，伤害提升百分比降低50%（最多叠加3次），本场战斗中自身每击败一只精灵则效果重置（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场后首次使用攻击技能有20%造成的<b>攻击伤害</b><color=#64F9FA>提升</color>200%\r\n<indent=32><sprite=4><indent=48>之后每次使用触发概率增加10%，伤害提升百分比降低50%，最多叠加3次，本场战斗中自身每击败一只精灵则效果重置",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4229,
+          "url": "https://api.seerapi.com/v1/pet/4229"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          20,
+          200,
+          10,
+          50
+        ],
+        "effect": {
+          "id": 1818,
+          "url": "https://api.seerapi.com/v1/eid_effect/1818"
+        }
+      },
+      "effect_alias": "1818_20_200_10_50",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "cf255b76"
+}

@@ -1,0 +1,45 @@
+{
+  "data": {
+    "706": {
+      "id": 706,
+      "desc": "每回合自身技能附加对手当前体力1/3的固定伤害，当回合自身使用的是攻击技能且造成的伤害小于200则下回合变为附加对手当前体力1/2的固定伤害且自身所有技能先制+2（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3391,
+          "url": "https://api.seerapi.com/v1/pet/3391"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          200,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 988,
+          "url": "https://api.seerapi.com/v1/eid_effect/988"
+        }
+      },
+      "effect_alias": "988_3_200_2_2_1",
+      "tag": [
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7a8375cb"
+}

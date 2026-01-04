@@ -1,0 +1,51 @@
+{
+  "data": {
+    "1309": {
+      "id": 1309,
+      "desc": "后出手时所有技能附加自身防御值和特防值总和25%的固定伤害，若附加的固定伤害高于250则额外附加对手最大体力25%的固定伤害；回合开始时，若自身体力低于对手则当回合50%闪避对手攻击，若自身体力高于对手则当回合攻击50%打出致命一击，未触发则战斗阶段结束时令对手所有PP值-1（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>后出手时所有技能<color=#64F9FA>附加</color>自身防御值和特防值总和25%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若附加的固定伤害高于250则额外<color=#64F9FA>附加</color>对手最大体力25%的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合50%<color=#64F9FA>闪避</color>对手<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合攻击50%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则战斗阶段结束时令对手所有<b>PP值</b>-1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4061,
+          "url": "https://api.seerapi.com/v1/pet/4061"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          25,
+          250,
+          25,
+          50,
+          50,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 1650,
+          "url": "https://api.seerapi.com/v1/eid_effect/1650"
+        }
+      },
+      "effect_alias": "1650_25_250_25_50_50_1_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5853d72d"
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1702": {
+      "id": 1702,
+      "desc": "对手攻击技能命中前100%令对手命中-1，然后若对手不处于能力下降状态则2回合内自身攻击必定打出致命一击；自身打出致命一击时无视对手的特攻格挡效果（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手攻击技能命中前100%令对手命中-1\r\n<indent=32><sprite=4><indent=48>然后若对手不处于能力下降状态则2回合内自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身打出致命一击时<color=#64F9FA>无视</color>对手的<b>特攻格挡</b>效果",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4491,
+          "url": "https://api.seerapi.com/v1/pet/4491"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1,
+          2
+        ],
+        "effect": {
+          "id": 2091,
+          "url": "https://api.seerapi.com/v1/eid_effect/2091"
+        }
+      },
+      "effect_alias": "2091_100_1_2",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "5d1730f6"
+}

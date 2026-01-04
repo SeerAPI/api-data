@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1223": {
+      "id": 1223,
+      "desc": "在战斗中增加自身60点特攻值、40点防御值、40点特防值；自身受到攻击时80%令对手烧伤，若当前体力低于对手则概率提升至100%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在战斗中自身提升60点特攻值、40点防御值、40点特防值\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到攻击时80%<color=#64F9FA>令对手烧伤</color>，若当前体力低于对手则概率提升至100%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2949,
+          "url": "https://api.seerapi.com/v1/pet/2949"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          40,
+          40,
+          80,
+          100,
+          1
+        ],
+        "effect": {
+          "id": 1558,
+          "url": "https://api.seerapi.com/v1/eid_effect/1558"
+        }
+      },
+      "effect_alias": "1558_60_40_40_80_100_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b84d6c4d"
+}

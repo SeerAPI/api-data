@@ -1,0 +1,47 @@
+{
+  "data": {
+    "1460": {
+      "id": 1460,
+      "desc": "自身使用属性技能则触发零式诡雷：对手下1次使用技能则在战斗阶段结束时受到200-300点固定伤害；|自身攻击技能命中则触发零式强袭：附加造成伤害值50%的固定伤害且恢复等量体力，若造成的攻击伤害低于300则令对手下回合属性技能失效，若造成的攻击伤害高于300则令对手下回合攻击技能失效（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身使用属性技能则触发零式诡雷：\r\n<indent=32><sprite=4><indent=48>对手下1次使用技能则在战斗阶段结束时<color=#64F9FA>受到</color>200-300点<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中则触发零式强袭：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>造成伤害值50%的<b>固定伤害</b>且<color=#64F9FA>恢复</color>等量体力\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害低于300则对手下回合<b>属性技能</b><color=#64F9FA>失效</color>\r\n<indent=32><sprite=4><indent=48>若造成的攻击伤害高于300则对手下回合<b>攻击技能</b><color=#64F9FA>失效</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4241,
+          "url": "https://api.seerapi.com/v1/pet/4241"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          300,
+          1
+        ],
+        "effect": {
+          "id": 1828,
+          "url": "https://api.seerapi.com/v1/eid_effect/1828"
+        }
+      },
+      "effect_alias": "1828_300_300_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "6770fa7d"
+}

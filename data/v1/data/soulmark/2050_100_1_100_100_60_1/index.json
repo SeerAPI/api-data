@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1665": {
+      "id": 1665,
+      "desc": "每次登场首战斗阶段结束时100%令对手沉默，未触发则自身闪避下1次威力不高于100的攻击技能；|自身使用攻击技能造成伤害前若对手处于沉默状态则100%令对手害怕，若对手不处于沉默状态则当次攻击造成的伤害提升60%|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>每次登场首战斗阶段结束时100%<color=#64F9FA>令对手沉默</color>\r\n<indent=32><sprite=4><indent=48>未触发则自身<color=#64F9FA>闪避</color>下1次威力不高于100的<b>攻击技能</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身的攻击技能造成伤害前：\r\n<indent=32><sprite=4><indent=48>若对手处于沉默状态则100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于沉默状态则当次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>60%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4449,
+          "url": "https://api.seerapi.com/v1/pet/4449"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          1,
+          100,
+          100,
+          60,
+          1
+        ],
+        "effect": {
+          "id": 2050,
+          "url": "https://api.seerapi.com/v1/eid_effect/2050"
+        }
+      },
+      "effect_alias": "2050_100_1_100_100_60_1",
+      "tag": [
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "33ecbda1"
+}

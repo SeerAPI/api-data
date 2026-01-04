@@ -1,0 +1,44 @@
+{
+  "data": {
+    "1147": {
+      "id": 1147,
+      "desc": "每回合开始时令敌我双方全属性+1，每个战斗阶段结束时消除敌我双方能力提升状态；自身攻击技能命中后，对手每处于1种能力提升状态则造成的攻击伤害提升10%且进入睡眠的概率提升10%（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>令双方全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>消除</color>敌我双方<b>能力提升状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后，对手每处于1种能力提升状态则自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%且10%<color=#64F9FA>令对手睡眠</color>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3878,
+          "url": "https://api.seerapi.com/v1/pet/3878"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          10,
+          10,
+          1
+        ],
+        "effect": {
+          "id": 1465,
+          "url": "https://api.seerapi.com/v1/eid_effect/1465"
+        }
+      },
+      "effect_alias": "1465_1_10_10_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "772443e6"
+}

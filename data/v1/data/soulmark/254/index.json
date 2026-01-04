@@ -1,43 +1,39 @@
 {
-  "id": 254,
-  "desc": "攻击伤害提升2%，受到伤害减少2%  组合加成已激活",
-  "desc_formatting_adjustment": null,
-  "pve_effective": true,
-  "intensified": true,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2190,
-      "url": "https://api.seerapi.com/v1/pet/2190"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      2,
-      2
-    ],
-    "effect": {
-      "id": 203,
-      "url": "https://api.seerapi.com/v1/eid_effect/203"
+  "data": {
+    "245": {
+      "id": 245,
+      "desc": "受到所有伤害减少5%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2326,
+          "url": "https://api.seerapi.com/v1/pet/2326"
+        },
+        {
+          "id": 2327,
+          "url": "https://api.seerapi.com/v1/pet/2327"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 254,
+          "url": "https://api.seerapi.com/v1/eid_effect/254"
+        }
+      },
+      "effect_alias": "254",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 2,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
-    },
-    {
-      "id": 4,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
-    }
-  ],
-  "intensified_to": {
-    "id": 255,
-    "url": "https://api.seerapi.com/v1/soulmark/255"
-  },
-  "from": {
-    "id": 253,
-    "url": "https://api.seerapi.com/v1/soulmark/253"
-  },
-  "hash": "65f77161"
+  "hash": "87355347"
 }

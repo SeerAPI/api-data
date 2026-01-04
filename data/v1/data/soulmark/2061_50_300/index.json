@@ -1,0 +1,46 @@
+{
+  "data": {
+    "1674": {
+      "id": 1674,
+      "desc": "造成的攻击伤害提升50%，自身是对手天敌时增伤效果翻倍；自身每次登场时获得300点护盾，每次下场后令己方下只精灵登场时获得300点护罩（boss有效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%，自身是对手天敌时增伤效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场时<color=#64F9FA>获得</color>300点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>下场效果：\r\n<indent=16><sprite=3><indent=32>每次下场后令己方下只精灵登场时<color=#64F9FA>获得</color>300点<b>护罩</b>",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4462,
+          "url": "https://api.seerapi.com/v1/pet/4462"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          300
+        ],
+        "effect": {
+          "id": 2061,
+          "url": "https://api.seerapi.com/v1/eid_effect/2061"
+        }
+      },
+      "effect_alias": "2061_50_300",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "345c95ab"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1505": {
+      "id": 1505,
+      "desc": "回合开始时若自身处于异常状态则为自身附加一根驭偶丝线(最高可叠加5次，切换下场后效果重置)；|战斗阶段结束时，若对手处于能力提升状态则反转对手能力提升状态，若对手不处于能力提升状态则令对手随机2项属性-2，并将该属性附加给自己（boss无效）|驭偶丝线：造成的攻击伤害提升20%，受到的攻击伤害降低10%",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于异常状态则为自身附加1根<b>驭偶丝线</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则<color=#64F9FA>反转</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则令对手随机2项属性-2，并将该属性附加给自己\r\n\r\n<indent=0><sprite=5><indent=16>驭偶丝线（上限5根）：\r\n<indent=16><sprite=6><indent=32>每有1根，自身的：\r\n<indent=32><sprite=4><indent=48>造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%\r\n<indent=32><sprite=4><indent=48>受到的<b>攻击伤害</b><color=#64F9FA>降低</color>10%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4284,
+          "url": "https://api.seerapi.com/v1/pet/4284"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          5,
+          2,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1868,
+          "url": "https://api.seerapi.com/v1/eid_effect/1868"
+        }
+      },
+      "effect_alias": "1868_5_2_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "54849172"
+}

@@ -1,46 +1,35 @@
 {
-  "id": 742,
-  "desc": "回合开始时50%令自身攻击+1、特攻+1、速度+1，未触发则令对手攻击-1、特攻-1、速度-1；自身每处于一种能力提升状态则攻击附加80点固定伤害，对手每处于一种能力下降状态则回合结束自身恢复80点体力（BOSS无效）",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 3424,
-      "url": "https://api.seerapi.com/v1/pet/3424"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      50,
-      1,
-      1,
-      1,
-      80,
-      80,
-      1
-    ],
-    "effect": {
-      "id": 1025,
-      "url": "https://api.seerapi.com/v1/eid_effect/1025"
+  "data": {
+    "422": {
+      "id": 422,
+      "desc": "造成的伤害提升30%",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3071,
+          "url": "https://api.seerapi.com/v1/pet/3071"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 742,
+          "url": "https://api.seerapi.com/v1/eid_effect/742"
+        }
+      },
+      "effect_alias": "742",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 6,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
-    },
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    },
-    {
-      "id": 13,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/13"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "af6ee718"
+  "hash": "3998b0a6"
 }

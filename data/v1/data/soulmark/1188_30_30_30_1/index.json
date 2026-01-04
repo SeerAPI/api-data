@@ -1,0 +1,44 @@
+{
+  "data": {
+    "904": {
+      "id": 904,
+      "desc": "增加30点防御上限和30点特防上限；使用攻击技能附加自身双防总和30%的固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32><color=#64F9FA>增加</color>30点<b>防御值</b>和30点<b>特防值</b>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>使用攻击技能<color=#64F9FA>附加</color>自身双防总和30%的<b>百分比伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3611,
+          "url": "https://api.seerapi.com/v1/pet/3611"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          30,
+          30,
+          1
+        ],
+        "effect": {
+          "id": 1188,
+          "url": "https://api.seerapi.com/v1/eid_effect/1188"
+        }
+      },
+      "effect_alias": "1188_30_30_30_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "df8dd6dd"
+}

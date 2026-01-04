@@ -1,0 +1,43 @@
+{
+  "data": {
+    "1955": {
+      "id": 1955,
+      "desc": "自身打出致命一击后，若体力上限大于100则减少自身等同于自身初始体力上限1/8的体力上限，若体力上限不大于100则消耗自身全部体力并令对手失明，且本场战斗中己方所有精灵登场时为自身附加星哲、星赐中随机一种异常状态2回合, 战斗阶段结束时，上述效果每减少过1点体力上限自身恢复1点体力（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身打出致命一击后：\r\n<indent=32><sprite=4><indent=48>若体力上限大于100则<color=#64F9FA>减少</color>自身等同于自身初始体力上限1/8的<b>体力上限</b>\r\n<indent=32><sprite=4><indent=48>若体力上限不大于100则消耗自身全部体力并<color=#64F9FA>令对手失明</color>，且本场战斗中己方所有精灵登场时<color=#64F9FA>受到</color>星哲、星赐中随机一种异常状态2回合\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，上述效果每减少过1点体力上限自身<color=#64F9FA>恢复</color>1点<b>体力</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4751,
+          "url": "https://api.seerapi.com/v1/pet/4751"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          8,
+          100,
+          2,
+          1,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2371,
+          "url": "https://api.seerapi.com/v1/eid_effect/2371"
+        }
+      },
+      "effect_alias": "2371_100_8_100_2_1_1_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "3a3273b6"
+}

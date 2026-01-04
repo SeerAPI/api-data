@@ -1,41 +1,35 @@
 {
-  "id": 287,
-  "desc": "法里德专属特性 进化 防御+10 特防+10 体力+25",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2300,
-      "url": "https://api.seerapi.com/v1/pet/2300"
-    },
-    {
-      "id": 2301,
-      "url": "https://api.seerapi.com/v1/pet/2301"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      0,
-      10,
-      0,
-      10,
-      0,
-      25
-    ],
-    "effect": {
-      "id": 247,
-      "url": "https://api.seerapi.com/v1/eid_effect/247"
+  "data": {
+    "49": {
+      "id": 49,
+      "desc": "得到一块护盾，免疫一次异常状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2536,
+          "url": "https://api.seerapi.com/v1/pet/2536"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 287,
+          "url": "https://api.seerapi.com/v1/eid_effect/287"
+        }
+      },
+      "effect_alias": "287",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "d0435372"
+  "hash": "edde0441"
 }

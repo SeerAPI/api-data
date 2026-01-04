@@ -1,0 +1,45 @@
+{
+  "data": {
+    "199": {
+      "id": 199,
+      "desc": "先出手时2回合内免疫异常状态；后出手时立即恢复1/3体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2861,
+          "url": "https://api.seerapi.com/v1/pet/2861"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          3
+        ],
+        "effect": {
+          "id": 617,
+          "url": "https://api.seerapi.com/v1/eid_effect/617"
+        }
+      },
+      "effect_alias": "617_2_3",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": {
+        "id": 436,
+        "url": "https://api.seerapi.com/v1/soulmark/436"
+      },
+      "from": null
+    }
+  },
+  "hash": "d9ea79ac"
+}

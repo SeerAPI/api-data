@@ -1,0 +1,44 @@
+{
+  "data": {
+    "385": {
+      "id": 385,
+      "desc": "每回合自身攻击、速度+1;先出手时使用攻击技能造成的伤害不少于280",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3015,
+          "url": "https://api.seerapi.com/v1/pet/3015"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          280
+        ],
+        "effect": {
+          "id": 710,
+          "url": "https://api.seerapi.com/v1/eid_effect/710"
+        }
+      },
+      "effect_alias": "710_1_2_1_1_1_2_1_280",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "259c2970"
+}

@@ -1,0 +1,49 @@
+{
+  "data": {
+    "794": {
+      "id": 794,
+      "desc": "若自身受到的攻击伤害大于300点则消除对手能力提升状态且下回合受到的伤害减少250点，若自身受到的攻击伤害小于300点则消除对手回合类效果且战斗阶段结束时{吸取}对手250点{体力}（BOSS无效)",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3479,
+          "url": "https://api.seerapi.com/v1/pet/3479"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          300,
+          250,
+          300,
+          250,
+          1
+        ],
+        "effect": {
+          "id": 1076,
+          "url": "https://api.seerapi.com/v1/eid_effect/1076"
+        }
+      },
+      "effect_alias": "1076_300_250_300_250_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "78941c5c"
+}

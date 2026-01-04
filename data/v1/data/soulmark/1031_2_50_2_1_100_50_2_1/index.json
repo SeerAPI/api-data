@@ -1,0 +1,52 @@
+{
+  "data": {
+    "748": {
+      "id": 748,
+      "desc": "当回合受到的攻击伤害高于自身当前体力的1/2时，减免该伤害的50%；|回合开始时若自身体力低于1/2则当回合自身所有技能先制+1且造成的伤害提高100%，同时造成伤害的50%恢复自身体力；|回合结束后若自身体力高于1/2则直至下回合结束自身免疫并反弹异常状态（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3432,
+          "url": "https://api.seerapi.com/v1/pet/3432"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          2,
+          50,
+          2,
+          1,
+          100,
+          50,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 1031,
+          "url": "https://api.seerapi.com/v1/eid_effect/1031"
+        }
+      },
+      "effect_alias": "1031_2_50_2_1_100_50_2_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "b3054de8"
+}

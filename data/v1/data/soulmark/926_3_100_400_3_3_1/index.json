@@ -1,0 +1,50 @@
+{
+  "data": {
+    "643": {
+      "id": 643,
+      "desc": "战斗阶段结束时若对手体力高于当回合开始时，则下回合自身攻击先制+3且造成的伤害翻倍（BOSS无效）；战斗阶段结束时若当回合自身体力减少量大于400则恢复自身1/3最大体力并造成等量固定伤害（BOSS无效）；自身先出手则在战斗阶段结束时解除自身异常状态，后出手则附加自身当前体力1/3的固定伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3315,
+          "url": "https://api.seerapi.com/v1/pet/3315"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          3,
+          100,
+          400,
+          3,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 926,
+          "url": "https://api.seerapi.com/v1/eid_effect/926"
+        }
+      },
+      "effect_alias": "926_3_100_400_3_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "8e088197"
+}

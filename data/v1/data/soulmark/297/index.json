@@ -1,24 +1,35 @@
 {
-  "id": 297,
-  "desc": "光之虎王专属特性 体力+10 特防+10 防御+5",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": false,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2355,
-      "url": "https://api.seerapi.com/v1/pet/2355"
+  "data": {
+    "68": {
+      "id": 68,
+      "desc": "在战斗中 攻击和特攻等于其中较高的一项；|登场3回合内无视对手的防御和特防能力提升状态",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2581,
+          "url": "https://api.seerapi.com/v1/pet/2581"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 297,
+          "url": "https://api.seerapi.com/v1/eid_effect/297"
+        }
+      },
+      "effect_alias": "297",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
-  ],
-  "effect": null,
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "d7a59ef"
+  },
+  "hash": "2bee68a0"
 }

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "1222": {
+      "id": 1222,
+      "desc": "首次登场当回合，若对手使用的技能为攻击技能则对手下回合使用属性技能无效，若对手使用的技能为属性技能则对手下回合使用攻击技能无效；自身攻击命中后则50%令对手害怕，未触发则50%令对手麻痹，均未触发则附加200点固定伤害（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场当回合：\r\n<indent=32><sprite=4><indent=48>若对手使用攻击技能则对手下回合<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>若对手使用属性技能则对手下回合<b>攻击技能</b><color=#64F9FA>无效</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后则50%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则50%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>附加</color>200点<b>固定伤害</b>",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3959,
+          "url": "https://api.seerapi.com/v1/pet/3959"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          50,
+          50,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 1557,
+          "url": "https://api.seerapi.com/v1/eid_effect/1557"
+        }
+      },
+      "effect_alias": "1557_50_50_200_1",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1c497ce4"
+}

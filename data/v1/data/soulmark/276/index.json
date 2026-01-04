@@ -1,41 +1,35 @@
 {
-  "id": 276,
-  "desc": "博比特专属特性进化体力+10攻击+15防御+5速度+10",
-  "desc_formatting_adjustment": null,
-  "pve_effective": false,
-  "intensified": true,
-  "is_adv": false,
-  "pet": [
-    {
-      "id": 2265,
-      "url": "https://api.seerapi.com/v1/pet/2265"
-    },
-    {
-      "id": 2266,
-      "url": "https://api.seerapi.com/v1/pet/2266"
-    }
-  ],
-  "effect": {
-    "effect_args": [
-      15,
-      5,
-      0,
-      0,
-      10,
-      10
-    ],
-    "effect": {
-      "id": 247,
-      "url": "https://api.seerapi.com/v1/eid_effect/247"
+  "data": {
+    "30": {
+      "id": 30,
+      "desc": "登场3回合内受到攻击则对手能力增强效果消失",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 2499,
+          "url": "https://api.seerapi.com/v1/pet/2499"
+        }
+      ],
+      "effect": {
+        "effect_args": null,
+        "effect": {
+          "id": 276,
+          "url": "https://api.seerapi.com/v1/eid_effect/276"
+        }
+      },
+      "effect_alias": "276",
+      "tag": [
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
     }
   },
-  "tag": [
-    {
-      "id": 12,
-      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
-    }
-  ],
-  "intensified_to": null,
-  "from": null,
-  "hash": "22e220c8"
+  "hash": "e93d0e19"
 }

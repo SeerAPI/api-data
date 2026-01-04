@@ -1,0 +1,38 @@
+{
+  "data": {
+    "547": {
+      "id": 547,
+      "desc": "当回合若自身先出手，则战斗阶段结束时双防+1；当回合若自身后出手，则战斗阶段结束时特攻+1、速度+1",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3222,
+          "url": "https://api.seerapi.com/v1/pet/3222"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 843,
+          "url": "https://api.seerapi.com/v1/eid_effect/843"
+        }
+      },
+      "effect_alias": "843_1_0",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "127343ac"
+}

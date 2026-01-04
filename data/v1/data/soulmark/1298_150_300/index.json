@@ -1,0 +1,42 @@
+{
+  "data": {
+    "1001": {
+      "id": 1001,
+      "desc": "战斗阶段结束时随机恢复自身150-300点体力；首次登场令自身首回合受到的攻击伤害转化为自身体力（boss有效，每场战斗仅触发1次）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时随机<color=#64F9FA>恢复</color>自身150-300点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>首次登场时1回合内将自身受到的<b>攻击伤害</b><color=#64F9FA>转化</color>为体力恢复",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3723,
+          "url": "https://api.seerapi.com/v1/pet/3723"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          150,
+          300
+        ],
+        "effect": {
+          "id": 1298,
+          "url": "https://api.seerapi.com/v1/eid_effect/1298"
+        }
+      },
+      "effect_alias": "1298_150_300",
+      "tag": [
+        {
+          "id": 1,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/1"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "1df4b07d"
+}

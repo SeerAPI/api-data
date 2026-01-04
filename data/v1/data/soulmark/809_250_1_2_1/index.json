@@ -1,0 +1,47 @@
+{
+  "data": {
+    "529": {
+      "id": 529,
+      "desc": "先出手时，对手当回合技能无效；后出手时，当回合回合结束后增加250点护盾并使自身下回合自身先制+2（BOSS无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": true,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3170,
+          "url": "https://api.seerapi.com/v1/pet/3170"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          250,
+          1,
+          2,
+          1
+        ],
+        "effect": {
+          "id": 809,
+          "url": "https://api.seerapi.com/v1/eid_effect/809"
+        }
+      },
+      "effect_alias": "809_250_1_2_1",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 501,
+        "url": "https://api.seerapi.com/v1/soulmark/501"
+      }
+    }
+  },
+  "hash": "7360c0b6"
+}

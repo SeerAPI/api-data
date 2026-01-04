@@ -1,0 +1,50 @@
+{
+  "data": {
+    "1839": {
+      "id": 1839,
+      "desc": "回合开始时，若对手不处于异常状态则当回合自身先制+1且使用技能后吸取对手等同于携带的攻击技能威力之和的体力，若对手不处于能力下降状态则令对手速度-3且当回合自身受到的技能伤害不会超过携带的攻击技能威力之和|对手使用技能后，若自身处于能力下降状态则令对手寄生，未触发则恢复200点体力，若自身处于异常状态则令对手流血，未触发则自身所处异常状态回合数-1，最多减少至1，同时处于能力下降、异常状态时，上述所有未触发效果翻倍|（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>若对手不处于异常状态则当回合自身<b>先制</b>+1且使用技能后<color=#64F9FA>吸取</color>对手等同于携带的攻击技能威力之和的体力\r\n<indent=16><sprite=3><indent=32>若对手不处于能力下降状态则令对手速度-3且当回合自身受到的<b>技能伤害</b><color=#64F9FA>不会超过</color><b>携带的攻击技能</b>威力之和\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能后：\r\n<indent=32><sprite=4><indent=48>若自身处于能力下降状态则<color=#64F9FA>令对手寄生</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>恢复</color>200点体力\r\n<indent=32><sprite=4><sprite=4><sprite=4><indent=80>自身同时还处于异常状态时，效果翻倍\r\n<indent=32><sprite=4><indent=48>若自身处于异常状态则<color=#64F9FA>令对手流血</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则自身所处异常状态回合数-1，最多减少至1\r\n<indent=32><sprite=4><sprite=4><sprite=4><indent=80>自身同时还处于能力下降状态时，效果翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4633,
+          "url": "https://api.seerapi.com/v1/pet/4633"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          3,
+          1,
+          1,
+          200,
+          1
+        ],
+        "effect": {
+          "id": 2238,
+          "url": "https://api.seerapi.com/v1/eid_effect/2238"
+        }
+      },
+      "effect_alias": "2238_1_3_1_1_200_1",
+      "tag": [
+        {
+          "id": 12,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "7adcc99f"
+}
