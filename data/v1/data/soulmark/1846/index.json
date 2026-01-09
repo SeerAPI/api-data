@@ -1,7 +1,7 @@
 {
   "id": 1846,
   "desc": "回合开始时，若自身体力高于对手则当回合免疫受到的弱化类异常状态且使对手先制-1，若自身体力低于对手则当回合免疫受到的异常状态且受到伤害减少30%|自身造成的攻击伤害高于300时下回合技能不受PP值限制；自身技能结束时若该技能PP值为0，则本场战斗自身攻击技能造成的伤害不低于150点，之后每次满足条件都使伤害阈值提升150点，最高600点（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合<color=#64F9FA>免疫</color>受到的<b>弱化类异常状态</b>且使对手<b>先制</b>-1\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且受到伤害<color=#64F9FA>减少</color>30%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300时下回合技能<color=#64F9FA>不受PP值限制</color>\r\n<indent=16><sprite=3><indent=32>若自身使用技能后该技能PP值为0，则本场战斗自身<b>攻击技能</b>造成的伤害不低于150点\r\n<indent=32><sprite=4><indent=48>之后每次满足条件都使伤害阈值提升150点，最高600点",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合<color=#64F9FA>免疫</color>受到的<b>弱化类异常状态</b>且使对手<b>先制</b>-1\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合<color=#64F9FA>免疫</color>受到的<b>异常状态</b>且受到的<b>攻击伤害</b><color=#64F9FA>减少</color>30%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300时下回合技能<color=#64F9FA>不受PP值限制</color>\r\n<indent=16><sprite=3><indent=32>若自身技能结束后该技能PP值为0，则本场战斗自身<b>攻击技能</b>造成的伤害不低于150点\r\n<indent=32><sprite=4><indent=48>之后每次满足条件都使伤害阈值提升150点，最高600点",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -44,5 +44,5 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "72362634"
+  "hash": "9ce5fa1"
 }

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2044": {
+      "id": 2044,
+      "desc": "自身登场之后，奇数次的攻击技能命中后附加自身防御值50%的百分比伤害，偶数次的攻击技能命中后附加自身特防值50%的百分比伤害|每场战斗自身首次受到致死伤害时保留1点体力，防御值与特防值降低50%并主动恢复等量体力",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4857,
+          "url": "https://api.seerapi.com/v1/pet/4857"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2465,
+          "url": "https://api.seerapi.com/v1/eid_effect/2465"
+        }
+      },
+      "effect_alias": "2465_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "647dfb74"
+}

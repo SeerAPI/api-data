@@ -4,7 +4,7 @@
       "id": 691,
       "desc": "回合开始时若自身体力低于对手则所有技能先制+1，战斗阶段结束时若自身体力高于对手则下回合自身攻击附加对手最大体力1/3的固定伤害；每次使用技能未击败对手则自身下次攻击造成的伤害提高50%,每次击败对手则自身攻击+2（BOSS无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手则所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力高于对手则下回合自身<b>攻击技能</b><color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>未击败对手时，自身下次攻击造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=16><sprite=3><indent=32>击败对手时，自身攻击+2",
-      "pve_effective": true,
+      "pve_effective": false,
       "intensified": false,
       "is_adv": false,
       "pet": [
@@ -45,5 +45,5 @@
       "from": null
     }
   },
-  "hash": "2d3b155b"
+  "hash": "f21466bf"
 }

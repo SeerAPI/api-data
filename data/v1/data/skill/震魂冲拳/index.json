@@ -1,0 +1,62 @@
+{
+  "data": {
+    "38216": {
+      "id": 38216,
+      "name": "震魂冲拳",
+      "power": 85,
+      "max_pp": 10,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 13,
+        "url": "https://api.seerapi.com/v1/element_type_combination/13"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，若消除成功，则对手害怕",
+          "args": [
+            6
+          ],
+          "effect": {
+            "id": 453,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/453"
+          }
+        },
+        {
+          "info": "先出手时50%的概率打出致命一击，未触发则令对手全属性-1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1465,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1465"
+          }
+        },
+        {
+          "info": "击败对手则下2回合自身造成的攻击伤害提升30%，若以致命一击击败对手则伤害再提升20%",
+          "args": [
+            2,
+            30,
+            20
+          ],
+          "effect": {
+            "id": 1719,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1719"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "4ec77766"
+}
