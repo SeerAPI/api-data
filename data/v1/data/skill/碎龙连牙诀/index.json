@@ -22,8 +22,11 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "威力随机，随机范围150~220",
-          "args": [],
+          "info": "随机改为150~220点威力",
+          "args": [
+            150,
+            220
+          ],
           "effect": {
             "id": 118,
             "url": "https://api.seerapi.com/v1/skill_effect_type/118"
@@ -34,5 +37,5 @@
       "hide_effect": null
     }
   },
-  "hash": "3883c6d"
+  "hash": "a230ad8d"
 }

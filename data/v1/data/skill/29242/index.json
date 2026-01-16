@@ -1,0 +1,42 @@
+{
+  "id": 29242,
+  "name": "混色神·虚之彩",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "再次，与色彩邂逅",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若本场战斗己方场上分别出现过红幕、黄幕、蓝幕，则在己方场上召唤1只虚之彩",
+      "args": [],
+      "effect": {
+        "id": 2392,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2392"
+      }
+    },
+    {
+      "info": "技能无效时，随机附加2种非限制类异常状态",
+      "args": [],
+      "effect": {
+        "id": 2175,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2175"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "117c4c67"
+}

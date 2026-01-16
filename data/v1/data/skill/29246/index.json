@@ -1,0 +1,88 @@
+{
+  "id": 29246,
+  "name": "荒予咒缚",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "消除了对手的能力提升状态；附加了远古系伤害；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "携带此技能时，每次登场时移除自身专属特性中的“回合开始时”，之后自身的符文锁链效果改为符文咒印",
+      "args": [],
+      "effect": {
+        "id": 2395,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2395"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则100%令对手疲惫，未触发则附加自身最大体力1/3的百分比伤害",
+      "args": [
+        100,
+        7,
+        3
+      ],
+      "effect": {
+        "id": 1978,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1978"
+      }
+    },
+    {
+      "info": "3回合内，双方每处于1种属性技能无效状态，自身造成的技能伤害额外提升50%",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 2393,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2393"
+      }
+    },
+    {
+      "info": "解除自身所处的异常状态并消耗自身当前体力的35%，本次技能附加自身最大体力值50%的远古系属性伤害",
+      "args": [
+        35,
+        50,
+        18
+      ],
+      "effect": {
+        "id": 2388,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2388"
+      }
+    },
+    {
+      "info": "下1回合令自身所有技能先制+3",
+      "args": [
+        1,
+        3
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+      }
+    },
+    {
+      "info": "技能无效时，触发1次符文锁链",
+      "args": [],
+      "effect": {
+        "id": 2394,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2394"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "1f1f1e37"
+}

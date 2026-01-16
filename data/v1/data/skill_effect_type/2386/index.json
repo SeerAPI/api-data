@@ -1,11 +1,15 @@
 {
   "id": 2386,
   "args_num": 2,
-  "info": "{0}{1}",
+  "info": "吸取对手最大体力的1/{0}，对手免疫百分比伤害时当回合造成的攻击伤害提升{1}%",
   "info_formatting_adjustment": "吸取对手最大体力的1/{0}\r\n--><condition>对手免疫百分比伤害时</condition>当回合造成的攻击伤害提升{1}%",
   "pve_effective": false,
   "param": null,
   "skill": [
+    {
+      "id": 38232,
+      "url": "https://api.seerapi.com/v1/skill/38232"
+    },
     {
       "id": 40004,
       "url": "https://api.seerapi.com/v1/skill/40004"
@@ -21,5 +25,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673"
     }
   ],
-  "hash": "1167ff23"
+  "hash": "2d4af035"
 }

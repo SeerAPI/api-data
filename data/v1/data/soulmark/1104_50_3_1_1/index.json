@@ -2,7 +2,7 @@
   "data": {
     "817": {
       "id": 817,
-      "desc": "回合开始时若对手不处于冰封状态，则当回合自身所有技能先制+1；|自身技能命中后50%令对手冰封，未触发则消除对手回合类效果，之后若对手处于冰封状态且本次技能为攻击技能则附加对手最大体力1/3的百分比伤害|（boss无效）",
+      "desc": "回合开始时若对手不处于冰封状态，则当回合自身所有技能先制+1；|自身技能命中后50%令对手冰封，未触发则消除对手回合类效果，然后若对手处于冰封状态且本次技能为攻击技能则附加对手最大体力1/3的百分比伤害|（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若对手不处于冰封状态，则当回合自身所有技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能命中后50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>，然后：\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手处于冰封状态且本次技能为攻击技能则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>",
       "pve_effective": false,
       "intensified": false,
@@ -47,5 +47,5 @@
       "from": null
     }
   },
-  "hash": "2e113f59"
+  "hash": "b22a4db"
 }

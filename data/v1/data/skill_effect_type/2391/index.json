@@ -1,11 +1,43 @@
 {
   "id": 2391,
   "args_num": 2,
-  "info": "将{0}改为{1}",
+  "info": "将{0}幕的颜色改为{1}",
   "info_formatting_adjustment": null,
   "pve_effective": false,
-  "param": null,
-  "skill": [],
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 30,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/30"
+      }
+    },
+    {
+      "position": 1,
+      "param": {
+        "id": 31,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/31"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38225,
+      "url": "https://api.seerapi.com/v1/skill/38225"
+    },
+    {
+      "id": 38226,
+      "url": "https://api.seerapi.com/v1/skill/38226"
+    },
+    {
+      "id": 38227,
+      "url": "https://api.seerapi.com/v1/skill/38227"
+    },
+    {
+      "id": 38228,
+      "url": "https://api.seerapi.com/v1/skill/38228"
+    }
+  ],
   "tag": [],
-  "hash": "a962ac6b"
+  "hash": "48e845ff"
 }

@@ -1,0 +1,38 @@
+{
+  "id": 2045,
+  "desc": "自身攻击技能命中后100%令对手混乱|回合开始时若对手处于混乱状态则当回合受到的攻击伤害减少25%且当回合免疫受到的异常状态，若对手不处于混乱状态则当回合攻击技能造成的伤害提升25%且当回合自身攻击技能必定致命一击|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4860,
+      "url": "https://api.seerapi.com/v1/pet/4860"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2466,
+      "url": "https://api.seerapi.com/v1/eid_effect/2466"
+    }
+  },
+  "effect_alias": "2466_1_0",
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "62ff5bfa"
+}

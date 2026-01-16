@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2047": {
+      "id": 2047,
+      "desc": "自身位于场下时，自身每损失10%的体力，首位精灵造成的攻击伤害提升3%|自身位于场上时，首位精灵每损失10%的体力，自身造成的攻击伤害提升3%|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4862,
+          "url": "https://api.seerapi.com/v1/pet/4862"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2467,
+          "url": "https://api.seerapi.com/v1/eid_effect/2467"
+        }
+      },
+      "effect_alias": "2467_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "811e526e"
+}

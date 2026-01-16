@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2046": {
+      "id": 2046,
+      "desc": "战斗开始时，为己方添加白幕，若自身的1号位技能名中存在颜色，则将己方的幕染为对应的颜色；自身登场时，若对方没有任何颜色的幕，则为对方添加白幕；任意一方幕的颜色改变时，当回合结束后位于场内的自身恢复最大体力的1/3与所有技能1点PP值|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4861,
+          "url": "https://api.seerapi.com/v1/pet/4861"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2468,
+          "url": "https://api.seerapi.com/v1/eid_effect/2468"
+        }
+      },
+      "effect_alias": "2468_1_0",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "4e94b982"
+}

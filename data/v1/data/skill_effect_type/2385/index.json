@@ -1,11 +1,15 @@
 {
   "id": 2385,
   "args_num": 1,
-  "info": "{0}",
+  "info": "吸取对手能力提升状态，吸取成功自身免疫下{0}次受到的异常状态，若对手不处于能力提升状态则消除对手回合类效果",
   "info_formatting_adjustment": "吸取对手能力提升状态\r\n--><condition>吸取成功</condition>自身免疫下{0}次受到的异常状态\r\n--><condition>若对手不处于能力提升状态</condition>则消除对手回合类效果",
   "pve_effective": false,
   "param": null,
   "skill": [
+    {
+      "id": 38232,
+      "url": "https://api.seerapi.com/v1/skill/38232"
+    },
     {
       "id": 40003,
       "url": "https://api.seerapi.com/v1/skill/40003"
@@ -25,5 +29,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442"
     }
   ],
-  "hash": "a0a4e5b1"
+  "hash": "8afee8f2"
 }

@@ -1,0 +1,74 @@
+{
+  "data": {
+    "38233": {
+      "id": 38233,
+      "name": "千峰化泥",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 42,
+        "url": "https://api.seerapi.com/v1/element_type_combination/42"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则下2回合对手攻击技能无法造成伤害且命中效果失效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2390,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2390"
+          }
+        },
+        {
+          "info": "吸取对手最大体力的1/3，若对手免疫百分比伤害则100%令对手石化",
+          "args": [
+            3,
+            100,
+            9
+          ],
+          "effect": {
+            "id": 1885,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1885"
+          }
+        },
+        {
+          "info": "出手时本回合若未受到伤害则对手下2回合先制-2",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1708,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1708"
+          }
+        },
+        {
+          "info": "3回合内对手造成的固定伤害和百分比伤害减少50%",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 2228,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2228"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "ef1c411"
+}
