@@ -1,0 +1,42 @@
+{
+  "id": 2050,
+  "desc": "自身使用攻击技能时触发时空加速|自身受到攻击后若攻击伤害高于对方阵亡精灵体力上限之和的60%则触发时空乱流|战斗阶段结束时触发时空折跃|回合结束时若对手体力大于0且本回合未受到时空加速的伤害则触发时空交错|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4865,
+      "url": "https://api.seerapi.com/v1/pet/4865"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2471,
+      "url": "https://api.seerapi.com/v1/eid_effect/2471"
+    }
+  },
+  "effect_alias": "2471_1_0",
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b40f14"
+}

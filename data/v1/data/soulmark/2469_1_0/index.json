@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2049": {
+      "id": 2049,
+      "desc": "攻击技能命中后25%使对手冰封，未触发则本次在场此概率提高25%，最高100%；上述冰封效果触发后概率重置，若变化量不低于50%则消除对手回合类效果，若变化量不高于50%则消除对手能力提升状态（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4864,
+          "url": "https://api.seerapi.com/v1/pet/4864"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2469,
+          "url": "https://api.seerapi.com/v1/eid_effect/2469"
+        }
+      },
+      "effect_alias": "2469_1_0",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a51f57d6"
+}

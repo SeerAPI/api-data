@@ -1,0 +1,29 @@
+{
+  "id": 2403,
+  "args_num": 3,
+  "info": "{0}%令对手{1}，触发成功则{2}回合内对手切换精灵出战时再次执行此效果",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>触发成功</condition>{2}回合内对手下场时其对下只出战精灵再次触发本效果",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29252,
+      "url": "https://api.seerapi.com/v1/skill/29252"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "e9820eb9"
+}

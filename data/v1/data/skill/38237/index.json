@@ -1,0 +1,59 @@
+{
+  "id": 38237,
+  "name": "混色",
+  "power": 0,
+  "max_pp": 30,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机恢复0到255点生命值",
+      "args": [
+        0,
+        255
+      ],
+      "effect": {
+        "id": 450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/450"
+      }
+    },
+    {
+      "info": "随机附加0~255点固定伤害",
+      "args": [
+        0,
+        255
+      ],
+      "effect": {
+        "id": 683,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/683"
+      }
+    },
+    {
+      "info": "随机改为0~255点威力",
+      "args": [
+        0,
+        255
+      ],
+      "effect": {
+        "id": 118,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/118"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "d016eda3"
+}

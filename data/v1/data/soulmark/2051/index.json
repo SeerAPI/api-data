@@ -1,0 +1,42 @@
+{
+  "id": 2051,
+  "desc": "自身与上次所使用技能类型相同的技能先制+1且造成的伤害提高50%，不同的技能使用后恢复最大体力的1/3并附加恢复量的百分比伤害；自身使用没有上述效果的技能后获得1层旧日之晷，使用拥有上述效果的技能后随机附加1种非限制类异常状态，未触发时吸取对手最大体力的1/3|回合开始时，若场上存在异常状态则自身获得最大体力1/3的护盾并附加1层宙变之殢，若不存在则当回合战斗阶段结束时恢复双方当前护盾值的体力，若本次在场自身未获得过旧日之晷则当回合战斗阶段结束时令对手衰弱1回合，未触发则附加3层宙变之殢（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": true,
+  "pet": [
+    {
+      "id": 4125,
+      "url": "https://api.seerapi.com/v1/pet/4125"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2470,
+      "url": "https://api.seerapi.com/v1/eid_effect/2470"
+    }
+  },
+  "effect_alias": "2470_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "cd938f3a"
+}

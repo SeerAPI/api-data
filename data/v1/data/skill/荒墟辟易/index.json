@@ -1,0 +1,78 @@
+{
+  "data": {
+    "38247": {
+      "id": 38247,
+      "name": "荒墟辟易",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/element_type_combination/18"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视攻击免疫效果",
+          "args": [],
+          "effect": {
+            "id": 699,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+          }
+        },
+        {
+          "info": "无视伤害限制效果",
+          "args": [],
+          "effect": {
+            "id": 697,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/697"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1044,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1044"
+          }
+        },
+        {
+          "info": "100%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+          "args": [
+            100,
+            1
+          ],
+          "effect": {
+            "id": 39,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/39"
+          }
+        },
+        {
+          "info": "造成的伤害低于300则吸取对手最大体力的1/3并为自身附加等量的护盾",
+          "args": [
+            300,
+            3
+          ],
+          "effect": {
+            "id": 1327,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1327"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "9f10c40c"
+}

@@ -1,7 +1,7 @@
 {
   "id": 1365,
   "desc": "自身先出手时附加300点固定伤害，若回合开始时体力高于对手则转变为附加450点固定伤害，自身后出手时下回合受到的伤害减少50%，若回合开始时体力高于对手则转变为减少65%；|自身受到的攻击伤害高于300则令对手下次使用的攻击技能失效（boss无效）",
-  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手时<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若回合开始时体力高于对手则改为450点\r\n<indent=16><sprite=3><indent=32>自身后出手时下回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><indent=48>若回合开始时体力高于对手则改为65%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则令对手下1次使用的<b>攻击技能</b><color=#64F9FA>无效</color>",
+  "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身先出手后<color=#64F9FA>附加</color>300点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若回合开始时体力高于对手则改为450点\r\n<indent=16><sprite=3><indent=32>自身后出手后下回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><indent=48>若回合开始时体力高于对手则改为65%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害高于300则令对手下1次使用的<b>攻击技能</b><color=#64F9FA>无效</color>",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +41,5 @@
     "id": 1174,
     "url": "https://api.seerapi.com/v1/soulmark/1174"
   },
-  "hash": "789035e2"
+  "hash": "da6e94ca"
 }

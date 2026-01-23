@@ -1,0 +1,46 @@
+{
+  "data": {
+    "2048": {
+      "id": 2048,
+      "desc": "每次登场时100%令双方沉默|回合开始时，若对手处于沉默状态则当回合自身受到的固定伤害、百分比伤害减少20%，若对手不处于沉默状态则当回合对手攻击后恢复300点体力|战斗阶段结束时，若本回合对手使用了攻击技能则下回合攻击技能先制+1，自身未受到攻击伤害时额外+1，若本回合自身攻击技能未造成伤害，下回合攻击技能命中后附加造成伤害50%的百分比伤害",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4863,
+          "url": "https://api.seerapi.com/v1/pet/4863"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2472,
+          "url": "https://api.seerapi.com/v1/eid_effect/2472"
+        }
+      },
+      "effect_alias": "2472_1_0",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c35fce1d"
+}
