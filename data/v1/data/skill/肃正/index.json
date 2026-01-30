@@ -1,0 +1,59 @@
+{
+  "data": {
+    "38250": {
+      "id": 38250,
+      "name": "肃正",
+      "power": 85,
+      "max_pp": 25,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 225,
+        "url": "https://api.seerapi.com/v1/element_type_combination/225"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+          "args": [],
+          "effect": {
+            "id": 1974,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1974"
+          }
+        },
+        {
+          "info": "3回合内每回合使用技能恢复自身最大体力的1/3并造成等量百分比伤害",
+          "args": [
+            3,
+            3
+          ],
+          "effect": {
+            "id": 532,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/532"
+          }
+        },
+        {
+          "info": "3回合内免疫受到的致命一击伤害并直接扣除对手等量体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 692,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/692"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "a341b681"
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "2052": {
+      "id": 2052,
+      "desc": "自身的PP值总和每有对手的1倍，自身受到的固定伤害、百分比伤害减半1次，每次伤害最多减半8次|每回合前8次受到固定伤害、百分比伤害时，若自身的PP值总和高于对手则恢复对手所有技能已损失的PP值且自身所有PP值最高的技能失去等量的PP值，自身技能PP值因此归0时2回合内令对手无法恢复体力，若自身的PP值总和不高于对手则自身首个PP值最低的技能吸取对手所有技能1点PP值且自身吸取对手240点体力，然后若对手的体力未减少则额外对其相邻精灵造成等量真实伤害|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4866,
+          "url": "https://api.seerapi.com/v1/pet/4866"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2475,
+          "url": "https://api.seerapi.com/v1/eid_effect/2475"
+        }
+      },
+      "effect_alias": "2475_0_1_1",
+      "tag": [
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "20614213"
+}

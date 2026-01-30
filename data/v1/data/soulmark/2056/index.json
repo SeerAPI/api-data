@@ -1,0 +1,38 @@
+{
+  "id": 2056,
+  "desc": "自身使用攻击技能时，双方每有5点护盾自身造成的攻击伤害提升2%，最高100%，boss对战中上限翻倍（boss有效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4867,
+      "url": "https://api.seerapi.com/v1/pet/4867"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      5,
+      2,
+      100
+    ],
+    "effect": {
+      "id": 2474,
+      "url": "https://api.seerapi.com/v1/eid_effect/2474"
+    }
+  },
+  "effect_alias": "2474_5_2_100",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 2053,
+    "url": "https://api.seerapi.com/v1/soulmark/2053"
+  },
+  "hash": "894a7f0a"
+}

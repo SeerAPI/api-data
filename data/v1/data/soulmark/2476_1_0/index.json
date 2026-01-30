@@ -1,0 +1,49 @@
+{
+  "data": {
+    "2055": {
+      "id": 2055,
+      "desc": "自身存活于场下时，对方在场精灵每次攻击结束后，洛基获得1层堕恶神祇以触发神诗叙诡|自身登场时，若堕恶神祇达到3层，则2回合内战斗阶段结束时，若自身通过堕恶神祇获得的护盾或护罩消失则使己方下1回合免疫对手的攻击，免疫成功时重置对方的虚饰弧光，自身不在场时额外重置自身的堕恶神祇层数|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4361,
+          "url": "https://api.seerapi.com/v1/pet/4361"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2476,
+          "url": "https://api.seerapi.com/v1/eid_effect/2476"
+        }
+      },
+      "effect_alias": "2476_1_0",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 1586,
+        "url": "https://api.seerapi.com/v1/soulmark/1586"
+      }
+    }
+  },
+  "hash": "7d0c91e0"
+}

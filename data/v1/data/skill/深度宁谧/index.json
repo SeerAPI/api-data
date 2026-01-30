@@ -1,0 +1,83 @@
+{
+  "data": {
+    "29255": {
+      "id": 29255,
+      "name": "深度宁谧",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "消除了双方的回合类效果；令对手全属性下降了；调和了双方的PP值；吸取了对手的体力",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "对手每有1个技能PP值小于3先制+1",
+          "args": [],
+          "effect": {
+            "id": 2302,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2302"
+          }
+        },
+        {
+          "info": "消除双方回合类效果，消除成功则双方沉默",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 1414,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1414"
+          }
+        },
+        {
+          "info": "令双方所有技能PP值等于此技能剩余PP值，若对手变化值达到20则令对手沉默，若自身变化值达到20则令对手疲惫",
+          "args": [
+            20,
+            30,
+            20,
+            7
+          ],
+          "effect": {
+            "id": 2031,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2031"
+          }
+        },
+        {
+          "info": "令对手全属性-1，未触发则令对手所有技能PP值-3",
+          "args": [
+            1,
+            3
+          ],
+          "effect": {
+            "id": 2406,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2406"
+          }
+        },
+        {
+          "info": "吸取对手320点体力，若对手任意1项技能PP值小于3点则吸取效果翻倍",
+          "args": [
+            320,
+            3
+          ],
+          "effect": {
+            "id": 1450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1450"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "c2c4c03a"
+}

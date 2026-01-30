@@ -1,0 +1,38 @@
+{
+  "id": 2054,
+  "desc": "战斗阶段结束时，若自身体力低于最大体力的1/3则获得300点护盾，此护盾消失时100%令对手烧伤、失明|自身被击败时恢复己方所有不在场精灵200点体力|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4868,
+      "url": "https://api.seerapi.com/v1/pet/4868"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2473,
+      "url": "https://api.seerapi.com/v1/eid_effect/2473"
+    }
+  },
+  "effect_alias": "2473_1_0",
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "40ceffd4"
+}

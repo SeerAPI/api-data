@@ -1,6 +1,6 @@
 {
   "id": 1014,
-  "desc": "每次登场时为自己附加400点护盾，自身存在护盾时所有技能先制+1；|战斗阶段结束时，若当回合自身未受到攻击伤害则恢复自身250点体力并造成等量固定伤害；战斗阶段结束时，若当回合自身受到攻击伤害则免疫下1次受到的攻击伤害；|自身每次使用攻击技能则本场战斗中造成的伤害提升25%，每次提升25%，最高提升100%（伤害提升效果下场不保留，boss无效）",
+  "desc": "登场时获得400点护盾，自身存在护盾时所有技能先制+1|战斗阶段结束时，若当回合自身未受到攻击伤害则恢复自身250点体力并造成恢复量的固定伤害，若受到了攻击伤害则免疫下1次受到的攻击伤害|自身每次使用攻击技能时本次在场造成的攻击伤害提升25%，最高提升100%（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时<color=#64F9FA>获得</color>400点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身存在护盾时所有技能<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击技能则本次在场造成的<b>攻击伤害</b><color=#64F9FA>提升</color>25%，最高提升100%\r\n\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若当回合自身未受到攻击伤害则<color=#64F9FA>恢复</color>自身250点体力并造成等量<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若当回合自身受到攻击伤害则<color=#64F9FA>抵挡</color>下1次受到的<b>攻击</b>",
   "pve_effective": false,
   "intensified": false,
@@ -47,5 +47,5 @@
     "url": "https://api.seerapi.com/v1/soulmark/1932"
   },
   "from": null,
-  "hash": "4b75a777"
+  "hash": "dd5cff9"
 }
