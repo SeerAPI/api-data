@@ -1,0 +1,45 @@
+{
+  "data": {
+    "2057": {
+      "id": 2057,
+      "desc": "对手pp值总和每比自身高1倍，自身造成的攻击伤害提升30%|回合开始时，若自身存在pp值相等的技能则当回合自身技能命中后恢复所有技能1点pp并吸取对手400点体力，自身pp值每恢复一点则吸取效果减少80点，若不存在pp值相等的技能则当回合必定打出致命一击|战斗阶段结束时，若自身若不存在pp值相等的技能，则使自身每个技能的pp值尽可能等于所有技能pp值的平均值，技能pp值总和每因此减少1点，下回合所有技能先制+1，最高+3|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4870,
+          "url": "https://api.seerapi.com/v1/pet/4870"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          30,
+          400,
+          80,
+          3,
+          1
+        ],
+        "effect": {
+          "id": 2477,
+          "url": "https://api.seerapi.com/v1/eid_effect/2477"
+        }
+      },
+      "effect_alias": "2477_30_400_80_3_1",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 10,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "c2b466a6"
+}

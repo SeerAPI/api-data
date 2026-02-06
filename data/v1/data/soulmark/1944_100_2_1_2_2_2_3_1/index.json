@@ -2,7 +2,7 @@
   "data": {
     "1586": {
       "id": 1586,
-      "desc": "自身存活于场下时，对方在场精灵每次攻击结束后，洛基获得1层堕恶神祇以触发诡计神罚|自身登场时，若堕恶神祇达到3层，则2回合内回合开始时、战斗阶段结束时，若自身通过堕恶神祇获得的护盾或护罩消失则对手下1次技能无效，效果结束之后本场自身战斗失去本条效果（boss无效）",
+      "desc": "自身存活于场下时，对方在场精灵每次攻击结束后，洛基获得1层堕恶神祇以触发诡计神罚|自身登场时，若堕恶神祇达到3层，则2回合内回合开始时、战斗阶段结束时，若自身通过堕恶神祇获得的护盾或护罩消失则对手下1次攻击技能无效，效果结束之后本场自身战斗失去本条效果（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>洛基存活于场下时，对方使用攻击技能则洛基获得1层<color=#FFF779>堕恶神祇</color>以对对方在场精灵发动1次诡计神罚：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>附加</color>等同于洛基特攻值20%的<b>真实伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>若对手当前体力低于最大体力的1/5则效果转化为令对手该攻击技能<b>PP值</b><color=#64F9FA>归零</color>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果： \r\n<indent=16><sprite=3><indent=32>洛基登场时，根据堕恶神祇的层数触发累计的效果：\r\n<indent=32><sprite=4><indent=48>达到1层：<color=#64F9FA>获得</color>堕恶神祇层数*100的<b>护盾</b>与<b>护罩</b>；若二者均存在则每回合开始使自身当回合受到的异常状态<color=#64F9FA>转化</color>为流血，若二者均消失则洛基离场后堕恶神祇层数重置\r\n<indent=32><sprite=4><indent=48>达到3层：登场之后2回合内，每个回合开始时与战斗阶段结束时若自身未拥有上述效果中的护盾或护罩其一，则触发以下效果： \r\n<indent=32><sprite=4><sprite=4><indent=64>对手的下1次<b>攻击技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>本场战斗不再触发上述判定 \r\n\r\n<indent=0><sprite=5><indent=15>堕恶神祇（上限3层，下场保留）：\r\n<indent=16><sprite=6><indent=32>洛基用以触发部分效果的判定依据",
       "pve_effective": false,
       "intensified": false,
@@ -51,5 +51,5 @@
       "from": null
     }
   },
-  "hash": "33ffa266"
+  "hash": "61ab7d4b"
 }

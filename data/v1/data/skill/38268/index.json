@@ -1,0 +1,47 @@
+{
+  "id": 38268,
+  "name": "断怛离怊",
+  "power": 150,
+  "max_pp": 3,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/element_type_combination/7"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "解除自身能力下降状态，解除成功则自身全属性+1",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1352,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1352"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+      "args": [
+        300,
+        2
+      ],
+      "effect": {
+        "id": 1019,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1019"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "21f25e6f"
+}
