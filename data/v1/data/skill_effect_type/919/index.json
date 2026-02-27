@@ -1,7 +1,7 @@
 {
   "id": 919,
-  "args_num": 0,
-  "info": "后出手时使对手下回合属性技能失效",
+  "args_num": 1,
+  "info": "后出手时令对手下{0}回合属性技能无效",
   "info_formatting_adjustment": null,
   "pve_effective": false,
   "param": null,
@@ -161,6 +161,10 @@
     {
       "id": 37437,
       "url": "https://api.seerapi.com/v1/skill/37437"
+    },
+    {
+      "id": 38283,
+      "url": "https://api.seerapi.com/v1/skill/38283"
     }
   ],
   "tag": [
@@ -169,5 +173,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
     }
   ],
-  "hash": "4e1ab0a7"
+  "hash": "4bcf84f8"
 }

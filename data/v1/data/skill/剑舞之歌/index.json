@@ -22,8 +22,10 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "后出手时使对手下回合属性技能失效",
-          "args": [],
+          "info": "后出手时令对手下1回合属性技能无效",
+          "args": [
+            1
+          ],
           "effect": {
             "id": 919,
             "url": "https://api.seerapi.com/v1/skill_effect_type/919"
@@ -34,5 +36,5 @@
       "hide_effect": null
     }
   },
-  "hash": "3f08e762"
+  "hash": "49d79e05"
 }

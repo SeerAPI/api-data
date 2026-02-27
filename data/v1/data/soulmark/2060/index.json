@@ -1,0 +1,38 @@
+{
+  "id": 2060,
+  "desc": "自身攻击技能命中后2%的概率附加2025点固定伤害，未触发则附加216点固定伤害；自身属性技能命中后2%的概率自身恢复2026点体力，未触发则自身恢复217点体力",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4873,
+      "url": "https://api.seerapi.com/v1/pet/4873"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2480,
+      "url": "https://api.seerapi.com/v1/eid_effect/2480"
+    }
+  },
+  "effect_alias": "2480_1_0",
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "e11ea11"
+}

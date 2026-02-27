@@ -1,0 +1,72 @@
+{
+  "id": 38274,
+  "name": "九勼宝钵缘莲修",
+  "power": 99,
+  "max_pp": 9,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 131,
+    "url": "https://api.seerapi.com/v1/element_type_combination/131"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若自身处于能力下降状态则先制+3",
+      "args": [],
+      "effect": {
+        "id": 881,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/881"
+      }
+    },
+    {
+      "info": "未击败对手时解除自身的怀生菩怜态、拒赦怒威态并进入3回合的百天浮世络，解除怀生菩怜态时令对手2回合内的属性技能无效且对方下只精灵出战时疲惫，解除[color=#f35555]拒赦怒威态[/color]时令对手2回合内攻击技能无效且对方下只精灵出战时害怕",
+      "args": [],
+      "effect": {
+        "id": 2411,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2411"
+      }
+    },
+    {
+      "info": "将自身能力下降状态反馈给对手，反馈成功则恢复自身所有体力，反馈失败则解除自身能力下降状态",
+      "args": [],
+      "effect": {
+        "id": 1524,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1524"
+      }
+    },
+    {
+      "info": "若自身为满体力则技能威力提升99%",
+      "args": [
+        99
+      ],
+      "effect": {
+        "id": 925,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/925"
+      }
+    },
+    {
+      "info": "附加攻击伤害33%的百分比伤害，每次使用增加33%，最高99%",
+      "args": [
+        33,
+        33,
+        99
+      ],
+      "effect": {
+        "id": 1366,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1366"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "82b3e293"
+}

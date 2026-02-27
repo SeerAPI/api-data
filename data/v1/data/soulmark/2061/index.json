@@ -1,0 +1,38 @@
+{
+  "id": 2061,
+  "desc": "回合开始时，自身每有216点速度自身攻击技能获得以下效果前1项：|    当回合造成的攻击伤害提高20%|    命中后附加自身速度值25%的百分比伤害|    致命一击造成的伤害提高26%|自身体力每损失217点以上效果的前1项效果翻倍（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4874,
+      "url": "https://api.seerapi.com/v1/pet/4874"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2482,
+      "url": "https://api.seerapi.com/v1/eid_effect/2482"
+    }
+  },
+  "effect_alias": "2482_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "5d35b729"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2058": {
+      "id": 2058,
+      "desc": "战斗开始时，自身获得1个风龙结；对手每次执行异常状态附加效果后，自身的风龙结数量+50并除以附加的概率，然后若风龙结大于500个则额外解除自身所处的异常状态|回合开始时，若自身体力高于1/2则下回合开始时反转对手的能力提升状态，反转成功则当回合受到的固定伤害、百分比伤害减少50%，反转失败则对手2回合内无法主动切换精灵|战斗阶段结束时，若自身体力低于1/2则获得50个风龙结并吸取对手500点体力，若对手未受到此伤害则令对手焚烬",
+      "desc_formatting_adjustment": null,
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4871,
+          "url": "https://api.seerapi.com/v1/pet/4871"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2479,
+          "url": "https://api.seerapi.com/v1/eid_effect/2479"
+        }
+      },
+      "effect_alias": "2479_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "a6a70662"
+}

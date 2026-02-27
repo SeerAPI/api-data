@@ -1,0 +1,66 @@
+{
+  "data": {
+    "38272": {
+      "id": 38272,
+      "name": "天叩·千钧一发",
+      "power": 1000,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/element_type_combination/15"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身不为龙系时，此技能无法选择使用",
+          "args": [],
+          "effect": {
+            "id": 2417,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2417"
+          }
+        },
+        {
+          "info": "额外附加1000点固定伤害",
+          "args": [
+            1000
+          ],
+          "effect": {
+            "id": 29,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/29"
+          }
+        },
+        {
+          "info": "每次命中对手后此技能威力下降1000点",
+          "args": [
+            1000
+          ],
+          "effect": {
+            "id": 810,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/810"
+          }
+        },
+        {
+          "info": "击败对手则恢复自身全部体力和所有技能PP值",
+          "args": [],
+          "effect": {
+            "id": 1156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1156"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "e0aadc64"
+}

@@ -1,0 +1,78 @@
+{
+  "id": 38273,
+  "name": "妙华愿引天",
+  "power": 90,
+  "max_pp": 9,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 131,
+    "url": "https://api.seerapi.com/v1/element_type_combination/131"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功对手下1回合无法主动切换精灵",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 2227,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2227"
+      }
+    },
+    {
+      "info": "对手选择攻击技能时此技能先制+3且99%令对手沉默",
+      "args": [
+        99,
+        30
+      ],
+      "effect": {
+        "id": 2273,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2273"
+      }
+    },
+    {
+      "info": "自身所有技能PP值均不为满时恢复自身所有技能的PP值并令对手神游",
+      "args": [
+        39
+      ],
+      "effect": {
+        "id": 2413,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2413"
+      }
+    },
+    {
+      "info": "造成的攻击伤害低于99时恢复自身最大体力的99%",
+      "args": [
+        99,
+        99
+      ],
+      "effect": {
+        "id": 2414,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2414"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "eb7e1825"
+}

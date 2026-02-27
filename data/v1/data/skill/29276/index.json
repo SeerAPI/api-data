@@ -1,0 +1,82 @@
+{
+  "id": 29276,
+  "name": "荒烬涂天",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "全属性提升了；开始吸取毒死的 体力了；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+      "args": [
+        1,
+        2
+      ],
+      "effect": {
+        "id": 1014,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1014"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，若对手未受到百分比伤害则额外附加280点真实伤害",
+      "args": [
+        4,
+        3,
+        280
+      ],
+      "effect": {
+        "id": 1674,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1674"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+      }
+    },
+    {
+      "info": "双方任意一方处于护盾状态时100%令对手烧伤",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 2198,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2198"
+      }
+    },
+    {
+      "info": "双方任意一方处于护罩状态时100%令对手焚烬",
+      "args": [
+        100,
+        22
+      ],
+      "effect": {
+        "id": 2199,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2199"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "c5e5ad24"
+}

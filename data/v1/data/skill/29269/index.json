@@ -1,0 +1,76 @@
+{
+  "id": 29269,
+  "name": "义乂梵我婆娑纱",
+  "power": 0,
+  "max_pp": 9,
+  "accuracy": 100,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫受到的异常状态了；开始附加固定伤害了；为己方精灵带来的祝福",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "体力低于最大体力的1/2时先制+1",
+      "args": [],
+      "effect": {
+        "id": 1484,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1484"
+      }
+    },
+    {
+      "info": "自身免疫下2次受到的异常状态，每次免疫成功吸取对手99点体力",
+      "args": [
+        2,
+        99
+      ],
+      "effect": {
+        "id": 2059,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2059"
+      }
+    },
+    {
+      "info": "自身处于怀生菩怜态时令对手疲惫，自身处于拒赦怒威态时令对手害怕",
+      "args": [],
+      "effect": {
+        "id": 2409,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2409"
+      }
+    },
+    {
+      "info": "令己方下只出战精灵抵挡下1次对手的攻击，且出战时100%砥砺",
+      "args": [
+        1,
+        100,
+        37
+      ],
+      "effect": {
+        "id": 1882,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1882"
+      }
+    },
+    {
+      "info": "3回合内若自身不处于能力提升状态则附加300点固定伤害",
+      "args": [
+        3,
+        300
+      ],
+      "effect": {
+        "id": 1027,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1027"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "3b6858f9"
+}

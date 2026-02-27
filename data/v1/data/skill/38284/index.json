@@ -1,0 +1,68 @@
+{
+  "id": 38284,
+  "name": "鏖火证阳炎",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/element_type_combination/3"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功100%令对手烧伤，未触发则造成的攻击伤害翻倍",
+      "args": [
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1959,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1959"
+      }
+    },
+    {
+      "info": "解除双方所处的异常状态，触发成功对手2回合内体力恢复效果减少其中烧伤以外异常状态个数的比例，且为自身附加回合数等于其中烧伤回合数合计的神惧劫炎，自身已处于神惧劫炎时改为令其增加等量的回合数",
+      "args": [],
+      "effect": {
+        "id": 2419,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2419"
+      }
+    },
+    {
+      "info": "攻击对手时若对手处于烧伤状态，则100%使对手焚烬",
+      "args": [
+        2,
+        100,
+        22
+      ],
+      "effect": {
+        "id": 572,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/572"
+      }
+    },
+    {
+      "info": "造成的攻击伤害若低于100则附加给对手200点真实伤害",
+      "args": [
+        100,
+        200
+      ],
+      "effect": {
+        "id": 1820,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1820"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "49aec65b"
+}
