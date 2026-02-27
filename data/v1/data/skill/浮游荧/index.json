@@ -1,0 +1,73 @@
+{
+  "data": {
+    "29282": {
+      "id": 29282,
+      "name": "浮游荧",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始恢复体力了；开始附加固定伤害了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时全属性+1",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 877,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/877"
+          }
+        },
+        {
+          "info": "50%令对手全属性-1",
+          "args": [
+            50,
+            1
+          ],
+          "effect": {
+            "id": 749,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/749"
+          }
+        },
+        {
+          "info": "3回合内自身每处于一种能力提升或下降状态时都会回复50点体力",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 519,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/519"
+          }
+        },
+        {
+          "info": "3回合内若对手处于能力提升状态，则每回合都会受到200点固定伤害",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 419,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/419"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null
+    }
+  },
+  "hash": "3fd03040"
+}

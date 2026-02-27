@@ -1,0 +1,38 @@
+{
+  "id": 2064,
+  "desc": "回合开始时，若自身体力高于对手，则当回合自身攻击技能命中时消耗30%的体力并附加自身最大体力30%的百分比伤害且回合结束时获得等同于自身体力与回合开始时差值的护盾|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4877,
+      "url": "https://api.seerapi.com/v1/pet/4877"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2484,
+      "url": "https://api.seerapi.com/v1/eid_effect/2484"
+    }
+  },
+  "effect_alias": "2484_1_0",
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    },
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "82923635"
+}

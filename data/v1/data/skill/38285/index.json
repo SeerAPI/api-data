@@ -1,0 +1,44 @@
+{
+  "id": 38285,
+  "name": "倒转乾坤",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 69,
+    "url": "https://api.seerapi.com/v1/element_type_combination/69"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸收对手的能力提升同时反转对手的能力提升",
+      "args": [],
+      "effect": {
+        "id": 822,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/822"
+      }
+    },
+    {
+      "info": "2回合内自身的能力提升状态无法被消除或吸取",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1683,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1683"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ec60962"
+}

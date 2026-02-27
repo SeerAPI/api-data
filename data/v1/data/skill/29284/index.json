@@ -1,0 +1,77 @@
+{
+  "id": 29284,
+  "name": "神谕净世",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹受到的异常状态了；开始令对手神游；对手的能力等级无法高于自身；自身的回合类效果得到了保护",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "对手处于能力下降状态时自身先制+1",
+      "args": [],
+      "effect": {
+        "id": 1070,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1070"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "3回合内若自身处于能力提升状态则每回合使用技能100%令对手神游",
+      "args": [
+        3,
+        100,
+        39
+      ],
+      "effect": {
+        "id": 960,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/960"
+      }
+    },
+    {
+      "info": "3回合内若自身回合类效果被消除则免疫下1次受到的异常状态",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 2238,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2238"
+      }
+    },
+    {
+      "info": "3回合内战斗阶段结束时，令对手所有能力等级无法高于自身",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 2421,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2421"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "6ca1a442"
+}

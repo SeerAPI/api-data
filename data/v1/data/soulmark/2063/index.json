@@ -1,0 +1,38 @@
+{
+  "id": 2063,
+  "desc": "自身1号、3号位技能命中后自身获得200点护盾并令对手随机3项能力等级-1；自身2号、4号位技能命中后为自身恢复200点体力并令自身随机3项能力等级+1|回合开始时，若双方能力提升等级之和不小于能力下降等级之和，为双方附加双方能力提升等级之和*15的护盾；若双方能力提升等级之和不大于能力下降等级之和，为双方附加双方能力下降等级之和*15的护罩|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4876,
+      "url": "https://api.seerapi.com/v1/pet/4876"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2485,
+      "url": "https://api.seerapi.com/v1/eid_effect/2485"
+    }
+  },
+  "effect_alias": "2485_1_0",
+  "tag": [
+    {
+      "id": 3,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "314bd494"
+}

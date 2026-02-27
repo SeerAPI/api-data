@@ -1,0 +1,46 @@
+{
+  "id": 38288,
+  "name": "重装践踏",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 126,
+    "url": "https://api.seerapi.com/v1/element_type_combination/126"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "出手时若自身体力高于对手则70%令对手疲惫，未触发则附加对手最大体力1/4的百分比伤害",
+      "args": [
+        70,
+        7,
+        4
+      ],
+      "effect": {
+        "id": 1570,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1570"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "args": [],
+      "effect": {
+        "id": 485,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/485"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "729d3958"
+}

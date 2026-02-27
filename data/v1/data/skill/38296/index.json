@@ -1,0 +1,53 @@
+{
+  "id": 38296,
+  "name": "日月轮·着天",
+  "power": 160,
+  "max_pp": 2,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "携带此技能时，自身触发霜浮之刃与灼掠之刃的概率提升50%，每回合开始时减少自身体力上限的1%并获得等量的护盾、护罩，可叠加，然后己方获得等量的暖雪",
+      "args": [],
+      "effect": {
+        "id": 2424,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2424"
+      }
+    },
+    {
+      "info": "无视伤害限制效果",
+      "args": [],
+      "effect": {
+        "id": 697,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/697"
+      }
+    },
+    {
+      "info": "2回合内对手恢复体力时恢复效果减少50%",
+      "args": [
+        2,
+        50
+      ],
+      "effect": {
+        "id": 761,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/761"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "4e1f31b1"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 38294,
+  "name": "苍笼尘井",
+  "power": 90,
+  "max_pp": 10,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 54,
+    "url": "https://api.seerapi.com/v1/element_type_combination/54"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "伤害结算时额外将自身的护盾值计入攻击、特攻值",
+      "args": [],
+      "effect": {
+        "id": 2422,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2422"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 872,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/872"
+      }
+    },
+    {
+      "info": "双方任意一方处于护盾状态时100%令对手感染",
+      "args": [
+        100,
+        27
+      ],
+      "effect": {
+        "id": 2198,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2198"
+      }
+    },
+    {
+      "info": "下2回合自身造成的攻击伤害翻倍",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "hash": "b6cd23cc"
+}
