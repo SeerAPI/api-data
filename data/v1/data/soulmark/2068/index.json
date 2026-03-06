@@ -1,0 +1,38 @@
+{
+  "id": 2068,
+  "desc": "自身造成的攻击伤害额外恢复至自身体力，恢复量每溢出2点，下回合造成伤害提高1%，最高50%（boss无效）",
+  "desc_formatting_adjustment": null,
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4881,
+      "url": "https://api.seerapi.com/v1/pet/4881"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2486,
+      "url": "https://api.seerapi.com/v1/eid_effect/2486"
+    }
+  },
+  "effect_alias": "2486_1_0",
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "hash": "b78a172f"
+}

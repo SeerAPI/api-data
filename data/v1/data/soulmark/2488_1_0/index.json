@@ -1,0 +1,42 @@
+{
+  "data": {
+    "2067": {
+      "id": 2067,
+      "desc": "回合开始时，若对手不处于异常状态则100%令对手失明，未触发则当回合100%闪避对手攻击；回合结束时，若本回合未受到攻击伤害则下回合攻击技能必定致命一击（boss无效）",
+      "desc_formatting_adjustment": null,
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4880,
+          "url": "https://api.seerapi.com/v1/pet/4880"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2488,
+          "url": "https://api.seerapi.com/v1/eid_effect/2488"
+        }
+      },
+      "effect_alias": "2488_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null
+    }
+  },
+  "hash": "93f7aa54"
+}
