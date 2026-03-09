@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若造成的伤害低于400，则下2回合每回合造成200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害低于400，则下2回合每回合造成200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             400,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若造成的伤害高于400，则恢复自身1/4最大体力",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害高于400，则恢复自身1/4最大体力（boss有效）",
           "args": [
             400,
             4
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7ddaddf7"
+  "hash": "3ebff67"
 }

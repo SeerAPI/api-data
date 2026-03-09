@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "遇到天敌时附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]遇到天敌时附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则吸取对手200点体力",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则[color=#52a5f2]吸取[/color]对手200点体力（boss有效）",
       "args": [
         200
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         50
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8c6ce78a"
+  "advance": null,
+  "hash": "fae43590"
 }

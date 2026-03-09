@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当回合使用的技能克制对手时获得本系属性加成",
+          "analyze_info": "[sprite name=iconInherent][color=#52a5f2]当回合[/color]使用的技能克制对手时获得本系属性加成",
           "args": [],
           "effect": {
             "id": 1616,
@@ -31,6 +32,7 @@
         },
         {
           "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
           "args": [],
           "effect": {
             "id": 444,
@@ -39,6 +41,7 @@
         },
         {
           "info": "若后出手则附加自身最大体力1/3的百分比伤害并恢复等量体力",
+          "analyze_info": "[sprite name=iconHit]若后出手则附加自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]并恢复等量体力",
           "args": [
             3
           ],
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cbd569c9"
+  "hash": "dd17e2f6"
 }

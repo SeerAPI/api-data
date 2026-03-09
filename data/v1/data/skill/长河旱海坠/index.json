@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反弹2倍的伤害给对手并使自身恢复等量体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反弹[/color]2倍的伤害给对手并使自身恢复等量体力",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害低于300则吸取对手最大体力的1/3并为自身附加等量的护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手最大体力的1/3并为自身附加等量的[color=#57c975]护盾[/color]",
           "args": [
             300,
             3
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2b5a4063"
+  "hash": "d8ece23d"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每回合若自身未受到攻击伤害则回合结束后附加对手最大体力1/4的百分比伤害（自身体力为0时也可触发）",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合若自身未受到攻击伤害则[color=#57c975]回合结束后[/color]附加对手最大体力1/4的[color=#52a5f2]百分比伤害[/color]（自身体力为0时也可触发）",
           "args": [
             3,
             4
@@ -34,6 +35,7 @@
         },
         {
           "info": "若后出手则附加自身最大体力1/4的百分比伤害并恢复等量体力",
+          "analyze_info": "[sprite name=iconHit]若后出手则附加自身最大体力1/4的[color=#52a5f2]百分比伤害[/color]并恢复等量体力",
           "args": [
             4
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "若上回合自身未受到攻击伤害则附加对手最大体力1/4的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若上回合自身未受到攻击伤害则附加对手最大体力1/4的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             4
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6d4c28f8"
+  "hash": "565c89a9"
 }

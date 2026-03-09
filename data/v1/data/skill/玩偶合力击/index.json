@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%随机附加烧伤，冻伤，中毒中的1种",
+          "analyze_info": "[sprite name=iconHit]100%随机附加[color=#57c975]烧伤[/color]，[color=#57c975]冻伤[/color]，[color=#57c975]中毒[/color]中的1种（boss有效）",
           "args": [
             100,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "召唤自己的伙伴进行5-10次攻击，布布鸟发起时可额外令自身下回合所有技能先制+3",
+          "analyze_info": "[sprite name=iconHit]召唤自己的伙伴进行5-10次攻击，布布鸟发起时可额外令自身下回合所有技能[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 1608,
@@ -42,7 +44,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "34457": {
       "id": 34457,
@@ -67,6 +70,7 @@
       "skill_effect": [
         {
           "info": "100%随机附加烧伤，冻伤，中毒中的1种",
+          "analyze_info": "[sprite name=iconHit]100%随机附加[color=#57c975]烧伤[/color]，[color=#57c975]冻伤[/color]，[color=#57c975]中毒[/color]中的1种（boss有效）",
           "args": [
             100,
             1
@@ -78,6 +82,7 @@
         },
         {
           "info": "召唤自己的伙伴进行5-10次攻击，布布犬发起时可额外令自身下回合攻击造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]召唤自己的伙伴进行5-10次攻击，布布犬发起时可额外令自身下回合攻击造成的伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 1609,
@@ -86,7 +91,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "34460": {
       "id": 34460,
@@ -111,6 +117,7 @@
       "skill_effect": [
         {
           "info": "100%随机附加烧伤，冻伤，中毒中的1种",
+          "analyze_info": "[sprite name=iconHit]100%随机附加[color=#57c975]烧伤[/color]，[color=#57c975]冻伤[/color]，[color=#57c975]中毒[/color]中的1种（boss有效）",
           "args": [
             100,
             1
@@ -122,6 +129,7 @@
         },
         {
           "info": "召唤自己的伙伴进行5-10次攻击，布布熊发起时可额外令对手下回合属性技能失效",
+          "analyze_info": "[sprite name=iconHit]召唤自己的伙伴进行5-10次攻击，布布熊发起时可额外令对手下回合属性技能失效（boss有效）",
           "args": [],
           "effect": {
             "id": 1610,
@@ -130,8 +138,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1d690100"
+  "hash": "4942216c"
 }

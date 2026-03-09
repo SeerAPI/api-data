@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%的概率造成伤害翻倍，对手处于能力下降状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]50%的概率造成伤害翻倍，对手处于能力下降状态时概率翻倍（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加对手当前体力值20%的百分比伤害，连续使用每次增加10%，最高50%",
+          "analyze_info": "[sprite name=iconHit]附加对手当前体力值20%的[color=#52a5f2]百分比伤害[/color]，连续使用每次增加10%，最高50%",
           "args": [
             20,
             10,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d0e9769a"
+  "hash": "6ce162bf"
 }

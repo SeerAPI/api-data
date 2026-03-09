@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身所有体力",
           "args": [],
           "effect": {
             "id": 1167,
@@ -31,6 +32,7 @@
         },
         {
           "info": "双方任意一方处于属性技能无效效果时，令对手的衰弱回合数归1，自身每有1层旧日之晷数值+1，若对手不处于异常状态则附加1层宙变之殢",
+          "analyze_info": "[sprite name=iconHit]双方任意一方处于属性[color=#52a5f2]技能无效[/color]效果时，令对手的[color=#57c975]衰弱[/color]回合数归1，自身每有1层[color=#f35555]旧日之晷[/color]效果+1，若对手不处于异常状态则附加1层[color=#f35555]宙变之殢[/color]",
           "args": [],
           "effect": {
             "id": 2399,
@@ -39,6 +41,7 @@
         },
         {
           "info": "本场战斗双方每使1只精灵消逝，自身的旧日之晷触发阈值-1且此技能造成的攻击伤害提升30%，吸取对手最大体力的10%",
+          "analyze_info": "[sprite name=iconComp]本场战斗双方每使1只精灵[color=#57c975]消逝[/color]，自身的[color=#f35555]旧日之晷[/color]触发阈值-1且此技能造成的攻击伤害提升30%，[color=#52a5f2]吸取[/color]对手最大体力的10%",
           "args": [],
           "effect": {
             "id": 2401,
@@ -47,6 +50,7 @@
         },
         {
           "info": "未击败对手时，消除自身当回合所使用技能的记录",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手时，消除自身[color=#52a5f2]当回合(412)[/color]所使用技能的记录",
           "args": [],
           "effect": {
             "id": 2400,
@@ -55,8 +59,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/pet_advance/23"
+      }
     }
   },
-  "hash": "63c3f4e6"
+  "hash": "ae19051"
 }

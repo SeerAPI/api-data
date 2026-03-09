@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身下2回合攻击有60%使对手麻痹",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下2回合攻击有60%使对手[color=#57c975]麻痹[/color]",
           "args": [
             2,
             60,
@@ -35,6 +36,7 @@
         },
         {
           "info": "自身每处于1种能力提升状态，造成的伤害额外提升10%",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，造成的[color=#52a5f2]伤害额外提升[/color]10%",
           "args": [
             1,
             10
@@ -46,6 +48,7 @@
         },
         {
           "info": "对手每处于一种能力下降状态时附加60点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每处于一种能力下降状态时附加60点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             60
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2d8e4d2"
+  "hash": "160fa49e"
 }

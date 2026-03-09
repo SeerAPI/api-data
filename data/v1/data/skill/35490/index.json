@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则恢复自身所有体力和PP值",
       "args": [],
       "effect": {
         "id": 1216,
@@ -29,6 +30,7 @@
     },
     {
       "info": "对手处于异常状态时60%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]对手处于异常状态时60%令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         60,
         6
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "45e8f705"
+  "advance": null,
+  "hash": "e26f8052"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后30%令对方麻痹",
+          "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             30
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若当前HP低于对手，则技能威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若当前HP低于对手，则技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 132,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "80341983"
+  "hash": "35336107"
 }

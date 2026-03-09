@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于异常状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手不处于异常状态时对手2回合内体力恢复效果减少30%",
+      "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手2回合内体力恢复效果减少30%",
       "args": [
         2,
         30
@@ -42,6 +44,7 @@
     },
     {
       "info": "附加攻击伤害25%的百分比伤害，每次使用增加25%，最高100%",
+      "analyze_info": "[sprite name=iconHit]附加攻击伤害25%的[color=#52a5f2]百分比伤害[/color]，每次使用增加25%，最高100%（boss有效）",
       "args": [
         25,
         25,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "953cad5a"
+  "advance": null,
+  "hash": "73e568fe"
 }

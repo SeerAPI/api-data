@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于异常状态则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若对手处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "1回合内受到攻击则对手下回合受到的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]1回合内受到攻击则对手下回合受到的伤害翻倍（boss有效）",
           "args": [
             1
           ],
@@ -63,6 +67,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -74,8 +79,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6acfe069"
+  "hash": "30d23f4c"
 }

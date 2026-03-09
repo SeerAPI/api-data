@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -29,6 +30,7 @@
     },
     {
       "info": "攻击结束时自身攻击+1，速度+1",
+      "analyze_info": "[sprite name=iconHit]攻击结束时自身攻击+1，速度+1（boss有效）",
       "args": [
         1,
         0,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "13b7a790"
+  "advance": null,
+  "hash": "817c63"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令对手害怕，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         100,
         6,
@@ -43,6 +45,7 @@
     },
     {
       "info": "消除对手所有护盾效果，消除成功则使对手全属性-1，自身体力低于对手时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]效果，消除成功则使对手[color=#52a5f2]全属性[/color]-1，自身体力低于对手时弱化效果翻倍",
       "args": [
         1
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b2a1b147"
+  "advance": null,
+  "hash": "3b6d9e0"
 }

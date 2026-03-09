@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "100%概率使对手陷入流血状态2回合",
+          "analyze_info": "[sprite name=iconHit]100%概率使对手陷入[color=#57c975]流血[/color]状态2回合（boss有效）",
           "args": [
             100,
             16,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dca8adb"
+  "hash": "1a5b29d5"
 }

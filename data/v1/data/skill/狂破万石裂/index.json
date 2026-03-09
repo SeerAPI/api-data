@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害高于300则获得300点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则获得300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300,
             300
@@ -34,6 +35,7 @@
         },
         {
           "info": "造成的伤害不足300则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不足300则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             300,
             3
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1f53f158"
+  "hash": "fc3a3b0f"
 }

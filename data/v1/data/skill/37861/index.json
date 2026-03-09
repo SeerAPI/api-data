@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手所有护盾效果，消除成功则为自身附加等量的护盾值",
+      "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]效果，消除成功则为自身附加等量的[color=#57c975]护盾[/color]值（boss有效）",
       "args": [],
       "effect": {
         "id": 1545,
@@ -29,6 +30,7 @@
     },
     {
       "info": "双方任意一方处于护盾状态时100%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]双方任意一方处于[color=#57c975]护盾[/color]状态时100%令对手[color=#57c975]睡眠[/color]",
       "args": [
         100,
         8
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "17205c90"
+  "advance": null,
+  "hash": "fed757f7"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内自身使用属性技能时能较快出手",
+      "analyze_info": "[sprite name=iconHit]3回合内自身使用属性技能时能较快出手（boss有效）",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "将能力下降状态反馈给对手",
+      "analyze_info": "[sprite name=iconHit]将能力下降状态反馈给对手（boss有效）",
       "args": [],
       "effect": {
         "id": 63,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7c383440"
+  "advance": null,
+  "hash": "9efdbc37"
 }

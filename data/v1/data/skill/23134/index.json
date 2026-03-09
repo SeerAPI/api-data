@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若使用技能则恢复100点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复100点体力值（boss有效）",
       "args": [
         3,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内若受到攻击则有100%概率令对手冻伤",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有100%概率令对手[color=#57c975]冻伤[/color]（boss有效）",
       "args": [
         3,
         100,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d437654c"
+  "advance": null,
+  "hash": "a5cd3485"
 }

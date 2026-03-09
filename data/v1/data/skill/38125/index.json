@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，解除成功则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "将自身的能力下降状态双倍反馈给对手，反馈成功则对手下1次技能无效",
+      "analyze_info": "[sprite name=iconHit]将自身的能力下降状态双倍反馈给对手，反馈成功则对手下1次技能无效",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "下次击败对手时，令对方下只出战精灵流血",
+      "analyze_info": "[sprite name=iconHit]下次[color=#57c975]击败[/color]对手时，令对方下只出战精灵[color=#57c975]流血[/color]",
       "args": [
         16
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "76f54e99"
+  "advance": null,
+  "hash": "820b83f0"
 }

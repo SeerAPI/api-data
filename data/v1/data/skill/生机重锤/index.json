@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于能力下降状态时先制+1",
+          "analyze_info": "[sprite name=iconInherent]对手处于能力下降状态时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1243,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若对手处于异常状态则自身造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             100
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "随机吸取对手200-350点体力，若自身处于能力提升状态则效果转变为300-450点",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手200-350点体力，若自身处于能力提升状态则效果转变为300-450点（boss有效）",
           "args": [
             200,
             350,
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5036dd6e"
+  "hash": "cf385fc5"
 }

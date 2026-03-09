@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内受到物理攻击和特殊攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击和特殊攻击伤害减少50%（boss有效）",
       "args": [
         3,
         2,
@@ -43,6 +45,7 @@
     },
     {
       "info": "下回合受到致命伤害时残留1点体力",
+      "analyze_info": "[sprite name=iconHit]下回合受到致命伤害时残留1点体力（boss有效）",
       "args": [
         1
       ],
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内每回合对对方造成伤害的1/2恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合对对方造成伤害的1/2恢复自身体力（boss有效）",
       "args": [
         3,
         2
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6e73c9fb"
+  "advance": null,
+  "hash": "9f23a3d2"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/4",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手最大体力的1/4",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加150点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加150点[color=#52a5f2]固定伤害[/color]，对手处于异常状态时[color=#52a5f2]固定伤害[/color]翻倍",
       "args": [
         150
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c7354eb9"
+  "advance": null,
+  "hash": "67296754"
 }

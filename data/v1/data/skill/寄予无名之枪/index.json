@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手每存在250点护盾则造成的攻击伤害提升1倍",
+          "analyze_info": "[sprite name=iconHit]对手每存在250点[color=#57c975]护盾[/color]则造成的攻击伤害提升1倍",
           "args": [
             250,
             1
@@ -44,6 +46,7 @@
         },
         {
           "info": "出手时自身护盾值高于250则自身下回合攻击技能先制+1",
+          "analyze_info": "[sprite name=iconHit]出手时自身[color=#57c975]护盾[/color]值高于250则自身下回合攻击技能[color=#52a5f2]先制[/color]+1",
           "args": [
             250,
             1
@@ -55,6 +58,7 @@
         },
         {
           "info": "出手时自身护盾值低于250则下回合属性技能先制+1",
+          "analyze_info": "[sprite name=iconHit]出手时自身[color=#57c975]护盾[/color]值低于250则下回合属性技能[color=#52a5f2]先制[/color]+1",
           "args": [
             250,
             1
@@ -66,6 +70,7 @@
         },
         {
           "info": "附加所造成伤害值75%的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加所造成伤害值75%的[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             75
           ],
@@ -76,8 +81,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "14f6f9d2"
+  "hash": "406e64bf"
 }

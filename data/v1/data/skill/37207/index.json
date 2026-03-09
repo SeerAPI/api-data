@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "威力随机，随机范围150~220",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150~220（boss有效）",
       "args": [],
       "effect": {
         "id": 70,
@@ -29,6 +30,7 @@
     },
     {
       "info": "无视对手双防能力提升状态",
+      "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 195,
@@ -37,6 +39,7 @@
     },
     {
       "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+      "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
       "args": [],
       "effect": {
         "id": 811,
@@ -46,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f1a62743"
+  "advance": null,
+  "hash": "655c7767"
 }

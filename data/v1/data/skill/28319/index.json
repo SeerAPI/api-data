@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于能力提升状态则先制+1且必定命中",
+      "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+1且[color=#52a5f2]必定命中[/color]",
       "args": [],
       "effect": {
         "id": 2000,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的控制类异常状态",
       "args": [
         4
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "若对手不处于能力提升状态则100%令对手凝滞",
+      "analyze_info": "[sprite name=iconHit]若对手不处于能力提升状态则100%令对手[color=#57c975]凝滞[/color]",
       "args": [
         100,
         32
@@ -50,6 +53,7 @@
     },
     {
       "info": "100%令对手害怕，未触发则为对手附加600点护盾",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则为对手附加600点[color=#57c975]护盾[/color]",
       "args": [
         100,
         6,
@@ -62,6 +66,7 @@
     },
     {
       "info": "技能无效时，免疫下1次对手的攻击，免疫成功则令对手全属性+1",
+      "analyze_info": "[sprite name=iconInherent]技能无效时，免疫下1次对手的攻击，免疫成功则令对手[color=#52a5f2]全属性[/color]+1",
       "args": [],
       "effect": {
         "id": 2006,
@@ -71,5 +76,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9be2c11d"
+  "advance": null,
+  "hash": "b999b842"
 }

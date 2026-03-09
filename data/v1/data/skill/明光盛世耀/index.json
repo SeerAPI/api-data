@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身的能力下降状态双倍反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将自身的能力下降状态双倍反馈给对手（boss有效）",
           "args": [],
           "effect": {
             "id": 813,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2e910b7f"
+  "hash": "1ee09289"
 }

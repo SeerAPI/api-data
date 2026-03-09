@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若未击败对手则下1回合攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下1回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "击败对手则自身能力提升等级翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则自身能力提升等级翻倍",
           "args": [],
           "effect": {
             "id": 1253,
@@ -49,6 +52,7 @@
         },
         {
           "info": "附加自身最大体力值与速度值总和25%的百分比伤害，每次使用增加10%，最高45%",
+          "analyze_info": "[sprite name=iconHit]附加自身最大体力值与速度值总和25%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高45%（boss有效）",
           "args": [
             25,
             10,
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ae5583b3"
+  "hash": "7e6c2475"
 }

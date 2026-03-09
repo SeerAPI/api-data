@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功使对手下回合先制-3",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功使对手下回合[color=#52a5f2]先制[/color]-3",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "将对手所处的流血转化为诅咒",
+          "analyze_info": "[sprite name=iconHit]将对手所处的[color=#57c975]流血[/color][color=#52a5f2]转化[/color]为[color=#57c975]诅咒[/color]",
           "args": [
             16,
             23
@@ -54,6 +57,7 @@
         },
         {
           "info": "造成的攻击伤害低于200则令对手2回合内属性技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害低于200则令对手2回合内属性技能无效",
           "args": [
             200,
             2
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e3ff8cf6"
+  "hash": "b2873bb"
 }

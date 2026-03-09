@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下2回合造成的伤害翻倍（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内对手恢复体力时恢复效果减少80%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少80%（boss有效）",
       "args": [
         3,
         80
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fec9feef"
+  "advance": null,
+  "hash": "46da0782"
 }

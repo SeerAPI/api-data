@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不少于400",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于400（boss有效）",
       "args": [
         400
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "无视护盾效果",
+      "analyze_info": "[sprite name=iconHit]无视[color=#57c975]护盾[/color]效果",
       "args": [],
       "effect": {
         "id": 1568,
@@ -39,6 +41,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则1回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则1回合内令对手使用的属性技能无效",
       "args": [
         1
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "自身星盘每转动1刻吸取对手30点体力，回返期间改为汲取体力",
+      "analyze_info": "[sprite name=iconHit]自身星盘每转动1刻[color=#52a5f2]吸取[/color]对手30点体力，回返期间改为汲取体力",
       "args": [
         30
       ],
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e77a5a84"
+  "advance": null,
+  "hash": "35407434"
 }

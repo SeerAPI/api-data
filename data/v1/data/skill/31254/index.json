@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则令对手害怕",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]害怕[/color]",
       "args": [
         6
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身体力低于1/2时造成的伤害为2倍，低于1/3时伤害为3倍",
+      "analyze_info": "[sprite name=iconHit]自身体力低于1/2时造成的伤害为2倍，低于1/3时伤害为3倍（boss有效）",
       "args": [
         2,
         2,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a088fd09"
+  "advance": null,
+  "hash": "a54a787d"
 }

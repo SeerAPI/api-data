@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "连续使用时先制+1",
+          "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
           "args": [],
           "effect": {
             "id": 1080,
@@ -31,6 +32,7 @@
         },
         {
           "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
           "args": [
             1,
             1
@@ -42,6 +44,7 @@
         },
         {
           "info": "若对手处于睡眠状态，则25%概率秒杀对手",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]睡眠[/color]状态，则25%概率[color=#52a5f2]秒杀[/color]对手",
           "args": [
             8,
             25
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8b5dd633"
+  "hash": "78f9cffe"
 }

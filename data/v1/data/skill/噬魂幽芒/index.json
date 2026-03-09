@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身能力下降状态并消除对手提升状态，消除任意一项成功则100%对手害怕",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态并消除对手提升状态（boss有效），消除任意一项成功则100%对手[color=#57c975]害怕[/color]",
           "args": [
             100,
             6
@@ -34,6 +35,7 @@
         },
         {
           "info": "20%的概率伤害为2倍，未触发则下次翻倍概率额外提升10%且伤害提升变为3倍",
+          "analyze_info": "[sprite name=iconHit]20%的概率伤害为2倍，[color=#52a5f2]未触发[/color]则下次翻倍概率额外提升10%且伤害提升变为3倍（boss有效）",
           "args": [
             20,
             2,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ba8b084c"
+  "hash": "2b274b69"
 }

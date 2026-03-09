@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若上回合自身未受到攻击伤害则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若上回合自身未受到攻击伤害则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若上回合自身受到了攻击伤害则下1次受到的攻击伤害不会超过上回合所受攻击伤害的数额",
+          "analyze_info": "[sprite name=iconHit]若上回合自身受到了攻击伤害则下1次受到的攻击伤害不会超过上回合所受攻击伤害的数额",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "未击败对手则下回合自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下回合自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "击败对手则1回合内令对手攻击技能无法造成伤害且命中效果失效",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则1回合内令对手攻击技能无法造成伤害且命中效果失效",
           "args": [
             1
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "521f510a"
+  "hash": "77390030"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手麻痹",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手[color=#57c975]麻痹[/color]",
           "args": [
             0
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "2回合内免疫受到的致命一击伤害并直接扣除对手等量体力",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫受到的[color=#57c975]致命一击[/color]伤害并直接扣除对手等量体力",
           "args": [
             2
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b92d8230"
+  "hash": "b532ce72"
 }

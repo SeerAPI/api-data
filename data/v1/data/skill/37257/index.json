@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于护盾状态下先制+1",
+      "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护盾[/color]状态下[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 1487,
@@ -29,6 +30,7 @@
     },
     {
       "info": "100%使对手流血，若未触发则使对手受到相当于自身当前体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]100%使对手[color=#57c975]流血[/color]，若[color=#52a5f2]未触发[/color]则使对手受到相当于自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         100,
         16,
@@ -41,6 +43,7 @@
     },
     {
       "info": "对手每损失1点体力则额外附加1点固定伤害",
+      "analyze_info": "[sprite name=iconHit]对手每损失1点体力则额外附加1点[color=#52a5f2]固定伤害[/color]",
       "args": [
         1,
         1
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8130bed9"
+  "advance": null,
+  "hash": "6f72fa3b"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则恢复自身全部体力",
       "args": [],
       "effect": {
         "id": 945,
@@ -29,6 +30,7 @@
     },
     {
       "info": "50%的概率令对手随机1项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]50%的概率令对手随机1项技能PP值归零",
       "args": [
         50,
         1
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7d7132e4"
+  "advance": null,
+  "hash": "fed0bb60"
 }

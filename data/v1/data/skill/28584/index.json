@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "为自身增加1层魂落，然后若自身的魂落高于命起则令对手场下全部阵亡精灵消逝，对手场下没有阵亡精灵时附加200点轮回系伤害",
+      "analyze_info": "[sprite name=iconHit]为自身增加1层[color=#f35555]魂落[/color]，[color=#52a5f2]然后[/color]若自身的[color=#f35555]魂落[/color]高于[color=#f35555]命起[/color]则令对手场下全部阵亡精灵[color=#57c975]消逝[/color]，对手场下没有阵亡精灵时附加200点轮回系伤害",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "全属性+1，自身满体力时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身满体力时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "下2回合攻击忽略对手25%的双防值",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手25%的双防值",
       "args": [
         2,
         25
@@ -52,6 +55,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "114bb68a"
+  "advance": null,
+  "hash": "da50c7c6"
 }

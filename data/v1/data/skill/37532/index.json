@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令对手沉默，未触发则2回合内每回合100%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]沉默[/color]，[color=#52a5f2]未触发[/color]则2回合内每回合100%闪避对手攻击",
       "args": [
         100,
         30,
@@ -44,6 +46,7 @@
     },
     {
       "info": "后出手时使对手睡眠，未触发则附加自身当前体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         8,
         3
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "14796e3b"
+  "advance": null,
+  "hash": "d5d69900"
 }

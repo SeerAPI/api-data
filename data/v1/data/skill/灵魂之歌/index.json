@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若Miss则自己恢复1/4体力",
+          "analyze_info": "[sprite name=iconHit]若Miss则自己恢复1/4体力（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "命中后100%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             100
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "651a5a1d"
+  "hash": "207b81fe"
 }

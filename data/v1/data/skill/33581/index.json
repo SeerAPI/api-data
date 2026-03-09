@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做10~50次攻击",
+      "analyze_info": "1回合做10~50次攻击",
       "args": [
         10,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "获得250点护盾，护盾消失时附加250点固定伤害",
+      "analyze_info": "[sprite name=iconHit]获得250点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时附加250点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         250,
         250
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "83399c53"
+  "advance": null,
+  "hash": "35603b81"
 }

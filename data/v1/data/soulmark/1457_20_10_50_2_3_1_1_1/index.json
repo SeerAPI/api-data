@@ -4,6 +4,7 @@
       "id": 1140,
       "desc": "本场战斗中首次使用攻击技能附加自身防御和特防能力总和20%的固定伤害，之后每次叠加10%，最高50%；若自身受到的攻击伤害高于最大体力的1/2则战斗阶段结束时恢复自身最大体力的1/3且自身防御+1、特防+1（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>若自身使用攻击技能则<color=#64F9FA>附加</color>自身防御和特防能力总和20%的<b>百分比伤害</b>，然后本场战斗此效果提升10%，最高50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>若自身受到的攻击伤害高于最大体力的1/2则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3且自身防御+1、特防+1",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -45,8 +46,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "59ebd1bd"
+  "hash": "90ad2f7"
 }

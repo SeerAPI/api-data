@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "连续使用时先制+1",
+          "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
           "args": [],
           "effect": {
             "id": 1080,
@@ -31,6 +32,7 @@
         },
         {
           "info": "30%的概率伤害为2倍，未触发则下次翻倍概率额外提升20%且伤害提升变为3倍",
+          "analyze_info": "[sprite name=iconHit]30%的概率伤害为2倍，[color=#52a5f2]未触发[/color]则下次翻倍概率额外提升20%且伤害提升变为3倍（boss有效）",
           "args": [
             30,
             2,
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "65d42829"
+  "hash": "f80ad256"
 }

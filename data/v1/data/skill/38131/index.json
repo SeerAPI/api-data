@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于异常状态则造成的攻击伤害额外提升100%且回合结束后解除自身所有异常状态",
+      "analyze_info": "[sprite name=iconHit]若自身处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]100%且[color=#57c975]回合结束后[/color]解除自身所有异常状态（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以50的固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除双方能力上升、下降状态（boss有效），消除成功则附加消除总段数乘[color=#52a5f2]以[/color]50的[color=#52a5f2]固定伤害[/color]",
       "args": [
         50
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "未击败对手则降低对手所有技能2点PP值",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则降低对手所有技能2点PP值",
       "args": [
         2
       ],
@@ -51,6 +54,7 @@
     },
     {
       "info": "击败对手时，恢复自身全部体力且己方和平对抗的回合数+1，己方每有1个B-ROBO对抗回合数+1",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时，恢复自身全部体力且[color=#52a5f2]己方[/color][color=#f35555]和平对抗[/color]的回合数+1，[color=#52a5f2]己方[/color]每有1个B-ROBO对抗回合数+1",
       "args": [],
       "effect": {
         "id": 2357,
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4e7f552e"
+  "advance": null,
+  "hash": "e67bf233"
 }

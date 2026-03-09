@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若使用技能则恢复100点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复100点体力值（boss有效）",
       "args": [
         3,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内特殊攻击对自身必定miss",
+      "analyze_info": "[sprite name=iconHit]3回合内特殊攻击对自身必定miss（boss有效）",
       "args": [
         3
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "78a41bf7"
+  "advance": null,
+  "hash": "9d1aa93f"
 }

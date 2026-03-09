@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手200点固定体力，每次使用额外附加50点，最高350点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点固定体力，每次使用额外附加50点，最高350点（boss有效）",
       "args": [
         200,
         50,
@@ -33,6 +34,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过240点",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过240点（boss有效）",
       "args": [
         2,
         240
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d82c1880"
+  "advance": null,
+  "hash": "2f742ad9"
 }

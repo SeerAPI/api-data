@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
           "args": [],
           "effect": {
             "id": 444,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加240点固定伤害，对手处于异常状态时固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]附加240点[color=#52a5f2]固定伤害[/color]，对手处于异常状态时[color=#52a5f2]固定伤害[/color]翻倍",
           "args": [
             240
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "395182df"
+  "hash": "4ab642d9"
 }

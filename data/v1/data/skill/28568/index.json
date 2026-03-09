@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除双方回合类效果，消除成功则双方凝滞",
+      "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]，消除成功则双方[color=#57c975]凝滞[/color]（boss有效）",
       "args": [
         32
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "反转对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
       "args": [
         100,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "消耗自身当前最大体力的1/2并使对手受到等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]消耗自身当前最大体力的1/2并使对手受到等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         2
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2c001f00"
+  "advance": null,
+  "hash": "4d437a83"
 }

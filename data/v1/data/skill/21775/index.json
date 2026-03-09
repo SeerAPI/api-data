@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手攻击等级-1，若对手处于冻伤状态，则弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]对手攻击等级-1，若对手处于[color=#57c975]冻伤[/color]状态，则弱化效果翻倍（boss有效）",
       "args": [
         0,
         -1,
@@ -33,6 +34,7 @@
     },
     {
       "info": "对手特攻等级-1，若对手处于冻伤状态，则弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]对手特攻等级-1，若对手处于[color=#57c975]冻伤[/color]状态，则弱化效果翻倍（boss有效）",
       "args": [
         2,
         -1,
@@ -45,6 +47,7 @@
     },
     {
       "info": "对手速度等级-1，若对手处于冻伤状态，则弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]对手速度等级-1，若对手处于[color=#57c975]冻伤[/color]状态，则弱化效果翻倍（boss有效）",
       "args": [
         4,
         -1,
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2ce59edc"
+  "advance": null,
+  "hash": "9584ca43"
 }

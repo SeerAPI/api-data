@@ -2,6 +2,7 @@
   "id": 1828,
   "desc": "回合开始时若自身体力低于对手，则当回合50%闪避对手的攻击且攻击技能先制+1；自身使用攻击技能时，若当回合自身未受到攻击伤害则造成伤害提升100%，若当回合自身受到了攻击伤害则吸取对手最大体力的1/3（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身体力低于对手，则50%<color=#64F9FA>闪避</color>对手的攻击且当回合攻击技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能时：\r\n<indent=32><sprite=4><indent=48>若当回合自身未受到攻击伤害则造成伤害<color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若当回合自身受到了攻击伤害则<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +42,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "371946d2"
+  "advance": null,
+  "hash": "ff18fcb5"
 }

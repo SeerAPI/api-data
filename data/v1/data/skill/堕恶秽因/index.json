@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则防御+1，特攻+2，特防+1，速度+2，命中+1",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则防御+1，特攻+2，特防+1，速度+2，命中+1（boss有效）",
           "args": [
             0,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下2回合造成的伤害翻倍（boss有效）",
           "args": [
             2
           ],
@@ -48,6 +50,7 @@
         },
         {
           "info": "为对手种下晦暗之因，若对手的晦暗之因已成熟则收割晦暗之因转化为自身的1层秽黯之根",
+          "analyze_info": "[sprite name=iconHit]为对手种下[color=#f35555]晦暗之因[/color]，若对手的[color=#f35555]晦暗之因[/color]已成熟则收割[color=#f35555]晦暗之因[/color][color=#52a5f2]转化[/color]为自身的1层[color=#f35555]秽黯之根[/color]",
           "args": [],
           "effect": {
             "id": 2138,
@@ -56,8 +59,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/pet_advance/18"
+      }
     }
   },
-  "hash": "648480b7"
+  "hash": "1c5f84c8"
 }

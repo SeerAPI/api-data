@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "命中后70%令对手睡眠，未触发则下1回合自身攻击技能先制+2",
+          "analyze_info": "[sprite name=iconHit]命中后70%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则下1回合自身攻击技能[color=#52a5f2]先制[/color]+2",
           "args": [
             70,
             8,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "90f7da5f"
+  "hash": "2b4ef3ca"
 }

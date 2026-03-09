@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则令对手下1次使用的攻击技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的攻击伤害低于350时附加大量真实伤害",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害低于350时附加大量[color=#52a5f2]真实伤害[/color]（boss有效）",
       "args": [
         350
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "100%令对手随机1个被放逐的精灵所有技能PP值-1，若对手不存在被放逐的精灵则令对手当前精灵所有技能PP值-1",
+      "analyze_info": "[sprite name=iconHit]100%令对手随机1个被[color=#52a5f2]放逐[/color]的精灵所有技能PP值-1，若对手不存在被[color=#52a5f2]放逐[/color]的精灵则令对手当前精灵所有技能PP值-1",
       "args": [],
       "effect": {
         "id": 1534,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5c2db36e"
+  "advance": null,
+  "hash": "4f78f4c"
 }

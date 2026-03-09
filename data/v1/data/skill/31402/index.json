@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         0,
         8
@@ -32,6 +33,7 @@
     },
     {
       "info": "若自身为满体力则技能威力提升100%",
+      "analyze_info": "[sprite name=iconHit]若自身为满体力则技能[color=#52a5f2]威力[/color]提升100%（boss有效）",
       "args": [
         100
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7c5497fb"
+  "advance": null,
+  "hash": "405cc5fd"
 }

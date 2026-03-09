@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "2回合内若被对手击败则对手损失500点体力，造成致命伤害时，对手剩余1点体力",
+          "analyze_info": "[sprite name=iconHit]2回合内若被对手[color=#57c975]击败[/color]则对手损失500点体力，造成致命伤害时，对手剩余1点体力（boss有效）",
           "args": [
             2,
             500
@@ -42,7 +44,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "33729": {
       "id": 33729,
@@ -67,6 +70,7 @@
       "skill_effect": [
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -75,6 +79,7 @@
         },
         {
           "info": "解除自身能力下降状态，解除成功则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1392,
@@ -83,6 +88,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则令对手害怕",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             0,
             6
@@ -94,7 +100,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "35011": {
       "id": 35011,
@@ -119,6 +126,7 @@
       "skill_effect": [
         {
           "info": "1回合做4-8次攻击，对手处于异常状态时连击上限为10",
+          "analyze_info": "[sprite name=iconHit]1回合做4-8次攻击，对手处于异常状态时连击上限为10",
           "args": [
             4,
             8,
@@ -131,6 +139,7 @@
         },
         {
           "info": "先出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             100,
             50
@@ -142,8 +151,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "24a011d2"
+  "hash": "90261f8a"
 }

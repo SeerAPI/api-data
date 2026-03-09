@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过200点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少50%",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过200点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少50%（boss有效）",
           "args": [
             2,
             200,
@@ -36,6 +37,7 @@
         },
         {
           "info": "2回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             2
           ],
@@ -46,6 +48,7 @@
         },
         {
           "info": "2回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫能力下降状态（boss有效）",
           "args": [
             2
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6936509"
+  "hash": "5f17acc"
 }

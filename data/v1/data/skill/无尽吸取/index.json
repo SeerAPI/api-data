@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，特攻+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+1，速度+1，命中+1（boss有效）",
           "args": [
             0,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "5回合内每回合使用技能吸取对手最大体力的1/4",
+          "analyze_info": "[sprite name=iconHit]5回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/4",
           "args": [
             5,
             4
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "878b8572"
+  "hash": "557e2385"
 }

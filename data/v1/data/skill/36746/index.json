@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-3",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-3（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手为自身天敌则100%令对手疲惫，未触发则令自身2回合内100%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]若对手为自身天敌则100%令对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则令自身2回合内100%闪避对手攻击",
       "args": [
         100,
         7,
@@ -44,6 +46,7 @@
     },
     {
       "info": "若自身处于能力提升状态则造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         100
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "24c150f6"
+  "advance": null,
+  "hash": "be73a738"
 }

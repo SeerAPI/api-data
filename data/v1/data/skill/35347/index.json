@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则恢复自身所有体力和PP值",
       "args": [],
       "effect": {
         "id": 1216,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手的HP小于400，则造成的伤害增加100%",
+      "analyze_info": "[sprite name=iconHit]若对手的HP小于400，则造成的伤害增加100%（boss有效）",
       "args": [
         400,
         100
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b2f54703"
+  "advance": null,
+  "hash": "93720f2c"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 828,
@@ -29,6 +30,7 @@
     },
     {
       "info": "为自身附加250点护盾",
+      "analyze_info": "[sprite name=iconHit]为自身附加250点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         250
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "为自身附加250点护罩",
+      "analyze_info": "[sprite name=iconHit]为自身附加250点[color=#57c975]护罩[/color]（boss有效）",
       "args": [
         250
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "495adf86"
+  "advance": null,
+  "hash": "549e128c"
 }

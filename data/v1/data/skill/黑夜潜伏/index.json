@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手害怕，未触发则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             6,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [],
           "effect": {
             "id": 980,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "263f0adb"
+  "hash": "644f57aa"
 }

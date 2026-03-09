@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功100%令对手烧伤，未触发则造成的攻击伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则造成的攻击伤害翻倍",
       "args": [
         100,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "解除双方所处的异常状态，触发成功对手2回合内体力恢复效果减少其中烧伤以外异常状态个数的比例，且为自身附加回合数等于其中烧伤回合数合计的神惧劫炎，自身已处于神惧劫炎时改为令其增加等量的回合数",
+      "analyze_info": "[sprite name=iconHit]解除双方所处的异常状态，触发成功对手2回合内体力恢复效果减少其中[color=#57c975]烧伤[/color]以外异常状态个数的比例，且为自身附加回合数等于其中[color=#57c975]烧伤[/color]回合数合计的[color=#f35555]神惧劫炎[/color]，自身已处于[color=#f35555]神惧劫炎[/color]时改为令其增加等量的回合数",
       "args": [],
       "effect": {
         "id": 2419,
@@ -40,6 +42,7 @@
     },
     {
       "info": "攻击对手时若对手处于烧伤状态，则100%使对手焚烬",
+      "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则100%使对手[color=#57c975]焚烬[/color]（boss有效）",
       "args": [
         2,
         100,
@@ -52,6 +55,7 @@
     },
     {
       "info": "造成的攻击伤害若低于100则附加给对手200点真实伤害",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于100则附加给对手200点[color=#52a5f2]真实伤害[/color]",
       "args": [
         100,
         200
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "49aec65b"
+  "advance": null,
+  "hash": "7c695ca1"
 }

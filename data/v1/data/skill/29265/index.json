@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "遇到天敌时先制+1",
+      "analyze_info": "[sprite name=iconInherent]遇到天敌时[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 1491,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若自身为对手天敌则对手下次使用的攻击技能必定MISS",
+      "analyze_info": "[sprite name=iconHit]若自身为对手天敌则对手下次使用的攻击技能必定MISS",
       "args": [],
       "effect": {
         "id": 2029,
@@ -37,6 +39,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "3回合内若对手使用属性技能，则使用属性技能后的下1回合攻击技能无法造成伤害且命中效果失效",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能，则使用属性技能后的下1回合攻击技能无法造成伤害且命中效果失效",
       "args": [
         3,
         1
@@ -58,6 +62,7 @@
     },
     {
       "info": "3回合内若对手使用攻击技能则100%使对手睡眠",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则100%使对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         3,
         100,
@@ -71,5 +76,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "19980895"
+  "advance": null,
+  "hash": "8127a8a9"
 }

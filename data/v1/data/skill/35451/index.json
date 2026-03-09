@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "威力随机，随机范围120-300，连续使用每次威力提升30，最高提升至300",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围120-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
       "args": [
         120,
         300,
@@ -34,6 +35,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
       "args": [
         300,
         2
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "66fd1750"
+  "advance": null,
+  "hash": "2c5d6259"
 }

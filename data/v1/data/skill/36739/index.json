@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，若对手不处于能力提升状态则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，若对手不处于能力提升状态则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内70%闪避对手攻击，若本次技能造成的伤害高于200则闪避效果延长2回合",
+      "analyze_info": "[sprite name=iconHit]2回合内70%闪避对手攻击，若本次技能造成的伤害高于200则闪避效果延长2回合",
       "args": [
         2,
         70,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b352c230"
+  "advance": null,
+  "hash": "c0cf9e02"
 }

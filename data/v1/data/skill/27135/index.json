@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "80%令对手害怕，未触发则附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]80%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         80,
         6,
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内每回合80%闪避对手攻击，自身为圣念状态则回合数延长1回合，自身为邪念状态则闪避率提升至100%",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合80%闪避对手攻击，自身为圣念状态则回合数延长1回合，自身为邪念状态则闪避率提升至100%",
       "args": [],
       "effect": {
         "id": 1572,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5acfd41e"
+  "advance": null,
+  "hash": "69b623f7"
 }

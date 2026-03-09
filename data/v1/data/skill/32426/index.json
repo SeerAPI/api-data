@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "先出手时造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]100%",
       "args": [
         100
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "若后出手则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]若后出手则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [],
       "effect": {
         "id": 1083,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "392c89f4"
+  "advance": null,
+  "hash": "c3c5c6a9"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若使用技能则恢复150点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复150点体力值（boss有效）",
       "args": [
         3,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7117842d"
+  "advance": null,
+  "hash": "d1233276"
 }

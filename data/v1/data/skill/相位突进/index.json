@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若当前体力低于对手则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d93eca27"
+  "hash": "ebc236cd"
 }

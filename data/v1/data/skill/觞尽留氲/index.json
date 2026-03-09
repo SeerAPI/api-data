@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "未击败对手则自身能力提升状态翻倍",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身能力提升状态翻倍",
           "args": [],
           "effect": {
             "id": 964,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或[color=#52a5f2]未触发[/color]则令对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8d0a977e"
+  "hash": "8a09f2ff"
 }

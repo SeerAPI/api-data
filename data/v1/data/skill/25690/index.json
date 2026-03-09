@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或[color=#52a5f2]未触发[/color]则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5b00bdce"
+  "advance": null,
+  "hash": "5534bf72"
 }

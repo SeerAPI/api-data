@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除双方能力提升、下降状态，消除任意一方成功则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]消除双方能力提升、下降状态，消除任意一方成功则令对手下1次使用的攻击技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "恢复自身最大体力的1/2并造成等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/2并造成等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         2
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2a4f7e88"
+  "advance": null,
+  "hash": "2423c71a"
 }

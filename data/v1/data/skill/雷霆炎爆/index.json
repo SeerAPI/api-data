@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后20%令对方麻痹",
+          "analyze_info": "[sprite name=iconHit]命中后20%令对方[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             20
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "命中后20%令对方烧伤",
+          "analyze_info": "[sprite name=iconHit]命中后20%令对方[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             20
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c92298b6"
+  "hash": "da588758"
 }

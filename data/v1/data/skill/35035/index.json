@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将对手攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "analyze_info": "[sprite name=iconInherent]将对手攻击和特攻中最高的能力值作为自己的能力值进行攻击（boss有效）",
       "args": [],
       "effect": {
         "id": 1538,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则下1回合令对手使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1回合令对手使用的攻击技能无效",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "造成的伤害不足300则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不足300则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         300,
         3
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e2cbdb2e"
+  "advance": null,
+  "hash": "83f70f56"
 }

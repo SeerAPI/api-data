@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手使用攻击技能后使对手害怕，未触发则对手下2回合属性技能命中效果失效",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则对手下2回合属性技能命中效果失效",
           "args": [
             3,
             6,
@@ -35,8 +36,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cde21a17"
+  "hash": "5226c04c"
 }

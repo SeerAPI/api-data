@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身每有1回合异常状态造成伤害提升30%，最高90%",
+      "analyze_info": "[sprite name=iconHit]自身每有1回合异常状态造成伤害提升30%，最高90%",
       "args": [
         30,
         90
@@ -32,6 +33,7 @@
     },
     {
       "info": "解除自身所处的异常状态",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态",
       "args": [],
       "effect": {
         "id": 2181,
@@ -40,6 +42,7 @@
     },
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -49,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "40f0de99"
+  "advance": null,
+  "hash": "b930692c"
 }

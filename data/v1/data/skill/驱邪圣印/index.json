@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "额外附加50点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d7c3a0b3"
+  "hash": "4817a91c"
 }

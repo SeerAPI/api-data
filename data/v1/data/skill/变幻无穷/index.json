@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合自身的攻击力和对手相同",
+          "analyze_info": "[sprite name=iconHit]5回合自身的攻击力和对手相同（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5回合自身的防御力和对手相同",
+          "analyze_info": "[sprite name=iconHit]5回合自身的防御力和对手相同（boss有效）",
           "args": [
             5
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9c726d"
+  "hash": "9cbf0705"
 }

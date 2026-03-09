@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害低于250则3回合内自身受到的伤害减少100",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于250则3回合内自身受到的伤害减少100（boss有效）",
           "args": [
             250,
             3,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若伤害高于250，则自身攻击+1",
+          "analyze_info": "[sprite name=iconHit]若伤害高于250，则自身攻击+1（boss有效）",
           "args": [
             250,
             0,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "18a8324e"
+  "hash": "662ecdbc"
 }

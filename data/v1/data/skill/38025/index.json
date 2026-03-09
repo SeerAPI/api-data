@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸收对手的能力提升同时反转对手的能力提升",
+      "analyze_info": "[sprite name=iconHit]吸收对手的能力提升同时[color=#52a5f2]反转对手[/color]的能力提升（boss有效）",
       "args": [],
       "effect": {
         "id": 822,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内若自身处于异常状态则受到伤害减少300点",
+      "analyze_info": "[sprite name=iconHit]3回合内若自身处于异常状态则受到伤害减少300点（boss有效）",
       "args": [
         3,
         300
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e35e6c91"
+  "advance": null,
+  "hash": "7d8d68f1"
 }

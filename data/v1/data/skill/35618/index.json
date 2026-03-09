@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "随机附加1~500点固定伤害",
+      "analyze_info": "[sprite name=iconHit]随机附加1~500点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         1,
         500
@@ -32,6 +33,7 @@
     },
     {
       "info": "使对手全属性-1，自身体力低于1/2时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]使对手[color=#52a5f2]全属性[/color]-1，自身体力低于1/2时弱化效果翻倍",
       "args": [
         1,
         2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ff0fbda3"
+  "advance": null,
+  "hash": "ae5e73d7"
 }

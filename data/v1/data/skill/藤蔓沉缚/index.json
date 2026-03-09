@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当回合造成的攻击伤害若高于300则100%令对手束缚",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]束缚[/color]",
           "args": [
             300,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若击败束缚的对手则对方下只出战精灵束缚",
+          "analyze_info": "[sprite name=iconHit]若[color=#57c975]击败[/color][color=#57c975]束缚[/color]的对手则对方下只出战精灵[color=#57c975]束缚[/color]（boss有效）",
           "args": [
             28
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c5cd45af"
+  "hash": "a9508003"
 }

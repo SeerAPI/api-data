@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "恢复自身最大体力的1/2",
+      "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/2（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -39,6 +41,7 @@
     },
     {
       "info": "2回合内若受到攻击则自身防御+1 特防+1",
+      "analyze_info": "[sprite name=iconHit]2回合内若受到攻击则自身防御+1 特防+1（boss有效）",
       "args": [
         2
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e3956f68"
+  "advance": null,
+  "hash": "2852d0a1"
 }

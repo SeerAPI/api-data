@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身每处于一种能力提升状态，此技能威力提升20",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态，此技能[color=#52a5f2]威力[/color]提升20（boss有效）",
           "args": [
             20
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "73d70981"
+  "hash": "25097b8a"
 }

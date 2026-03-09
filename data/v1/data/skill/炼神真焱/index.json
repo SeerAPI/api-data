@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%令对手烧伤，若对手已处于烧伤状态则将此状态刷新至5回合",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]，若对手已处于[color=#57c975]烧伤[/color]状态则将此状态刷新至5回合",
           "args": [
             100,
             2,
@@ -36,8 +37,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b3fc62b9"
+  "hash": "7d3e92b1"
 }

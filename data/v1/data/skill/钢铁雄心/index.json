@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
           "args": [
             5
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下1次对手使用的先制等级为1或3的技能无效",
+          "analyze_info": "[sprite name=iconHit]下1次对手使用的[color=#52a5f2]先制[/color]等级为1或3的技能无效",
           "args": [
             1,
             1,
@@ -55,6 +58,7 @@
         },
         {
           "info": "5回合内每回合结束后恢复自身所有技能1点PP值",
+          "analyze_info": "[sprite name=iconHit]5回合内每[color=#57c975]回合结束后[/color]恢复自身所有技能1点PP值",
           "args": [
             5,
             0,
@@ -67,6 +71,7 @@
         },
         {
           "info": "消耗自身所有护盾值并附加等量固定伤害，若对手体力未变化则恢复自身等量体力值",
+          "analyze_info": "[sprite name=iconHit]消耗自身所有[color=#57c975]护盾[/color]值并附加等量[color=#52a5f2]固定伤害[/color]，若对手体力未变化则恢复自身等量体力值",
           "args": [],
           "effect": {
             "id": 1662,
@@ -75,8 +80,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "17f4cddb"
+  "hash": "778ade08"
 }

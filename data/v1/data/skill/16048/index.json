@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成伤害的1/3回复自身体力，若对手冻伤，则造成伤害的1/2回复自身体力",
+      "analyze_info": "[sprite name=iconHit]造成伤害的1/3回复自身体力，若对手[color=#57c975]冻伤[/color]，则造成伤害的1/2回复自身体力（boss有效）",
       "args": [
         3,
         5,
@@ -33,6 +34,7 @@
     },
     {
       "info": "1回合内自身使用属性技能时能较快出手",
+      "analyze_info": "[sprite name=iconHit]1回合内自身使用属性技能时能较快出手（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5663a24e"
+  "advance": null,
+  "hash": "cb826498"
 }

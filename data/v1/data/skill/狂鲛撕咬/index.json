@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手能力提升状态，无视成功则100%令对手冻伤",
+          "analyze_info": "[sprite name=iconHit]无视对手能力提升状态，无视成功则100%令对手[color=#57c975]冻伤[/color]",
           "args": [
             100,
             5
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时下回合攻击技能先制+2",
+          "analyze_info": "[sprite name=iconHit]后出手时下回合攻击技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "未击败对手则100%令对手流血",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则100%令对手[color=#57c975]流血[/color]",
           "args": [
             100,
             16
@@ -55,6 +58,7 @@
         },
         {
           "info": "击败对手则100%令自身狂暴",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则100%令自身[color=#57c975]狂暴[/color]",
           "args": [
             100,
             14
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ee5d51d4"
+  "hash": "1893e261"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机附加250-350点固定伤害，自身处于能力提升状态时变为350-450点固定伤害",
+      "analyze_info": "[sprite name=iconHit]随机附加250-350点[color=#52a5f2]固定伤害[/color]，自身处于能力提升状态时变为350-450点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         250,
         350,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "74b76f"
+  "advance": null,
+  "hash": "a350ff23"
 }

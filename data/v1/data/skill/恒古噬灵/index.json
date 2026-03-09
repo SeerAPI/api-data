@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "损失自身350点体力，给对手造成500点固定伤害，若自身体力不足350则剩下1点体力",
+          "analyze_info": "[sprite name=iconHit]损失自身350点体力，给对手造成500点[color=#52a5f2]固定伤害[/color]，若自身体力不足350则剩下1点体力（boss有效）",
           "args": [
             350,
             500,
@@ -36,6 +37,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -46,6 +48,7 @@
         },
         {
           "info": "3回合内对手使用属性技能则随机附加2种异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用属性技能则随机附加2种异常状态",
           "args": [
             3,
             2
@@ -57,6 +60,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             3,
             1
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a9e38fb6"
+  "hash": "e7ada70e"
 }

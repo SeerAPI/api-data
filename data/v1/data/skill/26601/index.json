@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "4回合内每回合恢复自身已损失体力的50%",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
       "args": [
         4,
         50
@@ -43,6 +45,7 @@
     },
     {
       "info": "4回合内对手恢复体力时恢复效果减少50%",
+      "analyze_info": "[sprite name=iconHit]4回合内对手恢复体力时恢复效果减少50%（boss有效）",
       "args": [
         4,
         50
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "18937dc2"
+  "advance": null,
+  "hash": "28612384"
 }

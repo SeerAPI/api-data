@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则必定打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1395,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身每处于1种能力提升状态则附加50点固定伤害，遇到天敌时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态则附加50点[color=#52a5f2]固定伤害[/color]，遇到天敌时效果翻倍（boss有效）",
       "args": [
         1,
         50
@@ -40,6 +42,7 @@
     },
     {
       "info": "自身满体力时70%令对手随机2个技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]自身满体力时70%令对手随机2个技能PP值归零",
       "args": [
         70,
         2
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e7d1f31b"
+  "advance": null,
+  "hash": "fee3a59f"
 }

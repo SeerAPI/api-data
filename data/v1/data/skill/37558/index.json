@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时当回合对手使用技能后若自身体力为0，则令自身体力等于最大体力",
+      "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]当回合[/color]对手使用技能后若自身体力为0，则令自身体力等于最大体力（boss有效）",
       "args": [],
       "effect": {
         "id": 561,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时将自身能力等级返回至上一回合结束时",
+      "analyze_info": "[sprite name=iconHit]后出手时将自身能力等级返回至上一[color=#57c975]回合结束时[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 727,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fea9c83c"
+  "advance": null,
+  "hash": "49902eb3"
 }

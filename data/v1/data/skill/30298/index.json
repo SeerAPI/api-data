@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则下回合自身造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
       "args": [
         300,
         2
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b77025b8"
+  "advance": null,
+  "hash": "a2820c8d"
 }

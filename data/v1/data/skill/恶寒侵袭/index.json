@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手体力不足300则直接秒杀",
+          "analyze_info": "[sprite name=iconHit]若对手体力不足300则直接[color=#52a5f2]秒杀[/color]（boss有效）",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身处于能力下降状态时附加300点固定伤害，并解除这些能力下降状态",
+          "analyze_info": "[sprite name=iconHit]自身处于能力下降状态时附加300点[color=#52a5f2]固定伤害[/color]，并解除这些能力下降状态（boss有效）",
           "args": [
             300
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5db0d809"
+  "hash": "c76e522e"
 }

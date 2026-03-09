@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做10次攻击，自身每有1项技能PP值不为满则连击次数+1",
+          "analyze_info": "[sprite name=iconHit]1回合做10次攻击，自身每有1项技能PP值不为满则连击次数+1（boss有效）",
           "args": [
             10,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则自身下1次攻击技能造成的伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则自身下1次攻击技能造成的[color=#52a5f2]伤害额外提升[/color]50%",
           "args": [
             1,
             50
@@ -45,6 +47,7 @@
         },
         {
           "info": "自身每有1项非第五技能PP值不满附加80点固定伤害，对手免疫固定伤害时额外附加200点真实伤害",
+          "analyze_info": "[sprite name=iconHit]自身每有1项非第五技能PP值不满附加80点[color=#52a5f2]固定伤害[/color]，对手免疫[color=#52a5f2]固定伤害[/color]时额外附加200点[color=#52a5f2]真实伤害[/color]",
           "args": [
             80
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2870cd15"
+  "hash": "162c7a9c"
 }

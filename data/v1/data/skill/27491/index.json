@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内对手造成的伤害降低50%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手造成的伤害降低50%（boss有效）",
       "args": [
         3,
         50
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内对手使用属性技能，则自身下2回合必定暴击",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用属性技能，则自身下2回合必定暴击",
       "args": [
         3,
         2
@@ -53,6 +56,7 @@
     },
     {
       "info": "下2回合令对手所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]下2回合令对手所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
       "args": [
         2,
         2
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "26fbe776"
+  "advance": null,
+  "hash": "ae52690b"
 }

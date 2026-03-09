@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合结束后反转对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]3回合内每[color=#57c975]回合结束后[/color][color=#52a5f2]反转[/color]对手能力提升状态",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]且受到原本恢复量1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3,
             3
@@ -54,6 +57,7 @@
         },
         {
           "info": "下5回合对手使用体力药剂时效果变成减少相应的体力",
+          "analyze_info": "[sprite name=iconHit]下5回合对手使用体力药剂时效果变成减少相应的体力（boss有效）",
           "args": [
             5
           ],
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fb676d4"
+  "hash": "3d0d2785"
 }

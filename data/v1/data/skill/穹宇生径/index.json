@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若造成的伤害低于100，则所有技能的PP值恢复1点",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害低于100，则所有技能的PP值恢复1点（boss有效）",
           "args": [
             100,
             1
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "89329493"
+  "hash": "9bc5b982"
 }

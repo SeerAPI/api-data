@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身特攻等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
       "args": [
         2,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
       "args": [
         4,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "3回合内若对手使用属性攻击则100%对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性攻击则100%对手命中等级-2（boss有效）",
       "args": [
         3,
         5,
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dd41c45d"
+  "advance": null,
+  "hash": "3589c35e"
 }

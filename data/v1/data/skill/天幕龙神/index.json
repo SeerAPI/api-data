@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内每回合自身的能力下降状态都会反馈到对手身上",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合自身的能力下降状态都会反馈到对手身上",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "集结天幕四龙之神力，使自身下2回合先制+3且攻击必定命中、必定致命",
+          "analyze_info": "[sprite name=iconHit]集结天幕四龙之神力，使自身下2回合[color=#52a5f2]先制[/color]+3且攻击[color=#52a5f2]必定命中[/color]、必定致命（boss有效）",
           "args": [],
           "effect": {
             "id": 1512,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b13421f"
+  "hash": "9ab6cec7"
 }

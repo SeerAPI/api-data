@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]2回合内令对手使用的属性技能无效（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合对手无法使自身能力出现提升状态",
+      "analyze_info": "[sprite name=iconHit]3回合对手无法使自身能力出现提升状态",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合后对对手造成500点固定伤害 重复使用无法叠加",
+      "analyze_info": "[sprite name=iconHit]3回合后对对手造成500点[color=#52a5f2]固定伤害[/color] 重复使用无法叠加（boss有效）",
       "args": [
         3,
         500
@@ -52,6 +55,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "16c80f5c"
+  "advance": null,
+  "hash": "5f9cb690"
 }

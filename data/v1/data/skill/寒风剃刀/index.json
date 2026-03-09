@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%令对手冻伤，每次使用概率增加10%，最高概率100%",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]冻伤[/color]，每次使用概率增加10%，最高概率100%",
           "args": [
             50,
             5,
@@ -36,6 +37,7 @@
         },
         {
           "info": "造成伤害的1/3回复自身体力，若对手冻伤，则造成伤害的1/2回复自身体力",
+          "analyze_info": "[sprite name=iconHit]造成伤害的1/3回复自身体力，若对手[color=#57c975]冻伤[/color]，则造成伤害的1/2回复自身体力（boss有效）",
           "args": [
             3,
             5,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3dd3bd8f"
+  "hash": "9130f3cc"
 }

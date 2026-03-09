@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则使自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则使自身下2回合必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手基础速度值高于300则下回合先制-1",
+      "analyze_info": "[sprite name=iconHit]对手基础速度值高于300则下回合[color=#52a5f2]先制[/color]-1",
       "args": [
         300
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f4215a47"
+  "advance": null,
+  "hash": "6c95e213"
 }

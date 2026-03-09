@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内受到攻击伤害降低300点，回合结束时若当回合未受到攻击伤害则吸取对手300点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击伤害降低300点，[color=#57c975]回合结束时[/color]若[color=#52a5f2]当回合[/color]未受到攻击伤害则[color=#52a5f2]吸取[/color]对手300点体力（boss有效）",
           "args": [
             3,
             300,
@@ -55,7 +58,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "27023": {
       "id": 27023,
@@ -80,6 +84,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
           "args": [
             2,
             100,
@@ -92,6 +97,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身速度等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
           "args": [
             4,
             100,
@@ -104,6 +110,7 @@
         },
         {
           "info": "恢复自身最大体力的1/2",
+          "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/2（boss有效）",
           "args": [
             2
           ],
@@ -114,6 +121,7 @@
         },
         {
           "info": "3回合内对手造成的伤害降低50%",
+          "analyze_info": "[sprite name=iconHit]3回合内对手造成的伤害降低50%（boss有效）",
           "args": [
             3,
             50
@@ -125,8 +133,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9f327f18"
+  "hash": "b6e321fd"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手流血",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]流血[/color]（boss有效）",
       "args": [
         0,
         16
@@ -32,6 +33,7 @@
     },
     {
       "info": "令对手下1次使用的技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]令对手下1次使用的技能PP值归零",
       "args": [
         1
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b3a7718a"
+  "advance": null,
+  "hash": "f672e639"
 }

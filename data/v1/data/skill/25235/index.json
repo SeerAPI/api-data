@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1,体力值低于1/2时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1,体力值低于1/2时强化效果翻倍（boss有效）",
       "args": [
         1,
         1,
@@ -37,6 +38,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -47,6 +49,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b1797bb5"
+  "advance": null,
+  "hash": "8dabde5a"
 }

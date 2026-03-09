@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 521,
@@ -29,6 +30,7 @@
     },
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "若对手处于烧伤状态，则30%概率秒杀对手",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态，则30%概率[color=#52a5f2]秒杀[/color]对手",
       "args": [
         2,
         30
@@ -50,6 +53,7 @@
     },
     {
       "info": "下次击败对手时，令对方下只出战精灵焚烬",
+      "analyze_info": "[sprite name=iconHit]下次[color=#57c975]击败[/color]对手时，令对方下只出战精灵[color=#57c975]焚烬[/color]",
       "args": [
         22
       ],
@@ -61,5 +65,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9b29476e"
+  "advance": null,
+  "hash": "3fe08b0b"
 }

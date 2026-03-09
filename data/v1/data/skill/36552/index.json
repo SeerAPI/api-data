@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "未击败对手则解放自身当前持有的回体Ⅰ和对手当前持有的失体Ⅰ，解放成功任意一项则令对手下回合无法主动切换精灵且先制效果失效",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则解放自身当前持有的[color=#f35555]回体[/color]Ⅰ和对手当前持有的[color=#f35555]失体[/color]Ⅰ，解放成功任意一项则令对手下回合无法[color=#52a5f2]主动切换[/color]精灵且[color=#52a5f2]先制[/color]效果失效",
       "args": [],
       "effect": {
         "id": 1971,
@@ -47,6 +50,7 @@
     },
     {
       "info": "击败对手则恢复自身全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1156,
@@ -56,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3f023020"
+  "advance": null,
+  "hash": "8a3eaa53"
 }

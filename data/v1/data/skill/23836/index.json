@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "与对手互换当前体力",
+      "analyze_info": "[sprite name=iconHit]与对手互换当前体力",
       "args": [],
       "effect": {
         "id": 705,
@@ -29,6 +30,7 @@
     },
     {
       "info": "当自身血量少于1/3时先制+2",
+      "analyze_info": "[sprite name=iconInherent]当自身血量少于1/3时[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         3,
         2
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d0248370"
+  "advance": null,
+  "hash": "27612eeb"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时，100%概率令对方冰封",
+      "analyze_info": "[sprite name=iconHit]先出手时，100%概率令对方[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         100,
         15
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时下回合攻击技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合攻击技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4dd62a9e"
+  "advance": null,
+  "hash": "19f8b762"
 }

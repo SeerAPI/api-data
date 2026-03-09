@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合结束后附加200点固定伤害，若对手当回合未使用攻击技能则固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]3回合内每[color=#57c975]回合结束后[/color]附加200点[color=#52a5f2]固定伤害[/color]，若对手[color=#52a5f2]当回合[/color]未使用攻击技能则[color=#52a5f2]固定伤害[/color]翻倍",
           "args": [
             3,
             200
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则对手瘫痪",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则对手[color=#57c975]瘫痪[/color]（boss有效）",
           "args": [
             3,
             19
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e87180ab"
+  "hash": "f99457a7"
 }

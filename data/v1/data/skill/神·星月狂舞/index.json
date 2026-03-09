@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%概率威力翻倍 体力低于1/2时概率增加100%",
+          "analyze_info": "[sprite name=iconHit]50%概率[color=#52a5f2]威力[/color]翻倍 体力低于1/2时概率增加100%（boss有效）",
           "args": [
             50,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "给对手造成伤害时，伤害数值的50%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的50%恢复自身体力（boss有效）",
           "args": [
             50
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8d3349cb"
+  "hash": "6bea9e20"
 }

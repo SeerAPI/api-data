@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若造成的伤害低于200，则所有技能的PP值恢复1点",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害低于200，则所有技能的PP值恢复1点（boss有效）",
           "args": [
             200,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时将自身能力等级返回至上一回合结束时",
+          "analyze_info": "[sprite name=iconHit]后出手时将自身能力等级返回至上一[color=#57c975]回合结束时[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 727,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dfccea0"
+  "hash": "d0dca25f"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则附加300点[color=#52a5f2]固定伤害[/color]",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和80%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]效果，并附加等同于消除[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]值总和80%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             80
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "造成的伤害低于300时100%令对手混乱",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300时100%令对手[color=#57c975]混乱[/color]（boss有效）",
           "args": [
             300,
             100,
@@ -55,6 +58,7 @@
         },
         {
           "info": "当回合击败对手时，对方下只精灵出战时100%诅咒",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时，对方下只精灵[color=#57c975]出战时[/color]100%[color=#57c975]诅咒[/color]",
           "args": [
             100,
             23
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ad3f5953"
+  "hash": "59a10d77"
 }

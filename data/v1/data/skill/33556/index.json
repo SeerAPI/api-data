@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身体力高于对手时先制+1",
+      "analyze_info": "[sprite name=iconInherent]自身体力高于对手时[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         300,
         1
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d6b75da4"
+  "advance": null,
+  "hash": "9a0035b5"
 }

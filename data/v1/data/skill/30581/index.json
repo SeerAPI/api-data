@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         0,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "随机恢复150到300点生命值",
+      "analyze_info": "[sprite name=iconHit]随机恢复150到300点生命值（boss有效）",
       "args": [
         150,
         300
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3df1c69b"
+  "advance": null,
+  "hash": "5b5d9151"
 }

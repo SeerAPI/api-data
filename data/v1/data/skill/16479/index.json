@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时恢复130点体力",
+      "analyze_info": "[sprite name=iconHit]后出手时恢复130点体力（boss有效）",
       "args": [
         130
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "46eb679c"
+  "advance": null,
+  "hash": "f748f7a"
 }

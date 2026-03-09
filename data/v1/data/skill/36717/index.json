@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%的概率造成的攻击伤害翻倍，未触发则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]50%的概率造成的攻击伤害翻倍，[color=#52a5f2]未触发[/color]则令自身[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         50,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "出手时本回合若未受到伤害则对手下2回合先制-1",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若未受到伤害则对手下2回合[color=#52a5f2]先制[/color]-1",
       "args": [
         2,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "180488d1"
+  "advance": null,
+  "hash": "a1c1f43c"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合吸取对方最大体力的1/8(对草系无效)",
+      "analyze_info": "[sprite name=iconHit]5回合[color=#52a5f2]吸取[/color]对方最大体力的1/8(对草系无效)（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "己方每有一只精灵存活则恢复100点体力，每有一只精灵死亡则附加100点固定伤害",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]每有一只精灵存活则恢复100点体力，每有一只精灵死亡则附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         100
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "89002482"
+  "advance": null,
+  "hash": "a8d88ea9"
 }

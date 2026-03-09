@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸收对手能力上升状态，吸收成功，下回合先制+2",
+      "analyze_info": "[sprite name=iconHit]吸收对手能力上升状态，吸收成功，下回合[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手不处于异常状态则造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "若对手处于异常状态，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则恢复自身全部体力（boss有效）",
       "args": [],
       "effect": {
         "id": 770,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ea08dfbc"
+  "advance": null,
+  "hash": "8e5b3fd9"
 }

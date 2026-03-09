@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令自身下1回合必定先出手且下1回合造成的攻击伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令自身下1回合必定先出手且下1回合造成的攻击伤害翻倍（boss有效）",
       "args": [
         1,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "自身持有圣辉之羽时恢复全部体力",
+      "analyze_info": "[sprite name=iconHit]自身持有[color=#f35555]圣辉之羽[/color]时恢复全部体力",
       "args": [],
       "effect": {
         "id": 1957,
@@ -40,6 +42,7 @@
     },
     {
       "info": "自身持有圣雷华冠时造成的攻击伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]自身持有[color=#f35555]圣雷华冠[/color]时造成的攻击伤害翻倍",
       "args": [],
       "effect": {
         "id": 1958,
@@ -49,5 +52,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "edcb1b0d"
+  "advance": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/pet_advance/2"
+  },
+  "hash": "4d7762ae"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手能力提升效果，无视成功吸取对手最大体力的1/3，自身体力未恢复至满时令对手流血",
+          "analyze_info": "[sprite name=iconHit]无视对手能力提升效果，无视成功[color=#52a5f2]吸取[/color]对手最大体力的1/3，自身体力未恢复至满时令对手[color=#57c975]流血[/color]",
           "args": [
             3,
             16
@@ -34,6 +35,7 @@
         },
         {
           "info": "吸取并反转对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]并[color=#52a5f2]反转[/color]对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 978,
@@ -42,6 +44,7 @@
         },
         {
           "info": "后出手时威力提升60%",
+          "analyze_info": "[sprite name=iconHit]后出手时[color=#52a5f2]威力[/color]提升60%",
           "args": [
             60
           ],
@@ -52,6 +55,7 @@
         },
         {
           "info": "附加150点固定伤害，若当回合造成的伤害高于500则固伤效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加150点[color=#52a5f2]固定伤害[/color]，若[color=#52a5f2]当回合[/color]造成的伤害高于500则固伤效果翻倍（boss有效）",
           "args": [
             150,
             500
@@ -63,6 +67,7 @@
         },
         {
           "info": "击败对手时为对方下只精灵附加入魅",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时为对方下只精灵附加[color=#f35555]入魅[/color]",
           "args": [],
           "effect": {
             "id": 2326,
@@ -71,8 +76,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51ff4228"
+  "hash": "36d443e6"
 }

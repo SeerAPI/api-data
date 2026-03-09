@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于能力下降状态，则威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态，则[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 431,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若对手处于能力提升状态则附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             200
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cb66f7aa"
+  "hash": "b201c0aa"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反馈自身能力下降状态，反馈成功则恢复自身全部PP值",
+          "analyze_info": "[sprite name=iconHit]反馈自身能力下降状态，反馈成功则恢复自身全部PP值",
           "args": [],
           "effect": {
             "id": 2249,
@@ -31,6 +32,7 @@
         },
         {
           "info": "平均自身的能力等级，然后自身每减少了1项能力的等级附加80点真实伤害，每增加了1项能力的等级令对手下次攻击造成的伤害减少10%",
+          "analyze_info": "[sprite name=iconHit]平均自身的能力等级，[color=#52a5f2]然后[/color]自身每减少了1项能力的等级附加80点[color=#52a5f2]真实伤害[/color]，每增加了1项能力的等级令对手下次攻击造成的伤害减少10%",
           "args": [
             80,
             1,
@@ -43,6 +45,7 @@
         },
         {
           "info": "自身所有能力等级均为6级时，激活所有技能对应的体力上限提升效果并附加自身最大体力25%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]自身所有能力等级均为6级时，激活所有技能对应的体力上限提升效果并附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             25
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "击败对手后自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手后自身免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dc17370a"
+  "hash": "5fb5b9e0"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "20%的概率恢复自身体力的1/4",
+      "analyze_info": "[sprite name=iconHit]20%的概率恢复自身体力的1/4（boss有效）",
       "args": [
         20,
         4
@@ -32,6 +33,7 @@
     },
     {
       "info": "5回合内若使用技能则恢复100点体力值",
+      "analyze_info": "[sprite name=iconHit]5回合内若使用技能则恢复100点体力值（boss有效）",
       "args": [
         5,
         100
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "bfe67651"
+  "advance": null,
+  "hash": "eea7935e"
 }

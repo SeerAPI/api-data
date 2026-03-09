@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手为自身天敌则70%令对手麻痹，未触发则令自身3回合内70%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]若对手为自身天敌则70%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则令自身3回合内70%闪避对手攻击",
           "args": [
             70,
             0,
@@ -36,8 +37,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "22c7f00e"
+  "hash": "bbe1edfb"
 }

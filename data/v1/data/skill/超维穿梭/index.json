@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手[color=#52a5f2]当回合[/color]内无法通过技能恢复自身体力",
           "args": [],
           "effect": {
             "id": 1247,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "aa8ce9e8"
+  "hash": "73ae0edf"
 }

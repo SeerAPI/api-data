@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则对手害怕",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则自身下1回合必定先出手",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则自身下1回合必定先出手（boss有效）",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "未击败对手则50%自身全属性+1，50%对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则50%自身[color=#52a5f2]全属性[/color]+1，50%对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1ae33ad0"
+  "hash": "b12b75bc"
 }

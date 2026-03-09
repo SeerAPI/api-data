@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%概率令对手在3回合内每回合受到75点固定伤害",
+      "analyze_info": "[sprite name=iconHit]100%概率令对手在3回合内每回合受到75点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         3,
@@ -33,6 +34,7 @@
     },
     {
       "info": "随机使对手2种能力等级-1",
+      "analyze_info": "[sprite name=iconHit]随机使对手2种能力等级-1（boss有效）",
       "args": [
         2,
         1
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e61b500a"
+  "advance": null,
+  "hash": "8231a7"
 }

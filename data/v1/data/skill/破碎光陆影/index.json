@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手的HP小于400，则造成的伤害增加20%",
+          "analyze_info": "[sprite name=iconHit]若对手的HP小于400，则造成的伤害增加20%（boss有效）",
           "args": [
             400,
             20
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9e7ef017"
+  "hash": "5adc7dc1"
 }

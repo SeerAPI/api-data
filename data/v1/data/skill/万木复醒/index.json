@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每回合防御+1，特攻+1，特防+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合防御+1，特攻+1，特防+1（boss有效）",
           "args": [
             3,
             0,
@@ -39,6 +40,7 @@
         },
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c2d65d34"
+  "hash": "b2efba44"
 }

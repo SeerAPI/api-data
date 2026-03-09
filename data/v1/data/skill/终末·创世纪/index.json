@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合后对对手造成500点固定伤害 重复使用无法叠加",
+          "analyze_info": "[sprite name=iconHit]5回合后对对手造成500点[color=#52a5f2]固定伤害[/color] 重复使用无法叠加（boss有效）",
           "args": [
             5,
             500
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8ef00b81"
+  "hash": "76adfec8"
 }

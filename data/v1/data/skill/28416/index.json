@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，特攻+2，特防+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+2，特防+2（boss有效）",
       "args": [
         0,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "附加双方当前已损失技能PP值总和×10的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加双方当前已损失技能PP值总和×10的[color=#52a5f2]固定伤害[/color]",
       "args": [
         10
       ],
@@ -46,6 +48,7 @@
     },
     {
       "info": "后出手时令对手下{0}回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]后出手时令对手下{0}回合属性技能无效",
       "args": [],
       "effect": {
         "id": 919,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cff55ea3"
+  "advance": null,
+  "hash": "909f9ff8"
 }

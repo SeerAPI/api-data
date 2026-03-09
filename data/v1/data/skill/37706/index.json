@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则100%令对手中毒",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则100%令对手[color=#57c975]中毒[/color]",
       "args": [
         100,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "若先出手则当回合对手无法造成攻击伤害",
+      "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]对手无法造成攻击伤害",
       "args": [],
       "effect": {
         "id": 664,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8e53c642"
+  "advance": null,
+  "hash": "cab0f6c8"
 }

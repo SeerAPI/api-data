@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -29,6 +30,7 @@
     },
     {
       "info": "随机恢复200到400点生命值",
+      "analyze_info": "[sprite name=iconHit]随机恢复200到400点生命值（boss有效）",
       "args": [
         200,
         400
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "147c2dc7"
+  "advance": null,
+  "hash": "f27b40c8"
 }

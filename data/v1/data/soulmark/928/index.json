@@ -2,6 +2,7 @@
   "id": 928,
   "desc": "回合开始时令自身防御+1、特防+1、速度+1，令对手防御-1、特防-1、速度-1；|自身受到的攻击伤害大于350则恢复自身所有体力，自身受到的攻击伤害小于350则反弹给对手造成伤害50%的固定伤害（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>令自身防御+1、特防+1、速度+1\r\n<indent=32><sprite=4><indent=48>令对手防御-1、特防-1、速度-1\r\n\r\n<indent=0><sprite=0><indent=16>受击额外效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害大于350则<color=#64F9FA>恢复</color><b>自身所有体力</b>\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害小于350则<color=#64F9FA>反弹</color>给对手造成伤害50%的<b>固定伤害</b>",
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]令自身防御+1、特防+1、速度+1，令对手防御-1、特防-1、速度-1；|[sprite name=dot4]自身受到的攻击伤害大于350则恢复自身所有体力，自身受到的攻击伤害小于350则附加伤害50%的[color=#52a5f2]百分比伤害[/color]",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -45,5 +46,6 @@
     "url": "https://api.seerapi.com/v1/soulmark/1474"
   },
   "from": null,
-  "hash": "9b291d4f"
+  "advance": null,
+  "hash": "48f4bbc4"
 }

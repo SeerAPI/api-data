@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]先出手时消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1254,
@@ -31,6 +32,7 @@
         },
         {
           "info": "先出手时造成的攻击伤害提升60%，若对手当前体力值高于自身则伤害额外提升40%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击伤害提升60%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]40%（boss有效）",
           "args": [
             60,
             40
@@ -42,6 +44,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bcabfebd"
+  "hash": "dd2277d3"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手直接受到200点神秘系伤害，双方场上每有1柄圣剑则造成的伤害提升10%，若未命中则造成的伤害额外翻倍",
+      "analyze_info": "[sprite name=iconHit]使对手直接受到200点神秘系伤害，双方场上每有1柄[color=#f35555]圣剑[/color]则造成的伤害提升10%，若未命中则造成的伤害额外翻倍",
       "args": [
         200,
         10
@@ -32,6 +33,7 @@
     },
     {
       "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+      "analyze_info": "[sprite name=iconHit]2回合内每[color=#57c975]回合结束后[/color]降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
       "args": [
         2,
         1,
@@ -44,6 +46,7 @@
     },
     {
       "info": "击败对手则令对手下1次使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下1次使用的属性技能无效",
       "args": [
         1
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cacfbc6"
+  "advance": null,
+  "hash": "8e13cc2"
 }

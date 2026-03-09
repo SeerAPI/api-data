@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则自身下1次攻击技能造成的伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则自身下1次攻击技能造成的[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         1,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "自身HP小于1/2时威力为2倍",
+      "analyze_info": "[sprite name=iconHit]自身HP小于1/2时[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [
         2,
         2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "325cb40e"
+  "advance": null,
+  "hash": "c7d3404b"
 }

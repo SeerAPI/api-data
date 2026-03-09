@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下3回合自身使用攻击技能则附加80点固定伤害",
+          "analyze_info": "[sprite name=iconHit]下3回合自身使用攻击技能则附加80点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             80
@@ -34,6 +35,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手防御等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-2（boss有效）",
           "args": [
             1,
             100,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bf9b92e0"
+  "hash": "f980031a"
 }

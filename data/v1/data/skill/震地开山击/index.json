@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "2回合内自身受到直接攻击伤害的40%反馈给对手",
+          "analyze_info": "[sprite name=iconHit]2回合内自身受到直接攻击伤害的40%反馈给对手（boss有效）",
           "args": [
             2,
             40
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3b788f06"
+  "hash": "67bc7743"
 }

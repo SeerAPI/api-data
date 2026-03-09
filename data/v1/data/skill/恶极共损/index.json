@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内每回合恢复自身已损失体力的50%",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
           "args": [
             4,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "使对手和自身同时降低1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]使对手和自身同时降低1/3最大体力",
           "args": [
             3
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7246f804"
+  "hash": "be832857"
 }

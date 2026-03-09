@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -31,6 +32,7 @@
         },
         {
           "info": "本回合若没有打出致命一击则攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]本回合若没有打出[color=#57c975]致命一击[/color]则攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -46,6 +48,7 @@
         },
         {
           "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "948e3087"
+  "hash": "6203bf1"
 }

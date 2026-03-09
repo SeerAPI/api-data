@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "每次使用后此技能造成的攻击伤害额外提升30%，最高120%",
+          "analyze_info": "[sprite name=iconInherent]每次使用后自身造成的攻击[color=#52a5f2]伤害额外提升[/color]30%，最高120%",
           "args": [],
           "effect": {
             "id": 2396,
@@ -49,6 +52,7 @@
         },
         {
           "info": "造成伤害的100%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害的100%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             100
           ],
@@ -59,6 +63,7 @@
         },
         {
           "info": "击败对手时，将对手的宙变之殢转移给自身并转化为等量的星附属异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时，将对手的[color=#f35555]宙变之殢[/color]转移给自身并[color=#52a5f2]转化[/color]为等量的星附属异常状态",
           "args": [],
           "effect": {
             "id": 2397,
@@ -67,8 +72,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/pet_advance/23"
+      }
     }
   },
-  "hash": "7a80e925"
+  "hash": "cef5d37d"
 }

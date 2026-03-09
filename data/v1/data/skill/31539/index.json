@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，解除成功则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则令对手下1次使用的攻击技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当回合未击败对手则减少对方所有技能PP2点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则减少对方所有技能PP2点",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "当回合击败对手则恢复自身所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则恢复自身所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1286,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7c29af48"
+  "advance": null,
+  "hash": "716d278b"
 }

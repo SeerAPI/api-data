@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手沸涌",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]沸涌[/color]",
           "args": [
             36
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则对手下1回合技能失效",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则对手下1回合技能失效",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内对手造成的固定伤害和百分比伤害减少80%",
+          "analyze_info": "[sprite name=iconHit]3回合内对手造成的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少80%",
           "args": [
             3,
             80
@@ -54,6 +57,7 @@
         },
         {
           "info": "下1次受到攻击伤害时，若伤害高于300，则自身恢复全部体力",
+          "analyze_info": "[sprite name=iconHit]下1次受到攻击伤害时，若伤害高于300，则自身恢复全部体力",
           "args": [
             1,
             300
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ece8c059"
+  "hash": "a28db38e"
 }

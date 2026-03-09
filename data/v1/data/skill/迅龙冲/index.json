@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于能力提升状态时造成的伤害提升25%，先出手时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成的伤害提升25%，先出手时效果翻倍（boss有效）",
           "args": [
             25
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以30的固定伤害",
+          "analyze_info": "[sprite name=iconHit]消除双方能力上升、下降状态（boss有效），消除成功则附加消除总段数乘[color=#52a5f2]以[/color]30的[color=#52a5f2]固定伤害[/color]",
           "args": [
             30
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "当回合击败对手则恢复自身所有技能PP值",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则恢复自身所有技能PP值（boss有效）",
           "args": [],
           "effect": {
             "id": 1286,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cbf35bb4"
+  "hash": "ce30d8c7"
 }

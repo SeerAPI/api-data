@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手250点体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手250点体力",
       "args": [
         250
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内使用攻击技能100%随机附加1种异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内使用攻击技能100%随机附加1种异常状态",
       "args": [
         3,
         100
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "53f2dd99"
+  "advance": null,
+  "hash": "4d213a5d"
 }

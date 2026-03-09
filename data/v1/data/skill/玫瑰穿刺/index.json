@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "30%概率先制+1",
+          "analyze_info": "[sprite name=iconInherent]30%概率[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             30,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机附加100~300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]随机附加100~300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100,
             300
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "528af308"
+  "hash": "8dd75601"
 }

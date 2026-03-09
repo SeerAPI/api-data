@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "附加150点固定伤害，连续使用每次增加50点固定伤害，最高附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加150点[color=#52a5f2]固定伤害[/color]，连续使用每次增加50点[color=#52a5f2]固定伤害[/color]，最高附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150,
         50,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手速度等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-1（boss有效）",
       "args": [
         4,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
       "args": [
         5,
         100,
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cd592293"
+  "advance": null,
+  "hash": "a817eb5f"
 }

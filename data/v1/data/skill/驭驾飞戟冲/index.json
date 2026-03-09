@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功3回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的攻击伤害若低于300则恢复自身350点体力",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于300则恢复自身350点体力（boss有效）",
           "args": [
             300,
             350
@@ -44,6 +46,7 @@
         },
         {
           "info": "造成的伤害高于300则获得350点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则获得350点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300,
             350
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "38352de5"
+  "hash": "a231c46b"
 }

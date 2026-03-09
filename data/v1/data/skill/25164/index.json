@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "为自身附加250点护盾",
+      "analyze_info": "[sprite name=iconHit]为自身附加250点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         250
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合有50%的概率免疫当回合受到的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合有50%的概率免疫[color=#52a5f2]当回合[/color]受到的攻击伤害（boss有效）",
       "args": [
         3,
         50
@@ -42,6 +44,7 @@
     },
     {
       "info": "出手时本回合若受到伤害，则将伤害反馈给对手",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若受到伤害，则将伤害反馈给对手",
       "args": [],
       "effect": {
         "id": 818,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "247904dd"
+  "advance": null,
+  "hash": "f1c233c0"
 }

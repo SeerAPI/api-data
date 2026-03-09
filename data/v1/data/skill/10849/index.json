@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "10%令本方疲惫，1回合无法攻击",
+      "analyze_info": "[sprite name=iconHit]10%令本方[color=#57c975]疲惫[/color]，1回合无法攻击（boss有效）",
       "args": [
         10,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "10%令对手疲惫2回合",
+      "analyze_info": "[sprite name=iconHit]10%令对手[color=#57c975]疲惫[/color]2回合（boss有效）",
       "args": [
         10,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4c27c38f"
+  "advance": null,
+  "hash": "a487c749"
 }

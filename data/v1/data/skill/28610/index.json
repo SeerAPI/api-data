@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合内对手使用技能消耗的PP值变为20倍",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为20倍（boss有效）",
       "args": [
         3,
         20
@@ -52,6 +55,7 @@
     },
     {
       "info": "3回合内每回合被攻击所受到的伤害不超过260",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合被攻击所受到的伤害不超过260（boss有效）",
       "args": [
         3,
         260
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4cbb3279"
+  "advance": null,
+  "hash": "efbc0939"
 }

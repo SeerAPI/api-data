@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 485,
@@ -29,6 +30,7 @@
     },
     {
       "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
       "args": [],
       "effect": {
         "id": 444,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2946f444"
+  "advance": null,
+  "hash": "16e7733f"
 }

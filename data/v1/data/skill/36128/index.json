@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "恢复200点体力",
+      "analyze_info": "[sprite name=iconHit]恢复200点体力（boss有效）",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "为自身附加200点护盾",
+      "analyze_info": "[sprite name=iconHit]为自身附加200点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         200
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "为自身附加200点护罩",
+      "analyze_info": "[sprite name=iconHit]为自身附加200点[color=#57c975]护罩[/color]（boss有效）",
       "args": [
         200
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8d059446"
+  "advance": null,
+  "hash": "5e901403"
 }

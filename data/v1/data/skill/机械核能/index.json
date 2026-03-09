@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合攻击必定先出手",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "5回合内每回合都能附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]5回合内每回合都能附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             5,
             200
@@ -54,6 +57,7 @@
         },
         {
           "info": "下回合若受到的伤害大于250，则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于250，则恢复自身所有体力（boss有效）",
           "args": [
             250
           ],
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "23df2f9d"
+  "hash": "41a5f4a1"
 }

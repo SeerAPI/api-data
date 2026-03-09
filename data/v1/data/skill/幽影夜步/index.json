@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若对手使用攻击技能则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             3,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能则造成伤害前令对手害怕，未触发则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则造成伤害前令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
           "args": [
             3,
             6
@@ -45,6 +47,7 @@
         },
         {
           "info": "下3回合，每回合攻击技能造成的伤害不少于320",
+          "analyze_info": "[sprite name=iconHit]下3回合，每回合攻击技能造成的伤害不少于320（boss有效）",
           "args": [
             3,
             320
@@ -56,6 +59,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -67,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3bb70006"
+  "hash": "5127fec0"
 }

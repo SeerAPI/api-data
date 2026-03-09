@@ -3,6 +3,7 @@
   "args_num": 4,
   "info": "造成的伤害低于{0}时令对手{1}，未触发则自身下{2}次攻击造成的伤害额外提升{3}%",
   "info_formatting_adjustment": "<condition>造成的攻击伤害低于{0}</condition>则对手{1}\r\n--><condition>未触发</condition>则自身下{2}次攻击技能造成的伤害额外提升{3}%",
+  "analyze_info": "[sprite name=iconHit]造成的伤害低于{0}时令对手[color=#57c975]{1}[/color]，[color=#52a5f2]未触发[/color]则自身下{2}次攻击造成的[color=#52a5f2]伤害额外提升[/color]{3}%",
   "pve_effective": false,
   "param": [
     {
@@ -61,5 +62,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673"
     }
   ],
-  "hash": "1425a505"
+  "hash": "955ed20b"
 }

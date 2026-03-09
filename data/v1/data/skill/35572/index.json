@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则下回合受到的伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下回合受到的伤害[color=#52a5f2]转化[/color]为自身体力",
       "args": [],
       "effect": {
         "id": 1219,
@@ -29,6 +30,7 @@
     },
     {
       "info": "未击败对手则下1回合自身先制+2",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下1回合自身[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         1,
         2
@@ -40,6 +42,7 @@
     },
     {
       "info": "附加对手最大体力值20%的百分比伤害，每次使用增加10%，最高40%",
+      "analyze_info": "[sprite name=iconHit]附加对手最大体力值20%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高40%",
       "args": [
         20,
         10,
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7b2ea832"
+  "advance": null,
+  "hash": "636b4809"
 }

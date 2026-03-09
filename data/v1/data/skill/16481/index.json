@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，50%改变对手防御等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，50%改变对手防御等级-1（boss有效）",
       "args": [
         1,
         50,
@@ -33,6 +34,7 @@
     },
     {
       "info": "命中后35%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后35%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         35
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "41e0780"
+  "advance": null,
+  "hash": "88629b64"
 }

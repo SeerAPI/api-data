@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "100%令对手中毒，未触发则自身下2回合攻击必定致命一击，触发后3回合内若对手主动切换精灵则当回合开始后100%令对手中毒",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]中毒[/color]，[color=#52a5f2]未触发[/color]则自身下2回合攻击必定[color=#57c975]致命一击[/color]，触发后3回合内若对手[color=#52a5f2]主动切换[/color]精灵则[color=#52a5f2]当回合[/color]开始后100%令对手[color=#57c975]中毒[/color]",
           "args": [
             100,
             1,
@@ -48,6 +50,7 @@
         },
         {
           "info": "对手下1次主动切换或死亡切换精灵时，在场精灵吸取对手下只出场精灵最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]对手下1次[color=#52a5f2]主动切换[/color]或死亡切换精灵时，在场精灵[color=#52a5f2]吸取[/color]对手下只出场精灵最大体力的1/3",
           "args": [
             1,
             3
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "41a711f7"
+  "hash": "93a19bc6"
 }

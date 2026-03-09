@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合自己受到特殊攻击伤害减半",
+          "analyze_info": "[sprite name=iconHit]2回合自己受到特殊攻击伤害减半（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "2回合内物理攻击对自身必定miss",
+          "analyze_info": "[sprite name=iconHit]2回合内物理攻击对自身必定miss（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下1回合自身攻击先制+2",
+          "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             1,
             2
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "18514b24"
+  "hash": "731f94b9"
 }

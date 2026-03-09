@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后10%令对方中毒",
+          "analyze_info": "[sprite name=iconHit]命中后10%令对方[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             10
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "37596": {
       "id": 37596,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "40%令对手中毒",
+          "analyze_info": "[sprite name=iconHit]40%令对手[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             40,
             1
@@ -69,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "54b33365"
+  "hash": "519181d4"
 }

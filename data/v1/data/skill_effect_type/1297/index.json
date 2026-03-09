@@ -3,6 +3,7 @@
   "args_num": 2,
   "info": "消除对手回合类效果，消除成功则令对手{0}，未触发则吸取对手最大体力的1/{1}",
   "info_formatting_adjustment": "消除对手回合类效果\r\n--><condition>消除成功</condition>则令对手{0}$Boss$\r\n---><condition>未触发</condition>则吸取对手最大体力的1/{1}$Boss$",
+  "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手[color=#57c975]{0}[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/{1}",
   "pve_effective": false,
   "param": [
     {
@@ -89,5 +90,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850"
     }
   ],
-  "hash": "76f27004"
+  "hash": "81a11e9b"
 }

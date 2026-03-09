@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的控制类异常状态",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+          "analyze_info": "[sprite name=iconHit]2回合内每[color=#57c975]回合结束后[/color]降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
           "args": [
             2,
             1,
@@ -45,6 +47,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则下2回合对手所有技能先制-2，若对手不处于能力提升状态则令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下2回合对手所有技能[color=#52a5f2]先制[/color]-2，若对手不处于能力提升状态则令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             2,
             2,
@@ -57,6 +60,7 @@
         },
         {
           "info": "将自身下1次受到的攻击伤害转化为等量护盾，最多获得300点",
+          "analyze_info": "[sprite name=iconHit]将自身下1次受到的攻击伤害[color=#52a5f2]转化[/color]为等量[color=#57c975]护盾[/color]，最多获得300点",
           "args": [
             1,
             300
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9d106d07"
+  "hash": "b557137a"
 }

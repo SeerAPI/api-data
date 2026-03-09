@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手造成的伤害降低30%",
+          "analyze_info": "[sprite name=iconHit]3回合内对手造成的伤害降低30%（boss有效）",
           "args": [
             3,
             30
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内所有直接攻击都将降低对手1/6的HP",
+          "analyze_info": "[sprite name=iconHit]3回合内所有直接攻击都将降低对手1/6的HP（boss有效）",
           "args": [
             3,
             6
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f4395804"
+  "hash": "fdca4ac8"
 }

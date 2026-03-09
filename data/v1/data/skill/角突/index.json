@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%给予对手冻伤、中毒、烧伤中任意一种异常状态",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%给予对手[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]烧伤[/color]中任意一种异常状态（boss有效）",
           "args": [
             100
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若本回合击败对手则将对手的能力提升效果转移到自己身上",
+          "analyze_info": "[sprite name=iconHit]若本回合[color=#57c975]击败[/color]对手则将对手的能力提升效果转移到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 784,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bd38038"
+  "hash": "21789d79"
 }

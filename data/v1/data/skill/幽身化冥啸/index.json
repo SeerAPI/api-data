@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，若对手不处于能力提升状态则使对手全属性-1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），若对手不处于能力提升状态则使对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身处于能力提升状态时造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成的伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 890,
@@ -41,6 +43,7 @@
         },
         {
           "info": "吸取对手200点体力，对手≥3项技能PP值为零时额外吸取200点体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点体力，对手≥3项技能PP值为零时额外[color=#52a5f2]吸取[/color]200点体力",
           "args": [
             200,
             3,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "49cfdcea"
+  "hash": "8f25a41"
 }

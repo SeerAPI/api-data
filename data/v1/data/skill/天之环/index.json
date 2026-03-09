@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "30%随机附加烧伤，冻伤，中毒中的1种",
+          "analyze_info": "[sprite name=iconHit]30%随机附加[color=#57c975]烧伤[/color]，[color=#57c975]冻伤[/color]，[color=#57c975]中毒[/color]中的1种（boss有效）",
           "args": [
             30,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "给予对方损伤的一半会回复自己的体力",
+          "analyze_info": "[sprite name=iconHit]给予对方损伤的一半会回复自己的体力（boss有效）",
           "args": [],
           "effect": {
             "id": 1,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d18a283"
+  "hash": "69761d7a"
 }

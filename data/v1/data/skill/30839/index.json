@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
       "args": [],
       "effect": {
         "id": 760,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则自身下1回合所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下1回合所有技能[color=#52a5f2]先制[/color]+2",
       "args": [
         1,
         2
@@ -40,6 +42,7 @@
     },
     {
       "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+      "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
       "args": [],
       "effect": {
         "id": 811,
@@ -49,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fa9036a6"
+  "advance": null,
+  "hash": "1687d032"
 }

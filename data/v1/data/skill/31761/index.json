@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若当前HP低于对手，则技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若当前HP低于对手，则技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 132,
@@ -29,6 +30,7 @@
     },
     {
       "info": "造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         50
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e5da9465"
+  "advance": null,
+  "hash": "ce16558b"
 }

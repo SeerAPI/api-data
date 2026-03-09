@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，20%改变自身攻击等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，20%改变自身攻击等级+1（boss有效）",
       "args": [
         0,
         20,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，20%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，20%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         20,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，20%改变对手速度等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，20%改变对手速度等级-1（boss有效）",
       "args": [
         4,
         20,
@@ -57,6 +60,7 @@
     },
     {
       "info": "技能使用成功时，20%改变对手命中等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，20%改变对手命中等级-1（boss有效）",
       "args": [
         5,
         20,
@@ -70,5 +74,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2c9f2b0"
+  "advance": null,
+  "hash": "1b6f9f96"
 }

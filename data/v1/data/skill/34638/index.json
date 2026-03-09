@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "附加自身防御值40%的百分比伤害，先出手时附加效果翻倍",
+      "analyze_info": "[sprite name=iconHit]附加自身防御值40%的[color=#52a5f2]百分比伤害[/color]，先出手时附加效果翻倍（boss有效）",
       "args": [
         0,
         1,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若对手处于能力下降则使对手随机1个技能的PP归零",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降则使对手随机1个技能的PP归零",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9b33dcbf"
+  "advance": null,
+  "hash": "a4bd1f4c"
 }

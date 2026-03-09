@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则己方免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则[color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "随机恢复100到250点生命值",
+          "analyze_info": "[sprite name=iconHit]随机恢复100到250点生命值（boss有效）",
           "args": [
             100,
             250
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2b6441a4"
+  "hash": "acfbbcf8"
 }

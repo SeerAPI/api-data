@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 40,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时下回合所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "自身下次被击败后下一只出场的精灵攻击+1，特攻+1",
+      "analyze_info": "[sprite name=iconHit]自身下次[color=#57c975]被击败[/color]后下一只出场的精灵攻击+1，特攻+1（boss有效）",
       "args": [
         1,
         0,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "92d30ccb"
+  "advance": null,
+  "hash": "54ba9fd5"
 }

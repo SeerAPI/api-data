@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "对手不处于异常状态时附加200点真实伤害",
+      "analyze_info": "[sprite name=iconHit]对手不处于异常状态时附加200点[color=#52a5f2]真实伤害[/color]",
       "args": [
         200
       ],
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d77bcbb3"
+  "advance": null,
+  "hash": "1f6871bb"
 }

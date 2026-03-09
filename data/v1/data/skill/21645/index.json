@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身命中等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+2（boss有效）",
       "args": [
         5,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "2回合内每回合都能附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合都能附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         2,
         200
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e5d5b7f"
+  "advance": null,
+  "hash": "bba0f9f"
 }

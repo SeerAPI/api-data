@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则造成攻击伤害的50%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]若先出手则造成攻击伤害的50%恢复自身体力（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若自身处于能力提升状态则50%概率令对手害怕",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则50%概率令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         50,
         6
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "85b5f1b"
+  "advance": null,
+  "hash": "640745cb"
 }

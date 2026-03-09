@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于护盾状态下先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护盾[/color]状态下[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1487,
@@ -31,6 +32,7 @@
         },
         {
           "info": "解除自身能力下降状态，解除成功则使对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则使对手随机1个技能PP值归零",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "自身处于护盾状态时造成的攻击伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]自身处于[color=#57c975]护盾[/color]状态时造成的攻击伤害翻倍",
           "args": [],
           "effect": {
             "id": 2100,
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "75e12d4"
+  "hash": "de41f95e"
 }

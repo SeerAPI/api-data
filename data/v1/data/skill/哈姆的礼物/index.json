@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身每处于1种能力提升状态，则为自身附加50点护盾",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，则为自身附加50点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             1,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内受到物理攻击时，有100%概率将对手冻伤",
+          "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击时，有100%概率将对手[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             3,
             100
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7e50c5c3"
+  "hash": "7699f55c"
 }

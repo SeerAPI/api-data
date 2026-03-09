@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "解除自身的烧伤、冻伤、中毒状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]状态（boss有效）",
           "args": [],
           "effect": {
             "id": 544,
@@ -39,8 +41,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fd97baf8"
+  "hash": "2fe88a4f"
 }

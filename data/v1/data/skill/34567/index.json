@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合所受的伤害减少300点",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少300点（boss有效）",
       "args": [
         3,
         300
@@ -42,6 +44,7 @@
     },
     {
       "info": "暴击率提升40%，每次使用额外提升20%，最高概率100%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升40%，每次使用额外提升20%，最高概率100%（boss有效）",
       "args": [
         40,
         20,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c7b4f93a"
+  "advance": null,
+  "hash": "c64dfefe"
 }

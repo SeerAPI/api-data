@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合若自身选择使用技能则无视对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]下2回合若自身选择使用技能则无视对手能力提升状态（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下2回合自身造成的攻击伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]下2回合自身造成的攻击伤害翻倍（boss有效）",
           "args": [
             2
           ],
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "24d39875"
+  "hash": "aa7fb483"
 }

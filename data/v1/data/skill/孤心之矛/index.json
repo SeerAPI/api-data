@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "20%的概率威力3倍，若未触发则下回合自身先制+2",
+          "analyze_info": "[sprite name=iconHit]20%的概率[color=#52a5f2]威力[/color]3倍，若[color=#52a5f2]未触发[/color]则下回合自身[color=#52a5f2]先制[/color]+2",
           "args": [
             20,
             3,
@@ -35,6 +36,7 @@
         },
         {
           "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1921cad7"
+  "hash": "84a179ef"
 }

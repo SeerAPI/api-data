@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力提升状态则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 828,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中后30%令对手瘫痪",
+          "analyze_info": "[sprite name=iconHit]命中后30%令对手[color=#57c975]瘫痪[/color]（boss有效）",
           "args": [
             30,
             19
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "554fc857"
+  "hash": "f6edaec1"
 }

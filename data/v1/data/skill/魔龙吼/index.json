@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "32225": {
       "id": 32225,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手防御等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-2（boss有效）",
           "args": [
             1,
             100,
@@ -68,6 +71,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特防等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
           "args": [
             3,
             100,
@@ -80,8 +84,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9ce6c003"
+  "hash": "e7d279ed"
 }

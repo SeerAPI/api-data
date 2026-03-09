@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，防御+1，特防+1，速度+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特防+1，速度+1（boss有效）",
       "args": [
         0,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "2回合内每回合攻击+1",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合攻击+1（boss有效）",
       "args": [
         2,
         1,
@@ -52,6 +54,7 @@
     },
     {
       "info": "下1回合自身攻击先制+1",
+      "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1,
         1
@@ -64,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5563b465"
+  "advance": null,
+  "hash": "5fca0fa0"
 }

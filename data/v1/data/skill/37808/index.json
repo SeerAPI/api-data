@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
       "args": [],
       "effect": {
         "id": 760,
@@ -29,6 +30,7 @@
     },
     {
       "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
       "args": [],
       "effect": {
         "id": 699,
@@ -37,6 +39,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则对手冻伤，未触发则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则对手[color=#57c975]冻伤[/color]，[color=#52a5f2]未触发[/color]则自身免疫下1次受到的异常状态",
       "args": [
         5,
         1
@@ -48,6 +51,7 @@
     },
     {
       "info": "将对手所处的冻伤转化为冰封",
+      "analyze_info": "[sprite name=iconHit]将对手所处的[color=#57c975]冻伤[/color][color=#52a5f2]转化[/color]为[color=#57c975]冰封[/color]",
       "args": [
         5,
         15
@@ -59,6 +63,7 @@
     },
     {
       "info": "附加自身最大体力25%的百分比伤害，自身每有1道永恒之水将其中的1/8从百分比伤害改为真实伤害，对手每有1滴蚀砚之泪将其中的1/4从附加改为吸取",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]，自身每有1道[color=#f35555]永恒之水[/color]将其中的1/8从[color=#52a5f2]百分比伤害[/color]改为[color=#52a5f2]真实伤害[/color]，对手每有1滴[color=#f35555]蚀砚之泪[/color]将其中的1/4从附加改为[color=#52a5f2]吸取[/color]",
       "args": [
         25
       ],
@@ -70,5 +75,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9e0d8e01"
+  "advance": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/pet_advance/7"
+  },
+  "hash": "eab16c90"
 }

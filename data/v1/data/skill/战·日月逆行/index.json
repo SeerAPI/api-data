@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -39,6 +41,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则对手害怕",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "将自身的武道衍化轨迹改为逆转并将武道正转期间抵挡的伤害以固定伤害的形式反馈给对手，最高不超过自身最大体力的150%",
+          "analyze_info": "[sprite name=iconHit]将自身的武道衍化轨迹改为逆转并将武道正转期间抵挡的伤害[color=#52a5f2]以[/color][color=#52a5f2]固定伤害[/color]的形式反馈给对手，最高不超过自身最大体力的150%",
           "args": [
             150
           ],
@@ -59,6 +63,7 @@
         },
         {
           "info": "对手为自身天敌时造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]对手为自身天敌时造成的伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 567,
@@ -67,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "506035d6"
+  "hash": "d1e5860"
 }

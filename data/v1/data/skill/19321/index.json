@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则恢复自身全部体力（boss有效）",
       "args": [],
       "effect": {
         "id": 835,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "32cd297b"
+  "advance": null,
+  "hash": "70d0b584"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时，100%改变对方攻击等级-1",
+          "analyze_info": "[sprite name=iconHit]先出手时，100%改变对方攻击等级-1（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "先出手时，100%改变对方特攻等级-1",
+          "analyze_info": "[sprite name=iconHit]先出手时，100%改变对方特攻等级-1（boss有效）",
           "args": [
             2,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "后出手时，50%概率使对方冰封",
+          "analyze_info": "[sprite name=iconHit]后出手时，50%概率使对方[color=#57c975]冰封[/color]（boss有效）",
           "args": [
             50,
             15
@@ -58,8 +61,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2cf20245"
+  "hash": "19ea17ad"
 }

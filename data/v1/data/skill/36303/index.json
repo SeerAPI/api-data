@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "再现本次登场所解析的技能（当回合触发的先制修改效果无法再现），若本次登场尚未解析技能或解析的技能与本技能同名，则附加300点真实伤害并恢复等量体力，若再现的技能为攻击技能，则造成的攻击伤害提升50%，若再现的技能为属性技能，则恢复自身所有其他技能1点PP值",
+      "analyze_info": "[sprite name=iconInherent]再现本次[color=#57c975]登场[/color]所[color=#f35555]解析[/color]的技能（[color=#52a5f2]当回合[/color]触发的[color=#52a5f2]先制[/color]修改效果无法再现），若本次[color=#57c975]登场[/color]尚未[color=#f35555]解析[/color]技能或[color=#f35555]解析[/color]的技能与本技能同名，则附加300点[color=#52a5f2]真实伤害[/color]并恢复等量体力，若再现的技能为攻击技能，则造成的攻击伤害提升50%，若再现的技能为属性技能，则恢复自身所有其他技能1点PP值",
       "args": [],
       "effect": {
         "id": 1894,
@@ -30,5 +31,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7d43fdaf"
+  "advance": null,
+  "hash": "9ce8cd45"
 }

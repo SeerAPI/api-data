@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "每次使用则当回合造成的攻击伤害额外提升20%，最高额外提升100%",
+          "analyze_info": "[sprite name=iconHit]每次使用则[color=#52a5f2]当回合[/color]造成的攻击[color=#52a5f2]伤害额外提升[/color]20%，最高额外提升100%（boss有效）",
           "args": [
             20,
             100
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7be79fdc"
+  "hash": "b79ab719"
 }

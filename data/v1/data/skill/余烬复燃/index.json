@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "40%使对手烧伤，自身体力低于对手时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]40%使对手[color=#57c975]烧伤[/color]，自身体力低于对手时概率翻倍",
           "args": [
             40,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "40%使对手焚烬，自身体力低于对手时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]40%使对手[color=#57c975]焚烬[/color]，自身体力低于对手时概率翻倍",
           "args": [
             40,
             22
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "87b4d695"
+  "hash": "ab659c64"
 }

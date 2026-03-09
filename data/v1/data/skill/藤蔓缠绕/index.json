@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机恢复200到400点生命值",
+          "analyze_info": "[sprite name=iconHit]随机恢复200到400点生命值（boss有效）",
           "args": [
             200,
             400
@@ -34,7 +35,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "31153": {
       "id": 31153,
@@ -59,6 +61,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手攻击等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-2（boss有效）",
           "args": [
             0,
             100,
@@ -71,6 +74,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特攻等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-2（boss有效）",
           "args": [
             2,
             100,
@@ -83,7 +87,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "31971": {
       "id": 31971,
@@ -108,6 +113,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -116,8 +122,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d82155e5"
+  "hash": "30ff0495"
 }

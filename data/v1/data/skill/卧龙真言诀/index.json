@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "50%概率随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+          "analyze_info": "[sprite name=iconHit]50%概率随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]麻痹[/color]、[color=#57c975]害怕[/color]、[color=#57c975]睡眠[/color]中的一种异常状态（boss有效）",
           "args": [
             50
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7a6b201f"
+  "hash": "f3faa629"
 }

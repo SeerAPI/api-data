@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "2回合内每回合攻击+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合攻击+1，速度+1（boss有效）",
           "args": [
             2,
             1,
@@ -54,6 +56,7 @@
         },
         {
           "info": "4回合内每回合吸取对手最大体力的1/3，自身体力低于最大体力的1/2时转变为吸取对手最大体力的1/2",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合[color=#52a5f2]吸取[/color]对手最大体力的1/3，自身体力低于最大体力的1/2时转变为[color=#52a5f2]吸取[/color]对手最大体力的1/2",
           "args": [
             4,
             3,
@@ -67,6 +70,7 @@
         },
         {
           "info": "3回合内自身能力提升状态被消除或吸取时，2回合内对手属性技能无效",
+          "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时，2回合内对手属性技能无效",
           "args": [
             3,
             2
@@ -78,8 +82,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "99b65257"
+  "hash": "a1c0ac08"
 }

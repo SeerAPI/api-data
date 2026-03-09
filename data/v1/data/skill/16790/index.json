@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手中毒则使对手下2回合攻击必定MISS",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]中毒[/color]则使对手下2回合攻击必定MISS",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时恢复100点体力",
+      "analyze_info": "[sprite name=iconHit]后出手时恢复100点体力（boss有效）",
       "args": [
         100
       ],
@@ -44,6 +46,7 @@
   "friend_skill_effect": [
     {
       "info": "若对手中毒则使对手下3回合攻击必定MISS",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]中毒[/color]则使对手下3回合攻击必定MISS",
       "args": [
         1,
         3
@@ -55,6 +58,7 @@
     },
     {
       "info": "后出手时恢复120点体力",
+      "analyze_info": "[sprite name=iconHit]后出手时恢复120点体力（boss有效）",
       "args": [
         120
       ],
@@ -65,5 +69,6 @@
     }
   ],
   "hide_effect": null,
-  "hash": "e824a83"
+  "advance": null,
+  "hash": "bbbb2b2f"
 }

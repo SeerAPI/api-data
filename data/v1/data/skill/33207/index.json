@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机附加2种异常状态，未触发则下2回合自身属性技能先制+1",
+      "analyze_info": "[sprite name=iconHit]随机附加2种异常状态，[color=#52a5f2]未触发[/color]则下2回合自身属性技能[color=#52a5f2]先制[/color]+1",
       "args": [
         2,
         2,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "45a4c9b6"
+  "advance": null,
+  "hash": "80510cb7"
 }

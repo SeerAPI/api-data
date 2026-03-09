@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手不处于能力提升状态时造成的伤害提高100%",
+          "analyze_info": "[sprite name=iconHit]对手不处于能力提升状态时造成的伤害提高100%（boss有效）",
           "args": [
             100
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "反转对手能力提升状态，反转成功则恢复自身所有体力和PP值",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则恢复自身所有体力和PP值",
           "args": [],
           "effect": {
             "id": 1216,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a15b9150"
+  "hash": "9e8f5c3f"
 }

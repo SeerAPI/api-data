@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则3回合内躲避所有攻击",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则3回合内躲避所有攻击",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -41,6 +43,7 @@
         },
         {
           "info": "自身体力低于1/2时造成的伤害为2倍，低于1/3时伤害为3倍",
+          "analyze_info": "[sprite name=iconHit]自身体力低于1/2时造成的伤害为2倍，低于1/3时伤害为3倍（boss有效）",
           "args": [
             2,
             2,
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51993832"
+  "hash": "5e6e5cd6"
 }

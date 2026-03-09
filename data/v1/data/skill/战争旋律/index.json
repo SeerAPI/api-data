@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "下回合起，每回合攻击等级+1，持续2回合",
+          "analyze_info": "[sprite name=iconHit]下回合起，每回合攻击等级+1，持续2回合（boss有效）",
           "args": [
             0,
             1,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1fd7c5dc"
+  "hash": "130bf4a1"
 }

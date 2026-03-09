@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视自身负先制等级",
+          "analyze_info": "[sprite name=iconInherent]无视自身负[color=#52a5f2]先制[/color]等级",
           "args": [],
           "effect": {
             "id": 2143,
@@ -31,6 +32,7 @@
         },
         {
           "info": "解除自身能力下降状态，解除成功则100%令对手冻伤",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则100%令对手[color=#57c975]冻伤[/color]",
           "args": [
             100,
             5
@@ -42,6 +44,7 @@
         },
         {
           "info": "技能威力减少25%，对手处于异常状态时改为提升50%",
+          "analyze_info": "[sprite name=iconHit]技能[color=#52a5f2]威力[/color]减少25%，对手处于异常状态时改为提升50%",
           "args": [
             25,
             50
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "77bfbd01"
+  "hash": "43182000"
 }

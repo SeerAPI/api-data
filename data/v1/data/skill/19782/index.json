@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 521,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身每处于1种能力提升状态，造成的伤害额外提升10%",
+      "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，造成的[color=#52a5f2]伤害额外提升[/color]10%",
       "args": [
         1,
         10
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f535028a"
+  "advance": null,
+  "hash": "9948b240"
 }

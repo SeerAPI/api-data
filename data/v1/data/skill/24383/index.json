@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%的概率，2回合内受到的伤害减半",
+      "analyze_info": "[sprite name=iconHit]100%的概率，2回合内受到的伤害减半（boss有效）",
       "args": [
         100,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手攻击等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-1（boss有效）",
       "args": [
         0,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手防御等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-2（boss有效）",
       "args": [
         1,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特攻等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-1（boss有效）",
       "args": [
         2,
         100,
@@ -68,6 +72,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -79,5 +84,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5202d76"
+  "advance": null,
+  "hash": "1f31bb59"
 }

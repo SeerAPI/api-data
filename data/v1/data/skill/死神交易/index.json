@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内对手使用正先制的技能时100%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用正[color=#52a5f2]先制[/color]的技能时100%令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             3,
             100,
@@ -55,6 +58,7 @@
         },
         {
           "info": "3回合内自身能力提升状态被消除或吸取时，2回合内对手属性技能命中效果失效",
+          "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时，2回合内对手属性技能命中效果失效",
           "args": [
             3,
             2
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "29328dee"
+  "hash": "9037b38a"
 }

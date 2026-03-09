@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害低于250时100%令对手失明",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于250时100%令对手[color=#57c975]失明[/color]（boss有效）",
       "args": [
         250,
         100,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e97bc637"
+  "advance": null,
+  "hash": "fac865f9"
 }

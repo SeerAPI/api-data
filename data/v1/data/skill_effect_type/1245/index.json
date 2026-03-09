@@ -3,6 +3,7 @@
   "args_num": 1,
   "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机{0}项技能PP值归零",
   "info_formatting_adjustment": "<condition>若自身处于能力提升状态</condition>则附加给对手等同于自身能力提升状态的能力下降状态\r\n--><condition>若未满足条件或未触发</condition>则令对手随机{0}项技能PP值归零",
+  "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或[color=#52a5f2]未触发[/color]则令对手随机{0}项技能PP值归零",
   "pve_effective": false,
   "param": null,
   "skill": [
@@ -85,5 +86,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/46440"
     }
   ],
-  "hash": "9d764b9"
+  "hash": "8ef669f1"
 }

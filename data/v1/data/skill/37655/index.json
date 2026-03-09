@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身体力小于最大值的1/2时，100%概率令对方害怕",
+      "analyze_info": "[sprite name=iconHit]自身体力小于最大值的1/2时，100%概率令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         2,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "下1次选择使用攻击技能时将对手的能力提升状态视为相应的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]下1次选择使用攻击技能时将对手的能力提升状态视为相应的能力下降状态",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "39a23612"
+  "advance": null,
+  "hash": "3a186cc7"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若对手使用攻击技能则使用后令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则使用后令自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         3,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内自身能力提升状态被消除或吸取时，2回合内对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时，2回合内对手属性技能无效",
       "args": [
         3,
         2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c0236fc"
+  "advance": null,
+  "hash": "2269e5cd"
 }

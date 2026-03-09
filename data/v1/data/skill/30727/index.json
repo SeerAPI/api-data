@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]后出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 30,
@@ -29,6 +30,7 @@
     },
     {
       "info": "未击败对手则使自身下2回合受到的伤害减少300点",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则使自身下2回合受到的伤害减少300点（boss有效）",
       "args": [
         2,
         300
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cf35d2ff"
+  "advance": null,
+  "hash": "ab0ac93e"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/3",
+      "analyze_info": "[sprite name=iconHit]当次攻击[color=#57c975]击败[/color]对方时减少对方下次出战精灵的最大体力1/3（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
       "args": [
         280
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "424d33e1"
+  "advance": null,
+  "hash": "35414c23"
 }

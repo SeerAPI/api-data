@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
       "args": [],
       "effect": {
         "id": 1232,
@@ -37,6 +39,7 @@
     },
     {
       "info": "消耗自身的护盾值，每消耗250点附加给对手2回合的冻伤与1滴蚀砚之泪",
+      "analyze_info": "[sprite name=iconHit]消耗自身的[color=#57c975]护盾[/color]值，每消耗250点附加给对手2回合的[color=#57c975]冻伤[/color]与1滴[color=#f35555]蚀砚之泪[/color]",
       "args": [
         250
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "未击败对手则下2回合自身先制+1",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下2回合自身[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -59,5 +63,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7af46c34"
+  "advance": {
+    "id": 7,
+    "url": "https://api.seerapi.com/v1/pet_advance/7"
+  },
+  "hash": "d8e9d794"
 }

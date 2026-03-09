@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "连续使用时先制+1",
+          "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
           "args": [],
           "effect": {
             "id": 1080,
@@ -31,6 +32,7 @@
         },
         {
           "info": "随机吸取对手100-200点体力",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手100-200点体力（boss有效）",
           "args": [
             100,
             200
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4748a7da"
+  "hash": "f49cbd98"
 }

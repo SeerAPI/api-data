@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手当前精灵携带技能石则降低对手所有技能2点PP值且恢复自身所有技能2点PP值",
+      "analyze_info": "[sprite name=iconHit]若对手当前精灵携带技能石则降低对手所有技能2点PP值且恢复自身所有技能2点PP值",
       "args": [
         2,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内对手主动切换精灵则回合开始后100%随机附加2种异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]主动切换[/color]精灵则回合开始后100%随机附加2种异常状态",
       "args": [
         3,
         100,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b36c1740"
+  "advance": null,
+  "hash": "653590fa"
 }

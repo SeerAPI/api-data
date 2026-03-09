@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将对手所有异常状态转化为自身星执所记录的异常状态，若记录的异常状态为控制类则吸取对手最大体力的1/3，为非控制类则对手2回合内属性技能无效",
+          "analyze_info": "[sprite name=iconHit]将对手所有异常状态[color=#52a5f2]转化[/color]为自身[color=#f35555]星执[/color]所记录的异常状态，若记录的异常状态为控制类则[color=#52a5f2]吸取[/color]对手最大体力的1/3，为非控制类则对手2回合内属性技能无效",
           "args": [
             3,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内自身使用技能后100%随机附加1种弱化类异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内自身使用技能后100%随机附加1种弱化类异常状态",
           "args": [
             2,
             100,
@@ -46,6 +48,7 @@
         },
         {
           "info": "当回合击败对手则令对手下只登场精灵首次使用的技能所附加的效果失效",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则令对手下只[color=#57c975]登场[/color]精灵[color=#52a5f2]首次[/color]使用的技能所附加的效果失效",
           "args": [
             1
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f6d4be21"
+  "hash": "4effdad5"
 }

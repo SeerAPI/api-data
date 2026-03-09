@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下2回合若打出致命一击则必定恢复全部体力",
+          "analyze_info": "[sprite name=iconHit]下2回合若打出[color=#57c975]致命一击[/color]则必定恢复全部体力（boss有效）",
           "args": [
             2
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "恢复250点体力",
+          "analyze_info": "[sprite name=iconHit]恢复250点体力（boss有效）",
           "args": [
             250
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5f136a0d"
+  "hash": "a208726a"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 521,
@@ -29,6 +30,7 @@
     },
     {
       "info": "直接造成260点电系伤害，自身每处于一种能力提升状态则造成的伤害提高10%",
+      "analyze_info": "[sprite name=iconHit]直接造成260点电系伤害，自身每处于一种能力提升状态则造成的伤害提高10%（boss有效）",
       "args": [
         260,
         10
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5933a47"
+  "advance": null,
+  "hash": "67950504"
 }

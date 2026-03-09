@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则下1回合造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下1回合造成的伤害翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "未击败对手下2回合自身攻击先制+2",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手下2回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -44,6 +46,7 @@
         },
         {
           "info": "击败对手则对手下只出场精灵2回合内先制-2",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对手下只出场精灵2回合内[color=#52a5f2]先制[/color]-2",
           "args": [
             2,
             2
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "916f218"
+  "hash": "65f08588"
 }

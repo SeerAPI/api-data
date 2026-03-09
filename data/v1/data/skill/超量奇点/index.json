@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于能力提升状态则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1081,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "自己出手时若自身体力高于对手则造成的伤害提升100%",
+          "analyze_info": "[sprite name=iconHit]自己出手时若自身体力高于对手则造成的伤害提升100%（boss有效）",
           "args": [
             100
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2aa78073"
+  "hash": "90e66e07"
 }

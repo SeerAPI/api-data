@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%的概率令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]50%的概率令对手随机2项技能PP值归零",
       "args": [
         50,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "若自身处于能力提升状态，附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态，附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         300
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f74298"
+  "advance": null,
+  "hash": "821cff72"
 }

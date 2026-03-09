@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使敌我双方同时感染2回合",
+      "analyze_info": "[sprite name=iconHit]使敌我双方同时[color=#57c975]感染[/color]2回合（boss有效）",
       "args": [
         27,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "令己方下只出战精灵抵挡下1次对手的攻击，且出战时100%寄生",
+      "analyze_info": "[sprite name=iconHit]令[color=#52a5f2]己方[/color]下只出战精灵抵挡下1次对手的攻击，且[color=#57c975]出战时[/color]100%[color=#57c975]寄生[/color]",
       "args": [
         1,
         100,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b76b1c94"
+  "advance": null,
+  "hash": "4333e579"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，解除成功则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则令对手下1次使用的攻击技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若自身处于能力提升状态则50%概率令对手害怕",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则50%概率令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         50,
         6
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8677ce04"
+  "advance": null,
+  "hash": "a0b0a874"
 }

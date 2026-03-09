@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则下1次攻击附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1次攻击附加200点[color=#52a5f2]固定伤害[/color]",
       "args": [
         1,
         200
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加200点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，对手处于异常状态时[color=#52a5f2]固定伤害[/color]翻倍",
       "args": [
         200
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "140b846f"
+  "advance": null,
+  "hash": "9691e78d"
 }

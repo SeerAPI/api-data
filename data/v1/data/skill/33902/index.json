@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消耗自身所有护罩并造成等量固定伤害，若当前护罩值低于250则造成的固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有[color=#57c975]护罩[/color]并造成等量[color=#52a5f2]固定伤害[/color]，若当前[color=#57c975]护罩[/color]值低于250则造成的[color=#52a5f2]固定伤害[/color]翻倍",
       "args": [
         250
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9725d0e6"
+  "advance": null,
+  "hash": "8cb60600"
 }

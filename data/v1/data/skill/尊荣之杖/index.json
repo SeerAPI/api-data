@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 1061,
@@ -31,6 +32,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [],
           "effect": {
             "id": 980,
@@ -39,8 +41,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2389b969"
+  "hash": "69ded63d"
 }

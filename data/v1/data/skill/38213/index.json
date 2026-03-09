@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则造成攻击伤害的100%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]若先出手则造成攻击伤害的100%恢复自身体力（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令自身砥砺，触发成功自身免疫下1次对手的攻击",
+      "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]砥砺[/color]，触发成功自身免疫下1次对手的攻击",
       "args": [
         100,
         37,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cc46f7bc"
+  "advance": null,
+  "hash": "9c65ab4b"
 }

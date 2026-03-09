@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "使用后在战斗结束时可以获得500泰坦之灵，每日上限5000",
+          "analyze_info": "[sprite name=iconHit]使用后在战斗结束时可[color=#52a5f2]以[/color]获得500泰坦之灵，每日上限5000（boss有效）",
           "args": [],
           "effect": {
             "id": 1377,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b9a4393"
+  "hash": "44bcfea7"
 }

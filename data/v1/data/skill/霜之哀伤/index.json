@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后30%令对方冻伤",
+          "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             30
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "25596": {
       "id": 25596,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "70%令对手害怕，未触发则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]70%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则令对手2回合内使用的属性技能无效",
           "args": [
             70,
             6,
@@ -70,6 +73,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -80,6 +84,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -91,8 +96,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7e8cdbcc"
+  "hash": "bc0d4a2e"
 }

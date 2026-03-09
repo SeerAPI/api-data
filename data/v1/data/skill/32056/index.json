@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%恢复自己所有技能PP值1点",
+      "analyze_info": "[sprite name=iconHit]50%恢复自己所有技能PP值1点（boss有效）",
       "args": [
         50,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "双方任意一方处于能力下降状态均会附加200点固定伤害，同时解除自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]双方任意一方处于能力下降状态均会附加200点[color=#52a5f2]固定伤害[/color]，同时解除自身能力下降状态（boss有效）",
       "args": [
         200
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5feefb8"
+  "advance": null,
+  "hash": "503b1768"
 }

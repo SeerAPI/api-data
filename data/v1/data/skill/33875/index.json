@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "连击5次，每次命中后连击数+1，最高连击10次",
+      "analyze_info": "[sprite name=iconHit]连击5次，每次命中后连击数+1，最高连击10次（boss有效）",
       "args": [
         5,
         1,
@@ -33,6 +34,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -43,6 +45,7 @@
     },
     {
       "info": "附加攻击伤害20%的百分比伤害，每次使用增加10%，最高40%",
+      "analyze_info": "[sprite name=iconHit]附加攻击伤害20%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高40%（boss有效）",
       "args": [
         20,
         10,
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b35df534"
+  "advance": null,
+  "hash": "f4de6477"
 }

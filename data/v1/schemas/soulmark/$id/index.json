@@ -5,6 +5,10 @@
         "EidEffectInUse": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/eid_effect_in_use"
         },
+        "ResourceRef_PetAdvance_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_advance"
+        },
         "ResourceRef_Pet_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet"
@@ -39,8 +43,21 @@
             }
           ],
           "default": null,
-          "description": "魂印描述的\"可格式化版本\"，用于呈现Unity端中的描述排版形式",
+          "description": "Unity 客户端历史格式的魂印描述文本（部分旧魂印专用，应优先使用 analyze_desc 字段）",
           "title": "Desc Formatting Adjustment"
+        },
+        "analyze_desc": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "当前 Unity 端采用的格式化魂印描述文本",
+          "title": "Analyze Desc"
         },
         "pve_effective": {
           "anyOf": [
@@ -126,6 +143,18 @@
             }
           ],
           "description": "强化前的魂印资源，该字段仅在该魂印是强化/觉醒魂印时有效"
+        },
+        "advance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PetAdvance_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "觉醒后的魂印资源，该字段仅在该魂印是神谕觉醒魂印时有效"
         }
       },
       "required": [

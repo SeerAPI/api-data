@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当自身血量少于1/3时先制+1",
+          "analyze_info": "[sprite name=iconInherent]当自身血量少于1/3时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             3,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "先出手时免疫当回合受到的攻击伤害，若对手为自身天敌则免疫并反弹给对手造成伤害值50%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时免疫[color=#52a5f2]当回合[/color]受到的攻击伤害，若对手为自身天敌则免疫并[color=#52a5f2]反弹[/color]给对手造成伤害值50%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             50
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4aea7a7"
+  "hash": "f444cc6e"
 }

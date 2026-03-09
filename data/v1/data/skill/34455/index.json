@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "本回合打出致命一击则下1回合其它攻击技能必定致命一击",
+      "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则下1回合其它攻击技能必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e584f7d0"
+  "advance": null,
+  "hash": "d0f7ce80"
 }

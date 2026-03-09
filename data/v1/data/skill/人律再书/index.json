@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "为自身附加1层未来奇点",
+          "analyze_info": "[sprite name=iconHit]为自身附加1层[color=#f35555]未来奇点[/color]",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "100%使对手疲惫，未触发则附加200点真实伤害，技能无效时100%使对手疲惫并附加400点真实伤害",
+          "analyze_info": "[sprite name=iconComp]100%使对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则附加200点[color=#52a5f2]真实伤害[/color]，技能无效时100%使对手[color=#57c975]疲惫[/color]并附加400点[color=#52a5f2]真实伤害[/color]",
           "args": [
             100,
             7,
@@ -45,6 +47,7 @@
         },
         {
           "info": "4回合内若对手使用攻击技能则令对手所有技能PP值-2",
+          "analyze_info": "[sprite name=iconHit]4回合内若对手使用攻击技能则令对手所有技能PP值-2",
           "args": [
             4,
             2
@@ -56,6 +59,7 @@
         },
         {
           "info": "4回合内若对手使用属性技能则自身下1次受到的固定伤害、百分比伤害减少100%",
+          "analyze_info": "[sprite name=iconHit]4回合内若对手使用属性技能则自身下1次受到的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]减少100%",
           "args": [
             4,
             1,
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "37c81a31"
+  "hash": "6ec26292"
 }

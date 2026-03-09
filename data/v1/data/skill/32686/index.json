@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加自身最大体力25%的百分比伤害并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]并恢复等量体力（boss有效）",
       "args": [
         25
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b1b4cd6e"
+  "advance": null,
+  "hash": "380994ba"
 }

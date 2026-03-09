@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每回合都能附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             200
@@ -34,6 +35,7 @@
         },
         {
           "info": "当回合未击败对手，则减少对手当前体力1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手，则减少对手当前体力1/3",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9087b6c"
+  "hash": "332e21c1"
 }

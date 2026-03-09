@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则下1回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下1回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若先出手则当回合闪避对手的攻击技能",
+          "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]闪避对手的攻击技能",
           "args": [],
           "effect": {
             "id": 720,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "36b8b178"
+  "hash": "e857a6c4"
 }

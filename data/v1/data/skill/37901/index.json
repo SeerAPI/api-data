@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于石化则当回合击败对手时对方下只出战精灵100%石化",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]石化[/color]则[color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时对方下只出战精灵100%[color=#57c975]石化[/color]",
       "args": [
         9,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "将自身的防御、特防能力提升分别视为攻击、特攻能力提升",
+      "analyze_info": "[sprite name=iconInherent]将自身的防御、特防能力提升分别视为攻击、特攻能力提升",
       "args": [],
       "effect": {
         "id": 2157,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d5fcad9a"
+  "advance": null,
+  "hash": "9f12d3b2"
 }

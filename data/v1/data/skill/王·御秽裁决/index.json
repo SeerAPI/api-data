@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 180,
@@ -39,6 +41,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则使对手随机1个技能PP归零",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则使对手随机1个技能PP归零",
           "args": [
             1
           ],
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f6293f43"
+  "hash": "4bb46c36"
 }

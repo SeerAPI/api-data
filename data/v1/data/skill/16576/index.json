@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若体力高于对手，技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若体力高于对手，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [
         0
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若当前体力低于对手，则造成伤害的30%恢复体力",
+      "analyze_info": "[sprite name=iconHit]若当前体力低于对手，则造成伤害的30%恢复体力（boss有效）",
       "args": [
         0,
         30
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a1cd7d2d"
+  "advance": null,
+  "hash": "52b264db"
 }

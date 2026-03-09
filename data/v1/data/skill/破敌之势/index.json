@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除双方回合类效果，消除任意一方成功则自身下1次攻击技能造成的伤害提升150%",
+          "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]，消除任意一方成功则自身下1次攻击技能造成的伤害提升150%",
           "args": [
             1,
             150
@@ -34,6 +35,7 @@
         },
         {
           "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身当前体力高于最大体力的1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -45,6 +47,7 @@
         },
         {
           "info": "下次攻击忽略对手双防值的40%",
+          "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的40%（boss有效）",
           "args": [
             40
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5a5b8550"
+  "hash": "a920d4d1"
 }

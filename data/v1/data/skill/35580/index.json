@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "攻击对手时若对手处于中毒状态，则50%使对手感染",
+      "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]中毒[/color]状态，则50%使对手[color=#57c975]感染[/color]（boss有效）",
       "args": [
         1,
         50,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "25124207"
+  "advance": null,
+  "hash": "e652d56b"
 }

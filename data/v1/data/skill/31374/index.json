@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 828,
@@ -29,6 +30,7 @@
     },
     {
       "info": "命中后50%令对方中毒",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]中毒[/color]（boss有效）",
       "args": [
         50
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "命中后50%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         50
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "命中后50%令对方冻伤",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]冻伤[/color]（boss有效）",
       "args": [
         50
       ],
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "adfaaed2"
+  "advance": null,
+  "hash": "b089b9ae"
 }

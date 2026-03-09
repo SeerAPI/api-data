@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "此技能PP值不为满时先制+1",
+      "analyze_info": "[sprite name=iconInherent]此技能PP值不为满时[color=#52a5f2]先制[/color]+1",
       "args": [],
       "effect": {
         "id": 2242,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "消除双方能力提升、下降状态和护盾，消除成功随机附加两种异常状态，未触发则回合结束时吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除双方能力提升、下降状态和[color=#57c975]护盾[/color]，消除成功随机附加两种异常状态，[color=#52a5f2]未触发[/color]则[color=#57c975]回合结束时[/color][color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [],
       "effect": {
         "id": 1294,
@@ -47,6 +50,7 @@
     },
     {
       "info": "若先出手则自身下次受到致死伤害时重生",
+      "analyze_info": "[sprite name=iconHit]若先出手则自身下次受到[color=#52a5f2]致死伤害[/color]时重生",
       "args": [],
       "effect": {
         "id": 2243,
@@ -56,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c871d70c"
+  "advance": null,
+  "hash": "40ab988b"
 }

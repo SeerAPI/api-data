@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成伤害的50%恢复自身体力，若自身体力低于对手则效果提升至100%",
+      "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若自身体力低于对手则效果提升至100%（boss有效）",
       "args": [
         50,
         100
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内若对手MISS则下回合自身必定致命一击",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手MISS则下回合自身必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         3
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "10bc441d"
+  "advance": null,
+  "hash": "e1beca4f"
 }

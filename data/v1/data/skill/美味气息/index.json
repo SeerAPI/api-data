@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%恢复自己所有技能PP值1点",
+          "analyze_info": "[sprite name=iconHit]100%恢复自己所有技能PP值1点（boss有效）",
           "args": [
             100,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机恢复200到400点生命值",
+          "analyze_info": "[sprite name=iconHit]随机恢复200到400点生命值（boss有效）",
           "args": [
             200,
             400
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d85da0"
+  "hash": "66253640"
 }

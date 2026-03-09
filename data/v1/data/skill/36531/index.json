@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "41f1d352"
+  "advance": null,
+  "hash": "5753fb3b"
 }

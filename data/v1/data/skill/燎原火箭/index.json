@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "双倍反转对手能力提升状态，反转成功则下回合自身所有技能先制+1，反转失败则消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]双倍[color=#52a5f2]反转[/color]对手能力提升状态，反转成功则下回合自身所有技能[color=#52a5f2]先制[/color]+1，反转失败则消除对手能力提升状态",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [],
           "effect": {
             "id": 980,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "87fc7b2a"
+  "hash": "de13f7dd"
 }

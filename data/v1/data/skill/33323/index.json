@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手时使对手下1回合攻击技能MISS",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手下1回合攻击技能MISS",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时50%令对手对手感染，未触发则使自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit]后出手时50%令对手对手[color=#57c975]感染[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         50,
         27,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2ea2c02b"
+  "advance": null,
+  "hash": "e58640a9"
 }

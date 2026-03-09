@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "26489": {
       "id": 26489,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，先出手时自身强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，先出手时自身强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -66,6 +69,7 @@
         },
         {
           "info": "4回合内每回合使用技能恢复自身最大体力的1/3并造成等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能恢复自身最大体力的1/3并造成等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             4,
             3
@@ -77,6 +81,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -88,6 +93,7 @@
         },
         {
           "info": "下2回合攻击忽略对手25%的双防值",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手25%的双防值",
           "args": [
             2,
             25
@@ -99,8 +105,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2c58f01c"
+  "hash": "9146ebba"
 }

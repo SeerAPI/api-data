@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则下1回合令对手使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1回合令对手使用的攻击技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时下回合攻击技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合攻击技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "50%的概率造成的攻击伤害提升100%，若出手时自身为满体力则概率翻倍",
+      "analyze_info": "[sprite name=iconHit]50%的概率造成的攻击伤害提升100%，若出手时自身为满体力则概率翻倍（boss有效）",
       "args": [
         50,
         100
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d3de70f8"
+  "advance": null,
+  "hash": "94408124"
 }

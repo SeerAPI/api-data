@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下次攻击忽略对手双防值的30%",
+          "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的30%（boss有效）",
           "args": [
             30
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cd5688b6"
+  "hash": "666f888b"
 }

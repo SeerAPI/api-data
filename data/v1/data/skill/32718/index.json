@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后30%令对方麻痹",
+      "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]麻痹[/color]（boss有效）",
       "args": [
         30
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "命中后30%令对方冻伤",
+      "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]冻伤[/color]（boss有效）",
       "args": [
         30
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "命中后30%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]命中后30%令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         30
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4e054bd"
+  "advance": null,
+  "hash": "711f6a55"
 }

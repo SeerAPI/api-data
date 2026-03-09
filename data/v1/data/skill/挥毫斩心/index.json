@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功3回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害高于400则100%令对手束缚，未触发则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于400则100%令对手[color=#57c975]束缚[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             400,
             100,
@@ -46,6 +48,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -54,6 +57,7 @@
         },
         {
           "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令对方场下阵亡的首位精灵[color=#57c975]消逝[/color]",
           "args": [],
           "effect": {
             "id": 2105,
@@ -62,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ef3508d6"
+  "hash": "dbccca9b"
 }

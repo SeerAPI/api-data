@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和[color=#52a5f2]回合类效果[/color]",
           "args": [],
           "effect": {
             "id": 1164,
@@ -31,6 +32,7 @@
         },
         {
           "info": "本回合若未打出致命一击则下1回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]本回合若未打出[color=#57c975]致命一击[/color]则下1回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "未打出致命一击则自身下1回合攻击技能额外先制+3",
+          "analyze_info": "[sprite name=iconHit]未打出[color=#57c975]致命一击[/color]则自身下1回合攻击技能额外[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [
             1,
             3
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "868e3699"
+  "hash": "e3e80d2a"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，若消除成功则自身特攻+2，速度+2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身特攻+2，速度+2（boss有效）",
       "args": [
         0,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "先出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 40,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e14263f4"
+  "advance": null,
+  "hash": "ebd42ae6"
 }

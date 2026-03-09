@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的攻击伤害高于300则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害高于300则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         300,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "造成的伤害低于300时令对手焚烬，未触发则自身下1次攻击造成的伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300时令对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则自身下1次攻击造成的[color=#52a5f2]伤害额外提升[/color]100%",
       "args": [
         300,
         22,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d452239c"
+  "advance": null,
+  "hash": "9fdd2625"
 }

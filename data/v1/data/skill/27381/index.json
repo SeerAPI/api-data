@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内致命一击率上升5/16",
+      "analyze_info": "[sprite name=iconHit]3回合内[color=#57c975]致命一击[/color]率上升5/16（boss有效）",
       "args": [
         3,
         5
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内每回合被攻击所受到的伤害不超过260",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合被攻击所受到的伤害不超过260（boss有效）",
       "args": [
         3,
         260
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内每回合恢复自身已损失体力的50%",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
       "args": [
         3,
         50
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5e6f4ec7"
+  "advance": null,
+  "hash": "98068c8f"
 }

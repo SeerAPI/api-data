@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合都能附加30点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加30点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         30
@@ -32,6 +33,7 @@
     },
     {
       "info": "命中后10%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后10%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         10
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f1185025"
+  "advance": null,
+  "hash": "d38f3b22"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特防等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
           "args": [
             3,
             100,
@@ -45,6 +47,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             100,
@@ -57,6 +60,7 @@
         },
         {
           "info": "3回合内受攻击时反弹150点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内受攻击时[color=#52a5f2]反弹[/color]150点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             150
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d48a3108"
+  "hash": "45559cfe"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
           "args": [],
           "effect": {
             "id": 697,
@@ -39,6 +41,7 @@
         },
         {
           "info": "后出手则必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]后出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1527,
@@ -47,6 +50,7 @@
         },
         {
           "info": "造成的伤害低于300则附加自身最大体力30%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则附加自身最大体力30%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             300,
             30
@@ -58,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f54208d6"
+  "hash": "fdc5949a"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -29,6 +30,7 @@
     },
     {
       "info": "下2回合令对手所有技能先制-1",
+      "analyze_info": "[sprite name=iconHit]下2回合令对手所有技能[color=#52a5f2]先制[/color]-1（boss有效）",
       "args": [
         2,
         1
@@ -40,6 +42,7 @@
     },
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过200",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过200（boss有效）",
       "args": [
         2,
         200
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4100668f"
+  "advance": null,
+  "hash": "817c0ce"
 }

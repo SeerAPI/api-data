@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "构造III：先出手时此技能不会消耗PP值",
+          "analyze_info": "[sprite name=iconHit]构造III：先出手时此技能不会消耗PP值",
           "args": [],
           "effect": {
             "id": 2151,
@@ -31,6 +32,7 @@
         },
         {
           "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -42,6 +44,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手300点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍，若对手未受到固定伤害则额外附加240点真实伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手300点体力，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍，若对手未受到[color=#52a5f2]固定伤害[/color]则额外附加240点[color=#52a5f2]真实伤害[/color]",
           "args": [
             4,
             300,
@@ -55,6 +58,7 @@
         },
         {
           "info": "下2次攻击技能无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconHit]下2次攻击技能无视攻击免疫效果",
           "args": [
             2
           ],
@@ -65,6 +69,7 @@
         },
         {
           "info": "命中后100%使对手疲惫，未触发则对手下2回合先制-2",
+          "analyze_info": "[sprite name=iconHit]命中后100%使对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则对手下2回合[color=#52a5f2]先制[/color]-2",
           "args": [
             100,
             7,
@@ -78,8 +83,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ced211a2"
+  "hash": "ba36304a"
 }

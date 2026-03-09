@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除自身能力下降状态，消除成功下回合造成伤害提升70%",
+          "analyze_info": "[sprite name=iconHit]消除自身能力下降状态，消除成功下回合造成伤害提升70%（boss有效）",
           "args": [
             1,
             70
@@ -34,6 +35,7 @@
         },
         {
           "info": "恢复200点体力",
+          "analyze_info": "[sprite name=iconHit]恢复200点体力（boss有效）",
           "args": [
             200
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "32016df4"
+  "hash": "12d3e994"
 }

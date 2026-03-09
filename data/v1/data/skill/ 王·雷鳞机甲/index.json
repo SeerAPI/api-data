@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "自身速度能力每提升1段，则回合结束时减少对手1/6最大体力",
+          "analyze_info": "[sprite name=iconHit]自身速度能力每提升1段，则[color=#57c975]回合结束时[/color]减少对手1/6最大体力",
           "args": [
             6
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ff09857a"
+  "hash": "86d2aa81"
 }

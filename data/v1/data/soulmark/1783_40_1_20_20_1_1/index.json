@@ -4,6 +4,7 @@
       "id": 1412,
       "desc": "回合开始时，对手每损失40%的体力则自身攻击技能先制+1；|回合开始时，对手每损失最大体力的20%则自身造成的攻击伤害提高20%，对手处于能力下降状态时伤害提升效果翻倍；|自身击败对手则令对手下只出场精灵全属性-1（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>对手每损失40%的体力则自身攻击技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>对手每损失最大体力的20%则自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>20%，对手处于能力下降状态时效果翻倍\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手则令对手下只出场精灵全属性-1",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -43,8 +44,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "7979620a"
+  "hash": "9985b5f8"
 }

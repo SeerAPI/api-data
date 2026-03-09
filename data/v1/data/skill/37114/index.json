@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手当回合切换精灵则100%令对手凝滞，未触发则100%令对手冻伤",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#52a5f2]当回合[/color]切换精灵则100%令对手[color=#57c975]凝滞[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]冻伤[/color]",
       "args": [
         100,
         32,
@@ -34,6 +35,7 @@
     },
     {
       "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -44,6 +46,7 @@
     },
     {
       "info": "若对手不处于异常状态则100%令自身凝滞",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则100%令自身[color=#57c975]凝滞[/color]",
       "args": [
         100,
         32
@@ -55,6 +58,7 @@
     },
     {
       "info": "此技能不会崩溃，每次强制执行后由未崩溃的首位其他技能代替崩溃，若其他技能均已崩溃且对手存活则额外进行一次行动以发起最终指令：自身消耗全部体力并消逝，消除对手回合类效果、能力提升效果并附加自身所有能力值之和的水·次元系伤害",
+      "analyze_info": "[sprite name=iconInherent]此技能不会[color=#f35555]崩溃[/color]，每次[color=#f35555]强制执行[/color]后由未[color=#f35555]崩溃[/color]的首位其他技能代替[color=#f35555]崩溃[/color]，若其他技能均已[color=#f35555]崩溃[/color]且对手存活则额外进行一次行动[color=#52a5f2]以[/color]发起最终指令：自身消耗全部体力并[color=#57c975]消逝[/color]，消除对手[color=#52a5f2]回合类效果[/color]、能力提升效果并附加自身所有能力值之和的水·次元系伤害（boss有效）",
       "args": [],
       "effect": {
         "id": 2115,
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ac83abaf"
+  "advance": null,
+  "hash": "db027470"
 }

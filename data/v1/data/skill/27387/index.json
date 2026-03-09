@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
       "args": [],
       "effect": {
         "id": 444,
@@ -39,6 +41,7 @@
     },
     {
       "info": "下回合若受到的伤害大于300，则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于300，则恢复自身所有体力（boss有效）",
       "args": [
         300
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9eb2c6e4"
+  "advance": null,
+  "hash": "948e563e"
 }

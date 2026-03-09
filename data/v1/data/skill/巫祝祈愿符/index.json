@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
           "args": [
             150,
             300,
@@ -36,6 +37,7 @@
         },
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -46,6 +48,7 @@
         },
         {
           "info": "攻击结束时自身攻击+1，防御+1，特防+1",
+          "analyze_info": "[sprite name=iconHit]攻击结束时自身攻击+1，防御+1，特防+1（boss有效）",
           "args": [
             1,
             1,
@@ -61,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1bf66411"
+  "hash": "fdbf1b11"
 }

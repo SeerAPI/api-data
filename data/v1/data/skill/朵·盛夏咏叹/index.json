@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升130%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则下回合自身造成的攻击[color=#52a5f2]伤害额外提升[/color]130%（boss有效）",
           "args": [
             130
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "获得130点护盾与130点护罩，若己方场地效果不为星璨舞台，则护盾效果翻倍且吸取对手130点体力并于下回合开始时将己方场地变为星璨舞台，持续5回合，若己方场地效果为星璨舞台，则护罩效果翻倍且造成伤害的130%恢复自身体力并于下回合开始时将己方场地变为灵籁泳馆，持续5回合",
+          "analyze_info": "[sprite name=iconHit]获得130点[color=#57c975]护盾[/color]与130点[color=#57c975]护罩[/color]，若[color=#52a5f2]己方[/color]场地效果不为星璨舞台，则[color=#57c975]护盾[/color]效果翻倍且[color=#52a5f2]吸取[/color]对手130点体力并于下[color=#57c975]回合开始时[/color]将[color=#52a5f2]己方[/color]场地变为星璨舞台，持续5回合，若[color=#52a5f2]己方[/color]场地效果为星璨舞台，则[color=#57c975]护罩[/color]效果翻倍且造成伤害的130%恢复自身体力并于下[color=#57c975]回合开始时[/color]将[color=#52a5f2]己方[/color]场地变为灵籁泳馆，持续5回合（boss有效）",
           "args": [
             130,
             130,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c7f37e13"
+  "hash": "9353e3c6"
 }

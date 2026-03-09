@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后30%令对手瘫痪",
+          "analyze_info": "[sprite name=iconHit]命中后30%令对手[color=#57c975]瘫痪[/color]（boss有效）",
           "args": [
             30,
             19
@@ -34,6 +35,7 @@
         },
         {
           "info": "30%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]30%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             30,
             1
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "19b03635"
+  "hash": "d121faca"
 }

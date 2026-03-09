@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "后出手的话威力为2倍",
+          "analyze_info": "[sprite name=iconHit]后出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [],
           "effect": {
             "id": 30,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "35648": {
       "id": 35648,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "消耗自身全部体力，使对手受到自身最大体力1/3的百分比伤害，同时使自身下只出场精灵前3回合70%闪避对手的攻击技能",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，使对手受到自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]，同时使自身下只出场精灵前3回合70%闪避对手的攻击技能",
           "args": [
             3,
             3,
@@ -68,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cedc413f"
+  "hash": "83157c9c"
 }

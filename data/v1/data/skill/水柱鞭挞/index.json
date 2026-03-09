@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机改为150~220点威力",
+          "analyze_info": "[sprite name=iconHit]随机改为150~220点[color=#52a5f2]威力[/color]（boss有效）",
           "args": [
             150,
             220
@@ -34,6 +35,7 @@
         },
         {
           "info": "50%的概率打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]50%的概率打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             50
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2d9bf181"
+  "hash": "bfdbc9e7"
 }

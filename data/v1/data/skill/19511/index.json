@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果反转成能力下降效果",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果反转成能力下降效果（boss有效）",
       "args": [],
       "effect": {
         "id": 143,
@@ -29,6 +30,7 @@
     },
     {
       "info": "随机恢复150到300点生命值",
+      "analyze_info": "[sprite name=iconHit]随机恢复150到300点生命值（boss有效）",
       "args": [
         150,
         300
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a495f055"
+  "advance": null,
+  "hash": "903ca793"
 }

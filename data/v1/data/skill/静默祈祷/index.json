@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手攻击等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手防御等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-2（boss有效）",
           "args": [
             1,
             100,
@@ -47,7 +49,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "31095": {
       "id": 31095,
@@ -72,6 +75,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 521,
@@ -80,8 +84,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7c1a2e76"
+  "hash": "5f3f1ab9"
 }

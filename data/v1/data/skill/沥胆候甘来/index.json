@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "未击败对手则恢复自身所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复自身所有技能2点PP值",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若本回合击败对手则将对手的能力提升效果转移到自己身上",
+          "analyze_info": "[sprite name=iconHit]若本回合[color=#57c975]击败[/color]对手则将对手的能力提升效果转移到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 784,
@@ -41,6 +43,7 @@
         },
         {
           "info": "击败对手则对手下只出场精灵2回合内先制-2",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对手下只出场精灵2回合内[color=#52a5f2]先制[/color]-2",
           "args": [
             2,
             2
@@ -52,6 +55,7 @@
         },
         {
           "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 709,
@@ -60,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8b32d163"
+  "hash": "d7ceda91"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸收对手的能力提升同时反转对手的能力提升",
+          "analyze_info": "[sprite name=iconHit]吸收对手的能力提升同时[color=#52a5f2]反转对手[/color]的能力提升（boss有效）",
           "args": [],
           "effect": {
             "id": 822,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手每处于一种能力下降状态附加70点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每处于一种能力下降状态附加70点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             70
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b836be80"
+  "hash": "2327452d"
 }

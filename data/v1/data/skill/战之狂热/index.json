@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内每回合结束后解除并反馈自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内每[color=#57c975]回合结束后[/color]解除并反馈自身能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身每处于1种能力提升状态，则为自身附加50点护盾",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，则为自身附加50点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             1,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内每回合使用技能附加自身最大体力值与攻击值总和25%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能附加自身最大体力值与攻击值总和25%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             3,
             25
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e2ae3f9d"
+  "hash": "33c45dce"
 }

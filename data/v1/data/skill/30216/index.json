@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当回合击败对手则下回合开始后随机附加1种异常状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则下回合开始后随机附加1种异常状态",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ce11e8d5"
+  "advance": null,
+  "hash": "ece57912"
 }

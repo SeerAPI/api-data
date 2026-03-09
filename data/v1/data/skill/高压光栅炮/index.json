@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "为自身附加300点护罩",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护罩[/color]（boss有效）",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则恢复自身全部体力（boss有效）",
           "args": [],
           "effect": {
             "id": 879,
@@ -41,6 +43,7 @@
         },
         {
           "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手[color=#52a5f2]当回合[/color]内无法通过技能恢复自身体力",
           "args": [],
           "effect": {
             "id": 1247,
@@ -49,6 +52,7 @@
         },
         {
           "info": "击败对手则100%令自身疲惫",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则100%令自身[color=#57c975]疲惫[/color]",
           "args": [
             100,
             7
@@ -60,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d79718a9"
+  "hash": "fe9b995"
 }

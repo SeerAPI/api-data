@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身未满体力则吸取对手最大体力的1/4",
+      "analyze_info": "[sprite name=iconHit]若自身未满体力则[color=#52a5f2]吸取[/color]对手最大体力的1/4",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手未满体力则吸取对手最大体力的1/4",
+      "analyze_info": "[sprite name=iconHit]若对手未满体力则[color=#52a5f2]吸取[/color]对手最大体力的1/4",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "未击败对手则100%令对手沉默",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则100%令对手[color=#57c975]沉默[/color]",
       "args": [
         100,
         30
@@ -52,6 +55,7 @@
     },
     {
       "info": "击败对手则令对手下1次使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下1次使用的属性技能无效",
       "args": [
         1
       ],
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dab85319"
+  "advance": null,
+  "hash": "93f86612"
 }

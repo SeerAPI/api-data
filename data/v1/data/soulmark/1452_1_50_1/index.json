@@ -4,6 +4,7 @@
       "id": 1135,
       "desc": "战斗阶段结束时，若对手处于害怕状态则下回合自身攻击威力翻倍，若对手不处于害怕状态则下回合自身攻击先制+1且50%令对手害怕（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若对手处于害怕状态则下回合自身攻击<b>威力</b><color=#64F9FA>翻倍</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于害怕状态则下回合自身攻击<b>先制</b>+1且50%<color=#64F9FA>令对手害怕</color>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -40,8 +41,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "e989fceb"
+  "hash": "7b6868de"
 }

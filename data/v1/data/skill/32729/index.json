@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则1回合受到的伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则1回合受到的伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "35%令对手石化，对手处于能力下降状态时触发概率翻倍",
+      "analyze_info": "[sprite name=iconHit]35%令对手[color=#57c975]石化[/color]，对手处于能力下降状态时触发概率翻倍",
       "args": [
         35,
         9
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a887e4cb"
+  "advance": null,
+  "hash": "53c01f67"
 }

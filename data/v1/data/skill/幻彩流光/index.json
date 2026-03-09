@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，速度+1（boss有效）",
           "args": [
             1,
             0,
@@ -38,7 +39,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "24078": {
       "id": 24078,
@@ -63,6 +65,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，特攻+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+1，速度+1，命中+1（boss有效）",
           "args": [
             0,
             0,
@@ -78,6 +81,7 @@
         },
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -88,6 +92,7 @@
         },
         {
           "info": "下回合若受到的伤害大于200，则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于200，则恢复自身所有体力（boss有效）",
           "args": [
             200
           ],
@@ -98,8 +103,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3179a2f3"
+  "hash": "eb222da4"
 }

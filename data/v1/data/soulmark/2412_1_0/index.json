@@ -4,6 +4,7 @@
       "id": 1986,
       "desc": "对手使用物理攻击技能后令对手束缚，对手使用特殊攻击技能后吸取对手最大体力的1/3，对手使用属性技能后令对手随机1个技能PP值归0；自身被击败时，对手1回合内技能无效（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用物理攻击技能后<color=#64F9FA>令对手束缚</color>\r\n<indent=16><sprite=3><indent=32>对手使用特殊攻击技能后<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=16><sprite=3><indent=32>对手使用属性技能后令对手随机1个技能<b>PP值</b><color=#64F9FA>归0</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时，对手1回合内<b>技能</b><color=#64F9FA>无效</color>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -39,8 +40,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "81682587"
+  "hash": "98c2c021"
 }

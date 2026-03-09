@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "1回合做6-8次攻击，自身体力低于对手时连击上限为10",
+          "analyze_info": "[sprite name=iconHit]1回合做6-8次攻击，自身体力低于对手时连击上限为10（boss有效）",
           "args": [
             6,
             8,
@@ -45,6 +47,7 @@
         },
         {
           "info": "附加自身特攻值与速度值总和20%的百分比伤害，每次使用增加10%，最高40%",
+          "analyze_info": "[sprite name=iconHit]附加自身特攻值与速度值总和20%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高40%（boss有效）",
           "args": [
             20,
             10,
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51a287de"
+  "hash": "8017e4fb"
 }

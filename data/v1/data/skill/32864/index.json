@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
       "args": [],
       "effect": {
         "id": 1232,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手处于能力下降状态则造成伤害的50%恢复体力",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则造成伤害的50%恢复体力（boss有效）",
       "args": [
         50
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "后出手时40%令对手对手瘫痪，未触发则使自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit]后出手时40%令对手对手[color=#57c975]瘫痪[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         40,
         19,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ae74ca5b"
+  "advance": null,
+  "hash": "3c5a7a19"
 }

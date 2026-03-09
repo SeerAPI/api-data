@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合攻击伤害是正常状态下的2倍",
+      "analyze_info": "[sprite name=iconHit]2回合攻击伤害是正常状态下的2倍（boss有效）",
       "args": [
         2,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合若打出致命一击则必定恢复全部体力",
+      "analyze_info": "[sprite name=iconHit]下2回合若打出[color=#57c975]致命一击[/color]则必定恢复全部体力（boss有效）",
       "args": [
         2
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ad31b26f"
+  "advance": null,
+  "hash": "fcab554a"
 }

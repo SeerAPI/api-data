@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "40e44bd3"
+  "hash": "7d991c9a"
 }

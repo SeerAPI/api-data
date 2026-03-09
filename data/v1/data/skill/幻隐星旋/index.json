@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则1回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则1回合内令对手使用的属性技能无效",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害不少于260",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不少于260（boss有效）",
           "args": [
             260
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7f7f4b45"
+  "hash": "f27f90c0"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后50%使对手冰封，未触发则对手下2回合先制-2",
+          "analyze_info": "[sprite name=iconHit]命中后50%使对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则对手下2回合[color=#52a5f2]先制[/color]-2",
           "args": [
             50,
             15,
@@ -36,8 +37,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f6b6c613"
+  "hash": "ab8e640d"
 }

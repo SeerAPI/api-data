@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下1回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下1回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合所受的伤害减少200点",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少200点（boss有效）",
       "args": [
         3,
         200
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "316078f2"
+  "advance": null,
+  "hash": "8226eca4"
 }

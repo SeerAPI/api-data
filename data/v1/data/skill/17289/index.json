@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
       "args": [
         3,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "额外附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]额外附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7bcec4eb"
+  "advance": null,
+  "hash": "d6b553fe"
 }

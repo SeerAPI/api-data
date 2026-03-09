@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除双方能力提升状态及能力下降状态，消除任意一方成功则为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]消除双方能力提升状态及能力下降状态（boss有效），消除任意一方成功则为自身附加300点[color=#57c975]护盾[/color]",
           "args": [
             300
           ],
@@ -33,8 +34,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7943c01b"
+  "hash": "49d7faf4"
 }

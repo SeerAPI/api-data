@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]先出手时无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 1508,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和100%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]效果，并附加等同于消除[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]值总和100%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             100
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "附加对手能力下降等级总和X50的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手能力下降等级总和X50的[color=#52a5f2]固定伤害[/color]",
           "args": [
             50
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a11e4a42"
+  "hash": "c02f1dfb"
 }

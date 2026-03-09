@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "50%的概率伤害为2倍，未触发则下次翻倍概率额外提升25%且伤害提升变为3倍",
+          "analyze_info": "[sprite name=iconHit]50%的概率伤害为2倍，[color=#52a5f2]未触发[/color]则下次翻倍概率额外提升25%且伤害提升变为3倍（boss有效）",
           "args": [
             50,
             2,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b6119219"
+  "hash": "c89f6602"
 }

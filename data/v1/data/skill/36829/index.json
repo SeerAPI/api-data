@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除自身能力下降状态，消除成功下2回合自身直接攻击必定暴击",
+      "analyze_info": "[sprite name=iconHit]消除自身能力下降状态，消除成功下2回合自身直接攻击必定暴击（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合50%令自身全属性+1，未触发则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合50%令自身[color=#52a5f2]全属性[/color]+1，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         3,
         50,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1256ae55"
+  "advance": null,
+  "hash": "48039d86"
 }

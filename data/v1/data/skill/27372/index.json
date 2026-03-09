@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身命中等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
       "args": [
         5,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "4回合内每回合使用技能恢复自身最大体力的1/3，恢复体力时若自身体力低于最大体力的1/3则恢复效果翻倍",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能恢复自身最大体力的1/3，恢复体力时若自身体力低于最大体力的1/3则恢复效果翻倍（boss有效）",
       "args": [
         4,
         3,
@@ -69,6 +73,7 @@
     },
     {
       "info": "下3回合，每回合攻击技能造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]下3回合，每回合攻击技能造成的伤害不少于280（boss有效）",
       "args": [
         3,
         280
@@ -81,5 +86,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e5be7bce"
+  "advance": null,
+  "hash": "9d5495a7"
 }

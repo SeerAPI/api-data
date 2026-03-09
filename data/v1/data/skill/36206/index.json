@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+      "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
       "args": [
         1,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "随机附加烧伤，冻伤，失明，失神中的1种异常状态，未触发则自身下1回合造成的伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]随机附加[color=#57c975]烧伤[/color]，[color=#57c975]冻伤[/color]，[color=#57c975]失明[/color]，[color=#57c975]失神[/color]中的1种异常状态，[color=#52a5f2]未触发[/color]则自身下1回合造成的伤害提升50%",
       "args": [
         1,
         1,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "68a85412"
+  "advance": null,
+  "hash": "84ff19a3"
 }

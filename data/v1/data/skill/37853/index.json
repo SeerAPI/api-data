@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 40,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时下回合攻击技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合攻击技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "令双方烧伤，任意一方未触发则额外令对手疲惫",
+      "analyze_info": "[sprite name=iconHit]令双方[color=#57c975]烧伤[/color]，任意一方[color=#52a5f2]未触发[/color]则额外令对手[color=#57c975]疲惫[/color]",
       "args": [
         2,
         7,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7aed960c"
+  "advance": null,
+  "hash": "51582ede"
 }

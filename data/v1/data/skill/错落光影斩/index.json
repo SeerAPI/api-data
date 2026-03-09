@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于麻痹状态则每次攻击造成的伤害都将恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]麻痹[/color]状态则每次攻击造成的伤害都将恢复自身体力（boss有效）",
           "args": [
             0
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害不少于280",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
           "args": [
             280
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dd773397"
+  "hash": "c03f6eb4"
 }

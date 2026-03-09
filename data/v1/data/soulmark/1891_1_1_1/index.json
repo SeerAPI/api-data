@@ -4,6 +4,7 @@
       "id": 1528,
       "desc": "为对手所有技能附加冷却时间：当回合使用的技能在下1回合失效，回合开始时若自身体力低于最大体力的1/2则对手当回合使用的技能冷却时间增加1回合；|回合开始时若对手处于能力提升状态则自身所有技能先制+1，若对手不处于能力提升状态则令自身全属性+1（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能时进入冷却时间：所使用的技能在下1回合<color=#64F9FA>无法造成攻击伤害</color>且<b>命中效果失效</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则对手当回合进入的冷却时间效果增加1回合\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则自身所有技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则令自身<color=#64F9FA>全属性+1</color>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -40,8 +41,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "9f2164db"
+  "hash": "959aa270"
 }

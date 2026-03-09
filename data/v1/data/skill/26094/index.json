@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "5回合吸取对方最大体力的1/8(对草系无效)",
+      "analyze_info": "[sprite name=iconHit]5回合[color=#52a5f2]吸取[/color]对方最大体力的1/8(对草系无效)（boss有效）",
       "args": [
         5
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ab225320"
+  "advance": null,
+  "hash": "985335e4"
 }

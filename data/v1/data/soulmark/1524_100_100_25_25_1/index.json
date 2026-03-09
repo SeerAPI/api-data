@@ -4,6 +4,7 @@
       "id": 1193,
       "desc": "首次攻击命中后100%令对手进入害怕状态，未触发则100%令对手进入失明状态(每场战斗仅触发1次)；被击败时，若当回合受到的攻击伤害低于自身最大体力的25%则触发双生之魂：恢复所有体力且令对手受到自身最大体力25%的固定伤害（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（每场战斗限1次）：\r\n<indent=16><sprite=3><indent=32>自身攻击命中后100%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则100%<color=#64F9FA>令对手失明</color>\r\n\r\n<indent=0><sprite=0><indent=16>死亡效果：\r\n<indent=16><sprite=3><indent=32>自身死亡时若当回合受到的攻击伤害低于自身最大体力的25%则触发双生之魂：<color=#64F9FA>恢复</color>所有<b>体力</b>且<color=#64F9FA>附加</color>自身最大体力25%的<b>百分比伤害</b>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -42,8 +43,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "c2e3165b"
+  "hash": "3671c660"
 }

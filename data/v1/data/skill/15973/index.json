@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "命中时，40%概率令对手混乱",
+      "analyze_info": "[sprite name=iconHit]命中时，40%概率令对手[color=#57c975]混乱[/color]",
       "args": [
         40
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "85e9427c"
+  "advance": null,
+  "hash": "2971908e"
 }

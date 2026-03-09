@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合30%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合30%闪避对手攻击（boss有效）",
       "args": [
         3,
         30
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内若受到攻击则有50%概率令对手中毒",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有50%概率令对手[color=#57c975]中毒[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c72f3477"
+  "advance": null,
+  "hash": "c94834b1"
 }

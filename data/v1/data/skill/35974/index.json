@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升，消除成功3回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成伤害的75%恢复自身体力，若自身体力低于对手则效果提升至150%",
+      "analyze_info": "[sprite name=iconHit]造成伤害的75%恢复自身体力，若自身体力低于对手则效果提升至150%（boss有效）",
       "args": [
         75,
         150
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e7a6599f"
+  "advance": null,
+  "hash": "2f0e42f7"
 }

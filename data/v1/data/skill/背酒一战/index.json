@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "损失自身500点体力，给对手造成500点固定伤害，若自身体力不足500则损失全部体力且造成的固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]损失自身500点体力，给对手造成500点[color=#52a5f2]固定伤害[/color]，若自身体力不足500则损失全部体力且造成的[color=#52a5f2]固定伤害[/color]翻倍",
           "args": [
             500,
             500,
@@ -46,6 +48,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "401228ba"
+  "hash": "fefd5a0a"
 }

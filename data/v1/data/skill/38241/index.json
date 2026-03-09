@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加自身能力提升等级总和X15的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身能力提升等级总和X15的[color=#52a5f2]固定伤害[/color]",
       "args": [
         15
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "469cb08a"
+  "advance": null,
+  "hash": "89ad414d"
 }

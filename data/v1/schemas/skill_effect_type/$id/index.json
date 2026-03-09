@@ -75,6 +75,11 @@
           "description": "效果描述的\"可格式化版本\"，用于呈现Unity端中的多行描述形式",
           "title": "Info Formatting Adjustment"
         },
+        "analyze_info": {
+          "description": "新版 Unity 端采用的格式化技能效果描述文本",
+          "title": "Analyze Info",
+          "type": "string"
+        },
         "pve_effective": {
           "description": "该效果是否PVE生效",
           "title": "Pve Effective",
@@ -117,6 +122,7 @@
         "id",
         "args_num",
         "info",
+        "analyze_info",
         "pve_effective"
       ],
       "title": "SkillEffectType",

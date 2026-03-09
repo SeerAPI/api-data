@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时附加自身双防值总和50%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]先出手时附加自身双防值总和50%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时令对手下1回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合属性技能无效",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "35dfa20b"
+  "advance": null,
+  "hash": "1416bda6"
 }

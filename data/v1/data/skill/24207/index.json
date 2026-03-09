@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
       "args": [
         0,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内每回合使用技能恢复自身最大体力的1/4",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能恢复自身最大体力的1/4（boss有效）",
       "args": [
         3,
         4
@@ -47,6 +49,7 @@
     },
     {
       "info": "50%降低对手所有技能3点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "analyze_info": "[sprite name=iconHit]50%降低对手所有技能3点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
       "args": [
         50,
         3
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f55609df"
+  "advance": null,
+  "hash": "d0c680ae"
 }

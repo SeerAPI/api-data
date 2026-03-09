@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力提升状态则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1174,
@@ -31,6 +32,7 @@
         },
         {
           "info": "造成的伤害提升，伤害提升的倍数等于对手能力下降等级总和乘以10%",
+          "analyze_info": "[sprite name=iconHit]造成的伤害提升，伤害提升的倍数等于对手能力下降等级总和乘[color=#52a5f2]以[/color]10%（boss有效）",
           "args": [
             10
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c84e4934"
+  "hash": "c5444b1e"
 }

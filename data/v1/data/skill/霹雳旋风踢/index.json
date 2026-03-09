@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内每回合结束时使对手随机1个技能PP归零",
+          "analyze_info": "[sprite name=iconHit]2回合内每[color=#57c975]回合结束时[/color]使对手随机1个技能PP归零",
           "args": [
             2,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内若自身能力提升状态被消除或吸取则100%使对手麻痹2回合",
+          "analyze_info": "[sprite name=iconHit]2回合内若自身能力提升状态被消除或[color=#52a5f2]吸取[/color]则100%使对手[color=#57c975]麻痹[/color]2回合",
           "args": [
             2,
             100,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c7a571a2"
+  "hash": "f3342d78"
 }

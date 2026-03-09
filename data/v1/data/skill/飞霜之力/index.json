@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身速度等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
           "args": [
             4,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身命中等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+2（boss有效）",
           "args": [
             5,
             100,
@@ -59,6 +62,7 @@
         },
         {
           "info": "下3回合若自身选择使用技能则无视对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]下3回合若自身选择使用技能则无视对手能力提升状态（boss有效）",
           "args": [
             3
           ],
@@ -69,6 +73,7 @@
         },
         {
           "info": "3回合内对手使用攻击技能则冻伤",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能则[color=#57c975]冻伤[/color]",
           "args": [
             3,
             5
@@ -80,8 +85,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "28aeab69"
+  "hash": "e74d3255"
 }

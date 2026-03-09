@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手200点体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手200点体力",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若打出致命一击则对手100%概率疲惫",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]疲惫[/color]（boss有效）",
       "args": [
         100,
         7
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6bdf3aa8"
+  "advance": null,
+  "hash": "b401937"
 }

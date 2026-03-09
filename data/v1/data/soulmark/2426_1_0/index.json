@@ -4,6 +4,7 @@
       "id": 2001,
       "desc": "自身登场之后首次受到攻击伤害时，记录此伤害；自身使用攻击技能后附加上述记录50%的百分比伤害，自身每携带一个攻击技能效果提升10%；自身使用属性技能后恢复上述记录50%的体力，自身每携带一个属性技能效果提升10%（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身登场之后首次受到攻击伤害时，记录此伤害\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能后<color=#64F9FA>附加</color>上述记录50%的<b>百分比伤害</b>，自身每携带一个攻击技能效果提升10%\r\n<indent=16><sprite=3><indent=32>自身使用属性技能后<color=#64F9FA>恢复</color>上述记录50%的<b>体力</b>，自身每携带一个属性技能效果提升10%",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -35,8 +36,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "62bc7adb"
+  "hash": "32ba5dba"
 }

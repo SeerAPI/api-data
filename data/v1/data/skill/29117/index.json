@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的控制类异常状态",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内使用技能附加200点固定伤害，若自身体力高于对手则效果翻倍",
+      "analyze_info": "[sprite name=iconHit]4回合内使用技能附加200点[color=#52a5f2]固定伤害[/color]，若自身体力高于对手则效果翻倍（boss有效）",
       "args": [
         4,
         200
@@ -42,6 +44,7 @@
     },
     {
       "info": "自身下1次受到的攻击伤害不超过300，并反弹给对手原本超出部分100%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]自身下1次受到的攻击伤害不超过300，并[color=#52a5f2]反弹[/color]给对手原本超出部分100%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         1,
         300,
@@ -54,6 +57,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能后100%令对手疲惫，未触发则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后100%令对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         3,
         100,
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "51525540"
+  "advance": null,
+  "hash": "876eb846"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身每处于1种能力提升状态，造成的伤害额外提升15%",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，造成的[color=#52a5f2]伤害额外提升[/color]15%",
           "args": [
             1,
             15
@@ -34,6 +35,7 @@
         },
         {
           "info": "自身每处于1种能力提升状态，则为自身附加50点护盾",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，则为自身附加50点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             1,
             50
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e2711fb0"
+  "hash": "343d9b15"
 }

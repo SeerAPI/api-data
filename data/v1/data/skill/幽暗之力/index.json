@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
           "args": [
             2,
             100,
@@ -47,7 +49,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "24951": {
       "id": 24951,
@@ -72,6 +75,7 @@
       "skill_effect": [
         {
           "info": "命中后100%令对方中毒",
+          "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             100
           ],
@@ -82,8 +86,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "40d05cc9"
+  "hash": "1ef8caea"
 }

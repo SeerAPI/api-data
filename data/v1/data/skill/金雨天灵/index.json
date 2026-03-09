@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于能力下降状态则威力提升50%",
+          "analyze_info": "[sprite name=iconHit]对手处于能力下降状态则[color=#52a5f2]威力[/color]提升50%",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "恢复300点体力，若当前体力低于300则直接回满",
+          "analyze_info": "[sprite name=iconHit]恢复300点体力，若当前体力低于300则直接回满（boss有效）",
           "args": [
             300,
             300
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5396e783"
+  "hash": "6a1eec21"
 }

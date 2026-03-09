@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则为自身附加400点护罩",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则为自身附加400点[color=#57c975]护罩[/color]",
           "args": [
             400
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手每损失2点体力则额外附加1点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每损失2点体力则额外附加1点[color=#52a5f2]固定伤害[/color]",
           "args": [
             2,
             1
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f3062fa9"
+  "hash": "87a11a4d"
 }

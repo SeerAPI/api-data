@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "100%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+          "analyze_info": "[sprite name=iconHit]100%降低对手所有技能1点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
           "args": [
             100,
             1
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e7be631f"
+  "hash": "e1dd8f08"
 }

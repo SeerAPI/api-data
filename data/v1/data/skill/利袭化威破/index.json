@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害低于300则吸取对手最大体力的1/3并为自身附加等量的护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手最大体力的1/3并为自身附加等量的[color=#57c975]护盾[/color]",
           "args": [
             300,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "下2回合攻击忽略对手30%的双防值",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手30%的双防值",
           "args": [
             2,
             30
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "247e3e13"
+  "hash": "52d1b854"
 }

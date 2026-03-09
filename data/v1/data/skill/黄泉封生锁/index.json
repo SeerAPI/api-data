@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "出手时有概率使对手害怕，概率等同于出手时自身当前体力百分比",
+          "analyze_info": "[sprite name=iconHit]出手时有概率使对手[color=#57c975]害怕[/color]，概率等同于出手时自身当前体力百分比",
           "args": [
             6
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "使对手防御-1，特防-1，命中-1，若对手处于弱化状态，弱化效果翻倍",
+          "analyze_info": "[sprite name=iconHit]使对手防御-1，特防-1，命中-1，若对手处于弱化状态，弱化效果翻倍（boss有效）",
           "args": [
             0,
             -1,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "232e083f"
+  "hash": "7de84756"
 }

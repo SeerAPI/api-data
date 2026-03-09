@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时100%自身特攻等级+1",
+      "analyze_info": "[sprite name=iconHit]先出手时100%自身特攻等级+1（boss有效）",
       "args": [
         2,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "后出手时恢复150点体力",
+      "analyze_info": "[sprite name=iconHit]后出手时恢复150点体力（boss有效）",
       "args": [
         150
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2ec4295e"
+  "advance": null,
+  "hash": "48445a6f"
 }

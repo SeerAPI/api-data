@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力提升状态则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1174,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若对手不处于能力提升状态则100%令对手冰封",
+          "analyze_info": "[sprite name=iconHit]若对手不处于能力提升状态则100%令对手[color=#57c975]冰封[/color]",
           "args": [
             100,
             15
@@ -42,6 +44,7 @@
         },
         {
           "info": "若对手体力不足300则直接秒杀",
+          "analyze_info": "[sprite name=iconHit]若对手体力不足300则直接[color=#52a5f2]秒杀[/color]（boss有效）",
           "args": [
             300
           ],
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b9d2c7"
+  "hash": "7f260433"
 }

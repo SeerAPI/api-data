@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时降低对手所有PP2点",
+          "analyze_info": "[sprite name=iconHit]先出手时降低对手所有PP2点",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加220点固定伤害，若当回合造成的伤害高于300则固伤效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加220点[color=#52a5f2]固定伤害[/color]，若[color=#52a5f2]当回合[/color]造成的伤害高于300则固伤效果翻倍（boss有效）",
           "args": [
             220,
             300
@@ -44,6 +46,7 @@
         },
         {
           "info": "击败对手则对方下只精灵出战时降低所有技能3点PP值",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color]降低所有技能3点PP值",
           "args": [
             3
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fdeeb2"
+  "hash": "eab8b321"
 }

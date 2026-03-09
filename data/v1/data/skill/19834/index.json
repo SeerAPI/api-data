@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于能力下降状态则造成伤害的50%恢复体力",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则造成伤害的50%恢复体力（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "命中后70%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后70%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         70
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f53d848d"
+  "advance": null,
+  "hash": "b4dc5f09"
 }

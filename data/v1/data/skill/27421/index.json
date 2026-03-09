@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内对手使用技能消耗的PP值变为2倍",
+      "analyze_info": "[sprite name=iconHit]4回合内对手使用技能消耗的PP值变为2倍（boss有效）",
       "args": [
         4,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "4回合内若自身处于能力下降或异常状态，则对手每回合受到300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身处于能力下降或异常状态，则对手每回合受到300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         4,
         300
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1b1c47ac"
+  "advance": null,
+  "hash": "6f3ed8cf"
 }

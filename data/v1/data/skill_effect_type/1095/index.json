@@ -3,6 +3,7 @@
   "args_num": 0,
   "info": "3回合内若对手使用属性技能则命中前令对手所有技能随机降低1-3点PP值；3回合内若对手使用攻击技能则使用后受到对手最大体力1/3的百分比伤害；己方免疫下2次受到的异常状态;技能结束后对手体力值高于0，则50%进行一次额外行动以触发星皇之怒（星皇之怒：令自身2回合内回合类效果无法被消除（后出手则延续至下2回合）；下2回合自身所有技能先制+2）",
   "info_formatting_adjustment": "3回合内<condition>若对手使用属性技能</condition>则命中前令对手所有技能随机降低1-3点PP值$Boss$\r\n3回合内<condition>若对手使用攻击技能</condition>则使用后对手受到最大体力1/3的百分比伤害$Boss$\r\n己方免疫下2次受到的异常状态\r\n技能结束后<condition>若对手体力值高于0</condition>，则50%进行一次额外行动以触发星皇之怒\r\n星皇之怒：令自身2回合内回合类效果无法被消除（后出手则延续至下2回合；下2回合自身所有技能先制+2$Boss$",
+  "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则命中前令对手所有技能随机降低1-3点PP值；3回合内若对手使用攻击技能则使用后受到对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]；[color=#52a5f2]己方[/color]免疫下2次受到的异常状态（boss有效）;技能结束后对手体力值高于0，则50%进行一次[color=#52a5f2]额外行动[/color][color=#52a5f2]以[/color]触发[color=#f35555]星皇之怒[/color]（boss有效）（[color=#f35555]星皇之怒[/color]：令自身2回合内[color=#52a5f2]回合类效果[/color]无法被消除（后出手则延续至下2回合）；下2回合自身所有技能[color=#52a5f2]先制[/color]+2）",
   "pve_effective": false,
   "param": null,
   "skill": [
@@ -25,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/34256"
     }
   ],
-  "hash": "ec97f220"
+  "hash": "be68fa04"
 }

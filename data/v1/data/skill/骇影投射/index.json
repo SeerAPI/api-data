@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手随机1项技能PP值归零，若当回合受到攻击则额外使对手随机1项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能PP值归零，若[color=#52a5f2]当回合[/color]受到攻击则额外使对手随机1项技能PP值归零",
           "args": [
             1,
             1
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "42a33137"
+  "hash": "52338111"
 }

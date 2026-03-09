@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "10%的概率秒杀对手，未触发则令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]10%的概率[color=#52a5f2]秒杀[/color]对手，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             10,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
           "args": [
             300,
             2
@@ -45,6 +47,7 @@
         },
         {
           "info": "造成的伤害低于300则吸取对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手1/3最大体力",
           "args": [
             300,
             3
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d8b41d99"
+  "hash": "59d6b255"
 }

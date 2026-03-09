@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
           "args": [],
           "effect": {
             "id": 1192,
@@ -41,8 +43,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/pet_advance/4"
+      }
     }
   },
-  "hash": "26a44cd7"
+  "hash": "39255fbe"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当回合击败对手则50%恢复自身全部体力，未触发则全属性+1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则50%恢复自身全部体力，[color=#52a5f2]未触发[/color]则[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             50,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "未击败对手则下2回合自身先制+2",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下2回合自身[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -45,6 +47,7 @@
         },
         {
           "info": "“辛”存活时造成攻击伤害的50%恢复自身体力，“辛”死亡后造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]“[color=#f35555]辛[/color]”存活时造成攻击伤害的50%恢复自身体力，“[color=#f35555]辛[/color]”死亡后造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [],
           "effect": {
             "id": 1437,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5580c2b2"
+  "hash": "9797254"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合自身的能力下降状态都会反馈到对手身上",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合自身的能力下降状态都会反馈到对手身上",
           "args": [
             3
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e93bee4d"
+  "hash": "4769c65"
 }

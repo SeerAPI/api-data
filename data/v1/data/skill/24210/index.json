@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果反转成能力下降效果",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果反转成能力下降效果（boss有效）",
       "args": [],
       "effect": {
         "id": 143,
@@ -29,6 +30,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1376e13f"
+  "advance": null,
+  "hash": "48ce225e"
 }

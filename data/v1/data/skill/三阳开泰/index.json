@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若受到攻击，消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击，消除对手能力提升状态（boss有效）",
           "args": [
             3
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2d567af3"
+  "hash": "b2c2c95b"
 }

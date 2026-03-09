@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "15456": {
       "id": 15456,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -64,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e8a265e0"
+  "hash": "60ec064a"
 }

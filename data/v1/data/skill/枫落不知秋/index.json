@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功则自身攻击+2，速度+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身攻击+2，速度+1（boss有效）",
           "args": [
             2,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "若打出致命一击则对手100%概率烧伤",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             100,
             2
@@ -49,6 +51,7 @@
         },
         {
           "info": "若击败烧伤的对手则对方下只出战精灵烧伤",
+          "analyze_info": "[sprite name=iconHit]若[color=#57c975]击败[/color][color=#57c975]烧伤[/color]的对手则对方下只出战精灵[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             2
           ],
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d3217722"
+  "hash": "ffad9916"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果且恢复自身300点体力，消除成功则额外吸取对手300点体力",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]且恢复自身300点体力，消除成功则额外[color=#52a5f2]吸取[/color]对手300点体力",
       "args": [
         300,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能威力提升50%，对手任意1项技能PP值小于2点则提升效果翻倍",
+      "analyze_info": "[sprite name=iconHit]技能[color=#52a5f2]威力[/color]提升50%，对手任意1项技能PP值小于2点则提升效果翻倍",
       "args": [
         50,
         2
@@ -43,6 +45,7 @@
     },
     {
       "info": "附加双方当前已损失技能PP值总和×20的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加双方当前已损失技能PP值总和×20的[color=#52a5f2]固定伤害[/color]",
       "args": [
         20
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "277c1fb6"
+  "advance": null,
+  "hash": "153949ba"
 }

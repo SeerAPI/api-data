@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内若自身攻击技能命中则30%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则30%令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         3,
         30,
@@ -33,6 +34,7 @@
     },
     {
       "info": "100%概率使对手3回合内命中能力每回合变化-1",
+      "analyze_info": "[sprite name=iconHit]100%概率使对手3回合内命中能力每回合变化-1（boss有效）",
       "args": [
         100,
         3,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fa432a68"
+  "advance": null,
+  "hash": "e3b44d04"
 }

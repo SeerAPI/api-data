@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下回合受到的伤害转化为自身体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下回合受到的伤害[color=#52a5f2]转化[/color]为自身体力",
           "args": [],
           "effect": {
             "id": 1219,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
           "args": [],
           "effect": {
             "id": 1974,
@@ -39,6 +41,7 @@
         },
         {
           "info": "解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
+          "analyze_info": "[sprite name=iconHit]解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
           "args": [
             2
           ],
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4bb076aa"
+  "hash": "37c78c4f"
 }

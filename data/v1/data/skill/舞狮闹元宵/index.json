@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则攻击+2，速度+2",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则攻击+2，速度+2（boss有效）",
           "args": [
             2,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "击败对手则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -48,6 +50,7 @@
         },
         {
           "info": "当回合未击败对手则下1次自身技能附加自身最大体力1/4的百分比伤害",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则下1次自身技能附加自身最大体力1/4的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             1,
             4
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cf5bb199"
+  "hash": "82c88f18"
 }

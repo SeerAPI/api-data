@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手不处于能力下降状态则造成的伤害提高50%",
+          "analyze_info": "[sprite name=iconHit]对手不处于能力下降状态则造成的伤害提高50%（boss有效）",
           "args": [
             50
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "58e612ef"
+  "hash": "34fde95f"
 }

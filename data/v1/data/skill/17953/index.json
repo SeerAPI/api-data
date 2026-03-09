@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "出手时本回合若受到伤害，则将伤害反馈给对手",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若受到伤害，则将伤害反馈给对手",
       "args": [],
       "effect": {
         "id": 818,
@@ -29,6 +30,7 @@
     },
     {
       "info": "出手时本回合若未受到攻击伤害，则附加自身特攻值50%的百分比伤害，并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若未受到攻击伤害，则附加自身特攻值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
       "args": [
         2,
         50
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "51c623bc"
+  "advance": null,
+  "hash": "bc68d504"
 }

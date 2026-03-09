@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "恢复全部体力，消除所有能力下降，使自己睡眠3回合",
+          "analyze_info": "[sprite name=iconHit]恢复全部体力，消除所有能力下降，使自己[color=#57c975]睡眠[/color]3回合（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "免疫下1次对手的攻击",
+          "analyze_info": "[sprite name=iconHit]免疫下1次对手的攻击（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8bd1b0ae"
+  "hash": "d581dd3f"
 }

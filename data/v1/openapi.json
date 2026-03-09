@@ -2687,6 +2687,144 @@
         "deprecated": false
       }
     },
+    "v1/glossary_entry/{id}": {
+      "get": {
+        "tags": [
+          "术语",
+          "术语条目"
+        ],
+        "summary": "获取术语条目资源",
+        "description": "术语条目，用于表示一个术语的详细信息。在Unity端的新版魂印/技能面板中显示。",
+        "operationId": "get_glossary_entry_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/glossary_entry"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/glossary_entry"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/glossary_entry/{name}": {
+      "get": {
+        "tags": [
+          "术语",
+          "术语条目"
+        ],
+        "summary": "通过名称获取术语条目资源",
+        "description": "术语条目，用于表示一个术语的详细信息。在Unity端的新版魂印/技能面板中显示。",
+        "operationId": "get_glossary_entry_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/glossary_entry_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/glossary_entry_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/glossary_entry/": {
+      "get": {
+        "tags": [
+          "术语",
+          "术语条目"
+        ],
+        "summary": "获取术语条目资源列表",
+        "description": "术语条目，用于表示一个术语的详细信息。在Unity端的新版魂印/技能面板中显示。",
+        "operationId": "get_glossary_entry_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/glossary_entry_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/glossary_entry_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/gem/{id}": {
       "get": {
         "tags": [
@@ -5666,6 +5804,103 @@
         "deprecated": false
       }
     },
+    "v1/pet_advance/{id}": {
+      "get": {
+        "tags": [
+          "精灵",
+          "神谕觉醒",
+          "技能",
+          "魂印"
+        ],
+        "summary": "获取精灵神谕觉醒信息资源",
+        "description": "精灵神谕觉醒信息，返回的模型中包含该神谕觉醒条目对应的精灵、技能、魂印和种族值信息。",
+        "operationId": "get_pet_advance_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_advance"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_advance"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/pet_advance/": {
+      "get": {
+        "tags": [
+          "精灵",
+          "神谕觉醒",
+          "技能",
+          "魂印"
+        ],
+        "summary": "获取精灵神谕觉醒信息资源列表",
+        "description": "精灵神谕觉醒信息，返回的模型中包含该神谕觉醒条目对应的精灵、技能、魂印和种族值信息。",
+        "operationId": "get_pet_advance_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_advance_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_advance_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/pet_skin/{id}": {
       "get": {
         "tags": [
@@ -6938,332 +7173,6 @@
           "hash"
         ],
         "title": "HashPartial"
-      },
-      "common_resource_ref": {
-        "properties": {
-          "id": {
-            "type": "integer",
-            "title": "Id",
-            "description": "资源ID"
-          },
-          "url": {
-            "type": "string",
-            "title": "Url",
-            "description": "资源URL"
-          }
-        },
-        "type": "object",
-        "required": [
-          "id",
-          "url"
-        ],
-        "title": "ResourceRef",
-        "description": "API资源类"
-      },
-      "common_named_resource_ref": {
-        "properties": {
-          "id": {
-            "type": "integer",
-            "title": "Id",
-            "description": "资源ID"
-          },
-          "url": {
-            "type": "string",
-            "title": "Url",
-            "description": "资源URL"
-          },
-          "name": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Name",
-            "description": "资源名称"
-          }
-        },
-        "type": "object",
-        "required": [
-          "id",
-          "url"
-        ],
-        "title": "NamedResourceRef"
-      },
-      "common_api_resource_list": {
-        "properties": {
-          "count": {
-            "type": "integer",
-            "title": "Count",
-            "description": "资源数量"
-          },
-          "next": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Next",
-            "description": "下一页URL"
-          },
-          "previous": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Previous",
-            "description": "上一页URL"
-          },
-          "first": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "First",
-            "description": "第一页URL"
-          },
-          "last": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Last",
-            "description": "最后一页URL"
-          },
-          "results": {
-            "items": {
-              "$ref": "#/components/schemas/common_named_resource_ref"
-            },
-            "type": "array",
-            "title": "Results",
-            "description": "资源列表"
-          }
-        },
-        "type": "object",
-        "required": [
-          "count",
-          "results"
-        ],
-        "title": "ApiResourceList",
-        "description": "API资源列表，兼容RFC 5988的Link标准"
-      },
-      "common_named_data": {
-        "properties": {
-          "data": {
-            "patternProperties": {
-              "^[0-9]+$": {
-                "$dynamicRef": "#TResModel"
-              }
-            },
-            "additionalProperties": false,
-            "type": "object"
-          }
-        },
-        "type": "object",
-        "required": [
-          "data"
-        ],
-        "title": "NamedData",
-        "$schema": "https://json-schema.org/draft/2020-12/schema"
-      },
-      "common_eid_effect": {
-        "properties": {
-          "id": {
-            "type": "integer",
-            "title": "Id",
-            "description": "资源ID"
-          },
-          "args_num": {
-            "type": "integer",
-            "title": "Args Num",
-            "description": "效果需要的参数数量，该值是从使用该效果的资源中推测得出的"
-          }
-        },
-        "type": "object",
-        "required": [
-          "id",
-          "args_num"
-        ],
-        "title": "EidEffect"
-      },
-      "common_eid_effect_in_use": {
-        "properties": {
-          "id": {
-            "anyOf": [
-              {
-                "type": "integer"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Id"
-          },
-          "effect_args": {
-            "anyOf": [
-              {
-                "items": {
-                  "type": "integer"
-                },
-                "type": "array"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Effect Args",
-            "description": "效果参数，当效果参数为空时，该字段为null"
-          },
-          "effect": {
-            "$ref": "#/components/schemas/common_resource_ref",
-            "x-model-name": "eid_effect"
-          }
-        },
-        "type": "object",
-        "required": [
-          "effect"
-        ],
-        "title": "EidEffectInUse"
-      },
-      "common_six_attributes": {
-        "properties": {
-          "id": {
-            "anyOf": [
-              {
-                "type": "integer"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Id"
-          },
-          "atk": {
-            "type": "number",
-            "title": "Atk",
-            "description": "攻击"
-          },
-          "def": {
-            "type": "number",
-            "title": "Def",
-            "description": "防御"
-          },
-          "sp_atk": {
-            "type": "number",
-            "title": "Sp Atk",
-            "description": "特攻"
-          },
-          "sp_def": {
-            "type": "number",
-            "title": "Sp Def",
-            "description": "特防"
-          },
-          "spd": {
-            "type": "number",
-            "title": "Spd",
-            "description": "速度"
-          },
-          "hp": {
-            "type": "number",
-            "title": "Hp",
-            "description": "体力"
-          },
-          "percent": {
-            "type": "boolean",
-            "title": "Percent",
-            "description": "该对象描述的是否是百分比加成，如果为true，属性值为百分比值",
-            "default": false
-          }
-        },
-        "type": "object",
-        "required": [
-          "atk",
-          "def",
-          "sp_atk",
-          "sp_def",
-          "spd",
-          "hp"
-        ],
-        "title": "SixAttributes"
-      },
-      "common_skill_effect_in_use": {
-        "properties": {
-          "id": {
-            "anyOf": [
-              {
-                "type": "integer"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "title": "Id"
-          },
-          "info": {
-            "type": "string",
-            "title": "Info",
-            "description": "技能效果描述"
-          },
-          "args": {
-            "anyOf": [
-              {
-                "items": {
-                  "anyOf": [
-                    {
-                      "type": "integer"
-                    },
-                    {
-                      "type": "number"
-                    }
-                  ]
-                },
-                "type": "array"
-              },
-              {
-                "items": {
-                  "type": "integer"
-                },
-                "type": "array"
-              },
-              {
-                "items": {
-                  "type": "number"
-                },
-                "type": "array"
-              }
-            ],
-            "title": "Args",
-            "description": "技能效果参数列表"
-          },
-          "effect": {
-            "$ref": "#/components/schemas/common_resource_ref",
-            "x-model-name": "skill_effect_type"
-          }
-        },
-        "type": "object",
-        "required": [
-          "info",
-          "args",
-          "effect"
-        ],
-        "title": "SkillEffectInUse"
       },
       "achievement": {
         "allOf": [
@@ -10351,7 +10260,19 @@
                   }
                 ],
                 "title": "Desc Formatting Adjustment",
-                "description": "魂印描述的\"可格式化版本\"，用于呈现Unity端中的描述排版形式"
+                "description": "Unity 客户端历史格式的魂印描述文本（部分旧魂印专用，应优先使用 analyze_desc 字段）"
+              },
+              "analyze_desc": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Analyze Desc",
+                "description": "当前 Unity 端采用的格式化魂印描述文本"
               },
               "pve_effective": {
                 "anyOf": [
@@ -10439,6 +10360,18 @@
                   }
                 ],
                 "description": "强化前的魂印资源，该字段仅在该魂印是强化/觉醒魂印时有效"
+              },
+              "advance": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "pet_advance"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "觉醒后的魂印资源，该字段仅在该魂印是神谕觉醒魂印时有效"
               }
             },
             "type": "object",
@@ -10493,6 +10426,7 @@
             ],
             "intensified_to": null,
             "from": null,
+            "advance": null,
             "hash": "17abd989"
           }
         ]
@@ -10557,6 +10491,7 @@
             ],
             "intensified_to": null,
             "from": null,
+            "advance": null,
             "hash": "17abd989"
           }
         ]
@@ -10605,6 +10540,7 @@
             ],
             "intensified_to": null,
             "from": null,
+            "advance": null,
             "hash": "17abd989"
           }
         ]
@@ -10955,6 +10891,160 @@
             },
             "is_double": true,
             "hash": "637da042"
+          }
+        ]
+      },
+      "glossary_entry": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "术语ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "术语名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "术语描述"
+              },
+              "kind": {
+                "type": "integer",
+                "title": "Kind",
+                "description": "术语类型，数值对应的类型尚不明确，这里暂时保留原始值"
+              },
+              "link": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/components/schemas/common_resource_ref",
+                      "x-model-name": "glossary_entry"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Link",
+                "description": "术语链接，用于指示显示该术语时应同时显示的其他术语"
+              },
+              "pet": {
+                "anyOf": [
+                  {
+                    "items": {
+                      "$ref": "#/components/schemas/common_resource_ref",
+                      "x-model-name": "pet"
+                    },
+                    "type": "array"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Pet",
+                "description": "用于指示该术语是否是特定精灵专属的"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "kind"
+            ],
+            "title": "GlossaryEntry"
+          }
+        ],
+        "title": "术语条目资源",
+        "examples": [
+          {
+            "id": 458,
+            "name": "时空交错",
+            "desc": "对手受到1000点固定伤害且自身恢复等量体力，然后若对手因此受到的伤害高于400则自身受到1000点固定伤害且对手主动恢复等量体力，若低于200则令对手2回合内无法主动切换精灵，若均不满足则己方下回合受到的攻击伤害减少60%",
+            "kind": 1,
+            "link": null,
+            "pet": [
+              {
+                "id": 4865,
+                "url": "https://api.seerapi.com/v1/pet/4865"
+              }
+            ],
+            "hash": "86a07081"
+          }
+        ]
+      },
+      "glossary_entry_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/glossary_entry"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射术语条目资源",
+        "examples": [
+          {
+            "id": 458,
+            "name": "时空交错",
+            "desc": "对手受到1000点固定伤害且自身恢复等量体力，然后若对手因此受到的伤害高于400则自身受到1000点固定伤害且对手主动恢复等量体力，若低于200则令对手2回合内无法主动切换精灵，若均不满足则己方下回合受到的攻击伤害减少60%",
+            "kind": 1,
+            "link": null,
+            "pet": [
+              {
+                "id": 4865,
+                "url": "https://api.seerapi.com/v1/pet/4865"
+              }
+            ],
+            "hash": "86a07081"
+          }
+        ]
+      },
+      "glossary_entry_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "glossary_entry"
+          }
+        ],
+        "title": "术语条目资源列表",
+        "examples": [
+          {
+            "id": 458,
+            "name": "时空交错",
+            "desc": "对手受到1000点固定伤害且自身恢复等量体力，然后若对手因此受到的伤害高于400则自身受到1000点固定伤害且对手主动恢复等量体力，若低于200则令对手2回合内无法主动切换精灵，若均不满足则己方下回合受到的攻击伤害减少60%",
+            "kind": 1,
+            "link": null,
+            "pet": [
+              {
+                "id": 4865,
+                "url": "https://api.seerapi.com/v1/pet/4865"
+              }
+            ],
+            "hash": "86a07081"
           }
         ]
       },
@@ -14805,6 +14895,18 @@
                   }
                 ],
                 "description": "精灵所属巅峰专家池"
+              },
+              "advance": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "pet_advance"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "精灵觉醒信息"
               }
             },
             "type": "object",
@@ -14856,39 +14958,361 @@
               "sp_atk": 138,
               "sp_def": 116,
               "spd": 135,
-              "hp": 125,
+              "hp": 175,
               "percent": false,
-              "total": 700
+              "total": 750
             },
+            "pet_class": {
+              "id": 2846,
+              "url": "https://api.seerapi.com/v1/pet_class/2846"
+            },
+            "evolution_chain_index": 0,
             "yielding_ev": {
               "atk": 0,
               "def": 0,
-              "sp_atk": 3,
+              "sp_atk": 0,
               "sp_def": 0,
               "spd": 0,
               "hp": 0,
               "percent": false,
-              "total": 3
-            },
-            "pet_class": {
-              "id": 2174,
-              "url": "https://api.seerapi.com/v1/pet_class/2174"
+              "total": 0
             },
             "vipbuff": null,
             "mount_type": null,
-            "evolution_from": null,
-            "evolution_to": [],
-            "learned_skill": [],
-            "recommended_skill": [],
-            "recommended_nature": [],
-            "effect": [],
-            "soulmark": [],
-            "mintmark": [],
-            "skin": [],
-            "encyclopedia": null,
-            "archive_story": [],
             "diy_stats": null,
-            "hash": "3cb9d0bc"
+            "skill": [
+              {
+                "learning_level": 1,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10004,
+                  "url": "https://api.seerapi.com/v1/skill/10004"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 5,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20065,
+                  "url": "https://api.seerapi.com/v1/skill/20065"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 9,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10614,
+                  "url": "https://api.seerapi.com/v1/skill/10614"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 13,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20041,
+                  "url": "https://api.seerapi.com/v1/skill/20041"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 17,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10302,
+                  "url": "https://api.seerapi.com/v1/skill/10302"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 21,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19287,
+                  "url": "https://api.seerapi.com/v1/skill/19287"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 25,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20660,
+                  "url": "https://api.seerapi.com/v1/skill/20660"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 29,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10761,
+                  "url": "https://api.seerapi.com/v1/skill/10761"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 33,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24738,
+                  "url": "https://api.seerapi.com/v1/skill/24738"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 37,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10977,
+                  "url": "https://api.seerapi.com/v1/skill/10977"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 41,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24739,
+                  "url": "https://api.seerapi.com/v1/skill/24739"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 45,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19288,
+                  "url": "https://api.seerapi.com/v1/skill/19288"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 49,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19289,
+                  "url": "https://api.seerapi.com/v1/skill/19289"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 53,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24740,
+                  "url": "https://api.seerapi.com/v1/skill/24740"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 57,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19290,
+                  "url": "https://api.seerapi.com/v1/skill/19290"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 61,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19291,
+                  "url": "https://api.seerapi.com/v1/skill/19291"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 71,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34897,
+                  "url": "https://api.seerapi.com/v1/skill/34897"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 72,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 27496,
+                  "url": "https://api.seerapi.com/v1/skill/27496"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 73,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34898,
+                  "url": "https://api.seerapi.com/v1/skill/34898"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 74,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 27497,
+                  "url": "https://api.seerapi.com/v1/skill/27497"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 75,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34899,
+                  "url": "https://api.seerapi.com/v1/skill/34899"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 29187,
+                  "url": "https://api.seerapi.com/v1/skill/29187"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 29188,
+                  "url": "https://api.seerapi.com/v1/skill/29188"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 38147,
+                  "url": "https://api.seerapi.com/v1/skill/38147"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 38148,
+                  "url": "https://api.seerapi.com/v1/skill/38148"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 76,
+                "is_special": true,
+                "is_advanced": false,
+                "is_fifth": true,
+                "skill": {
+                  "id": 34900,
+                  "url": "https://api.seerapi.com/v1/skill/34900"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 76,
+                "is_special": true,
+                "is_advanced": false,
+                "is_fifth": true,
+                "skill": {
+                  "id": 37295,
+                  "url": "https://api.seerapi.com/v1/skill/37295"
+                },
+                "skill_activation_item": {
+                  "id": 1725959,
+                  "url": "https://api.seerapi.com/v1/skill_activation_item/1725959"
+                }
+              }
+            ],
+            "soulmark": [
+              {
+                "id": 1409,
+                "url": "https://api.seerapi.com/v1/soulmark/1409"
+              },
+              {
+                "id": 2028,
+                "url": "https://api.seerapi.com/v1/soulmark/2028"
+              }
+            ],
+            "encyclopedia_entry": {
+              "id": 4186,
+              "url": "https://api.seerapi.com/v1/pet_encyclopedia_entry/4186"
+            },
+            "archive_story_entry": {
+              "id": 371,
+              "url": "https://api.seerapi.com/v1/pet_archive_story_entry/371"
+            },
+            "peak_pool": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/peak_pool/0"
+            },
+            "peak_expert_pool": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/peak_expert_pool/0"
+            },
+            "advance": {
+              "id": 20,
+              "url": "https://api.seerapi.com/v1/pet_advance/20"
+            },
+            "hash": "367a7cde"
           }
         ]
       },
@@ -14943,39 +15367,361 @@
               "sp_atk": 138,
               "sp_def": 116,
               "spd": 135,
-              "hp": 125,
+              "hp": 175,
               "percent": false,
-              "total": 700
+              "total": 750
             },
+            "pet_class": {
+              "id": 2846,
+              "url": "https://api.seerapi.com/v1/pet_class/2846"
+            },
+            "evolution_chain_index": 0,
             "yielding_ev": {
               "atk": 0,
               "def": 0,
-              "sp_atk": 3,
+              "sp_atk": 0,
               "sp_def": 0,
               "spd": 0,
               "hp": 0,
               "percent": false,
-              "total": 3
-            },
-            "pet_class": {
-              "id": 2174,
-              "url": "https://api.seerapi.com/v1/pet_class/2174"
+              "total": 0
             },
             "vipbuff": null,
             "mount_type": null,
-            "evolution_from": null,
-            "evolution_to": [],
-            "learned_skill": [],
-            "recommended_skill": [],
-            "recommended_nature": [],
-            "effect": [],
-            "soulmark": [],
-            "mintmark": [],
-            "skin": [],
-            "encyclopedia": null,
-            "archive_story": [],
             "diy_stats": null,
-            "hash": "3cb9d0bc"
+            "skill": [
+              {
+                "learning_level": 1,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10004,
+                  "url": "https://api.seerapi.com/v1/skill/10004"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 5,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20065,
+                  "url": "https://api.seerapi.com/v1/skill/20065"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 9,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10614,
+                  "url": "https://api.seerapi.com/v1/skill/10614"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 13,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20041,
+                  "url": "https://api.seerapi.com/v1/skill/20041"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 17,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10302,
+                  "url": "https://api.seerapi.com/v1/skill/10302"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 21,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19287,
+                  "url": "https://api.seerapi.com/v1/skill/19287"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 25,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20660,
+                  "url": "https://api.seerapi.com/v1/skill/20660"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 29,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10761,
+                  "url": "https://api.seerapi.com/v1/skill/10761"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 33,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24738,
+                  "url": "https://api.seerapi.com/v1/skill/24738"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 37,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10977,
+                  "url": "https://api.seerapi.com/v1/skill/10977"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 41,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24739,
+                  "url": "https://api.seerapi.com/v1/skill/24739"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 45,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19288,
+                  "url": "https://api.seerapi.com/v1/skill/19288"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 49,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19289,
+                  "url": "https://api.seerapi.com/v1/skill/19289"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 53,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24740,
+                  "url": "https://api.seerapi.com/v1/skill/24740"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 57,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19290,
+                  "url": "https://api.seerapi.com/v1/skill/19290"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 61,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19291,
+                  "url": "https://api.seerapi.com/v1/skill/19291"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 71,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34897,
+                  "url": "https://api.seerapi.com/v1/skill/34897"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 72,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 27496,
+                  "url": "https://api.seerapi.com/v1/skill/27496"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 73,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34898,
+                  "url": "https://api.seerapi.com/v1/skill/34898"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 74,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 27497,
+                  "url": "https://api.seerapi.com/v1/skill/27497"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 75,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34899,
+                  "url": "https://api.seerapi.com/v1/skill/34899"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 29187,
+                  "url": "https://api.seerapi.com/v1/skill/29187"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 29188,
+                  "url": "https://api.seerapi.com/v1/skill/29188"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 38147,
+                  "url": "https://api.seerapi.com/v1/skill/38147"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 38148,
+                  "url": "https://api.seerapi.com/v1/skill/38148"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 76,
+                "is_special": true,
+                "is_advanced": false,
+                "is_fifth": true,
+                "skill": {
+                  "id": 34900,
+                  "url": "https://api.seerapi.com/v1/skill/34900"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 76,
+                "is_special": true,
+                "is_advanced": false,
+                "is_fifth": true,
+                "skill": {
+                  "id": 37295,
+                  "url": "https://api.seerapi.com/v1/skill/37295"
+                },
+                "skill_activation_item": {
+                  "id": 1725959,
+                  "url": "https://api.seerapi.com/v1/skill_activation_item/1725959"
+                }
+              }
+            ],
+            "soulmark": [
+              {
+                "id": 1409,
+                "url": "https://api.seerapi.com/v1/soulmark/1409"
+              },
+              {
+                "id": 2028,
+                "url": "https://api.seerapi.com/v1/soulmark/2028"
+              }
+            ],
+            "encyclopedia_entry": {
+              "id": 4186,
+              "url": "https://api.seerapi.com/v1/pet_encyclopedia_entry/4186"
+            },
+            "archive_story_entry": {
+              "id": 371,
+              "url": "https://api.seerapi.com/v1/pet_archive_story_entry/371"
+            },
+            "peak_pool": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/peak_pool/0"
+            },
+            "peak_expert_pool": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/peak_expert_pool/0"
+            },
+            "advance": {
+              "id": 20,
+              "url": "https://api.seerapi.com/v1/pet_advance/20"
+            },
+            "hash": "367a7cde"
           }
         ]
       },
@@ -15014,39 +15760,361 @@
               "sp_atk": 138,
               "sp_def": 116,
               "spd": 135,
-              "hp": 125,
+              "hp": 175,
               "percent": false,
-              "total": 700
+              "total": 750
             },
+            "pet_class": {
+              "id": 2846,
+              "url": "https://api.seerapi.com/v1/pet_class/2846"
+            },
+            "evolution_chain_index": 0,
             "yielding_ev": {
               "atk": 0,
               "def": 0,
-              "sp_atk": 3,
+              "sp_atk": 0,
               "sp_def": 0,
               "spd": 0,
               "hp": 0,
               "percent": false,
-              "total": 3
-            },
-            "pet_class": {
-              "id": 2174,
-              "url": "https://api.seerapi.com/v1/pet_class/2174"
+              "total": 0
             },
             "vipbuff": null,
             "mount_type": null,
-            "evolution_from": null,
-            "evolution_to": [],
-            "learned_skill": [],
-            "recommended_skill": [],
-            "recommended_nature": [],
-            "effect": [],
-            "soulmark": [],
-            "mintmark": [],
-            "skin": [],
-            "encyclopedia": null,
-            "archive_story": [],
             "diy_stats": null,
-            "hash": "3cb9d0bc"
+            "skill": [
+              {
+                "learning_level": 1,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10004,
+                  "url": "https://api.seerapi.com/v1/skill/10004"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 5,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20065,
+                  "url": "https://api.seerapi.com/v1/skill/20065"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 9,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10614,
+                  "url": "https://api.seerapi.com/v1/skill/10614"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 13,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20041,
+                  "url": "https://api.seerapi.com/v1/skill/20041"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 17,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10302,
+                  "url": "https://api.seerapi.com/v1/skill/10302"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 21,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19287,
+                  "url": "https://api.seerapi.com/v1/skill/19287"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 25,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 20660,
+                  "url": "https://api.seerapi.com/v1/skill/20660"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 29,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10761,
+                  "url": "https://api.seerapi.com/v1/skill/10761"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 33,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24738,
+                  "url": "https://api.seerapi.com/v1/skill/24738"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 37,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 10977,
+                  "url": "https://api.seerapi.com/v1/skill/10977"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 41,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24739,
+                  "url": "https://api.seerapi.com/v1/skill/24739"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 45,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19288,
+                  "url": "https://api.seerapi.com/v1/skill/19288"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 49,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19289,
+                  "url": "https://api.seerapi.com/v1/skill/19289"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 53,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 24740,
+                  "url": "https://api.seerapi.com/v1/skill/24740"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 57,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19290,
+                  "url": "https://api.seerapi.com/v1/skill/19290"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 61,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 19291,
+                  "url": "https://api.seerapi.com/v1/skill/19291"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 71,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34897,
+                  "url": "https://api.seerapi.com/v1/skill/34897"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 72,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 27496,
+                  "url": "https://api.seerapi.com/v1/skill/27496"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 73,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34898,
+                  "url": "https://api.seerapi.com/v1/skill/34898"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 74,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 27497,
+                  "url": "https://api.seerapi.com/v1/skill/27497"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 75,
+                "is_special": false,
+                "is_advanced": false,
+                "is_fifth": false,
+                "skill": {
+                  "id": 34899,
+                  "url": "https://api.seerapi.com/v1/skill/34899"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 29187,
+                  "url": "https://api.seerapi.com/v1/skill/29187"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 29188,
+                  "url": "https://api.seerapi.com/v1/skill/29188"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 38147,
+                  "url": "https://api.seerapi.com/v1/skill/38147"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": null,
+                "is_special": false,
+                "is_advanced": true,
+                "is_fifth": false,
+                "skill": {
+                  "id": 38148,
+                  "url": "https://api.seerapi.com/v1/skill/38148"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 76,
+                "is_special": true,
+                "is_advanced": false,
+                "is_fifth": true,
+                "skill": {
+                  "id": 34900,
+                  "url": "https://api.seerapi.com/v1/skill/34900"
+                },
+                "skill_activation_item": null
+              },
+              {
+                "learning_level": 76,
+                "is_special": true,
+                "is_advanced": false,
+                "is_fifth": true,
+                "skill": {
+                  "id": 37295,
+                  "url": "https://api.seerapi.com/v1/skill/37295"
+                },
+                "skill_activation_item": {
+                  "id": 1725959,
+                  "url": "https://api.seerapi.com/v1/skill_activation_item/1725959"
+                }
+              }
+            ],
+            "soulmark": [
+              {
+                "id": 1409,
+                "url": "https://api.seerapi.com/v1/soulmark/1409"
+              },
+              {
+                "id": 2028,
+                "url": "https://api.seerapi.com/v1/soulmark/2028"
+              }
+            ],
+            "encyclopedia_entry": {
+              "id": 4186,
+              "url": "https://api.seerapi.com/v1/pet_encyclopedia_entry/4186"
+            },
+            "archive_story_entry": {
+              "id": 371,
+              "url": "https://api.seerapi.com/v1/pet_archive_story_entry/371"
+            },
+            "peak_pool": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/peak_pool/0"
+            },
+            "peak_expert_pool": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/peak_expert_pool/0"
+            },
+            "advance": {
+              "id": 20,
+              "url": "https://api.seerapi.com/v1/pet_advance/20"
+            },
+            "hash": "367a7cde"
           }
         ]
       },
@@ -15773,6 +16841,144 @@
           }
         ]
       },
+      "pet_advance": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id"
+              },
+              "pet": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "pet"
+              },
+              "skill": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "skill"
+                },
+                "type": "array",
+                "title": "Skill",
+                "description": "完成觉醒可开启的技能"
+              },
+              "soulmark": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "soulmark"
+              },
+              "base_stats": {
+                "$ref": "#/components/schemas/common_six_attributes"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "pet",
+              "skill",
+              "soulmark",
+              "base_stats"
+            ],
+            "title": "PetAdvance"
+          }
+        ],
+        "title": "精灵神谕觉醒信息资源",
+        "examples": [
+          {
+            "id": 1,
+            "pet": {
+              "id": 3729,
+              "url": "https://api.seerapi.com/v1/pet/3729"
+            },
+            "skill": [
+              {
+                "id": 28910,
+                "url": "https://api.seerapi.com/v1/skill/28910"
+              },
+              {
+                "id": 37691,
+                "url": "https://api.seerapi.com/v1/skill/37691"
+              },
+              {
+                "id": 37692,
+                "url": "https://api.seerapi.com/v1/skill/37692"
+              },
+              {
+                "id": 37693,
+                "url": "https://api.seerapi.com/v1/skill/37693"
+              }
+            ],
+            "soulmark": {
+              "id": 1900,
+              "url": "https://api.seerapi.com/v1/soulmark/1900"
+            },
+            "base_stats": {
+              "atk": 142,
+              "def": 112,
+              "sp_atk": 70,
+              "sp_def": 112,
+              "spd": 138,
+              "hp": 166,
+              "percent": false,
+              "total": 740
+            },
+            "hash": "34b8c94b"
+          }
+        ]
+      },
+      "pet_advance_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "pet_advance"
+          }
+        ],
+        "title": "精灵神谕觉醒信息资源列表",
+        "examples": [
+          {
+            "id": 1,
+            "pet": {
+              "id": 3729,
+              "url": "https://api.seerapi.com/v1/pet/3729"
+            },
+            "skill": [
+              {
+                "id": 28910,
+                "url": "https://api.seerapi.com/v1/skill/28910"
+              },
+              {
+                "id": 37691,
+                "url": "https://api.seerapi.com/v1/skill/37691"
+              },
+              {
+                "id": 37692,
+                "url": "https://api.seerapi.com/v1/skill/37692"
+              },
+              {
+                "id": 37693,
+                "url": "https://api.seerapi.com/v1/skill/37693"
+              }
+            ],
+            "soulmark": {
+              "id": 1900,
+              "url": "https://api.seerapi.com/v1/soulmark/1900"
+            },
+            "base_stats": {
+              "atk": 142,
+              "def": 112,
+              "sp_atk": 70,
+              "sp_def": 112,
+              "spd": 138,
+              "hp": 166,
+              "percent": false,
+              "total": 740
+            },
+            "hash": "34b8c94b"
+          }
+        ]
+      },
       "pet_skin": {
         "allOf": [
           {
@@ -16413,6 +17619,18 @@
                   }
                 ],
                 "description": "技能隐藏效果"
+              },
+              "advance": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "pet_advance"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "技能觉醒信息，仅在该技能是通过神谕觉醒开启的技能时生效"
               }
             },
             "type": "object",
@@ -16453,9 +17671,57 @@
               "url": "https://api.seerapi.com/v1/element_type_combination/129"
             },
             "learned_by_pet": [],
-            "skill_effect": [],
-            "hide_effect": [],
-            "hash": "c9e0b3d6"
+            "skill_effect": [
+              {
+                "info": "若先出手则必定打出致命一击",
+                "args": [],
+                "effect": {
+                  "id": 1395,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+                }
+              },
+              {
+                "info": "对手每处于1回合的威怯1回合内令对手技能无效",
+                "args": [],
+                "effect": {
+                  "id": 2343,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/2343"
+                }
+              },
+              {
+                "info": "下1回合自身造成的攻击伤害翻倍",
+                "args": [
+                  1
+                ],
+                "effect": {
+                  "id": 776,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+                }
+              },
+              {
+                "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+                "args": [
+                  3
+                ],
+                "effect": {
+                  "id": 1709,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1709"
+                }
+              },
+              {
+                "info": "击败对手后自身免疫下2次受到的异常状态",
+                "args": [
+                  2
+                ],
+                "effect": {
+                  "id": 2252,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
+                }
+              }
+            ],
+            "friend_skill_effect": [],
+            "hide_effect": null,
+            "hash": "5254529c"
           }
         ]
       },
@@ -16504,9 +17770,57 @@
               "url": "https://api.seerapi.com/v1/element_type_combination/129"
             },
             "learned_by_pet": [],
-            "skill_effect": [],
-            "hide_effect": [],
-            "hash": "c9e0b3d6"
+            "skill_effect": [
+              {
+                "info": "若先出手则必定打出致命一击",
+                "args": [],
+                "effect": {
+                  "id": 1395,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+                }
+              },
+              {
+                "info": "对手每处于1回合的威怯1回合内令对手技能无效",
+                "args": [],
+                "effect": {
+                  "id": 2343,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/2343"
+                }
+              },
+              {
+                "info": "下1回合自身造成的攻击伤害翻倍",
+                "args": [
+                  1
+                ],
+                "effect": {
+                  "id": 776,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+                }
+              },
+              {
+                "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+                "args": [
+                  3
+                ],
+                "effect": {
+                  "id": 1709,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1709"
+                }
+              },
+              {
+                "info": "击败对手后自身免疫下2次受到的异常状态",
+                "args": [
+                  2
+                ],
+                "effect": {
+                  "id": 2252,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
+                }
+              }
+            ],
+            "friend_skill_effect": [],
+            "hide_effect": null,
+            "hash": "5254529c"
           }
         ]
       },
@@ -16539,9 +17853,57 @@
               "url": "https://api.seerapi.com/v1/element_type_combination/129"
             },
             "learned_by_pet": [],
-            "skill_effect": [],
-            "hide_effect": [],
-            "hash": "c9e0b3d6"
+            "skill_effect": [
+              {
+                "info": "若先出手则必定打出致命一击",
+                "args": [],
+                "effect": {
+                  "id": 1395,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+                }
+              },
+              {
+                "info": "对手每处于1回合的威怯1回合内令对手技能无效",
+                "args": [],
+                "effect": {
+                  "id": 2343,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/2343"
+                }
+              },
+              {
+                "info": "下1回合自身造成的攻击伤害翻倍",
+                "args": [
+                  1
+                ],
+                "effect": {
+                  "id": 776,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+                }
+              },
+              {
+                "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+                "args": [
+                  3
+                ],
+                "effect": {
+                  "id": 1709,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/1709"
+                }
+              },
+              {
+                "info": "击败对手后自身免疫下2次受到的异常状态",
+                "args": [
+                  2
+                ],
+                "effect": {
+                  "id": 2252,
+                  "url": "https://api.seerapi.com/v1/skill_effect_type/2252"
+                }
+              }
+            ],
+            "friend_skill_effect": [],
+            "hide_effect": null,
+            "hash": "5254529c"
           }
         ]
       },
@@ -16578,6 +17940,11 @@
                 ],
                 "title": "Info Formatting Adjustment",
                 "description": "效果描述的\"可格式化版本\"，用于呈现Unity端中的多行描述形式"
+              },
+              "analyze_info": {
+                "type": "string",
+                "title": "Analyze Info",
+                "description": "新版 Unity 端采用的格式化技能效果描述文本"
               },
               "pve_effective": {
                 "type": "boolean",
@@ -16650,6 +18017,7 @@
               "id",
               "args_num",
               "info",
+              "analyze_info",
               "pve_effective"
             ],
             "title": "SkillEffectType"
@@ -17392,6 +18760,10 @@
                 "type": "string",
                 "title": "element_type_combination Path"
               },
+              "glossary_entry": {
+                "type": "string",
+                "title": "glossary_entry Path"
+              },
               "gem": {
                 "type": "string",
                 "title": "gem Path"
@@ -17484,6 +18856,10 @@
                 "type": "string",
                 "title": "pet_mount_type Path"
               },
+              "pet_advance": {
+                "type": "string",
+                "title": "pet_advance Path"
+              },
               "pet_skin": {
                 "type": "string",
                 "title": "pet_skin Path"
@@ -17547,6 +18923,7 @@
               "soulmark_tag",
               "element_type",
               "element_type_combination",
+              "glossary_entry",
               "gem",
               "gem_category",
               "gem_generation_category",
@@ -17570,6 +18947,7 @@
               "pet_gender",
               "pet_vipbuff",
               "pet_mount_type",
+              "pet_advance",
               "pet_skin",
               "pet_skin_category",
               "pet_encyclopedia_entry",

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "暴击率提升20%，每次使用额外提升10%，最高概率100%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升20%，每次使用额外提升10%，最高概率100%（boss有效）",
       "args": [
         20,
         10,
@@ -33,6 +34,7 @@
     },
     {
       "info": "对手攻击-1，特攻-1,后出手时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]对手攻击-1，特攻-1,后出手时弱化效果翻倍（boss有效）",
       "args": [
         -1,
         0,
@@ -49,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2a565a88"
+  "advance": null,
+  "hash": "73fcf5fd"
 }

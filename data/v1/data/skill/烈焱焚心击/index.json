@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时，100%概率令对方烧伤",
+          "analyze_info": "[sprite name=iconHit]先出手时，100%概率令对方[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             100,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时令对手下{0}回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下{0}回合属性技能无效",
           "args": [],
           "effect": {
             "id": 919,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f6193f1c"
+  "hash": "63aaa079"
 }

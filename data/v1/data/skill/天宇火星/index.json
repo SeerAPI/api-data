@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫低于300的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫低于300的攻击伤害（boss有效）",
           "args": [
             3,
             300
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合对手攻击-1，防御-1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合对手攻击-1，防御-1（boss有效）",
           "args": [
             3,
             -1,
@@ -50,6 +52,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -60,6 +63,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能降低对手最大体力的1/4",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能降低对手最大体力的1/4",
           "args": [
             3,
             4
@@ -71,8 +75,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "98c4f549"
+  "hash": "398fdfb1"
 }

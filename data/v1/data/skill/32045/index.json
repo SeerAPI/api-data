@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
       "args": [],
       "effect": {
         "id": 760,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则令对手感染",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]感染[/color]",
       "args": [
         27
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
       "args": [],
       "effect": {
         "id": 699,
@@ -47,6 +50,7 @@
     },
     {
       "info": "暴击率提升40%，每次使用额外提升10%，最高概率100%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升40%，每次使用额外提升10%，最高概率100%（boss有效）",
       "args": [
         40,
         10,
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5d3d59d5"
+  "advance": null,
+  "hash": "3347f530"
 }

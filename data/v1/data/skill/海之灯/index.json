@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若自身处于能力提升状态则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "48dc43d7"
+  "hash": "9cde2a90"
 }

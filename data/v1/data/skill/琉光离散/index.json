@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -31,6 +32,7 @@
         },
         {
           "info": "当回合使用的技能克制对手时获得本系属性加成",
+          "analyze_info": "[sprite name=iconInherent][color=#52a5f2]当回合[/color]使用的技能克制对手时获得本系属性加成",
           "args": [],
           "effect": {
             "id": 1616,
@@ -39,6 +41,7 @@
         },
         {
           "info": "2回合内100%闪避对手攻击，对手攻击技能命中时随机附加混乱、失明中的1种异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内100%闪避对手攻击，对手攻击技能命中时随机附加[color=#57c975]混乱[/color]、[color=#57c975]失明[/color]中的1种异常状态",
           "args": [
             2,
             100,
@@ -52,6 +55,7 @@
         },
         {
           "info": "先出手时吸取对手最大体力的1/4且当回合对手无法造成攻击伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]吸取[/color]对手最大体力的1/4且[color=#52a5f2]当回合[/color]对手无法造成攻击伤害",
           "args": [
             4
           ],
@@ -62,8 +66,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/pet_advance/22"
+      }
     }
   },
-  "hash": "77497c53"
+  "hash": "7a1d1b30"
 }

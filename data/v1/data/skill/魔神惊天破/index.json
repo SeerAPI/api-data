@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手命中等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
           "args": [
             5,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "先出手时，额外附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时，额外附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100
           ],
@@ -45,6 +47,7 @@
         },
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -55,6 +58,7 @@
       "friend_skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手命中等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
           "args": [
             5,
             100,
@@ -67,6 +71,7 @@
         },
         {
           "info": "先出手时，额外附加125点固定伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时，额外附加125点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             125
           ],
@@ -77,6 +82,7 @@
         },
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -84,8 +90,9 @@
           }
         }
       ],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1b72a923"
+  "hash": "e01bcefc"
 }

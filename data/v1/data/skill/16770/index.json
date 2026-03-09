@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 521,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内使得对手所有能力增强效果失效",
+      "analyze_info": "[sprite name=iconHit]4回合内使得对手所有能力增强效果失效（boss有效）",
       "args": [
         4
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7317d9b3"
+  "advance": null,
+  "hash": "264ee01f"
 }

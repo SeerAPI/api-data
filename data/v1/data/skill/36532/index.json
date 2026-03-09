@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做100-140次攻击，自身处于护盾状态下连击上限为280",
+      "analyze_info": "[sprite name=iconHit]1回合做100-140次攻击，自身处于[color=#57c975]护盾[/color]状态下连击上限为280（boss有效）",
       "args": [
         100,
         140,
@@ -33,6 +34,7 @@
     },
     {
       "info": "获得280点护盾，护盾消失时100%的概率使对手害怕",
+      "analyze_info": "[sprite name=iconHit]获得280点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时100%的概率使对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         280,
         100,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "15e56a95"
+  "advance": null,
+  "hash": "ec3ee8cd"
 }

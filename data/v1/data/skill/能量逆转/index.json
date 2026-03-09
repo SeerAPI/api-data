@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "回合开始时，若自身处于能力下降状态，则威力翻倍，同时解除能力下降状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]回合开始时[/color]，若自身处于能力下降状态，则[color=#52a5f2]威力[/color]翻倍，同时解除能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 468,
@@ -31,8 +32,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "90d09798"
+  "hash": "7dd52172"
 }

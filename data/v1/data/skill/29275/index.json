@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         100,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "5回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内自身能力提升状态被消除或吸取时附加对手最大体力1/2的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时附加对手最大体力1/2的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3,
         2
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内每回合使用技能100%令对手沸涌，未触发则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能100%令对手[color=#57c975]沸涌[/color]，[color=#52a5f2]未触发[/color]则令自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         3,
         100,
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1bc6542d"
+  "advance": null,
+  "hash": "bd50db8"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合自己受到特殊攻击伤害减半",
+      "analyze_info": "[sprite name=iconHit]3回合自己受到特殊攻击伤害减半（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内物理攻击对自身必定miss",
+      "analyze_info": "[sprite name=iconHit]3回合内物理攻击对自身必定miss（boss有效）",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "1回合自己使用电招式伤害×2",
+      "analyze_info": "1回合自己使用电招式伤害×2",
       "args": [
         1,
         1
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9fe3b53"
+  "advance": null,
+  "hash": "b1ed17bc"
 }

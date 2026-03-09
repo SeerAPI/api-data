@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能降低对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能降低对手最大体力的1/3",
           "args": [
             3,
             3
@@ -44,6 +46,7 @@
         },
         {
           "info": "对手基础速度值高于400则下回合先制-1",
+          "analyze_info": "[sprite name=iconHit]对手基础速度值高于400则下回合[color=#52a5f2]先制[/color]-1",
           "args": [
             400
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5a4b624d"
+  "hash": "98742777"
 }

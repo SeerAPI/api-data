@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "2回合内自身所有攻击威力为两倍",
+      "analyze_info": "[sprite name=iconHit]2回合内自身所有攻击[color=#52a5f2]威力[/color]为两倍（boss有效）",
       "args": [
         2
       ],
@@ -51,6 +54,7 @@
     },
     {
       "info": "随机使对手2种能力等级-2",
+      "analyze_info": "[sprite name=iconHit]随机使对手2种能力等级-2（boss有效）",
       "args": [
         2,
         2
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7b6bdd87"
+  "advance": null,
+  "hash": "e4630c11"
 }

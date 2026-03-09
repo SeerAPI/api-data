@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下2回合造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合造成的伤害提高100%（boss有效）",
       "args": [
         2,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加自身最大体力25%的百分比伤害并恢复等量体力，恢复体力时若自身体力低于最大体力的1/2则恢复效果和百分比伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]并恢复等量体力，恢复体力时若自身体力低于最大体力的1/2则恢复效果和[color=#52a5f2]百分比伤害[/color]翻倍（boss有效）",
       "args": [
         25,
         2
@@ -43,6 +45,7 @@
     },
     {
       "info": "自己出手时若自身体力高于对手则造成的伤害提升80%",
+      "analyze_info": "[sprite name=iconHit]自己出手时若自身体力高于对手则造成的伤害提升80%（boss有效）",
       "args": [
         80
       ],
@@ -53,6 +56,7 @@
     },
     {
       "info": "击败对手则对方下只出战精灵首回合先制效果失效",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只出战精灵首回合[color=#52a5f2]先制[/color]效果失效",
       "args": [],
       "effect": {
         "id": 2017,
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2324c025"
+  "advance": null,
+  "hash": "d7acd7db"
 }

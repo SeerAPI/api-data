@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做2~3次攻击",
+      "analyze_info": "1回合做2~3次攻击",
       "args": [
         2,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4873102c"
+  "advance": null,
+  "hash": "3d0dcaea"
 }

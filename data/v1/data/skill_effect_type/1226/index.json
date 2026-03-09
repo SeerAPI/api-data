@@ -3,6 +3,7 @@
   "args_num": 3,
   "info": "{0}回合内受到攻击伤害降低{1}点，回合结束时若当回合未受到攻击伤害则吸取对手{2}点体力",
   "info_formatting_adjustment": "{0}回合内受到攻击伤害降低{1}点\r\n--><condition>回合结束时</condition>若当回合未受到攻击伤害则吸取对手{2}点体力",
+  "analyze_info": "[sprite name=iconHit]{0}回合内受到攻击伤害降低{1}点，[color=#57c975]回合结束时[/color]若[color=#52a5f2]当回合[/color]未受到攻击伤害则[color=#52a5f2]吸取[/color]对手{2}点体力（boss有效）",
   "pve_effective": true,
   "param": null,
   "skill": [
@@ -77,5 +78,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850"
     }
   ],
-  "hash": "675a181"
+  "hash": "966d1390"
 }

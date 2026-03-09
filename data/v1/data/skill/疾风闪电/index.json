@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "先出手时当回合对手使用技能后若自身体力为0，则令自身体力等于最大体力",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]当回合[/color]对手使用技能后若自身体力为0，则令自身体力等于最大体力（boss有效）",
           "args": [],
           "effect": {
             "id": 561,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5e6dda78"
+  "hash": "971dbd60"
 }

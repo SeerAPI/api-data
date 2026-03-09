@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后100%令对手失神",
+          "analyze_info": "[sprite name=iconHit]命中后100%令对手[color=#57c975]失神[/color]（boss有效）",
           "args": [
             100,
             29
@@ -34,6 +35,7 @@
         },
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f26ae587"
+  "hash": "d67fcdaf"
 }

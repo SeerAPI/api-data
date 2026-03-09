@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]1回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当回合未击败对手则下3回合每回合攻击+1",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则下3回合每回合攻击+1（boss有效）",
       "args": [
         3,
         0,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5683f407"
+  "advance": null,
+  "hash": "6c8ed18b"
 }

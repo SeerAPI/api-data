@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
       "args": [
         4,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身命中等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+2（boss有效）",
       "args": [
         5,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "4回合内受到攻击则100%对手害怕，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]4回合内受到攻击则100%对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         4,
         100,
@@ -69,6 +73,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -81,5 +86,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f714a285"
+  "advance": null,
+  "hash": "f825f45c"
 }

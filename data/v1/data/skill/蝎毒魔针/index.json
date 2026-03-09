@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则恢复自身全部体力（boss有效）",
           "args": [],
           "effect": {
             "id": 879,
@@ -31,6 +32,7 @@
         },
         {
           "info": "50%使对手全属性-1，若先出手则100%使对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]50%使对手[color=#52a5f2]全属性[/color]-1，若先出手则100%使对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1,
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e3a4163c"
+  "hash": "8f95a530"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则令对手沉默，若对手不处于能力提升状态则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则令对手[color=#57c975]沉默[/color]，若对手不处于能力提升状态则令对手[color=#52a5f2]全属性[/color]-1（boss有效）",
       "args": [
         30,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内每回合50%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合50%闪避对手攻击（boss有效）",
       "args": [
         3,
         50
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "849b0c5d"
+  "advance": null,
+  "hash": "d52083d"
 }

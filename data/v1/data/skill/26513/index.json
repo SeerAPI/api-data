@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身体力低于最大体力的1/2则先制+2",
+      "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [],
       "effect": {
         "id": 1117,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "吸取对手200点固定体力，每次使用额外附加50点，最高400点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点固定体力，每次使用额外附加50点，最高400点（boss有效）",
       "args": [
         200,
         50,
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e8108dfa"
+  "advance": null,
+  "hash": "9227d512"
 }

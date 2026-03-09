@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若对手恢复体力则自身也恢复等量体力的6/5倍",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手恢复体力则自身也恢复等量体力的6/5倍",
       "args": [
         3,
         6
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3a87ea6c"
+  "advance": null,
+  "hash": "64a8f5a4"
 }

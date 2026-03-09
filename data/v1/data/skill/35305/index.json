@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则下1次攻击附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1次攻击附加300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         1,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "40%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+      "analyze_info": "[sprite name=iconHit]40%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
       "args": [
         40,
         2
@@ -43,6 +45,7 @@
     },
     {
       "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "332ece70"
+  "advance": null,
+  "hash": "ada4ae88"
 }

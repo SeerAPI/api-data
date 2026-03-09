@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
           "args": [
             2,
             -2
@@ -34,6 +35,7 @@
         },
         {
           "info": "造成的伤害高于300则获得300点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则获得300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300,
             300
@@ -45,6 +47,7 @@
         },
         {
           "info": "造成的伤害低于300则吸取对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手1/3最大体力",
           "args": [
             300,
             3
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b5be1184"
+  "hash": "a8b5406f"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合防御+1，特攻+1，特防+1，速度+1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合防御+1，特攻+1，特防+1，速度+1（boss有效）",
       "args": [
         3,
         0,
@@ -37,6 +38,7 @@
     },
     {
       "info": "3回合内使得对手所有能力增强效果失效",
+      "analyze_info": "[sprite name=iconHit]3回合内使得对手所有能力增强效果失效（boss有效）",
       "args": [
         3
       ],
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8b1d2914"
+  "advance": null,
+  "hash": "84f4f632"
 }

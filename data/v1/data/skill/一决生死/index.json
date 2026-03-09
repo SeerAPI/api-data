@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+2，特攻+2，速度+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+2，特攻+2，速度+2（boss有效）",
           "args": [
             2,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手攻击等级2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级2（boss有效）",
           "args": [
             0,
             100,
@@ -50,6 +52,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特攻等级2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级2（boss有效）",
           "args": [
             2,
             100,
@@ -62,6 +65,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手速度等级2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级2（boss有效）",
           "args": [
             4,
             100,
@@ -74,6 +78,7 @@
         },
         {
           "info": "3回合内自身攻击技能造成伤害的100%会恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]3回合内自身攻击技能造成伤害的100%会恢复自身体力（boss有效）",
           "args": [
             2,
             100
@@ -85,6 +90,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -96,8 +102,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5e38505d"
+  "hash": "eb419f4b"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若对手使用属性技能则60%概率令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则60%概率令对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             3,
             60,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             100,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a32479bf"
+  "hash": "647061da"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
       "args": [
         5,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "威力根据自身体力变化，当前剩余体力越少则威力越大",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]根据自身体力变化，当前剩余体力越少则[color=#52a5f2]威力[/color]越大（boss有效）",
       "args": [],
       "effect": {
         "id": 1444,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9f0779d3"
+  "advance": null,
+  "hash": "7ed57d2"
 }

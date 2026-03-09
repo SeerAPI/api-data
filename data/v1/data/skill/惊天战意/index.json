@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内受到的伤害大于300则主动恢复自身全部体力并造成等同于恢复量的固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内受到的伤害大于300则主动恢复自身全部体力并造成等同于恢复量的[color=#52a5f2]固定伤害[/color]",
           "args": [
             3,
             300
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "809d01b0"
+  "hash": "4279b70b"
 }

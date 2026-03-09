@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身下2回合所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下2回合所有技能[color=#52a5f2]先制[/color]+1",
           "args": [
             2,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "40%概率令对手害怕，若对手处于能力提升状态则额外附加20%概率",
+          "analyze_info": "[sprite name=iconHit]40%概率令对手[color=#57c975]害怕[/color]，若对手处于能力提升状态则额外附加20%概率（boss有效）",
           "args": [
             40,
             20
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6249b0be"
+  "hash": "a5adbeb1"
 }

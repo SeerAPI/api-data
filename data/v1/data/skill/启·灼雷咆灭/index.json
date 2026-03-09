@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "直接造成等同于对手防御值的固定伤害",
+          "analyze_info": "[sprite name=iconHit]直接造成等同于对手防御值的[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 423,
@@ -31,6 +32,7 @@
         },
         {
           "info": "本回合打出致命一击则下2回合其它攻击技能必定致命一击",
+          "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则下2回合其它攻击技能必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "31651e08"
+  "hash": "fd5bda75"
 }

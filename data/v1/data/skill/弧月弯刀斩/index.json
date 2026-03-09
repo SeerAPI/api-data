@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "25%概率伤害为2倍",
+          "analyze_info": "[sprite name=iconHit]25%概率伤害为2倍（boss有效）",
           "args": [
             25,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             2
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "76092b75"
+  "hash": "aad4536"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令自身下1次受到的攻击[color=#52a5f2]伤害额外减少[/color]50%（boss有效）",
           "args": [
             1,
             50
@@ -54,6 +57,7 @@
         },
         {
           "info": "击败对手则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f651967"
+  "hash": "fe72a13"
 }

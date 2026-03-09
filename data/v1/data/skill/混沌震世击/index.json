@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则吸取对手300点体力",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则[color=#52a5f2]吸取[/color]对手300点体力",
           "args": [
             300
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51279b90"
+  "hash": "76509962"
 }

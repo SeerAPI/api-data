@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手随机1项技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "2回合内对手造成的伤害降低50%",
+      "analyze_info": "[sprite name=iconHit]2回合内对手造成的伤害降低50%（boss有效）",
       "args": [
         2,
         50
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "571b9aee"
+  "advance": null,
+  "hash": "2cdc4643"
 }

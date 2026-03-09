@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%令自身凝滞",
+          "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]凝滞[/color]",
           "args": [
             100,
             32
@@ -34,6 +35,7 @@
         },
         {
           "info": "令自身体力等于最大体力的50%，若自身当前体力高于最大体力的50%则回合结束后额外触发一次该效果",
+          "analyze_info": "[sprite name=iconHit]令自身体力等于最大体力的50%，若自身当前体力高于最大体力的50%则[color=#57c975]回合结束后[/color]额外触发一次该效果",
           "args": [
             50,
             50
@@ -45,6 +47,7 @@
         },
         {
           "info": "2回合内自身的能力提升状态无法被消除或吸取",
+          "analyze_info": "[sprite name=iconHit]2回合内自身的能力提升状态无法被消除或[color=#52a5f2]吸取[/color]",
           "args": [
             2
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b3b4431e"
+  "hash": "b6214a2f"
 }

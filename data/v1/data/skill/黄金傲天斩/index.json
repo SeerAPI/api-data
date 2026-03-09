@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "30%令对手害怕，若没有触发害怕效果，则对手攻击-1，防御-1，特攻-1",
+          "analyze_info": "[sprite name=iconHit]30%令对手[color=#57c975]害怕[/color]，若没有触发[color=#57c975]害怕[/color]效果，则对手攻击-1，防御-1，特攻-1（boss有效）",
           "args": [
             30,
             -1,
@@ -39,8 +40,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5e39f874"
+  "hash": "d93ab05a"
 }

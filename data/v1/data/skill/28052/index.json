@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，后出手时自身强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，后出手时自身强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "损失自身500点体力，给对手造成500点固定伤害，若自身体力不足500则剩下1点体力",
+      "analyze_info": "[sprite name=iconHit]损失自身500点体力，给对手造成500点[color=#52a5f2]固定伤害[/color]，若自身体力不足500则剩下1点体力（boss有效）",
       "args": [
         500,
         500,
@@ -44,6 +46,7 @@
     },
     {
       "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f5803ab3"
+  "advance": null,
+  "hash": "537cc6a9"
 }

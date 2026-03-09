@@ -2,6 +2,7 @@
   "id": 909,
   "desc": "回合开始时，若当回合对手选择使用攻击技能，则使对手随机1个技能PP值归零且当回合自身受到的攻击伤害不超过最大体力的1/2；回合开始时，若当回合对手选择使用属性技能，则当回合自身免疫所有异常状态和能力下降状态（boss无效）；|回合结束后，若自身死亡，则令己方下只精灵出战时获得500点护盾和500点护罩且免疫下1次受到的异常状态（boss有效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若当回合对手选择使用攻击技能，则：\r\n<indent=32><sprite=4><sprite=4><indent=64>使对手随机1个技能PP值<color=#64F9FA>归零</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>当回合自身受到的攻击伤害<color=#64F9FA>无法超过</color>最大体力的1/2\r\n<indent=32><sprite=4><indent=48>若当回合对手选择使用属性技能，则当回合自身<color=#64F9FA>免疫</color>所有<b>异常状态</b>和<b>能力下降状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身被击败时，令己方下只精灵<color=#64F9FA>出战时</color>：\r\n<indent=32><sprite=4><indent=48>获得500点<b>护盾</b>和500点<b>护罩</b>\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>免疫</color>下1次受到的<b>异常状态</b>",
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若[color=#52a5f2]当回合[/color]对手选择使用攻击技能，则使对手随机1个技能PP值归零且[color=#52a5f2]当回合[/color]自身受到的攻击伤害不超过最大体力的1/2，若对手选择了属性技能，则[color=#52a5f2]当回合[/color]自身免疫所有异常状态和能力下降状态|[sprite name=dot1]自身[color=#57c975]被击败后[/color]，[color=#52a5f2]己方[/color]下只出战精灵获得500点[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]并免疫下1次受到的异常状态",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -44,5 +45,6 @@
     "url": "https://api.seerapi.com/v1/soulmark/1825"
   },
   "from": null,
-  "hash": "3c20ab7f"
+  "advance": null,
+  "hash": "7d43dcaf"
 }

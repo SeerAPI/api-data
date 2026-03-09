@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下次攻击忽略对手双防值的30%",
+          "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的30%（boss有效）",
           "args": [
             30
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
           "args": [],
           "effect": {
             "id": 811,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fe7da398"
+  "hash": "ed173902"
 }

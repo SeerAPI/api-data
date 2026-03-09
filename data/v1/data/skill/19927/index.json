@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高50%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下1回合造成的伤害提高50%（boss有效）",
       "args": [
         1,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "恢复250点体力，若当前体力低于300则直接回满",
+      "analyze_info": "[sprite name=iconHit]恢复250点体力，若当前体力低于300则直接回满（boss有效）",
       "args": [
         250,
         300
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "43296247"
+  "advance": null,
+  "hash": "5e007618"
 }

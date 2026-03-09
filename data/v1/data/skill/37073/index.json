@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "双倍反转对手能力提升状态，反转成功则下回合自身所有技能先制+2，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]双倍[color=#52a5f2]反转[/color]对手能力提升状态，反转成功则下回合自身所有技能[color=#52a5f2]先制[/color]+2，反转失败则消除对手能力提升状态",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加对手能力下降等级总和X50的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加对手能力下降等级总和X50的[color=#52a5f2]固定伤害[/color]",
       "args": [
         50
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8818d226"
+  "advance": null,
+  "hash": "8f3c359a"
 }

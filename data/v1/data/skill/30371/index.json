@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时使对手冰封，未触发则附加自身当前体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         15,
         3
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "19b4ba3a"
+  "advance": null,
+  "hash": "517955f9"
 }

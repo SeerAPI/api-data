@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "先出手时，100%概率令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]先出手时，100%概率令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         100,
         2
@@ -40,6 +42,7 @@
     },
     {
       "info": "后出手时，100%改变对方速度等级-1",
+      "analyze_info": "[sprite name=iconHit]后出手时，100%改变对方速度等级-1（boss有效）",
       "args": [
         4,
         100,
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9770540e"
+  "advance": null,
+  "hash": "9d42e96c"
 }

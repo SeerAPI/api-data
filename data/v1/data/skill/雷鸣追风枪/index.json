@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于麻痹状态，则20%概率秒杀对手",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]麻痹[/color]状态，则20%概率[color=#52a5f2]秒杀[/color]对手",
           "args": [
             0,
             20
@@ -34,6 +35,7 @@
         },
         {
           "info": "反转对手能力提升状态，反转成功则对手2回合内无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则对手2回合内[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "自身体力低于对手时100%的概率打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]自身体力低于对手时100%的概率打出[color=#57c975]致命一击[/color]",
           "args": [],
           "effect": {
             "id": 1590,
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "19645ed1"
+  "hash": "791a423c"
 }

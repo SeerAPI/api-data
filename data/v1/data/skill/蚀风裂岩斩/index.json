@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则下2回合自身所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下2回合自身所有技能[color=#52a5f2]先制[/color]+1",
           "args": [
             2,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内若自身处于能力提升状态则每回合使用技能80%令对手石化",
+          "analyze_info": "[sprite name=iconHit]2回合内若自身处于能力提升状态则每回合使用技能80%令对手[color=#57c975]石化[/color]",
           "args": [
             2,
             80,
@@ -46,6 +48,7 @@
         },
         {
           "info": "未击败对手则下回合使用技能后附加200点固定伤害，遇到天敌时附加的固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下回合使用技能后附加200点[color=#52a5f2]固定伤害[/color]，遇到天敌时附加的[color=#52a5f2]固定伤害[/color]翻倍（boss有效）",
           "args": [
             200
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "12545715"
+  "hash": "95f7aabe"
 }

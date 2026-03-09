@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身命中等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+2（boss有效）",
           "args": [
             5,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "3回合内每回合所受的伤害减少100",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少100（boss有效）",
           "args": [
             3,
             100
@@ -58,7 +61,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "27497": {
       "id": 27497,
@@ -83,6 +87,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身背包内每存活1只精灵则10%的概率强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身背包内每存活1只精灵则10%的概率强化效果翻倍（boss有效）",
           "args": [
             1,
             10
@@ -94,6 +99,7 @@
         },
         {
           "info": "4回合内每回合使用技能附加300点固定伤害，若对手未受到固定伤害则额外附加等量的真实伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能附加300点固定伤害，若对手未受到固定伤害则额外附加等量的真实伤害（boss有效）",
           "args": [
             4,
             300,
@@ -106,6 +112,7 @@
         },
         {
           "info": "下次攻击忽略对手双防值的45%",
+          "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的45%（boss有效）",
           "args": [
             45
           ],
@@ -116,6 +123,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -127,8 +135,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b6413c8"
+  "hash": "cbf10025"
 }

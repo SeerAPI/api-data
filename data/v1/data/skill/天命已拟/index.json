@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "免疫下2次自身受到的异常状态，每次免疫成功则在回合结束时附加150点真实伤害",
+          "analyze_info": "[sprite name=iconHit]免疫下2次自身受到的异常状态，每次免疫成功则在[color=#57c975]回合结束时[/color]附加150点[color=#52a5f2]真实伤害[/color]",
           "args": [
             2,
             150
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内对手使用攻击技能则使对手随机2个技能的PP值归零且为己方场上附加1柄圣剑",
+          "analyze_info": "[sprite name=iconHit]4回合内对手使用攻击技能则使对手随机2个技能的PP值归零且为[color=#52a5f2]己方[/color]场上附加1柄[color=#f35555]圣剑[/color]",
           "args": [
             4,
             2,
@@ -46,6 +48,7 @@
         },
         {
           "info": "4回合内对手使用属性技能则被处决精灵所有技能PP值-1",
+          "analyze_info": "[sprite name=iconHit]4回合内对手使用属性技能则被[color=#f35555]处决[/color]精灵所有技能PP值-1",
           "args": [
             4,
             1
@@ -57,6 +60,7 @@
         },
         {
           "info": "下1次受到的固定伤害和百分比伤害减少100%",
+          "analyze_info": "[sprite name=iconHit]下1次受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少100%",
           "args": [
             1,
             100
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7b0aab7e"
+  "hash": "599380e7"
 }

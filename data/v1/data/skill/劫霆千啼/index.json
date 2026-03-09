@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定致命、必定命中",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定致命、[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下2回合若打出致命一击则造成的攻击伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]下2回合若打出[color=#57c975]致命一击[/color]则造成的攻击伤害提升50%",
           "args": [
             2,
             50
@@ -54,6 +57,7 @@
         },
         {
           "info": "吸取对手300点体力，若对手未受到固定伤害则100%令对手麻痹",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手300点体力，若对手未受到[color=#52a5f2]固定伤害[/color]则100%令对手[color=#57c975]麻痹[/color]",
           "args": [
             300,
             100,
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "61c2b8bf"
+  "hash": "e5709fde"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将自身的防御、特防能力提升分别视为攻击、特攻能力提升",
+      "analyze_info": "[sprite name=iconInherent]将自身的防御、特防能力提升分别视为攻击、特攻能力提升",
       "args": [],
       "effect": {
         "id": 2157,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，若对手不处于回合类效果则100%令对手石化",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，若对手不处于[color=#52a5f2]回合类效果[/color]则100%令对手[color=#57c975]石化[/color]",
       "args": [
         100,
         9
@@ -40,6 +42,7 @@
     },
     {
       "info": "若造成的伤害低于400，则所有技能的PP值恢复2点",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害低于400，则所有技能的PP值恢复2点（boss有效）",
       "args": [
         400,
         2
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e51b02f1"
+  "advance": null,
+  "hash": "c065965d"
 }

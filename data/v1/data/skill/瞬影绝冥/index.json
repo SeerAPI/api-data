@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -31,6 +32,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -39,6 +41,7 @@
         },
         {
           "info": "解除自身所处的异常状态，解除成功则本次攻击威力提升50%",
+          "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功则本次攻击[color=#52a5f2]威力[/color]提升50%",
           "args": [
             50
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则100%令对手束缚，未触发则2回合内自身受到的攻击伤害减少50%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则100%令对手[color=#57c975]束缚[/color]，[color=#52a5f2]未触发[/color]则2回合内自身受到的攻击伤害减少50%",
           "args": [
             100,
             28,
@@ -62,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c3431b11"
+  "hash": "559330e2"
 }

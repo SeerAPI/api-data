@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则恢复自身全部体力（boss有效）",
           "args": [],
           "effect": {
             "id": 835,
@@ -41,6 +43,7 @@
         },
         {
           "info": "3回合内自身受到直接攻击伤害的100%反馈给对手",
+          "analyze_info": "[sprite name=iconHit]3回合内自身受到直接攻击伤害的100%反馈给对手（boss有效）",
           "args": [
             3,
             100
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3a044daf"
+  "hash": "e03a80da"
 }

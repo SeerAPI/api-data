@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合攻击附加自身攻击和特攻中最高一项70%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合攻击附加自身攻击和特攻中最高一项70%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3,
             70
@@ -44,6 +46,7 @@
         },
         {
           "info": "下次攻击忽略对手双防值的45%",
+          "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的45%（boss有效）",
           "args": [
             45
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9669758c"
+  "hash": "ac42a6f2"
 }

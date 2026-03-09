@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "后出手时令对手下1回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合属性技能无效",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时吸取对手250点体力",
+          "analyze_info": "[sprite name=iconHit]后出手时[color=#52a5f2]吸取[/color]对手250点体力（boss有效）",
           "args": [
             250
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d48a382b"
+  "hash": "5f8256a"
 }

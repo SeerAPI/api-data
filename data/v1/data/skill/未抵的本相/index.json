@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手，反馈失败则解除自身能力下降状态",
           "args": [],
           "effect": {
             "id": 1192,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手处于能力下降状态则威力提升100%",
+          "analyze_info": "[sprite name=iconHit]对手处于能力下降状态则[color=#52a5f2]威力[/color]提升100%",
           "args": [
             100
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bcb46abd"
+  "hash": "d4aa2a2f"
 }

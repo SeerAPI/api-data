@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于异常状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手处于烧伤状态，则25%概率秒杀对手",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态，则25%概率[color=#52a5f2]秒杀[/color]对手",
       "args": [
         2,
         25
@@ -42,6 +44,7 @@
     },
     {
       "info": "当回合未击败对手则减少对方所有技能PP2点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则减少对方所有技能PP2点",
       "args": [
         2
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fdedbb82"
+  "advance": null,
+  "hash": "6983d832"
 }

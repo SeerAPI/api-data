@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后30%令对方麻痹",
+          "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             30
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身攻击等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+1（boss有效）",
           "args": [
             0,
             100,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "31577e9a"
+  "hash": "900ab5a0"
 }

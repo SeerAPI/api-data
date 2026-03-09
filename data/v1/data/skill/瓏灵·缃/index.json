@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "随机附加2种异常状态，若自身持有黄色或白色龙鳞则改为附加控制类异常状态",
+          "analyze_info": "[sprite name=iconHit]随机附加2种异常状态，若自身持有黄色或[color=#f35555]白色龙鳞[/color]则改为附加控制类异常状态",
           "args": [
             2
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1ed354b5"
+  "hash": "352b95c"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于异常状态则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若对手处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则恢复自身全部体力",
           "args": [],
           "effect": {
             "id": 945,
@@ -41,6 +43,7 @@
         },
         {
           "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "对手处于异常状态时附加300点固定伤害，不处于异常状态则下1回合使用技能随机附加烧伤、冻伤、冰封、焚烬中的2种异常状态",
+          "analyze_info": "[sprite name=iconHit]对手处于异常状态时附加300点[color=#52a5f2]固定伤害[/color]，不处于异常状态则下1回合使用技能随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]冰封[/color]、[color=#57c975]焚烬[/color]中的2种异常状态",
           "args": [
             300,
             1,
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "71569df1"
+  "hash": "fedfd3da"
 }

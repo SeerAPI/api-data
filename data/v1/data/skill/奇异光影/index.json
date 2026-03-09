@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手害怕，若对手不处于回合类效果则为对手施加1道诡符",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]害怕[/color]，若对手不处于[color=#52a5f2]回合类效果[/color]则为对手施加1道[color=#f35555]诡符[/color]",
           "args": [
             6,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "恢复自身最大体力的1/3并造成等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/3并造成等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5eb28cc2"
+  "hash": "161084cb"
 }

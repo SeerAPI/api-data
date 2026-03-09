@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/1",
+      "analyze_info": "[sprite name=iconHit]先出手时，1回合自己不会受到对手攻击性技能伤害并[color=#52a5f2]反弹[/color]对手造成伤害的1/1",
       "args": [
         1,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "aaa67965"
+  "advance": null,
+  "hash": "afeeae01"
 }

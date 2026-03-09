@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "立刻恢复自身300点体力，3回合后恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]立刻恢复自身300点体力，3回合后恢复自身全部体力",
           "args": [
             300,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合防御和特防等级+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合防御和特防等级+1（boss有效）",
           "args": [
             3,
             1
@@ -45,6 +47,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则对手的防御-1，命中-1",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则对手的防御-1，命中-1（boss有效）",
           "args": [
             3,
             0,
@@ -63,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bd3b6496"
+  "hash": "56f4221c"
 }

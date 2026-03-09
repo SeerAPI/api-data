@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视伤害限制效果",
+      "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
       "args": [],
       "effect": {
         "id": 697,
@@ -29,6 +30,7 @@
     },
     {
       "info": "2回合内50%令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]2回合内50%令对手使用的属性技能无效（boss有效）",
       "args": [
         2,
         50
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ddd05e2d"
+  "advance": null,
+  "hash": "df4103fa"
 }

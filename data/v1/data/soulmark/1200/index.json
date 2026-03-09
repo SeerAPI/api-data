@@ -2,6 +2,7 @@
   "id": 1200,
   "desc": "回合开始时若自身处于能力提升状态或对手处于能力下降状态，则对手使用攻击技能50%的概率MISS，未触发则战斗阶段结束时令对手全属性-1，我方使用攻击技能50%的概率令对手麻痹，未触发则下次触发概率转变为80%且下回合自身所有技能先制+1（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时若自身处于能力提升状态或对手处于能力下降状态，则对手使用攻击技能50% MISS\r\n<indent=32><sprite=4><indent=48>未触发则战斗阶段结束时令对手<color=#64F9FA>全属性-1</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>我方使用攻击技能50%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则下次触发概率改为80%且下回合自身所有技能<b>先制</b>+1",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -42,5 +43,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "ab5826f1"
+  "advance": null,
+  "hash": "b4bd5e64"
 }

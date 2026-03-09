@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内有60%的概率免疫对手攻击技能造成的伤害并直接扣除对手等量体力",
+          "analyze_info": "[sprite name=iconHit]4回合内有60%的概率免疫对手攻击技能造成的伤害并直接扣除对手等量体力",
           "args": [
             4,
             60
@@ -44,6 +46,7 @@
         },
         {
           "info": "4回合内自身受到攻击100%使对手害怕，若未触发则对手受到300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内自身受到攻击100%使对手[color=#57c975]害怕[/color]，若[color=#52a5f2]未触发[/color]则对手受到300点[color=#52a5f2]固定伤害[/color]",
           "args": [
             4,
             100,
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ddd22767"
+  "hash": "a5235b99"
 }

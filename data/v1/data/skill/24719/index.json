@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
       "args": [
         4,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -55,6 +58,7 @@
     },
     {
       "info": "2回合内致命一击率上升5/16",
+      "analyze_info": "[sprite name=iconHit]2回合内[color=#57c975]致命一击[/color]率上升5/16（boss有效）",
       "args": [
         2,
         5
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3b0f80ab"
+  "advance": null,
+  "hash": "c264f96b"
 }

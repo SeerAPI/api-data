@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "20%的概率威力2倍，若未触发则下回合自身先制+2",
+      "analyze_info": "[sprite name=iconHit]20%的概率[color=#52a5f2]威力[/color]2倍，若[color=#52a5f2]未触发[/color]则下回合自身[color=#52a5f2]先制[/color]+2",
       "args": [
         20,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
       "args": [
         300,
         2
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e1354d22"
+  "advance": null,
+  "hash": "fbe74a"
 }

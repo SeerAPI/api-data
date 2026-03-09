@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功则自身速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身速度+1，命中+1（boss有效）",
           "args": [
             0,
             0,
@@ -38,8 +39,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4024d710"
+  "hash": "f301b2b5"
 }

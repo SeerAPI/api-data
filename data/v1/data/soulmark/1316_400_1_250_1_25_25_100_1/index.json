@@ -4,6 +4,7 @@
       "id": 1014,
       "desc": "登场时获得400点护盾，自身存在护盾时所有技能先制+1|战斗阶段结束时，若当回合自身未受到攻击伤害则恢复自身250点体力并造成恢复量的固定伤害，若受到了攻击伤害则免疫下1次受到的攻击伤害|自身每次使用攻击技能时本次在场造成的攻击伤害提升25%，最高提升100%（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时<color=#64F9FA>获得</color>400点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身存在护盾时所有技能<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击技能则本次在场造成的<b>攻击伤害</b><color=#64F9FA>提升</color>25%，最高提升100%\r\n\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若当回合自身未受到攻击伤害则<color=#64F9FA>恢复</color>自身250点体力并造成等量<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若当回合自身受到攻击伤害则<color=#64F9FA>抵挡</color>下1次受到的<b>攻击</b>",
+      "analyze_desc": "[sprite name=dot4][color=#52a5f2]登场时[/color]获得400点[color=#57c975]护盾[/color]，自身存在[color=#57c975]护盾[/color]时所有[color=#52a5f2]技能先制[/color]+1|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若[color=#52a5f2]当回合(412)[/color]自身未受到攻击伤害则恢复自身250点体力并造成恢复量的[color=#52a5f2]固定伤害[/color]，若受到了攻击伤害则自身免疫下1次受到的攻击伤害|[sprite name=dot4]自身每次使用攻击技能时本次在场造成的攻击伤害提升25%，最高提升100%",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -48,8 +49,9 @@
         "id": 1932,
         "url": "https://api.seerapi.com/v1/soulmark/1932"
       },
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "3deeb4ed"
+  "hash": "68285705"
 }

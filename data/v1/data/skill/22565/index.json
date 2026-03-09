@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合所受的伤害减少150点",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合所受的伤害减少150点（boss有效）",
       "args": [
         2,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "下1回合自身攻击先制+1",
+      "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e6d46fe7"
+  "advance": null,
+  "hash": "bbe47c6a"
 }

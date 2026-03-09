@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果反转成能力下降效果",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果反转成能力下降效果（boss有效）",
           "args": [],
           "effect": {
             "id": 143,
@@ -31,6 +32,7 @@
         },
         {
           "info": "反转自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 521,
@@ -39,8 +41,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4c099539"
+  "hash": "21d6c1c4"
 }

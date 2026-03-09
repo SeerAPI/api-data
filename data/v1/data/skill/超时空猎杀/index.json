@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成伤害的1/4回复自身体力，若对手睡眠，则造成伤害的1/2回复自身体力",
+          "analyze_info": "[sprite name=iconHit]造成伤害的1/4回复自身体力，若对手[color=#57c975]睡眠[/color]，则造成伤害的1/2回复自身体力（boss有效）",
           "args": [
             4,
             8,
@@ -35,8 +36,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f04d99d6"
+  "hash": "a55b3246"
 }

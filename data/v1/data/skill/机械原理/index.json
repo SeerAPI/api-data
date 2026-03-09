@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+2，防御+1，特防+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+2，防御+1，特防+1，命中+1（boss有效）",
           "args": [
             2,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "4回合内对手恢复体力时恢复效果减少50%",
+          "analyze_info": "[sprite name=iconHit]4回合内对手恢复体力时恢复效果减少50%（boss有效）",
           "args": [
             4,
             50
@@ -49,6 +51,7 @@
         },
         {
           "info": "4回合内受到攻击则100%令对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]4回合内受到攻击则100%令对手随机1个技能PP值归零",
           "args": [
             4,
             100,
@@ -61,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d777cff7"
+  "hash": "cd700bcb"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后100%令对方中毒",
+      "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]中毒[/color]（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合都能附加50点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         50
@@ -42,6 +44,7 @@
     },
     {
       "info": "2回合内每回合对手命中-1",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合对手命中-1（boss有效）",
       "args": [
         2,
         0,
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d16d86bb"
+  "advance": null,
+  "hash": "db03ea2d"
 }

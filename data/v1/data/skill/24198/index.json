@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内受到物理攻击和特殊攻击伤害减少30%",
+      "analyze_info": "[sprite name=iconHit]2回合内受到物理攻击和特殊攻击伤害减少30%（boss有效）",
       "args": [
         2,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "2回合内若对手使用攻击技能则对手的特防-1，命中-1",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则对手的特防-1，命中-1（boss有效）",
       "args": [
         2,
         0,
@@ -52,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "97a689f0"
+  "advance": null,
+  "hash": "8fbc419d"
 }

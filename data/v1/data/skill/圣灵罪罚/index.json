@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "给对手造成伤害时，伤害数值的30%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的30%恢复自身体力（boss有效）",
           "args": [
             30
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害不少于280",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
           "args": [
             280
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "adeab879"
+  "hash": "da04ca61"
 }

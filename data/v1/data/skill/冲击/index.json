@@ -22,7 +22,8 @@
       "learned_by_pet": [],
       "skill_effect": [],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "10530": {
       "id": 10530,
@@ -47,6 +48,7 @@
       "skill_effect": [
         {
           "info": "对方体力小于1/2时威力加倍",
+          "analyze_info": "[sprite name=iconHit]对方体力小于1/2时[color=#52a5f2]威力[/color]加倍（boss有效）",
           "args": [],
           "effect": {
             "id": 2,
@@ -55,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "97cbe6e8"
+  "hash": "1fe7c51f"
 }

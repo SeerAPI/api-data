@@ -4,6 +4,7 @@
       "id": 1863,
       "desc": "对手使用攻击技能时当回合自身受到的攻击伤害减少50%且50%闪避对手的攻击，自身体力低于对手时闪避率提升至80%，自身体力高于对手时减伤效果提升至60%, 自身使用技能时随机3项能力等级+1，若使用的技能为攻击技能则攻击、速度额外+1，若使用的技能为属性技能则对手下回合先制-2，若本回合使用的技能无效，则下回合使用技能时上述效果取消技能类型要求同时触发（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>对手使用攻击技能时当回合自身受到的<b>攻击伤害<color=#64F9FA></b>减少</color>50%且50%<color=#64F9FA>闪避</color>对手的攻击\r\n<indent=32><sprite=4><indent=48>自身体力低于对手时闪避率提升至80%\r\n<indent=32><sprite=4><indent=48>自身体力高于对手时减伤效果提升至60%\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能时随机3项<b>能力等级<color=#64F9FA></b>+1</color>\r\n<indent=32><sprite=4><indent=48>若使用的技能为攻击技能则攻击、速度额外+1\r\n<indent=32><sprite=4><indent=48>若使用的技能为属性技能则对手下回合<b>先制</b>-2\r\n<indent=32><sprite=4><indent=48>若本回合使用的技能无效，则下回合使用技能时上述效果取消技能类型要求同时触发",
+      "analyze_desc": "[sprite name=dot4]对手使用攻击技能时，[color=#52a5f2]当回合[/color]自身受到的攻击伤害减少50%且50%[color=#57c975]闪避[/color]对手的攻击，自身体力低于对手时[color=#57c975]闪避[/color]率提升至80%，自身体力高于对手时减伤效果提升至60%|[sprite name=dot4]自身使用技能时随机3项能力等级+1，若使用的技能为攻击技能则攻击、速度额外+1，若使用的技能为属性技能则对手下回合[color=#52a5f2]先制[/color]-2，[color=#52a5f2]之后[/color][color=#52a5f2]当回合[/color]自身使用的[color=#52a5f2]技能无效[/color]时，下回合本条效果取消技能类型条件",
       "pve_effective": false,
       "intensified": false,
       "is_adv": true,
@@ -48,8 +49,12 @@
       "from": {
         "id": 917,
         "url": "https://api.seerapi.com/v1/soulmark/917"
+      },
+      "advance": {
+        "id": 22,
+        "url": "https://api.seerapi.com/v1/pet_advance/22"
       }
     }
   },
-  "hash": "a4d4aca8"
+  "hash": "501c3216"
 }

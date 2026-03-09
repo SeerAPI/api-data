@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时当回合对手使用技能后若自身体力为0，则令自身体力等于最大体力",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]当回合[/color]对手使用技能后若自身体力为0，则令自身体力等于最大体力（boss有效）",
           "args": [],
           "effect": {
             "id": 561,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "91a3f2d5"
+  "hash": "d265818f"
 }

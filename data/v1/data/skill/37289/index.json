@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 40,
@@ -29,6 +30,7 @@
     },
     {
       "info": "先出手时，额外附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]先出手时，额外附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         200
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d21fcb01"
+  "advance": null,
+  "hash": "9f1ce6f2"
 }

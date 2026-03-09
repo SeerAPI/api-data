@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，若解除成功则2回合内躲避所有攻击",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，若解除成功则2回合内躲避所有攻击（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内若对手攻击MISS则回合结束时吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手攻击MISS则[color=#57c975]回合结束时[/color][color=#52a5f2]吸取[/color]对手最大体力的1/3（boss有效）",
       "args": [
         2,
         3
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fa748817"
+  "advance": null,
+  "hash": "a34cef69"
 }

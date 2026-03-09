@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/2",
+          "analyze_info": "[sprite name=iconHit]先出手时，1回合自己不会受到对手攻击性技能伤害并[color=#52a5f2]反弹[/color]对手造成伤害的1/2",
           "args": [
             1,
             2
@@ -49,6 +51,7 @@
         },
         {
           "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
           "args": [
             3,
             2
@@ -60,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51cab6af"
+  "hash": "bf606468"
 }

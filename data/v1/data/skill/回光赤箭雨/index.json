@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做4~8次攻击",
+          "analyze_info": "1回合做4~8次攻击",
           "args": [
             4,
             8
@@ -34,6 +35,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "35%令对手焚烬，对手处于能力下降状态时触发概率翻倍",
+          "analyze_info": "[sprite name=iconHit]35%令对手[color=#57c975]焚烬[/color]，对手处于能力下降状态时触发概率翻倍",
           "args": [
             35,
             22
@@ -55,6 +58,7 @@
         },
         {
           "info": "当回合击败对手则50%恢复自身全部体力，未触发则全属性+1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则50%恢复自身全部体力，[color=#52a5f2]未触发[/color]则[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             50,
             1
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2438c053"
+  "hash": "c05713a9"
 }

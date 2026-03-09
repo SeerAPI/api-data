@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除双方能力提升状态、能力下降状态和护盾效果，消除任意一项成功则附加300点固定伤害且令对手随机2个技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]消除双方能力提升状态、能力下降状态和[color=#57c975]护盾[/color]效果，消除任意一项成功则附加300点[color=#52a5f2]固定伤害[/color]且令对手随机2个技能PP值归零",
       "args": [
         300,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "下次攻击忽略对手双防值的30%",
+      "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的30%（boss有效）",
       "args": [
         30
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f9a6ea47"
+  "advance": null,
+  "hash": "e3002254"
 }

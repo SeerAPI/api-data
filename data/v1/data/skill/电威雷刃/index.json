@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手处于任意异常状态时造成的伤害将全额恢复体力",
+          "analyze_info": "[sprite name=iconHit]对手处于任意异常状态时造成的伤害将全额恢复体力（boss有效）",
           "args": [],
           "effect": {
             "id": 575,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8c879138"
+  "hash": "8e7c0cd5"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合防御+2，特攻+2，特防+2，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合防御+2，特攻+2，特防+2，速度+1，命中+1（boss有效）",
           "args": [
             3,
             0,
@@ -49,6 +51,7 @@
         },
         {
           "info": "3回合内对手主动切换精灵出战时100%中毒",
+          "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]主动切换[/color]精灵[color=#57c975]出战时[/color]100%[color=#57c975]中毒[/color]",
           "args": [
             3,
             100,
@@ -61,6 +64,7 @@
         },
         {
           "info": "100%令对手中毒",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             100,
             1
@@ -72,6 +76,7 @@
         },
         {
           "info": "命中后100%使对手害怕，未触发则使对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]命中后100%使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则使对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             100,
             6,
@@ -84,8 +89,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "98c13cb7"
+  "hash": "ae4420b9"
 }

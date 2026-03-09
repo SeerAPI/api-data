@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手随机2项技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]使对手随机2项技能的PP值归零",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消耗自身所有体力，令自身下只登场精灵3回合内免疫异常状态，若自身下只登场精灵为月照星魂则转变为5回合",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有体力，令自身下只[color=#57c975]登场[/color]精灵3回合内免疫异常状态，若自身下只[color=#57c975]登场[/color]精灵为月照星魂则转变为5回合",
       "args": [],
       "effect": {
         "id": 1493,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d8745e74"
+  "advance": null,
+  "hash": "48a3c23"
 }

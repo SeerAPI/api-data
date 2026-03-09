@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下1回合对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下1回合对手属性技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "攻击对手时若对手处于冻伤状态，则80%使对手冰封",
+      "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]冻伤[/color]状态，则80%使对手[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         5,
         80,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4b1afd9a"
+  "advance": null,
+  "hash": "32a8471d"
 }

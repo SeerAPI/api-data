@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手特防等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-1（boss有效）",
       "args": [
         3,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
       "args": [
         5,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "4回合内自身攻击技能造成伤害的50%会恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]4回合内自身攻击技能造成伤害的50%会恢复自身体力（boss有效）",
       "args": [
         3,
         50
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a27f0c98"
+  "advance": null,
+  "hash": "2c49f45f"
 }

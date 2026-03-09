@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "80%的概率使对手冰封，未触发则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]80%的概率使对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             80,
             15,
@@ -35,6 +36,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手最大体力的1/3，若对手未受到百分比伤害则额外附加280点真实伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，若对手未受到[color=#52a5f2]百分比伤害[/color]则额外附加280点[color=#52a5f2]真实伤害[/color]",
           "args": [
             4,
             3,
@@ -47,6 +49,7 @@
         },
         {
           "info": "令对手下1次使用的威力高于120的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]令对手下1次使用的威力值高于120的攻击技能无效（boss有效）",
           "args": [
             120
           ],
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "44a99fab"
+  "hash": "17fd9464"
 }

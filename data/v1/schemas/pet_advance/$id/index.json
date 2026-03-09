@@ -1,0 +1,63 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        },
+        "ResourceRef_Skill_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "skill"
+        },
+        "ResourceRef_Soulmark_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "soulmark"
+        },
+        "SixAttributes": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/six_attributes"
+        }
+      },
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "integer"
+        },
+        "pet": {
+          "$ref": "#/$defs/ResourceRef_Pet_",
+          "description": "该项觉醒对应的精灵"
+        },
+        "skill": {
+          "description": "完成觉醒可开启的技能",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Skill_"
+          },
+          "title": "Skill",
+          "type": "array"
+        },
+        "soulmark": {
+          "$ref": "#/$defs/ResourceRef_Soulmark_",
+          "description": "完成觉醒可开启的魂印"
+        },
+        "base_stats": {
+          "$ref": "#/$defs/SixAttributes",
+          "description": "觉醒后的种族值"
+        }
+      },
+      "required": [
+        "id",
+        "pet",
+        "skill",
+        "soulmark",
+        "base_stats"
+      ],
+      "title": "PetAdvance",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

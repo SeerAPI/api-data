@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身每处于1种能力提升状态，则为自身附加100点护盾",
+      "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，则为自身附加100点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         1,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能则造成伤害前随机[color=#52a5f2]吸取[/color]对手3项能力值-1（boss有效）",
       "args": [
         3,
         3
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内每回合随机恢复200-350点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合随机恢复200-350点体力（boss有效）",
       "args": [
         3,
         200,
@@ -55,6 +58,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e9856fa6"
+  "advance": null,
+  "hash": "a2bf7596"
 }

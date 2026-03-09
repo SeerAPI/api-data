@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若对手使用攻击技能则随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]麻痹[/color]、[color=#57c975]害怕[/color]、[color=#57c975]睡眠[/color]中的一种异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能则造成伤害前随机[color=#52a5f2]吸取[/color]对手3项能力值-1（boss有效）",
       "args": [
         3,
         3
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1a45d3f0"
+  "advance": null,
+  "hash": "9faf6fff"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "损失1/2的体力，提升自身的能力",
+          "analyze_info": "[sprite name=iconHit]损失1/2的体力，提升自身的能力（boss有效）",
           "args": [],
           "effect": {
             "id": 79,
@@ -31,6 +32,7 @@
         },
         {
           "info": "3回合内每次造成伤害的1/2会恢复自己的HP",
+          "analyze_info": "[sprite name=iconHit]3回合内每次造成伤害的1/2会恢复自己的HP（boss有效）",
           "args": [
             3,
             2
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "92fdbd19"
+  "hash": "a18d4c8e"
 }

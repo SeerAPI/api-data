@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合使对方攻击伤害是正常状态下的1/2倍",
+      "analyze_info": "[sprite name=iconHit]2回合使对方攻击伤害是正常状态下的1/2倍（boss有效）",
       "args": [
         2,
         2
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cce5b2d3"
+  "advance": null,
+  "hash": "2c908ea0"
 }

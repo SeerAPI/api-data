@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每回合特攻+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合特攻+1，速度+1（boss有效）",
           "args": [
             3,
             0,
@@ -39,6 +40,7 @@
         },
         {
           "info": "造成的伤害不少于280",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
           "args": [
             280
           ],
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fa898749"
+  "hash": "98e8b635"
 }

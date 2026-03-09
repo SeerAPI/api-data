@@ -2,6 +2,7 @@
   "id": 1523,
   "desc": "在战斗中，自身攻击和特攻等于其中较高的一项；|自身每次使用攻击技能则附加造成伤害50%的固定伤害，伤害为0则转变为附加该攻击技能威力值300%的固定伤害，若前述附加的固定伤害低于300点则下回合自身所有技能先制+1（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>在战斗中，自身攻击和特攻等于其中最高的一项\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身每次使用攻击技能则<color=#64F9FA>附加</color>造成伤害50%的<b>固定伤害</b>，若伤害为0则改为<color=#64F9FA>附加</color>该攻击技能威力值300%的<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若上述效果附加的固定伤害低于300点则下回合自身所有技能先制+1",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -42,5 +43,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "230a1a6"
+  "advance": null,
+  "hash": "ebe9bcf4"
 }

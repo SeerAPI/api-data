@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力低于最大体力的1/2则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1117,
@@ -31,6 +32,7 @@
         },
         {
           "info": "损失自身250点体力，给对手造成500点固定伤害，若自身体力不足250则剩下1点体力",
+          "analyze_info": "[sprite name=iconHit]损失自身250点体力，给对手造成500点[color=#52a5f2]固定伤害[/color]，若自身体力不足250则剩下1点体力（boss有效）",
           "args": [
             250,
             500,
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内对手使用攻击技能后使对手焚烬，未触发则自身恢复最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后使对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则自身恢复最大体力的1/3",
           "args": [
             3,
             22,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "321b5dd5"
+  "hash": "92a2806"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下3回合每回合使用攻击技能50%令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]下3回合每回合使用攻击技能50%令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             50,
@@ -35,6 +36,7 @@
         },
         {
           "info": "攻击对手时若对手处于烧伤状态，则100%使对手麻痹",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则100%使对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -49,6 +51,7 @@
       "friend_skill_effect": [
         {
           "info": "下3回合每回合使用攻击技能70%令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]下3回合每回合使用攻击技能70%令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             70,
@@ -61,6 +64,7 @@
         },
         {
           "info": "攻击对手时若对手处于烧伤状态，则100%使对手麻痹",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则100%使对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -72,8 +76,9 @@
           }
         }
       ],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "140e7924"
+  "hash": "c8063edb"
 }

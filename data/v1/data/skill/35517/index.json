@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "本回合打出致命一击则令对手2回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则令对手2回合属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+      "analyze_info": "[sprite name=iconHit]附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]，未[color=#57c975]击败[/color]对手则恢复自身等量体力值",
       "args": [
         3
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2e52112"
+  "advance": null,
+  "hash": "ffd0420a"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手使用技能消耗的PP值变为3倍",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为3倍（boss有效）",
           "args": [
             3,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则100%使对手烧伤",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则100%使对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             100,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7523206c"
+  "hash": "26686ae9"
 }

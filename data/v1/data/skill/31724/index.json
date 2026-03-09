@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则50%令对手害怕，未触发则50%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则50%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则50%令对手[color=#57c975]睡眠[/color]",
       "args": [
         50,
         6,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7d5ccdeb"
+  "advance": null,
+  "hash": "3c699b48"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身为对手天敌则必定命中",
+      "analyze_info": "[sprite name=iconInherent]若自身为对手天敌则[color=#52a5f2]必定命中[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 2028,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手为自身天敌则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]若对手为自身天敌则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [],
       "effect": {
         "id": 2055,
@@ -37,6 +39,7 @@
     },
     {
       "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
       "args": [
         150,
         300,
@@ -50,6 +53,7 @@
     },
     {
       "info": "100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         100,
         6
@@ -61,6 +65,7 @@
     },
     {
       "info": "100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         100,
         2
@@ -73,5 +78,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d8bcf08f"
+  "advance": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/pet_advance/12"
+  },
+  "hash": "c248a543"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "技能命中后消除自身能力提升状态",
+      "analyze_info": "[sprite name=iconHit]技能命中后消除自身能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1113,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "39b4797e"
+  "advance": null,
+  "hash": "cc84673a"
 }

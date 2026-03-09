@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "吸取对手300点体力，若对手任意1项技能PP值小于2点则吸取效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手300点体力，若对手任意1项技能PP值小于2点则[color=#52a5f2]吸取[/color]效果翻倍",
           "args": [
             300,
             2
@@ -44,6 +46,7 @@
         },
         {
           "info": "自身处于护盾状态时造成的攻击伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]自身处于[color=#57c975]护盾[/color]状态时造成的攻击伤害翻倍",
           "args": [],
           "effect": {
             "id": 2100,
@@ -52,6 +55,7 @@
         },
         {
           "info": "击败对手则令对手下1次使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下1次使用的属性技能无效",
           "args": [
             1
           ],
@@ -62,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a81f5989"
+  "hash": "829c5585"
 }

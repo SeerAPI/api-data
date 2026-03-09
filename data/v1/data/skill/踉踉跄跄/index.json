@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身处于能力提升状态时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身处于能力提升状态时强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合有50%的概率免疫当回合受到的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合有50%的概率免疫[color=#52a5f2]当回合[/color]受到的攻击伤害（boss有效）",
           "args": [
             3,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内受到攻击则50%令对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击则50%令对手随机1个技能PP值归零",
           "args": [
             3,
             50,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ae5e6709"
+  "hash": "65bb96a"
 }

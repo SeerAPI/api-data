@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于异常状态时先制+1且必定命中",
+      "analyze_info": "[sprite name=iconInherent]自身处于异常状态时[color=#52a5f2]先制[/color]+1且[color=#52a5f2]必定命中[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 2072,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-1（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "100%令自身流血",
+      "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]流血[/color]",
       "args": [
         100,
         16
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3dbb672"
+  "advance": null,
+  "hash": "8d9d326d"
 }

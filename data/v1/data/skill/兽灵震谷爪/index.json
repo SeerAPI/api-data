@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手当回合使用的技能为攻击技能则自身额外先制+1",
+          "analyze_info": "[sprite name=iconInherent]若对手[color=#52a5f2]当回合[/color]使用的技能为攻击技能则自身额外[color=#52a5f2]先制[/color]+1",
           "args": [],
           "effect": {
             "id": 1774,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若先出手则当回合对手无法造成攻击伤害",
+          "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]对手无法造成攻击伤害",
           "args": [],
           "effect": {
             "id": 664,
@@ -39,6 +41,7 @@
         },
         {
           "info": "后出手时令对手当回合使用的技能的PP值额外-4",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手[color=#52a5f2]当回合[/color]使用的技能的PP值额外-4",
           "args": [
             4
           ],
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3181f273"
+  "hash": "f8a97d2a"
 }

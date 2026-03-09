@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于害怕状态，则10%概率秒杀对手",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]害怕[/color]状态，则10%概率[color=#52a5f2]秒杀[/color]对手",
           "args": [
             6,
             10
@@ -34,6 +35,7 @@
         },
         {
           "info": "清除对手身上的黑暗之种，清除成功则令对手随机受到1-500点固定伤害",
+          "analyze_info": "[sprite name=iconHit]清除对手身上的[color=#f35555]黑暗之种[/color]，清除成功则令对手随机受到1-500点[color=#52a5f2]固定伤害[/color]",
           "args": [],
           "effect": {
             "id": 1503,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "777695bb"
+  "hash": "5c4fcb69"
 }

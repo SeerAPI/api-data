@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手冻伤",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手[color=#57c975]冻伤[/color]",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身的PP值总和高于对手时100%令对手冰封",
+          "analyze_info": "[sprite name=iconHit]自身的PP值总和高于对手时100%令对手[color=#57c975]冰封[/color]",
           "args": [
             100,
             15
@@ -44,6 +46,7 @@
         },
         {
           "info": "本回合打出致命一击则令对手2回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则令对手2回合属性技能无效",
           "args": [
             2
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ed2fabbd"
+  "hash": "8cfb1119"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手基础速度值高于400则自身下回合先制+2",
+          "analyze_info": "[sprite name=iconHit]对手基础速度值高于400则自身下回合[color=#52a5f2]先制[/color]+2",
           "args": [
             1,
             0,
@@ -36,8 +37,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fc75d4c8"
+  "hash": "1134ad78"
 }

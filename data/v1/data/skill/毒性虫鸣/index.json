@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后50%令对方中毒",
+          "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时下回合受到的伤害降低200点",
+          "analyze_info": "[sprite name=iconHit]后出手时下回合受到的伤害降低200点（boss有效）",
           "args": [
             200
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d3846f93"
+  "hash": "2dc3ac7a"
 }

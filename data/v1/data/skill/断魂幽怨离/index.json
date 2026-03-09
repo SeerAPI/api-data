@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身处于能力提升状态时造成的伤害提升50%，先出手时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成的伤害提升50%，先出手时效果翻倍（boss有效）",
           "args": [
             50
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "当回合击败对手则恢复自身所有技能PP值",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则恢复自身所有技能PP值（boss有效）",
           "args": [],
           "effect": {
             "id": 1286,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "971ec69a"
+  "hash": "cd2fa7db"
 }

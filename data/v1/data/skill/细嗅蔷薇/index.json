@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身当前体力高于最大体力的1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -45,6 +47,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -55,7 +58,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "33003": {
       "id": 33003,
@@ -80,6 +84,7 @@
       "skill_effect": [
         {
           "info": "自身每处于一种能力提升状态，此技能威力提升30",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态，此技能[color=#52a5f2]威力[/color]提升30（boss有效）",
           "args": [
             30
           ],
@@ -90,6 +95,7 @@
         },
         {
           "info": "对手每处于一种能力下降状态附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每处于一种能力下降状态附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100
           ],
@@ -100,8 +106,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "60a12f83"
+  "hash": "8694fcf0"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "附加对手已损失生命值20%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手已损失生命值20%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             20
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手的话威力为2倍",
+          "analyze_info": "[sprite name=iconHit]后出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [],
           "effect": {
             "id": 30,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "feb14f46"
+  "hash": "cfd87ec0"
 }

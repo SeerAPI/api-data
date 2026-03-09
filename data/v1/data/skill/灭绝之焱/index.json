@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "给对手造成伤害时，伤害数值的40%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的40%恢复自身体力（boss有效）",
           "args": [
             40
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "当自身血量少于1/2时先制+2",
+          "analyze_info": "[sprite name=iconInherent]当自身血量少于1/2时[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "515afd1a"
+  "hash": "fea7b8ad"
 }

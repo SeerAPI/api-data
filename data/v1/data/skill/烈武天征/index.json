@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "英雄之耀达到3层时此技能不受PP值限制且使用时消除自身回合类效果",
+          "analyze_info": "[sprite name=iconInherent][color=#f35555]英雄之耀[/color][color=#52a5f2]达到[/color]3层时此技能不受PP值限制且使用时消除自身[color=#52a5f2]回合类效果[/color]",
           "args": [],
           "effect": {
             "id": 2347,
@@ -31,6 +32,7 @@
         },
         {
           "info": "全属性+1，自身当前体力高于最大体力的1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身当前体力高于最大体力的1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -42,6 +44,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍",
           "args": [
             4,
             3,
@@ -54,6 +57,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -64,6 +68,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -75,8 +80,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b7586c9d"
+  "hash": "63601b4"
 }

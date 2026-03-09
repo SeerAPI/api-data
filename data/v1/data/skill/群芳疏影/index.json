@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
           "args": [
             2,
             -2
@@ -34,6 +35,7 @@
         },
         {
           "info": "命中后50%使对手睡眠，若未触发则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]命中后50%使对手[color=#57c975]睡眠[/color]，若[color=#52a5f2]未触发[/color]则恢复自身全部体力",
           "args": [
             50,
             8
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "129b6bbf"
+  "hash": "e8b6db8e"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力上升状态，消除成功3回合内受到伤害减少100点",
+      "analyze_info": "[sprite name=iconHit]消除对手能力上升状态，消除成功3回合内受到伤害减少100点（boss有效）",
       "args": [
         3,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能时受到自身防御、特防总和30%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能时受到自身防御、特防总和30%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         3,
         30
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "65a611b6"
+  "advance": null,
+  "hash": "e6ae85c8"
 }

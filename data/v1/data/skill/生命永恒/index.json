@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力低于最大体力的1/2则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1117,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消耗自身全部体力，使对手5回合内使用属性技能失效（延续到对手所有精灵）",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，使对手5回合内使用属性技能失效（延续到对手所有精灵）",
           "args": [
             5
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "53fabfb"
+  "hash": "444c9dc2"
 }

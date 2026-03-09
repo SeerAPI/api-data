@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "为自身附加300点护罩",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护罩[/color]（boss有效）",
           "args": [
             300
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "后出手时，100%概率使对方麻痹",
+          "analyze_info": "[sprite name=iconHit]后出手时，100%概率使对方[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             100,
             0
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "583d314b"
+  "hash": "1597472b"
 }

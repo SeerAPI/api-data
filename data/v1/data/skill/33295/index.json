@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机使自身3项能力值+1，先出手时提升效果翻倍",
+      "analyze_info": "[sprite name=iconHit]随机使自身3项能力值+1，先出手时提升效果翻倍（boss有效）",
       "args": [
         3,
         1
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7f4705be"
+  "advance": null,
+  "hash": "d58dadf3"
 }

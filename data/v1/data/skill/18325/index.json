@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内受到物理攻击和特殊攻击伤害减少60%",
+      "analyze_info": "[sprite name=iconHit]2回合内受到物理攻击和特殊攻击伤害减少60%（boss有效）",
       "args": [
         2,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "当回合未击败对手，则减少对手当前体力1/5",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手，则减少对手当前体力1/5",
       "args": [
         5
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ce17ae2e"
+  "advance": null,
+  "hash": "842aaa86"
 }

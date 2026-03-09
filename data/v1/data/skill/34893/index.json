@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "10%概率攻击3次",
+      "analyze_info": "[sprite name=iconHit]10%概率攻击3次（boss有效）",
       "args": [
         10,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "当回合击败对手时，对方下只精灵出战时50%瘫痪",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时，对方下只精灵[color=#57c975]出战时[/color]50%[color=#57c975]瘫痪[/color]",
       "args": [
         50,
         19
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "20782cb8"
+  "advance": null,
+  "hash": "37c0f24c"
 }

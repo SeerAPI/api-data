@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "威力随机，随机范围60-120，连续使用每次威力提升20，最高提升至120",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围60-120，连续使用每次[color=#52a5f2]威力[/color]提升20，最高提升至120（boss有效）",
           "args": [
             60,
             120,
@@ -36,6 +37,7 @@
         },
         {
           "info": "攻击对手时若对手处于烧伤状态，则50%使对手焚烬",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则50%使对手[color=#57c975]焚烬[/color]（boss有效）",
           "args": [
             2,
             50,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "67a1456f"
+  "hash": "8abbd899"
 }

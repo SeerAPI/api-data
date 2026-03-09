@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 828,
@@ -29,6 +30,7 @@
     },
     {
       "info": "先出手时对手当回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
       "args": [],
       "effect": {
         "id": 980,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ff2de45e"
+  "advance": null,
+  "hash": "4678bfd7"
 }

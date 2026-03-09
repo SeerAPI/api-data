@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过280",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过280（boss有效）",
       "args": [
         2,
         280
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
       "args": [
         2
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "4回合内若自身攻击技能命中则50%令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则50%令对手[color=#57c975]麻痹[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fad5c8b6"
+  "advance": null,
+  "hash": "fd74218a"
 }

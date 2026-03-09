@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -31,6 +32,7 @@
         },
         {
           "info": "当回合未击败对手，则减少对手当前体力1/4",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手，则减少对手当前体力1/4",
           "args": [
             4
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "58358b82"
+  "hash": "b0f19ed3"
 }

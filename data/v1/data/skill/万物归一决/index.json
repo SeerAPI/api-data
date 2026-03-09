@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "反转自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 521,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4d07b420"
+  "hash": "1dc15bed"
 }

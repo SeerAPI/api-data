@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若打出致命一击则对手80%概率疲惫",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手80%概率[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             80,
             7
@@ -34,6 +35,7 @@
         },
         {
           "info": "附加给自身350点固定伤害（致死时令自身残留1点体力），附加给对手500点固定伤害，令自身下1次受到的攻击伤害转化为体力",
+          "analyze_info": "[sprite name=iconHit]附加给自身350点[color=#52a5f2]固定伤害[/color]（致死时令自身残留1点体力），附加给对手500点[color=#52a5f2]固定伤害[/color]，令自身下1次受到的攻击伤害[color=#52a5f2]转化[/color]为体力",
           "args": [
             350,
             500,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "61f44ecb"
+  "hash": "91ce8c13"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后50%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内50%令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内50%令对手使用的属性技能无效（boss有效）",
       "args": [
         3,
         50
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c21b1af6"
+  "advance": null,
+  "hash": "4cc0316f"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能无效时，消除对手回合类效果、能力提升效果，令对手烧伤",
+          "analyze_info": "[sprite name=iconInherent]技能无效时，消除对手[color=#52a5f2]回合类效果[/color]、能力提升效果，令对手[color=#57c975]烧伤[/color]",
           "args": [],
           "effect": {
             "id": 2127,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中则100%概率使对手烧伤，未触发则对手1回合内攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]命中则100%概率使对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则对手1回合内攻击技能无效",
           "args": [
             100,
             2,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e59a071d"
+  "hash": "ee350c63"
 }

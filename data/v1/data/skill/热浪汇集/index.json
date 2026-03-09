@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸收对手能力提升，吸收成功减少对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]吸收对手能力提升（boss有效），吸收成功减少对手1/3最大体力",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成伤害低于300，则下2回合所有技能附带200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害低于300，则下2回合所有技能附带200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             0,
             300,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cd5c0b72"
+  "hash": "d1f6995f"
 }

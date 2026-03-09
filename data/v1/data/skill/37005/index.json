@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身每有1篇空妄诗章造成的攻击伤害提升20%，若空妄诗章的篇数高于2则每有1篇额外附加50点真实伤害",
+      "analyze_info": "[sprite name=iconHit]自身每有1篇[color=#f35555]空妄诗章[/color]造成的攻击伤害提升20%，若[color=#f35555]空妄诗章[/color]的篇数高于2则每有1篇额外附加50点[color=#52a5f2]真实伤害[/color]",
       "args": [
         20,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "自身为满体力时100%令对手束缚，未触发则下2回合对手所有技能先制-1",
+      "analyze_info": "[sprite name=iconHit]自身为满体力时100%令对手[color=#57c975]束缚[/color]，[color=#52a5f2]未触发[/color]则下2回合对手所有技能[color=#52a5f2]先制[/color]-1",
       "args": [
         100,
         28,
@@ -46,6 +48,7 @@
     },
     {
       "info": "自身不为满体力时2回合内对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit]自身不为满体力时2回合内对手属性技能无效",
       "args": [
         2
       ],
@@ -56,6 +59,7 @@
     },
     {
       "info": "空元之诗·均：附加双方体力上限差值50%的次元·龙系伤害，自身体力上限高于对手时额外吸取对手第五技能剩余的PP值，自身体力上限低于对手时附加伤害翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#f35555]空元之诗[/color]·均：附加双方体力上限差值50%的次元·龙系伤害，自身体力上限高于对手时额外[color=#52a5f2]吸取[/color]对手第五技能剩余的PP值，自身体力上限低于对手时附加伤害翻倍",
       "args": [],
       "effect": {
         "id": 2090,
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b0178525"
+  "advance": null,
+  "hash": "c993ee86"
 }

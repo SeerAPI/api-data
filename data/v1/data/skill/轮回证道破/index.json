@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -39,6 +41,7 @@
         },
         {
           "info": "给对手造成伤害时，伤害数值的50%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的50%恢复自身体力（boss有效）",
           "args": [
             50
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "当回合未击败对手则使自身下回合受到的伤害降低50%",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则使自身下回合受到的伤害降低50%（boss有效）",
           "args": [
             50
           ],
@@ -59,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7859422a"
+  "hash": "5317b5f"
 }

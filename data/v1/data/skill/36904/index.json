@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%令对手疲惫，未触发则吸取对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手能力提升状态（boss有效）",
       "args": [
         50,
         7
@@ -32,6 +33,7 @@
     },
     {
       "info": "50%令对手害怕，未触发则1回合内每回合50%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则1回合内每回合50%闪避对手攻击",
       "args": [
         50,
         6,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e808c30a"
+  "advance": null,
+  "hash": "6c29cb57"
 }

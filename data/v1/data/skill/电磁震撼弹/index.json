@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身下2回合造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
           "args": [
             2,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则自身下2回合必定[color=#57c975]致命一击[/color]",
           "args": [
             2
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "未击败对手则恢复己方所有不在场精灵100点体力",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复[color=#52a5f2]己方[/color]所有不在场精灵100点体力（boss有效）",
           "args": [],
           "effect": {
             "id": 1307,
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "94eff8ca"
+  "hash": "2d06cac5"
 }

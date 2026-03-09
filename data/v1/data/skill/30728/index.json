@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力上升状态，消除成功下2回合必定暴击",
+      "analyze_info": "[sprite name=iconHit]消除对手能力上升状态，消除成功下2回合必定暴击（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "击败对手则对方下只精灵出战时己方在场精灵吸取其最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color][color=#52a5f2]己方[/color]在场精灵[color=#52a5f2]吸取[/color]其最大体力的1/3",
       "args": [
         3
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dcccc895"
+  "advance": null,
+  "hash": "8570391b"
 }

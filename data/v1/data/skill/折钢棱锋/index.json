@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身每处于1种能力提升状态，造成的伤害额外提升20%",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，造成的[color=#52a5f2]伤害额外提升[/color]20%",
           "args": [
             1,
             20
@@ -34,6 +35,7 @@
         },
         {
           "info": "若自身不处于能力提升或下降状态时则恢复300点体力",
+          "analyze_info": "[sprite name=iconHit]若自身不处于能力提升或下降状态时则恢复300点体力（boss有效）",
           "args": [
             300
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "未击败对手则降低对手所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则降低对手所有技能2点PP值",
           "args": [
             2
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "99c66fb5"
+  "hash": "f6fa095"
 }

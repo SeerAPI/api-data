@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将能力下降状态反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将能力下降状态反馈给对手（boss有效）",
           "args": [],
           "effect": {
             "id": 63,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态，若消除成功，则对手害怕",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功，则对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             6
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "25ae8e8"
+  "hash": "f1c57d40"
 }

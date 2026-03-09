@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "10%概率伤害为3倍，未触发则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]10%概率伤害为3倍，[color=#52a5f2]未触发[/color]则附加300点[color=#52a5f2]固定伤害[/color]",
           "args": [
             10,
             3,
@@ -35,6 +36,7 @@
         },
         {
           "info": "未击败对手则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ba5d3c26"
+  "hash": "fee11852"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合使用技能则吸取对手400点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能则[color=#52a5f2]吸取[/color]对手400点体力，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
       "args": [
         4,
         400,
@@ -43,6 +45,7 @@
     },
     {
       "info": "自身主动切换下场后令己方下只精灵出战时获得400点护盾",
+      "analyze_info": "[sprite name=iconHit]自身[color=#52a5f2]主动切换[/color][color=#57c975]下场后[/color]令[color=#52a5f2]己方[/color]下只精灵[color=#57c975]出战时[/color]获得400点[color=#57c975]护盾[/color]",
       "args": [
         400
       ],
@@ -53,6 +56,7 @@
     },
     {
       "info": "自身主动切换下场后令己方下只精灵出战时获得400点护罩",
+      "analyze_info": "[sprite name=iconHit]自身[color=#52a5f2]主动切换[/color][color=#57c975]下场后[/color]令[color=#52a5f2]己方[/color]下只精灵[color=#57c975]出战时[/color]获得400点[color=#57c975]护罩[/color]",
       "args": [
         400
       ],
@@ -63,6 +67,7 @@
     },
     {
       "info": "后出手则下1回合令对手使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]后出手则下1回合令对手使用的攻击技能无效",
       "args": [
         1
       ],
@@ -74,5 +79,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "431f38e3"
+  "advance": null,
+  "hash": "39ae3d53"
 }

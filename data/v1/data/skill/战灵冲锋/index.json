@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加对手已损失生命值30%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手已损失生命值30%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             30
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6d3e8598"
+  "hash": "cdeaf48a"
 }

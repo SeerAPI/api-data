@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "自身不处于能力提升状态则造成的伤害提升75%",
+          "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态则造成的伤害提升75%（boss有效）",
           "args": [
             75
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "当回合击败对手则回合结束时损失1层自然祝福",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则[color=#57c975]回合结束时[/color]损失1层[color=#f35555]自然祝福[/color]（boss有效）",
           "args": [
             1
           ],
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "61a2e24f"
+  "hash": "838d02b3"
 }

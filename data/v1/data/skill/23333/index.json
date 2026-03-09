@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "减少200点下回合所受的伤害",
+      "analyze_info": "[sprite name=iconHit]减少200点下回合所受的伤害（boss有效）",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "5回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7bc4b0c1"
+  "advance": null,
+  "hash": "3425588e"
 }

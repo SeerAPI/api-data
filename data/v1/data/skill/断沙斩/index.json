@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除自身能力下降状态，消除成功下1回合自身直接攻击必定暴击",
+          "analyze_info": "[sprite name=iconHit]消除自身能力下降状态，消除成功下1回合自身直接攻击必定暴击（boss有效）",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "自身每有1回合异常状态造成伤害提升25%，最高150%",
+          "analyze_info": "[sprite name=iconHit]自身每有1回合异常状态造成伤害提升25%，最高150%",
           "args": [
             25,
             150
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "370984d5"
+  "hash": "e1504dfc"
 }

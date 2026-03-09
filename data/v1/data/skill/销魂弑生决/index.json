@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时使对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手随机1个技能PP值归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时令对手当回合使用的技能的PP值额外-5",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手[color=#52a5f2]当回合[/color]使用的技能的PP值额外-5",
           "args": [
             5
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "吸取对手200点固定体力，每次使用额外附加50点，最高350点",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点固定体力，每次使用额外附加50点，最高350点（boss有效）",
           "args": [
             200,
             50,
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7aa74af0"
+  "hash": "e2827557"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后50%令对方冻伤",
+          "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "额外附加80点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加80点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             80
           ],
@@ -45,6 +47,7 @@
       "friend_skill_effect": [
         {
           "info": "命中后50%令对方冻伤",
+          "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             50
           ],
@@ -55,6 +58,7 @@
         },
         {
           "info": "额外附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100
           ],
@@ -64,8 +68,9 @@
           }
         }
       ],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dac84cc5"
+  "hash": "3dd78a5"
 }

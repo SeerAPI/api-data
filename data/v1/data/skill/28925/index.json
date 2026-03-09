@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于异常状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若自身处于异常状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于异常状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 2020,
@@ -39,6 +41,7 @@
     },
     {
       "info": "解除自身所处的异常状态，解除成功令对手冰封",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功令对手[color=#57c975]冰封[/color]",
       "args": [
         15
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "将对手所处的异常状态转移给自身，每转移一项吸取对手200点体力",
+      "analyze_info": "[sprite name=iconHit]将对手所处的异常状态转移给自身，每转移一项[color=#52a5f2]吸取[/color]对手200点体力",
       "args": [
         200
       ],
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3e2afe0b"
+  "advance": null,
+  "hash": "690dd15b"
 }

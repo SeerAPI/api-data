@@ -4,6 +4,7 @@
       "id": 832,
       "desc": "自身选择了技能的回合开始时，若此技能与上次相同则当回合技能先制+1，若不相同则恢复最大体力1/3并造成等量固定伤害，恢复量与伤害量最高为自身已损失体力值|自身登场时，背包内每有1只精灵存活自身获得100点护盾，最高600点，每有1只精灵阵亡，本次在场自身使用攻击技能时当回合造成的攻击伤害提升10%；自身因上述效果获得的护盾低于300时下2次对手使用攻击技能时自身当回合受到的攻击伤害减少50%，获得的伤害可提升百分比低于30%时自身下次使用攻击技能时消除对手回合类效果且当回合攻击必定打出致命一击（BOSS无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>选择的技能类型与上次相同则当回合<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>选择的技能类型与上次不同则<color=#64F9FA>恢复</color>最大体力1/3并<color=#64F9FA>附加</color>等量<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场时，背包内：\r\n<indent=32><sprite=4><indent=48>每有一只精灵存活则为自身<color=#64F9FA>附加</color>100点<b>护盾</b>，最高600点\r\n<indent=32><sprite=4><sprite=4><indent=64>附加的护盾低于300则下2次受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%\r\n<indent=32><sprite=4><indent=48>每有一只精灵阵亡本次在场自身造成的<b>攻击伤害</b><color=#64F9FA>提升</color>10%\r\n<indent=32><sprite=4><sprite=4><indent=64>提高的伤害低于30%则自身下1次攻击必定<color=#64F9FA>打出致命一击</color>并<color=#64F9FA>消除</color>对手<b>回合类效果</b>",
+      "analyze_desc": "[sprite name=dot4]自身选择了技能的[color=#57c975]回合开始时[/color]，若此技能与上次相同则[color=#52a5f2]当回合[/color][color=#52a5f2]技能先制[/color]+1，若不相同则恢复最大体力1/3并造成等量[color=#52a5f2]百分比伤害[/color]，恢复量与伤害量最高为自身[color=#52a5f2]已损失体力[/color]值|[sprite name=dot4]自身[color=#57c975]登场时[/color]，背包内每有1只精灵存活自身获得100点[color=#57c975]护盾[/color]，最高600点，每有1只精灵阵亡，本次在场自身使用攻击技能时[color=#52a5f2]当回合[/color]造成的攻击伤害提升10%；若自身因上述效果获得的[color=#57c975]护盾[/color]低于300则下2次对手使用攻击技能时自身[color=#52a5f2]当回合[/color]受到的攻击伤害减少50%，若自身因上述效果获得的伤害可提升百分比低于30%时自身下次使用攻击技能时消除对手[color=#52a5f2]回合类效果[/color]且[color=#52a5f2]当回合[/color]攻击必定打出[color=#57c975]致命一击[/color]",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -45,8 +46,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "8e13433a"
+  "hash": "ca2ef5af"
 }

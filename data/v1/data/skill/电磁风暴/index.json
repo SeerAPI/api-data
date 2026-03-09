@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "50%使对手麻痹，未触发则自身下2回合攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]50%使对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则自身下2回合攻击必定[color=#57c975]致命一击[/color]",
           "args": [
             50,
             0,
@@ -55,6 +58,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             2,
             1
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8fa64877"
+  "hash": "611f9f3d"
 }

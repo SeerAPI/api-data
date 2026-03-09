@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合随机恢复250-350点体力",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合随机恢复250-350点体力（boss有效）",
       "args": [
         4,
         250,
@@ -43,6 +45,7 @@
     },
     {
       "info": "下2回合自身攻击先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "29d197fc"
+  "advance": null,
+  "hash": "61288944"
 }

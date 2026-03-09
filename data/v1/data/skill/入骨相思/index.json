@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，防御+2，特攻+2，特防+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+2，特攻+2，特防+2（boss有效）",
           "args": [
             0,
             2,
@@ -38,6 +39,7 @@
         },
         {
           "info": "3回合内每回合50%闪避对手攻击，未触发则使对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合50%闪避对手攻击，[color=#52a5f2]未触发[/color]则使对手随机2项技能PP值归零（boss有效）",
           "args": [
             3,
             50,
@@ -50,6 +52,7 @@
         },
         {
           "info": "3回合内若对手MISS则自身恢复1/2的最大体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手MISS则自身恢复1/2的最大体力值（boss有效）",
           "args": [
             3,
             2
@@ -61,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51273f3d"
+  "hash": "1e1bafd9"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视护盾效果",
+          "analyze_info": "[sprite name=iconHit]无视[color=#57c975]护盾[/color]效果",
           "args": [],
           "effect": {
             "id": 1568,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若对手不处于异常状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "吸取对手200点体力，体力低于对手时吸取效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点体力，体力低于对手时[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
           "args": [
             200
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "417b575f"
+  "hash": "6a10c881"
 }

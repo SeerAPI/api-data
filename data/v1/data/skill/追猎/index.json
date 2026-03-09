@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特攻等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+1（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身命中等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
           "args": [
             5,
             100,
@@ -47,7 +49,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "28230": {
       "id": 28230,
@@ -72,6 +75,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手使用属性技能则随机附加1种异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用属性技能则随机附加1种异常状态",
           "args": [
             3,
             1
@@ -83,8 +87,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "246b8e0a"
+  "hash": "4baee27a"
 }

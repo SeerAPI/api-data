@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则免疫下1回合受到的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则免疫下1回合受到的攻击伤害",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "吸取对手240点体力，若对手任意1项技能PP值小于2点则吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手240点体力，若对手任意1项技能PP值小于2点则[color=#52a5f2]吸取[/color]效果翻倍",
       "args": [
         240,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "当回合未击败对手则减少对方所有技能PP2点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则减少对方所有技能PP2点",
       "args": [
         2
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "50009071"
+  "advance": null,
+  "hash": "3d3bafb"
 }

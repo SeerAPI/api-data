@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/4",
+      "analyze_info": "[sprite name=iconHit]当次攻击[color=#57c975]击败[/color]对方时减少对方下次出战精灵的最大体力1/4（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%概率额外附加70点固定伤害",
+      "analyze_info": "[sprite name=iconHit]100%概率额外附加70点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         70
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3e483fd3"
+  "advance": null,
+  "hash": "16e0e166"
 }

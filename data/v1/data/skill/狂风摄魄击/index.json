@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 180,
@@ -31,6 +32,7 @@
         },
         {
           "info": "2回合内若造成伤害大于300则100%概率使对手害怕",
+          "analyze_info": "[sprite name=iconHit]2回合内若造成伤害大于300则100%概率使对手[color=#57c975]害怕[/color]",
           "args": [
             2,
             300,
@@ -44,6 +46,7 @@
         },
         {
           "info": "造成伤害低于300，则造成伤害的80%恢复体力",
+          "analyze_info": "[sprite name=iconHit]造成伤害低于300，则造成伤害的80%恢复体力（boss有效）",
           "args": [
             0,
             300,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7f5b80f7"
+  "hash": "4a4ef8c5"
 }

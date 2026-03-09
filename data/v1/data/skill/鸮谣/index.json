@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若自身处于异常状态则造成的攻击伤害额外提升50%且回合结束后解除自身所有异常状态",
+          "analyze_info": "[sprite name=iconHit]若自身处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%且[color=#57c975]回合结束后[/color]解除自身所有异常状态（boss有效）",
           "args": [
             50
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "57b4ae12"
+  "hash": "95f8809f"
 }

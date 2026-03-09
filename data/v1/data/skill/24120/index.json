@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
       "args": [
         1,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "下3回合，能力提升状态消失则对手使用属性技能失效",
+      "analyze_info": "[sprite name=iconHit]下3回合，能力提升状态消失则对手使用属性技能失效",
       "args": [
         3
       ],
@@ -46,6 +48,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -56,6 +59,7 @@
     },
     {
       "info": "3回合内每回合攻击+1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合攻击+1（boss有效）",
       "args": [
         3,
         1,
@@ -73,5 +77,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5e7632ae"
+  "advance": null,
+  "hash": "eb25bb15"
 }

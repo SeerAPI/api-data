@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若本回合击败对手，下回合对方出场精灵命中-2",
+          "analyze_info": "[sprite name=iconHit]若本回合[color=#57c975]击败[/color]对手，下回合对方出场精灵命中-2（boss有效）",
           "args": [
             0,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "当回合未击败对手，则减少对手当前体力1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手，则减少对手当前体力1/3",
           "args": [
             3
           ],
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "43d6e028"
+  "hash": "d35e274b"
 }

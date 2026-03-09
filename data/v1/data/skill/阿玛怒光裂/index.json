@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自己出手时若自身体力低于对手则回合结束时减少对手1/4最大体力",
+          "analyze_info": "[sprite name=iconHit]自己出手时若自身体力低于对手则[color=#57c975]回合结束时[/color]减少对手1/4最大体力",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若当前体力低于对手则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d106eb27"
+  "hash": "38c27910"
 }

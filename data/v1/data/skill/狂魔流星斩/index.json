@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "与对手互换当前体力",
+          "analyze_info": "[sprite name=iconHit]与对手互换当前体力",
           "args": [],
           "effect": {
             "id": 705,
@@ -31,6 +32,7 @@
         },
         {
           "info": "下1回合攻击必定先出手",
+          "analyze_info": "[sprite name=iconHit]下1回合攻击必定先出手（boss有效）",
           "args": [
             1
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "19498703"
+  "hash": "d4cf3231"
 }

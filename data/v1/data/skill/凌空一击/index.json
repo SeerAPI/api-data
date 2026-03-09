@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手的话威力为2倍",
+          "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [],
           "effect": {
             "id": 40,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "16898": {
       "id": 16898,
@@ -55,7 +57,8 @@
       "learned_by_pet": [],
       "skill_effect": [],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "19196": {
       "id": 19196,
@@ -80,6 +83,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功恢复100%的体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功恢复100%的体力（boss有效）",
           "args": [
             0,
             100
@@ -91,6 +95,7 @@
         },
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -99,8 +104,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2b068f4f"
+  "hash": "d6faddb7"
 }

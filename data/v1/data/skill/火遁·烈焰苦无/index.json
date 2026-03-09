@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "50%概率威力翻倍 体力低于1/2时概率增加100%",
+          "analyze_info": "[sprite name=iconHit]50%概率[color=#52a5f2]威力[/color]翻倍 体力低于1/2时概率增加100%（boss有效）",
           "args": [
             50,
             2,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3da624b3"
+  "hash": "672e3027"
 }

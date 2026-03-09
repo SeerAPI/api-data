@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身下2回合造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%",
           "args": [
             2,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "若先出手则必定打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1395,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e071330e"
+  "hash": "8ac9fa81"
 }

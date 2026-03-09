@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%恢复自己所有技能PP值1点",
+          "analyze_info": "[sprite name=iconHit]100%恢复自己所有技能PP值1点（boss有效）",
           "args": [
             100,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
           "args": [
             3,
             2
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d97b7118"
+  "hash": "b5438c78"
 }

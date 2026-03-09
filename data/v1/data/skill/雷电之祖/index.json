@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则自身下1次技能先制+2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则自身下1次技能[color=#52a5f2]先制[/color]+2",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则对手麻痹",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则对手[color=#57c975]麻痹[/color]",
           "args": [
             0
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "63a0712d"
+  "hash": "72907f7f"
 }

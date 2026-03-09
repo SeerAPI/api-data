@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内每回合攻击+1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合攻击+1（boss有效）",
       "args": [
         3,
         1,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8f54d072"
+  "advance": null,
+  "hash": "84b6bb"
 }

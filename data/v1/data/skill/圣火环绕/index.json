@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "技能使用成功时，攻击+1，防御+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -46,6 +48,7 @@
         },
         {
           "info": "若对手处于能力提升状态则先制额外+1",
+          "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]额外+1（boss有效）",
           "args": [
             1
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9cac7c27"
+  "hash": "5414ece3"
 }

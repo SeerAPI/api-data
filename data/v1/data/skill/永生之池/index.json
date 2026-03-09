@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "为自身附加400点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加400点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             400
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除双方回合类效果并为双方附加3回合烧伤，自身烧伤状态解除后则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]并为双方附加3回合[color=#57c975]烧伤[/color]，自身[color=#57c975]烧伤[/color]状态解除后则恢复自身所有体力",
           "args": [
             3,
             2,
@@ -45,6 +47,7 @@
         },
         {
           "info": "免疫下1次对手的攻击",
+          "analyze_info": "[sprite name=iconHit]免疫下1次对手的攻击（boss有效）",
           "args": [
             1
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "412feae4"
+  "hash": "2e9533f2"
 }

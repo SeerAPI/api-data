@@ -3,6 +3,7 @@
   "args_num": 4,
   "info": "令双方所有技能PP值等于此技能剩余PP值，若对手变化值达到{0}则令对手{1}，若自身变化值达到{2}则令对手{3}",
   "info_formatting_adjustment": "令双方所有技能PP值等于此技能剩余PP值\r\n--><condition>若对手变化值达到{0}</condition>则令对手{1}\r\n--><condition>若自身变化值达到{2}</condition>则令对手{3}",
+  "analyze_info": "[sprite name=iconHit]令双方所有技能PP值等于此技能剩余PP值，若对手变化值[color=#52a5f2]达到[/color]{0}则令对手[color=#57c975]{1}[/color]，若自身变化值[color=#52a5f2]达到[/color]{2}则令对手[color=#57c975]{3}[/color]",
   "pve_effective": false,
   "param": [
     {
@@ -48,5 +49,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "ae3aba19"
+  "hash": "c5241e54"
 }

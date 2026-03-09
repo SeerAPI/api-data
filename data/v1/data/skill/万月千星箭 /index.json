@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于害怕状态则伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]害怕[/color]状态则伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 500,
@@ -31,6 +32,7 @@
         },
         {
           "info": "攻击结束时自身攻击+1",
+          "analyze_info": "[sprite name=iconHit]攻击结束时自身攻击+1（boss有效）",
           "args": [
             1,
             0,
@@ -48,6 +50,7 @@
       "friend_skill_effect": [
         {
           "info": "若对手处于害怕状态则伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]害怕[/color]状态则伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 500,
@@ -56,6 +59,7 @@
         },
         {
           "info": "攻击结束时自身攻击+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]攻击结束时自身攻击+1，速度+1（boss有效）",
           "args": [
             1,
             0,
@@ -70,8 +74,9 @@
           }
         }
       ],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d74ef53f"
+  "hash": "a1c9d53a"
 }

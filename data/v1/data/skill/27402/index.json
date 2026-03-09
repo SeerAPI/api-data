@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将自身能力下降状态反馈给对手，反馈成功则对手失明",
+      "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]失明[/color]",
       "args": [
         20
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内对手的状态变化会同时作用在自己身上",
+      "analyze_info": "[sprite name=iconHit]3回合内对手的状态变化会同时作用在自己身上（boss有效）",
       "args": [
         3
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1bb1afea"
+  "advance": null,
+  "hash": "914aa386"
 }

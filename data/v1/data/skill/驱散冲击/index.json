@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则自身下1次技能先制+2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则自身下1次技能[color=#52a5f2]先制[/color]+2",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "50%恢复自己所有技能PP值1点",
+          "analyze_info": "[sprite name=iconHit]50%恢复自己所有技能PP值1点（boss有效）",
           "args": [
             50,
             1
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f729d9c2"
+  "hash": "d5dfb98e"
 }

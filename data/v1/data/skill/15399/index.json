@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后30%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         30
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下回合其他攻击技能附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]下回合其他攻击技能附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1de51572"
+  "advance": null,
+  "hash": "9f7a2001"
 }

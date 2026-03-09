@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消耗自身全部体力，100%随机附加1种控制类异常状态，己方下只出场精灵2回合内攻击伤害提升50%且先制+1",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，100%随机附加1种控制类异常状态，[color=#52a5f2]己方[/color]下只出场精灵2回合内攻击伤害提升50%且[color=#52a5f2]先制[/color]+1",
           "args": [
             100,
             1,
@@ -37,8 +38,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f2080fc9"
+  "hash": "2c58a1f6"
 }

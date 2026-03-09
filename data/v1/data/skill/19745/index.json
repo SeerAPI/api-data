@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时，100%概率令对方害怕",
+      "analyze_info": "[sprite name=iconHit]先出手时，100%概率令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         100,
         6
@@ -32,6 +33,7 @@
     },
     {
       "info": "威力随机，随机范围100-200，连续使用每次威力提升20，最高提升至200",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围100-200，连续使用每次[color=#52a5f2]威力[/color]提升20，最高提升至200（boss有效）",
       "args": [
         100,
         200,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dd056c6c"
+  "advance": null,
+  "hash": "340dc6e7"
 }

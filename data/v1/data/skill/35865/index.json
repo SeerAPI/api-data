@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1061,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内自身能力提升状态被消除或吸取时，令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时，令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         3,
         1
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "394c1332"
+  "advance": null,
+  "hash": "baa2abe7"
 }

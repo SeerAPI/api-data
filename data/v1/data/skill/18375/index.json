@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内50%令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]2回合内50%令对手使用的属性技能无效（boss有效）",
       "args": [
         2,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合自身攻击先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8960192b"
+  "advance": null,
+  "hash": "34e36928"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合后对对手造成350点固定伤害 重复使用无法叠加",
+      "analyze_info": "[sprite name=iconHit]2回合后对对手造成350点[color=#52a5f2]固定伤害[/color] 重复使用无法叠加（boss有效）",
       "args": [
         2,
         350
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身攻击等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+1（boss有效）",
       "args": [
         0,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
       "args": [
         1,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
       "args": [
         3,
         100,
@@ -68,6 +72,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         100,
@@ -81,5 +86,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e0c99a2a"
+  "advance": null,
+  "hash": "7582f285"
 }

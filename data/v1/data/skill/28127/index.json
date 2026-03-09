@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手时使对手流血，未触发则附加自身当前体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手[color=#57c975]流血[/color]，[color=#52a5f2]未触发[/color]则附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         16,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "命中后100%使对手害怕，未触发则对手下2回合先制-2",
+      "analyze_info": "[sprite name=iconHit]命中后100%使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则对手下2回合[color=#52a5f2]先制[/color]-2",
       "args": [
         100,
         6,
@@ -45,6 +47,7 @@
     },
     {
       "info": "下2回合攻击技能吸取对手1/3最大体力值",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击技能[color=#52a5f2]吸取[/color]对手1/3最大体力值",
       "args": [
         2,
         3
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "925790ab"
+  "advance": null,
+  "hash": "3d5d692c"
 }

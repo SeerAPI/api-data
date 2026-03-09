@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
       "args": [],
       "effect": {
         "id": 699,
@@ -29,6 +30,7 @@
     },
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合对手攻击技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下2回合对手攻击技能无效",
       "args": [
         2
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "解除自身所处的异常状态，解除成功则本次攻击威力提升50%",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功则本次攻击[color=#52a5f2]威力[/color]提升50%",
       "args": [
         50
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         300,
         1
@@ -60,6 +64,7 @@
     },
     {
       "info": "造成的攻击伤害低于300时附加300点固定伤害，若本次攻击微弱对手则附加的固定伤害除以克制倍数",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害低于300时附加300点[color=#52a5f2]固定伤害[/color]，若本次攻击微弱对手则附加的[color=#52a5f2]固定伤害[/color]除[color=#52a5f2]以[/color]克制倍数",
       "args": [
         300,
         300
@@ -72,5 +77,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "82f8256e"
+  "advance": null,
+  "hash": "e81c9e70"
 }

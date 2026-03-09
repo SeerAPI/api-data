@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "获得500点护盾，护盾消失时对对手造成200点固定伤害且有50%的概率使对手石化",
+      "analyze_info": "[sprite name=iconHit]获得500点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时对对手造成200点[color=#52a5f2]固定伤害[/color]且有50%的概率使对手[color=#57c975]石化[/color]（boss有效）",
       "args": [
         500,
         200,
@@ -44,6 +46,7 @@
     },
     {
       "info": "3回合内使用技能附加200点固定伤害，若自身体力高于对手则效果翻倍",
+      "analyze_info": "[sprite name=iconHit]3回合内使用技能附加200点[color=#52a5f2]固定伤害[/color]，若自身体力高于对手则效果翻倍（boss有效）",
       "args": [
         3,
         200
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a1183cdb"
+  "advance": null,
+  "hash": "6f4d2b59"
 }

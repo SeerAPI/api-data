@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，攻击+2，特防+2，速度+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+2，特防+2，速度+1（boss有效）",
       "args": [
         2,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -46,6 +48,7 @@
     },
     {
       "info": "对手处于能力下降状态时随机附加1种异常状态",
+      "analyze_info": "[sprite name=iconHit]对手处于能力下降状态时随机附加1种异常状态",
       "args": [
         1
       ],
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "bd3cac35"
+  "advance": null,
+  "hash": "c0313ef7"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时将对手的能力提升状态视为相应的能力下降状态",
+          "analyze_info": "[sprite name=iconInherent]攻击时将对手的能力提升状态视为相应的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 1767,
@@ -31,6 +32,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则令对手下1次使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则令对手下1次使用的攻击技能无效",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "吸取并反转对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]并[color=#52a5f2]反转[/color]对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 978,
@@ -49,6 +52,7 @@
         },
         {
           "info": "100%令对手睡眠，未触发则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则令对手2回合内使用的属性技能无效",
           "args": [
             100,
             8,
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4f979980"
+  "hash": "2d096b51"
 }

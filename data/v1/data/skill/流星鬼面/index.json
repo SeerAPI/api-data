@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手造成的伤害低于300，则对手害怕",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手造成的伤害低于300，则对手[color=#57c975]害怕[/color]",
           "args": [
             3,
             300,
@@ -45,6 +47,7 @@
         },
         {
           "info": "3回合内若受到的伤害大于300，则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于300，则恢复自身所有体力",
           "args": [
             3,
             300
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cd4cdf31"
+  "hash": "cce2f729"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身HP小于1/2时威力为2倍",
+          "analyze_info": "[sprite name=iconHit]自身HP小于1/2时[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [
             2,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "造成伤害的50%恢复自身体力，若打出致命一击则附加恢复体力值等量的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若打出[color=#57c975]致命一击[/color]则附加恢复体力值等量的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f2c0b85f"
+  "hash": "17f9e4e6"
 }

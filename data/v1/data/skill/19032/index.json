@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后50%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内免疫大于280的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫大于280的攻击伤害",
       "args": [
         3,
         280
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6f209002"
+  "advance": null,
+  "hash": "6b6f2954"
 }

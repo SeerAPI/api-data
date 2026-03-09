@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手处于异常状态时100%令对手中毒",
+      "analyze_info": "[sprite name=iconHit]对手处于异常状态时100%令对手[color=#57c975]中毒[/color]（boss有效）",
       "args": [
         100,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "使自身体力百分比与对手体力百分比对调，自身体力百分比高于对手时100%令对手沉默",
+      "analyze_info": "[sprite name=iconHit]使自身体力百分比与对手体力百分比对调，自身体力百分比高于对手时100%令对手[color=#57c975]沉默[/color]",
       "args": [
         100,
         30
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b94233ed"
+  "advance": null,
+  "hash": "16d304f7"
 }

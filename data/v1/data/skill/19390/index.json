@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手的能力提升状态，反转成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转对手[/color]的能力提升状态，反转成功则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 778,
@@ -29,6 +30,7 @@
     },
     {
       "info": "2回合使对方攻击伤害是正常状态下的1/2倍",
+      "analyze_info": "[sprite name=iconHit]2回合使对方攻击伤害是正常状态下的1/2倍（boss有效）",
       "args": [
         2,
         2
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5c8c7156"
+  "advance": null,
+  "hash": "b73394f1"
 }

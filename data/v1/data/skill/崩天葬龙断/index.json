@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于护盾状态下先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护盾[/color]状态下[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1487,
@@ -31,6 +32,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则下2回合自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下2回合自身所有技能[color=#52a5f2]先制[/color]+2",
           "args": [
             2,
             2
@@ -42,6 +44,7 @@
         },
         {
           "info": "随机附加给对手150-250点固定伤害，若打出致命一击则效果转变为吸取对手300-400点体力",
+          "analyze_info": "[sprite name=iconHit]随机附加给对手150-250点[color=#52a5f2]固定伤害[/color]，若打出[color=#57c975]致命一击[/color]则效果转变为[color=#52a5f2]吸取[/color]对手300-400点体力（boss有效）",
           "args": [
             150,
             250,
@@ -55,6 +58,7 @@
         },
         {
           "info": "2回合内若自身处于能力提升状态则每回合使用技能100%令对手石化",
+          "analyze_info": "[sprite name=iconHit]2回合内若自身处于能力提升状态则每回合使用技能100%令对手[color=#57c975]石化[/color]",
           "args": [
             2,
             100,
@@ -67,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7234dc4d"
+  "hash": "c8fa53d5"
 }

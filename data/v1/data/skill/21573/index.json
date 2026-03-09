@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手速度等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-1（boss有效）",
       "args": [
         4,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "命中后100%令对方冻伤",
+      "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]冻伤[/color]（boss有效）",
       "args": [
         100
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5c5c4a6f"
+  "advance": null,
+  "hash": "840c978d"
 }

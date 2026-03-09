@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "火之力量觉醒，使自身下1次攻击获得灼心之焰效果",
+      "analyze_info": "[sprite name=iconHit]火之力量觉醒，使自身下1次攻击获得[color=#f35555]灼心之焰[/color]效果",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "随机吸取对手200-300点体力，若自身处于能力提升状态则效果转变为300-400点",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手200-300点体力，若自身处于能力提升状态则效果转变为300-400点（boss有效）",
       "args": [
         200,
         300,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6294060f"
+  "advance": null,
+  "hash": "93a6df37"
 }

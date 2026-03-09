@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身攻击+1，防御+1，特防+1，速度+1，对手烧伤时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit]自身攻击+1，防御+1，特防+1，速度+1，对手[color=#57c975]烧伤[/color]时强化效果翻倍（boss有效）",
           "args": [
             1,
             1,
@@ -39,6 +40,7 @@
         },
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "42dc5e9e"
+  "hash": "996e37ae"
 }

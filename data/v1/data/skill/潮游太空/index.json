@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]5回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下5回合对手使用体力药剂时效果变成减少相应的体力",
+          "analyze_info": "[sprite name=iconHit]下5回合对手使用体力药剂时效果变成减少相应的体力（boss有效）",
           "args": [
             5
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "36335a3e"
+  "hash": "2f2b15db"
 }

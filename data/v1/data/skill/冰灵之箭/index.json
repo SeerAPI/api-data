@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则对手下1回合技能失效",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则对手下1回合技能失效",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害低于250则吸取对手1/4最大体力",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于250则[color=#52a5f2]吸取[/color]对手1/4最大体力",
           "args": [
             250,
             4
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8db76a6d"
+  "hash": "c86e38f7"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "携带此技能时，自身触发霜浮之刃与灼掠之刃的概率提升50%，每回合开始时减少自身体力上限的1%并获得等量的护盾、护罩，可叠加，然后己方获得等量的暖雪",
+          "analyze_info": "[sprite name=iconInherent]携带此技能时，自身触发[color=#f35555]霜浮之刃[/color]与[color=#f35555]灼掠之刃[/color]的概率提升50%，每回合开始时减少自身体力上限的1%，然后己方获得等量的[color=#f35555]暖雪[/color]，自身获得等量的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]，可叠加",
           "args": [],
           "effect": {
             "id": 2424,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
           "args": [],
           "effect": {
             "id": 697,
@@ -39,6 +41,7 @@
         },
         {
           "info": "2回合内对手恢复体力时恢复效果减少50%",
+          "analyze_info": "[sprite name=iconHit]2回合内对手恢复体力时恢复效果减少50%（boss有效）",
           "args": [
             2,
             50
@@ -50,8 +53,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9556e8cf"
+  "hash": "ae3e6371"
 }

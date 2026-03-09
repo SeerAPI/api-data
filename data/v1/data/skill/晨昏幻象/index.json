@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时降低对手所有PP2点",
+          "analyze_info": "[sprite name=iconHit]先出手时降低对手所有PP2点",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时，100%概率使对方睡眠",
+          "analyze_info": "[sprite name=iconHit]后出手时，100%概率使对方[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             100,
             8
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d09ccb91"
+  "hash": "5a3e1c61"
 }

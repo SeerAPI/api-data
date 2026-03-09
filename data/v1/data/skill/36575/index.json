@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以50的固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除双方能力上升、下降状态（boss有效），消除成功则附加消除总段数乘[color=#52a5f2]以[/color]50的[color=#52a5f2]固定伤害[/color]",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加自身已损失PP值总和x30的固定伤害，对手免疫固定伤害时额外附加等量的真实伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身已损失PP值总和x30的[color=#52a5f2]固定伤害[/color]，对手免疫[color=#52a5f2]固定伤害[/color]时额外附加等量的[color=#52a5f2]真实伤害[/color]",
       "args": [
         30
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4b09ceb"
+  "advance": null,
+  "hash": "dc3711a2"
 }

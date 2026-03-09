@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
       "args": [
         100,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "未击败对手则恢复自身所有技能2点PP值",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复自身所有技能2点PP值",
       "args": [
         2
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "命中后70%令对手寄生，自身每损失10%的体力概率提升10%",
+      "analyze_info": "[sprite name=iconHit]命中后70%令对手[color=#57c975]寄生[/color]，自身每损失10%的体力概率提升10%",
       "args": [
         70,
         4,
@@ -55,6 +58,7 @@
     },
     {
       "info": "自身下次被击败后下一只出场的精灵防御+3，特防+3，命中+3",
+      "analyze_info": "[sprite name=iconHit]自身下次[color=#57c975]被击败[/color]后下一只出场的精灵防御+3，特防+3，命中+3（boss有效）",
       "args": [
         0,
         3,
@@ -71,5 +75,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cdf2dc5"
+  "advance": null,
+  "hash": "d85448d7"
 }

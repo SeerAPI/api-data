@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "暴击率提升40%，每次使用额外提升10%，最高概率100%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升40%，每次使用额外提升10%，最高概率100%（boss有效）",
       "args": [
         40,
         10,
@@ -43,6 +45,7 @@
     },
     {
       "info": "若打出致命一击则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 496,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c6d3802c"
+  "advance": null,
+  "hash": "d640aa2d"
 }

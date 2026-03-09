@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "当回合造成的攻击伤害若高于300则100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]害怕[/color]",
       "args": [
         300,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "附加自身当前体力值20%的百分比伤害，每次使用增加10%，最高40%",
+      "analyze_info": "[sprite name=iconHit]附加自身当前体力值20%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高40%（boss有效）",
       "args": [
         20,
         10,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "634fb37a"
+  "advance": null,
+  "hash": "f1326b8b"
 }

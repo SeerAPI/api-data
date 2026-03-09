@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下回合若受到的伤害大于200，则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于200，则恢复自身所有体力（boss有效）",
           "args": [
             200
           ],
@@ -33,8 +34,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "83e9a066"
+  "hash": "ecf860d"
 }

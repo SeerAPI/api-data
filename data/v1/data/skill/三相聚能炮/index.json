@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击对手时若对手处于烧伤状态，则100%使对手焚烬",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则100%使对手[color=#57c975]焚烬[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "攻击对手时若对手处于冻伤状态，则100%使对手冰封",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]冻伤[/color]状态，则100%使对手[color=#57c975]冰封[/color]（boss有效）",
           "args": [
             5,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "攻击对手时若对手处于中毒状态，则100%使对手感染",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]中毒[/color]状态，则100%使对手[color=#57c975]感染[/color]（boss有效）",
           "args": [
             1,
             100,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f46e12b2"
+  "hash": "c97bb321"
 }

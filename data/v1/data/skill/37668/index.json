@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做5~10次攻击，每次攻击30%令对手流血，攻击低于7次则每次攻击60%令对手流血",
+      "analyze_info": "[sprite name=iconHit]1回合做5~10次攻击，每次攻击30%令对手[color=#57c975]流血[/color]，攻击低于7次则每次攻击60%令对手[color=#57c975]流血[/color]",
       "args": [
         5,
         10,
@@ -37,6 +38,7 @@
     },
     {
       "info": "若自身体力小于1/2，则每次攻击不消耗PP值",
+      "analyze_info": "[sprite name=iconHit]若自身体力小于1/2，则每次攻击不消耗PP值（boss有效）",
       "args": [
         2
       ],
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "412fcd96"
+  "advance": null,
+  "hash": "e101aafd"
 }

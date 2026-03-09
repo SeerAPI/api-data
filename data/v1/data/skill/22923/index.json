@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内对手使用正先制的技能时100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用正[color=#52a5f2]先制[/color]的技能时100%令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定命中",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能[color=#52a5f2]必定命中[/color]（boss有效）",
       "args": [
         2
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ba6f855a"
+  "advance": null,
+  "hash": "246634ce"
 }

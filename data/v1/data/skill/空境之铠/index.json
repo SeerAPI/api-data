@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下3回合每回合使用攻击技能附加自身防御、特防值总和40%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]下3回合每回合使用攻击技能附加自身防御、特防值总和40%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             3,
             40
@@ -44,6 +46,7 @@
         },
         {
           "info": "吸取对手200点体力，体力低于对手时吸取效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点体力，体力低于对手时[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
           "args": [
             200
           ],
@@ -54,6 +57,7 @@
         },
         {
           "info": "命中后70%使对手害怕，若未触发则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]命中后70%使对手[color=#57c975]害怕[/color]，若[color=#52a5f2]未触发[/color]则恢复自身全部体力",
           "args": [
             70,
             6
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c32af87"
+  "hash": "c1aa8830"
 }

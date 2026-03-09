@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下回合受到的伤害转化为自身体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下回合受到的伤害[color=#52a5f2]转化[/color]为自身体力",
           "args": [],
           "effect": {
             "id": 1219,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力上升状态，消除成功对手攻击-2，特攻-2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力上升状态（boss有效），消除成功对手攻击-2，特攻-2",
           "args": [
             -2,
             0,
@@ -46,6 +48,7 @@
         },
         {
           "info": "后出手时50%令对手对手石化，未触发则使自身下2回合必定致命一击",
+          "analyze_info": "[sprite name=iconHit]后出手时50%令对手对手[color=#57c975]石化[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
           "args": [
             50,
             9,
@@ -58,8 +61,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "85a7aa74"
+  "hash": "5cefc378"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
           "args": [],
           "effect": {
             "id": 697,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -39,6 +41,7 @@
         },
         {
           "info": "后出手时50%令对手对手睡眠，未触发则使自身下2回合必定致命一击",
+          "analyze_info": "[sprite name=iconHit]后出手时50%令对手对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
           "args": [
             50,
             8,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1cda31bc"
+  "hash": "2c2bc19f"
 }

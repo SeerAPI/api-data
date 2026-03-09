@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身防御等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+2（boss有效）",
       "args": [
         1,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+2（boss有效）",
       "args": [
         3,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "5回合内自身令对手使用的火系攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]5回合内自身令对手使用的火系攻击技能无效（boss有效）",
       "args": [
         5,
         3
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7e5768d8"
+  "advance": null,
+  "hash": "4c9a4d8a"
 }

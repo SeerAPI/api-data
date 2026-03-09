@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内受到攻击100%概率回复100点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率回复100点体力（boss有效）",
           "args": [
             3,
             100,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "45870a93"
+  "hash": "b7cac2d6"
 }

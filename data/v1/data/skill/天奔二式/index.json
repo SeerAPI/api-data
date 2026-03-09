@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身不处于能力提升状态时先制+1且必定命中",
+          "analyze_info": "[sprite name=iconInherent]自身不处于能力提升状态时[color=#52a5f2]先制[/color]+1且[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1860,
@@ -31,6 +32,7 @@
         },
         {
           "info": "未击败对手则下回合自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下回合自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e859ec41"
+  "hash": "3a7ca0fa"
 }

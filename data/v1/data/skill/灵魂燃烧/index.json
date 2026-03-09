@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手速度等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-1（boss有效）",
           "args": [
             4,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "额外附加150点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             150
           ],
@@ -45,7 +47,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "23416": {
       "id": 23416,
@@ -70,6 +73,7 @@
       "skill_effect": [
         {
           "info": "命中后100%令对方烧伤",
+          "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             100
           ],
@@ -80,6 +84,7 @@
         },
         {
           "info": "100%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+          "analyze_info": "[sprite name=iconHit]100%降低对手所有技能1点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
           "args": [
             100,
             1
@@ -91,6 +96,7 @@
         },
         {
           "info": "2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]2回合内令对手使用的属性技能无效（boss有效）",
           "args": [
             2
           ],
@@ -101,8 +107,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "39ddf993"
+  "hash": "a19bbf2d"
 }

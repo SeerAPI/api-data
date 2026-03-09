@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功恢复100%的体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功恢复100%的体力（boss有效）",
           "args": [
             0,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "自身为满体力时50%令对手诅咒，未触发则下2回合对手所有技能先制-1",
+          "analyze_info": "[sprite name=iconHit]自身为满体力时50%令对手[color=#57c975]诅咒[/color]，[color=#52a5f2]未触发[/color]则下2回合对手所有技能[color=#52a5f2]先制[/color]-1",
           "args": [
             50,
             23,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d3ce45c6"
+  "hash": "890e9f71"
 }

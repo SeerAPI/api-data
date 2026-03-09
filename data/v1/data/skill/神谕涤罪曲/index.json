@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若体力大于对手，则消耗自身体力至残留1点HP给对手造成350-550点伤害；若体力小于对手，则消耗自身全部体力给对手等同于消耗量的固定伤害并使对手瘫痪2回合，若对手受到致命伤害时残留1点体力",
+          "analyze_info": "[sprite name=iconHit]若体力大于对手，则消耗自身体力至残留1点HP给对手造成350-550点伤害；若体力小于对手，则消耗自身全部体力给对手等同于消耗量的[color=#52a5f2]固定伤害[/color]并使对手[color=#57c975]瘫痪[/color]2回合，若对手受到致命伤害时残留1点体力",
           "args": [],
           "effect": {
             "id": 1277,
@@ -31,8 +32,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f76909df"
+  "hash": "70ed286d"
 }

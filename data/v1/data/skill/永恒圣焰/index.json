@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对方烧伤时，附加50点伤害",
+          "analyze_info": "[sprite name=iconHit]对方[color=#57c975]烧伤[/color]时，附加50点伤害（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若击败烧伤的对手则对方下只出战精灵烧伤",
+          "analyze_info": "[sprite name=iconHit]若[color=#57c975]击败[/color][color=#57c975]烧伤[/color]的对手则对方下只出战精灵[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "998e06cd"
+  "hash": "7170a1df"
 }

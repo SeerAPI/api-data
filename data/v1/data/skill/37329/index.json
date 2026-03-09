@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做15-20次攻击，自身处于护盾状态下连击上限为25",
+      "analyze_info": "[sprite name=iconHit]1回合做15-20次攻击，自身处于[color=#57c975]护盾[/color]状态下连击上限为25（boss有效）",
       "args": [
         15,
         20,
@@ -33,6 +34,7 @@
     },
     {
       "info": "消耗自身所有护盾值并附加等量固定伤害，若对手体力未变化则恢复自身等量体力值",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有[color=#57c975]护盾[/color]值并附加等量[color=#52a5f2]固定伤害[/color]，若对手体力未变化则恢复自身等量体力值",
       "args": [],
       "effect": {
         "id": 1662,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4f35053d"
+  "advance": null,
+  "hash": "f1b9ee23"
 }

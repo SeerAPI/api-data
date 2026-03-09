@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力上升状态，消除成功则2回合内对手每回合命中-2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力上升状态，消除成功则2回合内对手每回合命中-2（boss有效）",
           "args": [
             2,
             5,
@@ -35,6 +36,7 @@
         },
         {
           "info": "随机使自身3项能力值+1，先出手时提升效果翻倍",
+          "analyze_info": "[sprite name=iconHit]随机使自身3项能力值+1，先出手时提升效果翻倍（boss有效）",
           "args": [
             3,
             1
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4d8287f9"
+  "hash": "fcb0f2ed"
 }

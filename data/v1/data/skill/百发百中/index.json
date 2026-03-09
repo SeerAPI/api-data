@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身速度等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
           "args": [
             4,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身命中等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+2（boss有效）",
           "args": [
             5,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "2回合内若对方使用属性技能，则50%使对方麻痹",
+          "analyze_info": "[sprite name=iconHit]2回合内若对方使用属性技能，则50%使对方[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             2,
             50,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "185f114f"
+  "hash": "c9add0c"
 }

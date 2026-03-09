@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手的体力大于500，则每次使用自身攻击+1",
+      "analyze_info": "[sprite name=iconHit]若对手的体力大于500，则每次使用自身攻击+1（boss有效）",
       "args": [
         500,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "若对手的HP小于500，则造成的伤害增加50%",
+      "analyze_info": "[sprite name=iconHit]若对手的HP小于500，则造成的伤害增加50%（boss有效）",
       "args": [
         500,
         50
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "376b2c1a"
+  "advance": null,
+  "hash": "a2d3f380"
 }

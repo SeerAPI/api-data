@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身的能力下降状态双倍反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将自身的能力下降状态双倍反馈给对手（boss有效）",
           "args": [],
           "effect": {
             "id": 813,
@@ -31,6 +32,7 @@
         },
         {
           "info": "未击败对手则己方下2次攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则[color=#52a5f2]己方[/color]下2次攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "71e52d14"
+  "hash": "c2be49ba"
 }

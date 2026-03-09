@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内自身受到的固定伤害和百分比伤害减少60%",
+          "analyze_info": "[sprite name=iconHit]4回合内自身受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少60%（boss有效）",
           "args": [
             4,
             60
@@ -44,6 +46,7 @@
         },
         {
           "info": "4回合内每回合结束后降低对手所有技能2点PP值并恢复自身所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]4回合内每[color=#57c975]回合结束后[/color]降低对手所有技能2点PP值并恢复自身所有技能2点PP值",
           "args": [
             4,
             2,
@@ -56,6 +59,7 @@
         },
         {
           "info": "附加200点固定伤害，每次使用额外附加50点，最高350点，遇到天敌时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，每次使用额外附加50点，最高350点，遇到天敌时效果翻倍（boss有效）",
           "args": [
             200,
             50,
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d3d270a"
+  "hash": "b7c7957f"
 }

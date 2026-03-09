@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "恢复自身300点体力，若自身满天赋值则100%附加等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]恢复自身300点体力，若自身满天赋值则100%附加等量[color=#52a5f2]百分比伤害[/color]",
           "args": [
             300,
             100
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "145e8d94"
+  "hash": "f7ac3414"
 }

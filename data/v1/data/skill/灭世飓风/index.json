@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手全属性-1，先出手时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]使对手[color=#52a5f2]全属性[/color]-1，先出手时效果翻倍",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手处于害怕状态则伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]害怕[/color]状态则伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 500,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e9bc5214"
+  "hash": "dbeae96e"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时降低对手所有PP2点",
+      "analyze_info": "[sprite name=iconHit]先出手时降低对手所有PP2点",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时令对手下1回合先制-1",
+      "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合[color=#52a5f2]先制[/color]-1",
       "args": [
         1,
         1
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e7b6a771"
+  "advance": null,
+  "hash": "2c093af9"
 }

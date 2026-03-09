@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%的概率打出致命一击，未触发则下2回合自身先制+2",
+      "analyze_info": "[sprite name=iconComp]50%的概率打出[color=#57c975]致命一击[/color]，[color=#52a5f2]未触发[/color]则下2回合自身[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         50,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1061,
@@ -41,6 +43,7 @@
     },
     {
       "info": "当回合未击败对手则减少对方所有技能PP2点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则减少对方所有技能PP2点",
       "args": [
         2
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5a83d6e9"
+  "advance": null,
+  "hash": "c6c22c88"
 }

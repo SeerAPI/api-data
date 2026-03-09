@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "给对手造成伤害时，伤害数值的50%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的50%恢复自身体力（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手本回合恢复体力，则下2回合自身所有攻击致命一击",
+          "analyze_info": "[sprite name=iconHit]若对手本回合恢复体力，则下2回合自身所有攻击[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c98b6fc6"
+  "hash": "553e807b"
 }

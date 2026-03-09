@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若使用技能则恢复150点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复150点体力值（boss有效）",
       "args": [
         3,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内有50%概率免疫对手的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内有50%概率[color=#52a5f2]免疫对手的攻击[/color]伤害",
       "args": [
         3,
         50
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内所有直接攻击都将降低对手1/5的HP",
+      "analyze_info": "[sprite name=iconHit]3回合内所有直接攻击都将降低对手1/5的HP（boss有效）",
       "args": [
         3,
         5
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a2f8b679"
+  "advance": null,
+  "hash": "938af7d5"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若对手使用属性技能则50%概率令对手害怕",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则50%概率令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -33,6 +34,7 @@
     },
     {
       "info": "3回合内受到物理攻击伤害减少30%",
+      "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击伤害减少30%（boss有效）",
       "args": [
         3,
         0,
@@ -45,6 +47,7 @@
     },
     {
       "info": "100%概率令对手在3回合内每回合受到100点固定伤害",
+      "analyze_info": "[sprite name=iconHit]100%概率令对手在3回合内每回合受到100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         3,
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "32ee0fcc"
+  "advance": null,
+  "hash": "714d1667"
 }

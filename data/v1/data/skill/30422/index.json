@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则对手下1回合技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手下1回合技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "每损失1点体力则额外附加1点固定伤害",
+      "analyze_info": "[sprite name=iconHit]每损失1点体力则额外附加1点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         1,
         1
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7e7c1ebb"
+  "advance": null,
+  "hash": "8a1b2531"
 }

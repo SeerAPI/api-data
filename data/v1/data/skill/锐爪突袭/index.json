@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若属性相同则技能威力提升50",
+          "analyze_info": "[sprite name=iconHit]若属性相同则技能[color=#52a5f2]威力[/color]提升50（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则恢复自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则恢复自身最大体力的1/3",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "自身体力高于1/2时附加自身当前体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]自身体力高于1/2时附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             2,
             3
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "85d3ecf6"
+  "hash": "b2c44061"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则恢复自身全部体力（boss有效）",
           "args": [],
           "effect": {
             "id": 835,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9d4b1422"
+  "hash": "1b029948"
 }

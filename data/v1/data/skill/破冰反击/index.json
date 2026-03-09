@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%的概率造成的伤害翻倍，若后出手则概率翻倍",
+          "analyze_info": "[sprite name=iconHit]50%的概率造成的伤害翻倍，若后出手则概率翻倍",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则自身下2次攻击技能造成的伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则自身下2次攻击技能造成的[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             2,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "后出手时，100%概率使对方冰封",
+          "analyze_info": "[sprite name=iconHit]后出手时，100%概率使对方[color=#57c975]冰封[/color]（boss有效）",
           "args": [
             100,
             15
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2bf1c2ac"
+  "hash": "925f31dd"
 }

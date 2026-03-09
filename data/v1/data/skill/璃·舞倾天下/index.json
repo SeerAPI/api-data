@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则己方免疫下2次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]己方[/color]免疫下2次受到的异常状态",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "100%令对手束缚，未触发则降低对手所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]束缚[/color]，[color=#52a5f2]未触发[/color]则降低对手所有技能2点PP值",
           "args": [
             100,
             28,
@@ -45,6 +47,7 @@
         },
         {
           "info": "若对手为雄性精灵，则未陷入失心迷阵时令对手陷入失心迷阵，陷入失心迷阵时当次攻击不消耗自身PP值；若对手不为雄性精灵，则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]若对手为雄性精灵，则未陷入[color=#f35555]失心迷阵[/color]时令对手陷入[color=#f35555]失心迷阵[/color]，陷入[color=#f35555]失心迷阵[/color]时当次攻击不消耗自身PP值；若对手不为雄性精灵，则恢复自身所有体力",
           "args": [],
           "effect": {
             "id": 1806,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b657e3e4"
+  "hash": "3162b1c4"
 }

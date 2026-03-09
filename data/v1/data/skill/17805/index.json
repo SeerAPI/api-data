@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手害怕，技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]害怕[/color]，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [
         6
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成伤害低于300，则下4回合所有技能附带100点固定伤害",
+      "analyze_info": "[sprite name=iconHit]造成伤害低于300，则下4回合所有技能附带100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         0,
         300,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "83e4a9b6"
+  "advance": null,
+  "hash": "898d684f"
 }

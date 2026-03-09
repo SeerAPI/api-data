@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
           "args": [
             50
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "自身不处于能力提升状态则造成的伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态则造成的伤害提升50%（boss有效）",
           "args": [
             50
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "对手每处于一种能力下降状态附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每处于一种能力下降状态附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2abd5b7f"
+  "hash": "2f66ec84"
 }

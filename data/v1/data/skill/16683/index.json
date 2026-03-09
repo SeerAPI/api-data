@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成伤害的1/5回复自身体力，若对手烧伤，则造成伤害的1/3回复自身体力",
+      "analyze_info": "[sprite name=iconHit]造成伤害的1/5回复自身体力，若对手[color=#57c975]烧伤[/color]，则造成伤害的1/3回复自身体力（boss有效）",
       "args": [
         5,
         2,
@@ -35,6 +36,7 @@
   "friend_skill_effect": [
     {
       "info": "造成伤害的1/4回复自身体力，若对手烧伤，则造成伤害的1/3回复自身体力",
+      "analyze_info": "[sprite name=iconHit]造成伤害的1/4回复自身体力，若对手[color=#57c975]烧伤[/color]，则造成伤害的1/3回复自身体力（boss有效）",
       "args": [
         4,
         2,
@@ -47,5 +49,6 @@
     }
   ],
   "hide_effect": null,
-  "hash": "8ba87ce4"
+  "advance": null,
+  "hash": "246f9cab"
 }

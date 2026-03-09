@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升，消除成功3回合内免疫异常状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升，消除成功3回合内免疫异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时令对手当回合使用的技能的PP值额外-2",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手[color=#52a5f2]当回合[/color]使用的技能的PP值额外-2",
           "args": [
             2
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "51890a77"
+  "hash": "aeee1c69"
 }

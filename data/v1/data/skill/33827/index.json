@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -29,6 +30,7 @@
     },
     {
       "info": "25%令对手害怕，对手处于能力下降状态时触发概率翻倍",
+      "analyze_info": "[sprite name=iconHit]25%令对手[color=#57c975]害怕[/color]，对手处于能力下降状态时触发概率翻倍",
       "args": [
         25,
         6
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6ed9cd33"
+  "advance": null,
+  "hash": "cd438073"
 }

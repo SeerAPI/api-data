@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后60%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后60%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         60
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手攻击等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-1（boss有效）",
       "args": [
         0,
         100,
@@ -43,6 +45,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特攻等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-1（boss有效）",
       "args": [
         2,
         100,
@@ -55,6 +58,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手速度等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-1（boss有效）",
       "args": [
         4,
         100,
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a758d500"
+  "advance": null,
+  "hash": "b75a1cca"
 }

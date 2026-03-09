@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下2回合自身造成的攻击伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]下2回合自身造成的攻击伤害翻倍（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手体力不足280则直接秒杀",
+          "analyze_info": "[sprite name=iconHit]若对手体力不足280则直接[color=#52a5f2]秒杀[/color]（boss有效）",
           "args": [
             280
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "47b8f578"
+  "hash": "ddb2a9a4"
 }

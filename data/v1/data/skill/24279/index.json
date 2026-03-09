@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，特攻+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+1，速度+1，命中+1（boss有效）",
       "args": [
         0,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内若使用技能则恢复150点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复150点体力值（boss有效）",
       "args": [
         3,
         150
@@ -47,6 +49,7 @@
     },
     {
       "info": "4回合内每回合都能附加100点固定伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合都能附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         4,
         100
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e3fd61e7"
+  "advance": null,
+  "hash": "de6ccc01"
 }

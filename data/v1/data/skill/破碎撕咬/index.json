@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%令对手所有技能PP值-1，自身满体力时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]100%令对手所有技能PP值-1，自身满体力时效果翻倍",
           "args": [
             100,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机使自身3项能力值+1，先出手时提升效果翻倍",
+          "analyze_info": "[sprite name=iconHit]随机使自身3项能力值+1，先出手时提升效果翻倍（boss有效）",
           "args": [
             3,
             1
@@ -45,6 +47,7 @@
         },
         {
           "info": "本回合打出致命一击则令对手2回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则令对手2回合属性技能无效",
           "args": [
             2
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4cc94230"
+  "hash": "66561bc6"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "1回合内若受到攻击则有60%概率令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]1回合内若受到攻击则有60%概率令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         1,
         60,
@@ -53,6 +56,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7ddb5a7f"
+  "advance": null,
+  "hash": "2ef3aa37"
 }

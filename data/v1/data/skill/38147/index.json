@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "玄源之㡣阵亡时不受PP值限制、无视对手的能力提升效果",
+      "analyze_info": "[sprite name=iconInherent]玄源之㡣阵亡时不受PP值限制、无视对手的能力提升效果",
       "args": [],
       "effect": {
         "id": 2358,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若自身未满体力则吸取对手最大体力的1/5",
+      "analyze_info": "[sprite name=iconHit]若自身未满体力则[color=#52a5f2]吸取[/color]对手最大体力的1/5",
       "args": [
         5
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "吸取对手能力提升状态，吸取成功使自身狂暴",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功使自身[color=#57c975]狂暴[/color]",
       "args": [
         14
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "附加自身最大体力20%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力20%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         20
       ],
@@ -59,6 +63,7 @@
     },
     {
       "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令对方场下阵亡的首位精灵[color=#57c975]消逝[/color]",
       "args": [],
       "effect": {
         "id": 2105,
@@ -68,5 +73,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9455b08f"
+  "advance": {
+    "id": 20,
+    "url": "https://api.seerapi.com/v1/pet_advance/20"
+  },
+  "hash": "37441b79"
 }

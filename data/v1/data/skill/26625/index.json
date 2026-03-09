@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内致命一击概率上升1/8",
+      "analyze_info": "[sprite name=iconHit]2回合内[color=#57c975]致命一击[/color]概率上升1/8（boss有效）",
       "args": [
         2,
         8
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合若自身选择使用技能则无视对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]下2回合若自身选择使用技能则无视对手能力提升状态（boss有效）",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "53e53ae6"
+  "advance": null,
+  "hash": "c4501057"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下1次受到的攻击伤害减少50%",
+          "analyze_info": "[sprite name=iconHit]下1次受到的攻击伤害减少50%（boss有效）",
           "args": [
             1,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则2回合内对手属性技能无效，若对手不处于能力提升状态则自身下2回合先制+1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则2回合内对手属性技能无效，若对手不处于能力提升状态则自身下2回合[color=#52a5f2]先制[/color]+1",
           "args": [
             2,
             2,
@@ -46,6 +48,7 @@
         },
         {
           "info": "50%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]50%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
           "args": [
             50,
             2
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "60a2ff28"
+  "hash": "22dc7810"
 }

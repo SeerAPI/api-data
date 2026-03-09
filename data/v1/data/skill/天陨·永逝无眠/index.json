@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身不处于能力提升状态时先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身不处于能力提升状态时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 2192,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "自身不处于能力提升状态时100%令对手害怕，触发成功则3回合内自身使用技能攻击+1，速度+1，未触发则2回合内令对手属性技能无效",
+          "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态时100%令对手[color=#57c975]害怕[/color]，触发成功则3回合内自身使用技能攻击+1，速度+1，[color=#52a5f2]未触发[/color]则2回合内令对手属性技能无效",
           "args": [
             100,
             6,
@@ -61,6 +64,7 @@
         },
         {
           "info": "击败对手时对方下只出战精灵附加1层致命裂痕",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时对方下只出战精灵附加1层[color=#f35555]致命裂痕[/color]",
           "args": [],
           "effect": {
             "id": 2194,
@@ -69,8 +73,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c8270e9c"
+  "hash": "6f2fb82b"
 }

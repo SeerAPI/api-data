@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则下1次攻击附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1次攻击附加300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         1,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "若造成的伤害低于300，则所有技能的PP值恢复2点",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害低于300，则所有技能的PP值恢复2点（boss有效）",
       "args": [
         300,
         2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "58b26c15"
+  "advance": null,
+  "hash": "7c0428cc"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下回合受到致命伤害时残留1点体力",
+          "analyze_info": "[sprite name=iconHit]下回合受到致命伤害时残留1点体力（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
           "args": [],
           "effect": {
             "id": 444,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "93b21ce9"
+  "hash": "839bb676"
 }

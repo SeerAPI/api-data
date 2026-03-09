@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则对手烧伤",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手[color=#57c975]烧伤[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身处于能力下降时先制+1",
+      "analyze_info": "[sprite name=iconInherent]自身处于能力下降时[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c853eabb"
+  "advance": null,
+  "hash": "bb4a4958"
 }

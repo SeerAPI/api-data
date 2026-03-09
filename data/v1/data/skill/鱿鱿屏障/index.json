@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若对手使用特殊攻击，则恢复300点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用特殊攻击，则恢复300点体力（boss有效）",
           "args": [
             3,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内受到特殊攻击伤害减少100%",
+          "analyze_info": "[sprite name=iconHit]3回合内受到特殊攻击伤害减少100%（boss有效）",
           "args": [
             3,
             1,
@@ -47,6 +49,7 @@
         },
         {
           "info": "3回合内特殊攻击对自身必定miss",
+          "analyze_info": "[sprite name=iconHit]3回合内特殊攻击对自身必定miss（boss有效）",
           "args": [
             3
           ],
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "12953bcb"
+  "hash": "f9397080"
 }

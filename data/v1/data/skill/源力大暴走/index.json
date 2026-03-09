@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则自身下1次技能先制+2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则自身下1次技能[color=#52a5f2]先制[/color]+2",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "牺牲自身全部体力，使对手全属性-1且2回合内先制-2",
+          "analyze_info": "[sprite name=iconHit]牺牲自身全部体力，使对手[color=#52a5f2]全属性[/color]-1且2回合内[color=#52a5f2]先制[/color]-2",
           "args": [
             1,
             2,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d604ffbb"
+  "hash": "4535e15d"
 }

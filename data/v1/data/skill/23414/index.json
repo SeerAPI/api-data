@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合自身受到物理攻击伤害减半",
+      "analyze_info": "[sprite name=iconHit]1回合自身受到物理攻击伤害减半（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合自己受到特殊攻击伤害减半",
+      "analyze_info": "[sprite name=iconHit]1回合自己受到特殊攻击伤害减半（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "2回合内若对手使用攻击技能则对手的攻击-1，特攻-1",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则对手的攻击-1，特攻-1（boss有效）",
       "args": [
         2,
         0,
@@ -59,6 +62,7 @@
     },
     {
       "info": "2回合内若对手使用属性技能则对手的速度-1，命中-1",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用属性技能则对手的速度-1，命中-1（boss有效）",
       "args": [
         2,
         0,
@@ -78,5 +82,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1e7b0611"
+  "advance": null,
+  "hash": "ee815b7"
 }

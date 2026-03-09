@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内将对手的攻击、特攻、速度能力降为0点",
+          "analyze_info": "[sprite name=iconHit]3回合内将对手的攻击、特攻、速度能力降为0点",
           "args": [
             3,
             1,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dfac4176"
+  "hash": "473cc9cd"
 }

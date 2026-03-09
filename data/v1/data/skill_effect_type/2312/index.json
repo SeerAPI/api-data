@@ -3,6 +3,7 @@
   "args_num": 4,
   "info": "恢复自身最大体力的1/{0}，恢复成功则{1}回合内自身技能额外附加恢复量{2}%的百分比伤害，对手未受到百分比伤害时随机附加{3}种非限制类异常状态",
   "info_formatting_adjustment": "恢复自身最大体力的1/{0}，<condition>恢复成功</condition>则{1}回合内：\r\n-->自身技能额外附加恢复量{2}%的百分比伤害\r\n---><condition>对手未受到百分比伤害</condition>则随机附加{3}种非限制类异常状态",
+  "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/{0}，恢复成功则{1}回合内自身技能额外附加恢复量{2}%的[color=#52a5f2]百分比伤害[/color]，对手未受到[color=#52a5f2]百分比伤害[/color]时随机附加{3}种非限制类异常状态",
   "pve_effective": false,
   "param": null,
   "skill": [
@@ -29,5 +30,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "8af8253f"
+  "hash": "7af89066"
 }

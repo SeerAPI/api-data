@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "未击败对手则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "击败对手则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下1次使用的攻击技能无效",
       "args": [
         1
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e7e3eb64"
+  "advance": null,
+  "hash": "63c72fd"
 }

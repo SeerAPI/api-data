@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内若对手使用属性技能降低对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用属性技能降低对手最大体力的1/3",
       "args": [
         2,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "先出手时，25%概率令对方害怕",
+      "analyze_info": "[sprite name=iconHit]先出手时，25%概率令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         25,
         6
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "81e5fcc6"
+  "advance": null,
+  "hash": "bc3b58f4"
 }

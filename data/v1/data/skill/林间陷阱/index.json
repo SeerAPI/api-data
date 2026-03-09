@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合若先出手则吸取对手200点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合若先出手则[color=#52a5f2]吸取[/color]对手200点体力",
           "args": [
             3,
             200
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f52eac2e"
+  "hash": "d6a2edea"
 }

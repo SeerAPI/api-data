@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后100%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+      "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
       "args": [
         1,
         1
@@ -42,6 +44,7 @@
     },
     {
       "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
       "args": [
         2,
         -2
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6883576f"
+  "advance": null,
+  "hash": "4a7176c7"
 }

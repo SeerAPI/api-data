@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%概率使对手陷入冻伤状态3回合",
+          "analyze_info": "[sprite name=iconHit]100%概率使对手陷入[color=#57c975]冻伤[/color]状态3回合（boss有效）",
           "args": [
             100,
             5,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内对手每回合速度和命中等级-1",
+          "analyze_info": "[sprite name=iconHit]3回合内对手每回合速度和命中等级-1（boss有效）",
           "args": [
             3,
             -1
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3e9522e7"
+  "hash": "3a8199df"
 }

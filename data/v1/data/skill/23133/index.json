@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手速度等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-2（boss有效）",
       "args": [
         4,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特防等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-1（boss有效）",
       "args": [
         3,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "3回合内若对手成功使用属性技能则受到150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手成功使用属性技能则受到150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         150
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3c48e761"
+  "advance": null,
+  "hash": "be8b7f6e"
 }

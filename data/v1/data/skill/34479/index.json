@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "攻击命中后5%的概率汲取泰坦源脉的力量，本次攻击造成5倍伤害且战斗结束后获得5000泰坦之灵（每日上限50000）",
+      "analyze_info": "[sprite name=iconHit]攻击命中后5%的概率汲取泰坦源脉的力量，本次攻击造成5倍伤害且战斗结束后获得5000泰坦之灵（每日上限50000）（boss有效）",
       "args": [],
       "effect": {
         "id": 1611,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "64aa5c3d"
+  "advance": null,
+  "hash": "3c1c1dd4"
 }

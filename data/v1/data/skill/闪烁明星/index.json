@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内受到任何伤害，自身攻击提高2个等级",
+          "analyze_info": "[sprite name=iconHit]3回合内受到任何伤害，自身攻击提高2个等级（boss有效）",
           "args": [
             3,
             0,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内若使用技能则恢复240点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复240点体力值（boss有效）",
           "args": [
             3,
             240
@@ -46,6 +48,7 @@
         },
         {
           "info": "下1回合自身攻击先制+1",
+          "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1,
             1
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "91661ad9"
+  "hash": "b686f63d"
 }

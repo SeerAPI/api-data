@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后10%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后10%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             10
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "33126": {
       "id": 33126,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "若对手处于能力提升状态则对方命中等级-2",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态则对方命中等级-2（boss有效）",
           "args": [
             5,
             -2
@@ -69,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c508a6a1"
+  "hash": "789a0136"
 }

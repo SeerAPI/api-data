@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的攻击伤害为奇数则50%令对手麻痹，造成的攻击伤害为偶数则50%令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害为奇数则50%令对手[color=#57c975]麻痹[/color]，造成的攻击伤害为偶数则50%令对手[color=#57c975]疲惫[/color]",
           "args": [
             50,
             0,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d00e39f6"
+  "hash": "dc4a5675"
 }

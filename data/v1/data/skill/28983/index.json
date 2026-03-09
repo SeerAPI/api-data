@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合使用技能100%令对手流血，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能100%令对手[color=#57c975]流血[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         4,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "4回合内每回合70%闪避对手攻击，未触发则使对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合70%闪避对手攻击，[color=#52a5f2]未触发[/color]则使对手随机2项技能PP值归零（boss有效）",
       "args": [
         4,
         70,
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e6e4f4b5"
+  "advance": null,
+  "hash": "41c50c40"
 }

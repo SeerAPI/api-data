@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内70%闪避对手的攻击，效果结束后恢复自身所有技能1点PP值与1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]3回合内70%闪避对手的攻击，效果结束后恢复自身所有技能1点PP值与1/3最大体力",
           "args": [
             3,
             70,
@@ -46,6 +48,7 @@
         },
         {
           "info": "为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300
           ],
@@ -56,6 +59,7 @@
         },
         {
           "info": "为自身附加300点护罩",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护罩[/color]（boss有效）",
           "args": [
             300
           ],
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e6ef2f82"
+  "hash": "940071e6"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则令对手疲惫，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则令对手[color=#57c975]疲惫[/color]，反转失败则消除对手能力提升状态",
       "args": [
         7
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "吸取对手200点固定体力，自身体力低于1/3时吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点固定体力，自身体力低于1/3时[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
       "args": [
         200,
         3
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "45faef9b"
+  "advance": null,
+  "hash": "46dc8605"
 }

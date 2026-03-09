@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         300,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "造成的伤害低于300则为自身附加300点护盾",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         300,
         300
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7646f0c6"
+  "advance": null,
+  "hash": "316be667"
 }

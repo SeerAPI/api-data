@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力提升状态，附加90点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态，附加90点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             90
           ],
@@ -35,6 +36,7 @@
       "friend_skill_effect": [
         {
           "info": "若自身处于能力提升状态，附加110点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态，附加110点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             110
           ],
@@ -44,8 +46,9 @@
           }
         }
       ],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "81403c1e"
+  "hash": "e692277c"
 }

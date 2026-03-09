@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "使对手的能力提升效果反转成能力下降效果",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果反转成能力下降效果（boss有效）",
       "args": [],
       "effect": {
         "id": 143,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6ae26d8b"
+  "advance": null,
+  "hash": "403d239b"
 }

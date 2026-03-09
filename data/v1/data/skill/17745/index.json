@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不会低于250",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不会低于250（boss有效）",
       "args": [
         250
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机降低对手1/8至1/5的当前体力值",
+      "analyze_info": "[sprite name=iconHit]随机降低对手1/8至1/5的当前体力值（boss有效）",
       "args": [
         8,
         5
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "949b600a"
+  "advance": null,
+  "hash": "6bae097e"
 }

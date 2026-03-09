@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时70%使对手焚烬2回合",
+      "analyze_info": "[sprite name=iconHit]先出手时70%使对手[color=#57c975]焚烬[/color]2回合（boss有效）",
       "args": [
         70,
         22,
@@ -33,6 +34,7 @@
     },
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "667e7f28"
+  "advance": null,
+  "hash": "bdfbb15a"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "当回合造成的攻击伤害若高于300则100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]害怕[/color]",
       "args": [
         300,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "3回合自身受到物理攻击伤害减半",
+      "analyze_info": "[sprite name=iconHit]3回合自身受到物理攻击伤害减半（boss有效）",
       "args": [
         3
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5679ebd5"
+  "advance": null,
+  "hash": "e5233f98"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则令对手下1次使用的技能无效，反馈失败则解除自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手，反馈成功则令对手下1次使用的技能无效，反馈失败则解除自身能力下降状态",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "全属性+1，对手处于能力下降状态时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手处于能力下降状态时强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "若对手当回合切换精灵则100%令对手麻痹，未触发则100%令对手冰封",
+          "analyze_info": "[sprite name=iconHit]若对手[color=#52a5f2]当回合[/color]切换精灵则100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]冰封[/color]",
           "args": [
             100,
             0,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "58cb7104"
+  "hash": "21b6b722"
 }

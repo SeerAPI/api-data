@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "未击败对手则对方下1次攻击技能将100%被己方闪避",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则对方下1次攻击技能将100%被[color=#52a5f2]己方[/color]闪避（boss有效）",
           "args": [
             1,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "击败对手则下1回合自身造成的攻击伤害提升100%，若以致命一击击败对手则伤害再提升50%",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则下1回合自身造成的攻击伤害提升100%，若[color=#52a5f2]以[/color][color=#57c975]致命一击[/color][color=#57c975]击败[/color]对手则伤害再提升50%",
           "args": [
             1,
             100,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6fe1b8d3"
+  "hash": "daad68f9"
 }

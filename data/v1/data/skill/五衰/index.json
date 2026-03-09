@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若属性相同则技能威力提升470",
+          "analyze_info": "[sprite name=iconHit]若属性相同则技能[color=#52a5f2]威力[/color]提升470（boss有效）",
           "args": [
             470
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "100%降低对手所有PP值1点",
+          "analyze_info": "[sprite name=iconHit]100%降低对手所有PP值1点（boss有效）",
           "args": [
             100,
             1
@@ -44,6 +46,7 @@
         },
         {
           "info": "消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 180,
@@ -52,6 +55,7 @@
         },
         {
           "info": "吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -62,6 +66,7 @@
         },
         {
           "info": "100%令对手臣服",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]臣服[/color]（boss有效）",
           "args": [
             100,
             31
@@ -73,6 +78,7 @@
         },
         {
           "info": "命中后100%秒杀对手",
+          "analyze_info": "[sprite name=iconHit]命中后100%[color=#52a5f2]秒杀[/color]对手",
           "args": [
             100
           ],
@@ -83,8 +89,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "568b71aa"
+  "hash": "b17e27f"
 }

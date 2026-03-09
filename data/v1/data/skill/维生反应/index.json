@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于异常状态则吸取对手250点体力",
+          "analyze_info": "[sprite name=iconHit]对手处于异常状态则[color=#52a5f2]吸取[/color]对手250点体力（boss有效）",
           "args": [
             250
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手不处于异常状态则下2回合攻击50%令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则下2回合攻击50%令对手[color=#57c975]麻痹[/color]",
           "args": [
             2,
             50,
@@ -45,6 +47,7 @@
         },
         {
           "info": "2回合内每回合使用技能吸取对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合使用技能[color=#52a5f2]吸取[/color]对手能力提升状态（boss有效）",
           "args": [
             2
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "40d4cdb0"
+  "hash": "1996fcdc"
 }

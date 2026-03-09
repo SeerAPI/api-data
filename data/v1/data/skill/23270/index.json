@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身防御等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
       "args": [
         1,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
       "args": [
         3,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "下3回合自身攻击技能必定命中",
+      "analyze_info": "[sprite name=iconHit]下3回合自身攻击技能[color=#52a5f2]必定命中[/color]（boss有效）",
       "args": [
         3
       ],
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "650a6bd9"
+  "advance": null,
+  "hash": "d72cb274"
 }

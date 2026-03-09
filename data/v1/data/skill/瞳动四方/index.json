@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手特防等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-1（boss有效）",
           "args": [
             3,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手速度等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-1（boss有效）",
           "args": [
             4,
             100,
@@ -47,7 +49,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "23912": {
       "id": 23912,
@@ -72,6 +75,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -87,6 +91,7 @@
         },
         {
           "info": "5回合内每回合60%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]5回合内每回合60%闪避对手攻击（boss有效）",
           "args": [
             5,
             60
@@ -98,8 +103,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6ac1849f"
+  "hash": "604f3b6a"
 }

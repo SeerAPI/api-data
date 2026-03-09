@@ -3,6 +3,7 @@
   "args_num": 6,
   "info": "若体力大于对手，则消耗自身体力至残留1点体力给对手造成{0}至{1}点伤害；若体力小于对手，则消耗自身全部体力给对手造成{2}至{3}点伤害，若对手受到致命伤害时残留1点体力，并使对手{4}{5}回合",
   "info_formatting_adjustment": "<condition>若体力大于对手</condition>，则消耗自身体力至残留1点体力给对手造成{0}至{1}点伤害\r\n<condition>若体力小于对手</condition>，则消耗自身全部体力给对手造成{2}至{3}点伤害\r\n--><condition>若对手受到致命伤害时残留1点体力</condition>，并使对手{4}{5}回合",
+  "analyze_info": "[sprite name=iconHit]若体力大于对手，则消耗自身体力至残留1点体力给对手造成{0}至{1}点伤害；若体力小于对手，则消耗自身全部体力给对手造成{2}至{3}点伤害，若对手受到致命伤害时残留1点体力，并使对手[color=#57c975]{4}[/color]{5}回合（boss有效）",
   "pve_effective": true,
   "param": [
     {
@@ -36,5 +37,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "9a72240b"
+  "hash": "abdac106"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身体力高于对手时先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身体力高于对手时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害高于300则100%令对手麻痹，未触发则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [
             300,
             100,
@@ -45,6 +47,7 @@
         },
         {
           "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a07e046d"
+  "hash": "7fcc1f0c"
 }

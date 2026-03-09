@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时对手当回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
       "args": [],
       "effect": {
         "id": 980,
@@ -29,6 +30,7 @@
     },
     {
       "info": "附加200点固定伤害，遇到天敌时附加效果翻倍",
+      "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，遇到天敌时附加效果翻倍（boss有效）",
       "args": [
         200
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4fb20420"
+  "advance": null,
+  "hash": "c5ea470e"
 }

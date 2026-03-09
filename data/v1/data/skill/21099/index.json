@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
       "args": [
         1,
         100,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "47fc8120"
+  "advance": null,
+  "hash": "6930c81b"
 }

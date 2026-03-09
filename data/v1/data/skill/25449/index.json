@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "恢复250点体力",
+      "analyze_info": "[sprite name=iconHit]恢复250点体力（boss有效）",
       "args": [
         250
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合内每回合60%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合60%闪避对手攻击（boss有效）",
       "args": [
         3,
         60
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "351e435b"
+  "advance": null,
+  "hash": "94980d25"
 }

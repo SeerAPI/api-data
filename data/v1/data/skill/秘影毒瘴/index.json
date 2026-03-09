@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升，反转成功下1回合先制+2",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升，反转成功下1回合[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "若自身未满体力则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]若自身未满体力则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "32c056e9"
+  "hash": "e92f1fb4"
 }

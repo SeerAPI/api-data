@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
           "args": [
             150,
             300,
@@ -36,6 +37,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -46,6 +48,7 @@
         },
         {
           "info": "自身不处于能力提升状态则吸取对手300点体力，若先出手则额外吸取100点体力",
+          "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态则[color=#52a5f2]吸取[/color]对手300点体力，若先出手则额外[color=#52a5f2]吸取[/color]100点体力",
           "args": [
             300,
             100
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8a4965ce"
+  "hash": "e0d08b9e"
 }

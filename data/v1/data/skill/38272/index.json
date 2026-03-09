@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身不为龙系时，此技能无法选择使用",
+      "analyze_info": "[sprite name=iconInherent]自身不为龙系时，此技能无法选择使用",
       "args": [],
       "effect": {
         "id": 2417,
@@ -29,6 +30,7 @@
     },
     {
       "info": "额外附加1000点固定伤害",
+      "analyze_info": "[sprite name=iconHit]额外附加1000点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         1000
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "每次命中对手后此技能威力下降1000点",
+      "analyze_info": "[sprite name=iconHit]每次命中对手后此技能[color=#52a5f2]威力[/color]下降1000点（boss有效）",
       "args": [
         1000
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "击败对手则恢复自身全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1156,
@@ -58,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a7d1cda6"
+  "advance": null,
+  "hash": "bd809322"
 }

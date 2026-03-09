@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身当前体力高于对手时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身当前体力高于对手时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若对手攻击技能命中则己方在场精灵100%做出绝对反击",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手攻击技能命中则[color=#52a5f2]己方[/color]在场精灵100%做出绝对反击（boss有效）",
       "args": [
         3,
         100,
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内受到攻击100%进入自然庇佑",
+      "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%进入自然庇佑（boss有效）",
       "args": [
         3,
         100
@@ -54,6 +57,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "459c91e9"
+  "advance": null,
+  "hash": "eb786728"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过300",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过300（boss有效）",
       "args": [
         2,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "2回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]2回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "89720fee"
+  "advance": null,
+  "hash": "3ea8721b"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内若对手使用攻击技能则对手烧伤",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         2,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "若对手烧伤，技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]烧伤[/color]，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "99c69eed"
+  "advance": null,
+  "hash": "22a08082"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+2，防御+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+2，防御+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             2,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "下3回合每回合使用攻击技能80%令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]下3回合每回合使用攻击技能80%令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             80,
@@ -50,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9ac5b8db"
+  "hash": "8b92bc1c"
 }

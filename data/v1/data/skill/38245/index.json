@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若当前体力低于对手则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 954,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手的体力高于最大体力的90%则技能威力提升150%",
+      "analyze_info": "[sprite name=iconHit]若对手的体力高于最大体力的90%则技能[color=#52a5f2]威力[/color]提升150%",
       "args": [
         90,
         150
@@ -40,6 +42,7 @@
     },
     {
       "info": "对手每处于一种异常状态则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]对手每处于一种异常状态则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         300
       ],
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "eea99e9e"
+  "advance": null,
+  "hash": "a89c166b"
 }

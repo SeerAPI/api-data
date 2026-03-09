@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内火系技能威力为2倍",
+          "analyze_info": "[sprite name=iconHit]2回合内火系技能[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [
             2,
             3,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身速度等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
           "args": [
             4,
             100,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "501ccbc2"
+  "hash": "34652408"
 }

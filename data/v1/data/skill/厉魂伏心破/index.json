@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%令对手冻伤，未触发则自身下2回合攻击必定致命一击，触发后3回合内若对手主动切换精灵则当回合开始后100%令对手冰封",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]冻伤[/color]，[color=#52a5f2]未触发[/color]则自身下2回合攻击必定[color=#57c975]致命一击[/color]，触发后3回合内若对手[color=#52a5f2]主动切换[/color]精灵则[color=#52a5f2]当回合[/color]开始后100%令对手[color=#57c975]冰封[/color]",
           "args": [
             100,
             5,
@@ -38,6 +39,7 @@
         },
         {
           "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或[color=#52a5f2]未触发[/color]则令对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f639f349"
+  "hash": "c73fd44e"
 }

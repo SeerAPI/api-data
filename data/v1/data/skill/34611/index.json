@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "40%使对手睡眠，若未触发则使对手受到相当于自身当前体力1/4的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]40%使对手[color=#57c975]睡眠[/color]，若[color=#52a5f2]未触发[/color]则使对手受到相当于自身当前体力1/4的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         40,
         8,
@@ -33,6 +34,7 @@
     },
     {
       "info": "暴击率提升30%，每次使用额外提升10%，最高概率60%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升30%，每次使用额外提升10%，最高概率60%（boss有效）",
       "args": [
         30,
         10,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "de54bdaf"
+  "advance": null,
+  "hash": "9d35d320"
 }

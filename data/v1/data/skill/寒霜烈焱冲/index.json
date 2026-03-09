@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害低于280时100%令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于280时100%令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             280,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "1回合内若造成伤害大于280则100%概率使对手冻伤",
+          "analyze_info": "[sprite name=iconHit]1回合内若造成伤害大于280则100%概率使对手[color=#57c975]冻伤[/color]",
           "args": [
             1,
             280,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2cf4ac23"
+  "hash": "6cc2a3bc"
 }

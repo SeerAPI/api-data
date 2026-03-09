@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合30%闪避对手攻击，未触发则受到的伤害减少30%",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合30%闪避对手攻击，[color=#52a5f2]未触发[/color]则受到的伤害减少30%",
           "args": [
             3,
             30,
@@ -45,6 +47,7 @@
         },
         {
           "info": "3回合内对手的状态变化会同时作用在自己身上",
+          "analyze_info": "[sprite name=iconHit]3回合内对手的状态变化会同时作用在自己身上（boss有效）",
           "args": [
             3
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fea56e02"
+  "hash": "3355e461"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%概率先制+1",
+          "analyze_info": "[sprite name=iconInherent]50%概率[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             50,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "50%的概率使对手疲惫，未触发则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]50%的概率使对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             50,
             7,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2d9a088c"
+  "hash": "eb1f2ca1"
 }

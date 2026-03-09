@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "命中后2回合内每回合使对手特防-1，速度-1，若未触发则减少对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]命中后2回合内每回合使对手特防-1，速度-1，若[color=#52a5f2]未触发[/color]则减少对手最大体力的1/3",
           "args": [
             2,
             0,
@@ -50,6 +52,7 @@
         },
         {
           "info": "2回合内受到的伤害低于350时100%令对手沉默，未触发则附加350点固定伤害",
+          "analyze_info": "[sprite name=iconHit]2回合内受到的伤害低于350时100%令对手[color=#57c975]沉默[/color]，[color=#52a5f2]未触发[/color]则附加350点[color=#52a5f2]固定伤害[/color]",
           "args": [
             2,
             350,
@@ -64,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b3f702ff"
+  "hash": "588edb78"
 }

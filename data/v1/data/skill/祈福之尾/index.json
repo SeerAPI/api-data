@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内致命一击率上升5/16",
+          "analyze_info": "[sprite name=iconHit]3回合内[color=#57c975]致命一击[/color]率上升5/16（boss有效）",
           "args": [
             3,
             5
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合随机恢复150-300点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合随机恢复150-300点体力（boss有效）",
           "args": [
             3,
             150,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e6995aa"
+  "hash": "e2f6381c"
 }

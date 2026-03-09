@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%的概率，3回合内受到的伤害减半",
+      "analyze_info": "[sprite name=iconHit]100%的概率，3回合内受到的伤害减半（boss有效）",
       "args": [
         100,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -43,6 +45,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c55c7923"
+  "advance": null,
+  "hash": "90d4cb1"
 }

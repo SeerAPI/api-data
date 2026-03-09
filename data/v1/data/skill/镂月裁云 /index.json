@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后50%令对方麻痹",
+          "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若使用技能则恢复100点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复100点体力值（boss有效）",
           "args": [
             3,
             100
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7be5e8b3"
+  "hash": "ae527e5f"
 }

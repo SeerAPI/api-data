@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于能力下降状态时自身先制+1",
+          "analyze_info": "[sprite name=iconInherent]对手处于能力下降状态时自身[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1070,
@@ -31,6 +32,7 @@
         },
         {
           "info": "自身每处于一种能力提升状态，此技能威力提升30",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态，此技能[color=#52a5f2]威力[/color]提升30（boss有效）",
           "args": [
             30
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "消除双方能力上升、下降状态，消除成功则附加消除总段数乘以50的固定伤害",
+          "analyze_info": "[sprite name=iconHit]消除双方能力上升、下降状态（boss有效），消除成功则附加消除总段数乘[color=#52a5f2]以[/color]50的[color=#52a5f2]固定伤害[/color]",
           "args": [
             50
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "43e07948"
+  "hash": "c22505f0"
 }

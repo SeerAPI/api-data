@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若使用技能则恢复150点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复150点体力值（boss有效）",
           "args": [
             3,
             150
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合55%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合55%闪避对手攻击（boss有效）",
           "args": [
             3,
             55
@@ -45,6 +47,7 @@
         },
         {
           "info": "若对手下次使用的攻击技能未命中则令对手睡眠",
+          "analyze_info": "[sprite name=iconHit]若对手下次使用的攻击技能未命中则令对手[color=#57c975]睡眠[/color]",
           "args": [
             8
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "873641b8"
+  "hash": "a981e197"
 }

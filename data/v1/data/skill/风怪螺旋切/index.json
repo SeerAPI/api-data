@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功则自身攻击+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身攻击+1，速度+1（boss有效）",
           "args": [
             1,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "若打出致命一击则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则恢复自身所有体力（boss有效）",
           "args": [],
           "effect": {
             "id": 496,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bf1eb242"
+  "hash": "b80c7904"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功则自身攻击+2，速度+2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身攻击+2，速度+2（boss有效）",
           "args": [
             2,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "40%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]40%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
           "args": [
             40,
             2
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "10eab4d4"
+  "hash": "1b06977c"
 }

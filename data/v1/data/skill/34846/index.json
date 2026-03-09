@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手基础速度值高于300则自身下回合先制+2",
+      "analyze_info": "[sprite name=iconHit]对手基础速度值高于300则自身下回合[color=#52a5f2]先制[/color]+2",
       "args": [
         1,
         0,
@@ -44,6 +46,7 @@
     },
     {
       "info": "造成的伤害低于300则吸取对手最大体力的1/3并为自身附加等量的护盾",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手最大体力的1/3并为自身附加等量的[color=#57c975]护盾[/color]",
       "args": [
         300,
         3
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "91cf7df6"
+  "advance": null,
+  "hash": "98658aa2"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
       "args": [],
       "effect": {
         "id": 760,
@@ -29,6 +30,7 @@
     },
     {
       "info": "吸取对手最大体力的25%，对手每有1级晦暗之因提升5%，吸取后若对手体力未减少则对手下1回合无法主动切换精灵",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的25%，对手每有1级[color=#f35555]晦暗之因[/color]提升5%，[color=#52a5f2]吸取[/color]后若对手体力未减少则对手下1回合无法[color=#52a5f2]主动切换[/color]精灵",
       "args": [
         25,
         5,
@@ -41,6 +43,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -51,6 +54,7 @@
     },
     {
       "info": "击败拥有晦暗之因的对手时自身获得1层秽黯之根",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]拥有[color=#f35555]晦暗之因[/color]的对手时自身获得1层[color=#f35555]秽黯之根[/color]",
       "args": [],
       "effect": {
         "id": 2141,
@@ -60,5 +64,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "88c4e084"
+  "advance": {
+    "id": 18,
+    "url": "https://api.seerapi.com/v1/pet_advance/18"
+  },
+  "hash": "3425ce35"
 }

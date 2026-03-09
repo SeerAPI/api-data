@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "获得300点护盾，护盾消失时对对手造成300点固定伤害且有50%的概率使对手失明",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时对对手造成300点[color=#52a5f2]固定伤害[/color]且有50%的概率使对手[color=#57c975]失明[/color]（boss有效）",
       "args": [
         300,
         300,
@@ -44,6 +46,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能后使对手麻痹，未触发则自身恢复最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后使对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则自身恢复最大体力的1/3",
       "args": [
         3,
         0,
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6f0ebec5"
+  "advance": null,
+  "hash": "4a23b764"
 }

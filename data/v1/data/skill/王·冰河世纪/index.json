@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -31,6 +32,7 @@
         },
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -39,6 +41,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "附加自身最大体力30%的百分比伤害并恢复等量体力，恢复体力时若自身体力低于最大体力的1/3则恢复效果和百分比伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]附加自身最大体力30%的[color=#52a5f2]百分比伤害[/color]并恢复等量体力，恢复体力时若自身体力低于最大体力的1/3则恢复效果和[color=#52a5f2]百分比伤害[/color]翻倍（boss有效）",
           "args": [
             30,
             3
@@ -60,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c45e212f"
+  "hash": "beb8fe1d"
 }

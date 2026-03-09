@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下3回合自身使用攻击技能则附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]下3回合自身使用攻击技能则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             200
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内受到攻击100%概率回复300点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率回复300点体力（boss有效）",
           "args": [
             3,
             100,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "26617437"
+  "hash": "b4809fd6"
 }

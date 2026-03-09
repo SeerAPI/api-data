@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手不处于异常状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手不处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 1956,
@@ -29,6 +30,7 @@
     },
     {
       "info": "100%令对手冻伤，未触发则1回合内自身造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]冻伤[/color]，[color=#52a5f2]未触发[/color]则1回合内自身造成的攻击[color=#52a5f2]伤害额外提升[/color]100%",
       "args": [
         100,
         5,
@@ -42,6 +44,7 @@
     },
     {
       "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6c829bf7"
+  "advance": null,
+  "hash": "51eeed14"
 }

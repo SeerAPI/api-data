@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%的概率恢复自身体力的1/3",
+      "analyze_info": "[sprite name=iconHit]100%的概率恢复自身体力的1/3（boss有效）",
       "args": [
         100,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "4回合内若自身攻击技能命中则50%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则50%令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "678661d6"
+  "advance": null,
+  "hash": "656e530"
 }

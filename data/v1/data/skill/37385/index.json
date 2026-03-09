@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反弹2倍的伤害给对手并使自身恢复等量体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反弹[/color]2倍的伤害给对手并使自身恢复等量体力",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害低于200则自身下1次受到的伤害降低300点",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于200则自身下1次受到的伤害降低300点（boss有效）",
       "args": [
         200,
         1,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5e62a3fa"
+  "advance": null,
+  "hash": "d1289ebf"
 }

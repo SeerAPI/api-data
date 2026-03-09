@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内每回合使用技能吸取对手最大体力的1/4",
+          "analyze_info": "[sprite name=iconHit]5回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/4",
           "args": [
             5,
             4
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内每回合额外附加55%概率令对手中毒",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合额外附加55%概率令对手[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             4,
             55,
@@ -46,6 +48,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e16bb583"
+  "hash": "ae0b464b"
 }

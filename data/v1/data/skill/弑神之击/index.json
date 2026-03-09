@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "5回合内若受到攻击则有100%概率令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]5回合内若受到攻击则有100%概率令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             5,
             100,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ca61607c"
+  "hash": "16962d73"
 }

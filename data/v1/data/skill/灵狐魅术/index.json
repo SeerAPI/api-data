@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则令对手失神，反转失败则消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则令对手[color=#57c975]失神[/color]，反转失败则消除对手能力提升状态",
           "args": [
             29
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手处于能力下降状态则100%概率睡眠",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则100%概率[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             100,
             8
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8b41a0da"
+  "hash": "97880fba"
 }

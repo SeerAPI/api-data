@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "15%令对手中毒，15%令自身中毒，均未触发则为自身附加200点护盾",
+          "analyze_info": "[sprite name=iconHit]15%令对手[color=#57c975]中毒[/color]，15%令自身[color=#57c975]中毒[/color]，均[color=#52a5f2]未触发[/color]则为自身附加200点[color=#57c975]护盾[/color]",
           "args": [
             15,
             1,
@@ -37,6 +38,7 @@
         },
         {
           "info": "3回合内使用技能恢复233点体力，体力低于1/2时恢复至满",
+          "analyze_info": "[sprite name=iconHit]3回合内使用技能恢复233点体力，体力低于1/2时恢复至满（boss有效）",
           "args": [
             3,
             233,
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2ff5c9ad"
+  "hash": "a0683a60"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则50%令对手感染，未触发则100%令对手中毒",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则50%令对手[color=#57c975]感染[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]中毒[/color]",
           "args": [
             50,
             27,
@@ -36,6 +37,7 @@
         },
         {
           "info": "造成的伤害低于300则为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300,
             300
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7b68bd8f"
+  "hash": "a70b829c"
 }

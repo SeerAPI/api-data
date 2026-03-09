@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "免疫下2次自身受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]免疫下2次自身受到的异常状态",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令对手焚烬，未触发或对手处于烧伤状态则2回合内免疫对手的攻击",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]或对手处于[color=#57c975]烧伤[/color]状态则2回合内[color=#52a5f2]免疫对手的攻击[/color]",
       "args": [
         100,
         22,
@@ -44,6 +46,7 @@
     },
     {
       "info": "3回合内对手的能力下降状态无法被解除或反转",
+      "analyze_info": "[sprite name=iconHit]3回合内对手的能力下降状态无法被解除或反转",
       "args": [
         3
       ],
@@ -54,6 +57,7 @@
     },
     {
       "info": "3回合内对手使用属性技能则对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用属性技能则对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         3,
         1
@@ -65,6 +69,7 @@
     },
     {
       "info": "霍尔希德的欢歌:战斗阶段结束时，若自身的体力低于对手，则恢复自身所有技能1点PP值",
+      "analyze_info": "[sprite name=iconInherent]霍尔希德的欢歌:[color=#57c975]战斗阶段结束时[/color]，若自身的体力低于对手，则恢复自身所有技能1点PP值",
       "args": [],
       "effect": {
         "id": 2373,
@@ -74,5 +79,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1bc225d3"
+  "advance": null,
+  "hash": "7630f304"
 }

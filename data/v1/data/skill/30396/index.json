@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         0,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "将能力下降状态反馈给对手",
+      "analyze_info": "[sprite name=iconHit]将能力下降状态反馈给对手（boss有效）",
       "args": [],
       "effect": {
         "id": 63,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "adacadfb"
+  "advance": null,
+  "hash": "e9e8b28f"
 }

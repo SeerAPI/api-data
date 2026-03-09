@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机恢复0到255点生命值",
+          "analyze_info": "[sprite name=iconHit]随机恢复0到255点生命值（boss有效）",
           "args": [
             0,
             255
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机附加0~255点固定伤害",
+          "analyze_info": "[sprite name=iconHit]随机附加0~255点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             0,
             255
@@ -45,6 +47,7 @@
         },
         {
           "info": "随机改为0~255点威力",
+          "analyze_info": "[sprite name=iconHit]随机改为0~255点[color=#52a5f2]威力[/color]（boss有效）",
           "args": [
             0,
             255
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "126ff866"
+  "hash": "a415be11"
 }

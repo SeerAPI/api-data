@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除双方回合类效果并为双方附加3回合中毒，自身中毒状态解除后则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]并为双方附加3回合[color=#57c975]中毒[/color]，自身[color=#57c975]中毒[/color]状态解除后则恢复自身所有体力",
           "args": [
             3,
             1,
@@ -35,6 +36,7 @@
         },
         {
           "info": "自己出手时若自身体力高于对手则造成的伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]自己出手时若自身体力高于对手则造成的伤害提升50%（boss有效）",
           "args": [
             50
           ],
@@ -45,6 +47,7 @@
         },
         {
           "info": "若对手处于异常状态则恢复造成伤害的50%的体力",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则恢复造成伤害的50%的体力（boss有效）",
           "args": [
             50
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f6647098"
+  "hash": "b19ab4d7"
 }

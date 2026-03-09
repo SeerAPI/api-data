@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "10%的概率造成3倍伤害，每次使用概率增加10%，最高概率30%",
+      "analyze_info": "[sprite name=iconHit]10%的概率造成3倍伤害，每次使用概率增加10%，最高概率30%（boss有效）",
       "args": [
         10,
         3,
@@ -34,6 +35,7 @@
     },
     {
       "info": "造成的伤害低于300则50%令对手焚烬，未触发则下1回合攻击技能100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则50%令对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则下1回合攻击技能100%令对手[color=#57c975]烧伤[/color]",
       "args": [
         300,
         50,
@@ -50,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3e8bd911"
+  "advance": null,
+  "hash": "cddf9a0d"
 }

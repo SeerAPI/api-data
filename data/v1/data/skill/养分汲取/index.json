@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "恢复自身所有PP值",
+          "analyze_info": "[sprite name=iconHit]恢复自身所有PP值（boss有效）",
           "args": [],
           "effect": {
             "id": 87,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d59af4b"
+  "hash": "f971c7c5"
 }

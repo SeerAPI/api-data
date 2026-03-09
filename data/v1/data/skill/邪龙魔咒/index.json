@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "获得400点护盾，护盾消失时对对手造成200点固定伤害且有50%的概率使对手害怕",
+          "analyze_info": "[sprite name=iconHit]获得400点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时对对手造成200点[color=#52a5f2]固定伤害[/color]且有50%的概率使对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             400,
             200,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "80c8f810"
+  "hash": "afc51957"
 }

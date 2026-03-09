@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 494,
@@ -31,6 +32,7 @@
         },
         {
           "info": "先出手时2回合内免疫并反弹异常状态",
+          "analyze_info": "[sprite name=iconHit]先出手时2回合内免疫并[color=#52a5f2]反弹[/color]异常状态",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "后出手时造成的伤害提高100%",
+          "analyze_info": "[sprite name=iconHit]后出手时造成的伤害提高100%（boss有效）",
           "args": [
             100
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a604d8f8"
+  "hash": "a52b1e3"
 }

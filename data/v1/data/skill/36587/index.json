@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则恢复自身全部体力（boss有效）",
       "args": [],
       "effect": {
         "id": 835,
@@ -29,6 +30,7 @@
     },
     {
       "info": "随机吸取对手240-320点体力",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手240-320点体力（boss有效）",
       "args": [
         240,
         320
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "79e184b7"
+  "advance": null,
+  "hash": "1385da14"
 }

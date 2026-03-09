@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
       "args": [
         280
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手攻击-1，防御-1，特攻-1，特防-1，速度-1,后出手时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]对手攻击-1，防御-1，特攻-1，特防-1，速度-1,后出手时弱化效果翻倍（boss有效）",
       "args": [
         -1,
         -1,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "96f05aef"
+  "advance": null,
+  "hash": "6f329dba"
 }

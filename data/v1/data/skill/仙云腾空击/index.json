@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身体力低于对手时先制+2",
+          "analyze_info": "[sprite name=iconInherent]自身体力低于对手时[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "损失自身300点体力，给对手造成500点固定伤害，若自身体力不足300则剩下1点体力",
+          "analyze_info": "[sprite name=iconHit]损失自身300点体力，给对手造成500点[color=#52a5f2]固定伤害[/color]，若自身体力不足300则剩下1点体力（boss有效）",
           "args": [
             300,
             500,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7c966dfd"
+  "hash": "77828799"
 }

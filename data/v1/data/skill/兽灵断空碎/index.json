@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "本回合打出致命一击则下1回合其它攻击技能必定致命一击",
+          "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则下1回合其它攻击技能必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "命中后60%令对手睡眠，自身每损失20%的体力概率提升10%",
+          "analyze_info": "[sprite name=iconHit]命中后60%令对手[color=#57c975]睡眠[/color]，自身每损失20%的体力概率提升10%",
           "args": [
             60,
             8,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e7de5e2a"
+  "hash": "f9bf931c"
 }

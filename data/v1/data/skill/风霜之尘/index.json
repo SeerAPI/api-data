@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
           "args": [
             3,
             2
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "38328add"
+  "hash": "cc6b9cd3"
 }

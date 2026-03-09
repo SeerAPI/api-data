@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "先出手时降低对手所有PP2点",
+      "analyze_info": "[sprite name=iconHit]先出手时降低对手所有PP2点",
       "args": [
         2
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fb6a767b"
+  "advance": null,
+  "hash": "64f2fcbd"
 }

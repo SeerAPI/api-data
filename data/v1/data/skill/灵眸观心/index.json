@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使用技能时若对手处于能力提升状态，则先制+1，同时消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]使用技能时若对手处于能力提升状态，则[color=#52a5f2]先制[/color]+1，同时消除对手能力提升状态（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能降低对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能降低对手最大体力的1/3",
           "args": [
             3,
             3
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e2411ca9"
+  "hash": "14c43098"
 }

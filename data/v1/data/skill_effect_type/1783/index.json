@@ -3,6 +3,7 @@
   "args_num": 2,
   "info": "消除双方回合类效果，消除任意一项成功则双方{0}，若任意一方回合类效果无法被消除则令对手下{1}回合无法主动切换精灵",
   "info_formatting_adjustment": "消除敌我双方回合类效果\r\n--><condition>消除任意一项成功</condition>则令双方{0}\r\n--><condition>若任意一方回合类效果无法被消除</condition>则令对手下{1}回合无法主动切换精灵",
+  "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]，消除任意一项成功则双方[color=#57c975]{0}[/color]，若任意一方[color=#52a5f2]回合类效果[/color]无法被消除则令对手下{1}回合无法[color=#52a5f2]主动切换[/color]精灵",
   "pve_effective": false,
   "param": [
     {
@@ -33,5 +34,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "43f7ac6c"
+  "hash": "9c77b1e4"
 }

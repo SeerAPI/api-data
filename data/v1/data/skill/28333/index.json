@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，对手处于异常状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手处于异常状态时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合使用技能恢复自身最大体力的1/2，恢复体力时若自身体力低于最大体力的1/3则恢复效果转变为吸取对手最大体力的1/2",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能恢复自身最大体力的1/2（boss有效），恢复体力时若自身体力低于最大体力的1/3则恢复效果转变为[color=#52a5f2]吸取[/color]对手最大体力的1/2",
       "args": [
         4,
         2,
@@ -44,6 +46,7 @@
     },
     {
       "info": "若对手处于烧伤状态则2回合内100%令对手使用的技能无效",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态则2回合内100%令对手使用的技能无效",
       "args": [
         2,
         2,
@@ -56,6 +59,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a34a9805"
+  "advance": null,
+  "hash": "51841128"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "额外附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]额外附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当次攻击击败对手，则自身攻击+1",
+      "analyze_info": "[sprite name=iconHit]当次攻击[color=#57c975]击败[/color]对手，则自身攻击+1（boss有效）",
       "args": [
         1,
         0,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "98df61a4"
+  "advance": null,
+  "hash": "1491b33a"
 }

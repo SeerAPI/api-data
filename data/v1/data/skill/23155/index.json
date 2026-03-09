@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下1回合自身攻击先制+2",
+      "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "1回合内受到致死攻击时则余下1点体力",
+      "analyze_info": "[sprite name=iconHit]1回合内受到致死攻击时则余下1点体力（boss有效）",
       "args": [
         1
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "42300e04"
+  "advance": null,
+  "hash": "a0f51a4c"
 }

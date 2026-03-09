@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "为对手附加浪潮聚焦",
+          "analyze_info": "[sprite name=iconHit]为对手附加[color=#f35555]浪潮聚焦[/color]",
           "args": [],
           "effect": {
             "id": 2191,
@@ -31,6 +32,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "100%令对手冰封，未触发则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则自身免疫下1次受到的异常状态",
           "args": [
             100,
             15,
@@ -53,6 +56,7 @@
         },
         {
           "info": "3回合内对手主动切换精灵出战时100%冻伤",
+          "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]主动切换[/color]精灵[color=#57c975]出战时[/color]100%[color=#57c975]冻伤[/color]",
           "args": [
             3,
             100,
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dc8bab3a"
+  "hash": "bee34741"
 }

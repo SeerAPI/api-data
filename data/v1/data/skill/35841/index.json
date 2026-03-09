@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于能力提升状态则使自身能力提升状态翻倍",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态则使自身能力提升状态翻倍",
       "args": [],
       "effect": {
         "id": 1177,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身不处于能力提升状态则造成的伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态则造成的伤害提升50%（boss有效）",
       "args": [
         50
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c3dc59c2"
+  "advance": null,
+  "hash": "d7f75c10"
 }

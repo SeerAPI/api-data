@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "2回合内若对手攻击技能命中则己方在场精灵50%做出强力反击",
+          "analyze_info": "[sprite name=iconHit]2回合内若对手攻击技能命中则[color=#52a5f2]己方[/color]在场精灵50%做出强力反击（boss有效）",
           "args": [
             2,
             50,
@@ -55,6 +58,7 @@
         },
         {
           "info": "2回合内每回合50%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合50%闪避对手攻击（boss有效）",
           "args": [
             2,
             50
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d12cbcf1"
+  "hash": "50217937"
 }

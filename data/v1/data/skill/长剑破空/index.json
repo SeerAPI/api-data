@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时全属性+1",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "31049": {
       "id": 31049,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -66,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "37483bfe"
+  "hash": "b0f87303"
 }

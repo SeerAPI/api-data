@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合若本方先手攻击，使得对方的技能失效",
+          "analyze_info": "[sprite name=iconHit]3回合若本方先手攻击，使得对方的技能失效（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对方为雄性则免疫当前回合伤害",
+          "analyze_info": "[sprite name=iconHit]对方为雄性则免疫当前回合伤害（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "11c012e9"
+  "hash": "a8a8453c"
 }

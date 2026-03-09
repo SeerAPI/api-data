@@ -3,6 +3,7 @@
   "args_num": 4,
   "info": "消除对手回合类效果，消除成功则{0}%令对手{1}，未触发则{2}%令对手{3}",
   "info_formatting_adjustment": "消除对手回合类效果\r\n--><condition>消除成功</condition>则{0}%令对手{1}$Boss$\r\n---><condition>未触发</condition>则{2}%令对手{3}$Boss$",
+  "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则{0}%令对手[color=#57c975]{1}[/color]，[color=#52a5f2]未触发[/color]则{2}%令对手[color=#57c975]{3}[/color]",
   "pve_effective": false,
   "param": [
     {
@@ -192,5 +193,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "1c37d7b"
+  "hash": "31acce7e"
 }

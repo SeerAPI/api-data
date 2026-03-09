@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 494,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视自身能力下降状态",
+          "analyze_info": "[sprite name=iconInherent]无视自身能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 1750,
@@ -39,6 +41,7 @@
         },
         {
           "info": "技能威力提升50%，若自身未持有回能标记则提升效果翻倍",
+          "analyze_info": "[sprite name=iconHit]技能[color=#52a5f2]威力[/color]提升50%，若自身未持有[color=#f35555]回能[/color]标记则提升效果翻倍",
           "args": [
             50
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "附加给对手200点固定伤害，若对手未持有失能标记则附加的固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]附加给对手200点[color=#52a5f2]固定伤害[/color]，若对手未持有[color=#f35555]失能[/color]标记则附加的[color=#52a5f2]固定伤害[/color]翻倍",
           "args": [
             200
           ],
@@ -59,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cb12853c"
+  "hash": "2eb4210"
 }

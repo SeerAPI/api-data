@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若打出致命一击则对手80%概率睡眠",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手80%概率[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             80,
             8
@@ -34,6 +35,7 @@
         },
         {
           "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令自身下1次受到的攻击[color=#52a5f2]伤害额外减少[/color]50%（boss有效）",
           "args": [
             1,
             50
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2c6711f"
+  "hash": "e4350293"
 }

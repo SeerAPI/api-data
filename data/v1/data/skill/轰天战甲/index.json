@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内自身受到攻击则使对手麻痹，未触发则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内自身受到攻击则使对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3,
             0,
@@ -55,6 +58,7 @@
         },
         {
           "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能则造成伤害前随机[color=#52a5f2]吸取[/color]对手3项能力值-1（boss有效）",
           "args": [
             3,
             3
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9940c567"
+  "hash": "b24b193f"
 }

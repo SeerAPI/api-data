@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若当前体力高于对手，则造成伤害的30%恢复体力",
+          "analyze_info": "[sprite name=iconHit]若当前体力高于对手，则造成伤害的30%恢复体力（boss有效）",
           "args": [
             1,
             30
@@ -34,6 +35,7 @@
         },
         {
           "info": "若当前HP低于对手，则技能威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若当前HP低于对手，则技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 132,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "be6762e"
+  "hash": "8b300fe2"
 }

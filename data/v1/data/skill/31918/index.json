@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
       "args": [
         150,
         300,
@@ -34,6 +35,7 @@
     },
     {
       "info": "命中后80%使对手害怕，未触发则对手下2回合先制-2",
+      "analyze_info": "[sprite name=iconHit]命中后80%使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则对手下2回合[color=#52a5f2]先制[/color]-2",
       "args": [
         80,
         6,
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "25ffd0c8"
+  "advance": null,
+  "hash": "38db7d08"
 }

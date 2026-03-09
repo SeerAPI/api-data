@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "威力根据自身体力变化，当前剩余体力越少则威力越大",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]根据自身体力变化，当前剩余体力越少则[color=#52a5f2]威力[/color]越大（boss有效）",
           "args": [],
           "effect": {
             "id": 1444,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加100点固定伤害，连续使用每次增加50点固定伤害，最高附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加100点[color=#52a5f2]固定伤害[/color]，连续使用每次增加50点[color=#52a5f2]固定伤害[/color]，最高附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100,
             50,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b88b2e13"
+  "hash": "cad74811"
 }

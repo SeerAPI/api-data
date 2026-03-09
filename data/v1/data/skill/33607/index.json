@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视对手双防能力提升状态",
+      "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 195,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若先出手则当回合闪避对手的攻击技能",
+      "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]闪避对手的攻击技能",
       "args": [],
       "effect": {
         "id": 720,
@@ -37,6 +39,7 @@
     },
     {
       "info": "后出手时80%令对手对手麻痹，未触发则使自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit]后出手时80%令对手对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         80,
         0,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "81a6da5"
+  "advance": null,
+  "hash": "218c5e6f"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害低于250则附加自身最大体力25%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于250则附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         250,
         25
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时令对手下1回合先制-1",
+      "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合[color=#52a5f2]先制[/color]-1",
       "args": [
         1,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b9e3f28c"
+  "advance": null,
+  "hash": "5e5659ab"
 }

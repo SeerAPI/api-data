@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力小于1/1，则每次攻击不消耗PP值",
+          "analyze_info": "[sprite name=iconHit]若自身体力小于1/1，则每次攻击不消耗PP值（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下1次受到的攻击伤害减少25%",
+          "analyze_info": "[sprite name=iconHit]下1次受到的攻击伤害减少25%（boss有效）",
           "args": [
             1,
             25
@@ -44,6 +46,7 @@
         },
         {
           "info": "后出手时造成的攻击伤害提升25%，若对手当前体力值高于自身则伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]后出手时造成的攻击伤害提升25%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             25,
             50
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2214ff9c"
+  "hash": "8ca3cad4"
 }

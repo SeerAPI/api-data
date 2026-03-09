@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则100%令对手失明，未触发则恢复自身最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则100%令对手[color=#57c975]失明[/color]，[color=#52a5f2]未触发[/color]则恢复自身最大体力的1/3",
       "args": [
         100,
         20,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若对手处于异常状态则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "78ecaec"
+  "advance": null,
+  "hash": "40c41687"
 }

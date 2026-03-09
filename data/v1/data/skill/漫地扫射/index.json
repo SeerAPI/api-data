@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "回合开始时，若自身处于能力下降状态，则威力翻倍，同时解除能力下降状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]回合开始时[/color]，若自身处于能力下降状态，则[color=#52a5f2]威力[/color]翻倍，同时解除能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 468,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中后30%使对手害怕2回合,遇到天敌概率翻倍",
+          "analyze_info": "[sprite name=iconHit]命中后30%使对手[color=#57c975]害怕[/color]2回合,遇到天敌概率翻倍（boss有效）",
           "args": [
             30,
             6,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e5777402"
+  "hash": "d326a2da"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合50%对手属性技能无效，未触发则100%令对手冰封",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合50%对手属性技能无效，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]冰封[/color]",
       "args": [
         2,
         50,
@@ -34,6 +35,7 @@
     },
     {
       "info": "对手为自身天敌时造成的伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]对手为自身天敌时造成的伤害翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 567,
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ee98ce44"
+  "advance": null,
+  "hash": "c328a43b"
 }

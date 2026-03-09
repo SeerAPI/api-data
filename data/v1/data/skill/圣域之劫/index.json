@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若自身能力提升状态被消除或吸取则50%使对手害怕2回合",
+          "analyze_info": "[sprite name=iconHit]3回合内若自身能力提升状态被消除或[color=#52a5f2]吸取[/color]则50%使对手[color=#57c975]害怕[/color]2回合",
           "args": [
             3,
             50,
@@ -36,6 +37,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定命中",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [
             2
           ],
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "94293c1a"
+  "hash": "7a1fb823"
 }

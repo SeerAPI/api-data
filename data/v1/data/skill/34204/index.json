@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则50%令对手失明，未触发则100%令对手疲惫",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则50%令对手[color=#57c975]失明[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]疲惫[/color]",
       "args": [
         50,
         20,
@@ -34,6 +35,7 @@
     },
     {
       "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]且受到原本恢复量1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3,
         3
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "68147892"
+  "advance": null,
+  "hash": "56b672a2"
 }

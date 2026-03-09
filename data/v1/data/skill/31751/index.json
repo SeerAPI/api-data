@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若受到攻击则有100%概率令对手害怕",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有100%概率令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "3回合内若对手攻击MISS则回合结束时吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手攻击MISS则[color=#57c975]回合结束时[/color][color=#52a5f2]吸取[/color]对手最大体力的1/3（boss有效）",
       "args": [
         3,
         3
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4e23bbc1"
+  "advance": null,
+  "hash": "c0f8cf7e"
 }

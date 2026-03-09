@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过250",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过250（boss有效）",
       "args": [
         2,
         250
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         2,
         100
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6060aa9e"
+  "advance": null,
+  "hash": "e51b4fe9"
 }

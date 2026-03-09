@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "损失自身200点体力，给对手造成300点固定伤害，若自身体力不足200则剩下1点体力",
+      "analyze_info": "[sprite name=iconHit]损失自身200点体力，给对手造成300点[color=#52a5f2]固定伤害[/color]，若自身体力不足200则剩下1点体力（boss有效）",
       "args": [
         200,
         300,
@@ -44,6 +46,7 @@
     },
     {
       "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令对方场下阵亡的首位精灵[color=#57c975]消逝[/color]",
       "args": [],
       "effect": {
         "id": 2105,
@@ -52,6 +55,7 @@
     },
     {
       "info": "每使用此技能击败一只精灵则减少对手下只出场精灵25%最大体力",
+      "analyze_info": "[sprite name=iconHit]每使用此技能[color=#57c975]击败[/color]一只精灵则减少对手下只出场精灵25%最大体力",
       "args": [
         25
       ],
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6ea211be"
+  "advance": null,
+  "hash": "db9f493"
 }

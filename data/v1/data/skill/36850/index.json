@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "令双方所有技能PP值等于此技能剩余PP值，若对手变化值达到10则令对手失明，若自身变化值达到10则令对手失神",
+      "analyze_info": "[sprite name=iconHit]令双方所有技能PP值等于此技能剩余PP值，若对手变化值[color=#52a5f2]达到[/color]10则令对手[color=#57c975]失明[/color]，若自身变化值[color=#52a5f2]达到[/color]10则令对手[color=#57c975]失神[/color]",
       "args": [
         10,
         20,
@@ -35,5 +36,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ade92d80"
+  "advance": null,
+  "hash": "b37bc705"
 }

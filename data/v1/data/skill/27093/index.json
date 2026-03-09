@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若自身能力提升状态被消除或吸取则100%使对手失明2回合",
+      "analyze_info": "[sprite name=iconHit]3回合内若自身能力提升状态被消除或[color=#52a5f2]吸取[/color]则100%使对手[color=#57c975]失明[/color]2回合",
       "args": [
         3,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "3回合内若自身回合类效果被消除则100%令对手失神",
+      "analyze_info": "[sprite name=iconHit]3回合内若自身[color=#52a5f2]回合类效果[/color]被消除则100%令对手[color=#57c975]失神[/color]",
       "args": [
         3,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "3回合内每回合若先出手则吸取对手300点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合若先出手则[color=#52a5f2]吸取[/color]对手300点体力",
       "args": [
         3,
         300
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6f064cfe"
+  "advance": null,
+  "hash": "8cbb6ac8"
 }

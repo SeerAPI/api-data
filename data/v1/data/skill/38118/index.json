@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视护盾效果",
+      "analyze_info": "[sprite name=iconHit]无视[color=#57c975]护盾[/color]效果",
       "args": [],
       "effect": {
         "id": 1568,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "造成的攻击伤害提升50%，对手处于异常状态时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害提升50%，对手处于异常状态时效果翻倍",
       "args": [
         50
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "吸取对手250点体力，对手不处于异常状态时改为汲取",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手250点体力，对手不处于异常状态时改为汲取",
       "args": [
         250
       ],
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d3edf033"
+  "advance": null,
+  "hash": "89959ef9"
 }

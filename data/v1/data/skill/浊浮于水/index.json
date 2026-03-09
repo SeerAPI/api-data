@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "遇到天敌时先制+1",
+          "analyze_info": "[sprite name=iconInherent]遇到天敌时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [],
           "effect": {
             "id": 980,
@@ -41,6 +43,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "4回合内免疫大于300的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫大于300的攻击伤害",
           "args": [
             4,
             300
@@ -62,6 +66,7 @@
         },
         {
           "info": "80%令对手害怕，未触发则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]80%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
           "args": [
             80,
             6
@@ -73,8 +78,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b9ff22a1"
+  "hash": "7df5aa7f"
 }

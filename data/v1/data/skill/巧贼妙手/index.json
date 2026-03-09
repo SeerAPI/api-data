@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做5-7次攻击，自身处于护盾状态下连击上限为9",
+          "analyze_info": "[sprite name=iconHit]1回合做5-7次攻击，自身处于[color=#57c975]护盾[/color]状态下连击上限为9（boss有效）",
           "args": [
             5,
             7,
@@ -35,6 +36,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             1
           ],
@@ -45,6 +47,7 @@
         },
         {
           "info": "本回合若未打出致命一击则下1回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]本回合若未打出[color=#57c975]致命一击[/color]则下1回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             1
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "216c72e4"
+  "hash": "283447b9"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -31,6 +32,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的控制类异常状态",
           "args": [
             4
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "2回合内使用技能随机附加2种非限制类异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内使用技能随机附加2种非限制类异常状态",
           "args": [
             2,
             2
@@ -52,6 +55,7 @@
         },
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则恢复自身所有体力，反馈失败则解除自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手，反馈成功则恢复自身所有体力，反馈失败则解除自身能力下降状态",
           "args": [],
           "effect": {
             "id": 1524,
@@ -60,6 +64,7 @@
         },
         {
           "info": "技能无效时，随机附加2种非限制类异常状态",
+          "analyze_info": "[sprite name=iconInherent]技能无效时，随机附加2种非限制类异常状态",
           "args": [
             3
           ],
@@ -70,8 +75,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f9b79266"
+  "hash": "a12c8883"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时，额外附加230点固定伤害",
+      "analyze_info": "[sprite name=iconHit]先出手时，额外附加230点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         230
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若受到攻击，则对手命中-1",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击，则对手命中-1（boss有效）",
       "args": [
         3,
         0,
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "da9edacf"
+  "advance": null,
+  "hash": "8bd6c0c9"
 }

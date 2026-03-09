@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过280",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过280（boss有效）",
       "args": [
         2,
         280
@@ -32,6 +33,7 @@
     },
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "76fc0702"
+  "advance": null,
+  "hash": "f6d48c09"
 }

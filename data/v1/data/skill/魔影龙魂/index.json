@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "获得400点护盾，护盾消失时附加300点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]获得400点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时附加300点[color=#52a5f2]固定伤害[/color]同时使自身下1次攻击造成的伤害翻倍（boss有效）",
           "args": [
             400,
             300,
@@ -45,6 +47,7 @@
         },
         {
           "info": "下2回合，每回合都使对手的先制-2",
+          "analyze_info": "[sprite name=iconHit]下2回合，每回合都使对手的[color=#52a5f2]先制[/color]-2（boss有效）",
           "args": [
             2,
             2
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d380afa3"
+  "hash": "4f596e3"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时50%使对手疲惫3回合",
+          "analyze_info": "[sprite name=iconHit]先出手时50%使对手[color=#57c975]疲惫[/color]3回合（boss有效）",
           "args": [
             50,
             7,
@@ -35,6 +36,7 @@
         },
         {
           "info": "后出手时自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]后出手时自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "de06e306"
+  "hash": "413393ca"
 }

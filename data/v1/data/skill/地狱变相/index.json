@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内自身与对方反转战斗时属性",
+          "analyze_info": "[sprite name=iconHit]5回合内自身与对方反转战斗时属性（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "恢复双方所有体力",
+          "analyze_info": "[sprite name=iconHit]恢复双方所有体力（boss有效）",
           "args": [],
           "effect": {
             "id": 404,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "987f0969"
+  "hash": "f79be495"
 }

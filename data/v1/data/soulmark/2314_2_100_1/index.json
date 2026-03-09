@@ -4,6 +4,7 @@
       "id": 1912,
       "desc": "回合开始时，若自身体力低于1/2则当回合所有技能使用时100%令对手麻痹，未触发则与对手交换体力百分比，自身击败对手时，若对手处于麻痹状态，则令对手下场后所有的异常状态转移给下只出战精灵（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力低于1/2则当回合所有技能使用时100%<color=#64F9FA>令对手麻痹</color>\r\n<indent=32><sprite=4><indent=48>未触发则与对手交换体力百分比\r\n\r\n<indent=0><sprite=0><indent=16>击败效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手时，若对手处于麻痹状态，则令对手下场后所有的<b>异常状态</b>转移给下只出战精灵",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -36,8 +37,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "486b7210"
+  "hash": "d9f02bb5"
 }

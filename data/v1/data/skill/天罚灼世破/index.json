@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内若造成伤害大于300则100%概率使对手焚烬",
+          "analyze_info": "[sprite name=iconHit]2回合内若造成伤害大于300则100%概率使对手[color=#57c975]焚烬[/color]",
           "args": [
             2,
             300,
@@ -36,6 +37,7 @@
         },
         {
           "info": "若对手不处于异常状态则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cba9a750"
+  "hash": "5eab2119"
 }

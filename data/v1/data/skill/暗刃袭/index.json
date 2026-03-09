@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fdb3898d"
+  "hash": "1aeb80ed"
 }

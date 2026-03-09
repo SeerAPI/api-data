@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "抵挡下1次对手的攻击",
+          "analyze_info": "[sprite name=iconHit]抵挡下1次对手的攻击（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "2回合内特殊攻击对自身必定miss",
+          "analyze_info": "[sprite name=iconHit]2回合内特殊攻击对自身必定miss（boss有效）",
           "args": [
             2
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4b35f8a5"
+  "hash": "a0dea36b"
 }

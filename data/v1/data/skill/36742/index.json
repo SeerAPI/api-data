@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视自身能力下降状态",
+      "analyze_info": "[sprite name=iconInherent]无视自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1750,
@@ -29,6 +30,7 @@
     },
     {
       "info": "释放技能时自身每损失5%的体力值则此技能威力提升10点",
+      "analyze_info": "[sprite name=iconHit]释放技能时自身每损失5%的体力值则此技能[color=#52a5f2]威力[/color]提升10点（boss有效）",
       "args": [
         5,
         10
@@ -40,6 +42,7 @@
     },
     {
       "info": "对手每损失1点体力则额外附加1点固定伤害",
+      "analyze_info": "[sprite name=iconHit]对手每损失1点体力则额外附加1点[color=#52a5f2]固定伤害[/color]",
       "args": [
         1,
         1
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3e81c27c"
+  "advance": null,
+  "hash": "1fbf4866"
 }

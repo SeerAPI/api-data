@@ -4,6 +4,7 @@
       "id": 1078,
       "desc": "自身使用攻击技能40%令对手害怕，未触发则下次触发的概率翻倍；|回合开始时，若自身体力高于对手则当回合造成的攻击伤害提升100%，若自身体力低于对手则战斗阶段结束时恢复自身最大体力的1/3（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能40%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则下次触发的概率翻倍\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则战斗阶段结束时<color=#64F9FA>恢复</color>自身最大体力的1/3",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -44,8 +45,9 @@
         "id": 1648,
         "url": "https://api.seerapi.com/v1/soulmark/1648"
       },
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "78dc96fd"
+  "hash": "4942da8e"
 }

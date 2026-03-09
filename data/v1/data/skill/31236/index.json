@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 485,
@@ -29,6 +30,7 @@
     },
     {
       "info": "未击败对手则己方下1次攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则[color=#52a5f2]己方[/color]下1次攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1e4319c2"
+  "advance": null,
+  "hash": "ff0de162"
 }

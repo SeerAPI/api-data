@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手是雄性则造成伤害提升100%,若对手不是雄性，则有100%概率使对手害怕",
+          "analyze_info": "[sprite name=iconHit]若对手是雄性则造成伤害提升100%,若对手不是雄性，则有100%概率使对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             1,
             100,
@@ -36,6 +37,7 @@
         },
         {
           "info": "双方每处于1种能力提升状态则附加40点固定伤害",
+          "analyze_info": "[sprite name=iconHit]双方每处于1种能力提升状态则附加40点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             1,
             40
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cee96e33"
+  "hash": "75f62ceb"
 }

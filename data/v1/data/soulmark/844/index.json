@@ -2,6 +2,7 @@
   "id": 844,
   "desc": "每回合随机吸取对手1-6项属性-1（boss无效）；自身死亡时消除对手能力提升状态，同时将自身能力提升状态附加给己方下只出战精灵（boss有效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时随机<color=#64F9FA>吸取</color>对手1~6项<b>能力等级</b>-1\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身被击败时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>将自身能力提升状态附加给己方下只出战精灵",
+  "analyze_desc": "",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +42,6 @@
     "url": "https://api.seerapi.com/v1/soulmark/1519"
   },
   "from": null,
-  "hash": "86aa053d"
+  "advance": null,
+  "hash": "43ea585c"
 }

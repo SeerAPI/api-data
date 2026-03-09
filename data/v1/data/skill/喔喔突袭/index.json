@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功则自身速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身速度+1，命中+1（boss有效）",
           "args": [
             0,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "对手处于烧伤状态时，威力翻倍",
+          "analyze_info": "[sprite name=iconHit]对手处于[color=#57c975]烧伤[/color]状态时，[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 96,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "889a17c8"
+  "hash": "fdad10b0"
 }

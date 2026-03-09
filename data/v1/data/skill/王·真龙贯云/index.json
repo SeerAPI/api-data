@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "出手时若自身满体力则100%打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]出手时若自身满体力则100%打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1640,
@@ -41,6 +43,7 @@
         },
         {
           "info": "连续使用时威力提升25%，最高提升100%",
+          "analyze_info": "[sprite name=iconHit]连续使用时[color=#52a5f2]威力[/color]提升25%，最高提升100%（boss有效）",
           "args": [
             25,
             100
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2bb20fdd"
+  "hash": "615a3d9f"
 }

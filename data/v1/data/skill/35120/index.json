@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "30%令对手石化，每次使用概率增加10%，最高概率60%",
+      "analyze_info": "[sprite name=iconHit]30%令对手[color=#57c975]石化[/color]，每次使用概率增加10%，最高概率60%",
       "args": [
         30,
         9,
@@ -34,6 +35,7 @@
     },
     {
       "info": "后出手时吸取对手200点体力",
+      "analyze_info": "[sprite name=iconHit]后出手时[color=#52a5f2]吸取[/color]对手200点体力（boss有效）",
       "args": [
         200
       ],
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f87a4350"
+  "advance": null,
+  "hash": "e21255a4"
 }

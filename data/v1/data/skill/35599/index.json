@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "攻击对手时若对手处于冻伤状态，则100%使对手冰封",
+      "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]冻伤[/color]状态，则100%使对手[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         5,
         100,
@@ -43,6 +45,7 @@
     },
     {
       "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b43020cf"
+  "advance": null,
+  "hash": "8c8e0ba7"
 }

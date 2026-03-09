@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内50%令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]3回合内50%令对手使用的属性技能无效（boss有效）",
           "args": [
             3,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "45bf2a8d"
+  "hash": "76d2bafa"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内对手恢复体力时恢复效果减少50%",
+          "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少50%（boss有效）",
           "args": [
             3,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能则诅咒，未触发则减少对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则[color=#57c975]诅咒[/color]，[color=#52a5f2]未触发[/color]则减少对手1/3最大体力",
           "args": [
             3,
             23,
@@ -56,6 +59,7 @@
         },
         {
           "info": "下3回合每回合使用攻击技能附加自身防御、特防值总和40%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]下3回合每回合使用攻击技能附加自身防御、特防值总和40%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             3,
             40
@@ -67,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6491620c"
+  "hash": "b066c564"
 }

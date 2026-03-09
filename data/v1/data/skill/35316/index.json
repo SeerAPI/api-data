@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "击败对手则下1回合自身造成的攻击伤害提升50%，若以致命一击击败对手则伤害再提升50%",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则下1回合自身造成的攻击伤害提升50%，若[color=#52a5f2]以[/color][color=#57c975]致命一击[/color][color=#57c975]击败[/color]对手则伤害再提升50%",
       "args": [
         1,
         50,
@@ -43,6 +45,7 @@
     },
     {
       "info": "若对手处于烧伤状态则对手防御-2",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态则对手防御-2（boss有效）",
       "args": [
         2,
         0,
@@ -60,5 +63,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "df2b280c"
+  "advance": null,
+  "hash": "24cfcedf"
 }

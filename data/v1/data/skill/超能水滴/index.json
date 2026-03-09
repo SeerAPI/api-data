@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "额外附加20点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加20点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             20
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "技能使用成功时，10%改变自身特攻等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，10%改变自身特攻等级+1（boss有效）",
           "args": [
             2,
             10,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2bf92c84"
+  "hash": "c7e6e97e"
 }

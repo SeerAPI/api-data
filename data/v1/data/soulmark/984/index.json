@@ -2,6 +2,7 @@
   "id": 984,
   "desc": "先出手时附加自身速度值50%的固定伤害，后出手时下回合所有技能先制+2；自身使用技能则随机获得以下效果其中的1种：令对手全属性-1、令自身全属性+1、60%令对手害怕、为自身附加300点护盾、100%打出致命一击（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时<color=#64F9FA>附加</color>自身速度值50%的<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>后出手时下回合所有技能<b>先制</b>+2\r\n\r\n<indent=0><sprite=0><indent=16>技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用技能则随机获得以下效果其中的1种：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>令对手全属性-1</color>\r\n<indent=32><sprite=4><indent=48>令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>60%<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n<indent=32><sprite=4><indent=48>100%<color=#64F9FA>打出致命一击</color>",
+  "analyze_desc": "[sprite name=dot4]自身先出手时附加自身速度值50%的[color=#52a5f2]百分比伤害[/color]，自身后出手时自身下回合所有[color=#52a5f2]技能先制[/color]+2；自身使用技能时随机触发[color=#52a5f2]以[/color]下效果中的1种：|    [sprite name=dot5]令对手[color=#52a5f2]全属性[/color]-1|    [sprite name=dot5]令自身[color=#52a5f2]全属性[/color]+1|    [sprite name=dot5]60%令对手[color=#57c975]害怕[/color]|    [sprite name=dot5]为自身附加300点[color=#57c975]护盾[/color]|    [sprite name=dot5]必定打出[color=#57c975]致命一击[/color]",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -47,5 +48,6 @@
     "url": "https://api.seerapi.com/v1/soulmark/1781"
   },
   "from": null,
-  "hash": "bb354644"
+  "advance": null,
+  "hash": "46f7f355"
 }

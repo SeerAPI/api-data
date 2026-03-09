@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则对手下1回合技能失效",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则对手下1回合技能失效",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "给对手造成伤害时，伤害数值的50%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的50%恢复自身体力（boss有效）",
           "args": [
             50
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "43f5cc23"
+  "hash": "240cd094"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身处于护盾状态时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身处于[color=#57c975]护盾[/color]状态时强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下2回合造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             2,
             100
@@ -54,6 +57,7 @@
         },
         {
           "info": "对手的蚀砚之泪数量高于自身的永恒之水时获得等同于对手蚀砚之泪数量的永恒之水",
+          "analyze_info": "[sprite name=iconHit]对手的[color=#f35555]蚀砚之泪[/color]数量高于自身的[color=#f35555]永恒之水[/color]时获得等同于对手[color=#f35555]蚀砚之泪[/color]数量的[color=#f35555]永恒之水[/color]",
           "args": [],
           "effect": {
             "id": 2262,
@@ -62,6 +66,7 @@
         },
         {
           "info": "下2回合自身所有技能先制+2，自身先制等级大于0时提升为+3",
+          "analyze_info": "[sprite name=iconHit]下2回合自身所有技能[color=#52a5f2]先制[/color]+2，自身[color=#52a5f2]先制[/color]等级大于0时提升为+3",
           "args": [
             2,
             2,
@@ -75,8 +80,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/pet_advance/7"
+      }
     }
   },
-  "hash": "31a27235"
+  "hash": "740395eb"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于异常状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于异常状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 2020,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身处于异常状态时，克制倍数取自身对对手、对手对自身克制倍数中的最大值",
+      "analyze_info": "[sprite name=iconInherent]自身处于异常状态时，克制倍数取自身对对手、对手对自身克制倍数中的最大值",
       "args": [],
       "effect": {
         "id": 2205,
@@ -37,6 +39,7 @@
     },
     {
       "info": "消除对手回合类效果，若对手不处于回合类效果则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，若对手不处于[color=#52a5f2]回合类效果[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "解除自身所处的异常状态，解除成功令对手冰封",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功令对手[color=#57c975]冰封[/color]",
       "args": [
         15
       ],
@@ -58,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "df0c0785"
+  "advance": null,
+  "hash": "e5222bac"
 }

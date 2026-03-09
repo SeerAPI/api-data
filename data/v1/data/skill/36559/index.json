@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
       "args": [],
       "effect": {
         "id": 699,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则下1回合令对手使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1回合令对手使用的攻击技能无效",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "下回合对手未使用攻击技能则100%令对手睡眠，未触发则令对手下1次属性技能失效",
+      "analyze_info": "[sprite name=iconHit]下回合对手未使用攻击技能则100%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则令对手下1次属性技能失效",
       "args": [
         100,
         8,
@@ -51,6 +54,7 @@
     },
     {
       "info": "附加己方存活精灵共计已损失体力30%的百分比伤害，自身持有凯旋预言时转化为真实伤害，且当回合击败对手后恢复己方场下体力最低的首位精灵全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit]附加[color=#52a5f2]己方[/color]存活精灵共计[color=#52a5f2]已损失体力[/color]30%的[color=#52a5f2]百分比伤害[/color]，自身持有[color=#f35555]凯旋预言[/color]时[color=#52a5f2]转化[/color]为[color=#52a5f2]真实伤害[/color]，且[color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手后恢复[color=#52a5f2]己方[/color]场下体力最低的首位精灵全部体力和所有技能PP值",
       "args": [
         30
       ],
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "74e96988"
+  "advance": null,
+  "hash": "605626ca"
 }

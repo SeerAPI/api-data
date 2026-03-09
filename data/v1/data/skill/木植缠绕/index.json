@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有体力（boss有效）",
           "args": [],
           "effect": {
             "id": 485,
@@ -31,6 +32,7 @@
         },
         {
           "info": "随机使对手2种能力等级-2",
+          "analyze_info": "[sprite name=iconHit]随机使对手2种能力等级-2（boss有效）",
           "args": [
             2,
             2
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "700570a8"
+  "hash": "c8a416de"
 }

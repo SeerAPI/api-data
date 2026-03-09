@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "双方任意一方处于能力下降状态均会附加400点固定伤害，同时解除自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]双方任意一方处于能力下降状态均会附加400点[color=#52a5f2]固定伤害[/color]，同时解除自身能力下降状态（boss有效）",
           "args": [
             400
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "80%令对手冰封，未触发则3回合内每回合80%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]80%令对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则3回合内每回合80%闪避对手攻击",
           "args": [
             80,
             15,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8b047940"
+  "hash": "9861b8da"
 }

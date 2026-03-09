@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "此技能PP值不为满时先制+1",
+      "analyze_info": "[sprite name=iconInherent]此技能PP值不为满时[color=#52a5f2]先制[/color]+1",
       "args": [],
       "effect": {
         "id": 2242,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则自身下1次攻击技能造成的伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则自身下1次攻击技能造成的[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         1,
         100
@@ -40,6 +42,7 @@
     },
     {
       "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]且受到原本恢复量1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3,
         3
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c698fc65"
+  "advance": null,
+  "hash": "f3d9e"
 }

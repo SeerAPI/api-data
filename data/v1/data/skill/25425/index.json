@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下1次受到的固定伤害和百分比伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]下1次受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少50%",
       "args": [
         1,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内使用技能附加200点固定伤害，若自身体力低于对手则效果翻倍",
+      "analyze_info": "[sprite name=iconHit]3回合内使用技能附加200点[color=#52a5f2]固定伤害[/color]，若自身体力低于对手则效果翻倍（boss有效）",
       "args": [
         3,
         200
@@ -43,6 +45,7 @@
     },
     {
       "info": "5回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2d9537b"
+  "advance": null,
+  "hash": "7d3a94de"
 }

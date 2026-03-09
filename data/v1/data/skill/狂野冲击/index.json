@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加自身当前护盾值等量的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身当前[color=#57c975]护盾[/color]值等量的[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1272,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5d0384d"
+  "hash": "d75d686d"
 }

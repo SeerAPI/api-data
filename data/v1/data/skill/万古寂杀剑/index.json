@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时令对手下1回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合属性技能无效",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6561c29c"
+  "hash": "34a64417"
 }

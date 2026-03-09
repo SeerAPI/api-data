@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
       "args": [],
       "effect": {
         "id": 1232,
@@ -37,6 +39,7 @@
     },
     {
       "info": "全属性+1，先出手时自身强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，先出手时自身强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "4回合内每回合使用技能吸取对手300点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍，若对手未受到固定伤害则额外附加250点真实伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手300点体力，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍，若对手未受到[color=#52a5f2]固定伤害[/color]则额外附加250点[color=#52a5f2]真实伤害[/color]",
       "args": [
         4,
         300,
@@ -60,6 +64,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -71,6 +76,7 @@
     },
     {
       "info": "崩溃：萨芙凯特直到战斗结束先制+1",
+      "analyze_info": "[sprite name=iconInherent][color=#f35555]崩溃[/color]：萨芙凯特直到战斗结束[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 2113,
@@ -80,5 +86,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3b3c70c9"
+  "advance": null,
+  "hash": "84be2413"
 }

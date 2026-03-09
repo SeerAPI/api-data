@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7e916f31"
+  "advance": null,
+  "hash": "9a4e8d6d"
 }

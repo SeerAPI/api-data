@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害低于300则100%令对手麻痹，未触发则下1回合攻击技能80%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则下1回合攻击技能80%令对手[color=#57c975]害怕[/color]",
       "args": [
         300,
         100,
@@ -46,6 +48,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则令自身下2回合所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令自身下2回合所有技能[color=#52a5f2]先制[/color]+1",
       "args": [
         300,
         2,
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "150cba17"
+  "advance": null,
+  "hash": "461481e2"
 }

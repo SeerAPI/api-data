@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "当回合造成的攻击伤害若高于300则100%令对手感染",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]感染[/color]",
           "args": [
             300,
             100,
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "22d50037"
+  "hash": "23b847ab"
 }

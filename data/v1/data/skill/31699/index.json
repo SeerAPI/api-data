@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "6%的概率秒杀对手，未触发则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]6%的概率[color=#52a5f2]秒杀[/color]对手，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         6,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "当回合造成的攻击伤害若高于300则100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]害怕[/color]",
       "args": [
         300,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "若造成的伤害不足300，则下2回合的攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则下2回合的攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         300,
         2
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "30220100"
+  "advance": null,
+  "hash": "b969cb15"
 }

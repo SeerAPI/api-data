@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则当回合对手无法造成攻击伤害",
+      "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]对手无法造成攻击伤害",
       "args": [],
       "effect": {
         "id": 664,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合后对对手造成500点固定伤害 重复使用无法叠加",
+      "analyze_info": "[sprite name=iconHit]3回合后对对手造成500点[color=#52a5f2]固定伤害[/color] 重复使用无法叠加（boss有效）",
       "args": [
         3,
         500
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "79aba8a1"
+  "advance": null,
+  "hash": "a4eb70e8"
 }

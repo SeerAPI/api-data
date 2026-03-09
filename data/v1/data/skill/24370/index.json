@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下2回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合都能附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         150
@@ -42,6 +44,7 @@
     },
     {
       "info": "2回合内受到物理攻击和特殊攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]2回合内受到物理攻击和特殊攻击伤害减少50%（boss有效）",
       "args": [
         2,
         2,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5bab7e70"
+  "advance": null,
+  "hash": "ec0e04b9"
 }

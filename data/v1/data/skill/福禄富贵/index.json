@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -59,6 +62,7 @@
         },
         {
           "info": "为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300
           ],
@@ -69,6 +73,7 @@
         },
         {
           "info": "3回合内若对手造成的伤害低于300则免疫该伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手造成的伤害低于300则免疫该伤害（boss有效）",
           "args": [
             3,
             300
@@ -80,8 +85,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d76c4240"
+  "hash": "92988b8a"
 }

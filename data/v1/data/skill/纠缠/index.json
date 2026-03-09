@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，50%改变对手速度等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，50%改变对手速度等级-1（boss有效）",
           "args": [
             4,
             50,
@@ -35,7 +36,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "37485": {
       "id": 37485,
@@ -60,6 +62,7 @@
       "skill_effect": [
         {
           "info": "100%令对手束缚，未触发则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]束缚[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             100,
             28,
@@ -72,6 +75,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点（boss有效）",
           "args": [
             2,
             300
@@ -83,8 +87,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7189a9f5"
+  "hash": "a8074a7"
 }

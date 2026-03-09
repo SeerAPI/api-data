@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手护盾、护罩类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]类效果",
       "args": [],
       "effect": {
         "id": 1989,
@@ -29,6 +30,7 @@
     },
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "令对手全属性-1，若自身持有蓝色或白色龙鳞则弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]令对手[color=#52a5f2]全属性[/color]-1，若自身持有蓝色或[color=#f35555]白色龙鳞[/color]则弱化效果翻倍",
       "args": [
         1
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2edf4f4"
+  "advance": null,
+  "hash": "eafcd6fa"
 }

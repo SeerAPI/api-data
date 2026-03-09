@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]2回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "使对手攻击-1，特攻-1，速度-1，命中-1，对手处于异常状态时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]使对手攻击-1，特攻-1，速度-1，命中-1，对手处于异常状态时弱化效果翻倍（boss有效）",
       "args": [
         -1,
         0,
@@ -46,6 +48,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定致命、必定命中",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定致命、[color=#52a5f2]必定命中[/color]（boss有效）",
       "args": [
         2
       ],
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "490f6415"
+  "advance": null,
+  "hash": "d76c118a"
 }

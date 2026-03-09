@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手防御等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-1（boss有效）",
       "args": [
         1,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "2回合内每回合对手防御-1",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合对手防御-1（boss有效）",
       "args": [
         2,
         0,
@@ -50,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "20278407"
+  "advance": null,
+  "hash": "8aa554e9"
 }

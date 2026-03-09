@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，攻击+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，速度+1，命中+1（boss有效）",
       "args": [
         1,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内每回合50%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合50%闪避对手攻击（boss有效）",
       "args": [
         3,
         50
@@ -47,6 +49,7 @@
     },
     {
       "info": "下回合其他攻击技能附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]下回合其他攻击技能附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150
       ],
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "872207cf"
+  "advance": null,
+  "hash": "992ab456"
 }

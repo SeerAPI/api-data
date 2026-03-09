@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%的概率，2回合内受到的伤害减半",
+      "analyze_info": "[sprite name=iconHit]100%的概率，2回合内受到的伤害减半（boss有效）",
       "args": [
         100,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "恢复100点体力",
+      "analyze_info": "[sprite name=iconHit]恢复100点体力（boss有效）",
       "args": [
         100
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f63fb190"
+  "advance": null,
+  "hash": "fff23e9d"
 }

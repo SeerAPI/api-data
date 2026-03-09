@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则自身4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内自身受到攻击100%使对手瘫痪，若未触发则对手受到300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内自身受到攻击100%使对手[color=#57c975]瘫痪[/color]，若[color=#52a5f2]未触发[/color]则对手受到300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         4,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "消耗自身所有护盾值，造成等量固定伤害",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有[color=#57c975]护盾[/color]值，造成等量[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1017,
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5a72acc4"
+  "advance": null,
+  "hash": "15fddffd"
 }

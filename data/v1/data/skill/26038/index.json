@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，防御+1，特攻+2，特防+1，速度+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特攻+2，特防+1，速度+1（boss有效）",
       "args": [
         0,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "下2回合自身使用攻击技能则附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]下2回合自身使用攻击技能则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         2,
         200
@@ -47,6 +49,7 @@
     },
     {
       "info": "2回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]2回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         2
       ],
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8e3465b5"
+  "advance": null,
+  "hash": "5b9e0fea"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时，50%概率令对方害怕",
+      "analyze_info": "[sprite name=iconHit]先出手时，50%概率令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         50,
         6
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时使对手下2回合攻击技能MISS",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手下2回合攻击技能MISS",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6a8dcfa"
+  "advance": null,
+  "hash": "23e13ee6"
 }

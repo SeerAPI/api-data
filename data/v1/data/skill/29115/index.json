@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "2回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]2回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         2
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "643244ea"
+  "advance": null,
+  "hash": "1a727499"
 }

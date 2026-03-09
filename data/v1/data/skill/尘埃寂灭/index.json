@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将能力下降状态反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将能力下降状态反馈给对手（boss有效）",
           "args": [],
           "effect": {
             "id": 63,
@@ -31,6 +32,7 @@
         },
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -39,6 +41,7 @@
         },
         {
           "info": "2回合内每回合被攻击所受到的伤害不超过250",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过250（boss有效）",
           "args": [
             2,
             250
@@ -50,6 +53,7 @@
         },
         {
           "info": "造成的伤害不少于250",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不少于250（boss有效）",
           "args": [
             250
           ],
@@ -60,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6cca6ab6"
+  "hash": "d7974e3c"
 }

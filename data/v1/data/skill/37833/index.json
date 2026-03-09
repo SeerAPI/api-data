@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手不处于能力提升状态则50%令对手冻伤",
+      "analyze_info": "[sprite name=iconHit]若对手不处于能力提升状态则50%令对手[color=#57c975]冻伤[/color]",
       "args": [
         50,
         5
@@ -32,6 +33,7 @@
     },
     {
       "info": "3合内自身所有攻击造成的伤害都将为自己恢复体力",
+      "analyze_info": "[sprite name=iconHit]3合内自身所有攻击造成的伤害都将为自己恢复体力（boss有效）",
       "args": [
         3
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "623ba0b3"
+  "advance": null,
+  "hash": "c7930e94"
 }

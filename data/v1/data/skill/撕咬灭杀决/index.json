@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若造成的伤害不足300，则回合结束时对手损失200点固定体力",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则[color=#57c975]回合结束时[/color]对手损失200点固定体力（boss有效）",
           "args": [
             300,
             200
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "61ae0d17"
+  "hash": "3bd48cfd"
 }

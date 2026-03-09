@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身速度等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
           "args": [
             4,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身命中等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
           "args": [
             5,
             100,
@@ -59,6 +62,7 @@
         },
         {
           "info": "3回合内受到物理攻击时，有100%概率将对手冻伤",
+          "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击时，有100%概率将对手[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             3,
             100
@@ -70,6 +74,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -81,8 +86,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9550bf96"
+  "hash": "6db9acf3"
 }

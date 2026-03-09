@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内自身与对方反转战斗时属性",
+          "analyze_info": "[sprite name=iconHit]5回合内自身与对方反转战斗时属性（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身攻击等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+1（boss有效）",
           "args": [
             0,
             100,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e2283380"
+  "hash": "67a45bc7"
 }

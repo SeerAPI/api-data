@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "命中后80%使对手害怕，未触发则对手下2回合先制-1",
+      "analyze_info": "[sprite name=iconHit]命中后80%使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则对手下2回合[color=#52a5f2]先制[/color]-1",
       "args": [
         80,
         6,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a7e2f6d7"
+  "advance": null,
+  "hash": "16060a8d"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "下2回合对手打出致命一击的非必中技能无效",
+          "analyze_info": "[sprite name=iconHit]下2回合对手打出[color=#57c975]致命一击[/color]的非必中技能无效（boss有效）",
           "args": [
             2
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f1abb7c"
+  "hash": "d65ee49b"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若当前体力低于对手则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 954,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若先出手则必定打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1395,
@@ -37,6 +39,7 @@
     },
     {
       "info": "3回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -48,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "30a67340"
+  "advance": null,
+  "hash": "8a560c30"
 }

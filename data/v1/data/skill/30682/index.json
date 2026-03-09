@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]麻痹[/color]",
       "args": [
         0
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "连续使用每次威力增加20，最高威力240",
+      "analyze_info": "[sprite name=iconHit]连续使用每次[color=#52a5f2]威力[/color]增加20，最高[color=#52a5f2]威力[/color]240（boss有效）",
       "args": [
         20,
         240
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ed9e983a"
+  "advance": null,
+  "hash": "c1352df2"
 }

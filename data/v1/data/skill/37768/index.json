@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若本次技能微弱对手则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若本次技能微弱对手则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 2030,
@@ -29,6 +30,7 @@
     },
     {
       "info": "1回合做2-3次攻击，对手处于异常状态时连击上限为5",
+      "analyze_info": "[sprite name=iconHit]1回合做2-3次攻击，对手处于异常状态时连击上限为5",
       "args": [
         2,
         3,
@@ -41,6 +43,7 @@
     },
     {
       "info": "1回合内100%闪避对手攻击，若本次技能造成的伤害高于400则闪避效果延长1回合",
+      "analyze_info": "[sprite name=iconHit]1回合内100%闪避对手攻击，若本次技能造成的伤害高于400则闪避效果延长1回合",
       "args": [
         1,
         100,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "83611038"
+  "advance": null,
+  "hash": "64d16353"
 }

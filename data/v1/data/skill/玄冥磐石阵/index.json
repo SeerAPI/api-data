@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手全属性-1，未触发则对手害怕",
+          "analyze_info": "[sprite name=iconHit]使对手[color=#52a5f2]全属性[/color]-1，[color=#52a5f2]未触发[/color]则对手[color=#57c975]害怕[/color]",
           "args": [
             1,
             6
@@ -34,6 +35,7 @@
         },
         {
           "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
           "args": [],
           "effect": {
             "id": 811,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c32e52df"
+  "hash": "1a625698"
 }

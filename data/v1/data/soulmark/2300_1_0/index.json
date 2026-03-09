@@ -4,6 +4,7 @@
       "id": 1897,
       "desc": "对手使用技能后，若双方任意一方处于烧伤状态则与对手交换体力值百分比；回合结束后，若双方任意一方不处于烧伤状态，则自身恢复已损失体力值的30%（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>对手使用技能后，若双方任意一方处于烧伤状态则与对手<color=#64F9FA>交换</color><b>体力值</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>回合结束后，若双方任意一方不处于烧伤状态则自身<color=#64F9FA>恢复</color>已损失体力值的30%",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -31,8 +32,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "33b88a49"
+  "hash": "6bcd9501"
 }

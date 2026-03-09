@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后90%使对手害怕，若未触发则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]命中后90%使对手[color=#57c975]害怕[/color]，若[color=#52a5f2]未触发[/color]则恢复自身全部体力",
       "args": [
         90,
         6
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内每回合被攻击所受到的伤害不超过260",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合被攻击所受到的伤害不超过260（boss有效）",
       "args": [
         3,
         260
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "18a54e93"
+  "advance": null,
+  "hash": "13668655"
 }

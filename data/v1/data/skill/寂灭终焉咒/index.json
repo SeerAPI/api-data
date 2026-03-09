@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则恢复自身全部体力",
           "args": [],
           "effect": {
             "id": 945,
@@ -31,6 +32,7 @@
         },
         {
           "info": "造成的伤害低于300则吸取对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手1/3最大体力",
           "args": [
             300,
             3
@@ -42,6 +44,7 @@
         },
         {
           "info": "自身体力高于1/2时附加自身当前体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]自身体力高于1/2时附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             2,
             3
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "23ed433b"
+  "hash": "630cafa5"
 }

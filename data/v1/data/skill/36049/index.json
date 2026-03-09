@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手不处于异常状态则造成的攻击伤害额外提升60%",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]60%（boss有效）",
       "args": [
         60
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手不处于异常状态则吸取对手最大体力的1/4",
+      "analyze_info": "[sprite name=iconHit]对手不处于异常状态则[color=#52a5f2]吸取[/color]对手最大体力的1/4",
       "args": [
         4
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9714c717"
+  "advance": null,
+  "hash": "337ba11d"
 }

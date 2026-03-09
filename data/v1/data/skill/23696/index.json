@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内若使用技能则恢复170点体力值",
+      "analyze_info": "[sprite name=iconHit]4回合内若使用技能则恢复170点体力值（boss有效）",
       "args": [
         4,
         170
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手攻击等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-2（boss有效）",
       "args": [
         0,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特攻等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-2（boss有效）",
       "args": [
         2,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dbf0bacd"
+  "advance": null,
+  "hash": "1af7a124"
 }

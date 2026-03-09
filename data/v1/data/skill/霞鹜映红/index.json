@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加150点固定伤害，每次使用额外附加50点，最高300点",
+          "analyze_info": "[sprite name=iconHit]附加150点[color=#52a5f2]固定伤害[/color]，每次使用额外附加50点，最高300点（boss有效）",
           "args": [
             150,
             50,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "394ae27a"
+  "hash": "8f0a904c"
 }

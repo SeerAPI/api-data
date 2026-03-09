@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "1回合内龙系技能威力为2倍",
+          "analyze_info": "[sprite name=iconHit]1回合内龙系技能[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [
             1,
             15,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c70ec8cc"
+  "hash": "6c6ffa94"
 }

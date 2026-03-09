@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "80%的概率使对手石化，未触发则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]80%的概率使对手[color=#57c975]石化[/color]，[color=#52a5f2]未触发[/color]则自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         80,
         9,
@@ -33,6 +34,7 @@
     },
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "453025fb"
+  "advance": null,
+  "hash": "7edc6b28"
 }

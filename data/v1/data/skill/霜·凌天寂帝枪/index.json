@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除双方能力提升、下降状态",
+          "analyze_info": "[sprite name=iconHit]消除双方能力提升、下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 533,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手每存在60点护盾则造成的攻击伤害提升6倍",
+          "analyze_info": "[sprite name=iconHit]对手每存在60点[color=#57c975]护盾[/color]则造成的攻击伤害提升6倍",
           "args": [
             60,
             6
@@ -42,6 +44,7 @@
         },
         {
           "info": "对手存在护盾则附加对手护盾值60%的真实伤害",
+          "analyze_info": "[sprite name=iconHit]对手存在[color=#57c975]护盾[/color]则附加对手[color=#57c975]护盾[/color]值60%的[color=#52a5f2]真实伤害[/color]",
           "args": [
             60
           ],
@@ -52,6 +55,7 @@
         },
         {
           "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和60%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]效果，并附加等同于消除[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]值总和60%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             60
           ],
@@ -62,6 +66,7 @@
         },
         {
           "info": "击败对手则100%令自身凝滞",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则100%令自身[color=#57c975]凝滞[/color]",
           "args": [
             100,
             32
@@ -73,8 +78,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6d4f1ef7"
+  "hash": "f7ac1746"
 }

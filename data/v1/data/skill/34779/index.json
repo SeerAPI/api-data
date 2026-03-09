@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "双倍吸取对手能力提升状态，吸取成功则使对手下1回合先制-3",
+      "analyze_info": "[sprite name=iconHit]双倍[color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则使对手下1回合[color=#52a5f2]先制[/color]-3",
       "args": [
         1,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加对手最大体力值20%的百分比伤害，每次使用增加10%，最高40%",
+      "analyze_info": "[sprite name=iconHit]附加对手最大体力值20%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高40%",
       "args": [
         20,
         10,
@@ -44,6 +46,7 @@
     },
     {
       "info": "获得400点护盾，护盾消失时对对手造成200点固定伤害且有50%的概率使对手石化",
+      "analyze_info": "[sprite name=iconHit]获得400点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时对对手造成200点[color=#52a5f2]固定伤害[/color]且有50%的概率使对手[color=#57c975]石化[/color]（boss有效）",
       "args": [
         400,
         200,
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ee1ba8af"
+  "advance": null,
+  "hash": "88129eff"
 }

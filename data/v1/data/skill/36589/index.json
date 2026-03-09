@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于异常状态则造成的攻击伤害额外提升100%且回合结束后解除自身所有异常状态",
+      "analyze_info": "[sprite name=iconHit]若自身处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]100%且[color=#57c975]回合结束后[/color]解除自身所有异常状态（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若命中前对手处于异常状态则将其能力提升状态视为相应的能力下降状态",
+      "analyze_info": "[sprite name=iconInherent]若命中前对手处于异常状态则将其能力提升状态视为相应的能力下降状态",
       "args": [],
       "effect": {
         "id": 1881,
@@ -39,6 +41,7 @@
     },
     {
       "info": "4回合内每回合使用技能吸取对手320点体力",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手320点体力",
       "args": [
         4,
         320
@@ -50,6 +53,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a51a2344"
+  "advance": null,
+  "hash": "8ff0e5f1"
 }

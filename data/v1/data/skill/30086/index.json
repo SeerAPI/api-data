@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1061,
@@ -29,6 +30,7 @@
     },
     {
       "info": "随机恢复150到250点生命值",
+      "analyze_info": "[sprite name=iconHit]随机恢复150到250点生命值（boss有效）",
       "args": [
         150,
         250
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7fff7592"
+  "advance": null,
+  "hash": "9dcd17e2"
 }

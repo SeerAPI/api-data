@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下3回合若自身选择使用技能则无视对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]下3回合若自身选择使用技能则无视对手能力提升状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下3回合，每回合攻击技能造成的伤害不少于300",
+      "analyze_info": "[sprite name=iconHit]下3回合，每回合攻击技能造成的伤害不少于300（boss有效）",
       "args": [
         3,
         300
@@ -42,6 +44,7 @@
     },
     {
       "info": "下3回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下3回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         3
       ],
@@ -52,6 +55,7 @@
     },
     {
       "info": "下3回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下3回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         3,
         2
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1ba77621"
+  "advance": null,
+  "hash": "b6459212"
 }

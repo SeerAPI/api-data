@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下回合受到致命伤害时残留1点体力",
+          "analyze_info": "[sprite name=iconHit]下回合受到致命伤害时残留1点体力（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内所有直接攻击都将降低对手1/4的HP",
+          "analyze_info": "[sprite name=iconHit]3回合内所有直接攻击都将降低对手1/4的HP（boss有效）",
           "args": [
             3,
             4
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ff8c77fc"
+  "hash": "69eb2dd6"
 }

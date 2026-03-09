@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则使用后令自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则使用后令自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             3,
             1
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内若对手攻击MISS则回合结束时吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手攻击MISS则[color=#57c975]回合结束时[/color][color=#52a5f2]吸取[/color]对手最大体力的1/3（boss有效）",
           "args": [
             3,
             3
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3c4632d8"
+  "hash": "d4c4f8c2"
 }

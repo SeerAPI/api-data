@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "释放技能时自身每损失10%的体力值则此技能威力提升20点",
+          "analyze_info": "[sprite name=iconHit]释放技能时自身每损失10%的体力值则此技能[color=#52a5f2]威力[/color]提升20点（boss有效）",
           "args": [
             10,
             20
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b6e34b65"
+  "hash": "42c55946"
 }

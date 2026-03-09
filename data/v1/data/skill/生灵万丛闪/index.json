@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则恢复自身全部体力（boss有效）",
           "args": [],
           "effect": {
             "id": 835,
@@ -31,6 +32,7 @@
         },
         {
           "info": "自身每处于一种能力提升状态，此技能威力提升25",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态，此技能[color=#52a5f2]威力[/color]提升25（boss有效）",
           "args": [
             25
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "未击败对手则恢复自身所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复自身所有技能2点PP值",
           "args": [
             2
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "击败对手则下回合开始后随机附加烧伤、冻伤、中毒中的3种异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则下回合开始后随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]中的3种异常状态",
           "args": [
             3
           ],
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8958e7f0"
+  "hash": "9889880a"
 }

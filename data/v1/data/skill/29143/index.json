@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹除流血外所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]除[color=#57c975]流血[/color]外所有受到的异常状态",
       "args": [
         4,
         16
@@ -32,6 +33,7 @@
     },
     {
       "info": "100%令自身流血",
+      "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]流血[/color]",
       "args": [
         100,
         16
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内若自身处于异常状态则受到伤害减少400点",
+      "analyze_info": "[sprite name=iconHit]3回合内若自身处于异常状态则受到伤害减少400点（boss有效）",
       "args": [
         3,
         400
@@ -54,6 +57,7 @@
     },
     {
       "info": "3回合内对手所有攻击必定Miss，若对手命中则下2回合对手使用属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内对手所有攻击必定Miss，若对手命中则下2回合对手使用属性技能无效",
       "args": [
         3,
         2
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "84e0dd4d"
+  "advance": null,
+  "hash": "7dda3ae"
 }

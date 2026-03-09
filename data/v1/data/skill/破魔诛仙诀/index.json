@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当回合击败对手时，对方下只精灵出战时50%睡眠",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时，对方下只精灵[color=#57c975]出战时[/color]50%[color=#57c975]睡眠[/color]",
           "args": [
             50,
             8
@@ -34,6 +35,7 @@
         },
         {
           "info": "当次攻击击败对方时减少对方下次出战精灵的最大体力1/4",
+          "analyze_info": "[sprite name=iconHit]当次攻击[color=#57c975]击败[/color]对方时减少对方下次出战精灵的最大体力1/4（boss有效）",
           "args": [
             4
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e20e2f07"
+  "hash": "87755077"
 }

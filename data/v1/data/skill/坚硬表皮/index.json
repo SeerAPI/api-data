@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若受到攻击，对手防御等级-1、特防等级-1、命中等级-1",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击，对手防御等级-1、特防等级-1、命中等级-1（boss有效）",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "下2回合自身攻击先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6ef17f40"
+  "hash": "a268730f"
 }

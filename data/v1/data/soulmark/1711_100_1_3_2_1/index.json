@@ -4,6 +4,7 @@
       "id": 1353,
       "desc": "若对手的基础速度值低于自身则当回合自身攻击100%打出致命一击，若对手的基础速度值高于自身则当回合自身攻击先制+1；|回合开始时，若自身速度处于能力提升状态则战斗阶段结束时减少对手最大体力的1/3，若战斗阶段结束时体力低于最大体力的1/2则额外恢复等量体力（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>若对手的基础速度值低于自身则当回合自身攻击100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>若对手的基础速度值高于自身则当回合自身攻击<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身速度处于能力提升状态则战斗阶段结束时<color=#64F9FA>附加</color>对手最大体力的1/3的百分比伤害\r\n<indent=32><sprite=4><indent=48>若体力低于最大体力的1/2则额外<color=#64F9FA>恢复</color>等量体力",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -42,8 +43,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "ba0f9cd7"
+  "hash": "efe30609"
 }

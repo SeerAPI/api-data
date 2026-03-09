@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，防御+1，特攻+1，特防+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特攻+1，特防+1，速度+1（boss有效）",
           "args": [
             0,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "3回合内每次造成伤害的1/1会恢复自己的HP",
+          "analyze_info": "[sprite name=iconHit]3回合内每次造成伤害的1/1会恢复自己的HP（boss有效）",
           "args": [
             3,
             1
@@ -49,6 +51,7 @@
         },
         {
           "info": "若对手不是雄性精灵，则恢复300点体力",
+          "analyze_info": "[sprite name=iconHit]若对手不是雄性精灵，则恢复300点体力（boss有效）",
           "args": [
             300
           ],
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "13d116d3"
+  "hash": "aec694c9"
 }

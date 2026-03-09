@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/3",
+      "analyze_info": "[sprite name=iconHit]先出手时，1回合自己不会受到对手攻击性技能伤害并[color=#52a5f2]反弹[/color]对手造成伤害的1/3",
       "args": [
         1,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时，100%使自身速度提升1个等级",
+      "analyze_info": "[sprite name=iconHit]后出手时，100%使自身速度提升1个等级（boss有效）",
       "args": [
         4,
         100,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cd9490f1"
+  "advance": null,
+  "hash": "1282197d"
 }

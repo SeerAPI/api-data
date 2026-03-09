@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
       "args": [
         280
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "若后出手则附加自身最大体力1/3的百分比伤害并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]若后出手则附加自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]并恢复等量体力",
       "args": [
         3
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1c3551d0"
+  "advance": null,
+  "hash": "7692db70"
 }

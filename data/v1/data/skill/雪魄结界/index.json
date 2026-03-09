@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             4,
             3
@@ -45,6 +47,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -55,6 +58,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9e8a7571"
+  "hash": "2b40ca76"
 }

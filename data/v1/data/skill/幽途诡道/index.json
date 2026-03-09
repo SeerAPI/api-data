@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内自身造成的固定伤害、百分比伤害提升100%",
+          "analyze_info": "[sprite name=iconHit]4回合内自身造成的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]提升100%",
           "args": [
             4,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "100%令对手混乱，若对手已处于混乱状态则将此状态刷新至4回合",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]混乱[/color]，若对手已处于[color=#57c975]混乱[/color]状态则将此状态刷新至4回合",
           "args": [
             100,
             10,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7050d931"
+  "hash": "747d9d56"
 }

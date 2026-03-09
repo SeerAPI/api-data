@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "40%概率使对手陷入烧伤状态2回合",
+          "analyze_info": "[sprite name=iconHit]40%概率使对手陷入[color=#57c975]烧伤[/color]状态2回合（boss有效）",
           "args": [
             40,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "40%概率使对手陷入流血状态2回合",
+          "analyze_info": "[sprite name=iconHit]40%概率使对手陷入[color=#57c975]流血[/color]状态2回合（boss有效）",
           "args": [
             40,
             16,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f1187e77"
+  "hash": "d35218a3"
 }

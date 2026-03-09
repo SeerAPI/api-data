@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时将自身的能力下降状态视为相应的能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]攻击时将自身的能力下降状态视为相应的能力提升状态",
           "args": [],
           "effect": {
             "id": 1874,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "若对手不处于能力提升状态则100%令对手束缚",
+          "analyze_info": "[sprite name=iconHit]若对手不处于能力提升状态则100%令对手[color=#57c975]束缚[/color]",
           "args": [
             100,
             28
@@ -52,6 +55,7 @@
         },
         {
           "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
           "args": [
             1,
             1
@@ -63,8 +67,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/pet_advance/10"
+      }
     }
   },
-  "hash": "6eb31f0c"
+  "hash": "d3df7457"
 }

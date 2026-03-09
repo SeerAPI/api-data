@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸收对手能力提升状态，吸收成功则对手下1回合所有技能失效",
+          "analyze_info": "[sprite name=iconHit]吸收对手能力提升状态，吸收成功则对手下1回合所有技能失效",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             2,
             1
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "16ead26"
+  "hash": "b194463f"
 }

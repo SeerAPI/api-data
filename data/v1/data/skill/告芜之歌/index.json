@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合内对手恢复体力时恢复效果减少70%",
+          "analyze_info": "[sprite name=iconHit]1回合内对手恢复体力时恢复效果减少70%（boss有效）",
           "args": [
             1,
             70
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时令对手下1回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合属性技能无效",
           "args": [
             1
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "47776c3"
+  "hash": "f01f7d50"
 }

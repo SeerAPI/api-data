@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合若本方先手攻击，使得对方的技能失效",
+      "analyze_info": "[sprite name=iconHit]1回合若本方先手攻击，使得对方的技能失效（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "5回合内每回合所受的伤害减少80点",
+      "analyze_info": "[sprite name=iconHit]5回合内每回合所受的伤害减少80点（boss有效）",
       "args": [
         5,
         80
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "975c684d"
+  "advance": null,
+  "hash": "fe7b0eaf"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "获得400点护盾，护盾消失时附加400点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]获得400点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时附加400点[color=#52a5f2]固定伤害[/color]同时使自身下1次攻击造成的伤害翻倍（boss有效）",
       "args": [
         400,
         400,
@@ -43,6 +45,7 @@
     },
     {
       "info": "使自身体力百分比与对手体力百分比对调，自身体力百分比高于对手时100%令对手失明",
+      "analyze_info": "[sprite name=iconHit]使自身体力百分比与对手体力百分比对调，自身体力百分比高于对手时100%令对手[color=#57c975]失明[/color]",
       "args": [
         100,
         20
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fc575fd8"
+  "advance": null,
+  "hash": "5f61b0e4"
 }

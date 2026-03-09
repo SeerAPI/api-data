@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手300点体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手300点体力",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "使用后在战斗结束时可以获得500泰坦之灵，每日上限5000",
+      "analyze_info": "[sprite name=iconHit]使用后在战斗结束时可[color=#52a5f2]以[/color]获得500泰坦之灵，每日上限5000（boss有效）",
       "args": [],
       "effect": {
         "id": 1377,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "aa6fce8d"
+  "advance": null,
+  "hash": "8d90d279"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "1回合内受到致死攻击时则余下1点体力",
+      "analyze_info": "[sprite name=iconHit]1回合内受到致死攻击时则余下1点体力（boss有效）",
       "args": [
         1
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "855ae25e"
+  "advance": null,
+  "hash": "7541be9c"
 }

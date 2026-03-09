@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或未触发则令对手随机1项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则附加给对手等同于自身能力提升状态的能力下降状态，若未满足或[color=#52a5f2]未触发[/color]则令对手随机1项技能PP值归零",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b2a11e2"
+  "advance": null,
+  "hash": "8ec65cf8"
 }

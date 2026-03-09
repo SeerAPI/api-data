@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内受到物理攻击和特殊攻击伤害减少50%",
+          "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击和特殊攻击伤害减少50%（boss有效）",
           "args": [
             3,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内每回合都能附加150点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             150
@@ -46,6 +48,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "61a7e1ff"
+  "hash": "b86fc73b"
 }

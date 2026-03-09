@@ -4,6 +4,7 @@
       "id": 1552,
       "desc": "自身攻击打出致命一击则造成的致命一击伤害提升40%；回合开始时，若自身当前体力值为偶数则当回合自身攻击必定打出致命一击，若自身当前体力值为奇数则令自身防御+1、特防+1（boss有效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身攻击打出致命一击则造成的<b>攻击伤害</b><color=#64F9FA>提升</color>40%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身当前体力值为偶数则当回合自身攻击必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>若自身当前体力值为奇数则令自身防御+1、特防+1",
+      "analyze_desc": "",
       "pve_effective": true,
       "intensified": false,
       "is_adv": false,
@@ -40,8 +41,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "227d91cc"
+  "hash": "d29c44ea"
 }

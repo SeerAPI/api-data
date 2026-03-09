@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升，消除成功3回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "随机附加1种非限制类异常状态",
+          "analyze_info": "[sprite name=iconHit]随机附加1种非限制类异常状态",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c6624e6f"
+  "hash": "f431e74f"
 }

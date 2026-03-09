@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成伤害低于250，则下4回合所有技能附带50点固定伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害低于250，则下4回合所有技能附带50点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             0,
             250,
@@ -36,8 +37,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d077d24d"
+  "hash": "3305fd46"
 }

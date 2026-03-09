@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手存在护盾时先制+1",
+          "analyze_info": "[sprite name=iconInherent]对手存在[color=#57c975]护盾[/color]时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1544,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视护盾效果",
+          "analyze_info": "[sprite name=iconHit]无视[color=#57c975]护盾[/color]效果",
           "args": [],
           "effect": {
             "id": 1568,
@@ -39,8 +41,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "89c54ee0"
+  "hash": "a5ea69b5"
 }

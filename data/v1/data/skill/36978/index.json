@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时使对手焚烬，未触发则附加自身当前体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         22,
         3
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "eeb832be"
+  "advance": null,
+  "hash": "7969f0fc"
 }

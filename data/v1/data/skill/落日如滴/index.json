@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于烧伤状态时，威力翻倍",
+          "analyze_info": "[sprite name=iconHit]对手处于[color=#57c975]烧伤[/color]状态时，[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 96,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手不处于烧伤状态时附加对手已损失体力40%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]对手不处于[color=#57c975]烧伤[/color]状态时附加对手[color=#52a5f2]已损失体力[/color]40%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             2,
             40
@@ -42,6 +44,7 @@
         },
         {
           "info": "未击败对手则自身能力提升状态翻倍",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身能力提升状态翻倍",
           "args": [],
           "effect": {
             "id": 964,
@@ -50,8 +53,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5804c457"
+  "hash": "d66274bd"
 }

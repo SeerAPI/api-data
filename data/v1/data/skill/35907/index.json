@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手当回合使用的技能为攻击技能则自身额外先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手[color=#52a5f2]当回合[/color]使用的技能为攻击技能则自身额外[color=#52a5f2]先制[/color]+1",
       "args": [],
       "effect": {
         "id": 1774,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "若对手不处于异常状态则造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         100
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c638ab94"
+  "advance": null,
+  "hash": "666aa6ad"
 }

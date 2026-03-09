@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则免疫下1回合受到的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则免疫下1回合受到的攻击伤害",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "解除自身的烧伤、冻伤、中毒状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]状态（boss有效）",
           "args": [],
           "effect": {
             "id": 544,
@@ -41,6 +43,7 @@
         },
         {
           "info": "附加300点固定伤害，若当回合造成的伤害高于300则固伤效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加300点[color=#52a5f2]固定伤害[/color]，若[color=#52a5f2]当回合[/color]造成的伤害高于300则固伤效果翻倍（boss有效）",
           "args": [
             300,
             300
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c481925"
+  "hash": "b2523abf"
 }

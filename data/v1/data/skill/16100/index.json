@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后20%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后20%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         20
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手防御等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-1（boss有效）",
       "args": [
         1,
         100,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ca204836"
+  "advance": null,
+  "hash": "592e1c21"
 }

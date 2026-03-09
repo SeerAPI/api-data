@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "连续使用时先制+1",
+          "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
           "args": [],
           "effect": {
             "id": 1080,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则令对手害怕",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "先出手时造成的攻击伤害提升70%，若对手当前体力值高于自身则伤害额外提升30%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击伤害提升70%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]30%（boss有效）",
           "args": [
             70,
             30
@@ -52,6 +55,7 @@
         },
         {
           "info": "若上回合自身未受到攻击伤害则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若上回合自身未受到攻击伤害则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -62,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a4f545d"
+  "hash": "e1bd45a8"
 }

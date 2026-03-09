@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "40%概率令对手害怕，若对手处于能力提升状态则额外附加30%概率",
+          "analyze_info": "[sprite name=iconHit]40%概率令对手[color=#57c975]害怕[/color]，若对手处于能力提升状态则额外附加30%概率（boss有效）",
           "args": [
             40,
             30
@@ -34,6 +35,7 @@
         },
         {
           "info": "消除对手能力提升状态，若消除成功则自身攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d04eb5a2"
+  "hash": "65536a7e"
 }

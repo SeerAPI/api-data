@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于异常状态则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若对手处于异常状态则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手处于异常状态则自身造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             100
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "对手处于异常状态则吸取对手300点体力",
+          "analyze_info": "[sprite name=iconHit]对手处于异常状态则[color=#52a5f2]吸取[/color]对手300点体力（boss有效）",
           "args": [
             300
           ],
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c2ef13e1"
+  "hash": "bc59d007"
 }

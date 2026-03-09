@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内使用技能附加250点固定伤害，若自身体力低于对手则效果翻倍",
+          "analyze_info": "[sprite name=iconHit]3回合内使用技能附加250点[color=#52a5f2]固定伤害[/color]，若自身体力低于对手则效果翻倍（boss有效）",
           "args": [
             3,
             250
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d21ccd53"
+  "hash": "ccc816e7"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手时50%令对手睡眠，未触发则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]后出手时50%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则令对手下1次使用的攻击技能无效",
       "args": [
         50,
         8,
@@ -33,6 +34,7 @@
     },
     {
       "info": "2回合内免疫并反弹自身受到的固定伤害和百分比伤害",
+      "analyze_info": "[sprite name=iconHit]2回合内免疫并[color=#52a5f2]反弹[/color]自身受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]",
       "args": [
         2
       ],
@@ -43,6 +45,7 @@
     },
     {
       "info": "附加对手已损失体力值25%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]附加对手[color=#52a5f2]已损失体力[/color]值25%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         25
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9f480a7e"
+  "advance": null,
+  "hash": "d242d510"
 }

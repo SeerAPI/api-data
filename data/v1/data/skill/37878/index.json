@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "每损失1点体力则额外附加1点固定伤害",
+      "analyze_info": "[sprite name=iconHit]每损失1点体力则额外附加1点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         1,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时附加当前战斗回合数×20的固定伤害",
+      "analyze_info": "[sprite name=iconHit]后出手时附加当前战斗回合数×20的[color=#52a5f2]固定伤害[/color]",
       "args": [
         20
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
       "args": [],
       "effect": {
         "id": 1974,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d6248359"
+  "advance": null,
+  "hash": "1f2b0e00"
 }

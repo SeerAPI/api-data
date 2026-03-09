@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-3",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-3（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内免疫大于300的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]2回合内免疫大于300的攻击伤害",
       "args": [
         2,
         300
@@ -42,6 +44,7 @@
     },
     {
       "info": "2回合内对手使用技能消耗的PP值变为2倍",
+      "analyze_info": "[sprite name=iconHit]2回合内对手使用技能消耗的PP值变为2倍（boss有效）",
       "args": [
         2,
         2
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "36be7bd0"
+  "advance": null,
+  "hash": "ae5becbe"
 }

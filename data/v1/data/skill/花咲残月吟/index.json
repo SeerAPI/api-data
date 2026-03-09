@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令对手睡眠",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             0,
             8
@@ -34,6 +35,7 @@
         },
         {
           "info": "对手为自身天敌时造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]对手为自身天敌时造成的伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 567,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d1503664"
+  "hash": "1fe422fd"
 }

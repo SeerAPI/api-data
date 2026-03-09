@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手害怕，若对手不处于回合类效果则令自身中毒且中毒状态解除后恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]害怕[/color]，若对手不处于[color=#52a5f2]回合类效果[/color]则令自身[color=#57c975]中毒[/color]且中毒状态解除后恢复自身全部体力",
           "args": [
             6,
             1,
@@ -35,6 +36,7 @@
         },
         {
           "info": "本回合若未打出致命一击则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]本回合若未打出[color=#57c975]致命一击[/color]则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -45,6 +47,7 @@
         },
         {
           "info": "未击败对手则自身下2回合免疫并反弹异常状态",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身下2回合免疫并[color=#52a5f2]反弹[/color]异常状态",
           "args": [
             2
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a95abfec"
+  "hash": "12b5cbd6"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于能力提升状态则使自身能力提升状态翻倍",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态则使自身能力提升状态翻倍",
       "args": [],
       "effect": {
         "id": 1177,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身不处于能力提升状态则吸取对手250点体力，若先出手则额外吸取100点体力",
+      "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态则[color=#52a5f2]吸取[/color]对手250点体力，若先出手则额外[color=#52a5f2]吸取[/color]100点体力",
       "args": [
         250,
         100
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5aefccda"
+  "advance": null,
+  "hash": "8fb62b29"
 }

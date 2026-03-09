@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内若自身攻击技能命中则40%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则40%令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         40,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2ee5f6c9"
+  "advance": null,
+  "hash": "c877147d"
 }

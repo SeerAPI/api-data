@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若造成的伤害不足250，则自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害不足250，则自身攻击等级+2（boss有效）",
       "args": [
         250,
         0,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4f7b9bbc"
+  "advance": null,
+  "hash": "b84a8d2f"
 }

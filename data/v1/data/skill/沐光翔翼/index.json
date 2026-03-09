@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -39,6 +41,7 @@
         },
         {
           "info": "自身处于能力提升状态时造成的伤害提升50%，先出手时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成的伤害提升50%，先出手时效果翻倍（boss有效）",
           "args": [
             50
           ],
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7f81597e"
+  "hash": "b187ea9a"
 }

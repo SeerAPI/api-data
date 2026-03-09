@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则对手诅咒",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]诅咒[/color]",
           "args": [
             23
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+          "analyze_info": "[sprite name=iconHit]附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]，未[color=#57c975]击败[/color]对手则恢复自身等量体力值",
           "args": [
             3
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "下次击败对手时，令对方下只出战精灵诅咒",
+          "analyze_info": "[sprite name=iconHit]下次[color=#57c975]击败[/color]对手时，令对方下只出战精灵[color=#57c975]诅咒[/color]",
           "args": [
             23
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1e58ccce"
+  "hash": "1f6f78a7"
 }

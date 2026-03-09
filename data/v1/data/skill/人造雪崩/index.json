@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手冻伤，技能威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]冻伤[/color]，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手不处于冻伤状态时附加对手已损失体力15%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]对手不处于[color=#57c975]冻伤[/color]状态时附加对手[color=#52a5f2]已损失体力[/color]15%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             5,
             15
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b1b87d0a"
+  "hash": "5b77dc55"
 }

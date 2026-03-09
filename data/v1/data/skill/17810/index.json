@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%使对手睡眠，若没有触发，则回合结束时减少对手1/4最大体力",
+      "analyze_info": "[sprite name=iconHit]50%使对手[color=#57c975]睡眠[/color]，若没有触发，则[color=#57c975]回合结束时[/color]减少对手1/4最大体力",
       "args": [
         50,
         8,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若对手睡眠，则对对方造成伤害的50%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]睡眠[/color]，则对对方造成伤害的50%恢复自身体力（boss有效）",
       "args": [
         8,
         50
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4ed080c6"
+  "advance": null,
+  "hash": "168f9ffd"
 }

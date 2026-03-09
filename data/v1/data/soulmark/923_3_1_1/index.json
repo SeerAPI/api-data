@@ -4,6 +4,7 @@
       "id": 642,
       "desc": "每回合自身随机3项属性+1，自身不处于能力提升状态时变为自身全属性+1；自身死亡时将自身能力提升状态附加给己方下只出战精灵",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时自身随机3项属性+1\r\n<indent=32><sprite=4><indent=48>自身不处于能力提升状态时变为<color=#64F9FA>全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时：\r\n<indent=32><sprite=4><indent=48>将自身<b>能力提升状态</b><color=#64F9FA>附加</color>给己方下只出战精灵",
+      "analyze_desc": "",
       "pve_effective": true,
       "intensified": false,
       "is_adv": false,
@@ -36,8 +37,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "cf4f8cc3"
+  "hash": "5dd547ed"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "遇到天敌时先制+1",
+          "analyze_info": "[sprite name=iconInherent]遇到天敌时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1491,
@@ -31,6 +32,7 @@
         },
         {
           "info": "未击败对手则下回合使用技能后附加250点固定伤害，遇到天敌时附加的固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下回合使用技能后附加250点[color=#52a5f2]固定伤害[/color]，遇到天敌时附加的[color=#52a5f2]固定伤害[/color]翻倍（boss有效）",
           "args": [
             250
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "92d02e59"
+  "hash": "50bb478"
 }

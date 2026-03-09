@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高150%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下1回合造成的伤害提高150%（boss有效）",
       "args": [
         1,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "当回合未击败对手则减少对方所有技能PP2点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则减少对方所有技能PP2点",
       "args": [
         2
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "击败对手则恢复自身全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1156,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f300e574"
+  "advance": null,
+  "hash": "9cde0f98"
 }

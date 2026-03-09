@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当自身血量少于1/3时先制+1",
+          "analyze_info": "[sprite name=iconInherent]当自身血量少于1/3时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             3,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -54,6 +57,7 @@
         },
         {
           "info": "3合内自身所有攻击造成的伤害都将为自己恢复体力",
+          "analyze_info": "[sprite name=iconHit]3合内自身所有攻击造成的伤害都将为自己恢复体力（boss有效）",
           "args": [
             3
           ],
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f419d6af"
+  "hash": "c780f4ea"
 }

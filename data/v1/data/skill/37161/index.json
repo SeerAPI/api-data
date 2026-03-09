@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身体力低于对手时100%的概率打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]自身体力低于对手时100%的概率打出[color=#57c975]致命一击[/color]",
       "args": [],
       "effect": {
         "id": 1590,
@@ -39,6 +41,7 @@
     },
     {
       "info": "每次命中对手会降低对手下只出战精灵最大体力的10%，最多降低40%",
+      "analyze_info": "[sprite name=iconHit]每次命中对手会降低对手下只出战精灵最大体力的10%，最多降低40%",
       "args": [
         10,
         40
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5a17136e"
+  "advance": null,
+  "hash": "3fdb506a"
 }

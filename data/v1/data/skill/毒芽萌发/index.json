@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "30%令对手寄生",
+          "analyze_info": "[sprite name=iconHit]30%令对手[color=#57c975]寄生[/color]（boss有效）",
           "args": [
             30,
             4
@@ -34,6 +35,7 @@
         },
         {
           "info": "攻击对手时若对手处于中毒状态，则100%使对手寄生",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]中毒[/color]状态，则100%使对手[color=#57c975]寄生[/color]（boss有效）",
           "args": [
             1,
             100,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "85e98be7"
+  "hash": "9cd8df43"
 }

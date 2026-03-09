@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身防御等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+2（boss有效）",
       "args": [
         1,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+2（boss有效）",
       "args": [
         3,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -55,6 +58,7 @@
     },
     {
       "info": "4回合内若对手MISS则下回合自身必定致命一击",
+      "analyze_info": "[sprite name=iconHit]4回合内若对手MISS则下回合自身必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         4
       ],
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e8765141"
+  "advance": null,
+  "hash": "5f81efb6"
 }

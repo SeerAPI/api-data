@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%令对手烧伤，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         100,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "吸取对手300点固定体力，每次使用额外附加100点，最高500点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手300点固定体力，每次使用额外附加100点，最高500点（boss有效）",
       "args": [
         300,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "自身免疫下2次受到的异常状态，每次免疫成功吸取对手200点体力",
+      "analyze_info": "[sprite name=iconHit]自身免疫下2次受到的异常状态，每次免疫成功[color=#52a5f2]吸取[/color]对手200点体力",
       "args": [
         2,
         200
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6e3798ec"
+  "advance": null,
+  "hash": "c877bbef"
 }

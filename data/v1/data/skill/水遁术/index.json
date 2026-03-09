@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "1回合若本方先手攻击，使得对方的技能失效",
+          "analyze_info": "[sprite name=iconHit]1回合若本方先手攻击，使得对方的技能失效（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fc2007b6"
+  "hash": "7dafe243"
 }

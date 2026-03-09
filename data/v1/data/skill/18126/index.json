@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内50%令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内50%令对手使用的属性技能无效（boss有效）",
       "args": [
         3,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加100点固定伤害，连续使用每次增加50点固定伤害，最高附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加100点[color=#52a5f2]固定伤害[/color]，连续使用每次增加50点[color=#52a5f2]固定伤害[/color]，最高附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         50,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c15e84e0"
+  "advance": null,
+  "hash": "3faf397b"
 }

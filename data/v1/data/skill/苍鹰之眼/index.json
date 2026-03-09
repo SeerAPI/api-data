@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身速度等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
           "args": [
             4,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -59,7 +62,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "26323": {
       "id": 26323,
@@ -84,6 +88,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -94,6 +99,7 @@
         },
         {
           "info": "3回合内每回合使用技能则80%令对手麻痹，未触发则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能则80%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3,
             80,
@@ -107,6 +113,7 @@
         },
         {
           "info": "3回合内每回合使用技能则造成伤害前随机吸取对手3项能力值-1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能则造成伤害前随机[color=#52a5f2]吸取[/color]对手3项能力值-1（boss有效）",
           "args": [
             3,
             3
@@ -118,8 +125,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fe50ae0a"
+  "hash": "a03043e"
 }

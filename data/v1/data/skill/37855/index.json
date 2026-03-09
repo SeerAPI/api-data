@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手每存在100点护盾则造成的攻击伤害提升1倍",
+      "analyze_info": "[sprite name=iconHit]对手每存在100点[color=#57c975]护盾[/color]则造成的攻击伤害提升1倍",
       "args": [
         100,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加自身防御和特防能力提升总段数x50的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身防御和特防能力提升总段数x50的[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         50
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
       "args": [],
       "effect": {
         "id": 1232,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a14c8600"
+  "advance": null,
+  "hash": "d25ee025"
 }

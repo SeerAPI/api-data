@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后80%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后80%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             80
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
           "args": [
             5
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7e23fa9b"
+  "hash": "e4ac915a"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "3回合内若受到攻击则有40%概率令对手冻伤",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有40%概率令对手[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             3,
             40,
@@ -59,7 +62,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "27891": {
       "id": 27891,
@@ -84,6 +88,7 @@
       "skill_effect": [
         {
           "info": "2回合内免疫致命一击伤害",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫[color=#57c975]致命一击[/color]伤害",
           "args": [
             2
           ],
@@ -94,8 +99,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5b71da6b"
+  "hash": "c16dbad4"
 }

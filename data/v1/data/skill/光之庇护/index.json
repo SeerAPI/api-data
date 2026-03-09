@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合自己受到特殊攻击伤害减半",
+          "analyze_info": "[sprite name=iconHit]5回合自己受到特殊攻击伤害减半（boss有效）",
           "args": [
             5
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "23504": {
       "id": 23504,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身防御等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+2（boss有效）",
           "args": [
             1,
             100,
@@ -70,6 +73,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特攻等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+1（boss有效）",
           "args": [
             2,
             100,
@@ -82,6 +86,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+2（boss有效）",
           "args": [
             3,
             100,
@@ -94,6 +99,7 @@
         },
         {
           "info": "随机恢复50到200点生命值",
+          "analyze_info": "[sprite name=iconHit]随机恢复50到200点生命值（boss有效）",
           "args": [
             50,
             200
@@ -105,8 +111,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c211410a"
+  "hash": "620683e2"
 }

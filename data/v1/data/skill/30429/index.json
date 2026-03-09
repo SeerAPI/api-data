@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则自身下2回合攻击有100%使对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下2回合攻击有100%使对手[color=#57c975]烧伤[/color]",
       "args": [
         2,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "攻击对手时若对手处于烧伤状态，则50%使对手害怕",
+      "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则50%使对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         2,
         50,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "57a2b0ce"
+  "advance": null,
+  "hash": "87715826"
 }

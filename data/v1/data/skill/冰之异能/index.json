@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%令自身特攻和速度等级+1。若和对手属性相同，则技能效果翻倍",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%令自身特攻和速度等级+1。若和对手属性相同，则技能效果翻倍（boss有效）",
           "args": [
             100,
             1
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3eca33d9"
+  "hash": "4f163014"
 }

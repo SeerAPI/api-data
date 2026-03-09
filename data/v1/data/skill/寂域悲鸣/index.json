@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手基础速度值高于400则自身下回合先制+2",
+          "analyze_info": "[sprite name=iconHit]对手基础速度值高于400则自身下回合[color=#52a5f2]先制[/color]+2",
           "args": [
             1,
             0,
@@ -36,6 +37,7 @@
         },
         {
           "info": "附加自身攻击值25%的百分比伤害，先出手时附加效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加自身攻击值25%的[color=#52a5f2]百分比伤害[/color]，先出手时附加效果翻倍（boss有效）",
           "args": [
             0,
             0,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "433b096b"
+  "hash": "b5388024"
 }

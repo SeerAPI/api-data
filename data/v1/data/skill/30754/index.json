@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功下回合造成伤害提升100%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功下回合造成伤害提升100%（boss有效）",
       "args": [
         0,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加对手当前体力25%的伤害",
+      "analyze_info": "[sprite name=iconHit]附加对手当前体力25%的伤害",
       "args": [
         25
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8cecca54"
+  "advance": null,
+  "hash": "fe009aca"
 }

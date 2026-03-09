@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "命中后50%令对手睡眠，自身每损失10%的体力概率提升10%",
+          "analyze_info": "[sprite name=iconHit]命中后50%令对手[color=#57c975]睡眠[/color]，自身每损失10%的体力概率提升10%",
           "args": [
             50,
             8,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d4a53d59"
+  "hash": "b57d8bcb"
 }

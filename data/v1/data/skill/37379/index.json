@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身所有体力",
       "args": [],
       "effect": {
         "id": 1167,
@@ -29,6 +30,7 @@
     },
     {
       "info": "1回合内受到物理攻击和特殊攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]1回合内受到物理攻击和特殊攻击伤害减少50%（boss有效）",
       "args": [
         1,
         2,
@@ -41,6 +43,7 @@
     },
     {
       "info": "附加对手已损失生命值35%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]附加对手已损失生命值35%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         35
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3ef8898"
+  "advance": null,
+  "hash": "ba9a42ce"
 }

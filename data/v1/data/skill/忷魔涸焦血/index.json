@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时100%使对手烧伤，未触发则附加280点固定伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时100%使对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则附加280点[color=#52a5f2]固定伤害[/color]",
           "args": [
             100,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "后出手时令对手下2回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下2回合属性技能无效",
           "args": [
             2
           ],
@@ -45,6 +47,7 @@
         },
         {
           "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令对方场下阵亡的首位精灵[color=#57c975]消逝[/color]",
           "args": [],
           "effect": {
             "id": 2105,
@@ -53,6 +56,7 @@
         },
         {
           "info": "击败对手则下回合开始后随机附加烧伤、冻伤、中毒中的3种异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则下回合开始后随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]中的3种异常状态",
           "args": [
             3
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dc859aab"
+  "hash": "fbfbeee9"
 }

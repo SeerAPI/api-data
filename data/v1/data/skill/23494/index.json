@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合50%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合50%闪避对手攻击（boss有效）",
       "args": [
         3,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内若对手MISS则自身恢复1/3的最大体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手MISS则自身恢复1/3的最大体力值（boss有效）",
       "args": [
         3,
         3
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "95fdef2e"
+  "advance": null,
+  "hash": "a0b1e1dc"
 }

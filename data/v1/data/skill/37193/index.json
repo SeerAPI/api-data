@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "获得300点护罩，护罩消失时自身所有技能PP值+5",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时自身所有技能PP值+5",
       "args": [
         300,
         5
@@ -32,6 +33,7 @@
     },
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合对手所有技能先制-3，若对手不处于能力提升状态则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下2回合对手所有技能[color=#52a5f2]先制[/color]-3，若对手不处于能力提升状态则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         2,
         3,
@@ -44,6 +46,7 @@
     },
     {
       "info": "吸取对手最大体力的1/4，自身体力低于1/2时吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的1/4，自身体力低于1/2时[color=#52a5f2]吸取[/color]效果翻倍",
       "args": [
         4,
         2
@@ -56,5 +59,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b448d61b"
+  "advance": {
+    "id": 3,
+    "url": "https://api.seerapi.com/v1/pet_advance/3"
+  },
+  "hash": "b269b875"
 }

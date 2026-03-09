@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手不处于异常状态则80%令自身沉默",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则80%令自身[color=#57c975]沉默[/color]",
       "args": [
         80,
         30
@@ -32,6 +33,7 @@
     },
     {
       "info": "若对手处于异常状态则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9f870849"
+  "advance": null,
+  "hash": "19f93bdc"
 }

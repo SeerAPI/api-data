@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手处于护盾状态时先制+1并无视对手护盾效果",
+      "analyze_info": "[sprite name=iconComp]对手处于[color=#57c975]护盾[/color]状态时[color=#52a5f2]先制[/color]+1并无视对手[color=#57c975]护盾[/color]效果",
       "args": [],
       "effect": {
         "id": 2079,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转对手能力提升状态，反转成功则令对手下1次属性技能失效，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态（boss有效），反转成功则令对手下1次属性技能失效，反转失败则消除对手能力提升状态",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "自身处于护盾状态时威力提升100%",
+      "analyze_info": "[sprite name=iconHit]自身处于[color=#57c975]护盾[/color]状态时[color=#52a5f2]威力[/color]提升100%",
       "args": [
         100
       ],
@@ -50,5 +53,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "be17764f"
+  "advance": {
+    "id": 16,
+    "url": "https://api.seerapi.com/v1/pet_advance/16"
+  },
+  "hash": "10ef00c2"
 }

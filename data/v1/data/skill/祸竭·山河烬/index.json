@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手正先制等级",
+          "analyze_info": "[sprite name=iconInherent]无视对手正[color=#52a5f2]先制[/color]等级",
           "args": [],
           "effect": {
             "id": 2142,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视自身负先制等级",
+          "analyze_info": "[sprite name=iconInherent]无视自身负[color=#52a5f2]先制[/color]等级",
           "args": [],
           "effect": {
             "id": 2143,
@@ -39,6 +41,7 @@
         },
         {
           "info": "自身未持有失命时为自身附加3回合的失命，若自身持有失命则将失命转移给对手",
+          "analyze_info": "[sprite name=iconHit]自身未持有[color=#f35555]失命[/color]时为自身附加3回合的[color=#f35555]失命[/color]，若自身持有[color=#f35555]失命[/color]则将[color=#f35555]失命[/color]转移给对手",
           "args": [],
           "effect": {
             "id": 2135,
@@ -47,6 +50,7 @@
         },
         {
           "info": "对手未持有回命时为对手附加3回合的回命，若对手持有回命且剩余回合数大于1则回合数-1",
+          "analyze_info": "[sprite name=iconHit]对手未持有[color=#f35555]回命[/color]时为对手附加3回合的[color=#f35555]回命[/color]，若对手持有[color=#f35555]回命[/color]且剩余回合数大于1则回合数-1",
           "args": [],
           "effect": {
             "id": 2136,
@@ -55,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6d978c0a"
+  "hash": "848a2f98"
 }

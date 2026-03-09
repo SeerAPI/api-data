@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手速度等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-2（boss有效）",
       "args": [
         4,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
       "args": [
         5,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
       "args": [
         3,
         2
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fb8f49fb"
+  "advance": null,
+  "hash": "903eae9d"
 }

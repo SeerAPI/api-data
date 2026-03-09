@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每次造成伤害的1/2会恢复自己的HP",
+      "analyze_info": "[sprite name=iconHit]3回合内每次造成伤害的1/2会恢复自己的HP（boss有效）",
       "args": [
         3,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内受到攻击则对手下回合受到的伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]3回合内受到攻击则对手下回合受到的伤害翻倍（boss有效）",
       "args": [
         3
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1369b6e2"
+  "advance": null,
+  "hash": "885c147a"
 }

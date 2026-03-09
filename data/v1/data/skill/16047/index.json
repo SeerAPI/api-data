@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手随机1项技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手体力不足250则直接秒杀",
+      "analyze_info": "[sprite name=iconHit]若对手体力不足250则直接[color=#52a5f2]秒杀[/color]（boss有效）",
       "args": [
         250
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4018b017"
+  "advance": null,
+  "hash": "7a4dab88"
 }

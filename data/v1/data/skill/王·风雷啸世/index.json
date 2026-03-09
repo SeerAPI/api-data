@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "攻击结束时附加对手双防之和35%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]攻击结束时附加对手双防之和35%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             35
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "当回合击败对手则令对手2回合内属性技能无效",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则令对手2回合内属性技能无效",
           "args": [
             2
           ],
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "825e256c"
+  "hash": "54b65516"
 }

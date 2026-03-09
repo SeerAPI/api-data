@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "连续使用每次威力增加20，最高威力210",
+      "analyze_info": "[sprite name=iconHit]连续使用每次[color=#52a5f2]威力[/color]增加20，最高[color=#52a5f2]威力[/color]210（boss有效）",
       "args": [
         20,
         210
@@ -32,6 +33,7 @@
     },
     {
       "info": "45%的概率令对手随机1项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]45%的概率令对手随机1项技能PP值归零",
       "args": [
         45,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "11c4cffa"
+  "advance": null,
+  "hash": "3bfa8ce7"
 }

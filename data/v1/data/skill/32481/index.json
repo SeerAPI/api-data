@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身体力低于对手时造成的伤害提高50%",
+      "analyze_info": "[sprite name=iconHit]自身体力低于对手时造成的伤害提高50%",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "解除自身能力下降状态，若解除成功则3回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，若解除成功则3回合内免疫能力下降状态（boss有效）",
       "args": [
         3
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "70b894af"
+  "advance": null,
+  "hash": "a3ef8353"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 828,
@@ -29,6 +30,7 @@
     },
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -37,6 +39,7 @@
     },
     {
       "info": "连续使用每次威力增加20，最高威力100",
+      "analyze_info": "[sprite name=iconHit]连续使用每次[color=#52a5f2]威力[/color]增加20，最高[color=#52a5f2]威力[/color]100（boss有效）",
       "args": [
         20,
         100
@@ -49,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "85399484"
+  "advance": null,
+  "hash": "eaf28be7"
 }

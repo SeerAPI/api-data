@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若未击败对手则下2回合攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若当次攻击击败对手，恢复对手体力上限1/2的体力",
+      "analyze_info": "[sprite name=iconHit]若当次攻击[color=#57c975]击败[/color]对手，恢复对手体力上限1/2的体力（boss有效）",
       "args": [
         2
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "218211ca"
+  "advance": null,
+  "hash": "b81c0ed3"
 }

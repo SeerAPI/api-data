@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+1（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "下1回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下1回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ed7d5a7e"
+  "advance": null,
+  "hash": "c4384aac"
 }

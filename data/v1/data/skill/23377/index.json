@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "使对手攻击-1，防御-1，特攻-1，特防-1，速度-1，命中-1，15%弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]使对手攻击-1，防御-1，特攻-1，特防-1，速度-1，命中-1，15%弱化效果翻倍（boss有效）",
       "args": [
         -1,
         -1,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b8a12e6c"
+  "advance": null,
+  "hash": "14ff7c51"
 }

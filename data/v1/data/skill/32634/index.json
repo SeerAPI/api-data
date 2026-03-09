@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则1回合受到的伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则1回合受到的伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "若对手处于中毒状态，则25%概率秒杀对手",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]中毒[/color]状态，则25%概率[color=#52a5f2]秒杀[/color]对手",
       "args": [
         1,
         25
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b7508bbc"
+  "advance": null,
+  "hash": "d941e08e"
 }

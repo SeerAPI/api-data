@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于回合类效果时消除之并附加给对手1层圣诰，对手处于能力提升状态时反转之并附加给对手1层邪诲，二者同时满足或消除、反转其一失败时，若对手同时拥有圣诰、邪诲则触发1次湮灭",
+          "analyze_info": "[sprite name=iconHit]对手处于[color=#52a5f2]回合类效果[/color]时消除之并附加给对手1层[color=#f35555]圣诰[/color]，对手处于能力提升状态时反转之并附加给对手1层[color=#f35555]邪诲[/color]，二者同时满足或消除、反转其一失败时，若对手同时拥有[color=#f35555]圣诰[/color]、[color=#f35555]邪诲[/color]则触发1次[color=#f35555]湮灭[/color]",
           "args": [],
           "effect": {
             "id": 2062,
@@ -31,8 +32,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b5f7b060"
+  "hash": "1447c8b8"
 }

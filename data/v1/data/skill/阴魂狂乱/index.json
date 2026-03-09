@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内若使用技能则恢复150点体力值",
+          "analyze_info": "[sprite name=iconHit]5回合内若使用技能则恢复150点体力值（boss有效）",
           "args": [
             5,
             150
@@ -34,6 +35,7 @@
         },
         {
           "info": "5回合内每回合额外附加15%概率令对手害怕",
+          "analyze_info": "[sprite name=iconHit]5回合内每回合额外附加15%概率令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             5,
             15,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6a0b6247"
+  "hash": "fdd119ff"
 }

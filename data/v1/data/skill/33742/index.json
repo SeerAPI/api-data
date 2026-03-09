@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则附加300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成伤害的50%恢复自身体力，若自身体力低于对手则效果提升至100%",
+      "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若自身体力低于对手则效果提升至100%（boss有效）",
       "args": [
         50,
         100
@@ -42,6 +44,7 @@
     },
     {
       "info": "造成的伤害低于300则自身特攻+2，速度+2",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则自身特攻+2，速度+2（boss有效）",
       "args": [
         300,
         0,
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "890f74fa"
+  "advance": null,
+  "hash": "c58d3b6"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "3回合内若受到攻击则有50%概率令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有50%概率令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             50,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7548c1da"
+  "hash": "30418d6f"
 }

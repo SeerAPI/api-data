@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内使用技能令对手防御-1，特防-1，命中-1，未触发则自身下1次攻击造成伤害提升30%",
+          "analyze_info": "[sprite name=iconHit]3回合内使用技能令对手防御-1，特防-1，命中-1，[color=#52a5f2]未触发[/color]则自身下1次攻击造成伤害提升30%",
           "args": [
             3,
             0,
@@ -61,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2af12ea7"
+  "hash": "cf48f200"
 }

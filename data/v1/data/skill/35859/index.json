@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时对手当回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
       "args": [],
       "effect": {
         "id": 980,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时将当回合护盾所承受的伤害值以百分比伤害的形式150%反弹给对手",
+      "analyze_info": "[sprite name=iconHit]后出手时将[color=#52a5f2]当回合[/color][color=#57c975]护盾[/color]所承受的伤害值[color=#52a5f2]以[/color][color=#52a5f2]百分比伤害[/color]的形式150%[color=#52a5f2]反弹[/color]给对手",
       "args": [
         150
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f3b823b7"
+  "advance": null,
+  "hash": "3697be96"
 }

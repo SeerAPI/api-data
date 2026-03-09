@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "本回合未打出致命一击则恢复自己所有技能1点PP值并降低对手所有技能1点PP值",
+      "analyze_info": "[sprite name=iconHit]本回合未打出[color=#57c975]致命一击[/color]则恢复自己所有技能1点PP值并降低对手所有技能1点PP值",
       "args": [
         1,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "未打出致命一击则自身下2回合攻击技能额外先制+2",
+      "analyze_info": "[sprite name=iconHit]未打出[color=#57c975]致命一击[/color]则自身下2回合攻击技能额外[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -43,6 +45,7 @@
     },
     {
       "info": "未击败对手则己方下1次攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则[color=#52a5f2]己方[/color]下1次攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c86da268"
+  "advance": null,
+  "hash": "ca319f02"
 }

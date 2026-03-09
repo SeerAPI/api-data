@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对方体力高于自己时才能命中，将对方体力减到和自己相同",
+          "analyze_info": "[sprite name=iconHit]对方体力高于自己时才能命中，将对方体力减到和自己相同（boss有效）",
           "args": [],
           "effect": {
             "id": 7,
@@ -31,8 +32,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b66a45b2"
+  "hash": "3aa1dd77"
 }

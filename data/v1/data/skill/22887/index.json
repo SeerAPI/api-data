@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内受到攻击100%概率回复100点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率回复100点体力（boss有效）",
       "args": [
         3,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "4回合内若自身攻击技能命中则100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则100%令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         3,
         100,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "556de5ec"
+  "advance": null,
+  "hash": "52fcf920"
 }

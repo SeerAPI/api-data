@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若未击败对手则下2回合攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e517fb1c"
+  "hash": "a9584c96"
 }

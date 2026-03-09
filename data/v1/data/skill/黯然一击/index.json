@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后15%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后15%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             15
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "32022": {
       "id": 32022,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "自身体力高于对手时先制+3",
+          "analyze_info": "[sprite name=iconInherent]自身体力高于对手时[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [
             3
           ],
@@ -68,6 +71,7 @@
         },
         {
           "info": "自身体力低于对手时造成的伤害提高50%",
+          "analyze_info": "[sprite name=iconHit]自身体力低于对手时造成的伤害提高50%",
           "args": [
             50
           ],
@@ -78,8 +82,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1e33ac17"
+  "hash": "72b3e742"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则攻击+2，速度+2",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则攻击+2，速度+2（boss有效）",
       "args": [
         2,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "随机使自己3项能力+1",
+      "analyze_info": "[sprite name=iconHit]随机使自己3项能力+1（boss有效）",
       "args": [
         3,
         1
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9a5af11b"
+  "advance": null,
+  "hash": "488978ca"
 }

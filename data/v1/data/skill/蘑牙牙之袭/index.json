@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害低于300则附加自身最大体力30%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则附加自身最大体力30%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             300,
             30
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ea29823"
+  "hash": "de0010bb"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于能力提升状态则先制+1且必定命中",
+          "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+1且[color=#52a5f2]必定命中[/color]",
           "args": [],
           "effect": {
             "id": 2000,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若对手处于能力提升状态则消除对手回合类效果且100%令对手臣服3回合",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态则消除对手[color=#52a5f2]回合类效果[/color]且100%令对手[color=#57c975]臣服[/color]3回合",
           "args": [],
           "effect": {
             "id": 2001,
@@ -39,6 +41,7 @@
         },
         {
           "info": "若对手不处于能力提升状态则消除对手回合类效果，消除成功则令对手臣服",
+          "analyze_info": "[sprite name=iconHit]若对手不处于能力提升状态则消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]臣服[/color]",
           "args": [
             31
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "若对手处于能力提升状态则造成的攻击伤害提升60%，先出手时提升效果翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态则造成的攻击伤害提升60%，先出手时提升效果翻倍",
           "args": [
             60
           ],
@@ -59,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5907c5a2"
+  "hash": "841d4ed6"
 }

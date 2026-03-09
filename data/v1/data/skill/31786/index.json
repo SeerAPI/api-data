@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "35%令对手睡眠，对手处于能力下降状态时触发概率翻倍",
+      "analyze_info": "[sprite name=iconHit]35%令对手[color=#57c975]睡眠[/color]，对手处于能力下降状态时触发概率翻倍",
       "args": [
         35,
         8
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e91e77dd"
+  "advance": null,
+  "hash": "db933313"
 }

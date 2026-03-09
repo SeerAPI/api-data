@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害低于300则下2回合自身先制+1",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则下2回合自身[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         300,
         2,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e891034"
+  "advance": null,
+  "hash": "ebbc11b7"
 }

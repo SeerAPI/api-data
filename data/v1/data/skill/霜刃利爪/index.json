@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对方处于冻伤状态时，附加100点伤害",
+          "analyze_info": "[sprite name=iconHit]对方处于[color=#57c975]冻伤[/color]状态时，附加100点伤害（boss有效）",
           "args": [
             100
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bac3f887"
+  "hash": "ff5635a4"
 }

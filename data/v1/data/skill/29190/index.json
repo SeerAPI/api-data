@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身不处于能力提升状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身不处于能力提升状态时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内使用技能恢复400点体力，体力低于1/2时恢复至满",
+      "analyze_info": "[sprite name=iconHit]3回合内使用技能恢复400点体力，体力低于1/2时恢复至满（boss有效）",
       "args": [
         3,
         400,
@@ -43,6 +45,7 @@
     },
     {
       "info": "100%令对手烧伤，未触发则2回合内每回合100%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则2回合内每回合100%闪避对手攻击",
       "args": [
         100,
         2,
@@ -56,6 +59,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ece058b8"
+  "advance": null,
+  "hash": "e75506ed"
 }

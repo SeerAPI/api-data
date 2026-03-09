@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "4回合内若使用技能则恢复120点体力值",
+          "analyze_info": "[sprite name=iconHit]4回合内若使用技能则恢复120点体力值（boss有效）",
           "args": [
             4,
             120
@@ -58,6 +61,7 @@
         },
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f118a871"
+  "hash": "10a615"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则自身4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "50%使对手石化，未触发则自身下2回合攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]50%使对手[color=#57c975]石化[/color]，[color=#52a5f2]未触发[/color]则自身下2回合攻击必定[color=#57c975]致命一击[/color]",
           "args": [
             50,
             9,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5ea30f6e"
+  "hash": "a0961750"
 }

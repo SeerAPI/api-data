@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 1081,
@@ -29,6 +30,7 @@
     },
     {
       "info": "对手不处于能力提升状态时造成的伤害提高50%",
+      "analyze_info": "[sprite name=iconHit]对手不处于能力提升状态时造成的伤害提高50%（boss有效）",
       "args": [
         50
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4d2c678c"
+  "advance": null,
+  "hash": "74fce1c3"
 }

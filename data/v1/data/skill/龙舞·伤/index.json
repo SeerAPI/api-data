@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于能力下降时先制+2",
+          "analyze_info": "[sprite name=iconInherent]自身处于能力下降时[color=#52a5f2]先制[/color]+2",
           "args": [],
           "effect": {
             "id": 1807,
@@ -31,6 +32,7 @@
         },
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则对手烧伤",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]烧伤[/color]",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "附加200点固定伤害，每次使用额外附加60点，最高320点，遇到天敌时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，每次使用额外附加60点，最高320点，遇到天敌时效果翻倍（boss有效）",
           "args": [
             200,
             60,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9cb2328"
+  "hash": "1f35015e"
 }

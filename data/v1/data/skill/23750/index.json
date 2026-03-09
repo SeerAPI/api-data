@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合内若使用技能则恢复200点体力值",
+      "analyze_info": "[sprite name=iconHit]1回合内若使用技能则恢复200点体力值（boss有效）",
       "args": [
         1,
         200
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特攻等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+1（boss有效）",
       "args": [
         2,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身命中等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
       "args": [
         5,
         100,
@@ -69,5 +73,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "16c269e6"
+  "advance": null,
+  "hash": "21c5c545"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下2回合自身使用攻击技能则附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]下2回合自身使用攻击技能则附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             2,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合对手防御-1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合对手防御-1（boss有效）",
           "args": [
             3,
             0,
@@ -50,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "77f20b3c"
+  "hash": "49b71527"
 }

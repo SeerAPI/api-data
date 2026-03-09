@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身不处于能力提升状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身不处于能力提升状态时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "免疫并反弹下1次自身受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]免疫并[color=#52a5f2]反弹[/color]下1次自身受到的异常状态",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "下1次选择使用攻击技能时将对手的能力提升状态视为相应的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]下1次选择使用攻击技能时将对手的能力提升状态视为相应的能力下降状态",
       "args": [
         1
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "eaa0e74d"
+  "advance": null,
+  "hash": "b88f25aa"
 }

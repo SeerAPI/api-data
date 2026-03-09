@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手时下回合所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "先出手时，额外附加50点固定伤害",
+      "analyze_info": "[sprite name=iconHit]先出手时，额外附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         50
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "85c76208"
+  "advance": null,
+  "hash": "acee2126"
 }

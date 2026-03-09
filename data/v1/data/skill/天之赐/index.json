@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下2回合造成的攻击伤害额外提升30%",
+          "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]30%（boss有效）",
           "args": [
             2,
             30
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内每回合结束后恢复自身所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]3回合内每[color=#57c975]回合结束后[/color]恢复自身所有技能2点PP值",
           "args": [
             3,
             0,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d5f3cf9"
+  "hash": "97fe5d32"
 }

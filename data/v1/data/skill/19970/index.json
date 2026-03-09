@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将能力下降状态反馈给对手",
+      "analyze_info": "[sprite name=iconHit]将能力下降状态反馈给对手（boss有效）",
       "args": [],
       "effect": {
         "id": 63,
@@ -29,6 +30,7 @@
     },
     {
       "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "97f2ba69"
+  "advance": null,
+  "hash": "c78b3ec0"
 }

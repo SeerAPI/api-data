@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 828,
@@ -29,6 +30,7 @@
     },
     {
       "info": "附加自身当前护盾值等量的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身当前[color=#57c975]护盾[/color]值等量的[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1272,
@@ -37,6 +39,7 @@
     },
     {
       "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 709,
@@ -46,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c741c69c"
+  "advance": null,
+  "hash": "31ad0200"
 }

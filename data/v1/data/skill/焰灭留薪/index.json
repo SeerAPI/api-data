@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机自身3项属性+1",
+          "analyze_info": "[sprite name=iconHit]随机自身3项属性+1（boss有效）",
           "args": [],
           "effect": {
             "id": 446,
@@ -31,6 +32,7 @@
         },
         {
           "info": "下3回合受到致命伤害时残留1点体力",
+          "analyze_info": "[sprite name=iconHit]下3回合受到致命伤害时残留1点体力（boss有效）",
           "args": [
             3,
             1
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4253c4f7"
+  "hash": "ed515acb"
 }

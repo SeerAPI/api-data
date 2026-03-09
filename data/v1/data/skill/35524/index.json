@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手基础速度值高于400则下回合先制-1",
+      "analyze_info": "[sprite name=iconHit]对手基础速度值高于400则下回合[color=#52a5f2]先制[/color]-1",
       "args": [
         400
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "35a6f822"
+  "advance": null,
+  "hash": "e17f8986"
 }

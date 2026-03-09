@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 521,
@@ -29,6 +30,7 @@
     },
     {
       "info": "100%的概率，2回合内受到的伤害减半",
+      "analyze_info": "[sprite name=iconHit]100%的概率，2回合内受到的伤害减半（boss有效）",
       "args": [
         100,
         2
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7aed0c"
+  "advance": null,
+  "hash": "40634765"
 }

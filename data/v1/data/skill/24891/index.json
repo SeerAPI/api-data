@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，特攻+2，速度+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+2，速度+2（boss有效）",
       "args": [
         0,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5ac5d3ed"
+  "advance": null,
+  "hash": "e611f35e"
 }

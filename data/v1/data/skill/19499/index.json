@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手随机1项技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的100%恢复自身体力（boss有效）",
       "args": [
         100
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2a24e442"
+  "advance": null,
+  "hash": "18f07270"
 }

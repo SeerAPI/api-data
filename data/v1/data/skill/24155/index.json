@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "恢复自身已损失体力值的1/2",
+      "analyze_info": "[sprite name=iconHit]恢复自身[color=#52a5f2]已损失体力[/color]值的1/2（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
       "args": [],
       "effect": {
         "id": 444,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1d7bdd05"
+  "advance": null,
+  "hash": "e7523137"
 }

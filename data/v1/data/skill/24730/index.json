@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内令对手使用的属性技能无效（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "免疫对手下1次攻击技能造成的伤害并附加免疫量的真实伤害",
+      "analyze_info": "[sprite name=iconHit]免疫对手下1次攻击技能造成的伤害并附加免疫量的[color=#52a5f2]真实伤害[/color]",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "恢复自身250点体力，自身体力少于1/2时恢复效果翻倍",
+      "analyze_info": "[sprite name=iconHit]恢复自身250点体力，自身体力少于1/2时恢复效果翻倍（boss有效）",
       "args": [
         250,
         2
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "909827b9"
+  "advance": null,
+  "hash": "48f87be6"
 }

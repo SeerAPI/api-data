@@ -3,6 +3,7 @@
   "args_num": 4,
   "info": "自身为满体力时消耗自身最大体力的1/{0}并令对手{1}，自身不为满体力时吸取对手最大体力的1/{2}并令对手所有技能PP值-{3}",
   "info_formatting_adjustment": "<condition>自身为满体力时</condition>消耗自身最大体力的1/{0}并令对手{1}\r\n<condition>自身不为满体力时</condition>吸取对手最大体力的1/{2}并令对手所有技能PP值-{3}",
+  "analyze_info": "[sprite name=iconHit]自身为满体力时消耗自身最大体力的1/{0}并令对手[color=#57c975]{1}[/color]，自身不为满体力时[color=#52a5f2]吸取[/color]对手最大体力的1/{2}并令对手所有技能PP值-{3}",
   "pve_effective": false,
   "param": [
     {
@@ -37,5 +38,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/46440"
     }
   ],
-  "hash": "1cffe0a5"
+  "hash": "22a73790"
 }

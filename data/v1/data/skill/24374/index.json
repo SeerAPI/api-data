@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         100,
         1
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
       "args": [
         2
       ],
@@ -52,6 +55,7 @@
     },
     {
       "info": "抵挡下1次对手的攻击",
+      "analyze_info": "[sprite name=iconHit]抵挡下1次对手的攻击（boss有效）",
       "args": [
         1
       ],
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a51a019b"
+  "advance": null,
+  "hash": "4747f055"
 }

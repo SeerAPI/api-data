@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于能力下降时先制+2",
+      "analyze_info": "[sprite name=iconInherent]自身处于能力下降时[color=#52a5f2]先制[/color]+2",
       "args": [],
       "effect": {
         "id": 1807,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手处于能力提升状态则先制+2",
+      "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [],
       "effect": {
         "id": 779,
@@ -37,6 +39,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -57,6 +61,7 @@
     },
     {
       "info": "若自身为满体力则技能威力提升120%",
+      "analyze_info": "[sprite name=iconHit]若自身为满体力则技能[color=#52a5f2]威力[/color]提升120%（boss有效）",
       "args": [
         120
       ],
@@ -68,5 +73,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4805066e"
+  "advance": null,
+  "hash": "1bbc7ad5"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，50%概率强化效果翻倍，未触发则吸取对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，50%概率强化效果翻倍，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手能力提升状态（boss有效）",
           "args": [
             1,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内使用技能吸取对手最大体力1/3，自身体力低于1/2时效果翻倍，吸取时若自身满体力则为己方所有不在场精灵恢复100点体力",
+          "analyze_info": "[sprite name=iconHit]4回合内使用技能[color=#52a5f2]吸取[/color]对手最大体力1/3，自身体力低于1/2时效果翻倍，[color=#52a5f2]吸取[/color]时若自身满体力则为[color=#52a5f2]己方[/color]所有不在场精灵恢复100点体力",
           "args": [],
           "effect": {
             "id": 1303,
@@ -42,6 +44,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -53,6 +56,7 @@
         },
         {
           "info": "下2回合攻击忽略对手25%的双防值",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手25%的双防值",
           "args": [
             2,
             25
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bf483dd5"
+  "hash": "c3c73db5"
 }

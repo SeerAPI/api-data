@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "对手未持有回命时为对手附加3回合的回命，若对手持有回命且剩余回合数大于1则回合数-1",
+      "analyze_info": "[sprite name=iconHit]对手未持有[color=#f35555]回命[/color]时为对手附加3回合的[color=#f35555]回命[/color]，若对手持有[color=#f35555]回命[/color]且剩余回合数大于1则回合数-1",
       "args": [],
       "effect": {
         "id": 2136,
@@ -39,6 +41,7 @@
     },
     {
       "info": "3回合内对手使用技能消耗的PP值变为2倍",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
       "args": [
         3,
         2
@@ -50,6 +53,7 @@
     },
     {
       "info": "3回合内每回合使用技能100%令对手烧伤，未触发则令对手所有技能PP值-2",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则令对手所有技能PP值-2",
       "args": [
         3,
         100,
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "99a97db7"
+  "advance": null,
+  "hash": "d2e80c40"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手处于能力下降状态时先制+1",
+      "analyze_info": "[sprite name=iconInherent]对手处于能力下降状态时[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 1243,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "对手处于能力下降状态造成的伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]对手处于能力下降状态造成的伤害提升50%",
       "args": [
         50
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "附加对手能力下降等级总和X50的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加对手能力下降等级总和X50的[color=#52a5f2]固定伤害[/color]",
       "args": [
         50
       ],
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b1501a01"
+  "advance": null,
+  "hash": "ae2e20b9"
 }

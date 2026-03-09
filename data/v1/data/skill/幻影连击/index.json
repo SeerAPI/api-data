@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "34799": {
       "id": 34799,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "连击5次，每次命中后连击数+1，最高连击10次",
+          "analyze_info": "[sprite name=iconHit]连击5次，每次命中后连击数+1，最高连击10次（boss有效）",
           "args": [
             5,
             1,
@@ -68,6 +71,7 @@
         },
         {
           "info": "自己出手时若自身体力高于对手则造成的伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]自己出手时若自身体力高于对手则造成的伤害提升50%（boss有效）",
           "args": [
             50
           ],
@@ -78,8 +82,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "80f129ad"
+  "hash": "52ee83f5"
 }

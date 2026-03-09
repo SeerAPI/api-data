@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功，则对手冻伤",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功，则对手[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             5
           ],
@@ -33,8 +34,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6e225fcb"
+  "hash": "66d5acee"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]2回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "为自身附加260点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加260点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             260
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5c29b94f"
+  "hash": "216c73fb"
 }

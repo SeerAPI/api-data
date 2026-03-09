@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合对手特防-1，命中-1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合对手特防-1，命中-1（boss有效）",
       "args": [
         3,
         0,
@@ -37,6 +38,7 @@
     },
     {
       "info": "3回合内致命一击概率上升1/8",
+      "analyze_info": "[sprite name=iconHit]3回合内[color=#57c975]致命一击[/color]概率上升1/8（boss有效）",
       "args": [
         3,
         8
@@ -48,6 +50,7 @@
     },
     {
       "info": "下1回合自身攻击先制+1",
+      "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1,
         1
@@ -60,5 +63,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ea9d1d38"
+  "advance": null,
+  "hash": "fee28f0"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功对手特攻-2，特防-2",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功对手特攻-2，特防-2",
           "args": [
             0,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "自身处于能力提升状态时造成伤害的100%恢复自身体力值，当前体力低于最大体力的1/2时附加等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成伤害的100%恢复自身体力值，当前体力低于最大体力的1/2时附加等量[color=#52a5f2]百分比伤害[/color]",
           "args": [
             100,
             2
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8f2bcefe"
+  "hash": "b5841245"
 }

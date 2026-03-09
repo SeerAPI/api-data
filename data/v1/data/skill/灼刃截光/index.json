@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手的能力提升状态，反转成功则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转对手[/color]的能力提升状态，反转成功则恢复自身所有体力（boss有效）",
           "args": [],
           "effect": {
             "id": 778,
@@ -31,6 +32,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -39,6 +41,7 @@
         },
         {
           "info": "附加250点固定伤害，每次使用额外附加100点，最高450点",
+          "analyze_info": "[sprite name=iconHit]附加250点[color=#52a5f2]固定伤害[/color]，每次使用额外附加100点，最高450点（boss有效）",
           "args": [
             250,
             100,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5e5f0045"
+  "hash": "acda3259"
 }

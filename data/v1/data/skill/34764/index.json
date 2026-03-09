@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功后恢复280点体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功后恢复280点体力（boss有效）",
       "args": [
         280
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身处于能力提升状态时，使对手命中能力-2",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时，使对手命中能力-2（boss有效）",
       "args": [
         5,
         -2
@@ -42,6 +44,7 @@
     },
     {
       "info": "若对手处于能力下降状态则50%概率石化",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则50%概率[color=#57c975]石化[/color]（boss有效）",
       "args": [
         50,
         9
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9d0e735a"
+  "advance": null,
+  "hash": "dd0f44c0"
 }

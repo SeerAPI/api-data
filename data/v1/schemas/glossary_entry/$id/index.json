@@ -1,0 +1,82 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_GlossaryEntry_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "glossary_entry"
+        },
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "术语ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "术语名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "description": "术语描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "kind": {
+          "description": "术语类型，数值对应的类型尚不明确，这里暂时保留原始值",
+          "title": "Kind",
+          "type": "integer"
+        },
+        "link": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ResourceRef_GlossaryEntry_"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "术语链接，用于指示显示该术语时应同时显示的其他术语",
+          "title": "Link"
+        },
+        "pet": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ResourceRef_Pet_"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "用于指示该术语是否是特定精灵专属的",
+          "title": "Pet"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "kind"
+      ],
+      "title": "GlossaryEntry",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

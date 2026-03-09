@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -31,6 +32,7 @@
         },
         {
           "info": "下2回合造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             2,
             100
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4575428b"
+  "hash": "6a22c382"
 }

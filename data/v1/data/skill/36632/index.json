@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -29,6 +30,7 @@
     },
     {
       "info": "5回合内自身受到的攻击伤害额外减少100%",
+      "analyze_info": "[sprite name=iconHit]5回合内自身受到的攻击[color=#52a5f2]伤害额外减少[/color]100%",
       "args": [
         5,
         100
@@ -40,6 +42,7 @@
     },
     {
       "info": "5回合内自身受到的固定伤害和百分比伤害减少100%",
+      "analyze_info": "[sprite name=iconHit]5回合内自身受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少100%（boss有效）",
       "args": [
         5,
         100
@@ -51,6 +54,7 @@
     },
     {
       "info": "造成的攻击伤害提升50%，若自身持有红色或白色龙鳞则增伤效果翻倍",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害提升50%，若自身持有红色或[color=#f35555]白色龙鳞[/color]则增伤效果翻倍",
       "args": [
         50
       ],
@@ -61,6 +65,7 @@
     },
     {
       "info": "附加150点固定伤害，若自身持有红色或白色龙鳞则附加的固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加150点[color=#52a5f2]固定伤害[/color]，若自身持有红色或[color=#f35555]白色龙鳞[/color]则附加的[color=#52a5f2]固定伤害[/color]翻倍",
       "args": [
         150
       ],
@@ -71,6 +76,7 @@
     },
     {
       "info": "附加自身最大体力15%的百分比伤害，若自身持有红色或白色龙鳞则附加的百分比伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力15%的[color=#52a5f2]百分比伤害[/color]，若自身持有红色或[color=#f35555]白色龙鳞[/color]则附加的[color=#52a5f2]百分比伤害[/color]翻倍",
       "args": [
         15
       ],
@@ -82,5 +88,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3c168e3"
+  "advance": null,
+  "hash": "18369c70"
 }

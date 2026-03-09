@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机附加200~300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]随机附加200~300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             200,
             300
@@ -34,6 +35,7 @@
         },
         {
           "info": "每次攻击提升10%的致命概率，最高提升50%",
+          "analyze_info": "[sprite name=iconHit]每次攻击提升10%的致命概率，最高提升50%（boss有效）",
           "args": [
             10,
             50
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2d6596bb"
+  "hash": "f7857ce2"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "令对手下次使用的技能无效",
+      "analyze_info": "[sprite name=iconHit]令对手下次使用的技能无效",
       "args": [],
       "effect": {
         "id": 884,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若先出手则必定打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1395,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c49736a7"
+  "advance": null,
+  "hash": "4291c9b1"
 }

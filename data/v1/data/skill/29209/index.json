@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手攻击-1，防御-1，特攻-1，特防-1，速度-1，命中-1,后出手时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]对手攻击-1，防御-1，特攻-1，特防-1，速度-1，命中-1,后出手时弱化效果翻倍（boss有效）",
       "args": [
         -1,
         -1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "对手不处于能力提升则3回合内免疫并反弹受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]对手不处于能力提升则3回合内免疫并[color=#52a5f2]反弹[/color]受到的异常状态",
       "args": [
         3
       ],
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ce50b08d"
+  "advance": null,
+  "hash": "e4ee86d"
 }

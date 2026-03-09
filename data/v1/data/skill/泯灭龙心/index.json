@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
           "args": [
             2,
             -2
@@ -34,6 +35,7 @@
         },
         {
           "info": "若对手下次使用的攻击技能未命中则令对手害怕",
+          "analyze_info": "[sprite name=iconHit]若对手下次使用的攻击技能未命中则令对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "12e5b2f1"
+  "hash": "a3bc9cd2"
 }

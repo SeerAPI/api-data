@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%回复自身1/2体力值",
+          "analyze_info": "[sprite name=iconHit]50%回复自身1/2体力值（boss有效）",
           "args": [
             50,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "50%概率额外附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]50%概率额外附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             50,
             200
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4331ef92"
+  "hash": "34a51069"
 }

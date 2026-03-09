@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内对手恢复体力时恢复效果减少50%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少50%（boss有效）",
       "args": [
         3,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内每回合恢复自身已损失体力的50%",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
       "args": [
         3,
         50
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1a802029"
+  "advance": null,
+  "hash": "a7c3c7b4"
 }

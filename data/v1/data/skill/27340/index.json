@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手所有护盾效果，消除成功则使对手全属性-1，自身体力低于对手时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]效果，消除成功则使对手[color=#52a5f2]全属性[/color]-1，自身体力低于对手时弱化效果翻倍",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫大于300的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫大于300的攻击伤害",
       "args": [
         4,
         300
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         2,
         100
@@ -53,6 +56,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "72cf140c"
+  "advance": null,
+  "hash": "7a5e000d"
 }

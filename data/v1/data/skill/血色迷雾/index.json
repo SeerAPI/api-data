@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             100,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若先出手，则免疫当回合伤害并回复1/4的最大体力值",
+          "analyze_info": "[sprite name=iconHit]若先出手，则免疫[color=#52a5f2]当回合[/color]伤害并回复1/4的最大体力值",
           "args": [
             4
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9939bb71"
+  "hash": "96ece964"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下2回合对手打出致命一击的非必中技能无效",
+      "analyze_info": "[sprite name=iconHit]下2回合对手打出[color=#57c975]致命一击[/color]的非必中技能无效（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "4回合内若自身攻击技能命中则60%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则60%令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         60,
@@ -53,6 +56,7 @@
     },
     {
       "info": "下2回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
       "args": [
         2
       ],
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "258b7a73"
+  "advance": null,
+  "hash": "bab36dda"
 }

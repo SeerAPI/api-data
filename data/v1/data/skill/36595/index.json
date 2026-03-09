@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下2回合自身所有技能[color=#52a5f2]先制[/color]+2",
       "args": [
         2,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "100%令对手混乱，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]混乱[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         100,
         10,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2fc9e7e5"
+  "advance": null,
+  "hash": "3e72bfa8"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时，100%使自身速度提升1个等级",
+          "analyze_info": "[sprite name=iconHit]后出手时，100%使自身速度提升1个等级（boss有效）",
           "args": [
             4,
             100,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d517a545"
+  "hash": "204dca95"
 }

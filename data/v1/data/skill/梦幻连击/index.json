@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做2~3次攻击",
+          "analyze_info": "1回合做2~3次攻击",
           "args": [
             2,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "连续使用每次威力增加10，最高威力55",
+          "analyze_info": "[sprite name=iconHit]连续使用每次[color=#52a5f2]威力[/color]增加10，最高[color=#52a5f2]威力[/color]55（boss有效）",
           "args": [
             10,
             55
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "945a09c"
+  "hash": "1ed55f07"
 }

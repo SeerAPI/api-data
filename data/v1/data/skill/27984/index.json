@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），若消除成功则使对手下1次使用的属性技能失效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         2,
         100
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a765762e"
+  "advance": null,
+  "hash": "a935e20e"
 }

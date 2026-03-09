@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害不少于350",
+          "analyze_info": "[sprite name=iconHit]造成的伤害不少于350（boss有效）",
           "args": [
             350
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若当前HP低于对手，则技能威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若当前HP低于对手，则技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 132,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3789f4e3"
+  "hash": "b514b56f"
 }

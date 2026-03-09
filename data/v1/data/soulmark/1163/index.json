@@ -2,6 +2,7 @@
   "id": 1163,
   "desc": "自身攻击技能命中后30%的概率造成2倍伤害，未触发则下回合攻击翻倍概率额外提升20%；每回合开始时为自身附加300点护盾和300点护罩，战斗阶段结束时若自身护盾或护罩任意一个消失则下回合自身攻击技能100%的概率打出致命一击（boss有效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>攻击技能命中后，有30%的概率<color=#64F9FA>造成2倍伤害</color>\r\n<indent=32><sprite=4><indent=48>如果未触发2倍伤害效果，则下回合攻击技能触发2倍伤害的概率额外提升20%\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，为自身<color=#64F9FA>附加</color>300点<b>护盾</b>和300点<b>护罩</b>\r\n<indent=32><sprite=4><indent=48>若战斗阶段结束时护盾或护罩任意一个消失，则下回合攻击技能100%<color=#64F9FA>触发致命一击</color>",
+  "analyze_desc": "",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -42,5 +43,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "d2dd3598"
+  "advance": null,
+  "hash": "81d7fa3"
 }

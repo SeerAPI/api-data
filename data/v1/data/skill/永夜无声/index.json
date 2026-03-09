@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则对手2回合内无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则对手2回合内[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成伤害的50%恢复自身体力，若打出致命一击则附加恢复体力值等量的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若打出[color=#57c975]致命一击[/color]则附加恢复体力值等量的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a9b9e504"
+  "hash": "8a5a0d57"
 }

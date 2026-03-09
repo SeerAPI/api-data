@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合使用技能附加300点固定伤害，若对手未受到固定伤害则额外附加等量的真实伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能附加300点固定伤害，若对手未受到固定伤害则额外附加等量的真实伤害（boss有效）",
       "args": [
         3,
         300,
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能后使对手焚烬，未触发则对手下2回合属性技能命中效果失效",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后使对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则对手下2回合属性技能命中效果失效",
       "args": [
         3,
         22,
@@ -55,6 +58,7 @@
     },
     {
       "info": "免疫下1次对手的攻击，未触发则100%令对手焚烬",
+      "analyze_info": "[sprite name=iconHit]免疫下1次对手的攻击，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]焚烬[/color]（boss有效）",
       "args": [
         1,
         100,
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7dec06c6"
+  "advance": null,
+  "hash": "6d34cc15"
 }

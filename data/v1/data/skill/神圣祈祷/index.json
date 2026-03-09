@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击对手时若对手处于失明状态，则80%使对手睡眠",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]失明[/color]状态，则80%使对手[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             20,
             80,
@@ -35,6 +36,7 @@
         },
         {
           "info": "40%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]40%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
           "args": [
             40,
             2
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1c48d146"
+  "hash": "7f136884"
 }

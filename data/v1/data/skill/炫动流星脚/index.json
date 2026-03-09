@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "双倍反转自身能力下降状态，反转成功则获得300点护盾",
+          "analyze_info": "[sprite name=iconHit]双倍反转自身能力下降状态，反转成功则获得300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加200点固定伤害，对手处于异常状态时固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，对手处于异常状态时[color=#52a5f2]固定伤害[/color]翻倍",
           "args": [
             200
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4a7f5db1"
+  "hash": "34163f29"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后，70%令对方冻伤，70%令对方冰封",
+          "analyze_info": "[sprite name=iconHit]命中后，70%令对方[color=#57c975]冻伤[/color]，70%令对方[color=#57c975]冰封[/color]（boss有效）",
           "args": [
             70,
             5,
@@ -36,6 +37,7 @@
         },
         {
           "info": "附加对手能力下降等级总和X60的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手能力下降等级总和X60的[color=#52a5f2]固定伤害[/color]",
           "args": [
             60
           ],
@@ -46,6 +48,7 @@
         },
         {
           "info": "先出手时降低对手所有PP2点",
+          "analyze_info": "[sprite name=iconHit]先出手时降低对手所有PP2点",
           "args": [
             2
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f8bf1b37"
+  "hash": "42704be3"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内受到物理攻击伤害减少100%",
+      "analyze_info": "[sprite name=iconHit]2回合内受到物理攻击伤害减少100%（boss有效）",
       "args": [
         2,
         0,
@@ -33,6 +34,7 @@
     },
     {
       "info": "2回合内特殊攻击对自身必定miss",
+      "analyze_info": "[sprite name=iconHit]2回合内特殊攻击对自身必定miss（boss有效）",
       "args": [
         2
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7725398c"
+  "advance": null,
+  "hash": "da3110c6"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除双方能力提升状态、能力下降状态和护盾效果，消除任意一项成功则附加300点固定伤害且令对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除双方能力提升状态、能力下降状态和[color=#57c975]护盾[/color]效果，消除任意一项成功则附加300点[color=#52a5f2]固定伤害[/color]且令对手随机1个技能PP值归零",
           "args": [
             300,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若造成的伤害不足300，则对手防御等级-2",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则对手防御等级-2（boss有效）",
           "args": [
             300,
             1,
@@ -46,7 +48,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "37952": {
       "id": 37952,
@@ -71,6 +74,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果反转成能力下降效果",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果反转成能力下降效果（boss有效）",
           "args": [],
           "effect": {
             "id": 143,
@@ -79,8 +83,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "249d1a32"
+  "hash": "d739aa69"
 }

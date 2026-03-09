@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特防等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
       "args": [
         3,
         100,
@@ -43,6 +45,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
       "args": [
         5,
         100,
@@ -55,6 +58,7 @@
     },
     {
       "info": "下1回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下1回合攻击必定先出手（boss有效）",
       "args": [
         1
       ],
@@ -65,6 +69,7 @@
     },
     {
       "info": "3回合内每回合所受的伤害减少150",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少150（boss有效）",
       "args": [
         3,
         150
@@ -77,5 +82,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4fd3554e"
+  "advance": null,
+  "hash": "37d4d31e"
 }

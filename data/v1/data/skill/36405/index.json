@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "双方任意一方处于能力下降状态均会附加450点固定伤害，同时解除自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]双方任意一方处于能力下降状态均会附加450点[color=#52a5f2]固定伤害[/color]，同时解除自身能力下降状态（boss有效）",
       "args": [
         450
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令对手冰封，未触发则随机附加1种异常状态",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则随机附加1种异常状态",
       "args": [
         100,
         15,
@@ -44,5 +46,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a53beec6"
+  "advance": {
+    "id": 21,
+    "url": "https://api.seerapi.com/v1/pet_advance/21"
+  },
+  "hash": "63aa0ae4"
 }

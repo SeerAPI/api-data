@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下1次受到的攻击伤害减少50%",
+          "analyze_info": "[sprite name=iconHit]下1次受到的攻击伤害减少50%（boss有效）",
           "args": [
             1,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "下1次受到的固定伤害和百分比伤害减少50%",
+          "analyze_info": "[sprite name=iconHit]下1次受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少50%",
           "args": [
             1,
             50
@@ -45,6 +47,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定致命、必定命中",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定致命、[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [
             2
           ],
@@ -55,6 +58,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1287031c"
+  "hash": "c491fd95"
 }

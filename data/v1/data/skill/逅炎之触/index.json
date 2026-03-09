@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击对手时若对手处于烧伤状态，则100%使对手焚烬",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则100%使对手[color=#57c975]焚烬[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若对手不处于异常状态则造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             100
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2e1d3b0"
+  "hash": "103fd2e8"
 }

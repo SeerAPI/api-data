@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "每次使用则当回合造成的攻击伤害额外提升20%，最高额外提升100%",
+      "analyze_info": "[sprite name=iconHit]每次使用则[color=#52a5f2]当回合[/color]造成的攻击[color=#52a5f2]伤害额外提升[/color]20%，最高额外提升100%（boss有效）",
       "args": [
         20,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "攻击命中后50%的概率造成2倍伤害，未触发则战斗结束后随机获得5000-10000泰坦之灵（泰坦之灵每日最多可以获得10次）",
+      "analyze_info": "[sprite name=iconHit]攻击命中后50%的概率造成2倍伤害，[color=#52a5f2]未触发[/color]则战斗结束后随机获得5000-10000泰坦之灵（泰坦之灵每日最多可[color=#52a5f2]以[/color]获得10次）",
       "args": [],
       "effect": {
         "id": 1729,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7d30681f"
+  "advance": null,
+  "hash": "b13fa26"
 }

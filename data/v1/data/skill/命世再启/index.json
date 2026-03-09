@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "为自身附加1层未来奇点",
+          "analyze_info": "[sprite name=iconHit]为自身附加1层[color=#f35555]未来奇点[/color]",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "全属性+1，若对手存在技能被解析则强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，若对手存在技能被[color=#f35555]解析[/color]则强化效果翻倍",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手300点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍，若对手未受到固定伤害则额外附加300点真实伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手300点体力，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍，若对手未受到[color=#52a5f2]固定伤害[/color]则额外附加300点[color=#52a5f2]真实伤害[/color]",
           "args": [
             4,
             300,
@@ -56,6 +59,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -67,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "60d7f0ab"
+  "hash": "fd576d62"
 }

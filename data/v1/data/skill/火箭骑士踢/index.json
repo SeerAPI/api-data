@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "80%令对手害怕，未触发则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]80%令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则令对手2回合内使用的属性技能无效",
           "args": [
             80,
             6,
@@ -35,6 +36,7 @@
         },
         {
           "info": "50%概率威力翻倍 体力低于1/2时概率增加50%",
+          "analyze_info": "[sprite name=iconHit]50%概率[color=#52a5f2]威力[/color]翻倍 体力低于1/2时概率增加50%（boss有效）",
           "args": [
             50,
             2,
@@ -47,6 +49,7 @@
         },
         {
           "info": "击败对手则恢复自身全部体力和所有技能PP值",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
           "args": [],
           "effect": {
             "id": 1156,
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bea9755f"
+  "hash": "1554cdfe"
 }

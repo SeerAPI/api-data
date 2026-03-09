@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手恢复体力（药剂恢复除外），则2回合内自身攻击附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手恢复体力（药剂恢复除外），则2回合内自身攻击附加300点[color=#52a5f2]固定伤害[/color]",
           "args": [
             3,
             2,
@@ -45,6 +47,7 @@
         },
         {
           "info": "3回合内对手所有攻击必定MISS，必中技能有效",
+          "analyze_info": "[sprite name=iconHit]3回合内对手所有攻击必定MISS，必中技能有效（boss有效）",
           "args": [
             3
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2493bdfb"
+  "hash": "63011d62"
 }

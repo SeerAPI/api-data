@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时50%自身特攻等级+1",
+          "analyze_info": "[sprite name=iconHit]先出手时50%自身特攻等级+1（boss有效）",
           "args": [
             2,
             50,
@@ -35,6 +36,7 @@
         },
         {
           "info": "后出手时，50%使自身速度提升1个等级",
+          "analyze_info": "[sprite name=iconHit]后出手时，50%使自身速度提升1个等级（boss有效）",
           "args": [
             4,
             50,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "30d3e1e"
+  "hash": "a2349f0f"
 }

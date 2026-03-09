@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合内物理攻击对自身必定miss",
+          "analyze_info": "[sprite name=iconHit]1回合内物理攻击对自身必定miss（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "1回合内特殊攻击对自身必定miss",
+          "analyze_info": "[sprite name=iconHit]1回合内特殊攻击对自身必定miss（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2ad0b187"
+  "hash": "1b3fbd8e"
 }

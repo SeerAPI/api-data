@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身每有1级能力下降状态吸取对手45点体力，对手处于能力提升状态时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]自身每有1级能力下降状态[color=#52a5f2]吸取[/color]对手45点体力，对手处于能力提升状态时效果翻倍",
           "args": [
             45
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "无视对手能力提升效果，无视成功吸取对手最大体力的1/4，自身体力未恢复至满时令对手焚烬",
+          "analyze_info": "[sprite name=iconHit]无视对手能力提升效果，无视成功[color=#52a5f2]吸取[/color]对手最大体力的1/4，自身体力未恢复至满时令对手[color=#57c975]焚烬[/color]",
           "args": [
             4,
             22
@@ -44,6 +46,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -54,6 +57,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -65,8 +69,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 17,
+        "url": "https://api.seerapi.com/v1/pet_advance/17"
+      }
     }
   },
-  "hash": "bab15038"
+  "hash": "e71aaad7"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若受到攻击则有50%概率令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有50%概率令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -33,6 +34,7 @@
     },
     {
       "info": "3回合内50%令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内50%令对手使用的属性技能无效（boss有效）",
       "args": [
         3,
         50
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手攻击等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-1（boss有效）",
       "args": [
         0,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特攻等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-1（boss有效）",
       "args": [
         2,
         100,
@@ -69,5 +73,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "aa0eaca"
+  "advance": null,
+  "hash": "717b22e8"
 }

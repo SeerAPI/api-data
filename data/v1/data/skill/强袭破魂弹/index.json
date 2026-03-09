@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身的能力下降状态双倍反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将自身的能力下降状态双倍反馈给对手（boss有效）",
           "args": [],
           "effect": {
             "id": 813,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加自身的攻击值的35%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身的攻击值的35%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             0,
             0,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a05f08b5"
+  "hash": "f38ec3c6"
 }

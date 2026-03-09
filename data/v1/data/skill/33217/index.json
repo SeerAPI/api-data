@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，解除成功则自身下2回合受到的伤害减少250点",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则自身下2回合受到的伤害减少250点（boss有效）",
       "args": [
         2,
         250
@@ -32,6 +33,7 @@
     },
     {
       "info": "造成的伤害低于250则附加自身最大体力25%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于250则附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         250,
         25
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f79ae262"
+  "advance": null,
+  "hash": "89365a5"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内每回合都能附加50点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             50
@@ -46,7 +48,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "22792": {
       "id": 22792,
@@ -71,6 +74,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -83,6 +87,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
           "args": [
             2,
             100,
@@ -95,6 +100,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身命中等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
           "args": [
             5,
             100,
@@ -107,8 +113,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "371888a5"
+  "hash": "f27e86f3"
 }

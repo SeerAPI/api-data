@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身每点亮1颗雷辰全属性+1",
+          "analyze_info": "[sprite name=iconHit]自身每点亮1颗雷辰[color=#52a5f2]全属性[/color]+1",
           "args": [],
           "effect": {
             "id": 2290,
@@ -31,6 +32,7 @@
         },
         {
           "info": "下3回合攻击技能吸取对手1/3最大体力值",
+          "analyze_info": "[sprite name=iconHit]下3回合攻击技能[color=#52a5f2]吸取[/color]对手1/3最大体力值",
           "args": [
             3,
             3
@@ -42,6 +44,7 @@
         },
         {
           "info": "3回合内自身的能力提升状态无法被消除或吸取",
+          "analyze_info": "[sprite name=iconHit]3回合内自身的能力提升状态无法被消除或[color=#52a5f2]吸取[/color]",
           "args": [
             3
           ],
@@ -52,6 +55,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "450a168"
+  "hash": "b8177117"
 }

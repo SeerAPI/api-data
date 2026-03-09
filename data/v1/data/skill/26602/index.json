@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合内每回合有50%的概率降低对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合有50%的概率降低对手最大体力的1/3",
       "args": [
         3,
         50,
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "60e1466e"
+  "advance": null,
+  "hash": "e082d161"
 }

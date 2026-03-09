@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内对手使用正先制的技能时100%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]2回合内对手使用正[color=#52a5f2]先制[/color]的技能时100%令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "随机附加100~200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]随机附加100~200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100,
             200
@@ -46,7 +48,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "22339": {
       "id": 22339,
@@ -71,6 +74,7 @@
       "skill_effect": [
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -81,8 +85,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "24c86da3"
+  "hash": "c4ed3bd6"
 }

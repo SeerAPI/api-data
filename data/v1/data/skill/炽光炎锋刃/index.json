@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "体力低于最大体力的1/2时先制+1",
+          "analyze_info": "[sprite name=iconInherent]体力低于最大体力的1/2时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1484,
@@ -31,6 +32,7 @@
         },
         {
           "info": "打出致命一击则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "未打出致命一击则自身下1回合攻击技能额外先制+1",
+          "analyze_info": "[sprite name=iconHit]未打出[color=#57c975]致命一击[/color]则自身下1回合攻击技能额外[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1,
             1
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bd458b20"
+  "hash": "b00c85e6"
 }

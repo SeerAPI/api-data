@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除双方回合类效果并为双方附加3回合烧伤，自身烧伤状态解除后则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]并为双方附加3回合[color=#57c975]烧伤[/color]，自身[color=#57c975]烧伤[/color]状态解除后则恢复自身所有体力",
       "args": [
         3,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "对手处于异常状态时60%令对手焚烬",
+      "analyze_info": "[sprite name=iconHit]对手处于异常状态时60%令对手[color=#57c975]焚烬[/color]（boss有效）",
       "args": [
         60,
         22
@@ -44,6 +46,7 @@
     },
     {
       "info": "攻击结束时附加对手双防之和40%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]攻击结束时附加对手双防之和40%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         40
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2f1ac23b"
+  "advance": null,
+  "hash": "5ebd9b39"
 }

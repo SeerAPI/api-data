@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于麻痹状态则对手攻击+2，速度+2，命中+2",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]麻痹[/color]状态则对手攻击+2，速度+2，命中+2（boss有效）",
           "args": [
             0,
             2,
@@ -39,8 +40,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1b6d1371"
+  "hash": "35927fd3"
 }

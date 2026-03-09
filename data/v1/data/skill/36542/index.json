@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于能力提升状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 1904,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转对手能力提升状态，反转成功则2回合内对手的能力下降状态无法被解除或反转",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则2回合内对手的能力下降状态无法被解除或反转",
       "args": [
         2
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "若自身当前体力高于最大体力的1/2则威力提升50%",
+      "analyze_info": "[sprite name=iconHit]若自身当前体力高于最大体力的1/2则[color=#52a5f2]威力[/color]提升50%（boss有效）",
       "args": [
         2,
         50
@@ -50,6 +53,7 @@
     },
     {
       "info": "若自身当前体力低于最大体力的1/2则附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]若自身当前体力低于最大体力的1/2则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         2,
         3
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5b8dce83"
+  "advance": null,
+  "hash": "7e1e5e6f"
 }

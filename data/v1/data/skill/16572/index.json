@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若当回合未击败对手，则恢复自身最大体力的1/5",
+      "analyze_info": "[sprite name=iconHit]若[color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手，则恢复自身最大体力的1/5（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时，100%概率使对方烧伤",
+      "analyze_info": "[sprite name=iconHit]后出手时，100%概率使对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         100,
         2
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "12572beb"
+  "advance": null,
+  "hash": "e26b8839"
 }

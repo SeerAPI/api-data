@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力低于最大体力的1/2则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1117,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中后80%使对手诅咒，未触发则下2回合攻击有50%概率使对手疲惫",
+          "analyze_info": "[sprite name=iconHit]命中后80%使对手[color=#57c975]诅咒[/color]，[color=#52a5f2]未触发[/color]则下2回合攻击有50%概率使对手[color=#57c975]疲惫[/color]",
           "args": [
             80,
             23,
@@ -45,6 +47,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -55,6 +58,7 @@
         },
         {
           "info": "下2回合造成的攻击伤害额外提升150%",
+          "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]150%（boss有效）",
           "args": [
             2,
             150
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "65aa4670"
+  "hash": "a80df0"
 }

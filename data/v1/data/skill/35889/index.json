@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若命中前对手不处于异常状态则造成的伤害翻倍",
+      "analyze_info": "[sprite name=iconInherent]若命中前对手不处于异常状态则造成的伤害翻倍",
       "args": [],
       "effect": {
         "id": 1805,
@@ -29,6 +30,7 @@
     },
     {
       "info": "对手不处于能力下降状态则造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]对手不处于能力下降状态则造成的伤害提高100%（boss有效）",
       "args": [
         100
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "击败对手则恢复自身全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1156,
@@ -48,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "62975bf0"
+  "advance": null,
+  "hash": "9876560d"
 }

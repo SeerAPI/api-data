@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%（boss有效）",
       "args": [
         1,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "随机吸取对手2项属性-1，并将该属性附加给自己",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-1，并将该属性附加给自己（boss有效）",
       "args": [
         2,
         -1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f7affe51"
+  "advance": null,
+  "hash": "25a008eb"
 }

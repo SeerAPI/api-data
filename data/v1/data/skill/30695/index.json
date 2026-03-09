@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降效果，解除成功则下1回合先制+3",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降效果（boss有效），解除成功则下1回合[color=#52a5f2]先制[/color]+3",
       "args": [
         1,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加自身防御、特防总和25%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身防御、特防总和25%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         25
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b6fa613f"
+  "advance": null,
+  "hash": "d763f4ed"
 }

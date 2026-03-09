@@ -2,6 +2,7 @@
   "id": 1142,
   "desc": "每回合开始时解除自身能力下降状态，解除成功则当回合攻击先制+1且造成的伤害提升50%；|自身攻击技能命中后，若对手每处于一种能力提升状态则附加80点固定伤害，若对手不处于能力提升状态则有50%的概率令对手石化，未触发则下回合造成的伤害提升50%（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>解除</color>自身<b>能力下降状态</b>\r\n<indent=32><sprite=4><indent=48>解除成功则当回合攻击<b>先制</b>+1且造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后：\r\n<indent=32><sprite=4><indent=48>若对手每处于一种能力提升状态则<color=#64F9FA>附加</color>80点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则50%<color=#64F9FA>令对手石化</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则下回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -45,5 +46,6 @@
     "url": "https://api.seerapi.com/v1/soulmark/1449"
   },
   "from": null,
-  "hash": "9956b41d"
+  "advance": null,
+  "hash": "739655de"
 }

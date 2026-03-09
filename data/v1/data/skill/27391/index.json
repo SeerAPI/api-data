@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手，则免疫当回合伤害并回复1/4的最大体力值",
+      "analyze_info": "[sprite name=iconHit]若先出手，则免疫[color=#52a5f2]当回合[/color]伤害并回复1/4的最大体力值",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%概率令对手在3回合内每回合受到100点固定伤害",
+      "analyze_info": "[sprite name=iconHit]100%概率令对手在3回合内每回合受到100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         3,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fbd0835d"
+  "advance": null,
+  "hash": "c9cc17ac"
 }

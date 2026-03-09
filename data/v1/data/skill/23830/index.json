@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "恢复250点体力，若当前体力低于300则直接回满",
+      "analyze_info": "[sprite name=iconHit]恢复250点体力，若当前体力低于300则直接回满（boss有效）",
       "args": [
         250,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c29b269b"
+  "advance": null,
+  "hash": "c13df308"
 }

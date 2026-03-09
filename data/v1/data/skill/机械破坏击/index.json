@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时，额外附加150点固定伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时，额外附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             150
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时恢复100点体力",
+          "analyze_info": "[sprite name=iconHit]后出手时恢复100点体力（boss有效）",
           "args": [
             100
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1ab536a6"
+  "hash": "659d930"
 }

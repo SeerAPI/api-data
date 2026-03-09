@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下1次受到的攻击伤害减少300点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下1次受到的攻击伤害减少300点（boss有效）",
       "args": [
         1,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "每次使用则当回合造成的攻击伤害额外提升26%，最高额外提升130%",
+      "analyze_info": "[sprite name=iconHit]每次使用则[color=#52a5f2]当回合[/color]造成的攻击[color=#52a5f2]伤害额外提升[/color]26%，最高额外提升130%（boss有效）",
       "args": [
         26,
         130
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c8af9426"
+  "advance": null,
+  "hash": "38d1df2a"
 }

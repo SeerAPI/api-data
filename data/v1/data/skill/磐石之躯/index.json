@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "2回合内每回合所受的伤害减少150",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合所受的伤害减少150（boss有效）",
           "args": [
             2,
             150
@@ -46,7 +48,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "26113": {
       "id": 26113,
@@ -71,6 +74,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -81,6 +85,7 @@
         },
         {
           "info": "获得400点护盾，护盾消失时附加400点固定伤害同时使自身下1次攻击造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]获得400点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时附加400点[color=#52a5f2]固定伤害[/color]同时使自身下1次攻击造成的伤害翻倍（boss有效）",
           "args": [
             400,
             400,
@@ -93,6 +98,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则造成伤害前附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则造成伤害前附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3,
             3
@@ -104,8 +110,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "aa3007b6"
+  "hash": "581fad19"
 }

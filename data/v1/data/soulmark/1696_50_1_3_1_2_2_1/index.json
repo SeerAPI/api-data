@@ -4,6 +4,7 @@
       "id": 1344,
       "desc": "每回合50%使自身技能先制额外+1，未触发则随机吸取对手3项属性-1，并将该属性附加给自己；|自身死亡时，当回合受到的攻击伤害高于自身最大体力的1/2则令对手下回合攻击技能失效，当回合受到的攻击伤害低于自身最大体力的1/2则令对手下回合属性技能失效，当回合未受到攻击则令对手下回合所有技能失效（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>每回合50%使自身技能<b>先制</b>+1\r\n<indent=32><sprite=4><indent=48>未触发则随机<color=#64F9FA>吸取</color>对手3项能力1级\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败时：\r\n<indent=32><sprite=4><indent=48>当回合若受到的攻击伤害高于自身最大体力的1/2则令对手下回合<b>攻击技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>当回合若受到的攻击伤害低于自身最大体力的1/2则令对手下回合<b>属性技能</b><color=#64F9FA>无效</color>\r\n<indent=32><sprite=4><indent=48>当回合若未受到攻击则令对手下回合<b>所有技能</b><color=#64F9FA>无效</color>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -44,8 +45,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "be5b5856"
+  "hash": "251c0f3f"
 }

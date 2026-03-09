@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "对手选择攻击技能时此技能先制+3且100%令对手混乱",
+      "analyze_info": "[sprite name=iconComp]对手选择攻击技能时此技能[color=#52a5f2]先制[/color]+3且100%令对手[color=#57c975]混乱[/color]",
       "args": [
         100,
         10
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e19c94f3"
+  "advance": null,
+  "hash": "773c6c12"
 }

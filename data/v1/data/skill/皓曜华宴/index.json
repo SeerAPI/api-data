@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除双方能力提升、下降状态，消除任意一方成功则自身下1次攻击技能附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]消除双方能力提升、下降状态，消除任意一方成功则自身下1次攻击技能附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             1,
             3
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d5afd8a7"
+  "hash": "83cc498a"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若受到的伤害低于400则免疫伤害并造成等同于伤害量的固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害低于400则免疫伤害并造成等同于伤害量的[color=#52a5f2]固定伤害[/color]",
       "args": [
         3,
         400
@@ -42,6 +44,7 @@
     },
     {
       "info": "获得400点护盾，护盾消失时附加400点固定伤害",
+      "analyze_info": "[sprite name=iconHit]获得400点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时附加400点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         400,
         400
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "942c186e"
+  "advance": null,
+  "hash": "efaf482e"
 }

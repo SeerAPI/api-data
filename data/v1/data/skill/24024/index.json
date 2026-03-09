@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，防御+1，特攻+1，特防+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特攻+1，特防+1，命中+1（boss有效）",
       "args": [
         0,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "下3回合自身攻击技能必定命中",
+      "analyze_info": "[sprite name=iconHit]下3回合自身攻击技能[color=#52a5f2]必定命中[/color]（boss有效）",
       "args": [
         3
       ],
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e976b38"
+  "advance": null,
+  "hash": "8bfaca8"
 }

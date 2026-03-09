@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身体力低于对手时附加已损失体力值45%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]自身体力低于对手时附加已损失体力值45%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         1,
         0,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若体力高于对手，技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若体力高于对手，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [
         0
       ],
@@ -45,6 +47,7 @@
   "friend_skill_effect": [
     {
       "info": "自身体力低于对手时附加已损失体力值60%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]自身体力低于对手时附加已损失体力值60%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         1,
         0,
@@ -57,6 +60,7 @@
     },
     {
       "info": "若体力高于对手，技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若体力高于对手，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [
         0
       ],
@@ -67,5 +71,6 @@
     }
   ],
   "hide_effect": null,
-  "hash": "19f2ca1"
+  "advance": null,
+  "hash": "c06642b"
 }

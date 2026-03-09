@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "15%概率造成的攻击伤害为3倍，未触发则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]15%概率造成的攻击伤害为3倍，[color=#52a5f2]未触发[/color]则2回合内令对手使用的属性技能无效",
           "args": [
             15,
             3,
@@ -35,6 +36,7 @@
         },
         {
           "info": "造成的伤害超过300则下1回合免疫异常状态",
+          "analyze_info": "[sprite name=iconHit]造成的伤害超过300则下1回合免疫异常状态（boss有效）",
           "args": [
             300,
             1
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "21c961b4"
+  "hash": "7a46179"
 }

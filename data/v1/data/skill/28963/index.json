@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         100,
         1
@@ -42,6 +44,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特防等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-1（boss有效）",
       "args": [
         3,
         100,
@@ -54,6 +57,7 @@
     },
     {
       "info": "3回合内每回合随机恢复200-300点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合随机恢复200-300点体力（boss有效）",
       "args": [
         3,
         200,
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c5cc4b0a"
+  "advance": null,
+  "hash": "97207cd8"
 }

@@ -2,6 +2,7 @@
   "id": 1685,
   "desc": "自身受到的攻击伤害若高于300则100%令对手冰封，自身造成的攻击伤害若高于300则下次使用技能先制+3；|回合开始时若自身体力高于对手则当回合造成的攻击伤害提升100%且使用技能无视对手能力提升状态，若自身体力低于对手则当回合受到的攻击伤害减少50%且使用技能后{吸取}对手最大{体力}的1/3|（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身受到的攻击伤害若高于300则100%<color=#64F9FA>令对手冰封</color>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害若高于300则下次使用技能<b>先制</b>+3\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%且使用技能<color=#64F9FA>无视</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合受到的<b>攻击伤害</b><color=#64F9FA>减少</color>50%且使用技能后<color=#64F9FA>吸取</color>对手最大体力的1/3",
+  "analyze_desc": "[sprite name=dot4]自身受到的攻击伤害高于300时100%令对手[color=#57c975]冰封[/color]，自身造成的攻击伤害若高于300时下次[color=#52a5f2]技能先制[/color]+3|[sprite name=dot4][color=#57c975]回合开始时[/color]若自身体力高于对手则[color=#52a5f2]当回合[/color]攻击技能无视对手能力提升效果且造成的伤害提升100%，若自身体力低于对手则[color=#52a5f2]当回合[/color]受到的攻击伤害减少50%且[color=#57c975]使用技能后[/color][color=#52a5f2]吸取[/color]对手最大体力的1/3",
   "pve_effective": false,
   "intensified": false,
   "is_adv": true,
@@ -47,5 +48,9 @@
     "id": 819,
     "url": "https://api.seerapi.com/v1/soulmark/819"
   },
-  "hash": "aad2d215"
+  "advance": {
+    "id": 21,
+    "url": "https://api.seerapi.com/v1/pet_advance/21"
+  },
+  "hash": "d318145"
 }

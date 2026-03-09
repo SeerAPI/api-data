@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合所受的伤害减少120",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少120（boss有效）",
       "args": [
         3,
         120
@@ -32,6 +33,7 @@
     },
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "5回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -52,6 +55,7 @@
     },
     {
       "info": "4回合内若使用技能则恢复170点体力值",
+      "analyze_info": "[sprite name=iconHit]4回合内若使用技能则恢复170点体力值（boss有效）",
       "args": [
         4,
         170
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "78bc8fb4"
+  "advance": null,
+  "hash": "3867c7c0"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
       "args": [
         1,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升150%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]150%（boss有效）",
       "args": [
         2,
         150
@@ -47,6 +49,7 @@
     },
     {
       "info": "3回合内若受到的伤害大于250，则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于250，则恢复自身所有体力",
       "args": [
         3,
         250
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e69b5238"
+  "advance": null,
+  "hash": "6eaab618"
 }

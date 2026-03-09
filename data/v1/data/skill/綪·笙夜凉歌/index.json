@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自己出手时若自身体力高于对手则造成的伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]自己出手时若自身体力高于对手则造成的伤害提升50%（boss有效）",
           "args": [
             50
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "若自身体力低于对手则与对手互换体力",
+          "analyze_info": "[sprite name=iconHit]若自身体力低于对手则与对手互换体力",
           "args": [],
           "effect": {
             "id": 773,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c7289494"
+  "hash": "892d0987"
 }

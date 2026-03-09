@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功恢复100%的体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功恢复100%的体力（boss有效）",
           "args": [
             0,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]2回合内令对手使用的属性技能无效（boss有效）",
           "args": [
             2
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3d530a7c"
+  "hash": "9115a6a6"
 }

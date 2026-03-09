@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%令对手烧伤，未触发则1回合内自身造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则1回合内自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
       "args": [
         100,
         2,
@@ -34,6 +35,7 @@
     },
     {
       "info": "造成的伤害高于300则获得200点护盾",
+      "analyze_info": "[sprite name=iconHit]造成的伤害高于300则获得200点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         300,
         200
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "58c28016"
+  "advance": null,
+  "hash": "ef203d7e"
 }

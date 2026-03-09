@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若使用技能则恢复150点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复150点体力值（boss有效）",
       "args": [
         3,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，特攻+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+1，速度+1，命中+1（boss有效）",
       "args": [
         0,
         0,
@@ -47,6 +49,7 @@
     },
     {
       "info": "3回合内若对手使用属性技能则50%概率令对手害怕",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则50%概率令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -60,5 +63,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d459ea58"
+  "advance": null,
+  "hash": "ed77e0de"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内若受到伤害高于240则对手烧伤",
+          "analyze_info": "[sprite name=iconHit]2回合内若受到伤害高于240则对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             2,
             240,
@@ -35,8 +36,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5f01dfe3"
+  "hash": "4c828f8d"
 }

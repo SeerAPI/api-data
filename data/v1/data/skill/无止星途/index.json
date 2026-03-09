@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于超频状态时先制效果翻倍",
+          "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]超频[/color]状态时[color=#52a5f2]先制[/color]效果翻倍",
           "args": [],
           "effect": {
             "id": 2258,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则100%令对手瘫痪，未触发则恢复自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则100%令对手[color=#57c975]瘫痪[/color]，[color=#52a5f2]未触发[/color]则恢复自身最大体力的1/3",
           "args": [
             100,
             19,
@@ -43,6 +45,7 @@
         },
         {
           "info": "附加对手已损失PP值总和x25的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手已损失PP值总和x25的[color=#52a5f2]固定伤害[/color]",
           "args": [
             25
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "下1回合使用技能不受PP值限制",
+          "analyze_info": "[sprite name=iconHit]下1回合使用技能不受PP值限制",
           "args": [
             1
           ],
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6da1173"
+  "hash": "df2bd8e4"
 }

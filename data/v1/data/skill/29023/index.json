@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合使用技能则造成伤害前随机吸取对手4项能力值-1",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能则造成伤害前随机[color=#52a5f2]吸取[/color]对手4项能力值-1（boss有效）",
       "args": [
         3,
         4
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内使用技能附加200点固定伤害，若自身体力低于对手则效果翻倍",
+      "analyze_info": "[sprite name=iconHit]3回合内使用技能附加200点[color=#52a5f2]固定伤害[/color]，若自身体力低于对手则效果翻倍（boss有效）",
       "args": [
         3,
         200
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内每回合80%闪避对手攻击，未触发则使对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合80%闪避对手攻击，[color=#52a5f2]未触发[/color]则使对手随机2项技能PP值归零（boss有效）",
       "args": [
         3,
         80,
@@ -66,5 +70,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d6cf4d21"
+  "advance": {
+    "id": 10,
+    "url": "https://api.seerapi.com/v1/pet_advance/10"
+  },
+  "hash": "5b3a7c5e"
 }

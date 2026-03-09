@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则对手失明",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则对手[color=#57c975]失明[/color]",
       "args": [
         20
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "100%恢复自身所有PP值2点",
+      "analyze_info": "[sprite name=iconHit]100%恢复自身所有PP值2点（boss有效）",
       "args": [
         100,
         2
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "85dfabc4"
+  "advance": null,
+  "hash": "ed941d8f"
 }

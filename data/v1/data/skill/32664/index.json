@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手时造成的伤害提高60%",
+      "analyze_info": "[sprite name=iconHit]后出手时造成的伤害提高60%（boss有效）",
       "args": [
         60
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时60%令对手对手中毒，未触发则使自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit]后出手时60%令对手对手[color=#57c975]中毒[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         60,
         1,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dfee11ad"
+  "advance": null,
+  "hash": "498e670f"
 }

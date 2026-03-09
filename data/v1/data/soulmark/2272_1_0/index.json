@@ -4,6 +4,7 @@
       "id": 1879,
       "desc": "天启星魂计算攻击伤害时双攻值视为二者之和，天启星魂特殊攻击先制额外+1，物理攻击使用后吸取对手双防值总和30%的体力|天启星魂每次登场时进行星启：解除自身所处的异常状态，然后若自身攻击值高于特攻则为自身附加2回合星赐，若低于则改为附加星哲；天启星魂处于星赐时免疫疲惫状态，处于星哲时免疫害怕状态，均处于时免疫控制类异常状态|自身异常状态结束的当回合结束后转动星盘1刻，转动成功下回合结束后自身再次进行星启，星盘转动12个刻度后直到刻度回返至0不会再次转动，期间自身免疫对手的攻击且每回合进行一次额外行动触发覆宙星回：附加120点神秘•轮回系伤害并令星盘回返1个刻度|（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>天启星魂计算攻击伤害时<b>双攻值</b><color=#64F9FA>视为</color>二者之和\r\n<indent=16><sprite=3><indent=32>天启星魂特殊攻击<b>先制</b>额外+1，物理攻击使用后<color=#64F9FA>吸取</color>对手双防值总和30%的<b>体力</b>\r\n<indent=16><sprite=3><indent=32>天启星魂处于星赐时<color=#64F9FA>免疫<b></color>疲惫</b>状态，处于星哲时<color=#64F9FA>免疫<b></color>害怕</b>状态，均处于时<color=#64F9FA>免疫</color>受到的<b>控制类异常状态</b>\r\n\r\n<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>天启星魂每次登场时进行星启：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>解除</color>自身所处的<b>异常状态</b>，然后若自身攻击值高于特攻则为自身<color=#64F9FA>附加</color>2回合星赐，若低于则改为附加星哲\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果：\r\n<indent=16><sprite=3><indent=32>自身异常状态结束的当回合结束后转动<color=#FFF779>星盘</color>1刻，转动成功下回合结束后自身再次进行星启\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>星盘转动12个刻度后直到刻度回返至0为止不会再次转动，期间自身<color=#64F9FA>免疫</color>对手的<b>攻击</b>且每回合进行一次额外行动触发覆宙星回：<color=#64F9FA>附加</color>120点<b>神秘•轮回系伤害</b>并令星盘回返1个刻度\r\n\r\n<indent=0><sprite=5><indent=15>星盘（下场保留）：\r\n<indent=16><sprite=6><indent=32>星盘被转动时，1回合内：\r\n<indent=32><sprite=4><indent=48>自身受到的<b>攻击伤害、固定伤害、百分比伤害</b><color=#64F9FA>额外减少</color>99%\r\n<indent=32><sprite=4><indent=48>战斗阶段结束时令对手随机1项技能<b>PP值<color=#64F9FA></b>归零</color>",
+      "analyze_desc": "[sprite name=dot4]自身计算攻击伤害时双攻值视为二者之和，且特殊攻击[color=#52a5f2]技能先制[/color]额外+1，物理攻击技能使用后[color=#52a5f2]吸取[/color]对手其双防值总和30%的体力|[sprite name=dot4]天启星魂每次[color=#57c975]登场时[/color]进行[color=#f35555]星启[/color]，之后天启星魂处于[color=#57c975]星赐[/color]时免疫[color=#57c975]疲惫[/color]状态，处于[color=#57c975]星哲[/color]时免疫[color=#57c975]害怕[/color]状态，均处于时免疫控制类异常状态|[sprite name=dot4]自身异常状态结束的[color=#52a5f2]当回合[/color]结束后[color=#f35555]转动星盘[/color]1刻，转动成功下[color=#57c975]回合结束后[/color]自身再次进行[color=#f35555]星启[/color]，星盘转动12个刻度后直到刻度回返至0不会再次转动，期间自身[color=#52a5f2]免疫对手的攻击[/color]且每回合进行一次[color=#52a5f2]额外行动[/color]触发[color=#f35555]覆宙星回[/color]",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -35,8 +36,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "8309f869"
+  "hash": "6a6ce659"
 }

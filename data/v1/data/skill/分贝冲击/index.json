@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升，消除成功3回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时40%使对手害怕3回合",
+          "analyze_info": "[sprite name=iconHit]先出手时40%使对手[color=#57c975]害怕[/color]3回合（boss有效）",
           "args": [
             40,
             6,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1a027ae9"
+  "hash": "b9afafbe"
 }

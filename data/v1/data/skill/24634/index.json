@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合所受的伤害减少250",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少250（boss有效）",
       "args": [
         3,
         250
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+2（boss有效）",
       "args": [
         1,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+2（boss有效）",
       "args": [
         3,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "628b73e8"
+  "advance": null,
+  "hash": "467bd84e"
 }

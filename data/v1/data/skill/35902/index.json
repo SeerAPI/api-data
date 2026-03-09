@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%令对手感染，对手为自身天敌时概率提升30%，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]感染[/color]，对手为自身天敌时概率提升30%，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         50,
         27,
@@ -33,6 +34,7 @@
     },
     {
       "info": "随机附加200-300点固定伤害，技能无效时减少对手所有技能PP1点",
+      "analyze_info": "[sprite name=iconComp]随机附加200-300点[color=#52a5f2]固定伤害[/color]，技能无效时减少对手所有技能PP1点",
       "args": [
         200,
         300
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6056def7"
+  "advance": null,
+  "hash": "c4bdf6ab"
 }

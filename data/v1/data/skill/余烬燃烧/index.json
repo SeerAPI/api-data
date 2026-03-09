@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手处于异常状态，则威力翻倍并消除对手相应的防御能力提升效果",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则[color=#52a5f2]威力[/color]翻倍并消除对手相应的防御能力提升效果（boss有效）",
           "args": [],
           "effect": {
             "id": 188,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6b58a86c"
+  "hash": "a7b6fb56"
 }

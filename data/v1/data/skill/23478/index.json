@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消耗自身所有体力给对手造成300-400点伤害,若造成伤害大于对手体力，则对手必定留1点血",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有体力给对手造成300-400点伤害,若造成伤害大于对手体力，则对手必定留1点血（boss有效）",
       "args": [
         300,
         400
@@ -32,6 +33,7 @@
     },
     {
       "info": "100%令对手疲惫3回合",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]疲惫[/color]3回合（boss有效）",
       "args": [
         100,
         2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "896ca273"
+  "advance": null,
+  "hash": "1a112760"
 }

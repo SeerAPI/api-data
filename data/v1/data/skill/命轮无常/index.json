@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "免疫下2次自身受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]免疫下2次自身受到的异常状态",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             2,
             100
@@ -44,6 +46,7 @@
         },
         {
           "info": "4回合内对手使用攻击技能时随机附加2种异常状态，未触发则随机为对手任意技能散布1枚致命印记",
+          "analyze_info": "[sprite name=iconHit]4回合内对手使用攻击技能时随机附加2种异常状态，[color=#52a5f2]未触发[/color]则随机为对手任意技能散布1枚[color=#f35555]致命印记[/color]",
           "args": [
             4,
             2,
@@ -56,6 +59,7 @@
         },
         {
           "info": "4回合内对手使用属性技能时自身下1次受到的攻击伤害减少50%",
+          "analyze_info": "[sprite name=iconHit]4回合内对手使用属性技能时自身下1次受到的攻击伤害减少50%",
           "args": [
             4,
             1,
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fecb449"
+  "hash": "2951bd63"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "连续使用时先制+1",
+      "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
       "args": [],
       "effect": {
         "id": 1080,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+      "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
       "args": [
         1,
         1
@@ -40,6 +42,7 @@
     },
     {
       "info": "本回合打出致命一击则令对手2回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则令对手2回合属性技能无效",
       "args": [
         2
       ],
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1f8b069c"
+  "advance": null,
+  "hash": "e79d1a88"
 }

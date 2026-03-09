@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害低于300则自身特攻+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则自身特攻+1，速度+1（boss有效）",
           "args": [
             300,
             0,
@@ -39,6 +40,7 @@
         },
         {
           "info": "若打出的伤害在200至300之间则对手害怕",
+          "analyze_info": "[sprite name=iconHit]若打出的伤害在200至300之间则对手[color=#57c975]害怕[/color]",
           "args": [
             200,
             300,
@@ -51,8 +53,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c11ac14"
+  "hash": "b07e8d79"
 }

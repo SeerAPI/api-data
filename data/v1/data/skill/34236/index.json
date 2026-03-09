@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合使对方攻击伤害是正常状态下的1/2倍",
+      "analyze_info": "[sprite name=iconHit]1回合使对方攻击伤害是正常状态下的1/2倍（boss有效）",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "若造成的伤害不足200，则回合结束时对手损失200点固定体力",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害不足200，则[color=#57c975]回合结束时[/color]对手损失200点固定体力（boss有效）",
       "args": [
         200,
         200
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6be6dddb"
+  "advance": null,
+  "hash": "eaea5465"
 }

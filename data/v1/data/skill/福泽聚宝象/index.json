@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手的话威力为2倍",
+          "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [],
           "effect": {
             "id": 40,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时下回合攻击技能先制+1",
+          "analyze_info": "[sprite name=iconHit]后出手时下回合攻击技能[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "减少自身最大体力的1/2（最多减少至1）并附加减少量2/3的真实伤害，自身的蓄力层数≥8层时不减少自身体力",
+          "analyze_info": "[sprite name=iconHit]减少自身最大体力的1/2（最多减少至1）并附加减少量2/3的[color=#52a5f2]真实伤害[/color]，自身的蓄力层数≥8层时不减少自身体力",
           "args": [],
           "effect": {
             "id": 1550,
@@ -49,8 +52,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "714adbde"
+  "hash": "987acb01"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手所有护盾效果，消除成功则为自身附加等量的护盾值",
+      "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]效果，消除成功则为自身附加等量的[color=#57c975]护盾[/color]值（boss有效）",
       "args": [],
       "effect": {
         "id": 1545,
@@ -29,6 +30,7 @@
     },
     {
       "info": "造成的伤害低于300则吸取对手最大体力的1/3并为自身附加等量的护盾",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则[color=#52a5f2]吸取[/color]对手最大体力的1/3并为自身附加等量的[color=#57c975]护盾[/color]",
       "args": [
         300,
         3
@@ -40,6 +42,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则100%令对手疲惫",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则100%令对手[color=#57c975]疲惫[/color]",
       "args": [
         300,
         100,
@@ -52,6 +55,7 @@
     },
     {
       "info": "后出手时自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]后出手时自身[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "206ace35"
+  "advance": null,
+  "hash": "6a191c92"
 }

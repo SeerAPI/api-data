@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则对手冰封",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则对手[color=#57c975]冰封[/color]",
           "args": [
             15
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身处于能力提升状态时50%打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]自身处于能力提升状态时50%打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1420,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e263f124"
+  "hash": "62d78013"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时若自身体力大于对手体力，则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]攻击时若自身体力大于对手体力，则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             300
           ],
@@ -33,8 +34,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c6f0cf64"
+  "hash": "f43cb834"
 }

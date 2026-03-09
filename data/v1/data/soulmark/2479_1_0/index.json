@@ -4,6 +4,7 @@
       "id": 2058,
       "desc": "战斗开始时，自身获得1个风龙结；对手每次执行异常状态附加效果后，自身的风龙结数量+50并除以附加的概率，然后若风龙结大于500个则额外解除自身所处的异常状态|回合开始时，若自身体力高于1/2则下回合开始时反转对手的能力提升状态，反转成功则当回合受到的固定伤害、百分比伤害减少50%，反转失败则对手2回合内无法主动切换精灵|战斗阶段结束时，若自身体力低于1/2则获得50个风龙结并吸取对手500点体力，若对手未受到此伤害则令对手焚烬",
       "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]战斗开始时，自身获得1个[color=#f35555]风龙结[/color]；对手每次[color=#52a5f2]执行[/color][color=#52a5f2]异常状态附加效果[/color]后，自身的[color=#f35555]风龙结[/color]数量+50并除以附加的概率，[color=#52a5f2]然后[/color]若[color=#f35555]风龙结[/color]大于500个则额外解除自身所处的异常状态|[sprite name=dot4][color=#57c975]回合开始[/color]时，若自身体力高于1/2则下[color=#57c975]回合开始[/color]时[color=#52a5f2][color=#52a5f2]反转[/color][/color]对手的能力提升状态，[color=#52a5f2]反转[/color]成功则[color=#52a5f2]当回合[/color]受到的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]减少50%，[color=#52a5f2]未触发[/color]则对手2回合内无法[color=#52a5f2]主动切换[/color]精灵|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若自身体力低于1/2则获得50个[color=#f35555]风龙结[/color]并[color=#52a5f2]吸取[/color]对手500点体力，若对手未受到此伤害则令对手[color=#57c975]焚烬[/color]",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -35,8 +36,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "a6a70662"
+  "hash": "1a98ef50"
 }

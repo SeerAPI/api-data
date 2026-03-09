@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "后出手的话威力为2倍",
+          "analyze_info": "[sprite name=iconHit]后出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [],
           "effect": {
             "id": 30,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时，80%概率使对方感染",
+          "analyze_info": "[sprite name=iconHit]后出手时，80%概率使对方[color=#57c975]感染[/color]（boss有效）",
           "args": [
             80,
             27
@@ -42,6 +44,7 @@
         },
         {
           "info": "造成的攻击伤害若高于300则令对手1回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手1回合内使用的属性技能无效（boss有效）",
           "args": [
             300,
             1
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6a6fbc40"
+  "hash": "26aafa3d"
 }

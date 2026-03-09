@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身天赋值越高则技能威力越大",
+      "analyze_info": "[sprite name=iconHit]自身天赋值越高则技能[color=#52a5f2]威力[/color]越大（boss有效）",
       "args": [],
       "effect": {
         "id": 1470,
@@ -29,6 +30,7 @@
     },
     {
       "info": "将对手攻击和特攻中最高的能力值作为自己的能力值进行攻击",
+      "analyze_info": "[sprite name=iconInherent]将对手攻击和特攻中最高的能力值作为自己的能力值进行攻击（boss有效）",
       "args": [],
       "effect": {
         "id": 1538,
@@ -37,6 +39,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
       "args": [
         2
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "暴击率提升40%，每次使用额外提升20%，最高概率100%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升40%，每次使用额外提升20%，最高概率100%（boss有效）",
       "args": [
         40,
         20,
@@ -60,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "253f2611"
+  "advance": null,
+  "hash": "8ba3c752"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]烧伤[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手处于烧伤状态则1回合内50%令对手使用的技能无效",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态则1回合内50%令对手使用的技能无效",
       "args": [
         2,
         1,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "388eb455"
+  "advance": null,
+  "hash": "aa4687f9"
 }

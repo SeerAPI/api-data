@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "对手处于能力下降状态时随机附加1种异常状态",
+      "analyze_info": "[sprite name=iconHit]对手处于能力下降状态时随机附加1种异常状态",
       "args": [
         1
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "自身处于能力提升状态时100%打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]自身处于能力提升状态时100%打出[color=#57c975]致命一击[/color]",
       "args": [],
       "effect": {
         "id": 1639,
@@ -58,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "72d8a030"
+  "advance": null,
+  "hash": "6bfa6878"
 }

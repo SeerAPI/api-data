@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下1回合自身攻击先制+1",
+          "analyze_info": "[sprite name=iconHit]下1回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若先出手则当回合对手无法造成攻击伤害",
+          "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]对手无法造成攻击伤害",
           "args": [],
           "effect": {
             "id": 664,
@@ -42,6 +44,7 @@
         },
         {
           "info": "先出手时使对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手随机1个技能PP值归零",
           "args": [
             1
           ],
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "29c15e27"
+  "hash": "34857d5b"
 }

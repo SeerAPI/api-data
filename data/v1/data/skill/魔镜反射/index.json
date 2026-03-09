@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将所受的伤害2倍反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将所受的伤害2倍反馈给对手（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内受到攻击则对手下回合受到的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击则对手下回合受到的伤害翻倍（boss有效）",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "后出手时令对手下{0}回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下{0}回合属性技能无效",
           "args": [],
           "effect": {
             "id": 919,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7c545143"
+  "hash": "4fc299db"
 }

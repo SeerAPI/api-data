@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -48,6 +50,7 @@
         },
         {
           "info": "3回合内每回合有50%的概率免疫当回合受到的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合有50%的概率免疫[color=#52a5f2]当回合[/color]受到的攻击伤害（boss有效）",
           "args": [
             3,
             50
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "63d84c06"
+  "hash": "ca6f77d7"
 }

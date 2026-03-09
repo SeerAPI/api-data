@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手不处于能力下降状态则使对手随机4项能力值-1",
+          "analyze_info": "[sprite name=iconHit]对手不处于能力下降状态则使对手随机4项能力值-1",
           "args": [
             4,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "100%令对手睡眠，未触发则降低对手所有技能5点PP值",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则降低对手所有技能5点PP值",
           "args": [
             100,
             8,
@@ -46,6 +48,7 @@
         },
         {
           "info": "消耗自身全部体力，给对手附加消耗体力1/2等量的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，给对手附加消耗体力1/2等量的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             2
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a162693a"
+  "hash": "6a8af5d5"
 }

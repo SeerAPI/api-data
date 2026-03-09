@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸收对手的能力提升同时反转对手的能力提升",
+          "analyze_info": "[sprite name=iconHit]吸收对手的能力提升同时[color=#52a5f2]反转对手[/color]的能力提升（boss有效）",
           "args": [],
           "effect": {
             "id": 822,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若自身处于能力提升状态，则每次攻击恢复自身体力的1/4",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态，则每次攻击恢复自身体力的1/4（boss有效）",
           "args": [
             4
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "989b9992"
+  "hash": "896e52fc"
 }

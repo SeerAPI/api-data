@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%降低对手所有技能2点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "analyze_info": "[sprite name=iconHit]100%降低对手所有技能2点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
       "args": [
         100,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合攻击忽略对手25%的双防值",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手25%的双防值",
       "args": [
         2,
         25
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内若对手造成的伤害低于500则免疫该伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手造成的伤害低于500则免疫该伤害（boss有效）",
       "args": [
         3,
         500
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3aca63b3"
+  "advance": null,
+  "hash": "3e067199"
 }

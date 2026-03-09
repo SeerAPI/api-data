@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "连击5次，每次命中后连击数+1，最高连击10次",
+          "analyze_info": "[sprite name=iconHit]连击5次，每次命中后连击数+1，最高连击10次（boss有效）",
           "args": [
             5,
             1,
@@ -35,6 +36,7 @@
         },
         {
           "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
           "args": [],
           "effect": {
             "id": 811,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7ff22a86"
+  "hash": "ae512230"
 }

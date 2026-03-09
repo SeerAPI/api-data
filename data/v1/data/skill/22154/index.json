@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身特攻等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
       "args": [
         2,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "3回合内每回合都能附加50点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         50
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "39a53918"
+  "advance": null,
+  "hash": "51f1750f"
 }

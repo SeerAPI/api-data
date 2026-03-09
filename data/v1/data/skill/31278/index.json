@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 828,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若打出致命一击则对手100%概率害怕",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         100,
         6
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4bdbec2d"
+  "advance": null,
+  "hash": "35ad1e5c"
 }

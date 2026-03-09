@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中后70%令对手睡眠",
+          "analyze_info": "[sprite name=iconHit]命中后70%令对手[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             70
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "be473203"
+  "hash": "ec689dd8"
 }

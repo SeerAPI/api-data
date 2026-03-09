@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 521,
@@ -29,6 +30,7 @@
     },
     {
       "info": "100%恢复自己所有技能PP值1点",
+      "analyze_info": "[sprite name=iconHit]100%恢复自己所有技能PP值1点（boss有效）",
       "args": [
         100,
         1
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "26f5b58b"
+  "advance": null,
+  "hash": "944a3d2e"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手每处于一种能力下降状态时附加70点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每处于一种能力下降状态时附加70点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             70
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若造成的伤害不足300，则回合结束时对手损失150点固定体力",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则[color=#57c975]回合结束时[/color]对手损失150点固定体力（boss有效）",
           "args": [
             300,
             150
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "365f37e0"
+  "hash": "f8313c24"
 }

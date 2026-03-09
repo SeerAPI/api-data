@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合所受的伤害减少150",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少150（boss有效）",
           "args": [
             3,
             150
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bdc8fd15"
+  "hash": "de1a57d0"
 }

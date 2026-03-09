@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力低于最大体力的1/2则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1117,
@@ -31,6 +32,7 @@
         },
         {
           "info": "造成伤害的60%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害的60%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             60
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "82d295f4"
+  "hash": "975cf57f"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -31,6 +32,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -39,6 +41,7 @@
         },
         {
           "info": "令对方体力上限最低的存活精灵体力上限提升至与自身相等并恢复等量体力，然后此精灵所有非体力上限的能力值减少提升的数值，最多减少50点且最多减少至1",
+          "analyze_info": "[sprite name=iconHit]令对方体力上限最低的存活精灵体力上限提升至与自身相等并恢复等量体力，[color=#52a5f2]然后[/color]此精灵所有非体力上限的能力值减少提升的数值，最多减少50点且最多减少至1",
           "args": [],
           "effect": {
             "id": 2296,
@@ -47,6 +50,7 @@
         },
         {
           "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令对方场下阵亡的首位精灵[color=#57c975]消逝[/color]",
           "args": [],
           "effect": {
             "id": 2105,
@@ -55,6 +59,7 @@
         },
         {
           "info": "击败对手则对方下只出战精灵首回合先制效果失效",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只出战精灵首回合[color=#52a5f2]先制[/color]效果失效",
           "args": [],
           "effect": {
             "id": 2017,
@@ -63,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cc70c578"
+  "hash": "9204fc46"
 }

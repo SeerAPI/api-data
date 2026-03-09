@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则对手2回合内无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则对手2回合内[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加对手能力下降等级总和X30的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手能力下降等级总和X30的[color=#52a5f2]固定伤害[/color]",
           "args": [
             30
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "击败对手则令对手下回合使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下回合使用的属性技能无效",
           "args": [],
           "effect": {
             "id": 2013,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7872f4fc"
+  "hash": "7a3fb577"
 }

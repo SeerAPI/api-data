@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，攻击+2，防御+2，特攻+2，特防+2，速度+2，命中+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+2，防御+2，特攻+2，特防+2，速度+2，命中+2（boss有效）",
       "args": [
         2,
         2,
@@ -36,6 +37,7 @@
     },
     {
       "info": "为自身附加1000点护罩",
+      "analyze_info": "[sprite name=iconHit]为自身附加1000点[color=#57c975]护罩[/color]（boss有效）",
       "args": [
         1000
       ],
@@ -46,6 +48,7 @@
     },
     {
       "info": "2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -56,6 +59,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "46d6b370"
+  "advance": null,
+  "hash": "623ddd56"
 }

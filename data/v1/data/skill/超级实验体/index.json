@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             200
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "2回合内对手使用技能消耗的PP值变为2倍",
+          "analyze_info": "[sprite name=iconHit]2回合内对手使用技能消耗的PP值变为2倍（boss有效）",
           "args": [
             2,
             2
@@ -44,6 +46,7 @@
         },
         {
           "info": "下2回合若打出致命一击则必定恢复全部体力",
+          "analyze_info": "[sprite name=iconHit]下2回合若打出[color=#57c975]致命一击[/color]则必定恢复全部体力（boss有效）",
           "args": [
             2
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fbe78463"
+  "hash": "4f6f6b64"
 }

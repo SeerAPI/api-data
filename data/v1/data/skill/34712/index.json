@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下2回合对手属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
       "args": [
         2,
         -2
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6989ea60"
+  "advance": null,
+  "hash": "64df7c55"
 }

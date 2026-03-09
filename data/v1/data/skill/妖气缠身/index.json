@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内若被对手击败则对手损失500点体力，造成致命伤害时，对手剩余1点体力",
+          "analyze_info": "[sprite name=iconHit]2回合内若被对手[color=#57c975]击败[/color]则对手损失500点体力，造成致命伤害时，对手剩余1点体力（boss有效）",
           "args": [
             2,
             500
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "670ece87"
+  "hash": "43e1d0bd"
 }

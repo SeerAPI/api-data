@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合若自身未受到攻击伤害则回合结束后附加对手最大体力1/3的百分比伤害（自身体力为0时也可触发）",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合若自身未受到攻击伤害则[color=#57c975]回合结束后[/color]附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]（自身体力为0时也可触发）",
       "args": [
         3,
         3
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内若自身能力提升状态消失，则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]3回合内若自身能力提升状态消失，则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         3
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d3672785"
+  "advance": null,
+  "hash": "116b975a"
 }

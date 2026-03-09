@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身能力下降状态，若解除成功则3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，若解除成功则3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             4,
             3
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e34afb60"
+  "hash": "f7f5304d"
 }

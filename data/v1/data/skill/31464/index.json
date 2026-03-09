@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身不处于能力提升状态则造成的伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态则造成的伤害提升50%（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身处于能力提升状态时，回合结束时直接减少对手1/3最大体力",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时，[color=#57c975]回合结束时[/color]直接减少对手1/3最大体力",
       "args": [
         3
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "71a0b969"
+  "advance": null,
+  "hash": "e97db0b9"
 }

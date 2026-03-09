@@ -4,6 +4,7 @@
       "id": 2057,
       "desc": "对手pp值总和每比自身高1倍，自身造成的攻击伤害提升30%|回合开始时，若自身存在pp值相等的技能则当回合自身技能命中后恢复所有技能1点pp并吸取对手400点体力，自身pp值每恢复一点则吸取效果减少80点，若不存在pp值相等的技能则当回合必定打出致命一击|战斗阶段结束时，若自身若不存在pp值相等的技能，则使自身每个技能的pp值尽可能等于所有技能pp值的平均值，技能pp值总和每因此减少1点，下回合所有技能先制+1，最高+3|（boss无效）",
       "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]对手pp值总和每比自身高1倍，自身造成的攻击伤害提升30%|[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身存在pp值相等的技能则[color=#52a5f2]当回合[/color]自身技能命中后恢复所有技能1点pp并[color=#52a5f2]吸取[/color]对手400点体力，自身pp值每恢复一点则[color=#52a5f2]吸取[/color]效果减少80点，若不存在pp值相等的技能则[color=#52a5f2]当回合[/color]必定打出[color=#57c975]致命一击[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若自身若不存在pp值相等的技能，则使自身每个技能的pp值尽可能等于所有技能pp值的平均值，技能pp值总和每因此减少1点，下回合所有[color=#52a5f2]技能先制[/color]+1，最高+3",
       "pve_effective": true,
       "intensified": false,
       "is_adv": false,
@@ -38,8 +39,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "c2b466a6"
+  "hash": "206bef81"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手体力上限高于1000则造成的攻击伤害提升100%，对手体力上限低于1000则附加自身特攻值50%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]对手体力上限高于1000则造成的攻击伤害提升100%，对手体力上限低于1000则附加自身特攻值50%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         1000,
         100,
@@ -36,5 +37,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "71622d46"
+  "advance": null,
+  "hash": "3b89b45b"
 }

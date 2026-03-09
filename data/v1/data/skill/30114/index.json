@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时3回合内不受能力下降技能影响",
+      "analyze_info": "[sprite name=iconHit]先出手时3回合内不受能力下降技能影响（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若后出手则下1回合攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若后出手则下1回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "faf3000f"
+  "advance": null,
+  "hash": "4abf1a27"
 }

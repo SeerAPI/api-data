@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "90%令对手麻痹，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]90%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         90,
         0,
@@ -33,6 +34,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内每回合有50%的概率免疫当回合受到的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合有50%的概率免疫[color=#52a5f2]当回合[/color]受到的攻击伤害（boss有效）",
       "args": [
         3,
         50
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ff09ecaf"
+  "advance": null,
+  "hash": "6f84a03e"
 }

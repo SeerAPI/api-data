@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做4-6次攻击，对手处于异常状态时连击上限为8",
+      "analyze_info": "[sprite name=iconHit]1回合做4-6次攻击，对手处于异常状态时连击上限为8",
       "args": [
         4,
         6,
@@ -33,6 +34,7 @@
     },
     {
       "info": "后出手时使对手下1回合攻击技能MISS",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手下1回合攻击技能MISS",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a5d1e7ea"
+  "advance": null,
+  "hash": "14e97c8a"
 }

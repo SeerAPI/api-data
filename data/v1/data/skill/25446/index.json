@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
       "args": [
         3
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "获得500点护盾，护盾消失时吸取对手200点体力且令对手随机2个技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]获得500点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时[color=#52a5f2]吸取[/color]对手200点体力且令对手随机2个技能的PP值归零（boss有效）",
       "args": [
         500,
         200,
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "84e09aa8"
+  "advance": null,
+  "hash": "3e3e8fe6"
 }

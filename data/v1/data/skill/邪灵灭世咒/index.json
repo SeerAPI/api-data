@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则自身下2回合必定[color=#57c975]致命一击[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "未击败对手则50%自身全属性+1，50%对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则50%自身[color=#52a5f2]全属性[/color]+1，50%对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1,
@@ -46,6 +48,7 @@
         },
         {
           "info": "造成的伤害提升，伤害提升的倍数等于对手能力下降等级总和乘以10%",
+          "analyze_info": "[sprite name=iconHit]造成的伤害提升，伤害提升的倍数等于对手能力下降等级总和乘[color=#52a5f2]以[/color]10%（boss有效）",
           "args": [
             10
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4d49a34b"
+  "hash": "5ee2d88d"
 }

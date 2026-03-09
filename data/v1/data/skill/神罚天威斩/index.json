@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 521,
@@ -31,6 +32,7 @@
         },
         {
           "info": "遇到天敌时先制+1",
+          "analyze_info": "[sprite name=iconInherent]遇到天敌时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "附加已损失体力值100%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加[color=#52a5f2]已损失体力[/color]值100%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             100
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cc7a1595"
+  "hash": "57e6508a"
 }

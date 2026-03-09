@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做2次攻击，自身每有1项技能PP值不为满则连击次数+1",
+          "analyze_info": "[sprite name=iconHit]1回合做2次攻击，自身每有1项技能PP值不为满则连击次数+1（boss有效）",
           "args": [
             2,
             1
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2f2b8e30"
+  "hash": "99f8e9bb"
 }

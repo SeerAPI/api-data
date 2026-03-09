@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
       "args": [
         5,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "命中后50%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         50
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f285257d"
+  "advance": null,
+  "hash": "153b69ea"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身当前体力低于最大体力的1/2则令自身疲惫且免疫下1次对手的攻击",
+          "analyze_info": "[sprite name=iconHit]若自身当前体力低于最大体力的1/2则令自身[color=#57c975]疲惫[/color]且免疫下1次对手的攻击",
           "args": [
             2,
             7,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若自身当前体力高于最大体力的1/2则威力提升50%",
+          "analyze_info": "[sprite name=iconHit]若自身当前体力高于最大体力的1/2则[color=#52a5f2]威力[/color]提升50%（boss有效）",
           "args": [
             2,
             50
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "71ae7a06"
+  "hash": "8963025d"
 }

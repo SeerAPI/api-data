@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点（boss有效）",
       "args": [
         2,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "若当前HP低于对手，则技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若当前HP低于对手，则技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 132,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "60be70e3"
+  "advance": null,
+  "hash": "d6a883ae"
 }

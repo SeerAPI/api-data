@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令对手中毒",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             0,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若对手处于中毒状态则附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]中毒[/color]状态则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             1,
             200
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "387d7256"
+  "hash": "6011b8d4"
 }

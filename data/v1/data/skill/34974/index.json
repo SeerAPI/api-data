@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
       "args": [
         280
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f8cbec76"
+  "advance": null,
+  "hash": "6dd81705"
 }

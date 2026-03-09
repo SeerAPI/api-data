@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后30%令对手冰封",
+      "analyze_info": "[sprite name=iconHit]命中后30%令对手[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         30,
         15
@@ -32,6 +33,7 @@
     },
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5f1dec19"
+  "advance": null,
+  "hash": "432184f0"
 }

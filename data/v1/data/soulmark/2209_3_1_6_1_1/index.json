@@ -4,6 +4,7 @@
       "id": 1819,
       "desc": "自身出战时将己方上只精灵所处的能力状态转移给自身；回合开始时令对手随机3项能力等级-1，然后若双方所处的能力下降总项数不低于6，则消除对手回合类效果并使对手害怕，未触发则令对手沉默并解除双方能力下降状态，每解除一方自身抵挡1次对手的攻击（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身出战时将己方上只精灵<b>所处的能力状态</b><color=#64F9FA>转移</color>给自身\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时令对手随机3项能力等级-1\r\n<indent=32><sprite=4><indent=48>然后若双方所处的能力下降总项数不低于6，则<color=#64F9FA>消除</color>对手<b>回合类效果</b>并<color=#64F9FA>使对手害怕</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>令对手沉默</color>并<color=#64F9FA>解除</color>双方<b>能力下降状态</b>\r\n<indent=32><sprite=4><sprite=4><sprite=4><indent=80>每解除一方自身<color=#64F9FA>抵挡</color>1次对手的<b>攻击</b>",
+      "analyze_desc": "[sprite name=dot4]自身[color=#57c975]出战时[/color]将[color=#52a5f2]己方[/color]上只精灵所处的能力状态转移给自身|[sprite name=dot4][color=#57c975]回合开始时[/color]，令对手随机3项能力等级-1，[color=#52a5f2]然后[/color]若双方所处的能力下降总项数不低于6，则消除对手[color=#52a5f2]回合类效果[/color]并使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则令对手[color=#57c975]沉默[/color]并解除双方能力下降状态，每解除一方自身抵挡1次对手的攻击",
       "pve_effective": false,
       "intensified": false,
       "is_adv": true,
@@ -45,8 +46,12 @@
       "from": {
         "id": 497,
         "url": "https://api.seerapi.com/v1/soulmark/497"
+      },
+      "advance": {
+        "id": 19,
+        "url": "https://api.seerapi.com/v1/pet_advance/19"
       }
     }
   },
-  "hash": "fc729005"
+  "hash": "dfb94dbe"
 }

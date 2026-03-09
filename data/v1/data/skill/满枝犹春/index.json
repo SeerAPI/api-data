@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "体力低于最大体力的1/2时先制+1",
+          "analyze_info": "[sprite name=iconInherent]体力低于最大体力的1/2时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1484,
@@ -31,6 +32,7 @@
         },
         {
           "info": "80%使对手烧伤，若未触发则使对手受到相当于自身当前体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]80%使对手[color=#57c975]烧伤[/color]，若[color=#52a5f2]未触发[/color]则使对手受到相当于自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             80,
             2,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3fd4da61"
+  "hash": "7dbc83ec"
 }

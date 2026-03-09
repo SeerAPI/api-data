@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "攻击时将对手的能力提升状态视为相应的能力下降状态",
+      "analyze_info": "[sprite name=iconInherent]攻击时将对手的能力提升状态视为相应的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1767,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手处于回合类效果则造成伤害提升150%并消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#52a5f2]回合类效果[/color]则造成伤害提升150%并消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         150
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "获得200点护罩，护罩消失时100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]获得200点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时100%令对手[color=#57c975]害怕[/color]",
       "args": [
         200,
         100,
@@ -51,6 +54,7 @@
     },
     {
       "info": "附加对手最大体力1/3的百分比伤害，未击败对手则恢复自身等量体力值",
+      "analyze_info": "[sprite name=iconHit]附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]，未[color=#57c975]击败[/color]对手则恢复自身等量体力值",
       "args": [
         3
       ],
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "31a75064"
+  "advance": null,
+  "hash": "b0bca17d"
 }

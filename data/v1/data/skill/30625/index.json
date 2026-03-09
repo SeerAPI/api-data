@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "给对手造成伤害时，伤害数值的40%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的40%恢复自身体力（boss有效）",
       "args": [
         40
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "98498e4e"
+  "advance": null,
+  "hash": "25bfd825"
 }

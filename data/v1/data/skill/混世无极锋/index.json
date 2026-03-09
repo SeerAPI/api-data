@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手[color=#52a5f2]当回合[/color]内无法通过技能恢复自身体力",
           "args": [],
           "effect": {
             "id": 1247,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若未击败对手则下2回合攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e0500c0e"
+  "hash": "16b3a0c3"
 }

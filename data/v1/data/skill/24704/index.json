@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下1回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下1回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         1,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过250",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过250（boss有效）",
       "args": [
         2,
         250
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "18c3b1c"
+  "advance": null,
+  "hash": "b8542ea0"
 }

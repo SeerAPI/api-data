@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+1（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+2（boss有效）",
       "args": [
         1,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+2（boss有效）",
       "args": [
         3,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "3回合内自身能力提升状态被消除或吸取时，令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时，令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         3,
         1
@@ -68,6 +72,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -80,5 +85,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7e5f3a2"
+  "advance": null,
+  "hash": "d8fa0e31"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后30%令对手石化",
+          "analyze_info": "[sprite name=iconHit]命中后30%令对手[color=#57c975]石化[/color]（boss有效）",
           "args": [
             30
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
           "args": [],
           "effect": {
             "id": 697,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "22df9381"
+  "hash": "7752e644"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "先出手时3回合内不受能力下降技能影响",
+      "analyze_info": "[sprite name=iconHit]先出手时3回合内不受能力下降技能影响（boss有效）",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "令对手下1次使用的技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]令对手下1次使用的技能PP值归零",
       "args": [
         1
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "501adf3d"
+  "advance": null,
+  "hash": "ed1fe10a"
 }

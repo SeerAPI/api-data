@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将自身下1次受到的固定伤害、百分比伤害转化为等量护罩，最多获得300点",
+      "analyze_info": "[sprite name=iconHit]将自身下1次受到的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color][color=#52a5f2]转化[/color]为等量[color=#57c975]护罩[/color]，最多获得300点",
       "args": [
         1,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9e127b16"
+  "advance": null,
+  "hash": "4b3037d7"
 }

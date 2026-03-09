@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时恢复1/5体力",
+          "analyze_info": "[sprite name=iconHit]先出手时恢复1/5体力（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "100%随机附加烧伤，冻伤，中毒中的1种",
+          "analyze_info": "[sprite name=iconHit]100%随机附加[color=#57c975]烧伤[/color]，[color=#57c975]冻伤[/color]，[color=#57c975]中毒[/color]中的1种（boss有效）",
           "args": [
             100,
             1
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4db29735"
+  "hash": "4586976e"
 }

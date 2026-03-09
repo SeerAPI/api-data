@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害低于300则为自身附加300点护盾",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         300,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "吸取对手300点体力，若对手任意1项技能PP值小于2点则额外吸取150点体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手300点体力，若对手任意1项技能PP值小于2点则额外[color=#52a5f2]吸取[/color]150点体力",
       "args": [
         300,
         2,
@@ -44,6 +46,7 @@
     },
     {
       "info": "击败对手则对方下只精灵出战时降低所有技能3点PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color]降低所有技能3点PP值",
       "args": [
         3
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9e062ee2"
+  "advance": null,
+  "hash": "401a415b"
 }

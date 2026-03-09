@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]先出手时消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1254,
@@ -29,6 +30,7 @@
     },
     {
       "info": "吸取并反转对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]并[color=#52a5f2]反转[/color]对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 978,
@@ -37,6 +39,7 @@
     },
     {
       "info": "1回合做5-10次攻击，若本回合攻击次数达到最大则必定秒杀对手",
+      "analyze_info": "[sprite name=iconHit]1回合做5-10次攻击，若本回合攻击次数[color=#52a5f2]达到[/color]最大则必定[color=#52a5f2]秒杀[/color]对手",
       "args": [
         1,
         5,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4c769418"
+  "advance": null,
+  "hash": "79a04e43"
 }

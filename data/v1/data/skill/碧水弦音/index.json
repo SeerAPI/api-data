@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则自己的特攻+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则自己的特攻+1，速度+1",
           "args": [
             0,
             1,
@@ -40,6 +41,7 @@
         },
         {
           "info": "附加100点固定伤害，每次使用额外附加50点，最高200点，遇到天敌时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加100点[color=#52a5f2]固定伤害[/color]，每次使用额外附加50点，最高200点，遇到天敌时效果翻倍（boss有效）",
           "args": [
             100,
             50,
@@ -52,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a4cae939"
+  "hash": "4d0c76ad"
 }

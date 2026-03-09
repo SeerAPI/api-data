@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内每回合被攻击所受到的伤害不超过250",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过250（boss有效）",
           "args": [
             2,
             250
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机使自己1项能力+1",
+          "analyze_info": "[sprite name=iconHit]随机使自己1项能力+1（boss有效）",
           "args": [
             1,
             1
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "729da08a"
+  "hash": "e795b8c2"
 }

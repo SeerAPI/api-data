@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "40%使对手焚烬，若未触发则使对手受到相当于自身当前体力1/2的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]40%使对手[color=#57c975]焚烬[/color]，若[color=#52a5f2]未触发[/color]则使对手受到相当于自身当前体力1/2的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             40,
             22,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "95aee8ca"
+  "hash": "57086e7b"
 }

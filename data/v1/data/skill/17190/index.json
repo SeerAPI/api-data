@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手下次使用的攻击技能未命中则令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]若对手下次使用的攻击技能未命中则令对手[color=#57c975]睡眠[/color]",
       "args": [
         8
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
       "args": [
         5,
         100,
@@ -45,6 +47,7 @@
   "friend_skill_effect": [
     {
       "info": "若对手下次使用的攻击技能未命中则令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]若对手下次使用的攻击技能未命中则令对手[color=#57c975]睡眠[/color]",
       "args": [
         8
       ],
@@ -55,6 +58,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
       "args": [
         5,
         100,
@@ -67,5 +71,6 @@
     }
   ],
   "hide_effect": null,
-  "hash": "d2774d38"
+  "advance": null,
+  "hash": "2cb1b889"
 }

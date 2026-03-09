@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "出手时本回合若未受到攻击伤害，则附加自身特攻值50%的百分比伤害，并恢复等量体力",
+          "analyze_info": "[sprite name=iconHit]出手时本回合若未受到攻击伤害，则附加自身特攻值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
           "args": [
             2,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "若造成的伤害低于300，则所有技能的PP值恢复1点",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害低于300，则所有技能的PP值恢复1点（boss有效）",
           "args": [
             300,
             1
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "73f298ca"
+  "hash": "c7b8525c"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将对手所处的烧伤转化为焚烬",
+          "analyze_info": "[sprite name=iconHit]将对手所处的[color=#57c975]烧伤[/color][color=#52a5f2]转化[/color]为[color=#57c975]焚烬[/color]",
           "args": [
             2,
             22
@@ -34,6 +35,7 @@
         },
         {
           "info": "若对手处于能力下降状态，则威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态，则[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 431,
@@ -42,6 +44,7 @@
         },
         {
           "info": "击败对手则对方下只精灵出战时降低所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color]降低所有技能2点PP值",
           "args": [
             2
           ],
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d0d86e46"
+  "hash": "89214717"
 }

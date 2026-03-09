@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合都能附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "下回合起，每回合特攻等级+1，持续3回合",
+      "analyze_info": "[sprite name=iconHit]下回合起，每回合特攻等级+1，持续3回合（boss有效）",
       "args": [
         2,
         1,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4dd1672c"
+  "advance": null,
+  "hash": "7a1e2b0"
 }

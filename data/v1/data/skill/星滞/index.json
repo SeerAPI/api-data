@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害低于260时100%令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于260时100%令对手[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             260,
             100,
@@ -45,6 +47,7 @@
         },
         {
           "info": "造成的攻击伤害高于260则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害高于260则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             260,
             3
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6c7f19f3"
+  "hash": "d3c13874"
 }

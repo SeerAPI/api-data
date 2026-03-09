@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下1次攻击附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则下1次攻击附加300点[color=#52a5f2]固定伤害[/color]",
           "args": [
             1,
             300
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内若对手造成的伤害低于200则免疫该伤害",
+          "analyze_info": "[sprite name=iconHit]2回合内若对手造成的伤害低于200则免疫该伤害（boss有效）",
           "args": [
             2,
             200
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1315c76f"
+  "hash": "42296844"
 }

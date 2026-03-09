@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于回合类效果则造成伤害提升100%并消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#52a5f2]回合类效果[/color]则造成伤害提升100%并消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内对手恢复体力时恢复效果减少100%",
+      "analyze_info": "[sprite name=iconHit]2回合内对手恢复体力时恢复效果减少100%（boss有效）",
       "args": [
         2,
         100
@@ -42,6 +44,7 @@
     },
     {
       "info": "攻击命中后50%的概率造成2倍伤害，未触发则战斗结束后随机获得5000-10000泰坦之灵（泰坦之灵每日最多可以获得10次）",
+      "analyze_info": "[sprite name=iconHit]攻击命中后50%的概率造成2倍伤害，[color=#52a5f2]未触发[/color]则战斗结束后随机获得5000-10000泰坦之灵（泰坦之灵每日最多可[color=#52a5f2]以[/color]获得10次）",
       "args": [],
       "effect": {
         "id": 1729,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "aebbd8b0"
+  "advance": null,
+  "hash": "263b0e08"
 }

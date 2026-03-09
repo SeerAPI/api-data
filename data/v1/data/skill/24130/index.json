@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "下2回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
       "args": [
         2
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "48f4e8d9"
+  "advance": null,
+  "hash": "a7d077fa"
 }

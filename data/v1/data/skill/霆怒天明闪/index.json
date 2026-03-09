@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取并反转对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]并[color=#52a5f2]反转[/color]对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 978,
@@ -31,6 +32,7 @@
         },
         {
           "info": "己方每有一只精灵存活则恢复80点体力，每有一只精灵死亡则附加80点固定伤害",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]每有一只精灵存活则恢复80点体力，每有一只精灵死亡则附加80点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             80,
             80
@@ -42,6 +44,7 @@
         },
         {
           "info": "己方场下每死亡一只精灵则造成的攻击伤害提升20%",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]场下每死亡一只精灵则造成的攻击伤害提升20%（boss有效）",
           "args": [
             20
           ],
@@ -52,6 +55,7 @@
         },
         {
           "info": "击败对手则对方下只出战精灵首回合先制效果失效",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只出战精灵首回合[color=#52a5f2]先制[/color]效果失效",
           "args": [],
           "effect": {
             "id": 2017,
@@ -60,8 +64,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/pet_advance/8"
+      }
     }
   },
-  "hash": "5c733f50"
+  "hash": "ea54d8b7"
 }

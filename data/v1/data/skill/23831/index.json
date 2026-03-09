@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合70%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合70%闪避对手攻击（boss有效）",
       "args": [
         3,
         70
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合自身攻击先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -43,6 +45,7 @@
     },
     {
       "info": "3回合内对手造成的伤害降低30%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手造成的伤害降低30%（boss有效）",
       "args": [
         3,
         30
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "626cc5ab"
+  "advance": null,
+  "hash": "51bb7327"
 }

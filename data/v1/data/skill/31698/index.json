@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
       "args": [
         150,
         300,
@@ -34,6 +35,7 @@
     },
     {
       "info": "将自身能力下降状态反馈给对手，反馈成功则对手害怕",
+      "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]害怕[/color]",
       "args": [
         6
       ],
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c8951a51"
+  "advance": null,
+  "hash": "adf55eab"
 }

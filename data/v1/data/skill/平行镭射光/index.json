@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于能力下降状态则造成伤害的100%恢复体力",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则造成伤害的100%恢复体力（boss有效）",
           "args": [
             100
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "50%令对手疲惫，50%令自身冻伤，均未触发则为自身附加200点护盾",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]疲惫[/color]，50%令自身[color=#57c975]冻伤[/color]，均[color=#52a5f2]未触发[/color]则为自身附加200点[color=#57c975]护盾[/color]",
           "args": [
             50,
             7,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3091a9fa"
+  "hash": "335ae5f2"
 }

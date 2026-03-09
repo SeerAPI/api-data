@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时全属性+1",
+      "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时下回合受到的伤害降低250点",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合受到的伤害降低250点（boss有效）",
       "args": [
         250
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f459706b"
+  "advance": null,
+  "hash": "e2cbc33b"
 }

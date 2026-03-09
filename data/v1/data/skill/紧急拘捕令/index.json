@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "30%令对手瘫痪，未触发则降低对手所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]30%令对手[color=#57c975]瘫痪[/color]，[color=#52a5f2]未触发[/color]则降低对手所有技能2点PP值",
           "args": [
             30,
             19,
@@ -35,6 +36,7 @@
         },
         {
           "info": "造成的攻击伤害提升100%，若未击败对手则对手回合结束后其恢复最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害提升100%，若未[color=#57c975]击败[/color]对手则对手[color=#57c975]回合结束后[/color]其恢复最大体力的1/3（boss有效）",
           "args": [
             100,
             3
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7727c944"
+  "hash": "726e79c"
 }

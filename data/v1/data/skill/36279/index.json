@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于能力下降状态则100%概率冰封",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则100%概率[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         100,
         15
@@ -32,6 +33,7 @@
     },
     {
       "info": "对手不处于能力下降状态则造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]对手不处于能力下降状态则造成的伤害提高100%（boss有效）",
       "args": [
         100
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ea2e10ac"
+  "advance": null,
+  "hash": "92a4aabf"
 }

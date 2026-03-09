@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时本回合自身下次死亡时恢复全部体力并解除自身的异常状态和能力下降状态",
+          "analyze_info": "[sprite name=iconHit]先出手时本回合自身下次死亡时恢复全部体力并解除自身的异常状态和能力下降状态",
           "args": [],
           "effect": {
             "id": 1463,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时将自身能力等级返回至上一回合结束时",
+          "analyze_info": "[sprite name=iconHit]后出手时将自身能力等级返回至上一[color=#57c975]回合结束时[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 727,
@@ -39,8 +41,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d8566447"
+  "hash": "61731800"
 }

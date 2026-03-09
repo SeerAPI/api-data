@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "获得灼阳之焰",
+      "analyze_info": "[sprite name=iconHit]获得[color=#f35555]灼阳之焰[/color]",
       "args": [],
       "effect": {
         "id": 2323,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "消除对手护盾、护罩，消除成功附加消除量50%的百分比伤害，对手每有1个技能PP值不为满效果提升25%",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]，消除成功附加消除量50%的[color=#52a5f2]百分比伤害[/color]，对手每有1个技能PP值不为满效果提升25%",
       "args": [
         50,
         25
@@ -50,6 +53,7 @@
     },
     {
       "info": "随机附加给对手250-350点固定伤害，若打出致命一击则效果转变为吸取对手350-450点体力",
+      "analyze_info": "[sprite name=iconHit]随机附加给对手250-350点[color=#52a5f2]固定伤害[/color]，若打出[color=#57c975]致命一击[/color]则效果转变为[color=#52a5f2]吸取[/color]对手350-450点体力（boss有效）",
       "args": [
         250,
         350,
@@ -63,6 +67,7 @@
     },
     {
       "info": "未击败对手则恢复自身所有技能2点PP值",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复自身所有技能2点PP值",
       "args": [
         2
       ],
@@ -74,5 +79,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "63047b7e"
+  "advance": null,
+  "hash": "f6ba8160"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "恢复自身最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/3（boss有效）",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "4回合内若自身攻击技能命中则100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则100%令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         3,
         100,
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7ea04cd8"
+  "advance": null,
+  "hash": "561c4c35"
 }

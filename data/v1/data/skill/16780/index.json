@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后20%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]命中后20%令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         20
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "攻击结束时自身特攻+1",
+      "analyze_info": "[sprite name=iconHit]攻击结束时自身特攻+1（boss有效）",
       "args": [
         0,
         0,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b1ab8235"
+  "advance": null,
+  "hash": "7c7ea0e9"
 }

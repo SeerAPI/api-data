@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手[color=#52a5f2]当回合[/color]内无法通过技能恢复自身体力",
           "args": [],
           "effect": {
             "id": 1247,
@@ -31,6 +32,7 @@
         },
         {
           "info": "造成的伤害高于300则80%随机附加1种异常状态",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则80%随机附加1种异常状态",
           "args": [
             300,
             80,
@@ -43,6 +45,7 @@
         },
         {
           "info": "造成的伤害低于300则附加自身最大体力25%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             300,
             25
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b4c409d5"
+  "hash": "e6ced885"
 }

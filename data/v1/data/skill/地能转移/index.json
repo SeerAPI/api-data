@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             100,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "消耗自身全部体力，使对手受到自身最大体力1/3的百分比伤害，同时使自身下只出场精灵前2回合100%闪避对手的攻击技能",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，使对手受到自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]，同时使自身下只出场精灵前2回合100%闪避对手的攻击技能",
           "args": [
             3,
             2,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cacbaf16"
+  "hash": "a1ad90a0"
 }

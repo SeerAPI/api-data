@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于能力下降状态时附加400点固定伤害，并解除这些能力下降状态",
+          "analyze_info": "[sprite name=iconHit]自身处于能力下降状态时附加400点[color=#52a5f2]固定伤害[/color]，并解除这些能力下降状态（boss有效）",
           "args": [
             400
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "443658cb"
+  "hash": "cdb88007"
 }

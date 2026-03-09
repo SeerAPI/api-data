@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
           "args": [],
           "effect": {
             "id": 1232,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中后50%使对手冰封，未触发则对手下2回合先制-2",
+          "analyze_info": "[sprite name=iconHit]命中后50%使对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则对手下2回合[color=#52a5f2]先制[/color]-2",
           "args": [
             50,
             15,
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "428a4db6"
+  "hash": "4cb34616"
 }

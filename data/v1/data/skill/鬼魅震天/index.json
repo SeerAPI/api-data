@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身体力低于对手时造成的伤害提高50%",
+          "analyze_info": "[sprite name=iconHit]自身体力低于对手时造成的伤害提高50%",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "未击败对手则己方下1次攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则[color=#52a5f2]己方[/color]下1次攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ef5f0fe1"
+  "hash": "dbfa5e1d"
 }

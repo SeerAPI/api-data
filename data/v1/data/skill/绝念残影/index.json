@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有体力（boss有效）",
           "args": [],
           "effect": {
             "id": 485,
@@ -31,6 +32,7 @@
         },
         {
           "info": "额外附加150点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             150
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2aab1313"
+  "hash": "6ee11499"
 }

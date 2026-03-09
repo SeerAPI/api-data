@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时3回合内免疫并反弹异常状态",
+      "analyze_info": "[sprite name=iconHit]先出手时3回合内免疫并[color=#52a5f2]反弹[/color]异常状态",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
       "args": [],
       "effect": {
         "id": 1974,
@@ -39,6 +41,7 @@
     },
     {
       "info": "附加自身最大体力值25%的百分比伤害，连续使用每次增加5%，最高45%",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力值25%的[color=#52a5f2]百分比伤害[/color]，连续使用每次增加5%，最高45%（boss有效）",
       "args": [
         25,
         5,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e46850f8"
+  "advance": null,
+  "hash": "e0457b6e"
 }

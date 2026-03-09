@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "20%概率令对手害怕，连续攻击每次提高10%概率，最多提高50%",
+      "analyze_info": "[sprite name=iconHit]20%概率令对手[color=#57c975]害怕[/color]，连续攻击每次提高10%概率，最多提高50%（boss有效）",
       "args": [
         20,
         6,
@@ -34,6 +35,7 @@
     },
     {
       "info": "命中时3%的概率秒杀对方",
+      "analyze_info": "[sprite name=iconHit]命中时3%的概率[color=#52a5f2]秒杀[/color]对方（boss有效）",
       "args": [
         3
       ],
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "67a892c4"
+  "advance": null,
+  "hash": "9e93d082"
 }

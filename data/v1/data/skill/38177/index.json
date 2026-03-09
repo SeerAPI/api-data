@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则100%令对手失明",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则100%令对手[color=#57c975]失明[/color]（boss有效）",
       "args": [
         100,
         20
@@ -32,6 +33,7 @@
     },
     {
       "info": "无视对手能力提升状态，无视成功则100%令对手中毒",
+      "analyze_info": "[sprite name=iconHit]无视对手能力提升状态，无视成功则100%令对手[color=#57c975]中毒[/color]",
       "args": [
         100,
         1
@@ -43,6 +45,7 @@
     },
     {
       "info": "若对手处于异常状态则自身造成的攻击伤害额外提升70%",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]70%（boss有效）",
       "args": [
         70
       ],
@@ -53,6 +56,7 @@
     },
     {
       "info": "击败对手则1回合内令对手攻击技能无法造成伤害且命中效果失效",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则1回合内令对手攻击技能无法造成伤害且命中效果失效",
       "args": [
         1
       ],
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9550c283"
+  "advance": null,
+  "hash": "90c0bfe8"
 }

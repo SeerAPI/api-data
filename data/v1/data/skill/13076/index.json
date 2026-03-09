@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身HP小于1/3时威力为2倍",
+      "analyze_info": "[sprite name=iconHit]自身HP小于1/3时[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [
         3,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "命中后10%令对方烧伤",
+      "analyze_info": "[sprite name=iconHit]命中后10%令对方[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         10
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b27f9eda"
+  "advance": null,
+  "hash": "b89bc605"
 }

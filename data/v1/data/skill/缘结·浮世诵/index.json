@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -31,6 +32,7 @@
         },
         {
           "info": "无视护盾效果",
+          "analyze_info": "[sprite name=iconHit]无视[color=#57c975]护盾[/color]效果",
           "args": [],
           "effect": {
             "id": 1568,
@@ -39,6 +41,7 @@
         },
         {
           "info": "对手持有失体时造成伤害提升100%，否则为对手附加3回合的失体并令对手害怕",
+          "analyze_info": "[sprite name=iconHit]对手持有[color=#f35555]失体[/color]时造成伤害提升100%，否则为对手附加3回合的[color=#f35555]失体[/color]并令对手[color=#57c975]害怕[/color]",
           "args": [],
           "effect": {
             "id": 2132,
@@ -47,6 +50,7 @@
         },
         {
           "info": "自身持有回体时先制+1，否则为自身附加3回合的回体并令对手疲惫",
+          "analyze_info": "[sprite name=iconComp]自身持有[color=#f35555]回体[/color]时[color=#52a5f2]先制[/color]+1，否则为自身附加3回合的[color=#f35555]回体[/color]并令对手[color=#57c975]疲惫[/color]",
           "args": [],
           "effect": {
             "id": 2133,
@@ -55,6 +59,7 @@
         },
         {
           "info": "吸取对手200点固定体力，每次使用额外附加100点，最高400点",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点固定体力，每次使用额外附加100点，最高400点（boss有效）",
           "args": [
             200,
             100,
@@ -67,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c4c05fd6"
+  "hash": "26987c2f"
 }

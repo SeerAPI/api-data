@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合70%闪避对手攻击，未触发则回合结束时100%令对手失明",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合70%闪避对手攻击，[color=#52a5f2]未触发[/color]则[color=#57c975]回合结束时[/color]100%令对手[color=#57c975]失明[/color]",
           "args": [
             3,
             70,
@@ -46,6 +48,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -57,8 +60,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "df15850e"
+  "hash": "c862363a"
 }

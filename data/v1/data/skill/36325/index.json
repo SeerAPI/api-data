@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合做5~10次攻击",
+      "analyze_info": "1回合做5~10次攻击",
       "args": [
         5,
         10
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "96ebaab6"
+  "advance": null,
+  "hash": "d27baeae"
 }

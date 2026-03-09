@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身HP小于1/4时威力为2倍",
+          "analyze_info": "[sprite name=iconHit]自身HP小于1/4时[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [
             4,
             2
@@ -34,7 +35,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "34649": {
       "id": 34649,
@@ -59,6 +61,7 @@
       "skill_effect": [
         {
           "info": "若先出手则当回合对手无法造成攻击伤害",
+          "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]对手无法造成攻击伤害",
           "args": [],
           "effect": {
             "id": 664,
@@ -67,6 +70,7 @@
         },
         {
           "info": "3回合后对对手造成500点固定伤害 重复使用无法叠加",
+          "analyze_info": "[sprite name=iconHit]3回合后对对手造成500点[color=#52a5f2]固定伤害[/color] 重复使用无法叠加（boss有效）",
           "args": [
             3,
             500
@@ -78,8 +82,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "63eccedb"
+  "hash": "c10a77f9"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下1回合对手攻击技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下1回合对手攻击技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "令对手全属性-1，未触发则对方下只精灵登场时100%混乱、束缚",
+      "analyze_info": "[sprite name=iconHit]令对手[color=#52a5f2]全属性[/color]-1，[color=#52a5f2]未触发[/color]则对方下只精灵[color=#52a5f2]登场[/color]时100%[color=#57c975]混乱[/color]、[color=#57c975]束缚[/color]",
       "args": [
         1,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "下次击败对手时，令对方下只出战精灵麻痹",
+      "analyze_info": "[sprite name=iconHit]下次[color=#57c975]击败[/color]对手时，令对方下只出战精灵[color=#57c975]麻痹[/color]",
       "args": [
         0
       ],
@@ -54,6 +57,7 @@
     },
     {
       "info": "2回合内每回合恢复自身已损失体力的60%",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的60%（boss有效）",
       "args": [
         2,
         60
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "50222a4"
+  "advance": null,
+  "hash": "fe6a4c6c"
 }

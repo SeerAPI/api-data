@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "获得点数等同于双方最大体力差值的护盾，最高200点，护盾被击破时自身下1次使用的攻击技能附加与双方最大体力差护盾值相同的威力",
+          "analyze_info": "[sprite name=iconHit]获得点数等同于双方最大体力差值的[color=#57c975]护盾[/color]，最高200点，[color=#57c975]护盾[/color]被击破时自身下1次使用的攻击技能附加与双方最大体力差[color=#57c975]护盾[/color]值相同的[color=#52a5f2]威力[/color]",
           "args": [
             200,
             1
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b93ac064"
+  "hash": "56327f6a"
 }

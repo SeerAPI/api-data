@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "额外附加240点固定伤害",
+      "analyze_info": "[sprite name=iconHit]额外附加240点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         240
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成伤害的100%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成伤害的100%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         100
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3dfb53b7"
+  "advance": null,
+  "hash": "61a19241"
 }

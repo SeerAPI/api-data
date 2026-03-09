@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则恢复自身全部体力",
           "args": [],
           "effect": {
             "id": 945,
@@ -41,6 +43,7 @@
         },
         {
           "info": "命中后获得1层自然祝福，若造成的伤害高于250则额外获得1层自然祝福",
+          "analyze_info": "[sprite name=iconHit]命中后获得1层[color=#f35555]自然祝福[/color]，若造成的伤害高于250则额外获得1层[color=#f35555]自然祝福[/color]（boss有效）",
           "args": [
             1,
             250,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7a93a31a"
+  "hash": "237eb7a"
 }

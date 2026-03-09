@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "未击败对手则使自身下2回合受到的伤害减少200点",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则使自身下2回合受到的伤害减少200点（boss有效）",
           "args": [
             2,
             200
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b56f43d5"
+  "hash": "52ddb60e"
 }

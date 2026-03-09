@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "随机吸取对手200-300点体力，若自身处于能力提升状态则效果转变为300-400点",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手200-300点体力，若自身处于能力提升状态则效果转变为300-400点（boss有效）",
           "args": [
             200,
             300,
@@ -46,6 +48,7 @@
         },
         {
           "info": "未击败对手则恢复自身所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复自身所有技能2点PP值",
           "args": [
             2
           ],
@@ -56,6 +59,7 @@
         },
         {
           "info": "击败对手则令自身2回合内的能力提升状态无法被消除或吸取",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令自身2回合内的能力提升状态无法被消除或[color=#52a5f2]吸取[/color]",
           "args": [
             2
           ],
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "44f1e2c6"
+  "hash": "632234ed"
 }

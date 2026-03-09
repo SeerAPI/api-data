@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手使用技能消耗的PP值变为2倍",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为2倍（boss有效）",
           "args": [
             3,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8dad78b9"
+  "hash": "c9db25e3"
 }

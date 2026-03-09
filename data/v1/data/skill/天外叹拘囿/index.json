@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于护盾状态下先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护盾[/color]状态下[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1487,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手每存在200点护盾则造成的攻击伤害提升1倍",
+          "analyze_info": "[sprite name=iconHit]对手每存在200点[color=#57c975]护盾[/color]则造成的攻击伤害提升1倍",
           "args": [
             200,
             1
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e8d90e4d"
+  "hash": "897180f7"
 }

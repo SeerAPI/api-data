@@ -2,6 +2,7 @@
   "id": 1635,
   "desc": "战斗阶段结束时消除双方能力提升状态，每消除成功1项则附加给对手60点固定伤害，若对手不处于能力提升状态则令对手攻击-2、特攻-2，未触发则为自身附加400点护盾（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48><color=#64F9FA>消除</color>双方<b>能力提升状态</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>每消除成功1项则<color=#64F9FA>附加</color>60点<b>固定伤害</b>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则令对手攻击-2、特攻-2，未触发则<color=#64F9FA>获得</color>400点<b>护盾</b>",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +42,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "34c443b3"
+  "advance": null,
+  "hash": "6f9a417c"
 }

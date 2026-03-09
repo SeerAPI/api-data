@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "损失自身150点体力，给对手造成300点固定伤害，若自身体力不足150则损失全部体力且造成的固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]损失自身150点体力，给对手造成300点[color=#52a5f2]固定伤害[/color]，若自身体力不足150则损失全部体力且造成的[color=#52a5f2]固定伤害[/color]翻倍",
       "args": [
         150,
         300,
@@ -33,6 +34,7 @@
     },
     {
       "info": "100%令对手中毒，若对手已处于中毒状态则将此状态刷新至3回合",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]中毒[/color]，若对手已处于[color=#57c975]中毒[/color]状态则将此状态刷新至3回合",
       "args": [
         100,
         1,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a72eba4a"
+  "advance": null,
+  "hash": "613b6117"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机吸取对手2项属性-1，并将该属性附加给自己，每次使用增加1项，最高4项",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-1，并将该属性附加给自己，每次使用增加1项，最高4项",
       "args": [
         2,
         1,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8444a52"
+  "advance": null,
+  "hash": "15da2892"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 180,
@@ -39,6 +41,7 @@
         },
         {
           "info": "消除对手护盾、护罩类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]类效果",
           "args": [],
           "effect": {
             "id": 1989,
@@ -47,6 +50,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [
             0
           ],
@@ -57,8 +61,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e0d09dc7"
+  "hash": "a2b8321f"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除敌我双方能力提升状态和回合类效果，消除任意一项成功则吸取对手最大体力的1/3且100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除敌我双方能力提升状态和[color=#52a5f2]回合类效果[/color]，消除任意一项成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3且100%令对手[color=#57c975]烧伤[/color]",
       "args": [
         3,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         2,
         100
@@ -44,6 +46,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "69afdd29"
+  "advance": null,
+  "hash": "cae4a739"
 }

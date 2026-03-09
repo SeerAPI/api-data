@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合恢复自身已损失体力的50%",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
           "args": [
             3,
             50
@@ -44,6 +46,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -56,6 +59,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e295f6b4"
+  "hash": "412d9f4c"
 }

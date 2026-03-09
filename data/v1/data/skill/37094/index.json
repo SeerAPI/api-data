@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若己方场下处于未来链接的精灵中存在精灵系别与对手相同，则该系别的精灵每有1级未来链接克制倍数提升0.5",
+      "analyze_info": "[sprite name=iconInherent]若[color=#52a5f2]己方[/color]场下处于[color=#f35555]未来链接[/color]的精灵中存在精灵系别与对手相同，则该系别的精灵每有1级[color=#f35555]未来链接[/color]克制倍数提升0.5（boss有效）",
       "args": [],
       "effect": {
         "id": 2110,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身每有1项非第五技能PP值不满附加150点固定伤害，对手免疫固定伤害时额外附加200点真实伤害",
+      "analyze_info": "[sprite name=iconHit]自身每有1项非第五技能PP值不满附加150点[color=#52a5f2]固定伤害[/color]，对手免疫[color=#52a5f2]固定伤害[/color]时额外附加200点[color=#52a5f2]真实伤害[/color]",
       "args": [
         150
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "3回合内对手恢复体力时恢复效果减少100%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少100%（boss有效）",
       "args": [
         3,
         100
@@ -50,6 +53,7 @@
     },
     {
       "info": "未击败对手则恢复自身所有技能5点PP值",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复自身所有技能5点PP值",
       "args": [
         5
       ],
@@ -61,5 +65,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e3e80e2"
+  "advance": null,
+  "hash": "a7909bbb"
 }

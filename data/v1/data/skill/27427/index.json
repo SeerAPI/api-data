@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
       "args": [
         1,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
       "args": [
         3,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -67,6 +71,7 @@
     },
     {
       "info": "下3回合，每回合攻击技能造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]下3回合，每回合攻击技能造成的伤害不少于280（boss有效）",
       "args": [
         3,
         280
@@ -78,6 +83,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -90,5 +96,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "49518cda"
+  "advance": null,
+  "hash": "fdd79aad"
 }

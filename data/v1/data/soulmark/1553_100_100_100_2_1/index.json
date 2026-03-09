@@ -4,6 +4,7 @@
       "id": 1218,
       "desc": "回合开始时若对手处于能力提升状态则消除对手能力提升状态，消除成功则100%令对手烧伤；|回合开始时若对手不处于能力提升状态则当回合自身攻击技能100%打出致命一击；|战斗阶段结束时若双方任意一方处于异常状态则100%降低对手所有技能2点PP值|（清PP效果自身体力为0时也可触发，所有特效boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若对手处于能力提升状态则<color=#64F9FA>消除</color>对手<b>能力提升状态</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>消除成功则100%<color=#64F9FA>令对手烧伤</color>\r\n<indent=32><sprite=4><indent=48>若对手不处于能力提升状态则当回合自身攻击100%<color=#64F9FA>打出致命一击</color>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时，敌我双方任意一方处于异常状态则100%令对手所有技能<b>PP值</b>-2",
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若对手不处于能力提升状态则[color=#52a5f2]当回合[/color]自身攻击技能必定打出[color=#57c975]致命一击[/color]，若对手处于能力提升状态则消除对手能力提升状态，消除成功则令对手[color=#57c975]烧伤[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若双方任意一方处于异常状态则减少对手所有技能2点PP值",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -45,8 +46,9 @@
         "id": 1730,
         "url": "https://api.seerapi.com/v1/soulmark/1730"
       },
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "81cf2f41"
+  "hash": "56706f30"
 }

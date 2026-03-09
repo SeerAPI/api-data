@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将能力下降状态反馈给对手",
+          "analyze_info": "[sprite name=iconHit]将能力下降状态反馈给对手（boss有效）",
           "args": [],
           "effect": {
             "id": 63,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手为自身天敌时造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]对手为自身天敌时造成的伤害翻倍（boss有效）",
           "args": [],
           "effect": {
             "id": 567,
@@ -39,8 +41,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a1464137"
+  "hash": "788b5f7"
 }

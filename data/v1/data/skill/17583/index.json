@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后50%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手体力不足250则直接秒杀",
+      "analyze_info": "[sprite name=iconHit]若对手体力不足250则直接[color=#52a5f2]秒杀[/color]（boss有效）",
       "args": [
         250
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3d1874fa"
+  "advance": null,
+  "hash": "ef44902b"
 }

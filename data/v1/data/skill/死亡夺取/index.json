@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "30%概率令对手害怕，若对手处于能力提升状态则额外附加20%概率",
+          "analyze_info": "[sprite name=iconHit]30%概率令对手[color=#57c975]害怕[/color]，若对手处于能力提升状态则额外附加20%概率（boss有效）",
           "args": [
             30,
             20
@@ -34,6 +35,7 @@
         },
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "84ebef79"
+  "hash": "4a718d7e"
 }

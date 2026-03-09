@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手烧伤，则对对方造成伤害的40%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]烧伤[/color]，则对对方造成伤害的40%恢复自身体力（boss有效）",
       "args": [
         2,
         40
@@ -32,6 +33,7 @@
     },
     {
       "info": "后出手时，100%使自身攻击提升1个等级",
+      "analyze_info": "[sprite name=iconHit]后出手时，100%使自身攻击提升1个等级（boss有效）",
       "args": [
         0,
         100,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4e4ab142"
+  "advance": null,
+  "hash": "51e3faff"
 }

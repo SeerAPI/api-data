@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则必定打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1395,
@@ -29,6 +30,7 @@
     },
     {
       "info": "给对手造成伤害时，伤害数值的50%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的50%恢复自身体力（boss有效）",
       "args": [
         50
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "造成的伤害高于300则100%令对手焚烬，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]造成的伤害高于300则100%令对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [
         300,
         100,
@@ -51,6 +54,7 @@
     },
     {
       "info": "若造成的伤害低于300，则下2回合每回合造成300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害低于300，则下2回合每回合造成300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         300,
         2,
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3c07e9b3"
+  "advance": null,
+  "hash": "588669e4"
 }

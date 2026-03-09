@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -59,7 +62,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "32348": {
       "id": 32348,
@@ -84,6 +88,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -94,6 +99,7 @@
         },
         {
           "info": "造成的攻击伤害若高于280则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于280则令对手2回合内使用的属性技能无效（boss有效）",
           "args": [
             280,
             2
@@ -105,8 +111,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "14708d16"
+  "hash": "b3e906b9"
 }

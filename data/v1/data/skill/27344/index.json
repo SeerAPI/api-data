@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合内每回合50%对手属性技能无效，未触发则下1次受到的攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合50%对手属性技能无效，[color=#52a5f2]未触发[/color]则下1次受到的攻击伤害减少50%（boss有效）",
       "args": [
         3,
         50,
@@ -54,6 +57,7 @@
     },
     {
       "info": "下1次受到的固定伤害和百分比伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]下1次受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少50%",
       "args": [
         1,
         50
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "942bf97"
+  "advance": null,
+  "hash": "8a535941"
 }

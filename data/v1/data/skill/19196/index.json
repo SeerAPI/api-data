@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功恢复100%的体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功恢复100%的体力（boss有效）",
       "args": [
         0,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "10900ea8"
+  "advance": null,
+  "hash": "ce9bc9f9"
 }

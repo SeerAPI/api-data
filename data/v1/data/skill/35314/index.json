@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中时，20%概率令对手混乱",
+      "analyze_info": "[sprite name=iconHit]命中时，20%概率令对手[color=#57c975]混乱[/color]",
       "args": [
         20
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手处于烧伤状态则附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         2,
         200
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "561c2065"
+  "advance": null,
+  "hash": "8a412b83"
 }

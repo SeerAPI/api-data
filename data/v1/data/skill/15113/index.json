@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，20%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，20%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         20,
@@ -33,6 +34,7 @@
     },
     {
       "info": "命中后20%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]命中后20%令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         20
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5ac60168"
+  "advance": null,
+  "hash": "c690fdc2"
 }

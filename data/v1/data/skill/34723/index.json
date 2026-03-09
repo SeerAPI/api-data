@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时使对手2回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]先出手时使对手2回合属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "后出手时下回合所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "涵双1回合释放4-8张玫瑰卡牌进行攻击，每张卡牌额外附加50点固定伤害，自身体力低于最大体力的1/3时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]涵双1回合释放4-8张玫瑰卡牌进行攻击，每张卡牌额外附加50点[color=#52a5f2]固定伤害[/color]，自身体力低于最大体力的1/3时效果翻倍",
       "args": [],
       "effect": {
         "id": 1636,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6a3c9d06"
+  "advance": null,
+  "hash": "a791d92d"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时使对手下1回合攻击技能MISS",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手下1回合攻击技能MISS",
       "args": [
         1
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2f9c8b20"
+  "advance": null,
+  "hash": "c100514c"
 }

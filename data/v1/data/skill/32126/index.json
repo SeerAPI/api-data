@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "体力低于1/3时威力3倍",
+      "analyze_info": "[sprite name=iconHit]体力低于1/3时[color=#52a5f2]威力[/color]3倍（boss有效）",
       "args": [
         3,
         3
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a1a8a9bf"
+  "advance": null,
+  "hash": "c269db8"
 }

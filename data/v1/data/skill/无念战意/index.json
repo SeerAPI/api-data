@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合所受的伤害减少180点",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少180点（boss有效）",
           "args": [
             3,
             180
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内每回合使用技能恢复自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能恢复自身最大体力的1/3（boss有效）",
           "args": [
             3,
             3
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "17d93628"
+  "hash": "5624cb46"
 }

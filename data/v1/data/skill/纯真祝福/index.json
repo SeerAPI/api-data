@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             2
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -54,6 +57,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能则对手的防御-1，特防-1，命中-1",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则对手的防御-1，特防-1，命中-1（boss有效）",
           "args": [
             3,
             0,
@@ -72,8 +76,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2e26c98e"
+  "hash": "365bb7f4"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手处于能力下降状态时先制+2",
+      "analyze_info": "[sprite name=iconInherent]对手处于能力下降状态时[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [],
       "effect": {
         "id": 1848,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -49,6 +52,7 @@
     },
     {
       "info": "若对手处于能力下降状态则100%概率疲惫",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则100%概率[color=#57c975]疲惫[/color]（boss有效）",
       "args": [
         100,
         7
@@ -60,6 +64,7 @@
     },
     {
       "info": "4回合内对手的能力下降状态无法被解除或反转",
+      "analyze_info": "[sprite name=iconHit]4回合内对手的能力下降状态无法被解除或反转",
       "args": [
         4
       ],
@@ -70,6 +75,7 @@
     },
     {
       "info": "100%使对手全属性-1，3回合内每回合对手攻击-1，特攻-1，速度-1",
+      "analyze_info": "[sprite name=iconHit]100%使对手[color=#52a5f2]全属性[/color]-1，3回合内每回合对手攻击-1，特攻-1，速度-1",
       "args": [
         100,
         3,
@@ -88,5 +94,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "10e1aec0"
+  "advance": null,
+  "hash": "c627c1f6"
 }

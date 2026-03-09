@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若造成的伤害低于300，则所有技能的PP值恢复1点",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害低于300，则所有技能的PP值恢复1点（boss有效）",
           "args": [
             300,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若造成的伤害高于300，则恢复自身1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害高于300，则恢复自身1/3最大体力（boss有效）",
           "args": [
             300,
             3
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4a23da51"
+  "hash": "2ad2ba49"
 }

@@ -2,6 +2,7 @@
   "id": 1682,
   "desc": "回合开始时自身速度等级+1，然后若自身速度等级高于对手，则本回合使用技能后附加对手最大体力1/3的百分比伤害；自身处于能力提升状态时攻击技能50%打出致命一击（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>每回合开始时自身速度等级+1\r\n<indent=32><sprite=4><indent=48>然后若自身速度等级高于对手，则本回合使用技能后<color=#64F9FA>附加</color>对手最大体力的1/3的<b>百分比伤害</b>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身处于能力提升状态时攻击技能50%<color=#64F9FA>打出致命一击</color>",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -40,5 +41,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "f4bf7d44"
+  "advance": null,
+  "hash": "3bf76603"
 }

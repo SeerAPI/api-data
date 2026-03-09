@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "25%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+      "analyze_info": "[sprite name=iconHit]25%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
       "args": [
         25,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "随机吸取对手150-250点体力，若自身处于能力提升状态则效果转变为200-300点",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手150-250点体力，若自身处于能力提升状态则效果转变为200-300点（boss有效）",
       "args": [
         150,
         250,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "bbc3963f"
+  "advance": null,
+  "hash": "31fdfbf6"
 }

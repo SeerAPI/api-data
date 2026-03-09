@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%给予对手冻伤、中毒、烧伤中任意一种异常状态",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%给予对手[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]烧伤[/color]中任意一种异常状态（boss有效）",
           "args": [
             100,
             38,
@@ -37,8 +38,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dd1ecae2"
+  "hash": "d3743a51"
 }

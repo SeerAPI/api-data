@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吞噬对手的能力提升效果并双倍转移到自己身上",
+          "analyze_info": "[sprite name=iconHit]吞噬对手的能力提升效果并双倍转移到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 569,
@@ -31,6 +32,7 @@
         },
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b010c67a"
+  "hash": "b74fa0ca"
 }

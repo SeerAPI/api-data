@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则附加220点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则附加220点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         0,
         220
@@ -32,6 +33,7 @@
     },
     {
       "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
       "args": [],
       "effect": {
         "id": 444,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ed4f701d"
+  "advance": null,
+  "hash": "844c2537"
 }

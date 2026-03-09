@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "3回合内每回合防御+1，特防+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合防御+1，特防+1（boss有效）",
           "args": [
             3,
             0,
@@ -54,6 +56,7 @@
         },
         {
           "info": "3回合内若受到攻击则自身防御+1 特防+1",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则自身防御+1 特防+1（boss有效）",
           "args": [
             3
           ],
@@ -64,6 +67,7 @@
         },
         {
           "info": "3回合内每回合恢复自身已损失体力的50%",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
           "args": [
             3,
             50
@@ -75,6 +79,7 @@
         },
         {
           "info": "3回合内对手恢复体力时恢复效果减少50%",
+          "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少50%（boss有效）",
           "args": [
             3,
             50
@@ -86,8 +91,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5502d3fd"
+  "hash": "b4c69a46"
 }

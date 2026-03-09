@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身当前体力高于对手时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身当前体力高于对手时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "获得点数等同于双方最大体力差值的护盾，最高200点，护盾被击破时自身下1次使用的攻击技能附加与双方最大体力差护盾值相同的威力",
+      "analyze_info": "[sprite name=iconHit]获得点数等同于双方最大体力差值的[color=#57c975]护盾[/color]，最高200点，[color=#57c975]护盾[/color]被击破时自身下1次使用的攻击技能附加与双方最大体力差[color=#57c975]护盾[/color]值相同的[color=#52a5f2]威力[/color]",
       "args": [
         200,
         1
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         2,
         50
@@ -53,6 +56,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3c3486da"
+  "advance": null,
+  "hash": "b108c4c8"
 }

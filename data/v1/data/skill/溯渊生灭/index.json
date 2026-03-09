@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于异常状态则造成的攻击伤害额外提升50%且回合结束后解除自身所有异常状态",
+          "analyze_info": "[sprite name=iconHit]若自身处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%且[color=#57c975]回合结束后[/color]解除自身所有异常状态（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若上回合自身未受到攻击伤害则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若上回合自身未受到攻击伤害则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "未击败对手则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c050d930"
+  "hash": "8b0ef9a0"
 }

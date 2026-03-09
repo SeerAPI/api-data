@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内受到攻击则50%令对手随机2个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]4回合内受到攻击则50%令对手随机2个技能PP值归零",
           "args": [
             4,
             50,
@@ -45,6 +47,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [],
           "effect": {
             "id": 980,
@@ -53,6 +56,7 @@
         },
         {
           "info": "后出手时使对手冻伤，未触发则附加自身当前体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]后出手时使对手[color=#57c975]冻伤[/color]，[color=#52a5f2]未触发[/color]则附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             5,
             3
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c7d8d6d1"
+  "hash": "a7f5bb1"
 }

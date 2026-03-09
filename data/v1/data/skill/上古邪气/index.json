@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内若使用技能则恢复100点体力值",
+          "analyze_info": "[sprite name=iconHit]4回合内若使用技能则恢复100点体力值（boss有效）",
           "args": [
             4,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "命中后60%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后60%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             60
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "138cc75b"
+  "hash": "6e21fec5"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，若消除成功则自身防御+2，特防+2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除成功则自身防御+2，特防+2（boss有效）",
           "args": [
             0,
             2,
@@ -38,6 +39,7 @@
         },
         {
           "info": "解除自身能力下降状态，解除成功则自身下1回合受到的伤害减少300点",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则自身下1回合受到的伤害减少300点（boss有效）",
           "args": [
             1,
             300
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e09d8922"
+  "hash": "ea7dd0fc"
 }

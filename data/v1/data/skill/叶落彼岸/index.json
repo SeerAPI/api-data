@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
           "args": [
             2,
             -2
@@ -34,6 +35,7 @@
         },
         {
           "info": "为自身附加400点护罩",
+          "analyze_info": "[sprite name=iconHit]为自身附加400点[color=#57c975]护罩[/color]（boss有效）",
           "args": [
             400
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "729ed0"
+  "hash": "6e7e2cd7"
 }

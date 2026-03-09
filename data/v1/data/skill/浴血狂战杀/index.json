@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则对手焚烬",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手[color=#57c975]焚烬[/color]",
           "args": [
             22
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身体力低于200时必定先手",
+          "analyze_info": "[sprite name=iconInherent]自身体力低于200时必定先手（boss有效）",
           "args": [],
           "effect": {
             "id": 1251,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f26640ed"
+  "hash": "27b943d3"
 }

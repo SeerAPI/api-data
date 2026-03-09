@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击结束时自身攻击+1，特攻+1",
+          "analyze_info": "[sprite name=iconHit]攻击结束时自身攻击+1，特攻+1（boss有效）",
           "args": [
             1,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 180,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8a39cbe1"
+  "hash": "21920046"
 }

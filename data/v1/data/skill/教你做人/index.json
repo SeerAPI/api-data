@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内若对手使用攻击技能则50%使对手疲惫",
+          "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则50%使对手[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             2,
             50,
@@ -35,8 +36,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e6622d62"
+  "hash": "e6a0da29"
 }

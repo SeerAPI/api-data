@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若造成的伤害大于300点，则自身恢复200点生命值",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害大于300点，则自身恢复200点生命值（boss有效）",
       "args": [
         300,
         200
@@ -32,6 +33,7 @@
     },
     {
       "info": "若造成的伤害不足300，则自身攻击等级+1",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则自身攻击等级+1（boss有效）",
       "args": [
         300,
         0,
@@ -44,6 +46,7 @@
     },
     {
       "info": "命中后20%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]命中后20%令对手[color=#57c975]睡眠[/color]（boss有效）",
       "args": [
         20
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "30cf6be"
+  "advance": null,
+  "hash": "a6b00980"
 }

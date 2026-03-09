@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "每次命中对手后此技能威力下降40点",
+          "analyze_info": "[sprite name=iconHit]每次命中对手后此技能[color=#52a5f2]威力[/color]下降40点（boss有效）",
           "args": [
             40
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
           "args": [],
           "effect": {
             "id": 811,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2abab9e4"
+  "hash": "6bd65727"
 }

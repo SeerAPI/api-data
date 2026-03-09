@@ -2,6 +2,7 @@
   "id": 1585,
   "desc": "自身攻击命中后若造成的伤害高于300则100%令对手冻伤，未触发则附加对手最大体力1/3的百分比伤害，自身攻击命中后若造成的伤害低于300则50%令对手冰封，未触发则自身特攻+2、速度+2（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击技能命中后：\r\n<indent=32><sprite=4><indent=48>若造成的伤害高于300则100%<color=#64F9FA>令对手冻伤</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若造成的伤害低于300则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>未触发则自身特攻+2、速度+2",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -44,5 +45,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "63362164"
+  "advance": null,
+  "hash": "df5f10fb"
 }

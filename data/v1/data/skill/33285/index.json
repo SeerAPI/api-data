@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取并反转对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]并[color=#52a5f2]反转[/color]对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 978,
@@ -29,6 +30,7 @@
     },
     {
       "info": "25%概率伤害为2倍，未触发则附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]25%概率伤害为2倍，[color=#52a5f2]未触发[/color]则附加200点[color=#52a5f2]固定伤害[/color]",
       "args": [
         25,
         2,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c68c8120"
+  "advance": null,
+  "hash": "afc5cfec"
 }

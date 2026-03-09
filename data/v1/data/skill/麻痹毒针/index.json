@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后，50%令对方麻痹，50%令对方中毒",
+          "analyze_info": "[sprite name=iconHit]命中后，50%令对方[color=#57c975]麻痹[/color]，50%令对方[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             50,
             0,
@@ -36,8 +37,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8db471c"
+  "hash": "689cc2a8"
 }

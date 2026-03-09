@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将自身能力下降状态反馈给对手，反馈成功则对手焚烬",
+      "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]焚烬[/color]",
       "args": [
         22
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6f4eae5"
+  "advance": null,
+  "hash": "c7ca2703"
 }

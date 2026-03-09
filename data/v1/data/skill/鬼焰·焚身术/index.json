@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消耗自身全部体力，减少对手当前体力的1/8，同时使己方下1只出场精灵获得点数等同于对手最大体力值1/5的护盾且下2次技能先制+2，护盾最多可获得1000点",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，减少对手当前体力的1/8，同时使[color=#52a5f2]己方[/color]下1只出场精灵获得点数等同于对手最大体力值1/5的[color=#57c975]护盾[/color]且下2次技能[color=#52a5f2]先制[/color]+2，[color=#57c975]护盾[/color]最多可获得1000点（boss有效）",
           "args": [
             8,
             5,
@@ -37,8 +38,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7b7e4187"
+  "hash": "facf3fd"
 }

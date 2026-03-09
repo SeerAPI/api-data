@@ -28,6 +28,10 @@
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "peak_pool"
         },
+        "ResourceRef_PetAdvance_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_advance"
+        },
         "ResourceRef_PetArchiveStoryEntry_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet_archive_story_entry"
@@ -340,6 +344,18 @@
           ],
           "default": null,
           "description": "精灵所属巅峰专家池"
+        },
+        "advance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PetAdvance_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "精灵觉醒信息"
         }
       },
       "required": [

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则使对手随机2个技能PP归零",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则使对手随机2个技能PP归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若打出致命一击则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c5b9e995"
+  "hash": "f10b32b4"
 }

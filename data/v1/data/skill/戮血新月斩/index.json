@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若打出致命一击则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则恢复自身所有体力（boss有效）",
           "args": [],
           "effect": {
             "id": 496,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若攻击未打出致命一击则吸取对手最大体力的1/4",
+          "analyze_info": "[sprite name=iconHit]若攻击未打出[color=#57c975]致命一击[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/4",
           "args": [
             4
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8f5d6aaa"
+  "hash": "7283be5c"
 }

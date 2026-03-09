@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若被对手击败则对手损失500点体力，造成致命伤害时，对手剩余1点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内若被对手[color=#57c975]击败[/color]则对手损失500点体力，造成致命伤害时，对手剩余1点体力（boss有效）",
       "args": [
         3,
         500
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内若被对手击败则对手疲惫3回合",
+      "analyze_info": "[sprite name=iconHit]3回合内若被对手[color=#57c975]击败[/color]则对手[color=#57c975]疲惫[/color]3回合（boss有效）",
       "args": [
         3,
         3
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b88001f7"
+  "advance": null,
+  "hash": "19c10f60"
 }

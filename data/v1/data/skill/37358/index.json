@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "德莱赫默构造数低于2时先制-1并吸取对手最大体力的1/3，不低于2时无视自身能力下降状态与对手能力提升状态",
+      "analyze_info": "[sprite name=iconComp][color=#f35555]德莱赫默[/color]构造数低于2时[color=#52a5f2]先制[/color]-1并[color=#52a5f2]吸取[/color]对手最大体力的1/3，不低于2时无视自身能力下降状态与对手能力提升状态",
       "args": [],
       "effect": {
         "id": 2155,
@@ -29,6 +30,7 @@
     },
     {
       "info": "此技能拥有本次在场期间自身生效过的所有构造效果，并取消触发条件中的先出手要求",
+      "analyze_info": "[sprite name=iconInherent]此技能拥有本次在场期间自身生效过的所有构造效果，并取消触发条件中的先出手要求",
       "args": [],
       "effect": {
         "id": 2153,
@@ -37,6 +39,7 @@
     },
     {
       "info": "令德莱赫默进行一次额外行动",
+      "analyze_info": "[sprite name=iconHit]令[color=#f35555]德莱赫默[/color]进行一次[color=#52a5f2]额外行动[/color]",
       "args": [],
       "effect": {
         "id": 2154,
@@ -45,6 +48,7 @@
     },
     {
       "info": "击败对手则恢复自身全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1156,
@@ -54,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "498cdfa"
+  "advance": null,
+  "hash": "c071d51"
 }

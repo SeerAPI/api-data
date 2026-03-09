@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下3回合自身攻击技能必定命中",
+          "analyze_info": "[sprite name=iconHit]下3回合自身攻击技能[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "2回合内自身受到直接攻击伤害的40%反馈给对手",
+          "analyze_info": "[sprite name=iconHit]2回合内自身受到直接攻击伤害的40%反馈给对手（boss有效）",
           "args": [
             2,
             40
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8e83f76"
+  "hash": "95bade1"
 }

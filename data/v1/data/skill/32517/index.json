@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则当回合闪避对手的攻击技能",
+      "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]闪避对手的攻击技能",
       "args": [],
       "effect": {
         "id": 720,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若后出手则附加自身最大体力1/3的百分比伤害并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]若后出手则附加自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]并恢复等量体力",
       "args": [
         3
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2572a371"
+  "advance": null,
+  "hash": "48b04c5e"
 }

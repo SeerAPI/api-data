@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "本回合若没有打出致命一击则特攻+2，速度+2",
+          "analyze_info": "[sprite name=iconHit]本回合若没有打出[color=#57c975]致命一击[/color]则特攻+2，速度+2（boss有效）",
           "args": [
             0,
             0,
@@ -48,6 +50,7 @@
         },
         {
           "info": "若打出致命一击，则造成伤害值的50%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]，则造成伤害值的50%恢复自身体力（boss有效）",
           "args": [
             50
           ],
@@ -58,8 +61,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f60bbf92"
+  "hash": "3a577731"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则下1回合自身所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下1回合自身所有技能[color=#52a5f2]先制[/color]+1",
           "args": [
             1,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "技能使用成功时，35%使对手麻痹，若没有触发，则对手攻击-2，特攻-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，35%使对手[color=#57c975]麻痹[/color]，若没有触发，则对手攻击-2，特攻-2（boss有效）",
           "args": [
             35,
             0,
@@ -51,8 +53,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "134d071b"
+  "hash": "15c809cd"
 }

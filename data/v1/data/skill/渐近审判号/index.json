@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "双方每有1项技能PP值为0吸取对手70点体力，若对手未受到固定伤害则额外附加等量真实伤害",
+          "analyze_info": "[sprite name=iconHit]双方每有1项技能PP值为0[color=#52a5f2]吸取[/color]对手70点体力，若对手未受到[color=#52a5f2]固定伤害[/color]则额外附加等量[color=#52a5f2]真实伤害[/color]",
           "args": [
             70
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "自身每有1回合异常状态造成伤害提升10%，最高70%",
+          "analyze_info": "[sprite name=iconHit]自身每有1回合异常状态造成伤害提升10%，最高70%",
           "args": [
             10,
             70
@@ -54,6 +57,7 @@
         },
         {
           "info": "下1回合使用技能不受PP值限制",
+          "analyze_info": "[sprite name=iconHit]下1回合使用技能不受PP值限制",
           "args": [
             1
           ],
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "97038210"
+  "hash": "e3d1acf5"
 }

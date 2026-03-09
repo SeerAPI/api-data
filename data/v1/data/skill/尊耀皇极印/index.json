@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5%的概率秒杀对手，未触发则令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]5%的概率[color=#52a5f2]秒杀[/color]对手，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             5,
             1
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b3ff1d2f"
+  "hash": "30df9b2e"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身为满体力时消耗自身最大体力的1/2并令对手流血，自身不为满体力时吸取对手最大体力的1/3并令对手所有技能PP值-2",
+          "analyze_info": "[sprite name=iconHit]自身为满体力时消耗自身最大体力的1/2并令对手[color=#57c975]流血[/color]，自身不为满体力时[color=#52a5f2]吸取[/color]对手最大体力的1/3并令对手所有技能PP值-2",
           "args": [
             2,
             16,
@@ -46,6 +48,7 @@
         },
         {
           "info": "己方每有一只精灵阵亡则为自身附加125点护盾、125点护罩",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]每有一只精灵阵亡则为自身附加125点[color=#57c975]护盾[/color]、125点[color=#57c975]护罩[/color]",
           "args": [
             125,
             125
@@ -57,6 +60,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2aeec42b"
+  "hash": "a70ae70d"
 }

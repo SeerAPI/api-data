@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手处于能力提升状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若对手处于能力提升状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 1904,
@@ -37,6 +39,7 @@
     },
     {
       "info": "自身拥有的永昌玺数量≥3方时忽略对手37%的双防值",
+      "analyze_info": "[sprite name=iconInherent]自身拥有的[color=#f35555]永昌玺[/color]数量≥3方时忽略对手37%的双防值",
       "args": [],
       "effect": {
         "id": 1905,
@@ -45,6 +48,7 @@
     },
     {
       "info": "攻击时将自身的能力下降状态视为相应的能力提升状态",
+      "analyze_info": "[sprite name=iconInherent]攻击时将自身的能力下降状态视为相应的能力提升状态",
       "args": [],
       "effect": {
         "id": 1874,
@@ -53,6 +57,7 @@
     },
     {
       "info": "攻击时将对手的能力提升状态视为相应的能力下降状态",
+      "analyze_info": "[sprite name=iconInherent]攻击时将对手的能力提升状态视为相应的能力下降状态（boss有效）",
       "args": [
         3,
         37
@@ -65,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "52e8a1f3"
+  "advance": null,
+  "hash": "caf02e"
 }

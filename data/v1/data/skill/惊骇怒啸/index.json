@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后40%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后40%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             40
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "额外附加50点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c5921af0"
+  "hash": "a40a3d2f"
 }

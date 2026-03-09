@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则吸取对手300点体力，若对手不处于能力提升状态则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则[color=#52a5f2]吸取[/color]对手300点体力，若对手不处于能力提升状态则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         300,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "若自身为满体力则技能威力提升100%",
+      "analyze_info": "[sprite name=iconHit]若自身为满体力则技能[color=#52a5f2]威力[/color]提升100%（boss有效）",
       "args": [
         100
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "12ecc8e1"
+  "advance": null,
+  "hash": "d8173947"
 }

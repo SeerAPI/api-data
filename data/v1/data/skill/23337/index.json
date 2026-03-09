@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身速度等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+1（boss有效）",
       "args": [
         4,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "2回合内受到物理攻击时，有100%概率将对手烧伤",
+      "analyze_info": "[sprite name=iconHit]2回合内受到物理攻击时，有100%概率将对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         2,
         100
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "48a7fb8e"
+  "advance": null,
+  "hash": "ab9ccd23"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，后出手时自身强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，后出手时自身强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "解放自身当前持有的回能Ⅰ，解放成功则随机附加麻痹、害怕、疲惫中的1种异常状态",
+          "analyze_info": "[sprite name=iconHit]解放自身当前持有的[color=#f35555]回能[/color]Ⅰ，解放成功则随机附加[color=#57c975]麻痹[/color]、[color=#57c975]害怕[/color]、[color=#57c975]疲惫[/color]中的1种异常状态",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "解放对手当前持有的失能Ⅰ，解放成功则随机附加冰封、焚烬、感染中的1种异常状态",
+          "analyze_info": "[sprite name=iconHit]解放对手当前持有的[color=#f35555]失能[/color]Ⅰ，解放成功则随机附加[color=#57c975]冰封[/color]、[color=#57c975]焚烬[/color]、[color=#57c975]感染[/color]中的1种异常状态",
           "args": [
             1
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "下1回合令自身所有技能先制+3",
+          "analyze_info": "[sprite name=iconHit]下1回合令自身所有技能[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [
             1,
             3
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3ac0024b"
+  "hash": "81590e12"
 }

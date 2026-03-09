@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手不处于异常状态时令对手随机1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]对手不处于异常状态时令对手随机1个技能PP值归零",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "若对手处于异常状态，则威力翻倍并消除对手相应的防御能力提升效果",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则[color=#52a5f2]威力[/color]翻倍并消除对手相应的防御能力提升效果（boss有效）",
           "args": [],
           "effect": {
             "id": 188,
@@ -51,6 +54,7 @@
         },
         {
           "info": "3回合内若受到攻击，消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击，消除对手能力提升状态（boss有效）",
           "args": [
             3
           ],
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "564ef4c6"
+  "hash": "1c364cb0"
 }

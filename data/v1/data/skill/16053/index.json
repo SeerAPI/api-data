@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
       "args": [],
       "effect": {
         "id": 444,
@@ -29,6 +30,7 @@
     },
     {
       "info": "当自身血量少于1/3时先制+1",
+      "analyze_info": "[sprite name=iconInherent]当自身血量少于1/3时[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         3,
         1
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7ddf77a4"
+  "advance": null,
+  "hash": "698544b3"
 }

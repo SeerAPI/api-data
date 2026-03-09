@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "额外附加30点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加30点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             30
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "19000": {
       "id": 19000,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "自身HP小于1/3时威力为2倍",
+          "analyze_info": "[sprite name=iconHit]自身HP小于1/3时[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [
             3,
             2
@@ -69,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cf887579"
+  "hash": "b717a89e"
 }

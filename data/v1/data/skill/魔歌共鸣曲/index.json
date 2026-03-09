@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "恢复250点体力",
+          "analyze_info": "[sprite name=iconHit]恢复250点体力（boss有效）",
           "args": [
             250
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "额外附加250点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加250点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             250
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e9fd1832"
+  "hash": "7ead8b38"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后10%令对方烧伤",
+          "analyze_info": "[sprite name=iconHit]命中后10%令对方[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             10
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "37603": {
       "id": 37603,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特防等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级-2（boss有效）",
           "args": [
             3,
             100,
@@ -70,6 +73,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特防等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
           "args": [
             3,
             100,
@@ -82,8 +86,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "35c7a917"
+  "hash": "ec836b36"
 }

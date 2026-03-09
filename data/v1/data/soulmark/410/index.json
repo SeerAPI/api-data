@@ -2,6 +2,7 @@
   "id": 410,
   "desc": "自身于战斗阶段内受到致死伤害并死亡时，若自身的等级为100级，则附加等同于自身当回合内所受技能伤害的真实伤害，然后若对手的体力为0则自身主动恢复1点体力（boss无效）|自身使用技能之后，每回合结束后恢复自身最大体力的1/3（boss有效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>限定效果（限100级触发）：\r\n<indent=16><sprite=3><indent=32>自身于战斗阶段内死亡时，<color=#64F9FA>附加</color>等同于该伤害数值的<b>真实伤害</b>\r\n<indent=32><sprite=4><indent=48>造成致死伤害时，自身<color=#64F9FA>恢复</color>1点<b>体力</b>\r\n\r\n<indent=0><sprite=0><indent=16>回合结束效果（boss有效）：\r\n<indent=16><sprite=3><indent=32>自身出手后，本次在场每回合结束后<color=#64F9FA>恢复</color>自身最大体力的1/3",
+  "analyze_desc": "[sprite name=dot4]自身于战斗阶段内受到[color=#52a5f2]致死伤害[/color]且死亡时，若自身的等级为100级，则附加等同于自身[color=#52a5f2]当回合[/color]所受技能伤害的[color=#52a5f2]真实伤害[/color]，[color=#52a5f2]然后[/color]若对手的体力为0则自身主动恢复1点体力|[sprite name=dot1]自身使用技能[color=#52a5f2]之后[/color]，每[color=#57c975]回合结束后[/color]恢复自身最大体力的1/3（boss有效）",
   "pve_effective": true,
   "intensified": false,
   "is_adv": false,
@@ -30,5 +31,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "9f93a6d5"
+  "advance": null,
+  "hash": "db6e82f2"
 }

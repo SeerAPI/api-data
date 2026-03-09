@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "属性相同时，额外附加250点固定伤害",
+          "analyze_info": "[sprite name=iconHit]属性相同时，额外附加250点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             250
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "32733": {
       "id": 32733,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "随机恢复150到300点生命值",
+          "analyze_info": "[sprite name=iconHit]随机恢复150到300点生命值（boss有效）",
           "args": [
             150,
             300
@@ -69,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a8205e26"
+  "hash": "d971c049"
 }

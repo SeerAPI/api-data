@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -29,6 +30,7 @@
     },
     {
       "info": "100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         100,
         2
@@ -40,6 +42,7 @@
     },
     {
       "info": "若对手处于烧伤则当回合击败对手时对方下只出战精灵80%焚烬",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]则[color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时对方下只出战精灵80%[color=#57c975]焚烬[/color]",
       "args": [
         2,
         80,
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "29206c6"
+  "advance": null,
+  "hash": "7ad915eb"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "为自身附加200点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加200点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             200
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "为自身附加200点护罩",
+          "analyze_info": "[sprite name=iconHit]为自身附加200点[color=#57c975]护罩[/color]（boss有效）",
           "args": [
             200
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
           "args": [],
           "effect": {
             "id": 697,
@@ -51,6 +54,7 @@
         },
         {
           "info": "对手不处于异常状态时对手2回合内体力恢复效果减少50%",
+          "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手2回合内体力恢复效果减少50%",
           "args": [
             2,
             50
@@ -62,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2011a8f8"
+  "hash": "3c306fd6"
 }

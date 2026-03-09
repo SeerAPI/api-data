@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "附加对手当前体力值25%的百分比伤害，连续使用每次增加5%，最高50%",
+          "analyze_info": "[sprite name=iconHit]附加对手当前体力值25%的[color=#52a5f2]百分比伤害[/color]，连续使用每次增加5%，最高50%",
           "args": [
             25,
             5,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若下回合受到攻击，则对手随机2项能力值-2",
+          "analyze_info": "[sprite name=iconHit]若下回合受到攻击，则对手随机2项能力值-2",
           "args": [
             2,
             2
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bed0ba6b"
+  "hash": "713cf850"
 }

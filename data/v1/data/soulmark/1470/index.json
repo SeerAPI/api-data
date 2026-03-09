@@ -2,6 +2,7 @@
   "id": 1470,
   "desc": "回合开始时若自身体力高于对手则造成的攻击伤害提升50%，若自身体力低于对手则造成的攻击伤害提升100%；|自身使用攻击技能PP值≥4则额外先制+1，自身造成的攻击伤害高于300则令对手进入疲惫（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于对手则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n<indent=32><sprite=4><indent=48>若自身体力低于对手则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>100%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身PP值≥4的攻击技能<b>先制</b>+1\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300则<color=#64F9FA>令对手疲惫</color>",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -42,5 +43,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "a7c50f5f"
+  "advance": null,
+  "hash": "d4080822"
 }

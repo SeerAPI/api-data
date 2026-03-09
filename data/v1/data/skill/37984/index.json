@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则令对手下1次属性技能失效，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态（boss有效），反转成功则令对手下1次属性技能失效，反转失败则消除对手能力提升状态",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能后100%令对手感染，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后100%令对手[color=#57c975]感染[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         3,
         100,
@@ -43,6 +45,7 @@
     },
     {
       "info": "附加对手已损失PP值总和x30的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加对手已损失PP值总和x30的[color=#52a5f2]固定伤害[/color]",
       "args": [
         30
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "17dfb89a"
+  "advance": null,
+  "hash": "a6054a18"
 }

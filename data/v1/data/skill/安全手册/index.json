@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成伤害低于250，则下2回合必定暴击",
+          "analyze_info": "[sprite name=iconHit]造成伤害低于250，则下2回合必定暴击（boss有效）",
           "args": [
             0,
             250,
@@ -35,8 +36,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "86f2100b"
+  "hash": "681cbbcf"
 }

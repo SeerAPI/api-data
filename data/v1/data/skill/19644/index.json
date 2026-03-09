@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "命中后30%令对方麻痹",
+      "analyze_info": "[sprite name=iconHit]命中后30%令对方[color=#57c975]麻痹[/color]（boss有效）",
       "args": [
         30
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3818de46"
+  "advance": null,
+  "hash": "9bc10464"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "圣谕形态下令对手随机2个技能的PP值归零，邪魇形态下令对手2回合内属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#f35555]圣谕形态[/color]下令对手随机2个技能的PP值归零，[color=#f35555]邪魇形态[/color]下令对手2回合内属性技能无效",
       "args": [],
       "effect": {
         "id": 2065,
@@ -29,6 +30,7 @@
     },
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -37,6 +39,7 @@
     },
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -45,6 +48,7 @@
     },
     {
       "info": "吸取对手280点体力，吸取后若对手体力减少值低于180则为对手附加1层自身所处形态相反的圣诰/邪诲",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手280点体力，[color=#52a5f2]吸取[/color]后若对手体力减少值低于180则为对手附加1层自身所处形态相反的[color=#f35555]圣诰[/color]/[color=#f35555]邪诲[/color]",
       "args": [
         280
       ],
@@ -56,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9cf02cde"
+  "advance": null,
+  "hash": "e0771f9f"
 }

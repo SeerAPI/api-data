@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "命中后30%使对手疲惫3回合,遇到天敌概率翻倍",
+      "analyze_info": "[sprite name=iconHit]命中后30%使对手[color=#57c975]疲惫[/color]3回合,遇到天敌概率翻倍（boss有效）",
       "args": [
         30,
         7,
@@ -43,6 +45,7 @@
     },
     {
       "info": "若对手处于异常状态，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则恢复自身全部体力（boss有效）",
       "args": [],
       "effect": {
         "id": 770,
@@ -51,6 +54,7 @@
     },
     {
       "info": "若对手不处于异常状态则附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3
       ],
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4c7bf162"
+  "advance": null,
+  "hash": "d3cc46bf"
 }

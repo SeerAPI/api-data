@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若打出致命一击则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 496,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若自身为满体力则技能威力提升100%",
+      "analyze_info": "[sprite name=iconHit]若自身为满体力则技能[color=#52a5f2]威力[/color]提升100%（boss有效）",
       "args": [
         100
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "abb52be7"
+  "advance": null,
+  "hash": "1ae5549b"
 }

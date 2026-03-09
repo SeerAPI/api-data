@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不少于300",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于300（boss有效）",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "将自身相应的能力提升赋予给对手相应的能力下降",
+      "analyze_info": "[sprite name=iconHit]将自身相应的能力提升赋予给对手相应的能力下降",
       "args": [],
       "effect": {
         "id": 722,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7bd37f22"
+  "advance": null,
+  "hash": "3ed19499"
 }

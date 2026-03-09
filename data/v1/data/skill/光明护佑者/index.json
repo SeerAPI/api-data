@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "附加自身最大体力35%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身最大体力35%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             35
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "未击败对手则50%自身全属性+1，50%对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则50%自身[color=#52a5f2]全属性[/color]+1，50%对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2334f320"
+  "hash": "51c3326b"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机附加2种异常状态，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]随机附加2种异常状态，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "4回合内对手主动切换精灵则回合开始后100%随机附加2种异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内对手[color=#52a5f2]主动切换[/color]精灵则回合开始后100%随机附加2种异常状态",
       "args": [
         4,
         100,
@@ -53,6 +56,7 @@
     },
     {
       "info": "下1次受到的固定伤害和百分比伤害减少100%",
+      "analyze_info": "[sprite name=iconHit]下1次受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少100%",
       "args": [
         1,
         100
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "52d5cf5a"
+  "advance": null,
+  "hash": "63f8223d"
 }

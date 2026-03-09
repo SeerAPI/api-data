@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中后20%令对方烧伤",
+          "analyze_info": "[sprite name=iconHit]命中后20%令对方[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             20
           ],
@@ -41,7 +43,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "30842": {
       "id": 30842,
@@ -66,6 +69,7 @@
       "skill_effect": [
         {
           "info": "随机使对手2种能力等级-2",
+          "analyze_info": "[sprite name=iconHit]随机使对手2种能力等级-2（boss有效）",
           "args": [
             2,
             2
@@ -77,8 +81,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2805a5d4"
+  "hash": "bd0e2dd9"
 }

@@ -4,6 +4,7 @@
       "id": 789,
       "desc": "回合开始时，若自身处于异常状态，则本回合受到的攻击伤害转化为恢复自身HP；每次使用攻击技能都有60%威力翻倍，若未触发则附加相当于本次攻击伤害60%的固定伤害；战斗阶段结束时若当回合未击败当前对手，则下回合开始时50%概率使对手害怕，未触发则自身特攻+2（BOSS无效）",
       "desc_formatting_adjustment": null,
+      "analyze_desc": "",
       "pve_effective": true,
       "intensified": false,
       "is_adv": false,
@@ -42,8 +43,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "34b16bd3"
+  "hash": "afb0e6cd"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "19654": {
       "id": 19654,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手防御等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-2（boss有效）",
           "args": [
             1,
             100,
@@ -68,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "82634d8"
+  "hash": "81578723"
 }

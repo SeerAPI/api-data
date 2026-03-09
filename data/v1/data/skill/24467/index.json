@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若使用技能则恢复150点体力值",
+      "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复150点体力值（boss有效）",
       "args": [
         3,
         150
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内每回合都能附加50点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合都能附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         50
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b359af73"
+  "advance": null,
+  "hash": "d1f87606"
 }

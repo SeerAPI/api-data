@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内每回合100%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合100%闪避对手攻击（boss有效）",
           "args": [
             2,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b371debd"
+  "hash": "dde5ac7a"
 }

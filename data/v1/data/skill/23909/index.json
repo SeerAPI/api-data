@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
       "args": [
         0,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内受攻击时反弹100点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内受攻击时[color=#52a5f2]反弹[/color]100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         100
@@ -47,6 +49,7 @@
     },
     {
       "info": "5回合内若造成伤害大于300则100%概率使对手害怕",
+      "analyze_info": "[sprite name=iconHit]5回合内若造成伤害大于300则100%概率使对手[color=#57c975]害怕[/color]",
       "args": [
         5,
         300,
@@ -61,5 +64,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "bd38d0df"
+  "advance": null,
+  "hash": "5a4de128"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内受到攻击则100%令对手麻痹，未触发则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]4回合内受到攻击则100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         4,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "吸取对手200点固定体力，每次使用额外附加100点，最高400点",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点固定体力，每次使用额外附加100点，最高400点（boss有效）",
       "args": [
         200,
         100,
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c3271e88"
+  "advance": null,
+  "hash": "6548b5c5"
 }

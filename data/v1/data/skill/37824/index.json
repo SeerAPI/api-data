@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "未击败对手则己方在场精灵吸取对手最大体力的30%，吸取后若对手体力未减少则延续至下回合",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则[color=#52a5f2]己方[/color]在场精灵[color=#52a5f2]吸取[/color]对手最大体力的30%，[color=#52a5f2]吸取[/color]后若对手体力未减少则延续至下回合",
       "args": [
         30
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "95ea359b"
+  "advance": null,
+  "hash": "6ab02c66"
 }

@@ -4,6 +4,7 @@
       "id": 1481,
       "desc": "回合开始时，若自身体力高于对手则当回合对手使用属性技能先制-1且下回合无法使用该属性技能；|自身登场后对手所有攻击技能命中率降低20%，自身每次受到攻击伤害则对手命中率降低10%，最高降低60%（切换下场后效果重置，boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力高于对手则：\r\n<indent=32><sprite=4><indent=48>对手选择的属性技能<b>先制</b>-1\r\n<indent=32><sprite=4><indent=48>对手使用的属性技能下回合<color=#64F9FA>命中效果失效</color>\r\n\r\n<indent=0><sprite=0><indent=16>常驻效果：\r\n<indent=16><sprite=3><indent=32>自身登场后令对手所有攻击技能命中率<color=#64F9FA>降低</color>20%\r\n<indent=32><sprite=4><indent=48>自身每次受到攻击伤害则额外降低10%，最高降低60%",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -42,8 +43,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "ff0c83b6"
+  "hash": "1ffd875e"
 }

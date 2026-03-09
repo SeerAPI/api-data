@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若先出手则必定打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1395,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
           "args": [],
           "effect": {
             "id": 881,
@@ -39,6 +41,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则对手瘫痪",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手[color=#57c975]瘫痪[/color]",
           "args": [
             19
           ],
@@ -49,6 +52,7 @@
         },
         {
           "info": "技能威力减少50%，对手处于异常状态时改为提升50%",
+          "analyze_info": "[sprite name=iconHit]技能[color=#52a5f2]威力[/color]减少50%，对手处于异常状态时改为提升50%",
           "args": [
             50,
             50
@@ -60,6 +64,7 @@
         },
         {
           "info": "未击败对手则开启赛博共振器",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则开启[color=#f35555]赛博共振器[/color]",
           "args": [],
           "effect": {
             "id": 2341,
@@ -68,8 +73,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "85782ff0"
+  "hash": "d8b63ae7"
 }

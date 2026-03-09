@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+          "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
           "args": [],
           "effect": {
             "id": 760,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时将当回合护盾所承受的伤害值以百分比伤害的形式40%反弹给对手",
+          "analyze_info": "[sprite name=iconHit]后出手时将[color=#52a5f2]当回合[/color][color=#57c975]护盾[/color]所承受的伤害值[color=#52a5f2]以[/color][color=#52a5f2]百分比伤害[/color]的形式40%[color=#52a5f2]反弹[/color]给对手",
           "args": [
             40
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "消耗自身的全部护盾并附加消耗量100%的百分比伤害，每消耗400点附加的伤害额外提升40点，以此法消耗的护盾视为被击破",
+          "analyze_info": "[sprite name=iconHit]消耗自身的全部[color=#57c975]护盾[/color]并附加消耗量100%的[color=#52a5f2]百分比伤害[/color]，每消耗400点附加的[color=#52a5f2]伤害额外提升[/color]40点，[color=#52a5f2]以[/color]此法消耗的[color=#57c975]护盾[/color]视为被击破",
           "args": [],
           "effect": {
             "id": 2318,
@@ -49,6 +52,7 @@
         },
         {
           "info": "击败对手则令对手下1次使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下1次使用的攻击技能无效",
           "args": [
             1
           ],
@@ -59,8 +63,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 14,
+        "url": "https://api.seerapi.com/v1/pet_advance/14"
+      }
     }
   },
-  "hash": "fc6d9df"
+  "hash": "cd7ae69a"
 }

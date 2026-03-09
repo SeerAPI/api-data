@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身不处于能力提升状态时先制+1且必定命中",
+          "analyze_info": "[sprite name=iconInherent]自身不处于能力提升状态时[color=#52a5f2]先制[/color]+1且[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1860,
@@ -31,6 +32,7 @@
         },
         {
           "info": "先出手时附加自身攻击50%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时附加自身攻击50%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "后出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]后出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             100,
             100
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "82d71a98"
+  "hash": "2abcd5f8"
 }

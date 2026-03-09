@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "未击败对手则50%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则50%令对手[color=#57c975]害怕[/color]",
           "args": [
             50,
             6
@@ -42,6 +44,7 @@
         },
         {
           "info": "未击败对手则50%令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则50%令对手[color=#57c975]烧伤[/color]",
           "args": [
             50,
             2
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "722407cc"
+  "hash": "7cc11d17"
 }

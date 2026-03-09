@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若未打出致命一击则对手每被施加1道诡符令自身下次使用的攻击技能先制+1",
+      "analyze_info": "[sprite name=iconHit]若未打出[color=#57c975]致命一击[/color]则对手每被施加1道[color=#f35555]诡符[/color]令自身下次使用的攻击技能[color=#52a5f2]先制[/color]+1",
       "args": [
         1,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "若打出致命一击则对手每被施加1道诡符恢复自身最大体力的1/4",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手每被施加1道[color=#f35555]诡符[/color]恢复自身最大体力的1/4",
       "args": [
         1,
         4
@@ -43,6 +45,7 @@
     },
     {
       "info": "若自身为满体力则技能威力提升100%",
+      "analyze_info": "[sprite name=iconHit]若自身为满体力则技能[color=#52a5f2]威力[/color]提升100%（boss有效）",
       "args": [
         100
       ],
@@ -53,6 +56,7 @@
     },
     {
       "info": "未击败对手则己方下2次攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则[color=#52a5f2]己方[/color]下2次攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "da72d0a3"
+  "advance": null,
+  "hash": "7786ccca"
 }

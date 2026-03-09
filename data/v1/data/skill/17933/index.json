@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身每处于一种能力提升状态则附加30点固定伤害",
+      "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则附加30点[color=#52a5f2]固定伤害[/color]",
       "args": [
         30
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9b93a108"
+  "advance": null,
+  "hash": "dc99232f"
 }

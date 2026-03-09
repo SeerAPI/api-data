@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内受到物理攻击和特殊攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]2回合内受到物理攻击和特殊攻击伤害减少50%（boss有效）",
       "args": [
         2,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身所有体力",
       "args": [],
       "effect": {
         "id": 1167,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "db72e12e"
+  "advance": null,
+  "hash": "4151b800"
 }

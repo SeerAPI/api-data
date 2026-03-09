@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的伤害高于300则获得300点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则获得300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300,
             300
@@ -44,6 +46,7 @@
         },
         {
           "info": "当回合未击败对手则减少对方所有技能PP1点",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则减少对方所有技能PP1点",
           "args": [
             1
           ],
@@ -54,6 +57,7 @@
         },
         {
           "info": "附加自身最大体力值20%的百分比伤害，连续使用每次增加10%，最高40%",
+          "analyze_info": "[sprite name=iconHit]附加自身最大体力值20%的[color=#52a5f2]百分比伤害[/color]，连续使用每次增加10%，最高40%（boss有效）",
           "args": [
             20,
             10,
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bc2d5185"
+  "hash": "72c56403"
 }

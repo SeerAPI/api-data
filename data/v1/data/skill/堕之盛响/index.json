@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]疲惫[/color]",
           "args": [
             7
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "消耗自身全部体力，己方下只精灵获得点数等同于消耗值50%的护盾与护罩",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，[color=#52a5f2]己方[/color]下只精灵获得点数等同于消耗值50%的[color=#57c975]护盾[/color]与[color=#57c975]护罩[/color]",
           "args": [
             50
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "为对手附加3层蚩庸之锁，若附加的蚩庸之锁超出了上限则对手下2回合先制-1",
+          "analyze_info": "[sprite name=iconHit]为对手附加3层[color=#f35555]蚩庸之锁[/color]，若附加的[color=#f35555]蚩庸之锁[/color]超出了上限则对手下2回合[color=#52a5f2]先制[/color]-1",
           "args": [
             3,
             2,
@@ -55,6 +58,7 @@
         },
         {
           "info": "己方免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e2447faa"
+  "hash": "9e02d744"
 }

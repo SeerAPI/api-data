@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后20%令对方中毒",
+          "analyze_info": "[sprite name=iconHit]命中后20%令对方[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             20
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "命中后15%令对手睡眠",
+          "analyze_info": "[sprite name=iconHit]命中后15%令对手[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             15
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cf1bc59d"
+  "hash": "e863a2d5"
 }

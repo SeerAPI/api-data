@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 485,
@@ -29,6 +30,7 @@
     },
     {
       "info": "2回合内对手使用攻击技能，则使对手随机1个技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]2回合内对手使用攻击技能，则使对手随机1个技能的PP值归零",
       "args": [
         2,
         1
@@ -40,6 +42,7 @@
     },
     {
       "info": "未击败对手下2回合自身攻击先制+1",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手下2回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         2,
         1
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "50355304"
+  "advance": null,
+  "hash": "6322b7cf"
 }

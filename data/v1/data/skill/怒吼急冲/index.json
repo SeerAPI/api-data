@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "后出手则必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]后出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1527,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加对手已损失生命值10%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手已损失生命值10%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             10
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f9d82c2e"
+  "hash": "3a6b8bfb"
 }

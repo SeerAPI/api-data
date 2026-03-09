@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手焚烬",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手[color=#57c975]焚烬[/color]",
           "args": [
             22
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手处于异常状态，则威力翻倍并消除对手相应的防御能力提升效果",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则[color=#52a5f2]威力[/color]翻倍并消除对手相应的防御能力提升效果（boss有效）",
           "args": [],
           "effect": {
             "id": 188,
@@ -41,6 +43,7 @@
         },
         {
           "info": "对手不处于异常状态时对手2回合内体力恢复效果减少100%",
+          "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手2回合内体力恢复效果减少100%",
           "args": [
             2,
             100
@@ -52,6 +55,7 @@
         },
         {
           "info": "2回合内100%闪避对手攻击，若本次技能造成的伤害高于300则闪避效果延长2回合",
+          "analyze_info": "[sprite name=iconHit]2回合内100%闪避对手攻击，若本次技能造成的伤害高于300则闪避效果延长2回合",
           "args": [
             2,
             100,
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "47693d93"
+  "hash": "27f6a530"
 }

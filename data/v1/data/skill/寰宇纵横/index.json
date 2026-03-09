@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手200点体力，体力低于对手时吸取效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手200点体力，体力低于对手时[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
           "args": [
             200
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内若自身攻击技能命中则70%令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则70%令对手[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             3,
             70,
@@ -45,6 +47,7 @@
         },
         {
           "info": "3回合内对手所有攻击必定Miss，若对手命中则下2回合对手使用属性技能无效",
+          "analyze_info": "[sprite name=iconHit]3回合内对手所有攻击必定Miss，若对手命中则下2回合对手使用属性技能无效",
           "args": [
             3,
             2
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1458798d"
+  "hash": "f37bb1c7"
 }

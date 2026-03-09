@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 1061,
@@ -41,6 +43,7 @@
         },
         {
           "info": "解除自身所处的异常状态，解除成功则本次攻击威力提升100%",
+          "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功则本次攻击[color=#52a5f2]威力[/color]提升100%",
           "args": [
             100
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "技能无效时，获得等同于对手最大体力1/3的护盾、护罩",
+          "analyze_info": "[sprite name=iconInherent][color=#52a5f2]技能无效[/color]时，获得等同于对手最大体力1/3的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]",
           "args": [],
           "effect": {
             "id": 2418,
@@ -59,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "eda289f3"
+  "hash": "589d1775"
 }

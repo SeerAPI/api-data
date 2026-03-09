@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身被击败后，对手下3次体力恢复效果减少100%",
+          "analyze_info": "[sprite name=iconHit]自身[color=#57c975]被击败[/color]后，对手下3次体力恢复效果减少100%（boss有效）",
           "args": [
             3,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "未击败对手则对方下2次攻击技能将70%被己方闪避",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则对方下2次攻击技能将70%被[color=#52a5f2]己方[/color]闪避（boss有效）",
           "args": [
             2,
             70
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4666ef"
+  "hash": "7aaf1947"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "附加自身当前护盾值等量的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加自身当前[color=#57c975]护盾[/color]值等量的[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1272,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "获得300点护罩，护罩消失时恢复自身350点体力",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时恢复自身350点体力（boss有效）",
       "args": [
         300,
         350
@@ -50,6 +53,7 @@
     },
     {
       "info": "100%令对手冻伤，未触发则令对手威力最高的攻击技能PP值归0",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]冻伤[/color]，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]威力[/color]最高的攻击技能PP值归0",
       "args": [
         100,
         5
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "53a480fb"
+  "advance": null,
+  "hash": "b465520"
 }

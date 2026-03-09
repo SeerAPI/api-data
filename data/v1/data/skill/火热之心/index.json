@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若使用技能则恢复100点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复100点体力值（boss有效）",
           "args": [
             3,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内若受到攻击则有100%概率令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有100%概率令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             100,
@@ -46,7 +48,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "23550": {
       "id": 23550,
@@ -71,6 +74,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -83,6 +87,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -95,6 +100,7 @@
         },
         {
           "info": "恢复100点体力",
+          "analyze_info": "[sprite name=iconHit]恢复100点体力（boss有效）",
           "args": [
             100
           ],
@@ -105,8 +111,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a5f160d4"
+  "hash": "4359536"
 }

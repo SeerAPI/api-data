@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内每回合70%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合70%闪避对手攻击（boss有效）",
           "args": [
             2,
             70
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+          "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
           "args": [
             2,
             -2
@@ -45,6 +47,7 @@
         },
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f431e07c"
+  "hash": "59ced9ef"
 }

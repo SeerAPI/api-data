@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则下回合自身造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
           "args": [
             100
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
           "args": [
             1,
             1
@@ -44,6 +46,7 @@
         },
         {
           "info": "当回合击败对手则下回合自身攻击先制+2",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则下回合自身攻击[color=#52a5f2]先制[/color]+2",
           "args": [
             2
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dd9337e1"
+  "hash": "9239aa24"
 }

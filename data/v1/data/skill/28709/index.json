@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "恢复己方所有不在场精灵300点体力",
+      "analyze_info": "[sprite name=iconHit]恢复[color=#52a5f2]己方[/color]所有不在场精灵300点体力",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "5回合内自身与对方反转战斗时属性",
+      "analyze_info": "[sprite name=iconHit]5回合内自身与对方反转战斗时属性（boss有效）",
       "args": [
         5
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ddeb37da"
+  "advance": null,
+  "hash": "b124b23b"
 }

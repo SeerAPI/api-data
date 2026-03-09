@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后15%令对方冻伤",
+          "analyze_info": "[sprite name=iconHit]命中后15%令对方[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             15
           ],
@@ -33,7 +34,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "27237": {
       "id": 27237,
@@ -58,6 +60,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
           "args": [
             2,
             100,
@@ -70,6 +73,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身速度等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
           "args": [
             4,
             100,
@@ -82,6 +86,7 @@
         },
         {
           "info": "3回合内每回合所受的伤害减少150点",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少150点（boss有效）",
           "args": [
             3,
             150
@@ -93,8 +98,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "437e52df"
+  "hash": "e0454277"
 }

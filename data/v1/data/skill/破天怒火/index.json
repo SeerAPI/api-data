@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功下回合自身先制+1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功下回合自身[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             0,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             0,
             2
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "25f264ab"
+  "hash": "b93254aa"
 }

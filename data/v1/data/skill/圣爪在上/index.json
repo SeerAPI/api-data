@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身攻击对手时克制关系为微弱则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身攻击对手时克制关系为微弱则[color=#52a5f2]先制[/color]+2",
           "args": [],
           "effect": {
             "id": 785,
@@ -31,6 +32,7 @@
         },
         {
           "info": "50%降低对手所有技能2点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+          "analyze_info": "[sprite name=iconHit]50%降低对手所有技能2点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
           "args": [
             50,
             2
@@ -42,6 +44,7 @@
         },
         {
           "info": "随机附加240-360点固定伤害，技能无效时减少对手所有技能PP1点",
+          "analyze_info": "[sprite name=iconComp]随机附加240-360点[color=#52a5f2]固定伤害[/color]，技能无效时减少对手所有技能PP1点",
           "args": [
             240,
             360
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4174f7dc"
+  "hash": "50e68f38"
 }

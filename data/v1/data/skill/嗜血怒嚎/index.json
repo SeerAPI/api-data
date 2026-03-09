@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每次造成伤害的1/4会恢复自己的HP",
+          "analyze_info": "[sprite name=iconHit]3回合内每次造成伤害的1/4会恢复自己的HP（boss有效）",
           "args": [
             3,
             4
@@ -34,6 +35,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -46,6 +48,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -58,8 +61,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "363589dd"
+  "hash": "e782d99"
 }

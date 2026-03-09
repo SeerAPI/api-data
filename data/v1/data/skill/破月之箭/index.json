@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "命中时5%的概率秒杀对方",
+          "analyze_info": "[sprite name=iconHit]命中时5%的概率[color=#52a5f2]秒杀[/color]对方（boss有效）",
           "args": [
             5
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f8a21af0"
+  "hash": "4597f00b"
 }

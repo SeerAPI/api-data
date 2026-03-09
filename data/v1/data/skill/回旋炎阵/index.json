@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内对手使用正先制的技能时100%令对手烧伤",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用正[color=#52a5f2]先制[/color]的技能时100%令对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             100,
@@ -45,6 +47,7 @@
         },
         {
           "info": "3回合内每回合若先出手则吸取对手200点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合若先出手则[color=#52a5f2]吸取[/color]对手200点体力",
           "args": [
             3,
             200
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "38259250"
+  "hash": "92982805"
 }

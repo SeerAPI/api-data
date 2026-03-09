@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则50%令对手感染，未触发则100%令对手中毒",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则50%令对手[color=#57c975]感染[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]中毒[/color]",
       "args": [
         50,
         27,
@@ -34,6 +35,7 @@
     },
     {
       "info": "若未击败对手则下2回合攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "806ffc27"
+  "advance": null,
+  "hash": "ea08b042"
 }

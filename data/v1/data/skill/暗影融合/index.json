@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 33,
@@ -31,6 +32,7 @@
         },
         {
           "info": "2回合内每回合所受的伤害减少220点",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合所受的伤害减少220点（boss有效）",
           "args": [
             2,
             220
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "96cdc350"
+  "hash": "181e0998"
 }

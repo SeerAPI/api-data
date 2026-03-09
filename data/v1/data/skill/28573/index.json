@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内受到物理攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击伤害减少50%（boss有效）",
       "args": [
         3,
         0,
@@ -33,6 +34,7 @@
     },
     {
       "info": "下回合受到致命伤害时残留1点体力",
+      "analyze_info": "[sprite name=iconHit]下回合受到致命伤害时残留1点体力（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "72318fa4"
+  "advance": null,
+  "hash": "71d7eebb"
 }

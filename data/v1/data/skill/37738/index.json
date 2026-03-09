@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手随机2项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令对手随机2项技能PP值归零",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合做100-200次攻击，每次攻击有100%的概率附加2点固定伤害",
+      "analyze_info": "[sprite name=iconHit]1回合做100-200次攻击，每次攻击有100%的概率附加2点[color=#52a5f2]固定伤害[/color]",
       "args": [
         100,
         200,
@@ -44,6 +46,7 @@
     },
     {
       "info": "击败对手则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c4e260f1"
+  "advance": null,
+  "hash": "588a7a0f"
 }

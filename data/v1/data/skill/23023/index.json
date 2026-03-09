@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若自身攻击技能命中则40%令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]3回合内若自身攻击技能命中则40%令对手[color=#57c975]麻痹[/color]（boss有效）",
       "args": [
         2,
         40,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8d0fef0f"
+  "advance": null,
+  "hash": "11d44718"
 }

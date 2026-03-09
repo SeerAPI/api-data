@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "获得500点护盾，护盾消失时使对手下1次攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]获得500点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时使对手下1次攻击技能无效",
           "args": [
             500,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "100%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             100,
             1
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "11affbf1"
+  "hash": "219f1cac"
 }

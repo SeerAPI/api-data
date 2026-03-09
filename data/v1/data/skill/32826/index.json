@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下1回合自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下1回合自身所有技能[color=#52a5f2]先制[/color]+2",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身所有体力",
       "args": [],
       "effect": {
         "id": 1167,
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "508bea45"
+  "advance": null,
+  "hash": "49df2580"
 }

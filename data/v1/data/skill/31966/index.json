@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手不处于异常状态则附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fcba4139"
+  "advance": null,
+  "hash": "171cb374"
 }

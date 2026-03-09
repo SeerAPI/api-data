@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "令对手下次使用的技能无效",
+          "analyze_info": "[sprite name=iconHit]令对手下次使用的技能无效",
           "args": [],
           "effect": {
             "id": 884,
@@ -41,6 +43,7 @@
         },
         {
           "info": "召唤龙神，使自身下2回合获得战之龙魂效果",
+          "analyze_info": "[sprite name=iconHit]召唤龙神，使自身下2回合获得[color=#f35555]战之龙魂[/color]效果",
           "args": [
             2
           ],
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5d6d0288"
+  "hash": "e5c399e6"
 }

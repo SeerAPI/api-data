@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不少于280",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于280（boss有效）",
       "args": [
         280
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
       "args": [],
       "effect": {
         "id": 699,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "878d2a81"
+  "advance": null,
+  "hash": "bc59dab9"
 }

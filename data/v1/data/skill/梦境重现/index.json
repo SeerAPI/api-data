@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
+          "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则技能连击数+1，对手每处于一种弱化状态则技能连击数+1",
           "args": [
             1,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时将自身能力等级返回至上一回合结束时",
+          "analyze_info": "[sprite name=iconHit]后出手时将自身能力等级返回至上一[color=#57c975]回合结束时[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 727,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e2e7d31f"
+  "hash": "112844f1"
 }

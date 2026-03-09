@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "附加280点固定伤害，对手处于异常状态时固定伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]附加280点[color=#52a5f2]固定伤害[/color]，对手处于异常状态时[color=#52a5f2]固定伤害[/color]翻倍",
           "args": [
             280
           ],
@@ -53,6 +56,7 @@
         },
         {
           "info": "使对手攻击-1，防御-1，特攻-1，特防-1，速度-2，命中-2，对手处于异常状态时弱化效果翻倍",
+          "analyze_info": "[sprite name=iconHit]使对手攻击-1，防御-1，特攻-1，特防-1，速度-2，命中-2，对手处于异常状态时弱化效果翻倍（boss有效）",
           "args": [
             -1,
             -1,
@@ -68,8 +72,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d69c593b"
+  "hash": "8d12030c"
 }

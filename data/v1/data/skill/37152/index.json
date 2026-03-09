@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-3",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-3（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身不为满体力时2回合内对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit]自身不为满体力时2回合内对手属性技能无效",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "自身处于护盾状态时威力提升50%",
+      "analyze_info": "[sprite name=iconHit]自身处于[color=#57c975]护盾[/color]状态时[color=#52a5f2]威力[/color]提升50%",
       "args": [
         50
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "6cfcc08f"
+  "advance": null,
+  "hash": "460f2fb0"
 }

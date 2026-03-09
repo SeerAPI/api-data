@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]且受到原本恢复量1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "若后出手则附加自身最大体力1/3的百分比伤害并恢复等量体力",
+          "analyze_info": "[sprite name=iconHit]若后出手则附加自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]并恢复等量体力",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8c8a6d71"
+  "hash": "5ea86a96"
 }

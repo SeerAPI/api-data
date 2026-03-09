@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中对手后有40%使对手诅咒，先出手时概率翻倍",
+      "analyze_info": "[sprite name=iconHit]命中对手后有40%使对手[color=#57c975]诅咒[/color]，先出手时概率翻倍（boss有效）",
       "args": [
         40,
         23
@@ -32,6 +33,7 @@
     },
     {
       "info": "2回合内每回合若先出手则吸取对手150点体力",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合若先出手则[color=#52a5f2]吸取[/color]对手150点体力",
       "args": [
         2,
         150
@@ -43,6 +45,7 @@
     },
     {
       "info": "使自身下2次攻击技能必定触发邪龙之噬",
+      "analyze_info": "[sprite name=iconHit]使自身下2次攻击技能必定触发[color=#f35555]邪龙之噬[/color]",
       "args": [
         2
       ],
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "844efd5e"
+  "advance": null,
+  "hash": "7b76a199"
 }

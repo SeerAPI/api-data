@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后10%令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]命中后10%令对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             10,
             0
@@ -34,6 +35,7 @@
         },
         {
           "info": "命中后10%令对手睡眠",
+          "analyze_info": "[sprite name=iconHit]命中后10%令对手[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             10,
             8
@@ -45,6 +47,7 @@
         },
         {
           "info": "命中后10%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]命中后10%令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             10,
             6
@@ -56,6 +59,7 @@
         },
         {
           "info": "附加对手已损失生命值25%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加对手已损失生命值25%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             25
           ],
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ade8af6f"
+  "hash": "f086f10"
 }

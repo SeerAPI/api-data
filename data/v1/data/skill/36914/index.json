@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则对手2回合内[color=#52a5f2]无法通过自身技能恢复体力[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若打出的伤害在250至350之间则对手冰封",
+      "analyze_info": "[sprite name=iconHit]若打出的伤害在250至350之间则对手[color=#57c975]冰封[/color]",
       "args": [
         250,
         350,
@@ -43,6 +45,7 @@
     },
     {
       "info": "当回合击败对手时，对方下只精灵出战时100%冻伤",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时，对方下只精灵[color=#57c975]出战时[/color]100%[color=#57c975]冻伤[/color]",
       "args": [
         100,
         5
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "373b99ce"
+  "advance": null,
+  "hash": "23c290f2"
 }

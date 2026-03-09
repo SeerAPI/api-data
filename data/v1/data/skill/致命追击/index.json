@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合所受的伤害减少100点",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少100点（boss有效）",
           "args": [
             3,
             100
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内对手每回合速度和命中等级-1",
+          "analyze_info": "[sprite name=iconHit]3回合内对手每回合速度和命中等级-1（boss有效）",
           "args": [
             3,
             -1
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "eb8e366b"
+  "hash": "7b57185d"
 }

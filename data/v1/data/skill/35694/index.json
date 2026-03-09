@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力上升状态，消除成功2回合内受到伤害减少200点",
+      "analyze_info": "[sprite name=iconHit]消除对手能力上升状态，消除成功2回合内受到伤害减少200点（boss有效）",
       "args": [
         2,
         200
@@ -32,6 +33,7 @@
     },
     {
       "info": "若对手不处于异常状态则造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a85e0d7c"
+  "advance": null,
+  "hash": "e1182594"
 }

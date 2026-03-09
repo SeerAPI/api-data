@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先手攻击，则将所受伤害2倍反击给对手",
+      "analyze_info": "[sprite name=iconHit]若先手攻击，则将所受伤害2倍反击给对手（boss有效）",
       "args": [],
       "effect": {
         "id": 73,
@@ -29,6 +30,7 @@
     },
     {
       "info": "1回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]1回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         1,
         3
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "43df9342"
+  "advance": null,
+  "hash": "12cbbb0d"
 }

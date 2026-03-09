@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若自身处于异常状态则受到伤害减少300点",
+          "analyze_info": "[sprite name=iconHit]3回合内若自身处于异常状态则受到伤害减少300点（boss有效）",
           "args": [
             3,
             300
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内若受到攻击则自身防御+1 特防+1",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则自身防御+1 特防+1（boss有效）",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2b9b2818"
+  "hash": "de9da919"
 }

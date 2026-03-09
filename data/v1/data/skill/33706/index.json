@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于护盾状态下先制+1",
+      "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护盾[/color]状态下[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 1487,
@@ -29,6 +30,7 @@
     },
     {
       "info": "恢复自身n点体力（n=双方当前护盾值总和）",
+      "analyze_info": "[sprite name=iconHit]恢复自身n点体力（n=双方当前[color=#57c975]护盾[/color]值总和）（boss有效）",
       "args": [],
       "effect": {
         "id": 1497,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e92fac80"
+  "advance": null,
+  "hash": "58bf4a56"
 }

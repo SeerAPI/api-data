@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合内将受到的攻击伤害转化为自身体力",
+          "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的100%恢复自身体力（boss有效）",
           "args": [
             100
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "85485abd"
+  "hash": "81166c1"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手特防等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
       "args": [
         3,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "额外附加50点固定伤害",
+      "analyze_info": "[sprite name=iconHit]额外附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         50
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "879b5979"
+  "advance": null,
+  "hash": "6f8629cc"
 }

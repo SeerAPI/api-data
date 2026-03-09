@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除双方回合类效果，消除成功则双方冻伤",
+      "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]，消除成功则双方[color=#57c975]冻伤[/color]（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "双方任意一方处于能力下降状态均会附加200点固定伤害，同时解除自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]双方任意一方处于能力下降状态均会附加200点[color=#52a5f2]固定伤害[/color]，同时解除自身能力下降状态（boss有效）",
       "args": [
         200
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "下次攻击忽略对手双防值的25%",
+      "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的25%（boss有效）",
       "args": [
         25
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cb1c8b01"
+  "advance": null,
+  "hash": "ac2afc7c"
 }

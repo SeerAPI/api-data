@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "出手时本回合若未受到攻击伤害，则附加自身攻击值50%的百分比伤害，并恢复等量体力",
+          "analyze_info": "[sprite name=iconHit]出手时本回合若未受到攻击伤害，则附加自身攻击值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
           "args": [
             0,
             50
@@ -34,6 +35,7 @@
         },
         {
           "info": "若自身当前体力高于对手则附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若自身当前体力高于对手则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "135f7f1b"
+  "hash": "b1d7475"
 }

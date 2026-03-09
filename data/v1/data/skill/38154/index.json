@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内对手必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]2回合内对手必定打出[color=#57c975]致命一击[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "为对手附加300点护盾",
+      "analyze_info": "[sprite name=iconHit]为对手附加300点[color=#57c975]护盾[/color]",
       "args": [
         300
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "为对手附加300点护罩",
+      "analyze_info": "[sprite name=iconHit]为对手附加300点[color=#57c975]护罩[/color]",
       "args": [
         300
       ],
@@ -51,6 +54,7 @@
     },
     {
       "info": "100%令对手全属性+1",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "446bf391"
+  "advance": null,
+  "hash": "7427b7e7"
 }

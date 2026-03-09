@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于异常状态则恢复所有体力",
+      "analyze_info": "[sprite name=iconHit]若自身处于异常状态则恢复所有体力（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1b48a442"
+  "advance": null,
+  "hash": "fc1f34e1"
 }

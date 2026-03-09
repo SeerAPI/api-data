@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内令对手使用的属性技能无效（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合30%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合30%闪避对手攻击（boss有效）",
       "args": [
         3,
         30
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2efb126"
+  "advance": null,
+  "hash": "ef481717"
 }

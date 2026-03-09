@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，特攻+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，特攻+1，速度+1，命中+1（boss有效）",
       "args": [
         0,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "下回合受到致命伤害时残留1点体力",
+      "analyze_info": "[sprite name=iconHit]下回合受到致命伤害时残留1点体力（boss有效）",
       "args": [
         1
       ],
@@ -46,6 +48,7 @@
     },
     {
       "info": "3回合内自身攻击技能造成伤害的50%会恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]3回合内自身攻击技能造成伤害的50%会恢复自身体力（boss有效）",
       "args": [
         2,
         50
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "844baeb3"
+  "advance": null,
+  "hash": "debe3b29"
 }

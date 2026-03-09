@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手流血，技能威力翻倍",
+          "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]流血[/color]，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
           "args": [
             16
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "10%概率攻击3次",
+          "analyze_info": "[sprite name=iconHit]10%概率攻击3次（boss有效）",
           "args": [
             10,
             3
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b82c2627"
+  "hash": "923d72de"
 }

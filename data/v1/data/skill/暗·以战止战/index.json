@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "25%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]25%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
           "args": [
             25,
             2
@@ -44,6 +46,7 @@
         },
         {
           "info": "攻击结束时附加对手双防之和40%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]攻击结束时附加对手双防之和40%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             40
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1ddb004d"
+  "hash": "87c2d43c"
 }

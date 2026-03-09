@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1，对手烧伤时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]自身攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1，对手[color=#57c975]烧伤[/color]时强化效果翻倍（boss有效）",
       "args": [
         1,
         1,
@@ -37,6 +38,7 @@
     },
     {
       "info": "3回合内每回合恢复自身已损失体力的50%",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的50%（boss有效）",
       "args": [
         3,
         50
@@ -49,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4009a5f6"
+  "advance": null,
+  "hash": "ddeb673c"
 }

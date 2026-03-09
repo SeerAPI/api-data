@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则100%令对手冰封",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则100%令对手[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         100,
         15
@@ -32,6 +33,7 @@
     },
     {
       "info": "命中后100%令对方冻伤",
+      "analyze_info": "[sprite name=iconHit]命中后100%令对方[color=#57c975]冻伤[/color]（boss有效）",
       "args": [
         100
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "附加双方能力下降等级总和X65的固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加双方能力下降等级总和X65的[color=#52a5f2]固定伤害[/color]",
       "args": [
         65
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7ba30eb8"
+  "advance": null,
+  "hash": "470ae50d"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内若对手攻击技能命中则己方在场精灵100%做出绝对反击",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手攻击技能命中则[color=#52a5f2]己方[/color]在场精灵100%做出绝对反击（boss有效）",
       "args": [
         3,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "3回合内若受到的伤害超过300则对手疲惫2回合",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害超过300则对手[color=#57c975]疲惫[/color]2回合（boss有效）",
       "args": [
         3,
         300,
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5b5dd714"
+  "advance": null,
+  "hash": "862807bc"
 }

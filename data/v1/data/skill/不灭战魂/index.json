@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 3,
@@ -31,6 +32,7 @@
         },
         {
           "info": "1回合内受到致死攻击时则余下1点体力",
+          "analyze_info": "[sprite name=iconHit]1回合内受到致死攻击时则余下1点体力（boss有效）",
           "args": [
             1
           ],
@@ -41,7 +43,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "27700": {
       "id": 27700,
@@ -66,6 +69,7 @@
       "skill_effect": [
         {
           "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+          "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
           "args": [],
           "effect": {
             "id": 444,
@@ -74,6 +78,7 @@
         },
         {
           "info": "3回合内若造成伤害大于300则100%概率使对手焚烬",
+          "analyze_info": "[sprite name=iconHit]3回合内若造成伤害大于300则100%概率使对手[color=#57c975]焚烬[/color]",
           "args": [
             3,
             300,
@@ -87,6 +92,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -97,6 +103,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -108,8 +115,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f65a2129"
+  "hash": "4896e0a1"
 }

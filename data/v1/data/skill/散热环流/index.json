@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内受到物理攻击伤害减少75%",
+          "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击伤害减少75%（boss有效）",
           "args": [
             3,
             0,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内100%的概率使对手特殊攻击Miss",
+          "analyze_info": "[sprite name=iconHit]3回合内100%的概率使对手特殊攻击Miss（boss有效）",
           "args": [
             3,
             100,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8bd595d0"
+  "hash": "aa99ab55"
 }

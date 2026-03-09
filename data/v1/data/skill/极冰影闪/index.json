@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于护盾状态时先制+1并无视对手护盾效果",
+          "analyze_info": "[sprite name=iconComp]对手处于[color=#57c975]护盾[/color]状态时[color=#52a5f2]先制[/color]+1并无视对手[color=#57c975]护盾[/color]效果",
           "args": [],
           "effect": {
             "id": 2079,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，消除成功则令对手冻伤",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]冻伤[/color]",
           "args": [
             5
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "对手处于能力下降时吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]对手处于能力下降时[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "若对手处于冻伤则当回合击败对手时对方下只出战精灵100%冰封",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]冻伤[/color]则[color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手时对方下只出战精灵100%[color=#57c975]冰封[/color]",
           "args": [
             5,
             100,
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6dbc2493"
+  "hash": "9572cf9b"
 }

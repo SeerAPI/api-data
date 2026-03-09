@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做4~8次攻击",
+          "analyze_info": "1回合做4~8次攻击",
           "args": [
             4,
             8
@@ -34,7 +35,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "18147": {
       "id": 18147,
@@ -59,6 +61,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果反转成能力下降效果",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果反转成能力下降效果（boss有效）",
           "args": [],
           "effect": {
             "id": 143,
@@ -67,7 +70,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "30558": {
       "id": 30558,
@@ -92,6 +96,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手防御等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-2（boss有效）",
           "args": [
             1,
             100,
@@ -104,6 +109,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特防等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
           "args": [
             3,
             100,
@@ -116,8 +122,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8c8092a5"
+  "hash": "5333a709"
 }

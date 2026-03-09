@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害低于300则附加300点固定伤害，自身体力低于对手时固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则附加300点[color=#52a5f2]固定伤害[/color]，自身体力低于对手时[color=#52a5f2]固定伤害[/color]翻倍（boss有效）",
       "args": [
         300,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "未击败对手则自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a8de43ae"
+  "advance": null,
+  "hash": "97694bbb"
 }

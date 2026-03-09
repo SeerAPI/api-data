@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "降低对手所有PP一点，并恢复自身所有PP一点",
+      "analyze_info": "[sprite name=iconHit]降低对手所有PP一点，并恢复自身所有PP一点",
       "args": [],
       "effect": {
         "id": 444,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内若造成伤害大于300则100%概率使对手焚烬",
+      "analyze_info": "[sprite name=iconHit]3回合内若造成伤害大于300则100%概率使对手[color=#57c975]焚烬[/color]",
       "args": [
         3,
         300,
@@ -42,6 +44,7 @@
     },
     {
       "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -52,6 +55,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -64,5 +68,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f668ab2e"
+  "advance": null,
+  "hash": "cb387d3b"
 }

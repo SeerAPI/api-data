@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         0,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加攻击伤害21%的百分比伤害，每次使用增加10%，最高61%",
+      "analyze_info": "[sprite name=iconHit]附加攻击伤害21%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高61%（boss有效）",
       "args": [
         21,
         10,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "48568fb3"
+  "advance": null,
+  "hash": "7b819644"
 }

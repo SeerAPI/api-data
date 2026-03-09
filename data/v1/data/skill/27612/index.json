@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身命中等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
       "args": [
         5,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
       "args": [
         1,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
       "args": [
         3,
         100,
@@ -69,6 +73,7 @@
     },
     {
       "info": "立刻恢复自身300点体力，3回合后恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]立刻恢复自身300点体力，3回合后恢复自身全部体力",
       "args": [
         300,
         3
@@ -80,6 +85,7 @@
     },
     {
       "info": "3回合内每次直接攻击都会使对手防御和特防-1",
+      "analyze_info": "[sprite name=iconHit]3回合内每次直接攻击都会使对手防御和特防-1（boss有效）",
       "args": [
         3,
         -1
@@ -92,5 +98,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "caf37067"
+  "advance": null,
+  "hash": "bf3fe803"
 }

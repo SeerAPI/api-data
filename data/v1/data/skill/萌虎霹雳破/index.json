@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%（boss有效）",
           "args": [
             1,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "1回合做3~6次攻击，每次攻击都有15%的概率令自身攻击+1",
+          "analyze_info": "[sprite name=iconHit]1回合做3~6次攻击，每次攻击都有15%的概率令自身攻击+1（boss有效）",
           "args": [
             1,
             3,
@@ -53,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "84245429"
+  "hash": "eb0ad6c"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身所有体力",
       "args": [],
       "effect": {
         "id": 1167,
@@ -29,6 +30,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
       "args": [
         300,
         2
@@ -40,6 +42,7 @@
     },
     {
       "info": "造成的伤害低于300则附加自身最大体力30%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则附加自身最大体力30%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         300,
         30
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4b6c9611"
+  "advance": null,
+  "hash": "642ab914"
 }

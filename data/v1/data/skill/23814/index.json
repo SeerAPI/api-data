@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下回合其他攻击技能附加100点固定伤害",
+      "analyze_info": "[sprite name=iconHit]下回合其他攻击技能附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内若对手使用攻击技能则对手的防御-1，命中-1",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则对手的防御-1，命中-1（boss有效）",
       "args": [
         2,
         0,
@@ -50,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "223f5ece"
+  "advance": null,
+  "hash": "f4cf7305"
 }

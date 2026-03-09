@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升，吸取成功则下1次受到的攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升，[color=#52a5f2]吸取[/color]成功则下1次受到的攻击伤害减少50%（boss有效）",
       "args": [
         1,
         50
@@ -32,6 +33,7 @@
     },
     {
       "info": "攻击时若自身体力大于对手体力，则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]攻击时若自身体力大于对手体力，则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         300
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "若当前体力低于对手则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [],
       "effect": {
         "id": 954,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "26a8d3ec"
+  "advance": null,
+  "hash": "3e39d485"
 }

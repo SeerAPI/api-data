@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若打出致命一击则造成的攻击伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则造成的攻击伤害提升50%",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成伤害的50%恢复自身体力，若打出致命一击则附加恢复体力值等量的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若打出[color=#57c975]致命一击[/color]则附加恢复体力值等量的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         50
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "98548605"
+  "advance": null,
+  "hash": "5078db92"
 }

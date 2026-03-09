@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身满体力时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身满体力时强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内使用攻击技能80%随机附加1种异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内使用攻击技能80%随机附加1种异常状态",
           "args": [
             3,
             80
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "edf1e856"
+  "hash": "147460c1"
 }

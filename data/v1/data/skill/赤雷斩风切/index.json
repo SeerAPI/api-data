@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力低于最大体力的1/2则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1117,
@@ -31,6 +32,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则令对手下1次使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则令对手下1次使用的攻击技能无效",
           "args": [
             1
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "456f3831"
+  "hash": "80634a72"
 }

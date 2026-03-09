@@ -4,6 +4,7 @@
       "id": 1834,
       "desc": "回合开始时，若自身体力高于1/2则2回合内自身免疫并以害怕的形式反弹受到的异常状态；战斗阶段结束时，若自身体力低于1/2则令对手害怕，未触发则吸取对手最大体力1/3|自身击败对手后自身每有一层晦暗之根对方下只登场精灵随机1个技能PP值归0；自身被击败后令对手害怕，然后对手每有1级晦暗之因对手随机1个技能PP值归0并20%诅咒|（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>若自身体力高于1/2则2回合内自身<color=#64F9FA>免疫</color>并<b>以</b><b>害怕<b></b>的形式</b><color=#64F9FA>反弹</color>受到的异常状态\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若自身体力低于1/2则<color=#64F9FA>令对手害怕</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>吸取</color>对手最大体力1/3\r\n\r\n<indent=0><sprite=0><indent=16>被击败效果：\r\n<indent=16><sprite=3><indent=32>自身被击败后<color=#64F9FA>令对手害怕</color>，对手每有1级晦暗之因都额外令对手：\r\n<indent=16><sprite=3><indent=32>随机1个技能<b>PP值</b><color=#64F9FA>归0</color>\r\n<indent=16><sprite=3><indent=32>20%<color=#64F9FA>受到</color>诅咒\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身击败对手后自身每有一层晦暗之根对方下只登场精灵随机1个技能PP值<color=#64F9FA>归0</color>\r\n\r\n<indent=0><sprite=5><indent=15>晦暗之因（上限5级，下场保留）：\r\n<indent=16><sprite=6><indent=32>晦暗之因每回合结束后成长1级，达到5级时成熟\r\n<indent=16><sprite=6><indent=32>成长期时，晦暗之因每回合<color=#64F9FA>吸取</color>拥有者所有技能1点PP值\r\n<indent=32><sprite=4><indent=48>霍德尔在场时，吸取的PP值将恢复至霍德尔\r\n<indent=16><sprite=6><indent=32>成熟后，晦暗之因使拥有者<b>体力恢复效果</b><color=#64F9FA>减少</color>25%\r\n\r\n<indent=0><sprite=5><indent=15>晦暗之根（上限5层，下场保留）：\r\n<indent=16><sprite=6><indent=32>每持有1层，攻击命中时附加80点真实伤害",
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身体力高于1/2则2回合内自身免疫并[color=#52a5f2]以[/color][color=#57c975]害怕[/color]的形式[color=#57c975]反弹[/color]受到的异常状态；[color=#57c975]战斗阶段结束时[/color]，若自身体力低于1/2则令对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力1/3|[sprite name=dot4]自身[color=#57c975]击败对手后[/color]自身每有1层[color=#f35555]秽黯之根[/color][color=#52a5f2]对方[/color]下只[color=#52a5f2]出战[/color]精灵随机1个技能PP值归0；自身[color=#57c975]被击败后[/color]令对手[color=#57c975]害怕[/color]，[color=#52a5f2]然后[/color]对手每有1级[color=#f35555]晦暗之因[/color]对手随机1个技能PP值归0并20%[color=#57c975]诅咒[/color]",
       "pve_effective": false,
       "intensified": false,
       "is_adv": true,
@@ -43,8 +44,12 @@
       "from": {
         "id": 1204,
         "url": "https://api.seerapi.com/v1/soulmark/1204"
+      },
+      "advance": {
+        "id": 18,
+        "url": "https://api.seerapi.com/v1/pet_advance/18"
       }
     }
   },
-  "hash": "9037bc99"
+  "hash": "3cf94f1d"
 }

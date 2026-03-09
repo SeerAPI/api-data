@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若使用技能则恢复200点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复200点体力值（boss有效）",
           "args": [
             3,
             200
@@ -34,6 +35,7 @@
         },
         {
           "info": "2回合内每回合被攻击所受到的伤害不超过250",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过250（boss有效）",
           "args": [
             2,
             250
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3a23c001"
+  "hash": "5001daa0"
 }

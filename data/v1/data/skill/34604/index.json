@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中后50%令对手冰封，自身每损失10%的体力概率提升10%",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对手[color=#57c975]冰封[/color]，自身每损失10%的体力概率提升10%",
       "args": [
         50,
         15,
@@ -34,6 +35,7 @@
     },
     {
       "info": "附加200点固定伤害，每次使用额外附加50点，最高400点，遇到天敌时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，每次使用额外附加50点，最高400点，遇到天敌时效果翻倍（boss有效）",
       "args": [
         200,
         50,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "aa9e3bff"
+  "advance": null,
+  "hash": "50ea4a7c"
 }

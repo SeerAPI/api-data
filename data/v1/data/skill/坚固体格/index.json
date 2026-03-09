@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内每回合被攻击所受到的伤害不超过280",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过280（boss有效）",
           "args": [
             2,
             280
@@ -34,7 +35,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "26103": {
       "id": 26103,
@@ -59,6 +61,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -69,6 +72,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -79,6 +83,7 @@
         },
         {
           "info": "3回合内若受到攻击则自身防御+1 特防+1",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则自身防御+1 特防+1（boss有效）",
           "args": [
             3
           ],
@@ -89,8 +94,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d255a0b0"
+  "hash": "23616b3b"
 }

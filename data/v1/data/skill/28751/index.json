@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变自身防御等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+2（boss有效）",
       "args": [
         1,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+2（boss有效）",
       "args": [
         3,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能无效时，消除对手回合类效果且100%令对手沉默3回合",
+      "analyze_info": "[sprite name=iconInherent]技能无效时，消除对手[color=#52a5f2]回合类效果[/color]且100%令对手[color=#57c975]沉默[/color]3回合",
       "args": [],
       "effect": {
         "id": 1861,
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f51e1b3"
+  "advance": null,
+  "hash": "f6616de6"
 }

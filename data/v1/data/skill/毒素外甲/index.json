@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内受到攻击则对手下回合受到的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击则对手下回合受到的伤害翻倍（boss有效）",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "将自身下1次受到的攻击伤害转化为等量护盾，最多获得300点",
+          "analyze_info": "[sprite name=iconHit]将自身下1次受到的攻击伤害[color=#52a5f2]转化[/color]为等量[color=#57c975]护盾[/color]，最多获得300点",
           "args": [
             1,
             300
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "abf9efa2"
+  "hash": "cedd6e78"
 }

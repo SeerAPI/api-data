@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成的伤害低于200则为自身附加200点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于200则为自身附加200点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             200,
             200
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内若受到攻击，消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击，消除对手能力提升状态（boss有效）",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b72f5f63"
+  "hash": "ef3eddd1"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时全属性+1",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "50%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内自身每处于一种能力提升或下降状态时都会回复50点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内自身每处于一种能力提升或下降状态时都会回复50点体力（boss有效）",
           "args": [
             3,
             50
@@ -55,6 +58,7 @@
         },
         {
           "info": "3回合内若对手处于能力提升状态，则每回合都会受到200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手处于能力提升状态，则每回合都会受到200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             200
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3fd03040"
+  "hash": "a6bf6970"
 }

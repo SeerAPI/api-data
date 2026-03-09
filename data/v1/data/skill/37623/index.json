@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]先出手时消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1254,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手处于能力提升状态，100%概率令对手寄生",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态，100%概率令对手[color=#57c975]寄生[/color]（boss有效）",
       "args": [
         100,
         4
@@ -40,6 +42,7 @@
     },
     {
       "info": "若对手处于能力下降状态则100%概率流血",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则100%概率[color=#57c975]流血[/color]（boss有效）",
       "args": [
         100,
         16
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9d9cf348"
+  "advance": null,
+  "hash": "6256a9a9"
 }

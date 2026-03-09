@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "4回合内若受到攻击则有100%概率令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]4回合内若受到攻击则有100%概率令对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             4,
             100,
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b7da68da"
+  "hash": "ec4ab5f3"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
           "args": [],
           "effect": {
             "id": 697,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时下回合受到的伤害降低200点",
+          "analyze_info": "[sprite name=iconHit]后出手时下回合受到的伤害降低200点（boss有效）",
           "args": [
             200
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "55e4f66b"
+  "hash": "59f366ca"
 }

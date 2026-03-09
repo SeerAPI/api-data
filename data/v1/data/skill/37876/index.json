@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），若消除成功则使对手下1次使用的属性技能失效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "出手时本回合若未受到伤害则对手下1回合先制-2",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若未受到伤害则对手下1回合[color=#52a5f2]先制[/color]-2",
       "args": [
         1,
         2
@@ -42,6 +44,7 @@
     },
     {
       "info": "附加自身当前体力30%的百分比伤害，连续使用每次增加15%，最高60%",
+      "analyze_info": "[sprite name=iconHit]附加自身当前体力30%的[color=#52a5f2]百分比伤害[/color]，连续使用每次增加15%，最高60%（boss有效）",
       "args": [
         30,
         15,
@@ -54,6 +57,7 @@
     },
     {
       "info": "技能无效时，为对手附加3回合的琼花仙荼",
+      "analyze_info": "[sprite name=iconInherent]技能无效时，为对手附加3回合的[color=#f35555]琼花仙荼[/color]",
       "args": [],
       "effect": {
         "id": 2288,
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9c8592dc"
+  "advance": null,
+  "hash": "47ec77dc"
 }

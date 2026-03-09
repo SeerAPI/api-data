@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功3回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当回合造成的攻击伤害若高于300则100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]害怕[/color]",
       "args": [
         300,
         100,
@@ -43,6 +45,7 @@
     },
     {
       "info": "若造成的伤害不足300，则下2回合的攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则下2回合的攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         300,
         2
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "74cbbbe7"
+  "advance": null,
+  "hash": "c4a1a6bf"
 }

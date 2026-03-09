@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则对手下1回合技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手下1回合技能无效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加自身双防之和20%的百分比伤害，对手每有1只留魂之蛊额外附加5%，对手未受到百分比伤害时自身获得1层封邪之嶂且每有1层封邪之嶂为对手种下1只留魂之蛊",
+      "analyze_info": "[sprite name=iconHit]附加自身双防之和20%的[color=#52a5f2]百分比伤害[/color]，对手每有1只留魂之蛊额外附加5%，对手未受到[color=#52a5f2]百分比伤害[/color]时自身获得1层封邪之嶂且每有1层封邪之嶂为对手种下1只留魂之蛊",
       "args": [
         20,
         5
@@ -42,6 +44,7 @@
     },
     {
       "info": "未击败对手则令对方场下阵亡的首位精灵消逝",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令对方场下阵亡的首位精灵[color=#57c975]消逝[/color]",
       "args": [
         1
       ],
@@ -53,5 +56,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "86d5304a"
+  "advance": {
+    "id": 14,
+    "url": "https://api.seerapi.com/v1/pet_advance/14"
+  },
+  "hash": "4f4db55d"
 }

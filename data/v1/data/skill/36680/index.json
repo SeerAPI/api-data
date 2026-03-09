@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身为对手天敌则对手下次使用的攻击技能必定MISS",
+      "analyze_info": "[sprite name=iconHit]若自身为对手天敌则对手下次使用的攻击技能必定MISS",
       "args": [],
       "effect": {
         "id": 2029,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若造成的伤害低于300，则所有技能的PP值恢复10点",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害低于300，则所有技能的PP值恢复10点（boss有效）",
       "args": [
         300,
         10
@@ -40,6 +42,7 @@
     },
     {
       "info": "若对手下次使用的攻击技能未命中则令对手害怕",
+      "analyze_info": "[sprite name=iconHit]若对手下次使用的攻击技能未命中则令对手[color=#57c975]害怕[/color]",
       "args": [
         6
       ],
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "74de4f09"
+  "advance": null,
+  "hash": "13bc917"
 }

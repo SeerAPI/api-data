@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若使用技能则恢复100点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复100点体力值（boss有效）",
           "args": [
             3,
             100
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f75a2d60"
+  "hash": "1cf348d5"
 }

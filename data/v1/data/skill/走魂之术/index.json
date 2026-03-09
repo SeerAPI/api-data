@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]2回合内令对手使用的属性技能无效（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "4回合内若对手造成的伤害低于300则免疫该伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内若对手造成的伤害低于300则免疫该伤害（boss有效）",
           "args": [
             4,
             300
@@ -54,6 +57,7 @@
         },
         {
           "info": "3回合内受到攻击后100%使对手害怕，未触发则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击后100%使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             3,
             100,
@@ -67,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "20e75045"
+  "hash": "9f2c7e22"
 }

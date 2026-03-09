@@ -4,6 +4,7 @@
       "id": 1686,
       "desc": "战斗阶段结束时附加当回合自身造成攻击伤害60%的百分比伤害，若当回合未造成攻击伤害则下回合攻击技能先制+1；先出手时自身攻击技能必定命中，后出手时自身属性技能命中前恢复300点体力（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时<color=#64F9FA>附加</color>当回合自身造成攻击伤害60%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><indent=48>若当回合未造成攻击伤害则下回合攻击技能<b>先制</b>+1\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>先出手时自身攻击技能<color=#64F9FA>必定命中</color>\r\n<indent=16><sprite=3><indent=32>后出手时自身属性技能命中前<color=#64F9FA>恢复</color>300点<b>体力</b>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -41,8 +42,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "f4f0ffeb"
+  "hash": "7ab760a8"
 }

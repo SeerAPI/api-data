@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "造成伤害大于300，则下1回合自己所有直接攻击先制+1",
+          "analyze_info": "[sprite name=iconHit]造成伤害大于300，则下1回合自己所有直接攻击[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             300,
             1,
@@ -35,8 +36,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "279744db"
+  "hash": "eb4ea468"
 }

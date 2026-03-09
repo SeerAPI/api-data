@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "随机获得1句自身未获得过的唱词",
+      "analyze_info": "[sprite name=iconHit]随机获得1句自身未获得过的[color=#f35555]唱词[/color]",
       "args": [],
       "effect": {
         "id": 2378,
@@ -29,6 +30,7 @@
     },
     {
       "info": "无视对手护盾承伤效果，每无视50点自身下次攻击造成的伤害提升25%",
+      "analyze_info": "[sprite name=iconHit]无视对手[color=#57c975]护盾[/color]承伤效果，每无视50点自身下次攻击造成的伤害提升25%",
       "args": [
         50,
         25
@@ -40,6 +42,7 @@
     },
     {
       "info": "下2回合攻击忽略对手25%的双防值",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手25%的双防值",
       "args": [
         2,
         25
@@ -51,6 +54,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能后100%令对手焚烬，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能后100%令对手[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         3,
         100,
@@ -63,6 +67,7 @@
     },
     {
       "info": "自身下次被击败后，下只精灵所有伤害抗性提升15%",
+      "analyze_info": "[sprite name=iconHit]自身下次[color=#57c975]被击败[/color]后，下只精灵所有伤害抗性提升15%",
       "args": [
         15
       ],
@@ -73,6 +78,7 @@
     },
     {
       "info": "下次击败对手时，令对方下只出战精灵焚烬",
+      "analyze_info": "[sprite name=iconHit]下次[color=#57c975]击败[/color]对手时，令对方下只出战精灵[color=#57c975]焚烬[/color]",
       "args": [
         22
       ],
@@ -84,5 +90,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "83701540"
+  "advance": null,
+  "hash": "13efb613"
 }

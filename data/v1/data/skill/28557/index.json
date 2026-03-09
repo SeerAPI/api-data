@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时当回合对手使用技能后若自身体力为0，则令自身体力等于最大体力",
+      "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]当回合[/color]对手使用技能后若自身体力为0，则令自身体力等于最大体力（boss有效）",
       "args": [],
       "effect": {
         "id": 561,
@@ -29,6 +30,7 @@
     },
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "4回合内若对手造成的伤害低于250，则对手害怕",
+      "analyze_info": "[sprite name=iconHit]4回合内若对手造成的伤害低于250，则对手[color=#57c975]害怕[/color]",
       "args": [
         4,
         250,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e077a3e"
+  "advance": null,
+  "hash": "ba69d55b"
 }

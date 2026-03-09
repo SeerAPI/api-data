@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时60%使对手害怕3回合",
+      "analyze_info": "[sprite name=iconHit]先出手时60%使对手[color=#57c975]害怕[/color]3回合（boss有效）",
       "args": [
         60,
         6,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若当前体力低于对手则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "576638d5"
+  "advance": null,
+  "hash": "bb9e0e94"
 }

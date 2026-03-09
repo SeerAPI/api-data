@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
           "args": [
             50
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "后出手时100%令对手对手烧伤，未触发则使自身下2回合必定致命一击",
+          "analyze_info": "[sprite name=iconHit]后出手时100%令对手对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
           "args": [
             100,
             2,
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a1f8ee4c"
+  "hash": "40f94890"
 }

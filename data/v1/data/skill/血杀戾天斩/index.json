@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "未击败对手下2回合自身攻击先制+1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手下2回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             2,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "击败对手则对方下只精灵出战时己方在场精灵吸取其最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color][color=#52a5f2]己方[/color]在场精灵[color=#52a5f2]吸取[/color]其最大体力的1/3",
           "args": [
             3
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7bf6210f"
+  "hash": "d5b026a9"
 }

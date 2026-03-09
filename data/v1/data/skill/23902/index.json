@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下2回合令对手所有技能先制-1",
+      "analyze_info": "[sprite name=iconHit]下2回合令对手所有技能[color=#52a5f2]先制[/color]-1（boss有效）",
       "args": [
         2,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "60%的概率令对手随机1项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]60%的概率令对手随机1项技能PP值归零",
       "args": [
         60,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d1a4bb2e"
+  "advance": null,
+  "hash": "43dc533f"
 }

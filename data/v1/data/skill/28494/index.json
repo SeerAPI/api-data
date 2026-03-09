@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合攻击附加自身双防值总和40%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合攻击附加自身双防值总和40%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         4,
         40
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内若受到攻击，对手防御等级-1、特防等级-1、命中等级-1",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击，对手防御等级-1、特防等级-1、命中等级-1（boss有效）",
       "args": [
         3
       ],
@@ -52,6 +55,7 @@
     },
     {
       "info": "3回合内若对手使用属性技能则随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的一种异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]麻痹[/color]、[color=#57c975]害怕[/color]、[color=#57c975]睡眠[/color]中的一种异常状态（boss有效）",
       "args": [
         3
       ],
@@ -63,5 +67,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b0192725"
+  "advance": null,
+  "hash": "d2c636ab"
 }

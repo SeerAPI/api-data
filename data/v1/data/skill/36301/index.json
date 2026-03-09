@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力下降状态则先制+3",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
       "args": [],
       "effect": {
         "id": 881,
@@ -29,6 +30,7 @@
     },
     {
       "info": "将自身的能力下降状态双倍反馈给对手，反馈成功则对手下1次技能无效",
+      "analyze_info": "[sprite name=iconHit]将自身的能力下降状态双倍反馈给对手，反馈成功则对手下1次技能无效",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "伤害计算时克制倍数至少为1，若自身拥有1层未来奇点则克制倍数至少为1.25，自身拥有2层未来奇点则克制倍数至少为1.5，自身拥有3层未来奇点则克制倍数至少为2",
+      "analyze_info": "[sprite name=iconInherent]伤害计算时克制倍数至少为1，若自身拥有1层[color=#f35555]未来奇点[/color]则克制倍数至少为1.25，自身拥有2层[color=#f35555]未来奇点[/color]则克制倍数至少为1.5，自身拥有3层[color=#f35555]未来奇点[/color]则克制倍数至少为2（boss有效）",
       "args": [],
       "effect": {
         "id": 1893,
@@ -48,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3624b2dc"
+  "advance": null,
+  "hash": "f9d5acf9"
 }

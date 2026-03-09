@@ -3,6 +3,7 @@
   "args_num": 0,
   "info": "100%复制对手当回合释放的技能，若对手当回合使用的技能为攻击技能则令对手随机1个技能PP值归零，若对手当回合使用的技能为属性技能则令对手下回合先制-2",
   "info_formatting_adjustment": "100%复制对手当回合释放的技能\r\n--><condition>若对手当回合使用的技能为攻击技能</condition>则令对手随机1个技能PP值归零\r\n--><condition>若对手当回合使用的技能为属性技能</condition>则令对手下回合先制-2",
+  "analyze_info": "[sprite name=iconInherent]100%复制对手[color=#52a5f2]当回合[/color]释放的技能，若对手[color=#52a5f2]当回合[/color]使用的技能为攻击技能则令对手随机1个技能PP值归零，若对手[color=#52a5f2]当回合[/color]使用的技能为属性技能则令对手下回合[color=#52a5f2]先制[/color]-2（boss有效）",
   "pve_effective": true,
   "param": null,
   "skill": [
@@ -25,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/2566"
     }
   ],
-  "hash": "8f18fc4d"
+  "hash": "5dcaf2a3"
 }

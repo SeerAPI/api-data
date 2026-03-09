@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若未击败对手则下2回合攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "5%的概率造成3倍伤害，每次使用概率增加5%，最高概率20%",
+      "analyze_info": "[sprite name=iconHit]5%的概率造成3倍伤害，每次使用概率增加5%，最高概率20%（boss有效）",
       "args": [
         5,
         3,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8b38d740"
+  "advance": null,
+  "hash": "1aeaffc2"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下回合自身造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则下回合自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若造成的伤害不足250，则回合结束时对手损失250点固定体力",
+          "analyze_info": "[sprite name=iconHit]若造成的伤害不足250，则[color=#57c975]回合结束时[/color]对手损失250点固定体力（boss有效）",
           "args": [
             250,
             250
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8a01b96f"
+  "hash": "270bb594"
 }

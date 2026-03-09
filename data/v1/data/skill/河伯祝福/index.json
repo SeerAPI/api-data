@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内对手每回合速度和命中等级-1",
+          "analyze_info": "[sprite name=iconHit]3回合内对手每回合速度和命中等级-1（boss有效）",
           "args": [
             3,
             -1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内有30%概率免疫对手的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内有30%概率[color=#52a5f2]免疫对手的攻击[/color]伤害",
           "args": [
             3,
             30
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a9ff36c4"
+  "hash": "a6740b99"
 }

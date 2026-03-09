@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则3回合内躲避所有攻击",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则3回合内躲避所有攻击",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机附加150-250点固伤，对手处于能力下降状态时固伤变为200-300点",
+      "analyze_info": "[sprite name=iconHit]随机附加150-250点固伤，对手处于能力下降状态时固伤变为200-300点（boss有效）",
       "args": [
         150,
         250,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4aede8e9"
+  "advance": null,
+  "hash": "9103f510"
 }

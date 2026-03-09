@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "命中时6%的概率秒杀对方",
+      "analyze_info": "[sprite name=iconHit]命中时6%的概率[color=#52a5f2]秒杀[/color]对方（boss有效）",
       "args": [
         6
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内致命一击率上升9/16",
+      "analyze_info": "[sprite name=iconHit]2回合内[color=#57c975]致命一击[/color]率上升9/16（boss有效）",
       "args": [
         2,
         9
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ec82b611"
+  "advance": null,
+  "hash": "28fd4382"
 }

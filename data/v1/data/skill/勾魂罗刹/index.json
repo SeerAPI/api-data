@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             0,
             7
@@ -34,6 +35,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则对手害怕",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bfe6cd01"
+  "hash": "701ad0cf"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过200点",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则3回合内对手造成的攻击伤害不超过200点（boss有效）",
           "args": [
             3,
             200
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时附加自身当前体力30%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]后出手时附加自身当前体力30%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             30
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2d4c658d"
+  "hash": "4e339056"
 }

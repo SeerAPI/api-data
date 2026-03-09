@@ -2,6 +2,7 @@
   "id": 2046,
   "desc": "战斗开始时，为己方添加白幕，若自身的1号位技能名中存在颜色，则将己方的幕染为对应的颜色；自身登场时，若对方没有任何颜色的幕，则为对方添加白幕；任意一方幕的颜色改变时，当回合结束后位于场内的自身恢复最大体力的1/3与所有技能1点PP值|（boss无效）",
   "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]战斗开始时，为[color=#52a5f2]己方[/color]添加[color=#f35555]白幕[/color]，若自身的[color=#57c975]1号位技能[/color]名中存在颜色，则将[color=#57c975]己方[/color]的[color=#f35555]幕[/color]染为对应的颜色；自身[color=#57c975]登场时[/color]，若对方没有任何颜色的[color=#f35555]幕[/color]，则为对方添加[color=#f35555]白幕[/color]|[sprite name=dot4]任意一方[color=#f35555]幕[/color]的颜色[color=#57c975]改变[/color]时，[color=#52a5f2]当回合结束后(329)[/color]位于场内的自身恢复最大体力的1/3与所有技能1点PP值",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -34,5 +35,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "c5fbebd5"
+  "advance": null,
+  "hash": "df24d24f"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则下2回合对手属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "命中后50%令对手睡眠，自身每损失20%的体力概率提升10%",
+      "analyze_info": "[sprite name=iconHit]命中后50%令对手[color=#57c975]睡眠[/color]，自身每损失20%的体力概率提升10%",
       "args": [
         50,
         8,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1a19f2f5"
+  "advance": null,
+  "hash": "2b02cd2e"
 }

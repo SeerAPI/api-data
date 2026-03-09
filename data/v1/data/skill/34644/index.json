@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手时将当回合护盾所承受的伤害值以百分比伤害的形式100%反弹给对手",
+      "analyze_info": "[sprite name=iconHit]后出手时将[color=#52a5f2]当回合[/color][color=#57c975]护盾[/color]所承受的伤害值[color=#52a5f2]以[/color][color=#52a5f2]百分比伤害[/color]的形式100%[color=#52a5f2]反弹[/color]给对手",
       "args": [
         100
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "暴击率提升40%，每次使用额外提升10%，最高概率100%",
+      "analyze_info": "[sprite name=iconHit]暴击率提升40%，每次使用额外提升10%，最高概率100%（boss有效）",
       "args": [
         40,
         10,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b412a480"
+  "advance": null,
+  "hash": "f9538f81"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 180,
@@ -31,6 +32,7 @@
         },
         {
           "info": "恢复自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/3（boss有效）",
           "args": [
             3
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "296cca8e"
+  "hash": "1ece733"
 }

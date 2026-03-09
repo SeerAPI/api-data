@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机使自己3项能力+1",
+          "analyze_info": "[sprite name=iconHit]随机使自己3项能力+1（boss有效）",
           "args": [
             3,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若对手不处于异常状态则下3回合攻击50%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则下3回合攻击50%令对手[color=#57c975]害怕[/color]",
           "args": [
             3,
             50,
@@ -46,6 +48,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定打出致命一击",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bb0baaf3"
+  "hash": "1e8116cb"
 }

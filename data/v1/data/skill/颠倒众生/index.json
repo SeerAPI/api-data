@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手攻击等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-1（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特攻等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-1（boss有效）",
           "args": [
             2,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "5回合内若受到伤害高于180则对手中毒",
+          "analyze_info": "[sprite name=iconHit]5回合内若受到伤害高于180则对手[color=#57c975]中毒[/color]（boss有效）",
           "args": [
             5,
             180,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c58f58b4"
+  "hash": "8e9af209"
 }

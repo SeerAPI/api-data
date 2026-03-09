@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "3回合内若对方使用属性技能，则60%使对方烧伤",
+          "analyze_info": "[sprite name=iconHit]3回合内若对方使用属性技能，则60%使对方[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             3,
             60,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4e2cb8ea"
+  "hash": "8bbe3955"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，若消除状态成功，则自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除状态成功，则自身攻击等级+2（boss有效）",
       "args": [
         0,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "自身处于能力提升状态时造成的伤害提升30%，先出手时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成的伤害提升30%，先出手时效果翻倍（boss有效）",
       "args": [
         30
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 709,
@@ -51,5 +54,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7845bfc9"
+  "advance": null,
+  "hash": "8ef25d91"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身体力高于对手时先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身体力高于对手时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "自身每处于1种能力提升状态则附加50点固定伤害，遇到天敌时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态则附加50点[color=#52a5f2]固定伤害[/color]，遇到天敌时效果翻倍（boss有效）",
           "args": [
             1,
             50
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7e989e76"
+  "hash": "e9efc998"
 }

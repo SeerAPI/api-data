@@ -2,6 +2,7 @@
   "id": 672,
   "desc": "回合开始时若对手处于能力提升状态则消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效（该效果为回合类效果）；|每次对手使用攻击技能则命中前随机降低对手所有技能1-2点PP值；|战斗阶段结束时若当回合自身未受到攻击伤害则令对手随机1项技能的PP值归零|（PP值归零效果自身体力为0时也可触发，且会重复作用于PP值已经为0的技能，所有特效boss无效）",
   "desc_formatting_adjustment": null,
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +42,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "c3759a7c"
+  "advance": null,
+  "hash": "e8f8a4fe"
 }

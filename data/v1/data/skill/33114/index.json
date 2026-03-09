@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手处于能力下降状态造成的伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]对手处于能力下降状态造成的伤害提升50%",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "随机附加150-250点固伤，对手处于能力下降状态时固伤变为200-300点",
+      "analyze_info": "[sprite name=iconHit]随机附加150-250点固伤，对手处于能力下降状态时固伤变为200-300点（boss有效）",
       "args": [
         150,
         250,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e3f17080"
+  "advance": null,
+  "hash": "45ba2f19"
 }

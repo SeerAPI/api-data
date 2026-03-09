@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则令自身[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "命中后为对手种下一颗黑暗之种（黑暗之种经过4回合逐渐成长，每回合结束使对手随机1个技能PP值-1，长大后使对手所有技能PP值-1）",
+      "analyze_info": "[sprite name=iconHit]命中后为对手种下一颗[color=#f35555]黑暗之种[/color]（[color=#f35555]黑暗之种[/color]经过4回合逐渐成长，每回合结束使对手随机1个技能PP值-1，长大后使对手所有技能PP值-1）",
       "args": [],
       "effect": {
         "id": 1501,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1fa4273e"
+  "advance": null,
+  "hash": "e2b12eae"
 }

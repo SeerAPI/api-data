@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%令对手害怕，若没有触发害怕效果，则对手速度-1，命中-1",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]害怕[/color]，若没有触发[color=#57c975]害怕[/color]效果，则对手速度-1，命中-1（boss有效）",
           "args": [
             50,
             0,
@@ -39,8 +40,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8a73061b"
+  "hash": "1a500b03"
 }

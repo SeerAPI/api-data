@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身体力高于对手时先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身体力高于对手时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -41,6 +43,7 @@
         },
         {
           "info": "威力随机，随机范围120-240，连续使用每次威力提升20，最高提升至240",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围120-240，连续使用每次[color=#52a5f2]威力[/color]提升20，最高提升至240（boss有效）",
           "args": [
             120,
             240,
@@ -54,6 +57,7 @@
         },
         {
           "info": "命中对手后有50%使对手害怕，先出手时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]命中对手后有50%使对手[color=#57c975]害怕[/color]，先出手时概率翻倍（boss有效）",
           "args": [
             50,
             6
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cd697bc4"
+  "hash": "f4032897"
 }

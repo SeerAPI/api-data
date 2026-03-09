@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，15%改变对手速度等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，15%改变对手速度等级-1（boss有效）",
           "args": [
             4,
             15,
@@ -35,7 +36,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "35525": {
       "id": 35525,
@@ -60,6 +62,7 @@
       "skill_effect": [
         {
           "info": "15%概率攻击3次",
+          "analyze_info": "[sprite name=iconHit]15%概率攻击3次（boss有效）",
           "args": [
             15,
             3
@@ -71,8 +74,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6a63146e"
+  "hash": "253e688f"
 }

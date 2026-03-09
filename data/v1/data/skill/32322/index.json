@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
       "args": [
         150,
         300,
@@ -34,6 +35,7 @@
     },
     {
       "info": "随机附加150-250点固定伤害，自身处于能力提升状态时变为250-350点固定伤害",
+      "analyze_info": "[sprite name=iconHit]随机附加150-250点[color=#52a5f2]固定伤害[/color]，自身处于能力提升状态时变为250-350点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150,
         250,
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a810c488"
+  "advance": null,
+  "hash": "25ebe234"
 }

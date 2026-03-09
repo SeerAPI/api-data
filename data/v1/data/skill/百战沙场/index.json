@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身体力低于最大体力的1/2则先制+2",
+          "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [],
           "effect": {
             "id": 1117,
@@ -31,6 +32,7 @@
         },
         {
           "info": "获得350点护盾，护盾消失时附加250点固定伤害",
+          "analyze_info": "[sprite name=iconHit]获得350点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时附加250点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             350,
             250
@@ -42,6 +44,7 @@
         },
         {
           "info": "获得350点护罩，护罩消失时恢复自身250点体力",
+          "analyze_info": "[sprite name=iconHit]获得350点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时恢复自身250点体力（boss有效）",
           "args": [
             350,
             250
@@ -53,6 +56,7 @@
         },
         {
           "info": "3回合内自身能力提升状态被消除或吸取时附加对手最大体力1/3的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             3,
             3
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8e1b0a1f"
+  "hash": "d79364f2"
 }

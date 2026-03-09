@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "额外附加50点固定伤害",
+          "analyze_info": "[sprite name=iconHit]额外附加50点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手每处于一种能力下降状态时附加70点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对手每处于一种能力下降状态时附加70点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             70
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ffac7a9f"
+  "hash": "9257aaff"
 }

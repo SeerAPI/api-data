@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做7~28次攻击",
+          "analyze_info": "1回合做7~28次攻击",
           "args": [
             7,
             28
@@ -34,6 +35,7 @@
         },
         {
           "info": "随机附加70~280点固定伤害",
+          "analyze_info": "[sprite name=iconHit]随机附加70~280点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             70,
             280
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e3005020"
+  "hash": "a798b225"
 }

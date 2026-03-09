@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不会低于280",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不会低于280（boss有效）",
       "args": [
         280
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若先出手则当回合闪避对手的攻击技能",
+      "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]闪避对手的攻击技能",
       "args": [],
       "effect": {
         "id": 720,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2311b78"
+  "advance": null,
+  "hash": "6eb1c312"
 }

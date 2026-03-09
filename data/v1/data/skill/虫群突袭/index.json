@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则使对手随机1个技能PP归零",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则使对手随机1个技能PP归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "使对手随机1项技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]使对手随机1项技能的PP值归零",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4549f7e4"
+  "hash": "d125f5b0"
 }

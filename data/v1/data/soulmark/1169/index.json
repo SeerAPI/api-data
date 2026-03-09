@@ -2,6 +2,7 @@
   "id": 1169,
   "desc": "回合开始时，若自身处于能力提升状态则当回合免疫低于300的攻击伤害，若自身不处于能力提升状态则当回合造成的攻击伤害不低于300（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合<color=#64F9FA>免疫</color>低于300的<b>攻击伤害</b>\r\n<indent=32><sprite=4><indent=48>若自身不处于能力提升状态则当回合造成的<b>攻击伤害</b><color=#64F9FA>无法低于</color>300",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -31,5 +32,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "fe1e2ee0"
+  "advance": null,
+  "hash": "e4c12ada"
 }

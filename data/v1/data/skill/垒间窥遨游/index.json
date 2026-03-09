@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "恢复自身n点体力（n=双方当前护盾值总和）",
+          "analyze_info": "[sprite name=iconHit]恢复自身n点体力（n=双方当前[color=#57c975]护盾[/color]值总和）（boss有效）",
           "args": [],
           "effect": {
             "id": 1497,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手所有护盾效果，消除成功则令对手随机2个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]效果，消除成功则令对手随机2个技能PP值归零",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "将当回合护盾所承受的伤害值以百分比伤害的形式100%反弹给对手，若护盾未承受伤害值则使对手随机的1个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]将[color=#52a5f2]当回合[/color][color=#57c975]护盾[/color]所承受的伤害值[color=#52a5f2]以[/color][color=#52a5f2]百分比伤害[/color]的形式100%[color=#52a5f2]反弹[/color]给对手，若[color=#57c975]护盾[/color]未承受伤害值则使对手随机的1个技能PP值归零",
           "args": [
             100,
             1
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "30c152cb"
+  "hash": "cf62b1b2"
 }

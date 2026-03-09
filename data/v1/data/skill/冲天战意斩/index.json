@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消耗自身所有护盾值，造成等量固定伤害",
+          "analyze_info": "[sprite name=iconHit]消耗自身所有[color=#57c975]护盾[/color]值，造成等量[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1017,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]后出手时自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f7bd936b"
+  "hash": "fbc485b3"
 }

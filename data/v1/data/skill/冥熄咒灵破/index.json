@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "80%的概率使对手害怕，未触发则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]80%的概率使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             80,
             6,
@@ -35,6 +36,7 @@
         },
         {
           "info": "命中则80%使对手烧伤，未触发则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]命中则80%使对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则附加300点[color=#52a5f2]固定伤害[/color]",
           "args": [
             80,
             2,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d0d49beb"
+  "hash": "9d64cb33"
 }

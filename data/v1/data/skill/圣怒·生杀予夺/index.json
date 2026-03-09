@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手当前被处决精灵体力高于最大体力的1/2则为己方场上附加1柄圣剑",
+          "analyze_info": "[sprite name=iconHit]对手当前被[color=#f35555]处决[/color]精灵体力高于最大体力的1/2则为[color=#52a5f2]己方[/color]场上附加1柄[color=#f35555]圣剑[/color]",
           "args": [],
           "effect": {
             "id": 1763,
@@ -31,6 +32,7 @@
         },
         {
           "info": "对手当前不存在被处决精灵或被处决精灵体力低于最大体力的1/2则下回合重新发动处决",
+          "analyze_info": "[sprite name=iconHit]对手当前不存在被[color=#f35555]处决[/color]精灵或被[color=#f35555]处决[/color]精灵体力低于最大体力的1/2则下回合重新发动[color=#f35555]处决[/color]",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "附加自身最大体力25%的百分比伤害并恢复等量体力值，若对手存在处决印记则转变为等量的真实伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]并恢复等量体力值，若对手存在[color=#f35555]处决印记[/color]则转变为等量的[color=#52a5f2]真实伤害[/color]（boss有效）",
           "args": [
             25
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "未击败对手则令自身下1次受到的攻击伤害额外减少50%",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令自身下1次受到的攻击[color=#52a5f2]伤害额外减少[/color]50%（boss有效）",
           "args": [
             1,
             50
@@ -62,8 +66,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "58b5bbac"
+  "hash": "2e0817ac"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害低于300则80%令对手睡眠，未触发则下1次技能80%令对手睡眠",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则80%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则下1次技能80%令对手[color=#57c975]睡眠[/color]",
       "args": [
         300,
         80,
@@ -36,6 +37,7 @@
     },
     {
       "info": "自身每处于1种能力提升状态则附加50点固定伤害，遇到天敌时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态则附加50点[color=#52a5f2]固定伤害[/color]，遇到天敌时效果翻倍（boss有效）",
       "args": [
         1,
         50
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2354b41"
+  "advance": null,
+  "hash": "bc04cea0"
 }

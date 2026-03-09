@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，40%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，40%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             40,
@@ -35,6 +36,7 @@
         },
         {
           "info": "命中后40%令对方冻伤",
+          "analyze_info": "[sprite name=iconHit]命中后40%令对方[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             40
           ],
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1ea8f9a1"
+  "hash": "558ea6e5"
 }

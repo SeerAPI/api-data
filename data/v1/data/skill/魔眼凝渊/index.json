@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "100%使对手全属性-1，3回合内每回合对手速度-1，命中-1",
+          "analyze_info": "[sprite name=iconHit]100%使对手[color=#52a5f2]全属性[/color]-1，3回合内每回合对手速度-1，命中-1",
           "args": [
             100,
             3,
@@ -40,6 +41,7 @@
         },
         {
           "info": "50%的概率伤害为2倍，未触发则令敌我双方全属性-1且下次翻倍概率额外提升50%",
+          "analyze_info": "[sprite name=iconHit]50%的概率伤害为2倍，[color=#52a5f2]未触发[/color]则令敌我双方[color=#52a5f2]全属性[/color]-1且下次翻倍概率额外提升50%",
           "args": [
             50,
             2,
@@ -53,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "75a3a4b3"
+  "hash": "1e9fe81f"
 }

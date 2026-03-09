@@ -4,6 +4,7 @@
       "id": 1687,
       "desc": "战斗阶段结束时，若当回合自身未使用技能则100%令自身麻痹，触发成功后下回合若对手不处于能力下降状态，则自身将对手的防御、速度等级视为-1；|回合开始时解除自身所处的麻痹状态，解除成功则当回合攻击技能必定打出致命一击，若当回合攻击技能未造成伤害，则100%令对手麻痹|（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时若当回合自身未使用技能则100%<color=#64F9FA>令自身麻痹</color>\r\n<indent=32><sprite=4><indent=48>触发成功后下回合若对手不处于能力下降状态，则自身将对手的防御、速度等级<color=#64F9FA>视为</color>-1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时<color=#64F9FA>解除</color>自身所处的麻痹状态\r\n<indent=32><sprite=4><indent=48>解除成功则当回合自身攻击技能必定<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><sprite=4><indent=64>若当回合攻击未造成攻击伤害，则100%<color=#64F9FA>令对手麻痹</color>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -41,8 +42,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "95b3c90e"
+  "hash": "2382171e"
 }

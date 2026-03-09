@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合使用技能吸取对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合使用技能[color=#52a5f2]吸取[/color]对手能力提升状态（boss有效）",
       "args": [
         3
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合内若被对手击败则对手损失300点体力，造成致命伤害时，对手剩余1点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内若被对手[color=#57c975]击败[/color]则对手损失300点体力，造成致命伤害时，对手剩余1点体力（boss有效）",
       "args": [
         3,
         300
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "85da8e12"
+  "advance": null,
+  "hash": "b66e996c"
 }

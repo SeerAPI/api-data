@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则50%令对手疲惫，未触发则100%令对手流血",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则50%令对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]流血[/color]",
       "args": [
         50,
         7,
@@ -34,6 +35,7 @@
     },
     {
       "info": "2回合内免疫致命一击伤害",
+      "analyze_info": "[sprite name=iconHit]2回合内免疫[color=#57c975]致命一击[/color]伤害",
       "args": [
         2
       ],
@@ -44,6 +46,7 @@
     },
     {
       "info": "2回合内对手恢复体力时恢复效果减少50%",
+      "analyze_info": "[sprite name=iconHit]2回合内对手恢复体力时恢复效果减少50%（boss有效）",
       "args": [
         2,
         50
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3a0cef8e"
+  "advance": null,
+  "hash": "bd2e4654"
 }

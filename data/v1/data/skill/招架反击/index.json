@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -47,6 +49,7 @@
         },
         {
           "info": "3回合内受攻击时反弹50点固定伤害",
+          "analyze_info": "[sprite name=iconHit]3回合内受攻击时[color=#52a5f2]反弹[/color]50点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             3,
             50
@@ -58,8 +61,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "eb6dadd"
+  "hash": "f70d9b11"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹除冻伤外所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]除[color=#57c975]冻伤[/color]外所有受到的异常状态",
       "args": [
         4,
         5
@@ -32,6 +33,7 @@
     },
     {
       "info": "使对手全属性-1，未触发则对手冰封",
+      "analyze_info": "[sprite name=iconHit]使对手[color=#52a5f2]全属性[/color]-1，[color=#52a5f2]未触发[/color]则对手[color=#57c975]冰封[/color]",
       "args": [
         1,
         15
@@ -43,6 +45,7 @@
     },
     {
       "info": "使敌我双方同时冻伤5回合",
+      "analyze_info": "[sprite name=iconHit]使敌我双方同时[color=#57c975]冻伤[/color]5回合（boss有效）",
       "args": [
         5,
         5
@@ -54,6 +57,7 @@
     },
     {
       "info": "下2回合每回合使用攻击技能附加自身防御、特防值总和35%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]下2回合每回合使用攻击技能附加自身防御、特防值总和35%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         2,
         35
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b6c94a80"
+  "advance": null,
+  "hash": "d320fe7f"
 }

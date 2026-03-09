@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能则焚烬，未触发则减少对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则[color=#57c975]焚烬[/color]，[color=#52a5f2]未触发[/color]则减少对手1/3最大体力",
           "args": [
             3,
             22,
@@ -45,6 +47,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2eca31e6"
+  "hash": "78c24218"
 }

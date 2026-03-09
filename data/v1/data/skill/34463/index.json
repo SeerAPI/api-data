@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时对手当回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
       "args": [],
       "effect": {
         "id": 980,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时下回合攻击技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合攻击技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "造成的伤害低于300则100%令对手烧伤，未触发则下1回合攻击技能50%令对手焚烬",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]则下1回合攻击技能50%令对手[color=#57c975]焚烬[/color]",
       "args": [
         300,
         100,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "15e6f0c2"
+  "advance": null,
+  "hash": "e7aed63c"
 }

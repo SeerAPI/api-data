@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则自身附加相同的能力提升，反转失败则消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 1061,
@@ -29,6 +30,7 @@
     },
     {
       "info": "2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]2回合内令对手使用的属性技能无效（boss有效）",
       "args": [
         2
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "自身携带技能中含有的光系多于暗影系时60%令对手疲惫，暗影系多于光系时60%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]自身携带技能中含有的光系多于暗影系时60%令对手[color=#57c975]疲惫[/color]，暗影系多于光系时60%令对手[color=#57c975]害怕[/color]",
       "args": [
         60
       ],
@@ -50,5 +53,9 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a64d7e77"
+  "advance": {
+    "id": 22,
+    "url": "https://api.seerapi.com/v1/pet_advance/22"
+  },
+  "hash": "5f507ef2"
 }

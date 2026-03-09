@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则命中前令自身吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则命中前令自身[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3,
             3
@@ -44,6 +46,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能，则使用属性技能后的下2回合造成的攻击伤害减少300点",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能，则使用属性技能后的下2回合造成的攻击伤害减少300点",
           "args": [
             3,
             2,
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9c954f32"
+  "hash": "83087b5b"
 }

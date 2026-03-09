@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内若对手处于能力提升状态，则每回合都会受到150点固定伤害",
+          "analyze_info": "[sprite name=iconHit]2回合内若对手处于能力提升状态，则每回合都会受到150点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             2,
             150
@@ -34,6 +35,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身攻击等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+1（boss有效）",
           "args": [
             0,
             100,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "62bbb2c"
+  "hash": "c77d85ba"
 }

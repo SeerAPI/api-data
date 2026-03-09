@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手防御等级-1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-1（boss有效）",
           "args": [
             1,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "若打出的伤害在200至300之间则对手流血",
+          "analyze_info": "[sprite name=iconHit]若打出的伤害在200至300之间则对手[color=#57c975]流血[/color]",
           "args": [
             200,
             300,
@@ -47,6 +49,7 @@
         },
         {
           "info": "附加自身的攻击值的25%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身的攻击值的25%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             0,
             0,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f8b0f8de"
+  "hash": "e69c490"
 }

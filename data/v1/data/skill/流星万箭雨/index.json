@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加对手最大体力值25%的百分比伤害，每次使用增加5%，最高40%",
+          "analyze_info": "[sprite name=iconHit]附加对手最大体力值25%的[color=#52a5f2]百分比伤害[/color]，每次使用增加5%，最高40%",
           "args": [
             25,
             5,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7dc8d785"
+  "hash": "296d864e"
 }

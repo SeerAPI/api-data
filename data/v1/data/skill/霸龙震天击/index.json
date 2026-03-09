@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时，100%改变对方防御等级-1",
+          "analyze_info": "[sprite name=iconHit]先出手时，100%改变对方防御等级-1（boss有效）",
           "args": [
             1,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则附加70点固定伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则附加70点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             0,
             70
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3c33c228"
+  "hash": "28492245"
 }

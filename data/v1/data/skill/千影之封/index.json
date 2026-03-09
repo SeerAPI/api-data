@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则100%令对手混乱，未触发则50%令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则100%令对手[color=#57c975]混乱[/color]，[color=#52a5f2]未触发[/color]则50%令对手[color=#57c975]麻痹[/color]",
           "args": [
             100,
             10,
@@ -36,6 +37,7 @@
         },
         {
           "info": "吸取对手最大体力的20%，每次使用增加10%，最高40%",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的20%，每次使用增加10%，最高40%",
           "args": [
             20,
             10,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d626c4e9"
+  "hash": "e29ead42"
 }

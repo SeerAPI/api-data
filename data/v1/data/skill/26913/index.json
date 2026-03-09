@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身体力低于1/2时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身体力低于1/2时强化效果翻倍（boss有效）",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "使对手全属性-1，自身体力低于1/2时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]使对手[color=#52a5f2]全属性[/color]-1，自身体力低于1/2时弱化效果翻倍",
       "args": [
         1,
         2
@@ -43,6 +45,7 @@
     },
     {
       "info": "吸取对手250点固定体力，自身体力低于1/2时吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手250点固定体力，自身体力低于1/2时[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
       "args": [
         250,
         2
@@ -54,6 +57,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "41eba50d"
+  "advance": null,
+  "hash": "15517b1b"
 }

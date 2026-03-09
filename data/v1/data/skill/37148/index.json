@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫大于300的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫大于300的攻击伤害",
       "args": [
         3,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "附加自身最大体力25%的百分比伤害并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力25%的[color=#52a5f2]百分比伤害[/color]并恢复等量体力（boss有效）",
       "args": [
         25
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ed12ad7a"
+  "advance": null,
+  "hash": "c1839c94"
 }

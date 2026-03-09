@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手2回合内无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则对手2回合内[color=#52a5f2]无法通过自身技能恢复体力[/color]（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
           "args": [
             300,
             2
@@ -44,6 +46,7 @@
         },
         {
           "info": "造成的伤害低于300则为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于300则为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             300,
             300
@@ -55,6 +58,7 @@
         },
         {
           "info": "3回合内若对手攻击MISS则回合结束时吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手攻击MISS则[color=#57c975]回合结束时[/color][color=#52a5f2]吸取[/color]对手最大体力的1/3（boss有效）",
           "args": [
             3,
             3
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "38066601"
+  "hash": "563ad2f7"
 }

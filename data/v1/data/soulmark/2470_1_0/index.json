@@ -4,6 +4,7 @@
       "id": 2051,
       "desc": "自身与上次所使用技能类型相同的技能先制+1且造成的伤害提高50%，不同的技能使用后恢复最大体力的1/3并附加恢复量的百分比伤害；自身使用没有上述效果的技能后获得1层旧日之晷，使用拥有上述效果的技能后随机附加1种非限制类异常状态，未触发时吸取对手最大体力的1/3|回合开始时，若场上存在异常状态则自身获得最大体力1/3的护盾并附加1层宙变之殢，若不存在则当回合战斗阶段结束时恢复双方当前护盾值的体力，若本次在场自身未获得过旧日之晷则当回合战斗阶段结束时令对手衰弱1回合，未触发则附加3层宙变之殢（boss无效）",
       "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身与上次所使用技能类型相同的[color=#52a5f2]技能先制[/color]+1且造成的伤害提高50%，不同的技能使用后恢复最大体力的1/3并附加恢复量的[color=#52a5f2]百分比伤害[/color]；自身使用没有上述效果的技能后获得1层[color=#f35555]旧日之晷[/color]，使用拥有上述效果的技能后随机附加1种非限制类异常状态，[color=#52a5f2]未触发[/color]时[color=#52a5f2]吸取[/color]对手最大体力的1/3|[sprite name=dot4][color=#57c975]回合开始时[/color]，若场上存在异常状态则自身获得最大体力1/3的[color=#57c975]护盾[/color]并附加1层[color=#f35555]宙变之殢[/color]，若不存在则[color=#52a5f2]当回合[/color][color=#57c975]战斗阶段结束时[/color]恢复双方当前[color=#57c975]护盾[/color]值的体力，若本次在场自身未获得过[color=#f35555]旧日之晷[/color]则[color=#52a5f2]当回合[/color][color=#57c975]战斗阶段结束时[/color]令对手[color=#57c975]衰弱[/color]1回合，[color=#52a5f2]未触发[/color]则附加3层[color=#f35555]宙变之殢[/color]",
       "pve_effective": true,
       "intensified": false,
       "is_adv": true,
@@ -39,8 +40,12 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/pet_advance/23"
+      }
     }
   },
-  "hash": "1194e961"
+  "hash": "b12f8fdb"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视对手能力提升状态",
+      "analyze_info": "[sprite name=iconInherent]无视对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 494,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若对手处于能力下降状态，则威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态，则[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 431,
@@ -38,5 +40,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e9a4a5ff"
+  "advance": null,
+  "hash": "b2c921fc"
 }

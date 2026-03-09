@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则恢复自身所有体力，反馈失败则解除自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手，反馈成功则恢复自身所有体力，反馈失败则解除自身能力下降状态",
           "args": [],
           "effect": {
             "id": 1524,
@@ -31,6 +32,7 @@
         },
         {
           "info": "25%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]25%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
           "args": [
             25,
             2
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "468735cf"
+  "hash": "78f5abf2"
 }

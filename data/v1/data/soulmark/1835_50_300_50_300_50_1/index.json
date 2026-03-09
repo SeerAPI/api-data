@@ -4,6 +4,7 @@
       "id": 1468,
       "desc": "回合开始时，若自身体力高于对手则当回合造成的攻击伤害提升50%；|自身造成的攻击伤害低于300则附加造成伤害量50%的固定伤害，自身造成的攻击伤害高于300则恢复造成伤害量50%的体力（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身体力高于对手则当回合造成的<b>攻击伤害</b><color=#64F9FA>提升</color>50%\r\n\r\n<indent=0><sprite=0><indent=16>触发效果：\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害低于300则<color=#64F9FA>附加</color>造成伤害量50%的<b>固定伤害</b>\r\n<indent=16><sprite=3><indent=32>自身造成的攻击伤害高于300则<color=#64F9FA>恢复</color>造成伤害量50%的<b>体力</b>",
+      "analyze_desc": "",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -43,8 +44,9 @@
         }
       ],
       "intensified_to": null,
-      "from": null
+      "from": null,
+      "advance": null
     }
   },
-  "hash": "f490f0f6"
+  "hash": "92cde1b2"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合恢复自身已损失体力的100%",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合恢复自身[color=#52a5f2]已损失体力[/color]的100%（boss有效）",
       "args": [
         2,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合自身造成的攻击伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]下2回合自身造成的攻击伤害翻倍（boss有效）",
       "args": [
         2
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "89b573e2"
+  "advance": null,
+  "hash": "2cbcbd4"
 }

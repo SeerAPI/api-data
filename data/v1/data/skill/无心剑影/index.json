@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -31,6 +32,7 @@
         },
         {
           "info": "3回合使对方攻击伤害是正常状态下的1/2倍",
+          "analyze_info": "[sprite name=iconHit]3回合使对方攻击伤害是正常状态下的1/2倍（boss有效）",
           "args": [
             3,
             2
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a28ab705"
+  "hash": "62a953bb"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -29,6 +30,7 @@
     },
     {
       "info": "3回合内自身能力提升状态被消除或吸取时附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除或[color=#52a5f2]吸取[/color]时附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3,
         3
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dd4ea1a6"
+  "advance": null,
+  "hash": "d3347500"
 }

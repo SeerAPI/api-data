@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "后出手时造成的伤害提高50%",
+          "analyze_info": "[sprite name=iconHit]后出手时造成的伤害提高50%（boss有效）",
           "args": [
             50
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手攻击-1，特攻-1，速度-1，命中-1,后出手时弱化效果翻倍",
+          "analyze_info": "[sprite name=iconHit]对手攻击-1，特攻-1，速度-1，命中-1,后出手时弱化效果翻倍（boss有效）",
           "args": [
             -1,
             0,
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fb557f15"
+  "hash": "bdbc6d61"
 }

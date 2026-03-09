@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "连续使用时威力提升20%，最高提升100%",
+      "analyze_info": "[sprite name=iconHit]连续使用时[color=#52a5f2]威力[/color]提升20%，最高提升100%（boss有效）",
       "args": [
         20,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "3回合内对手恢复体力时恢复效果减少30%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少30%（boss有效）",
       "args": [
         3,
         30
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d66076a4"
+  "advance": null,
+  "hash": "fee0448c"
 }

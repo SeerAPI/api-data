@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手诅咒",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]诅咒[/color]（boss有效）",
       "args": [
         0,
         23
@@ -32,6 +33,7 @@
     },
     {
       "info": "5回合内对手恢复体力时恢复效果减少50%",
+      "analyze_info": "[sprite name=iconHit]5回合内对手恢复体力时恢复效果减少50%（boss有效）",
       "args": [
         5,
         50
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "cadf1f15"
+  "advance": null,
+  "hash": "1ec24338"
 }

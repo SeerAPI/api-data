@@ -2,6 +2,7 @@
   "id": 2052,
   "desc": "自身的PP值总和每有对手的1倍，自身受到的固定伤害、百分比伤害减半1次，每次伤害最多减半8次|每回合前8次受到固定伤害、百分比伤害时，若自身的PP值总和高于对手则恢复对手所有技能已损失的PP值且自身所有PP值最高的技能失去等量的PP值，自身技能PP值因此归0时2回合内令对手无法恢复体力，若自身的PP值总和不高于对手则自身首个PP值最低的技能吸取对手所有技能1点PP值且自身吸取对手240点体力，然后若对手的体力未减少则额外对其相邻精灵造成等量真实伤害|（boss无效）",
   "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身的PP值总和每有对手的1倍，自身受到的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]减半1次，每次伤害最多减半8次|[sprite name=dot4]每回合前8次受到[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]时，若自身的PP值总和高于对手则恢复对手所有技能已损失的PP值且自身所有PP值最高的技能失去等量的PP值，自身技能PP值因此归0时2回合内令对手无法恢复体力，若自身的PP值总和不高于对手则[color=#52a5f2]吸取(464)[/color]对手所有技能1点PP值恢复至自身PP值最低的[color=#52a5f2]首位技能[/color]且自身[color=#52a5f2]吸取[/color]对手240点体力，[color=#52a5f2]然后[/color]若对手的体力未减少则对其相邻精灵造成等量[color=#52a5f2]真实伤害(404)[/color]",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -35,5 +36,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "e304a7a4"
+  "advance": null,
+  "hash": "89554d6b"
 }

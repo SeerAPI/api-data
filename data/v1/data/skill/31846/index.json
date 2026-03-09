@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于异常状态则自身造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则自身造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手不处于异常状态则造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]若对手不处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         50
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "造成的攻击伤害若高于280则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于280则自身免疫下1次受到的异常状态（boss有效）",
       "args": [
         280,
         1
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "83ff523f"
+  "advance": null,
+  "hash": "73912356"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             50,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "无视攻击免疫效果",
+          "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
           "args": [],
           "effect": {
             "id": 699,
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "29ff111d"
+  "hash": "100f82e9"
 }

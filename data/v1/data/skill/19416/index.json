@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手体力不足280则直接秒杀",
+      "analyze_info": "[sprite name=iconHit]若对手体力不足280则直接[color=#52a5f2]秒杀[/color]（boss有效）",
       "args": [
         280
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "当回合击败对手则下回合开始后随机附加1种异常状态",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则下回合开始后随机附加1种异常状态",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "bbddb910"
+  "advance": null,
+  "hash": "6bc064c1"
 }

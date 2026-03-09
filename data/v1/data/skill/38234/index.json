@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身处于能力提升状态时，此攻击不会微弱对手",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时，此攻击不会微弱对手",
       "args": [],
       "effect": {
         "id": 2389,
@@ -29,6 +30,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "50%概率伤害为2倍，自身处于能力提升状态时概率翻倍",
+      "analyze_info": "[sprite name=iconHit]50%概率伤害为2倍，自身处于能力提升状态时概率翻倍（boss有效）",
       "args": [
         50,
         2
@@ -50,6 +53,7 @@
     },
     {
       "info": "吸取对手最大体力的30%，每次使用增加5%，最高40%",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的30%，每次使用增加5%，最高40%",
       "args": [
         30,
         5,
@@ -62,6 +66,7 @@
     },
     {
       "info": "击败对手则恢复自身全部体力和所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则恢复自身全部体力和所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1156,
@@ -71,5 +76,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b643e9cc"
+  "advance": null,
+  "hash": "ddb5094b"
 }

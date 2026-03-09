@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使用时若自身体力低于1/4则恢复所有体力值",
+          "analyze_info": "[sprite name=iconHit]使用时若自身体力低于1/4则恢复所有体力值（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "附加自身的攻击值的30%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身的攻击值的30%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             0,
             0,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "d13ba8f0"
+  "hash": "d4dfd190"
 }

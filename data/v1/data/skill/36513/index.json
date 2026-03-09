@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "命中后吸取对手最大体力的20%，若打出的攻击伤害为偶数则效果翻倍",
+      "analyze_info": "[sprite name=iconHit]命中后[color=#52a5f2]吸取[/color]对手最大体力的20%，若打出的攻击伤害为偶数则效果翻倍",
       "args": [
         20
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "后出手时令对手下2回合先制-2",
+      "analyze_info": "[sprite name=iconHit]后出手时令对手下2回合[color=#52a5f2]先制[/color]-2",
       "args": [
         2,
         2
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9c02f3d7"
+  "advance": null,
+  "hash": "51e68987"
 }

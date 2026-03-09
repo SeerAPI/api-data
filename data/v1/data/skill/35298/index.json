@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时100%使对手害怕，未触发则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]先出手时100%使对手[color=#57c975]害怕[/color]，[color=#52a5f2]未触发[/color]则附加300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         100,
         6,
@@ -33,6 +34,7 @@
     },
     {
       "info": "出手时本回合若未受到伤害则对手下1回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若未受到伤害则对手下1回合属性技能无效（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "82b4592e"
+  "advance": null,
+  "hash": "d4c77d03"
 }

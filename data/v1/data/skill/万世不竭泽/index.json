@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "使对手的能力提升效果转化到自己身上",
+          "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
           "args": [],
           "effect": {
             "id": 85,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加对手最大体力值20%的百分比伤害，每次使用增加10%，最高40%",
+          "analyze_info": "[sprite name=iconHit]附加对手最大体力值20%的[color=#52a5f2]百分比伤害[/color]，每次使用增加10%，最高40%",
           "args": [
             20,
             10,
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "edc0091"
+  "hash": "7d23590f"
 }

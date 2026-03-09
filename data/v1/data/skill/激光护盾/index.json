@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，0%改变自身防御等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，0%改变自身防御等级+1（boss有效）",
           "args": [
             1,
             0,
@@ -35,6 +36,7 @@
         },
         {
           "info": "技能使用成功时，100%改变自身特防等级+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
           "args": [
             3,
             100,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b53e54bf"
+  "hash": "cab6adfb"
 }

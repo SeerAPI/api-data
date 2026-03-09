@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视伤害限制效果",
+      "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
       "args": [],
       "effect": {
         "id": 697,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则令对手臣服，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手[color=#57c975]臣服[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         31,
         3
@@ -40,6 +42,7 @@
     },
     {
       "info": "消除对手所有护盾、护罩效果，并附加等同于消除护盾、护罩值总和100%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手所有[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]效果，并附加等同于消除[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]值总和100%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         100
       ],
@@ -50,6 +53,7 @@
     },
     {
       "info": "反转自身能力下降状态，反转成功则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态，反转成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -61,5 +65,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a0e2e4d3"
+  "advance": null,
+  "hash": "36074595"
 }

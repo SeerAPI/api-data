@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若当前体力低于对手则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 954,
@@ -31,6 +32,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "将对手所处的冻伤转化为冰封",
+          "analyze_info": "[sprite name=iconHit]将对手所处的[color=#57c975]冻伤[/color][color=#52a5f2]转化[/color]为[color=#57c975]冰封[/color]",
           "args": [
             5,
             15
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6001e6f"
+  "hash": "dec554cf"
 }

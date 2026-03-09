@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，自身处于能力提升状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身处于能力提升状态时强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内受到的伤害低于300时100%令对手诅咒，未触发则附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内受到的伤害低于300时100%令对手[color=#57c975]诅咒[/color]，[color=#52a5f2]未触发[/color]则附加300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         3,
         300,
@@ -45,6 +47,7 @@
     },
     {
       "info": "下2回合攻击忽略对手20%的双防值",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击忽略对手20%的双防值",
       "args": [
         2,
         20
@@ -56,6 +59,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -68,5 +72,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "822a162e"
+  "advance": null,
+  "hash": "c72360c3"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于能力下降状态时附加300点固定伤害，并解除这些能力下降状态",
+          "analyze_info": "[sprite name=iconHit]自身处于能力下降状态时附加300点[color=#52a5f2]固定伤害[/color]，并解除这些能力下降状态（boss有效）",
           "args": [
             300
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "若对手处于异常状态，则威力翻倍并消除对手相应的防御能力提升效果",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则[color=#52a5f2]威力[/color]翻倍并消除对手相应的防御能力提升效果（boss有效）",
           "args": [],
           "effect": {
             "id": 188,
@@ -41,6 +43,7 @@
         },
         {
           "info": "吸取对手最大体力的20%，每次使用增加10%，最高40%",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的20%，每次使用增加10%，最高40%",
           "args": [
             20,
             10,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "14e01bfb"
+  "hash": "22633c7e"
 }

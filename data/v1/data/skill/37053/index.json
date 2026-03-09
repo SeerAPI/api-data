@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消耗自身全部体力，使对手受到自身最大体力1/1的百分比伤害，同时使自身下只出场精灵前3回合100%闪避对手的攻击技能",
+      "analyze_info": "[sprite name=iconHit]消耗自身全部体力，使对手受到自身最大体力1/1的[color=#52a5f2]百分比伤害[/color]，同时使自身下只出场精灵前3回合100%闪避对手的攻击技能",
       "args": [
         1,
         3,
@@ -33,6 +34,7 @@
     },
     {
       "info": "使对手随机2项技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]使对手随机2项技能的PP值归零",
       "args": [
         2
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7ccc82f4"
+  "advance": null,
+  "hash": "1b02e2e9"
 }

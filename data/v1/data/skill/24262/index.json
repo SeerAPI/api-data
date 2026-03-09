@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内每回合有30%的概率降低对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合有30%的概率降低对手最大体力的1/3",
       "args": [
         3,
         30,
@@ -33,6 +34,7 @@
     },
     {
       "info": "3回合内每回合所受的伤害减少150点",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少150点（boss有效）",
       "args": [
         3,
         150
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特防等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-1（boss有效）",
       "args": [
         3,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手速度等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手速度等级-1（boss有效）",
       "args": [
         4,
         100,
@@ -68,6 +72,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
       "args": [
         5,
         100,
@@ -81,5 +86,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "7f6cc72"
+  "advance": null,
+  "hash": "effca40b"
 }

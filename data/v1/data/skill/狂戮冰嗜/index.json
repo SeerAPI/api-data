@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则自身下1回合造成的攻击伤害提升80%，若对手不处于能力提升状态则自身下1回合先制+3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则自身下1回合造成的攻击伤害提升80%，若对手不处于能力提升状态则自身下1回合[color=#52a5f2]先制[/color]+3",
           "args": [
             1,
             80,
@@ -36,6 +37,7 @@
         },
         {
           "info": "若自身处于异常状态则造成的攻击伤害额外提升80%且回合结束后解除自身所有异常状态",
+          "analyze_info": "[sprite name=iconHit]若自身处于异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]80%且[color=#57c975]回合结束后[/color]解除自身所有异常状态（boss有效）",
           "args": [
             80
           ],
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "63e9c46f"
+  "hash": "5b55983e"
 }

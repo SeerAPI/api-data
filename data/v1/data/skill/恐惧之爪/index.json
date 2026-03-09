@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变自身攻击等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
           "args": [
             0,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "4回合内若自身攻击技能命中则40%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则40%令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             3,
             40,
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ec2a565"
+  "hash": "96beddf2"
 }

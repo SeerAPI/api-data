@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "免疫下1次对手的攻击",
+      "analyze_info": "[sprite name=iconHit]免疫下1次对手的攻击（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "65%降低对手所有技能1点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+      "analyze_info": "[sprite name=iconHit]65%降低对手所有技能1点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
       "args": [
         65,
         1
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "97d65f4"
+  "advance": null,
+  "hash": "12e3e371"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "当自身血量少于1/3时先制+1",
+          "analyze_info": "[sprite name=iconInherent]当自身血量少于1/3时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             3,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功后恢复300点体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功后恢复300点体力（boss有效）",
           "args": [
             300
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2b1b11cb"
+  "hash": "46f848f1"
 }

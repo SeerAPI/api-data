@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "后出手则必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]后出手则必定打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1527,
@@ -29,6 +30,7 @@
     },
     {
       "info": "出手时本回合若未受到攻击伤害，则附加自身特攻值50%的百分比伤害，并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若未受到攻击伤害，则附加自身特攻值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
       "args": [
         2,
         50
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "34bd9e1"
+  "advance": null,
+  "hash": "fcca37bb"
 }

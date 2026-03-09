@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效）",
       "args": [],
       "effect": {
         "id": 33,
@@ -29,6 +30,7 @@
     },
     {
       "info": "1回合自己受到特殊攻击伤害减半",
+      "analyze_info": "[sprite name=iconHit]1回合自己受到特殊攻击伤害减半（boss有效）",
       "args": [
         1
       ],
@@ -39,6 +41,7 @@
     },
     {
       "info": "1回合自身受到物理攻击伤害减半",
+      "analyze_info": "[sprite name=iconHit]1回合自身受到物理攻击伤害减半（boss有效）",
       "args": [
         1
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "3515f9bd"
+  "advance": null,
+  "hash": "d0262fc6"
 }

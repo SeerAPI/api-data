@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，双方任意一方处于异常状态则强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，双方任意一方处于异常状态则强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "100%令对手寄生，未触发则令对手威力最高的攻击技能PP值归0",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]寄生[/color]，[color=#52a5f2]未触发[/color]则令对手[color=#52a5f2]威力[/color]最高的攻击技能PP值归0",
           "args": [
             100,
             4
@@ -44,6 +46,7 @@
         },
         {
           "info": "4回合内使用技能吸取对手最大体力1/3，自身体力低于1/2时效果翻倍，吸取时若自身满体力则为己方所有不在场精灵恢复100点体力",
+          "analyze_info": "[sprite name=iconHit]4回合内使用技能[color=#52a5f2]吸取[/color]对手最大体力1/3，自身体力低于1/2时效果翻倍，[color=#52a5f2]吸取[/color]时若自身满体力则为[color=#52a5f2]己方[/color]所有不在场精灵恢复100点体力",
           "args": [],
           "effect": {
             "id": 1303,
@@ -52,6 +55,7 @@
         },
         {
           "info": "下2回合令对手所有技能先制-2",
+          "analyze_info": "[sprite name=iconHit]下2回合令对手所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
           "args": [
             2,
             2
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7a7c6937"
+  "hash": "60687a91"
 }

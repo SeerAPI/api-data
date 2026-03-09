@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下2回合造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合造成的伤害提高100%（boss有效）",
       "args": [
         2,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "自身体力低于对手时造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]自身体力低于对手时造成的伤害提高100%",
       "args": [
         100
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f26b1957"
+  "advance": null,
+  "hash": "4449e728"
 }

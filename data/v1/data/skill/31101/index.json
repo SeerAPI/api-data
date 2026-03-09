@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则自身下1回合所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下1回合所有技能[color=#52a5f2]先制[/color]+2",
       "args": [
         1,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "先出手时造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
       "args": [
         50
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "后出手时，100%使自身攻击提升1个等级",
+      "analyze_info": "[sprite name=iconHit]后出手时，100%使自身攻击提升1个等级（boss有效）",
       "args": [
         0,
         100,
@@ -54,6 +57,7 @@
     },
     {
       "info": "后出手时，100%使自身速度提升1个等级",
+      "analyze_info": "[sprite name=iconHit]后出手时，100%使自身速度提升1个等级（boss有效）",
       "args": [
         4,
         100,
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a319cdc9"
+  "advance": null,
+  "hash": "e533730a"
 }

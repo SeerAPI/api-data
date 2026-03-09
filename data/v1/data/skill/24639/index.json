@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手体力不足260则直接秒杀",
+      "analyze_info": "[sprite name=iconHit]若对手体力不足260则直接[color=#52a5f2]秒杀[/color]（boss有效）",
       "args": [
         260
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "48bc2a32"
+  "advance": null,
+  "hash": "3cc0af12"
 }

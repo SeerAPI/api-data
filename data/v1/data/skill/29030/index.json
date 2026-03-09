@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "抵挡下1次对手的攻击",
+      "analyze_info": "[sprite name=iconHit]抵挡下1次对手的攻击（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "3回合内自身受到攻击则使对手束缚，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内自身受到攻击则使对手[color=#57c975]束缚[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3,
         28,
@@ -53,6 +56,7 @@
     },
     {
       "info": "附加200点固定伤害，对手冻伤时固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，对手[color=#57c975]冻伤[/color]时[color=#52a5f2]固定伤害[/color]翻倍（boss有效）",
       "args": [
         200,
         5
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c1495c91"
+  "advance": null,
+  "hash": "924a49ff"
 }

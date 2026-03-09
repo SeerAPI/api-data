@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内所有直接攻击都将降低对手1/4的HP",
+          "analyze_info": "[sprite name=iconHit]3回合内所有直接攻击都将降低对手1/4的HP（boss有效）",
           "args": [
             3,
             4
@@ -54,6 +57,7 @@
         },
         {
           "info": "下2回合攻击必定先出手",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
           "args": [
             2
           ],
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "95bb63d4"
+  "hash": "ef9a3702"
 }

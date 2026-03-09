@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每回合特攻+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合特攻+1（boss有效）",
           "args": [
             3,
             0,
@@ -39,6 +40,7 @@
         },
         {
           "info": "技能使用成功时，100%改变对手特防等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特防等级-2（boss有效）",
           "args": [
             3,
             100,
@@ -51,8 +53,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "77bf079a"
+  "hash": "9fa5d1c4"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "50%令对手疲惫，50%令自身害怕，均未触发则为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]疲惫[/color]，50%令自身[color=#57c975]害怕[/color]，均[color=#52a5f2]未触发[/color]则为自身附加300点[color=#57c975]护盾[/color]",
           "args": [
             50,
             7,
@@ -37,6 +38,7 @@
         },
         {
           "info": "25%的概率造成伤害翻倍，自身处于护盾状态时概率翻倍",
+          "analyze_info": "[sprite name=iconHit]25%的概率造成伤害翻倍，自身处于[color=#57c975]护盾[/color]状态时概率翻倍（boss有效）",
           "args": [
             25
           ],
@@ -47,8 +49,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "dd55a602"
+  "hash": "f3041ff1"
 }

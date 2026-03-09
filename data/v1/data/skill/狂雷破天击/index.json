@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
           "args": [],
           "effect": {
             "id": 195,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             0,
             0
@@ -42,6 +44,7 @@
         },
         {
           "info": "附加160点固定伤害，每次使用额外附加40点，最高280点，遇到天敌时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]附加160点[color=#52a5f2]固定伤害[/color]，每次使用额外附加40点，最高280点，遇到天敌时效果翻倍（boss有效）",
           "args": [
             160,
             40,
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9052b3ff"
+  "hash": "255a3741"
 }

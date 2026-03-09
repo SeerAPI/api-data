@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力上升状态，消除成功则2回合内对手每回合命中-2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力上升状态，消除成功则2回合内对手每回合命中-2（boss有效）",
       "args": [
         2,
         5,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若造成的伤害高于300，则恢复自身1/3最大体力",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害高于300，则恢复自身1/3最大体力（boss有效）",
       "args": [
         300,
         3
@@ -44,6 +46,7 @@
     },
     {
       "info": "后出手时50%令对手对手失明，未触发则使自身下2回合必定致命一击",
+      "analyze_info": "[sprite name=iconHit]后出手时50%令对手对手[color=#57c975]失明[/color]，[color=#52a5f2]未触发[/color]则使自身下2回合必定[color=#57c975]致命一击[/color]",
       "args": [
         50,
         20,
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9039f2ca"
+  "advance": null,
+  "hash": "1bc4cd9f"
 }

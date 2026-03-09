@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则令对手随机1项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则令对手随机1项技能PP值归零",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "先出手时令自身随机3项属性+1",
+          "analyze_info": "[sprite name=iconHit]先出手时令自身随机3项属性+1（boss有效）",
           "args": [
             3,
             1
@@ -44,6 +46,7 @@
         },
         {
           "info": "自身速度能力每提升1段，则回合结束时减少对手1/6最大体力",
+          "analyze_info": "[sprite name=iconHit]自身速度能力每提升1段，则[color=#57c975]回合结束时[/color]减少对手1/6最大体力",
           "args": [
             6
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8e12fc36"
+  "hash": "15d317fd"
 }

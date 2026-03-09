@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "附加100点固定伤害，连续使用每次增加100点固定伤害，最高附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]附加100点[color=#52a5f2]固定伤害[/color]，连续使用每次增加100点[color=#52a5f2]固定伤害[/color]，最高附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         100,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 180,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "948abbbf"
+  "advance": null,
+  "hash": "74ce9a0b"
 }

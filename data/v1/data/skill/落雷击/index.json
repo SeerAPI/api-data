@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手处于麻痹状态则附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]麻痹[/color]状态则附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             0,
             100
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "458c106b"
+  "hash": "a0f0492f"
 }

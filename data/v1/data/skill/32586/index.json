@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下1回合造成的伤害提高100%（boss有效）",
       "args": [
         1,
         100
@@ -32,6 +33,7 @@
     },
     {
       "info": "出手时本回合若未受到攻击伤害，则附加自身攻击值50%的百分比伤害，并恢复等量体力",
+      "analyze_info": "[sprite name=iconHit]出手时本回合若未受到攻击伤害，则附加自身攻击值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
       "args": [
         0,
         50
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "613320cc"
+  "advance": null,
+  "hash": "bf695699"
 }

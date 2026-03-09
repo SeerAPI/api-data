@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内若自身能力提升状态被消除则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]3回合内若自身能力提升状态被消除则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3,
             3
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bc665f12"
+  "hash": "f5a28821"
 }

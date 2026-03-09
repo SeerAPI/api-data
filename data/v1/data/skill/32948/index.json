@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害低于200则附加自身最大体力20%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于200则附加自身最大体力20%的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         200,
         20
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1b458234"
+  "advance": null,
+  "hash": "15c0edd0"
 }

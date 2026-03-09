@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合对手攻击-2，特攻-2，速度-2，命中-2",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合对手攻击-2，特攻-2，速度-2，命中-2（boss有效）",
           "args": [
             3,
             -2,
@@ -49,6 +51,7 @@
         },
         {
           "info": "自身每处于1种能力提升状态，则为自身附加100点护盾",
+          "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，则为自身附加100点[color=#57c975]护盾[/color]（boss有效）",
           "args": [
             1,
             100
@@ -60,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "91bb8df2"
+  "hash": "ad5f2b2f"
 }

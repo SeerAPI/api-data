@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             1,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "3回合内每回合防御+1，特防+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合防御+1，特防+1（boss有效）",
           "args": [
             3,
             0,
@@ -54,6 +56,7 @@
         },
         {
           "info": "下2回合攻击必定先出手",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
           "args": [
             2
           ],
@@ -64,6 +67,7 @@
         },
         {
           "info": "下2回合自身攻击技能必定命中",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [
             2
           ],
@@ -74,6 +78,7 @@
         },
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -84,8 +89,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2fd6761"
+  "hash": "56607f91"
 }

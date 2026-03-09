@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身处于能力提升状态时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身处于能力提升状态时强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内每回合使用技能吸取对手最大体力的1/3，恢复体力时若自身体力低于最大体力的1/3则恢复效果翻倍",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，恢复体力时若自身体力低于最大体力的1/3则恢复效果翻倍",
           "args": [
             4,
             3,
@@ -45,6 +47,7 @@
         },
         {
           "info": "获得海洋的祝福：使自身下2回合先制+2且攻击必定命中、必定致命",
+          "analyze_info": "[sprite name=iconHit]获得海洋的祝福：使自身下2回合[color=#52a5f2]先制[/color]+2且攻击[color=#52a5f2]必定命中[/color]、必定致命",
           "args": [],
           "effect": {
             "id": 1567,
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e247a73f"
+  "hash": "5856e5e7"
 }

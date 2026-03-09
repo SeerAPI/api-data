@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若当回合未击败对手，则下回合附加300点固定伤害",
+      "analyze_info": "[sprite name=iconHit]若[color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手，则下回合附加300点[color=#52a5f2]固定伤害[/color]",
       "args": [
         300
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "击败对手则对方下只精灵出战时己方在场精灵吸取其最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color][color=#52a5f2]己方[/color]在场精灵[color=#52a5f2]吸取[/color]其最大体力的1/3",
       "args": [
         3
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "9e1a1aeb"
+  "advance": null,
+  "hash": "51db10f2"
 }

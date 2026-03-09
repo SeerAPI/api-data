@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若先出手则当回合闪避对手的攻击技能",
+      "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]闪避对手的攻击技能",
       "args": [],
       "effect": {
         "id": 720,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时使对手下1回合攻击技能MISS",
+      "analyze_info": "[sprite name=iconHit]后出手时使对手下1回合攻击技能MISS",
       "args": [
         1
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c3c4f35a"
+  "advance": null,
+  "hash": "d7cd6b0b"
 }

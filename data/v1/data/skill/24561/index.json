@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "100%概率使对手3回合内特防能力每回合变化-2",
+      "analyze_info": "[sprite name=iconHit]100%概率使对手3回合内特防能力每回合变化-2（boss有效）",
       "args": [
         100,
         3,
@@ -34,6 +35,7 @@
     },
     {
       "info": "3回合内若对手成功使用属性技能则受到200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手成功使用属性技能则受到200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         3,
         200
@@ -45,6 +47,7 @@
     },
     {
       "info": "4回合内每回合被攻击所受到的伤害不超过280",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合被攻击所受到的伤害不超过280（boss有效）",
       "args": [
         4,
         280
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "80b3fc5a"
+  "advance": null,
+  "hash": "7ca5b6e7"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则恢复自身全部体力",
           "args": [],
           "effect": {
             "id": 945,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加自身速度35%的百分比伤害，每次触发增加20%，最高75%",
+          "analyze_info": "[sprite name=iconHit]附加自身速度35%的[color=#52a5f2]百分比伤害[/color]，每次触发增加20%，最高75%（boss有效）",
           "args": [
             35,
             20,
@@ -43,6 +45,7 @@
         },
         {
           "info": "若对手处于异常状态，则威力翻倍并消除对手相应的防御能力提升效果",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则[color=#52a5f2]威力[/color]翻倍并消除对手相应的防御能力提升效果（boss有效）",
           "args": [],
           "effect": {
             "id": 188,
@@ -51,8 +54,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "fea6774d"
+  "hash": "d21fac4b"
 }

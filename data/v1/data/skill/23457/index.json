@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内若使用技能则恢复170点体力值",
+      "analyze_info": "[sprite name=iconHit]2回合内若使用技能则恢复170点体力值（boss有效）",
       "args": [
         2,
         170
@@ -32,6 +33,7 @@
     },
     {
       "info": "2回合内若对手使用攻击技能则自己的攻击+1，速度+1",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则自己的攻击+1，速度+1（boss有效）",
       "args": [
         2,
         0,
@@ -51,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4263f08b"
+  "advance": null,
+  "hash": "3902417e"
 }

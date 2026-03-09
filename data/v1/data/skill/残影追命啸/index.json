@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内自身攻击技能造成伤害的40%会恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]2回合内自身攻击技能造成伤害的40%会恢复自身体力（boss有效）",
           "args": [
             1,
             40
@@ -34,6 +35,7 @@
         },
         {
           "info": "若对手处于能力下降状态则附加120点伤害",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力下降状态则附加120点伤害（boss有效）",
           "args": [
             120
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "35c9eb27"
+  "hash": "40de1673"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "本回合打出致命一击则下1回合其它攻击技能必定致命一击",
+      "analyze_info": "[sprite name=iconHit]本回合打出[color=#57c975]致命一击[/color]则下1回合其它攻击技能必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加200点固定伤害，每次使用额外附加50点，最高300点，遇到天敌时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]附加200点[color=#52a5f2]固定伤害[/color]，每次使用额外附加50点，最高300点，遇到天敌时效果翻倍（boss有效）",
       "args": [
         200,
         50,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "68f2fced"
+  "advance": null,
+  "hash": "5ac6ef34"
 }

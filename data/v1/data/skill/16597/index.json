@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于异常状态，则对手防御-1",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则对手防御-1（boss有效）",
       "args": [
         1,
         -1
@@ -32,6 +33,7 @@
     },
     {
       "info": "若对手处于异常状态，则对手速度-1",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态，则对手速度-1（boss有效）",
       "args": [
         4,
         -1
@@ -43,6 +45,7 @@
     },
     {
       "info": "附加防御、特防总和10%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]附加防御、特防总和10%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 534,
@@ -51,6 +54,7 @@
     },
     {
       "info": "附加10%当前体力值的伤害",
+      "analyze_info": "[sprite name=iconHit]附加10%当前体力值的伤害（boss有效）",
       "args": [
         10
       ],
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "66a4a2ac"
+  "advance": null,
+  "hash": "17ae23a5"
 }

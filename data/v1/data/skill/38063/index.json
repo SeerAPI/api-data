@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "无视伤害限制效果",
+      "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
       "args": [],
       "effect": {
         "id": 697,
@@ -29,6 +30,7 @@
     },
     {
       "info": "无视护盾效果",
+      "analyze_info": "[sprite name=iconHit]无视[color=#57c975]护盾[/color]效果",
       "args": [],
       "effect": {
         "id": 1568,
@@ -37,6 +39,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
       "args": [
         1
       ],
@@ -47,6 +50,7 @@
     },
     {
       "info": "先出手时造成的攻击伤害额外提升75%",
+      "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]75%",
       "args": [
         75
       ],
@@ -57,6 +61,7 @@
     },
     {
       "info": "技能无效时，消除对手回合类效果、能力提升效果，令对手焚烬",
+      "analyze_info": "[sprite name=iconInherent]技能无效时，消除对手[color=#52a5f2]回合类效果[/color]、能力提升效果，令对手[color=#57c975]焚烬[/color]",
       "args": [],
       "effect": {
         "id": 2126,
@@ -66,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f7bf0f96"
+  "advance": null,
+  "hash": "5a39a432"
 }

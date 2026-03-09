@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则攻击+1，防御+1，特防+1",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则攻击+1，防御+1，特防+1（boss有效）",
       "args": [
         1,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内自身受到的固定伤害和百分比伤害减少40%",
+      "analyze_info": "[sprite name=iconHit]3回合内自身受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少40%（boss有效）",
       "args": [
         3,
         40
@@ -47,6 +49,7 @@
     },
     {
       "info": "若未击败对手则下2回合攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e71c33d9"
+  "advance": null,
+  "hash": "d9302b3d"
 }

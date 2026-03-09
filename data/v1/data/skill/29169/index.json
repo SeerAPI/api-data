@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内每回合100%闪避对手攻击",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合100%闪避对手攻击（boss有效）",
       "args": [
         3,
         100
@@ -42,6 +44,7 @@
     },
     {
       "info": "2回合内每回合使用技能则100%令对手流血，未触发则附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合使用技能则100%令对手[color=#57c975]流血[/color]，[color=#52a5f2]未触发[/color]则附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         2,
         100,
@@ -55,6 +58,7 @@
     },
     {
       "info": "2回合内每回合使用技能100%令对手麻痹，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合使用技能100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         2,
         100,
@@ -68,6 +72,7 @@
     },
     {
       "info": "2回合内自身技能额外消除对手护盾，消除成功附加消除量75%的真实伤害",
+      "analyze_info": "[sprite name=iconHit]2回合内自身技能额外消除对手[color=#57c975]护盾[/color]，消除成功附加消除量75%的[color=#52a5f2]真实伤害[/color]",
       "args": [
         2,
         75
@@ -80,5 +85,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "51d317f6"
+  "advance": null,
+  "hash": "f407ef4b"
 }

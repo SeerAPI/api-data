@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则攻击+2，速度+2",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则攻击+2，速度+2（boss有效）",
       "args": [
         2,
         0,
@@ -36,6 +37,7 @@
     },
     {
       "info": "自身每处于一种能力提升状态则附加60点固定伤害",
+      "analyze_info": "[sprite name=iconHit]自身每处于一种能力提升状态则附加60点[color=#52a5f2]固定伤害[/color]",
       "args": [
         60
       ],
@@ -46,6 +48,7 @@
     },
     {
       "info": "先出手时，1回合自己不会受到对手攻击性技能伤害并反弹对手造成伤害的1/3",
+      "analyze_info": "[sprite name=iconHit]先出手时，1回合自己不会受到对手攻击性技能伤害并[color=#52a5f2]反弹[/color]对手造成伤害的1/3",
       "args": [
         1,
         3
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "13427781"
+  "advance": null,
+  "hash": "513094f1"
 }

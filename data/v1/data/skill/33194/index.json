@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身体力低于最大体力的1/2则先制+2",
+      "analyze_info": "[sprite name=iconInherent]若自身体力低于最大体力的1/2则[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [],
       "effect": {
         "id": 1117,
@@ -29,6 +30,7 @@
     },
     {
       "info": "40%令对手睡眠，自身处于能力提升状态时概率翻倍",
+      "analyze_info": "[sprite name=iconHit]40%令对手[color=#57c975]睡眠[/color]，自身处于能力提升状态时概率翻倍",
       "args": [
         40,
         8
@@ -41,5 +43,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "310a2350"
+  "advance": null,
+  "hash": "516f8292"
 }

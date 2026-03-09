@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "1回合做4~6次攻击",
+          "analyze_info": "1回合做4~6次攻击",
           "args": [
             4,
             6
@@ -34,7 +35,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "33315": {
       "id": 33315,
@@ -59,6 +61,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             1
           ],
@@ -69,6 +72,7 @@
         },
         {
           "info": "连击5次，每次命中后连击数+1，最高连击10次",
+          "analyze_info": "[sprite name=iconHit]连击5次，每次命中后连击数+1，最高连击10次（boss有效）",
           "args": [
             5,
             1,
@@ -81,8 +85,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "108f14c0"
+  "hash": "928e5a97"
 }

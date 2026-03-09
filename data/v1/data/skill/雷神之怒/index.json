@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "攻击+1，防御+1，特防+1，速度+1,体力值低于1/2时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit]攻击+1，防御+1，特防+1，速度+1,体力值低于1/2时强化效果翻倍（boss有效）",
           "args": [
             1,
             1,
@@ -49,8 +51,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "271d44b2"
+  "hash": "1c519db1"
 }

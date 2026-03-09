@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若自身处于星赐且不处于星哲则将此技能转化为物理攻击，若自身处于星哲且不处于星赐则将此技能转化为特殊攻击，转化后此技能系别与自身相同且自身天赋值越高技能威力越大",
+          "analyze_info": "[sprite name=iconInherent]若自身处于[color=#57c975]星赐[/color]且不处于[color=#57c975]星哲[/color]则将此技能[color=#52a5f2]转化[/color]为物理攻击，若自身处于[color=#57c975]星哲[/color]且不处于[color=#57c975]星赐[/color]则将此技能[color=#52a5f2]转化[/color]为特殊攻击，[color=#52a5f2]转化[/color]后此技能系别与自身相同且自身天赋值越高技能[color=#52a5f2]威力[/color]越大",
           "args": [],
           "effect": {
             "id": 2210,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），若消除成功则使对手下1次使用的属性技能失效",
           "args": [
             1
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "若自身体力高于对手则使对手束缚",
+          "analyze_info": "[sprite name=iconHit]若自身体力高于对手则使对手[color=#57c975]束缚[/color]（boss有效）",
           "args": [
             28
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "若自身体力低于对手则与对手互换体力",
+          "analyze_info": "[sprite name=iconHit]若自身体力低于对手则与对手互换体力",
           "args": [],
           "effect": {
             "id": 773,
@@ -59,8 +63,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "7258a6d7"
+  "hash": "5cb21082"
 }

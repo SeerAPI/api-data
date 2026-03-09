@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "30%概率使对手陷入冰封状态2回合",
+      "analyze_info": "[sprite name=iconHit]30%概率使对手陷入[color=#57c975]冰封[/color]状态2回合（boss有效）",
       "args": [
         30,
         15,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若对手冰封，技能威力翻倍",
+      "analyze_info": "[sprite name=iconHit]若对手[color=#57c975]冰封[/color]，技能[color=#52a5f2]威力[/color]翻倍（boss有效）",
       "args": [
         15
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e545c3a9"
+  "advance": null,
+  "hash": "303efad6"
 }

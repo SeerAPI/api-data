@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "解除自身所处的异常状态，解除成功令对手害怕",
+          "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功令对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "4回合内每回合都能附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合都能附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             4,
             200
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "75478a5c"
+  "hash": "b71ab727"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除双方能力提升状态及能力下降状态，消除任意一方成功则为自身附加400点护盾",
+      "analyze_info": "[sprite name=iconHit]消除双方能力提升状态及能力下降状态（boss有效），消除任意一方成功则为自身附加400点[color=#57c975]护盾[/color]",
       "args": [
         400
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "恢复自身所有PP值",
+      "analyze_info": "[sprite name=iconHit]恢复自身所有PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 87,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4fe7fd2b"
+  "advance": null,
+  "hash": "ca5da9b7"
 }

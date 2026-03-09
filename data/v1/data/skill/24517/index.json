@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，防御+1，特攻+1，特防+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特攻+1，特防+1（boss有效）",
       "args": [
         0,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内每回合所受的伤害减少220",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少220（boss有效）",
       "args": [
         3,
         220
@@ -47,6 +49,7 @@
     },
     {
       "info": "恢复250点体力，若当前体力低于250则直接回满",
+      "analyze_info": "[sprite name=iconHit]恢复250点体力，若当前体力低于250则直接回满（boss有效）",
       "args": [
         250,
         250
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "de827647"
+  "advance": null,
+  "hash": "5b2af8a1"
 }

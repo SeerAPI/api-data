@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 521,
@@ -31,7 +32,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "35928": {
       "id": 35928,
@@ -56,6 +58,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             0,
             7
@@ -67,6 +70,7 @@
         },
         {
           "info": "40%的概率造成2倍伤害，每次使用概率增加20%，最高概率100%",
+          "analyze_info": "[sprite name=iconHit]40%的概率造成2倍伤害，每次使用概率增加20%，最高概率100%（boss有效）",
           "args": [
             40,
             2,
@@ -80,8 +84,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5bc96c87"
+  "hash": "e77b73f"
 }

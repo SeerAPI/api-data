@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "40%令对手麻痹，对手处于能力下降状态时触发概率翻倍",
+      "analyze_info": "[sprite name=iconHit]40%令对手[color=#57c975]麻痹[/color]，对手处于能力下降状态时触发概率翻倍",
       "args": [
         40,
         0
@@ -32,6 +33,7 @@
     },
     {
       "info": "随机吸取对手2项属性-2，并将该属性附加给自己",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手2项属性-2，并将该属性附加给自己（boss有效）",
       "args": [
         2,
         -2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e584d69b"
+  "advance": null,
+  "hash": "b1dcc929"
 }

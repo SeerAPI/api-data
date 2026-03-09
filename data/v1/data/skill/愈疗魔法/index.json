@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，防御+1，特防+1，速度+2，命中+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，防御+1，特防+1，速度+2，命中+2（boss有效）",
           "args": [
             0,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "2回合内使用技能恢复300点体力，体力低于1/3时恢复至满",
+          "analyze_info": "[sprite name=iconHit]2回合内使用技能恢复300点体力，体力低于1/3时恢复至满（boss有效）",
           "args": [
             2,
             300,
@@ -50,6 +52,7 @@
         },
         {
           "info": "下2回合自身攻击先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -61,8 +64,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "68e75704"
+  "hash": "bb1ae294"
 }

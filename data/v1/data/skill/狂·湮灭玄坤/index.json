@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则己方免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则[color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手处于能力下降状态时随机附加1种异常状态",
+          "analyze_info": "[sprite name=iconHit]对手处于能力下降状态时随机附加1种异常状态",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "当回合击败对手则下回合开始后随机附加1种异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则下回合开始后随机附加1种异常状态",
           "args": [
             1
           ],
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "93d0457d"
+  "hash": "1fe04d81"
 }

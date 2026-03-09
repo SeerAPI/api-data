@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内每回合若先出手则吸取对手200点体力",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合若先出手则[color=#52a5f2]吸取[/color]对手200点体力",
           "args": [
             3,
             200
@@ -44,6 +46,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             2,
             1
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5c83c49c"
+  "hash": "418c3714"
 }

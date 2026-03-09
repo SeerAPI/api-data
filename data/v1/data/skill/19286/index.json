@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "使对手的能力提升效果转化到自己身上",
+      "analyze_info": "[sprite name=iconHit]使对手的能力提升效果[color=#52a5f2]转化[/color]到自己身上（boss有效）",
       "args": [],
       "effect": {
         "id": 85,
@@ -29,6 +30,7 @@
     },
     {
       "info": "每次使用则当回合造成的攻击伤害额外提升30%，最高额外提升120%",
+      "analyze_info": "[sprite name=iconHit]每次使用则[color=#52a5f2]当回合[/color]造成的攻击[color=#52a5f2]伤害额外提升[/color]30%，最高额外提升120%（boss有效）",
       "args": [
         30,
         120
@@ -40,6 +42,7 @@
     },
     {
       "info": "击败对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时若自身处于能力提升状态，则将所处的能力提升状态翻倍（boss有效）",
       "args": [],
       "effect": {
         "id": 709,
@@ -49,5 +52,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2ead7a84"
+  "advance": null,
+  "hash": "b2737f09"
 }

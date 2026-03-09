@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
       "args": [
         1,
         1,
@@ -36,6 +37,7 @@
     },
     {
       "info": "3回合内若受到伤害高于250则对手瘫痪",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到伤害高于250则对手[color=#57c975]瘫痪[/color]（boss有效）",
       "args": [
         3,
         250,
@@ -48,6 +50,7 @@
     },
     {
       "info": "恢复250点体力",
+      "analyze_info": "[sprite name=iconHit]恢复250点体力（boss有效）",
       "args": [
         250
       ],
@@ -59,5 +62,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f8203aa3"
+  "advance": null,
+  "hash": "ed454e02"
 }

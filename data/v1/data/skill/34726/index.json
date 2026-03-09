@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的攻击伤害若高于300则令自身下2回合所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令自身下2回合所有技能[color=#52a5f2]先制[/color]+1",
       "args": [
         300,
         2,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若造成的伤害不足300，则下2回合的攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害不足300，则下2回合的攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         300,
         2
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "8fdcbe96"
+  "advance": null,
+  "hash": "7161bff3"
 }

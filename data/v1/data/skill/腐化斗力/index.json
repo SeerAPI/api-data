@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "下2回合攻击技能吸取对手1/3最大体力值",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击技能[color=#52a5f2]吸取[/color]对手1/3最大体力值",
           "args": [
             2,
             3
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "下2回合自身攻击先制+1",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             2,
             1
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8006e8f2"
+  "hash": "1364d70d"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合自身的能力下降状态都会反馈到对手身上",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合自身的能力下降状态都会反馈到对手身上",
       "args": [
         4
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "自身下次被击败后下一只出场的精灵攻击+2，特攻+2，速度+2，命中+2",
+      "analyze_info": "[sprite name=iconHit]自身下次[color=#57c975]被击败[/color]后下一只出场的精灵攻击+2，特攻+2，速度+2，命中+2（boss有效）",
       "args": [
         2,
         0,
@@ -57,5 +60,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4cf1b5b9"
+  "advance": null,
+  "hash": "6756cafa"
 }

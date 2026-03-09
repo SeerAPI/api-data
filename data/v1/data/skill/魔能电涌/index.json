@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则自身下2回合所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则自身下2回合所有技能[color=#52a5f2]先制[/color]+1",
           "args": [
             2,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "吸取对手150点固定体力，每次使用额外附加100点，最高350点",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手150点固定体力，每次使用额外附加100点，最高350点（boss有效）",
           "args": [
             150,
             100,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "70c6653d"
+  "hash": "ee6044ba"
 }

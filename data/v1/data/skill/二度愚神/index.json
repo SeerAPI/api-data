@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于能力下降时先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身处于能力下降时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "1回合内100%闪避对手攻击，对手攻击技能命中时随机附加麻痹、睡眠中的1种异常状态",
+          "analyze_info": "[sprite name=iconHit]1回合内100%闪避对手攻击，对手攻击技能命中时随机附加[color=#57c975]麻痹[/color]、[color=#57c975]睡眠[/color]中的1种异常状态",
           "args": [
             1,
             100,
@@ -56,6 +59,7 @@
         },
         {
           "info": "若先出手则自身下次受到致死伤害时保留1点体力",
+          "analyze_info": "[sprite name=iconHit]若先出手则自身下次受到[color=#52a5f2]致死伤害[/color]时[color=#52a5f2]保留[/color]1点体力",
           "args": [],
           "effect": {
             "id": 2281,
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "560f76b7"
+  "hash": "a2ec804f"
 }

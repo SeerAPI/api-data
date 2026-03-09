@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若对手体力低于1/2，该技能先制额外+1",
+          "analyze_info": "[sprite name=iconInherent]若对手体力低于1/2，该技能[color=#52a5f2]先制[/color]额外+1（boss有效）",
           "args": [
             1,
             2,
@@ -35,6 +36,7 @@
         },
         {
           "info": "对手特防等级-2，若对手处于流血状态，则弱化效果翻倍",
+          "analyze_info": "[sprite name=iconHit]对手特防等级-2，若对手处于[color=#57c975]流血[/color]状态，则弱化效果翻倍（boss有效）",
           "args": [
             3,
             -2,
@@ -47,6 +49,7 @@
         },
         {
           "info": "当回合若未击败对手则80%令对手流血，未触发则令自身全属性+1",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则80%令对手[color=#57c975]流血[/color]，[color=#52a5f2]未触发[/color]则令自身[color=#52a5f2]全属性[/color]+1",
           "args": [
             80,
             16,
@@ -59,8 +62,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4cb2706c"
+  "hash": "26f6704b"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "5回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫能力下降状态（boss有效）",
       "args": [
         5
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "当回合若自身先出手则令对手使用的威力低于160的攻击技能无效，若击败对手则攻击无效效果延续至下回合",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若自身先出手则令对手使用的威力值低于160的攻击技能无效，若[color=#57c975]击败[/color]对手则攻击无效效果延续至下回合",
       "args": [
         160
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "42cb65ba"
+  "advance": null,
+  "hash": "fcb83c68"
 }

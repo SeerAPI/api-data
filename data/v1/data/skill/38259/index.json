@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "20%令对手流血，对手为自身天敌时概率提升20%，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]20%令对手[color=#57c975]流血[/color]，对手为自身天敌时概率提升20%，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [
         20,
         16,
@@ -33,6 +34,7 @@
     },
     {
       "info": "若对手处于异常状态则恢复造成伤害的25%的体力",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则恢复造成伤害的25%的体力（boss有效）",
       "args": [
         25
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f7fbf12f"
+  "advance": null,
+  "hash": "7cbc10af"
 }

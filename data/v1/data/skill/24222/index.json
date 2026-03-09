@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内若对手使用属性技能则50%概率令对手害怕",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则50%概率令对手[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         3,
         50,
@@ -33,6 +34,7 @@
     },
     {
       "info": "下1回合攻击必定先出手",
+      "analyze_info": "[sprite name=iconHit]下1回合攻击必定先出手（boss有效）",
       "args": [
         1
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "47b17b16"
+  "advance": null,
+  "hash": "7774ac68"
 }

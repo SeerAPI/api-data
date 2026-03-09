@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，若消除成功则使对手下1次使用的属性技能失效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），若消除成功则使对手下1次使用的属性技能失效",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若打出致命一击则对手100%概率失明",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]失明[/color]（boss有效）",
       "args": [
         100,
         20
@@ -42,6 +44,7 @@
     },
     {
       "info": "若攻击未打出致命一击则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]若攻击未打出[color=#57c975]致命一击[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fd832e13"
+  "advance": null,
+  "hash": "80eea921"
 }

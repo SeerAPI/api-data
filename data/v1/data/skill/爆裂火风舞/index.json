@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若先出手则当回合闪避对手的攻击技能",
+          "analyze_info": "[sprite name=iconHit]若先出手则[color=#52a5f2]当回合[/color]闪避对手的攻击技能",
           "args": [],
           "effect": {
             "id": 720,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时下回合所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e61fb438"
+  "hash": "c1b71be2"
 }

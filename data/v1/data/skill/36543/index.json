@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "将自身下1次受到的攻击伤害转化为等量护盾，最多获得300点",
+      "analyze_info": "[sprite name=iconHit]将自身下1次受到的攻击伤害[color=#52a5f2]转化[/color]为等量[color=#57c975]护盾[/color]，最多获得300点",
       "args": [
         1,
         300
@@ -32,6 +33,7 @@
     },
     {
       "info": "100%令对手全属性+1",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]+1",
       "args": [
         1
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a4c424dd"
+  "advance": null,
+  "hash": "baf2b4d6"
 }

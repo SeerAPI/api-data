@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "2回合内每回合结束后反转对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]2回合内每[color=#57c975]回合结束后[/color][color=#52a5f2]反转[/color]对手能力提升状态",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "对手不处于异常状态时随机附加1种异常状态",
+          "analyze_info": "[sprite name=iconHit]对手不处于异常状态时随机附加1种异常状态",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内自身释放技能50%不消耗PP值",
+          "analyze_info": "[sprite name=iconHit]3回合内自身释放技能50%不消耗PP值",
           "args": [
             3,
             50
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2dafb498"
+  "hash": "8f2cb2ef"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "给对手造成伤害时，伤害数值的100%恢复自身体力",
+      "analyze_info": "[sprite name=iconHit]给对手造成伤害时，伤害数值的100%恢复自身体力（boss有效）",
       "args": [
         100
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2dc82908"
+  "advance": null,
+  "hash": "6673351f"
 }

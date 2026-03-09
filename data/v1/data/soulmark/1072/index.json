@@ -2,6 +2,7 @@
   "id": 1072,
   "desc": "回合开始时，若自身不存在护盾则为自身附加300点护盾；战斗阶段结束时，若自身存在护盾则下回合攻击先制+1且{吸取}对手最大{体力}的1/3，若自身不存在护盾则为自身附加300点护罩（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时，若自身不存在护盾则为自身<color=#64F9FA>附加</color>300点<b>护盾</b>\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身存在护盾则下回合使用攻击技能<b>先制</b>+1且<color=#64F9FA>吸取</color>对手最大体力的1/3\r\n<indent=32><sprite=4><indent=48>若自身不存在护盾则为自身<color=#64F9FA>附加</color>300点<b>护罩</b>",
+  "analyze_desc": "",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -41,5 +42,6 @@
   ],
   "intensified_to": null,
   "from": null,
-  "hash": "28b52be4"
+  "advance": null,
+  "hash": "e164228a"
 }

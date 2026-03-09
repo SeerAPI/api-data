@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则己方免疫下2次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]己方[/color]免疫下2次受到的异常状态",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "吸取对手能力提升状态，吸取成功则2回合内对手攻击技能无法造成伤害且命中效果失效",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则2回合内对手攻击技能无法造成伤害且命中效果失效",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "崩溃：对手直到下场属性技能无效",
+      "analyze_info": "[sprite name=iconInherent][color=#f35555]崩溃[/color]：对手直到下场属性技能无效（boss有效）",
       "args": [],
       "effect": {
         "id": 2111,
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b567bf07"
+  "advance": null,
+  "hash": "bf5c1452"
 }

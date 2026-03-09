@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         5
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合内若使用技能则恢复200点体力值",
+      "analyze_info": "[sprite name=iconHit]1回合内若使用技能则恢复200点体力值（boss有效）",
       "args": [
         1,
         200
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d5353c9b"
+  "advance": null,
+  "hash": "7a8b9b59"
 }

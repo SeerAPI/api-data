@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手命中等级-2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
       "args": [
         5,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "造成的攻击伤害若低于250则恢复自身250点体力",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于250则恢复自身250点体力（boss有效）",
       "args": [
         250,
         250
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5be823eb"
+  "advance": null,
+  "hash": "6e27bd03"
 }

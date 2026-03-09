@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "当回合未击败对手则有30%将对手所有技能PP值降为0",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]未[color=#57c975]击败[/color]对手则有30%将对手所有技能PP值降为0",
       "args": [
         30
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若本回合击败对手，下回合对方出场精灵命中-2",
+      "analyze_info": "[sprite name=iconHit]若本回合[color=#57c975]击败[/color]对手，下回合对方出场精灵命中-2（boss有效）",
       "args": [
         0,
         0,
@@ -47,5 +49,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a704de"
+  "advance": null,
+  "hash": "1f4f9f93"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "获得300点护罩，护罩消失时恢复自身300点体力",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时恢复自身300点体力（boss有效）",
       "args": [
         300,
         300
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "d4f4fdc3"
+  "advance": null,
+  "hash": "e4d28dcf"
 }

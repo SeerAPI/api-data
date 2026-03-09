@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "获得500点护罩，护罩消失时使对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]获得500点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时使对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         500,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内每回合80%闪避对手攻击，未触发则使对手随机1项技能PP值归零",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合80%闪避对手攻击，[color=#52a5f2]未触发[/color]则使对手随机1项技能PP值归零（boss有效）",
       "args": [
         3,
         80,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "82fde5cc"
+  "advance": null,
+  "hash": "8996ad68"
 }

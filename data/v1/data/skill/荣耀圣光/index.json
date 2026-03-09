@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "随机使对手2种能力等级-1",
+          "analyze_info": "[sprite name=iconHit]随机使对手2种能力等级-1（boss有效）",
           "args": [
             2,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内自身攻击技能造成伤害的30%会恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]3回合内自身攻击技能造成伤害的30%会恢复自身体力（boss有效）",
           "args": [
             2,
             30
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b32c30c2"
+  "hash": "d4779ac4"
 }

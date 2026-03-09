@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，100%改变对手命中等级-2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-2（boss有效）",
           "args": [
             5,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "2回合后对对手造成300点固定伤害 重复使用无法叠加",
+          "analyze_info": "[sprite name=iconHit]2回合后对对手造成300点[color=#52a5f2]固定伤害[/color] 重复使用无法叠加（boss有效）",
           "args": [
             2,
             300
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "775a8436"
+  "hash": "ff44d956"
 }

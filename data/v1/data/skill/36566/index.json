@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手每损失2点体力则额外附加1点固定伤害",
+      "analyze_info": "[sprite name=iconHit]对手每损失2点体力则额外附加1点[color=#52a5f2]固定伤害[/color]",
       "args": [
         2,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "击败对手则令对手下1次使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下1次使用的属性技能无效",
       "args": [
         1
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a0e227a"
+  "advance": null,
+  "hash": "612aed0f"
 }

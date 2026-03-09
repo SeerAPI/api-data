@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "14回合内对手恢复体力时恢复效果减少100%",
+          "analyze_info": "[sprite name=iconHit]14回合内对手恢复体力时恢复效果减少100%（boss有效）",
           "args": [
             14,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "下14回合对手使用体力药剂时效果变成减少相应的体力",
+          "analyze_info": "[sprite name=iconHit]下14回合对手使用体力药剂时效果变成减少相应的体力（boss有效）",
           "args": [
             14
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "若对手体力不足140则直接秒杀",
+          "analyze_info": "[sprite name=iconHit]若对手体力不足140则直接[color=#52a5f2]秒杀[/color]（boss有效）",
           "args": [
             140
           ],
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2b51a529"
+  "hash": "4c015ec1"
 }

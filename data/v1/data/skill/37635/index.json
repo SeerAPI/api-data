@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则恢复自身所有体力，若对手不处于能力提升状态则2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有体力，若对手不处于能力提升状态则2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手处于异常状态则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]若对手处于异常状态则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5f99b752"
+  "advance": null,
+  "hash": "d6622936"
 }

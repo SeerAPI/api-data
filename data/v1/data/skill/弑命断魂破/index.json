@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于能力下降状态时先制+1",
+          "analyze_info": "[sprite name=iconInherent]对手处于能力下降状态时[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1243,
@@ -31,6 +32,7 @@
         },
         {
           "info": "若打出致命一击则对手100%概率害怕",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             100,
             6
@@ -42,6 +44,7 @@
         },
         {
           "info": "造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成伤害的50%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
           "args": [
             50
           ],
@@ -52,8 +55,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f797d4b5"
+  "hash": "148a76a5"
 }

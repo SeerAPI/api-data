@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于护盾状态下先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护盾[/color]状态下[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 1487,
@@ -31,6 +32,7 @@
         },
         {
           "info": "自身处于护罩状态时必定命中",
+          "analyze_info": "[sprite name=iconInherent]自身处于[color=#57c975]护罩[/color]状态时[color=#52a5f2]必定命中[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 2197,
@@ -39,6 +41,7 @@
         },
         {
           "info": "双方任意一方处于护盾状态时100%令对手焚烬",
+          "analyze_info": "[sprite name=iconHit]双方任意一方处于[color=#57c975]护盾[/color]状态时100%令对手[color=#57c975]焚烬[/color]",
           "args": [
             100,
             22
@@ -50,6 +53,7 @@
         },
         {
           "info": "双方任意一方处于护罩状态时100%令对手冰封",
+          "analyze_info": "[sprite name=iconHit]双方任意一方处于[color=#57c975]护罩[/color]状态时100%令对手[color=#57c975]冰封[/color]",
           "args": [
             100,
             15
@@ -61,8 +65,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9ba8a71e"
+  "hash": "7111e85c"
 }

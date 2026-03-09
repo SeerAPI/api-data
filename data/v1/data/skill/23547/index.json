@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下3回合每回合使用攻击技能30%令对手冰封",
+      "analyze_info": "[sprite name=iconHit]下3回合每回合使用攻击技能30%令对手[color=#57c975]冰封[/color]（boss有效）",
       "args": [
         3,
         30,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ce14498f"
+  "advance": null,
+  "hash": "75d6c4fd"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "2回合内自身受到直接攻击伤害的100%反馈给对手",
+          "analyze_info": "[sprite name=iconHit]2回合内自身受到直接攻击伤害的100%反馈给对手（boss有效）",
           "args": [
             2,
             100
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "cb5423cf"
+  "hash": "be925d1c"
 }

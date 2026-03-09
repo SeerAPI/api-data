@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内若自身攻击技能命中则50%令对手睡眠",
+          "analyze_info": "[sprite name=iconHit]4回合内若自身攻击技能命中则50%令对手[color=#57c975]睡眠[/color]（boss有效）",
           "args": [
             3,
             50,
@@ -45,6 +47,7 @@
         },
         {
           "info": "若对手处于异常状态则回合结束时减少对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则[color=#57c975]回合结束时[/color]减少对手1/3最大体力",
           "args": [
             3
           ],
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c749a431"
+  "hash": "5ee9b457"
 }

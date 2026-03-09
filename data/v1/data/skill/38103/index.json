@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "己方每有一只精灵阵亡则为自身附加65点护盾、65点护罩",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]每有一只精灵阵亡则为自身附加65点[color=#57c975]护盾[/color]、65点[color=#57c975]护罩[/color]",
       "args": [
         65,
         65
@@ -32,6 +33,7 @@
     },
     {
       "info": "对方每比己方多存活一只精灵，威力提升65点",
+      "analyze_info": "[sprite name=iconHit]对方每比[color=#52a5f2]己方[/color]多存活一只精灵，[color=#52a5f2]威力[/color]提升65点",
       "args": [
         65
       ],
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "71c61a18"
+  "advance": null,
+  "hash": "7e85f282"
 }

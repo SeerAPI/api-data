@@ -2,6 +2,10 @@
   "allOf": [
     {
       "$defs": {
+        "ResourceRef_PetAdvance_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_advance"
+        },
         "ResourceRef_Pet_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet"
@@ -132,6 +136,18 @@
           ],
           "default": null,
           "description": "技能隐藏效果"
+        },
+        "advance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PetAdvance_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "技能觉醒信息，仅在该技能是通过神谕觉醒开启的技能时生效"
         }
       },
       "required": [

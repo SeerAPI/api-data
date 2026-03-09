@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "50%令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]麻痹[/color]（boss有效）",
       "args": [
         50,
         0
@@ -32,6 +33,7 @@
     },
     {
       "info": "造成的攻击伤害若高于400则令对手2回合内使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于400则令对手2回合内使用的属性技能无效（boss有效）",
       "args": [
         400,
         2
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "425c469"
+  "advance": null,
+  "hash": "8b1f9c61"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成的伤害不少于300",
+      "analyze_info": "[sprite name=iconHit]造成的伤害不少于300（boss有效）",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "消耗自身全部体力，消除对手回合类效果，消除成功则令己方下只精灵出战时恢复全部体力，消除对手能力提升状态，消除成功则令己方下只精灵出战时恢复所有技能PP值",
+      "analyze_info": "[sprite name=iconHit]消耗自身全部体力，消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令[color=#52a5f2]己方[/color]下只精灵[color=#57c975]出战时[/color]恢复全部体力，消除对手能力提升状态，消除成功则令[color=#52a5f2]己方[/color]下只精灵[color=#57c975]出战时[/color]恢复所有技能PP值",
       "args": [],
       "effect": {
         "id": 1979,
@@ -39,6 +41,7 @@
     },
     {
       "info": "恢复己方所有不在场精灵200点体力",
+      "analyze_info": "[sprite name=iconHit]恢复[color=#52a5f2]己方[/color]所有不在场精灵200点体力",
       "args": [
         200
       ],
@@ -50,5 +53,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b23ff65c"
+  "advance": null,
+  "hash": "cbbda92d"
 }

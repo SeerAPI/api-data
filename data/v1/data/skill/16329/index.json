@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "造成伤害低于350，则下1回合必定暴击",
+      "analyze_info": "[sprite name=iconHit]造成伤害低于350，则下1回合必定暴击（boss有效）",
       "args": [
         0,
         350,
@@ -33,6 +34,7 @@
     },
     {
       "info": "造成伤害高于350，则造成伤害的20%恢复体力",
+      "analyze_info": "[sprite name=iconHit]造成伤害高于350，则造成伤害的20%恢复体力（boss有效）",
       "args": [
         1,
         350,
@@ -46,5 +48,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5993ea27"
+  "advance": null,
+  "hash": "3e720748"
 }

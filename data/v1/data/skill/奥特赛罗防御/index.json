@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "令自身下1次受到的攻击伤害转化为体力",
+          "analyze_info": "[sprite name=iconHit]令自身下1次受到的攻击伤害[color=#52a5f2]转化[/color]为体力（boss有效）",
           "args": [
             1
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内若对手使用攻击技能则100%使对手疲惫",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则100%使对手[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             3,
             100,
@@ -55,6 +58,7 @@
         },
         {
           "info": "3回合内若对手使用属性技能则令对手所有技能降低2点PP值",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则令对手所有技能降低2点PP值（boss有效）",
           "args": [
             3,
             2
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "296daa73"
+  "hash": "5bd8d83c"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -32,6 +33,7 @@
     },
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内每次造成伤害的1/2会恢复自己的HP",
+      "analyze_info": "[sprite name=iconHit]3回合内每次造成伤害的1/2会恢复自己的HP（boss有效）",
       "args": [
         3,
         2
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a8cd8583"
+  "advance": null,
+  "hash": "bef26494"
 }

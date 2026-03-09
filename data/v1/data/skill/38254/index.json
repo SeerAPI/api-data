@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "处在烧伤、中毒、冻伤状态时威力翻倍，命中后解除这些异常状态",
+      "analyze_info": "[sprite name=iconHit]处在[color=#57c975]烧伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]冻伤[/color]状态时[color=#52a5f2]威力[/color]翻倍，命中后解除这些异常状态（boss有效）",
       "args": [],
       "effect": {
         "id": 513,
@@ -29,6 +30,7 @@
     },
     {
       "info": "2合内自身所有攻击造成的伤害都将为自己恢复体力",
+      "analyze_info": "[sprite name=iconHit]2合内自身所有攻击造成的伤害都将为自己恢复体力（boss有效）",
       "args": [
         2
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b754cacf"
+  "advance": null,
+  "hash": "46cbb2e7"
 }

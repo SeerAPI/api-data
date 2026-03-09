@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手处于能力提升状态时先制+3",
+      "analyze_info": "[sprite name=iconInherent]对手处于能力提升状态时[color=#52a5f2]先制(339)[/color]+3",
       "args": [],
       "effect": {
         "id": 2423,
@@ -29,6 +30,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则100%令对手麻痹，未触发则附加自身最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则附加自身最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         100,
         0,
@@ -41,6 +43,7 @@
     },
     {
       "info": "60%令对手疲惫，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]60%令对手[color=#57c975]疲惫[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         60,
         7,
@@ -53,6 +56,7 @@
     },
     {
       "info": "自己出手时若自身体力高于对手则造成的伤害提升100%",
+      "analyze_info": "[sprite name=iconHit]自己出手时若自身体力高于对手则造成的伤害提升100%（boss有效）",
       "args": [
         100
       ],
@@ -63,6 +67,7 @@
     },
     {
       "info": "对手不处于异常状态时对手2回合内体力恢复效果减少60%",
+      "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手2回合内体力恢复效果减少60%",
       "args": [
         2,
         60
@@ -75,5 +80,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e8e9b5e1"
+  "advance": null,
+  "hash": "5f43ad"
 }

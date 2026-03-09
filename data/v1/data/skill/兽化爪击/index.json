@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身处于能力提升状态时80%打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]自身处于能力提升状态时80%打出[color=#57c975]致命一击[/color]（boss有效）",
           "args": [],
           "effect": {
             "id": 1349,
@@ -31,6 +32,7 @@
         },
         {
           "info": "附加自身能力提升等级总和X10的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身能力提升等级总和X10的[color=#52a5f2]固定伤害[/color]",
           "args": [
             10
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c30e09f6"
+  "hash": "a4a815aa"
 }

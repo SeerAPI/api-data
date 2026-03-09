@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "3回合内使用技能附加200点固定伤害，若自身体力低于对手则效果翻倍",
+          "analyze_info": "[sprite name=iconHit]3回合内使用技能附加200点[color=#52a5f2]固定伤害[/color]，若自身体力低于对手则效果翻倍（boss有效）",
           "args": [
             3,
             200
@@ -54,6 +57,7 @@
         },
         {
           "info": "下2回合令对手所有技能先制-2",
+          "analyze_info": "[sprite name=iconHit]下2回合令对手所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
           "args": [
             2,
             2
@@ -65,8 +69,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "92cc7b7"
+  "hash": "8c7322a1"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "遇到天敌时先制+1",
+      "analyze_info": "[sprite name=iconInherent]遇到天敌时[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]1回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "造成伤害的60%恢复自身体力，若对手处于异常状态则附加等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]造成伤害的60%恢复自身体力，若对手处于异常状态则附加等量[color=#52a5f2]百分比伤害[/color]（boss有效）",
       "args": [
         60
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "fc735195"
+  "advance": null,
+  "hash": "73ca6a12"
 }

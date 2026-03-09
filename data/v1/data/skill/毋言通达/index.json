@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
           "args": [
             4
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "100%令对手诅咒，未触发则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]诅咒[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             100,
             23,
@@ -55,6 +58,7 @@
         },
         {
           "info": "令己方下只出战精灵抵挡下1次对手的攻击，且出战时100%诅咒",
+          "analyze_info": "[sprite name=iconHit]令[color=#52a5f2]己方[/color]下只出战精灵抵挡下1次对手的攻击，且[color=#57c975]出战时[/color]100%[color=#57c975]诅咒[/color]",
           "args": [
             1,
             100,
@@ -67,8 +71,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "8eacee9b"
+  "hash": "91fb591e"
 }

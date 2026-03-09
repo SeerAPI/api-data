@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "自身下2次攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]自身下2次攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "下2回合若打出致命一击则必定恢复全部体力",
+      "analyze_info": "[sprite name=iconHit]下2回合若打出[color=#57c975]致命一击[/color]则必定恢复全部体力（boss有效）",
       "args": [
         2
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "下2回合攻击技能打出致命一击后自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]下2回合攻击技能打出[color=#57c975]致命一击[/color]后自身免疫下1次受到的异常状态",
       "args": [
         2,
         1
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f62f85ef"
+  "advance": null,
+  "hash": "77095bb5"
 }

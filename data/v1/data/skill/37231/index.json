@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "1回合做5-8次攻击，对手处于异常状态时连击上限为12",
+      "analyze_info": "[sprite name=iconHit]1回合做5-8次攻击，对手处于异常状态时连击上限为12",
       "args": [
         5,
         8,
@@ -33,6 +34,7 @@
     },
     {
       "info": "对手每处于一种异常状态则附加150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]对手每处于一种异常状态则附加150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         150
       ],
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "75fd791c"
+  "advance": null,
+  "hash": "2c9578a2"
 }

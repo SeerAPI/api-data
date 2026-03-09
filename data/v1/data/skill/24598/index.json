@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫能力下降状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内受攻击时反弹150点固定伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内受攻击时[color=#52a5f2]反弹[/color]150点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         4,
         150
@@ -42,6 +44,7 @@
     },
     {
       "info": "4回合内若对手造成的伤害低于150，则对手害怕",
+      "analyze_info": "[sprite name=iconHit]4回合内若对手造成的伤害低于150，则对手[color=#57c975]害怕[/color]",
       "args": [
         4,
         150,
@@ -55,5 +58,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4a2b8590"
+  "advance": null,
+  "hash": "9c8214d9"
 }

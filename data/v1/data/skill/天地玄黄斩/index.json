@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内每回合所受的伤害减少100",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少100（boss有效）",
           "args": [
             3,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "后出手时，额外附加120点固定伤害",
+          "analyze_info": "[sprite name=iconHit]后出手时，额外附加120点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             120
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "91388ae7"
+  "hash": "817edc63"
 }

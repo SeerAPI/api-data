@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "对手不存在神印则攻击必定打出致命一击，对手每存在1层神印则100%使对手随机1项技能PP值归零",
+      "analyze_info": "[sprite name=iconComp]对手不存在[color=#f35555]神印[/color]则攻击必定打出[color=#57c975]致命一击[/color]，对手每存在1层[color=#f35555]神印[/color]则100%使对手随机1项技能PP值归零",
       "args": [],
       "effect": {
         "id": 1532,
@@ -29,6 +30,7 @@
     },
     {
       "info": "未击败对手则下回合自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下回合自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2
       ],
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f3e89734"
+  "advance": null,
+  "hash": "3eada4c2"
 }

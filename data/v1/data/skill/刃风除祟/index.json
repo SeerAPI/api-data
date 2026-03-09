@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身能力下降状态，解除成功则自身下2回合受到的伤害减少300点",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，解除成功则自身下2回合受到的伤害减少300点（boss有效）",
           "args": [
             2,
             300
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "efbf8c30"
+  "hash": "5f7b7b25"
 }

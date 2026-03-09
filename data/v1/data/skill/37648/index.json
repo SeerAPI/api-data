@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "反转对手的能力提升状态，反转成功则恢复自身所有体力",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转对手[/color]的能力提升状态，反转成功则恢复自身所有体力（boss有效）",
       "args": [],
       "effect": {
         "id": 778,
@@ -29,6 +30,7 @@
     },
     {
       "info": "100%令对手中毒，未触发则吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]中毒[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         100,
         1,
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4b42e270"
+  "advance": null,
+  "hash": "60016f74"
 }

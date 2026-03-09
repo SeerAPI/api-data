@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内受到物理攻击时，有50%概率将对手冻伤",
+          "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击时，有50%概率将对手[color=#57c975]冻伤[/color]（boss有效）",
           "args": [
             3,
             50
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bdc049e4"
+  "hash": "7b39bcfe"
 }

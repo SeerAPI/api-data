@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若本次技能微弱对手则先制+1",
+          "analyze_info": "[sprite name=iconInherent]若本次技能微弱对手则[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [],
           "effect": {
             "id": 2030,
@@ -31,6 +32,7 @@
         },
         {
           "info": "当回合使用的技能克制对手时获得本系属性加成",
+          "analyze_info": "[sprite name=iconInherent][color=#52a5f2]当回合[/color]使用的技能克制对手时获得本系属性加成",
           "args": [],
           "effect": {
             "id": 1616,
@@ -39,6 +41,7 @@
         },
         {
           "info": "令双方所有技能PP值等于此技能剩余PP值，若对手变化值达到10则令对手烧伤，若自身变化值达到10则令对手焚烬",
+          "analyze_info": "[sprite name=iconHit]令双方所有技能PP值等于此技能剩余PP值，若对手变化值[color=#52a5f2]达到[/color]10则令对手[color=#57c975]烧伤[/color]，若自身变化值[color=#52a5f2]达到[/color]10则令对手[color=#57c975]焚烬[/color]",
           "args": [
             10,
             2,
@@ -52,6 +55,7 @@
         },
         {
           "info": "3回合内自身释放技能100%不消耗PP值",
+          "analyze_info": "[sprite name=iconHit]3回合内自身释放技能100%不消耗PP值",
           "args": [
             3,
             100
@@ -63,8 +67,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "aebc46e9"
+  "hash": "94586fde"
 }

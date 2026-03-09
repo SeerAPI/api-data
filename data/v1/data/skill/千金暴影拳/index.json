@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时全属性+1",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手的话威力为2倍",
+          "analyze_info": "[sprite name=iconHit]后出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
           "args": [],
           "effect": {
             "id": 30,
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "3d5ecfe3"
+  "hash": "fa33b37e"
 }

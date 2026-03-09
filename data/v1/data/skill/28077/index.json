@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内对手无法通过自身技能恢复体力且受到原本恢复量1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]且受到原本恢复量1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         3,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "100%令对手流血，未触发则免疫下1次受到的攻击伤害并反弹等量的固定伤害",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]流血[/color]，[color=#52a5f2]未触发[/color]则免疫下1次受到的攻击伤害并[color=#52a5f2]反弹[/color]等量的[color=#52a5f2]固定伤害[/color]",
       "args": [
         100,
         16,
@@ -44,6 +46,7 @@
     },
     {
       "info": "获得300点护罩，护罩消失时附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         300,
         3
@@ -56,5 +59,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f7df90e2"
+  "advance": null,
+  "hash": "79707678"
 }

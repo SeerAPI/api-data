@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "解除自身能力下降状态，解除成功则恢复自身所有体力",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身所有体力",
           "args": [],
           "effect": {
             "id": 1167,
@@ -31,6 +32,7 @@
         },
         {
           "info": "后出手时令对手下1回合先制-2",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合[color=#52a5f2]先制[/color]-2",
           "args": [
             1,
             2
@@ -42,8 +44,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "534fb9bc"
+  "hash": "41c4f737"
 }

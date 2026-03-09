@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "造成伤害的40%恢复自身体力，若自身体力低于对手则效果提升至60%",
+          "analyze_info": "[sprite name=iconHit]造成伤害的40%恢复自身体力，若自身体力低于对手则效果提升至60%（boss有效）",
           "args": [
             40,
             60
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "1bf7d016"
+  "hash": "85240967"
 }

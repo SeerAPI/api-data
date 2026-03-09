@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
           "args": [
             3
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合内受到攻击100%恢复1/4体力",
+          "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%恢复1/4体力（boss有效）",
           "args": [
             3,
             100,
@@ -45,7 +47,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "25298": {
       "id": 25298,
@@ -70,6 +73,7 @@
       "skill_effect": [
         {
           "info": "70%令对手冰封，未触发则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]70%令对手[color=#57c975]冰封[/color]，[color=#52a5f2]未触发[/color]则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             70,
             15,
@@ -82,6 +86,7 @@
         },
         {
           "info": "5回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]5回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
           "args": [
             5
           ],
@@ -92,6 +97,7 @@
         },
         {
           "info": "3回合内若受到攻击则有100%概率令对手冰封",
+          "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有100%概率令对手[color=#57c975]冰封[/color]（boss有效）",
           "args": [
             3,
             100,
@@ -104,8 +110,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "ae0c1402"
+  "hash": "4de09d00"
 }

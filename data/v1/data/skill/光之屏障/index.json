@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "5回合内若受到伤害高于200则对手烧伤",
+          "analyze_info": "[sprite name=iconHit]5回合内若受到伤害高于200则对手[color=#57c975]烧伤[/color]（boss有效）",
           "args": [
             5,
             200,
@@ -35,7 +36,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "24458": {
       "id": 24458,
@@ -60,6 +62,7 @@
       "skill_effect": [
         {
           "info": "4回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
           "args": [
             4
           ],
@@ -70,6 +73,7 @@
         },
         {
           "info": "下2回合攻击必定先出手",
+          "analyze_info": "[sprite name=iconHit]下2回合攻击必定先出手（boss有效）",
           "args": [
             2
           ],
@@ -80,6 +84,7 @@
         },
         {
           "info": "50%降低对手所有技能3点PP值，然后若对手所选择的技能PP值为0则当回合对手无法行动",
+          "analyze_info": "[sprite name=iconHit]50%降低对手所有技能3点PP值，[color=#52a5f2]然后[/color]若对手所选择的技能PP值为0则[color=#52a5f2]当回合[/color]对手无法行动（boss有效）",
           "args": [
             50,
             3
@@ -91,6 +96,7 @@
         },
         {
           "info": "下2回合若自身选择使用技能则无视对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit]下2回合若自身选择使用技能则无视对手能力提升状态（boss有效）",
           "args": [
             2
           ],
@@ -101,8 +107,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f6b7297f"
+  "hash": "c4ed9cb5"
 }

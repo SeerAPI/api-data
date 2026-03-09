@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内每回合被攻击所受到的伤害不超过260",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合被攻击所受到的伤害不超过260（boss有效）",
       "args": [
         4,
         260
@@ -32,6 +33,7 @@
     },
     {
       "info": "恢复260点体力",
+      "analyze_info": "[sprite name=iconHit]恢复260点体力（boss有效）",
       "args": [
         260
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "2回合内若受到攻击，消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]2回合内若受到攻击，消除对手能力提升状态（boss有效）",
       "args": [
         2
       ],
@@ -53,5 +56,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "512e7afa"
+  "advance": null,
+  "hash": "65263309"
 }

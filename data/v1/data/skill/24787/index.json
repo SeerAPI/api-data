@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内致命一击率上升3/16",
+      "analyze_info": "[sprite name=iconHit]2回合内[color=#57c975]致命一击[/color]率上升3/16（boss有效）",
       "args": [
         2,
         3
@@ -32,6 +33,7 @@
     },
     {
       "info": "下2回合令对手所有技能先制-1",
+      "analyze_info": "[sprite name=iconHit]下2回合令对手所有技能[color=#52a5f2]先制[/color]-1（boss有效）",
       "args": [
         2,
         1
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dd774a38"
+  "advance": null,
+  "hash": "434bc513"
 }

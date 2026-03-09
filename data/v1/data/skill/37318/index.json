@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "3回合内自身的能力提升状态无法被消除或吸取",
+      "analyze_info": "[sprite name=iconHit]3回合内自身的能力提升状态无法被消除或[color=#52a5f2]吸取[/color]",
       "args": [
         3
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
       "args": [
         1
       ],
@@ -42,5 +44,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "16265af"
+  "advance": null,
+  "hash": "7bd5da27"
 }

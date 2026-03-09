@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "4回合内每回合使用技能吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         4,
         3
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内对手使用攻击技能则睡眠",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用攻击技能则[color=#57c975]睡眠[/color]",
       "args": [
         3,
         8
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内若对手使用属性技能，则使用属性技能后的下2回合攻击技能无法造成伤害且命中效果失效",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能，则使用属性技能后的下2回合攻击技能无法造成伤害且命中效果失效",
       "args": [
         3,
         2
@@ -65,5 +69,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "218e119"
+  "advance": null,
+  "hash": "434345f6"
 }

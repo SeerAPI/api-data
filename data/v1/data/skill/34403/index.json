@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手回合类效果，消除成功则附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则附加200点[color=#52a5f2]固定伤害[/color]",
       "args": [
         200
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "50%使对手烧伤，若未触发则使对手受到相当于自身当前体力1/4的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]50%使对手[color=#57c975]烧伤[/color]，若[color=#52a5f2]未触发[/color]则使对手受到相当于自身当前体力1/4的[color=#52a5f2]百分比伤害[/color]",
       "args": [
         50,
         2,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "377d9ce"
+  "advance": null,
+  "hash": "3f082ac"
 }

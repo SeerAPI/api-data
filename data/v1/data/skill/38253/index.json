@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则为自身附加300点护盾",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         300
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "1回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]1回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
     },
     {
       "info": "为自身附加300点护盾",
+      "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         300
       ],
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ea0b8acc"
+  "advance": null,
+  "hash": "cc1672e9"
 }

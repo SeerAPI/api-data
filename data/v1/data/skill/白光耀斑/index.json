@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击对手时若对手处于烧伤状态，则100%使对手焚烬",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]烧伤[/color]状态，则100%使对手[color=#57c975]焚烬[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -35,6 +36,7 @@
         },
         {
           "info": "下1次受到攻击伤害时，若伤害高于500，则自身恢复全部体力",
+          "analyze_info": "[sprite name=iconHit]下1次受到攻击伤害时，若伤害高于500，则自身恢复全部体力",
           "args": [
             1,
             500
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f79a47df"
+  "hash": "d093cda2"
 }

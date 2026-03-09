@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消耗自身所有体力给对手造成300-400点伤害,若造成伤害大于对手体力，则对手必定留1点血",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有体力给对手造成300-400点伤害,若造成伤害大于对手体力，则对手必定留1点血（boss有效）",
       "args": [
         300,
         400
@@ -32,6 +33,7 @@
     },
     {
       "info": "消除对手回合类效果，消除成功则令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]烧伤[/color]",
       "args": [
         2
       ],
@@ -42,6 +44,7 @@
     },
     {
       "info": "消除对手能力提升状态，消除成功则令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手[color=#57c975]烧伤[/color]（boss有效）",
       "args": [
         0,
         2
@@ -53,6 +56,7 @@
     },
     {
       "info": "技能无效时，消除对手回合类效果、能力提升效果，令对手烧伤",
+      "analyze_info": "[sprite name=iconInherent]技能无效时，消除对手[color=#52a5f2]回合类效果[/color]、能力提升效果，令对手[color=#57c975]烧伤[/color]",
       "args": [],
       "effect": {
         "id": 2127,
@@ -62,5 +66,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b1e66021"
+  "advance": null,
+  "hash": "12f93414"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有技能[color=#52a5f2]先制[/color]-2（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "自身处于能力提升状态时50%打出致命一击",
+      "analyze_info": "[sprite name=iconInherent]自身处于能力提升状态时50%打出[color=#57c975]致命一击[/color]（boss有效）",
       "args": [],
       "effect": {
         "id": 1420,
@@ -39,6 +41,7 @@
     },
     {
       "info": "对手处于异常状态时附加300点固定伤害，不处于异常状态则下1回合使用技能随机附加烧伤、冻伤、冰封、焚烬中的1种异常状态",
+      "analyze_info": "[sprite name=iconHit]对手处于异常状态时附加300点[color=#52a5f2]固定伤害[/color]，不处于异常状态则下1回合使用技能随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]冰封[/color]、[color=#57c975]焚烬[/color]中的1种异常状态",
       "args": [
         300,
         1,
@@ -52,5 +55,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "c9d4729b"
+  "advance": null,
+  "hash": "4b3d7f74"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后50%使对手烧伤，若未触发则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]命中后50%使对手[color=#57c975]烧伤[/color]，若[color=#52a5f2]未触发[/color]则恢复自身全部体力",
           "args": [
             50,
             2
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4da8b37"
+  "hash": "bbf9198d"
 }

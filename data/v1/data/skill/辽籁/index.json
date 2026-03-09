@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "攻击时将对手的能力提升状态视为相应的能力下降状态",
+          "analyze_info": "[sprite name=iconInherent]攻击时将对手的能力提升状态视为相应的能力下降状态（boss有效）",
           "args": [],
           "effect": {
             "id": 1767,
@@ -31,6 +32,7 @@
         },
         {
           "info": "消除对手能力提升状态，消除成功则自身下1次攻击技能造成的伤害额外提升100%",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则自身下1次攻击技能造成的[color=#52a5f2]伤害额外提升[/color]100%",
           "args": [
             1,
             100
@@ -42,6 +44,7 @@
         },
         {
           "info": "2回合内若对手使用攻击技能则100%使对手寄生",
+          "analyze_info": "[sprite name=iconHit]2回合内若对手使用攻击技能则100%使对手[color=#57c975]寄生[/color]（boss有效）",
           "args": [
             2,
             100,
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "66bf1cc"
+  "hash": "763aa4ca"
 }

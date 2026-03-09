@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "全属性+1，先出手时自身强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，先出手时自身强化效果翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "100%恢复自身所有PP值1点",
+      "analyze_info": "[sprite name=iconHit]100%恢复自身所有PP值1点（boss有效）",
       "args": [
         100,
         1
@@ -42,6 +44,7 @@
     },
     {
       "info": "4回合内每回合吸取对手最大体力的1/3，自身体力低于最大体力的1/2时转变为吸取对手最大体力的1/2",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合[color=#52a5f2]吸取[/color]对手最大体力的1/3，自身体力低于最大体力的1/2时转变为[color=#52a5f2]吸取[/color]对手最大体力的1/2",
       "args": [
         4,
         3,
@@ -55,6 +58,7 @@
     },
     {
       "info": "下2回合造成的攻击伤害额外提升100%",
+      "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]100%（boss有效）",
       "args": [
         2,
         100
@@ -67,5 +71,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2cdd5c77"
+  "advance": null,
+  "hash": "9cb07532"
 }

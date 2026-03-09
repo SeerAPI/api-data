@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "连续使用时先制+1",
+      "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
       "args": [],
       "effect": {
         "id": 1080,
@@ -29,6 +30,7 @@
     },
     {
       "info": "威力随机，随机范围150-300，连续使用每次威力提升30，最高提升至300",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150-300，连续使用每次[color=#52a5f2]威力[/color]提升30，最高提升至300（boss有效）",
       "args": [
         150,
         300,
@@ -42,6 +44,7 @@
     },
     {
       "info": "命中对手后有35%使对手睡眠，先出手时概率翻倍",
+      "analyze_info": "[sprite name=iconHit]命中对手后有35%使对手[color=#57c975]睡眠[/color]，先出手时概率翻倍（boss有效）",
       "args": [
         35,
         8
@@ -54,5 +57,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e2a7ca42"
+  "advance": null,
+  "hash": "4192fd32"
 }

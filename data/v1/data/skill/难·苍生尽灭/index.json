@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将自身能力下降状态反馈给对手，反馈成功则对手害怕",
+          "analyze_info": "[sprite name=iconHit]将自身能力下降状态反馈给对手（boss有效），反馈成功则对手[color=#57c975]害怕[/color]",
           "args": [
             6
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "当回合若未击败对手则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
           "args": [
             3
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "击败对手则令对手下一只出场的精灵害怕，且使自身下2次攻击技能必定触发邪龙之噬",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令对手下一只出场的精灵[color=#57c975]害怕[/color]，且使自身下2次攻击技能必定触发[color=#f35555]邪龙之噬[/color]",
           "args": [
             6,
             2
@@ -54,8 +57,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9e7aea88"
+  "hash": "f7b97f46"
 }

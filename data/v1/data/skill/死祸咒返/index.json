@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "对手处于能力下降状态时先制+3",
+          "analyze_info": "[sprite name=iconInherent]对手处于能力下降状态时[color=#52a5f2]先制[/color]+3",
           "args": [],
           "effect": {
             "id": 2349,
@@ -31,6 +32,7 @@
         },
         {
           "info": "吸取对手能力提升状态，吸取成功则自身下2回合必定致命一击",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则自身下2回合必定[color=#57c975]致命一击[/color]",
           "args": [
             2
           ],
@@ -41,6 +43,7 @@
         },
         {
           "info": "附加自身最大体力40%的百分比伤害，若对手免疫百分比伤害则额外附加等量的真实伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身最大体力40%的[color=#52a5f2]百分比伤害[/color]，若对手免疫[color=#52a5f2]百分比伤害[/color]则额外附加等量的[color=#52a5f2]真实伤害[/color]",
           "args": [
             40
           ],
@@ -51,6 +54,7 @@
         },
         {
           "info": "1回合内100%闪避对手的攻击，效果结束后恢复自身所有技能1点PP值与全部体力",
+          "analyze_info": "[sprite name=iconHit]1回合内100%闪避对手的攻击，效果结束后恢复自身所有技能1点PP值与全部体力",
           "args": [
             1,
             100,
@@ -64,8 +68,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "5663bb84"
+  "hash": "6b040ab4"
 }

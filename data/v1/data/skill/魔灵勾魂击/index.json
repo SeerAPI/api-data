@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "80%令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]80%令对手[color=#52a5f2]全属性[/color]-1",
           "args": [
             80,
             1
@@ -34,6 +35,7 @@
         },
         {
           "info": "若后出手则附加自身最大体力1/2的百分比伤害并恢复等量体力",
+          "analyze_info": "[sprite name=iconHit]若后出手则附加自身最大体力1/2的[color=#52a5f2]百分比伤害[/color]并恢复等量体力",
           "args": [
             2
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "e79fac93"
+  "hash": "fbbd31f8"
 }

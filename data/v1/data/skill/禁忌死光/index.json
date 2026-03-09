@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "反转对手能力提升状态，反转成功则令对手害怕，反转失败则消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则令对手[color=#57c975]害怕[/color]，反转失败则消除对手能力提升状态",
           "args": [
             6
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "当回合打出的攻击伤害在150—250之间则70%令对手害怕",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]打出的攻击伤害在150—250之间则70%令对手[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             150,
             250,
@@ -46,8 +48,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2cc25d19"
+  "hash": "1c08ca94"
 }

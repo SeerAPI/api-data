@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "免疫下2次自身受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]免疫下2次自身受到的异常状态",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "3回合内若对手使用攻击技能则命中前令自身吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则命中前令自身[color=#52a5f2]吸取[/color]对手最大体力的1/3",
       "args": [
         3,
         3
@@ -42,6 +44,7 @@
     },
     {
       "info": "3回合内若对手使用攻击技能，则使用攻击技能后的下2回合属性技能命中效果失效",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能，则使用攻击技能后的下2回合属性技能命中效果失效",
       "args": [
         3,
         2
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内若对手使用属性技能则令对手所有技能降低2点PP值",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能则令对手所有技能降低2点PP值（boss有效）",
       "args": [
         3,
         2
@@ -64,6 +68,7 @@
     },
     {
       "info": "“辛”存活时50%的概率令自身2回合内回合类效果无法被消除（后出手则延续至下2回合），“辛”死亡后概率翻倍",
+      "analyze_info": "[sprite name=iconHit]“[color=#f35555]辛[/color]”存活时50%的概率令自身2回合内[color=#52a5f2]回合类效果[/color]无法被消除（后出手则延续至下2回合），“[color=#f35555]辛[/color]”死亡后概率翻倍",
       "args": [],
       "effect": {
         "id": 1432,
@@ -73,5 +78,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "ce0954bf"
+  "advance": null,
+  "hash": "55f91490"
 }

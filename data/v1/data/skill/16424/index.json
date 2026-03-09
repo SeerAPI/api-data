@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 40,
@@ -29,6 +30,7 @@
     },
     {
       "info": "后出手时下回合所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -41,6 +43,7 @@
   "friend_skill_effect": [
     {
       "info": "先出手的话威力为2倍",
+      "analyze_info": "[sprite name=iconHit]先出手的话[color=#52a5f2]威力[/color]为2倍（boss有效）",
       "args": [],
       "effect": {
         "id": 40,
@@ -49,6 +52,7 @@
     },
     {
       "info": "后出手时下回合所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
       "args": [
         1
       ],
@@ -59,6 +63,7 @@
     },
     {
       "info": "命中后10%令对方害怕",
+      "analyze_info": "[sprite name=iconHit]命中后10%令对方[color=#57c975]害怕[/color]（boss有效）",
       "args": [
         10
       ],
@@ -69,5 +74,6 @@
     }
   ],
   "hide_effect": null,
-  "hash": "1b51d6e8"
+  "advance": null,
+  "hash": "da9acdd2"
 }

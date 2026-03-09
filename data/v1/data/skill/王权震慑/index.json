@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，对方场下每死亡一只精灵则25%的概率强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对方场下每死亡一只精灵则25%的概率强化效果翻倍",
           "args": [
             1,
             25
@@ -34,6 +35,7 @@
         },
         {
           "info": "4回合内每回合使用技能恢复自身350点体力并造成等量固定伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能恢复自身350点体力并造成等量[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             4,
             350
@@ -45,6 +47,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c0063"
+  "hash": "a5221b0"
 }

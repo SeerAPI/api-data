@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "连续使用时先制+1",
+          "analyze_info": "[sprite name=iconInherent]连续使用时[color=#52a5f2]先制[/color]+1",
           "args": [],
           "effect": {
             "id": 1080,
@@ -31,6 +32,7 @@
         },
         {
           "info": "随机附加100-200点固定伤害，自身处于能力提升状态时变为200-300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]随机附加100-200点[color=#52a5f2]固定伤害[/color]，自身处于能力提升状态时变为200-300点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             100,
             200,
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a85ca9"
+  "hash": "354df8cf"
 }

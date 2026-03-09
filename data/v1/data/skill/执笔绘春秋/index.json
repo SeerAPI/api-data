@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "若打出致命一击则对手100%概率疲惫",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]疲惫[/color]（boss有效）",
           "args": [
             100,
             7
@@ -34,6 +35,7 @@
         },
         {
           "info": "本回合若未打出致命一击则下2回合自身攻击必定致命一击",
+          "analyze_info": "[sprite name=iconHit]本回合若未打出[color=#57c975]致命一击[/color]则下2回合自身攻击必定[color=#57c975]致命一击[/color]（boss有效）",
           "args": [
             2
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "b8a77ffc"
+  "hash": "9b55fc9f"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若对手处于烧伤状态则附加200点固定伤害",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态则附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
       "args": [
         2,
         200
@@ -32,6 +33,7 @@
     },
     {
       "info": "若对手处于麻痹状态，则25%概率秒杀对手",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]麻痹[/color]状态，则25%概率[color=#52a5f2]秒杀[/color]对手",
       "args": [
         0,
         25
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "54e44429"
+  "advance": null,
+  "hash": "433f481c"
 }

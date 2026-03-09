@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时造成的攻击伤害额外提升50%",
+      "analyze_info": "[sprite name=iconHit]先出手时造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
       "args": [
         50
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "未击败对手则自身能力提升状态翻倍",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则自身能力提升状态翻倍",
       "args": [],
       "effect": {
         "id": 964,
@@ -40,5 +42,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "4d68ee55"
+  "advance": null,
+  "hash": "e3417a09"
 }

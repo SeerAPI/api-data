@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "威力随机，随机范围150~220",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]威力[/color]随机，随机范围150~220（boss有效）",
           "args": [],
           "effect": {
             "id": 70,
@@ -31,6 +32,7 @@
         },
         {
           "info": "未击败对手则下回合造成的伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则下回合造成的伤害提升50%（boss有效）",
           "args": [
             50
           ],
@@ -41,8 +43,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "f77058f1"
+  "hash": "8ffbbe5e"
 }

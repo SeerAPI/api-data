@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内免疫能力下降状态",
+      "analyze_info": "[sprite name=iconHit]2回合内免疫能力下降状态（boss有效）",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "附加自身最大体力值20%的百分比伤害，连续使用每次增加10%，最高40%",
+      "analyze_info": "[sprite name=iconHit]附加自身最大体力值20%的[color=#52a5f2]百分比伤害[/color]，连续使用每次增加10%，最高40%（boss有效）",
       "args": [
         20,
         10,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "88f6044a"
+  "advance": null,
+  "hash": "dcae05d8"
 }

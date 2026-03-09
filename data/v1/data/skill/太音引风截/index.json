@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "每次使用则当回合造成的攻击伤害额外提升20%，最高额外提升100%",
+          "analyze_info": "[sprite name=iconHit]每次使用则[color=#52a5f2]当回合[/color]造成的攻击[color=#52a5f2]伤害额外提升[/color]20%，最高额外提升100%（boss有效）",
           "args": [
             20,
             100
@@ -34,8 +35,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "6be6c92a"
+  "hash": "a9d767ed"
 }

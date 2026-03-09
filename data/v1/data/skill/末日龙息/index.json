@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "命中后70%令对方害怕",
+          "analyze_info": "[sprite name=iconHit]命中后70%令对方[color=#57c975]害怕[/color]（boss有效）",
           "args": [
             70
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "3回合使对方攻击伤害是正常状态下的1/2倍",
+          "analyze_info": "[sprite name=iconHit]3回合使对方攻击伤害是正常状态下的1/2倍（boss有效）",
           "args": [
             3,
             2
@@ -44,6 +46,7 @@
         },
         {
           "info": "5回合内每回合都能附加120点固定伤害",
+          "analyze_info": "[sprite name=iconHit]5回合内每回合都能附加120点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             5,
             120
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4adff41c"
+  "hash": "4fa282b5"
 }

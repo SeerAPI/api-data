@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若自身处于能力提升状态则先制+2",
+      "analyze_info": "[sprite name=iconInherent]若自身处于能力提升状态则[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [],
       "effect": {
         "id": 1174,
@@ -29,6 +30,7 @@
     },
     {
       "info": "自身每处于1种能力提升状态，则为自身附加80点护盾",
+      "analyze_info": "[sprite name=iconHit]自身每处于1种能力提升状态，则为自身附加80点[color=#57c975]护盾[/color]（boss有效）",
       "args": [
         1,
         80
@@ -40,6 +42,7 @@
     },
     {
       "info": "2回合内将受到的攻击伤害转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]2回合内将受到的攻击伤害[color=#52a5f2]转化[/color]为自身体力（boss有效）",
       "args": [
         2
       ],
@@ -50,6 +53,7 @@
     },
     {
       "info": "若未击败对手则下2回合攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]若未[color=#57c975]击败[/color]对手则下2回合攻击必定[color=#57c975]致命一击[/color]（boss有效）",
       "args": [
         2
       ],
@@ -60,6 +64,7 @@
     },
     {
       "info": "当回合击败对手则恢复自身所有技能PP值",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color][color=#57c975]击败[/color]对手则恢复自身所有技能PP值（boss有效）",
       "args": [],
       "effect": {
         "id": 1286,
@@ -69,5 +74,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "a3a08b38"
+  "advance": null,
+  "hash": "2f5f188d"
 }

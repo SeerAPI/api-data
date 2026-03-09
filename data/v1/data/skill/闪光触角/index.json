@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "吸取对手能力提升状态，吸取成功则对手随机2项技能PP值归零",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态（boss有效），[color=#52a5f2]吸取[/color]成功则对手随机2项技能PP值归零",
           "args": [
             2
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "攻击对手时若对手处于失明状态，则70%使对手麻痹",
+          "analyze_info": "[sprite name=iconHit]攻击对手时若对手处于[color=#57c975]失明[/color]状态，则70%使对手[color=#57c975]麻痹[/color]（boss有效）",
           "args": [
             20,
             70,
@@ -45,8 +47,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "a62d4c0e"
+  "hash": "814c244f"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若打出致命一击则对手100%概率中毒",
+      "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则对手100%概率[color=#57c975]中毒[/color]（boss有效）",
       "args": [
         100,
         1
@@ -32,6 +33,7 @@
     },
     {
       "info": "使对手防御-1，速度-1，对手处于异常状态时弱化效果翻倍",
+      "analyze_info": "[sprite name=iconHit]使对手防御-1，速度-1，对手处于异常状态时弱化效果翻倍（boss有效）",
       "args": [
         0,
         -1,
@@ -48,5 +50,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "edf4886b"
+  "advance": null,
+  "hash": "99152f8a"
 }

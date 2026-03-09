@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "先出手时对手当回合属性技能无效",
+      "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
       "args": [],
       "effect": {
         "id": 980,
@@ -29,6 +30,7 @@
     },
     {
       "info": "若后出手则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]若后出手则消除对手[color=#52a5f2]回合类效果[/color]",
       "args": [],
       "effect": {
         "id": 1083,
@@ -37,6 +39,7 @@
     },
     {
       "info": "附加250点固定伤害，对手处于异常状态时固定伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]附加250点[color=#52a5f2]固定伤害[/color]，对手处于异常状态时[color=#52a5f2]固定伤害[/color]翻倍",
       "args": [
         250
       ],
@@ -48,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "be673fbd"
+  "advance": null,
+  "hash": "d385613c"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下1次受到的伤害转化为自身体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则下1次受到的伤害[color=#52a5f2]转化[/color]为自身体力",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "50%令对手害怕，对手处于能力下降状态时触发概率翻倍",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]害怕[/color]，对手处于能力下降状态时触发概率翻倍",
           "args": [
             50,
             6
@@ -44,6 +46,7 @@
         },
         {
           "info": "每次命中对手会降低对手下只出战精灵最大体力的15%，最多降低45%",
+          "analyze_info": "[sprite name=iconHit]每次命中对手会降低对手下只出战精灵最大体力的15%，最多降低45%",
           "args": [
             15,
             45
@@ -55,8 +58,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "db459844"
+  "hash": "ffeca556"
 }

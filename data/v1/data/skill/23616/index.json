@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "技能使用成功时，100%改变对手攻击等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手攻击等级-1（boss有效）",
       "args": [
         0,
         100,
@@ -33,6 +34,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手防御等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手防御等级-1（boss有效）",
       "args": [
         1,
         100,
@@ -45,6 +47,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手特攻等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手特攻等级-1（boss有效）",
       "args": [
         2,
         100,
@@ -57,6 +60,7 @@
     },
     {
       "info": "技能使用成功时，100%改变对手命中等级-1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变对手命中等级-1（boss有效）",
       "args": [
         5,
         100,
@@ -69,6 +73,7 @@
     },
     {
       "info": "3回合内若被对手击败则对手疲惫2回合",
+      "analyze_info": "[sprite name=iconHit]3回合内若被对手[color=#57c975]击败[/color]则对手[color=#57c975]疲惫[/color]2回合（boss有效）",
       "args": [
         3,
         2
@@ -81,5 +86,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "2df1dc0a"
+  "advance": null,
+  "hash": "1fb56a63"
 }

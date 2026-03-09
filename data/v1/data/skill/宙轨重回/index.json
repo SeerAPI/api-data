@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，自身满体力时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身满体力时强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "4回合内若使用技能则恢复400点体力值",
+          "analyze_info": "[sprite name=iconHit]4回合内若使用技能则恢复400点体力值（boss有效）",
           "args": [
             4,
             400
@@ -44,6 +46,7 @@
         },
         {
           "info": "下2回合先出手则对手束缚",
+          "analyze_info": "[sprite name=iconHit]下2回合先出手则对手[color=#57c975]束缚[/color]",
           "args": [
             2,
             28
@@ -55,6 +58,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -66,8 +70,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "165d6347"
+  "hash": "b2c84e44"
 }

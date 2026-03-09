@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "自身不处于能力提升状态时则特攻+2",
+          "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态时则特攻+2（boss有效）",
           "args": [
             0,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "后出手时，额外附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]后出手时，额外附加200点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             200
           ],
@@ -48,8 +50,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "c643fe4f"
+  "hash": "dcaaa488"
 }

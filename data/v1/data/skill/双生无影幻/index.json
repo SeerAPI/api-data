@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "先出手时降低对手所有PP1点",
+          "analyze_info": "[sprite name=iconHit]先出手时降低对手所有PP1点",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "后出手时下回合所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]后出手时下回合所有技能[color=#52a5f2]先制[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -43,8 +45,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "237b7fa0"
+  "hash": "43b2433e"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "3回合内若使用技能则恢复100点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复100点体力值（boss有效）",
           "args": [
             3,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "1回合内受到致死攻击时则余下1点体力",
+          "analyze_info": "[sprite name=iconHit]1回合内受到致死攻击时则余下1点体力（boss有效）",
           "args": [
             1
           ],
@@ -44,8 +46,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4d641581"
+  "hash": "6cf18e7f"
 }

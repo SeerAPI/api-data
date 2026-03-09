@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "5回合内每回合使用技能吸取对手最大体力的1/6",
+      "analyze_info": "[sprite name=iconHit]5回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/6",
       "args": [
         5,
         6
@@ -32,6 +33,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身攻击等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身攻击等级+2（boss有效）",
       "args": [
         0,
         100,
@@ -44,6 +46,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身防御等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身防御等级+1（boss有效）",
       "args": [
         1,
         100,
@@ -56,6 +59,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特防等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特防等级+1（boss有效）",
       "args": [
         3,
         100,
@@ -69,5 +73,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "f2d5a8b5"
+  "advance": null,
+  "hash": "6b02497d"
 }

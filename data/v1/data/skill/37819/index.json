@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下2回合对手所有技能先制-1，若对手不处于能力提升状态则令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下2回合对手所有技能[color=#52a5f2]先制[/color]-1，若对手不处于能力提升状态则令对手[color=#52a5f2]全属性[/color]-1",
       "args": [
         2,
         1,
@@ -33,6 +34,7 @@
     },
     {
       "info": "随机附加150-250点固伤，对手处于能力下降状态时固伤变为250-350点",
+      "analyze_info": "[sprite name=iconHit]随机附加150-250点固伤，对手处于能力下降状态时固伤变为250-350点（boss有效）",
       "args": [
         150,
         250,
@@ -46,6 +48,7 @@
     },
     {
       "info": "先出手时2回合内对手体力恢复效果减少50%",
+      "analyze_info": "[sprite name=iconHit]先出手时2回合内对手体力恢复效果减少50%",
       "args": [
         2,
         50
@@ -58,5 +61,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "99d65380"
+  "advance": null,
+  "hash": "46aabd39"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "吸取对手能力提升状态，吸取成功则下1回合造成的伤害翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下1回合造成的伤害翻倍（boss有效）",
       "args": [
         1
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "造成的伤害低于300则附加250点固定伤害，若先出手则固定伤害提高100点",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则附加250点[color=#52a5f2]固定伤害[/color]，若先出手则[color=#52a5f2]固定伤害[/color]提高100点（boss有效）",
       "args": [
         300,
         250,
@@ -44,5 +46,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "dea918cd"
+  "advance": null,
+  "hash": "bb4fa4d3"
 }

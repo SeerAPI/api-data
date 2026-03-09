@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "全属性+1，后出手时自身强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，后出手时自身强化效果翻倍（boss有效）",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "80%令对手麻痹，未触发则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]80%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则令对手2回合内使用的属性技能无效",
           "args": [
             80,
             0,
@@ -45,6 +47,7 @@
         },
         {
           "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "9d2c9f90"
+  "hash": "1a7a6a77"
 }

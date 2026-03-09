@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "技能使用成功时，攻击+1，防御+1，特防+1，速度+1",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，攻击+1，防御+1，特防+1，速度+1（boss有效）",
           "args": [
             1,
             1,
@@ -38,6 +39,7 @@
         },
         {
           "info": "3回合内自身能力提升状态被消除，则有100%概率使对手防御-2，速度-2",
+          "analyze_info": "[sprite name=iconHit]3回合内自身能力提升状态被消除，则有100%概率使对手防御-2，速度-2（boss有效）",
           "args": [
             3,
             0,
@@ -56,7 +58,8 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     },
     "28669": {
       "id": 28669,
@@ -81,6 +84,7 @@
       "skill_effect": [
         {
           "info": "2回合内对手恢复体力时恢复效果减少60%",
+          "analyze_info": "[sprite name=iconHit]2回合内对手恢复体力时恢复效果减少60%（boss有效）",
           "args": [
             2,
             60
@@ -92,8 +96,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "aec130f1"
+  "hash": "335759d0"
 }

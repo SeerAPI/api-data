@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "解除自身的能力下降状态",
+      "analyze_info": "[sprite name=iconHit]解除自身的能力下降状态（boss有效）",
       "args": [],
       "effect": {
         "id": 3,
@@ -29,6 +30,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身特攻等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
       "args": [
         2,
         100,
@@ -41,6 +43,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身速度等级+2",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
       "args": [
         4,
         100,
@@ -53,6 +56,7 @@
     },
     {
       "info": "技能使用成功时，100%改变自身命中等级+1",
+      "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身命中等级+1（boss有效）",
       "args": [
         5,
         100,
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "97d386ba"
+  "advance": null,
+  "hash": "eadc0370"
 }

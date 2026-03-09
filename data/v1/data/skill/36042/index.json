@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "2回合内每回合攻击+2，速度+2，命中+2",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合攻击+2，速度+2，命中+2（boss有效）",
       "args": [
         2,
         2,
@@ -37,6 +38,7 @@
     },
     {
       "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有技能[color=#52a5f2]先制[/color]+2（boss有效）",
       "args": [
         2,
         2
@@ -49,5 +51,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "e91f772d"
+  "advance": null,
+  "hash": "ec0a0aa0"
 }

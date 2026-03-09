@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则2回合内令对手使用的属性技能无效",
       "args": [
         2
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "2回合内每回合被攻击所受到的伤害不超过280",
+      "analyze_info": "[sprite name=iconHit]2回合内每回合被攻击所受到的伤害不超过280（boss有效）",
       "args": [
         2,
         280
@@ -43,5 +45,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "b6673a8b"
+  "advance": null,
+  "hash": "504c1b61"
 }

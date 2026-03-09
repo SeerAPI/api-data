@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
       "args": [
         4
       ],
@@ -31,6 +32,7 @@
     },
     {
       "info": "若对手处于烧伤状态则2回合内100%令对手使用的技能无效",
+      "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]烧伤[/color]状态则2回合内100%令对手使用的技能无效",
       "args": [
         2,
         2,
@@ -43,6 +45,7 @@
     },
     {
       "info": "下次攻击忽略对手双防值的50%",
+      "analyze_info": "[sprite name=iconHit]下次攻击忽略对手双防值的50%（boss有效）",
       "args": [
         50
       ],
@@ -53,6 +56,7 @@
     },
     {
       "info": "3回合内使用技能令对手攻击-1，防御-1，特攻-1，速度-1，未触发则自身下1次攻击造成伤害提升100%",
+      "analyze_info": "[sprite name=iconHit]3回合内使用技能令对手攻击-1，防御-1，特攻-1，速度-1，[color=#52a5f2]未触发[/color]则自身下1次攻击造成伤害提升100%",
       "args": [
         3,
         -1,
@@ -72,5 +76,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "45a5894d"
+  "advance": null,
+  "hash": "f49a8c30"
 }

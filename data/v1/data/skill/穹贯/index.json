@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则2回合内对手体力恢复效果减少100%",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手体力恢复效果减少100%",
           "args": [
             2,
             100
@@ -34,6 +35,7 @@
         },
         {
           "info": "若打出致命一击则造成的攻击伤害提升50%",
+          "analyze_info": "[sprite name=iconHit]若打出[color=#57c975]致命一击[/color]则造成的攻击伤害提升50%",
           "args": [
             50
           ],
@@ -44,6 +46,7 @@
         },
         {
           "info": "每损失1点体力则额外附加1点固定伤害",
+          "analyze_info": "[sprite name=iconHit]每损失1点体力则额外附加1点[color=#52a5f2]固定伤害[/color]（boss有效）",
           "args": [
             1,
             1
@@ -55,8 +58,12 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/pet_advance/1"
+      }
     }
   },
-  "hash": "f307353a"
+  "hash": "6e74122a"
 }

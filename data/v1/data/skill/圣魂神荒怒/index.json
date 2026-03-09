@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则攻击+2，速度+2，命中+2",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则攻击+2，速度+2，命中+2（boss有效）",
           "args": [
             2,
             0,
@@ -38,6 +39,7 @@
         },
         {
           "info": "先出手时对手当回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时对手[color=#52a5f2]当回合[/color]属性技能无效",
           "args": [],
           "effect": {
             "id": 980,
@@ -46,6 +48,7 @@
         },
         {
           "info": "吸取对手150点固定体力，每次使用额外附加100点，最高350点",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手150点固定体力，每次使用额外附加100点，最高350点（boss有效）",
           "args": [
             150,
             100,
@@ -58,6 +61,7 @@
         },
         {
           "info": "反转自身能力下降状态，反转成功则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则2回合内令对手使用的属性技能无效",
           "args": [
             2,
             2
@@ -69,8 +73,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "4c172f29"
+  "hash": "24898432"
 }

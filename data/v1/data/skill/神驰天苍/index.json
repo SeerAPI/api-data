@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "将对方场下对自身克制系数最高且存活的一只非狩杀之的精灵标记为狩杀之的",
+          "analyze_info": "[sprite name=iconHit]将对方场下对自身克制系数最高且存活的一只非[color=#f35555]狩杀之的[/color]精灵标记为[color=#f35555]狩杀之的[/color]",
           "args": [],
           "effect": {
             "id": 2276,
@@ -31,6 +32,7 @@
         },
         {
           "info": "3回合内每回合攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1（boss有效）",
           "args": [
             3,
             1,
@@ -47,6 +49,7 @@
         },
         {
           "info": "恢复自身全部PP值，每恢复1点吸取对手30点体力",
+          "analyze_info": "[sprite name=iconHit]恢复自身全部PP值，每恢复1点[color=#52a5f2]吸取[/color]对手30点体力",
           "args": [
             30
           ],
@@ -57,6 +60,7 @@
         },
         {
           "info": "若对手处于异常状态则2回合内令对手使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]若对手处于异常状态则2回合内令对手使用的属性技能无效",
           "args": [
             2
           ],
@@ -67,6 +71,7 @@
         },
         {
           "info": "下2回合自身攻击先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击[color=#52a5f2]先制[/color]+2（boss有效）",
           "args": [
             2,
             2
@@ -78,8 +83,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "2c3d0e66"
+  "hash": "4c2ec9d1"
 }

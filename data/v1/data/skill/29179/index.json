@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "4回合内免疫并反弹除麻痹外所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]除[color=#57c975]麻痹[/color]外所有受到的异常状态",
       "args": [
         4,
         0
@@ -32,6 +33,7 @@
     },
     {
       "info": "100%令对手麻痹，未触发则降低对手所有技能2点PP值",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则降低对手所有技能2点PP值",
       "args": [
         100,
         0,
@@ -44,6 +46,7 @@
     },
     {
       "info": "解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
+      "analyze_info": "[sprite name=iconHit]解除并附加给对手自身所处的异常状态，解除成功则对手2回合内技能命中效果失效",
       "args": [
         2
       ],
@@ -54,6 +57,7 @@
     },
     {
       "info": "下1次受到的攻击伤害减少50%",
+      "analyze_info": "[sprite name=iconHit]下1次受到的攻击伤害减少50%（boss有效）",
       "args": [
         1,
         50
@@ -66,5 +70,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "1eaed16"
+  "advance": null,
+  "hash": "1cce952a"
 }

@@ -21,6 +21,7 @@
   "skill_effect": [
     {
       "info": "若造成的伤害大于300点，则自身恢复200点生命值",
+      "analyze_info": "[sprite name=iconHit]若造成的伤害大于300点，则自身恢复200点生命值（boss有效）",
       "args": [
         300,
         200
@@ -32,6 +33,7 @@
     },
     {
       "info": "造成的伤害低于300时50%令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300时50%令对手[color=#57c975]麻痹[/color]（boss有效）",
       "args": [
         300,
         50,
@@ -45,5 +47,6 @@
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
-  "hash": "5d3a194f"
+  "advance": null,
+  "hash": "ff45cd9"
 }

@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手回合类效果，消除成功则下1次受到的伤害转化为自身体力",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则下1次受到的伤害[color=#52a5f2]转化[/color]为自身体力",
           "args": [
             1
           ],
@@ -33,6 +34,7 @@
         },
         {
           "info": "攻击结束时附加对手双防之和40%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]攻击结束时附加对手双防之和40%的[color=#52a5f2]百分比伤害[/color]",
           "args": [
             40
           ],
@@ -43,6 +45,7 @@
         },
         {
           "info": "击败对手则对方下只精灵出战时己方在场精灵吸取其最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则对方下只精灵[color=#57c975]出战时[/color][color=#52a5f2]己方[/color]在场精灵[color=#52a5f2]吸取[/color]其最大体力的1/3",
           "args": [
             3
           ],
@@ -53,8 +56,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "bb7552bb"
+  "hash": "7315da9"
 }

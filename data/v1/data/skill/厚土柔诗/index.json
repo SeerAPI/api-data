@@ -23,6 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过300点（boss有效）",
           "args": [
             2,
             300
@@ -34,6 +35,7 @@
         },
         {
           "info": "3回合内对手使用正先制的技能时70%令对手石化",
+          "analyze_info": "[sprite name=iconHit]3回合内对手使用正[color=#52a5f2]先制[/color]的技能时70%令对手[color=#57c975]石化[/color]（boss有效）",
           "args": [
             3,
             70,
@@ -46,6 +48,7 @@
         },
         {
           "info": "击败对手则自身全属性+1",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则自身[color=#52a5f2]全属性[/color]+1（boss有效）",
           "args": [
             1
           ],
@@ -56,8 +59,9 @@
         }
       ],
       "friend_skill_effect": [],
-      "hide_effect": null
+      "hide_effect": null,
+      "advance": null
     }
   },
-  "hash": "68141bb0"
+  "hash": "91bc9e3f"
 }
