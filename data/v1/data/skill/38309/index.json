@@ -1,0 +1,51 @@
+{
+  "id": 38309,
+  "name": "缚魂咒",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 94,
+    "url": "https://api.seerapi.com/v1/element_type_combination/94"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则1回合内对手造成的攻击伤害不超过300点",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则1回合内对手造成的攻击伤害不超过300点（boss有效）",
+      "args": [
+        1,
+        300
+      ],
+      "effect": {
+        "id": 766,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/766"
+      }
+    },
+    {
+      "info": "自身处于能力提升状态时造成的伤害提升40%，先出手时效果翻倍",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时造成的伤害提升40%，先出手时效果翻倍（boss有效）",
+      "args": [
+        40,
+        40
+      ],
+      "effect": {
+        "id": 1472,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1472"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "1fcf2ed3"
+}

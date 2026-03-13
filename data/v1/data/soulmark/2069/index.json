@@ -1,0 +1,40 @@
+{
+  "id": 2069,
+  "desc": "自身克制对手时，自身攻击技能威力提升20*m点，对手克制自身时，自身攻击技能造成伤害增加40%*n（m=自身对对手的克制倍数，最高为2；n=对手对自身的克制倍数，最高为2；两项均满足时m、n为二者中的最大值）；回合开始时，若自身不处于能力提升状态则自身攻击+1、速度+1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身克制对手时，自身攻击技能威力提升20*m点，对手克制自身时，自身攻击技能造成伤害增加40%*n（m=自身对对手的克制倍数，最高为2,n=对手对自身的克制倍数，最高为2；两项均满足时m、n为二者中的最大值）|[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身不处于能力提升状态则自身攻击+1、速度+1",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4882,
+      "url": "https://api.seerapi.com/v1/pet/4882"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2490,
+      "url": "https://api.seerapi.com/v1/eid_effect/2490"
+    }
+  },
+  "effect_alias": "2490_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "b23de31b"
+}

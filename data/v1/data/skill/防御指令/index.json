@@ -1,0 +1,54 @@
+{
+  "data": {
+    "29295": {
+      "id": 29295,
+      "name": "防御指令",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始防御了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "当回合若未击败对手则吸取对手最大体力的1/4",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则[color=#52a5f2]吸取[/color]对手最大体力的1/4",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 833,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/833"
+          }
+        },
+        {
+          "info": "未击败对手则令自身下1次受到的攻击伤害额外减少30%",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则令自身下1次受到的攻击[color=#52a5f2]伤害额外减少[/color]30%（boss有效）",
+          "args": [
+            1,
+            30
+          ],
+          "effect": {
+            "id": 897,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/897"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "7ddd7d87"
+}

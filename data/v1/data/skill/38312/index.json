@@ -1,0 +1,45 @@
+{
+  "id": 38312,
+  "name": "清除指令",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 2,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 6,
+    "url": "https://api.seerapi.com/v1/element_type_combination/6"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "未击败对手则消除对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则消除对手能力提升状态（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 1147,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1147"
+      }
+    },
+    {
+      "info": "未击败对手则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则消除对手[color=#52a5f2]回合类效果[/color]",
+      "args": [],
+      "effect": {
+        "id": 1962,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1962"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "a90ded2"
+}

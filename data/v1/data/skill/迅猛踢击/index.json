@@ -1,0 +1,62 @@
+{
+  "data": {
+    "38306": {
+      "id": 38306,
+      "name": "迅猛踢击",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 11,
+        "url": "https://api.seerapi.com/v1/element_type_combination/11"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视对手双防能力提升状态",
+          "analyze_info": "[sprite name=iconInherent]无视对手双防能力提升状态（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 195,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/195"
+          }
+        },
+        {
+          "info": "若对手处于能力提升状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 1103,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1103"
+          }
+        },
+        {
+          "info": "消除对手能力提升状态，消除成功对手下1回合无法主动切换精灵",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功对手下1回合无法[color=#52a5f2]主动切换[/color]精灵",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2227,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2227"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "427d49d7"
+}

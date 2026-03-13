@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2070": {
+      "id": 2070,
+      "desc": "回合开始时，若对手不处于异常状态，自身攻击技能命中时为对手附加随机一种附属诅咒；对手每有一种异常状态，自身攻击技能命中时附加100点固定伤害（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若对手不处于异常状态，自身攻击技能命中时为对手附加随机一种[color=#52a5f2]附属诅咒[/color]|[sprite name=dot4]对手每有一种异常状态，自身攻击技能命中时附加100点[color=#52a5f2]固定伤害[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4883,
+          "url": "https://api.seerapi.com/v1/pet/4883"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2489,
+          "url": "https://api.seerapi.com/v1/eid_effect/2489"
+        }
+      },
+      "effect_alias": "2489_1_0",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "f66adffc"
+}
