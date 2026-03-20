@@ -35,9 +35,11 @@
           }
         },
         {
-          "info": "后出手时令对手下{0}回合属性技能无效",
-          "analyze_info": "[sprite name=iconHit]后出手时令对手下{0}回合属性技能无效",
-          "args": [],
+          "info": "后出手时令对手下1回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]后出手时令对手下1回合属性技能无效",
+          "args": [
+            1
+          ],
           "effect": {
             "id": 919,
             "url": "https://api.seerapi.com/v1/skill_effect_type/919"
@@ -49,5 +51,5 @@
       "advance": null
     }
   },
-  "hash": "17a551e2"
+  "hash": "b5b8c52c"
 }

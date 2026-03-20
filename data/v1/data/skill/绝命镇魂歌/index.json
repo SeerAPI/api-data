@@ -20,7 +20,19 @@
         "url": "https://api.seerapi.com/v1/element_type_combination/8"
       },
       "learned_by_pet": [],
-      "skill_effect": [],
+      "skill_effect": [
+        {
+          "info": "2回合后若对方没有将自己击败，则对方死亡",
+          "analyze_info": "[sprite name=iconHit]2回合后若对方没有将自己[color=#57c975]击败[/color]，则对方死亡（boss有效）",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 62,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/62"
+          }
+        }
+      ],
       "friend_skill_effect": [],
       "hide_effect": null,
       "advance": null
@@ -86,5 +98,5 @@
       "advance": null
     }
   },
-  "hash": "bf27b025"
+  "hash": "33e93970"
 }

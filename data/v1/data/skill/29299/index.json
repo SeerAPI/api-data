@@ -1,0 +1,86 @@
+{
+  "id": 29299,
+  "name": "繁嚣此寂",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "全属性提升了；开始吸取对手体力了；致命一击变得更加犀利了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，先出手时自身强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，先出手时自身强化效果翻倍（boss有效）",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1283,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1283"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍",
+      "args": [
+        4,
+        3,
+        2
+      ],
+      "effect": {
+        "id": 971,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/971"
+      }
+    },
+    {
+      "info": "自身的宁界之律低于己方的琼华之庇时，获得等量的宁界之律",
+      "analyze_info": "[sprite name=iconHit]自身的[color=#f35555]宁界之律[/color]低于[color=#52a5f2]己方[/color]的[color=#f35555]琼华之庇[/color]时，获得等量的[color=#f35555]宁界之律[/color]（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 2428,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2428"
+      }
+    },
+    {
+      "info": "下3回合若打出致命一击则造成的攻击伤害提升100%",
+      "analyze_info": "[sprite name=iconHit]下3回合若打出[color=#57c975]致命一击[/color]则造成的攻击伤害提升100%",
+      "args": [
+        3,
+        100
+      ],
+      "effect": {
+        "id": 1558,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1558"
+      }
+    },
+    {
+      "info": "自身下2次致命一击视为命中并强制执行命中效果",
+      "analyze_info": "[sprite name=iconHit]自身下2次[color=#57c975]致命一击[/color]视为命中并制[color=#52a5f2]执行[/color]命中效果",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2380,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2380"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": {
+    "id": 24,
+    "url": "https://api.seerapi.com/v1/pet_advance/24"
+  },
+  "hash": "572e8773"
+}

@@ -1,0 +1,36 @@
+{
+  "id": 2071,
+  "desc": "每次在场首次攻击后触发灰鳞变，自身本场战斗灰鳞变的触发次数每有1次自身造成的攻击伤害提升10%，每有5次自身所有技能先制+1|自身首次受到致死伤害时，若本场战斗灰鳞变的触发次数不为0，则将其翻倍且本场战斗灰鳞变不再减少体力上限，然后自身解除所处的异常状态、体力上限增加灰鳞变所减少的体力上限并主动恢复差值的体力，之后当回合受到致死伤害时保留1点体力|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]每次在场首次攻击后触发[color=#f35555]灰鳞变[/color]，自身本场战斗[color=#f35555]灰鳞变[/color]的触发次数每有1次自身造成的攻击伤害提升10%，每有5次自身所有[color=#52a5f2]技能先制[/color]+1|[sprite name=dot4]自身[color=#52a5f2]首次[/color]受到[color=#52a5f2]致死伤害[/color]时，若本场战斗[color=#f35555]灰鳞变[/color]的触发次数不为0，则将其翻倍且本场战斗[color=#f35555]灰鳞变[/color]不再减少体力上限，[color=#52a5f2]然后[/color]自身解除所处的异常状态、体力上限增加[color=#f35555]灰鳞变[/color]所减少的体力上限并主动恢复差值的体力，[color=#52a5f2]之后[/color][color=#52a5f2]当回合[/color]受到[color=#52a5f2]致死伤害[/color]时[color=#52a5f2]保留[/color]1点体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4885,
+      "url": "https://api.seerapi.com/v1/pet/4885"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2491,
+      "url": "https://api.seerapi.com/v1/eid_effect/2491"
+    }
+  },
+  "effect_alias": "2491_1_0",
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "fe7caa4a"
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "2072": {
+      "id": 2072,
+      "desc": "出战时，自身获得4道宁界之律，然后自身消耗对应位置技能的全部PP值并恢复己方上只在场精灵PP值为0的技能全部PP值，触发成功则为其附加1道琼华之庇|自身拥有宁界之律时，选择使用技能不受PP值限制且回合结束时，若对手当回合未选择技能则消耗1层并令对手沉默2回合，未触发则2回合内自身将对手、对方上只在场精灵的最优系别作为对手系别计算克制系数，自身宁界之律层数达到5时前述所有回合数+1|（boss有效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot1][color=#57c975]出战时[/color]，自身获得4道[color=#f35555]宁界之律[/color]，[color=#52a5f2]然后[/color]自身消耗对应位置技能的全部PP值并恢复己方上只在场精灵PP值为0的技能全部PP值，触发成功则为其附加1道[color=#f35555]琼华之庇[/color]|[sprite name=dot1]自身拥有[color=#f35555]宁界之律[/color]时，选择使用技能[color=#52a5f2]不受PP值限制[/color]且[color=#57c975]回合结束时[/color]，若对手[color=#52a5f2]当回合(412)[/color]未选择技能则消耗1层并令对手[color=#57c975]沉默[/color]2回合，[color=#52a5f2]未触发[/color]则2回合内自身将对手、对方上只在场精灵的[color=#57c975]最优系别[/color]作为对手系别计算克制系数，自身[color=#f35555]宁界之律[/color]层数达到5时前述所有回合数+1",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": true,
+      "pet": [
+        {
+          "id": 3711,
+          "url": "https://api.seerapi.com/v1/pet/3711"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          0
+        ],
+        "effect": {
+          "id": 2492,
+          "url": "https://api.seerapi.com/v1/eid_effect/2492"
+        }
+      },
+      "effect_alias": "2492_0_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/pet_advance/24"
+      }
+    }
+  },
+  "hash": "2ddf3019"
+}

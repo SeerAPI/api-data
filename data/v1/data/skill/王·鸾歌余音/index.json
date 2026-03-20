@@ -1,0 +1,84 @@
+{
+  "data": {
+    "38318": {
+      "id": 38318,
+      "name": "王·鸾歌余音",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 88,
+        "url": "https://api.seerapi.com/v1/element_type_combination/88"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身处于能力下降状态则先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]先制[/color]+3（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 881,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/881"
+          }
+        },
+        {
+          "info": "反转对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和回合类效果",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，若该效果未满足条件或反转失败则消除对手能力提升状态和[color=#52a5f2]回合类效果[/color]",
+          "args": [],
+          "effect": {
+            "id": 1164,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1164"
+          }
+        },
+        {
+          "info": "反转自身能力下降状态，反转成功则对手空定",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则对手[color=#57c975]空定[/color]",
+          "args": [
+            40
+          ],
+          "effect": {
+            "id": 1054,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1054"
+          }
+        },
+        {
+          "info": "消耗自身一半的宁界之律，然后自身每剩余1道，令对手1回合内令对手属性技能命中效果失效",
+          "analyze_info": "[sprite name=iconHit]消耗自身一半的[color=#f35555]宁界之律[/color]，[color=#52a5f2]然后[/color]自身每剩余1道，令对手1回合内令对手属性技能命中效果失效（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 2427,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2427"
+          }
+        },
+        {
+          "info": "令自身体力等于最大体力的100%，若自身当前体力高于最大体力的50%则回合结束后额外触发一次该效果",
+          "analyze_info": "[sprite name=iconHit]令自身体力等于最大体力的100%，若自身当前体力高于最大体力的50%则[color=#57c975]回合结束后[/color]额外触发一次该效果",
+          "args": [
+            100,
+            50
+          ],
+          "effect": {
+            "id": 1909,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1909"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": {
+        "id": 24,
+        "url": "https://api.seerapi.com/v1/pet_advance/24"
+      }
+    }
+  },
+  "hash": "edf4c5f5"
+}

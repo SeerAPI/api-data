@@ -1,0 +1,85 @@
+{
+  "id": 38319,
+  "name": "王·圣语空心",
+  "power": 160,
+  "max_pp": 0,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 88,
+    "url": "https://api.seerapi.com/v1/element_type_combination/88"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）",
+      "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害不会出现微弱（克制关系为微弱时都变成普通）（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 760,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/760"
+      }
+    },
+    {
+      "info": "造成的攻击伤害额外提升50%，自身与对手每有1个技能PP值不高于1效果提升25%",
+      "analyze_info": "[sprite name=iconHit]造成的攻击[color=#52a5f2]伤害额外提升[/color]50%，自身与对手每有1个技能PP值不高于1效果提升25%（boss有效）",
+      "args": [
+        50,
+        1,
+        1,
+        25
+      ],
+      "effect": {
+        "id": 2425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2425"
+      }
+    },
+    {
+      "info": "每造成1次攻击伤害，己方下只精灵出战时随机恢复1点PP值",
+      "analyze_info": "[sprite name=iconHit]每造成1次攻击伤害，[color=#52a5f2]己方[/color]下只精灵[color=#57c975]出战时[/color]恢复1点PP值",
+      "args": [
+        1,
+        1
+      ],
+      "effect": {
+        "id": 2432,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2432"
+      }
+    },
+    {
+      "info": "未造成攻击伤害时消除对手回合类效果并令对手空定",
+      "analyze_info": "[sprite name=iconHit]未造成攻击伤害时消除对手[color=#52a5f2]回合类效果[/color]并令对手[color=#57c975]空定[/color]",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 2430,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2430"
+      }
+    },
+    {
+      "info": "击败对手时消耗自身一半的宁界之律，然后自身每剩余1道对方1回合内无法造成伤害、附加异常状态",
+      "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时消耗自身一半的[color=#f35555]宁界之律[/color]，[color=#52a5f2]然后[/color]自身每剩余1道[color=#52a5f2]对方[/color]1回合内无法造成伤害、附加异常状态（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 2426,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2426"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": {
+    "id": 24,
+    "url": "https://api.seerapi.com/v1/pet_advance/24"
+  },
+  "hash": "dd801160"
+}
