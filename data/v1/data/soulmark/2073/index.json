@@ -1,0 +1,36 @@
+{
+  "id": 2073,
+  "desc": "回合开始时若自身微弱对手或对手克制自身，则令自身变为普通系且回合结束时令自身属性变为草系；自身使用与自身系别相同的技能时令对手随机1项技能的pp值归0，使用与自身系别不同的技能时获得本系属性加成并令对手所有技能的pp值-1",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot1]回合开始时若自身微弱对手或对手克制自身，则令自身变为普通系且回合结束时令自身属性变为草系|[sprite name=dot1]自身使用与自身系别相同的技能时令对手随机1项技能的pp值归0，使用与自身系别不同的技能时获得本系属性加成并令对手所有技能的pp值-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4886,
+      "url": "https://api.seerapi.com/v1/pet/4886"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2493,
+      "url": "https://api.seerapi.com/v1/eid_effect/2493"
+    }
+  },
+  "effect_alias": "2493_1_0",
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "d835b778"
+}

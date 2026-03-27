@@ -1,0 +1,66 @@
+{
+  "data": {
+    "38320": {
+      "id": 38320,
+      "name": "能力汲取",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/element_type_combination/1"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "吸取对手能力提升状态，若对手不处于能力提升状态则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，若对手不处于能力提升状态则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1928"
+          }
+        },
+        {
+          "info": "若自身处于能力提升状态则造成的攻击伤害额外提升50%",
+          "analyze_info": "[sprite name=iconHit]若自身处于能力提升状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
+          "args": [
+            50
+          ],
+          "effect": {
+            "id": 842,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/842"
+          }
+        },
+        {
+          "info": "当回合造成的攻击伤害若高于300则100%令对手中毒",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]中毒[/color]",
+          "args": [
+            300,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 1106,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1106"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "7f97c96e"
+}
