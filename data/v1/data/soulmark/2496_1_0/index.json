@@ -1,0 +1,40 @@
+{
+  "data": {
+    "2076": {
+      "id": 2076,
+      "desc": "自身位于场下时，与自身隔位的精灵进入控制类异常状态时，自身下次登场时免疫下1次受到的异常状态；自身位于场上时，自身每次进入控制类异常状态时，与自身隔位的精灵恢复所有技能2点PP值（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身位于场下时，与自身隔位的精灵进入控制类异常状态时，自身下次[color=#57c975]登场时[/color]免疫下1次受到的控制类异常状态|[sprite name=dot4]自身位于场上时，自身每次进入异常状态时，与自身隔位的精灵恢复所有技能2点PP值",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4889,
+          "url": "https://api.seerapi.com/v1/pet/4889"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2496,
+          "url": "https://api.seerapi.com/v1/eid_effect/2496"
+        }
+      },
+      "effect_alias": "2496_1_0",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "a22a4365"
+}

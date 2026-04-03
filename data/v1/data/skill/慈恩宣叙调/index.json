@@ -1,0 +1,101 @@
+{
+  "data": {
+    "38329": {
+      "id": 38329,
+      "name": "慈恩宣叙调",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": -1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身处于异常状态时，克制倍数取自身对对手、对手对自身克制倍数中的最大值",
+          "analyze_info": "[sprite name=iconInherent]自身处于异常状态时，克制倍数取自身对对手、对手对自身克制倍数中的最大值",
+          "args": [],
+          "effect": {
+            "id": 2205,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2205"
+          }
+        },
+        {
+          "info": "为自身附加1回合的星赐，若自身已处于星赐则改为全属性+1",
+          "analyze_info": "[sprite name=iconHit]为自身附加1回合的[color=#57c975]星赐[/color]，若自身已处于[color=#57c975]星赐[/color]则改为[color=#52a5f2]全属性[/color]+1",
+          "args": [
+            1,
+            33,
+            1
+          ],
+          "effect": {
+            "id": 2218,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2218"
+          }
+        },
+        {
+          "info": "为自身附加1回合的星哲，若自身已处于星哲则改为全属性+1",
+          "analyze_info": "[sprite name=iconHit]为自身附加1回合的[color=#57c975]星哲[/color]，若自身已处于[color=#57c975]星哲[/color]则改为[color=#52a5f2]全属性[/color]+1",
+          "args": [
+            1,
+            34,
+            1
+          ],
+          "effect": {
+            "id": 2218,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2218"
+          }
+        },
+        {
+          "info": "为自身附加1回合的星赎，若自身已处于星赎则改为全属性+1",
+          "analyze_info": "[sprite name=iconHit]为自身附加1回合的[color=#57c975]星赎[/color]，若自身已处于[color=#57c975]星赎[/color]则改为[color=#52a5f2]全属性[/color]+1",
+          "args": [
+            1,
+            38,
+            1
+          ],
+          "effect": {
+            "id": 2218,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2218"
+          }
+        },
+        {
+          "info": "附加自身能力提升等级总和X30的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身能力提升等级总和X30的[color=#52a5f2]固定伤害[/color]",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 713,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/713"
+          }
+        },
+        {
+          "info": "未击败对手则自身下2回合免疫并反弹异常状态",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]未击败[/color]对手则自身下2回合免疫并[color=#52a5f2]反弹[/color]受到的异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1091,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1091"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "24c36828"
+}

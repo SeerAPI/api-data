@@ -1,0 +1,87 @@
+{
+  "data": {
+    "29303": {
+      "id": 29303,
+      "name": "予天繁星",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 3,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫受到的控制类异常状态了；获得了群星的力量",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "无视对手能力提升效果，无视成功则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconComp]无视对手能力提升效果，无视成功则消除对手[color=#52a5f2]回合类效果[/color]",
+          "args": [],
+          "effect": {
+            "id": 2437,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2437"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的控制类异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的控制类异常状态",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 1687,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1687"
+          }
+        },
+        {
+          "info": "100%令自身星赐",
+          "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]星赐[/color]",
+          "args": [
+            100,
+            33
+          ],
+          "effect": {
+            "id": 2196,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2196"
+          }
+        },
+        {
+          "info": "100%令自身星哲",
+          "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]星哲[/color]",
+          "args": [
+            100,
+            34
+          ],
+          "effect": {
+            "id": 2196,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2196"
+          }
+        },
+        {
+          "info": "100%令自身星赎",
+          "analyze_info": "[sprite name=iconHit]100%令自身[color=#57c975]星赎[/color]",
+          "args": [
+            100,
+            38
+          ],
+          "effect": {
+            "id": 2196,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2196"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "9aee9916"
+}

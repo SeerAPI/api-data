@@ -1,0 +1,53 @@
+{
+  "data": {
+    "38333": {
+      "id": 38333,
+      "name": "文本校对",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 49,
+        "url": "https://api.seerapi.com/v1/element_type_combination/49"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功后恢复400点体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功后恢复400点体力（boss有效）",
+          "args": [
+            400
+          ],
+          "effect": {
+            "id": 548,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/548"
+          }
+        },
+        {
+          "info": "自己出手时若自身体力低于对手则回合结束时减少对手1/3最大体力",
+          "analyze_info": "[sprite name=iconHit]自己出手时若自身体力低于对手则[color=#57c975]回合结束时[/color]减少对手1/3最大体力",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 888,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/888"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "4e377c7e"
+}

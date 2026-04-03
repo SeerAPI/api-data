@@ -1,0 +1,65 @@
+{
+  "data": {
+    "38328": {
+      "id": 38328,
+      "name": "神诗终幕",
+      "power": 90,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身上回合每有1级先制，先制+1，最高+3",
+          "analyze_info": "[sprite name=iconHit]自身上回合每有1级[color=#52a5f2]先制(340)[/color]，此[color=#52a5f2]技能先制[/color]+1，最高+3",
+          "args": [],
+          "effect": {
+            "id": 2436,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2436"
+          }
+        },
+        {
+          "info": "连续使用每次威力增加30，最高威力300",
+          "analyze_info": "[sprite name=iconHit]连续使用每次[color=#52a5f2]威力[/color]增加30，最高[color=#52a5f2]威力[/color]300（boss有效）",
+          "args": [
+            30,
+            300
+          ],
+          "effect": {
+            "id": 9,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/9"
+          }
+        },
+        {
+          "info": "附加300点固定伤害，连续使用每次增加30点固定伤害，最高附加600点固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加300点[color=#52a5f2]固定伤害[/color]，连续使用每次增加30点[color=#52a5f2]固定伤害[/color]，最高附加600点[color=#52a5f2]固定伤害[/color]（boss有效）",
+          "args": [
+            300,
+            30,
+            600
+          ],
+          "effect": {
+            "id": 429,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/429"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "c91d94b7"
+}

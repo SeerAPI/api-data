@@ -1,0 +1,42 @@
+{
+  "id": 29301,
+  "name": "理念逆行",
+  "power": 0,
+  "max_pp": 1,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "消耗了自身的全部体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消耗自身全部体力，100%随机附加1种控制类异常状态，己方下只出场精灵2回合内攻击伤害提升50%且先制+1",
+      "analyze_info": "[sprite name=iconHit]消耗自身全部体力，100%随机附加1种控制类异常状态，[color=#52a5f2]己方[/color]下只出场精灵2回合内攻击伤害提升50%且[color=#52a5f2]先制[/color]+1",
+      "args": [
+        100,
+        1,
+        2,
+        50,
+        1
+      ],
+      "effect": {
+        "id": 1059,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1059"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "e7fe5768"
+}

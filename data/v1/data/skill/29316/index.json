@@ -1,0 +1,52 @@
+{
+  "id": 29316,
+  "name": "决裂天魔",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内自身令对手使用的暗影 神秘系攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]3回合内自身令对手使用的暗影 神秘系攻击技能无效（boss有效）",
+      "args": [
+        3,
+        50
+      ],
+      "effect": {
+        "id": 613,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/613"
+      }
+    },
+    {
+      "info": "3回合内光系技能威力为2倍",
+      "analyze_info": "[sprite name=iconHit]3回合内光系技能[color=#52a5f2]威力[/color]为2倍（boss有效）",
+      "args": [
+        3,
+        12,
+        2
+      ],
+      "effect": {
+        "id": 65,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/65"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "7b2b5f14"
+}

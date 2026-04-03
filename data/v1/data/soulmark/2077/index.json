@@ -1,0 +1,36 @@
+{
+  "id": 2077,
+  "desc": "自身连续3回合使用攻击技能时，重置此计数且当回合战斗阶段结束时恢复全部体力并附加恢复溢出量的固定伤害；自身连续3回合使用属性技能时，重置此计数且当回合战斗阶段结束时对自身附加等同于最大体力的固定伤害，然后若自身体力值高于0则附加等同于自身已损失体力值的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身连续3回合使用攻击技能时，重置此计数且[color=#52a5f2]当回合[/color][color=#57c975]战斗阶段结束时[/color]恢复全部体力并附加恢复溢出量的[color=#52a5f2]固定伤害[/color]|[sprite name=dot4]自身连续3回合使用属性技能时，重置此计数且[color=#52a5f2]当回合[/color][color=#57c975]战斗阶段结束时[/color]对自身附加等同于最大体力的[color=#52a5f2]固定伤害[/color]，[color=#52a5f2]然后[/color]若自身体力值高于0则附加等同于自身[color=#52a5f2]已损失体力[/color]的[color=#52a5f2]固定伤害[/color]",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4892,
+      "url": "https://api.seerapi.com/v1/pet/4892"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2498,
+      "url": "https://api.seerapi.com/v1/eid_effect/2498"
+    }
+  },
+  "effect_alias": "2498_1_0",
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "f43e137f"
+}

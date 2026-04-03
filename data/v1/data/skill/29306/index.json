@@ -1,0 +1,66 @@
+{
+  "id": 29306,
+  "name": "曙之四柱",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫受到的异常状态了；开始令对手属性技能无效了；全属性提升了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+      }
+    },
+    {
+      "info": "自身不为满体力时4回合内对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit]自身不为满体力时4回合内对手属性技能无效",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 2097,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2097"
+      }
+    },
+    {
+      "info": "自身为满体力时自身攻击+1，防御+1，特攻+1，特防+1",
+      "analyze_info": "[sprite name=iconHit]自身为满体力时自身攻击+1，防御+1，特攻+1，特防+1",
+      "args": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "effect": {
+        "id": 667,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/667"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "b7910fb4"
+}

@@ -1,0 +1,75 @@
+{
+  "data": {
+    "38327": {
+      "id": 38327,
+      "name": "谐·万灵归一",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 20,
+        "url": "https://api.seerapi.com/v1/element_type_combination/20"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则令对手攻击技能PP值归0",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手攻击技能PP值归0",
+          "args": [],
+          "effect": {
+            "id": 2299,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2299"
+          }
+        },
+        {
+          "info": "随机附加给对手250-350点固定伤害，若打出致命一击则效果转变为吸取对手350-400点体力",
+          "analyze_info": "[sprite name=iconHit]随机附加给对手250-350点[color=#52a5f2]固定伤害[/color]，若打出[color=#57c975]致命一击[/color]则效果转变为[color=#52a5f2]吸取[/color]对手350-400点体力（boss有效）",
+          "args": [
+            250,
+            350,
+            350,
+            400
+          ],
+          "effect": {
+            "id": 1659,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1659"
+          }
+        },
+        {
+          "info": "本回合未击败对手则下1回合反弹受到伤害的1/2",
+          "analyze_info": "[sprite name=iconHit]本回合未[color=#57c975]击败[/color]对手则下1回合[color=#52a5f2]反弹[/color]受到伤害的1/2",
+          "args": [
+            1,
+            2
+          ],
+          "effect": {
+            "id": 864,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/864"
+          }
+        },
+        {
+          "info": "先出手时使对手当回合内无法通过技能恢复自身体力",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手[color=#52a5f2]当回合[/color]内无法通过技能恢复自身体力",
+          "args": [],
+          "effect": {
+            "id": 1247,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1247"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "19f826c6"
+}
