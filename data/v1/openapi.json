@@ -974,6 +974,696 @@
         "deprecated": false
       }
     },
+    "v1/avatar_head/{id}": {
+      "get": {
+        "tags": [
+          "头像",
+          "装饰品"
+        ],
+        "summary": "获取头像资源",
+        "description": "头像资源，用于表示玩家头像信息。",
+        "operationId": "get_avatar_head_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_head"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_head"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/avatar_head/{name}": {
+      "get": {
+        "tags": [
+          "头像",
+          "装饰品"
+        ],
+        "summary": "通过名称获取头像资源",
+        "description": "头像资源，用于表示玩家头像信息。",
+        "operationId": "get_avatar_head_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_head_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_head_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/avatar_head/": {
+      "get": {
+        "tags": [
+          "头像",
+          "装饰品"
+        ],
+        "summary": "获取头像资源列表",
+        "description": "头像资源，用于表示玩家头像信息。",
+        "operationId": "get_avatar_head_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_head_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_head_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/avatar_frame/{id}": {
+      "get": {
+        "tags": [
+          "头像框",
+          "装饰品"
+        ],
+        "summary": "获取头像框资源",
+        "description": "头像框资源，用于表示玩家头像框信息。",
+        "operationId": "get_avatar_frame_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_frame"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_frame"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/avatar_frame/{name}": {
+      "get": {
+        "tags": [
+          "头像框",
+          "装饰品"
+        ],
+        "summary": "通过名称获取头像框资源",
+        "description": "头像框资源，用于表示玩家头像框信息。",
+        "operationId": "get_avatar_frame_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_frame_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_frame_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/avatar_frame/": {
+      "get": {
+        "tags": [
+          "头像框",
+          "装饰品"
+        ],
+        "summary": "获取头像框资源列表",
+        "description": "头像框资源，用于表示玩家头像框信息。",
+        "operationId": "get_avatar_frame_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_frame_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/avatar_frame_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/namecard_background/{id}": {
+      "get": {
+        "tags": [
+          "名片背景",
+          "装饰品"
+        ],
+        "summary": "获取名片背景资源",
+        "description": "名片背景资源，用于表示用于Unity端玩家信息页面的背景资源。",
+        "operationId": "get_namecard_background_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/namecard_background"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/namecard_background"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/namecard_background/{name}": {
+      "get": {
+        "tags": [
+          "名片背景",
+          "装饰品"
+        ],
+        "summary": "通过名称获取名片背景资源",
+        "description": "名片背景资源，用于表示用于Unity端玩家信息页面的背景资源。",
+        "operationId": "get_namecard_background_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/namecard_background_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/namecard_background_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/namecard_background/": {
+      "get": {
+        "tags": [
+          "名片背景",
+          "装饰品"
+        ],
+        "summary": "获取名片背景资源列表",
+        "description": "名片背景资源，用于表示用于Unity端玩家信息页面的背景资源。",
+        "operationId": "get_namecard_background_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/namecard_background_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/namecard_background_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/nickname_background/{id}": {
+      "get": {
+        "tags": [
+          "昵称背景",
+          "装饰品"
+        ],
+        "summary": "获取昵称背景资源",
+        "description": "昵称背景资源，用于表示玩家昵称背景信息。",
+        "operationId": "get_nickname_background_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nickname_background"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nickname_background"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/nickname_background/{name}": {
+      "get": {
+        "tags": [
+          "昵称背景",
+          "装饰品"
+        ],
+        "summary": "通过名称获取昵称背景资源",
+        "description": "昵称背景资源，用于表示玩家昵称背景信息。",
+        "operationId": "get_nickname_background_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nickname_background_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nickname_background_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/nickname_background/": {
+      "get": {
+        "tags": [
+          "昵称背景",
+          "装饰品"
+        ],
+        "summary": "获取昵称背景资源列表",
+        "description": "昵称背景资源，用于表示玩家昵称背景信息。",
+        "operationId": "get_nickname_background_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nickname_background_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nickname_background_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/homepage_background/{id}": {
+      "get": {
+        "tags": [
+          "主页背景",
+          "装饰品"
+        ],
+        "summary": "获取主页背景资源",
+        "description": "主页背景资源，用于表示用于Unity端主页的背景资源。",
+        "operationId": "get_homepage_background_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/homepage_background"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/homepage_background"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/homepage_background/{name}": {
+      "get": {
+        "tags": [
+          "主页背景",
+          "装饰品"
+        ],
+        "summary": "通过名称获取主页背景资源",
+        "description": "主页背景资源，用于表示用于Unity端主页的背景资源。",
+        "operationId": "get_homepage_background_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/homepage_background_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/homepage_background_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/homepage_background/": {
+      "get": {
+        "tags": [
+          "主页背景",
+          "装饰品"
+        ],
+        "summary": "获取主页背景资源列表",
+        "description": "主页背景资源，用于表示用于Unity端主页的背景资源。",
+        "operationId": "get_homepage_background_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/homepage_background_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/homepage_background_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/pet_effect/{id}": {
       "get": {
         "tags": [
@@ -2676,6 +3366,141 @@
               "application/schema-instance+json": {
                 "schema": {
                   "$ref": "#/components/schemas/element_type_combination_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/error_code/{id}": {
+      "get": {
+        "tags": [
+          "错误码"
+        ],
+        "summary": "获取错误码资源",
+        "description": "Socket通信中返回的错误码，用于表示一个错误码的详细信息。",
+        "operationId": "get_error_code_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/error_code"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/error_code"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/error_code/{name}": {
+      "get": {
+        "tags": [
+          "错误码"
+        ],
+        "summary": "通过名称获取错误码资源",
+        "description": "Socket通信中返回的错误码，用于表示一个错误码的详细信息。",
+        "operationId": "get_error_code_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/error_code_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/error_code_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/error_code/": {
+      "get": {
+        "tags": [
+          "错误码"
+        ],
+        "summary": "获取错误码资源列表",
+        "description": "Socket通信中返回的错误码，用于表示一个错误码的详细信息。",
+        "operationId": "get_error_code_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/error_code_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/error_code_List"
                 }
               }
             }
@@ -5143,6 +5968,99 @@
               "application/schema-instance+json": {
                 "schema": {
                   "$ref": "#/components/schemas/peak_expert_pool_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/peak_pool_vote/{id}": {
+      "get": {
+        "tags": [
+          "巅峰圣战",
+          "禁限池"
+        ],
+        "summary": "获取巅峰圣战禁限池票选资源",
+        "description": "巅峰圣战禁限池票选资源，用于表示一轮巅峰圣战禁限池票选信息。",
+        "operationId": "get_peak_pool_vote_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_pool_vote"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_pool_vote"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/peak_pool_vote/": {
+      "get": {
+        "tags": [
+          "巅峰圣战",
+          "禁限池"
+        ],
+        "summary": "获取巅峰圣战禁限池票选资源列表",
+        "description": "巅峰圣战禁限池票选资源，用于表示一轮巅峰圣战禁限池票选信息。",
+        "operationId": "get_peak_pool_vote_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_pool_vote_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_pool_vote_List"
                 }
               }
             }
@@ -8610,6 +9528,511 @@
           }
         ]
       },
+      "avatar_head": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "资源名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "资源描述"
+              },
+              "icon_id": {
+                "type": "integer",
+                "title": "Icon Id",
+                "description": "资源ID（对应profilephoto配置中的icon字段）"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "icon_id"
+            ],
+            "title": "AvatarHead"
+          }
+        ],
+        "title": "头像资源",
+        "examples": [
+          {
+            "id": 2,
+            "name": "白色赛尔",
+            "desc": "SPT奖励商城兑换获得",
+            "icon_id": 2,
+            "hash": "5d75d6f8"
+          }
+        ]
+      },
+      "avatar_head_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/avatar_head"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射头像资源",
+        "examples": [
+          {
+            "id": 2,
+            "name": "白色赛尔",
+            "desc": "SPT奖励商城兑换获得",
+            "icon_id": 2,
+            "hash": "5d75d6f8"
+          }
+        ]
+      },
+      "avatar_head_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "avatar_head"
+          }
+        ],
+        "title": "头像资源列表",
+        "examples": [
+          {
+            "id": 2,
+            "name": "白色赛尔",
+            "desc": "SPT奖励商城兑换获得",
+            "icon_id": 2,
+            "hash": "5d75d6f8"
+          }
+        ]
+      },
+      "avatar_frame": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "资源名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "资源描述"
+              },
+              "icon_id": {
+                "type": "integer",
+                "title": "Icon Id",
+                "description": "资源ID（对应profilephoto配置中的icon字段）"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "icon_id"
+            ],
+            "title": "AvatarFrame"
+          }
+        ],
+        "title": "头像框资源",
+        "examples": [
+          {
+            "id": 124,
+            "name": "2025新春限定头像框",
+            "desc": "参与“奥菲利娅的新春试炼”活动获得",
+            "icon_id": 46,
+            "hash": "9e0fa68d"
+          }
+        ]
+      },
+      "avatar_frame_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/avatar_frame"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射头像框资源",
+        "examples": [
+          {
+            "id": 124,
+            "name": "2025新春限定头像框",
+            "desc": "参与“奥菲利娅的新春试炼”活动获得",
+            "icon_id": 46,
+            "hash": "9e0fa68d"
+          }
+        ]
+      },
+      "avatar_frame_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "avatar_frame"
+          }
+        ],
+        "title": "头像框资源列表",
+        "examples": [
+          {
+            "id": 124,
+            "name": "2025新春限定头像框",
+            "desc": "参与“奥菲利娅的新春试炼”活动获得",
+            "icon_id": 46,
+            "hash": "9e0fa68d"
+          }
+        ]
+      },
+      "namecard_background": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "资源名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "资源描述"
+              },
+              "icon_id": {
+                "type": "integer",
+                "title": "Icon Id",
+                "description": "资源ID（对应profilephoto配置中的icon字段）"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "icon_id"
+            ],
+            "title": "NamecardBackground"
+          }
+        ],
+        "title": "名片背景资源",
+        "examples": [
+          {
+            "id": 27,
+            "name": "时空怪盗",
+            "desc": "参与“新春回馈”活动获得",
+            "icon_id": 2,
+            "hash": "898a793c"
+          }
+        ]
+      },
+      "namecard_background_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/namecard_background"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射名片背景资源",
+        "examples": [
+          {
+            "id": 27,
+            "name": "时空怪盗",
+            "desc": "参与“新春回馈”活动获得",
+            "icon_id": 2,
+            "hash": "898a793c"
+          }
+        ]
+      },
+      "namecard_background_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "namecard_background"
+          }
+        ],
+        "title": "名片背景资源列表",
+        "examples": [
+          {
+            "id": 27,
+            "name": "时空怪盗",
+            "desc": "参与“新春回馈”活动获得",
+            "icon_id": 2,
+            "hash": "898a793c"
+          }
+        ]
+      },
+      "nickname_background": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "资源名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "资源描述"
+              },
+              "icon_id": {
+                "type": "integer",
+                "title": "Icon Id",
+                "description": "资源ID（对应profilephoto配置中的icon字段）"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "icon_id"
+            ],
+            "title": "NicknameBackground"
+          }
+        ],
+        "title": "昵称背景资源",
+        "examples": [
+          {
+            "id": 196,
+            "name": "2026年费专属昵称框",
+            "desc": "成为2026年费VIP后即可获得",
+            "icon_id": 5,
+            "hash": "c5e5d119"
+          }
+        ]
+      },
+      "nickname_background_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/nickname_background"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射昵称背景资源",
+        "examples": [
+          {
+            "id": 196,
+            "name": "2026年费专属昵称框",
+            "desc": "成为2026年费VIP后即可获得",
+            "icon_id": 5,
+            "hash": "c5e5d119"
+          }
+        ]
+      },
+      "nickname_background_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "nickname_background"
+          }
+        ],
+        "title": "昵称背景资源列表",
+        "examples": [
+          {
+            "id": 196,
+            "name": "2026年费专属昵称框",
+            "desc": "成为2026年费VIP后即可获得",
+            "icon_id": 5,
+            "hash": "c5e5d119"
+          }
+        ]
+      },
+      "homepage_background": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "资源名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "资源描述"
+              },
+              "icon_id": {
+                "type": "integer",
+                "title": "Icon Id",
+                "description": "资源ID（对应profilephoto配置中的icon字段）"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "icon_id"
+            ],
+            "title": "HomepageBackground"
+          }
+        ],
+        "title": "主页背景资源",
+        "examples": [
+          {
+            "id": 43,
+            "name": "悦动星辰_diduozhuchangjing",
+            "desc": "参与“2023年国庆蒂朵回归”活动获得",
+            "icon_id": 1,
+            "hash": "30844c95"
+          }
+        ]
+      },
+      "homepage_background_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/homepage_background"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射主页背景资源",
+        "examples": [
+          {
+            "id": 43,
+            "name": "悦动星辰_diduozhuchangjing",
+            "desc": "参与“2023年国庆蒂朵回归”活动获得",
+            "icon_id": 1,
+            "hash": "30844c95"
+          }
+        ]
+      },
+      "homepage_background_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "homepage_background"
+          }
+        ],
+        "title": "主页背景资源列表",
+        "examples": [
+          {
+            "id": 43,
+            "name": "悦动星辰_diduozhuchangjing",
+            "desc": "参与“2023年国庆蒂朵回归”活动获得",
+            "icon_id": 1,
+            "hash": "30844c95"
+          }
+        ]
+      },
       "pet_effect": {
         "allOf": [
           {
@@ -10891,6 +12314,95 @@
             },
             "is_double": true,
             "hash": "637da042"
+          }
+        ]
+      },
+      "error_code": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "名称"
+              },
+              "message": {
+                "type": "string",
+                "title": "Message",
+                "description": "错误消息"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "message"
+            ],
+            "title": "ErrorCode"
+          }
+        ],
+        "title": "错误码资源",
+        "examples": [
+          {
+            "id": 1000,
+            "name": "Error_1000",
+            "message": "错误信息"
+          }
+        ]
+      },
+      "error_code_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/error_code"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射错误码资源",
+        "examples": [
+          {
+            "id": 1000,
+            "name": "Error_1000",
+            "message": "错误信息"
+          }
+        ]
+      },
+      "error_code_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "error_code"
+          }
+        ],
+        "title": "错误码资源列表",
+        "examples": [
+          {
+            "id": 1000,
+            "name": "Error_1000",
+            "message": "错误信息"
           }
         ]
       },
@@ -14617,6 +16129,312 @@
           }
         ]
       },
+      "peak_pool_vote": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "start_time": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Start Time",
+                "description": "本轮票选的开始时间"
+              },
+              "end_time": {
+                "type": "string",
+                "format": "date-time",
+                "title": "End Time",
+                "description": "本轮票选的截至时间"
+              },
+              "count": {
+                "type": "integer",
+                "title": "Count",
+                "description": "票选的精灵的限制数量"
+              },
+              "subkey": {
+                "type": "integer",
+                "title": "Subkey",
+                "description": "票选数据子键，用于其他工具获取投票结果"
+              },
+              "pet": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "pet"
+                },
+                "type": "array",
+                "title": "Pet",
+                "description": "参与投票的精灵"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "start_time",
+              "end_time",
+              "count",
+              "subkey"
+            ],
+            "title": "PeakPoolVote"
+          }
+        ],
+        "title": "巅峰圣战禁限池票选资源",
+        "examples": [
+          {
+            "id": 2,
+            "start_time": "2026-04-03T12:00:00+08:00",
+            "end_time": "2026-04-09T00:00:00+08:00",
+            "count": 2,
+            "subkey": 20260403,
+            "pet": [
+              {
+                "id": 5000,
+                "url": "https://api.seerapi.com/v1/pet/5000"
+              },
+              {
+                "id": 3577,
+                "url": "https://api.seerapi.com/v1/pet/3577"
+              },
+              {
+                "id": 4677,
+                "url": "https://api.seerapi.com/v1/pet/4677"
+              },
+              {
+                "id": 4125,
+                "url": "https://api.seerapi.com/v1/pet/4125"
+              },
+              {
+                "id": 3291,
+                "url": "https://api.seerapi.com/v1/pet/3291"
+              },
+              {
+                "id": 4762,
+                "url": "https://api.seerapi.com/v1/pet/4762"
+              },
+              {
+                "id": 4554,
+                "url": "https://api.seerapi.com/v1/pet/4554"
+              },
+              {
+                "id": 4766,
+                "url": "https://api.seerapi.com/v1/pet/4766"
+              },
+              {
+                "id": 4586,
+                "url": "https://api.seerapi.com/v1/pet/4586"
+              },
+              {
+                "id": 4510,
+                "url": "https://api.seerapi.com/v1/pet/4510"
+              },
+              {
+                "id": 3788,
+                "url": "https://api.seerapi.com/v1/pet/3788"
+              },
+              {
+                "id": 4808,
+                "url": "https://api.seerapi.com/v1/pet/4808"
+              },
+              {
+                "id": 4126,
+                "url": "https://api.seerapi.com/v1/pet/4126"
+              },
+              {
+                "id": 3613,
+                "url": "https://api.seerapi.com/v1/pet/3613"
+              },
+              {
+                "id": 3886,
+                "url": "https://api.seerapi.com/v1/pet/3886"
+              },
+              {
+                "id": 3056,
+                "url": "https://api.seerapi.com/v1/pet/3056"
+              },
+              {
+                "id": 4622,
+                "url": "https://api.seerapi.com/v1/pet/4622"
+              },
+              {
+                "id": 4644,
+                "url": "https://api.seerapi.com/v1/pet/4644"
+              },
+              {
+                "id": 4605,
+                "url": "https://api.seerapi.com/v1/pet/4605"
+              },
+              {
+                "id": 3586,
+                "url": "https://api.seerapi.com/v1/pet/3586"
+              },
+              {
+                "id": 3741,
+                "url": "https://api.seerapi.com/v1/pet/3741"
+              },
+              {
+                "id": 3516,
+                "url": "https://api.seerapi.com/v1/pet/3516"
+              },
+              {
+                "id": 4732,
+                "url": "https://api.seerapi.com/v1/pet/4732"
+              },
+              {
+                "id": 4661,
+                "url": "https://api.seerapi.com/v1/pet/4661"
+              },
+              {
+                "id": 3739,
+                "url": "https://api.seerapi.com/v1/pet/3739"
+              },
+              {
+                "id": 4717,
+                "url": "https://api.seerapi.com/v1/pet/4717"
+              },
+              {
+                "id": 4468,
+                "url": "https://api.seerapi.com/v1/pet/4468"
+              }
+            ],
+            "hash": "2042bac7"
+          }
+        ]
+      },
+      "peak_pool_vote_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "peak_pool_vote"
+          }
+        ],
+        "title": "巅峰圣战禁限池票选资源列表",
+        "examples": [
+          {
+            "id": 2,
+            "start_time": "2026-04-03T12:00:00+08:00",
+            "end_time": "2026-04-09T00:00:00+08:00",
+            "count": 2,
+            "subkey": 20260403,
+            "pet": [
+              {
+                "id": 5000,
+                "url": "https://api.seerapi.com/v1/pet/5000"
+              },
+              {
+                "id": 3577,
+                "url": "https://api.seerapi.com/v1/pet/3577"
+              },
+              {
+                "id": 4677,
+                "url": "https://api.seerapi.com/v1/pet/4677"
+              },
+              {
+                "id": 4125,
+                "url": "https://api.seerapi.com/v1/pet/4125"
+              },
+              {
+                "id": 3291,
+                "url": "https://api.seerapi.com/v1/pet/3291"
+              },
+              {
+                "id": 4762,
+                "url": "https://api.seerapi.com/v1/pet/4762"
+              },
+              {
+                "id": 4554,
+                "url": "https://api.seerapi.com/v1/pet/4554"
+              },
+              {
+                "id": 4766,
+                "url": "https://api.seerapi.com/v1/pet/4766"
+              },
+              {
+                "id": 4586,
+                "url": "https://api.seerapi.com/v1/pet/4586"
+              },
+              {
+                "id": 4510,
+                "url": "https://api.seerapi.com/v1/pet/4510"
+              },
+              {
+                "id": 3788,
+                "url": "https://api.seerapi.com/v1/pet/3788"
+              },
+              {
+                "id": 4808,
+                "url": "https://api.seerapi.com/v1/pet/4808"
+              },
+              {
+                "id": 4126,
+                "url": "https://api.seerapi.com/v1/pet/4126"
+              },
+              {
+                "id": 3613,
+                "url": "https://api.seerapi.com/v1/pet/3613"
+              },
+              {
+                "id": 3886,
+                "url": "https://api.seerapi.com/v1/pet/3886"
+              },
+              {
+                "id": 3056,
+                "url": "https://api.seerapi.com/v1/pet/3056"
+              },
+              {
+                "id": 4622,
+                "url": "https://api.seerapi.com/v1/pet/4622"
+              },
+              {
+                "id": 4644,
+                "url": "https://api.seerapi.com/v1/pet/4644"
+              },
+              {
+                "id": 4605,
+                "url": "https://api.seerapi.com/v1/pet/4605"
+              },
+              {
+                "id": 3586,
+                "url": "https://api.seerapi.com/v1/pet/3586"
+              },
+              {
+                "id": 3741,
+                "url": "https://api.seerapi.com/v1/pet/3741"
+              },
+              {
+                "id": 3516,
+                "url": "https://api.seerapi.com/v1/pet/3516"
+              },
+              {
+                "id": 4732,
+                "url": "https://api.seerapi.com/v1/pet/4732"
+              },
+              {
+                "id": 4661,
+                "url": "https://api.seerapi.com/v1/pet/4661"
+              },
+              {
+                "id": 3739,
+                "url": "https://api.seerapi.com/v1/pet/3739"
+              },
+              {
+                "id": 4717,
+                "url": "https://api.seerapi.com/v1/pet/4717"
+              },
+              {
+                "id": 4468,
+                "url": "https://api.seerapi.com/v1/pet/4468"
+              }
+            ],
+            "hash": "2042bac7"
+          }
+        ]
+      },
       "pet": {
         "allOf": [
           {
@@ -14895,6 +16713,18 @@
                   }
                 ],
                 "description": "精灵所属巅峰专家池"
+              },
+              "peak_pool_vote_id": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Peak Pool Vote Id",
+                "description": "精灵所属巅峰池票选ID"
               },
               "advance": {
                 "anyOf": [
@@ -18708,6 +20538,26 @@
                 "type": "string",
                 "title": "battle_effect_type Path"
               },
+              "avatar_head": {
+                "type": "string",
+                "title": "avatar_head Path"
+              },
+              "avatar_frame": {
+                "type": "string",
+                "title": "avatar_frame Path"
+              },
+              "namecard_background": {
+                "type": "string",
+                "title": "namecard_background Path"
+              },
+              "nickname_background": {
+                "type": "string",
+                "title": "nickname_background Path"
+              },
+              "homepage_background": {
+                "type": "string",
+                "title": "homepage_background Path"
+              },
               "pet_effect": {
                 "type": "string",
                 "title": "pet_effect Path"
@@ -18759,6 +20609,10 @@
               "element_type_combination": {
                 "type": "string",
                 "title": "element_type_combination Path"
+              },
+              "error_code": {
+                "type": "string",
+                "title": "error_code Path"
               },
               "glossary_entry": {
                 "type": "string",
@@ -18836,6 +20690,10 @@
                 "type": "string",
                 "title": "peak_expert_pool Path"
               },
+              "peak_pool_vote": {
+                "type": "string",
+                "title": "peak_pool_vote Path"
+              },
               "pet": {
                 "type": "string",
                 "title": "pet Path"
@@ -18910,6 +20768,11 @@
               "title",
               "battle_effect",
               "battle_effect_type",
+              "avatar_head",
+              "avatar_frame",
+              "namecard_background",
+              "nickname_background",
+              "homepage_background",
               "pet_effect",
               "pet_effect_group",
               "pet_variation",
@@ -18923,6 +20786,7 @@
               "soulmark_tag",
               "element_type",
               "element_type_combination",
+              "error_code",
               "glossary_entry",
               "gem",
               "gem_category",
@@ -18942,6 +20806,7 @@
               "nature",
               "peak_pool",
               "peak_expert_pool",
+              "peak_pool_vote",
               "pet",
               "pet_class",
               "pet_gender",

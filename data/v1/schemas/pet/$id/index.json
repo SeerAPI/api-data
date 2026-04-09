@@ -345,6 +345,19 @@
           "default": null,
           "description": "精灵所属巅峰专家池"
         },
+        "peak_pool_vote_id": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "精灵所属巅峰池票选ID",
+          "title": "Peak Pool Vote Id"
+        },
         "advance": {
           "anyOf": [
             {

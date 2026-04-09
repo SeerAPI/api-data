@@ -1,0 +1,63 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "start_time": {
+          "description": "本轮票选的开始时间",
+          "format": "date-time",
+          "title": "Start Time",
+          "type": "string"
+        },
+        "end_time": {
+          "description": "本轮票选的截至时间",
+          "format": "date-time",
+          "title": "End Time",
+          "type": "string"
+        },
+        "count": {
+          "description": "票选的精灵的限制数量",
+          "title": "Count",
+          "type": "integer"
+        },
+        "subkey": {
+          "description": "票选数据子键，用于其他工具获取投票结果",
+          "title": "Subkey",
+          "type": "integer"
+        },
+        "pet": {
+          "description": "参与投票的精灵",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Pet_"
+          },
+          "title": "Pet",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "start_time",
+        "end_time",
+        "count",
+        "subkey"
+      ],
+      "title": "PeakPoolVote",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

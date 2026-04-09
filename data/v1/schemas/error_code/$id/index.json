@@ -1,0 +1,35 @@
+{
+  "allOf": [
+    {
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "message": {
+          "description": "错误消息",
+          "title": "Message",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "message"
+      ],
+      "title": "ErrorCode",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

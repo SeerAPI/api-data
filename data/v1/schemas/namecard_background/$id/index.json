@@ -1,0 +1,41 @@
+{
+  "allOf": [
+    {
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "资源名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "description": "资源描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "icon_id": {
+          "description": "资源ID（对应profilephoto配置中的icon字段）",
+          "title": "Icon Id",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "icon_id"
+      ],
+      "title": "NamecardBackground",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}
