@@ -1,0 +1,51 @@
+{
+  "data": {
+    "38347": {
+      "id": 38347,
+      "name": "灰烬冲击波",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/element_type_combination/7"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将自身的防御、特防能力提升分别视为攻击、特攻能力提升",
+          "analyze_info": "[sprite name=iconInherent]将自身的防御、特防能力提升分别视为攻击、特攻能力提升",
+          "args": [],
+          "effect": {
+            "id": 2157,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2157"
+          }
+        },
+        {
+          "info": "附加自身能力提升等级总和X20的固定伤害",
+          "analyze_info": "[sprite name=iconHit]附加自身能力提升等级总和X20的[color=#52a5f2]固定伤害[/color]",
+          "args": [
+            20
+          ],
+          "effect": {
+            "id": 713,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/713"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "c8b8e780"
+}

@@ -22,16 +22,16 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "解除自身所处的异常状态并消耗自身当前体力的20%，本次技能附加自身最大体力值50%的远古系属性伤害",
-          "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态并消耗自身当前体力的20%，本次技能附加自身最大体力值50%的远古系属性伤害",
+          "info": "自身处于能力提升状态时100%令自身麻痹，未触发则3回合内自身能力提升状态无法被消除或吸取",
+          "analyze_info": "[sprite name=iconHit]",
           "args": [
-            20,
-            50,
-            18
+            100,
+            0,
+            3
           ],
           "effect": {
-            "id": 2388,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2388"
+            "id": 2445,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2445"
           }
         }
       ],
@@ -40,5 +40,5 @@
       "advance": null
     }
   },
-  "hash": "b6cb85cd"
+  "hash": "700e4d1e"
 }

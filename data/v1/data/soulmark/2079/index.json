@@ -1,0 +1,40 @@
+{
+  "id": 2079,
+  "desc": "自身登场时获得黯穹之尘，之后对手使用技能后，下次使用技能时若类型与本次相同则自身免疫下1次受到的异常状态，若类型与本次不同则战斗阶段结束时获得黯穹之尘|回合开始时，若自身体力高于最大体力的1/2，则当回合自身受到的技能伤害无法超过自身最大体力的1/2，当次伤害对自身的克制系数未小于等于对手对应第五技能对自身的克制系数时改为1/4且限制时恢复最大体力的1/2，若自身体力低于最大体力的1/2，则当回合自身所有技能先制+2，自身对对手的克制系数未小于等于自身第五技能对自身的克制系数时解除自身所处的异常状态",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身[color=#57c975]登场时[/color]获得[color=#f35555]黯穹之尘[/color]，[color=#52a5f2]之后[/color]对手[color=#57c975]使用技能后[/color]，下次[color=#57c975]使用技能时[/color]若类型与本次相同则自身免疫下1次受到的异常状态，若类型与本次不同则[color=#57c975]战斗阶段结束时[/color]获得[color=#f35555]黯穹之尘[/color]|[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身体力高于最大体力的1/2，则[color=#52a5f2]当回合[/color]自身受到的技能伤害无法超过自身最大体力的1/2，当次伤害对自身的克制系数未小于等于对手对应第五技能对自身的克制系数时改为1/4且限制时恢复最大体力的1/2，若自身体力低于最大体力的1/2，则[color=#52a5f2]当回合[/color]自身所有[color=#52a5f2]技能先制[/color]+2，自身对对手的克制系数未小于等于自身第五技能对自身的克制系数时解除自身所处的异常状态",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4354,
+      "url": "https://api.seerapi.com/v1/pet/4354"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2500,
+      "url": "https://api.seerapi.com/v1/eid_effect/2500"
+    }
+  },
+  "effect_alias": "2500_1_0",
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "745cba62"
+}

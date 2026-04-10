@@ -22,15 +22,16 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "对手每有1%的体力威力提升1%",
-          "analyze_info": "[sprite name=iconHit]对手每有1%的体力[color=#52a5f2]威力[/color]提升1%",
+          "info": "吸取对手能力提升状态，吸取成功则对手2回合内属性技能无效，对手不处于能力提升状态时自身下1回合攻击技能先制+2",
+          "analyze_info": "[sprite name=iconHit]",
           "args": [
+            2,
             1,
-            1
+            2
           ],
           "effect": {
-            "id": 2387,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2387"
+            "id": 2444,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2444"
           }
         }
       ],
@@ -39,5 +40,5 @@
       "advance": null
     }
   },
-  "hash": "3bde3240"
+  "hash": "253bdd09"
 }

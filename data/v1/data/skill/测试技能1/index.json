@@ -22,14 +22,17 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "吸取对手能力提升状态，吸取成功自身免疫下1次受到的异常状态，若对手不处于能力提升状态则消除对手回合类效果",
-          "analyze_info": "[sprite name=iconHit]吸取对手能力提升状态，[color=#52a5f2]吸取(434)[/color]成功自身免疫下1次受到的异常状态，若对手不处于能力提升状态则消除对手[color=#52a5f2]回合类效果[/color]",
+          "info": "消除对手回合类效果并100%令自身麻痹，附加成功则额外100%令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]",
           "args": [
-            1
+            100,
+            0,
+            100,
+            0
           ],
           "effect": {
-            "id": 2385,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2385"
+            "id": 2442,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2442"
           }
         }
       ],
@@ -38,5 +41,5 @@
       "advance": null
     }
   },
-  "hash": "46fe352c"
+  "hash": "4eb68767"
 }

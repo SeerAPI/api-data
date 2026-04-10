@@ -1,0 +1,26 @@
+{
+  "id": 2444,
+  "args_num": 3,
+  "info": "吸取对手能力提升状态，吸取成功则对手{0}回合内属性技能无效，对手不处于能力提升状态时自身下{1}回合攻击技能先制+{2}",
+  "info_formatting_adjustment": "吸取对手能力提升状态\r\n--><condition>吸取成功</condition>则对手{0}回合内属性技能无效\r\n--><condition>对手不处于能力提升状态时</condition>自身下{1}回合攻击技能先制+{2}",
+  "analyze_info": "[sprite name=iconHit]",
+  "pve_effective": true,
+  "param": null,
+  "skill": [
+    {
+      "id": 40005,
+      "url": "https://api.seerapi.com/v1/skill/40005"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
+    },
+    {
+      "id": 2566,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/2566"
+    }
+  ],
+  "hash": "3575a20b"
+}

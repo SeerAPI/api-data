@@ -22,15 +22,14 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "吸取对手最大体力的1/4，对手免疫百分比伤害时当回合造成的攻击伤害提升100%",
-          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的1/4，对手免疫百分比伤害时当回合造成的攻击伤害提升100%",
+          "info": "对手3回合内受到的攻击必定为致命一击",
+          "analyze_info": "[sprite name=iconHit]",
           "args": [
-            4,
-            100
+            3
           ],
           "effect": {
-            "id": 2386,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2386"
+            "id": 2443,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2443"
           }
         }
       ],
@@ -39,5 +38,5 @@
       "advance": null
     }
   },
-  "hash": "268898c6"
+  "hash": "984b8100"
 }

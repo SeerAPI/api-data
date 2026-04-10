@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2078": {
+      "id": 2078,
+      "desc": "回合开始时，若自身体力高于最大体力的1/2，消耗高出的体力并获得等量护盾，若低于则消耗自身护盾并恢复等量体力，最多恢复至自身最大体力的1/2|回合结束时，若自身拥有护罩则获得等量护盾，若自身不拥有护罩则吸取对手300点体力|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始[/color]时，若自身体力高于最大体力的1/2，消耗高出的体力并获得等量[color=#57c975]护盾[/color]，若低于则消耗自身的所有[color=#57c975]护盾[/color]并恢复等量体力，最多恢复至自身最大体力的1/2|[sprite name=dot4][color=#57c975]回合结束时[/color]，若自身拥有[color=#57c975]护罩[/color]则获得等量[color=#57c975]护盾[/color]，若自身不拥有[color=#57c975]护罩[/color]则[color=#52a5f2]吸取[/color]对手300点体力",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4890,
+          "url": "https://api.seerapi.com/v1/pet/4890"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2497,
+          "url": "https://api.seerapi.com/v1/eid_effect/2497"
+        }
+      },
+      "effect_alias": "2497_1_0",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "6af09022"
+}
