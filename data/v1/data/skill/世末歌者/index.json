@@ -1,0 +1,63 @@
+{
+  "data": {
+    "29334": {
+      "id": 29334,
+      "name": "世末歌者",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身为己方最后一只存活精灵时先制+1",
+          "analyze_info": "[sprite name=iconInherent]自身为[color=#52a5f2]己方[/color]最后一只存活精灵时[color=#52a5f2]先制[/color]+1",
+          "args": [],
+          "effect": {
+            "id": 2247,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2247"
+          }
+        },
+        {
+          "info": "己方每有一只精灵存活则恢复100点体力，每有一只精灵死亡则附加100点固定伤害",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]己方[/color]每有一只精灵存活则恢复100点体力，每有一只精灵死亡则附加100点[color=#52a5f2]固定伤害[/color]（boss有效）",
+          "args": [
+            100,
+            100
+          ],
+          "effect": {
+            "id": 1305,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1305"
+          }
+        },
+        {
+          "info": "对方场下每死亡一只精灵则附加给对手100点固定伤害",
+          "analyze_info": "[sprite name=iconHit]对方场下每死亡一只精灵则附加给对手100点[color=#52a5f2]固定伤害[/color]",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 1972,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1972"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "72be59e9"
+}

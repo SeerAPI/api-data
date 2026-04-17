@@ -1,0 +1,40 @@
+{
+  "id": 2082,
+  "desc": "战斗阶段结束时，若自身没有音符则获得1分强音，若自身拥有中音则获得1分弱音",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若自身没有[color=#f35555]音符[/color]则获得1分[color=#f35555]强音[/color]，若自身拥有[color=#f35555]中音[/color]则获得1分[color=#f35555]弱音[/color]",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4895,
+      "url": "https://api.seerapi.com/v1/pet/4895"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2502,
+      "url": "https://api.seerapi.com/v1/eid_effect/2502"
+    }
+  },
+  "effect_alias": "2502_1_0",
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "68c820fb"
+}

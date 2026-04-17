@@ -1,0 +1,84 @@
+{
+  "id": 29326,
+  "name": "燔祭",
+  "power": 0,
+  "max_pp": 7,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹受到的异常状态了；令双方烧伤了；攻击变得更加凌厉了；受到的攻击伤害减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "获得1分强音",
+      "analyze_info": "[sprite name=iconHit]获得1分[color=#f35555]强音[/color] ",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 2450,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2450"
+      }
+    },
+    {
+      "info": "使敌我双方同时烧伤4回合",
+      "analyze_info": "[sprite name=iconHit]使敌我双方同时[color=#57c975]烧伤[/color]4回合（boss有效）",
+      "args": [
+        2,
+        4
+      ],
+      "effect": {
+        "id": 547,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/547"
+      }
+    },
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "自身下2次攻击必定致命一击",
+      "analyze_info": "[sprite name=iconHit]自身下2次攻击必定[color=#57c975]致命一击[/color]（boss有效）",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 1204,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1204"
+      }
+    },
+    {
+      "info": "4回合内若自身处于异常状态则受到伤害减少777点",
+      "analyze_info": "[sprite name=iconHit]4回合内若自身处于异常状态则受到伤害减少777点（boss有效）",
+      "args": [
+        4,
+        777
+      ],
+      "effect": {
+        "id": 522,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/522"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "7903e902"
+}

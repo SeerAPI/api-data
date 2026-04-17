@@ -1,0 +1,49 @@
+{
+  "data": {
+    "29328": {
+      "id": 29328,
+      "name": "天颂文·歌不落",
+      "power": 0,
+      "max_pp": 7,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "天使，吹响灭世颂歌",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "以获得的顺序依次消耗自身的所有音节，若自身消耗的顺序为强音、弱音、中音、弱音，则己方获得天在此，若此为本场战斗第3次获得，则秒杀对手",
+          "analyze_info": "[sprite name=iconHit]以获得的顺序依次消耗自身的所有[color=#f35555]音节[/color]，若自身消耗的顺序为[color=#f35555]强音[/color]、[color=#f35555]弱音[/color]、[color=#f35555]中音[/color]、[color=#f35555]弱音[/color]，则己方获得[color=#f35555]天在此[/color]，若此为本场战斗第3次获得，则[color=#57c975]秒杀[/color]对手",
+          "args": [],
+          "effect": {
+            "id": 2449,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2449"
+          }
+        },
+        {
+          "info": "技能无效时，消除对手回合类效果且100%令对手沉默3回合",
+          "analyze_info": "[sprite name=iconInherent]技能无效时，消除对手[color=#52a5f2]回合类效果[/color]且100%令对手[color=#57c975]沉默[/color]3回合",
+          "args": [],
+          "effect": {
+            "id": 1861,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1861"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "ee796436"
+}

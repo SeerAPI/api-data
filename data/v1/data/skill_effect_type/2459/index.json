@@ -1,0 +1,34 @@
+{
+  "id": 2459,
+  "args_num": 2,
+  "info": "与对手交换自身低于对手的能力等级，然后若对手处于能力下降状态则自身无效下{0}次对手的攻击，若自身处于能力提升状态则下回合造成的攻击伤害提升{1}%",
+  "info_formatting_adjustment": "与对手交换自身低于对手的能力等级，然后：\r\n--><condition>若对手处于能力下降状态</condition>则自身无效下{0}次对手的攻击\r\n--><condition>若自身处于能力提升状态</condition>则下回合造成的攻击伤害提升{1}%",
+  "analyze_info": "[sprite name=iconHit]",
+  "pve_effective": true,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 32,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/32"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 40008,
+      "url": "https://api.seerapi.com/v1/skill/40008"
+    }
+  ],
+  "tag": [
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
+    },
+    {
+      "id": 18673,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673"
+    }
+  ],
+  "hash": "7adab8be"
+}

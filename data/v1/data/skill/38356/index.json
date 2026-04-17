@@ -1,0 +1,73 @@
+{
+  "id": 38356,
+  "name": "古神长嚎",
+  "power": 85,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 81,
+    "url": "https://api.seerapi.com/v1/element_type_combination/81"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视对手攻击免疫效果，无视成功消除对手回合类效果",
+      "analyze_info": "[sprite name=iconComp]无视对手攻击免疫效果，无视成功消除对手[color=#52a5f2]回合类效果[/color]",
+      "args": [],
+      "effect": {
+        "id": 2331,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2331"
+      }
+    },
+    {
+      "info": "吸取对手能力提升状态，吸取成功则对手2回合内属性技能无效，对手不处于能力提升状态时自身下1回合攻击技能先制+2",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取(434)[/color]对手能力提升状态，[color=#52a5f2]吸取(434)[/color]成功则对手2回合内属性[color=#52a5f2]技能无效[/color]，对手不处于能力提升状态时自身下1回合攻击[color=#52a5f2]技能先制[/color]+2",
+      "args": [
+        2,
+        1,
+        2
+      ],
+      "effect": {
+        "id": 2444,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2444"
+      }
+    },
+    {
+      "info": "吸取对手300点体力，若对手未受到固定伤害则100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手300点体力，若对手未受到[color=#52a5f2]固定伤害[/color]则100%令对手[color=#57c975]害怕[/color]",
+      "args": [
+        300,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1895,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1895"
+      }
+    },
+    {
+      "info": "对手2回合内受到的攻击必定为致命一击",
+      "analyze_info": "[sprite name=iconHit]对手2回合内受到的攻击必定为[color=#57c975]致命一击[/color]",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2443,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2443"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "6a58bf40"
+}

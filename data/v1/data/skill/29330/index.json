@@ -1,0 +1,94 @@
+{
+  "id": 29330,
+  "name": "零时诳语",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "令对手狂暴了；令自身睡眠了；开始吸取对手的体力了；对手的出手变慢了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身免疫并反弹受到的睡眠、疲惫状态，反弹成功时本次在场自身专属特性中的“受到的攻击伤害减少”改为“造成的攻击伤害提升”",
+      "analyze_info": "[sprite name=iconInherent]自身免疫并反弹受到的[color=#57c975]睡眠[/color]、[color=#57c975]疲惫[/color]状态，反弹成功时本次在场自身专属特性中的“受到的攻击伤害减少”改为“造成的攻击伤害提升”",
+      "args": [],
+      "effect": {
+        "id": 2441,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2441"
+      }
+    },
+    {
+      "info": "自身不处于能力提升状态时100%令对手狂暴，触发成功则3回合内自身使用技能攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1，未触发则2回合内令对手属性技能无效",
+      "analyze_info": "[sprite name=iconHit]自身不处于能力提升状态时100%令对手[color=#57c975]狂暴[/color]，触发成功则3回合内自身使用技能攻击+1，防御+1，特攻+1，特防+1，速度+1，命中+1，[color=#52a5f2]未触发[/color]则2回合内令对手属性技能无效",
+      "args": [
+        100,
+        14,
+        3,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "effect": {
+        "id": 2193,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2193"
+      }
+    },
+    {
+      "info": "自身处于能力提升状态时100%令自身睡眠，未触发则3回合内自身能力提升状态无法被消除或吸取",
+      "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时100%令自身[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color] 则3回合内自身能力提升状态无法被消除或吸取",
+      "args": [
+        100,
+        8,
+        3
+      ],
+      "effect": {
+        "id": 2445,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2445"
+      }
+    },
+    {
+      "info": "5回合内使用技能额外吸取对手最大体力的1/3，若使用时自身不处于能力提升状态则效果翻倍",
+      "analyze_info": "[sprite name=iconHit]5回合内使用技能额外[color=#52a5f2]吸取[/color]对手最大体力的1/3，若[color=#52a5f2]使用技能时[/color]自身不处于能力提升状态则效果翻倍",
+      "args": [
+        5,
+        3
+      ],
+      "effect": {
+        "id": 2461,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2461"
+      }
+    },
+    {
+      "info": "下2回合令对手所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]下2回合令对手所有[color=#52a5f2]技能先制[/color]-2（boss有效）",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 619,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/619"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "bb2a48b6"
+}

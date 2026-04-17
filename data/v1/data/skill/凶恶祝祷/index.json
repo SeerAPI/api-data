@@ -1,0 +1,44 @@
+{
+  "data": {
+    "29322": {
+      "id": 29322,
+      "name": "凶恶祝祷",
+      "power": 0,
+      "max_pp": 1,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "不惜一切代价",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "牺牲自身全部体力，使对手全属性-1且2回合内先制-2",
+          "analyze_info": "[sprite name=iconHit]牺牲自身全部体力，使对手[color=#52a5f2]全属性[/color]-1且2回合内[color=#52a5f2]先制[/color]-2",
+          "args": [
+            1,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 1380,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1380"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "271323eb"
+}

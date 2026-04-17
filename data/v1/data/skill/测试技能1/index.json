@@ -22,17 +22,15 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "消除对手回合类效果并100%令自身麻痹，附加成功则额外100%令对手麻痹",
+          "info": "对手处于能力提升状态时3回合内令对手体力恢复效果减少100%",
           "analyze_info": "[sprite name=iconHit]",
           "args": [
-            100,
-            0,
-            100,
-            0
+            3,
+            100
           ],
           "effect": {
-            "id": 2442,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2442"
+            "id": 2455,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2455"
           }
         }
       ],
@@ -41,5 +39,5 @@
       "advance": null
     }
   },
-  "hash": "4eb68767"
+  "hash": "e217e2af"
 }

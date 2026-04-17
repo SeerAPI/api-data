@@ -1,0 +1,43 @@
+{
+  "id": 2081,
+  "desc": "战斗阶段结束时记录对手当回合所使用技能的类型，若该类型与上次记录不同则100%令对手害怕3回合，若该类型与上次记录相同则对手该类型技能下回合先制-1|自身攻击技能命中后，若对手处于害怕状态则令对手害怕回合数-1并附加200点固定伤害，每生效1次增加100点，最多400点，自身属性技能命中后，若对手处于害怕状态则令对手害怕回合数+1并吸取对手最大体力的40%，每生效1次减少10%，最低20%|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]记录对手[color=#52a5f2]当回合(412)[/color]所使用技能的类型，若该类型与上次记录不同则100%令对手[color=#57c975]害怕[/color]3回合，若该类型与上次记录相同则对手该类型技能下回合[color=#52a5f2]先制(339)[/color]-1|[sprite name=dot4]自身[color=#57c975]攻击技能命中后[/color]，若对手处于[color=#57c975]害怕[/color]状态则令对手[color=#57c975]害怕[/color]回合数-1并附加200点[color=#52a5f2]固定伤害[/color]，每生效1次增加100点，最多400点，自身属性技能命中后，若对手处于[color=#57c975]害怕[/color]状态则令对手[color=#57c975]害怕[/color]回合数+1并[color=#52a5f2]吸取[/color]对手最大体力的40%，每生效1次减少10%，最低20%",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4894,
+      "url": "https://api.seerapi.com/v1/pet/4894"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      100,
+      400,
+      40,
+      20,
+      1
+    ],
+    "effect": {
+      "id": 2501,
+      "url": "https://api.seerapi.com/v1/eid_effect/2501"
+    }
+  },
+  "effect_alias": "2501_100_400_40_20_1",
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "d173ab8f"
+}

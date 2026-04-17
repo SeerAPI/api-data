@@ -1,0 +1,43 @@
+{
+  "data": {
+    "29331": {
+      "id": 29331,
+      "name": "聆主天答",
+      "power": 0,
+      "max_pp": 7,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "立刻恢复自身777点体力，3回合后恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]立刻恢复自身777点体力，3回合后恢复自身全部体力",
+          "args": [
+            777,
+            3
+          ],
+          "effect": {
+            "id": 1635,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1635"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "c993eec5"
+}

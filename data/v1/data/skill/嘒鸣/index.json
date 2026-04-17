@@ -1,0 +1,100 @@
+{
+  "data": {
+    "29327": {
+      "id": 29327,
+      "name": "嘒鸣",
+      "power": 0,
+      "max_pp": 7,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；开始吸取对手的体力了；令对手麻痹了；对手的出手变慢了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "获得1分弱音",
+          "analyze_info": "[sprite name=iconHit]获得1分[color=#f35555]弱音[/color] ",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2450,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2450"
+          }
+        },
+        {
+          "info": "全属性+1，对手处于麻痹状态时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手处于[color=#57c975]麻痹[/color]状态时强化效果翻倍（boss有效）",
+          "args": [
+            1,
+            0
+          ],
+          "effect": {
+            "id": 993,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/993"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手最大体力的1/3，恢复体力时若自身体力低于最大体力的1/2则恢复效果翻倍",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，恢复体力时若自身体力低于最大体力的1/2则恢复效果翻倍",
+          "args": [
+            4,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 717,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/717"
+          }
+        },
+        {
+          "info": "100%令对手麻痹，未触发则100%令对手焚烬，均未触发则令对手攻击-2，特攻-2",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则100%令对手[color=#57c975]焚烬[/color]，均[color=#52a5f2]未触发[/color]则令对手攻击-2，特攻-2",
+          "args": [
+            100,
+            0,
+            100,
+            22,
+            1,
+            -2,
+            0,
+            -2,
+            0,
+            0,
+            0
+          ],
+          "effect": {
+            "id": 1823,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1823"
+          }
+        },
+        {
+          "info": "下2回合令对手所有技能先制-2",
+          "analyze_info": "[sprite name=iconHit]下2回合令对手所有[color=#52a5f2]技能先制[/color]-2（boss有效）",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 619,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/619"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "d919fe2f"
+}

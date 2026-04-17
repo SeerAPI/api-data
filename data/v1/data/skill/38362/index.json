@@ -1,0 +1,50 @@
+{
+  "id": 38362,
+  "name": "嬉皮",
+  "power": 100,
+  "max_pp": 20,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 104,
+    "url": "https://api.seerapi.com/v1/element_type_combination/104"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手使用攻击技能则对手狂暴",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则对手[color=#57c975]狂暴[/color]（boss有效）",
+      "args": [
+        3,
+        14
+      ],
+      "effect": {
+        "id": 614,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/614"
+      }
+    },
+    {
+      "info": "出手时若自身体力低于对手，则免疫下1次受到的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]出手时若自身体力低于对手，则免疫下1次受到的攻击伤害",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 972,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/972"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "dffdfab7"
+}

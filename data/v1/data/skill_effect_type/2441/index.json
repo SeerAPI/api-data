@@ -1,12 +1,17 @@
 {
   "id": 2441,
   "args_num": 0,
-  "info": "S",
-  "info_formatting_adjustment": "空效果",
-  "analyze_info": "[sprite name=iconHit]",
+  "info": "自身免疫并反弹受到的睡眠、疲惫状态，反弹成功时本次在场自身专属特性中的“受到的攻击伤害减少”改为“造成的攻击伤害提升”",
+  "info_formatting_adjustment": "自身免疫并反弹受到的睡眠、疲惫状态\r\n--><condition>反弹成功时</condition>本次在场自身专属特性中的“受到的攻击伤害减少”改为“造成的攻击伤害提升”",
+  "analyze_info": "[sprite name=iconInherent]自身免疫并反弹受到的[color=#57c975]睡眠[/color]、[color=#57c975]疲惫[/color]状态，反弹成功时本次在场自身专属特性中的“受到的攻击伤害减少”改为“造成的攻击伤害提升”",
   "pve_effective": true,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 29330,
+      "url": "https://api.seerapi.com/v1/skill/29330"
+    }
+  ],
   "tag": [],
-  "hash": "f039e1d0"
+  "hash": "b6a15477"
 }

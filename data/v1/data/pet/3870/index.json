@@ -224,8 +224,22 @@
       "skill_activation_item": null
     },
     {
-      "learning_level": 70,
+      "learning_level": null,
       "is_special": true,
+      "is_advanced": false,
+      "is_fifth": false,
+      "skill": {
+        "id": 29329,
+        "url": "https://api.seerapi.com/v1/skill/29329"
+      },
+      "skill_activation_item": {
+        "id": 1727996,
+        "url": "https://api.seerapi.com/v1/skill_activation_item/1727996"
+      }
+    },
+    {
+      "learning_level": 70,
+      "is_special": false,
       "is_advanced": false,
       "is_fifth": true,
       "skill": {
@@ -256,5 +270,5 @@
   "peak_pool": null,
   "peak_expert_pool": null,
   "advance": null,
-  "hash": "bd464a84"
+  "hash": "509a87f9"
 }

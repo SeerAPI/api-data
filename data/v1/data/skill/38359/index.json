@@ -1,0 +1,38 @@
+{
+  "id": 38359,
+  "name": "宣告",
+  "power": 40,
+  "max_pp": 40,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "7回合对手无法使自身能力出现提升状态",
+      "analyze_info": "[sprite name=iconHit]7回合对手无法使自身能力出现提升状态",
+      "args": [
+        7
+      ],
+      "effect": {
+        "id": 765,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/765"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "c47c6a7f"
+}
