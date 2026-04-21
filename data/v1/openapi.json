@@ -5793,6 +5793,97 @@
         "deprecated": false
       }
     },
+    "v1/peak_season/{id}": {
+      "get": {
+        "tags": [
+          "巅峰圣战"
+        ],
+        "summary": "获取巅峰圣战赛季资源",
+        "description": "巅峰圣战赛季资源，用于表示当前的巅峰赛季，该端口仅有一个资源且id固定为1。",
+        "operationId": "get_peak_season_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_season"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_season"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/peak_season/": {
+      "get": {
+        "tags": [
+          "巅峰圣战"
+        ],
+        "summary": "获取巅峰圣战赛季资源列表",
+        "description": "巅峰圣战赛季资源，用于表示当前的巅峰赛季，该端口仅有一个资源且id固定为1。",
+        "operationId": "get_peak_season_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_season_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_season_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/peak_pool/{id}": {
       "get": {
         "tags": [
@@ -15661,6 +15752,67 @@
           }
         ]
       },
+      "peak_season": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "该赛季的ID，固定为1"
+              },
+              "start_time": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Start Time",
+                "description": "该赛季的开始时间"
+              },
+              "end_time": {
+                "type": "string",
+                "format": "date-time",
+                "title": "End Time",
+                "description": "该赛季的结束时间，由 `start_time`加上固定时长计算得出，游戏内没有准确数据"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "start_time",
+              "end_time"
+            ],
+            "title": "PeakSeason"
+          }
+        ],
+        "title": "巅峰圣战赛季资源",
+        "examples": [
+          {
+            "id": 1,
+            "start_time": "2026-04-17T10:00:00+08:00",
+            "end_time": "2026-07-17T10:00:00+08:00",
+            "hash": "6ca2aef1"
+          }
+        ]
+      },
+      "peak_season_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "peak_season"
+          }
+        ],
+        "title": "巅峰圣战赛季资源列表",
+        "examples": [
+          {
+            "id": 1,
+            "start_time": "2026-04-17T10:00:00+08:00",
+            "end_time": "2026-07-17T10:00:00+08:00",
+            "hash": "6ca2aef1"
+          }
+        ]
+      },
       "peak_pool": {
         "allOf": [
           {
@@ -20682,6 +20834,10 @@
                 "type": "string",
                 "title": "nature Path"
               },
+              "peak_season": {
+                "type": "string",
+                "title": "peak_season Path"
+              },
               "peak_pool": {
                 "type": "string",
                 "title": "peak_pool Path"
@@ -20804,6 +20960,7 @@
               "mintmark_type",
               "mintmark_rarity",
               "nature",
+              "peak_season",
               "peak_pool",
               "peak_expert_pool",
               "peak_pool_vote",
