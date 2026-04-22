@@ -8183,6 +8183,338 @@
         ],
         "title": "HashPartial"
       },
+      "common_api_resource_list": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "title": "Count",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Next",
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Previous",
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "First",
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Last",
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/common_named_resource_ref"
+            },
+            "type": "array",
+            "title": "Results",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "ApiResourceList",
+        "description": "API资源列表，兼容RFC 5988的Link标准"
+      },
+      "common_eid_effect": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id",
+            "description": "资源ID"
+          },
+          "args_num": {
+            "type": "integer",
+            "title": "Args Num",
+            "description": "效果需要的参数数量，该值是从使用该效果的资源中推测得出的"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "args_num"
+        ],
+        "title": "EidEffect"
+      },
+      "common_eid_effect_in_use": {
+        "properties": {
+          "id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Id"
+          },
+          "effect_args": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "integer"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Effect Args",
+            "description": "效果参数，当效果参数为空时，该字段为null"
+          },
+          "effect": {
+            "$ref": "#/components/schemas/common_resource_ref",
+            "x-model-name": "eid_effect"
+          }
+        },
+        "type": "object",
+        "required": [
+          "effect"
+        ],
+        "title": "EidEffectInUse"
+      },
+      "common_named_data": {
+        "properties": {
+          "data": {
+            "patternProperties": {
+              "^[0-9]+$": {
+                "$dynamicRef": "#TResModel"
+              }
+            },
+            "additionalProperties": false,
+            "type": "object"
+          }
+        },
+        "type": "object",
+        "required": [
+          "data"
+        ],
+        "title": "NamedData",
+        "$schema": "https://json-schema.org/draft/2020-12/schema"
+      },
+      "common_named_resource_ref": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id",
+            "description": "资源ID"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url",
+            "description": "资源URL"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name",
+            "description": "资源名称"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "url"
+        ],
+        "title": "NamedResourceRef"
+      },
+      "common_resource_ref": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id",
+            "description": "资源ID"
+          },
+          "url": {
+            "type": "string",
+            "title": "Url",
+            "description": "资源URL"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "url"
+        ],
+        "title": "ResourceRef",
+        "description": "API资源类"
+      },
+      "common_six_attributes": {
+        "properties": {
+          "id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Id"
+          },
+          "atk": {
+            "type": "number",
+            "title": "Atk",
+            "description": "攻击"
+          },
+          "def": {
+            "type": "number",
+            "title": "Def",
+            "description": "防御"
+          },
+          "sp_atk": {
+            "type": "number",
+            "title": "Sp Atk",
+            "description": "特攻"
+          },
+          "sp_def": {
+            "type": "number",
+            "title": "Sp Def",
+            "description": "特防"
+          },
+          "spd": {
+            "type": "number",
+            "title": "Spd",
+            "description": "速度"
+          },
+          "hp": {
+            "type": "number",
+            "title": "Hp",
+            "description": "体力"
+          },
+          "percent": {
+            "type": "boolean",
+            "title": "Percent",
+            "description": "该对象描述的是否是百分比加成，如果为true，属性值为百分比值",
+            "default": false
+          }
+        },
+        "type": "object",
+        "required": [
+          "atk",
+          "def",
+          "sp_atk",
+          "sp_def",
+          "spd",
+          "hp"
+        ],
+        "title": "SixAttributes"
+      },
+      "common_skill_effect_in_use": {
+        "properties": {
+          "id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Id"
+          },
+          "info": {
+            "type": "string",
+            "title": "Info",
+            "description": "技能效果描述"
+          },
+          "analyze_info": {
+            "type": "string",
+            "title": "Analyze Info",
+            "description": "新版 Unity 端采用的格式化技能效果描述文本"
+          },
+          "args": {
+            "anyOf": [
+              {
+                "items": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ]
+                },
+                "type": "array"
+              },
+              {
+                "items": {
+                  "type": "integer"
+                },
+                "type": "array"
+              },
+              {
+                "items": {
+                  "type": "number"
+                },
+                "type": "array"
+              }
+            ],
+            "title": "Args",
+            "description": "技能效果参数列表"
+          },
+          "effect": {
+            "$ref": "#/components/schemas/common_resource_ref",
+            "x-model-name": "skill_effect_type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "info",
+          "analyze_info",
+          "args",
+          "effect"
+        ],
+        "title": "SkillEffectInUse"
+      },
       "achievement": {
         "allOf": [
           {

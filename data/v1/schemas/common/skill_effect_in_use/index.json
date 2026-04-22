@@ -23,6 +23,11 @@
       "title": "Info",
       "type": "string"
     },
+    "analyze_info": {
+      "description": "新版 Unity 端采用的格式化技能效果描述文本",
+      "title": "Analyze Info",
+      "type": "string"
+    },
     "args": {
       "anyOf": [
         {
@@ -60,6 +65,7 @@
   },
   "required": [
     "info",
+    "analyze_info",
     "args",
     "effect"
   ],
