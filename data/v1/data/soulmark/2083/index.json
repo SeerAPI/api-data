@@ -1,0 +1,40 @@
+{
+  "id": 2083,
+  "desc": "自身使用攻击技能时，为对手附加烧伤、易燃、焚烬、麻痹中对手不处于的一种异常状态|战斗阶段结束时若本场战斗自身对同一精灵附加过上述4种异常状态，则本场战斗上述效果中异常状态的附加种数+1，每场战斗限1次|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身使用攻击技能时，为对手附加[color=#57c975]烧伤[/color]、[color=#57c975]易燃[/color]、[color=#57c975]焚烬[/color]、[color=#57c975]麻痹[/color]中对手不处于的1种异常状态|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]若本场战斗自身对同一精灵以上述效果附加过4种异常状态，则本场战斗上述效果中异常状态的附加种数+1，每场战斗限1次\r\n",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4897,
+      "url": "https://api.seerapi.com/v1/pet/4897"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2503,
+      "url": "https://api.seerapi.com/v1/eid_effect/2503"
+    }
+  },
+  "effect_alias": "2503_1_0",
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    },
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "a52e67c9"
+}

@@ -22,16 +22,14 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "自身处于能力提升状态时100%令自身麻痹，未触发则3回合内自身能力提升状态无法被消除或吸取",
-          "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时100%令自身[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color] 则3回合内自身能力提升状态无法被消除或吸取",
+          "info": "对手不处于异常状态时对手3回合内属性技能无效",
+          "analyze_info": "[sprite name=iconHit]",
           "args": [
-            100,
-            0,
             3
           ],
           "effect": {
-            "id": 2445,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2445"
+            "id": 2467,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2467"
           }
         }
       ],
@@ -40,5 +38,5 @@
       "advance": null
     }
   },
-  "hash": "e502d3cf"
+  "hash": "86e95311"
 }

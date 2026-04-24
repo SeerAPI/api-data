@@ -4,7 +4,7 @@
   "info": "自身处于能力提升状态时{0}%令自身{1}，未触发则{2}回合内自身能力提升状态无法被消除或吸取",
   "info_formatting_adjustment": "<condition>自身处于能力提升状态时</condition>{0}%令自身{1}\r\n--><condition>未触发</condition>则{2}回合内自身能力提升状态无法被消除或吸取",
   "analyze_info": "[sprite name=iconHit]自身处于能力提升状态时{0}%令自身[color=#57c975]{1}[/color]，[color=#52a5f2]未触发[/color] 则{2}回合内自身能力提升状态无法被消除或吸取",
-  "pve_effective": true,
+  "pve_effective": false,
   "param": [
     {
       "position": 1,
@@ -18,10 +18,6 @@
     {
       "id": 29330,
       "url": "https://api.seerapi.com/v1/skill/29330"
-    },
-    {
-      "id": 40006,
-      "url": "https://api.seerapi.com/v1/skill/40006"
     }
   ],
   "tag": [
@@ -30,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "6b33780a"
+  "hash": "1a1a0cb3"
 }

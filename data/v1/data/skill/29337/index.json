@@ -1,0 +1,84 @@
+{
+  "id": 29337,
+  "name": "逆浪分洲",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫受到的异常状态了；开始反转对手的能力提升了；对手的体力恢复效果开始减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "3回合内每回合结束后反转对手能力提升状态",
+      "analyze_info": "[sprite name=iconHit]3回合内每[color=#57c975]回合结束后[/color][color=#52a5f2]反转[/color]对手能力提升状态",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1566,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1566"
+      }
+    },
+    {
+      "info": "3回合内对手恢复体力时恢复效果减少100%",
+      "analyze_info": "[sprite name=iconHit]3回合内对手恢复体力时恢复效果减少100%（boss有效）",
+      "args": [
+        3,
+        100
+      ],
+      "effect": {
+        "id": 761,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/761"
+      }
+    },
+    {
+      "info": "对手下3次主动切换或死亡切换精灵时，在场精灵吸取对手下只出场精灵最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]对手下3次[color=#52a5f2]主动切换[/color]或死亡切换精灵时，在场精灵[color=#52a5f2]吸取[/color]对手下只出场精灵最大体力的1/3",
+      "args": [
+        3,
+        3
+      ],
+      "effect": {
+        "id": 1779,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1779"
+      }
+    },
+    {
+      "info": "下5回合对手使用体力药剂时效果变成减少相应的体力",
+      "analyze_info": "[sprite name=iconHit]下5回合对手使用体力药剂时效果变成减少相应的体力（boss有效）",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 69,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/69"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "fa1ac513"
+}

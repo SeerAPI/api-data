@@ -1,17 +1,17 @@
 {
   "id": 2458,
   "args_num": 0,
-  "info": "攻击时造成的伤害出现微弱时，当回合造成的固定伤害、百分比伤害除以此次伤害的克制系数",
-  "info_formatting_adjustment": "<condition>攻击时造成的伤害出现微弱时</condition>，当回合造成的固定伤害、百分比伤害除以此次伤害的克制系数",
-  "analyze_info": "[sprite name=iconHit]",
-  "pve_effective": true,
+  "info": "攻击时造成的伤害出现微弱时，当回合造成的固定伤害、百分比伤害以百分比的形式提升此克制系数与1的差值",
+  "info_formatting_adjustment": null,
+  "analyze_info": "[sprite name=iconInherent]攻击时造成的伤害出现微弱时，[color=#52a5f2]当回合[/color]造成的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]以百分比的形式提升此克制系数与1的差值",
+  "pve_effective": false,
   "param": null,
   "skill": [
     {
-      "id": 40007,
-      "url": "https://api.seerapi.com/v1/skill/40007"
+      "id": 38372,
+      "url": "https://api.seerapi.com/v1/skill/38372"
     }
   ],
   "tag": [],
-  "hash": "ef2a3c12"
+  "hash": "bbee746d"
 }

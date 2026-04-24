@@ -22,15 +22,16 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "与对手交换自身低于对手的能力等级，然后若对手处于能力下降状态则自身无效下弱次对手的攻击，若自身处于能力提升状态则下回合造成的攻击伤害提升100%",
+          "info": "100%令对手41，未触发则消除对手回合类效果并令自身41",
           "analyze_info": "[sprite name=iconHit]",
           "args": [
-            1,
-            100
+            100,
+            41,
+            41
           ],
           "effect": {
-            "id": 2459,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2459"
+            "id": 2471,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2471"
           }
         }
       ],
@@ -39,5 +40,5 @@
       "advance": null
     }
   },
-  "hash": "df9e9dd6"
+  "hash": "b5aecd8f"
 }

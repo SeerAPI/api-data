@@ -4,7 +4,7 @@
   "info": "将对手所处的异常状态转移给自身，然后若自身处于控制类异常状态则对手1回合技能命中效果失效，若自身处于弱化类异常状态则造成的攻击伤害额外提升100%，若自身处于附属类异常状态则上述效果无视触发条件",
   "info_formatting_adjustment": "将对手所处的异常状态转移给自身，然后<condition>若自身所处的异常状态中</condition>：\r\n--><condition>含有控制类</condition>则对手1回合技能命中效果失效\r\n--><condition>含有弱化类</condition>则造成的攻击伤害额外提升100%\r\n--><condition>含有附属类</condition>则上述效果一并触发",
   "analyze_info": "[sprite name=iconHit]将对手所处的异常状态转移给自身，[color=#52a5f2]然后[/color]若自身处于控制类异常状态则对手1回合技能命中效果失效，若自身处于弱化类异常状态则造成的攻击[color=#52a5f2]伤害额外提升[/color]100%，若自身处于附属类异常状态则上述效果无视触发条件",
-  "pve_effective": true,
+  "pve_effective": false,
   "param": null,
   "skill": [
     {
@@ -22,5 +22,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673"
     }
   ],
-  "hash": "3ef53000"
+  "hash": "f3004621"
 }
