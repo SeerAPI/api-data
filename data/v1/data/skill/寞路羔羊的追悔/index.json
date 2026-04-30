@@ -63,9 +63,10 @@
           }
         },
         {
-          "info": "造成的攻击伤害若低于1则令对手下{1}次使用的攻击技能无效",
-          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于1则令对手下{1}次使用的攻击技能无效",
+          "info": "造成的攻击伤害若低于1则令对手下1次使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于1则令对手下1次使用的攻击技能无效",
           "args": [
+            1,
             1
           ],
           "effect": {
@@ -79,5 +80,5 @@
       "advance": null
     }
   },
-  "hash": "27d6fda"
+  "hash": "ecfd304a"
 }
