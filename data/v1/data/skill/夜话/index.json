@@ -1,0 +1,55 @@
+{
+  "data": {
+    "38376": {
+      "id": 38376,
+      "name": "夜话",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]复制对手能力提升状态，复制成功则自身免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1949,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1949"
+          }
+        },
+        {
+          "info": "自身下1次受到的攻击伤害不超过0，并反弹给对手原本超出部分100%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]自身下1次受到的攻击伤害不超过0，并[color=#52a5f2]反弹[/color]给对手原本超出部分100%的[color=#52a5f2]百分比伤害[/color]",
+          "args": [
+            1,
+            0,
+            100
+          ],
+          "effect": {
+            "id": 1834,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1834"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "8a9a5976"
+}

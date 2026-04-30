@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2086": {
+      "id": 2086,
+      "desc": "自身位于场下时，自身每有10%的体力，末位精灵使用技能5%不消耗PP值|自身位于场上时，末位精灵每有10%的体力，自身使用技能后吸取对手最大体力的2%（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身位于场下时，自身每有10%的体力，末位精灵使用技能5%不消耗PP值|[sprite name=dot4]自身位于场上时，末位精灵每有10%的体力，自身[color=#57c975]使用技能后[/color][color=#52a5f2]吸取[/color]对手最大体力的2%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4899,
+          "url": "https://api.seerapi.com/v1/pet/4899"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2505,
+          "url": "https://api.seerapi.com/v1/eid_effect/2505"
+        }
+      },
+      "effect_alias": "alias_2505_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "1cc9ba2b"
+}

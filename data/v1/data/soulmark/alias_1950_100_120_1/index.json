@@ -1,0 +1,49 @@
+{
+  "data": {
+    "1588": {
+      "id": 1588,
+      "desc": "自身出战时获得群辉加护；自身拥有群辉加护时，若对手处于回合类效果则自身闪避对手的技能，若对手的技能命中自身则命中后对手每有1个与此技能类型不同的技能自身恢复120点体力|己方其他精灵首次出战时自身获得1层群芳加护（boss无效）",
+      "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>群芳加护：\r\n<indent=16><sprite=3><indent=32>自身每次登场后获得<b>群芳加护</b>：\r\n<indent=32><sprite=4><indent=48>对手拥有回合类效果时，100%<color=#64F9FA>闪避</color>对手的技能\r\n<indent=32><sprite=4><indent=48>自身被技能命中后，<color=#64F9FA>恢复</color>对手所携带不同类型技能数*120的<b>体力</b>\r\n<indent=16><sprite=3><indent=32>若自身被攻击技能命中，则群芳加护消失\r\n<indent=16><sprite=3><indent=32>群芳加护消失后，下回合对手<color=#64F9FA>先制效果失效</color>且以回合类效果形式1回合内<color=#64F9FA>无法主动切换精灵</color>\r\n\r\n<indent=0><sprite=0><indent=16>群辉加护：\r\n<indent=16><sprite=3><indent=32>己方每只其他精灵首次登场后，自身获得1层<b>群辉加护</b>\r\n<indent=16><sprite=3><indent=32>自身被击败时，消耗自身所有群辉加护，每有1层群辉加护：\r\n<indent=32><sprite=4><indent=48>所有<b>不在场精灵</b>所有技能<color=#64F9FA>恢复</color>1点PP\r\n<indent=32><sprite=4><indent=48>己方下只精灵登场后首次技能<color=#64F9FA>附加</color>群芳加护消失时自身所受到攻击伤害20%的<b>百分比伤害</b>",
+      "analyze_desc": "[sprite name=dot4]自身[color=#57c975]出战时[/color]获得[color=#f35555]群辉加护[/color]；自身拥有[color=#f35555]群辉加护[/color]时，若对手处于[color=#52a5f2]回合类效果[/color]则自身[color=#57c975]闪避[/color]对手的技能，若对手的技能命中自身则命中后对手每有1个与此技能类型不同的技能自身恢复120点体力|[color=#52a5f2]己方[/color]其他精灵[color=#52a5f2]首次[/color][color=#57c975]出战时[/color]自身获得1层[color=#f35555]群芳加护[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4364,
+          "url": "https://api.seerapi.com/v1/pet/4364"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          100,
+          120,
+          1
+        ],
+        "effect": {
+          "id": 1950,
+          "url": "https://api.seerapi.com/v1/eid_effect/1950"
+        }
+      },
+      "effect_alias": "alias_1950_100_120_1",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "582164dd"
+}

@@ -1,17 +1,17 @@
 {
   "id": 2473,
   "args_num": 0,
-  "info": "击败对手时，",
-  "info_formatting_adjustment": "<condition>击败对手时</condition>，己方所有其他精灵汲取其对位精灵最大体力的1/4\r\n-->对方每有1只存活精灵未因此减少体力，自身吸取对方下只出战精灵最大体力的1/4",
-  "analyze_info": "[sprite name=iconHit]",
+  "info": "己方每阵亡1只精灵，每次在场限1次，获得1种自身没有的鬼祰",
+  "info_formatting_adjustment": null,
+  "analyze_info": "[sprite name=iconHit]己方每阵亡1只精灵，每次在场限1次，获得1种自身没有的[color=#f35555]鬼祰[/color]",
   "pve_effective": false,
   "param": null,
-  "skill": [],
-  "tag": [
+  "skill": [
     {
-      "id": 35850,
-      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850"
+      "id": 38382,
+      "url": "https://api.seerapi.com/v1/skill/38382"
     }
   ],
-  "hash": "7772717"
+  "tag": [],
+  "hash": "35d783"
 }

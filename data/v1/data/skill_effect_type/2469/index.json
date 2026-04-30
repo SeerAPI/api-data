@@ -1,17 +1,22 @@
 {
   "id": 2469,
   "args_num": 0,
-  "info": "消耗g",
+  "info": "消耗自身的鬼祰，每消耗1道自身恢复最大体力的1/4与所有技能1点PP值，达到4道时为双方进入四杀鬼囹",
   "info_formatting_adjustment": "消耗自身的鬼祰，每消耗1道自身恢复最大体力的1/4与所有技能1点PP值\r\n--><condition>达到4道时</condition>为双方进入四杀鬼囹",
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]消耗自身的[color=#f35555]鬼祰[/color]，每消耗1道自身恢复最大体力的1/4与所有技能1点PP值，达到4道时为双方进入[color=#f35555]四杀鬼囹[/color]",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 38384,
+      "url": "https://api.seerapi.com/v1/skill/38384"
+    }
+  ],
   "tag": [
     {
       "id": 62114,
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114"
     }
   ],
-  "hash": "1e77bbd1"
+  "hash": "d880af2e"
 }

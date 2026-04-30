@@ -1,0 +1,30 @@
+{
+  "id": 2475,
+  "args_num": 0,
+  "info": "对方精灵均拥有信仰对象时，为对方所有精灵恢复404点体力并附加404点固定伤害，然后若对方精灵的已损失体力值存在众数，则秒杀所有不为众数的精灵",
+  "info_formatting_adjustment": "<condition>对方精灵均拥有信仰对象时</condition>，为对方所有精灵恢复404点体力并附加404点固定伤害\r\n-->然后<condition>若对方精灵的已损失体力值存在众数</condition>，则秒杀所有不为众数的精灵",
+  "analyze_info": "[sprite name=iconHit]对方精灵均拥有[color=#57c975]信仰对象[/color]时，为对方所有精灵恢复404点体力并附加404点[color=#52a5f2]固定伤害[/color]，然后若对方精灵的已损失体力值存在[color=#52a5f2]众数[/color]，则[color=#57c975]秒杀[/color]所有不为[color=#52a5f2]众数[/color]的精灵",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 29339,
+      "url": "https://api.seerapi.com/v1/skill/29339"
+    }
+  ],
+  "tag": [
+    {
+      "id": 62114,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114"
+    },
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
+    },
+    {
+      "id": 29062,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/29062"
+    }
+  ],
+  "hash": "40a56e16"
+}

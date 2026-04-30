@@ -1,0 +1,85 @@
+{
+  "data": {
+    "38384": {
+      "id": 38384,
+      "name": "蔑天行·戾杀",
+      "power": 160,
+      "max_pp": 4,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 60,
+        "url": "https://api.seerapi.com/v1/element_type_combination/60"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "下2回合若对手先出手，则令对手当回合使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]下2回合若对手先出手，则令对手[color=#52a5f2]当回合[/color]使用的攻击技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 726,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/726"
+          }
+        },
+        {
+          "info": "消耗自身的鬼祰，每消耗1道自身恢复最大体力的1/4与所有技能1点PP值，达到4道时为双方进入四杀鬼囹",
+          "analyze_info": "[sprite name=iconHit]消耗自身的[color=#f35555]鬼祰[/color]，每消耗1道自身恢复最大体力的1/4与所有技能1点PP值，达到4道时为双方进入[color=#f35555]四杀鬼囹[/color]",
+          "args": [],
+          "effect": {
+            "id": 2469,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2469"
+          }
+        },
+        {
+          "info": "对对方所有精灵附加4点固定伤害，然后对手每有一只精灵未受到此伤害，本场战斗此伤害额外乘4，最高不超过自身的最大体力",
+          "analyze_info": "[sprite name=iconHit]对对方所有精灵附加4点[color=#52a5f2]固定伤害[/color]，然后对手每有一只精灵未受到此伤害，本场战斗此伤害额外乘4，最高不超过自身的最大体力",
+          "args": [],
+          "effect": {
+            "id": 2472,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2472"
+          }
+        },
+        {
+          "info": "造成的攻击伤害若高于250则100%令对手害怕",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于250则100%令对手[color=#57c975]害怕[/color]",
+          "args": [
+            250,
+            100,
+            6
+          ],
+          "effect": {
+            "id": 1843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1843"
+          }
+        },
+        {
+          "info": "未击败对手下2回合自身攻击先制+1",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手下2回合自身攻击[color=#52a5f2]先制[/color]+1（boss有效）",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 820,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/820"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "c4b41732"
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "393": {
+      "id": 393,
+      "desc": "自身被击败后，吸取对手的能力提升状态并附加给下一只出战精灵，然后令对手所有技能PP归0并消除对手回合类效果（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身[color=#57c975]被击败后[/color]，[color=#52a5f2]吸取(434)[/color]对手的能力提升状态并附加给下一只出战精灵，[color=#52a5f2]然后[/color]令对手所有技能PP归0并消除对手[color=#52a5f2]回合类效果[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 3033,
+          "url": "https://api.seerapi.com/v1/pet/3033"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 723,
+          "url": "https://api.seerapi.com/v1/eid_effect/723"
+        }
+      },
+      "effect_alias": "alias_723_1_0",
+      "tag": [
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "d7e0876f"
+}

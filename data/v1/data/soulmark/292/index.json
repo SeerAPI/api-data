@@ -1,37 +1,47 @@
 {
-  "data": {
-    "63": {
-      "id": 63,
-      "desc": "6%的概率使自己技能威力翻倍",
-      "desc_formatting_adjustment": null,
-      "analyze_desc": "",
-      "pve_effective": true,
-      "intensified": false,
-      "is_adv": false,
-      "pet": [
-        {
-          "id": 2566,
-          "url": "https://api.seerapi.com/v1/pet/2566"
-        }
-      ],
-      "effect": {
-        "effect_args": null,
-        "effect": {
-          "id": 292,
-          "url": "https://api.seerapi.com/v1/eid_effect/292"
-        }
-      },
-      "effect_alias": "292",
-      "tag": [
-        {
-          "id": 2,
-          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
-        }
-      ],
-      "intensified_to": null,
-      "from": null,
-      "advance": null
+  "id": 292,
+  "desc": "卡米欧专属特性 特攻+10 体力+10 防御+10 特防+10",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "",
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2328,
+      "url": "https://api.seerapi.com/v1/pet/2328"
+    },
+    {
+      "id": 2329,
+      "url": "https://api.seerapi.com/v1/pet/2329"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      0,
+      10,
+      10,
+      10,
+      0,
+      10
+    ],
+    "effect": {
+      "id": 247,
+      "url": "https://api.seerapi.com/v1/eid_effect/247"
     }
   },
-  "hash": "4b0ccc2d"
+  "effect_alias": "alias_247_0_10_10_10_0_10",
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    }
+  ],
+  "intensified_to": null,
+  "from": {
+    "id": 291,
+    "url": "https://api.seerapi.com/v1/soulmark/291"
+  },
+  "advance": null,
+  "hash": "b30922cd"
 }

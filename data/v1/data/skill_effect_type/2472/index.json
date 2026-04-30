@@ -1,12 +1,22 @@
 {
   "id": 2472,
   "args_num": 0,
-  "info": "己方每阵亡1只精灵，每次在场限1次",
-  "info_formatting_adjustment": null,
-  "analyze_info": "[sprite name=iconHit]",
+  "info": "对对方所有精灵附加4点固定伤害，然后对手每有一只精灵未受到此伤害，本场战斗此伤害额外乘4，最高不超过自身的最大体力",
+  "info_formatting_adjustment": "对对方所有精灵附加4点固定伤害\r\n-->然后对手每有一只精灵未受到此伤害，本场战斗此伤害额外乘4，最高不超过自身的最大体力",
+  "analyze_info": "[sprite name=iconHit]对对方所有精灵附加4点[color=#52a5f2]固定伤害[/color]，然后对手每有一只精灵未受到此伤害，本场战斗此伤害额外乘4，最高不超过自身的最大体力",
   "pve_effective": false,
   "param": null,
-  "skill": [],
-  "tag": [],
-  "hash": "c534a626"
+  "skill": [
+    {
+      "id": 38384,
+      "url": "https://api.seerapi.com/v1/skill/38384"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
+    }
+  ],
+  "hash": "15cd3adf"
 }

@@ -1,37 +1,38 @@
 {
-  "data": {
-    "19": {
-      "id": 19,
-      "desc": "50%免疫对手致命一击造成的伤害",
-      "desc_formatting_adjustment": null,
-      "analyze_desc": "",
-      "pve_effective": false,
-      "intensified": false,
-      "is_adv": false,
-      "pet": [
-        {
-          "id": 2468,
-          "url": "https://api.seerapi.com/v1/pet/2468"
-        }
-      ],
-      "effect": {
-        "effect_args": null,
-        "effect": {
-          "id": 150,
-          "url": "https://api.seerapi.com/v1/eid_effect/150"
-        }
-      },
-      "effect_alias": "150",
-      "tag": [
-        {
-          "id": 7,
-          "url": "https://api.seerapi.com/v1/soulmark_tag/7"
-        }
-      ],
-      "intensified_to": null,
-      "from": null,
-      "advance": null
+  "id": 150,
+  "desc": "对手处于烧伤状态时每回合恢复200HP；对手处于麻痹状态时威力翻倍",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 2776,
+      "url": "https://api.seerapi.com/v1/pet/2776"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      3,
+      200,
+      1,
+      2
+    ],
+    "effect": {
+      "id": 368,
+      "url": "https://api.seerapi.com/v1/eid_effect/368"
     }
   },
-  "hash": "c8fb6f4a"
+  "effect_alias": "alias_368_3_200_1_2",
+  "tag": [
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "bbbd30c6"
 }

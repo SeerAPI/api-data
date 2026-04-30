@@ -1,0 +1,84 @@
+{
+  "id": 29340,
+  "name": "冒渎不赦",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "全属性提升了；开始吸取对手的体力了；攻击变得更加凌厉了；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "使用时，若对方精灵均拥有信仰对象，则本次技能视为命中并强制执行命中效果",
+      "analyze_info": "[sprite name=iconInherent]使用时，若对方精灵均拥有[color=#57c975]信仰对象[/color]，则本次技能视为命中并强制[color=#52a5f2]执行[/color]命中效果",
+      "args": [],
+      "effect": {
+        "id": 2474,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2474"
+      }
+    },
+    {
+      "info": "全属性+1，对手处于狂信状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手处于[color=#57c975]狂信[/color]状态时强化效果翻倍（boss有效）",
+      "args": [
+        1,
+        41
+      ],
+      "effect": {
+        "id": 993,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/993"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能则吸取对手404点体力，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能则[color=#52a5f2]吸取[/color]对手404点体力，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍（boss有效）",
+      "args": [
+        4,
+        404,
+        2
+      ],
+      "effect": {
+        "id": 1927,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1927"
+      }
+    },
+    {
+      "info": "下2回合自身攻击技能必定打出致命一击",
+      "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定打出[color=#57c975]致命一击[/color]（boss有效）",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 58,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/58"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+2（boss有效）",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "9448ddf7"
+}

@@ -1,59 +1,44 @@
 {
-  "data": {
-    "32": {
-      "id": 32,
-      "desc": "所有自身受到的异常状态只持续一回合",
-      "desc_formatting_adjustment": null,
-      "analyze_desc": "",
-      "pve_effective": null,
-      "intensified": false,
-      "is_adv": false,
-      "pet": [
-        {
-          "id": 1633,
-          "url": "https://api.seerapi.com/v1/pet/1633"
-        }
-      ],
-      "effect": {
-        "effect_args": null,
-        "effect": {
-          "id": 279,
-          "url": "https://api.seerapi.com/v1/eid_effect/279"
-        }
-      },
-      "effect_alias": "279",
-      "tag": [],
-      "intensified_to": null,
-      "from": null,
-      "advance": null
+  "id": 279,
+  "desc": "南斗雷诺西专属特性 进化 攻击+10 防御+10 特防+10 速度+10",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "",
+  "pve_effective": false,
+  "intensified": true,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 1178,
+      "url": "https://api.seerapi.com/v1/pet/1178"
     },
-    "48": {
-      "id": 48,
-      "desc": "所有自身受到的异常状态只持续一回合",
-      "desc_formatting_adjustment": null,
-      "analyze_desc": "",
-      "pve_effective": null,
-      "intensified": false,
-      "is_adv": false,
-      "pet": [
-        {
-          "id": 2527,
-          "url": "https://api.seerapi.com/v1/pet/2527"
-        }
-      ],
-      "effect": {
-        "effect_args": null,
-        "effect": {
-          "id": 279,
-          "url": "https://api.seerapi.com/v1/eid_effect/279"
-        }
-      },
-      "effect_alias": "279",
-      "tag": [],
-      "intensified_to": null,
-      "from": null,
-      "advance": null
+    {
+      "id": 1179,
+      "url": "https://api.seerapi.com/v1/pet/1179"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      10,
+      0,
+      10,
+      10,
+      0
+    ],
+    "effect": {
+      "id": 247,
+      "url": "https://api.seerapi.com/v1/eid_effect/247"
     }
   },
-  "hash": "c593c5a1"
+  "effect_alias": "alias_247_10_10_0_10_10_0",
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "c47fe663"
 }

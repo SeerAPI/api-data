@@ -1,12 +1,16 @@
 {
   "id": 2465,
   "args_num": 1,
-  "info": "",
+  "info": "对手拥有信仰对象时吸取对手最大体力的1/{0}，若对手为对方存活精灵中唯一拥有信仰对象的精灵则改为秒杀对手",
   "info_formatting_adjustment": "对手拥有信仰对象时吸取对手最大体力的1/{0}\r\n--><condition>若对手为对方存活精灵中唯一拥有信仰对象的精灵</condition>则改为秒杀对手",
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]对手拥有[color=#57c975]信仰对象[/color]时[color=#52a5f2]吸取[/color]对手最大体力的1/{0}，若对手为对方存活精灵中唯一拥有[color=#57c975]信仰对象[/color]的精灵则改为[color=#57c975]秒杀[/color]对手",
   "pve_effective": false,
   "param": null,
   "skill": [
+    {
+      "id": 38375,
+      "url": "https://api.seerapi.com/v1/skill/38375"
+    },
     {
       "id": 40004,
       "url": "https://api.seerapi.com/v1/skill/40004"
@@ -22,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/29062"
     }
   ],
-  "hash": "b3d0fc3f"
+  "hash": "804d5d64"
 }

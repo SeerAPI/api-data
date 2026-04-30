@@ -1,0 +1,44 @@
+{
+  "id": 2084,
+  "desc": "对方每有1只精灵的信仰对象是自身，自身造成的攻击伤害提升20%、受到的攻击伤害减少10%；回合开始时，若对方的信仰对象均为自身，则本场战斗自身免疫受到的异常状态、能力下降状态、固定伤害、百分比伤害|对手的信仰对象不为其时自身抵挡对手的致命一击，抵挡成功则将对手的信仰对象改为其且当回合战斗阶段结束时附加免疫量100%的百分比伤害；战斗阶段结束时，若本回合对手未打出致命一击，则自身恢复最大体力的1/4|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#52a5f2]对方[/color]每有1只精灵的[color=#57c975]信仰对象[/color]是自身，自身造成的攻击伤害提升20%、受到的攻击伤害减少10%；[color=#52a5f2]回合开始时[/color]，若[color=#52a5f2]对方[/color]的[color=#57c975]信仰对象[/color]均为自身，则本场战斗自身免疫受到的异常状态、能力下降状态、[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]|[sprite name=dot4]对手的[color=#57c975]信仰对象[/color]不为其时自身抵挡对手的[color=#57c975]致命一击[/color]，抵挡成功则将对手的[color=#57c975]信仰对象[/color]改为其且[color=#52a5f2]当回合[/color][color=#57c975]战斗阶段结束时[/color]附加免疫量100%的[color=#52a5f2]百分比伤害[/color]；[color=#57c975]战斗阶段结束时[/color]，若本回合对手未打出[color=#57c975]致命一击[/color]，则自身恢复最大体力的1/4",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4898,
+      "url": "https://api.seerapi.com/v1/pet/4898"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2506,
+      "url": "https://api.seerapi.com/v1/eid_effect/2506"
+    }
+  },
+  "effect_alias": "alias_2506_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "7dc2ab56"
+}

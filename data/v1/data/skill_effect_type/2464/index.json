@@ -1,12 +1,16 @@
 {
   "id": 2464,
   "args_num": 1,
-  "info": "",
+  "info": "对手没有信仰对象时威力提升{0}%，若对手为对方存活精灵中唯一没有信仰对象的精灵则改为秒杀对手",
   "info_formatting_adjustment": "对手没有信仰对象时威力提升{0}%\r\n--><condition>若对手为对方存活精灵中唯一没有信仰对象的精灵</condition>则改为秒杀对手",
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]对手没有[color=#57c975]信仰对象[/color]时[color=#52a5f2]威力[/color]提升{0}%，若对手为对方存活精灵中唯一没有[color=#57c975]信仰对象[/color]的精灵则改为[color=#57c975]秒杀[/color]对手",
   "pve_effective": false,
   "param": null,
   "skill": [
+    {
+      "id": 38374,
+      "url": "https://api.seerapi.com/v1/skill/38374"
+    },
     {
       "id": 40003,
       "url": "https://api.seerapi.com/v1/skill/40003"
@@ -22,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/29062"
     }
   ],
-  "hash": "b5bf9782"
+  "hash": "a090852e"
 }

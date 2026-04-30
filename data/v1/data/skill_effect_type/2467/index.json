@@ -3,10 +3,14 @@
   "args_num": 1,
   "info": "对手不处于异常状态时对手{0}回合内属性技能无效",
   "info_formatting_adjustment": null,
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手{0}回合内属性技能无效",
   "pve_effective": false,
   "param": null,
   "skill": [
+    {
+      "id": 29339,
+      "url": "https://api.seerapi.com/v1/skill/29339"
+    },
     {
       "id": 40006,
       "url": "https://api.seerapi.com/v1/skill/40006"
@@ -18,5 +22,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
     }
   ],
-  "hash": "3d92d132"
+  "hash": "4fd3a615"
 }

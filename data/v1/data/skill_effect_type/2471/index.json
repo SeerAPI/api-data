@@ -3,10 +3,29 @@
   "args_num": 3,
   "info": "{0}%令对手{1}，未触发则消除对手回合类效果并令自身{2}",
   "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则消除对手回合类效果并令自身{2}",
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]{0}%令对手[color=#57c975]{1}[/color]，未触发则消除对手[color=#52a5f2]回合类效果[/color]并令自身[color=#57c975]{2}[/color]",
   "pve_effective": false,
-  "param": null,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
   "skill": [
+    {
+      "id": 38383,
+      "url": "https://api.seerapi.com/v1/skill/38383"
+    },
     {
       "id": 40008,
       "url": "https://api.seerapi.com/v1/skill/40008"
@@ -22,5 +41,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442"
     }
   ],
-  "hash": "db0584c6"
+  "hash": "251e2186"
 }

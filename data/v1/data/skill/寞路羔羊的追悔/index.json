@@ -1,0 +1,83 @@
+{
+  "data": {
+    "38374": {
+      "id": 38374,
+      "name": "寞路羔羊的追悔",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 37,
+        "url": "https://api.seerapi.com/v1/element_type_combination/37"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使用时，若对方精灵均拥有信仰对象，则本次技能视为命中并强制执行命中效果",
+          "analyze_info": "[sprite name=iconInherent]使用时，若对方精灵均拥有[color=#57c975]信仰对象[/color]，则本次技能视为命中并强制[color=#52a5f2]执行[/color]命中效果",
+          "args": [],
+          "effect": {
+            "id": 2474,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2474"
+          }
+        },
+        {
+          "info": "打出致命一击时消除对手回合类效果、能力提升效果",
+          "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]时消除对手[color=#52a5f2]回合类效果[/color]、能力提升效果",
+          "args": [],
+          "effect": {
+            "id": 2466,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2466"
+          }
+        },
+        {
+          "info": "本回合未打出致命一击则恢复自己所有技能2点PP值并降低对手所有技能1点PP值",
+          "analyze_info": "[sprite name=iconHit]本回合未打出[color=#57c975]致命一击[/color]则恢复自己所有技能2点PP值并降低对手所有技能1点PP值",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 1689,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1689"
+          }
+        },
+        {
+          "info": "对手没有信仰对象时威力提升100%，若对手为对方存活精灵中唯一没有信仰对象的精灵则改为秒杀对手",
+          "analyze_info": "[sprite name=iconHit]对手没有[color=#57c975]信仰对象[/color]时[color=#52a5f2]威力[/color]提升100%，若对手为对方存活精灵中唯一没有[color=#57c975]信仰对象[/color]的精灵则改为[color=#57c975]秒杀[/color]对手",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 2464,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2464"
+          }
+        },
+        {
+          "info": "造成的攻击伤害若低于1则令对手下{1}次使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于1则令对手下{1}次使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1041,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1041"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "27d6fda"
+}

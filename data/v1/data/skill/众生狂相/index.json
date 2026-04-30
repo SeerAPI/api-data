@@ -1,0 +1,86 @@
+{
+  "data": {
+    "29339": {
+      "id": 29339,
+      "name": "众生狂相",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；令对手狂信了；开始无效对手的属性技能了；",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "使用时，若对方精灵均拥有信仰对象，则本次技能视为命中并强制执行命中效果",
+          "analyze_info": "[sprite name=iconInherent]使用时，若对方精灵均拥有[color=#57c975]信仰对象[/color]，则本次技能视为命中并强制[color=#52a5f2]执行[/color]命中效果",
+          "args": [],
+          "effect": {
+            "id": 2474,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2474"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "100%令对手狂信，触发后2回合内对手主动切换精灵则若当回合开始后100%令对手狂信",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]狂信[/color]，触发后2回合内对手[color=#52a5f2]主动切换[/color]精灵则若[color=#52a5f2]当回合[/color]开始后100%令对手[color=#57c975]狂信[/color]",
+          "args": [
+            100,
+            41,
+            2,
+            100,
+            41
+          ],
+          "effect": {
+            "id": 1562,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1562"
+          }
+        },
+        {
+          "info": "对手不处于异常状态时对手2回合内属性技能无效",
+          "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手2回合内属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2467,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2467"
+          }
+        },
+        {
+          "info": "对方精灵均拥有信仰对象时，为对方所有精灵恢复404点体力并附加404点固定伤害，然后若对方精灵的已损失体力值存在众数，则秒杀所有不为众数的精灵",
+          "analyze_info": "[sprite name=iconHit]对方精灵均拥有[color=#57c975]信仰对象[/color]时，为对方所有精灵恢复404点体力并附加404点[color=#52a5f2]固定伤害[/color]，然后若对方精灵的已损失体力值存在[color=#52a5f2]众数[/color]，则[color=#57c975]秒杀[/color]所有不为[color=#52a5f2]众数[/color]的精灵",
+          "args": [],
+          "effect": {
+            "id": 2475,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2475"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "9b04374d"
+}

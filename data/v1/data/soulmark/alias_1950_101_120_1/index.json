@@ -1,0 +1,45 @@
+{
+  "data": {
+    "2080": {
+      "id": 2080,
+      "desc": "自身出战时获得群辉加护；自身拥有群辉加护时，若对手处于回合类效果则自身闪避对手的技能，若对手的技能命中自身则命中后对手每有1个与此技能类型不同的技能自身恢复120点体力，若对手的技能未命中自身则此次技能结束时本次在场每闪避成功1次，吸取对手120点体力|己方其他精灵首次出战时自身获得1层群芳加护；自身拥有群芳加护时，双方使用技能后自身与对手受到1点固定伤害，然后若对手的体力未减少则本次在场自身造成的攻击伤害提升20%，若自身的体力未减少则本次在场造成的固定伤害、百分比伤害提升20%，伤害提升效果均可叠加，自身每有1层群芳加护最高可叠加1次",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身[color=#57c975]出战时[/color]获得[color=#f35555]群辉加护[/color]；自身拥有[color=#f35555]群辉加护[/color]时，若对手处于[color=#52a5f2]回合类效果[/color]则自身[color=#57c975]闪避[/color]对手的技能，若对手的技能命中自身则命中后对手每有1个与此技能类型不同的技能自身恢复120点体力，若对手的技能未命中自身则此次技能结束时本次在场每[color=#57c975]闪避[/color]成功1次，[color=#52a5f2]吸取[/color]对手120点体力|[color=#52a5f2]己方[/color]其他精灵[color=#52a5f2]首次[/color][color=#57c975]出战时[/color]自身获得1层[color=#f35555]群芳加护[/color]；自身拥有[color=#f35555]群芳加护[/color]时，双方[color=#57c975]使用技能后[/color]自身与对手受到1点[color=#52a5f2]固定伤害[/color]，[color=#52a5f2]然后[/color]若对手的体力未减少则本次在场自身造成的攻击伤害提升20%，若自身的体力未减少则本次在场造成的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]提升20%，伤害提升效果均可叠加，自身每有1层[color=#f35555]群芳加护[/color]最高可叠加1次",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4364,
+          "url": "https://api.seerapi.com/v1/pet/4364"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          101,
+          120,
+          1
+        ],
+        "effect": {
+          "id": 1950,
+          "url": "https://api.seerapi.com/v1/eid_effect/1950"
+        }
+      },
+      "effect_alias": "alias_1950_101_120_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "356b7fc6"
+}
