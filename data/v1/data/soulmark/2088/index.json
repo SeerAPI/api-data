@@ -1,0 +1,40 @@
+{
+  "id": 2088,
+  "desc": "自身攻击技能造成的伤害提升100%，若打出致命一击则额外提升100%且自身下回合选择使用技能不受pp限制、使用的技能必定命中|回合结束时，若对手体力为满则自身下回合所有技能先制+1，若不为满则恢复自身300点体力|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身攻击技能造成的伤害提升100%，若打出[color=#57c975]致命一击[/color]则额外提升100%且自身下回合选择使用技能不受pp限制、且使用的技能[color=#52a5f2]必定命中[/color]|[sprite name=dot4][color=#57c975]回合结束时[/color]，若对手体力为满则自身下回合所有[color=#52a5f2]技能先制[/color]+1，若不为满则恢复自身300点体力",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4901,
+      "url": "https://api.seerapi.com/v1/pet/4901"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2508,
+      "url": "https://api.seerapi.com/v1/eid_effect/2508"
+    }
+  },
+  "effect_alias": "alias_2508_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "b0837757"
+}

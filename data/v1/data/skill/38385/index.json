@@ -1,0 +1,51 @@
+{
+  "id": 38385,
+  "name": "死亡预告",
+  "power": 40,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 11,
+    "url": "https://api.seerapi.com/v1/element_type_combination/11"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 905,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/905"
+      }
+    },
+    {
+      "info": "当回合造成的攻击伤害若高于300则100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于300则100%令对手[color=#57c975]害怕[/color]",
+      "args": [
+        300,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 1106,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1106"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "1cd24375"
+}
