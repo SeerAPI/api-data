@@ -1,0 +1,52 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_PetSkinSeries_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_skin_series"
+        },
+        "ResourceRef_PetSkin_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_skin"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "子类型ID，该值是由 SeerAPI 计算得出的，公式为（系列ID * 1000 + 子类型ID）",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "子类型名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "series": {
+          "$ref": "#/$defs/ResourceRef_PetSkinSeries_",
+          "description": "所属系列"
+        },
+        "skins": {
+          "description": "该子类型对应的皮肤列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_PetSkin_"
+          },
+          "title": "Skins",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "series"
+      ],
+      "title": "PetSkinSeriesSubType",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}
