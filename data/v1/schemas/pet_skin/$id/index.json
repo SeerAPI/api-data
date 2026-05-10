@@ -6,6 +6,14 @@
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet_skin_category"
         },
+        "ResourceRef_PetSkinSeriesSubType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_skin_series_sub_type"
+        },
+        "ResourceRef_PetSkinSeries_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet_skin_series"
+        },
         "ResourceRef_Pet_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet"
@@ -40,13 +48,50 @@
           "description": "该皮肤在对手侧时使用的资源的ID，仅少数皮肤存在这种资源",
           "title": "Enemy Resource Id"
         },
+        "card_price": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "皮肤礼卡价格，当皮肤未上架礼卡商店时为null",
+          "title": "Card Price"
+        },
         "pet": {
           "$ref": "#/$defs/ResourceRef_Pet_",
           "description": "使用该皮肤的精灵"
         },
         "category": {
           "$ref": "#/$defs/ResourceRef_PetSkinCategory_",
-          "description": "该皮肤所属的系列"
+          "description": "该皮肤所属的稀有度类型"
+        },
+        "series": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PetSkinSeries_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该皮肤所属的图鉴收集系列（在Unity端图鉴面板中显示），为null时表示该皮肤不属于任何图鉴收集系列"
+        },
+        "sub_type": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PetSkinSeriesSubType_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该皮肤所属的系列子类型，为null时表示该皮肤直接归属主系列"
         }
       },
       "required": [

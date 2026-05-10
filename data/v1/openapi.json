@@ -12536,6 +12536,41 @@
                 "type": "string",
                 "title": "Name En",
                 "description": "属性英文名"
+              },
+              "relations": {
+                "items": {
+                  "properties": {
+                    "id": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "title": "Id"
+                    },
+                    "target_type": {
+                      "$ref": "#/components/schemas/common_resource_ref",
+                      "x-model-name": "element_type"
+                    },
+                    "multiple": {
+                      "type": "number",
+                      "title": "Multiple",
+                      "description": "克制倍率"
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "target_type",
+                    "multiple"
+                  ],
+                  "title": "ElementTypeRelation"
+                },
+                "type": "array",
+                "title": "Relations",
+                "description": "属性克制关系"
               }
             },
             "type": "object",
@@ -19330,6 +19365,18 @@
                 "title": "Enemy Resource Id",
                 "description": "该皮肤在对手侧时使用的资源的ID，仅少数皮肤存在这种资源"
               },
+              "card_price": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Card Price",
+                "description": "皮肤礼卡价格，当皮肤未上架礼卡商店时为null"
+              },
               "pet": {
                 "$ref": "#/components/schemas/common_resource_ref",
                 "x-model-name": "pet"
@@ -19337,6 +19384,30 @@
               "category": {
                 "$ref": "#/components/schemas/common_resource_ref",
                 "x-model-name": "pet_skin_category"
+              },
+              "series": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "pet_skin_series"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "该皮肤所属的图鉴收集系列（在Unity端图鉴面板中显示），为null时表示该皮肤不属于任何图鉴收集系列"
+              },
+              "sub_type": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "pet_skin_series_sub_type"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "该皮肤所属的系列子类型，为null时表示该皮肤直接归属主系列"
               }
             },
             "type": "object",

@@ -1,6 +1,43 @@
 {
   "allOf": [
     {
+      "$defs": {
+        "ElementTypeRelation": {
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Id"
+            },
+            "target_type": {
+              "$ref": "#/$defs/ResourceRef_ElementType_",
+              "description": "目标属性"
+            },
+            "multiple": {
+              "description": "克制倍率",
+              "title": "Multiple",
+              "type": "number"
+            }
+          },
+          "required": [
+            "target_type",
+            "multiple"
+          ],
+          "title": "ElementTypeRelation",
+          "type": "object"
+        },
+        "ResourceRef_ElementType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "element_type"
+        }
+      },
       "properties": {
         "id": {
           "description": "资源ID",
@@ -16,6 +53,14 @@
           "description": "属性英文名",
           "title": "Name En",
           "type": "string"
+        },
+        "relations": {
+          "description": "属性克制关系",
+          "items": {
+            "$ref": "#/$defs/ElementTypeRelation"
+          },
+          "title": "Relations",
+          "type": "array"
         }
       },
       "required": [
