@@ -1,0 +1,73 @@
+{
+  "id": 38390,
+  "name": "自·万物定理",
+  "power": 160,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 12,
+    "url": "https://api.seerapi.com/v1/element_type_combination/12"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+      }
+    },
+    {
+      "info": "对手每处于一种异常状态造成的伤害提升50%",
+      "analyze_info": "[sprite name=iconHit]对手每处于一种异常状态造成的伤害提升50%",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 2073,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2073"
+      }
+    },
+    {
+      "info": "消耗自身所有技能的PP值并附加自身最大体力值20%的百分比伤害，若消耗的PP值≥40点则附加的百分比伤害翻倍且额外令对手下1次攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]消耗自身所有技能的PP值并附加自身最大体力值20%的[color=#52a5f2]百分比伤害[/color]，若消耗的PP值≥40点则附加的[color=#52a5f2]百分比伤害[/color]翻倍且额外令对手下1次攻击技能无效",
+      "args": [
+        20,
+        40,
+        1
+      ],
+      "effect": {
+        "id": 1822,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1822"
+      }
+    },
+    {
+      "info": "未击败对手则对手下1回合无法解除、反转自身能力下降状态",
+      "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则对手下1回合无法解除、反转自身能力下降状态",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 2075,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2075"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "3cd4232c"
+}

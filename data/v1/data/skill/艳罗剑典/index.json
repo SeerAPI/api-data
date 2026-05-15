@@ -1,0 +1,74 @@
+{
+  "data": {
+    "29351": {
+      "id": 29351,
+      "name": "艳罗剑典",
+      "power": 0,
+      "max_pp": 6,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；解除了自身所处的异常状态；附加了大量的异常状态",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "自身属于第五技能的PP值每比对手多1点，此技能先制+1且随机附加烧伤、冻伤、中毒、麻痹、害怕、睡眠种的1种异常状态1回合，未触发则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconComp]自身属于第五技能的PP值每比对手多1点，此[color=#52a5f2]技能先制[/color]+1且随机附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]麻痹[/color]、[color=#57c975]害怕[/color]、[color=#57c975]睡眠[/color]种的1种异常状态1回合，未触发则消除对手[color=#52a5f2]回合类效果[/color]",
+          "args": [
+            1,
+            2,
+            5,
+            1,
+            0,
+            6,
+            8,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2476,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2476"
+          }
+        },
+        {
+          "info": "对手每处于1回合状态吸取对手60点体力，自身先制等级高于3时效果翻倍",
+          "analyze_info": "[sprite name=iconHit]对手每处于1回合状态[color=#52a5f2]吸取[/color]对手60点体力，[color=#52a5f2]自身先制(340)[/color]等级高于3时效果翻倍",
+          "args": [
+            1,
+            60,
+            3
+          ],
+          "effect": {
+            "id": 2477,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2477"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "48ce92a4"
+}

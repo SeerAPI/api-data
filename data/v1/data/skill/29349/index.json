@@ -1,0 +1,64 @@
+{
+  "id": 29349,
+  "name": "蓄势回击",
+  "power": 0,
+  "max_pp": 10,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫受到的异常状态；受到的伤害开始减少了；下次攻击将会倾注全力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "3回合内受到攻击伤害降低300点，回合结束时若当回合未受到攻击伤害则吸取对手300点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内受到攻击伤害降低300点，[color=#57c975]回合结束时[/color]若[color=#52a5f2]当回合[/color]未受到攻击伤害则[color=#52a5f2]吸取[/color]对手300点体力（boss有效）",
+      "args": [
+        3,
+        300,
+        300
+      ],
+      "effect": {
+        "id": 1226,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1226"
+      }
+    },
+    {
+      "info": "下1次攻击命中时消耗所使用攻击技能的全部PP值，每消耗3点令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]下1次攻击命中时消耗所使用攻击技能的全部PP值，每消耗3点令对手[color=#52a5f2]全属性[/color]-1",
+      "args": [
+        1,
+        3,
+        1
+      ],
+      "effect": {
+        "id": 2035,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2035"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "bc5d318f"
+}

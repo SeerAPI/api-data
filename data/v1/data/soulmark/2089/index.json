@@ -1,0 +1,40 @@
+{
+  "id": 2089,
+  "desc": "回合结束后，使自身所有技能的pp值分别随机变化为m-n中的一个值，然后若自身所有技能的pp值总和不低于25则获得所有技能pp值总和*10点护罩且1回合内自身造成的固定伤害和百分比伤害提高25%，若不高于25则获得所有技能已损失pp值总和*10点护盾且1回合内自身免疫受到的异常状态(m=自身体力/100和自身已损失体力/100中的较小项，最小为0；n=自身体力/100和自身已损失体力/100中的较大项，最大为10）|自身技能命中时，若该技能已损失的pp值不小于5则令对手神游，若小于5则令对手当回合选择的技能损失相等的pp值",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合结束后[/color]，使自身所有技能的pp值分别随机变化为m-n中的一个值，[color=#52a5f2]然后[/color]若自身所有技能的pp值总和不低于25则获得所有技能pp值总和*10点[color=#57c975]护罩[/color]且1回合内自身造成的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]提高25%，若不高于25则获得所有技能已损失pp值总和*10点[color=#57c975]护盾[/color]且1回合内自身免疫受到的异常状态(m=自身体力/100和自身[color=#52a5f2]已损失体力[/color]/100中的较小值，最小为0；n=自身体力/100和自身[color=#52a5f2]已损失体力[/color]/100中的较大值，最大为10）|[sprite name=dot4]自身技能命中时，若该技能已损失的pp值不小于5则令对手[color=#57c975]神游[/color]，小于5则令对手[color=#52a5f2]当回合[/color]选择的技能损失相等的pp值",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4902,
+      "url": "https://api.seerapi.com/v1/pet/4902"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2510,
+      "url": "https://api.seerapi.com/v1/eid_effect/2510"
+    }
+  },
+  "effect_alias": "alias_2510_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "9f3c1411"
+}

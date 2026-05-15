@@ -1,0 +1,73 @@
+{
+  "id": 2476,
+  "args_num": 9,
+  "info": "自身属于第五技能的PP值每比对手多{0}点，此技能先制+1且随机附加{1}、{2}、{3}、{4}、{5}、{6}种的{7}种异常状态{8}回合，未触发则消除对手回合类效果",
+  "info_formatting_adjustment": "自身属于第五技能的PP值每比对手多{0}点，此技能先制+1且随机附加{1}、{2}、{3}、{4}、{5}、{6}中的{7}种异常状态{8}回合\r\n--><condition>未触发</condition>则消除对手回合类效果",
+  "analyze_info": "[sprite name=iconComp]自身属于第五技能的PP值每比对手多{0}点，此[color=#52a5f2]技能先制[/color]+1且随机附加[color=#57c975]{1}[/color]、[color=#57c975]{2}[/color]、[color=#57c975]{3}[/color]、[color=#57c975]{4}[/color]、[color=#57c975]{5}[/color]、[color=#57c975]{6}[/color]种的{7}种异常状态{8}回合，未触发则消除对手[color=#52a5f2]回合类效果[/color]",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 3,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 4,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 5,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 6,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29351,
+      "url": "https://api.seerapi.com/v1/skill/29351"
+    }
+  ],
+  "tag": [
+    {
+      "id": 2566,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/2566"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    },
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442"
+    }
+  ],
+  "hash": "3830fe75"
+}

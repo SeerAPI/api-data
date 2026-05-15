@@ -1,0 +1,73 @@
+{
+  "id": 38391,
+  "name": "敕赦千铭",
+  "power": 100,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 57,
+    "url": "https://api.seerapi.com/v1/element_type_combination/57"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视攻击免疫效果（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功100%令对手臣服，未触发则造成的攻击伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功100%令对手[color=#57c975]臣服[/color]，[color=#52a5f2]未触发[/color]则造成的攻击伤害翻倍",
+      "args": [
+        100,
+        31
+      ],
+      "effect": {
+        "id": 1959,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1959"
+      }
+    },
+    {
+      "info": "2回合内每回合结束后降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+      "analyze_info": "[sprite name=iconHit]2回合内每[color=#57c975]回合结束后[/color]降低对手所有技能1点PP值并恢复自身所有技能1点PP值",
+      "args": [
+        2,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 1655,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1655"
+      }
+    },
+    {
+      "info": "2回合内自身造成的固定伤害、百分比伤害提升30%",
+      "analyze_info": "[sprite name=iconHit]2回合内自身造成的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]提升30%",
+      "args": [
+        2,
+        30
+      ],
+      "effect": {
+        "id": 1469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1469"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "266aa796"
+}
