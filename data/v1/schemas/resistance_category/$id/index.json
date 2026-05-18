@@ -1,0 +1,43 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_BattleEffect_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "battle_effect"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "抗性类型名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "effect": {
+          "description": "异常状态列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_BattleEffect_"
+          },
+          "title": "Effect",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "ResistanceCategory",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

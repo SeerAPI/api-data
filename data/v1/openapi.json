@@ -974,6 +974,150 @@
         "deprecated": false
       }
     },
+    "v1/resistance_category/{id}": {
+      "get": {
+        "tags": [
+          "抗性",
+          "异常状态",
+          "战斗状态",
+          "分类"
+        ],
+        "summary": "获取抗性类型资源",
+        "description": "用于分类异常状态所属的抗性类型。",
+        "operationId": "get_resistance_category_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/resistance_category"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/resistance_category"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/resistance_category/{name}": {
+      "get": {
+        "tags": [
+          "抗性",
+          "异常状态",
+          "战斗状态",
+          "分类"
+        ],
+        "summary": "通过名称获取抗性类型资源",
+        "description": "用于分类异常状态所属的抗性类型。",
+        "operationId": "get_resistance_category_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/resistance_category_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/resistance_category_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/resistance_category/": {
+      "get": {
+        "tags": [
+          "抗性",
+          "异常状态",
+          "战斗状态",
+          "分类"
+        ],
+        "summary": "获取抗性类型资源列表",
+        "description": "用于分类异常状态所属的抗性类型。",
+        "operationId": "get_resistance_category_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/resistance_category_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/resistance_category_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/avatar_head/{id}": {
       "get": {
         "tags": [
@@ -10010,6 +10154,18 @@
                 "type": "array",
                 "title": "Type",
                 "description": "状态类型，可能同时属于多个类型，例如瘫痪同时属于控制类和限制类异常"
+              },
+              "resistance": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "resistance_category"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "抗性类型"
               }
             },
             "type": "object",
@@ -10230,6 +10386,284 @@
               }
             ],
             "hash": "ad1a9de2"
+          }
+        ]
+      },
+      "resistance_category": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "抗性类型名称"
+              },
+              "effect": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "battle_effect"
+                },
+                "type": "array",
+                "title": "Effect",
+                "description": "异常状态列表"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name"
+            ],
+            "title": "ResistanceCategory"
+          }
+        ],
+        "title": "抗性类型资源",
+        "examples": [
+          {
+            "id": 1,
+            "name": "弱化类",
+            "effect": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/battle_effect/1"
+              },
+              {
+                "id": 2,
+                "url": "https://api.seerapi.com/v1/battle_effect/2"
+              },
+              {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/battle_effect/4"
+              },
+              {
+                "id": 5,
+                "url": "https://api.seerapi.com/v1/battle_effect/5"
+              },
+              {
+                "id": 10,
+                "url": "https://api.seerapi.com/v1/battle_effect/10"
+              },
+              {
+                "id": 11,
+                "url": "https://api.seerapi.com/v1/battle_effect/11"
+              },
+              {
+                "id": 13,
+                "url": "https://api.seerapi.com/v1/battle_effect/13"
+              },
+              {
+                "id": 16,
+                "url": "https://api.seerapi.com/v1/battle_effect/16"
+              },
+              {
+                "id": 20,
+                "url": "https://api.seerapi.com/v1/battle_effect/20"
+              },
+              {
+                "id": 28,
+                "url": "https://api.seerapi.com/v1/battle_effect/28"
+              },
+              {
+                "id": 29,
+                "url": "https://api.seerapi.com/v1/battle_effect/29"
+              },
+              {
+                "id": 30,
+                "url": "https://api.seerapi.com/v1/battle_effect/30"
+              },
+              {
+                "id": 31,
+                "url": "https://api.seerapi.com/v1/battle_effect/31"
+              },
+              {
+                "id": 32,
+                "url": "https://api.seerapi.com/v1/battle_effect/32"
+              },
+              {
+                "id": 36,
+                "url": "https://api.seerapi.com/v1/battle_effect/36"
+              }
+            ],
+            "hash": "e70cd10d"
+          }
+        ]
+      },
+      "resistance_category_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/resistance_category"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射抗性类型资源",
+        "examples": [
+          {
+            "id": 1,
+            "name": "弱化类",
+            "effect": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/battle_effect/1"
+              },
+              {
+                "id": 2,
+                "url": "https://api.seerapi.com/v1/battle_effect/2"
+              },
+              {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/battle_effect/4"
+              },
+              {
+                "id": 5,
+                "url": "https://api.seerapi.com/v1/battle_effect/5"
+              },
+              {
+                "id": 10,
+                "url": "https://api.seerapi.com/v1/battle_effect/10"
+              },
+              {
+                "id": 11,
+                "url": "https://api.seerapi.com/v1/battle_effect/11"
+              },
+              {
+                "id": 13,
+                "url": "https://api.seerapi.com/v1/battle_effect/13"
+              },
+              {
+                "id": 16,
+                "url": "https://api.seerapi.com/v1/battle_effect/16"
+              },
+              {
+                "id": 20,
+                "url": "https://api.seerapi.com/v1/battle_effect/20"
+              },
+              {
+                "id": 28,
+                "url": "https://api.seerapi.com/v1/battle_effect/28"
+              },
+              {
+                "id": 29,
+                "url": "https://api.seerapi.com/v1/battle_effect/29"
+              },
+              {
+                "id": 30,
+                "url": "https://api.seerapi.com/v1/battle_effect/30"
+              },
+              {
+                "id": 31,
+                "url": "https://api.seerapi.com/v1/battle_effect/31"
+              },
+              {
+                "id": 32,
+                "url": "https://api.seerapi.com/v1/battle_effect/32"
+              },
+              {
+                "id": 36,
+                "url": "https://api.seerapi.com/v1/battle_effect/36"
+              }
+            ],
+            "hash": "e70cd10d"
+          }
+        ]
+      },
+      "resistance_category_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "resistance_category"
+          }
+        ],
+        "title": "抗性类型资源列表",
+        "examples": [
+          {
+            "id": 1,
+            "name": "弱化类",
+            "effect": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/battle_effect/1"
+              },
+              {
+                "id": 2,
+                "url": "https://api.seerapi.com/v1/battle_effect/2"
+              },
+              {
+                "id": 4,
+                "url": "https://api.seerapi.com/v1/battle_effect/4"
+              },
+              {
+                "id": 5,
+                "url": "https://api.seerapi.com/v1/battle_effect/5"
+              },
+              {
+                "id": 10,
+                "url": "https://api.seerapi.com/v1/battle_effect/10"
+              },
+              {
+                "id": 11,
+                "url": "https://api.seerapi.com/v1/battle_effect/11"
+              },
+              {
+                "id": 13,
+                "url": "https://api.seerapi.com/v1/battle_effect/13"
+              },
+              {
+                "id": 16,
+                "url": "https://api.seerapi.com/v1/battle_effect/16"
+              },
+              {
+                "id": 20,
+                "url": "https://api.seerapi.com/v1/battle_effect/20"
+              },
+              {
+                "id": 28,
+                "url": "https://api.seerapi.com/v1/battle_effect/28"
+              },
+              {
+                "id": 29,
+                "url": "https://api.seerapi.com/v1/battle_effect/29"
+              },
+              {
+                "id": 30,
+                "url": "https://api.seerapi.com/v1/battle_effect/30"
+              },
+              {
+                "id": 31,
+                "url": "https://api.seerapi.com/v1/battle_effect/31"
+              },
+              {
+                "id": 32,
+                "url": "https://api.seerapi.com/v1/battle_effect/32"
+              },
+              {
+                "id": 36,
+                "url": "https://api.seerapi.com/v1/battle_effect/36"
+              }
+            ],
+            "hash": "e70cd10d"
           }
         ]
       },
@@ -23556,6 +23990,10 @@
                 "type": "string",
                 "title": "battle_effect_type Path"
               },
+              "resistance_category": {
+                "type": "string",
+                "title": "resistance_category Path"
+              },
               "avatar_head": {
                 "type": "string",
                 "title": "avatar_head Path"
@@ -23798,6 +24236,7 @@
               "title",
               "battle_effect",
               "battle_effect_type",
+              "resistance_category",
               "avatar_head",
               "avatar_frame",
               "namecard_background",

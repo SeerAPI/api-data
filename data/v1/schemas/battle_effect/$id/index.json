@@ -5,6 +5,10 @@
         "ResourceRef_BattleEffectCategory_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "battle_effect_type"
+        },
+        "ResourceRef_ResistanceCategory_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "resistance_category"
         }
       },
       "properties": {
@@ -30,6 +34,18 @@
           },
           "title": "Type",
           "type": "array"
+        },
+        "resistance": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_ResistanceCategory_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "抗性类型"
         }
       },
       "required": [
