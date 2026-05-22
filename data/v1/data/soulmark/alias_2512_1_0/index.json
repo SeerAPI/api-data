@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2091": {
+      "id": 2091,
+      "desc": "己方精灵免疫混乱状态|己方精灵技能无效时，自身下回合登场时消除对手回合类效果与能力提升状态，消除成功则令对手沉默（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#52a5f2]己方[/color]精灵免疫[color=#57c975]混乱[/color]状态|[sprite name=dot4][color=#52a5f2]己方[/color]精灵[color=#52a5f2]技能无效[/color]时，自身下回合[color=#57c975]登场时[/color]消除对手[color=#52a5f2]回合类效果[/color]与能力提升状态，消除成功则令对手[color=#57c975]沉默[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4904,
+          "url": "https://api.seerapi.com/v1/pet/4904"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2512,
+          "url": "https://api.seerapi.com/v1/eid_effect/2512"
+        }
+      },
+      "effect_alias": "alias_2512_1_0",
+      "tag": [
+        {
+          "id": 8,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "a047f8b9"
+}
