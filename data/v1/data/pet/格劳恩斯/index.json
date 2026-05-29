@@ -247,6 +247,39 @@
           "skill_activation_item": null
         },
         {
+          "learning_level": null,
+          "is_special": false,
+          "is_advanced": true,
+          "is_fifth": false,
+          "skill": {
+            "id": 38407,
+            "url": "https://api.seerapi.com/v1/skill/38407"
+          },
+          "skill_activation_item": null
+        },
+        {
+          "learning_level": null,
+          "is_special": false,
+          "is_advanced": true,
+          "is_fifth": false,
+          "skill": {
+            "id": 29361,
+            "url": "https://api.seerapi.com/v1/skill/29361"
+          },
+          "skill_activation_item": null
+        },
+        {
+          "learning_level": null,
+          "is_special": false,
+          "is_advanced": true,
+          "is_fifth": false,
+          "skill": {
+            "id": 38408,
+            "url": "https://api.seerapi.com/v1/skill/38408"
+          },
+          "skill_activation_item": null
+        },
+        {
           "learning_level": 76,
           "is_special": false,
           "is_advanced": false,
@@ -256,12 +289,27 @@
             "url": "https://api.seerapi.com/v1/skill/30955"
           },
           "skill_activation_item": null
+        },
+        {
+          "learning_level": 76,
+          "is_special": false,
+          "is_advanced": true,
+          "is_fifth": true,
+          "skill": {
+            "id": 38409,
+            "url": "https://api.seerapi.com/v1/skill/38409"
+          },
+          "skill_activation_item": null
         }
       ],
       "soulmark": [
         {
           "id": 722,
           "url": "https://api.seerapi.com/v1/soulmark/722"
+        },
+        {
+          "id": 2093,
+          "url": "https://api.seerapi.com/v1/soulmark/2093"
         }
       ],
       "encyclopedia_entry": {
@@ -274,8 +322,11 @@
       },
       "peak_pool": null,
       "peak_expert_pool": null,
-      "advance": null
+      "advance": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/pet_advance/25"
+      }
     }
   },
-  "hash": "2364f4d4"
+  "hash": "65702c7f"
 }

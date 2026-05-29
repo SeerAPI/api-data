@@ -1,0 +1,76 @@
+{
+  "id": 38407,
+  "name": "云烨竭天",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 33,
+    "url": "https://api.seerapi.com/v1/element_type_combination/33"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升，消除成功可以抵挡2回合内对手的攻击伤害",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升，消除成功可[color=#52a5f2]以[/color]抵挡2回合内对手的攻击伤害",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 794,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/794"
+      }
+    },
+    {
+      "info": "自身体力低于对手时100%令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]自身体力低于对手时100%令对手麻痹",
+      "args": [
+        100,
+        0
+      ],
+      "effect": {
+        "id": 2478,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2478"
+      }
+    },
+    {
+      "info": "自身体力高于对手时附加自身当前体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]自身体力高于对手时附加自身当前体力1/3的[color=#52a5f2]百分比伤害[/color]（boss有效）",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 1229,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1229"
+      }
+    },
+    {
+      "info": "解除自身所处的异常状态，每解除1项恢复自身最大体力的30%",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，每解除1项恢复自身最大体力的30%",
+      "args": [
+        1,
+        30
+      ],
+      "effect": {
+        "id": 2482,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2482"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": {
+    "id": 25,
+    "url": "https://api.seerapi.com/v1/pet_advance/25"
+  },
+  "hash": "e8555198"
+}

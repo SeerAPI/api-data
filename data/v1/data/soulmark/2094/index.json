@@ -1,0 +1,36 @@
+{
+  "id": 2094,
+  "desc": "自身当回合使用的技能类型与对手上回合使用的技能类型相同时，技能命中时消除对手回合类效果，若不同则技能命中时消除对手能力提升状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身使用的技能类型与对手上回合使用的技能类型相同时，技能命中时消除对手[color=#52a5f2]回合类效果[/color]，若不同则技能命中时消除对手能力提升状态",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4906,
+      "url": "https://api.seerapi.com/v1/pet/4906"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2515,
+      "url": "https://api.seerapi.com/v1/eid_effect/2515"
+    }
+  },
+  "effect_alias": "alias_2515_1_0",
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "3e277667"
+}

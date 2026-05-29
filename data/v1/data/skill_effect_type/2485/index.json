@@ -1,0 +1,45 @@
+{
+  "id": 2485,
+  "args_num": 2,
+  "info": "对手同时拥有护盾、护罩将其消除，消除成功则令对手{0}、{1}",
+  "info_formatting_adjustment": "<condition>对手同时拥有护盾、护罩时</condition>将其消除\r\n-->消除成功则令对手{0}、{1}",
+  "analyze_info": "[sprite name=iconHit]对手同时拥有护盾、护罩将其消除，消除成功则令对手{0}、{1}",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38408,
+      "url": "https://api.seerapi.com/v1/skill/38408"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30780,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30780"
+    },
+    {
+      "id": 5734,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/5734"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "58dfc180"
+}

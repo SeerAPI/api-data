@@ -1,0 +1,46 @@
+{
+  "data": {
+    "2093": {
+      "id": 2093,
+      "desc": "自身体力高于对手时，回合开始时令自身当回合攻击先制+1且使用时令自身雷解3回合，触发成功则获得1层九劫之痕，雷解未触发则令对手焚烬3回合，自身体力低于对手时，战斗阶段结束时令对手对手麻痹3回合，触发成功则令对手烧伤3回合，麻痹未触发则获得1层百炼之炎|回合结束后，若任意一方处于异常状态则自身恢复最大体力的1/3，若自身不处于雷解且自身体力高于对手则对手下2次属性技能先制-2且无法附加异常状态，若对手不处于烧伤且自身体力低于对手则自身下2次攻击先制+2且使用后令对手焚烬|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身体力高于对手时，[color=#52a5f2]回合开始时[/color]令自身[color=#52a5f2]当回合[/color]攻击[color=#52a5f2]技能先制[/color]+1且使用时令自身[color=#57c975]雷解[/color]3回合，触发成功则获得1层[color=#f35555]九劫之痕[/color]，[color=#57c975]雷解[/color][color=#52a5f2]未触发[/color]则令对手[color=#57c975]焚烬[/color]3回合；自身体力低于对手时，[color=#57c975]战斗阶段结束时[/color]令对手对手[color=#57c975]麻痹[/color]3回合，触发成功则令对手[color=#57c975]烧伤[/color]3回合，[color=#57c975]麻痹[/color][color=#52a5f2]未触发[/color]则获得1层[color=#f35555]百炼之炎[/color]|[sprite name=dot4][color=#57c975]回合结束后[/color]，若任意一方处于异常状态则自身恢复最大体力的1/3，若自身不处于[color=#57c975]雷解[/color]且自身体力高于对手则对手下2次属性[color=#52a5f2]技能先制[/color]-2且无法附加异常状态，若对手不处于[color=#57c975]烧伤[/color]且自身体力低于对手则自身下2次攻击[color=#52a5f2]技能先制[/color]+2且使用后令对手[color=#57c975]焚烬[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": true,
+      "pet": [
+        {
+          "id": 3407,
+          "url": "https://api.seerapi.com/v1/pet/3407"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2511,
+          "url": "https://api.seerapi.com/v1/eid_effect/2511"
+        }
+      },
+      "effect_alias": "alias_2511_1_0",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": {
+        "id": 722,
+        "url": "https://api.seerapi.com/v1/soulmark/722"
+      },
+      "advance": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/pet_advance/25"
+      }
+    }
+  },
+  "hash": "aa34a538"
+}
