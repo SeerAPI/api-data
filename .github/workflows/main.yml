@@ -59,7 +59,11 @@ jobs:
         --base-json-url https://api.seerapi.com/v1 \
         --db-url sqlite:///seerapi-data.sqlite \
         -m all --output-named-data
-
+  
+        solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o merged_data \
+        --base-json-url https://api.seerapi.com/v1 \
+        -m json --output-named-data --merge-json-table
+  
         solaris analyze schemas --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o schemas \
         --base-url https://api.seerapi.com/v1/schemas --output-named-data
 
