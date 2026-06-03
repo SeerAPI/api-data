@@ -695,6 +695,234 @@
         "deprecated": false
       }
     },
+    "v1/activity/{id}": {
+      "get": {
+        "tags": [
+          "活动"
+        ],
+        "summary": "获取活动资源",
+        "description": "活动资源，用于表示活动中心里的一个活动条目。该端点包含已经下架的活动信息。",
+        "operationId": "get_activity_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/activity/{name}": {
+      "get": {
+        "tags": [
+          "活动"
+        ],
+        "summary": "通过名称获取活动资源",
+        "description": "活动资源，用于表示活动中心里的一个活动条目。该端点包含已经下架的活动信息。",
+        "operationId": "get_activity_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/activity/": {
+      "get": {
+        "tags": [
+          "活动"
+        ],
+        "summary": "获取活动资源列表",
+        "description": "活动资源，用于表示活动中心里的一个活动条目。该端点包含已经下架的活动信息。",
+        "operationId": "get_activity_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/activity_type/{id}": {
+      "get": {
+        "tags": [
+          "活动",
+          "分类"
+        ],
+        "summary": "获取活动类型资源",
+        "description": "活动类型资源，用于表示活动中心侧边栏的活动类型。",
+        "operationId": "get_activity_type_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_type"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_type"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/activity_type/": {
+      "get": {
+        "tags": [
+          "活动",
+          "分类"
+        ],
+        "summary": "获取活动类型资源列表",
+        "description": "活动类型资源，用于表示活动中心侧边栏的活动类型。",
+        "operationId": "get_activity_type_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_type_List"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activity_type_List"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/battle_effect/{id}": {
       "get": {
         "tags": [
@@ -10121,6 +10349,300 @@
             "title_id": 300,
             "title": "神话",
             "original_title": "神话"
+          }
+        ]
+      },
+      "activity": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "活动中文名称"
+              },
+              "start_time": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Start Time",
+                "description": "活动开始时间，常驻活动时为null"
+              },
+              "end_time": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "End Time",
+                "description": "活动结束时间，常驻活动时为null"
+              },
+              "is_show": {
+                "type": "boolean",
+                "title": "Is Show",
+                "description": "是否显示"
+              },
+              "sort_order": {
+                "type": "integer",
+                "title": "Sort Order",
+                "description": "活动排序优先级"
+              },
+              "type": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "activity_type"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "is_show",
+              "sort_order",
+              "type"
+            ],
+            "title": "Activity"
+          }
+        ],
+        "title": "活动资源",
+        "examples": [
+          {
+            "id": 140,
+            "name": "临渊羡画",
+            "start_time": "2025-08-08T10:00:00",
+            "end_time": "2025-09-05T10:00:00",
+            "is_show": true,
+            "sort_order": 3,
+            "type": {
+              "id": 6,
+              "url": "https://api.seerapi.com/v1/activity_type/6"
+            },
+            "hash": "7cf87114"
+          }
+        ]
+      },
+      "activity_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/activity"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射活动资源",
+        "examples": [
+          {
+            "id": 140,
+            "name": "临渊羡画",
+            "start_time": "2025-08-08T10:00:00",
+            "end_time": "2025-09-05T10:00:00",
+            "is_show": true,
+            "sort_order": 3,
+            "type": {
+              "id": 6,
+              "url": "https://api.seerapi.com/v1/activity_type/6"
+            },
+            "hash": "7cf87114"
+          }
+        ]
+      },
+      "activity_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "activity"
+          }
+        ],
+        "title": "活动资源列表",
+        "examples": [
+          {
+            "id": 140,
+            "name": "临渊羡画",
+            "start_time": "2025-08-08T10:00:00",
+            "end_time": "2025-09-05T10:00:00",
+            "is_show": true,
+            "sort_order": 3,
+            "type": {
+              "id": 6,
+              "url": "https://api.seerapi.com/v1/activity_type/6"
+            },
+            "hash": "7cf87114"
+          }
+        ]
+      },
+      "activity_type": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "activity": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "activity"
+                },
+                "type": "array",
+                "title": "Activity",
+                "description": "该分类下的所有活动"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "title": "ActivityType"
+          }
+        ],
+        "title": "活动类型资源",
+        "examples": [
+          {
+            "id": 9,
+            "activity": [
+              {
+                "id": 265,
+                "url": "https://api.seerapi.com/v1/activity/265"
+              },
+              {
+                "id": 298,
+                "url": "https://api.seerapi.com/v1/activity/298"
+              },
+              {
+                "id": 319,
+                "url": "https://api.seerapi.com/v1/activity/319"
+              },
+              {
+                "id": 348,
+                "url": "https://api.seerapi.com/v1/activity/348"
+              },
+              {
+                "id": 349,
+                "url": "https://api.seerapi.com/v1/activity/349"
+              },
+              {
+                "id": 369,
+                "url": "https://api.seerapi.com/v1/activity/369"
+              },
+              {
+                "id": 371,
+                "url": "https://api.seerapi.com/v1/activity/371"
+              },
+              {
+                "id": 386,
+                "url": "https://api.seerapi.com/v1/activity/386"
+              },
+              {
+                "id": 388,
+                "url": "https://api.seerapi.com/v1/activity/388"
+              },
+              {
+                "id": 409,
+                "url": "https://api.seerapi.com/v1/activity/409"
+              },
+              {
+                "id": 411,
+                "url": "https://api.seerapi.com/v1/activity/411"
+              }
+            ],
+            "hash": "c25b68ff"
+          }
+        ]
+      },
+      "activity_type_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "activity_type"
+          }
+        ],
+        "title": "活动类型资源列表",
+        "examples": [
+          {
+            "id": 9,
+            "activity": [
+              {
+                "id": 265,
+                "url": "https://api.seerapi.com/v1/activity/265"
+              },
+              {
+                "id": 298,
+                "url": "https://api.seerapi.com/v1/activity/298"
+              },
+              {
+                "id": 319,
+                "url": "https://api.seerapi.com/v1/activity/319"
+              },
+              {
+                "id": 348,
+                "url": "https://api.seerapi.com/v1/activity/348"
+              },
+              {
+                "id": 349,
+                "url": "https://api.seerapi.com/v1/activity/349"
+              },
+              {
+                "id": 369,
+                "url": "https://api.seerapi.com/v1/activity/369"
+              },
+              {
+                "id": 371,
+                "url": "https://api.seerapi.com/v1/activity/371"
+              },
+              {
+                "id": 386,
+                "url": "https://api.seerapi.com/v1/activity/386"
+              },
+              {
+                "id": 388,
+                "url": "https://api.seerapi.com/v1/activity/388"
+              },
+              {
+                "id": 409,
+                "url": "https://api.seerapi.com/v1/activity/409"
+              },
+              {
+                "id": 411,
+                "url": "https://api.seerapi.com/v1/activity/411"
+              }
+            ],
+            "hash": "c25b68ff"
           }
         ]
       },
@@ -23982,6 +24504,14 @@
                 "type": "string",
                 "title": "title Path"
               },
+              "activity": {
+                "type": "string",
+                "title": "activity Path"
+              },
+              "activity_type": {
+                "type": "string",
+                "title": "activity_type Path"
+              },
               "battle_effect": {
                 "type": "string",
                 "title": "battle_effect Path"
@@ -24234,6 +24764,8 @@
               "achievement_type",
               "achievement_category",
               "title",
+              "activity",
+              "activity_type",
               "battle_effect",
               "battle_effect_type",
               "resistance_category",

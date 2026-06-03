@@ -1,0 +1,80 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_ActivityType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "activity_type"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "活动中文名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "start_time": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "活动开始时间，常驻活动时为null",
+          "title": "Start Time"
+        },
+        "end_time": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "活动结束时间，常驻活动时为null",
+          "title": "End Time"
+        },
+        "is_show": {
+          "description": "是否显示",
+          "title": "Is Show",
+          "type": "boolean"
+        },
+        "sort_order": {
+          "description": "活动排序优先级",
+          "title": "Sort Order",
+          "type": "integer"
+        },
+        "type": {
+          "$ref": "#/$defs/ResourceRef_ActivityType_",
+          "description": "活动类型"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "is_show",
+        "sort_order",
+        "type"
+      ],
+      "title": "Activity",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

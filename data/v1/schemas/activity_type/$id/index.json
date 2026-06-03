@@ -1,0 +1,37 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Activity_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "activity"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "activity": {
+          "description": "该分类下的所有活动",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Activity_"
+          },
+          "title": "Activity",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "ActivityType",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}
