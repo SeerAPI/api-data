@@ -1,0 +1,88 @@
+{
+  "data": {
+    "38420": {
+      "id": 38420,
+      "name": "沙海之萌芽",
+      "power": 100,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/element_type_combination/12"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "上回合任意一方受到过真实伤害时此技能先制+3、获得本系属性加成并以神灵系进行伤害结算",
+          "analyze_info": "[sprite name=iconInherent]上回合任意一方受到过[color=#52a5f2]真实伤害[/color]时此[color=#52a5f2]技能先制[/color]+3、获得本系属性加成并以神灵系进行伤害结算",
+          "args": [],
+          "effect": {
+            "id": 2488,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2488"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则令对手烧伤、冻伤，每未触发1种当次攻击造成的伤害翻倍1次",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]，每[color=#52a5f2]未触发[/color]1种当次攻击造成的伤害翻倍1次",
+          "args": [
+            2,
+            5,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2498,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2498"
+          }
+        },
+        {
+          "info": "反转对手能力提升状态，反转成功则令对手睡眠，反转失败则消除对手能力提升状态",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则令对手[color=#57c975]睡眠[/color]，反转失败则消除对手能力提升状态",
+          "args": [
+            8
+          ],
+          "effect": {
+            "id": 1347,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1347"
+          }
+        },
+        {
+          "info": "消除双方的护盾、护罩效果，若消除的数额相等则对手2回合内无法主动切换精灵且属性技能无效",
+          "analyze_info": "[sprite name=iconHit]消除双方的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]效果，若消除的护盾数额与护罩相等则对手2回合内无法[color=#52a5f2]主动切换[/color]精灵且属性[color=#52a5f2]技能无效[/color]",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 2492,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2492"
+          }
+        },
+        {
+          "info": "2回合内对手造成的固定伤害和百分比伤害减少80%",
+          "analyze_info": "[sprite name=iconHit]2回合内对手造成的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少80%",
+          "args": [
+            2,
+            80
+          ],
+          "effect": {
+            "id": 2228,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2228"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "e75023e5"
+}

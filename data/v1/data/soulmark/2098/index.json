@@ -1,0 +1,36 @@
+{
+  "id": 2098,
+  "desc": "自身存活于出战阵容时，双方场下的精灵无法指定场上精灵为效果对象，自身死亡时，为己方存活精灵附加黄金万象|自身相邻的精灵存活时，自身受到技能伤害后恢复最大体力的1/3并附加溢出量26%的真实伤害，自身相邻的精灵死亡时，本场战斗自身免疫受到的能力下降状态|自身隔位的精灵存活时，自身登场时双方在场精灵本场战斗免疫下1次受到的异常状态，自身隔位的精灵死亡时，本场战斗自身免疫受到的异常状态|己方首位的精灵存活时，己方每损失1%的体力，自身造成的攻击伤害提升1%，己方首位的精灵死亡时，本场战斗自身免疫受到的百分比伤害|己方末位的精灵存活时，对手使用技能后自身恢复所有技能1点PP值，己方末位的精灵死亡时，本场战斗自身免疫受到的固定伤害|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身存活于出战阵容时，双方场下的精灵无法指定场上的精灵为效果对象，自身死亡时，为[color=#52a5f2]己方[/color]存活精灵附加[color=#f35555]黄金万象[/color]|[sprite name=dot4]自身相邻的精灵存活时，自身受到技能伤害后恢复最大体力的1/3并附加溢出量26%的[color=#52a5f2]真实伤害[/color]，自身相邻的精灵死亡时，本场战斗自身免疫受到的能力下降状态|[sprite name=dot4]自身隔位的精灵存活时，自身[color=#57c975]登场时[/color]双方在场精灵本场战斗免疫下1次受到的异常状态，自身隔位的精灵死亡时，本场战斗自身免疫受到的异常状态|[sprite name=dot4][color=#52a5f2]己方[/color]首位的精灵存活时，[color=#52a5f2]己方[/color]每损失1%的体力，自身造成的攻击伤害提升1%，[color=#52a5f2]己方[/color]首位的精灵死亡时，本场战斗自身免疫受到的[color=#52a5f2]百分比伤害[/color]|[sprite name=dot4][color=#52a5f2]己方[/color]末位的精灵存活时，对手[color=#57c975]使用技能后[/color]自身恢复所有技能1点PP值，[color=#52a5f2]己方[/color]末位的精灵死亡时，本场战斗自身免疫受到的[color=#52a5f2]固定伤害[/color]",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4000,
+      "url": "https://api.seerapi.com/v1/pet/4000"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2513,
+      "url": "https://api.seerapi.com/v1/eid_effect/2513"
+    }
+  },
+  "effect_alias": "alias_2513_1_0",
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "eaf48618"
+}

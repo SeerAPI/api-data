@@ -1,0 +1,74 @@
+{
+  "id": 29365,
+  "name": "制式兵装",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹异常状态了；获得了护盾；开始变得坚硬",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "为自身附加500点护盾",
+      "analyze_info": "[sprite name=iconHit]为自身附加500点[color=#57c975]护盾[/color]（boss有效）",
+      "args": [
+        500
+      ],
+      "effect": {
+        "id": 847,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/847"
+      }
+    },
+    {
+      "info": "3回合内每回合防御和特防等级+2",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合防御和特防等级+2（boss有效）",
+      "args": [
+        3,
+        2
+      ],
+      "effect": {
+        "id": 165,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/165"
+      }
+    },
+    {
+      "info": "3回合内若受到攻击则有100%概率令对手瘫痪",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到攻击则有100%概率令对手[color=#57c975]瘫痪[/color]（boss有效）",
+      "args": [
+        3,
+        100,
+        19
+      ],
+      "effect": {
+        "id": 164,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/164"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "7fcb1e04"
+}

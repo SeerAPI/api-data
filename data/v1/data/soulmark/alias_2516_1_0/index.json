@@ -1,0 +1,40 @@
+{
+  "data": {
+    "2097": {
+      "id": 2097,
+      "desc": "每次登场时，若双方均不处于骑士决斗类状态，则为双方附加骑士决斗；自身所处的骑士决斗·落败仅持续4回合，下场持续减少|回合开始时，若自身体力高于对手则令自身全属性+1并恢复自身所有技能4点PP值，若自身体力低于对手则当回合所有技能先制+1并无视对手的能力提升状态自身受到致死伤害时，若自身为己方最后一只存活精灵，则自身保留1点体力并失去170点速度，当自身的速度因此归0时，此效果失效|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]每次[color=#52a5f2]登场时[/color]，若双方均不处于[color=#f35555]骑士决斗类状态[/color]，则为双方附加[color=#f35555]骑士决斗[/color]；自身所处的[color=#f35555]骑士决斗·落败[/color]仅持续4回合|[sprite name=dot4][color=#52a5f2]回合开始时[/color]，若自身体力高于对手则令自身[color=#52a5f2]全属性[/color]+1并恢复自身所有技能4点PP值，若自身体力低于对手则[color=#52a5f2]当回合[/color]所有[color=#52a5f2]技能先制[/color]+1并无视对手的能力提升状态自身受到[color=#52a5f2]致死伤害[/color]时，若自身为己方最后一只存活精灵，则自身[color=#52a5f2]保留[/color]1点体力并失去170点速度，当自身的速度因此归0时，此效果失效",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4911,
+          "url": "https://api.seerapi.com/v1/pet/4911"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2516,
+          "url": "https://api.seerapi.com/v1/eid_effect/2516"
+        }
+      },
+      "effect_alias": "alias_2516_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "3b4883f2"
+}

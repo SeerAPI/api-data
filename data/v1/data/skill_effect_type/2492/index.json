@@ -1,0 +1,30 @@
+{
+  "id": 2492,
+  "args_num": 1,
+  "info": "消除双方的护盾、护罩效果，若消除的数额相等则对手{0}回合内无法主动切换精灵且属性技能无效",
+  "info_formatting_adjustment": "消除双方的护盾、护罩效果\r\n--><condition>若消除的护盾数额与护罩相等</condition>则对手{0}回合内无法主动切换精灵且属性技能无效",
+  "analyze_info": "[sprite name=iconHit]消除双方的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]效果，若消除的护盾数额与护罩相等则对手{0}回合内无法[color=#52a5f2]主动切换[/color]精灵且属性[color=#52a5f2]技能无效[/color]",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 38420,
+      "url": "https://api.seerapi.com/v1/skill/38420"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30780,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30780"
+    },
+    {
+      "id": 5734,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/5734"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
+    }
+  ],
+  "hash": "5dcfebca"
+}

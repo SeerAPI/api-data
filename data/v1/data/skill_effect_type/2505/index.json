@@ -1,0 +1,37 @@
+{
+  "id": 2505,
+  "args_num": 4,
+  "info": "令对手{0}，自身每有{1}点{2}值，每次在场限{3}次",
+  "info_formatting_adjustment": null,
+  "analyze_info": "[sprite name=iconHit]令对手[color=#57c975]{0}[/color]，自身每有{1}点{2}值，每次在场限{3}次",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    },
+    {
+      "position": 2,
+      "param": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/2"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38419,
+      "url": "https://api.seerapi.com/v1/skill/38419"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "76ea063f"
+}

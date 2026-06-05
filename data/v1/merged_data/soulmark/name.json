@@ -95203,5 +95203,173 @@
       }
     }
   },
-  "hash": "3b17ad16"
+  "alias_2518_1_0": {
+    "data": {
+      "2095": {
+        "id": 2095,
+        "desc": "每次在场自身的首次使用的攻击技能必定打出致命一击，在打出之前每回合战斗阶段结束时消除对手能力提升状态，消除成功则消除对手回合类效果|战斗阶段结束时，若本次在场自身打出致命一击的次数高于对手则将对手所处的异常状态转化为1回合焚烬，若低于对手则恢复双方最大体力差值的体力，若等于对手则下回合所有技能先制+1|（boss无效）",
+        "desc_formatting_adjustment": null,
+        "analyze_desc": "[sprite name=dot4]每次在场自身的[color=#52a5f2]首次[/color]使用的攻击技能必定打出[color=#57c975]致命一击[/color]，在打出之前每回合[color=#57c975]战斗阶段结束时[/color]消除对手能力提升状态，消除成功则消除对手[color=#52a5f2]回合类效果[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若本次在场自身打出[color=#57c975]致命一击[/color]的次数高于对手则将对手所处的异常状态[color=#52a5f2][color=#52a5f2]转化[/color][/color]为1回合[color=#57c975]焚烬[/color]，若低于对手则恢复双方最大体力差值的体力，若等于对手则下回合所有[color=#52a5f2]技能先制[/color]+1",
+        "pve_effective": true,
+        "intensified": false,
+        "is_adv": false,
+        "pet": [
+          {
+            "id": 4908,
+            "url": "https://api.seerapi.com/v1/pet/4908"
+          }
+        ],
+        "effect": {
+          "effect_args": [
+            1,
+            0
+          ],
+          "effect": {
+            "id": 2518,
+            "url": "https://api.seerapi.com/v1/eid_effect/2518"
+          }
+        },
+        "effect_alias": "alias_2518_1_0",
+        "tag": [
+          {
+            "id": 9,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+          },
+          {
+            "id": 2,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+          },
+          {
+            "id": 6,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+          }
+        ],
+        "intensified_to": null,
+        "from": null,
+        "advance": null
+      }
+    }
+  },
+  "alias_2517_1_0": {
+    "data": {
+      "2096": {
+        "id": 2096,
+        "desc": "自身受到技能伤害后，对手下2回合攻击免疫效果失效|回合开始时，自身防御、特防+1；战斗阶段结束时，若自身处于能力提升状态，则将防御、特防能力等级转化为攻击、特攻能力等级，然后自身每有1组攻击、特攻能力提升等级，自身恢复最大体力的17%，下回合造成的攻击伤害提升17%|（boss有效）",
+        "desc_formatting_adjustment": null,
+        "analyze_desc": "[sprite name=dot1]自身受到技能伤害后，对手3回合内攻击免疫效果失效|[sprite name=dot1][color=#52a5f2]回合开始[/color]时，自身防御、特防+1；[color=#57c975]战斗阶段结束时[/color]，若自身处于能力提升状态，则将防御、特防能力等级[color=#52a5f2][color=#52a5f2]转化[/color][/color]为攻击、特攻能力等级，[color=#52a5f2]然后[/color]自身每有1[color=#52a5f2]组[/color]攻击、特攻能力提升等级，自身恢复最大体力的17%，下回合造成的攻击伤害提升17%",
+        "pve_effective": true,
+        "intensified": false,
+        "is_adv": false,
+        "pet": [
+          {
+            "id": 4909,
+            "url": "https://api.seerapi.com/v1/pet/4909"
+          }
+        ],
+        "effect": {
+          "effect_args": [
+            1,
+            0
+          ],
+          "effect": {
+            "id": 2517,
+            "url": "https://api.seerapi.com/v1/eid_effect/2517"
+          }
+        },
+        "effect_alias": "alias_2517_1_0",
+        "tag": [
+          {
+            "id": 2,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+          },
+          {
+            "id": 6,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+          }
+        ],
+        "intensified_to": null,
+        "from": null,
+        "advance": null
+      }
+    }
+  },
+  "alias_2516_1_0": {
+    "data": {
+      "2097": {
+        "id": 2097,
+        "desc": "每次登场时，若双方均不处于骑士决斗类状态，则为双方附加骑士决斗；自身所处的骑士决斗·落败仅持续4回合，下场持续减少|回合开始时，若自身体力高于对手则令自身全属性+1并恢复自身所有技能4点PP值，若自身体力低于对手则当回合所有技能先制+1并无视对手的能力提升状态自身受到致死伤害时，若自身为己方最后一只存活精灵，则自身保留1点体力并失去170点速度，当自身的速度因此归0时，此效果失效|（boss无效）",
+        "desc_formatting_adjustment": null,
+        "analyze_desc": "[sprite name=dot4]每次[color=#52a5f2]登场时[/color]，若双方均不处于[color=#f35555]骑士决斗类状态[/color]，则为双方附加[color=#f35555]骑士决斗[/color]；自身所处的[color=#f35555]骑士决斗·落败[/color]仅持续4回合|[sprite name=dot4][color=#52a5f2]回合开始时[/color]，若自身体力高于对手则令自身[color=#52a5f2]全属性[/color]+1并恢复自身所有技能4点PP值，若自身体力低于对手则[color=#52a5f2]当回合[/color]所有[color=#52a5f2]技能先制[/color]+1并无视对手的能力提升状态自身受到[color=#52a5f2]致死伤害[/color]时，若自身为己方最后一只存活精灵，则自身[color=#52a5f2]保留[/color]1点体力并失去170点速度，当自身的速度因此归0时，此效果失效",
+        "pve_effective": true,
+        "intensified": false,
+        "is_adv": false,
+        "pet": [
+          {
+            "id": 4911,
+            "url": "https://api.seerapi.com/v1/pet/4911"
+          }
+        ],
+        "effect": {
+          "effect_args": [
+            1,
+            0
+          ],
+          "effect": {
+            "id": 2516,
+            "url": "https://api.seerapi.com/v1/eid_effect/2516"
+          }
+        },
+        "effect_alias": "alias_2516_1_0",
+        "tag": [
+          {
+            "id": 2,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+          }
+        ],
+        "intensified_to": null,
+        "from": null,
+        "advance": null
+      }
+    }
+  },
+  "alias_2513_1_0": {
+    "data": {
+      "2098": {
+        "id": 2098,
+        "desc": "自身存活于出战阵容时，双方场下的精灵无法指定场上精灵为效果对象，自身死亡时，为己方存活精灵附加黄金万象|自身相邻的精灵存活时，自身受到技能伤害后恢复最大体力的1/3并附加溢出量26%的真实伤害，自身相邻的精灵死亡时，本场战斗自身免疫受到的能力下降状态|自身隔位的精灵存活时，自身登场时双方在场精灵本场战斗免疫下1次受到的异常状态，自身隔位的精灵死亡时，本场战斗自身免疫受到的异常状态|己方首位的精灵存活时，己方每损失1%的体力，自身造成的攻击伤害提升1%，己方首位的精灵死亡时，本场战斗自身免疫受到的百分比伤害|己方末位的精灵存活时，对手使用技能后自身恢复所有技能1点PP值，己方末位的精灵死亡时，本场战斗自身免疫受到的固定伤害|（boss无效）",
+        "desc_formatting_adjustment": null,
+        "analyze_desc": "[sprite name=dot4]自身存活于出战阵容时，双方场下的精灵无法指定场上的精灵为效果对象，自身死亡时，为[color=#52a5f2]己方[/color]存活精灵附加[color=#f35555]黄金万象[/color]|[sprite name=dot4]自身相邻的精灵存活时，自身受到技能伤害后恢复最大体力的1/3并附加溢出量26%的[color=#52a5f2]真实伤害[/color]，自身相邻的精灵死亡时，本场战斗自身免疫受到的能力下降状态|[sprite name=dot4]自身隔位的精灵存活时，自身[color=#57c975]登场时[/color]双方在场精灵本场战斗免疫下1次受到的异常状态，自身隔位的精灵死亡时，本场战斗自身免疫受到的异常状态|[sprite name=dot4][color=#52a5f2]己方[/color]首位的精灵存活时，[color=#52a5f2]己方[/color]每损失1%的体力，自身造成的攻击伤害提升1%，[color=#52a5f2]己方[/color]首位的精灵死亡时，本场战斗自身免疫受到的[color=#52a5f2]百分比伤害[/color]|[sprite name=dot4][color=#52a5f2]己方[/color]末位的精灵存活时，对手[color=#57c975]使用技能后[/color]自身恢复所有技能1点PP值，[color=#52a5f2]己方[/color]末位的精灵死亡时，本场战斗自身免疫受到的[color=#52a5f2]固定伤害[/color]",
+        "pve_effective": false,
+        "intensified": false,
+        "is_adv": false,
+        "pet": [
+          {
+            "id": 4000,
+            "url": "https://api.seerapi.com/v1/pet/4000"
+          }
+        ],
+        "effect": {
+          "effect_args": [
+            1,
+            0
+          ],
+          "effect": {
+            "id": 2513,
+            "url": "https://api.seerapi.com/v1/eid_effect/2513"
+          }
+        },
+        "effect_alias": "alias_2513_1_0",
+        "tag": [
+          {
+            "id": 5,
+            "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+          }
+        ],
+        "intensified_to": null,
+        "from": null,
+        "advance": null
+      }
+    }
+  },
+  "hash": "c7149421"
 }

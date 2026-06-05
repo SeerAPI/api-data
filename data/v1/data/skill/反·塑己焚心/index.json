@@ -1,0 +1,87 @@
+{
+  "data": {
+    "29364": {
+      "id": 29364,
+      "name": "反·塑己焚心",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 1,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始了演奏",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消耗自身等同于护盾、护罩之和的体力平均恢复至不在场精灵，若消耗的点数大于400点则额外消除双方的护盾、护罩并获得消除量30%的临时体力上限直到下场，最高叠加至体力上限的50%",
+          "analyze_info": "[sprite name=iconHit]消耗自身等同于[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]之和的体力平均恢复至不在场精灵，若消耗的点数大于400点则额外消除双方的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]并获得消除量30%的临时体力上限直到下场，最高叠加至体力上限的50%",
+          "args": [
+            400,
+            30,
+            50
+          ],
+          "effect": {
+            "id": 2283,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2283"
+          }
+        },
+        {
+          "info": "为自身附加300点护盾",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护盾[/color]（boss有效）",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 847,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/847"
+          }
+        },
+        {
+          "info": "为自身附加300点护罩",
+          "analyze_info": "[sprite name=iconHit]为自身附加300点[color=#57c975]护罩[/color]（boss有效）",
+          "args": [
+            300
+          ],
+          "effect": {
+            "id": 1342,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1342"
+          }
+        },
+        {
+          "info": "消除自身能力下降状态，消除成功则令对手焚烬",
+          "analyze_info": "[sprite name=iconHit]消除自身能力下降状态，消除成功则令对手[color=#57c975]焚烬[/color]（boss有效）",
+          "args": [
+            1,
+            22
+          ],
+          "effect": {
+            "id": 636,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/636"
+          }
+        },
+        {
+          "info": "技能无效时，获得等同于对手最大体力1/3的护盾、护罩",
+          "analyze_info": "[sprite name=iconInherent][color=#52a5f2]技能无效[/color]时，获得等同于对手最大体力1/3的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]",
+          "args": [],
+          "effect": {
+            "id": 2418,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2418"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "11916f78"
+}

@@ -1,0 +1,94 @@
+{
+  "data": {
+    "29371": {
+      "id": 29371,
+      "name": "白皑之纷争",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "附加了冰系伤害；获得了护盾、护罩；开始免疫受到的异常状态了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "任意一方处于异常状态时此技能先制+3、获得本系属性加成并以神灵系进行伤害结算",
+          "analyze_info": "[sprite name=iconInherent]任意一方处于异常状态时此[color=#52a5f2]技能先制[/color]+3、获得本系属性加成并以神灵系进行伤害结算",
+          "args": [],
+          "effect": {
+            "id": 2489,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2489"
+          }
+        },
+        {
+          "info": "无视伤害限制效果",
+          "analyze_info": "[sprite name=iconInherent]无视伤害限制效果（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 697,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/697"
+          }
+        },
+        {
+          "info": "若自身于上回合受到了攻击伤害则附加170点的冰系伤害，此攻击伤害对应的攻击值每有260点效果翻倍1次",
+          "analyze_info": "[sprite name=iconHit]若自身于上回合受到了攻击伤害则附加170点的冰系伤害，此攻击伤害对应的攻击值每有260点效果翻倍1次",
+          "args": [
+            170,
+            9,
+            260,
+            1
+          ],
+          "effect": {
+            "id": 2494,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2494"
+          }
+        },
+        {
+          "info": "若自身未于上回合受到攻击伤害则获得自身最大体力的26%的护盾、护罩",
+          "analyze_info": "[sprite name=iconHit]若自身未于上回合受到攻击伤害则获得自身最大体力的26%的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]",
+          "args": [
+            26
+          ],
+          "effect": {
+            "id": 2495,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2495"
+          }
+        },
+        {
+          "info": "解除自身所处的异常状态，若解除的异常状态中存在自身上次登场效果所免疫的异常状态，则本场战斗己方免疫此异常状态",
+          "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，若解除的异常状态中存在自身上次登场效果所免疫的异常状态，则本场战斗[color=#52a5f2]己方[/color]免疫此异常状态",
+          "args": [],
+          "effect": {
+            "id": 2497,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2497"
+          }
+        },
+        {
+          "info": "免疫下2次自身受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]免疫下2次自身受到的异常状态",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1440,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1440"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "45ddc162"
+}
