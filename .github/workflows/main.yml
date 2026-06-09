@@ -60,7 +60,7 @@ jobs:
                   --db-url sqlite:///seerapi-data.sqlite \
                   -m all --output-named-data
 
-                  solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o --json-format sharded \
+                  solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o sharded_data --json-format sharded \
                   --base-json-url https://api.seerapi.com/v1 \
                   -m json --output-named-data
 
