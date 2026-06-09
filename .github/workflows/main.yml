@@ -107,7 +107,7 @@ jobs:
                   BLOB_PROJECT_ID: ${{ secrets.BLOB_PROJECT_ID }}
                   BLOB_STORE_NAME: ${{ secrets.BLOB_STORE_NAME }}
               run: |
-                  npx tsx upload_data_to_blob.ts data/v1/schemas/ --store seerapi-v1 --prefix schemas/ --compress-json
+                  npx tsx upload_data_to_blob.ts data/v1/schemas/ --store seerapi-v1 --prefix schemas/
                   npx tsx upload_data_to_blob.ts data/v1/sharded_data/ --store seerapi-v1 --prefix sharded_data/
 
             - name: Generate database checksum
