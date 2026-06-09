@@ -14,6 +14,10 @@
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "mintmark_type"
         },
+        "ResourceRef_Mintmark_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark"
+        },
         "ResourceRef_Pet_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "pet"
@@ -168,6 +172,24 @@
           "default": null,
           "description": "该刻印所绑定的技能列表，仅当该刻印为技能刻印时有效",
           "title": "Skill"
+        },
+        "connect": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Mintmark_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "关联刻印，非 null 时表示该刻印在游戏内等效于所关联的刻印"
+        },
+        "is_hidden": {
+          "default": false,
+          "description": "是否为隐藏刻印，隐藏刻印不会在图鉴中显示",
+          "title": "Is Hidden",
+          "type": "boolean"
         }
       },
       "required": [
