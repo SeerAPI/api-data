@@ -1,125 +1,143 @@
 name: Auto Update Config
 
 permissions:
-  contents: write
+    contents: write
 
 on:
-  workflow_dispatch:
-    inputs:
-      debug_enabled:
-        type: boolean
-        description: 'Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)'
-        required: false
-        default: false
+    workflow_dispatch:
+        inputs:
+            debug_enabled:
+                type: boolean
+                description: "Run the build with tmate debugging enabled (https://github.com/marketplace/actions/debugging-with-tmate)"
+                required: false
+                default: false
 
-  repository_dispatch:
-    types: [config-source-update, patch-source-update]
+    repository_dispatch:
+        types: [config-source-update, patch-source-update]
 
 jobs:
-  main:
-    runs-on: ubuntu-latest
-    env:
-      SOLARIS_API_VERSION: v1
-      SOLARIS_API_URL: https://api.seerapi.com
-      SOLARIS_DATA_SOURCE: https://github.com/SeerAPI/config-sources.git
-      SOLARIS_PATCH_SOURCE: https://github.com/SeerAPI/patch-sources.git
-      BASE_OUTPUT_DIR: data
+    main:
+        runs-on: ubuntu-latest
+        env:
+            SOLARIS_API_VERSION: v1
+            SOLARIS_API_URL: https://api.seerapi.com
+            SOLARIS_DATA_SOURCE: https://github.com/SeerAPI/config-sources.git
+            SOLARIS_PATCH_SOURCE: https://github.com/SeerAPI/patch-sources.git
+            BASE_OUTPUT_DIR: data
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.10"
 
-    - name: Set up uv
-      uses: astral-sh/setup-uv@v7
+            - name: Set up uv
+              uses: astral-sh/setup-uv@v7
 
-    - name: Install solaris
-      run: uv tool install seerapi-solaris
+            - name: Install solaris
+              run: uv tool install seerapi-solaris
 
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-      if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
-    
-    - name: Clone config sources
-      run: |
-        git clone ${{ env.SOLARIS_DATA_SOURCE }} source
-        git clone ${{ env.SOLARIS_PATCH_SOURCE }} patch-sources
-        mkdir -p source/patch
-        mv patch-sources/patches/* source/patch
+            - name: Setup tmate session
+              uses: mxschmitt/action-tmate@v3
+              if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
 
-    - name: Analyze config
-      run: |
-        solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o data --json-format split \
-        --base-json-url https://api.seerapi.com/v1 \
-        --db-url sqlite:///seerapi-data.sqlite \
-        -m all --output-named-data
-  
-        solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o --json-format sharded \
-        --base-json-url https://api.seerapi.com/v1 \
-        -m json --output-named-data
-  
-        solaris analyze schemas --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o schemas \
-        --base-url https://api.seerapi.com/v1/schemas --output-named-data
+            - name: Clone config sources
+              run: |
+                  git clone ${{ env.SOLARIS_DATA_SOURCE }} source
+                  git clone ${{ env.SOLARIS_PATCH_SOURCE }} patch-sources
+                  mkdir -p source/patch
+                  mv patch-sources/patches/* source/patch
 
-        openapi_desc=$(cat .github/workflows/openapi-desc.md)
-        detail_version="1.0.0"
-        solaris analyze openapi --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o openapi.json \
-        --description "$openapi_desc" --detail-version "$detail_version" --output-named-data
+            - name: Analyze config
+              run: |
+                  solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o data --json-format split \
+                  --base-json-url https://api.seerapi.com/v1 \
+                  --db-url sqlite:///seerapi-data.sqlite \
+                  -m all --output-named-data
 
-    - name: Commit and push changes
-      id: commit
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add data
-        timestamp=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')
-        git diff --staged --quiet || git commit -m "Auto update config $timestamp"
-        git push
-        echo "timestamp=$timestamp" >> $GITHUB_OUTPUT
-    
-    # - name: Push to cnb.cool Git Repository
-    #   run: |
-    #     # 配置 cnb.cool 远程仓库
-    #     git remote add cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git || true
-    #     git remote set-url cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git
+                  solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o --json-format sharded \
+                  --base-json-url https://api.seerapi.com/v1 \
+                  -m json --output-named-data
 
-    #     # 推送到 cnb.cool 仓库
-    #     git push cnb main --force
+                  solaris analyze schemas --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o schemas \
+                  --base-url https://api.seerapi.com/v1/schemas --output-named-data
 
-    - name: Generate database checksum
-      id: db_checksum
-      run: |
-        # 生成 SHA256 校验和文件
-        sha256sum seerapi-data.sqlite > seerapi-data.sqlite.sha256
-        
-        # 显示校验和信息
-        echo "=== 数据库文件 SHA256 校验和 ==="
-        cat seerapi-data.sqlite.sha256
-        
-        # 将校验和传递到下一个step
-        echo "sha256=$(cat seerapi-data.sqlite.sha256)" >> $GITHUB_OUTPUT
+                  openapi_desc=$(cat .github/workflows/openapi-desc.md)
+                  detail_version="1.0.0"
+                  solaris analyze openapi --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o openapi.json \
+                  --description "$openapi_desc" --detail-version "$detail_version" --output-named-data
 
-    - name: Upload database to release
-      uses: softprops/action-gh-release@v2
-      with:
-        tag_name: latest
-        name: Data Update - ${{ steps.commit.outputs.timestamp }}
-        body: |
-          最新的 SeerAPI 数据库
-          更新时间: ${{ steps.commit.outputs.timestamp }}
-          SHA256 校验和: ${{ steps.db_checksum.outputs.sha256 }}
-          **注意，该效验和仅用于验证数据库文件的完整性，不能用于验证数据库内容是否有更新**
-        files: |
-          seerapi-data.sqlite
-          seerapi-data.sqlite.sha256
-        token: ${{ secrets.GITHUB_TOKEN }}
-        prerelease: false
-        draft: false
-        make_latest: true
-        fail_on_unmatched_files: true
+            - name: Commit and push changes
+              id: commit
+              run: |
+                  git config --local user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
+                  git add data
+                  timestamp=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')
+                  git diff --staged --quiet || git commit -m "Auto update config $timestamp"
+                  git push
+                  echo "timestamp=$timestamp" >> $GITHUB_OUTPUT
+
+            # - name: Push to cnb.cool Git Repository
+            #   run: |
+            #     # 配置 cnb.cool 远程仓库
+            #     git remote add cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git || true
+            #     git remote set-url cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git
+
+            #     # 推送到 cnb.cool 仓库
+            #     git push cnb main --force
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "22"
+                  cache: npm
+
+            - name: Install Node dependencies
+              run: npm ci
+
+            - name: Upload data to blob
+              env:
+                  BLOB_TOKEN: ${{ secrets.BLOB_TOKEN }}
+                  BLOB_PROJECT_ID: ${{ secrets.BLOB_PROJECT_ID }}
+                  BLOB_STORE_NAME: ${{ secrets.BLOB_STORE_NAME }}
+              run: |
+                  npx tsx upload_data_to_blob.ts data/v1/schemas/ --store seerapi-v1 --prefix schemas/ --compress-json
+                  npx tsx upload_data_to_blob.ts data/v1/sharded_data/ --store seerapi-v1 --prefix sharded_data/
+
+            - name: Generate database checksum
+              id: db_checksum
+              run: |
+                  # 生成 SHA256 校验和文件
+                  sha256sum seerapi-data.sqlite > seerapi-data.sqlite.sha256
+
+                  # 显示校验和信息
+                  echo "=== 数据库文件 SHA256 校验和 ==="
+                  cat seerapi-data.sqlite.sha256
+
+                  # 将校验和传递到下一个step
+                  echo "sha256=$(cat seerapi-data.sqlite.sha256)" >> $GITHUB_OUTPUT
+
+            - name: Upload database to release
+              uses: softprops/action-gh-release@v2
+              with:
+                  tag_name: latest
+                  name: Data Update - ${{ steps.commit.outputs.timestamp }}
+                  body: |
+                      最新的 SeerAPI 数据库
+                      更新时间: ${{ steps.commit.outputs.timestamp }}
+                      SHA256 校验和: ${{ steps.db_checksum.outputs.sha256 }}
+                      **注意，该效验和仅用于验证数据库文件的完整性，不能用于验证数据库内容是否有更新**
+                  files: |
+                      seerapi-data.sqlite
+                      seerapi-data.sqlite.sha256
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  prerelease: false
+                  draft: false
+                  make_latest: true
+                  fail_on_unmatched_files: true
