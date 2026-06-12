@@ -1,0 +1,66 @@
+{
+  "data": {
+    "29375": {
+      "id": 29375,
+      "name": "幽游白帐",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；恢复了一定的体力；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "先出手时全属性+1",
+          "analyze_info": "[sprite name=iconHit]先出手时[color=#52a5f2]全属性[/color]+1（boss有效）",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 877,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/877"
+          }
+        },
+        {
+          "info": "3回合内若使用技能则恢复200点体力值",
+          "analyze_info": "[sprite name=iconHit]3回合内若使用技能则恢复200点体力值（boss有效）",
+          "args": [
+            3,
+            200
+          ],
+          "effect": {
+            "id": 77,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/77"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+1",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+1（boss有效）",
+          "args": [
+            2,
+            1
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "c7662b68"
+}

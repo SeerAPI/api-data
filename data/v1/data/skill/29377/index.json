@@ -1,0 +1,62 @@
+{
+  "id": 29377,
+  "name": "坐框观天",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "全属性提升了；减少了受到的伤害；恢复了一定的体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，对手不为远古系时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手不为远古系时强化效果翻倍（boss有效）",
+      "args": [
+        1,
+        18
+      ],
+      "effect": {
+        "id": 1238,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1238"
+      }
+    },
+    {
+      "info": "2回合内受到的所有类型伤害的1/2转化为自身体力",
+      "analyze_info": "[sprite name=iconHit]2回合内受到的所有类型伤害的1/2[color=#52a5f2]转化[/color]为自身体力",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 895,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/895"
+      }
+    },
+    {
+      "info": "恢复自身已损失体力值的1/2",
+      "analyze_info": "[sprite name=iconHit]恢复自身[color=#52a5f2]已损失体力[/color]值的1/2（boss有效）",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 509,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/509"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "b6e6c3f5"
+}

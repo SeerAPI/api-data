@@ -1,0 +1,50 @@
+{
+  "id": 38427,
+  "name": "半梦",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 1,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 13,
+    "url": "https://api.seerapi.com/v1/element_type_combination/13"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，若消除状态成功，则自身特攻等级+2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，若消除状态成功，则自身特攻等级+2（boss有效）",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 430,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/430"
+      }
+    },
+    {
+      "info": "恢复全部体力，消除所有能力下降，使自己睡眠1回合",
+      "analyze_info": "[sprite name=iconHit]恢复全部体力，消除所有能力下降，使自己[color=#57c975]睡眠[/color]1回合（boss有效）",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 155,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/155"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "93c478bf"
+}

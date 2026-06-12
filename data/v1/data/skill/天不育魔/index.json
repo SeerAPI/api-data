@@ -1,0 +1,79 @@
+{
+  "data": {
+    "29372": {
+      "id": 29372,
+      "name": "天不育魔",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；令对手烧伤了；开始限制受到的攻击伤害了；恢复了其他技能的PP值",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "100%令对手烧伤，未触发或对手处于烧伤状态则2回合内免疫对手的攻击",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]烧伤[/color]，[color=#52a5f2]未触发[/color]或对手处于[color=#57c975]烧伤[/color]状态则2回合内[color=#52a5f2]免疫对手的攻击[/color]",
+          "args": [
+            100,
+            2,
+            2,
+            2
+          ],
+          "effect": {
+            "id": 2096,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2096"
+          }
+        },
+        {
+          "info": "4回合内每回合被攻击所受到的伤害不超过170",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合被攻击所受到的伤害不超过170（boss有效）",
+          "args": [
+            4,
+            170
+          ],
+          "effect": {
+            "id": 125,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/125"
+          }
+        },
+        {
+          "info": "恢复自身其他技能此技能剩余PP值的170%",
+          "analyze_info": "[sprite name=iconHit]恢复自身其他技能此技能剩余PP值的170%",
+          "args": [
+            170
+          ],
+          "effect": {
+            "id": 2248,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2248"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "6b8142a4"
+}

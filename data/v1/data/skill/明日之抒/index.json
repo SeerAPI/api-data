@@ -1,0 +1,64 @@
+{
+  "data": {
+    "29374": {
+      "id": 29374,
+      "name": "明日之抒",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫受到的异常状态了；开始免疫能力下降状态了；恢复了PP值",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        },
+        {
+          "info": "3回合内免疫能力下降状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫能力下降状态（boss有效）",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 47,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/47"
+          }
+        },
+        {
+          "info": "恢复自身全部PP值，每恢复1点吸取对手20点体力",
+          "analyze_info": "[sprite name=iconHit]恢复自身全部PP值，每恢复1点[color=#52a5f2]吸取[/color]对手20点体力",
+          "args": [
+            20
+          ],
+          "effect": {
+            "id": 2274,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2274"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "c718b308"
+}

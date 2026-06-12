@@ -1,0 +1,42 @@
+{
+  "data": {
+    "38430": {
+      "id": 38430,
+      "name": "纷繁忘我",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 10,
+        "url": "https://api.seerapi.com/v1/element_type_combination/10"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消耗自身全部体力，消除对手能力提升状态和回合类效果并使对手2回合内所有技能失效",
+          "analyze_info": "[sprite name=iconHit]消耗自身全部体力，消除对手能力提升状态和[color=#52a5f2]回合类效果[/color]并使对手2回合内所有技能失效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 902,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/902"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "6a886e3f"
+}
