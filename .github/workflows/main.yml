@@ -40,7 +40,7 @@ jobs:
               uses: astral-sh/setup-uv@v7
 
             - name: Install solaris
-              run: uv tool install seerapi-solaris
+              run: uv tool install --force seerapi-solaris
 
             - name: Setup tmate session
               uses: mxschmitt/action-tmate@v3
