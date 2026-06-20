@@ -1,0 +1,47 @@
+{
+  "data": {
+    "2108": {
+      "id": 2108,
+      "desc": "战斗开始时，自身进入事象观测；自身受到致死伤害时，退出事象观测以消除对手的能力提升状态、回合类效果并复活|自身登场之后，记录当回合自身首个进入的异常状态和对手所使用技能的类型，记录成功则当回合结束时解除自身所处的异常状态；自身的技能命中时，若类型与自身记录的技能类型相同则附加自身记录的异常状态，未触发则令自身凝滞|战斗阶段结束时，若对手处于异常状态则自身特攻、速度+1且下回合使用技能时附加特攻值60%的百分比伤害，若对手不处于异常状态则恢复自身最大体力的1/3且下回合技能先制+1|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]战斗开始时，自身进入[color=#f35555]事象观测[/color]状态；自身受到[color=#52a5f2]致死伤害[/color]时，退出[color=#f35555]事象观测[/color][color=#52a5f2]以[/color]消除对手的能力提升状态、[color=#52a5f2]回合类效果[/color]并重生|[sprite name=dot4]自身[color=#52a5f2]登场[/color][color=#52a5f2]之后[/color]，记录[color=#52a5f2]当回合[/color]自身首个进入的异常状态和对手所使用技能的类型，记录成功则[color=#52a5f2]当回合[/color]结束时解除自身所处的异常状态；自身的技能命中时，若类型与自身记录的技能类型相同则附加自身记录的异常状态，[color=#52a5f2]未触发[/color]则令自身[color=#57c975]凝滞[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若对手处于异常状态则自身特攻、速度+1且下回合[color=#57c975]使用技能时[/color]附加特攻值60%的[color=#52a5f2]百分比伤害[/color]，若对手不处于异常状态则恢复自身最大体力的1/3且下回合[color=#52a5f2]技能先制[/color]+1",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4915,
+          "url": "https://api.seerapi.com/v1/pet/4915"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          60,
+          1,
+          3,
+          1,
+          1
+        ],
+        "effect": {
+          "id": 2520,
+          "url": "https://api.seerapi.com/v1/eid_effect/2520"
+        }
+      },
+      "effect_alias": "alias_2520_60_1_3_1_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "40d8e93f"
+}
