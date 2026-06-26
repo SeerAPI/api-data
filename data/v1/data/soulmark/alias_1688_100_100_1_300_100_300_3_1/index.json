@@ -2,9 +2,9 @@
   "data": {
     "1336": {
       "id": 1336,
-      "desc": "自身每次登场首回合攻击100%打出致命一击且100%令对手失明，当回合未使用攻击技能则令自身全属性+1；|自身攻击造成的伤害低于300则下回合攻击100%打出致命一击，自身攻击造成的伤害高于300则附加对手最大体力1/3的固定伤害（boss无效）",
+      "desc": "自身每次登场首回合攻击100%打出致命一击且100%令对手失明，当回合未使用攻击技能则战斗阶段结束时令自身全属性+1|自身攻击造成的伤害低于300时下回合攻击100%打出致命一击，自身攻击造成的伤害高于300时附加对手最大体力1/3的百分比伤害|（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>自身每次登场首回合攻击100%<color=#64F9FA>打出致命一击</color>且100%<color=#64F9FA>令对手失明</color>\r\n<indent=32><sprite=4><indent=48>若当回合未使用攻击技能则令自身<color=#64F9FA>全属性+1</color>\r\n\r\n<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害低于300则下回合攻击100%<color=#64F9FA>打出致命一击</color>\r\n<indent=16><sprite=3><indent=32>自身攻击造成的伤害高于300则<color=#64F9FA>附加</color>对手最大体力1/3的<b>百分比伤害</b>",
-      "analyze_desc": "",
+      "analyze_desc": "[sprite name=dot4]自身每次[color=#52a5f2]登场[/color]首回合攻击100%打出[color=#57c975]致命一击[/color]且100%令对手[color=#57c975]失明[/color]，[color=#52a5f2]当回合[/color]未使用攻击技能则[color=#57c975]战斗阶段结束时[/color]令自身[color=#52a5f2]全属性[/color]+1|[sprite name=dot4]自身攻击造成的伤害低于300时下回合攻击100%打出[color=#57c975]致命一击[/color]，自身攻击造成的伤害高于300时附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -50,5 +50,5 @@
       "advance": null
     }
   },
-  "hash": "ae89d438"
+  "hash": "daab398f"
 }

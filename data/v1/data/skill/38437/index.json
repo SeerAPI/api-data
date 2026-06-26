@@ -1,0 +1,82 @@
+{
+  "id": 38437,
+  "name": "月·天囚影",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 44,
+    "url": "https://api.seerapi.com/v1/element_type_combination/44"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "伤害结算时额外将自身的护盾值计入攻击、特攻值",
+      "analyze_info": "[sprite name=iconInherent]伤害结算时额外将自身的护盾值计入攻击、特攻值",
+      "args": [],
+      "effect": {
+        "id": 2422,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2422"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则2回合内令对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则2回合内令对手使用的属性技能无效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 781,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/781"
+      }
+    },
+    {
+      "info": "对方同时拥有血月、寒月时，令血月、寒月本场战斗不再转移",
+      "analyze_info": "[sprite name=iconHit]对方同时拥有[color=#f35555]血月[/color]、[color=#f35555]寒月[/color]时，令[color=#f35555]血月[/color]、[color=#f35555]寒月[/color]本场战斗不再转移",
+      "args": [],
+      "effect": {
+        "id": 2507,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2507"
+      }
+    },
+    {
+      "info": "吸取对手最大体力的1/3，若对手免疫百分比伤害则100%令对手冰封",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手最大体力的1/3，若对手免疫[color=#52a5f2]百分比伤害[/color]则100%令对手[color=#57c975]冰封[/color]",
+      "args": [
+        3,
+        100,
+        15
+      ],
+      "effect": {
+        "id": 1885,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1885"
+      }
+    },
+    {
+      "info": "当回合若未击败对手则100%令对手渐冻，未触发则令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若未[color=#57c975]击败[/color]对手则100%令对手[color=#57c975]渐冻[/color]，[color=#52a5f2]未触发[/color]则令自身[color=#52a5f2]全属性[/color]+1",
+      "args": [
+        100,
+        43,
+        1
+      ],
+      "effect": {
+        "id": 1040,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1040"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "549a5f68"
+}

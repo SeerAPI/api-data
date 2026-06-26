@@ -1,8 +1,8 @@
 {
   "id": 1376,
-  "desc": "自身使用攻击技能则50%使对手冰封，触发后下回合自身攻击技能100%打出致命一击，未触发则附加对手最大体力30%的固定伤害，自身体力低于最大体力的30%时恢复等量体力值；|战斗阶段结束时若自身体力高于回合开始时则令自身全属性+1，战斗阶段结束时若自身体力低于回合开始时则下回合攻击技能先制+1（boss无效）",
+  "desc": "自身使用攻击技能后50%令对手冰封，触发后下回合自身攻击技能100%打出致命一击，未触发则附加对手最大体力30%的固定伤害，自身体力低于最大体力的30%时恢复等量体力值|战斗阶段结束时若自身体力高于回合开始时则令自身全属性+1，战斗阶段结束时若自身体力低于回合开始时则下回合攻击技能先制+1|（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>攻击技能额外效果：\r\n<indent=16><sprite=3><indent=32>自身使用攻击技能则50%<color=#64F9FA>令对手冰封</color>\r\n<indent=32><sprite=4><indent=48>触发后下回合自身攻击技能100%<color=#64F9FA>打出致命一击</color>\r\n<indent=32><sprite=4><indent=48>未触发则<color=#64F9FA>附加</color>对手最大体力30%的<b>百分比伤害</b>\r\n<indent=32><sprite=4><sprite=4><indent=64>自身体力低于最大体力的30%时<color=#64F9FA>恢复</color>等量体力\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力高于回合开始时则令自身<color=#64F9FA>全属性+1</color>\r\n<indent=32><sprite=4><indent=48>若自身体力低于回合开始时则下回合攻击技能<b>先制</b>+1",
-  "analyze_desc": "",
+  "analyze_desc": "[sprite name=dot4]自身使用攻击技能后50%令对手[color=#57c975]冰封[/color]，触发后下回合自身攻击技能100%打出[color=#57c975]致命一击[/color]，[color=#52a5f2]未触发[/color]则附加对手最大体力30%的[color=#52a5f2]固定伤害[/color]，自身体力低于最大体力的30%时恢复等量体力值|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]若自身体力高于[color=#57c975]回合开始时[/color]则令自身[color=#52a5f2]全属性[/color]+1，[color=#57c975]战斗阶段结束时[/color]若自身体力低于[color=#57c975]回合开始时[/color]则下回合攻击[color=#52a5f2]技能先制[/color]+1",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -45,5 +45,5 @@
   "intensified_to": null,
   "from": null,
   "advance": null,
-  "hash": "719cc176"
+  "hash": "739d8d8f"
 }

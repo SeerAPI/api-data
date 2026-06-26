@@ -1,0 +1,50 @@
+{
+  "id": 2111,
+  "desc": "每回合开始时为对手叠加一层暮月玄音，最高10层|自身攻击技能命中后，若当回合自身为先手方则攻击命中后100%附加烧伤、冻伤、中毒、麻痹、害怕、睡眠中的2种异常状态，未触发则令自身全属性+1，若当回合自身为后手方则令对手全属性-1|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]为对手附加一层[color=#f35555]暮月玄音[/color]，最高10层|[sprite name=dot4]自身[color=#57c975]攻击技能命中后[/color]，若[color=#52a5f2]当回合[/color]自身为先手方则攻击命中后100%附加[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]、[color=#57c975]麻痹[/color]、[color=#57c975]害怕[/color]、[color=#57c975]睡眠[/color]中的2种异常状态，[color=#52a5f2]未触发[/color]则令自身[color=#52a5f2]全属性[/color]+1，若[color=#52a5f2]当回合[/color]自身为后手方则令对手[color=#52a5f2]全属性[/color]-1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4178,
+      "url": "https://api.seerapi.com/v1/pet/4178"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      10,
+      100,
+      2,
+      1,
+      1,
+      10,
+      5,
+      1
+    ],
+    "effect": {
+      "id": 1772,
+      "url": "https://api.seerapi.com/v1/eid_effect/1772"
+    }
+  },
+  "effect_alias": "alias_1772_10_100_2_1_1_10_5_1",
+  "tag": [
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "4540c8db"
+}
