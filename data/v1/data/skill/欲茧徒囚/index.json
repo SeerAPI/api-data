@@ -1,0 +1,55 @@
+{
+  "data": {
+    "38442": {
+      "id": 38442,
+      "name": "欲茧徒囚",
+      "power": 10,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/element_type_combination/25"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合结束时使对手随机1个技能PP归零",
+          "analyze_info": "[sprite name=iconHit]3回合内每[color=#57c975]回合结束时[/color]使对手随机1个技能PP归零",
+          "args": [
+            3,
+            1
+          ],
+          "effect": {
+            "id": 1565,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1565"
+          }
+        },
+        {
+          "info": "对手下2次主动切换或死亡切换精灵时，在场精灵吸取对手下只出场精灵最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]对手下2次[color=#52a5f2]主动切换[/color]或死亡切换精灵时，在场精灵[color=#52a5f2]吸取[/color]对手下只出场精灵最大体力的1/3",
+          "args": [
+            2,
+            3
+          ],
+          "effect": {
+            "id": 1779,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1779"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "f71d67d0"
+}

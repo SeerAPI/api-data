@@ -1,0 +1,55 @@
+{
+  "data": {
+    "38441": {
+      "id": 38441,
+      "name": "行素",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 25,
+        "url": "https://api.seerapi.com/v1/element_type_combination/25"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则100%令对手随机2个技能PP值归零",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 1495,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1495"
+          }
+        },
+        {
+          "info": "100%的概率，2回合内受到的伤害减半",
+          "analyze_info": "[sprite name=iconHit]100%的概率，2回合内受到的伤害减半（boss有效）",
+          "args": [
+            100,
+            2
+          ],
+          "effect": {
+            "id": 127,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/127"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "bd3fafda"
+}

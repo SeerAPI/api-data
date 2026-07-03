@@ -1,0 +1,36 @@
+{
+  "id": 2113,
+  "desc": "自身先出手时当回合攻击技能必定打出致命一击，属性技能吸取对手300点体力；自身被击败时，本场战斗自身每出战1次，为对手附加300点固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身先出手时[color=#52a5f2]当回合[/color]攻击技能必定打出[color=#57c975]致命一击[/color]，属性技能[color=#52a5f2]吸取[/color]对手300点体力；自身被[color=#57c975]击败[/color]时，本场战斗自身每[color=#52a5f2]出战[/color]1次，为对手附加300点[color=#52a5f2]固定伤害[/color]",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4917,
+      "url": "https://api.seerapi.com/v1/pet/4917"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2524,
+      "url": "https://api.seerapi.com/v1/eid_effect/2524"
+    }
+  },
+  "effect_alias": "alias_2524_1_0",
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "bba5f017"
+}

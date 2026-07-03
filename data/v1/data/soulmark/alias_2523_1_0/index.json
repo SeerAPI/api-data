@@ -1,0 +1,40 @@
+{
+  "data": {
+    "2114": {
+      "id": 2114,
+      "desc": "登场时，自身减少体力上限的50%，若减少的体力上限大于200点则下次受到致死伤害时保留全部体力 （boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]登场时[/color]，自身减少体力上限的50%，若减少的体力上限大于200点则下次受到[color=#52a5f2]致死伤害[/color]时[color=#52a5f2]保留[/color]全部体力",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4918,
+          "url": "https://api.seerapi.com/v1/pet/4918"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2523,
+          "url": "https://api.seerapi.com/v1/eid_effect/2523"
+        }
+      },
+      "effect_alias": "alias_2523_1_0",
+      "tag": [
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/3"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "696c6c1f"
+}
