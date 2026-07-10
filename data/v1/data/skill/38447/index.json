@@ -1,0 +1,48 @@
+{
+  "id": 38447,
+  "name": "两极放射",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 86,
+    "url": "https://api.seerapi.com/v1/element_type_combination/86"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升状态，消除成功则直接扣除对方场下随机一只精灵最大体力的1/4，致死时令其残留1点体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态（boss有效），消除成功则直接扣除对方场下随机一只精灵最大体力的1/4，致死时令其残留1点体力",
+      "args": [],
+      "effect": {
+        "id": 1298,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1298"
+      }
+    },
+    {
+      "info": "获得200点护罩，护罩消失时附加对手最大体力1/3的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]获得200点[color=#57c975]护罩[/color]，[color=#57c975]护罩[/color]消失时附加对手最大体力1/3的[color=#52a5f2]百分比伤害[/color]",
+      "args": [
+        200,
+        3
+      ],
+      "effect": {
+        "id": 1853,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1853"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "9674433b"
+}

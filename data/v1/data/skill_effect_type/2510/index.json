@@ -3,10 +3,15 @@
   "args_num": 2,
   "info": "对手处于能力提升状态时先制+3且命中时复制对手的能力提升，复制成功则对手{0}回合内属性技能命中效果失效，对手不处于能力提升状态时令双方全属性+{1}",
   "info_formatting_adjustment": "<condition>对手处于能力提升状态时</condition>先制+3且命中时复制对手的能力提升\r\n--><condition>复制成功</condition>则对手{0}回合内属性技能命中效果失效\r\n--><condition>对手不处于能力提升状态时</condition>令双方全属性+{1}",
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconComp]对手处于能力提升状态时先制+3且[sprite name=iconHit] 复制对手的能力提升，复制成功则对手{0}回合内属性技能命中效果失效，对手不处于能力提升状态时令双方全属性+{1}",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 29392,
+      "url": "https://api.seerapi.com/v1/skill/29392"
+    }
+  ],
   "tag": [
     {
       "id": 2566,
@@ -21,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44951"
     }
   ],
-  "hash": "44f86bfa"
+  "hash": "fb574ad"
 }

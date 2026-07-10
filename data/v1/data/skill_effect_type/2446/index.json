@@ -1,12 +1,17 @@
 {
   "id": 2446,
   "args_num": 0,
-  "info": "L",
+  "info": "若对手存在处决印记则此技能附着己方序数最高的圣剑",
   "info_formatting_adjustment": null,
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconInherent]若对手存在[color=#f35555]处决印记[/color]则此技能附着己方序数最高的[color=#f35555]圣剑[/color]",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 38454,
+      "url": "https://api.seerapi.com/v1/skill/38454"
+    }
+  ],
   "tag": [],
-  "hash": "a85384de"
+  "hash": "337b0037"
 }

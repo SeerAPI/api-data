@@ -3,7 +3,7 @@
   "args_num": 3,
   "info": "对手每剩余{0}%体力对手{1}回合内体力恢复效果减少{2}%",
   "info_formatting_adjustment": "对手每剩余{0}%体力对手{1}回合内体力恢复效果减少{2}%",
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit]对手每剩余{0}%体力对手{1}回合内体力恢复效果减少{2}%",
   "pve_effective": false,
   "param": [
     {
@@ -14,12 +14,17 @@
       }
     }
   ],
-  "skill": [],
+  "skill": [
+    {
+      "id": 38453,
+      "url": "https://api.seerapi.com/v1/skill/38453"
+    }
+  ],
   "tag": [
     {
       "id": 45247,
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/45247"
     }
   ],
-  "hash": "5684ec05"
+  "hash": "9680b5f1"
 }

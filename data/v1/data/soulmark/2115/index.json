@@ -1,0 +1,44 @@
+{
+  "id": 2115,
+  "desc": "自身使用攻击技能造成的伤害提升45%、使用属性技能后附加对手最大体力45%的百分比伤害、未使用技能的战斗阶段结束时恢复45%自身已损失体力|登场时，若对手微弱自身则系数每低0.5自身本次在场上述效果均提升15%，若对手克制自身则系数每高1自身本次在场上述效果均减少15%，减少至0时对手2回合内使用攻击技能造成的伤害减少45%、使用属性技能后受到最大体力45%的百分比伤害、体力恢复效果减少45%|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身使用攻击技能造成的伤害提升45%、使用属性技能后附加对手最大体力45%的[color=#52a5f2]百分比伤害[/color]、当回合未使用技能的[color=#57c975]战斗阶段结束时[/color]恢复45%自身[color=#52a5f2]已损失体力[/color]|[sprite name=dot4][color=#57c975]登场时[/color]，若对手微弱自身则系数每低0.5自身本次在场上述效果均提升15%，若对手克制自身则系数每高1自身本次在场上述效果均减少15%，减少至0时对手2回合内使用攻击技能造成的伤害减少45%、使用属性技能后受到最大体力45%的[color=#52a5f2]百分比伤害[/color]、体力恢复效果减少45%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4919,
+      "url": "https://api.seerapi.com/v1/pet/4919"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2526,
+      "url": "https://api.seerapi.com/v1/eid_effect/2526"
+    }
+  },
+  "effect_alias": "alias_2526_1_0",
+  "tag": [
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "4f21c370"
+}

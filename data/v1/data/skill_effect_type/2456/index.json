@@ -3,15 +3,20 @@
   "args_num": 1,
   "info": "下{0}次击败对手后，恢复自身全部体力值与PP值",
   "info_formatting_adjustment": null,
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]下{0}次[color=#57c975]击败[/color]对手后，恢复自身全部体力值与PP值",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 38455,
+      "url": "https://api.seerapi.com/v1/skill/38455"
+    }
+  ],
   "tag": [
     {
       "id": 62114,
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114"
     }
   ],
-  "hash": "2354f6c6"
+  "hash": "c6af7cd8"
 }

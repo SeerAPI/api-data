@@ -3,7 +3,7 @@
   "args_num": 3,
   "info": "消除对手回合类效果并{0}%令自身{1}，触发成功则额外令对手{2}",
   "info_formatting_adjustment": "消除对手回合类效果并{0}%令自身{1}\r\n--><condition>触发成功</condition>则额外令对手{2}",
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit]消除对手回合类效果并{0}%令自身[color=#57c975]{1}[/color]，触发成功则额外令对手[color=#57c975]{2}[/color]",
   "pve_effective": false,
   "param": [
     {
@@ -21,7 +21,12 @@
       }
     }
   ],
-  "skill": [],
+  "skill": [
+    {
+      "id": 38454,
+      "url": "https://api.seerapi.com/v1/skill/38454"
+    }
+  ],
   "tag": [
     {
       "id": 30442,
@@ -32,5 +37,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "5ca82578"
+  "hash": "e9c7d879"
 }
