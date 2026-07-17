@@ -1,0 +1,53 @@
+{
+  "data": {
+    "38457": {
+      "id": 38457,
+      "name": "怀古",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 112,
+        "url": "https://api.seerapi.com/v1/element_type_combination/112"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 905,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/905"
+          }
+        },
+        {
+          "info": "消耗自身的护盾并附加等量的固定伤害，自身没有护盾时以最大体力的30%代替，体力不足时改为消耗至1点",
+          "analyze_info": "[sprite name=iconHit]消耗自身的[color=#57c975]护盾[/color]并附加等量的[color=#52a5f2]固定伤害[/color]，自身没有[color=#57c975]护盾[/color]时[color=#52a5f2]以[/color]最大体力的30%代替，体力不足时改为消耗至1点",
+          "args": [
+            30
+          ],
+          "effect": {
+            "id": 2353,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2353"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "7efb6d83"
+}

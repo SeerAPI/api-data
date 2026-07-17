@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2118": {
+      "id": 2118,
+      "desc": "回合开始时，若自身体力不为满则当回合造成的攻击伤害提升50%；战斗阶段结束时，消耗自身20%的体力值以恢复至己方不在场精灵，若消耗后自身体力低于最大体力的50%，则恢复全部体力（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身体力不为满则[color=#52a5f2][color=#52a5f2]当回合[/color]造成的攻击伤害提升50%；[color=#57c975]战斗阶段结束时[/color]，消耗自身20%的体力值[color=#52a5f2]以[/color]恢复至[color=#52a5f2]己方[/color]不在场精灵，若消耗后自身体力低于最大体力的50%，则恢复全部体力",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4922,
+          "url": "https://api.seerapi.com/v1/pet/4922"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2528,
+          "url": "https://api.seerapi.com/v1/eid_effect/2528"
+        }
+      },
+      "effect_alias": "alias_2528_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "41573aa0"
+}

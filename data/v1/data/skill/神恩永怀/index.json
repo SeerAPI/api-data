@@ -1,0 +1,88 @@
+{
+  "data": {
+    "29401": {
+      "id": 29401,
+      "name": "神恩永怀",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "待添加",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身登场时，若己方精灵中存在索伦森，则将自身的信仰对象改为索伦森；自身位于场下时，为自身的信仰对象提供支援魂歌报丧",
+          "analyze_info": "[sprite name=iconInherent]自身[color=#57c975]登场时[/color]，若[color=#52a5f2]己方[/color]精灵中存在索伦森，则将自身的[color=#57c975]信仰对象[/color]改为索伦森；自身位于场下时，为自身的[color=#57c975]信仰对象[/color]提供[color=#57c975]支援[/color][color=#f35555]魂歌报丧[/color]",
+          "args": [],
+          "effect": {
+            "id": 2544,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2544"
+          }
+        },
+        {
+          "info": "全属性+1，双方处于异常状态时效果翻倍，对手处于时将其解除且对手2回合内无法主动切换精灵，自身处于时将其解除并恢复己方所有精灵自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，双方处于异常状态时效果翻倍，对手处于时将其解除且对手2回合内无法[color=#52a5f2]主动切换[/color]精灵，自身处于时将其解除并恢复[color=#52a5f2]己方[/color]所有精灵自身最大体力的1/3",
+          "args": [
+            1,
+            2,
+            3
+          ],
+          "effect": {
+            "id": 2367,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2367"
+          }
+        },
+        {
+          "info": "4回合内使用技能额外吸取对手最大体力的1/3，若使用时自身不处于能力提升状态则效果翻倍",
+          "analyze_info": "[sprite name=iconHit]4回合内使用技能额外[color=#52a5f2]吸取[/color]对手最大体力的1/3，若[color=#52a5f2]使用技能时[/color]自身不处于能力提升状态则效果翻倍",
+          "args": [
+            4,
+            3
+          ],
+          "effect": {
+            "id": 2461,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2461"
+          }
+        },
+        {
+          "info": "先出手时使对手2回合属性技能无效",
+          "analyze_info": "[sprite name=iconHit]先出手时使对手2回合属性技能无效",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1284,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1284"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+2（boss有效）",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "b33eac2d"
+}

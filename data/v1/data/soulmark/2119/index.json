@@ -1,0 +1,40 @@
+{
+  "id": 2119,
+  "desc": "战斗开始时，为己方附加4座蜃楼|回合开始，若对手当回合未选择技能，则2回合内自身受到的非真实伤害减少50%，若对手选择了技能，则自身当回合与此技能类型相同的技能使用后令对手石化1回合，不同的技能先制+1（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]战斗开始时，为[color=#52a5f2]己方[/color]附加4座[color=#f35555]蜃楼[/color]|[sprite name=dot4][color=#57c975]回合开始时[/color]，若对手[color=#52a5f2]当回合[/color]未选择技能，则2回合内自身受到的非减少50%，若对手选择了技能，则自身[color=#52a5f2]当回合[/color]与此技能类型相同的技能使用后令对手[color=#57c975]石化[/color]1回合，不同的[color=#52a5f2]技能先制[/color]+1",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4923,
+      "url": "https://api.seerapi.com/v1/pet/4923"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2529,
+      "url": "https://api.seerapi.com/v1/eid_effect/2529"
+    }
+  },
+  "effect_alias": "alias_2529_1_0",
+  "tag": [
+    {
+      "id": 5,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "b152a07f"
+}

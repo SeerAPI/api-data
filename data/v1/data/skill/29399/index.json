@@ -1,0 +1,99 @@
+{
+  "id": 29399,
+  "name": "魂源嘘古",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "待添加",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "全属性+1，自身不处于能力提升状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，自身不处于能力提升状态时强化效果翻倍（boss有效）",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 962,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/962"
+      }
+    },
+    {
+      "info": "4回合内每回合使用技能吸取对手最大体力的1/3，若对手未受到百分比伤害则额外附加200点真实伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，若对手未受到[color=#52a5f2]百分比伤害[/color]则额外附加200点[color=#52a5f2]真实伤害[/color]",
+      "args": [
+        4,
+        3,
+        200
+      ],
+      "effect": {
+        "id": 1674,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1674"
+      }
+    },
+    {
+      "info": "获得300点护盾，此护盾存在时自身进入的异常状态转化为3回合砥砺",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护盾[/color]，此[color=#57c975]护盾[/color]存在时自身进入的异常状态[color=#52a5f2]转化[/color]为3回合[color=#57c975]砥砺[/color]",
+      "args": [
+        300,
+        3,
+        37
+      ],
+      "effect": {
+        "id": 2542,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2542"
+      }
+    },
+    {
+      "info": "下次下场时，将上述护盾转移给下只精灵",
+      "analyze_info": "[sprite name=iconHit]下次下场时，将上述护盾转移给下只精灵",
+      "args": [
+        10175
+      ],
+      "effect": {
+        "id": 2543,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2543"
+      }
+    },
+    {
+      "info": "3回合内对手使用技能消耗的PP值变为20倍",
+      "analyze_info": "[sprite name=iconHit]3回合内对手使用技能消耗的PP值变为20倍（boss有效）",
+      "args": [
+        3,
+        20
+      ],
+      "effect": {
+        "id": 440,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/440"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+2",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+2（boss有效）",
+      "args": [
+        2,
+        2
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "ca9a1008"
+}

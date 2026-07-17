@@ -1,0 +1,87 @@
+{
+  "data": {
+    "29400": {
+      "id": 29400,
+      "name": "八岐坏世",
+      "power": 0,
+      "max_pp": 8,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "待添加",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，对手处于异常状态时强化效果翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手处于异常状态时强化效果翻倍（boss有效）",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1001,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1001"
+          }
+        },
+        {
+          "info": "附加2种非限制类异常状态，然后若对手不处于控制类异常状态则重置自身的登场次数并获得1层命世之岐",
+          "analyze_info": "[sprite name=iconHit]附加2种非限制类异常状态，[color=#52a5f2]然后[/color]若对手不处于控制类异常状态则重置自身的[color=#52a5f2]登场[/color]次数并获得1层[color=#f35555]命世之岐[/color]",
+          "args": [],
+          "effect": {
+            "id": 2541,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2541"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能吸取对手最大体力的1/3，吸取体力时若自身体力低于最大体力的1/2则吸取效果翻倍",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能[color=#52a5f2]吸取[/color]对手最大体力的1/3，[color=#52a5f2]吸取[/color]体力时若自身体力低于最大体力的1/2则[color=#52a5f2]吸取[/color]效果翻倍",
+          "args": [
+            4,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 971,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/971"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+2（boss有效）",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "70749fbc"
+}

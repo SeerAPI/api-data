@@ -1,0 +1,59 @@
+{
+  "id": 29395,
+  "name": "序曲",
+  "power": 0,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": null,
+  "priority": 3,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "待添加",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "己方拥有蜃都之序时，若己方蜃都之序的转化顺序位于蜃都之理之后则不受PP值限制",
+      "analyze_info": "[sprite name=iconInherent][color=#52a5f2]己方[/color]拥有[color=#f35555]蜃都之序[/color]时，若[color=#52a5f2]己方[/color][color=#f35555]蜃都之序[/color]的转化顺序位于[color=#f35555]蜃都之理[/color]之后则[color=#57c975]不受PP值限制[/color]",
+      "args": [],
+      "effect": {
+        "id": 2534,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2534"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则下2回合对手攻击技能无法造成伤害且命中效果失效",
+      "analyze_info": "[sprite name=iconHit]消除对手回合类效果，消除成功则下2回合对手攻击技能无法造成伤害且命中效果失效",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 2390,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2390"
+      }
+    },
+    {
+      "info": "获得点数等同于双方最大体力差值的护盾，最高150点，护盾被击破时自身下1次使用的攻击技能附加与双方最大体力差护盾值相同的威力",
+      "analyze_info": "[sprite name=iconHit]获得点数等同于双方最大体力差值的[color=#57c975]护盾[/color]，最高150点，[color=#57c975]护盾[/color]被击破时自身下1次使用的攻击技能附加与双方最大体力差[color=#57c975]护盾[/color]值相同的[color=#52a5f2]威力[/color]",
+      "args": [
+        150,
+        1
+      ],
+      "effect": {
+        "id": 1561,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1561"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "29603663"
+}
