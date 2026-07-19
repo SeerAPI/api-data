@@ -88,7 +88,7 @@ jobs:
             #     # 配置 cnb.cool 远程仓库
             #     git remote add cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git || true
             #     git remote set-url cnb https://cnb:${{ secrets.CNB_TOKEN }}@cnb.cool/${{ secrets.CNB_REPO_PATH }}.git
-
+            #
             #     # 推送到 cnb.cool 仓库
             #     git push cnb main --force
 
@@ -110,6 +110,34 @@ jobs:
                   npx tsx upload_data_to_blob.ts data/v1/schemas/ --store seerapi-v1 --prefix schemas/
                   npx tsx upload_data_to_blob.ts data/v1/sharded_data/ --store seerapi-v1 --prefix sharded_data/
 
+            - name: Create archives for release
+              run: |
+                  set -eux
+                  mkdir -p artifacts
+
+                  # Package schemas (path: $BASE_OUTPUT_DIR/schemas)
+                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/schemas" ]; then
+                    tar -czf artifacts/schemas.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}" schemas
+                  else
+                    echo "Warning: ${BASE_OUTPUT_DIR}/schemas not found"
+                  fi
+
+                  # Package data (path: $BASE_OUTPUT_DIR/data)
+                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/data" ]; then
+                    tar -czf artifacts/data.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}" data
+                  else
+                    echo "Warning: ${BASE_OUTPUT_DIR}/data not found"
+                  fi
+
+                  # Package sharded_data (path: $BASE_OUTPUT_DIR/sharded_data)
+                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/sharded_data" ]; then
+                    tar -czf artifacts/sharded_data.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}" sharded_data
+                  else
+                    echo "Warning: ${BASE_OUTPUT_DIR}/sharded_data not found"
+                  fi
+
+                  ls -lah artifacts || true
+
             - name: Generate database checksum
               id: db_checksum
               run: |
@@ -123,17 +151,28 @@ jobs:
                   # 将校验和传递到下一个step
                   echo "sha256=$(cat seerapi-data.sqlite.sha256)" >> $GITHUB_OUTPUT
 
-            - name: Upload database to release
+            - name: Upload data and archives to release
               uses: softprops/action-gh-release@v2
               with:
                   tag_name: latest
                   name: Data Update - ${{ steps.commit.outputs.timestamp }}
                   body: |
-                      最新的 SeerAPI 数据库
+                      最新的 SeerAPI 数据库和打包数据
                       更新时间: ${{ steps.commit.outputs.timestamp }}
+
+                      上传内容:
+                      - schemas 压缩包: artifacts/schemas.tar.gz
+                      - data 压缩包: artifacts/data.tar.gz
+                      - sharded_data 压缩包: artifacts/sharded_data.tar.gz
+                      - 数据库: seerapi-data.sqlite
+                      - 数据库校验和: seerapi-data.sqlite.sha256
+
                       SHA256 校验和: ${{ steps.db_checksum.outputs.sha256 }}
                       **注意，该效验和仅用于验证数据库文件的完整性，不能用于验证数据库内容是否有更新**
                   files: |
+                      artifacts/schemas.tar.gz
+                      artifacts/data.tar.gz
+                      artifacts/sharded_data.tar.gz
                       seerapi-data.sqlite
                       seerapi-data.sqlite.sha256
                   token: ${{ secrets.GITHUB_TOKEN }}
