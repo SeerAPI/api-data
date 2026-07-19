@@ -116,22 +116,22 @@ jobs:
                   mkdir -p artifacts
 
                   # Package schemas (path: $BASE_OUTPUT_DIR/schemas)
-                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/schemas" ]; then
-                    tar -czf artifacts/schemas.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}" schemas
+                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/${{ env.SOLARIS_API_VERSION }}/schemas" ]; then
+                    tar -czf artifacts/schemas.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}/${{ env.SOLARIS_API_VERSION }}" schemas
                   else
                     echo "Warning: ${BASE_OUTPUT_DIR}/schemas not found"
                   fi
 
                   # Package data (path: $BASE_OUTPUT_DIR/data)
-                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/data" ]; then
-                    tar -czf artifacts/data.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}" data
+                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/${{ env.SOLARIS_API_VERSION }}/data" ]; then
+                    tar -czf artifacts/data.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}/${{ env.SOLARIS_API_VERSION }}" data
                   else
                     echo "Warning: ${BASE_OUTPUT_DIR}/data not found"
                   fi
 
                   # Package sharded_data (path: $BASE_OUTPUT_DIR/sharded_data)
-                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/sharded_data" ]; then
-                    tar -czf artifacts/sharded_data.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}" sharded_data
+                  if [ -d "${{ env.BASE_OUTPUT_DIR }}/${{ env.SOLARIS_API_VERSION }}/sharded_data" ]; then
+                    tar -czf artifacts/sharded_data.tar.gz -C "${{ env.BASE_OUTPUT_DIR }}/${{ env.SOLARIS_API_VERSION }}" sharded_data
                   else
                     echo "Warning: ${BASE_OUTPUT_DIR}/sharded_data not found"
                   fi
