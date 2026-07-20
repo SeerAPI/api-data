@@ -92,24 +92,6 @@ jobs:
             #     # 推送到 cnb.cool 仓库
             #     git push cnb main --force
 
-            - name: Set up Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version: "22"
-                  cache: npm
-
-            - name: Install Node dependencies
-              run: npm ci
-
-            - name: Upload data to blob
-              env:
-                  BLOB_TOKEN: ${{ secrets.BLOB_TOKEN }}
-                  BLOB_PROJECT_ID: ${{ secrets.BLOB_PROJECT_ID }}
-                  BLOB_STORE_NAME: ${{ secrets.BLOB_STORE_NAME }}
-              run: |
-                  npx tsx upload_data_to_blob.ts data/v1/schemas/ --store seerapi-v1 --prefix schemas/
-                  npx tsx upload_data_to_blob.ts data/v1/sharded_data/ --store seerapi-v1 --prefix sharded_data/
-
             - name: Create archives for release
               run: |
                   set -eux
@@ -180,3 +162,10 @@ jobs:
                   draft: false
                   make_latest: true
                   fail_on_unmatched_files: true
+
+            - name: Repository Dispatch
+              uses: peter-evans/repository-dispatch@v4
+              with:
+                  token: ${{ secrets.PAT }}
+                  repository: seerapi/eo-seerapi
+                  event-type: api-data-updated
