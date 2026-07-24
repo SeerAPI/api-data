@@ -1,0 +1,55 @@
+{
+  "data": {
+    "29411": {
+      "id": 29411,
+      "name": "酷移动",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "自身的攻击、速度变得酷、更酷，最酷了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "3回合内每回合自身攻击和速度提高2个等级",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合自身攻击和速度提高2个等级（boss有效）",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 126,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/126"
+          }
+        },
+        {
+          "info": "3回合内受到物理攻击时有50%概率将对手麻痹",
+          "analyze_info": "[sprite name=iconHit]3回合内受到物理攻击时有50%概率将对手[color=#57c975]麻痹[/color]（boss有效）",
+          "args": [
+            3,
+            50
+          ],
+          "effect": {
+            "id": 84,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/84"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "f593add2"
+}

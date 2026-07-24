@@ -20,17 +20,20 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "打出致命一击时消除对手回合类效果、能力提升效果",
-      "analyze_info": "[sprite name=iconHit]打出[color=#57c975]致命一击[/color]时消除对手[color=#52a5f2]回合类效果[/color]、能力提升效果",
-      "args": [],
+      "info": "100%令对手0，未触发则解除自身所处的异常状态",
+      "analyze_info": "",
+      "args": [
+        100,
+        0
+      ],
       "effect": {
-        "id": 2466,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2466"
+        "id": 2530,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2530"
       }
     }
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "48afabf"
+  "hash": "efc625bd"
 }

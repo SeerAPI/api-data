@@ -1,8 +1,8 @@
 {
   "id": 1260,
-  "desc": "登场后召唤神圣雷电：首次攻击100%令对手麻痹且无视对手免疫伤害效果，之后每次登场麻痹触发概率为50%；|战斗阶段结束时，若自身体力低于最大体力的1/2则100%令对手麻痹，未触发则消除对手回合类效果；若自身体力高于最大体力的1/2则下回合自身造成的伤害随机提高50%-100%（boss无效）",
+  "desc": "登场时召唤神圣雷电|战斗阶段结束时，若自身体力低于最大体力的1/2则100%令对手麻痹，未触发则消除对手回合类效果，若自身体力高于最大体力的1/2则下回合自身造成的攻击伤害随机提升50%-100%（boss无效）",
   "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>登场效果：\r\n<indent=16><sprite=3><indent=32>登场后召唤神圣雷电：首次攻击100%<color=#64F9FA>令对手麻痹</color>且<color=#64F9FA>无视</color><b>免疫伤害效果</b>，之后登场的效果概率改为50%\r\n\r\n<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若自身体力低于最大体力的1/2则100%<color=#64F9FA>令对手麻痹</color>\r\n未触发则<color=#64F9FA>消除</color>对手<b>回合类效果</b>\r\n<indent=32><sprite=4><indent=48>若自身体力高于最大体力的1/2则下回合自身造成的<b>攻击伤害</b>随机<color=#64F9FA>提升</color>50-100%",
-  "analyze_desc": "",
+  "analyze_desc": "[sprite name=dot4][color=#57c975]登场时[/color]召唤[color=#f35555]神圣雷电[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若自身体力低于最大体力的1/2则100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]，若自身体力高于最大体力的1/2则下回合自身造成的攻击伤害随机提升50%-100%",
   "pve_effective": false,
   "intensified": false,
   "is_adv": false,
@@ -43,8 +43,11 @@
       "url": "https://api.seerapi.com/v1/soulmark_tag/11"
     }
   ],
-  "intensified_to": null,
+  "intensified_to": {
+    "id": 2121,
+    "url": "https://api.seerapi.com/v1/soulmark/2121"
+  },
   "from": null,
   "advance": null,
-  "hash": "303d697c"
+  "hash": "e31fa57c"
 }

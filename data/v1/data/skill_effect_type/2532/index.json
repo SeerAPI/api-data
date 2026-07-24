@@ -1,12 +1,17 @@
 {
   "id": 2532,
   "args_num": 3,
-  "info": "1",
+  "info": "本场战斗己方精灵每在场下受到{0}点伤害，汲取对手{1}点体力恢复至己方不在场精灵，最高不超过对手最大体力的{2}%",
   "info_formatting_adjustment": null,
   "analyze_info": "",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 40006,
+      "url": "https://api.seerapi.com/v1/skill/40006"
+    }
+  ],
   "tag": [
     {
       "id": 60828,
@@ -17,5 +22,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114"
     }
   ],
-  "hash": "f269a421"
+  "hash": "e37b3125"
 }

@@ -20,19 +20,20 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "对手没有信仰对象时威力提升100%，若对手为对方存活精灵中唯一没有信仰对象的精灵则改为秒杀对手",
-      "analyze_info": "[sprite name=iconHit]对手没有[color=#57c975]信仰对象[/color]时[color=#52a5f2]威力[/color]提升100%，若对手为对方存活精灵中唯一没有[color=#57c975]信仰对象[/color]的精灵则改为[color=#57c975]秒杀[/color]对手",
+      "info": "击败对手时，自身下回合开始时恢复最大体力的1/1并使自身下次攻击后附加恢复量100%的百分比伤害",
+      "analyze_info": "",
       "args": [
+        1,
         100
       ],
       "effect": {
-        "id": 2464,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2464"
+        "id": 2528,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2528"
       }
     }
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "c419886b"
+  "hash": "5ae8a7cb"
 }

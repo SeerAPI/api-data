@@ -22,12 +22,16 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "解除自身能力下降状态，自身不处于能力下降状态则改为消除对手能力提升状态",
-          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态，自身不处于能力下降状态则改为消除对手能力提升状态",
-          "args": [],
+          "info": "100%令对手0，未触发则恢复自身所有技能2点PP值",
+          "analyze_info": "",
+          "args": [
+            100,
+            0,
+            2
+          ],
           "effect": {
-            "id": 2470,
-            "url": "https://api.seerapi.com/v1/skill_effect_type/2470"
+            "id": 2533,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2533"
           }
         }
       ],
@@ -36,5 +40,5 @@
       "advance": null
     }
   },
-  "hash": "5699f6eb"
+  "hash": "733cd81d"
 }

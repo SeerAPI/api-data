@@ -1,12 +1,17 @@
 {
   "id": 2528,
   "args_num": 2,
-  "info": "1",
+  "info": "击败对手时，自身下回合开始时恢复最大体力的1/{0}并使自身下次攻击后附加恢复量{1}%的百分比伤害",
   "info_formatting_adjustment": null,
   "analyze_info": "",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 40003,
+      "url": "https://api.seerapi.com/v1/skill/40003"
+    }
+  ],
   "tag": [
     {
       "id": 62114,
@@ -17,5 +22,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
     }
   ],
-  "hash": "e238d014"
+  "hash": "a96d8a75"
 }

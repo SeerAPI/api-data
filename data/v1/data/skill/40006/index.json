@@ -20,19 +20,21 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "对手不处于异常状态时对手3回合内属性技能无效",
-      "analyze_info": "[sprite name=iconHit]对手不处于异常状态时对手3回合内属性技能无效",
+      "info": "本场战斗己方精灵每在场下受到1点伤害，汲取对手1点体力恢复至己方不在场精灵，最高不超过对手最大体力的50%",
+      "analyze_info": "",
       "args": [
-        3
+        1,
+        1,
+        50
       ],
       "effect": {
-        "id": 2467,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2467"
+        "id": 2532,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2532"
       }
     }
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "1de72508"
+  "hash": "88958ce6"
 }

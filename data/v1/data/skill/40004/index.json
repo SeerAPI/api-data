@@ -20,19 +20,20 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "对手拥有信仰对象时吸取对手最大体力的1/3，若对手为对方存活精灵中唯一拥有信仰对象的精灵则改为秒杀对手",
-      "analyze_info": "[sprite name=iconHit]对手拥有[color=#57c975]信仰对象[/color]时[color=#52a5f2]吸取[/color]对手最大体力的1/3，若对手为对方存活精灵中唯一拥有[color=#57c975]信仰对象[/color]的精灵则改为[color=#57c975]秒杀[/color]对手",
+      "info": "3回合内若对手处于1则无法行动",
+      "analyze_info": "",
       "args": [
-        3
+        3,
+        1
       ],
       "effect": {
-        "id": 2465,
-        "url": "https://api.seerapi.com/v1/skill_effect_type/2465"
+        "id": 2529,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2529"
       }
     }
   ],
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "faff60df"
+  "hash": "99d3747a"
 }

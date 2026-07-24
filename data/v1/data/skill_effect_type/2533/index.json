@@ -1,12 +1,17 @@
 {
   "id": 2533,
   "args_num": 3,
-  "info": "1",
+  "info": "{0}%令对手{1}，未触发则恢复自身所有技能{2}点PP值",
   "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则恢复自身所有技能{2}点PP值",
   "analyze_info": "",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 40007,
+      "url": "https://api.seerapi.com/v1/skill/40007"
+    }
+  ],
   "tag": [
     {
       "id": 813,
@@ -17,5 +22,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/62114"
     }
   ],
-  "hash": "75b7fa55"
+  "hash": "29bbedb9"
 }

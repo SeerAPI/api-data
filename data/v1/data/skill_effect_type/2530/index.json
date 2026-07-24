@@ -1,12 +1,17 @@
 {
   "id": 2530,
   "args_num": 2,
-  "info": "1",
+  "info": "{0}%令对手{1}，未触发则解除自身所处的异常状态",
   "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则解除自身所处的异常状态",
   "analyze_info": "",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 40005,
+      "url": "https://api.seerapi.com/v1/skill/40005"
+    }
+  ],
   "tag": [
     {
       "id": 813,
@@ -17,5 +22,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/37134"
     }
   ],
-  "hash": "281388b6"
+  "hash": "e5d0d68f"
 }
