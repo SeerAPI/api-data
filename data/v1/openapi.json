@@ -4592,6 +4592,317 @@
         "deprecated": false
       }
     },
+    "v1/item/{id}": {
+      "get": {
+        "tags": [
+          "道具"
+        ],
+        "summary": "获取道具资源",
+        "description": "道具资源。",
+        "operationId": "get_item_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/item/{name}": {
+      "get": {
+        "tags": [
+          "道具"
+        ],
+        "summary": "通过名称获取道具资源",
+        "description": "道具资源。",
+        "operationId": "get_item_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/item/": {
+      "get": {
+        "tags": [
+          "道具"
+        ],
+        "summary": "获取道具资源列表",
+        "description": "道具资源。",
+        "operationId": "get_item_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/item_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/item_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/item_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/item_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/item_category/{id}": {
+      "get": {
+        "tags": [
+          "道具",
+          "分类"
+        ],
+        "summary": "获取道具分类资源",
+        "description": "道具分类资源。",
+        "operationId": "get_item_category_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item_category"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item_category"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/item_category/{name}": {
+      "get": {
+        "tags": [
+          "道具",
+          "分类"
+        ],
+        "summary": "通过名称获取道具分类资源",
+        "description": "道具分类资源。",
+        "operationId": "get_item_category_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item_category_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/item_category_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/item_category/": {
+      "get": {
+        "tags": [
+          "道具",
+          "分类"
+        ],
+        "summary": "获取道具分类资源列表",
+        "description": "道具分类资源。",
+        "operationId": "get_item_category_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/item_category_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/item_category_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/item_category_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/item_category_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/gem/{id}": {
       "get": {
         "tags": [
@@ -8937,15 +9248,16 @@
         "deprecated": false
       }
     },
-    "v1/pet_encyclopedia_entry/{id}": {
+    "v1/pet_archive_story_entry/{id}": {
       "get": {
         "tags": [
           "精灵",
+          "故事",
           "图鉴"
         ],
-        "summary": "获取精灵图鉴条目资源",
-        "description": "精灵图鉴条目，该资源部分字段来源于旧版图鉴。",
-        "operationId": "get_pet_encyclopedia_entry_by_id",
+        "summary": "获取精灵故事条目资源",
+        "description": "精灵故事条目（永夜纪年/莱达物语）。",
+        "operationId": "get_pet_archive_story_entry_by_id",
         "parameters": [
           {
             "$ref": "#/components/parameters/id"
@@ -8965,12 +9277,12 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/pet_encyclopedia_entry"
+                  "$ref": "#/components/schemas/pet_archive_story_entry"
                 }
               },
               "application/schema-instance+json": {
                 "schema": {
-                  "$ref": "#/components/schemas/pet_encyclopedia_entry"
+                  "$ref": "#/components/schemas/pet_archive_story_entry"
                 }
               }
             }
@@ -8982,60 +9294,16 @@
         "deprecated": false
       }
     },
-    "v1/pet_encyclopedia_entry/{name}": {
+    "v1/pet_archive_story_entry/": {
       "get": {
         "tags": [
           "精灵",
+          "故事",
           "图鉴"
         ],
-        "summary": "通过名称获取精灵图鉴条目资源",
-        "description": "精灵图鉴条目，该资源部分字段来源于旧版图鉴。",
-        "operationId": "get_pet_encyclopedia_entry_by_name",
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/name"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "headers": {
-              "ETag": {
-                "$ref": "#/components/headers/Etag"
-              },
-              "Link": {
-                "$ref": "#/components/headers/Link"
-              }
-            },
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/pet_encyclopedia_entry_NamedData"
-                }
-              },
-              "application/schema-instance+json": {
-                "schema": {
-                  "$ref": "#/components/schemas/pet_encyclopedia_entry_NamedData"
-                }
-              }
-            }
-          },
-          "304": {
-            "$ref": "#/components/responses/304_NotModified"
-          }
-        },
-        "deprecated": false
-      }
-    },
-    "v1/pet_encyclopedia_entry/": {
-      "get": {
-        "tags": [
-          "精灵",
-          "图鉴"
-        ],
-        "summary": "获取精灵图鉴条目资源列表",
-        "description": "精灵图鉴条目，该资源部分字段来源于旧版图鉴。",
-        "operationId": "get_pet_encyclopedia_entry_list",
+        "summary": "获取精灵故事条目资源列表",
+        "description": "精灵故事条目（永夜纪年/莱达物语）。",
+        "operationId": "get_pet_archive_story_entry_list",
         "parameters": [
           {
             "$ref": "#/components/parameters/offset"
@@ -9063,10 +9331,10 @@
                 "schema": {
                   "oneOf": [
                     {
-                      "$ref": "#/components/schemas/pet_encyclopedia_entry_List"
+                      "$ref": "#/components/schemas/pet_archive_story_entry_List"
                     },
                     {
-                      "$ref": "#/components/schemas/pet_encyclopedia_entry_ListExpanded"
+                      "$ref": "#/components/schemas/pet_archive_story_entry_ListExpanded"
                     }
                   ],
                   "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
@@ -9076,10 +9344,10 @@
                 "schema": {
                   "oneOf": [
                     {
-                      "$ref": "#/components/schemas/pet_encyclopedia_entry_List"
+                      "$ref": "#/components/schemas/pet_archive_story_entry_List"
                     },
                     {
-                      "$ref": "#/components/schemas/pet_encyclopedia_entry_ListExpanded"
+                      "$ref": "#/components/schemas/pet_archive_story_entry_ListExpanded"
                     }
                   ],
                   "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
@@ -9243,6 +9511,163 @@
                     },
                     {
                       "$ref": "#/components/schemas/pet_archive_story_book_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/pet_encyclopedia_entry/{id}": {
+      "get": {
+        "tags": [
+          "精灵",
+          "图鉴"
+        ],
+        "summary": "获取精灵图鉴条目资源",
+        "description": "精灵图鉴条目，该资源部分字段来源于旧版图鉴。",
+        "operationId": "get_pet_encyclopedia_entry_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_encyclopedia_entry"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_encyclopedia_entry"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/pet_encyclopedia_entry/{name}": {
+      "get": {
+        "tags": [
+          "精灵",
+          "图鉴"
+        ],
+        "summary": "通过名称获取精灵图鉴条目资源",
+        "description": "精灵图鉴条目，该资源部分字段来源于旧版图鉴。",
+        "operationId": "get_pet_encyclopedia_entry_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_encyclopedia_entry_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pet_encyclopedia_entry_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/pet_encyclopedia_entry/": {
+      "get": {
+        "tags": [
+          "精灵",
+          "图鉴"
+        ],
+        "summary": "获取精灵图鉴条目资源列表",
+        "description": "精灵图鉴条目，该资源部分字段来源于旧版图鉴。",
+        "operationId": "get_pet_encyclopedia_entry_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/pet_encyclopedia_entry_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/pet_encyclopedia_entry_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/pet_encyclopedia_entry_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/pet_encyclopedia_entry_ListExpanded"
                     }
                   ],
                   "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
@@ -18112,6 +18537,635 @@
         "title": "术语条目资源列表（expand=true）",
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "glossary_entry"
+      },
+      "item": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "物品名称"
+              },
+              "desc": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Desc",
+                "description": "物品描述，可能为空（在游戏内显示为默认描述）"
+              },
+              "max": {
+                "type": "integer",
+                "title": "Max",
+                "description": "物品最大数量"
+              },
+              "category": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "item_category"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "max",
+              "category"
+            ],
+            "title": "Item"
+          }
+        ],
+        "title": "道具资源",
+        "examples": [
+          {
+            "id": 100274,
+            "name": "血色头盔",
+            "desc": null,
+            "max": 1,
+            "category": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/item_category/1"
+            },
+            "hash": "22019666"
+          }
+        ]
+      },
+      "item_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/item"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射道具资源",
+        "examples": [
+          {
+            "id": 100274,
+            "name": "血色头盔",
+            "desc": null,
+            "max": 1,
+            "category": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/item_category/1"
+            },
+            "hash": "22019666"
+          }
+        ]
+      },
+      "item_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "item"
+          }
+        ],
+        "title": "道具资源列表",
+        "examples": [
+          {
+            "id": 100274,
+            "name": "血色头盔",
+            "desc": null,
+            "max": 1,
+            "category": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/item_category/1"
+            },
+            "hash": "22019666"
+          }
+        ]
+      },
+      "item_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/item"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "道具资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "item"
+      },
+      "item_category": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "物品分类名称"
+              },
+              "max": {
+                "type": "integer",
+                "title": "Max",
+                "description": "物品最大数量"
+              },
+              "item": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "item"
+                },
+                "type": "array",
+                "title": "Item",
+                "description": "该分类下的所有物品"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "max"
+            ],
+            "title": "ItemCategory"
+          }
+        ],
+        "title": "道具分类资源",
+        "examples": [
+          {
+            "id": 10,
+            "name": "元神珠",
+            "max": 20,
+            "item": [
+              {
+                "id": 1000022,
+                "url": "https://api.seerapi.com/v1/item/1000022"
+              },
+              {
+                "id": 1000021,
+                "url": "https://api.seerapi.com/v1/item/1000021"
+              },
+              {
+                "id": 1000020,
+                "url": "https://api.seerapi.com/v1/item/1000020"
+              },
+              {
+                "id": 1000019,
+                "url": "https://api.seerapi.com/v1/item/1000019"
+              },
+              {
+                "id": 1000018,
+                "url": "https://api.seerapi.com/v1/item/1000018"
+              },
+              {
+                "id": 1000017,
+                "url": "https://api.seerapi.com/v1/item/1000017"
+              },
+              {
+                "id": 1000016,
+                "url": "https://api.seerapi.com/v1/item/1000016"
+              },
+              {
+                "id": 1000015,
+                "url": "https://api.seerapi.com/v1/item/1000015"
+              },
+              {
+                "id": 1000014,
+                "url": "https://api.seerapi.com/v1/item/1000014"
+              },
+              {
+                "id": 1000013,
+                "url": "https://api.seerapi.com/v1/item/1000013"
+              },
+              {
+                "id": 1000012,
+                "url": "https://api.seerapi.com/v1/item/1000012"
+              },
+              {
+                "id": 1000011,
+                "url": "https://api.seerapi.com/v1/item/1000011"
+              },
+              {
+                "id": 1000010,
+                "url": "https://api.seerapi.com/v1/item/1000010"
+              },
+              {
+                "id": 1000009,
+                "url": "https://api.seerapi.com/v1/item/1000009"
+              },
+              {
+                "id": 1000008,
+                "url": "https://api.seerapi.com/v1/item/1000008"
+              },
+              {
+                "id": 1000007,
+                "url": "https://api.seerapi.com/v1/item/1000007"
+              },
+              {
+                "id": 1000006,
+                "url": "https://api.seerapi.com/v1/item/1000006"
+              },
+              {
+                "id": 1000005,
+                "url": "https://api.seerapi.com/v1/item/1000005"
+              },
+              {
+                "id": 1000004,
+                "url": "https://api.seerapi.com/v1/item/1000004"
+              },
+              {
+                "id": 1000003,
+                "url": "https://api.seerapi.com/v1/item/1000003"
+              },
+              {
+                "id": 1000002,
+                "url": "https://api.seerapi.com/v1/item/1000002"
+              },
+              {
+                "id": 1000001,
+                "url": "https://api.seerapi.com/v1/item/1000001"
+              }
+            ],
+            "hash": "8388bf5b"
+          }
+        ]
+      },
+      "item_category_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/item_category"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射道具分类资源",
+        "examples": [
+          {
+            "id": 10,
+            "name": "元神珠",
+            "max": 20,
+            "item": [
+              {
+                "id": 1000022,
+                "url": "https://api.seerapi.com/v1/item/1000022"
+              },
+              {
+                "id": 1000021,
+                "url": "https://api.seerapi.com/v1/item/1000021"
+              },
+              {
+                "id": 1000020,
+                "url": "https://api.seerapi.com/v1/item/1000020"
+              },
+              {
+                "id": 1000019,
+                "url": "https://api.seerapi.com/v1/item/1000019"
+              },
+              {
+                "id": 1000018,
+                "url": "https://api.seerapi.com/v1/item/1000018"
+              },
+              {
+                "id": 1000017,
+                "url": "https://api.seerapi.com/v1/item/1000017"
+              },
+              {
+                "id": 1000016,
+                "url": "https://api.seerapi.com/v1/item/1000016"
+              },
+              {
+                "id": 1000015,
+                "url": "https://api.seerapi.com/v1/item/1000015"
+              },
+              {
+                "id": 1000014,
+                "url": "https://api.seerapi.com/v1/item/1000014"
+              },
+              {
+                "id": 1000013,
+                "url": "https://api.seerapi.com/v1/item/1000013"
+              },
+              {
+                "id": 1000012,
+                "url": "https://api.seerapi.com/v1/item/1000012"
+              },
+              {
+                "id": 1000011,
+                "url": "https://api.seerapi.com/v1/item/1000011"
+              },
+              {
+                "id": 1000010,
+                "url": "https://api.seerapi.com/v1/item/1000010"
+              },
+              {
+                "id": 1000009,
+                "url": "https://api.seerapi.com/v1/item/1000009"
+              },
+              {
+                "id": 1000008,
+                "url": "https://api.seerapi.com/v1/item/1000008"
+              },
+              {
+                "id": 1000007,
+                "url": "https://api.seerapi.com/v1/item/1000007"
+              },
+              {
+                "id": 1000006,
+                "url": "https://api.seerapi.com/v1/item/1000006"
+              },
+              {
+                "id": 1000005,
+                "url": "https://api.seerapi.com/v1/item/1000005"
+              },
+              {
+                "id": 1000004,
+                "url": "https://api.seerapi.com/v1/item/1000004"
+              },
+              {
+                "id": 1000003,
+                "url": "https://api.seerapi.com/v1/item/1000003"
+              },
+              {
+                "id": 1000002,
+                "url": "https://api.seerapi.com/v1/item/1000002"
+              },
+              {
+                "id": 1000001,
+                "url": "https://api.seerapi.com/v1/item/1000001"
+              }
+            ],
+            "hash": "8388bf5b"
+          }
+        ]
+      },
+      "item_category_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "item_category"
+          }
+        ],
+        "title": "道具分类资源列表",
+        "examples": [
+          {
+            "id": 10,
+            "name": "元神珠",
+            "max": 20,
+            "item": [
+              {
+                "id": 1000022,
+                "url": "https://api.seerapi.com/v1/item/1000022"
+              },
+              {
+                "id": 1000021,
+                "url": "https://api.seerapi.com/v1/item/1000021"
+              },
+              {
+                "id": 1000020,
+                "url": "https://api.seerapi.com/v1/item/1000020"
+              },
+              {
+                "id": 1000019,
+                "url": "https://api.seerapi.com/v1/item/1000019"
+              },
+              {
+                "id": 1000018,
+                "url": "https://api.seerapi.com/v1/item/1000018"
+              },
+              {
+                "id": 1000017,
+                "url": "https://api.seerapi.com/v1/item/1000017"
+              },
+              {
+                "id": 1000016,
+                "url": "https://api.seerapi.com/v1/item/1000016"
+              },
+              {
+                "id": 1000015,
+                "url": "https://api.seerapi.com/v1/item/1000015"
+              },
+              {
+                "id": 1000014,
+                "url": "https://api.seerapi.com/v1/item/1000014"
+              },
+              {
+                "id": 1000013,
+                "url": "https://api.seerapi.com/v1/item/1000013"
+              },
+              {
+                "id": 1000012,
+                "url": "https://api.seerapi.com/v1/item/1000012"
+              },
+              {
+                "id": 1000011,
+                "url": "https://api.seerapi.com/v1/item/1000011"
+              },
+              {
+                "id": 1000010,
+                "url": "https://api.seerapi.com/v1/item/1000010"
+              },
+              {
+                "id": 1000009,
+                "url": "https://api.seerapi.com/v1/item/1000009"
+              },
+              {
+                "id": 1000008,
+                "url": "https://api.seerapi.com/v1/item/1000008"
+              },
+              {
+                "id": 1000007,
+                "url": "https://api.seerapi.com/v1/item/1000007"
+              },
+              {
+                "id": 1000006,
+                "url": "https://api.seerapi.com/v1/item/1000006"
+              },
+              {
+                "id": 1000005,
+                "url": "https://api.seerapi.com/v1/item/1000005"
+              },
+              {
+                "id": 1000004,
+                "url": "https://api.seerapi.com/v1/item/1000004"
+              },
+              {
+                "id": 1000003,
+                "url": "https://api.seerapi.com/v1/item/1000003"
+              },
+              {
+                "id": 1000002,
+                "url": "https://api.seerapi.com/v1/item/1000002"
+              },
+              {
+                "id": 1000001,
+                "url": "https://api.seerapi.com/v1/item/1000001"
+              }
+            ],
+            "hash": "8388bf5b"
+          }
+        ]
+      },
+      "item_category_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/item_category"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "道具分类资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "item_category"
       },
       "gem": {
         "allOf": [
@@ -28356,6 +29410,350 @@
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "pet_skin_series_sub_type"
       },
+      "pet_archive_story_entry": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "故事条目ID"
+              },
+              "content": {
+                "type": "string",
+                "title": "Content",
+                "description": "故事条目内容"
+              },
+              "pet": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "pet"
+              },
+              "book": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "pet_archive_story_book"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "content",
+              "pet",
+              "book"
+            ],
+            "title": "PetArchiveStoryEntry"
+          }
+        ],
+        "title": "精灵故事条目资源",
+        "examples": [
+          {
+            "id": 650,
+            "content": "我失去了我的厄孽提亚……",
+            "pet": {
+              "id": 4793,
+              "url": "https://api.seerapi.com/v1/pet/4793"
+            },
+            "book": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/pet_archive_story_book/1"
+            },
+            "hash": "3249a54e"
+          }
+        ]
+      },
+      "pet_archive_story_entry_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "pet_archive_story_entry"
+          }
+        ],
+        "title": "精灵故事条目资源列表",
+        "examples": [
+          {
+            "id": 650,
+            "content": "我失去了我的厄孽提亚……",
+            "pet": {
+              "id": 4793,
+              "url": "https://api.seerapi.com/v1/pet/4793"
+            },
+            "book": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/pet_archive_story_book/1"
+            },
+            "hash": "3249a54e"
+          }
+        ]
+      },
+      "pet_archive_story_entry_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/pet_archive_story_entry"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "精灵故事条目资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "pet_archive_story_entry"
+      },
+      "pet_archive_story_book": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "故事名称"
+              },
+              "entries": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref"
+                },
+                "type": "array",
+                "title": "Entries",
+                "description": "故事条目"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name"
+            ],
+            "title": "PetArchiveStoryBook"
+          }
+        ],
+        "title": "精灵故事系列资源",
+        "examples": [
+          {
+            "id": 2,
+            "name": "莱达物语",
+            "entries": [
+              {
+                "id": 306,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/306"
+              },
+              {
+                "id": 315,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/315"
+              },
+              {
+                "id": 316,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/316"
+              }
+            ],
+            "hash": "726fd01"
+          }
+        ]
+      },
+      "pet_archive_story_book_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/pet_archive_story_book"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射精灵故事系列资源",
+        "examples": [
+          {
+            "id": 2,
+            "name": "莱达物语",
+            "entries": [
+              {
+                "id": 306,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/306"
+              },
+              {
+                "id": 315,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/315"
+              },
+              {
+                "id": 316,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/316"
+              }
+            ],
+            "hash": "726fd01"
+          }
+        ]
+      },
+      "pet_archive_story_book_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "pet_archive_story_book"
+          }
+        ],
+        "title": "精灵故事系列资源列表",
+        "examples": [
+          {
+            "id": 2,
+            "name": "莱达物语",
+            "entries": [
+              {
+                "id": 306,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/306"
+              },
+              {
+                "id": 315,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/315"
+              },
+              {
+                "id": 316,
+                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/316"
+              }
+            ],
+            "hash": "726fd01"
+          }
+        ]
+      },
+      "pet_archive_story_book_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/pet_archive_story_book"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "精灵故事系列资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "pet_archive_story_book"
+      },
       "pet_encyclopedia_entry": {
         "allOf": [
           {
@@ -28600,206 +29998,6 @@
         "title": "精灵图鉴条目资源列表（expand=true）",
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "pet_encyclopedia_entry"
-      },
-      "pet_archive_story_book": {
-        "allOf": [
-          {
-            "$ref": "#/components/schemas/hash_partial"
-          },
-          {
-            "properties": {
-              "id": {
-                "type": "integer",
-                "title": "Id",
-                "description": "资源ID"
-              },
-              "name": {
-                "type": "string",
-                "title": "Name",
-                "description": "故事名称"
-              },
-              "entries": {
-                "items": {
-                  "$ref": "#/components/schemas/common_resource_ref"
-                },
-                "type": "array",
-                "title": "Entries",
-                "description": "故事条目"
-              }
-            },
-            "type": "object",
-            "required": [
-              "id",
-              "name"
-            ],
-            "title": "PetArchiveStoryBook"
-          }
-        ],
-        "title": "精灵故事系列资源",
-        "examples": [
-          {
-            "id": 2,
-            "name": "莱达物语",
-            "entries": [
-              {
-                "id": 306,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/306"
-              },
-              {
-                "id": 315,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/315"
-              },
-              {
-                "id": 316,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/316"
-              }
-            ],
-            "hash": "726fd01"
-          }
-        ]
-      },
-      "pet_archive_story_book_NamedData": {
-        "allOf": [
-          {
-            "$ref": "#/components/schemas/hash_partial"
-          },
-          {
-            "properties": {
-              "data": {
-                "patternProperties": {
-                  "^[0-9]+$": {
-                    "$ref": "#/components/schemas/pet_archive_story_book"
-                  }
-                },
-                "additionalProperties": false,
-                "type": "object"
-              }
-            },
-            "type": "object",
-            "required": [
-              "data"
-            ]
-          }
-        ],
-        "title": "名称映射精灵故事系列资源",
-        "examples": [
-          {
-            "id": 2,
-            "name": "莱达物语",
-            "entries": [
-              {
-                "id": 306,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/306"
-              },
-              {
-                "id": 315,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/315"
-              },
-              {
-                "id": 316,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/316"
-              }
-            ],
-            "hash": "726fd01"
-          }
-        ]
-      },
-      "pet_archive_story_book_List": {
-        "allOf": [
-          {
-            "$ref": "#/components/schemas/common_api_resource_list",
-            "x-model-name": "pet_archive_story_book"
-          }
-        ],
-        "title": "精灵故事系列资源列表",
-        "examples": [
-          {
-            "id": 2,
-            "name": "莱达物语",
-            "entries": [
-              {
-                "id": 306,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/306"
-              },
-              {
-                "id": 315,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/315"
-              },
-              {
-                "id": 316,
-                "url": "https://api.seerapi.com/v1/pet_archive_story_entry/316"
-              }
-            ],
-            "hash": "726fd01"
-          }
-        ]
-      },
-      "pet_archive_story_book_ListExpanded": {
-        "properties": {
-          "count": {
-            "type": "integer",
-            "description": "资源数量"
-          },
-          "next": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "description": "下一页URL"
-          },
-          "previous": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "description": "上一页URL"
-          },
-          "first": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "description": "第一页URL"
-          },
-          "last": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ],
-            "description": "最后一页URL"
-          },
-          "results": {
-            "items": {
-              "$ref": "#/components/schemas/pet_archive_story_book"
-            },
-            "type": "array",
-            "description": "资源列表"
-          }
-        },
-        "type": "object",
-        "required": [
-          "count",
-          "results"
-        ],
-        "title": "精灵故事系列资源列表（expand=true）",
-        "description": "expand=true 时返回完整资源对象列表",
-        "x-model-name": "pet_archive_story_book"
       },
       "skill": {
         "allOf": [
@@ -30500,6 +31698,14 @@
                 "type": "string",
                 "title": "glossary_entry Path"
               },
+              "item": {
+                "type": "string",
+                "title": "item Path"
+              },
+              "item_category": {
+                "type": "string",
+                "title": "item_category Path"
+              },
               "gem": {
                 "type": "string",
                 "title": "gem Path"
@@ -30620,13 +31826,17 @@
                 "type": "string",
                 "title": "pet_skin_series_sub_type Path"
               },
-              "pet_encyclopedia_entry": {
+              "pet_archive_story_entry": {
                 "type": "string",
-                "title": "pet_encyclopedia_entry Path"
+                "title": "pet_archive_story_entry Path"
               },
               "pet_archive_story_book": {
                 "type": "string",
                 "title": "pet_archive_story_book Path"
+              },
+              "pet_encyclopedia_entry": {
+                "type": "string",
+                "title": "pet_encyclopedia_entry Path"
               },
               "skill": {
                 "type": "string",
@@ -30685,6 +31895,8 @@
               "element_type_combination",
               "error_code",
               "glossary_entry",
+              "item",
+              "item_category",
               "gem",
               "gem_category",
               "gem_generation_category",
@@ -30715,8 +31927,9 @@
               "pet_skin_category",
               "pet_skin_series",
               "pet_skin_series_sub_type",
-              "pet_encyclopedia_entry",
+              "pet_archive_story_entry",
               "pet_archive_story_book",
+              "pet_encyclopedia_entry",
               "skill",
               "skill_effect_type",
               "skill_effect_param",

@@ -122,6 +122,14 @@
           "title": "glossary_entry Path",
           "type": "string"
         },
+        "item": {
+          "title": "item Path",
+          "type": "string"
+        },
+        "item_category": {
+          "title": "item_category Path",
+          "type": "string"
+        },
         "gem": {
           "title": "gem Path",
           "type": "string"
@@ -242,12 +250,16 @@
           "title": "pet_skin_series_sub_type Path",
           "type": "string"
         },
-        "pet_encyclopedia_entry": {
-          "title": "pet_encyclopedia_entry Path",
+        "pet_archive_story_entry": {
+          "title": "pet_archive_story_entry Path",
           "type": "string"
         },
         "pet_archive_story_book": {
           "title": "pet_archive_story_book Path",
+          "type": "string"
+        },
+        "pet_encyclopedia_entry": {
+          "title": "pet_encyclopedia_entry Path",
           "type": "string"
         },
         "skill": {
@@ -306,6 +318,8 @@
         "element_type_combination",
         "error_code",
         "glossary_entry",
+        "item",
+        "item_category",
         "gem",
         "gem_category",
         "gem_generation_category",
@@ -336,8 +350,9 @@
         "pet_skin_category",
         "pet_skin_series",
         "pet_skin_series_sub_type",
-        "pet_encyclopedia_entry",
+        "pet_archive_story_entry",
         "pet_archive_story_book",
+        "pet_encyclopedia_entry",
         "skill",
         "skill_effect_type",
         "skill_effect_param",
