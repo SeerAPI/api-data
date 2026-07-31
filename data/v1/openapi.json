@@ -27311,7 +27311,55 @@
                   }
                 ],
                 "title": "Card Price",
-                "description": "皮肤礼卡价格，当皮肤未上架礼卡商店时为null"
+                "description": "该皮肤使用礼卡购买时的价格，当皮肤未上架礼卡商店时为null"
+              },
+              "diamond_price": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Diamond Price",
+                "description": "该皮肤使用钻石购买时的价格，当皮肤未上架钻石商店时为null"
+              },
+              "skinhouse_price": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Skinhouse Price",
+                "description": "该皮肤在神秘屋购买时的价格，当皮肤未上架神秘屋时为null"
+              },
+              "discounted_skinhouse_price": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Discounted Skinhouse Price",
+                "description": "该皮肤在神秘屋的折扣价格，当皮肤未上架神秘屋或没有折扣时为null"
+              },
+              "ticket_num": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Ticket Num",
+                "description": "该皮肤在神秘屋购买时可使用的优惠券数量，当皮肤未上架神秘屋时为null"
               },
               "pet": {
                 "$ref": "#/components/schemas/common_resource_ref",
@@ -27365,6 +27413,7 @@
             "resource_id": 1400774,
             "enemy_resource_id": null,
             "card_price": null,
+            "diamond_price": null,
             "pet": {
               "id": 5000,
               "url": "https://api.seerapi.com/v1/pet/5000"
@@ -27377,6 +27426,9 @@
               "id": 13,
               "url": "https://api.seerapi.com/v1/pet_skin_series/13"
             },
+            "skinhouse_price": null,
+            "discounted_skinhouse_price": null,
+            "ticket_num": null,
             "sub_type": null,
             "hash": "1dca20ae"
           }
@@ -27413,6 +27465,7 @@
             "resource_id": 1400774,
             "enemy_resource_id": null,
             "card_price": null,
+            "diamond_price": null,
             "pet": {
               "id": 5000,
               "url": "https://api.seerapi.com/v1/pet/5000"
@@ -27425,6 +27478,9 @@
               "id": 13,
               "url": "https://api.seerapi.com/v1/pet_skin_series/13"
             },
+            "skinhouse_price": null,
+            "discounted_skinhouse_price": null,
+            "ticket_num": null,
             "sub_type": null,
             "hash": "1dca20ae"
           }
@@ -27445,6 +27501,7 @@
             "resource_id": 1400774,
             "enemy_resource_id": null,
             "card_price": null,
+            "diamond_price": null,
             "pet": {
               "id": 5000,
               "url": "https://api.seerapi.com/v1/pet/5000"
@@ -27457,6 +27514,9 @@
               "id": 13,
               "url": "https://api.seerapi.com/v1/pet_skin_series/13"
             },
+            "skinhouse_price": null,
+            "discounted_skinhouse_price": null,
+            "ticket_num": null,
             "sub_type": null,
             "hash": "1dca20ae"
           }

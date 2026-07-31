@@ -58,8 +58,60 @@
             }
           ],
           "default": null,
-          "description": "皮肤礼卡价格，当皮肤未上架礼卡商店时为null",
+          "description": "该皮肤使用礼卡购买时的价格，当皮肤未上架礼卡商店时为null",
           "title": "Card Price"
+        },
+        "diamond_price": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该皮肤使用钻石购买时的价格，当皮肤未上架钻石商店时为null",
+          "title": "Diamond Price"
+        },
+        "skinhouse_price": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该皮肤在神秘屋购买时的价格，当皮肤未上架神秘屋时为null",
+          "title": "Skinhouse Price"
+        },
+        "discounted_skinhouse_price": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该皮肤在神秘屋的折扣价格，当皮肤未上架神秘屋或没有折扣时为null",
+          "title": "Discounted Skinhouse Price"
+        },
+        "ticket_num": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该皮肤在神秘屋购买时可使用的优惠券数量，当皮肤未上架神秘屋时为null",
+          "title": "Ticket Num"
         },
         "pet": {
           "$ref": "#/$defs/ResourceRef_Pet_",
