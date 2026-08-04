@@ -1,0 +1,53 @@
+{
+  "data": {
+    "87": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/7"
+      },
+      "id": 87,
+      "name": "鲁加斯",
+      "description": "每有一只己方精灵触发阵亡效果，对随机1只对方精灵造成4点伤害",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10087,
+        "url": "https://api.seerapi.com/v1/autocard/10087"
+      },
+      "non_awaken_card": null
+    },
+    "10087": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/7"
+      },
+      "id": 10087,
+      "name": "鲁加斯",
+      "description": "每有一只己方精灵触发阵亡效果，对随机2只对方精灵造成4点伤害",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 87,
+        "url": "https://api.seerapi.com/v1/autocard/87"
+      }
+    }
+  },
+  "hash": "d031b3d4"
+}

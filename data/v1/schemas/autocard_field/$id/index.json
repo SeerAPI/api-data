@@ -1,0 +1,69 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "Buff": {
+          "properties": {
+            "name": {
+              "description": "Buff名称",
+              "title": "Name",
+              "type": "string"
+            },
+            "description": {
+              "description": "Buff描述",
+              "title": "Description",
+              "type": "string"
+            },
+            "open_turn": {
+              "description": "该Buff可被选择的最早回合（即从第几回合起可开放选择）",
+              "title": "Open Turn",
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name",
+            "description",
+            "open_turn"
+          ],
+          "title": "Buff",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "圣域名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "buff_stage": {
+          "additionalProperties": {
+            "items": {
+              "$ref": "#/$defs/Buff"
+            },
+            "type": "array"
+          },
+          "description": "Buff阶段，包含每个阶段的所有可选项",
+          "title": "Buff Stage",
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "buff_stage"
+      ],
+      "title": "AutocardField",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "21": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 21,
+      "name": "伊优",
+      "description": "攻击时获得+1/+1",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 1,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10021,
+        "url": "https://api.seerapi.com/v1/autocard/10021"
+      },
+      "non_awaken_card": null
+    },
+    "10021": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 10021,
+      "name": "伊优",
+      "description": "攻击时获得+2/+2",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 21,
+        "url": "https://api.seerapi.com/v1/autocard/21"
+      }
+    }
+  },
+  "hash": "5454ba44"
+}

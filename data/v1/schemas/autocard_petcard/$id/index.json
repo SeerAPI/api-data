@@ -1,0 +1,119 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_AutocardCardType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "autocard_cardtype"
+        },
+        "ResourceRef_AutocardElementType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "autocard_element_type"
+        },
+        "ResourceRef_Autocard_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "autocard"
+        }
+      },
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/ResourceRef_AutocardCardType_",
+          "description": "卡牌类型"
+        },
+        "element_type": {
+          "$ref": "#/$defs/ResourceRef_AutocardElementType_",
+          "description": "卡牌元素属性"
+        },
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "卡牌名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "description": "卡牌描述",
+          "title": "Description",
+          "type": "string"
+        },
+        "level": {
+          "description": "卡牌等级",
+          "title": "Level",
+          "type": "integer"
+        },
+        "cost": {
+          "description": "卡牌费用",
+          "title": "Cost",
+          "type": "integer"
+        },
+        "is_token": {
+          "description": "该卡牌是否是衍生卡",
+          "title": "Is Token",
+          "type": "boolean"
+        },
+        "attack": {
+          "description": "卡牌攻击力",
+          "title": "Attack",
+          "type": "integer"
+        },
+        "health": {
+          "description": "卡牌生命值",
+          "title": "Health",
+          "type": "integer"
+        },
+        "is_awakened": {
+          "description": "该卡牌是否是觉醒后的卡牌",
+          "title": "Is Awakened",
+          "type": "boolean"
+        },
+        "awaken_card": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Autocard_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该卡牌的觉醒版本，当卡牌不能觉醒时为null"
+        },
+        "non_awaken_card": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Autocard_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该卡牌的非觉醒版本，仅当该卡牌为觉醒后的精灵卡时有效"
+        }
+      },
+      "required": [
+        "type",
+        "element_type",
+        "id",
+        "name",
+        "description",
+        "level",
+        "cost",
+        "is_token",
+        "attack",
+        "health",
+        "is_awakened"
+      ],
+      "title": "PetAutocard",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

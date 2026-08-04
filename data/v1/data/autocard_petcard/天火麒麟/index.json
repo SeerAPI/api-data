@@ -1,0 +1,53 @@
+{
+  "data": {
+    "178": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 178,
+      "name": "天火麒麟",
+      "description": "免疫除攻击伤害之外的所有伤害；战斗阶段开始时从对方对位精灵的嘲讽，连击，护盾，强毒效果中吸取至多2个，每吸取一个永久获得+8/+8",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 8,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10178,
+        "url": "https://api.seerapi.com/v1/autocard/10178"
+      },
+      "non_awaken_card": null
+    },
+    "10178": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10178,
+      "name": "天火麒麟",
+      "description": "免疫除攻击伤害之外的所有伤害；战斗阶段开始时从对方对位精灵的嘲讽，连击，护盾，强毒效果中吸取至多4个，每吸取一个永久获得+8/+8",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 16,
+      "health": 16,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 178,
+        "url": "https://api.seerapi.com/v1/autocard/178"
+      }
+    }
+  },
+  "hash": "1ff7252c"
+}

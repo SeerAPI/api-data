@@ -1,0 +1,53 @@
+{
+  "data": {
+    "48": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/3"
+      },
+      "id": 48,
+      "name": "魔焰猩猩",
+      "description": "己方火系精灵阵亡时，对随机对方精灵造成3点伤害",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10048,
+        "url": "https://api.seerapi.com/v1/autocard/10048"
+      },
+      "non_awaken_card": null
+    },
+    "10048": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/3"
+      },
+      "id": 10048,
+      "name": "魔焰猩猩",
+      "description": "己方火系精灵阵亡时，对随机对方精灵造成2次6点伤害",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/autocard/48"
+      }
+    }
+  },
+  "hash": "db9a4d13"
+}

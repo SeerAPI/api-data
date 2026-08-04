@@ -1,0 +1,53 @@
+{
+  "data": {
+    "145": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 145,
+      "name": "贪食龙",
+      "description": "攻击时获得+2/+2",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10145,
+        "url": "https://api.seerapi.com/v1/autocard/10145"
+      },
+      "non_awaken_card": null
+    },
+    "10145": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 10145,
+      "name": "贪食龙",
+      "description": "攻击时获得+4/+4",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 145,
+        "url": "https://api.seerapi.com/v1/autocard/145"
+      }
+    }
+  },
+  "hash": "68c1fef5"
+}

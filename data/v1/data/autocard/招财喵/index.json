@@ -1,0 +1,53 @@
+{
+  "data": {
+    "163": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 163,
+      "name": "招财喵",
+      "description": "入场：使己方每个系别的各一只精灵获得+2/+2",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10163,
+        "url": "https://api.seerapi.com/v1/autocard/10163"
+      },
+      "non_awaken_card": null
+    },
+    "10163": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10163,
+      "name": "招财喵",
+      "description": "入场：使己方每个系别的各一只精灵获得+4/+4",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 163,
+        "url": "https://api.seerapi.com/v1/autocard/163"
+      }
+    }
+  },
+  "hash": "a86120c7"
+}

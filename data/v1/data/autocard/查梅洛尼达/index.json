@@ -1,0 +1,53 @@
+{
+  "data": {
+    "176": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 176,
+      "name": "查梅洛尼达",
+      "description": "入场：选择一只己方精灵，下回合商店阶段开始时变形为该精灵的普通原始复制",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10176,
+        "url": "https://api.seerapi.com/v1/autocard/10176"
+      },
+      "non_awaken_card": null
+    },
+    "10176": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10176,
+      "name": "查梅洛尼达",
+      "description": "入场：选择一只己方精灵，下回合商店阶段开始时变形为该精灵的觉醒原始复制",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 176,
+        "url": "https://api.seerapi.com/v1/autocard/176"
+      }
+    }
+  },
+  "hash": "9c23abe6"
+}

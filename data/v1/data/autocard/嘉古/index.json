@@ -1,0 +1,53 @@
+{
+  "data": {
+    "149": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 149,
+      "name": "嘉古",
+      "description": "入场，阵亡：获得1张金币卡",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10149,
+        "url": "https://api.seerapi.com/v1/autocard/10149"
+      },
+      "non_awaken_card": null
+    },
+    "10149": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 10149,
+      "name": "嘉古",
+      "description": "入场，阵亡：获得2张金币卡",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 149,
+        "url": "https://api.seerapi.com/v1/autocard/149"
+      }
+    }
+  },
+  "hash": "9914e5d0"
+}

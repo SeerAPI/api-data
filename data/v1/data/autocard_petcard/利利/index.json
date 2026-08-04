@@ -1,0 +1,53 @@
+{
+  "data": {
+    "65": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 65,
+      "name": "利利",
+      "description": "商店阶段结束时，若自身与电系精灵相邻则永久获得+3/+3",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 1,
+      "health": 1,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10065,
+        "url": "https://api.seerapi.com/v1/autocard/10065"
+      },
+      "non_awaken_card": null
+    },
+    "10065": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 10065,
+      "name": "利利",
+      "description": "商店阶段结束时，若自身与电系精灵相邻则永久获得+6/+6",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 65,
+        "url": "https://api.seerapi.com/v1/autocard/65"
+      }
+    }
+  },
+  "hash": "448841bc"
+}

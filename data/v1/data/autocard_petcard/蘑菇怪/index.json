@@ -1,0 +1,53 @@
+{
+  "data": {
+    "6": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 6,
+      "name": "蘑菇怪",
+      "description": "攻击时造成和受到的伤害均提高50%",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 4,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10006,
+        "url": "https://api.seerapi.com/v1/autocard/10006"
+      },
+      "non_awaken_card": null
+    },
+    "10006": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 10006,
+      "name": "蘑菇怪",
+      "description": "攻击时造成和受到的伤害均提高100%",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 8,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard/6"
+      }
+    }
+  },
+  "hash": "fc470541"
+}

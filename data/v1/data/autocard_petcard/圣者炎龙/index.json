@@ -1,0 +1,53 @@
+{
+  "data": {
+    "152": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 152,
+      "name": "圣者炎龙",
+      "description": "入场：己方龙系精灵数量达到3只时，招募1张龙系精灵牌，等级不超过当前商店等级",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 5,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10152,
+        "url": "https://api.seerapi.com/v1/autocard/10152"
+      },
+      "non_awaken_card": null
+    },
+    "10152": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 10152,
+      "name": "圣者炎龙",
+      "description": "入场：己方龙系精灵数量达到3只时，招募2张龙系精灵牌，等级不超过当前商店等级",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 10,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 152,
+        "url": "https://api.seerapi.com/v1/autocard/152"
+      }
+    }
+  },
+  "hash": "ccef8f1f"
+}

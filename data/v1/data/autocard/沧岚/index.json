@@ -1,0 +1,53 @@
+{
+  "data": {
+    "40": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 40,
+      "name": "沧岚",
+      "description": "攻击时对对方所有精灵造成1点伤害，使用水系精灵牌后伤害+1，若攻击时己方没有其他精灵，伤害提升效果翻倍（增伤次数：{0}）",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10040,
+        "url": "https://api.seerapi.com/v1/autocard/10040"
+      },
+      "non_awaken_card": null
+    },
+    "10040": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 10040,
+      "name": "沧岚",
+      "description": "攻击时对对方所有精灵造成2点伤害，使用水系精灵牌后伤害+2，若攻击时己方没有其他精灵，伤害提升效果翻倍（增伤次数：{0}）",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 16,
+      "health": 16,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 40,
+        "url": "https://api.seerapi.com/v1/autocard/40"
+      }
+    }
+  },
+  "hash": "255e5fc5"
+}

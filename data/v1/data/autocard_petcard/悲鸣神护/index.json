@@ -1,0 +1,53 @@
+{
+  "data": {
+    "168": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 168,
+      "name": "悲鸣神护",
+      "description": "阵亡：对敌方对位精灵造成致死攻击溢出部分一半的伤害",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10168,
+        "url": "https://api.seerapi.com/v1/autocard/10168"
+      },
+      "non_awaken_card": null
+    },
+    "10168": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10168,
+      "name": "悲鸣神护",
+      "description": "阵亡：对敌方对位精灵造成致死攻击溢出部分的伤害",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 168,
+        "url": "https://api.seerapi.com/v1/autocard/168"
+      }
+    }
+  },
+  "hash": "8a80580a"
+}

@@ -1,0 +1,103 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_AutocardElementType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "autocard_element_type"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "角色名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "description": "角色描述",
+          "title": "Description",
+          "type": "string"
+        },
+        "health": {
+          "description": "角色初始生命值",
+          "title": "Health",
+          "type": "integer"
+        },
+        "skill_desc": {
+          "description": "角色技能描述",
+          "title": "Skill Desc",
+          "type": "string"
+        },
+        "is_passive_skill": {
+          "description": "角色技能是否为被动技能",
+          "title": "Is Passive Skill",
+          "type": "boolean"
+        },
+        "skill_cost": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "使用技能消耗的金币数量，None表示该技能为被动技能，此字段无效",
+          "title": "Skill Cost"
+        },
+        "skill_game_limit": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "技能在游戏中的使用次数限制，0表示无限制，None表示该技能为被动技能，此字段无效",
+          "title": "Skill Game Limit"
+        },
+        "skill_round_limit": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "技能在回合中的使用次数限制，0表示无限制，None表示该技能为被动技能，此字段无效",
+          "title": "Skill Round Limit"
+        },
+        "element_type": {
+          "$ref": "#/$defs/ResourceRef_AutocardElementType_",
+          "description": "角色元素类型"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "health",
+        "skill_desc",
+        "is_passive_skill",
+        "element_type"
+      ],
+      "title": "AutocardRole",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "161": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 161,
+      "name": "克多尔",
+      "description": "战斗开始时，对对方前排精灵中生命值最高的精灵造成5点伤害",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10161,
+        "url": "https://api.seerapi.com/v1/autocard/10161"
+      },
+      "non_awaken_card": null
+    },
+    "10161": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10161,
+      "name": "克多尔",
+      "description": "战斗开始时，对对方前排精灵中生命值最高的精灵造成10点伤害",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 161,
+        "url": "https://api.seerapi.com/v1/autocard/161"
+      }
+    }
+  },
+  "hash": "64cd61a9"
+}

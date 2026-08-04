@@ -1,0 +1,53 @@
+{
+  "data": {
+    "30001": {
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/3"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 30001,
+      "name": "依卡莱恩",
+      "description": "",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 40001,
+        "url": "https://api.seerapi.com/v1/autocard/40001"
+      },
+      "non_awaken_card": null
+    },
+    "40001": {
+      "type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/3"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 40001,
+      "name": "依卡莱恩",
+      "description": "",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 30001,
+        "url": "https://api.seerapi.com/v1/autocard/30001"
+      }
+    }
+  },
+  "hash": "9b153431"
+}

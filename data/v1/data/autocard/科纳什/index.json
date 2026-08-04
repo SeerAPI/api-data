@@ -1,0 +1,53 @@
+{
+  "data": {
+    "165": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 165,
+      "name": "科纳什",
+      "description": "阵亡：使随机2只己方精灵获得护盾",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 1,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10165,
+        "url": "https://api.seerapi.com/v1/autocard/10165"
+      },
+      "non_awaken_card": null
+    },
+    "10165": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10165,
+      "name": "科纳什",
+      "description": "阵亡：使随机4只己方精灵获得护盾",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 2,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 165,
+        "url": "https://api.seerapi.com/v1/autocard/165"
+      }
+    }
+  },
+  "hash": "960f483d"
+}

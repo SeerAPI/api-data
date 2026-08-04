@@ -1,0 +1,53 @@
+{
+  "data": {
+    "29": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 29,
+      "name": "巴伯洛",
+      "description": "入场：本局游戏内使商店中的精灵获得+1/+1",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10029,
+        "url": "https://api.seerapi.com/v1/autocard/10029"
+      },
+      "non_awaken_card": null
+    },
+    "10029": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 10029,
+      "name": "巴伯洛",
+      "description": "入场：本局游戏内使商店中的精灵获得+2/+2",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 29,
+        "url": "https://api.seerapi.com/v1/autocard/29"
+      }
+    }
+  },
+  "hash": "b5e30730"
+}

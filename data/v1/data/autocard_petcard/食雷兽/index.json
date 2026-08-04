@@ -1,0 +1,53 @@
+{
+  "data": {
+    "78": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 78,
+      "name": "食雷兽",
+      "description": "入场：若己方同列精灵为电系精灵，则招募2张电系精灵牌，等级不超过当前商店等级，并将同列电系精灵移除",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10078,
+        "url": "https://api.seerapi.com/v1/autocard/10078"
+      },
+      "non_awaken_card": null
+    },
+    "10078": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 10078,
+      "name": "食雷兽",
+      "description": "入场：若己方同列精灵为电系精灵，则招募3张电系精灵牌，等级不超过当前商店等级，并将同列电系精灵移除",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 78,
+        "url": "https://api.seerapi.com/v1/autocard/78"
+      }
+    }
+  },
+  "hash": "e689da84"
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "106": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 106,
+      "name": "贝迪",
+      "description": "入场：选择一只己方飞行系精灵，使其获得连击和+1/+1",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10106,
+        "url": "https://api.seerapi.com/v1/autocard/10106"
+      },
+      "non_awaken_card": null
+    },
+    "10106": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 10106,
+      "name": "贝迪",
+      "description": "入场：选择一只己方飞行系精灵，使其获得连击和+2/+2",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 106,
+        "url": "https://api.seerapi.com/v1/autocard/106"
+      }
+    }
+  },
+  "hash": "e4be111f"
+}

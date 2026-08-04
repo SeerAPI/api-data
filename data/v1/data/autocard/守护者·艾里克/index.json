@@ -1,0 +1,53 @@
+{
+  "data": {
+    "76": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 76,
+      "name": "守护者·艾里克",
+      "description": "己方同排其他电系精灵攻击时，获得1张随机电系精灵牌",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10076,
+        "url": "https://api.seerapi.com/v1/autocard/10076"
+      },
+      "non_awaken_card": null
+    },
+    "10076": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 10076,
+      "name": "守护者·艾里克",
+      "description": "己方同排其他电系精灵攻击时，获得2张随机电系精灵牌",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 12,
+      "health": 12,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 76,
+        "url": "https://api.seerapi.com/v1/autocard/76"
+      }
+    }
+  },
+  "hash": "4dcd1d1c"
+}

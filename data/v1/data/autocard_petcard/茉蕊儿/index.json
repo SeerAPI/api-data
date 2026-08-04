@@ -1,0 +1,53 @@
+{
+  "data": {
+    "20": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 20,
+      "name": "茉蕊儿",
+      "description": "护盾，己方同排草系精灵触发强毒时，获得+5/+5和护盾",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10020,
+        "url": "https://api.seerapi.com/v1/autocard/10020"
+      },
+      "non_awaken_card": null
+    },
+    "10020": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 10020,
+      "name": "茉蕊儿",
+      "description": "护盾，己方同排草系精灵触发强毒时，获得+10/+10和护盾",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 12,
+      "health": 12,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 20,
+        "url": "https://api.seerapi.com/v1/autocard/20"
+      }
+    }
+  },
+  "hash": "d61508ce"
+}

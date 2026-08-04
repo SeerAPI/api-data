@@ -1,0 +1,53 @@
+{
+  "data": {
+    "102": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 102,
+      "name": "毛毛",
+      "description": "攻击后排精灵时，永久获得+1/+2",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 1,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10102,
+        "url": "https://api.seerapi.com/v1/autocard/10102"
+      },
+      "non_awaken_card": null
+    },
+    "10102": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 10102,
+      "name": "毛毛",
+      "description": "攻击后排精灵时，永久获得+2/+4",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 102,
+        "url": "https://api.seerapi.com/v1/autocard/102"
+      }
+    }
+  },
+  "hash": "31660fc9"
+}

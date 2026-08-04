@@ -1,0 +1,53 @@
+{
+  "data": {
+    "108": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 108,
+      "name": "巨镰鸟",
+      "description": "攻击时对攻击目标同列的精灵造成等同于自身攻击值的伤害",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10108,
+        "url": "https://api.seerapi.com/v1/autocard/10108"
+      },
+      "non_awaken_card": null
+    },
+    "10108": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 10108,
+      "name": "巨镰鸟",
+      "description": "攻击时对攻击目标同列的精灵造成等同于自身攻击值两倍的伤害",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 108,
+        "url": "https://api.seerapi.com/v1/autocard/108"
+      }
+    }
+  },
+  "hash": "f0483b50"
+}

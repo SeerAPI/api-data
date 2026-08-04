@@ -1,0 +1,53 @@
+{
+  "data": {
+    "129": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/6"
+      },
+      "id": 129,
+      "name": "卡尔玛",
+      "description": "吸附，阵亡：召唤三只1/1的卡玛",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 1,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10129,
+        "url": "https://api.seerapi.com/v1/autocard/10129"
+      },
+      "non_awaken_card": null
+    },
+    "10129": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/6"
+      },
+      "id": 10129,
+      "name": "卡尔玛",
+      "description": "吸附，阵亡：召唤三只2/2的卡玛",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 2,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 129,
+        "url": "https://api.seerapi.com/v1/autocard/129"
+      }
+    }
+  },
+  "hash": "932b9ceb"
+}

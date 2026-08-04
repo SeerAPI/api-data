@@ -1,0 +1,53 @@
+{
+  "data": {
+    "79": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 79,
+      "name": "赫尔卡",
+      "description": "与自身相邻的精灵均被视为电系精灵；相邻的电系精灵攻击时，使其永久获得+2/+2",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 8,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10079,
+        "url": "https://api.seerapi.com/v1/autocard/10079"
+      },
+      "non_awaken_card": null
+    },
+    "10079": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 10079,
+      "name": "赫尔卡",
+      "description": "与自身相邻的精灵均被视为电系精灵；相邻的电系精灵攻击时，使其永久获得+4/+4",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 12,
+      "health": 16,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 79,
+        "url": "https://api.seerapi.com/v1/autocard/79"
+      }
+    }
+  },
+  "hash": "3ab88d92"
+}

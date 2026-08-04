@@ -1,0 +1,53 @@
+{
+  "data": {
+    "139": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/6"
+      },
+      "id": 139,
+      "name": "古代巨型机器人",
+      "description": "攻击时，本局游戏内己方核心升级使机械系精灵额外获得+1/+1，每次战斗阶段最多生效2次",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 5,
+      "health": 10,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10139,
+        "url": "https://api.seerapi.com/v1/autocard/10139"
+      },
+      "non_awaken_card": null
+    },
+    "10139": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/6"
+      },
+      "id": 10139,
+      "name": "古代巨型机器人",
+      "description": "攻击时，本局游戏内己方核心升级使机械系精灵额外获得+2/+2，每次战斗阶段最多生效2次",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 10,
+      "health": 20,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 139,
+        "url": "https://api.seerapi.com/v1/autocard/139"
+      }
+    }
+  },
+  "hash": "df0d77b3"
+}

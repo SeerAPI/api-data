@@ -1,0 +1,53 @@
+{
+  "data": {
+    "110": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 110,
+      "name": "克鲁斯",
+      "description": "相邻己方飞行系精灵攻击后使其获得护盾",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 5,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10110,
+        "url": "https://api.seerapi.com/v1/autocard/10110"
+      },
+      "non_awaken_card": null
+    },
+    "10110": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 10110,
+      "name": "克鲁斯",
+      "description": "相邻己方飞行系精灵攻击后使其获得护盾",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 10,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 110,
+        "url": "https://api.seerapi.com/v1/autocard/110"
+      }
+    }
+  },
+  "hash": "b691c9e1"
+}

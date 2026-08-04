@@ -1,0 +1,53 @@
+{
+  "data": {
+    "88": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/7"
+      },
+      "id": 88,
+      "name": "卡斯达克",
+      "description": "每有一只己方精灵触发阵亡效果，使己方同列地面系精灵永久获得+2/+2",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10088,
+        "url": "https://api.seerapi.com/v1/autocard/10088"
+      },
+      "non_awaken_card": null
+    },
+    "10088": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/7"
+      },
+      "id": 10088,
+      "name": "卡斯达克",
+      "description": "每有一只己方精灵触发阵亡效果，使己方同列地面系精灵永久获得+4/+4",
+      "level": 3,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 88,
+        "url": "https://api.seerapi.com/v1/autocard/88"
+      }
+    }
+  },
+  "hash": "536329eb"
+}

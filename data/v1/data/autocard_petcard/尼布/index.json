@@ -1,0 +1,53 @@
+{
+  "data": {
+    "23": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 23,
+      "name": "尼布",
+      "description": "入场：己方场上每有一只水系精灵，获得+1/+1",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 1,
+      "health": 1,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10023,
+        "url": "https://api.seerapi.com/v1/autocard/10023"
+      },
+      "non_awaken_card": null
+    },
+    "10023": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 10023,
+      "name": "尼布",
+      "description": "入场：己方场上每有一只水系精灵，获得+2/+2",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 23,
+        "url": "https://api.seerapi.com/v1/autocard/23"
+      }
+    }
+  },
+  "hash": "50373ae2"
+}

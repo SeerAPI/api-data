@@ -1,0 +1,53 @@
+{
+  "data": {
+    "175": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 175,
+      "name": "玄元风神",
+      "description": "使用商店法术牌时，使己方每个系别的各一只精灵获得+2/+2",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 5,
+      "health": 8,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10175,
+        "url": "https://api.seerapi.com/v1/autocard/10175"
+      },
+      "non_awaken_card": null
+    },
+    "10175": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 999,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/999"
+      },
+      "id": 10175,
+      "name": "玄元风神",
+      "description": "使用商店法术牌时，使己方每个系别的各一只精灵获得+4/+4",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 10,
+      "health": 16,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 175,
+        "url": "https://api.seerapi.com/v1/autocard/175"
+      }
+    }
+  },
+  "hash": "9b99e1ed"
+}

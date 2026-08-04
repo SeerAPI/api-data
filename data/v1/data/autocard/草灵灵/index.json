@@ -1,0 +1,53 @@
+{
+  "data": {
+    "12": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 12,
+      "name": "草灵灵",
+      "description": "入场：己方同列其他精灵为草系精灵时，招募1张草系精灵牌，等级不超过当前商店等级",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10012,
+        "url": "https://api.seerapi.com/v1/autocard/10012"
+      },
+      "non_awaken_card": null
+    },
+    "10012": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/1"
+      },
+      "id": 10012,
+      "name": "草灵灵",
+      "description": "入场：己方同列其他精灵为草系精灵时，招募2张草系精灵牌，等级不超过当前商店等级",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 12,
+        "url": "https://api.seerapi.com/v1/autocard/12"
+      }
+    }
+  },
+  "hash": "39031a7b"
+}

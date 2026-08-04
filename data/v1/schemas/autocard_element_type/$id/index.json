@@ -1,0 +1,57 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_AutocardRole_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "autocard_role"
+        },
+        "ResourceRef_Autocard_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "autocard"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "类型名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "autocard": {
+          "description": "卡牌列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Autocard_"
+          },
+          "title": "Autocard",
+          "type": "array"
+        },
+        "role": {
+          "description": "角色列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_AutocardRole_"
+          },
+          "title": "Role",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "autocard",
+        "role"
+      ],
+      "title": "AutocardElementType",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

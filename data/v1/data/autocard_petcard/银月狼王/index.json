@@ -1,0 +1,53 @@
+{
+  "data": {
+    "73": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 73,
+      "name": "银月狼王",
+      "description": "攻击时使己方同排电系精灵永久获得+1/+1，并获得1张电力充能",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 5,
+      "health": 5,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10073,
+        "url": "https://api.seerapi.com/v1/autocard/10073"
+      },
+      "non_awaken_card": null
+    },
+    "10073": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 10073,
+      "name": "银月狼王",
+      "description": "攻击时使己方同排电系精灵永久获得+2/+2，并获得2张电力充能",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 10,
+      "health": 10,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/autocard/73"
+      }
+    }
+  },
+  "hash": "b2eaea9b"
+}

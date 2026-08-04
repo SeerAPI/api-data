@@ -1,0 +1,53 @@
+{
+  "data": {
+    "133": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/6"
+      },
+      "id": 133,
+      "name": "卡多奇",
+      "description": "无法攻击，受到攻击时对相邻的机械系精灵使用1张核心升级",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 3,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10133,
+        "url": "https://api.seerapi.com/v1/autocard/10133"
+      },
+      "non_awaken_card": null
+    },
+    "10133": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 6,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/6"
+      },
+      "id": 10133,
+      "name": "卡多奇",
+      "description": "无法攻击，受到攻击时对相邻的机械系精灵使用2张核心升级",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 6,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 133,
+        "url": "https://api.seerapi.com/v1/autocard/133"
+      }
+    }
+  },
+  "hash": "394cf326"
+}

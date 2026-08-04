@@ -1,0 +1,53 @@
+{
+  "data": {
+    "52": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/3"
+      },
+      "id": 52,
+      "name": "地狱兽",
+      "description": "商店阶段己方赛尔受到伤害后，回溯受到的伤害值，并使商店中的火系精灵牌在本回合获得+3/+3",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 4,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10052,
+        "url": "https://api.seerapi.com/v1/autocard/10052"
+      },
+      "non_awaken_card": null
+    },
+    "10052": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/3"
+      },
+      "id": 10052,
+      "name": "地狱兽",
+      "description": "商店阶段己方赛尔受到伤害后，回溯受到的伤害值，并使商店中的火系精灵牌在本回合获得+6/+6",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 8,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 52,
+        "url": "https://api.seerapi.com/v1/autocard/52"
+      }
+    }
+  },
+  "hash": "e58f69c5"
+}

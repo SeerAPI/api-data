@@ -1,0 +1,53 @@
+{
+  "data": {
+    "115": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 115,
+      "name": "净天云神",
+      "description": "己方精灵的连击效果触发2次，连击触发时使其永久获得+1/+1",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10115,
+        "url": "https://api.seerapi.com/v1/autocard/10115"
+      },
+      "non_awaken_card": null
+    },
+    "10115": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 10115,
+      "name": "净天云神",
+      "description": "己方精灵的连击效果触发3次，连击触发时使其永久获得+4/+4",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 8,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 115,
+        "url": "https://api.seerapi.com/v1/autocard/115"
+      }
+    }
+  },
+  "hash": "7a38136"
+}

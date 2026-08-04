@@ -1,0 +1,53 @@
+{
+  "data": {
+    "59": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/3"
+      },
+      "id": 59,
+      "name": "赫尔托罗克",
+      "description": "入场：根据己方赛尔已损失的生命值获得属性值",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 1,
+      "health": 1,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10059,
+        "url": "https://api.seerapi.com/v1/autocard/10059"
+      },
+      "non_awaken_card": null
+    },
+    "10059": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 3,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/3"
+      },
+      "id": 10059,
+      "name": "赫尔托罗克",
+      "description": "入场：根据己方赛尔已损失的生命值获得双倍属性值",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 2,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 59,
+        "url": "https://api.seerapi.com/v1/autocard/59"
+      }
+    }
+  },
+  "hash": "eecdb751"
+}
