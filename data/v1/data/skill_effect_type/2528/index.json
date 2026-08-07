@@ -3,10 +3,14 @@
   "args_num": 2,
   "info": "击败对手时，自身下回合开始时恢复最大体力的1/{0}并使自身下次攻击后附加恢复量{1}%的百分比伤害",
   "info_formatting_adjustment": null,
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手时，自身下[color=#52a5f2]回合开始[/color]时恢复最大体力的1/{0}并使自身下次攻击后附加恢复量{1}%的[color=#52a5f2]百分比伤害[/color]",
   "pve_effective": false,
   "param": null,
   "skill": [
+    {
+      "id": 38485,
+      "url": "https://api.seerapi.com/v1/skill/38485"
+    },
     {
       "id": 40003,
       "url": "https://api.seerapi.com/v1/skill/40003"
@@ -22,5 +26,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
     }
   ],
-  "hash": "a96d8a75"
+  "hash": "770fdcb"
 }

@@ -1,0 +1,60 @@
+{
+  "id": 38486,
+  "name": "火焰拳",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 28,
+    "url": "https://api.seerapi.com/v1/element_type_combination/28"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手能力提升，消除成功2回合内对手无法通过自身技能恢复体力",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升（boss有效），消除成功2回合内对手[color=#52a5f2]无法通过自身技能恢复体力[/color]",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 905,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/905"
+      }
+    },
+    {
+      "info": "2回合内若对手使用属性技能则100%概率令对手烧伤",
+      "analyze_info": "[sprite name=iconHit]2回合内若对手使用属性技能则100%概率令对手[color=#57c975]烧伤[/color]（boss有效）",
+      "args": [
+        2,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 469,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/469"
+      }
+    },
+    {
+      "info": "自身在烧伤、冻伤、中毒状态下造成的伤害反而加倍",
+      "analyze_info": "[sprite name=iconHit]自身在[color=#57c975]烧伤[/color]、[color=#57c975]冻伤[/color]、[color=#57c975]中毒[/color]状态下造成的伤害反而加倍（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 64,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/64"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "c208a0d"
+}

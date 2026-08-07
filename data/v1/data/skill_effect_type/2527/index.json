@@ -3,15 +3,20 @@
   "args_num": 2,
   "info": "双方场上的五行印记每剩余{0}回合，己方{1}回合内免疫固定伤害、百分比伤害",
   "info_formatting_adjustment": null,
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit]双方场上的[color=#f35555]五行印记[/color]每剩余{0}回合，[color=#52a5f2]己方[/color]{1}回合内免疫[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 38485,
+      "url": "https://api.seerapi.com/v1/skill/38485"
+    }
+  ],
   "tag": [
     {
       "id": 52161,
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/52161"
     }
   ],
-  "hash": "7137ecf5"
+  "hash": "a4d4f5fc"
 }

@@ -1,17 +1,29 @@
 {
   "id": 2529,
   "args_num": 2,
-  "info": "{0}回合内若对手处于{1}则无法行动",
+  "info": "{0}回合内若对手处于{1}则对手无法行动",
   "info_formatting_adjustment": null,
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit]{0}回合内若对手处于[color=#57c975]{1}[/color]则对手无法行动",
   "pve_effective": false,
-  "param": null,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
   "skill": [
+    {
+      "id": 29419,
+      "url": "https://api.seerapi.com/v1/skill/29419"
+    },
     {
       "id": 40004,
       "url": "https://api.seerapi.com/v1/skill/40004"
     }
   ],
   "tag": [],
-  "hash": "16347010"
+  "hash": "6e64e03c"
 }

@@ -3,15 +3,20 @@
   "args_num": 1,
   "info": "场上每有1种五行印记，自身造成的攻击伤害提升{0}%",
   "info_formatting_adjustment": null,
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit]场上每有1种[color=#f35555]五行印记[/color]，自身造成的攻击伤害提升{0}%",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 38485,
+      "url": "https://api.seerapi.com/v1/skill/38485"
+    }
+  ],
   "tag": [
     {
       "id": 18673,
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18673"
     }
   ],
-  "hash": "fa10bc88"
+  "hash": "3c78ce0c"
 }

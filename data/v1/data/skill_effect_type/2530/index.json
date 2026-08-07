@@ -3,10 +3,22 @@
   "args_num": 2,
   "info": "{0}%令对手{1}，未触发则解除自身所处的异常状态",
   "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则解除自身所处的异常状态",
-  "analyze_info": "",
+  "analyze_info": "[sprite name=iconHit]{0}%令对手[color=#57c975]{1}[/color]，未触发则解除自身所处的异常状态",
   "pve_effective": false,
-  "param": null,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
   "skill": [
+    {
+      "id": 38483,
+      "url": "https://api.seerapi.com/v1/skill/38483"
+    },
     {
       "id": 40005,
       "url": "https://api.seerapi.com/v1/skill/40005"
@@ -22,5 +34,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/37134"
     }
   ],
-  "hash": "e5d0d68f"
+  "hash": "6df17a5b"
 }

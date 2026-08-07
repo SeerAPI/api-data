@@ -1,0 +1,98 @@
+{
+  "data": {
+    "29419": {
+      "id": 29419,
+      "name": "五门必杀",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫受到的异常状态了；开始免疫并反弹固定伤害、百分比伤害了；令对手臣服了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹自身受到的固定伤害和百分比伤害",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]自身受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 1818,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1818"
+          }
+        },
+        {
+          "info": "4回合内若对手处于臣服则对手无法行动",
+          "analyze_info": "[sprite name=iconHit]4回合内若对手处于[color=#57c975]臣服[/color]则对手无法行动",
+          "args": [
+            4,
+            31
+          ],
+          "effect": {
+            "id": 2529,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2529"
+          }
+        },
+        {
+          "info": "100%令对手臣服，未触发则恢复自身所有技能2点PP值",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]臣服[/color]，未触发则恢复自身所有技能2点PP值",
+          "args": [
+            100,
+            31,
+            2
+          ],
+          "effect": {
+            "id": 2533,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2533"
+          }
+        },
+        {
+          "info": "技能无效时，恢复自身最大体力的1/3且对手2回合内属性技能命中效果失效，自身体力低于1/2时恢复效果翻倍，自身体力高于1/2时失效回合+1",
+          "analyze_info": "[sprite name=iconInherent]技能无效时，恢复自身最大体力的1/3且对手2回合内属性技能命中效果失效，自身体力低于1/2时恢复效果翻倍，自身体力高于1/2时失效回合+1",
+          "args": [],
+          "effect": {
+            "id": 1803,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1803"
+          }
+        },
+        {
+          "info": "下次击败对手时，令对方下只出战精灵臣服",
+          "analyze_info": "[sprite name=iconHit]下次[color=#57c975]击败[/color]对手时，令对方下只出战精灵[color=#57c975]臣服[/color]",
+          "args": [
+            31
+          ],
+          "effect": {
+            "id": 2162,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2162"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "be08915c"
+}

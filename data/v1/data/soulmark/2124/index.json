@@ -1,0 +1,44 @@
+{
+  "id": 2124,
+  "desc": "回合开始时，令自身攻击、特攻+1，令对手攻击、特攻-1，若当回合自身未受到攻击伤害，则下回合本条效果翻倍|自身使用攻击技能后附加对手攻击、特攻值之和40%的百分比伤害，若技能无效则效果翻倍；自身使用属性技能后恢复自身攻击、特攻值之和40%的体力，若技能无效则体力的恢复改为吸取对手等量的体力|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#52a5f2]回合开始[/color]时，令自身攻击、特攻+1，令对手攻击、特攻-1，若[color=#52a5f2][color=#52a5f2][color=#52a5f2]当回合[/color][/color][/color]自身未受到攻击伤害，则下回合本条效果翻倍|[sprite name=dot4]自身使用攻击技能后附加对手攻击、特攻值之和40%的[color=#52a5f2]百分比伤害[/color]，若[color=#52a5f2]技能无效[/color]则效果翻倍；自身使用属性技能后恢复自身攻击、特攻值之和40%的体力，若[color=#52a5f2]技能无效[/color]则体力的恢复改为[color=#52a5f2]吸取[/color]对手等量的体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4929,
+      "url": "https://api.seerapi.com/v1/pet/4929"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2536,
+      "url": "https://api.seerapi.com/v1/eid_effect/2536"
+    }
+  },
+  "effect_alias": "alias_2536_1_0",
+  "tag": [
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    },
+    {
+      "id": 13,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "61d688d1"
+}
