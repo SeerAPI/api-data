@@ -2146,8 +2146,8 @@
           "战斗状态",
           "异常状态"
         ],
-        "summary": "获取状态资源",
-        "description": "战斗状态资源，包含所有战斗状态（也就是异常状态）数据。",
+        "summary": "获取异常状态资源",
+        "description": "异常状态资源，包含所有异常状态数据。",
         "operationId": "get_battle_effect_by_id",
         "parameters": [
           {
@@ -2191,8 +2191,8 @@
           "战斗状态",
           "异常状态"
         ],
-        "summary": "通过名称获取状态资源",
-        "description": "战斗状态资源，包含所有战斗状态（也就是异常状态）数据。",
+        "summary": "通过名称获取异常状态资源",
+        "description": "异常状态资源，包含所有异常状态数据。",
         "operationId": "get_battle_effect_by_name",
         "parameters": [
           {
@@ -2236,8 +2236,8 @@
           "战斗状态",
           "异常状态"
         ],
-        "summary": "获取状态资源列表",
-        "description": "战斗状态资源，包含所有战斗状态（也就是异常状态）数据。",
+        "summary": "获取异常状态资源列表",
+        "description": "异常状态资源，包含所有异常状态数据。",
         "operationId": "get_battle_effect_list",
         "parameters": [
           {
@@ -2304,8 +2304,8 @@
           "异常状态",
           "分类"
         ],
-        "summary": "获取状态类型资源",
-        "description": "战斗状态分类，用于分类不同类型的战斗状态。",
+        "summary": "获取异常状态类型资源",
+        "description": "异常状态类型，用于分类不同类型的异常状态。",
         "operationId": "get_battle_effect_type_by_id",
         "parameters": [
           {
@@ -2350,8 +2350,8 @@
           "异常状态",
           "分类"
         ],
-        "summary": "通过名称获取状态类型资源",
-        "description": "战斗状态分类，用于分类不同类型的战斗状态。",
+        "summary": "通过名称获取异常状态类型资源",
+        "description": "异常状态类型，用于分类不同类型的异常状态。",
         "operationId": "get_battle_effect_type_by_name",
         "parameters": [
           {
@@ -2396,8 +2396,8 @@
           "异常状态",
           "分类"
         ],
-        "summary": "获取状态类型资源列表",
-        "description": "战斗状态分类，用于分类不同类型的战斗状态。",
+        "summary": "获取异常状态类型资源列表",
+        "description": "异常状态类型，用于分类不同类型的异常状态。",
         "operationId": "get_battle_effect_type_list",
         "parameters": [
           {
@@ -2606,6 +2606,232 @@
                     },
                     {
                       "$ref": "#/components/schemas/resistance_category_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/buff/{id}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "Buff"
+        ],
+        "summary": "获取Buff资源",
+        "description": "Buff 配置资源，描述战斗中精灵身上显示的增益/减益效果图标及其描述。",
+        "operationId": "get_buff_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/buff"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/buff"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/buff/": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "Buff"
+        ],
+        "summary": "获取Buff资源列表",
+        "description": "Buff 配置资源，描述战斗中精灵身上显示的增益/减益效果图标及其描述。",
+        "operationId": "get_buff_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/buff_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/buff_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/buff_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/buff_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/buff_type/{id}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "Buff",
+          "分类"
+        ],
+        "summary": "获取Buff 图标类型资源",
+        "description": "Buff 图标类型，对应游戏内配置的 icontype 字段，用于区分 Buff 图标的展示方式。",
+        "operationId": "get_buff_type_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/buff_type"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/buff_type"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/buff_type/": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "Buff",
+          "分类"
+        ],
+        "summary": "获取Buff 图标类型资源列表",
+        "description": "Buff 图标类型，对应游戏内配置的 icontype 字段，用于区分 Buff 图标的展示方式。",
+        "operationId": "get_buff_type_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/buff_type_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/buff_type_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/buff_type_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/buff_type_ListExpanded"
                     }
                   ],
                   "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
@@ -5505,6 +5731,277 @@
                     },
                     {
                       "$ref": "#/components/schemas/error_code_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/field_effect/{id}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "场地效果"
+        ],
+        "summary": "获取场地效果资源",
+        "description": "场地效果资源，包含所有场地效果数据。",
+        "operationId": "get_field_effect_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/field_effect"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/field_effect"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/field_effect/{name}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "场地效果"
+        ],
+        "summary": "通过名称获取场地效果资源",
+        "description": "场地效果资源，包含所有场地效果数据。",
+        "operationId": "get_field_effect_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/field_effect_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/field_effect_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/field_effect/": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "场地效果"
+        ],
+        "summary": "获取场地效果资源列表",
+        "description": "场地效果资源，包含所有场地效果数据。",
+        "operationId": "get_field_effect_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/field_effect_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/field_effect_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/field_effect_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/field_effect_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/field_effect_type/{id}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "场地效果",
+          "分类"
+        ],
+        "summary": "获取场地效果类型资源",
+        "description": "场地效果类型，用于分类不同类型的场地效果，分类逻辑尚不明确，该资源仅反应游戏内数据。",
+        "operationId": "get_field_effect_type_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/field_effect_type"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/field_effect_type"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/field_effect_type/": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "场地效果",
+          "分类"
+        ],
+        "summary": "获取场地效果类型资源列表",
+        "description": "场地效果类型，用于分类不同类型的场地效果，分类逻辑尚不明确，该资源仅反应游戏内数据。",
+        "operationId": "get_field_effect_type_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/field_effect_type_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/field_effect_type_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/field_effect_type_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/field_effect_type_ListExpanded"
                     }
                   ],
                   "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
@@ -10752,6 +11249,163 @@
                     },
                     {
                       "$ref": "#/components/schemas/pet_encyclopedia_entry_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/sign/{id}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "印记"
+        ],
+        "summary": "获取印记资源",
+        "description": "印记资源，包含印记类战斗状态数据。",
+        "operationId": "get_sign_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sign"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sign"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/sign/{name}": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "印记"
+        ],
+        "summary": "通过名称获取印记资源",
+        "description": "印记资源，包含印记类战斗状态数据。",
+        "operationId": "get_sign_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sign_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sign_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/sign/": {
+      "get": {
+        "tags": [
+          "战斗状态",
+          "印记"
+        ],
+        "summary": "获取印记资源列表",
+        "description": "印记资源，包含印记类战斗状态数据。",
+        "operationId": "get_sign_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/sign_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/sign_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/sign_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/sign_ListExpanded"
                     }
                   ],
                   "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
@@ -16336,7 +16990,7 @@
             "title": "BattleEffect"
           }
         ],
-        "title": "状态资源",
+        "title": "异常状态资源",
         "examples": [
           {
             "id": 20,
@@ -16375,7 +17029,7 @@
             ]
           }
         ],
-        "title": "名称映射状态资源",
+        "title": "名称映射异常状态资源",
         "examples": [
           {
             "id": 20,
@@ -16398,7 +17052,7 @@
             "x-model-name": "battle_effect"
           }
         ],
-        "title": "状态资源列表",
+        "title": "异常状态资源列表",
         "examples": [
           {
             "id": 20,
@@ -16477,7 +17131,7 @@
           "count",
           "results"
         ],
-        "title": "状态资源列表（expand=true）",
+        "title": "异常状态资源列表（expand=true）",
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "battle_effect"
       },
@@ -16516,7 +17170,7 @@
             "title": "BattleEffectCategory"
           }
         ],
-        "title": "状态类型资源",
+        "title": "异常状态类型资源",
         "examples": [
           {
             "id": 3,
@@ -16562,7 +17216,7 @@
             ]
           }
         ],
-        "title": "名称映射状态类型资源",
+        "title": "名称映射异常状态类型资源",
         "examples": [
           {
             "id": 3,
@@ -16592,7 +17246,7 @@
             "x-model-name": "battle_effect_type"
           }
         ],
-        "title": "状态类型资源列表",
+        "title": "异常状态类型资源列表",
         "examples": [
           {
             "id": 3,
@@ -16678,7 +17332,7 @@
           "count",
           "results"
         ],
-        "title": "状态类型资源列表（expand=true）",
+        "title": "异常状态类型资源列表（expand=true）",
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "battle_effect_type"
       },
@@ -17026,6 +17680,340 @@
         "title": "抗性类型资源列表（expand=true）",
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "resistance_category"
+      },
+      "buff": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "效果描述"
+              },
+              "tag": {
+                "type": "string",
+                "title": "Tag",
+                "description": "效果标签"
+              },
+              "desc_tag": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Desc Tag",
+                "description": "效果描述中的标签，用于格式化效果描述"
+              },
+              "icon": {
+                "items": {
+                  "type": "integer"
+                },
+                "type": "array",
+                "title": "Icon",
+                "description": "图标 ID 列表"
+              },
+              "type": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "buff_type"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "desc",
+              "tag",
+              "type"
+            ],
+            "title": "Buff"
+          }
+        ],
+        "title": "Buff资源",
+        "examples": [
+          {
+            "id": 264,
+            "desc": "自身{roundnext[0]}攻击有{1}%使对手{abst[2]}",
+            "tag": "施加异常",
+            "tag_description": "roundnext, abst",
+            "icon": [
+              14
+            ],
+            "type": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/buff_type/0"
+            },
+            "hash": "f3a2c1d0"
+          },
+          {
+            "id": 3503,
+            "desc": "每回合开始时为自身附加200点护罩",
+            "tag": "护罩",
+            "tag_description": null,
+            "icon": [
+              32
+            ],
+            "type": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/buff_type/0"
+            },
+            "hash": "b8e7f6a5"
+          }
+        ]
+      },
+      "buff_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "buff"
+          }
+        ],
+        "title": "Buff资源列表",
+        "examples": [
+          {
+            "id": 264,
+            "desc": "自身{roundnext[0]}攻击有{1}%使对手{abst[2]}",
+            "tag": "施加异常",
+            "tag_description": "roundnext, abst",
+            "icon": [
+              14
+            ],
+            "type": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/buff_type/0"
+            },
+            "hash": "f3a2c1d0"
+          },
+          {
+            "id": 3503,
+            "desc": "每回合开始时为自身附加200点护罩",
+            "tag": "护罩",
+            "tag_description": null,
+            "icon": [
+              32
+            ],
+            "type": {
+              "id": 0,
+              "url": "https://api.seerapi.com/v1/buff_type/0"
+            },
+            "hash": "b8e7f6a5"
+          }
+        ]
+      },
+      "buff_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/buff"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "Buff资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "buff"
+      },
+      "buff_type": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "buff": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "buff"
+                },
+                "type": "array",
+                "title": "Buff",
+                "description": "Buff 列表"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id"
+            ],
+            "title": "BuffType"
+          }
+        ],
+        "title": "Buff 图标类型资源",
+        "examples": [
+          {
+            "id": 0,
+            "buff": [
+              {
+                "id": 264,
+                "url": "https://api.seerapi.com/v1/buff/264"
+              },
+              {
+                "id": 3503,
+                "url": "https://api.seerapi.com/v1/buff/3503"
+              }
+            ],
+            "hash": "c1d2e3f4"
+          }
+        ]
+      },
+      "buff_type_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "buff_type"
+          }
+        ],
+        "title": "Buff 图标类型资源列表",
+        "examples": [
+          {
+            "id": 0,
+            "buff": [
+              {
+                "id": 264,
+                "url": "https://api.seerapi.com/v1/buff/264"
+              },
+              {
+                "id": 3503,
+                "url": "https://api.seerapi.com/v1/buff/3503"
+              }
+            ],
+            "hash": "c1d2e3f4"
+          }
+        ]
+      },
+      "buff_type_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/buff_type"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "Buff 图标类型资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "buff_type"
       },
       "avatar_head": {
         "allOf": [
@@ -21767,6 +22755,322 @@
         "title": "错误码资源列表（expand=true）",
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "error_code"
+      },
+      "field_effect": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "效果名称"
+              },
+              "desc": {
+                "type": "string",
+                "title": "Desc",
+                "description": "效果描述"
+              },
+              "type": {
+                "$ref": "#/components/schemas/common_resource_ref",
+                "x-model-name": "field_effect_type"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "desc",
+              "type"
+            ],
+            "title": "FieldEffect"
+          }
+        ],
+        "title": "场地效果资源",
+        "examples": [
+          {
+            "id": 2,
+            "name": "星璨舞台",
+            "desc": "精灵战斗时造成的攻击伤害提升130%且每回合结束时会恢复自身所有技能1点PP值",
+            "type": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/field_effect_type/1"
+            },
+            "hash": "a81e39ee"
+          }
+        ]
+      },
+      "field_effect_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/field_effect"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射场地效果资源",
+        "examples": [
+          {
+            "id": 2,
+            "name": "星璨舞台",
+            "desc": "精灵战斗时造成的攻击伤害提升130%且每回合结束时会恢复自身所有技能1点PP值",
+            "type": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/field_effect_type/1"
+            },
+            "hash": "a81e39ee"
+          }
+        ]
+      },
+      "field_effect_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "field_effect"
+          }
+        ],
+        "title": "场地效果资源列表",
+        "examples": [
+          {
+            "id": 2,
+            "name": "星璨舞台",
+            "desc": "精灵战斗时造成的攻击伤害提升130%且每回合结束时会恢复自身所有技能1点PP值",
+            "type": {
+              "id": 1,
+              "url": "https://api.seerapi.com/v1/field_effect_type/1"
+            },
+            "hash": "a81e39ee"
+          }
+        ]
+      },
+      "field_effect_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/field_effect"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "场地效果资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "field_effect"
+      },
+      "field_effect_type": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "effect": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "field_effect"
+                },
+                "type": "array",
+                "title": "Effect",
+                "description": "效果列表"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "effect"
+            ],
+            "title": "FieldEffectType"
+          }
+        ],
+        "title": "场地效果类型资源",
+        "examples": [
+          {
+            "id": 1,
+            "effect": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/field_effect/1"
+              },
+              {
+                "id": 2,
+                "url": "https://api.seerapi.com/v1/field_effect/2"
+              }
+            ],
+            "hash": "4c42fb5"
+          }
+        ]
+      },
+      "field_effect_type_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "field_effect_type"
+          }
+        ],
+        "title": "场地效果类型资源列表",
+        "examples": [
+          {
+            "id": 1,
+            "effect": [
+              {
+                "id": 1,
+                "url": "https://api.seerapi.com/v1/field_effect/1"
+              },
+              {
+                "id": 2,
+                "url": "https://api.seerapi.com/v1/field_effect/2"
+              }
+            ],
+            "hash": "4c42fb5"
+          }
+        ]
+      },
+      "field_effect_type_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/field_effect_type"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "场地效果类型资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "field_effect_type"
       },
       "glossary_entry": {
         "allOf": [
@@ -33510,6 +34814,298 @@
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "pet_encyclopedia_entry"
       },
+      "sign": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "名称"
+              },
+              "desc": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Desc",
+                "description": "描述，当子项描述覆盖主项描述时为null"
+              },
+              "sort": {
+                "type": "integer",
+                "title": "Sort",
+                "description": "战斗界面印记图标的显示顺序权重，数值越小越靠前。客户端在可见性（isShow）相同时按此字段升序排列；可见图标始终优先于隐藏图标。"
+              },
+              "is_show_num": {
+                "type": "boolean",
+                "title": "Is Show Num",
+                "description": "是否显示剩余计数"
+              },
+              "num_des": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Num Des",
+                "description": "计数量词，仅在is_show_num为True时有效"
+              },
+              "subitem": {
+                "additionalProperties": {
+                  "properties": {
+                    "subitem_id": {
+                      "type": "integer",
+                      "title": "Subitem Id",
+                      "description": "子项ID"
+                    },
+                    "name": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "title": "Name",
+                      "description": "名称，为null时使用主项名称"
+                    },
+                    "desc": {
+                      "anyOf": [
+                        {
+                          "type": "string"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "title": "Desc",
+                      "description": "描述，为null时使用主项描述"
+                    },
+                    "icon_subid": {
+                      "anyOf": [
+                        {
+                          "type": "integer"
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ],
+                      "title": "Icon Subid",
+                      "description": "图标子ID，为null时使用不带子项ID后缀的图标"
+                    }
+                  },
+                  "type": "object",
+                  "required": [
+                    "subitem_id"
+                  ],
+                  "title": "SignSubitem"
+                },
+                "type": "object",
+                "title": "Subitem",
+                "description": "子项，key为子项内部ID，value为子项对象"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "sort",
+              "is_show_num"
+            ],
+            "title": "Sign"
+          }
+        ],
+        "title": "印记资源",
+        "examples": [
+          {
+            "id": 151,
+            "name": "态",
+            "desc": null,
+            "sort": 1,
+            "is_show_num": false,
+            "num_des": "当前形态",
+            "subitem": {
+              "2": {
+                "subitem_id": 2,
+                "name": "怀生菩怜态",
+                "desc": "自身使用技能后随机附加1种弱化类异常状态，未触发则己方场下所有精灵恢复99点体力；自身的技能以光系结算攻击伤害",
+                "icon_subid": 2
+              },
+              "3": {
+                "subitem_id": 3,
+                "name": "拒赦怒威态",
+                "desc": "自身所有技能先制+1；所有攻击必定打出致命一击且造成伤害提升100%；自身的技能以混沌系结算攻击伤害",
+                "icon_subid": 3
+              }
+            }
+          }
+        ]
+      },
+      "sign_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/sign"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射印记资源",
+        "examples": [
+          {
+            "id": 151,
+            "name": "态",
+            "desc": null,
+            "sort": 1,
+            "is_show_num": false,
+            "num_des": "当前形态",
+            "subitem": {
+              "2": {
+                "subitem_id": 2,
+                "name": "怀生菩怜态",
+                "desc": "自身使用技能后随机附加1种弱化类异常状态，未触发则己方场下所有精灵恢复99点体力；自身的技能以光系结算攻击伤害",
+                "icon_subid": 2
+              },
+              "3": {
+                "subitem_id": 3,
+                "name": "拒赦怒威态",
+                "desc": "自身所有技能先制+1；所有攻击必定打出致命一击且造成伤害提升100%；自身的技能以混沌系结算攻击伤害",
+                "icon_subid": 3
+              }
+            }
+          }
+        ]
+      },
+      "sign_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "sign"
+          }
+        ],
+        "title": "印记资源列表",
+        "examples": [
+          {
+            "id": 151,
+            "name": "态",
+            "desc": null,
+            "sort": 1,
+            "is_show_num": false,
+            "num_des": "当前形态",
+            "subitem": {
+              "2": {
+                "subitem_id": 2,
+                "name": "怀生菩怜态",
+                "desc": "自身使用技能后随机附加1种弱化类异常状态，未触发则己方场下所有精灵恢复99点体力；自身的技能以光系结算攻击伤害",
+                "icon_subid": 2
+              },
+              "3": {
+                "subitem_id": 3,
+                "name": "拒赦怒威态",
+                "desc": "自身所有技能先制+1；所有攻击必定打出致命一击且造成伤害提升100%；自身的技能以混沌系结算攻击伤害",
+                "icon_subid": 3
+              }
+            }
+          }
+        ]
+      },
+      "sign_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/sign"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "印记资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "sign"
+      },
       "skill": {
         "allOf": [
           {
@@ -35157,6 +36753,14 @@
                 "type": "string",
                 "title": "resistance_category Path"
               },
+              "buff": {
+                "type": "string",
+                "title": "buff Path"
+              },
+              "buff_type": {
+                "type": "string",
+                "title": "buff_type Path"
+              },
               "avatar_head": {
                 "type": "string",
                 "title": "avatar_head Path"
@@ -35232,6 +36836,14 @@
               "error_code": {
                 "type": "string",
                 "title": "error_code Path"
+              },
+              "field_effect": {
+                "type": "string",
+                "title": "field_effect Path"
+              },
+              "field_effect_type": {
+                "type": "string",
+                "title": "field_effect_type Path"
               },
               "glossary_entry": {
                 "type": "string",
@@ -35377,6 +36989,10 @@
                 "type": "string",
                 "title": "pet_encyclopedia_entry Path"
               },
+              "sign": {
+                "type": "string",
+                "title": "sign Path"
+              },
               "skill": {
                 "type": "string",
                 "title": "skill Path"
@@ -35421,6 +37037,8 @@
               "battle_effect",
               "battle_effect_type",
               "resistance_category",
+              "buff",
+              "buff_type",
               "avatar_head",
               "avatar_frame",
               "namecard_background",
@@ -35440,6 +37058,8 @@
               "element_type",
               "element_type_combination",
               "error_code",
+              "field_effect",
+              "field_effect_type",
               "glossary_entry",
               "item",
               "item_category",
@@ -35476,6 +37096,7 @@
               "pet_archive_story_entry",
               "pet_archive_story_book",
               "pet_encyclopedia_entry",
+              "sign",
               "skill",
               "skill_effect_type",
               "skill_effect_param",

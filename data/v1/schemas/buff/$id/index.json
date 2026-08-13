@@ -1,0 +1,67 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_BuffType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "buff_type"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "desc": {
+          "description": "效果描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "tag": {
+          "description": "效果标签",
+          "title": "Tag",
+          "type": "string"
+        },
+        "desc_tag": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "效果描述中的标签，用于格式化效果描述",
+          "title": "Desc Tag"
+        },
+        "icon": {
+          "description": "图标 ID 列表",
+          "items": {
+            "type": "integer"
+          },
+          "title": "Icon",
+          "type": "array"
+        },
+        "type": {
+          "$ref": "#/$defs/ResourceRef_BuffType_",
+          "description": "图标类型"
+        }
+      },
+      "required": [
+        "id",
+        "desc",
+        "tag",
+        "type"
+      ],
+      "title": "Buff",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

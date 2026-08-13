@@ -70,6 +70,14 @@
           "title": "resistance_category Path",
           "type": "string"
         },
+        "buff": {
+          "title": "buff Path",
+          "type": "string"
+        },
+        "buff_type": {
+          "title": "buff_type Path",
+          "type": "string"
+        },
         "avatar_head": {
           "title": "avatar_head Path",
           "type": "string"
@@ -144,6 +152,14 @@
         },
         "error_code": {
           "title": "error_code Path",
+          "type": "string"
+        },
+        "field_effect": {
+          "title": "field_effect Path",
+          "type": "string"
+        },
+        "field_effect_type": {
+          "title": "field_effect_type Path",
           "type": "string"
         },
         "glossary_entry": {
@@ -290,6 +306,10 @@
           "title": "pet_encyclopedia_entry Path",
           "type": "string"
         },
+        "sign": {
+          "title": "sign Path",
+          "type": "string"
+        },
         "skill": {
           "title": "skill Path",
           "type": "string"
@@ -333,6 +353,8 @@
         "battle_effect",
         "battle_effect_type",
         "resistance_category",
+        "buff",
+        "buff_type",
         "avatar_head",
         "avatar_frame",
         "namecard_background",
@@ -352,6 +374,8 @@
         "element_type",
         "element_type_combination",
         "error_code",
+        "field_effect",
+        "field_effect_type",
         "glossary_entry",
         "item",
         "item_category",
@@ -388,6 +412,7 @@
         "pet_archive_story_entry",
         "pet_archive_story_book",
         "pet_encyclopedia_entry",
+        "sign",
         "skill",
         "skill_effect_type",
         "skill_effect_param",

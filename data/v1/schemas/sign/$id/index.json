@@ -1,0 +1,130 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "SignSubitem": {
+          "properties": {
+            "subitem_id": {
+              "description": "子项ID",
+              "title": "Subitem Id",
+              "type": "integer"
+            },
+            "name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "名称，为null时使用主项名称",
+              "title": "Name"
+            },
+            "desc": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "描述，为null时使用主项描述",
+              "title": "Desc"
+            },
+            "icon_subid": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "图标子ID，为null时使用不带子项ID后缀的图标",
+              "title": "Icon Subid"
+            }
+          },
+          "required": [
+            "subitem_id"
+          ],
+          "title": "SignSubitem",
+          "type": "object"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "描述，当子项描述覆盖主项描述时为null",
+          "title": "Desc"
+        },
+        "sort": {
+          "description": "战斗界面印记图标的显示顺序权重，数值越小越靠前。客户端在可见性（isShow）相同时按此字段升序排列；可见图标始终优先于隐藏图标。",
+          "title": "Sort",
+          "type": "integer"
+        },
+        "is_show_num": {
+          "description": "是否显示剩余计数",
+          "title": "Is Show Num",
+          "type": "boolean"
+        },
+        "num_des": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "计数量词，仅在is_show_num为True时有效",
+          "title": "Num Des"
+        },
+        "subitem": {
+          "additionalProperties": {
+            "$ref": "#/$defs/SignSubitem"
+          },
+          "description": "子项，key为子项内部ID，value为子项对象",
+          "title": "Subitem",
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "sort",
+        "is_show_num"
+      ],
+      "title": "Sign",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

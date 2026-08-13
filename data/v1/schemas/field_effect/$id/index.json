@@ -1,0 +1,46 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_FieldEffectType_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "field_effect_type"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "效果名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "desc": {
+          "description": "效果描述",
+          "title": "Desc",
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/$defs/ResourceRef_FieldEffectType_",
+          "description": "效果类型"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "type"
+      ],
+      "title": "FieldEffect",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_Buff_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "buff"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "buff": {
+          "description": "Buff 列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Buff_"
+          },
+          "title": "Buff",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "BuffType",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}
