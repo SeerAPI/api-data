@@ -1,0 +1,88 @@
+{
+  "data": {
+    "38494": {
+      "id": 38494,
+      "name": "神魔灭绝劈",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 89,
+        "url": "https://api.seerapi.com/v1/element_type_combination/89"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "将自身攻击、特攻值之和作为攻击、特攻值进行伤害计算",
+          "analyze_info": "[sprite name=iconInherent]将自身攻击、特攻值之和作为攻击、特攻值进行伤害计算",
+          "args": [],
+          "effect": {
+            "id": 2554,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2554"
+          }
+        },
+        {
+          "info": "消除对手回合类效果，消除成功则令对手束缚、臣服，每未触发1种当次攻击造成的伤害翻倍1次",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则令对手[color=#57c975]束缚[/color]、[color=#57c975]臣服[/color]，每[color=#52a5f2]未触发[/color]1种当次攻击造成的伤害翻倍1次",
+          "args": [
+            28,
+            31,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2498,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2498"
+          }
+        },
+        {
+          "info": "消除敌我双方能力提升状态，消除任意一方成功则吸取对手最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]消除敌我双方能力提升状态，消除任意一方成功则[color=#52a5f2]吸取[/color]对手最大体力的1/3",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 1477,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1477"
+          }
+        },
+        {
+          "info": "未击败对手则下2回合自身技能先制+2",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手下2回合自身[color=#52a5f2]技能先制[/color]+2（boss有效）",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 820,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/820"
+          }
+        },
+        {
+          "info": "击败对手时，3回合内自身的法之意念不会减少",
+          "analyze_info": "[sprite name=iconHit]击败对手时，3回合内自身的[color=#f35555]法之意念[/color]不会减少",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 2555,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2555"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "7921fb29"
+}
