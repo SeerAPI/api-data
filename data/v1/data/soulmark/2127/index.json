@@ -1,0 +1,36 @@
+{
+  "id": 2127,
+  "desc": "登场时，对方5回合内体力药剂的体力增加效果失效，若对方本回合使用过体力药剂则当回合战斗阶段结束时额外附加该药剂体力增加效果2倍的真实伤害|击败对手、被对手击败时，触发自身的登场效果|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]登场时[/color]，[color=#52a5f2]对方[/color]5回合内体力药剂的体力增加效果失效，若[color=#52a5f2]对方[/color]本回合使用过体力药剂则[color=#52a5f2]当回合[/color][color=#57c975]战斗阶段结束时[/color]额外附加该药剂体力增加效果2倍的[color=#52a5f2]真实伤害[/color]|[sprite name=dot4][color=#57c975]击败[/color]对手时、被对手[color=#57c975]击败[/color]时，触发自身[color=#57c975]登场[/color]效果",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4932,
+      "url": "https://api.seerapi.com/v1/pet/4932"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2537,
+      "url": "https://api.seerapi.com/v1/eid_effect/2537"
+    }
+  },
+  "effect_alias": "alias_2537_1_0",
+  "tag": [
+    {
+      "id": 19,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "d04a2b5d"
+}

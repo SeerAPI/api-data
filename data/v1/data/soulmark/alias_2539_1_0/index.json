@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2128": {
+      "id": 2128,
+      "desc": "战斗开始时，若自身的攻击值高于特攻值，则自身为正气状态，若特攻高于攻击值，则自身为邪气状态；自身为正气状态时，登场时将己方精灵的信仰对象改为自身，自身为邪气状态时，登场时将自身的信仰对象改为自身|以自身为信仰对象的精灵总合计体力每有15%，自身受到的攻击伤害额外减少10%，以自身为信仰对象的精灵总合计体力每损失10%，自身造成的攻击伤害额外提升15%；回合结束时，自身当回合每因前述效果增加、减少1点伤害，获得1点法之意念|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]战斗开始时，若自身的攻击值高于特攻值，则自身为正气状态，若特攻高于攻击值，则自身为邪气状态；自身为正气状态时，[color=#57c975]登场时[/color]将[color=#52a5f2]己方[/color]精灵的[color=#57c975]信仰对象[/color]改为自身，自身为邪气状态时，[color=#57c975]登场时[/color]将自身的[color=#57c975]信仰对象[/color]改为自身|[sprite name=dot4]以自身为[color=#57c975]信仰对象[/color]的精灵总合计体力每有15%，自身受到的攻击[color=#57c975]伤害额外减少[/color]10%，以自身为[color=#57c975]信仰对象[/color]的精灵总合计体力每损失10%，自身造成的攻击[color=#52a5f2]伤害额外提升[/color]15%；[color=#57c975]回合结束时[/color]，自身[color=#52a5f2]当回合(412)[/color]每因前述效果增加、减少1点伤害，获得1点[color=#f35555]法之意念[/color]",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4933,
+          "url": "https://api.seerapi.com/v1/pet/4933"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2539,
+          "url": "https://api.seerapi.com/v1/eid_effect/2539"
+        }
+      },
+      "effect_alias": "alias_2539_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "5cbbc9c1"
+}
