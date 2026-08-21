@@ -1,0 +1,65 @@
+{
+  "data": {
+    "38502": {
+      "id": 38502,
+      "name": "熔焰分魔劈",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 47,
+        "url": "https://api.seerapi.com/v1/element_type_combination/47"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "反转自身能力下降状态，反转成功则令对手下1次使用的攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则令对手下1次使用的攻击技能无效",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 1208,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1208"
+          }
+        },
+        {
+          "info": "每次命中对手会降低对手下只出战精灵最大体力的10%，最多降低50%",
+          "analyze_info": "[sprite name=iconHit]每次命中对手会降低对手下只出战精灵最大体力的10%，最多降低50%",
+          "args": [
+            10,
+            50
+          ],
+          "effect": {
+            "id": 883,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/883"
+          }
+        },
+        {
+          "info": "击败对手则令自身2回合内的能力提升状态无法被消除或吸取",
+          "analyze_info": "[sprite name=iconHit][color=#57c975]击败[/color]对手则令自身2回合内的能力提升状态无法被消除或[color=#52a5f2]吸取[/color]",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1960,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1960"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "13a5127e"
+}

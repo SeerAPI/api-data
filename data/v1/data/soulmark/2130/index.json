@@ -1,0 +1,40 @@
+{
+  "id": 2130,
+  "desc": "回合开始时，使自身防御+6、特防+0，然后自身每有1级防御能力等级，当回合使用攻击技能后附加自身防御值10%的百分比伤害并使本场战斗此效果获得的防御能力提升等级-1，特防能力等级提升+1|战斗阶段结束时，若自身上述效果中的防御能力提升的等级已为+0，则自身专属特性中的“防御”、“特防”交换|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，使自身防御+6、特防+0，[color=#52a5f2]然后[/color]自身每有1级防御能力等级，[color=#52a5f2]当回合[/color]使用攻击技能后附加自身防御值10%的[color=#52a5f2]百分比伤害[/color]并使本场战斗此效果获得的防御能力提升等级-1，特防能力等级提升+1|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若自身上述效果中的防御能力提升的等级已为+0，则自身专属特性中的“防御”、“特防”交换",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4935,
+      "url": "https://api.seerapi.com/v1/pet/4935"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2541,
+      "url": "https://api.seerapi.com/v1/eid_effect/2541"
+    }
+  },
+  "effect_alias": "alias_2541_1_0",
+  "tag": [
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "470d50dd"
+}
