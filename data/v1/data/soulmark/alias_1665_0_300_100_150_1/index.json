@@ -1,0 +1,47 @@
+{
+  "data": {
+    "2137": {
+      "id": 2137,
+      "desc": "对手使用属性技能时，令对手当回合技能PP消耗翻倍，自身使用属性技能时，吸取对手300点体力；战斗阶段结束时，若对手当回合使用了属性技能则下回合自身造成的攻击伤害提升100%，对手体力高于自身时效果提升至150%（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]对手使用属性技能时，令对手[color=#52a5f2]当回合[/color]技能PP消耗翻倍，自身使用属性技能时，[color=#52a5f2]吸取[/color]对手300点体力；[color=#57c975]战斗阶段结束时[/color]，若对手[color=#52a5f2]当回合[/color]使用了属性技能则下回合自身造成的攻击伤害提升100%，对手体力高于自身时效果提升至150%",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4072,
+          "url": "https://api.seerapi.com/v1/pet/4072"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          300,
+          100,
+          150,
+          1
+        ],
+        "effect": {
+          "id": 1665,
+          "url": "https://api.seerapi.com/v1/eid_effect/1665"
+        }
+      },
+      "effect_alias": "alias_1665_0_300_100_150_1",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "c2734b6"
+}

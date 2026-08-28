@@ -1,0 +1,62 @@
+{
+  "id": 29438,
+  "name": "十里枯监",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹受到的异常状态了；开始免疫对手的攻击了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "下1次技能无效时令对手瘫痪，若为攻击技能则造成的伤害不少于200",
+      "analyze_info": "[sprite name=iconHit]下1次技能无效时令对手[color=#57c975]瘫痪[/color]，若为攻击技能则造成的伤害不少于200",
+      "args": [
+        1,
+        19,
+        200
+      ],
+      "effect": {
+        "id": 2306,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2306"
+      }
+    },
+    {
+      "info": "免疫下1次对手的攻击",
+      "analyze_info": "[sprite name=iconHit]免疫下1次对手的攻击（boss有效）",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 570,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/570"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "89537c31"
+}

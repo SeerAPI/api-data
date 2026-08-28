@@ -1,0 +1,65 @@
+{
+  "id": 38515,
+  "name": "源·神庭轰坠",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 0.0,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 103,
+    "url": "https://api.seerapi.com/v1/element_type_combination/103"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "无视攻击免疫效果",
+      "analyze_info": "[sprite name=iconInherent]无视[color=#52a5f2]攻击免疫效果[/color] （boss有效）",
+      "args": [],
+      "effect": {
+        "id": 699,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/699"
+      }
+    },
+    {
+      "info": "自身拥有来自执行者的伤害免疫效果时，此技能的所有效果取消触发条件",
+      "analyze_info": "[sprite name=iconHit]自身拥有来自[color=#f35555]执行者[/color]的伤害免疫效果时，此技能的所有效果取消触发条件",
+      "args": [],
+      "effect": {
+        "id": 2566,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2566"
+      }
+    },
+    {
+      "info": "获得等同于自身能力下降的能力提升状态，若自身不处于能力下降状态则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]获得等同于自身能力下降的能力提升状态，若自身不处于能力下降状态则消除对手[color=#52a5f2]回合类效果[/color]",
+      "args": [],
+      "effect": {
+        "id": 2565,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2565"
+      }
+    },
+    {
+      "info": "解除自身所处的异常状态，解除成功则本次攻击威力提升40%",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功则本次攻击[color=#52a5f2]威力[/color]提升40%",
+      "args": [
+        40
+      ],
+      "effect": {
+        "id": 2240,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2240"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "58743c4f"
+}

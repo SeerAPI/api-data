@@ -1,0 +1,75 @@
+{
+  "data": {
+    "38509": {
+      "id": 38509,
+      "name": "强植自髓",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 36,
+        "url": "https://api.seerapi.com/v1/element_type_combination/36"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "5回合内自身与对方反转战斗时属性",
+          "analyze_info": "[sprite name=iconHit]5回合内自身与对方反转战斗时属性（boss有效）",
+          "args": [
+            5
+          ],
+          "effect": {
+            "id": 55,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/55"
+          }
+        },
+        {
+          "info": "消除对手能力上升状态，消除成功则3回合内对手每回合防御-2",
+          "analyze_info": "[sprite name=iconHit]消除对手能力上升状态，消除成功则3回合内对手每回合防御-2（boss有效）",
+          "args": [
+            3,
+            1,
+            -2
+          ],
+          "effect": {
+            "id": 759,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/759"
+          }
+        },
+        {
+          "info": "使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害",
+          "analyze_info": "[sprite name=iconHit]使自身下次受到的伤害减少n点，n等于本回合自身造成的伤害（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 811,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/811"
+          }
+        },
+        {
+          "info": "属性相同时，100%概率让对方麻痹",
+          "analyze_info": "[sprite name=iconHit]属性相同时，100%概率让对方[color=#57c975]麻痹[/color]（boss有效）",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 121,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/121"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "5c7892a"
+}

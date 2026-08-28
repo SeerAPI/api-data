@@ -1,0 +1,40 @@
+{
+  "data": {
+    "2133": {
+      "id": 2133,
+      "desc": "回合开始时，1%令自身麻痹，未触发则自身所有能力值+1点，能力值每次增加后本场战斗此效果增加的点数+1，能力值增加50次之后，本条效果失效",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，1%令自身[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则自身所有能力值+1点，能力值每次增加后本场战斗此效果增加的点数+1，能力值增加50次[color=#52a5f2]之后[/color]，本条效果失效",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4938,
+          "url": "https://api.seerapi.com/v1/pet/4938"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2543,
+          "url": "https://api.seerapi.com/v1/eid_effect/2543"
+        }
+      },
+      "effect_alias": "alias_2543_1_0",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "e3d504eb"
+}

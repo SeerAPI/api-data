@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2134": {
+      "id": 2134,
+      "desc": "回合开始时自身根据双方防御值之差n触发以下效果：|    ①.当回合被击败时对手无法主动切换精灵n/200回合|    ②.恢复n点体力|    ③.若n≥200则当回合受到的非真实伤害减少30%|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]自身根据双方防御值之差n触发以下效果：|    [sprite name=dot5][color=#52a5f2]当回合[/color]被[color=#57c975]击败[/color]时对手无法[color=#52a5f2]主动切换[/color]精灵n/200回合|    [sprite name=dot5]恢复n点体力|    [sprite name=dot5]若n≥200则[color=#52a5f2]当回合[/color]受到的非[color=#52a5f2]真实伤害[/color]减少30%",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4939,
+          "url": "https://api.seerapi.com/v1/pet/4939"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2542,
+          "url": "https://api.seerapi.com/v1/eid_effect/2542"
+        }
+      },
+      "effect_alias": "alias_2542_1_0",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "47ee4bb1"
+}

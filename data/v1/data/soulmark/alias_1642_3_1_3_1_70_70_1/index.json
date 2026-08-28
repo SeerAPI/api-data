@@ -2,9 +2,9 @@
   "data": {
     "1302": {
       "id": 1302,
-      "desc": "当回合自身受到攻击则战斗阶段结束时令自身随机3项能力值+1，当回合自身未受到攻击则战斗阶段结束时令对手随机3项能力值-1；回合开始时，若自身处于能力提升状态则当回合70%闪避对手攻击，若对手处于能力下降状态则当回合攻击70%令对手害怕（boss无效）",
+      "desc": "战斗阶段结束时，若当回合自身受到了攻击伤害则使自身随机3项能力等级+1，若当回合自身未受到攻击伤害则令对手随机3项能力等级-1；回合开始时，若自身处于能力提升状态则当回合70%闪避对手攻击，若对手处于能力下降状态则当回合攻击命中后70%令对手害怕（boss无效）",
       "desc_formatting_adjustment": "<indent=0><sprite=0><indent=16>战阶结束效果：\r\n<indent=16><sprite=3><indent=32>战斗阶段结束时：\r\n<indent=32><sprite=4><indent=48>若当回合自身受到攻击令自身随机3项能力+1\r\n<indent=32><sprite=4><indent=48>若当回合自身未受到攻击令对手随机3项能力-1\r\n\r\n<indent=0><sprite=0><indent=16>回合开始效果：\r\n<indent=16><sprite=3><indent=32>回合开始时：\r\n<indent=32><sprite=4><indent=48>若自身处于能力提升状态则当回合80%<color=#64F9FA>闪避</color>对手<b>攻击</b>\r\n<indent=32><sprite=4><indent=48>若对手处于能力下降状态则当回合攻击70%<color=#64F9FA>令对手害怕</color>",
-      "analyze_desc": "",
+      "analyze_desc": "[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若[color=#52a5f2]当回合[/color]自身受到了攻击伤害则使自身随机3项能力等级+1，若[color=#52a5f2]当回合[/color]自身未受到攻击伤害则令对手随机3项能力等级-1；[color=#57c975]回合开始时[/color]，若自身处于能力提升状态则[color=#52a5f2]当回合[/color]70%[color=#57c975]闪避[/color]对手攻击，若对手处于能力下降状态则[color=#52a5f2]当回合[/color]攻击命中后70%令对手[color=#57c975]害怕[/color]",
       "pve_effective": false,
       "intensified": false,
       "is_adv": false,
@@ -49,5 +49,5 @@
       "advance": null
     }
   },
-  "hash": "125af04c"
+  "hash": "aae5b9cd"
 }
