@@ -19933,6 +19933,18 @@
                 "title": "Speed",
                 "description": "部件速度移动加成，一般只有脚部部件提供"
               },
+              "x_position": {
+                "type": "integer",
+                "title": "X Position",
+                "description": "部件在UI中的X坐标偏移",
+                "default": 0
+              },
+              "y_position": {
+                "type": "integer",
+                "title": "Y Position",
+                "description": "部件在UI中的Y坐标偏移",
+                "default": 0
+              },
               "item": {
                 "$ref": "#/components/schemas/common_resource_ref",
                 "x-model-name": "item"
@@ -20116,6 +20128,8 @@
             "id": 1300694,
             "name": "典狱长头盔",
             "speed": 0,
+            "x_position": 76,
+            "y_position": 90,
             "item": {
               "id": 1300694,
               "url": "https://api.seerapi.com/v1/item/1300694"
@@ -20189,6 +20203,8 @@
             "id": 1300694,
             "name": "典狱长头盔",
             "speed": 0,
+            "x_position": 76,
+            "y_position": 90,
             "item": {
               "id": 1300694,
               "url": "https://api.seerapi.com/v1/item/1300694"
@@ -20246,6 +20262,8 @@
             "id": 1300694,
             "name": "典狱长头盔",
             "speed": 0,
+            "x_position": 76,
+            "y_position": 90,
             "item": {
               "id": 1300694,
               "url": "https://api.seerapi.com/v1/item/1300694"

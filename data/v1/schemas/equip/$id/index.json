@@ -175,6 +175,18 @@
           "description": "部件速度移动加成，一般只有脚部部件提供",
           "title": "Speed"
         },
+        "x_position": {
+          "default": 0,
+          "description": "部件在UI中的X坐标偏移",
+          "title": "X Position",
+          "type": "integer"
+        },
+        "y_position": {
+          "default": 0,
+          "description": "部件在UI中的Y坐标偏移",
+          "title": "Y Position",
+          "type": "integer"
+        },
         "item": {
           "$ref": "#/$defs/ResourceRef_Item_",
           "description": "装备部件物品资源引用"
