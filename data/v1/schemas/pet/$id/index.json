@@ -20,6 +20,10 @@
           "title": "DiyStatsRange",
           "type": "object"
         },
+        "ResourceRef_PeakCostPool_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "peak_cost_pool"
+        },
         "ResourceRef_PeakExpertPool_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "peak_expert_pool"
@@ -357,6 +361,18 @@
           "default": null,
           "description": "精灵所属巅峰池票选ID",
           "title": "Peak Pool Vote Id"
+        },
+        "peak_cost_pool": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_PeakCostPool_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "精灵所属巅峰池票选"
         },
         "advance": {
           "anyOf": [

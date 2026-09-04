@@ -9041,6 +9041,163 @@
         "deprecated": false
       }
     },
+    "v1/peak_cost_pool/{id}": {
+      "get": {
+        "tags": [
+          "巅峰圣战",
+          "cost池"
+        ],
+        "summary": "获取巅峰大师模式cost池资源",
+        "description": "该资源用于提供当前版本大师模式cost池，该值的id等同于竞技点点数",
+        "operationId": "get_peak_cost_pool_by_id",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_cost_pool"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_cost_pool"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/peak_cost_pool/{name}": {
+      "get": {
+        "tags": [
+          "巅峰圣战",
+          "cost池"
+        ],
+        "summary": "通过名称获取巅峰大师模式cost池资源",
+        "description": "该资源用于提供当前版本大师模式cost池，该值的id等同于竞技点点数",
+        "operationId": "get_peak_cost_pool_by_name",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/name"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_cost_pool_NamedData"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/peak_cost_pool_NamedData"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
+    "v1/peak_cost_pool/": {
+      "get": {
+        "tags": [
+          "巅峰圣战",
+          "cost池"
+        ],
+        "summary": "获取巅峰大师模式cost池资源列表",
+        "description": "该资源用于提供当前版本大师模式cost池，该值的id等同于竞技点点数",
+        "operationId": "get_peak_cost_pool_list",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/offset"
+          },
+          {
+            "$ref": "#/components/parameters/limit"
+          },
+          {
+            "$ref": "#/components/parameters/expand"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "headers": {
+              "ETag": {
+                "$ref": "#/components/headers/Etag"
+              },
+              "Link": {
+                "$ref": "#/components/headers/Link"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/peak_cost_pool_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/peak_cost_pool_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              },
+              "application/schema-instance+json": {
+                "schema": {
+                  "oneOf": [
+                    {
+                      "$ref": "#/components/schemas/peak_cost_pool_List"
+                    },
+                    {
+                      "$ref": "#/components/schemas/peak_cost_pool_ListExpanded"
+                    }
+                  ],
+                  "description": "实际返回格式由 expand 查询参数决定，见 expand 参数说明。"
+                }
+              }
+            }
+          },
+          "304": {
+            "$ref": "#/components/responses/304_NotModified"
+          }
+        },
+        "deprecated": false
+      }
+    },
     "v1/peak_pool/{id}": {
       "get": {
         "tags": [
@@ -28289,6 +28446,272 @@
         "description": "expand=true 时返回完整资源对象列表",
         "x-model-name": "peak_season"
       },
+      "peak_cost_pool": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "id": {
+                "type": "integer",
+                "title": "Id",
+                "description": "资源ID"
+              },
+              "cost": {
+                "type": "integer",
+                "title": "Cost",
+                "description": "该池的消耗"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "该池的名称"
+              },
+              "start_time": {
+                "type": "string",
+                "format": "date-time",
+                "title": "Start Time",
+                "description": "该池的开始时间"
+              },
+              "end_time": {
+                "type": "string",
+                "format": "date-time",
+                "title": "End Time",
+                "description": "该池的结束时间"
+              },
+              "pet": {
+                "items": {
+                  "$ref": "#/components/schemas/common_resource_ref",
+                  "x-model-name": "pet"
+                },
+                "type": "array",
+                "title": "Pet",
+                "description": "该池内的精灵"
+              }
+            },
+            "type": "object",
+            "required": [
+              "id",
+              "cost",
+              "name",
+              "start_time",
+              "end_time"
+            ],
+            "title": "PeakCostPool"
+          }
+        ],
+        "title": "巅峰大师模式cost池资源",
+        "examples": [
+          {
+            "id": 35,
+            "cost": 35,
+            "name": "35点",
+            "start_time": "2026-09-04T10:00:00+08:00",
+            "end_time": "2026-11-27T10:00:00+08:00",
+            "pet": [
+              {
+                "id": 5000,
+                "url": "https://api.seerapi.com/v1/pet/5000"
+              },
+              {
+                "id": 4800,
+                "url": "https://api.seerapi.com/v1/pet/4800"
+              },
+              {
+                "id": 4186,
+                "url": "https://api.seerapi.com/v1/pet/4186"
+              },
+              {
+                "id": 3550,
+                "url": "https://api.seerapi.com/v1/pet/3550"
+              },
+              {
+                "id": 4677,
+                "url": "https://api.seerapi.com/v1/pet/4677"
+              },
+              {
+                "id": 4554,
+                "url": "https://api.seerapi.com/v1/pet/4554"
+              }
+            ],
+            "hash": "acd345e"
+          }
+        ]
+      },
+      "peak_cost_pool_NamedData": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/hash_partial"
+          },
+          {
+            "properties": {
+              "data": {
+                "patternProperties": {
+                  "^[0-9]+$": {
+                    "$ref": "#/components/schemas/peak_cost_pool"
+                  }
+                },
+                "additionalProperties": false,
+                "type": "object"
+              }
+            },
+            "type": "object",
+            "required": [
+              "data"
+            ]
+          }
+        ],
+        "title": "名称映射巅峰大师模式cost池资源",
+        "examples": [
+          {
+            "id": 35,
+            "cost": 35,
+            "name": "35点",
+            "start_time": "2026-09-04T10:00:00+08:00",
+            "end_time": "2026-11-27T10:00:00+08:00",
+            "pet": [
+              {
+                "id": 5000,
+                "url": "https://api.seerapi.com/v1/pet/5000"
+              },
+              {
+                "id": 4800,
+                "url": "https://api.seerapi.com/v1/pet/4800"
+              },
+              {
+                "id": 4186,
+                "url": "https://api.seerapi.com/v1/pet/4186"
+              },
+              {
+                "id": 3550,
+                "url": "https://api.seerapi.com/v1/pet/3550"
+              },
+              {
+                "id": 4677,
+                "url": "https://api.seerapi.com/v1/pet/4677"
+              },
+              {
+                "id": 4554,
+                "url": "https://api.seerapi.com/v1/pet/4554"
+              }
+            ],
+            "hash": "acd345e"
+          }
+        ]
+      },
+      "peak_cost_pool_List": {
+        "allOf": [
+          {
+            "$ref": "#/components/schemas/common_api_resource_list",
+            "x-model-name": "peak_cost_pool"
+          }
+        ],
+        "title": "巅峰大师模式cost池资源列表",
+        "examples": [
+          {
+            "id": 35,
+            "cost": 35,
+            "name": "35点",
+            "start_time": "2026-09-04T10:00:00+08:00",
+            "end_time": "2026-11-27T10:00:00+08:00",
+            "pet": [
+              {
+                "id": 5000,
+                "url": "https://api.seerapi.com/v1/pet/5000"
+              },
+              {
+                "id": 4800,
+                "url": "https://api.seerapi.com/v1/pet/4800"
+              },
+              {
+                "id": 4186,
+                "url": "https://api.seerapi.com/v1/pet/4186"
+              },
+              {
+                "id": 3550,
+                "url": "https://api.seerapi.com/v1/pet/3550"
+              },
+              {
+                "id": 4677,
+                "url": "https://api.seerapi.com/v1/pet/4677"
+              },
+              {
+                "id": 4554,
+                "url": "https://api.seerapi.com/v1/pet/4554"
+              }
+            ],
+            "hash": "acd345e"
+          }
+        ]
+      },
+      "peak_cost_pool_ListExpanded": {
+        "properties": {
+          "count": {
+            "type": "integer",
+            "description": "资源数量"
+          },
+          "next": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "下一页URL"
+          },
+          "previous": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "上一页URL"
+          },
+          "first": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "第一页URL"
+          },
+          "last": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "最后一页URL"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/peak_cost_pool"
+            },
+            "type": "array",
+            "description": "资源列表"
+          }
+        },
+        "type": "object",
+        "required": [
+          "count",
+          "results"
+        ],
+        "title": "巅峰大师模式cost池资源列表（expand=true）",
+        "description": "expand=true 时返回完整资源对象列表",
+        "x-model-name": "peak_cost_pool"
+      },
       "peak_pool": {
         "allOf": [
           {
@@ -29555,6 +29978,18 @@
                 "title": "Peak Pool Vote Id",
                 "description": "精灵所属巅峰池票选ID"
               },
+              "peak_cost_pool": {
+                "anyOf": [
+                  {
+                    "$ref": "#/components/schemas/common_resource_ref",
+                    "x-model-name": "peak_cost_pool"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "description": "精灵所属巅峰池票选"
+              },
               "advance": {
                 "anyOf": [
                   {
@@ -29967,6 +30402,10 @@
               "id": 0,
               "url": "https://api.seerapi.com/v1/peak_expert_pool/0"
             },
+            "peak_cost_pool": {
+              "id": 35,
+              "url": "https://api.seerapi.com/v1/peak_cost_pool/35"
+            },
             "advance": {
               "id": 20,
               "url": "https://api.seerapi.com/v1/pet_advance/20"
@@ -30376,6 +30815,10 @@
               "id": 0,
               "url": "https://api.seerapi.com/v1/peak_expert_pool/0"
             },
+            "peak_cost_pool": {
+              "id": 35,
+              "url": "https://api.seerapi.com/v1/peak_cost_pool/35"
+            },
             "advance": {
               "id": 20,
               "url": "https://api.seerapi.com/v1/pet_advance/20"
@@ -30768,6 +31211,10 @@
             "peak_expert_pool": {
               "id": 0,
               "url": "https://api.seerapi.com/v1/peak_expert_pool/0"
+            },
+            "peak_cost_pool": {
+              "id": 35,
+              "url": "https://api.seerapi.com/v1/peak_cost_pool/35"
             },
             "advance": {
               "id": 20,
@@ -36943,6 +37390,10 @@
                 "type": "string",
                 "title": "peak_season Path"
               },
+              "peak_cost_pool": {
+                "type": "string",
+                "title": "peak_cost_pool Path"
+              },
               "peak_pool": {
                 "type": "string",
                 "title": "peak_pool Path"
@@ -37098,6 +37549,7 @@
               "mintmark_rarity",
               "nature",
               "peak_season",
+              "peak_cost_pool",
               "peak_pool",
               "peak_expert_pool",
               "peak_pool_vote",
