@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2140": {
+      "id": 2140,
+      "desc": "回合开始时，若自身体力高于1/2则当回合免疫受到的麻痹状态，免疫成功则消除对手的回合类效果与能力提升效果|自身被击败时，若本次在场自身受到过麻痹状态，则己方下只出战精灵本场战斗免疫麻痹状态",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身体力高于1/2则[color=#52a5f2]当回合[/color]免疫受到的[color=#57c975]麻痹[/color]状态，免疫成功则消除对手的[color=#52a5f2]回合类效果[/color]与能力提升效果|[sprite name=dot4]自身被[color=#57c975]击败[/color]时，若本次在场自身受到过[color=#57c975]麻痹[/color]状态，则[color=#52a5f2]己方[/color]下只[color=#52a5f2]出战[/color]精灵本场战斗免疫[color=#57c975]麻痹[/color]状态",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4940,
+          "url": "https://api.seerapi.com/v1/pet/4940"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2549,
+          "url": "https://api.seerapi.com/v1/eid_effect/2549"
+        }
+      },
+      "effect_alias": "alias_2549_1_0",
+      "tag": [
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "d01e16d7"
+}

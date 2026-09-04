@@ -1,0 +1,64 @@
+{
+  "id": 29442,
+  "name": "升维论",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫受到的异常状态了；开始吸取对手的体力了；受到的固定伤害、百分比伤害减少了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 48,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+      }
+    },
+    {
+      "info": "3回合内每回合吸取对手最大体力的1/4，自身体力低于最大体力的1/4时转变为吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]3回合内每回合[color=#52a5f2]吸取[/color]对手最大体力的1/4，自身体力低于最大体力的1/4时转变为[color=#52a5f2]吸取[/color]对手最大体力的1/3",
+      "args": [
+        3,
+        4,
+        4,
+        3
+      ],
+      "effect": {
+        "id": 1396,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1396"
+      }
+    },
+    {
+      "info": "3回合内自身受到的固定伤害和百分比伤害减少25%",
+      "analyze_info": "[sprite name=iconHit]3回合内自身受到的[color=#52a5f2]固定伤害[/color]和[color=#52a5f2]百分比伤害[/color]减少25%（boss有效）",
+      "args": [
+        3,
+        25
+      ],
+      "effect": {
+        "id": 1475,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1475"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "9d3c3788"
+}

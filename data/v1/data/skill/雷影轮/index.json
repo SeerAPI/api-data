@@ -1,0 +1,65 @@
+{
+  "data": {
+    "38516": {
+      "id": 38516,
+      "name": "雷影轮",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 80,
+        "url": "https://api.seerapi.com/v1/element_type_combination/80"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升，消除成功可以抵挡2回合内对手的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升，消除成功可[color=#52a5f2]以[/color]抵挡2回合内对手的攻击伤害",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 794,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/794"
+          }
+        },
+        {
+          "info": "附加已损失体力值70%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]附加[color=#52a5f2]已损失体力[/color]值70%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
+          "args": [
+            70
+          ],
+          "effect": {
+            "id": 436,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/436"
+          }
+        },
+        {
+          "info": "造成的伤害低于200则附加自身最大体力40%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]造成的伤害低于200则附加自身最大体力40%的[color=#52a5f2]百分比伤害[/color]",
+          "args": [
+            200,
+            40
+          ],
+          "effect": {
+            "id": 1082,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1082"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "585b4e92"
+}
