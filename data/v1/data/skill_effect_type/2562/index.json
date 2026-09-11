@@ -1,0 +1,34 @@
+{
+  "id": 2562,
+  "args_num": 1,
+  "info": "若上回合结束时自身不处于异常状态，则消除对手回合类效果并令对手{0}",
+  "info_formatting_adjustment": null,
+  "analyze_info": "[sprite name=iconHit]若上回合结束时自身不处于异常状态，则消除对手[color=#52a5f2]回合类效果[/color]并令对手[color=#57c975]{0}[/color]",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29448,
+      "url": "https://api.seerapi.com/v1/skill/29448"
+    }
+  ],
+  "tag": [
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "2866556e"
+}

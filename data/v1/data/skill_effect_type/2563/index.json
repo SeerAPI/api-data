@@ -1,0 +1,34 @@
+{
+  "id": 2563,
+  "args_num": 3,
+  "info": "为自身附加{0}回合{1}，未触发则对手{2}回合内属性技能命中效果失效",
+  "info_formatting_adjustment": "为自身附加{0}回合{1}\r\n--><condition>未触发</condition>则对手{2}回合内属性技能命中效果失效",
+  "analyze_info": "[sprite name=iconHit]为自身附加{0}回合[color=#57c975]{1}[/color]，未触发则对手{2}回合内属性技能命中效果失效",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29448,
+      "url": "https://api.seerapi.com/v1/skill/29448"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    },
+    {
+      "id": 44313,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
+    }
+  ],
+  "hash": "5b47848"
+}

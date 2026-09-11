@@ -1,0 +1,53 @@
+{
+  "data": {
+    "194": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 194,
+      "name": "浩渺之源·努恩",
+      "description": "战斗开始时，根据自身属性值总和的10%，使己方随机3只精灵获得属性值提升并对对方随机3只精灵造成等量伤害",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 8,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10194,
+        "url": "https://api.seerapi.com/v1/autocard/10194"
+      },
+      "non_awaken_card": null
+    },
+    "10194": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/2"
+      },
+      "id": 10194,
+      "name": "浩渺之源·努恩",
+      "description": "战斗开始时，根据自身属性值总和的20%，使己方随机3只精灵获得属性值提升并对对方随机3只精灵造成等量伤害",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 16,
+      "health": 16,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 194,
+        "url": "https://api.seerapi.com/v1/autocard/194"
+      }
+    }
+  },
+  "hash": "2d7dcf47"
+}

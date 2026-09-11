@@ -1,0 +1,53 @@
+{
+  "data": {
+    "204": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 204,
+      "name": "深渊狱神·哈迪斯",
+      "description": "战斗开始时，若自身处于电力充能状态，则获得护盾；攻击前对与目标相邻的对方精灵造成自身攻击值50%的伤害，若自身处于电力充能状态，伤害比例提升为100%",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 6,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10204,
+        "url": "https://api.seerapi.com/v1/autocard/10204"
+      },
+      "non_awaken_card": null
+    },
+    "10204": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 5,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/5"
+      },
+      "id": 10204,
+      "name": "深渊狱神·哈迪斯",
+      "description": "战斗开始时，若自身处于电力充能状态，则获得护盾；攻击前对与目标相邻的对方精灵造成自身攻击值100%的伤害，若自身处于电力充能状态，伤害比例提升为150%",
+      "level": 6,
+      "cost": 3,
+      "is_token": false,
+      "attack": 16,
+      "health": 12,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 204,
+        "url": "https://api.seerapi.com/v1/autocard/204"
+      }
+    }
+  },
+  "hash": "5312aa3"
+}

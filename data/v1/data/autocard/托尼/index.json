@@ -1,0 +1,53 @@
+{
+  "data": {
+    "227": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/9"
+      },
+      "id": 227,
+      "name": "托尼",
+      "description": "战斗开始时寒潮层数+1，层数达到2时重置，重置后永久获得+2/+2（寒潮层数：{0}/2）",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 1,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10227,
+        "url": "https://api.seerapi.com/v1/autocard/10227"
+      },
+      "non_awaken_card": null
+    },
+    "10227": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/9"
+      },
+      "id": 10227,
+      "name": "托尼",
+      "description": "战斗开始时寒潮层数+1，层数达到2时重置，重置后永久获得+4/+4（寒潮层数：{0}/2）",
+      "level": 1,
+      "cost": 3,
+      "is_token": false,
+      "attack": 2,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 227,
+        "url": "https://api.seerapi.com/v1/autocard/227"
+      }
+    }
+  },
+  "hash": "d66a5538"
+}

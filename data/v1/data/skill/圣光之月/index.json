@@ -1,0 +1,92 @@
+{
+  "data": {
+    "29448": {
+      "id": 29448,
+      "name": "圣光之月",
+      "power": 0,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": "开始免疫并反弹受到的异常状态了；开始限制对手的属性技能了；为自身附加了星哲；开始令对手渐冻了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若上回合结束时自身不处于异常状态，则消除对手回合类效果并令对手神游",
+          "analyze_info": "[sprite name=iconHit]若上回合结束时自身不处于异常状态，则消除对手[color=#52a5f2]回合类效果[/color]并令对手[color=#57c975]神游[/color]",
+          "args": [
+            39
+          ],
+          "effect": {
+            "id": 2562,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2562"
+          }
+        },
+        {
+          "info": "4回合内免疫并反弹除星哲外所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]除[color=#57c975]星哲[/color]外所有受到的异常状态",
+          "args": [
+            4,
+            34
+          ],
+          "effect": {
+            "id": 1932,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1932"
+          }
+        },
+        {
+          "info": "3回合内若对手使用属性技能，则使用属性技能后的下2回合攻击技能无法造成伤害且命中效果失效",
+          "analyze_info": "[sprite name=iconHit]3回合内若对手使用属性技能，则使用属性技能后的下2回合攻击技能无法造成伤害且命中效果失效",
+          "args": [
+            3,
+            2
+          ],
+          "effect": {
+            "id": 738,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/738"
+          }
+        },
+        {
+          "info": "为自身附加2回合星哲，未触发则对手2回合内属性技能命中效果失效",
+          "analyze_info": "[sprite name=iconHit]为自身附加2回合[color=#57c975]星哲[/color]，未触发则对手2回合内属性技能命中效果失效",
+          "args": [
+            2,
+            34,
+            2
+          ],
+          "effect": {
+            "id": 2563,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2563"
+          }
+        },
+        {
+          "info": "2回合内每回合额外附加100%概率令对手渐冻",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合额外附加100%概率令对手[color=#57c975]渐冻[/color]（boss有效）",
+          "args": [
+            2,
+            100,
+            43
+          ],
+          "effect": {
+            "id": 169,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/169"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "4463fb5f"
+}

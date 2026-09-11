@@ -1,0 +1,53 @@
+{
+  "data": {
+    "211": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 211,
+      "name": "神佑之翼·炽天使",
+      "description": "商店结束阶段，己方每有1种不同等级的精灵，使己方所有精灵获得+1/+1，飞行系精灵额外获得+2/+2",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 4,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10211,
+        "url": "https://api.seerapi.com/v1/autocard/10211"
+      },
+      "non_awaken_card": null
+    },
+    "10211": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/4"
+      },
+      "id": 10211,
+      "name": "神佑之翼·炽天使",
+      "description": "商店结束阶段，己方每有1种不同等级的精灵，使己方所有精灵获得+2/+2，飞行系精灵额外获得+4/+4",
+      "level": 5,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 8,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 211,
+        "url": "https://api.seerapi.com/v1/autocard/211"
+      }
+    }
+  },
+  "hash": "781cd4e1"
+}

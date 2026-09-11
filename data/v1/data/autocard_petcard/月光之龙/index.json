@@ -1,0 +1,53 @@
+{
+  "data": {
+    "220": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 220,
+      "name": "月光之龙",
+      "description": "商店阶段开始时，随机获得1张商店法术牌",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 4,
+      "health": 5,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10220,
+        "url": "https://api.seerapi.com/v1/autocard/10220"
+      },
+      "non_awaken_card": null
+    },
+    "10220": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 15,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/15"
+      },
+      "id": 10220,
+      "name": "月光之龙",
+      "description": "商店阶段开始时，随机获得2张商店法术牌",
+      "level": 4,
+      "cost": 3,
+      "is_token": false,
+      "attack": 8,
+      "health": 10,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 220,
+        "url": "https://api.seerapi.com/v1/autocard/220"
+      }
+    }
+  },
+  "hash": "b4eea7d4"
+}

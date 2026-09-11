@@ -1,0 +1,53 @@
+{
+  "data": {
+    "228": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/9"
+      },
+      "id": 228,
+      "name": "古雷亚",
+      "description": "战斗开始时，使对方攻击值最高的精灵获得冻伤状态",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 3,
+      "health": 2,
+      "is_awakened": false,
+      "awaken_card": {
+        "id": 10228,
+        "url": "https://api.seerapi.com/v1/autocard/10228"
+      },
+      "non_awaken_card": null
+    },
+    "10228": {
+      "type": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/autocard_cardtype/1"
+      },
+      "element_type": {
+        "id": 9,
+        "url": "https://api.seerapi.com/v1/autocard_element_type/9"
+      },
+      "id": 10228,
+      "name": "古雷亚",
+      "description": "战斗开始时，使对方攻击值最高的2只精灵获得冻伤状态",
+      "level": 2,
+      "cost": 3,
+      "is_token": false,
+      "attack": 6,
+      "health": 4,
+      "is_awakened": true,
+      "awaken_card": null,
+      "non_awaken_card": {
+        "id": 228,
+        "url": "https://api.seerapi.com/v1/autocard/228"
+      }
+    }
+  },
+  "hash": "1e4f6650"
+}

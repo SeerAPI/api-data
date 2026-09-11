@@ -1,0 +1,48 @@
+{
+  "data": {
+    "2141": {
+      "id": 2141,
+      "desc": "自身存活于场下时，为己方提供霜域血装支援，自身存活于场上时，自身受到的攻击伤害、固定伤害减少50%|回合开始时，若对手处于能力提升状态则为自身附加3回合冰呪且当回合自身攻击将对手的能力提升效果视为能力下降效果，若对手不处于能力提升状态则当回合自身攻击技能造成的伤害提升50%并无视自身能力下降|自身被击败时，消除对手的回合类效果并令对手冰封，若对手不处于回合类效果则当回合自身死亡切换下场时为己方下只出战精灵附加3回合冰呪",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身存活于场下时，为[color=#52a5f2]己方[/color]提供[color=#f35555]霜域血装[/color][color=#57c975]支援[/color]，自身存活于场上时，自身受到的攻击伤害、[color=#52a5f2]固定伤害[/color]减少50%|[sprite name=dot4][color=#57c975]回合开始时[/color]，若对手处于能力提升状态则为自身附加3回合[color=#f35555]冰呪[/color]且[color=#52a5f2]当回合[/color]自身攻击将对手的能力提升效果视为能力下降效果，若对手不处于能力提升状态则[color=#52a5f2]当回合[/color]自身攻击技能造成的伤害提升50%并无视自身能力下降|[sprite name=dot4]自身被[color=#57c975]击败[/color]时，消除对手的[color=#52a5f2]回合类效果[/color]并令对手[color=#57c975]冰封[/color]，若对手不处于[color=#52a5f2]回合类效果[/color]则当回合自身死亡切换下场时为下只精灵附加3回合[color=#f35555]冰呪[/color]",
+      "pve_effective": true,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4942,
+          "url": "https://api.seerapi.com/v1/pet/4942"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2546,
+          "url": "https://api.seerapi.com/v1/eid_effect/2546"
+        }
+      },
+      "effect_alias": "alias_2546_1_0",
+      "tag": [
+        {
+          "id": 2,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 5,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/5"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "de065958"
+}
