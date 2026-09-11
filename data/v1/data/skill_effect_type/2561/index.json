@@ -2,7 +2,7 @@
   "id": 2561,
   "args_num": 0,
   "info": "战斗开始时，剥离自身的混沌系并转化为堕灵神谕，之后本场战斗自身每次登场时若对手不处于控制类异常状态则令对手下1次属性技能无效",
-  "info_formatting_adjustment": "战斗开始时，剥离自身的混沌系并转化为堕灵神谕\r\n-->之后本场战斗自身每次登场时对手下1次属性技能无效",
+  "info_formatting_adjustment": "战斗开始时，剥离自身的混沌系并转化为堕灵神谕\r\n-->之后本场战斗自身每次登场时<condition>若对手不处于控制类异常状态</condition>则令对手下1次属性技能无效",
   "analyze_info": "[sprite name=iconInherent]战斗开始时，剥离自身的混沌系并转化为[color=#f35555]堕灵神谕[/color]，之后本场战斗自身每次登场时若对手不处于控制类异常状态则令对手下1次属性技能无效",
   "pve_effective": false,
   "param": null,
@@ -18,5 +18,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/44313"
     }
   ],
-  "hash": "89d095a9"
+  "hash": "916e101e"
 }
