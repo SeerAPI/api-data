@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "受到过大伤害则恢复自身所有体力；抵抗能力下降；攻击变得更加犀利了",
+  "info": "受到过大伤害则恢复自身全部体力；抵抗能力下降；攻击变得更加犀利了",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -20,8 +20,8 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "2回合内若受到的伤害大于300，则恢复自身所有体力",
-      "analyze_info": "[sprite name=iconHit]2回合内若受到的伤害大于300，则恢复自身所有体力",
+      "info": "2回合内若受到的伤害大于300，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]2回合内若受到的伤害大于300，则恢复自身全部体力",
       "args": [
         2,
         300
@@ -57,5 +57,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "14707ae5"
+  "hash": "19e80679"
 }

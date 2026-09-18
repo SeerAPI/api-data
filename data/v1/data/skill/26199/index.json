@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": false,
   "atk_num": 1,
-  "info": "一定回合内自身受到的攻击伤害过高则恢复所有体力",
+  "info": "一定回合内自身受到的攻击伤害过高则恢复全部体力",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -20,8 +20,8 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "3回合内若受到的伤害大于300，则恢复自身所有体力",
-      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于300，则恢复自身所有体力",
+      "info": "3回合内若受到的伤害大于300，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于300，则恢复自身全部体力",
       "args": [
         3,
         300
@@ -35,5 +35,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "cce27cdf"
+  "hash": "cc22b8d9"
 }

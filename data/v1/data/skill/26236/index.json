@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "开始免疫异常状态和能力下降状态了；自身受到的伤害过高则恢复所有体力",
+  "info": "开始免疫异常状态和能力下降状态了；自身受到的伤害过高则恢复全部体力",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -42,8 +42,8 @@
       }
     },
     {
-      "info": "3回合内若受到的伤害大于250，则恢复自身所有体力",
-      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于250，则恢复自身所有体力",
+      "info": "3回合内若受到的伤害大于250，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于250，则恢复自身全部体力",
       "args": [
         3,
         250
@@ -57,5 +57,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "51c76461"
+  "hash": "49ebf0c3"
 }

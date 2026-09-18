@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "体力开始慢慢恢复了；受到伤害过大则恢复自身所有体力；转移自身的能力下降状态给对手",
+  "info": "体力开始慢慢恢复了；受到伤害过大则恢复自身全部体力；转移自身的能力下降状态给对手",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -32,8 +32,8 @@
       }
     },
     {
-      "info": "2回合内若受到的伤害大于300，则恢复自身所有体力",
-      "analyze_info": "[sprite name=iconHit]2回合内若受到的伤害大于300，则恢复自身所有体力",
+      "info": "2回合内若受到的伤害大于300，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]2回合内若受到的伤害大于300，则恢复自身全部体力",
       "args": [
         2,
         300
@@ -58,5 +58,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "8780ea6e"
+  "hash": "7799091a"
 }

@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "自身攻击，速度，命中都提升了；受到攻击则回复体力并使对手双攻降低",
+  "info": "自身攻击，速度，命中都提升了；受到攻击则恢复体力并使对手双攻降低",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -47,8 +47,8 @@
       }
     },
     {
-      "info": "3回合内受到攻击100%概率回复150点体力",
-      "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率回复150点体力（boss有效）",
+      "info": "3回合内受到攻击100%概率恢复150点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率恢复150点体力（boss有效）",
       "args": [
         3,
         100,
@@ -63,5 +63,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "39595ba"
+  "hash": "6c70d26f"
 }

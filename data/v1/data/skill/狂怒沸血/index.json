@@ -10,7 +10,7 @@
       "priority": 0,
       "must_hit": true,
       "atk_num": 1,
-      "info": "抵抗异常状态的能力提升了；受到过大伤害，则恢复自身所有体力；自身速度、命中提升了",
+      "info": "抵抗异常状态的能力提升了；受到过大伤害，则恢复自身全部体力；自身速度、命中提升了",
       "category": {
         "id": 4,
         "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -33,8 +33,8 @@
           }
         },
         {
-          "info": "下回合若受到的伤害大于200，则恢复自身所有体力",
-          "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于200，则恢复自身所有体力（boss有效）",
+          "info": "下回合若受到的伤害大于200，则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于200，则恢复自身全部体力（boss有效）",
           "args": [
             200
           ],
@@ -75,5 +75,5 @@
       "advance": null
     }
   },
-  "hash": "2a25cd4"
+  "hash": "5e3a416d"
 }

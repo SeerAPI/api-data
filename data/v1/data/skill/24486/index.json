@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "全属性得到提升；造成伤害更高；若受到过大伤害，则回复所有体力；",
+  "info": "全属性得到提升；造成伤害更高；若受到过大伤害，则恢复全部体力；",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -48,8 +48,8 @@
       }
     },
     {
-      "info": "3回合内若受到的伤害大于250，则恢复自身所有体力",
-      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于250，则恢复自身所有体力",
+      "info": "3回合内若受到的伤害大于250，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]3回合内若受到的伤害大于250，则恢复自身全部体力",
       "args": [
         3,
         250
@@ -63,5 +63,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "6eaab618"
+  "hash": "87d22386"
 }

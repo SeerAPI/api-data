@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "使对手全属性都降低了；先出手，则免疫当回合伤害并回复自身体力；出手变得更快了",
+  "info": "使对手全属性都降低了；先出手，则免疫当回合伤害并恢复自身体力；出手变得更快了",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -32,8 +32,8 @@
       }
     },
     {
-      "info": "若先出手，则免疫当回合伤害并回复1/4的最大体力值",
-      "analyze_info": "[sprite name=iconHit]若先出手，则免疫[color=#52a5f2]当回合[/color]伤害并回复1/4的最大体力值",
+      "info": "若先出手，则免疫当回合伤害并恢复1/4的最大体力值",
+      "analyze_info": "[sprite name=iconHit]若先出手，则免疫[color=#52a5f2]当回合[/color]伤害并恢复1/4的最大体力值",
       "args": [
         4
       ],
@@ -58,5 +58,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "1bd37a09"
+  "hash": "6f7e12ee"
 }

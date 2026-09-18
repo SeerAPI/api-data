@@ -10,7 +10,7 @@
       "priority": 0,
       "must_hit": true,
       "atk_num": 1,
-      "info": "抵抗异常状态的能力提升了；受到的伤害减少了；有几率恢复所有体力值",
+      "info": "抵抗异常状态的能力提升了；受到的伤害减少了；有几率恢复全部体力值",
       "category": {
         "id": 4,
         "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -45,8 +45,8 @@
           }
         },
         {
-          "info": "使用时若自身体力低于1/5则恢复所有体力值",
-          "analyze_info": "[sprite name=iconHit]使用时若自身体力低于1/5则恢复所有体力值（boss有效）",
+          "info": "使用时若自身体力低于1/5则恢复全部体力值",
+          "analyze_info": "[sprite name=iconHit]使用时若自身体力低于1/5则恢复全部体力值（boss有效）",
           "args": [
             5
           ],
@@ -61,5 +61,5 @@
       "advance": null
     }
   },
-  "hash": "6d4a8446"
+  "hash": "d18b6dd2"
 }

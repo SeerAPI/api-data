@@ -1,0 +1,56 @@
+{
+  "data": {
+    "38530": {
+      "id": 38530,
+      "name": "远古雷律",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 127,
+        "url": "https://api.seerapi.com/v1/element_type_combination/127"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除双方回合类效果并为双方附加2回合混乱，自身混乱状态解除后则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]并为双方附加2回合[color=#57c975]混乱[/color]，自身[color=#57c975]混乱[/color]状态解除后则恢复自身全部体力",
+          "args": [
+            2,
+            10,
+            10
+          ],
+          "effect": {
+            "id": 1139,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1139"
+          }
+        },
+        {
+          "info": "未击败对手则70%令对手麻痹",
+          "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则70%令对手[color=#57c975]麻痹[/color]",
+          "args": [
+            70,
+            0
+          ],
+          "effect": {
+            "id": 719,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/719"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "2f786f9d"
+}

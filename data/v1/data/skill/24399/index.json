@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "能力强化状态消失则对手使用属性技能失效；抵抗异常状态的能力提升了；受到过大伤害则恢复自身所有体力；攻击变得更加犀利了",
+  "info": "能力强化状态消失则对手使用属性技能失效；抵抗异常状态的能力提升了；受到过大伤害则恢复自身全部体力；攻击变得更加犀利了",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -42,8 +42,8 @@
       }
     },
     {
-      "info": "下回合若受到的伤害大于200，则恢复自身所有体力",
-      "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于200，则恢复自身所有体力（boss有效）",
+      "info": "下回合若受到的伤害大于200，则恢复自身全部体力",
+      "analyze_info": "[sprite name=iconHit]下回合若受到的伤害大于200，则恢复自身全部体力（boss有效）",
       "args": [
         200
       ],
@@ -67,5 +67,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "2e50bd40"
+  "hash": "6d9326e5"
 }

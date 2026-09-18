@@ -1,0 +1,44 @@
+{
+  "id": 2142,
+  "desc": "自身免疫受到的秒杀；对手执行秒杀效果时，消除对手的回合类效果并令对手石化；战斗阶段结束时，获得等同于对手的护盾、护罩，若对手的护盾、护罩相等，则额外消除对手的护盾、护罩并附加等量的固定伤害、消除量100%百分比伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身免疫受到的[color=#57c975]秒杀[/color]；对手[color=#52a5f2]执行[/color][color=#57c975]秒杀[/color]效果时，消除对手的[color=#52a5f2]回合类效果[/color]并令对手[color=#57c975]石化[/color]；[color=#57c975]战斗阶段结束时[/color]，获得等同于对手的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]，若对手的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]相等，则额外消除对手的[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]并附加等量的[color=#52a5f2]固定伤害[/color]、消除量100%的[color=#52a5f2]百分比伤害[/color]",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4943,
+      "url": "https://api.seerapi.com/v1/pet/4943"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2550,
+      "url": "https://api.seerapi.com/v1/eid_effect/2550"
+    }
+  },
+  "effect_alias": "alias_2550_1_0",
+  "tag": [
+    {
+      "id": 9,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "c1cb058d"
+}

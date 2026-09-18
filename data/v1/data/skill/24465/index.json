@@ -8,7 +8,7 @@
   "priority": 0,
   "must_hit": true,
   "atk_num": 1,
-  "info": "萌萌变的更萌了，受到攻击会回复体力；",
+  "info": "萌萌变的更萌了，受到攻击会恢复体力；",
   "category": {
     "id": 4,
     "url": "https://api.seerapi.com/v1/skill_category/4"
@@ -20,8 +20,8 @@
   "learned_by_pet": [],
   "skill_effect": [
     {
-      "info": "3回合内受到攻击100%概率回复100点体力",
-      "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率回复100点体力（boss有效）",
+      "info": "3回合内受到攻击100%概率恢复100点体力",
+      "analyze_info": "[sprite name=iconHit]3回合内受到攻击100%概率恢复100点体力（boss有效）",
       "args": [
         3,
         100,
@@ -36,5 +36,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "aca4f72e"
+  "hash": "5de97750"
 }
