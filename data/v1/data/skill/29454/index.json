@@ -1,0 +1,64 @@
+{
+  "id": 29454,
+  "name": "惰殆迷思",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "随机吸取对手能力；开始慢慢恢复自身体力了；受到攻击对手能力值降低",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "随机吸取对手4项属性1，并将该属性附加给自己",
+      "analyze_info": "[sprite name=iconHit]随机[color=#52a5f2]吸取[/color]对手4项属性1，并将该属性附加给自己（boss有效）",
+      "args": [
+        4,
+        1
+      ],
+      "effect": {
+        "id": 425,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/425"
+      }
+    },
+    {
+      "info": "4回合内每回合随机恢复0-500点体力",
+      "analyze_info": "[sprite name=iconHit]4回合内每回合随机恢复0-500点体力（boss有效）",
+      "args": [
+        4,
+        0,
+        500
+      ],
+      "effect": {
+        "id": 651,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/651"
+      }
+    },
+    {
+      "info": "若下回合受到攻击，则对手随机4项能力值--1",
+      "analyze_info": "[sprite name=iconHit]若下回合受到攻击，则对手随机4项能力值--1",
+      "args": [
+        4,
+        -1
+      ],
+      "effect": {
+        "id": 715,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/715"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "e1280938"
+}

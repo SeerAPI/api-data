@@ -1,0 +1,42 @@
+{
+  "data": {
+    "38545": {
+      "id": 38545,
+      "name": "鼎沸焰火",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 2,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 68,
+        "url": "https://api.seerapi.com/v1/element_type_combination/68"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除双方回合类效果，消除成功则双方沸涌",
+          "analyze_info": "[sprite name=iconHit]消除双方[color=#52a5f2]回合类效果[/color]，消除成功则双方[color=#57c975]沸涌[/color]（boss有效）",
+          "args": [
+            36
+          ],
+          "effect": {
+            "id": 1414,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1414"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "816f60bc"
+}

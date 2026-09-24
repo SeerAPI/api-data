@@ -1,0 +1,63 @@
+{
+  "id": 38542,
+  "name": "易燃肤质",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 47,
+    "url": "https://api.seerapi.com/v1/element_type_combination/47"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "吸取对手能力提升，吸取成功则下2次受到的攻击伤害减少30%",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升，[color=#52a5f2]吸取[/color]成功则下2次受到的攻击伤害减少30%（boss有效）",
+      "args": [
+        2,
+        30
+      ],
+      "effect": {
+        "id": 1287,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1287"
+      }
+    },
+    {
+      "info": "先出手时附加自身攻击50%的百分比伤害",
+      "analyze_info": "[sprite name=iconHit]先出手时附加自身攻击50%的[color=#52a5f2]百分比伤害[/color]（boss有效）",
+      "args": [
+        50
+      ],
+      "effect": {
+        "id": 932,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/932"
+      }
+    },
+    {
+      "info": "当回合造成的攻击伤害若高于200则100%令对手烧伤",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]造成的攻击伤害若高于200则100%令对手[color=#57c975]烧伤[/color]",
+      "args": [
+        200,
+        100,
+        2
+      ],
+      "effect": {
+        "id": 1106,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1106"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "544dcf8a"
+}

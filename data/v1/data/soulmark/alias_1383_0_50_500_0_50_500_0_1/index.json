@@ -1,0 +1,50 @@
+{
+  "data": {
+    "2145": {
+      "id": 2145,
+      "desc": "战斗阶段结束时，若当回合自身使用了攻击技能则50%附加500点固定伤害，若当回合自身使用了属性技能则50%恢复自身500点体力（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若[color=#52a5f2]当回合[/color]自身使用了攻击技能则50%附加500点[color=#52a5f2]固定伤害[/color]，若[color=#52a5f2]当回合[/color]自身使用了属性技能则50%恢复自身500点体力",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4945,
+          "url": "https://api.seerapi.com/v1/pet/4945"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          0,
+          50,
+          500,
+          0,
+          50,
+          500,
+          0,
+          1
+        ],
+        "effect": {
+          "id": 1383,
+          "url": "https://api.seerapi.com/v1/eid_effect/1383"
+        }
+      },
+      "effect_alias": "alias_1383_0_50_500_0_50_500_0_1",
+      "tag": [
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "5357d086"
+}

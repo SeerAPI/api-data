@@ -1,0 +1,87 @@
+{
+  "data": {
+    "38552": {
+      "id": 38552,
+      "name": "王·融冬诉死",
+      "power": 150,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 45,
+        "url": "https://api.seerapi.com/v1/element_type_combination/45"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若自身处于能力下降状态则技能先制+3",
+          "analyze_info": "[sprite name=iconInherent]若自身处于能力下降状态则[color=#52a5f2]技能先制[/color]+3（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 881,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/881"
+          }
+        },
+        {
+          "info": "无视对手的正先制等级，命中时此效果本次在场失效",
+          "analyze_info": "[sprite name=iconComp]无视对手的正[color=#52a5f2]先制[/color]等级，命中时此效果本次在场失效",
+          "args": [],
+          "effect": {
+            "id": 2504,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2504"
+          }
+        },
+        {
+          "info": "若对手处于能力提升状态则消除对手回合类效果且100%令对手冰封3回合",
+          "analyze_info": "[sprite name=iconHit]若对手处于能力提升状态则消除对手[color=#52a5f2]回合类效果[/color]且100%令对手[color=#57c975]冰封[/color]3回合",
+          "args": [
+            100,
+            15,
+            3
+          ],
+          "effect": {
+            "id": 2001,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2001"
+          }
+        },
+        {
+          "info": "反转自身能力下降状态，反转成功则附加给对手等同的能力下降状态",
+          "analyze_info": "[sprite name=iconHit]反转自身能力下降状态（boss有效），反转成功则附加给对手等同的能力下降状态",
+          "args": [],
+          "effect": {
+            "id": 1232,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1232"
+          }
+        },
+        {
+          "info": "若对手处于魇昧状态，则对手下次所处的冰封状态结束时，其体力值归0",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]魇昧[/color]状态，则对手下次所处的冰封状态结束时，其体力值归0",
+          "args": [
+            44,
+            15,
+            0
+          ],
+          "effect": {
+            "id": 2577,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2577"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": {
+        "id": 27,
+        "url": "https://api.seerapi.com/v1/pet_advance/27"
+      }
+    }
+  },
+  "hash": "58a4fef9"
+}

@@ -1,0 +1,73 @@
+{
+  "data": {
+    "38551": {
+      "id": 38551,
+      "name": "雾影界天",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 100,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 45,
+        "url": "https://api.seerapi.com/v1/element_type_combination/45"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手回合类效果，消除成功则己方免疫下1次受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]（boss有效），消除成功则[color=#52a5f2]己方[/color]免疫下1次受到的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 928,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/928"
+          }
+        },
+        {
+          "info": "3回合内每回合100%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合100%闪避对手攻击（boss有效）",
+          "args": [
+            3,
+            100
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        },
+        {
+          "info": "使双方所处的异常状态回合数-1，对自身触发成功时100%令对手冰封，对对手触发成功时100%令对手害怕，均未触发则为对方附加3回合没夜之月",
+          "analyze_info": "[sprite name=iconHit]使双方所处的异常状态回合数-1，对自身触发成功时100%令对手冰封，对对手触发成功时100%令对手害怕，均[color=#52a5f2]未触发[/color]则为[color=#52a5f2]对方[/color]附加3回合[color=#f35555]没夜之月[/color]",
+          "args": [
+            1,
+            100,
+            15,
+            100,
+            6,
+            3
+          ],
+          "effect": {
+            "id": 2579,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2579"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": {
+        "id": 27,
+        "url": "https://api.seerapi.com/v1/pet_advance/27"
+      }
+    }
+  },
+  "hash": "12de84c1"
+}

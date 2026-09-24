@@ -1,0 +1,60 @@
+{
+  "id": 29462,
+  "name": "欢声庆语",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "受到攻击则自身全属性提升；获得了一定的护盾；出手变得更快了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "3回合内若对手使用攻击技能则使用后令自身全属性+1",
+      "analyze_info": "[sprite name=iconHit]3回合内若对手使用攻击技能则使用后令自身[color=#52a5f2]全属性[/color]+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 806,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/806"
+      }
+    },
+    {
+      "info": "若自身当前体力低于对手则为自身附加等同于双方最大体力差值的护盾",
+      "analyze_info": "[sprite name=iconHit]若自身当前体力低于对手则为自身附加等同于双方最大体力差值的[color=#57c975]护盾[/color]",
+      "args": [],
+      "effect": {
+        "id": 1871,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1871"
+      }
+    },
+    {
+      "info": "下2回合令自身所有技能先制+1",
+      "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+1（boss有效）",
+      "args": [
+        2,
+        1
+      ],
+      "effect": {
+        "id": 843,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "4bf7ebe6"
+}

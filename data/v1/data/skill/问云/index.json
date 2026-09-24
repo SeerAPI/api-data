@@ -22,10 +22,11 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "命中则70%使对手70，未触发则附加{2}点固定伤害",
-          "analyze_info": "[sprite name=iconHit]命中则70%使对手[color=#57c975]70[/color]，[color=#52a5f2]未触发[/color]则附加{2}点[color=#52a5f2]固定伤害[/color]",
+          "info": "命中则70%使对手麻痹，未触发则附加70点固定伤害",
+          "analyze_info": "[sprite name=iconHit]命中则70%使对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则附加70点[color=#52a5f2]固定伤害[/color]",
           "args": [
             70,
+            0,
             70
           ],
           "effect": {
@@ -39,5 +40,5 @@
       "advance": null
     }
   },
-  "hash": "3a0877f7"
+  "hash": "be552bbd"
 }

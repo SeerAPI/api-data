@@ -1,0 +1,43 @@
+{
+  "id": 2150,
+  "desc": "自身受到的攻击伤害额外减少50%，自身造成的攻击伤害的50%额外增加至自身体力，自身以此方式减少的伤害、增加的体力每累计达到500点，自身获得1面弥沦之镜；战斗阶段结束时，自身解除对手所处的附属类异常状态，自身每有1面弥沦之镜，改为将对手随机1种附属类异常状态转移至自身，每转移1种自身恢复最大体力的25%与所有技能1点PP值|回合开始时，若自身体力低于1/2则当回合自身技能先制+1且造成的攻击伤害提升100%，若自身体力高于1/2则当回合结束时附加对手当回合所执行过的异常状态附加效果对应的异常状态，然后若双方所处的异常状态数量不同，则消除对手回合类效果并解除自身所处的异常状态，每解除1种附加2回合没夜之月（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身受到的攻击[color=#52a5f2]伤害额外减少[/color]50%，自身造成的攻击伤害的50%额外增加至自身体力，自身以此方式减少的伤害、增加的体力每累计[color=#52a5f2]达到[/color]500点，自身获得1面[color=#f35555]弥沦之镜[/color]；[color=#57c975]战斗阶段结束时[/color]，自身解除对手所处的附属类异常状态，自身每有1面[color=#f35555]弥沦之镜[/color]，改为将对手随机1种附属类异常状态转移至自身，每转移1种自身恢复最大体力的25%与所有技能1点PP值|[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身体力低于1/2则[color=#52a5f2]当回合[/color]自身[color=#52a5f2]技能先制[/color]+1且造成的攻击伤害提升100%，若自身体力高于1/2则[color=#52a5f2]当回合[/color]结束时附加对手[color=#52a5f2]当回合[/color]所[color=#52a5f2]执行[/color]过的[color=#52a5f2]异常状态附加效果[/color]对应的异常状态，[color=#52a5f2]然后[/color]若双方所处的异常状态数量不同，则消除对手[color=#52a5f2]回合类效果[/color]并解除自身所处的异常状态，每解除1种附加2回合[color=#f35555]没夜之月[/color]",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": true,
+  "pet": [
+    {
+      "id": 3432,
+      "url": "https://api.seerapi.com/v1/pet/3432"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2555,
+      "url": "https://api.seerapi.com/v1/eid_effect/2555"
+    }
+  },
+  "effect_alias": "alias_2555_1_0",
+  "tag": [
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": {
+    "id": 27,
+    "url": "https://api.seerapi.com/v1/pet_advance/27"
+  },
+  "hash": "6c34726e"
+}
