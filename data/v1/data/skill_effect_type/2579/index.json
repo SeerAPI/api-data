@@ -1,9 +1,9 @@
 {
   "id": 2579,
-  "args_num": 6,
-  "info": "使双方所处的异常状态回合数-{0}，对自身触发成功时{1}%令对手{2}，对对手触发成功时{3}%令对手{4}，均未触发则为对方附加{5}回合没夜之月",
-  "info_formatting_adjustment": "使双方所处的异常状态回合数-{0}\r\n--><condition>对自身触发成功时</condition>{1}%令对手{2}\r\n--><condition>对对手触发成功时</condition>{3}%令对手{4}\r\n--><condition>均未触发</condition>则为对方附加{5}回合没夜之月",
-  "analyze_info": "[sprite name=iconHit]使双方所处的异常状态回合数-{0}，对自身触发成功时{1}%令对手{2}，对对手触发成功时{3}%令对手{4}，均[color=#52a5f2]未触发[/color]则为[color=#52a5f2]对方[/color]附加{5}回合[color=#f35555]没夜之月[/color]",
+  "args_num": 5,
+  "info": "使双方所处的异常状态回合数-{0}，对自身触发成功时{1}%令对手{2}，对对手触发成功时{3}%令对手{4}，若双方均不处于异常状态则为对手附加1回合没夜之月，自身每有1面弥沦之镜回合数+1",
+  "info_formatting_adjustment": "使双方所处的异常状态回合数-{0}\r\n--><condition>对自身触发成功时</condition>{1}%令对手{2}\r\n--><condition>对对手触发成功时</condition>{3}%令对手{4}\r\n--><condition>双方均不处于异常状态</condition>则为对方附加1回合没夜之月\r\n-->自身每有1面弥沦之镜回合数+1",
+  "analyze_info": "[sprite name=iconHit]使双方所处的异常状态回合数-{0}，对自身触发成功时{1}%令对手{2}，对对手触发成功时{3}%令对手{4}，若双方均不处于异常状态则为对手附加1回合[color=#f35555]没夜之月[/color]，自身每有1面[color=#f35555]弥沦之镜[/color]回合数+1",
   "pve_effective": false,
   "param": [
     {
@@ -33,5 +33,5 @@
       "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
     }
   ],
-  "hash": "ac4d7854"
+  "hash": "5f7cc82b"
 }

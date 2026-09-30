@@ -1,9 +1,9 @@
 {
   "id": 2577,
   "args_num": 3,
-  "info": "若对手处于{0}状态，则对手下次所处的{1}状态结束时，其体力值归{2}",
+  "info": "若对手处于{0}状态，则5回合内在场精灵所处的{1}状态结束时，其体力值归{2}",
   "info_formatting_adjustment": null,
-  "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]{0}[/color]状态，则对手下次所处的{1}状态结束时，其体力值归{2}",
+  "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]{0}[/color]状态，则5回合内[color=#52a5f2]对方[/color]在场精灵所处的{1}状态结束时，其体力值归{2}",
   "pve_effective": false,
   "param": [
     {
@@ -28,5 +28,5 @@
     }
   ],
   "tag": [],
-  "hash": "2d2bf27d"
+  "hash": "68041b98"
 }

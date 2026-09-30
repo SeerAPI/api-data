@@ -3,11 +3,15 @@
     "44": {
       "id": 44,
       "name": "魇昧",
-      "desc": "弱化类异常状态，场上的异常状态、能力提升状态对己方均展示为1回合的魇昧",
+      "desc": "弱化类异常状态，限制类异常状态，场上的异常状态、能力等级状态对己方均展示为无回合的魇昧",
       "type": [
         {
           "id": 1,
           "url": "https://api.seerapi.com/v1/battle_effect_type/1"
+        },
+        {
+          "id": 3,
+          "url": "https://api.seerapi.com/v1/battle_effect_type/3"
         }
       ],
       "resistance": {
@@ -16,5 +20,5 @@
       }
     }
   },
-  "hash": "d045c660"
+  "hash": "155ffdb2"
 }
