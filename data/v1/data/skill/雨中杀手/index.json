@@ -22,9 +22,12 @@
       "learned_by_pet": [],
       "skill_effect": [
         {
-          "info": "若对手处于{0}状态，则{1}%概率秒杀对手",
-          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]{0}[/color]状态，则{1}%概率[color=#52a5f2]秒杀[/color]对手",
-          "args": [],
+          "info": "若对手处于砥砺状态，则30%概率秒杀对手",
+          "analyze_info": "[sprite name=iconHit]若对手处于[color=#57c975]砥砺[/color]状态，则30%概率[color=#52a5f2]秒杀[/color]对手",
+          "args": [
+            37,
+            30
+          ],
           "effect": {
             "id": 495,
             "url": "https://api.seerapi.com/v1/skill_effect_type/495"
@@ -36,5 +39,5 @@
       "advance": null
     }
   },
-  "hash": "685985e8"
+  "hash": "78452055"
 }
