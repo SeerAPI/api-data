@@ -1,0 +1,86 @@
+{
+  "id": 29476,
+  "name": "残心静火",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "令对手害怕了；全属性都提升了，解除了自身所处的异常状态并获得嫉妒；攻击变得更加犀利了；对手的出手变得更慢了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "50%令对手害怕，未触发则吸取对手最大体力的15%，自身每有1种能力值低于对手此效果重复1次",
+      "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]害怕[/color]，未触发则[color=#52a5f2]吸取[/color]对手最大体力的15%，自身每有1种能力值低于对手此效果重复1次（boss有效）",
+      "args": [
+        50,
+        6,
+        15,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 2595,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2595"
+      }
+    },
+    {
+      "info": "全属性+1，对手处于能力下降状态时强化效果翻倍",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]全属性[/color]+1，对手处于能力下降状态时强化效果翻倍（boss有效）",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 1338,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1338"
+      }
+    },
+    {
+      "info": "解除自身所处的异常状态并获得3回合嫉妒，每解除1种异常状态，额外获得1回合",
+      "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态并获得3回合[color=#f35555]嫉妒[/color]，每解除1种异常状态，额外获得1回合（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 2596,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2596"
+      }
+    },
+    {
+      "info": "下2回合自身造成的攻击伤害翻倍",
+      "analyze_info": "[sprite name=iconHit]下2回合自身造成的攻击伤害翻倍（boss有效）",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 776,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/776"
+      }
+    },
+    {
+      "info": "双方每有1方精灵先制为0，对手下1回合技能先制-1",
+      "analyze_info": "[sprite name=iconHit]双方每有1方[color=#52a5f2]精灵先制[/color]为0，对手下1回合[color=#52a5f2]技能先制[/color]-1",
+      "args": [
+        0,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 2540,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2540"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "e9952093"
+}

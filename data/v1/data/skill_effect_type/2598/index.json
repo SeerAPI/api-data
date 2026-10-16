@@ -1,0 +1,30 @@
+{
+  "id": 2598,
+  "args_num": 3,
+  "info": "{0}回合内，自身每次受到固定伤害、百分比伤害后，{1}%令对手{2}",
+  "info_formatting_adjustment": null,
+  "analyze_info": "[sprite name=iconHit]{0}回合内，自身每次受到[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]后，{1}%令对手[color=#57c975]{2}[/color]（boss有效）",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38584,
+      "url": "https://api.seerapi.com/v1/skill/38584"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "dbd49f5e"
+}

@@ -1,0 +1,73 @@
+{
+  "id": 38584,
+  "name": "迟霜晏影",
+  "power": 150,
+  "max_pp": 5,
+  "accuracy": 100,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 45,
+    "url": "https://api.seerapi.com/v1/element_type_combination/45"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若当前体力低于对手则先制+1",
+      "analyze_info": "[sprite name=iconInherent]若当前体力低于对手则[color=#52a5f2]先制[/color]+1（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 954,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/954"
+      }
+    },
+    {
+      "info": "3回合内，自身技能额外附加上回合自身执行过的异常状态附加效果对应的异常状态",
+      "analyze_info": "[sprite name=iconHit]3回合内，自身技能额外附加[color=#52a5f2]上回合[/color]自身执行过的[color=#57c975]异常状态[/color]附加效果对应的异常状态（boss有效）",
+      "args": [
+        3,
+        0
+      ],
+      "effect": {
+        "id": 2597,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2597"
+      }
+    },
+    {
+      "info": "3回合内，自身每次受到固定伤害、百分比伤害后，100%令对手害怕",
+      "analyze_info": "[sprite name=iconHit]3回合内，自身每次受到[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]后，100%令对手[color=#57c975]害怕[/color]（boss有效）",
+      "args": [
+        3,
+        100,
+        6
+      ],
+      "effect": {
+        "id": 2598,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2598"
+      }
+    },
+    {
+      "info": "下3回合自身的属性技能先制+1",
+      "analyze_info": "[sprite name=iconHit]下3回合自身的属性[color=#52a5f2]技能先制[/color]+1",
+      "args": [
+        3,
+        1
+      ],
+      "effect": {
+        "id": 2431,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2431"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "b99ecc02"
+}

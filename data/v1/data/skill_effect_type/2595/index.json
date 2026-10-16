@@ -1,0 +1,34 @@
+{
+  "id": 2595,
+  "args_num": 5,
+  "info": "{0}%令对手{1}，未触发则吸取对手最大体力的{2}%，自身每有{3}种能力值低于对手此效果重复{4}次",
+  "info_formatting_adjustment": "{0}%令对手{1}\r\n--><condition>未触发</condition>则吸取对手最大体力的{2}%\r\n-->自身每有{3}种能力值低于对手此效果重复{4}次",
+  "analyze_info": "[sprite name=iconHit]{0}%令对手[color=#57c975]{1}[/color]，未触发则[color=#52a5f2]吸取[/color]对手最大体力的{2}%，自身每有{3}种能力值低于对手此效果重复{4}次（boss有效）",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 1,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29476,
+      "url": "https://api.seerapi.com/v1/skill/29476"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    },
+    {
+      "id": 35850,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/35850"
+    }
+  ],
+  "hash": "9392b542"
+}

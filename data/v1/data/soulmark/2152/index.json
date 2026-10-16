@@ -1,0 +1,40 @@
+{
+  "id": 2152,
+  "desc": "先出手时必定打出致命一击；后出手时消除对手回合类效果|自身击败对手时，若当回合自身打出了致命一击伤害，则对手下只精灵出战时附加此伤害等量的固定伤害（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]先出手时必定打出[color=#52a5f2]致命一击[/color]；后出手时消除对手[color=#52a5f2]回合类效果[/color]|[sprite name=dot4]自身击败对手时，若当回合自身打出了致命一击伤害，则对手下只精灵出战时附加此伤害等量的[color=#52a5f2]固定伤害[/color]",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4955,
+      "url": "https://api.seerapi.com/v1/pet/4955"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2559,
+      "url": "https://api.seerapi.com/v1/eid_effect/2559"
+    }
+  },
+  "effect_alias": "alias_2559_1_0",
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "88314394"
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "29483": {
+      "id": 29483,
+      "name": "白鸟与蝙蝠",
+      "power": 0,
+      "max_pp": 10,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "使自身获得一个护盾；开始闪避对手的攻击了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "获得300点护盾，护盾消失时吸取对手300点体力且令对手随机1个技能的PP值归零",
+          "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时[color=#52a5f2]吸取[/color]对手300点体力且令对手随机1个技能的PP值归零（boss有效）",
+          "args": [
+            300,
+            300,
+            1
+          ],
+          "effect": {
+            "id": 1752,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1752"
+          }
+        },
+        {
+          "info": "2回合内每回合70%闪避对手攻击",
+          "analyze_info": "[sprite name=iconHit]2回合内每回合70%闪避对手攻击（boss有效）",
+          "args": [
+            2,
+            70
+          ],
+          "effect": {
+            "id": 426,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/426"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "9549b2f4"
+}

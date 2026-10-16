@@ -1,0 +1,37 @@
+{
+  "id": 2601,
+  "args_num": 3,
+  "info": "若对手当回合选择的技能威力{0}此技能，则{1}%令对手{2}",
+  "info_formatting_adjustment": "<condition>若对手当回合选择的技能威力</condition>{0}此技能，则{1}%令对手{2}",
+  "analyze_info": "[sprite name=iconHit]若对手当回合选择的技能威力[color=#57c975]{0}[/color]此技能，则{1}%令对手[color=#57c975]{2}[/color]（boss无效）",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 7,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/7"
+      }
+    },
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38592,
+      "url": "https://api.seerapi.com/v1/skill/38592"
+    }
+  ],
+  "tag": [
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "4b261127"
+}

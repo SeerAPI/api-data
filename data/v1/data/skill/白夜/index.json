@@ -1,0 +1,80 @@
+{
+  "data": {
+    "38597": {
+      "id": 38597,
+      "name": "白夜",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/element_type_combination/56"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能额外100%令对手流血，未触发则恢复自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能额外100%令对手[color=#57c975]流血[/color]，未触发则恢复自身最大体力的1/3",
+          "args": [
+            4,
+            100,
+            16,
+            3
+          ],
+          "effect": {
+            "id": 2560,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2560"
+          }
+        },
+        {
+          "info": "消除对手所处的异常状态，每消除1种对手1回合内无法行动",
+          "analyze_info": "[sprite name=iconHit]消除对手所处的异常状态，每消除1种对手1回合内无法行动",
+          "args": [
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2587,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2587"
+          }
+        },
+        {
+          "info": "下2回合造成的攻击伤害额外提升120%",
+          "analyze_info": "[sprite name=iconHit]下2回合造成的攻击[color=#52a5f2]伤害额外提升[/color]120%（boss有效）",
+          "args": [
+            2,
+            120
+          ],
+          "effect": {
+            "id": 693,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/693"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "4bc64967"
+}

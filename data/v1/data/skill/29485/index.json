@@ -1,0 +1,45 @@
+{
+  "id": 29485,
+  "name": "纸帷幕·诡叙使",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "神的逻辑，人的魔法",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若己方拥有起/承/转/合，则对应的为对手附加谋死A/B/C/D，对方存在对应的谋死且对手没有谋死时改为将对方的随机1种谋死转移至对手，若转移后对手拥有顺序最靠后的谋死，则自身触发己方拥有过的起、承、转中的己方效果",
+      "analyze_info": "[sprite name=dot4]若己方拥有[color=#f35555]起[/color]/[color=#f35555]承[/color]/[color=#f35555]转[/color]/[color=#f35555]合[/color]，则对应的为对手附加[color=#f35555]谋死A[/color]/[color=#f35555]B(583)[/color]/[color=#f35555]C(584)[/color]/[color=#f35555]D(585)[/color]，对方存在对应的谋死且对手没有谋死时改为将对方的随机1种谋死转移至对手，若转移后对手拥有顺序最靠后的谋死，则自身触发己方拥有过的[color=#f35555]起[/color]、[color=#f35555]承[/color]、[color=#f35555]转[/color]中的己方效果",
+      "args": [],
+      "effect": {
+        "id": 2600,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2600"
+      }
+    },
+    {
+      "info": "技能无效时，对手下回合无法主动切换精灵",
+      "analyze_info": "[sprite name=iconInherent]技能无效时，对手下回合无法[color=#52a5f2]主动切换[/color]精灵",
+      "args": [],
+      "effect": {
+        "id": 2280,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2280"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "7f8468f5"
+}

@@ -1,12 +1,17 @@
 {
   "id": 2447,
   "args_num": 0,
-  "info": "D",
+  "info": "若对手存在致命裂痕则为对手当回合所使用的技能附加等量的致命印记",
   "info_formatting_adjustment": null,
-  "analyze_info": "[sprite name=iconHit]",
+  "analyze_info": "[sprite name=iconHit]若对手存在[color=#f35555]致命裂痕[/color]则为对手当回合所使用的技能附加等量的[color=#f35555]致命印记[/color]（boss无效）",
   "pve_effective": false,
   "param": null,
-  "skill": [],
+  "skill": [
+    {
+      "id": 29477,
+      "url": "https://api.seerapi.com/v1/skill/29477"
+    }
+  ],
   "tag": [],
-  "hash": "2f3ada0"
+  "hash": "7e2190e3"
 }

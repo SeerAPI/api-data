@@ -1,0 +1,53 @@
+{
+  "data": {
+    "38591": {
+      "id": 38591,
+      "name": "杀人的信",
+      "power": 70,
+      "max_pp": 20,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 56,
+        "url": "https://api.seerapi.com/v1/element_type_combination/56"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "解除自身所处的异常状态，解除成功则本次攻击威力提升100%",
+          "analyze_info": "[sprite name=iconHit]解除自身所处的异常状态，解除成功则本次攻击[color=#52a5f2]威力[/color]提升100%",
+          "args": [
+            100
+          ],
+          "effect": {
+            "id": 2240,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2240"
+          }
+        },
+        {
+          "info": "3回合内免疫所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]3回合内免疫所有受到的异常状态（boss有效）",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 48,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/48"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "f6a09eaa"
+}
