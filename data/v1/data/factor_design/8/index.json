@@ -1,0 +1,278 @@
+{
+  "id": 8,
+  "achievement": null,
+  "difficulties": [
+    {
+      "level": "easy",
+      "reward_count": 14,
+      "tasks": [
+        {
+          "desc": "【简单的敌人，伤害提升100%】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4226,
+            "url": "https://api.seerapi.com/v1/pet/4226"
+          }
+        },
+        {
+          "desc": "【简单的敌人，先制+1，伤害提升100%】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4225,
+            "url": "https://api.seerapi.com/v1/pet/4225"
+          }
+        },
+        {
+          "desc": "【有点难度的敌人，先制+2，伤害提升200%，先出手时100%的几率打出致命一击，每回合结束时吸取对手一定体力】",
+          "is_single_pet": true,
+          "boss_pet": {
+            "id": 4249,
+            "url": "https://api.seerapi.com/v1/pet/4249"
+          }
+        },
+        {
+          "desc": "【有点难度的敌人，先制+3，伤害提升200%，攻击命中后随机使对手1个技能PP值归零，受到伤害减少30%，每回合使对手随机3项属性-1且吸取对手一定体力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4250,
+            "url": "https://api.seerapi.com/v1/pet/4250"
+          }
+        },
+        {
+          "desc": "【有点难度的敌人，无法探知能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4251,
+            "url": "https://api.seerapi.com/v1/pet/4251"
+          }
+        }
+      ],
+      "banned_pets": [],
+      "rules": []
+    },
+    {
+      "level": "normal",
+      "reward_count": 21,
+      "tasks": [
+        {
+          "desc": "【比较简单的敌人，先制+2，伤害提升200%，每回合双防+1，免疫低于一定程度的伤害】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4226,
+            "url": "https://api.seerapi.com/v1/pet/4226"
+          }
+        },
+        {
+          "desc": "【比较简单的敌人，先制+2，伤害提升200%，每回合结束时吸取对手一定体力且双防+2，免疫低于一定程度的伤害】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4225,
+            "url": "https://api.seerapi.com/v1/pet/4225"
+          }
+        },
+        {
+          "desc": "【有点强的敌人，先制+3，伤害提升300%，可以消除对手能力提升状态，攻击命中后随机使对手1个技能PP值归零，每回合结束时吸取对手一定体力，受到伤害减少30%】",
+          "is_single_pet": true,
+          "boss_pet": {
+            "id": 4249,
+            "url": "https://api.seerapi.com/v1/pet/4249"
+          }
+        },
+        {
+          "desc": "【较强的敌人，伤害提升300%，自身使用攻击技能时有一定概率使对手害怕，极大概率闪避，无法探知其他能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4250,
+            "url": "https://api.seerapi.com/v1/pet/4250"
+          }
+        },
+        {
+          "desc": "【有点强的敌人，无法探知能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4251,
+            "url": "https://api.seerapi.com/v1/pet/4251"
+          }
+        }
+      ],
+      "banned_pets": [],
+      "rules": [
+        {
+          "tips": "每场battle都需要在6回合内击败BOSS，否则battle按失败结算",
+          "fail_tips": "战斗未在6回合内结束，结算为失败",
+          "args": [
+            6
+          ],
+          "user_info": [],
+          "id": 2
+        },
+        {
+          "tips": "本关卡在挑战中，不可重复上阵（出战背包派出过的）精灵",
+          "fail_tips": "",
+          "args": [],
+          "user_info": [
+            200788,
+            200789,
+            200790,
+            200791,
+            200792,
+            200793,
+            200794,
+            200795,
+            200796,
+            200797,
+            200798,
+            200799,
+            200800,
+            200801,
+            200802,
+            200803,
+            200804,
+            200805,
+            200806,
+            200807,
+            200808,
+            200809,
+            200810,
+            200811
+          ],
+          "id": 1
+        }
+      ]
+    },
+    {
+      "level": "hard",
+      "reward_count": 42,
+      "tasks": [
+        {
+          "desc": "【有点强的敌人，先制+3，伤害提升300%，可以消除对手能力提升状态，若对手未使用先手技能则不受伤害，每回合随机3项属性+1】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4226,
+            "url": "https://api.seerapi.com/v1/pet/4226"
+          }
+        },
+        {
+          "desc": "【较强的敌人，只有致命一击才可对自己造成伤害，无法探知其他能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4225,
+            "url": "https://api.seerapi.com/v1/pet/4225"
+          }
+        },
+        {
+          "desc": "【较强的敌人，无法探知能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4249,
+            "url": "https://api.seerapi.com/v1/pet/4249"
+          }
+        },
+        {
+          "desc": "【较强的敌人，无法探知能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4250,
+            "url": "https://api.seerapi.com/v1/pet/4250"
+          }
+        },
+        {
+          "desc": "【强的敌人，无法探知能力】",
+          "is_single_pet": false,
+          "boss_pet": {
+            "id": 4251,
+            "url": "https://api.seerapi.com/v1/pet/4251"
+          }
+        }
+      ],
+      "banned_pets": [
+        {
+          "id": 3022,
+          "url": "https://api.seerapi.com/v1/pet/3022"
+        },
+        {
+          "id": 3460,
+          "url": "https://api.seerapi.com/v1/pet/3460"
+        },
+        {
+          "id": 3437,
+          "url": "https://api.seerapi.com/v1/pet/3437"
+        }
+      ],
+      "rules": [
+        {
+          "tips": "本关卡在挑战中，不可重复上阵（出战背包派出过的）精灵",
+          "fail_tips": "",
+          "args": [],
+          "user_info": [
+            200788,
+            200789,
+            200790,
+            200791,
+            200792,
+            200793,
+            200794,
+            200795,
+            200796,
+            200797,
+            200798,
+            200799,
+            200800,
+            200801,
+            200802,
+            200803,
+            200804,
+            200805,
+            200806,
+            200807,
+            200808,
+            200809,
+            200810,
+            200811
+          ],
+          "id": 1
+        },
+        {
+          "tips": "本关卡不可使用精灵：王之哈莫、幻境界皇、艾欧丽娅",
+          "fail_tips": "",
+          "args": [
+            3022,
+            3460,
+            3437
+          ],
+          "user_info": [],
+          "id": 3
+        },
+        {
+          "tips": "出战精灵需等于100级",
+          "fail_tips": "",
+          "args": [
+            100
+          ],
+          "user_info": [],
+          "id": 4
+        },
+        {
+          "tips": "关卡挑战中的对战累计失败次数＞3次，则本轮关卡挑战自动放弃",
+          "fail_tips": "本关卡中对战累计失败次数已大于3次，挑战失败",
+          "args": [
+            3
+          ],
+          "user_info": [
+            200812
+          ],
+          "id": 5
+        }
+      ]
+    }
+  ],
+  "reward": {
+    "id": 2400024,
+    "url": "https://api.seerapi.com/v1/factor/2400024"
+  },
+  "mintmark_reward": {
+    "id": 42061,
+    "url": "https://api.seerapi.com/v1/mintmark/42061"
+  },
+  "hash": "13c6bb4f"
+}

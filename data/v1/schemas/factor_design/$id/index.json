@@ -1,0 +1,227 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "FactorDesignDifficulty": {
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Id"
+            },
+            "level": {
+              "$ref": "#/$defs/FactorDesignLevel",
+              "description": "难度标识"
+            },
+            "reward_count": {
+              "description": "通关全部关卡后奖励的道具数量",
+              "title": "Reward Count",
+              "type": "integer"
+            },
+            "tasks": {
+              "description": "BOSS列表",
+              "items": {
+                "$ref": "#/$defs/FactorDesignTask"
+              },
+              "title": "Tasks",
+              "type": "array"
+            },
+            "banned_pets": {
+              "description": "该难度禁用的精灵",
+              "items": {
+                "$ref": "#/$defs/ResourceRef_Pet_"
+              },
+              "title": "Banned Pets",
+              "type": "array"
+            },
+            "rules": {
+              "description": "当前难度使用的规则",
+              "items": {
+                "$ref": "#/$defs/FactorDesignRule"
+              },
+              "title": "Rules",
+              "type": "array"
+            }
+          },
+          "required": [
+            "level",
+            "reward_count",
+            "tasks",
+            "banned_pets",
+            "rules"
+          ],
+          "title": "FactorDesignDifficulty",
+          "type": "object"
+        },
+        "FactorDesignLevel": {
+          "enum": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "title": "FactorDesignLevel",
+          "type": "string"
+        },
+        "FactorDesignRule": {
+          "properties": {
+            "tips": {
+              "description": "规则提示",
+              "title": "Tips",
+              "type": "string"
+            },
+            "fail_tips": {
+              "description": "规则验证失败时的提示",
+              "title": "Fail Tips",
+              "type": "string"
+            },
+            "args": {
+              "description": "规则参数",
+              "items": {
+                "type": "integer"
+              },
+              "title": "Args",
+              "type": "array"
+            },
+            "user_info": {
+              "description": "玩家状态查询参数",
+              "items": {
+                "type": "integer"
+              },
+              "title": "User Info",
+              "type": "array"
+            },
+            "id": {
+              "description": "关卡内的规则ID",
+              "title": "Id",
+              "type": "integer"
+            }
+          },
+          "required": [
+            "tips",
+            "fail_tips",
+            "args",
+            "user_info",
+            "id"
+          ],
+          "title": "FactorDesignRule",
+          "type": "object"
+        },
+        "FactorDesignTask": {
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "title": "Id"
+            },
+            "desc": {
+              "description": "BOSS描述",
+              "title": "Desc",
+              "type": "string"
+            },
+            "is_single_pet": {
+              "description": "该BOSS是否为单精灵对战",
+              "title": "Is Single Pet",
+              "type": "boolean"
+            },
+            "boss_pet": {
+              "$ref": "#/$defs/ResourceRef_Pet_",
+              "description": "BOSS精灵"
+            }
+          },
+          "required": [
+            "desc",
+            "is_single_pet",
+            "boss_pet"
+          ],
+          "title": "FactorDesignTask",
+          "type": "object"
+        },
+        "ResourceRef_Achievement_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "achievement"
+        },
+        "ResourceRef_Factor_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "factor"
+        },
+        "ResourceRef_Mintmark_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "mintmark"
+        },
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "资源ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "achievement": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Achievement_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "可通过该因子关卡获得的成就"
+        },
+        "difficulties": {
+          "description": "难度列表",
+          "items": {
+            "$ref": "#/$defs/FactorDesignDifficulty"
+          },
+          "title": "Difficulties",
+          "type": "array"
+        },
+        "reward": {
+          "$ref": "#/$defs/ResourceRef_Factor_",
+          "description": "通关关卡后获得的奖励"
+        },
+        "mintmark_reward": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Mintmark_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "可在该关卡页面兑换的刻印，当该关卡不支持兑换刻印时为 null"
+        }
+      },
+      "required": [
+        "id",
+        "difficulties",
+        "reward"
+      ],
+      "title": "FactorDesign",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

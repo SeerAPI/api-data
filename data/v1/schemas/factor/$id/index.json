@@ -1,0 +1,147 @@
+{
+  "allOf": [
+    {
+      "$defs": {
+        "ResourceRef_FactorDesign_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "factor_design"
+        },
+        "ResourceRef_Item_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "item"
+        },
+        "ResourceRef_Pet_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "pet"
+        },
+        "ResourceRef_Skill_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "skill"
+        },
+        "ResourceRef_Soulmark_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "soulmark"
+        }
+      },
+      "properties": {
+        "id": {
+          "description": "因子道具ID",
+          "title": "Id",
+          "type": "integer"
+        },
+        "name": {
+          "description": "因子道具名称",
+          "title": "Name",
+          "type": "string"
+        },
+        "pet_limit": {
+          "description": "该因子兑换的精灵是否具有唯一性",
+          "title": "Pet Limit",
+          "type": "boolean"
+        },
+        "pet_consume": {
+          "description": "兑换精灵所需因子数量",
+          "title": "Pet Consume",
+          "type": "integer"
+        },
+        "skill_consume": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "兑换技能所需因子数量，当因子不可兑换技能时为null",
+          "title": "Skill Consume"
+        },
+        "soulmark_consume": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "兑换魂印所需因子数量，当因子不可兑换魂印时为null",
+          "title": "Soulmark Consume"
+        },
+        "item": {
+          "$ref": "#/$defs/ResourceRef_Item_",
+          "description": "因子道具资源引用"
+        },
+        "design": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_FactorDesign_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "因子关卡设计资源引用"
+        },
+        "need_pet": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Pet_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "兑换该精灵所需的前置精灵，当不需要前置时为 null"
+        },
+        "pet": {
+          "$ref": "#/$defs/ResourceRef_Pet_",
+          "default": null,
+          "description": "因子所属的精灵资源引用"
+        },
+        "skill": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Skill_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "因子可兑换的技能资源引用，当因子不可兑换技能时为null"
+        },
+        "soulmark": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResourceRef_Soulmark_"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "因子可兑换的魂印资源引用，当因子不可兑换魂印时为null"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "pet_limit",
+        "pet_consume",
+        "item"
+      ],
+      "title": "Factor",
+      "type": "object",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    },
+    {
+      "$ref": "https://api.seerapi.com/v1/schemas/analyzer_custom/hash_partial",
+      "$schema": "https://json-schema.org/draft/2020-12/schema"
+    }
+  ]
+}

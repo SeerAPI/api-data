@@ -20,6 +20,10 @@
           "title": "DiyStatsRange",
           "type": "object"
         },
+        "ResourceRef_Factor_": {
+          "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
+          "x-model-name": "factor"
+        },
         "ResourceRef_PeakCostPool_": {
           "$ref": "https://api.seerapi.com/v1/schemas/common/resource_ref",
           "x-model-name": "peak_cost_pool"
@@ -300,6 +304,14 @@
           "default": null,
           "description": "精灵可持有的魂印",
           "title": "Soulmark"
+        },
+        "factor": {
+          "description": "精灵对应的因子列表",
+          "items": {
+            "$ref": "#/$defs/ResourceRef_Factor_"
+          },
+          "title": "Factor",
+          "type": "array"
         },
         "encyclopedia_entry": {
           "anyOf": [
