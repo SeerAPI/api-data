@@ -56,16 +56,16 @@ jobs:
             - name: Analyze config
               run: |
                   solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o data --json-format split \
-                  --base-json-url https://api.seerapi.com/v1 \
+                  --base-json-url https://api.seerapi.com/${{ env.SOLARIS_API_VERSION }} \
                   --db-url sqlite:///seerapi-data.sqlite \
                   -m all --output-named-data
 
                   solaris analyze data --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o sharded_data --json-format sharded \
-                  --base-json-url https://api.seerapi.com/v1 \
+                  --base-json-url https://api.seerapi.com/${{ env.SOLARIS_API_VERSION }} \
                   -m json --output-named-data
 
                   solaris analyze schemas --base-output-dir ${{ env.BASE_OUTPUT_DIR }} -o schemas \
-                  --base-url https://api.seerapi.com/v1/schemas --output-named-data
+                  --base-url https://api.seerapi.com/${{ env.SOLARIS_API_VERSION }}/schemas --output-named-data
 
                   openapi_desc=$(cat .github/workflows/openapi-desc.md)
                   detail_version="1.0.0"
