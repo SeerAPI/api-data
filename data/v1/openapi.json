@@ -23488,6 +23488,42 @@
                 "title": "Id",
                 "description": "资源ID"
               },
+              "time_value": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Time Value",
+                "description": "该ID用于查询当前剩余挑战次数"
+              },
+              "progress_value": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Progress Value",
+                "description": "该ID用于查询当前轮挑战进度"
+              },
+              "fail_times": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Fail Times",
+                "description": "该ID用于查询本轮战败次数"
+              },
               "achievement": {
                 "anyOf": [
                   {
@@ -23672,6 +23708,9 @@
         "examples": [
           {
             "id": 5,
+            "time_value": 200723,
+            "progress_value": 200722,
+            "fail_times": 200720,
             "achievement": {
               "id": 3145004,
               "url": "https://api.seerapi.com/v1/achievement/3145004"
@@ -23949,7 +23988,7 @@
               "id": 42055,
               "url": "https://api.seerapi.com/v1/mintmark/42055"
             },
-            "hash": "31ea0fd5"
+            "hash": "b5d55895"
           }
         ]
       },
@@ -23964,6 +24003,9 @@
         "examples": [
           {
             "id": 5,
+            "time_value": 200723,
+            "progress_value": 200722,
+            "fail_times": 200720,
             "achievement": {
               "id": 3145004,
               "url": "https://api.seerapi.com/v1/achievement/3145004"
@@ -24241,7 +24283,7 @@
               "id": 42055,
               "url": "https://api.seerapi.com/v1/mintmark/42055"
             },
-            "hash": "31ea0fd5"
+            "hash": "b5d55895"
           }
         ]
       },

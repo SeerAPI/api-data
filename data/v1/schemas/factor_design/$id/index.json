@@ -173,6 +173,45 @@
           "title": "Id",
           "type": "integer"
         },
+        "time_value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该ID用于查询当前剩余挑战次数",
+          "title": "Time Value"
+        },
+        "progress_value": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该ID用于查询当前轮挑战进度",
+          "title": "Progress Value"
+        },
+        "fail_times": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "该ID用于查询本轮战败次数",
+          "title": "Fail Times"
+        },
         "achievement": {
           "anyOf": [
             {
