@@ -8,7 +8,7 @@
       "accuracy": 95,
       "crit_rate": null,
       "priority": 1,
-      "must_hit": false,
+      "must_hit": true,
       "atk_num": 1,
       "info": "开始免疫并反弹异常状态了，开始吸取对手的体力了，出手变得更快了，先出手则令对手陷入致命诅咒，先出手则保留体力抵御致死伤害，将致命裂痕转化为致命印记",
       "category": {
@@ -79,7 +79,7 @@
         },
         {
           "info": "若对手存在致命裂痕则为对手当回合所使用的技能附加等量的致命印记",
-          "analyze_info": "[sprite name=iconHit]若对手存在[color=#f35555]致命裂痕[/color]则为对手当回合所使用的技能附加等量的[color=#f35555]致命印记[/color]（boss无效）",
+          "analyze_info": "[sprite name=iconHit]若对手存在[color=#f35555]致命裂痕[/color]则为对手当回合所使用的技能附加等量的[color=#f35555]致命印记[/color]",
           "args": [],
           "effect": {
             "id": 2447,
@@ -92,5 +92,5 @@
       "advance": null
     }
   },
-  "hash": "d3ddcd51"
+  "hash": "fcb07427"
 }

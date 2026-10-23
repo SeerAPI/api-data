@@ -1,0 +1,70 @@
+{
+  "data": {
+    "29489": {
+      "id": 29489,
+      "name": "时之花",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "特攻提升了很多；速度提升了很多；获得护盾",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "技能使用成功时，100%改变自身特攻等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身特攻等级+2（boss有效）",
+          "args": [
+            2,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "技能使用成功时，100%改变自身速度等级+2",
+          "analyze_info": "[sprite name=iconHit]技能使用成功时，100%改变自身速度等级+2（boss有效）",
+          "args": [
+            4,
+            100,
+            2
+          ],
+          "effect": {
+            "id": 4,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/4"
+          }
+        },
+        {
+          "info": "获得300点护盾，此护盾存在时自身进入的异常状态转化为2回合冻伤",
+          "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护盾[/color]，此[color=#57c975]护盾[/color]存在时自身进入的异常状态[color=#52a5f2]转化[/color]为2回合[color=#57c975]冻伤[/color]",
+          "args": [
+            300,
+            2,
+            5
+          ],
+          "effect": {
+            "id": 2542,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2542"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "741be383"
+}

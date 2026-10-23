@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2156": {
+      "id": 2156,
+      "desc": "对手使用技能时，若此技能为对手技能中PP值唯一最少，则此技能无效，若此技能为对手技能中PP值唯一最多，则令对手麻痹|战斗阶段结束时，令对手PP值不为唯一最少或最多的技能PP值-2（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]对手使用技能时，若此技能为对手技能中PP值唯一最少，则此技能无效，若此技能为对手技能中PP值唯一最多，则令对手[color=#57c975]麻痹[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，令对手PP值不为唯一最少或最多的技能PP值-2",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4957,
+          "url": "https://api.seerapi.com/v1/pet/4957"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2560,
+          "url": "https://api.seerapi.com/v1/eid_effect/2560"
+        }
+      },
+      "effect_alias": "alias_2560_1_0",
+      "tag": [
+        {
+          "id": 16,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/16"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "a3c63345"
+}

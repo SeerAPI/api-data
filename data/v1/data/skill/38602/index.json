@@ -1,0 +1,78 @@
+{
+  "id": 38602,
+  "name": "拉卡伊呼唤",
+  "power": 160,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": 6.25,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "自身属于第五技能的PP值每比对手多1点，此技能先制+1且随机附加冻伤、冰封、凝滞、沸涌、睡眠、麻痹种的1种异常状态1回合，未触发则消除对手回合类效果",
+      "analyze_info": "[sprite name=iconComp]自身属于第五技能的PP值每比对手多1点，此[color=#52a5f2]技能先制[/color]+1且随机附加[color=#57c975]冻伤[/color]、[color=#57c975]冰封[/color]、[color=#57c975]凝滞[/color]、[color=#57c975]沸涌[/color]、[color=#57c975]睡眠[/color]、[color=#57c975]麻痹[/color]种的1种异常状态1回合，未触发则消除对手[color=#52a5f2]回合类效果[/color]",
+      "args": [
+        1,
+        5,
+        15,
+        32,
+        36,
+        8,
+        0,
+        1,
+        1
+      ],
+      "effect": {
+        "id": 2476,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2476"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则恢复自身所有技能PP值",
+      "args": [],
+      "effect": {
+        "id": 1974,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1974"
+      }
+    },
+    {
+      "info": "自身体力低于1/2时吸取对手最大体力的1/3",
+      "analyze_info": "[sprite name=iconHit]自身体力低于1/2时[color=#52a5f2]吸取[/color]对手最大体力的1/3",
+      "args": [
+        2,
+        3
+      ],
+      "effect": {
+        "id": 1137,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1137"
+      }
+    },
+    {
+      "info": "下1次击败对手后，恢复自身全部体力值与PP值",
+      "analyze_info": "[sprite name=iconHit]下1次[color=#57c975]击败[/color]对手后，恢复自身全部体力值与PP值",
+      "args": [
+        1
+      ],
+      "effect": {
+        "id": 2456,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2456"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "18f22890"
+}

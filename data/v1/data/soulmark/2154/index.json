@@ -1,0 +1,36 @@
+{
+  "id": 2154,
+  "desc": "战斗阶段结束时，解除双方的烧伤状态（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，解除双方的[color=#57c975]烧伤[/color]状态",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4958,
+      "url": "https://api.seerapi.com/v1/pet/4958"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2557,
+      "url": "https://api.seerapi.com/v1/eid_effect/2557"
+    }
+  },
+  "effect_alias": "alias_2557_1_0",
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "8e1f67f6"
+}

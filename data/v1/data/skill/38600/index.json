@@ -1,0 +1,49 @@
+{
+  "id": 38600,
+  "name": "幻霞天光",
+  "power": 85,
+  "max_pp": 20,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 102,
+    "url": "https://api.seerapi.com/v1/element_type_combination/102"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "消除对手回合类效果，若对手回合类效果无法被消除则对手所有技能PP值归0",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，若对手[color=#52a5f2]回合类效果[/color]无法被消除则对手所有技能PP值归0",
+      "args": [
+        5
+      ],
+      "effect": {
+        "id": 2163,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2163"
+      }
+    },
+    {
+      "info": "自身所有技能PP值均不为满时恢复自身所有技能的PP值并令对手麻痹",
+      "analyze_info": "[sprite name=iconHit]自身所有技能PP值均不为满时恢复自身所有技能的PP值并令对手[color=#57c975]麻痹[/color]",
+      "args": [
+        0
+      ],
+      "effect": {
+        "id": 2413,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2413"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "13c47ec4"
+}
