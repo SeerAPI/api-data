@@ -1,0 +1,40 @@
+{
+  "id": 2160,
+  "desc": "回合开始时，若自身处于异常状态，则免疫受到的攻击伤害，免疫成功则获得等量的护盾|战斗阶段结束时，恢复己方所有精灵41点体力|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身处于异常状态，则免疫受到的攻击伤害，免疫成功则获得等量的[color=#57c975]护盾[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，恢复[color=#52a5f2]己方[/color]所有精灵41点体力",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4963,
+      "url": "https://api.seerapi.com/v1/pet/4963"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2565,
+      "url": "https://api.seerapi.com/v1/eid_effect/2565"
+    }
+  },
+  "effect_alias": "alias_2565_1_0",
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "6a2bbb52"
+}

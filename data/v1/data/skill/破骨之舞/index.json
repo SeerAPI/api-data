@@ -1,0 +1,62 @@
+{
+  "data": {
+    "38609": {
+      "id": 38609,
+      "name": "破骨之舞",
+      "power": 85,
+      "max_pp": 20,
+      "accuracy": 97,
+      "crit_rate": 6.25,
+      "priority": 3,
+      "must_hit": false,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 73,
+        "url": "https://api.seerapi.com/v1/element_type_combination/73"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "若先出手则必定打出致命一击",
+          "analyze_info": "[sprite name=iconInherent]若先出手则必定打出[color=#52a5f2]致命一击[/color]（boss有效）",
+          "args": [],
+          "effect": {
+            "id": 1395,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1395"
+          }
+        },
+        {
+          "info": "先出手时，额外附加250点固定伤害",
+          "analyze_info": "[sprite name=iconHit]先出手时，额外附加250点[color=#52a5f2]固定伤害[/color]（boss有效）",
+          "args": [
+            250
+          ],
+          "effect": {
+            "id": 405,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/405"
+          }
+        },
+        {
+          "info": "吸取对手能力提升状态，吸取成功则下2回合造成的伤害翻倍",
+          "analyze_info": "[sprite name=iconHit][color=#52a5f2]吸取[/color]对手能力提升状态，[color=#52a5f2]吸取[/color]成功则下2回合造成的伤害翻倍（boss有效）",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 1044,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1044"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "879f7e2a"
+}

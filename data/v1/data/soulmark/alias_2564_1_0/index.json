@@ -1,0 +1,44 @@
+{
+  "data": {
+    "2157": {
+      "id": 2157,
+      "desc": "自身使用攻击技能后，本场战斗自身附加的固定伤害、百分比伤害提升30%，最高120%|自身被击败时，将对手变为龙系（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身使用攻击技能后，本场战斗自身附加的[color=#52a5f2]固定伤害[/color]、[color=#52a5f2]百分比伤害[/color]提升30%，最高120%|[sprite name=dot4]自身[color=#57c975]被击败[/color]时，将对手变为龙系",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4960,
+          "url": "https://api.seerapi.com/v1/pet/4960"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2564,
+          "url": "https://api.seerapi.com/v1/eid_effect/2564"
+        }
+      },
+      "effect_alias": "alias_2564_1_0",
+      "tag": [
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        },
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "681580b8"
+}

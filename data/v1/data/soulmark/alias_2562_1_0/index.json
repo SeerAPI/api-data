@@ -1,0 +1,40 @@
+{
+  "data": {
+    "2158": {
+      "id": 2158,
+      "desc": "自身受到技能伤害后令对手烧伤，当次伤害每有100点，额外20%令对手焚烬（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身受到技能伤害后令对手[color=#57c975]烧伤[/color]，当次伤害每有100点，额外20%令对手[color=#57c975]焚烬[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4961,
+          "url": "https://api.seerapi.com/v1/pet/4961"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2562,
+          "url": "https://api.seerapi.com/v1/eid_effect/2562"
+        }
+      },
+      "effect_alias": "alias_2562_1_0",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "c33d8292"
+}

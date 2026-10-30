@@ -1,0 +1,78 @@
+{
+  "data": {
+    "29498": {
+      "id": 29498,
+      "name": "四象帷",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；免疫受到的攻击伤害了；使对手能力增强效果失效；使对手混乱了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "3回合内每回合所受的伤害减少300点",
+          "analyze_info": "[sprite name=iconHit]3回合内每回合所受的伤害减少300点（boss有效）",
+          "args": [
+            3,
+            300
+          ],
+          "effect": {
+            "id": 463,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/463"
+          }
+        },
+        {
+          "info": "3回合内使得对手所有能力增强效果失效",
+          "analyze_info": "[sprite name=iconHit]3回合内使得对手所有能力增强效果失效（boss有效）",
+          "args": [
+            3
+          ],
+          "effect": {
+            "id": 156,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/156"
+          }
+        },
+        {
+          "info": "50%令对手混乱，对手为自身天敌时概率提升100%，未触发则消除对手回合类效果",
+          "analyze_info": "[sprite name=iconHit]50%令对手[color=#57c975]混乱[/color]，对手为自身天敌时概率提升100%，[color=#52a5f2]未触发[/color]则消除对手[color=#52a5f2]回合类效果[/color]",
+          "args": [
+            50,
+            10,
+            100
+          ],
+          "effect": {
+            "id": 1670,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1670"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "2c39c5dd"
+}

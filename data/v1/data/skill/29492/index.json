@@ -1,0 +1,63 @@
+{
+  "id": 29492,
+  "name": "武装戍卫",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹异常状态了；为自身创造一个护盾；使对手全属性降低了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "获得300点护盾，护盾消失时吸取对手300点体力且令对手随机2个技能的PP值归零",
+      "analyze_info": "[sprite name=iconHit]获得300点[color=#57c975]护盾[/color]，[color=#57c975]护盾[/color]消失时[color=#52a5f2]吸取[/color]对手300点体力且令对手随机2个技能的PP值归零（boss有效）",
+      "args": [
+        300,
+        300,
+        2
+      ],
+      "effect": {
+        "id": 1752,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1752"
+      }
+    },
+    {
+      "info": "100%令对手全属性-1",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#52a5f2]全属性[/color]-1",
+      "args": [
+        100,
+        1
+      ],
+      "effect": {
+        "id": 749,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/749"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "e8315dae"
+}
