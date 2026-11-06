@@ -1,0 +1,90 @@
+{
+  "data": {
+    "29507": {
+      "id": 29507,
+      "name": "诸魔挽章",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "全属性提升了；开始恢复体力并附加百分比伤害了；攻击必定致命、命中了；出手变得更快了",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "全属性+1，双方任意一方处于异常状态则效果翻倍并解除自身所处的异常状态",
+          "analyze_info": "[sprite name=iconHit]全属性+1，双方任意一方处于异常状态则效果翻倍并解除自身所处的异常状态",
+          "args": [
+            1
+          ],
+          "effect": {
+            "id": 2621,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2621"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能恢复自身最大体力的1/3并造成等量百分比伤害，恢复体力时若自身体力低于最大体力的1/2则恢复效果和百分比伤害翻倍",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能恢复自身最大体力的1/3并造成等量[color=#52a5f2]百分比伤害[/color]，恢复体力时若自身体力低于最大体力的1/2则恢复效果和[color=#52a5f2]百分比伤害[/color]翻倍（boss有效）",
+          "args": [
+            4,
+            3,
+            2
+          ],
+          "effect": {
+            "id": 1065,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1065"
+          }
+        },
+        {
+          "info": "下2回合自身攻击技能必定致命、必定命中",
+          "analyze_info": "[sprite name=iconHit]下2回合自身攻击技能必定致命、[color=#52a5f2]必定命中[/color]（boss有效）",
+          "args": [
+            2
+          ],
+          "effect": {
+            "id": 681,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/681"
+          }
+        },
+        {
+          "info": "下2回合令自身所有技能先制+2",
+          "analyze_info": "[sprite name=iconHit]下2回合令自身所有[color=#52a5f2]技能先制[/color]+2（boss有效）",
+          "args": [
+            2,
+            2
+          ],
+          "effect": {
+            "id": 843,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/843"
+          }
+        },
+        {
+          "info": "本场战斗首次生效时，自身获得2层神途之熠",
+          "analyze_info": "[sprite name=iconHit]本场战斗首次生效时，自身获得2层[color=#f35555]神途之熠[/color]",
+          "args": [],
+          "effect": {
+            "id": 2618,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2618"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": {
+        "id": 10001,
+        "url": "https://api.seerapi.com/v1/pet_advance/10001"
+      }
+    }
+  },
+  "hash": "b1ec0dc5"
+}

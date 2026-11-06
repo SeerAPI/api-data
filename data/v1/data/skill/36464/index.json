@@ -54,7 +54,9 @@
     {
       "info": "未击败对手则恢复己方所有不在场精灵100点体力",
       "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复[color=#52a5f2]己方[/color]所有不在场精灵100点体力（boss有效）",
-      "args": [],
+      "args": [
+        100
+      ],
       "effect": {
         "id": 1307,
         "url": "https://api.seerapi.com/v1/skill_effect_type/1307"
@@ -64,5 +66,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "ffd66b3"
+  "hash": "835536eb"
 }

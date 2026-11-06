@@ -21,7 +21,7 @@
   "skill_effect": [
     {
       "info": "消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过200点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少100%",
-      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的攻击伤害不超过200点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少100%（boss有效）",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则2回合内对手造成的[color=#52a5f2]攻击伤害[/color]不超过200点，若对手不处于能力提升状态则2回合内对手所有体力恢复效果减少100%（boss有效）",
       "args": [
         2,
         200,
@@ -62,7 +62,7 @@
     },
     {
       "info": "后出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则伤害额外提升50%",
-      "analyze_info": "[sprite name=iconHit]后出手时造成的攻击伤害提升100%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
+      "analyze_info": "[sprite name=iconHit]后出手时造成的[color=#52a5f2]攻击伤害[/color]提升100%，若对手当前体力值高于自身则[color=#52a5f2]伤害额外提升[/color]50%（boss有效）",
       "args": [
         100,
         50
@@ -76,5 +76,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "2dee0f3e"
+  "hash": "dc88768f"
 }

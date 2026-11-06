@@ -54,7 +54,7 @@
         },
         {
           "info": "造成的攻击伤害若高于300则自身免疫下1次受到的异常状态",
-          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则自身免疫下1次受到的异常状态（boss有效）",
+          "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]若高于300则自身免疫下1次受到的异常状态（boss有效）",
           "args": [
             300,
             1
@@ -66,7 +66,7 @@
         },
         {
           "info": "造成的攻击伤害低于300时附加300点固定伤害，若本次攻击微弱对手则附加的固定伤害除以克制倍数",
-          "analyze_info": "[sprite name=iconHit]造成的攻击伤害低于300时附加300点[color=#52a5f2]固定伤害[/color]，若本次攻击微弱对手则附加的[color=#52a5f2]固定伤害[/color]除[color=#52a5f2]以[/color]克制倍数",
+          "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]低于300时附加300点[color=#52a5f2]固定伤害[/color]，若本次攻击微弱对手则附加的[color=#52a5f2]固定伤害[/color]除[color=#52a5f2]以[/color]克制倍数",
           "args": [
             300,
             300
@@ -82,5 +82,5 @@
       "advance": null
     }
   },
-  "hash": "95ae15ed"
+  "hash": "a76390e2"
 }

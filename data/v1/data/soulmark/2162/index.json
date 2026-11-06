@@ -1,0 +1,44 @@
+{
+  "id": 2162,
+  "desc": "战斗开始时，己方获得神魂之器|自身为神灵系时，免疫受到的存在于神魂之器中的记录|自身不为神灵系时，免疫受到的致死伤害，触发后本次在场自身变为神灵系并移除神魂之器中的最后一项记录|自身存活于场下时，己方在场精灵附加从神魂之器移除的记录时，无视对手的对应的免疫效果与抗性提升效果|自身存活于场上时，自身造成的伤害视为致死伤害，若此伤害已为致死伤害，则自身免疫下1次对手的攻击|回合开始时，己方神魂之器每有1项记录，下回合自身前1号位的技能选择不受PP值限制，己方神魂之器每被移除过1项记录，自身免疫受到的伤害后额外受到免疫量25%的真实伤害，最高不超过自身最大体力值的25%|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]战斗开始时，[color=#52a5f2]己方[/color]获得[color=#f35555]神魂之器[/color]|[sprite name=dot4]自身为神灵系时，免疫受到的存在于[color=#f35555]神魂之器[/color]中的记录|[sprite name=dot4]自身不为神灵系时，免疫受到的[color=#52a5f2]致死伤害[/color]，触发后本次在场自身变为神灵系并移除[color=#f35555]神魂之器[/color]中的最后一项记录|[sprite name=dot4]自身存活于场下时，[color=#52a5f2]己方[/color]在场精灵附加从[color=#f35555]神魂之器[/color]移除的记录时，无视对手的对应的免疫效果与抗性提升效果|[sprite name=dot4]自身存活于场上时，自身造成的伤害视为[color=#52a5f2]致死伤害[/color]，若此伤害已为[color=#52a5f2]致死伤害[/color]，则自身免疫下1次对手的攻击|[sprite name=dot4][color=#57c975]回合开始时[/color]，[color=#52a5f2]己方[/color][color=#f35555]神魂之器[/color]每有1项记录，下回合自身前1号位的技能选择[color=#52a5f2]不受PP值限制[/color]，[color=#52a5f2]己方[/color][color=#f35555]神魂之器[/color]每被移除过1项记录，自身免疫受到的伤害后额外受到免疫量25%的[color=#52a5f2]真实伤害[/color]，最高不超过自身最大体力值的25%",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 13311,
+      "url": "https://api.seerapi.com/v1/pet/13311"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2567,
+      "url": "https://api.seerapi.com/v1/eid_effect/2567"
+    }
+  },
+  "effect_alias": "alias_2567_1_0",
+  "tag": [
+    {
+      "id": 7,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/7"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "3838a9fb"
+}

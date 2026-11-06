@@ -23,7 +23,7 @@
       "skill_effect": [
         {
           "info": "消除对手能力提升，消除成功可以抵挡2回合内对手的攻击伤害",
-          "analyze_info": "[sprite name=iconHit]消除对手能力提升，消除成功可以抵挡2回合内对手的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升，消除成功可以抵挡2回合内对手的[color=#52a5f2]攻击伤害[/color]",
           "args": [
             2
           ],
@@ -34,7 +34,7 @@
         },
         {
           "info": "出手时本回合若未受到攻击伤害，则附加自身攻击值50%的百分比伤害，并恢复等量体力",
-          "analyze_info": "[sprite name=iconHit]出手时本回合若未受到攻击伤害，则附加自身攻击值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
+          "analyze_info": "[sprite name=iconHit]出手时本回合若未受到[color=#52a5f2]攻击伤害[/color]，则附加自身攻击值50%的[color=#52a5f2]百分比伤害[/color]，并恢复等量体力（boss有效）",
           "args": [
             0,
             50
@@ -50,5 +50,5 @@
       "advance": null
     }
   },
-  "hash": "31e6a4cb"
+  "hash": "9aadcc6e"
 }

@@ -35,7 +35,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效",
-      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令对手2回合内使用的属性技能无效（boss有效）",
+      "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]若高于300则令对手2回合内使用的属性技能无效（boss有效）",
       "args": [
         300,
         2
@@ -47,7 +47,7 @@
     },
     {
       "info": "造成的伤害低于300则自身下1次受到的攻击伤害降低300点",
-      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则自身下1次受到的攻击伤害降低300点（boss有效）",
+      "analyze_info": "[sprite name=iconHit]造成的伤害低于300则自身下1次受到的[color=#52a5f2]攻击伤害[/color]降低300点（boss有效）",
       "args": [
         300,
         1,
@@ -62,5 +62,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "e3b018b7"
+  "hash": "cf5d5fbf"
 }

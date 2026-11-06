@@ -46,7 +46,7 @@
     },
     {
       "info": "造成的攻击伤害若高于300则100%令对手麻痹",
-      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则100%令对手[color=#57c975]麻痹[/color]",
+      "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]若高于300则100%令对手[color=#57c975]麻痹[/color]",
       "args": [
         300,
         100,
@@ -59,7 +59,7 @@
     },
     {
       "info": "造成的攻击伤害若低于300则恢复自身300点体力",
-      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于300则恢复自身300点体力（boss有效）",
+      "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]若低于300则恢复自身300点体力（boss有效）",
       "args": [
         300,
         300
@@ -76,5 +76,5 @@
     "id": 6,
     "url": "https://api.seerapi.com/v1/pet_advance/6"
   },
-  "hash": "800d75ba"
+  "hash": "b0f90aac"
 }

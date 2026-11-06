@@ -41,7 +41,7 @@
     },
     {
       "info": "造成的攻击伤害若低于60则令对手下1次使用的攻击技能无效",
-      "analyze_info": "[sprite name=iconHit]造成的攻击伤害若低于60则令对手下1次使用的攻击技能无效",
+      "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]若低于60则令对手下1次使用的攻击技能无效",
       "args": [
         60,
         1
@@ -53,7 +53,7 @@
     },
     {
       "info": "造成的攻击伤害高于1000时1回合内对手体力恢复效果减少100%",
-      "analyze_info": "[sprite name=iconHit]造成的攻击伤害高于1000时1回合内对手体力恢复效果减少100%",
+      "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]高于1000时1回合内对手体力恢复效果减少100%",
       "args": [
         1000,
         1,
@@ -68,5 +68,5 @@
   "friend_skill_effect": [],
   "hide_effect": null,
   "advance": null,
-  "hash": "3fb591b0"
+  "hash": "8e751134"
 }

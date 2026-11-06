@@ -46,7 +46,7 @@
         },
         {
           "info": "造成的攻击伤害若高于300则令自身下1回合所有技能先制+3",
-          "analyze_info": "[sprite name=iconHit]造成的攻击伤害若高于300则令自身下1回合所有[color=#52a5f2]技能先制[/color]+3",
+          "analyze_info": "[sprite name=iconHit]造成的[color=#52a5f2]攻击伤害[/color]若高于300则令自身下1回合所有[color=#52a5f2]技能先制[/color]+3",
           "args": [
             300,
             1,
@@ -60,7 +60,9 @@
         {
           "info": "未击败对手则恢复己方所有不在场精灵100点体力",
           "analyze_info": "[sprite name=iconHit]未[color=#57c975]击败[/color]对手则恢复[color=#52a5f2]己方[/color]所有不在场精灵100点体力（boss有效）",
-          "args": [],
+          "args": [
+            100
+          ],
           "effect": {
             "id": 1307,
             "url": "https://api.seerapi.com/v1/skill_effect_type/1307"
@@ -72,5 +74,5 @@
       "advance": null
     }
   },
-  "hash": "9f97e10e"
+  "hash": "13a33183"
 }

@@ -1,0 +1,89 @@
+{
+  "id": 29506,
+  "name": "谳世还生",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹受到的异常状态了；令对手疲惫了；开始闪避对手的攻击了；恢复了体力",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "100%令对手疲惫，未触发则对手2回合内属性技能无效",
+      "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]疲惫[/color]，未触发则对手2回合内属性技能无效",
+      "args": [
+        100,
+        7,
+        2
+      ],
+      "effect": {
+        "id": 2616,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2616"
+      }
+    },
+    {
+      "info": "4回合内100%闪避对手攻击，对手攻击技能命中时令对手臣服",
+      "analyze_info": "[sprite name=iconHit]4回合内100%闪避对手攻击，对手攻击技能命中时令对手[color=#57c975]臣服[/color]",
+      "args": [
+        4,
+        100,
+        31
+      ],
+      "effect": {
+        "id": 2615,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2615"
+      }
+    },
+    {
+      "info": "恢复自身最大体力的1/3，体力少于1/2时恢复效果翻倍，自身体力为满时改为恢复己方所有精灵180点体力",
+      "analyze_info": "[sprite name=iconHit]恢复自身最大体力的1/3，体力少于1/2时恢复效果翻倍，自身体力为满时改为恢复[color=#52a5f2]己方[/color]所有精灵180点体力",
+      "args": [
+        3,
+        2,
+        180
+      ],
+      "effect": {
+        "id": 2613,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2613"
+      }
+    },
+    {
+      "info": "本场战斗首次生效时，自身获得2层神途之熠",
+      "analyze_info": "[sprite name=iconHit]本场战斗首次生效时，自身获得2层[color=#f35555]神途之熠[/color]",
+      "args": [],
+      "effect": {
+        "id": 2617,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2617"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": {
+    "id": 10001,
+    "url": "https://api.seerapi.com/v1/pet_advance/10001"
+  },
+  "hash": "61c18c20"
+}

@@ -1,0 +1,48 @@
+{
+  "id": 2163,
+  "desc": "回合开始时，若自身处于能力提升状态则当回合免疫受到的异常状态，若自身不处于能力提升状态则当回合自身造成的攻击伤害提升50%且战斗阶段结束时全属性+1|自身能力提升状态被消除时，吸取对手最大体力的1/3|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若自身处于能力提升状态则[color=#52a5f2]当回合[/color]免疫受到的异常状态，若自身不处于能力提升状态则[color=#52a5f2]当回合[/color]自身造成的[color=#52a5f2]攻击伤害[/color]提升50%且[color=#57c975]战斗阶段结束时[/color][color=#52a5f2]全属性[/color]+1|[sprite name=dot4]自身能力提升状态被消除时，[color=#52a5f2]吸取[/color]对手最大体力的1/3",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4964,
+      "url": "https://api.seerapi.com/v1/pet/4964"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2568,
+      "url": "https://api.seerapi.com/v1/eid_effect/2568"
+    }
+  },
+  "effect_alias": "alias_2568_1_0",
+  "tag": [
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 12,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/12"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "9b29581d"
+}

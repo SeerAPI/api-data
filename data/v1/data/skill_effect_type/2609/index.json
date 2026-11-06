@@ -1,0 +1,41 @@
+{
+  "id": 2609,
+  "args_num": 3,
+  "info": "若{0}{1}百分比伤害免疫效果，则附加对手最大体力{2}%的百分比伤害",
+  "info_formatting_adjustment": null,
+  "analyze_info": "[sprite name=iconHit]若{0}{1}[color=#52a5f2]百分比伤害免疫效果[/color]，则附加对手最大体力{2}%的[color=#52a5f2]百分比伤害[/color]",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 0,
+      "param": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/4"
+      }
+    },
+    {
+      "position": 1,
+      "param": {
+        "id": 35,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/35"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 38626,
+      "url": "https://api.seerapi.com/v1/skill/38626"
+    },
+    {
+      "id": 38632,
+      "url": "https://api.seerapi.com/v1/skill/38632"
+    }
+  ],
+  "tag": [
+    {
+      "id": 60828,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/60828"
+    }
+  ],
+  "hash": "1975841a"
+}

@@ -1,0 +1,34 @@
+{
+  "id": 2615,
+  "args_num": 3,
+  "info": "{0}回合内{1}%闪避对手攻击，对手攻击技能命中时令对手{2}",
+  "info_formatting_adjustment": "{0}回合内{1}%闪避对手攻击\r\n--><condition>对手攻击技能命中时</condition>令对手{2}",
+  "analyze_info": "[sprite name=iconHit]{0}回合内{1}%闪避对手攻击，对手攻击技能命中时令对手[color=#57c975]{2}[/color]",
+  "pve_effective": false,
+  "param": [
+    {
+      "position": 2,
+      "param": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_effect_param/1"
+      }
+    }
+  ],
+  "skill": [
+    {
+      "id": 29506,
+      "url": "https://api.seerapi.com/v1/skill/29506"
+    }
+  ],
+  "tag": [
+    {
+      "id": 59570,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/59570"
+    },
+    {
+      "id": 813,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/813"
+    }
+  ],
+  "hash": "6f86d4f0"
+}

@@ -23,7 +23,7 @@
       "skill_effect": [
         {
           "info": "英雄之耀达到3层时此技能不受PP值限制且使用时解除自身所处的异常状态",
-          "analyze_info": "[sprite name=iconInherent][color=#f35555]英雄之耀[/color][color=#52a5f2]达到[/color]3层时此技能不受PP值限制且使用时解除自身所处的异常状态",
+          "analyze_info": "[sprite name=iconInherent][color=#f35555]英雄之耀[/color][color=#52a5f2]达到[/color]3层时此技能[color=#52a5f2]不受PP值限制[/color]且使用时解除自身所处的异常状态",
           "args": [],
           "effect": {
             "id": 2346,
@@ -41,7 +41,7 @@
         },
         {
           "info": "出手时若自身体力低于对手，则免疫下1次受到的攻击伤害",
-          "analyze_info": "[sprite name=iconHit]出手时若自身体力低于对手，则免疫下1次受到的攻击伤害",
+          "analyze_info": "[sprite name=iconHit]出手时若自身体力低于对手，则免疫下1次受到的[color=#52a5f2]攻击伤害[/color]",
           "args": [
             1
           ],
@@ -76,5 +76,5 @@
       "advance": null
     }
   },
-  "hash": "112afde8"
+  "hash": "dbb521dd"
 }

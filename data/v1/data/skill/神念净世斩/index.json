@@ -1,0 +1,197 @@
+{
+  "data": {
+    "38626": {
+      "id": 38626,
+      "name": "神念净世斩",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 65,
+        "url": "https://api.seerapi.com/v1/element_type_combination/65"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身为神灵系时，此技能转化为神灵系且选择不受PP值限制，自身不为神灵系时，若己方神魂之器中的记录数大于1，则视为自身受到1次致死伤害",
+          "analyze_info": "[sprite name=iconInherent]自身为神灵系时，此技能[color=#52a5f2]转化(357)[/color]为神灵系且选择[color=#52a5f2]不受PP值限制[/color]，自身不为神灵系时，若己方[color=#f35555]神魂之器[/color]中的记录数大于1，则视为自身受到1次[color=#52a5f2]致死伤害[/color]",
+          "args": [],
+          "effect": {
+            "id": 2605,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2605"
+          }
+        },
+        {
+          "info": "解除自身能力下降状态，解除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 1167,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1167"
+          }
+        },
+        {
+          "info": "若自身不处于异常状态免疫效果，则令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]异常状态免疫效果[/color]，则令对手[color=#57c975]疲惫[/color]",
+          "args": [
+            0,
+            1,
+            7
+          ],
+          "effect": {
+            "id": 2606,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2606"
+          }
+        },
+        {
+          "info": "若自身不处于能力下降状态免疫效果，则令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]能力下降状态免疫效果[/color]，则令对手[color=#52a5f2]全属性[/color]-1",
+          "args": [
+            0,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2607,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2607"
+          }
+        },
+        {
+          "info": "若自身不处于百分比伤害免疫效果，则附加对手最大体力20%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]百分比伤害免疫效果[/color]，则附加对手最大体力20%的[color=#52a5f2]百分比伤害[/color]",
+          "args": [
+            0,
+            1,
+            20
+          ],
+          "effect": {
+            "id": 2609,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2609"
+          }
+        },
+        {
+          "info": "若自身不处于固定伤害免疫效果，则附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]固定伤害免疫效果[/color]，则附加200点[color=#52a5f2]固定伤害[/color]",
+          "args": [
+            0,
+            1,
+            200
+          ],
+          "effect": {
+            "id": 2608,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2608"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    },
+    "38632": {
+      "id": 38632,
+      "name": "神念净世斩",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 0.0,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 1,
+        "url": "https://api.seerapi.com/v1/skill_category/1"
+      },
+      "type": {
+        "id": 223,
+        "url": "https://api.seerapi.com/v1/element_type_combination/223"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "自身为神灵系时，此技能转化为神灵系且选择不受PP值限制，自身不为神灵系时，若己方神魂之器中的记录数大于1，则视为自身受到1次致死伤害",
+          "analyze_info": "[sprite name=iconInherent]自身为神灵系时，此技能[color=#52a5f2]转化(357)[/color]为神灵系且选择[color=#52a5f2]不受PP值限制[/color]，自身不为神灵系时，若己方[color=#f35555]神魂之器[/color]中的记录数大于1，则视为自身受到1次[color=#52a5f2]致死伤害[/color]",
+          "args": [],
+          "effect": {
+            "id": 2605,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2605"
+          }
+        },
+        {
+          "info": "解除自身能力下降状态，解除成功则恢复自身全部体力",
+          "analyze_info": "[sprite name=iconHit]解除自身能力下降状态（boss有效），解除成功则恢复自身全部体力",
+          "args": [],
+          "effect": {
+            "id": 1167,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1167"
+          }
+        },
+        {
+          "info": "若自身不处于异常状态免疫效果，则令对手疲惫",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]异常状态免疫效果[/color]，则令对手[color=#57c975]疲惫[/color]",
+          "args": [
+            0,
+            1,
+            7
+          ],
+          "effect": {
+            "id": 2606,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2606"
+          }
+        },
+        {
+          "info": "若自身不处于能力下降状态免疫效果，则令对手全属性-1",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]能力下降状态免疫效果[/color]，则令对手[color=#52a5f2]全属性[/color]-1",
+          "args": [
+            0,
+            1,
+            1
+          ],
+          "effect": {
+            "id": 2607,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2607"
+          }
+        },
+        {
+          "info": "若自身不处于百分比伤害免疫效果，则附加对手最大体力20%的百分比伤害",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]百分比伤害免疫效果[/color]，则附加对手最大体力20%的[color=#52a5f2]百分比伤害[/color]",
+          "args": [
+            0,
+            1,
+            20
+          ],
+          "effect": {
+            "id": 2609,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2609"
+          }
+        },
+        {
+          "info": "若自身不处于固定伤害免疫效果，则附加200点固定伤害",
+          "analyze_info": "[sprite name=iconHit]若自身不处于[color=#52a5f2]固定伤害免疫效果[/color]，则附加200点[color=#52a5f2]固定伤害[/color]",
+          "args": [
+            0,
+            1,
+            200
+          ],
+          "effect": {
+            "id": 2608,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2608"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "4a45ed4d"
+}

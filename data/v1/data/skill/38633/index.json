@@ -1,0 +1,72 @@
+{
+  "id": 38633,
+  "name": "盛凌",
+  "power": 90,
+  "max_pp": 20,
+  "accuracy": 100,
+  "crit_rate": 0.0,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 1,
+    "url": "https://api.seerapi.com/v1/skill_category/1"
+  },
+  "type": {
+    "id": 65,
+    "url": "https://api.seerapi.com/v1/element_type_combination/65"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "若对手当回合使用的技能为攻击技能则自身额外先制+1",
+      "analyze_info": "[sprite name=iconInherent]若对手[color=#52a5f2]当回合[/color]使用的技能为攻击技能则自身额外[color=#52a5f2]先制[/color]+1",
+      "args": [],
+      "effect": {
+        "id": 1774,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1774"
+      }
+    },
+    {
+      "info": "消除对手回合类效果，消除成功则100%令对手臣服，未触发或对手回合类效果无法被消除则下1次对手使用的属性技能无效",
+      "analyze_info": "[sprite name=iconHit]消除对手[color=#52a5f2]回合类效果[/color]，消除成功则100%令对手[color=#57c975]臣服[/color]，[color=#52a5f2]未触发[/color]或对手[color=#52a5f2]回合类效果[/color]无法被消除则下1次对手使用的属性技能无效",
+      "args": [
+        100,
+        31,
+        1
+      ],
+      "effect": {
+        "id": 1756,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1756"
+      }
+    },
+    {
+      "info": "消除对手能力提升状态，消除成功则令对手下回合所有技能先制-2",
+      "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功则令对手下回合所有[color=#52a5f2]技能先制[/color]-2（boss有效）",
+      "args": [
+        2
+      ],
+      "effect": {
+        "id": 868,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/868"
+      }
+    },
+    {
+      "info": "本场战斗首次生效时，自身获得2层神途之熠",
+      "analyze_info": "[sprite name=iconHit]本场战斗首次生效时，自身获得2层[color=#f35555]神途之熠[/color]",
+      "args": [],
+      "effect": {
+        "id": 2611,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2611"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": {
+    "id": 10001,
+    "url": "https://api.seerapi.com/v1/pet_advance/10001"
+  },
+  "hash": "38a6a9cf"
+}
