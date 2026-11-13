@@ -1,0 +1,48 @@
+{
+  "data": {
+    "2164": {
+      "id": 2164,
+      "desc": "自身使用攻击技能时候100%令对手烧伤，自身使用属性技能时100%令对手害怕|战斗阶段结束时，若对手处于烧伤与害怕，则消除对手回合类效果、能力提升状态|（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身使用攻击技能时候100%令对手[color=#57c975]烧伤[/color]，自身使用属性技能时100%令对手[color=#57c975]害怕[/color]|[sprite name=dot4][color=#57c975]战斗阶段结束时[/color]，若对手处于[color=#57c975]烧伤[/color]与[color=#57c975]害怕[/color]，则消除对手[color=#52a5f2]回合类效果[/color]、能力提升状态",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4965,
+          "url": "https://api.seerapi.com/v1/pet/4965"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2571,
+          "url": "https://api.seerapi.com/v1/eid_effect/2571"
+        }
+      },
+      "effect_alias": "alias_2571_1_0",
+      "tag": [
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 9,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/9"
+        },
+        {
+          "id": 13,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/13"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "64aef766"
+}

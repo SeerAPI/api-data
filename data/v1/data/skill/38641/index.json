@@ -1,0 +1,47 @@
+{
+  "id": 38641,
+  "name": "空闪",
+  "power": 85,
+  "max_pp": 10,
+  "accuracy": 97,
+  "crit_rate": 6.25,
+  "priority": 3,
+  "must_hit": false,
+  "atk_num": 1,
+  "info": null,
+  "category": {
+    "id": 2,
+    "url": "https://api.seerapi.com/v1/skill_category/2"
+  },
+  "type": {
+    "id": 17,
+    "url": "https://api.seerapi.com/v1/element_type_combination/17"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "先出手时消除对手回合类效果",
+      "analyze_info": "[sprite name=iconHit]先出手时消除对手[color=#52a5f2]回合类效果[/color]（boss有效）",
+      "args": [],
+      "effect": {
+        "id": 1254,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1254"
+      }
+    },
+    {
+      "info": "当回合若自身先出手则令对手使用的威力值低于90的攻击技能无效，若击败对手则攻击无效效果延续至下回合",
+      "analyze_info": "[sprite name=iconHit][color=#52a5f2]当回合[/color]若自身先出手则令对手使用的威力值低于90的攻击技能无效，若[color=#57c975]击败[/color]对手则攻击无效效果延续至下回合",
+      "args": [
+        90
+      ],
+      "effect": {
+        "id": 1664,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/1664"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "d8516d3b"
+}

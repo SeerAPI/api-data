@@ -1,0 +1,67 @@
+{
+  "data": {
+    "38643": {
+      "id": 38643,
+      "name": "空盈幻光",
+      "power": 160,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": 6.25,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": null,
+      "category": {
+        "id": 2,
+        "url": "https://api.seerapi.com/v1/skill_category/2"
+      },
+      "type": {
+        "id": 17,
+        "url": "https://api.seerapi.com/v1/element_type_combination/17"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "消除对手能力提升状态，消除成功后恢复200点体力",
+          "analyze_info": "[sprite name=iconHit]消除对手能力提升状态，消除成功后恢复200点体力（boss有效）",
+          "args": [
+            200
+          ],
+          "effect": {
+            "id": 548,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/548"
+          }
+        },
+        {
+          "info": "造成的伤害高于300则100%令自身全属性+1",
+          "analyze_info": "[sprite name=iconHit]造成的伤害高于300则100%令自身[color=#52a5f2]全属性[/color]+1",
+          "args": [
+            300,
+            100,
+            1
+          ],
+          "effect": {
+            "id": 1625,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1625"
+          }
+        },
+        {
+          "info": "若自身体力高于对手则获得200点护盾，若自身体力低于对手则恢复自身最大体力的1/3",
+          "analyze_info": "[sprite name=iconHit]若自身体力高于对手则获得200点[color=#57c975]护盾[/color]，若自身体力低于对手则恢复自身最大体力的1/3（boss有效）",
+          "args": [
+            200,
+            3
+          ],
+          "effect": {
+            "id": 1451,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1451"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "8413f338"
+}
