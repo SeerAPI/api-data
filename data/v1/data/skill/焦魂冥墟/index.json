@@ -1,0 +1,86 @@
+{
+  "data": {
+    "29524": {
+      "id": 29524,
+      "name": "焦魂冥墟",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；令对手睡眠；令对手麻痹；每回合使用技能降低对手属性",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "100%令对手睡眠，未触发则免疫下1次受到的攻击伤害并反弹等量的固定伤害",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]睡眠[/color]，[color=#52a5f2]未触发[/color]则免疫下1次受到的[color=#52a5f2]攻击伤害[/color]并[color=#52a5f2]反弹[/color]等量的[color=#52a5f2]固定伤害[/color]",
+          "args": [
+            100,
+            8,
+            1
+          ],
+          "effect": {
+            "id": 1278,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/1278"
+          }
+        },
+        {
+          "info": "100%令对手麻痹，未触发则令对手2回合内使用的属性技能无效",
+          "analyze_info": "[sprite name=iconHit]100%令对手[color=#57c975]麻痹[/color]，[color=#52a5f2]未触发[/color]则令对手2回合内使用的属性技能无效",
+          "args": [
+            100,
+            0,
+            2
+          ],
+          "effect": {
+            "id": 936,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/936"
+          }
+        },
+        {
+          "info": "4回合内每回合使用技能令对手防御-1，命中-1，未触发则对手下2回合攻击技能无效",
+          "analyze_info": "[sprite name=iconHit]4回合内每回合使用技能令对手防御-1，命中-1，[color=#52a5f2]未触发[/color]则对手下2回合攻击技能无效",
+          "args": [
+            4,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            -1,
+            2
+          ],
+          "effect": {
+            "id": 2320,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2320"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "2724f0dd"
+}

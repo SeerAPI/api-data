@@ -1,0 +1,52 @@
+{
+  "id": 2169,
+  "desc": "自身所有技能先制+3，自身每损失20%的体力，先制效果-1；自身造成的攻击伤害提升30%，受到的攻击伤害减少30%，自身每损失40%的体力，效果提升30%|战斗开始时和自身登场时，使己方获得6具奈落伏尸；自身使用技能后，触发1次己方奈落伏尸的效果，然后若对手的体力未减少，则令对手麻痹|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身所有[color=#52a5f2]技能先制[/color]+3，自身每损失20%的体力，[color=#52a5f2]先制[/color]效果-1；自身造成的[color=#52a5f2]攻击伤害[/color]提升30%，受到的[color=#52a5f2]攻击伤害[/color]减少30%，自身每损失40%的体力，效果提升30%|[sprite name=dot4]战斗开始时和自身[color=#57c975]登场时[/color]，使[color=#52a5f2]己方[/color]获得6具[color=#f35555]奈落伏尸[/color]；自身[color=#57c975]使用技能后[/color]，触发1次[color=#52a5f2]己方[/color][color=#f35555]奈落伏尸[/color]的效果，[color=#52a5f2]然后[/color]若对手的体力未减少，则令对手[color=#57c975]麻痹[/color]",
+  "pve_effective": true,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 3592,
+      "url": "https://api.seerapi.com/v1/pet/3592"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2572,
+      "url": "https://api.seerapi.com/v1/eid_effect/2572"
+    }
+  },
+  "effect_alias": "alias_2572_1_0",
+  "tag": [
+    {
+      "id": 10,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/10"
+    },
+    {
+      "id": 2,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/2"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "b21aef9d"
+}
