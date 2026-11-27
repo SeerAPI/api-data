@@ -1,0 +1,48 @@
+{
+  "data": {
+    "2173": {
+      "id": 2173,
+      "desc": "自身登场时，与对手交换体力，然后若自身体力高于对手，则50%令对手害怕，若自身体力低于对手，则当回合对手属性技能无效（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4]自身[color=#57c975]登场时[/color]，与对手交换体力，然后若自身体力高于对手，则50%令对手[color=#57c975]害怕[/color]，若自身体力低于对手，则[color=#52a5f2]当回合[/color]对手属性[color=#52a5f2]技能无效[/color]",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4972,
+          "url": "https://api.seerapi.com/v1/pet/4972"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2576,
+          "url": "https://api.seerapi.com/v1/eid_effect/2576"
+        }
+      },
+      "effect_alias": "alias_2576_1_0",
+      "tag": [
+        {
+          "id": 19,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/19"
+        },
+        {
+          "id": 11,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+        },
+        {
+          "id": 14,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "891e62b4"
+}

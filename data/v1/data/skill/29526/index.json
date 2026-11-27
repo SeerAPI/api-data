@@ -1,0 +1,61 @@
+{
+  "id": 29526,
+  "name": "迂回坐标",
+  "power": 0,
+  "max_pp": 5,
+  "accuracy": 95,
+  "crit_rate": null,
+  "priority": 0,
+  "must_hit": true,
+  "atk_num": 1,
+  "info": "开始免疫并反弹异常状态了；对手使用属性技能则恢复体力并造成百分比伤害；开始闪避对手的物理攻击了",
+  "category": {
+    "id": 4,
+    "url": "https://api.seerapi.com/v1/skill_category/4"
+  },
+  "type": {
+    "id": 8,
+    "url": "https://api.seerapi.com/v1/element_type_combination/8"
+  },
+  "learned_by_pet": [],
+  "skill_effect": [
+    {
+      "info": "4回合内免疫并反弹所有受到的异常状态",
+      "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+      "args": [
+        4
+      ],
+      "effect": {
+        "id": 191,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+      }
+    },
+    {
+      "info": "4回合内对手使用属性技能后，自身恢复最大体力的1/3并造成等量百分比伤害",
+      "analyze_info": "[sprite name=iconHit]4回合内对手使用属性技能后，自身恢复最大体力的1/3并造成等量[color=#52a5f2]百分比伤害[/color]",
+      "args": [
+        4,
+        3
+      ],
+      "effect": {
+        "id": 2099,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/2099"
+      }
+    },
+    {
+      "info": "3回合内物理攻击对自身必定miss",
+      "analyze_info": "[sprite name=iconHit]3回合内物理攻击对自身必定miss（boss有效）",
+      "args": [
+        3
+      ],
+      "effect": {
+        "id": 78,
+        "url": "https://api.seerapi.com/v1/skill_effect_type/78"
+      }
+    }
+  ],
+  "friend_skill_effect": [],
+  "hide_effect": null,
+  "advance": null,
+  "hash": "416ee751"
+}

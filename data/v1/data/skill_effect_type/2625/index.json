@@ -1,0 +1,30 @@
+{
+  "id": 2625,
+  "args_num": 1,
+  "info": "反转对手能力提升状态，反转成功则消除对手回合类效果，反转失败则消除对手能力提升状态，消除成功则对手下{0}次攻击技能无效",
+  "info_formatting_adjustment": "反转对手能力提升状态\r\n--><condition>反转成功</condition>则消除对手回合类效果\r\n--><condition>反转失败</condition>则消除对手能力提升状态\r\n---><condition>消除成功</condition>则对手下{0}次攻击技能无效",
+  "analyze_info": "[sprite name=iconHit][color=#52a5f2]反转[/color]对手能力提升状态，反转成功则消除对手[color=#52a5f2]回合类效果[/color]，反转失败则消除对手能力提升状态，消除成功则对手下{0}次攻击技能无效",
+  "pve_effective": false,
+  "param": null,
+  "skill": [
+    {
+      "id": 38662,
+      "url": "https://api.seerapi.com/v1/skill/38662"
+    }
+  ],
+  "tag": [
+    {
+      "id": 24657,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/24657"
+    },
+    {
+      "id": 30442,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/30442"
+    },
+    {
+      "id": 18780,
+      "url": "https://api.seerapi.com/v1/skill_effect_type_tag/18780"
+    }
+  ],
+  "hash": "bcfa0904"
+}

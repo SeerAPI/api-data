@@ -1,0 +1,56 @@
+{
+  "id": 2172,
+  "desc": "自身登场时，若己方上回合造成的攻击伤害被免疫，则2回合内对手攻击技能无效，若未被免疫则自身消除对手能力提升状态、护盾、护罩、异常状态，每成功消除1项，获得1点洞天机且对手1回合内属性技能无效|自身当回合先制等级为负或处于能力下降状态时，自身受到的攻击伤害减少50%，对手当回合先制等级为正或处于能力提升状态时，战斗阶段结束时，自身恢复最大体力的1/3|若自身存活于出战阵容，则对手登场时每有1种系别的攻击技能，己方获得1点天机，然后直到战斗阶段开始，对手附加异常状态时，自身获得循天机以记录此异常状态|（boss无效）",
+  "desc_formatting_adjustment": null,
+  "analyze_desc": "[sprite name=dot4]自身[color=#57c975]登场时[/color]，若己方上回合造成的[color=#52a5f2]攻击伤害[/color]被[color=#57c975]免疫[/color]，则2回合内对手攻击[color=#52a5f2]技能无效[/color]，若未被[color=#57c975]免疫[/color]则自身消除对手能力提升状态、[color=#57c975]护盾[/color]、[color=#57c975]护罩[/color]、异常状态，每成功消除1项，获得1点[color=#f35555]洞天机[/color]且对手1回合内属性[color=#52a5f2]技能无效[/color]|[sprite name=dot4]自身[color=#52a5f2]当回合[/color]先制等级为负或处于能力下降状态时，自身受到的[color=#52a5f2]攻击伤害[/color]减少50%，对手[color=#52a5f2]当回合[/color]先制等级为正或处于能力提升状态时，[color=#57c975]战斗阶段结束时[/color]，自身恢复最大体力的1/3|[sprite name=dot4]若自身存活于出战阵容，则对手[color=#57c975]登场时[/color]每有1种系别的攻击技能，己方获得1点[color=#f35555]天机[/color]，然后直到[color=#57c975]战斗阶段开始[/color]，对手附加异常状态时，自身获得[color=#f35555]循天机[/color]以记录此异常状态",
+  "pve_effective": false,
+  "intensified": false,
+  "is_adv": false,
+  "pet": [
+    {
+      "id": 4971,
+      "url": "https://api.seerapi.com/v1/pet/4971"
+    }
+  ],
+  "effect": {
+    "effect_args": [
+      1,
+      0
+    ],
+    "effect": {
+      "id": 2577,
+      "url": "https://api.seerapi.com/v1/eid_effect/2577"
+    }
+  },
+  "effect_alias": "alias_2577_1_0",
+  "tag": [
+    {
+      "id": 14,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/14"
+    },
+    {
+      "id": 15,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+    },
+    {
+      "id": 4,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+    },
+    {
+      "id": 6,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+    },
+    {
+      "id": 8,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/8"
+    },
+    {
+      "id": 11,
+      "url": "https://api.seerapi.com/v1/soulmark_tag/11"
+    }
+  ],
+  "intensified_to": null,
+  "from": null,
+  "advance": null,
+  "hash": "483eaed1"
+}

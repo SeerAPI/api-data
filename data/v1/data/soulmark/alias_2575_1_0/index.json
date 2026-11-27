@@ -1,0 +1,52 @@
+{
+  "data": {
+    "2171": {
+      "id": 2171,
+      "desc": "回合开始时，若对手处于异常状态，则当回合自身100%闪避受到的攻击，若对手不处于异常状态则当回合自身受到的攻击伤害减少25%|回合结束时，恢复自身最大体力的20%并附加恢复量的百分比伤害，若自身体力值为满，则下回合此效果翻倍（boss无效）",
+      "desc_formatting_adjustment": null,
+      "analyze_desc": "[sprite name=dot4][color=#57c975]回合开始时[/color]，若对手处于异常状态，则[color=#52a5f2]当回合[/color]自身100%[color=#57c975]闪避[/color]受到的攻击，若对手不处于异常状态则[color=#52a5f2]当回合[/color]自身受到的[color=#52a5f2]攻击伤害[/color]减少25%|[sprite name=dot4][color=#57c975]回合结束时[/color]，恢复自身最大体力的20%并附加恢复量的[color=#52a5f2]百分比伤害[/color]，若自身体力值为满，则下回合此效果翻倍",
+      "pve_effective": false,
+      "intensified": false,
+      "is_adv": false,
+      "pet": [
+        {
+          "id": 4970,
+          "url": "https://api.seerapi.com/v1/pet/4970"
+        }
+      ],
+      "effect": {
+        "effect_args": [
+          1,
+          0
+        ],
+        "effect": {
+          "id": 2575,
+          "url": "https://api.seerapi.com/v1/eid_effect/2575"
+        }
+      },
+      "effect_alias": "alias_2575_1_0",
+      "tag": [
+        {
+          "id": 18,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/18"
+        },
+        {
+          "id": 4,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/4"
+        },
+        {
+          "id": 6,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/6"
+        },
+        {
+          "id": 15,
+          "url": "https://api.seerapi.com/v1/soulmark_tag/15"
+        }
+      ],
+      "intensified_to": null,
+      "from": null,
+      "advance": null
+    }
+  },
+  "hash": "4c6e8521"
+}

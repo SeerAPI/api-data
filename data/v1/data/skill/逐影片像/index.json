@@ -1,0 +1,67 @@
+{
+  "data": {
+    "29530": {
+      "id": 29530,
+      "name": "逐影片像",
+      "power": 0,
+      "max_pp": 5,
+      "accuracy": 95,
+      "crit_rate": null,
+      "priority": 0,
+      "must_hit": true,
+      "atk_num": 1,
+      "info": "开始免疫并反弹异常状态了；攻击变得更加犀利了；限制了对手的切换",
+      "category": {
+        "id": 4,
+        "url": "https://api.seerapi.com/v1/skill_category/4"
+      },
+      "type": {
+        "id": 8,
+        "url": "https://api.seerapi.com/v1/element_type_combination/8"
+      },
+      "learned_by_pet": [],
+      "skill_effect": [
+        {
+          "info": "4回合内免疫并反弹所有受到的异常状态",
+          "analyze_info": "[sprite name=iconHit]4回合内免疫并[color=#52a5f2]反弹[/color]所有受到的异常状态（boss有效）",
+          "args": [
+            4
+          ],
+          "effect": {
+            "id": 191,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/191"
+          }
+        },
+        {
+          "info": "下2回合自身使用攻击技能则附加300点固定伤害",
+          "analyze_info": "[sprite name=iconHit]下2回合自身使用攻击技能则附加300点[color=#52a5f2]固定伤害[/color]（boss有效）",
+          "args": [
+            2,
+            300
+          ],
+          "effect": {
+            "id": 611,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/611"
+          }
+        },
+        {
+          "info": "3回合内对手主动切换精灵出战时100%束缚",
+          "analyze_info": "[sprite name=iconHit]3回合内对手[color=#52a5f2]主动切换[/color]精灵[color=#57c975]出战时[/color]100%[color=#57c975]束缚[/color]",
+          "args": [
+            3,
+            100,
+            28
+          ],
+          "effect": {
+            "id": 2040,
+            "url": "https://api.seerapi.com/v1/skill_effect_type/2040"
+          }
+        }
+      ],
+      "friend_skill_effect": [],
+      "hide_effect": null,
+      "advance": null
+    }
+  },
+  "hash": "49301326"
+}
